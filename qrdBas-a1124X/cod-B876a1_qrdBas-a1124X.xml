@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="173-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1124X"><!-- l1d31q1 -->
+            <head xml:id="qrdBas-a1124X-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a1124X-d1e101">
+               <lb ed="#P" n="84"/>¶ Distinctionis. xxxi. 
+      <lb ed="#P" n="85"/>Questio Prima. 
+  </p>
+            <p xml:id="qrdBas-a1124X-d1e108">
+               <lb ed="#P" n="86"/>CIrca distinctionem 
+      <lb ed="#P" n="87"/>Trigesimam primam. Quero vtrum 
+      <lb ed="#P" n="88"/>identitas / equalitas / et 
+      similitu<lb ed="#P" n="89" break="no"/>do in diuinis personis sint 
+      rela<lb ed="#P" n="90" break="no"/>tiones reales.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e121">
+      ¶ Uidetur quod sic 
+      <lb ed="#P" n="91"/>quia relatio que habet 
+      extrema<lb ed="#P" n="92" break="no"/>realiter distincta et fundamen 
+      <lb ed="#P" n="93"/>tum reale est realis: sed iste sunt 
+      <lb ed="#P" n="94"/>huiusmodi: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e132">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="95"/>Illa equalitas est realis secundum quam aliqua realiter 
+      <lb ed="#P" n="96"/>sunt equalia. Sic de similitudine: sed persone 
+      diui<lb ed="#P" n="97" break="no"/>ne realiter sunt equales: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e142">
+      ¶ Tertio sic. Illud 
+      <lb ed="#P" n="98"/>quod est adorandum in diuinis est reale: quia nullum ens est 
+      <lb ed="#P" n="99"/>adorandum nisi ens reale: sed equalitas est huiusmo 
+      <lb ed="#P" n="100"/>di: ergo etc. Minor patet per Gregorium in prefatione 
+      <lb ed="#P" n="101"/>de trinitate vbi dicit. Quod in personis diuinis adoretur 
+      <lb ed="#P" n="102"/>equalitas: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e155">
+      ¶ Quarto sic. Arrianus damnatur 
+      <lb ed="#P" n="103"/>et reputatur hereticus: quia negauit equalitatem patris 
+      <lb ed="#P" n="104"/>et filii. Sed non esset reputandus ex hoc nisi equalitas 
+      <lb ed="#P" n="105"/>diceret aliquid reale: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e164">
+      ¶ Contra quia dicitur in 
+      di<lb ed="#P" n="106" break="no"/>uinis secundum substantiam non dicit relationem nec per 
+      con<lb ed="#P" n="107" break="no"/>sequens relationem realem. viii. de trinitate. Sed 
+      equa<lb ed="#P" n="108" break="no"/>litas est huiusmodi: ergo etc. Minor patet per 
+      Ma<lb ed="#P" n="109" break="no"/>gistrum in litera. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e175">
+               <lb ed="#P" n="110"/>¶ In ista quaestione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e180">
+               <lb ed="#P" n="111"/>¶ Primo praemittam aliqua ad intellectum questionis 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e185">
+               <lb ed="#P" n="112"/>¶ Secundo ponam vnam opinionem subtilem cum suis 
+      moti<lb ed="#P" n="113" break="no"/>uis: quod relationes comnes inter distinctas personas sunt 
+      <lb ed="#P" n="114"/>reales: et declarabo eam quantum ad modum ponendi¬ 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e195">
+               <lb ed="#P" n="115"/>¶ Tertio adducam aliqua quae ab aliquibus adducuntur co 
+      <lb ed="#P" n="116"/>eam: et ostendam quod non concluditur contra eam.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e202">
+      ¶ Quarto 
+      <lb ed="#P" n="117"/>ostendam quod tales relationes non sunt reales in diuinis 
+      <lb ed="#P" n="118"/>sed rationis tantum: et respondebo ad motiua prime 
+      opi<lb ed="#P" n="119" break="no"/>nionis.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e211">
+      ¶ Ultimo ad rationes principales. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e213">
+               <lb ed="#P" n="120"/>¶ Quantum ad primum 
+      premit<lb ed="#P" n="121" break="no"/>to primo quod quantum apparet ex intentione 
+      magistri<lb ed="#P" n="122" break="no"/>sicut sibi imponunt aliqui: videtur posuisse quod iden 
+      <lb ed="#P" n="123"/>titas et similitudo et equalitas et huiusmodi 
+      rela<lb ed="#P" n="124" break="no"/>tiones: non dicantur in deo vel de deo positiue sed tantum 
+      ne<lb ed="#P" n="125" break="no"/>gatiue ad remouendum dissimilitudinem vel inequali¬ 
+      <!--360.xml-->
+       <pb ed="#P" n="174-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et ducuntur aliqua que non concludunt contra eam vt 
+      <lb ed="#P" n="2"/>videtur. Primum est. Equalitas aliquorum non est 
+      <lb ed="#P" n="3"/>realis nisi secundum magnitudines ipsorum commensura 
+      <lb ed="#P" n="4"/>tas ad inuicem vt patet / et per consequem non est realis 
+      <lb ed="#P" n="5"/>nisi magnitudines sint plures et distincte / quia 
+      nulla<lb ed="#P" n="6" break="no"/>magnitudo eadem commensuratur sibiipsi / sed in 
+      perso<lb ed="#P" n="7" break="no"/>nis diuinis non est nisi vnica magnitudo ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e250">
+               <lb ed="#P" n="8"/>¶ Secundo sic. Relatio que non conuenit alicui 
+      nis<lb ed="#P" n="9" break="no"/>propter acceptionem alicuius rei per opus intellectus 
+      <lb ed="#P" n="10"/>non est realis vt patet de identitate eiusdem ad se /¬ 
+      <lb ed="#P" n="11"/>sed equaliquas in diuinis est huiusmodi: quia enim 
+      magnitu<lb ed="#P" n="12" break="no"/>do bis accipitur per intellectum vt est in persona ista: 
+      <lb ed="#P" n="13"/>et illa equialitas dicitur esse persone ad personam. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e266">
+               <lb ed="#P" n="14"/>¶ Tertio sic. Forma eiusdem rationis non plurifica 
+      <lb ed="#P" n="15"/>tur alicubi nisi per materiam plurificatione 
+      reali<lb ed="#P" n="16" break="no"/>duodecimo methaphi. Sed si similitudo vel 
+      equali<lb ed="#P" n="17" break="no"/>tas esset relatio realis / esset eiusdem rationis in 
+      plu<lb ed="#P" n="18" break="no"/>ribus suppositis / et plurificaretur necessario secundum 
+      <lb ed="#P" n="19"/>supposita terminantia: ergo in diuinis esset 
+      mate<lb ed="#P" n="20" break="no"/>ria quod est falsum / ergo equalitas non 
+      plurificatu<lb ed="#P" n="21" break="no"/>ibi nisi secundum rationem.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e287">
+      ¶ Quarto sic. Ubicumque 
+      extrema<lb ed="#P" n="22" break="no"/>secundum quod extrema non sunt realiter distincta 
+      inter<lb ed="#P" n="23" break="no"/>illa non est relatio realis. Patet ex dictis aliorum 
+      <lb ed="#P" n="24"/>Sed sic est in proposito de equalitate et extremis ei 
+      <lb ed="#P" n="25"/>quod non sunt realiter distincta inquantum extrema non 
+      in<lb ed="#P" n="26" break="no"/>quantum habentia magnitudinem. Nam habent 
+      eandem<lb ed="#P" n="27" break="no"/>magnitudinem persone. Quod autem sint extrema secundum 
+      <lb ed="#P" n="28"/>quod denominant habentes magnitudinem et aliquid ad 
+      se<lb ed="#P" n="29" break="no"/>Patet: quia vt sic terminant relationes et etiam patet 
+      pri<lb ed="#P" n="30" break="no"/>Augustinum quinto de trinitate capitulo septimo 
+      <lb ed="#P" n="31"/>vbi dicit sic. Non secundum hoc quod ad patrem dicitur 
+      fili<lb ed="#P" n="32" break="no"/>est equalis patri. Restat ergo vt secundum id quod ad 
+      <lb ed="#P" n="33"/>se dicitur sit equalis. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e316">
+      ¶ Quinto sic. eiusdem 
+      sup<lb ed="#P" n="34" break="no"/>positi ad aliud suppositum secundum idem fundamentum non 
+      <lb ed="#P" n="35"/>est nisi vna relatio realis / sed pater est vnum 
+      supposi<lb ed="#P" n="36" break="no"/>tum: ergo ipsius ad filium vt primum fundamentum 
+      <lb ed="#P" n="37"/>est vnum quod est essentia non est nisi vna relatio realis 
+      <lb ed="#P" n="38"/>puta paternitas: non ergo identitas est relatio realis 
+      <lb ed="#P" n="39"/>et sic de aliis.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e332">
+      ¶ Sexto sic. In personis diuinis non 
+      <lb ed="#P" n="40"/>est nisi essentia et relatio / aut ergo per istas relatio. 
+      <lb ed="#P" n="41"/>nes reales puta per identiatem et alias referretur 
+      essen<lb ed="#P" n="42" break="no"/>tia ad seipsum / quod est salsum / quia eiusdem ad se non est 
+      <lb ed="#P" n="43"/>relatio realis: aut relationes / quod est falsum / quia 
+      <lb ed="#P" n="44"/>relatio non est fundamentum relationis realis: alias 
+      <lb ed="#P" n="45"/>esset processus in infinitum in relationibus. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e348">
+               <lb ed="#P" n="46"/>¶ Septimo sic. Si sunt ibi due equalitates reales 
+      <lb ed="#P" n="47"/>aut sunt similes aut non. Si sunt similes 
+      similitudi<lb ed="#P" n="48" break="no"/>nibus realibus oportet quod per alias relationes / quia 
+      <lb ed="#P" n="49"/>equalitas et similitudo non sunt eadem relatio: et sic 
+      <lb ed="#P" n="50"/>processus in infinitum. Similiter de identitate si non 
+      <lb ed="#P" n="51"/>sunt similes realiter realibus relationibus / pari 
+      ra<lb ed="#P" n="52" break="no"/>tione nec persone: licet sint eiusdem rationis in 
+      ali<lb ed="#P" n="53" break="no"/>qua perfectione et realiter distincte respectu vnius: 
+      <lb ed="#P" n="54"/>sicut equalitas in creaturis non est relatio realis / ergo 
+      <lb ed="#P" n="55"/>multofortius nec in personis diuinis / consequentia 
+      <lb ed="#P" n="56"/>est plana. Probatur antecedens / tum quia equale 
+      oppo<lb ed="#P" n="57" break="no"/>nitur magno et paruo sicut priuatio. vt dicitur 
+      quarn<lb ed="#P" n="58" break="no"/>to methaphisice. ergo equale non dicit relationem. 
+      <lb ed="#P" n="59"/>realem sed negationem. Tum quia non habet aliquam 
+      <lb ed="#P" n="60"/>vnitatem realem pro fundamento. Nam duarum 
+      quan<lb ed="#P" n="61" break="no"/>titatum non est aliqua vnitas realis / sed solum 
+      vni<lb ed="#P" n="62" break="no"/>tas rationis / puta vnitas speciei vel generis. Tum 
+      <lb ed="#P" n="63"/>quia identitas licet pertineat ad primum modum 
+      re<lb ed="#P" n="64" break="no"/>lationum / non tamen est relatio realis. Tum quia 
+      fun<lb ed="#P" n="65" break="no"/>damentum eius per primam rationem secundum id quod 
+      <!--360.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>est non coexigit extremum / sicut est de fundamento 
+      <lb ed="#P" n="67"/>respectu ipsius scientie ad scibile: et inherentie 
+      ac<lb ed="#P" n="68" break="no"/>cidentis ad subiectum / hoc tamen est necessarium ad 
+      <lb ed="#P" n="69"/>relationem realem vt dicunt / quia plus debet 
+      coexige<lb ed="#P" n="70" break="no"/>re relatiuum reale suum correlatiuum quam relatiuum 
+      <lb ed="#P" n="71"/>rationis / quod tantum coexigit ipsum secundum illam 
+      re<lb ed="#P" n="72" break="no"/>lationem rationis. Similiter dicunt de similitudine 
+      <lb ed="#P" n="73"/>ergo etc. Iste sunt rationes quae adducuntur ab 
+      aliqui<lb ed="#P" n="74" break="no"/>bus contra istam positionem. Sed videtur michi quod 
+      <lb ed="#P" n="75"/>iste rationes non concludunt. 
+      <lb ed="#P" n="76"/>ergo rationem quero quid 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e422">
+               <lb ed="#P" n="77"/>¶ Ad primam: intelligunt per illam 
+      com<lb ed="#P" n="78" break="no"/>mensurationem plurium quantitatum necessariam 
+      <lb ed="#P" n="79"/>ad hoc quod sit equalitas realis inter aliqua / aut aliquid 
+      <lb ed="#P" n="80"/>absolutum vel aliquam rationem fundandi / aut 
+      respe<lb ed="#P" n="81" break="no"/>ctiuum / aut respectum formalem equalitatis. Non 
+      pri<lb ed="#P" n="82" break="no"/>mo modo quia potius equalitas videtur presupponi 
+      <lb ed="#P" n="83"/>commensurationi quam econuerso / exeo enim quod aliqua sunt  
+      <lb ed="#P" n="84"/>equalia in quantitate possunt extendi et applicari et 
+      <lb ed="#P" n="85"/>commensurari non econuerso. Si intelligunt formalemi/ 
+      <lb ed="#P" n="86"/>rationem equalitatis per illam commensurationem. 
+      <lb ed="#P" n="87"/>petunt principium manifeste probando idem per o 
+      <lb ed="#P" n="88"/>idem vel improbando: puta illa commensuratio est 
+      re<lb ed="#P" n="89" break="no"/>latio / aut ergo praexigit aliam et est processus in 
+      infi<lb ed="#P" n="90" break="no"/>nitum / aut non et sic neque qualitas nisi aliud dicatur. 
+      <lb ed="#P" n="91"/>Ad rationem ergo respondeo quod non requiritur 
+      commen<lb ed="#P" n="92" break="no"/>suratio quantitatum: nec distinctio etiam quod plus est 
+      <lb ed="#P" n="93"/>nisi in illis in quibus non potest esse eadem quantitas 
+      <lb ed="#P" n="94"/>numero in quibus suppositis realiter distinctis: in 
+      <lb ed="#P" n="95"/>diuinis non oportet: quia in diuinis suppositis potest 
+      <lb ed="#P" n="96"/>hoc inueniri: et est ibi multo perfectior et realior vni 
+      <lb ed="#P" n="97"/>tas magnitudinis ad fundamentum equalitatem quam 
+      <lb ed="#P" n="98"/>in creaturis / nisi aliud impediret immo etiam nec est 
+      <lb ed="#P" n="99"/>illud necessarium in creaturis.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e474">
+      ¶ Ad secundam dico 
+      <lb ed="#P" n="100"/>quod si esset bona ratio per ipsam probaretur quod 
+      pater<lb ed="#P" n="101" break="no"/>nitas et filiatio non essent relationes reales: quia non 
+      <lb ed="#P" n="102"/>minus videtur necessarium quod essentia diuina 
+      acci<lb ed="#P" n="103" break="no"/>piatur bis ad fundandum ipsas quam de equalitatibus 
+      <lb ed="#P" n="104"/>pluribus / cum non sit nisi vnica et eadem non potest ac 
+      <lb ed="#P" n="105"/>cipi bis nisi secundum rationem. Quod autem non sit minus 
+      <lb ed="#P" n="106"/>necessarium accipere eam bis. Patet quia iste sunt 
+      re<lb ed="#P" n="107" break="no"/>lationes alterius rationis quas non fundat essentia 
+      <lb ed="#P" n="108"/>vt vna licet vna fundet eas: equalitatem vero 
+      fun<lb ed="#P" n="109" break="no"/>dat vt vna sicut alicui videtur. Dico igitur quod sicut 
+      <lb ed="#P" n="110"/>ipsi possunt intelligere quod essentia diuina fundat istas 
+      <lb ed="#P" n="111"/>non inquantum bis accepta per intellectum sic et istas et 
+      <lb ed="#P" n="112"/>magis hoc intelligi / quia iste presupponunt 
+      supposita<lb ed="#P" n="113" break="no"/>distincta: nec sunt distinctiue personarum. Ille 
+      au<lb ed="#P" n="114" break="no"/>tem sunt distinctiue. ergo etc. Quod dicunt de identitate 
+      <lb ed="#P" n="115"/>dico quod identitas eiusdem ad seipsum est relatio 
+      ratio<lb ed="#P" n="116" break="no"/>nis / non realis quia quasi pertinet ad primum modum / nec 
+      <lb ed="#P" n="117"/>fundamenta nec extrema distinguuntur / nec est ad 
+      propo<lb ed="#P" n="118" break="no"/>situm.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e519">
+      ¶ Ad tertium dico quod maior est falsa 
+      accipien<lb ed="#P" n="119" break="no"/>do materiam sicut ipsi intelligunt pro altera parte 
+      con<lb ed="#P" n="120" break="no"/>positi vt visum est alias. Et ideo ratio licet esset 
+      bo<lb ed="#P" n="121" break="no"/>na sincathegoreumatice de materia eodem modo 
+      <lb ed="#P" n="122"/>quo accipit philosophus sicut dicam infra / non 
+      ta<lb ed="#P" n="123" break="no"/>nen valet eodem modo quo accipiunt materiam. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e532">
+               <lb ed="#P" n="124"/>¶ Ad quartum diceretur quod extrema secundum quod extrema 
+      <lb ed="#P" n="125"/>terminant relationes vt termini sunt distincta 
+      rea<lb ed="#P" n="126" break="no"/>liter: quia persone realiter sunt distincte que sunt 
+      re<lb ed="#P" n="127" break="no"/>late per tales relationes et terminantes istas: quando 
+      di<lb ed="#P" n="128" break="no"/>cit quod non quia secundum quod habentes magnitudinem non sunt 
+      <lb ed="#P" n="129"/>distincte: dico quod non oportet hoc: sed sufficit vnica 
+      <lb ed="#P" n="130"/>magnitudo in extremis realiter distinctis / licet per 
+      <!--361.xml-->
+       <pb ed="#P" n="174-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>illam magnitudinem terminent istas relationes vt 
+      <lb ed="#P" n="2"/>per terminum quo: nec requiritur quod talis terminus 
+      plu<lb ed="#P" n="3" break="no"/>rificetur sed de terminantibus quorum quodlibet 
+      ter<lb ed="#P" n="4" break="no"/>minat vt quod / requiritur et hoc in istis relationibus 
+      <lb ed="#P" n="5"/>hoc patet etiam de istis relationibus paternitas et 
+      <lb ed="#P" n="6"/>filiatio / que secundum ipsos habent eundem terminum quo 
+      <lb ed="#P" n="7"/>puta essentiam: licet habeant duos terminos quod 
+      sci<lb ed="#P" n="8" break="no"/>licet patrem et filium et hoc est mens Augustini nec 
+      <lb ed="#P" n="9"/>est in aliquo contra hoc vt videtur.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e576">
+      ¶ Ad quintum 
+      <lb ed="#P" n="10"/>dico quod maior est simpliciter falsa. Nam eiusdem 
+      ca<lb ed="#P" n="11" break="no"/>lefacientis vnicam secundum eundem calorem vel idem 
+      fun<lb ed="#P" n="12" break="no"/>damentum ad idem calefactum est duplex relatio 
+      <lb ed="#P" n="13"/>alterius rationis realis puta similitudo de primo 
+      <lb ed="#P" n="14"/>modo / et relatio de secundo modo. Sic in proposito / et 
+      <lb ed="#P" n="15"/>multofortius diceretur.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e592">
+      ¶ Ad sextum dico quod per idem 
+      <lb ed="#P" n="16"/>probaretur paternitatem et filiationem non esse reales / quia 
+      <lb ed="#P" n="17"/>nec secundum ipsas refertur essentia diuina ad seipsam / nec 
+      <lb ed="#P" n="18"/>relatio ad relationem / sed magis suppositum constitutum 
+      <lb ed="#P" n="19"/>ex essentia et relatione: et tunc diceretur similiter quod 
+      <lb ed="#P" n="20"/>per relationem equalitatis / nec refertur essentia ad 
+      se<lb ed="#P" n="21" break="no"/>nec relatio ad relationem / sed vnum suppositum ad aliund. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e608">
+               <lb ed="#P" n="22"/>¶ Ad septimum dicerent alii quod ille relationes non sunt 
+      <lb ed="#P" n="23"/>similes proprie quia similitudo realis in diuinis non 
+      <lb ed="#P" n="24"/>fundatur nisi supra aliquam perfectionem. Relatio 
+      <lb ed="#P" n="25"/>autem quecumque in diuinis nullam perfectionem dicit. 
+      <lb ed="#P" n="26"/>Et ex hoc patet quod non est simile de personis vel si 
+      <lb ed="#P" n="27"/>forte sint similes ille non sunt similitudines reales 
+      <lb ed="#P" n="28"/>sed rationis super relationes autem reales possunt 
+      <lb ed="#P" n="29"/>fundari relationes rationis quicquid sit de realibus 
+      <lb ed="#P" n="30"/>quia de hoc est dubium cum dicatur quinto 
+      Eucli<lb ed="#P" n="31" break="no"/>dis quod proportionabilitas est habitudo duarum 
+      propo<lb ed="#P" n="32" break="no"/>tionum / et planum est quod omnia illa dicunt relationem: sed  
+      <lb ed="#P" n="33"/>de relationibus rationis certum est: quia intellectus 
+      po<lb ed="#P" n="34" break="no"/>test quodcumque ens ad aliquem comparare / et per consequens 
+      fun<lb ed="#P" n="35" break="no"/>dare super ipsum aliquem respectum rationis. igitur etc. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e641">
+               <lb ed="#P" n="36"/>¶ Ad octauum dico quicquid sit de consequente quod 
+      an<lb ed="#P" n="37" break="no"/>tecedens est falsum / equalitas enim in creaturis est 
+      re<lb ed="#P" n="38" break="no"/>latio realis necessario / et dicere oppositum est 
+      destrue<lb ed="#P" n="39" break="no"/>re primum modum relationum / vel est dicere in 
+      predi<lb ed="#P" n="40" break="no"/>camento reali et ad aliquid siue relationis faciat 
+      primi<lb ed="#P" n="41" break="no"/>modum respectus rationis: quia non minus videtur quod 
+      <lb ed="#P" n="42"/>equalitas et similitudo sint rea les relationes quam 
+      in<lb ed="#P" n="43" break="no"/>equalitas et dissimilitudo. 
+      <lb ed="#P" n="44"/>motiuum ipsorum dico quod 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e664">
+               <lb ed="#P" n="45"/>¶ Ad primum licem equalitas habeat a 
+      <lb ed="#P" n="46"/>nexam negationem magni et parui / et hoc sufficit ad 
+      <lb ed="#P" n="47"/>intentionem philosophi / tamen formaliter dicit 
+      ali<lb ed="#P" n="48" break="no"/>quid positiuum et relationem realem in creaturis 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e675">
+               <lb ed="#P" n="49"/>¶ Ad secundum dico quod in diuinis planum est quod 
+      fun<lb ed="#P" n="50" break="no"/>damentum equalitatis est realiter vnum. In 
+      creatu<lb ed="#P" n="51" break="no"/>ris dico quod due quantitates vnum scilicet in substantia et vnum 
+      <lb ed="#P" n="52"/>numero in quantitate super que fundantur due 
+      equa<lb ed="#P" n="53" break="no"/>litates habent suas vnitates vel potius entitates  
+      <lb ed="#P" n="54"/>numerales reales / super quarum vnam fundatur 
+      vna<lb ed="#P" n="55" break="no"/>equalitas / et super aliam alia sane intelligendo eodem 
+      <lb ed="#P" n="56"/>modo quo vnitas pertinet ad fundamentum / si aute 
+      <lb ed="#P" n="57"/>vadas ad vnitatem istorum speciuocam dico 
+      adhuo<lb ed="#P" n="58" break="no"/>sicut in secundo apparebit quod illa est realis et ex natura 
+      <lb ed="#P" n="59"/>rei aliquo modo / et ita nichil valet.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e701">
+      ¶ Ad tertium 
+      <lb ed="#P" n="60"/>dico quod identitas eiusdem ad seipsum non est relatio 
+      rea<lb ed="#P" n="61" break="no"/>lis / nec pertinet veraciter ad predicamentum 
+      reali<lb ed="#P" n="62" break="no"/>relationis / sed identitas aliquorum duorum 
+      supposi<lb ed="#P" n="63" break="no"/>torum creatorum in natura substantiali speciuoca. 
+      <lb ed="#P" n="64"/>Dico quod est realis et pertinet veraciter ad primum 
+      <lb ed="#P" n="65"/>modum relatiuorum.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e717">
+      ¶ Ad quartum de coexigen¬ 
+      <!--361.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>tia. dico quod si argumentum est bonum sequitur quod 
+      re<lb ed="#P" n="67" break="no"/>lationes de secundo modo vt paternitas et filiatio 
+      <lb ed="#P" n="68"/>in creaturis non sunt reales / quia pater secundum id quod 
+      <lb ed="#P" n="69"/>est absolutum in ipso non coexigit filium necessario 
+      <lb ed="#P" n="70"/>vt patet / quia manet corrupto filio quantum ad illud ab 
+      <lb ed="#P" n="71"/>solutum / et similiter filius mortuo patre. Similiter 
+      <lb ed="#P" n="72"/>dico quod manet scientia destructo et corrupto 
+      scibili<lb ed="#P" n="73" break="no"/>quia de aliquo non existente in actu in seipso et in 
+      re<lb ed="#P" n="74" break="no"/>est scientia / vt de rosa nulla rosa existente. Similite 
+      <lb ed="#P" n="75"/>etiam manet accidens sine subiecto. Preterea etiam. 
+      <lb ed="#P" n="76"/>quero a te de ista coexigentia vel est ad aliquid ab 
+      <lb ed="#P" n="77"/>solutum vel respectus: non potest dici absolutum quia 
+      <lb ed="#P" n="78"/>est ad aliud / ergo respectus et non rationis / ergo 
+      rea<lb ed="#P" n="79" break="no"/>lis / ergo exigit vnam aliam exigentiam ante se / et est 
+      <lb ed="#P" n="80"/>relatio realis ante relationem in infinitum. ergo etc. 
+      <lb ed="#P" n="81"/>Unde dico quod illud dictum de coexigentia tali est 
+      <lb ed="#P" n="82"/>nullum et fictum: et per consequens nullum est dictum 
+      <lb ed="#P" n="83"/>aliquorum qui dicunt quod dei ad creaturam non est 
+      re<lb ed="#P" n="84" break="no"/>latio realis / quia non exigit necessario creaturam: 
+      co<lb ed="#P" n="85" break="no"/>exigentia enim relatiuorum per se non est nisi secundum 
+      <lb ed="#P" n="86"/>relationes et est ipsa relatio ipsorum. Quando dicis 
+      <lb ed="#P" n="87"/>quod plus coexigit relatiuum reale alterum quam relatiuum 
+      <lb ed="#P" n="88"/>rationis. Dico quod verum est pro tanto quia coexigit ipsum 
+      <lb ed="#P" n="89"/>in esse reali primo non sicut tu dicis: relatiuum vero 
+      <lb ed="#P" n="90"/>rationis non coexigit simpliciter relatiuum nisi in esse 
+      <lb ed="#P" n="91"/>rationis per se dico / puta quando idem referretur 
+      ad<lb ed="#P" n="92" break="no"/>seipsum vel coexigeret seipsum / vel qumo vnum album 
+      <lb ed="#P" n="93"/>coexigit secundum id quod est / alterum album. 
+      Di<lb ed="#P" n="94" break="no"/>co quod nichil valet illud argumentum. Apponitur 
+      <lb ed="#P" n="95"/>vna ratio quia equalitas conueniret diuinis 
+      perso<lb ed="#P" n="96" break="no"/>nis dato quod per impossibile non essent in re / nichil 
+      mi<lb ed="#P" n="97" break="no"/>nus enim intelligerentur equales quam modo / ergo 
+      equa<lb ed="#P" n="98" break="no"/>litas non est relatio realis. Diceretur quod ita 
+      concluden<lb ed="#P" n="99" break="no"/>dum de paternitate et filiatione et spiratione est: ideo 
+      <lb ed="#P" n="100"/>non valet sicut enim sequitur in re diuinas personas 
+      <lb ed="#P" n="101"/>positas in re ( si ponatur relatio realis) ita sequitur 
+      <lb ed="#P" n="102"/>in intellectum si ponatur intellectus sicut patet de 
+      ri<lb ed="#P" n="103" break="no"/>sibili et homine: ita quod si per impossibile vel 
+      possibi<lb ed="#P" n="104" break="no"/>le non esset homo in re si in intellectu / adhuc ipsum 
+      <lb ed="#P" n="105"/>sequeretur et sibi conueniret risibile in intellectu. 
+      <lb ed="#P" n="106"/>Hoc tamen non obstante dicimus quod risibile est passio 
+      <lb ed="#P" n="107"/>realis hominis. Sic diceretur quod nisi aliud obstaret 
+      <lb ed="#P" n="108"/>equalitas vel similitudo esset relatio realis. igitur 
+      <lb ed="#P" n="109"/>etc. hec de tertio articulo. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e819">
+               <lb ed="#P" n="110"/>¶ Quantum ad quartum 
+      articu<lb ed="#P" n="111" break="no"/>lum dico primo quod identitas similitudo et equalitas quo 
+      <lb ed="#P" n="112"/>non sunt relationes reales in diuinis sed potius 
+      ra<lb ed="#P" n="113" break="no"/>tionis. Secundo dico quod presupponunt necessario 
+      re<lb ed="#P" n="114" break="no"/>lationes originis distinctiuas personarum. Ultimo 
+      <lb ed="#P" n="115"/>quod multiplicantur iste tres disparate / et sunt alterius 
+      <lb ed="#P" n="116"/>et alterius rationis: et tandem quod equalitas et 
+      simili<lb ed="#P" n="117" break="no"/>ter alie quelibet istarum multiplicatur in eodem 
+      suppo<lb ed="#P" n="118" break="no"/>sito ad alia duo supposita secundum quodlibet suum 
+      <lb ed="#P" n="119"/>fundamentum.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e843">
+      ¶ Primum probo sic. Omnis 
+      enti<lb ed="#P" n="120" break="no"/>tas realis in deo vnius rationis secundum speciem e 
+      <lb ed="#P" n="121"/>vel quasi secundum speciem specialissimam est ex se et  
+      <lb ed="#P" n="122"/>vna numero / et per consequens plurificari non potest 
+      quic<lb ed="#P" n="123" break="no"/>quid est in deo realiter est purus actus: quod autem  
+      <lb ed="#P" n="124"/>non est realiter et formaliter de se hoc non est purus  
+      <lb ed="#P" n="125"/>actus probo / quia ex se est in potentia ad hoc. et hec ad  
+      <lb ed="#P" n="126"/>multa: sic enim sibi conuenit esse hoc quod quantum est ex se  
+      <lb ed="#P" n="127"/>indifferens est ad multa et ita in potentia et non est  
+      <lb ed="#P" n="128"/>purus actus sed equalitas quae est relatio realis non 
+      <lb ed="#P" n="129"/>est de se hec et immultiplicabilis. Sed est necessa¬ 
+      <!--362.xml-->
+       <pb ed="#P" n="175-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>rio multiplicabilis eiusdem rationis specialissime 
+      ex<lb ed="#P" n="2" break="no"/>stens. Probatur quia omnis relatio equiparantie in 
+      vno<lb ed="#P" n="3" break="no"/>extremo habet aliam relationem eiusdem rationis 
+      sibi<lb ed="#P" n="4" break="no"/>correspondentem in alio extremo. Nam si esset eadem 
+      an<lb ed="#P" n="5" break="no"/>borum idem secundum illam realiter referretur ad  
+      <lb ed="#P" n="6"/>seipsum / quia sicut illa terrminaretur ad aliud / et ita ad 
+      <lb ed="#P" n="7"/>seipsam et vt ad quod haberet ipsam. Hoc patet etiam 
+      <lb ed="#P" n="8"/>quia impossibile est quod relationes opposite sint in 
+      eo<lb ed="#P" n="9" break="no"/>dem relatiuo et patet hoc quia relatiua multiplicantur 
+      <lb ed="#P" n="10"/>et si non necessario semper penes fundamenta saltim 
+      <lb ed="#P" n="11"/>penes relationes: vnde sic est relatio non solum ad 
+      ali<lb ed="#P" n="12" break="no"/>quid sed ad aliud. Unde patet falsum simpliciter quod 
+      <lb ed="#P" n="13"/>aliqui ponunt equalitatem esse eandem relationem 
+      <lb ed="#P" n="14"/>numero in personis diuinis: et est simpliciter fictum 
+      di<lb ed="#P" n="15" break="no"/>ctum: simpliciter enim sequeretur quod pater seu aliqua 
+      <lb ed="#P" n="16"/>persona realiter referretur ad seipsam / quia in ipsa est 
+      for<lb ed="#P" n="17" break="no"/>maliter illa relatio qua alia refertur ad ipsum vel ad 
+      <lb ed="#P" n="18"/>ipsam nisi diceretur quod equalitas illa esset formaliter 
+      <lb ed="#P" n="19"/>in vna persona tantum et non in alia nisi denominatiue: quod 
+      <lb ed="#P" n="20"/>est nichil dictu: patet quia sicut relationes opposite a 
+      <lb ed="#P" n="21"/>terius rationis non possunt esse eiusdem speciei vel 
+      ra<lb ed="#P" n="22" break="no"/>tionis / ita nec opposita eiusdem rationis pastseunt esse 
+      vna<lb ed="#P" n="23" break="no"/>relatio numero. Sic autem se habet equalitas vt 
+      equa<lb ed="#P" n="24" break="no"/>litas similiter patet de respectibus rationis oppositis 
+      <lb ed="#P" n="25"/>vel quasi: quod non possunt esse idem respectus: et per 
+      multa<lb ed="#P" n="26" break="no"/>potest hoc probari. Unde et hec est intentio 
+      Aristo<lb ed="#P" n="27" break="no"/>telis et Auicenne quod oportet relatiua realia 
+      necessa<lb ed="#P" n="28" break="no"/>rio saltim inquantum relatiua distingui. Sunt ergo 
+      di<lb ed="#P" n="29" break="no"/>uerse equalitates et eiusdem rationis / quia sunt 
+      relatio<lb ed="#P" n="30" break="no"/>nes equiparantie quia eiusdem rationis et nomins in vtroquei 
+      <lb ed="#P" n="31"/>extremo. ergo etc. Respondetur ad istam questionem 
+      <lb ed="#P" n="32"/>quod omne quod est eiusdem rationis specialissime vel 
+      quat<lb ed="#P" n="33" break="no"/>in diuinis est ex se hoc / nisi supponat aliqua 
+      alteru<lb ed="#P" n="34" break="no"/>et alterius rationis per que determinatur ad certam 
+      mu<lb ed="#P" n="35" break="no"/>titudinem plurium eiusdem rationis / sicut est in 
+      prop<lb ed="#P" n="36" break="no"/>sito de istis relationibus que presupponunt relatio 
+      <lb ed="#P" n="37"/>nes originis alterius et alterius rationis. Ista 
+      re<lb ed="#P" n="38" break="no"/>sponsio nichil valet ad propositum / quia si iste relatio 
+      <lb ed="#P" n="39"/>tiones presupponant illas si tamen sunt reales 
+      plani<lb ed="#P" n="40" break="no"/>est quod equalitas ex se non est premultiplicabilis nec 
+      <lb ed="#P" n="41"/>hec tollit ab eo relatio aliqua quam praesupponat sicut 
+      <lb ed="#P" n="42"/>nec tollit ab ea habere relationem mutuam eiusdem 
+      <lb ed="#P" n="43"/>rationis / nichil enim est ex se hoc per aliquid alterius 
+      <lb ed="#P" n="44"/>rationis et extrinsecum sibi siue presupponatur siue 
+      <lb ed="#P" n="45"/>non / et ita patet quod non tollit rationem quin sit quantum 
+      <lb ed="#P" n="46"/>est ex se in potentia ad esse hoc et multa: praeterea etiam 
+      <lb ed="#P" n="47"/>dico quod si equalitas esset relatio realis in deo cum 
+      ex<lb ed="#P" n="48" break="no"/>se non esset hec eiusdem rationis existens esset tamen in 
+      no<lb ed="#P" n="49" break="no"/>repugnantia ad multa / vel in potentia / et pari ratio 
+      <lb ed="#P" n="50"/>ne ad infinita quantum est ex se: et cum ipsa sit necesse esse 
+      <lb ed="#P" n="51"/>necessario esset actu infinite multitudinis Nec 
+      va<lb ed="#P" n="52" break="no"/>let dicere quod determinaretur per relationes origins 
+      <lb ed="#P" n="53"/>precedentes vel priores / quia omne quod quantum est ex se non 
+      <lb ed="#P" n="54"/>repugnat necesse esse intra et realiter vel secundum 
+      <lb ed="#P" n="55"/>esse reali conuenit sibi in actu: nec potest 
+      determina<lb ed="#P" n="56" break="no"/>ri ad oppositum per quodcumque aliud: et ideo dicere 
+      si<lb ed="#P" n="57" break="no"/>cut dicunt isti quod eiusdem rationis existens est 
+      indete<lb ed="#P" n="58" break="no"/>minatum ex se ad multa: et per consequens ad 
+      infini<lb ed="#P" n="59" break="no"/>ta quantum est ex se et est necesse esse / et cum hoc 
+      dete<lb ed="#P" n="60" break="no"/>minetur per aliquid extrinsecum a se sic quod non possunt 
+      <lb ed="#P" n="61"/>esse talia infinita est implicatio: contradictionis 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e1007">
+               <lb ed="#P" n="62"/>¶ Secunda ratio est ista id quod ponit compositionem 
+      <lb ed="#P" n="63"/>necessario non est ponendum in deo. Patet ex 
+      distin<lb ed="#P" n="64" break="no"/>ctione octaua. sed equalitas realis relatio 
+      necessa<lb ed="#P" n="65" break="no"/>rio ponit compositionem et est composita: quia illud quod 
+      <!--362.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>non est de se hoc est in potentia ad illud per quod forma 
+      <lb ed="#P" n="67"/>liter est et per consequens componibilis sibi: equalitas autem 
+      <lb ed="#P" n="68"/>non est de se hec vt probatum est. ergo et cetera. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e1029">
+               <lb ed="#P" n="69"/>¶ Tertia ratio. Illud quod habet proprie rationem 
+      vni<lb ed="#P" n="70" break="no"/>versalis vel particularis non est ponendum in deo 
+      <lb ed="#P" n="71"/>Patet ex supradictis quod omne vniuersale est contra 
+      <lb ed="#P" n="72"/>hibile et determinabile et potentiabile: sed equalitas 
+      <lb ed="#P" n="73"/>realis habet rationem vniuersalis et particularis quia 
+      <lb ed="#P" n="74"/>omnis entitas realis quae de se non est hec habet 
+      ratio<lb ed="#P" n="75" break="no"/>nem vniuersalis / et vt contrahitur per illud per quod est hec 
+      <lb ed="#P" n="76"/>habet rationem particularis. etc.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1049">
+      ¶ Quarta 
+      ratio<lb ed="#P" n="77" break="no"/>est ista vbicumque est dare quidditatem que de se non 
+      <lb ed="#P" n="78"/>est hec est dare materiam aliquo modo puta illo 
+      mo<lb ed="#P" n="79" break="no"/>do quo dicit philosophus primo de celo. Quod qui 
+      di<lb ed="#P" n="80" break="no"/>cit celum dicit formam / cum dico hoc celum dico mate / 
+      <lb ed="#P" n="81"/>riam: forma enim hic accipitur pro quidditate et 
+      mate<lb ed="#P" n="82" break="no"/>ria pro differentia indiuiduali contrahente sicut 
+      di<lb ed="#P" n="83" break="no"/>ctum est supra / etiam secundum istos. et isto modo loquitur 
+      <lb ed="#P" n="84"/>philosophus duodecimo methaphi. quod prima 
+      eius<lb ed="#P" n="85" break="no"/>dem rationis non plurificantur nisi per materiam: non 
+      <lb ed="#P" n="86"/>accipiendo materiam vt alii accipiunt / et patet in 
+      plu<lb ed="#P" n="87" break="no"/>ribus locis. 7. methaphisi. quod ibi accipit phuns 
+      ma<lb ed="#P" n="88" break="no"/>teriam isto modo sed in diuinis non est materia vllo. 
+      <lb ed="#P" n="89"/>modo. ergo etc. Uidetur igitur per istas rationes quod 
+      <lb ed="#P" n="90"/>identitas / similitudo / et equalitas non sint relationet 
+      <lb ed="#P" n="91"/>reales sed sunt relationes rationis vt dicit communis opinie 
+      <lb ed="#P" n="92"/>Nec vnquam Bonauentura dicit oppositum / quod tamen 
+      <lb ed="#P" n="93"/>imponunt sibi alii.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1088">
+      ¶ Secundo dico quod iste relationes ergo 
+      <lb ed="#P" n="94"/>sicut loquimur de ipsis necessario presupponunt 
+      re<lb ed="#P" n="95" break="no"/>lationes originis distinctiuas personarum primo quia i 
+      <lb ed="#P" n="96"/>secundum Hylarium. 3. de trini. Similitudo sibiipsi i 
+      <lb ed="#P" n="97"/>non est / nec per consequens equalitas: ergo iste preexigunt in 
+      <lb ed="#P" n="98"/>distinctas personas.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1101">
+      ¶ Secundo quia dicit Augusti i 
+      <lb ed="#P" n="99"/>nus. 6 de trinitate. vltimo cap. quod in filio est prima ergo 
+      <lb ed="#P" n="100"/>equalitas terminatiue: hoc autem non esset si equalitas si 
+      <lb ed="#P" n="101"/>esset eiusdem ad seipsum. Nam in patre esset tunc 
+      pri<lb ed="#P" n="102" break="no"/>ma equalitas.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1112">
+      ¶ Tertio quia sicut praemissum est supra et 
+      <lb ed="#P" n="103"/>Iste relationes non sunt eiusdem ad seipsum sed 
+      sup<lb ed="#P" n="104" break="no"/>positi ad aliud suppositum.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1120">
+      ¶ Quarto quia vbi tales  
+      <lb ed="#P" n="105"/>relationes sunt reales necessario presupponunt 
+      di<lb ed="#P" n="106" break="no"/>stincta supposita realiter. ergo cum habeant similem 
+      <lb ed="#P" n="107"/>ordinem in diuinis vbi sunt relationes distinctiue 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e1129">
+               <lb ed="#P" n="108"/>¶ Aliter probatur hoc ab vno. Primo quia conicatio   
+      <lb ed="#P" n="109"/>magnitudinis praesupponit conicationem essentie a qua 
+      prae<lb ed="#P" n="110" break="no"/>distinguantur essentialiter magnitudo secundum 
+      ratio<lb ed="#P" n="111" break="no"/>nem: quia similem ordinem habent ac si distinguerentur 
+      <lb ed="#P" n="112"/>secundum rem / sed per conicationem essentie habetur 
+      di<lb ed="#P" n="113" break="no"/>stinctio suppositorum / super magnitudinem vero conica 
+      <lb ed="#P" n="114"/>tam fundatur equalitas. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1147">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="115"/>Pluralitas aliquorum eiusdem rationis in alio 
+      finitar<lb ed="#P" n="116" break="no"/>praexigit pluralitatem aliquorum eiusdem rationis 
+      <lb ed="#P" n="117"/>secundum que determinetur / sicut pluries fuit 
+      supe<lb ed="#P" n="118" break="no"/>rius declaratum secundum eos: sed equalitas vel 
+      iden<lb ed="#P" n="119" break="no"/>titas et similitudo sunt plures eiusdem rationis: vnumquod 
+      <lb ed="#P" n="120"/>que in ratione sua / ergo cum sint in diuinis certe et 
+      de<lb ed="#P" n="121" break="no"/>terminate multitudinis necessario praexigunt 
+      rela<lb ed="#P" n="122" break="no"/>tiones originis alterius et alterius rationis dicunt 
+      <lb ed="#P" n="123"/>quod ista ratio concludit siue sint relationes reales siue 
+      <lb ed="#P" n="124"/>relationes rationis.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1171">
+      ¶ Sed prima ratio michi 
+      concli<lb ed="#P" n="125" break="no"/>dere non videtur. Uidetur enim michi quod 
+      distiuctio<lb ed="#P" n="126" break="no"/>suppositi a supposito non presupponitur conication 
+      <lb ed="#P" n="127"/>magnitudinis / immo illa est prior quam constitutio 
+      suppo<lb ed="#P" n="128" break="no"/>sitorum vel saltim non est posterior / et ideo non 
+      conclu<lb ed="#P" n="129" break="no"/>dit.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1184">
+      ¶ Secunda ratio etiam non est necessaria / vt iam 
+      <lb ed="#P" n="130"/>supra dictum est contra eam si iste ponantur relatio 
+      <!--363.xml-->
+       <pb ed="#P" n="175-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nes reales: si autem rationis tunc determinatio 
+      cer<lb ed="#P" n="2" break="no"/>te multitudinis ipsarum non accipitur solum ex 
+      ali<lb ed="#P" n="3" break="no"/>quo supposito sed ex intellectu.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1202">
+      ¶ Tertio dico quod 
+      <lb ed="#P" n="4"/>dentitas similitudo et equalitas in diuinis sunt 
+      re<lb ed="#P" n="5" break="no"/>lationes disparate alterius et alterius rationis: de idem 
+      <lb ed="#P" n="6"/>titate et similitudine patet: quia habent fundamenta 
+      <lb ed="#P" n="7"/>propria alterius et alterius rationis etiam ex natura 
+      rei<lb ed="#P" n="8" break="no"/>scilicet essentiam que est fundamentum identitatis / et 
+      iu<lb ed="#P" n="9" break="no"/>sticiam vel sapientiam que est fundamentum 
+      similitu<lb ed="#P" n="10" break="no"/>dinis / vel aliqua perfectio huiusmodi: sed de 
+      equa<lb ed="#P" n="11" break="no"/>litate non est ita comparando eam ad identitatem 
+      vel<lb ed="#P" n="12" break="no"/>similitudinem quod ab eis distinguatur cum 
+      fundamen<lb ed="#P" n="13" break="no"/>tum eius positiue est ex natura rei non distinguatur 
+      <lb ed="#P" n="14"/>a fundamentis earum sicut dictum est supra. Dico 
+      <lb ed="#P" n="15"/>tamen quod distinguitur ab aliis / et ad hoc sufficit 
+      di<lb ed="#P" n="16" break="no"/>stinctio que potest poni inter essentiam et suam 
+      infini<lb ed="#P" n="17" break="no"/>tionem quecumque sit illa: vel saltem oportet dicere quod 
+      <lb ed="#P" n="18"/>super idem fundamentum ex natura rei positiue 
+      in<lb ed="#P" n="19" break="no"/>distinctum possunt fundari relationes rationis 
+      plu<lb ed="#P" n="20" break="no"/>res disparate alterius et alterius rationis / 
+      cuiusmodi<lb ed="#P" n="21" break="no"/>sunt iste / multofortius quam super idem fundamentum et 
+      <lb ed="#P" n="22"/>ad eundem terminum possunt fundari plures 
+      relatio<lb ed="#P" n="23" break="no"/>nes reales disparate alterius et alterius rationis que 
+      <lb ed="#P" n="24"/>distinguantur sicut tactum fuit supra distinctione. 19. 
+      <lb ed="#P" n="25"/>sed non curo. Si autem nullum istorum sufficiat dica 
+      <lb ed="#P" n="26"/>tur quod eadem est relatio / identitas in substantia: et 
+      equa<lb ed="#P" n="27" break="no"/>litas in infinitate substantie. Et similiter 
+      similitudo<lb ed="#P" n="28" break="no"/>in iusticia et equalitas in infinitate iusticie. et sic 
+      de<lb ed="#P" n="29" break="no"/>aliis. Si autem ponantur relationes disparate alterius 
+      <lb ed="#P" n="30"/>et alterius rationis / tunc etiam oportet ponere tot 
+      equa<lb ed="#P" n="31" break="no"/>litates disparatas alterius rationis quot sunt 
+      perfe<lb ed="#P" n="32" break="no"/>ctiones vel infinitates perfectionum in diuinis / quia 
+      <lb ed="#P" n="33"/>quilibet habet suam propriam immensitatem alterius 
+      ra<lb ed="#P" n="34" break="no"/>tionis ab immensitate alterius / et sic relationes rationis 
+      <lb ed="#P" n="35"/>necessario ex fundamentis distinguantur.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1275">
+      ¶ 
+      Quar<lb ed="#P" n="36" break="no"/>to et vltimo dico quod equalitas similitudo et identitas 
+      <lb ed="#P" n="37"/>multiplicantur in diuinis suppositis: dico enim quod 
+      in<lb ed="#P" n="38" break="no"/>patre sunt due relationes similitudinis ad alias 
+      du<lb ed="#P" n="39" break="no"/>as personas / et hoc secundum quamlibet perfectionem 
+      na<lb ed="#P" n="40" break="no"/>tam fundare similitudinem: et similiter in filioad alias 
+      <lb ed="#P" n="41"/>puas / et similiter in spiritu sancto: cum enim pater sit 
+      si<lb ed="#P" n="42" break="no"/>milis filio et econuerso impossibile est quod hoc sit 
+      ea<lb ed="#P" n="43" break="no"/>dem similitudine / tunc enim vterque esset similis sibiipsi 
+      <lb ed="#P" n="44"/>quia in se haberet relationem similitudinis 
+      termina<lb ed="#P" n="45" break="no"/>tam ad ipsum vt patet / hoc est autem impossibile: ergo 
+      <lb ed="#P" n="46"/>hoc est in diuersis relationibus: similiter etiam 
+      pa<lb ed="#P" n="47" break="no"/>ter est similis spiritui sancto et econuerso. Sed hoc 
+      <lb ed="#P" n="48"/>non potest esse eadem similitudine qua est similis 
+      fi<lb ed="#P" n="49" break="no"/>lio probatur / quia tunc etiam relatio similitudinis qua 
+      <lb ed="#P" n="50"/>filius est similis patri esset eadem cum relatione qua 
+      <lb ed="#P" n="51"/>spiritus sanctus est similis patri quod est falsum / 
+      er<lb ed="#P" n="52" break="no"/>go alia similitudine / et ita in aliis personis. Item 
+      im<lb ed="#P" n="53" break="no"/>possibile est relatiue opposita esse idem siue secundum 
+      rem<lb ed="#P" n="54" break="no"/>siue secundum suam rationem propriam / ergo cum simili 
+      <lb ed="#P" n="55"/>tudo patris ad filium et econuerso sint opposite oportet 
+      <lb ed="#P" n="56"/>necessario quod distinguantur secundum rationem in patre et 
+      <lb ed="#P" n="57"/>filio / et similiter in patre ad spiritum sanctum et 
+      econ<lb ed="#P" n="58" break="no"/>uerso: et quod iste sint due in patre ad alias duas patet 
+      <lb ed="#P" n="59"/>quia pater ad quamlibet personam habet propriam 
+      <lb ed="#P" n="60"/>similitudinem / et sic de aliis. Sic ad istam quionnem. 
+      <lb ed="#P" n="61"/>eorum de contraria opi¬ 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e1334">
+               <lb ed="#P" n="62"/>¶ Ad primum tnione quod iste sint relatio 
+      <lb ed="#P" n="63"/>nes reales concedo maiorem illam: tamen dico quod non 
+      <lb ed="#P" n="64"/>crequiritur necessario ad quancumque relationem realem 
+      <lb ed="#P" n="65"/>distinctio realis extremorum / sicut patet de relatione 
+      <!--363.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>mouentis et moti in voluntate / et ideo declaratio istius 
+      <lb ed="#P" n="67"/>maioris quantum ad hoc non est vera vniuersaliter: tamen 
+      <lb ed="#P" n="68"/>bene dico quod habet locum et est vera in relationibus 
+      <lb ed="#P" n="69"/>primi modi vel similibus in quibus ita est quod 
+      extre<lb ed="#P" n="70" break="no"/>ma relata sunt realiter distincta. Similiter etiam 
+      <lb ed="#P" n="71"/>in relationibus secundi modi puta producentis et 
+      pro<lb ed="#P" n="72" break="no"/>ducti vel similibus / et tertii modi vel similibus: sed 
+      <lb ed="#P" n="73"/>in actione et passione non oportet: similiter pro illa 
+      <lb ed="#P" n="74"/>maiore sufficeret tertium menbrum tantum et non 
+      oporte<lb ed="#P" n="75" break="no"/>ret alia duo prima. Si enim relatio est ex natura 
+      ret<lb ed="#P" n="76" break="no"/>sequitur quod sit realis. Ad minorem dico quod tales 
+      rela<lb ed="#P" n="77" break="no"/>tiones non sunt in diuinis ex natura rei sed per opus 
+      <lb ed="#P" n="78"/>intellectus comparantis extremum ad extremum / perso 
+      <lb ed="#P" n="79"/>nam ad personam / licet fundamenta earum sint in 
+      <lb ed="#P" n="80"/>diuinis in extrema rei sicut de dominio patet. 
+      Quam<lb ed="#P" n="81" break="no"/>do probatur de equalitate per omnes illas auctoritates 
+      <lb ed="#P" n="82"/>Dico quod non plus concludunt nisi quod in personis diuins 
+      <lb ed="#P" n="83"/>cuiusmodi est generans et genita est causa natura et 
+      <lb ed="#P" n="84"/>infinitas et perfectio ex natura rei et ita fundamen 
+      <lb ed="#P" n="85"/>ta istarum relationum sunt ibi ex natura rei et hoc est 
+      <lb ed="#P" n="86"/>perfectionis / nec hoc facit intellectus. et ex hoc patet 
+      <lb ed="#P" n="87"/>quod sufficit auctoritatibus: quia cum eadem sit natura et 
+      <lb ed="#P" n="88"/>infinitas et perfectio in personis non potest argui 
+      in<lb ed="#P" n="89" break="no"/>eis aliqua imperfectio quam volebant habere 
+      Arria<lb ed="#P" n="90" break="no"/>ni in filio / et iudei in christo alietatem nature a natura 
+      <lb ed="#P" n="91"/>diuina negantes ipsum habere naturam diuinam nec 
+      <lb ed="#P" n="92"/>vnquam intellexunt illam relationem equalitatis realem / 
+      <lb ed="#P" n="93"/>impossibile est enim quod illa sit realis in deo propter sum 
+      <lb ed="#P" n="94"/>mam perfectionem diuinam qua est purus actus et 
+      <lb ed="#P" n="95"/>imperfectionem equalitatis realis / qua non est purus 
+      <lb ed="#P" n="96"/>actus sicut dictum est supra. Et respondeo ad omnes 
+      <lb ed="#P" n="97"/>auctoritates probantes illas.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1419">
+      ¶ Ad secundum quod 
+      ex<lb ed="#P" n="98" break="no"/>perfectione equalitatis non oportet ponere 
+      equali<lb ed="#P" n="99" break="no"/>tatem realem in deo / quia etiam secundum ipsos relatio 
+      <lb ed="#P" n="100"/>realis in diuinis nullam dicit perfectionem. Sed esto 
+      <lb ed="#P" n="101"/>quod equalitas sit perfectior inequalitate: dico quod non 
+      <lb ed="#P" n="102"/>est ponenda in summe perfecto / quia vbicumque est 
+      re<lb ed="#P" n="103" break="no"/>latio realis ipsa necessario includit potentialitatem 
+      <lb ed="#P" n="104"/>sed ponenda est in aliis. Unde eodem modo quo 
+      perfe<lb ed="#P" n="105" break="no"/>ctius potest poni / quibus tamen non repugnat 
+      imperfe<lb ed="#P" n="106" break="no"/>ctio / sine qua non potest poni equalitas esse relatio 
+      <lb ed="#P" n="107"/>realis. Aliter dicitur ad Augustinum quod ipse 
+      prepo<lb ed="#P" n="108" break="no"/>nit equalitatem inequalitati quantum ad 
+      fundamen<lb ed="#P" n="109" break="no"/>ta eorum / et sic equalitas est in deo perfectissime / non 
+      <lb ed="#P" n="110"/>autem inquantum ad relationes. Nota hic quod Scotus 
+      <lb ed="#P" n="111"/>dicit in ea questione sexta de quolibet. Quod relantio 
+      <lb ed="#P" n="112"/>cause et causati inter deum et creaturam formaliter 
+      <lb ed="#P" n="113"/>opponuntur / et tamen licet relatio causati sit 
+      imperfe<lb ed="#P" n="114" break="no"/>ctior. Patet / quia repugnat perfectiori scilicet deo / et sit 
+      <lb ed="#P" n="115"/>realis non tamen oportet ponere relationem cause in 
+      <lb ed="#P" n="116"/>deo que sit realis: quia dei ad creaturam secundum ipsum 
+      <lb ed="#P" n="117"/>non potest esse relatio realis / sic etiam suo modo in 
+      pro<lb ed="#P" n="118" break="no"/>posito diceretur.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1467">
+      ¶ Ad tertium dico quod si secundum arrios 
+      <lb ed="#P" n="119"/>filius haberet minorem perfectionem quam pater 
+      seque<lb ed="#P" n="120" break="no"/>retur quod filius non esset deus et per consequens quod esset 
+      crea<lb ed="#P" n="121" break="no"/>tura / et tunc dico quod pater ad filium nullam haberet 
+      re<lb ed="#P" n="122" break="no"/>lationem realem / sicut nec deus ad creaturam vt 
+      pro<lb ed="#P" n="123" break="no"/>batum est supra: quia omnis relatio est necesse esse ad 
+      ali<lb ed="#P" n="124" break="no"/>quid nouum: vel possibile non esse: necessario etiam est ac 
+      <lb ed="#P" n="125"/>cidens eius / quia potest ei non inesse ad desitionem esse 
+      <lb ed="#P" n="126"/>illius ad quod est illa relatio. In deo autem nullum est 
+      <lb ed="#P" n="127"/>accidens cum sit actus purus. ergo etc. Et ideo 
+      di<lb ed="#P" n="128" break="no"/>co quod accipitur falsum in illa maiore: licet enim filius 
+      ha<lb ed="#P" n="129" break="no"/>beret inequalitatem realem ad patrem ( quia filio non 
+      re<lb ed="#P" n="130" break="no"/>pugnaret omnis imperfectio ) tamen pater ad filium 
+      <!--364.xml-->
+       <pb ed="#P" n="176-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non haberet aliquam relationem realem / quia sibi 
+      repu<lb ed="#P" n="2" break="no"/>gnat omnis imperfectio cum sit deus. A simili dico quod 
+      <lb ed="#P" n="3"/>cum patri et filio repugnet modo omnis 
+      imperfectio<lb ed="#P" n="4" break="no"/>squia vterque est deus et habent eandem naturam ) quod 
+      <lb ed="#P" n="5"/>impossibile est ponere in eis equalitatem relationem 
+      <lb ed="#P" n="6"/>realem.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1515">
+      ¶ Ad quartum dico quod maior est vera. Unde 
+      <lb ed="#P" n="7"/>dico quod si eadem esset albedo in Sorte et in platone 
+      <lb ed="#P" n="8"/>essent vere et realiter similes: vel si eadem quantitas 
+      <lb ed="#P" n="9"/>essent vere equales. Et concedo probationem / et ratio est 
+      <lb ed="#P" n="10"/>quia omnis imperfectio non repugnat creature sicut deo 
+      <lb ed="#P" n="11"/>repugnat / et ideo non est simile de deo et creatura: quia 
+      <lb ed="#P" n="12"/>deo repugnat omnis imperfectio quam de necessitate 
+      <lb ed="#P" n="13"/>includit equalitas que est relatio rationis vt dictum 
+      <lb ed="#P" n="14"/>est supra. Additur etiam ab eis vnum exemplum 
+      de<lb ed="#P" n="15" break="no"/>dextro et sinistro animato in quibus est causa anima / et tamen 
+      <lb ed="#P" n="16"/>realiter ad inuicem referuntur. Et patet quod 
+      exemplo<lb ed="#P" n="17" break="no"/>concesso non est ad propositum de equalitate in diuins 
+      <lb ed="#P" n="18"/>sicut immediate est promissum. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e1544">
+               <lb ed="#P" n="19"/>¶ Ad primum principale 
+      di<lb ed="#P" n="20" break="no"/>co quod maior est insufficiens. Non enim sufficiunt ille / sed 
+      <lb ed="#P" n="21"/>cum hoc requiritur quod relatio consurgat inter 
+      extre<lb ed="#P" n="22" break="no"/>ma ex natura rei vt dictum est supra.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1556">
+      ¶ Ad secundum 
+      <lb ed="#P" n="23"/>dico quod persone sunt realiter et perfectissime et 
+      veri<lb ed="#P" n="24" break="no"/>sime equales / sed non realitate equalitatis relationis 
+      <lb ed="#P" n="25"/>sed realitate fundamenti / et sicut etiam dictum est 
+      su<lb ed="#P" n="26" break="no"/>pra distinctione nona quod in diuinis est perfectissima 
+      <lb ed="#P" n="27"/>equalitas et verissime sunt equales.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1569">
+      ¶ Ad tertium 
+      <lb ed="#P" n="28"/>dico quod equalitas non est adoranda in diuinis ratione 
+      <lb ed="#P" n="29"/>sui / sed tantum ratione fundamenti vel fundamentum ipsum. 
+      </p>
+            <p xml:id="qrdBas-a1124X-d1e1576">
+               <lb ed="#P" n="30"/>¶ Ad quartum dico quod Arrianus damnatur sicut 
+      he<lb ed="#P" n="31" break="no"/>reticus quia negauit eandem naturam et perfectionem 
+      in<lb ed="#P" n="32" break="no"/>patre et filio: et dicit filium creaturam et minorem patre 
+      <lb ed="#P" n="33"/>non quia negauit equalitatem relationem realem sed 
+      equa<lb ed="#P" n="34" break="no"/>litatem simpliciter negauit / et quantum ad fundamen 
+      <lb ed="#P" n="35"/>tum quod est causa perfectionis in vitroque: et conquenter 
+      quam<lb ed="#P" n="36" break="no"/>tum ad respectum / siue ille intellectus sit rationis siue 
+      rea<lb ed="#P" n="37" break="no"/>lis quia de hoc parum curauit Arrius.
+    </p>
+            <p xml:id="qrdBas-a1124X-d1e1596">
+      ¶ Ad illud in 
+      <lb ed="#P" n="38"/>oppositum dico quod sicut dictum est supra quia equalitas 
+      <lb ed="#P" n="39"/>dicitur secundum subiectum non formaliter sed magis 
+      <lb ed="#P" n="40"/>relatiue et ad aliquid sed fundamentaliter / eo modo quo 
+      immen<lb ed="#P" n="41" break="no"/>sitas cuiuslibet perfectionis divine potest dici secundum 
+      subie<lb ed="#P" n="42" break="no"/>ctum et dicitur / quia ad se eo modo quo dixi secundum substanm 
+      distin<lb ed="#P" n="43" break="no"/>guitur contra dici secundum relationem vt patet secundum August. 65. 
+      <lb ed="#P" n="44"/>de trinitate. Si dicas quia ergo patrnitas eodem modo dicitur non 
+      <lb ed="#P" n="45"/>dicitur secundum substantiam. Dico quod hoc est quia substantia et 
+      <lb ed="#P" n="46"/>pternitas non equantur. Non enim cuicumque persone conuenit 
+      <lb ed="#P" n="47"/>substantia conuenit patrnitas / sicut cuicumque conuenit 
+      sub<lb ed="#P" n="48" break="no"/>stantia conuenit et equalitas / et econuerso. Et hec est 
+      <lb ed="#P" n="49"/>ratio logica. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

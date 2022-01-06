@@ -1,0 +1,721 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="79-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a50992"><!-- l1d7q1 -->
+            <head xml:id="qrdBas-a50992-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a50992-d1e101">
+               <lb ed="#P" n="61"/>¶ Distinctionis Septime 
+      primi<lb ed="#P" n="62" break="no"/>Sententiarum. Questio prima. 
+  </p>
+            <p xml:id="qrdBas-a50992-d1e108">
+      <!--169.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>CIrca septimam 
+      di<lb ed="#P" n="64" break="no"/>stinctionem quaero. Primo vtrum 
+      po<lb ed="#P" n="65" break="no"/>tentia generandi dicat aliquid 
+      <lb ed="#P" n="66"/>absolutum vel relationem. 
+      <lb ed="#P" n="67"/>Uidetur quod potentia 
+      gene<lb ed="#P" n="68" break="no"/>randi dicat ad aliud vel 
+      respe<lb ed="#P" n="69" break="no"/>ctum. Primo sic. Propria 
+      ope<lb ed="#P" n="70" break="no"/>ratio suppositi est per propriam 
+      <lb ed="#P" n="71"/>formam quia suppositum 
+      ha<lb ed="#P" n="72" break="no"/>bet propriam formam: ergo per illam agit. Similiter 
+      <lb ed="#P" n="73"/>etiam sicut forma communis ad effectum communem est 
+      <lb ed="#P" n="74"/>ita forma propria ad effectum proprium vel actionem. 
+      igi<lb ed="#P" n="75" break="no"/>tur. etc. Sed propria operatio vel actio suppositi pater: 
+      <lb ed="#P" n="76"/>ni est generare / ergo conuenit sibi per propriam formam 
+      <lb ed="#P" n="77"/>que est paternitas non per communem que est 
+      genera<lb ed="#P" n="78" break="no"/>tio.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e150">
+      ¶ Secundo sic. Omne absolutum in diuinis est 
+      <lb ed="#P" n="79"/>absolutum tribus sed potentia generandi non est 
+      com<lb ed="#P" n="80" break="no"/>munis tribus quia non potest generare ergo non est 
+      <lb ed="#P" n="81"/>absolutum sed relatio.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e159">
+      ¶ Tertio sic. quinto de 
+      tri<lb ed="#P" n="82" break="no"/>nitate. cap. quinto. Et est pater quo est et filius: sed 
+      <lb ed="#P" n="83"/>paternitate est pater ergo ea est sibi filius: ergo 
+      pr<lb ed="#P" n="84" break="no"/>ternitate generat.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e169">
+      ¶ Quarto sic. Producens et pro 
+      <lb ed="#P" n="85"/>ductum conuenire eidem implicat contradictionem. 
+      <lb ed="#P" n="86"/>primo de trinitate: ergo etiam a simili producere et pro 
+      <lb ed="#P" n="87"/>duci conuenire alicui vel aliquibus secundum idem 
+      im<lb ed="#P" n="88" break="no"/>plicat contradictionem. sed produci conuenit deo 
+      se<lb ed="#P" n="89" break="no"/>cundum aliquid absolutum quia essentia est terminus 
+      <lb ed="#P" n="90"/>formalis divine productionis vt dictum est supra. 
+      <lb ed="#P" n="91"/>Non ergo producere conuenit ei per absolutum: sed  
+      <lb ed="#P" n="92"/>magis per relationem. 
+      <lb ed="#P" n="93"/>fr¬Damascenus primo libro. c. ero 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e191">
+               <lb ed="#P" n="94"/>¶ Comii nim Generatio est opus nature sed  
+      <lb ed="#P" n="95"/>non vt suppositi planum est ex distinctione 
+      quinta<lb ed="#P" n="96" break="no"/>ergo vt principii / ergo potentia generandi dicit 
+      na<lb ed="#P" n="97" break="no"/>turam et non relationem. Et magister in littera 
+      di<lb ed="#P" n="98" break="no"/>cit quod naturam et aliquid absolutum 
+      <lb ed="#P" n="99"/>In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e207">
+               <lb ed="#P" n="100"/>¶ Primo ponam opinionem et arguam contra eam. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e212">
+               <lb ed="#P" n="101"/>¶ Secundo praemittam aliqua necessaria ad solutionem. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e217">
+               <lb ed="#P" n="102"/>¶ Tertio respondebo ad questionem.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e222">
+      ¶ Quarto ad 
+      <lb ed="#P" n="103"/>rationes prime opinionis.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e228">
+      ¶ Et vltimo ad 
+      ratio<lb ed="#P" n="104" break="no"/>nes principales. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e233">
+               <lb ed="#P" n="105"/>¶ Est vna¬ 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e238">
+               <lb ed="#P" n="106"/>¶ Quantum ad primum opinio quod 
+      <lb ed="#P" n="107"/>potentia generandi includit absolutum et respectum 
+      <lb ed="#P" n="108"/>sed formalius et principalius respectum. Modus 
+      po<lb ed="#P" n="109" break="no"/>mendi talis est. Potentia generandi et est principium 
+      <lb ed="#P" n="110"/>elicitiuum generationis: et est principium determi 
+      <lb ed="#P" n="111"/>natum. Quod sit elicitiuum hoc habet ex absoluto: quia 
+      <lb ed="#P" n="112"/>ex essentia / sed quod determinatum hoc habet a deter 
+      <lb ed="#P" n="113"/>minata relatione. Primum probatur sic. Actio 
+      po<lb ed="#P" n="114" break="no"/>sitiua est per principium positiuum / generare est 
+      huiui<lb ed="#P" n="115" break="no"/>modi. ergo etc. Sed in diuinis nihil est positiuum nisi 
+      <lb ed="#P" n="116"/>essentia et relatio: sed relatio non potest esse principium 
+      <lb ed="#P" n="117"/>agendi elicitiuum sicut nec potest esse terminus 
+      actio<lb ed="#P" n="118" break="no"/>nis quinto phisicorum: ergo oportet quod aliquid 
+      ab<lb ed="#P" n="119" break="no"/>solutum.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e271">
+      ¶ Secundum declaratur essentia est 
+      prin<lb ed="#P" n="120" break="no"/>cipium elicitiuum omnis actionis vel productionis 
+      <lb ed="#P" n="121"/>in diuinis et per consequens de se est indeterminatum 
+      <lb ed="#P" n="122"/>principium ad hanc vel illam productionem. ergo ad 
+      <lb ed="#P" n="123"/>hoc quod aliquid producat secundum eam oportet quod 
+      de<lb ed="#P" n="124" break="no"/>terminetur ad hoc vt sit principium elicitiuum huius 
+      <lb ed="#P" n="125"/>vel illius productionis vel determinate. Sed non po¬ 
+      <!--170.xml-->
+       <pb ed="#P" n="80-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>test determinari nisi per relationem ergo relatio est 
+      <lb ed="#P" n="2"/>determinatiua / sicut etiam in creaturis forma que est 
+      <lb ed="#P" n="3"/>principium essendi per respectum ad subiectum est 
+      prin<lb ed="#P" n="4" break="no"/>cipium agendi determinatum per respectum ad 
+      effe<lb ed="#P" n="5" break="no"/>ctum determinatum et sic potentia que est determ 
+      <lb ed="#P" n="6"/>natum principium productiuum necessario includit 
+      <lb ed="#P" n="7"/>duo / scilicet absolutum et respectiuum.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e308">
+      ¶ 
+      Adducun<lb ed="#P" n="8" break="no"/>tur etiam alique rationes ad hoc ab aliis. Prima 
+      <lb ed="#P" n="9"/>est ista. Omnis productio in diuinis siue in 
+      crea<lb ed="#P" n="10" break="no"/>turis est per prius distinctiua quam assimilatiua. 
+      <lb ed="#P" n="11"/>Quod probatur / quia omnis productio siue vniuoca 
+      si<lb ed="#P" n="12" break="no"/>ue equiuoca est distinctiua. Non omnis autem est 
+      <lb ed="#P" n="13"/>assimilatiua sicut patet de productione equiuoca et 
+      <lb ed="#P" n="14"/>maxime de productione ista ergo principium 
+      produ<lb ed="#P" n="15" break="no"/>ctiuum debet esse quid distinctiuum producentis a 
+      pro<lb ed="#P" n="16" break="no"/>ducto magis quam assimilatiuum / et si vtrumque tamen 
+      di<lb ed="#P" n="17" break="no"/>stinctiuumest principalius: ergo principium divine 
+      ge<lb ed="#P" n="18" break="no"/>nerationis oportet quod includat relationem que est 
+      di<lb ed="#P" n="19" break="no"/>stinctiua et principalius quam essentiam licet vtrumque 
+      inclu<lb ed="#P" n="20" break="no"/>dat.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e339">
+      ¶ Secunda ratio ad rationem ex parte agentis 
+      <lb ed="#P" n="21"/>non requiritur nisi suppositum perfectum non 
+      impe<lb ed="#P" n="22" break="no"/>ditum habens principium sufficiens talis actionis. 
+      <lb ed="#P" n="23"/>Si ergo essentia sit sufficiens praecipium 
+      generandi<lb ed="#P" n="24" break="no"/>non includat relationem / et ipsa sit perfecte in filio 
+      <lb ed="#P" n="25"/>est suppositum perfectum et non possit impediri sed 
+      <lb ed="#P" n="26"/>tur quod filius poterit generare.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e356">
+      ¶ Tertia ratio que 
+      <lb ed="#P" n="27"/>ro an essentie diuine praecise secundum se et in ratione 
+      <lb ed="#P" n="28"/>essentie conueniat esse potentiam generandi / aut vt 
+      fun<lb ed="#P" n="29" break="no"/>dat determinatam relationem paternitatis in patre. 
+      <lb ed="#P" n="30"/>Si primo modo ergo filio conuenit potentia generam 
+      <lb ed="#P" n="31"/>di quod est falsum. Si secundo modo habetur proposi 
+      <lb ed="#P" n="32"/>tum quod potentia generandi principalius dicit 
+      respe<lb ed="#P" n="33" break="no"/>ctum.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e374">
+      ¶ Quarta ratio non est potentia generandi nisi 
+      <lb ed="#P" n="34"/>vt in patre / sed essentia vt in patre non est nisi patet 
+      <lb ed="#P" n="35"/>nitas / vel saltem necessario dicit paternitatem 
+      si<lb ed="#P" n="36" break="no"/>cut et pater: ergo et 
+      cetera<lb ed="#P" n="37" break="no"/>vfxistam opinionem arguo quantum ad 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e385">
+               <lb ed="#P" n="38"/>¶ Coner 2 u duo que ponit. Primum est quod 
+      <lb ed="#P" n="39"/>principium indeterminatum non potest exire in act 
+      in<lb ed="#P" n="40" break="no"/>nisi determinetur. Secundum est quod determinatur per 
+      <lb ed="#P" n="41"/>respectum.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e396">
+      ¶ Contra primum Primo sic quod est inde 
+      <lb ed="#P" n="42"/>terminatum ad plures actus indeterminatione 
+      po<lb ed="#P" n="43" break="no"/>tentie actiue potest exire in quemlibet illorum abso 
+      <lb ed="#P" n="44"/>hoc quod determinetur ab aliquo vel per aliquid aliud 
+      <lb ed="#P" n="45"/>hec est enim differentia inter indeterminatum secundum 
+      <lb ed="#P" n="46"/>potentiam actiuam / et in determinatum secundum potentiam 
+      <lb ed="#P" n="47"/>passiuam. Quod indeterminatam secundum potentiam 
+      pas<lb ed="#P" n="48" break="no"/>siuam ad aliqua non potest in aliquod illorum dete 
+      <lb ed="#P" n="49"/>minate / nisi determinetur ab alio sicut actiuo: vel 
+      <lb ed="#P" n="50"/>ex alio sicut ex forma. Alias enim posset in contradi 
+      <lb ed="#P" n="51"/>ctoria simul. Et ideo respectu intellectus ponere pro 
+      <lb ed="#P" n="52"/>heresim vel electorum determinantem. sicut dicitur 
+      no<lb ed="#P" n="53" break="no"/>non methaphisice. et respectu materie 
+      indetermina<lb ed="#P" n="54" break="no"/>te ad esse ignis vel non esse / oportet ponere formam 
+      <lb ed="#P" n="55"/>ignis adhoc vt determinetur ad esse ignis et sic 
+      de<lb ed="#P" n="56" break="no"/>aliis. Sed indeterminatum ad multa 
+      indetermina<lb ed="#P" n="57" break="no"/>tione potentie actiue sicut sol qui in virtute sua 
+      ha<lb ed="#P" n="58" break="no"/>bet plures effectus non oportet per aliud 
+      determina<lb ed="#P" n="59" break="no"/>ri ad hoc vt determinate possit in vnum. Ita enin 
+      <lb ed="#P" n="60"/>presente passo potest determinare vnum illorum ad 
+      <lb ed="#P" n="61"/>si non posset nisi illud quia quod possit in aliud / non 
+      tolli<lb ed="#P" n="62" break="no"/>ab eo aliquid perfectionis nec per consequens determi 
+      <lb ed="#P" n="63"/>nationis potentie: sed magis confert perfectionem et 
+      <lb ed="#P" n="64"/>illimitationem / sic ergo patet maior. Sed diuina 
+      <lb ed="#P" n="65"/>essentia si est indeterminata ad plures productio¬ 
+      <!--170.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>nes in ratione principii non potest esse hic nisi in 
+      de<lb ed="#P" n="67" break="no"/>terminatione potentie actiue: quia est actus purus 
+      <lb ed="#P" n="68"/>quia alias esset imperfecta: ergo non indiget relatione 
+      <lb ed="#P" n="69"/>determinante nec aliquo alio.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e464">
+      ¶ Secundo sic. Illud 
+      <lb ed="#P" n="70"/>quod in ratione principii actus est indeterminatum 
+      <lb ed="#P" n="71"/>ad plura producenda quodam ordine: potest in illa eo 
+      <lb ed="#P" n="72"/>ordine quo nata sunt produci absque aliquo alio 
+      de<lb ed="#P" n="73" break="no"/>terminante / quia hoc posito primo et ex se non potest nisi 
+      <lb ed="#P" n="74"/>in primum immediate quo posito statim immediate 
+      <lb ed="#P" n="75"/>potest in secundum. Sed essentia diuina si ponatur 
+      in<lb ed="#P" n="76" break="no"/>determinatum principium ad certam multitudinem 
+      <lb ed="#P" n="77"/>productionum sicut ponunt alii necessario ponitur 
+      in<lb ed="#P" n="78" break="no"/>determinata ad ipsas ordine quodam. Et non 
+      eque<lb ed="#P" n="79" break="no"/>immediate ad ambas: ergo non indiget relatione de 
+      <lb ed="#P" n="80"/>terminante ad primam nec ad secundam. Diceret autem 
+      <lb ed="#P" n="81"/>doctor iste qui ponit hanc rationem quod impossibile esgo 
+      <lb ed="#P" n="82"/>ponere quod essentia diuina eiusdem rationis existens 
+      <lb ed="#P" n="83"/>ponatur principium certe multitudinis 
+      supposito<lb ed="#P" n="84" break="no"/>rum vel productionum / vel quod determinet sibi tantum 
+      <lb ed="#P" n="85"/>duas ordine quodam / ita quod ipse habet ponere 
+      neces<lb ed="#P" n="86" break="no"/>serio essentiam concurrere ad producendum non vt 
+      prin<lb ed="#P" n="87" break="no"/>cipium quo / sed vt obiectum in ambabus 
+      productio<lb ed="#P" n="88" break="no"/>nibus sed intellectum / vel voluntatem vt principium 
+      <lb ed="#P" n="89"/>quo vel potentiam. Nullum enim principium ( quod 
+      ni<lb ed="#P" n="90" break="no"/>chil vnius rationis existens vel sicut commune ad 
+      <lb ed="#P" n="91"/>particularia vel sicut principium ad principiatum 
+      <lb ed="#P" n="92"/>determinat se ad certam multitudinem illorum nisi sit 
+      <lb ed="#P" n="93"/>principium liberum libertate contingentie respectu illo 
+      <lb ed="#P" n="94"/>rum sicut diuina voluntas respectu creaturarum 
+      <lb ed="#P" n="95"/>Ex quo apparet quod minor huius propositionis non 
+      <lb ed="#P" n="96"/>sumitur secundum mentem eius / sed conformatur ad dicta 
+      <lb ed="#P" n="97"/>aliorum. Nota hic dubium quare diuina essentia in  
+      <lb ed="#P" n="98"/>ratione fundamenti vel principii eiusdem rationis 
+      exi<lb ed="#P" n="99" break="no"/>stens / non potest sibi determinare duas productiones 
+      <lb ed="#P" n="100"/>alterius rationis / scilicet generationem et spirationem 
+      <lb ed="#P" n="101"/>et ordine quodam eiusdem rationis existens omnino 
+      <lb ed="#P" n="102"/>¶( sicut secundum alios qui faciunt istam rationem ) 
+      determi<lb ed="#P" n="103" break="no"/>nat sibi duas potentias productiuas scilicet 
+      intelle<lb ed="#P" n="104" break="no"/>ctum et voluntatem formaliter et ex natura rei 
+      distin<lb ed="#P" n="105" break="no"/>ctas et alterius rationis. Dico quod non est facile 
+      assi<lb ed="#P" n="106" break="no"/>gnare rationem.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e547">
+      ¶ Tertia ratio est. Si essentia 
+      di<lb ed="#P" n="107" break="no"/>uina esset tantum principium producendi filium non 
+      opor<lb ed="#P" n="108" break="no"/>teret ipsam determinari per relationem / ergo nec 
+      opor<lb ed="#P" n="109" break="no"/>tet hoc / licet sit cum hoc principium productiuum 
+      spiritu<lb ed="#P" n="110" break="no"/>sancti quia hoc non ponit in ea aliquam indeterminationem 
+      <lb ed="#P" n="111"/>que sit imperfectionis et per consequens non ponit in ea 
+      <lb ed="#P" n="112"/>indeterminationem que impediat actionem vel 
+      pro<lb ed="#P" n="113" break="no"/>ductionem huius vel illius suppositi. 
+      <lb ed="#P" n="114"/>secundum dictum scili¬ 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e568">
+               <lb ed="#P" n="115"/>¶ Quantum ad cet quod relatio 
+      deter<lb ed="#P" n="116" break="no"/>minat essentiam. Aut enim intelligis quod relatio actua 
+      <lb ed="#P" n="117"/>lis ( cuiusmodi est paternitas ) determinat essentiam 
+      <lb ed="#P" n="118"/>Aut relatio quedam habitualis alia que fundatur 
+      <lb ed="#P" n="119"/>in essentia in ordine ad talem actum productiuum: non 
+      <lb ed="#P" n="120"/>potest dici primum. Probatio quia si paternitas de 
+      <lb ed="#P" n="121"/>terminat essentiam aut determinat eam sicut 
+      actua<lb ed="#P" n="122" break="no"/>le potentiale / aut sicut ratio agendi / aut sicut 
+      ratio<lb ed="#P" n="123" break="no"/>vel conditio suppositi agentis. Non primo modo / hoc 
+      <lb ed="#P" n="124"/>est superius probatum distinctione quinta. Et est 
+      com<lb ed="#P" n="125" break="no"/>tra Damascenum quod relationes non determinant essen 
+      <lb ed="#P" n="126"/>tiam. Non secundo modo vt ratio agendi quia secundum 
+      to<lb ed="#P" n="127" break="no"/>relatio non est ratio agendi. Nec tertio modo / probo quia 
+      <lb ed="#P" n="128"/>suppositum vel conditio supositalis cuiusmodi est pa 
+      <lb ed="#P" n="129"/>ternitas non dat principio quod sit determinatum 
+      princi<lb ed="#P" n="130" break="no"/>pium aliquid agendi / sicut lignum album non dat al¬ 
+      <!--171.xml-->
+       <pb ed="#P" n="80-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>bedini quod sit determinatum principium disgregandi: 
+      <lb ed="#P" n="2"/>sed magis econuerso ex principio habet suppositum 
+      <lb ed="#P" n="3"/>quod determinate possit in illam actionem que conuenit 
+      <lb ed="#P" n="4"/>principio ergo nullo modo.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e620">
+      ¶ Secundo sic quod 
+      no<lb ed="#P" n="5" break="no"/>est principium agendi / nec determinate agendi: sed 
+      <lb ed="#P" n="6"/>relatio non est principium agendi ergo nec 
+      deter<lb ed="#P" n="7" break="no"/>minate agendi.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e629">
+      ¶ Tertio sic determinari ad 
+      produ<lb ed="#P" n="8" break="no"/>cendum aliquid infinitum non est nisi per aliud 
+      infini<lb ed="#P" n="9" break="no"/>tum: sed paternitas non est formaliter infinita / erge 
+      <lb ed="#P" n="10"/>non determinat essentiam ad producendum suppositum 
+      <lb ed="#P" n="11"/>actu infinitum.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e640">
+      ¶ Nec potest dici quia respectus ille 
+      habi<lb ed="#P" n="12" break="no"/>tualis ad actum determinet principium primo quia 
+      fun<lb ed="#P" n="13" break="no"/>damentum non est ex determinato respectu / sed 
+      ma<lb ed="#P" n="14" break="no"/>gis econuerso determinatus respectus ex 
+      determina<lb ed="#P" n="15" break="no"/>to fundamento.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e651">
+      ¶ Secundo quia actualis respectus non 
+      <lb ed="#P" n="16"/>dat potentie quod sit determinatum principium actua 
+      <lb ed="#P" n="17"/>le quia sequitur actionem / ergo nec respectus habitua 
+      <lb ed="#P" n="18"/>lis dat potentie quod sit determinatum principium 
+      ha<lb ed="#P" n="19" break="no"/>bituale talis actionis immo prius est intelligere 
+      deter<lb ed="#P" n="20" break="no"/>minatam actionem et determinatum principium quam illum 
+      <lb ed="#P" n="21"/>determinatum respectum sicut prius intelliguntur 
+      <lb ed="#P" n="22"/>extrema quam respectus / quia priora sunt.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e669">
+      ¶ Tertio quia iste 
+      <lb ed="#P" n="23"/>respectus habitualis ante actum non est realis sed 
+      ra<lb ed="#P" n="24" break="no"/>tionis tantum. In deo autem patet quia non est relatio 
+      re<lb ed="#P" n="25" break="no"/>spectus in patre alius a paternitate vel 
+      generatio<lb ed="#P" n="26" break="no"/>ne actiua que sunt idem respectus alias in deo essent 
+      <lb ed="#P" n="27"/>plures quam quatuor relationes reales notionales quod 
+      <lb ed="#P" n="28"/>est falsum. Sed dicis forte quod paternitas inquantum est 
+      <lb ed="#P" n="29"/>eadem cum generatione actiua determinat essentiam. 
+      <lb ed="#P" n="30"/>Contra. Productio actiua presupponit suum 
+      princi<lb ed="#P" n="31" break="no"/>pium determinatum ad ipsam ergo non determinat 
+      <lb ed="#P" n="32"/>ipsum ad seipsam nec ad producendum nec per consequens 
+      <lb ed="#P" n="33"/>productio passiua: quia illa presupponit actiuam et 
+      <lb ed="#P" n="34"/>principium determinatum consequenter. 
+      Dimitto<lb ed="#P" n="35" break="no"/>ergo predictam opinionem. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e701">
+               <lb ed="#P" n="36"/>¶ Quantum ad secundum 
+      pre<lb ed="#P" n="37" break="no"/>mitto primo quod potentia quantum ad potentiale signifi 
+      <lb ed="#P" n="38"/>catum significat respectum habitualem ad actum 
+      <lb ed="#P" n="39"/>Et iste respectus in abstracto mere significatur pr 
+      <lb ed="#P" n="40"/>hoc nomen potentialitas: quodquidem nomen significat 
+      <lb ed="#P" n="41"/>istum respectum in vltimata abstractione et a 
+      fun<lb ed="#P" n="42" break="no"/>damento et a subiecto et a supposito. Sed hoc nomen 
+      <lb ed="#P" n="43"/>potentia tanquam concretum huius nominis potentia 
+      <lb ed="#P" n="44"/>litas significat ipsum respectum tanquam principale 
+      si<lb ed="#P" n="45" break="no"/>gnificatum suum sed tamen in concretione ad fundame 
+      <lb ed="#P" n="46"/>tum suum quod est principium quo / et forma que est 
+      <lb ed="#P" n="47"/>ratio agendi et ideo secundario significat ipsum funda 
+      <lb ed="#P" n="48"/>mentum. Sed istud participium potens dicit et 
+      signi<lb ed="#P" n="49" break="no"/>ficat totum scilicet respectum cum fundamento vt 
+      <lb ed="#P" n="50"/>concernit subiectum vel suppositum. vnde et potens 
+      <lb ed="#P" n="51"/>concretum est huius abstracti quod est potentia. Et 
+      <lb ed="#P" n="52"/>potentia aliquo modo etiam concretum est huius 
+      vlti<lb ed="#P" n="53" break="no"/>nate abstracti quod est potentialitas quia 
+      potentiali<lb ed="#P" n="54" break="no"/>tas significat istum respectum in vltimata abstractione 
+      <lb ed="#P" n="55"/>Potentia vero non / sed in concretione ad 
+      fundamen<lb ed="#P" n="56" break="no"/>tum licet in abstractione a subiecto vel 
+      supposito<lb ed="#P" n="57" break="no"/>cui conuenit. Sed potens in concretione vlteriorum 
+      <lb ed="#P" n="58"/>quia et ad fundamentum et ad subiectum.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e753">
+      ¶ Secunde 
+      <lb ed="#P" n="59"/>premitto quod non est. intentio questionis querere de 
+      po<lb ed="#P" n="60" break="no"/>tentia generandi quantum ad illum respectum 
+      habi<lb ed="#P" n="61" break="no"/>tualem quia sic questio nullam habet difficultatem 
+      <lb ed="#P" n="62"/>Planum enim est quod potentia sic dicit respectum 
+      <lb ed="#P" n="63"/>sed intendit querere de fundamento illius 
+      respect<lb ed="#P" n="64" break="no"/>quod est principium agend i quo habet questio diffi¬ 
+      <!--171.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>cultatem.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e775">
+      ¶ Tertio premitto adhuc quod potentia ad 
+      <lb ed="#P" n="66"/>cipitur dupliciter. Uno modo precise pro principio. 
+      <lb ed="#P" n="67"/>agendi vel patiendi quo / eo modo quo dicitur 
+      quinto<lb ed="#P" n="68" break="no"/>methaphisice. et nono. quod potentia est principium 
+      agen<lb ed="#P" n="69" break="no"/>di vel patiendi vel transsubstantiandi actiue vel 
+      pa<lb ed="#P" n="70" break="no"/>siue. Alio modo accipitur potentia non solum pro 
+      princi<lb ed="#P" n="71" break="no"/>pio quo: sed pro omnibus necessario requisitis ad 
+      <lb ed="#P" n="72"/>actionem vt ponantur in re et in effectu / et dicitur 
+      ta<lb ed="#P" n="73" break="no"/>lis potentia proxima: et per ipsam excluduntur omnia 
+      <lb ed="#P" n="74"/>impedimenta et habentur omnia necessaria: et quod iste 
+      <lb ed="#P" n="75"/>modo dicatur potentia apparet nono methaphisi. 
+      <lb ed="#P" n="76"/>vbi dicit Aristoteles quod tunc aliquid est in potentia 
+      <lb ed="#P" n="77"/>actiua quando est in tali dispositione quod potest 
+      age<lb ed="#P" n="78" break="no"/>re et econuerso de passiua quod potest poni immediate: 
+      <lb ed="#P" n="79"/>nec oportet addere nisi impediantur / sed talis 
+      poten<lb ed="#P" n="80" break="no"/>tia excludit omnia impedimenta et includit omnia 
+      ne<lb ed="#P" n="81" break="no"/>cessaria. Per hoc enim quod dicitur quod est in tali 
+      dispo<lb ed="#P" n="82" break="no"/>sitione in qua potest agere intelliguntur omnia ista 
+      <lb ed="#P" n="83"/>hec de secundo. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e817">
+               <lb ed="#P" n="84"/>¶ Quantum ad tertium dico 
+      <lb ed="#P" n="85"/>respondendo ad questionem quod accipiendo potentiam 
+      <lb ed="#P" n="86"/>generandi precise pro principio quo elicitiuo actus 
+      <lb ed="#P" n="87"/>generandi quod non potest dicere respectum tantum et 
+      precise<lb ed="#P" n="88" break="no"/>Secundo quod dicit aliquid absolutum mere. Tertio quod 
+      <lb ed="#P" n="89"/>accipiendo potentiam secundo modo pro omnibus 
+      ne<lb ed="#P" n="90" break="no"/>cessariis et ad generandum quod potentia dicit vtrumque. 
+      <lb ed="#P" n="91"/>Quarto quod principalius in ipsa est absolutum 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e837">
+               <lb ed="#P" n="92"/>¶ Primum probo sic. Impossibile est quod principium 
+      <lb ed="#P" n="93"/>agendi totale quo sit minus perfectum quam terminus 
+      <lb ed="#P" n="94"/>formalis illius actionis vel productionis: quia minus 
+      <lb ed="#P" n="95"/>perfectum vel non eque perfectum saltem non potest 
+      <lb ed="#P" n="96"/>esse ratio communicandi magis perfectum / sicut 
+      di<lb ed="#P" n="97" break="no"/>ctum est supra: sed essentia vel aliquid essentiale est 
+      <lb ed="#P" n="98"/>terminus formalis diuine generationis sicut 
+      proba<lb ed="#P" n="99" break="no"/>tum est supra: ergo cum relatio non sit eque perfecta quia 
+      <lb ed="#P" n="100"/>non est formaliter infinita sicut illa impossibile est 
+      <lb ed="#P" n="101"/>quod relatio sit principium quo generandi.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e861">
+      ¶ Secundo 
+      <lb ed="#P" n="102"/>sic quando producens et productum sunt eiusdem 
+      natu<lb ed="#P" n="103" break="no"/>re et productio per consequens est vniuoca: impossibile est 
+      <lb ed="#P" n="104"/>quod ratio vel principium productiuum sit proprietas 
+      <lb ed="#P" n="105"/>ndiuidualis vel quasi indiuidualis. Probatio quia 
+      <lb ed="#P" n="106"/>principium producendi est ratio assimilandi 
+      produ<lb ed="#P" n="107" break="no"/>ctum producenti. Conditio autem indiuidualis vel 
+      <lb ed="#P" n="108"/>quasi: non potest esse ratio assimilandi / quia in nullo 
+      si<lb ed="#P" n="109" break="no"/>milis est alicui ex consequenti in producto / quia se tota 
+      <lb ed="#P" n="110"/>distinguitur a quolibet in producto / et praecipue a proprie 
+      <lb ed="#P" n="111"/>tate indiuiduali eius / quia sicut dictum est 
+      supra<lb ed="#P" n="112" break="no"/>Proprietates indiuiduales se totis formaliter 
+      di<lb ed="#P" n="113" break="no"/>stinguuntur et in nullo conueniunt et per consequens sunt 
+      <lb ed="#P" n="114"/>alterius rationis sed productio vel generatio 
+      diui<lb ed="#P" n="115" break="no"/>na est vniuoca quia alicuius subsistentis in eadem 
+      na<lb ed="#P" n="116" break="no"/>tura cum producente sicut probabiliter dictum est 
+      su<lb ed="#P" n="117" break="no"/>pra ergo relatio que est proprietas suppositalis vt se 
+      <lb ed="#P" n="118"/>t otaliter vel formaliter distinguitur a relatione pro 
+      <lb ed="#P" n="119"/>ducti non est ratio vel principium producendi. Ex quo 
+      <lb ed="#P" n="120"/>patet quod non omne illud quo aliquid est / est sibi 
+      ratio<lb ed="#P" n="121" break="no"/>agendi precipue: sed ipso est indiuidualiter vel 
+      sup<lb ed="#P" n="122" break="no"/>positaliter siue incommunicabiliter.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e910">
+      ¶ Tertio sic. 
+      rela<lb ed="#P" n="123" break="no"/>tio eadem non potest esse fundamentum suiipsius. 
+      <lb ed="#P" n="124"/>Hoc patet quia in eo quod relatiue dicitur aliud 
+      excepto<lb ed="#P" n="125" break="no"/>relato sed in deo patre fundamentum sue relationis 
+      <lb ed="#P" n="126"/>ad productum est potentia vel principium quo 
+      gene<lb ed="#P" n="127" break="no"/>randi / ergo ipsa non est principium quo generande 
+      <lb ed="#P" n="128"/>cum relatio non sit nisi vnica tantum vt dictum est supra. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e926">
+        <!--172.xml-->
+               <pb ed="#P" n="81-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Quarto sic. Si relatio est principium formale que 
+      <lb ed="#P" n="2"/>generandi sequitur quod pater sit perfectior filio. 
+      Pro<lb ed="#P" n="3" break="no"/>patio quia omne producens equiuocum totale 
+      alicu<lb ed="#P" n="4" break="no"/>cuius est simpliciter nobilius et perfectius ipso sed 
+      <lb ed="#P" n="5"/>pater ( supposito quod relatio sit principium 
+      produ<lb ed="#P" n="6" break="no"/>scendi quo est principium totale et producens 
+      equi<lb ed="#P" n="7" break="no"/>uocum ipsius filii / quia relatio est alterius rationis 
+      <lb ed="#P" n="8"/>in producente et producto / et principium producendi 
+      sibi<lb ed="#P" n="9" break="no"/>simile non habet in producto vt patet / ergo pater est 
+      <lb ed="#P" n="10"/>simpliciter perfectior in filio / et ita filius non est deus. 
+      <lb ed="#P" n="11"/>Nota quod maior huius rationis licet sit probabilis et 
+      <lb ed="#P" n="12"/>vera in creaturis non tamen est necessaria vniuersa 
+      <lb ed="#P" n="13"/>iter forte / puta in diuinis.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e963">
+      ¶ Quinto quia sequeretur 
+      <lb ed="#P" n="14"/>quod paternitas esset nobilior filiatione quia est 
+      prin<lb ed="#P" n="15" break="no"/>cipium producendi et illa non.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e970">
+      ¶ Secundum probo 
+      sci<lb ed="#P" n="16" break="no"/>licet quod principium quo productiuum vel 
+      generandi<lb ed="#P" n="17" break="no"/>sit aliquid mere absolutum / quia aut est mere relatio: 
+      <lb ed="#P" n="18"/>aut mere absolutum: aut vtrumque / non potest dici quod 
+      <lb ed="#P" n="19"/>mere relatio sicut probatum est immediate / nec quod 
+      re<lb ed="#P" n="20" break="no"/>latiuum et absolutum: quia debet esse aliquid per se 
+      <lb ed="#P" n="21"/>vnum multofortius quam actus generandi cuius est 
+      <lb ed="#P" n="22"/>principium ergo oportet quod absolutum mere.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e988">
+      ¶ 
+      Se<lb ed="#P" n="23" break="no"/>cundo sic. quando producens et productum conueniunt 
+      <lb ed="#P" n="24"/>in eadem natura absoluta principium communicand 
+      <lb ed="#P" n="25"/>naturam est mere aliquid absolutum et natura illa / 
+      <lb ed="#P" n="26"/>sicut dictum est supra de potentia anime generatiua. 
+      <lb ed="#P" n="27"/>Et patet in creaturis aliis vniuoce generabilibus 
+      <lb ed="#P" n="28"/>sed sic est in diuinis. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1004">
+      ¶ Tertio sic. Non tol 
+      <lb ed="#P" n="29"/>lit perfectionem immo ponit perfectionem in 
+      produ<lb ed="#P" n="30" break="no"/>cente vel arguit / saltem non tollit ab eo rationem ab 
+      <lb ed="#P" n="31"/>solutam et perfectionem principii productiui: sed 
+      <lb ed="#P" n="32"/>communicare naturam suam alteri in idemptitate 
+      nu<lb ed="#P" n="33" break="no"/>merali nature arguit in deo patre summam 
+      perfe<lb ed="#P" n="34" break="no"/>ctionem saltem probabiliter licet non necessario: ergo 
+      <lb ed="#P" n="35"/>hoc non tollit ab eo rationem principii productiui 
+      <lb ed="#P" n="36"/>absoluti. Sed si per impossibile deus generaret alium 
+      <lb ed="#P" n="37"/>deum in natura vel gigneret alium deum natura 
+      <lb ed="#P" n="38"/>aliquid mere absolutum esset principium illius 
+      ge<lb ed="#P" n="39" break="no"/>nerationis / et hoc ex sua perfectione: ergo etiam 
+      quam<lb ed="#P" n="40" break="no"/>do generat consubstantialem sibi in natura. Sic 
+      igi<lb ed="#P" n="41" break="no"/>tur dico quod aliquid mete essentiale et absolutum est 
+      <lb ed="#P" n="42"/>principium quo generandi.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1038">
+      ¶ Contra. Si aliqua 
+      <lb ed="#P" n="43"/>forma que per se est totale principium illicitiuum 
+      <lb ed="#P" n="44"/>alicuius operationis per se ponatur / per se agit. 
+      <lb ed="#P" n="45"/>Ponitur exemplum de accidentibus in sacramento 
+      <lb ed="#P" n="46"/>Et Auicenna dicit sexto methaphisice quod calor 
+      se<lb ed="#P" n="47" break="no"/>paratus ageret. Si ergo essentiale vel aliquid me 
+      <lb ed="#P" n="48"/>re absolutum est princium elicitiuum generationis 
+      <lb ed="#P" n="49"/>vt dictum est esum omne tale sit prius supposito / 
+      po<lb ed="#P" n="50" break="no"/>terit illud essentiale generare in illo priori / et ita 
+      ge<lb ed="#P" n="51" break="no"/>neratio erit a non supposito / quod est falsum. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e1060">
+               <lb ed="#P" n="52"/>¶ Ad hoc dico quod illa propositio prima debet 
+      intel<lb ed="#P" n="53" break="no"/>ligi si illa forma est potentia proxima et si est 
+      produ<lb ed="#P" n="54" break="no"/>ctiua a se distincti realiter vel essentialiter ab ipsa 
+      <lb ed="#P" n="55"/>sicut calor. Modo dico quod essentia diuina nec est 
+      <lb ed="#P" n="56"/>potentia proxima nec est potentia productiua 
+      alio<lb ed="#P" n="57" break="no"/>cuius realiter distincti ab ipsa licet bene a 
+      produ<lb ed="#P" n="58" break="no"/>cente. ideo et cetera. Quid est autem illud 
+      absolu<lb ed="#P" n="59" break="no"/>tum dicendum quod vel essentia precise secundum 
+      ra<lb ed="#P" n="60" break="no"/>tionem essentie / ( secundum illos qui non ponunt 
+      <lb ed="#P" n="61"/>distinctionem formalem essentie ab intellectum vel 
+      <lb ed="#P" n="62"/>memoria ipsa siue intellectus / sicut tactum est 
+      su<lb ed="#P" n="63" break="no"/>pra: tamen sine assertione / et hoc secundum 
+      ponen<lb ed="#P" n="64" break="no"/>tes illam distinctionem.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1091">
+      ¶ Tertium patet scilicet 
+      <!--172.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>quod potentia secundo modo dicta dicit absolutum et 
+      <lb ed="#P" n="66"/>respectum vt scilicet includit omnia necessaria ad 
+      <lb ed="#P" n="67"/>hoc vt suppositum generet: requiritur enim ad actum 
+      <lb ed="#P" n="68"/>generandi necessario quod essentia sit in primo 
+      suppo<lb ed="#P" n="69" break="no"/>sito et per consequens cum in nascibilitate et 
+      pater<lb ed="#P" n="70" break="no"/>nitate et concurrentibus istis essentia habet quod sit 
+      <lb ed="#P" n="71"/>potentia proxima non quod sit principium quo quia 
+      <lb ed="#P" n="72"/>hoc habet ex se.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1115">
+      ¶ Quartum patet scilicet quod 
+      prin<lb ed="#P" n="73" break="no"/>cipalius in potentia proxima sit absolutum quam 
+      re<lb ed="#P" n="74" break="no"/>spectus quia absolutum est illud per quod 
+      poten<lb ed="#P" n="75" break="no"/>tia est proxima quo ad alia per que est proxima: hoc 
+      <lb ed="#P" n="76"/>etiam patet / quia absolutum illud est in quolibet 
+      <lb ed="#P" n="77"/>supposito simpliciter perfecto non autem alia hoc 
+      <lb ed="#P" n="78"/>patet tertio quia est formaliter infinitum non 
+      au<lb ed="#P" n="79" break="no"/>tem alia: igitur et cetera. Sic ad questionem. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e1133">
+               <lb ed="#P" n="80"/>¶ Quantum ad quartum a 
+      <lb ed="#P" n="81"/>ticulum dico ad primum alterius opinionis 
+      conce<lb ed="#P" n="82" break="no"/>dendo cum ipsis quod relatio non est principium elici 
+      <lb ed="#P" n="83"/>tiuum quo.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1144">
+      ¶ Ad secundum dico quod essentia 
+      diui<lb ed="#P" n="84" break="no"/>na non est indeterminata indeterminatione 
+      passi<lb ed="#P" n="85" break="no"/>ua et potentiali sicut dictum est supra. Sed si 
+      poni<lb ed="#P" n="86" break="no"/>tur indeterminata hoc est indeterminatione 
+      acti<lb ed="#P" n="87" break="no"/>ua et ita non indiget determinatiuo. Ad exemplum 
+      <lb ed="#P" n="88"/>dico quod nec respectus ad subiectum est ratio 
+      essen<lb ed="#P" n="89" break="no"/>di tale sed forma / quia tunc esse album non esset ab 
+      <lb ed="#P" n="90"/>solutum sed respectiuum nec album principaliter 
+      si<lb ed="#P" n="91" break="no"/>gnificaret formam albedinis / licet sine inherentia 
+      <lb ed="#P" n="92"/>non sit album: nec etiam respectus habitualis 
+      for<lb ed="#P" n="93" break="no"/>me ad actum est ratio formalis determinans 
+      for<lb ed="#P" n="94" break="no"/>mam ad actum sicut probatum est supra. Unde 
+      exe<lb ed="#P" n="95" break="no"/>plum est falsum. 
+      <lb ed="#P" n="96"/>adductam 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e1176">
+               <lb ed="#P" n="97"/>¶ Ad primam rationem quod opinion 
+      <lb ed="#P" n="98"/>Dico quod omnis productio per prius secundum 
+      inten<lb ed="#P" n="99" break="no"/>tionem productionis est assimilatiua quam 
+      distincti<lb ed="#P" n="100" break="no"/>ua sicut dictum est supra. Et omnis breuiter 
+      assi<lb ed="#P" n="101" break="no"/>milatiua licet non similitudine vniuoca: sed aliqua 
+      <lb ed="#P" n="102"/>similitudine equiuoca vel analogica. Unde et 
+      om<lb ed="#P" n="103" break="no"/>nis effectus secundum Dionysium gerit 
+      similitu<lb ed="#P" n="104" break="no"/>dinem cause. Et dico tunc quod quando productio est 
+      <lb ed="#P" n="105"/>ssimilatiua vniuoce oportet necessario quod natura 
+      <lb ed="#P" n="106"/>producentis sit ratio producendi et principium quo / 
+      <lb ed="#P" n="107"/>sicut dictum est supra et sic est in proposito. 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e1202">
+               <lb ed="#P" n="108"/>¶ Ad secundum dico quod maior est vera in 
+      creatu<lb ed="#P" n="109" break="no"/>ris / in diuinis autem plus requiritur scilicet quod 
+      li<lb ed="#P" n="110" break="no"/>cet suppositum sit perfectum et non impeditum / et 
+      <lb ed="#P" n="111"/>habeat principium quo cum hoc oportet quod sit 
+      sup<lb ed="#P" n="112" break="no"/>positum conueniens tali actioni. Filius autem non 
+      <lb ed="#P" n="113"/>est suppositum conueniens ad generandum / sicut 
+      <lb ed="#P" n="114"/>dicetur infra et hoc potest poni hic loco impedimenti 
+      <lb ed="#P" n="115"/>licet proprie non sit impedimentum in diuinis Et 
+      <lb ed="#P" n="116"/>ta potest dici quod non habet potentiam proximam 
+      <lb ed="#P" n="117"/>generandi quia accipit naturam per productionem 
+      <lb ed="#P" n="118"/>adequatam principio generandi nec per consequens 
+      <lb ed="#P" n="119"/>habet principium sufficiens: licet habeat 
+      princi<lb ed="#P" n="120" break="no"/>vium quo.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1233">
+      ¶ Ad tertium dico quod aliud essentiale 
+      <lb ed="#P" n="121"/>mere et precite ad principium quo et istud / bene est 
+      <lb ed="#P" n="122"/>in filio / et tamen filius non generat: quia plura 
+      re<lb ed="#P" n="123" break="no"/>quiruntur sicut dictum est.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1242">
+      ¶ Ad quartum dico quod 
+      <lb ed="#P" n="124"/>essentia vel essentiale secundum quod huiusmodi est 
+      <lb ed="#P" n="125"/>principium quo puta menoria generandi: sed quod menoria et 
+      <lb ed="#P" n="126"/>voluntas spiratiua secundum quod voluntas: tamen potentia proxima 
+      <!--173.xml-->
+       <pb ed="#P" n="81-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>bene concludit respectum vt dictum est supra¬ 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e1260">
+               <lb ed="#P" n="2"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="3"/>quod quando forma communis est non communitate 
+      pre<lb ed="#P" n="4" break="no"/>dicationis sed communitate idemptitatis numeralis 
+      <lb ed="#P" n="5"/>in pluribus suppositis suppositum bene potest 
+      age<lb ed="#P" n="6" break="no"/>re propriam actionem per talem formam sic 
+      commi<lb ed="#P" n="7" break="no"/>nem / sicut per principium quo sic autem est in 
+      diui<lb ed="#P" n="8" break="no"/>nis: sed loquendo de propria forma secundum quod 
+      di<lb ed="#P" n="9" break="no"/>stinguitur contra formam communem communitate 
+      pre<lb ed="#P" n="10" break="no"/>dicationis. Dico bene quod suppositum agit propriam 
+      <lb ed="#P" n="11"/>actionem per formam propriam et non per formam 
+      <lb ed="#P" n="12"/>alterius sicut est in omnibus creatis quibus forma 
+      pas<lb ed="#P" n="13" break="no"/>titur et numeratur in distinctis suppositis non sic esgo 
+      <lb ed="#P" n="14"/>autem in diuinis. Et per hoc patet ad probationem 
+      <lb ed="#P" n="15"/>quod non procedit in diuinis sed est equiuocatio de 
+      con<lb ed="#P" n="16" break="no"/>munitate forme.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1295">
+      ¶ Ad secundum dico quod omne 
+      ab<lb ed="#P" n="17" break="no"/>solutum est commune in diuinis. Et dico quod 
+      princi<lb ed="#P" n="18" break="no"/>pium quo / generandi commune est / non tamen 
+      genera<lb ed="#P" n="19" break="no"/>re sicut dictum est supra. Si dicatur contra 
+      predi<lb ed="#P" n="20" break="no"/>cta quod philosophus arguit primo Ethicorum sic. 
+      <lb ed="#P" n="21"/>Felicitas conuenit homini et non conuenit bruto. ergo 
+      <lb ed="#P" n="22"/>conuenit homini secundum intellectum in quo 
+      di<lb ed="#P" n="23" break="no"/>stinguitur a bruto ergo in proposito generare 
+      conue<lb ed="#P" n="24" break="no"/>nit patri secundum illud in quo distinguitur a 
+      filio<lb ed="#P" n="25" break="no"/>et videtur quod ita potentia generandi non est aliud 
+      com<lb ed="#P" n="26" break="no"/>mune sed relatio. Dico quod argumentum Aristote 
+      <lb ed="#P" n="27"/>lis non valet gratia forme / et ita non oportet quod valeat 
+      <lb ed="#P" n="28"/>in proposito nostro / sed in proposito valet gratia 
+      ma<lb ed="#P" n="29" break="no"/>terie / quia homo et brutum sunt essentialiter 
+      distin<lb ed="#P" n="30" break="no"/>cta et specifice / sic quod vnum habet intellectum et 
+      reli<lb ed="#P" n="31" break="no"/>quum non habet: quia si haberet nulla ratio posset 
+      ass<lb ed="#P" n="32" break="no"/>gnari quare non esset verificabile sicut in 
+      proposito<lb ed="#P" n="33" break="no"/>patur ratio / quia filius non potest generare licet 
+      prin<lb ed="#P" n="34" break="no"/>cipium generandi sit commune.
+    </p>
+            <p xml:id="qrdBas-a50992-d1e1338">
+      ¶ Ad tertium dico 
+      <lb ed="#P" n="35"/>quod patri eo est filius quo est pater correlatiue quia 
+      <lb ed="#P" n="36"/>paternitate est pater formaliter / et per ipsam pater 
+      <lb ed="#P" n="37"/>nitatem habet filium correlatiuum vel correlatiue 
+      <lb ed="#P" n="38"/>sed non eo principiatiue sed magis essentia qua deus 
+      </p>
+            <p xml:id="qrdBas-a50992-d1e1349">
+               <lb ed="#P" n="39"/>¶ Ad quartum dico quod producere et produci conueni 
+      <lb ed="#P" n="40"/>re eidem realiter implicat contradictionem: sed 
+      di<lb ed="#P" n="41" break="no"/>co quod ista conuenire distinctis suppositis realiter se 
+      <lb ed="#P" n="42"/>cundum idem vt principium quo et terminum 
+      for<lb ed="#P" n="43" break="no"/>malem non implicat contradictionem: quia non 
+      impli<lb ed="#P" n="44" break="no"/>cat nisi quod principium productiuum quo conicetur 
+      pro<lb ed="#P" n="45" break="no"/>ducto a producente et hic nulla est contradictio vt 
+      <lb ed="#P" n="46"/>patet / quia communicatum preexistere potest 
+      com<lb ed="#P" n="47" break="no"/>municationi: non sic productum productioni: sed quod 
+      <lb ed="#P" n="48"/>idem producat seipsum est contradictio quia implicat 
+      <lb ed="#P" n="49"/>quod non ens producat ens sicut dicetur infra. ideo etc 
+      <lb ed="#P" n="50"/>Auctoritates ad propositum concedo intelligendo 
+      <lb ed="#P" n="51"/>eas de principio quo productiuo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

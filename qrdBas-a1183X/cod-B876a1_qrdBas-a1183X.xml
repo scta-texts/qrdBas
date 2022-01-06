@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="183-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1183X"><!-- l1d33q2 -->
+            <head xml:id="qrdBas-a1183X-Hd1e99">Quaestio 2</head>
+            <p xml:id="qrdBas-a1183X-d1e101">
+               <lb ed="#P" n="7"/>Distinctionis. xxxiii. 
+      <lb ed="#P" n="8"/>Questio Secunda.
+  </p>
+            <p xml:id="qrdBas-a1183X-d1e108">
+               <lb ed="#P" n="9"/>SEcundo quaero 
+      utru<lb ed="#P" n="10" break="no"/>proprietas sit idem quod persona.s
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e115">
+               <lb ed="#P" n="11"/>¶ Uidetur quod non. Constituens 
+      <lb ed="#P" n="12"/>determinans et distinguens non 
+      <lb ed="#P" n="13"/>est idem quod constitutum 
+      deter<lb ed="#P" n="14" break="no"/>minatum et distinctum. Sed 
+      per<lb ed="#P" n="15" break="no"/>sona est constitutum determina 
+      <lb ed="#P" n="16"/>tum / et distinctum. Proprietas 
+      <lb ed="#P" n="17"/>vero constituens determinans 
+      <lb ed="#P" n="18"/>et distinguens: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e135">
+      ¶ Secundo sic. Multiplicata pro 
+      <lb ed="#P" n="19"/>prietate non multiplicatur persona: quia in vna perso 
+      <lb ed="#P" n="20"/>na sunt plures proprietates / ergo proprietas et 
+      per<lb ed="#P" n="21" break="no"/>sona non sunt idem.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e145">
+      ¶ Tertio sic. Si proprietas est 
+      <lb ed="#P" n="22"/>persona vna relatio erit due persone: et per consequens 
+      <lb ed="#P" n="23"/>due relationes: sicut spiratio actiua quae est in patre et 
+      <lb ed="#P" n="24"/>filio hoc est falsum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e154">
+      ¶ Quarto sic. Pater 
+      ge<lb ed="#P" n="25" break="no"/>nerat: paternitas non generat: nec est pater: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e159">
+               <lb ed="#P" n="26"/>¶ Contra secundum Augustinum. xi. de trinita. dei. Deus 
+      <lb ed="#P" n="27"/>est quicquid habet excepto relatiuo. Sed persona 
+      di<lb ed="#P" n="28" break="no"/>uina habet proprietatem non vt correlatiuum suum: quia 
+      <lb ed="#P" n="29"/>tunc ad seipsum referretur: ergo est eadem sibi. 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e170">
+               <lb ed="#P" n="30"/>¶  
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e175">
+               <lb ed="#P" n="31"/>¶ In ista quaestione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e180">
+               <lb ed="#P" n="32"/>¶ Primo inquiram vtrum proprietas sit in 
+      persbna<lb ed="#P" n="33" break="no"/>et in essentia.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e188">
+      ¶ Secundo inquiram in quo est per prius. 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e190">
+               <lb ed="#P" n="34"/>¶ Tertio de proposito vtrum sit proprietas idem quod 
+      <lb ed="#P" n="35"/>persona et huiusmodi.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e197">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e199">
+               <lb ed="#P" n="36"/>¶ Quantum ad primum 
+      dici<lb ed="#P" n="37" break="no"/>tur fuisse opinio porretani quod proprietas non est in 
+      essen<lb ed="#P" n="38" break="no"/>tia nec in persona: non enim secundum eum insistens vel infixe 
+      <lb ed="#P" n="39"/>vel assistens vel affixa. Hoc probauit per rationem 
+      <lb ed="#P" n="40"/>Nam insistere potest intelligi vel per inherentiam et 
+      <lb ed="#P" n="41"/>hoc non potest esse in diuinis: quia nullum accidens est 
+      <lb ed="#P" n="42"/>in diuinis: sed omnia ibi subsistunt aut sicut pars in 
+      to<lb ed="#P" n="43" break="no"/>to contenta a persona nec hoc potest esse verum. Tum 
+      <lb ed="#P" n="44"/>quia in deo non est pars neque totum. Tum quia 
+      persona<lb ed="#P" n="45" break="no"/>non est nisi hoc et hoc: ita persona non continet hoc / sicut 
+      <lb ed="#P" n="46"/>nec idem seipsum vel vnum hoc vel aliud hoc.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e225">
+      ¶ 
+      Secun<lb ed="#P" n="47" break="no"/>do per Boetium de trinitate vbi dans differentiam 
+      <lb ed="#P" n="48"/>inter nomina dicit quod aliqua significant rem vt 
+      substan<lb ed="#P" n="49" break="no"/>tia quantitas qualitas quedam modum rei affixum 
+      <lb ed="#P" n="50"/>cuiusmodi sunt relationes.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e236">
+      ¶ Ista positio est 
+      here<lb ed="#P" n="51" break="no"/>tica tamen non est censendus hereticus porretanus: quia 
+      <lb ed="#P" n="52"/>subiecit se consilio Remensi reuocando eam ibi. 
+      <lb ed="#P" n="53"/>positionem in se arguo sic. Rela¬ 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e246">
+               <lb ed="#P" n="54"/>¶ Contra tiones divine sunt vere aliqua 
+      res<lb ed="#P" n="55" break="no"/>et eterne. Sed res vera que non est in essentia vel in 
+      <lb ed="#P" n="56"/>persona diuina est essentialiter distincta a deo / et non 
+      <lb ed="#P" n="57"/>est deus: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e257">
+      ¶ Secundo sic. Quecumque concurrunt ad  
+      <lb ed="#P" n="58"/>constitutionem alicuius vnius quorum vnum non est in 
+      <lb ed="#P" n="59"/>alio necessario faciunt aggregationem / et illud non est 
+      <lb ed="#P" n="60"/>vnum nisi aggregatione: sicut aceruus lapidum. Si 
+      er<lb ed="#P" n="61" break="no"/>go relatio non sit in essentia persona non est vna nisi as 
+      <lb ed="#P" n="62"/>gregatione.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e270">
+      ¶ Tertio sic. Relatio necessario est in 
+      <lb ed="#P" n="63"/>fundamento / alias non apparet necessitas quod funda¬ 
+      <!--378.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>mentum sit reale: sed essentia est fundamentum 
+      rela<lb ed="#P" n="65" break="no"/>tionis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e283">
+      ¶ Quarto patet: quia constitutiuum 
+      <lb ed="#P" n="66"/>formale et distinctiuum alicuius est in ipso: sed 
+      pro<lb ed="#P" n="67" break="no"/>prietas aliqua est huiusmodi respectu persone: ergo etc. 
+      <lb ed="#P" n="68"/>Dico quod relatio est insistens vel existens per 
+      compara<lb ed="#P" n="69" break="no"/>tionem ad fundamentum: et cum hoc assistens vel quasi 
+      <lb ed="#P" n="70"/>affixa per comparationem ad terminum: dico enim quod 
+      insi<lb ed="#P" n="71" break="no"/>stens sunt essentie inquantum per veram identitatem 
+      rea<lb ed="#P" n="72" break="no"/>lem transeunt in ipsam / et persone vt proprietas 
+      natu<lb ed="#P" n="73" break="no"/>re inest vel inexistit supposito et constitutiuum vel 
+      <lb ed="#P" n="74"/>distinctiuum constituto. Sed assistunt cum hoc in 
+      ordi<lb ed="#P" n="75" break="no"/>ne ad terminum secundum eos persone ad aliud referuntur. 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e307">
+               <lb ed="#P" n="76"/>¶ Ex quo patet quod parum valet dictum vnius quod 
+      tan<lb ed="#P" n="77" break="no"/>tumodo proprietas insistit et non assistit: quia 
+      proprie<lb ed="#P" n="78" break="no"/>tas vt proprietas vel relatio vt proprietas 
+      consti<lb ed="#P" n="79" break="no"/>tuit personam: et nullo modo secundum quod huiusmodi 
+      egre<lb ed="#P" n="80" break="no"/>ditur a persona: quia via ad relatiuum vel relatio quod 
+      <lb ed="#P" n="81"/>tamen conuenit origini. Et ideo dicunt vltra quod 
+      relatior<lb ed="#P" n="82" break="no"/>vt origo non constituit et quod assistit magis quam insistatim 
+      <lb ed="#P" n="83"/>relatio namque quidditatiue est habitudo in fundamen 
+      <lb ed="#P" n="84"/>to ad terminum: et ideo impossibile est circunscribere 
+      <lb ed="#P" n="85"/>ab ipsa vel etiam abstrahere habitudinem ad terminum. 
+      <lb ed="#P" n="86"/>Et ideo dico quod relatio non solum vt proprietas et 
+      in<lb ed="#P" n="87" break="no"/>sistens tantum constituit diuinum suppositum valde bene et 
+      <lb ed="#P" n="88"/>constituit suppositum relatiuum: et ideo nichil valet 
+      <lb ed="#P" n="89"/>dictum eorum / quod origo non constituit: quia relatio et 
+      ori<lb ed="#P" n="90" break="no"/>go idem sunt omnino vt dictum est supra. Quantum est 
+      <lb ed="#P" n="91"/>ex natura rei relatio autem secundum idem quod est ex 
+      natu<lb ed="#P" n="92" break="no"/>ra rei constituit sicut patet. Nota secundum id quod 
+      <lb ed="#P" n="93"/>tu imaginaris vel fabricas circa ipsam per 
+      intelle<lb ed="#P" n="94" break="no"/>ctum tuum. 
+      <lb ed="#P" n="95"/>illorum dico quod relatio non  
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e353">
+               <lb ed="#P" n="96"/>¶ Ad primum inexistit essentie vt accidens: 
+      <lb ed="#P" n="97"/>sed vt proprietas ipsi nature transiens per identitatem   
+      <lb ed="#P" n="98"/>realem cum ipsa vel in ipsam: et similiter vt relatio 
+      con<lb ed="#P" n="99" break="no"/>substantialis fundamento non accidentalis. Similiter 
+      <lb ed="#P" n="100"/>etiam dico quod non inexistit persone vt pars eius aliquo 
+      <lb ed="#P" n="101"/>modo: sed vt constitutiuum eius et distinctiuum / et vt 
+      <lb ed="#P" n="102"/>proprietas nature in supposito nature.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e372">
+      ¶ Ad 
+      secun<lb ed="#P" n="103" break="no"/>dum de Boetio dico quod Porretanus male 
+      intelle<lb ed="#P" n="104" break="no"/>xit Boetium: quia Boetius per illud dictum 
+      intelle<lb ed="#P" n="105" break="no"/>xit quod relatio dicit rem suam in habitudine ad aliud 
+      <lb ed="#P" n="106"/>extrinsecum sibi / et pro tanto dicit eam esse affixam quam 
+      <lb ed="#P" n="107"/>tum insistat: non autem dicit rem suam ad se nec 
+      insisten<lb ed="#P" n="108" break="no"/>do tantum sicut absoluta que stant infra se. hec deus 
+      <lb ed="#P" n="109"/>primo articulo. 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e390">
+               <lb ed="#P" n="110"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="111" break="no"/>ticulum ostendo primo quomodo diuersimode pro 
+      <lb ed="#P" n="112"/>prietas est in essentia et persona. Secundo quo ordine.  
+      <lb ed="#P" n="113"/>Tertio mouebo vnum dubium et soluam.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e401">
+      ¶ De primo u 
+      <lb ed="#P" n="114"/>dico quod relatio est in persona sicut actus personalis 
+      con<lb ed="#P" n="115" break="no"/>stituens ipsam et distinguens et referens vel 
+      denomi<lb ed="#P" n="116" break="no"/>nans: quia est persona relatiua Et ista sunt vera de 
+      pro<lb ed="#P" n="117" break="no"/>prietate constitutiua: vltima duo tantum de proprietate 
+      con<lb ed="#P" n="118" break="no"/>stitutiua. Relatio autem vel proprietas non est in 
+      essen<lb ed="#P" n="119" break="no"/>tia aliquo istorum modorum. Relatio vero vno 
+      mo<lb ed="#P" n="120" break="no"/>do est in essentia sicut in fundamento: et istomodo non 
+      <lb ed="#P" n="121"/>est in persona. Aliomodo est in essentia sicut proprie 
+      <lb ed="#P" n="122"/>tas in natura: sicut suo modo in creaturis proprietas 
+      <lb ed="#P" n="123"/>indiuidualis est in natura creata: et isto modo non 
+      <lb ed="#P" n="124"/>est in persona. Sed in persona est sicat proprietas 
+      in<lb ed="#P" n="125" break="no"/>diuidualis in supposito nature: vt differentia 
+      indiui<lb ed="#P" n="126" break="no"/>dualis in sorte. Sed tamen istis duobus modis 
+      re<lb ed="#P" n="127" break="no"/>latio est differenter in essentia diuina et persona / et 
+      <!--379.xml-->
+       <pb ed="#P" n="183-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>differenter in natura creata et supposito suo: Nam in 
+      <lb ed="#P" n="2"/>natura creata sic est differentia indiuidualis: quod 
+      li<lb ed="#P" n="3" break="no"/>cet non distinguatur essentialiter ab ipsa: tamen non transi 
+      <lb ed="#P" n="4"/>ipsam per identitatem realem / et ideo actuat ipsam est 
+      <lb ed="#P" n="5"/>determinat / et contrahit / et denominat / et facit 
+      compos<lb ed="#P" n="6" break="no"/>tionem cum ipsa. Unde natura dicitur indiuidua per 
+      ip<lb ed="#P" n="7" break="no"/>sam. Sed in natura diuina sic est proprietas quod. est 
+      <lb ed="#P" n="8"/>eadem realiter sibi: et per consequens nec actuat / nec com 
+      <lb ed="#P" n="9"/>trahit: nec determinat: nec denominat: sed tantummo. 
+      <lb ed="#P" n="10"/>do suppositum determinat et deuominat et constituit et 
+      <lb ed="#P" n="11"/>facit: nec facit compositionem cum essentia aliquo 
+      mon<lb ed="#P" n="12" break="no"/>do.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e466">
+      ¶ De ordine dico quod non intendo loqui de ordinem 
+      <lb ed="#P" n="13"/>nature vel originis: sed de ordine rationis. 
+      Quan<lb ed="#P" n="14" break="no"/>do quero an prius sit proprietas in essentia quam in per 
+      <lb ed="#P" n="15"/>sona vel econuerso: quia inter ista non est ordo 
+      origi<lb ed="#P" n="16" break="no"/>nis proprie: quia non comparantur sicut producens et 
+      <lb ed="#P" n="17"/>productum nec ordo nature patet. Dico igitur de hoc 
+      <lb ed="#P" n="18"/>quod si relatio consideretur vt constitutiua est / sic est in 
+      <lb ed="#P" n="19"/>persona tanquam in constituto: et non in essentia nisi per ad 
+      <lb ed="#P" n="20"/>cidens forte per accidens inquantum essentia concurrit 
+      <lb ed="#P" n="21"/>ad suppositum constitutum: sed nec hoc est proprie 
+      di<lb ed="#P" n="22" break="no"/>crum: et ideo magis proprie dictum est quod isto modo 
+      tan<lb ed="#P" n="23" break="no"/>tum est in persona. Si vero consideretur vt est in aliquo 
+      <lb ed="#P" n="24"/>sicut infundamento sic est in essentia: et non in 
+      persona<lb ed="#P" n="25" break="no"/>et ita in istis duobus modis non est prius et posterius 
+      <lb ed="#P" n="26"/>in hoc vel in illo. Si autem consideretur vt proprietas 
+      <lb ed="#P" n="27"/>nature: sic primo conuenit nature / et quasi ratio 
+      perso<lb ed="#P" n="28" break="no"/>ne inquantum est habens. Similiter etiam prius est 
+      rela<lb ed="#P" n="29" break="no"/>tio in essentia vt in eo in quo transit per identitatem 
+      <lb ed="#P" n="30"/>realem quam in persona: quia non transit in personam nisi 
+      <lb ed="#P" n="31"/>ratione essentie.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e510">
+      ¶ Dubium est quare est proprietam 
+      <lb ed="#P" n="32"/>vt paternitas sit in essentia vt in fundamento et in 
+      pi<lb ed="#P" n="33" break="no"/>sona: vt in constituto vel relato sicut etiam equalitas 
+      <lb ed="#P" n="34"/>vel similitudo. Quare pater non dicitur pater secundum 
+      <lb ed="#P" n="35"/>substantiam vel essentiam: sicut equalis vel similis. 
+      <lb ed="#P" n="36"/>Et dico ad hoc quia si ly secundum comnotet rationem 
+      fun<lb ed="#P" n="37" break="no"/>damentalem non video magnum inconueniens quod hoc 
+      di<lb ed="#P" n="38" break="no"/>catur sicut illud. Si vero notet rationem formalem: sic 
+      <lb ed="#P" n="39"/>neutra debet concedi. Quia tamen vsus sanctorum et 
+      do<lb ed="#P" n="40" break="no"/>ctorum concedit vnam et non aliam dico quod ratio huius est 
+      <lb ed="#P" n="41"/>quia equalitas fundatur vt iam est in suppositis: quia 
+      <lb ed="#P" n="42"/>presupponit supposita constituta / et ideo non potest 
+      con<lb ed="#P" n="43" break="no"/>cedi quod equalitas sit actus essentie conueniens vt 
+      rea<lb ed="#P" n="44" break="no"/>le: sed suppositi et conceditur illa. Sed paternitas vel 
+      <lb ed="#P" n="45"/>proprietas fundatur in essentia secundum quod preintelligitur 
+      <lb ed="#P" n="46"/>in suppositis: et ideo si concederetur ista quod pater sit 
+      pr<lb ed="#P" n="47" break="no"/>ter secundum essentiam: esset occasio euadendi credendi quod 
+      patrum<lb ed="#P" n="48" break="no"/>t as esset actus essentie: ideo non conceditur. hec de secundo art. 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e549">
+               <lb ed="#P" n="49"/>¶ Quantum ad tertium 
+      articu<lb ed="#P" n="50" break="no"/>lum dico quod non obstante summa identitate reali 
+      ha<lb ed="#P" n="51" break="no"/>bet tamen proprietas et persona aliquam non identitatem 
+      <lb ed="#P" n="52"/>vel distinctionem formalem.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e561">
+      ¶ Quod autem habeant idem 
+      <lb ed="#P" n="53"/>titatem realem. Probo primo sic. Relatio et essentia 
+      <lb ed="#P" n="54"/>sunt idem realiter: sicut patet ex precedenti quaestione 
+      <lb ed="#P" n="55"/>Cum igitur persona non includat nec sit nisi ista 
+      duo<lb ed="#P" n="56" break="no"/>proprietas et persona sunt idem realiter. Secundo sic. 
+      <lb ed="#P" n="57"/>Infinitum intensiue est idem realiter cuilibet sibi 
+      for<lb ed="#P" n="58" break="no"/>maliter compossibili in eodem. Sed persona diuina 
+      ra<lb ed="#P" n="59" break="no"/>tione essentie quam includit est infinita intensiue vt 
+      <lb ed="#P" n="60"/>patet: ergo est eadem proprietati sue sibi compossibil 
+      <lb ed="#P" n="61"/>vel intrinsece. Tertio sic. Quando aliquid continet 
+      <lb ed="#P" n="62"/>plura: quorum vnum per identitatem realem transit in 
+      ali<lb ed="#P" n="63" break="no"/>rumipsum per identitatem est quotlibet ipsorum: per 
+      <lb ed="#P" n="64"/>sona diuina est huiusmodi: quia continet essentiam 
+      <!--379.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>et relationem igitur. Quarto sic. Quia relatio est 
+      <lb ed="#P" n="66"/>magis idem realiter vere ( saltem non minus ) cum illo 
+      <lb ed="#P" n="67"/>quod includit ipsam intrinsece in conceptu quidditati 
+      <lb ed="#P" n="68"/>uo / quam cum illo in quo non includitur. Sed 
+      proprie<lb ed="#P" n="69" break="no"/>tas est in persona et includitur: non autem in essentia: et tamen 
+      <lb ed="#P" n="70"/>est eadem cum essentia ergo et cum persona: tamen non curo 
+      <lb ed="#P" n="71"/>multum de ista ratione. Hoc est primum dictum 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e609">
+               <lb ed="#P" n="72"/>¶ Secundo dico quod habent non identitatem vel 
+      distinctio<lb ed="#P" n="73" break="no"/>nem formalem aliquam. Ad cuius euidentiam notandum 
+      <lb ed="#P" n="74"/>quod identitas vel non identitas relationis et persone 
+      cu<lb ed="#P" n="75" break="no"/>ius est potest accipi dupliciter. Uno modo 
+      compa<lb ed="#P" n="76" break="no"/>rando ad relationem vnius persone ad aliam personan 
+      <lb ed="#P" n="77"/>ad quam refertur persona secundum illam relationem: et sic 
+      ip<lb ed="#P" n="78" break="no"/>sa relatio est eadem cum persona formaliter cuius est 
+      <lb ed="#P" n="79"/>quia est de suo conceptu quidditatiuo: sicut illud per 
+      <lb ed="#P" n="80"/>quod constituitur et distinguitur primo ab alior vel sal 
+      <lb ed="#P" n="81"/>tem illud per quod refertur inquantum tale relatiuum 
+      <lb ed="#P" n="82"/>non econuerso persona est eadem formaliter ipsi 
+      rela<lb ed="#P" n="83" break="no"/>tioni: quiam nunquam persona includitur in conceptu quid 
+      <lb ed="#P" n="84"/>ditatiuo proprietati: sicut nec essentia quam includit 
+      <lb ed="#P" n="85"/>persona. Unde ista relatio quidditatis formalis 
+      ip<lb ed="#P" n="86" break="no"/>sius proprietatis ad personam que fundatur in relatio 
+      <lb ed="#P" n="87"/>ne et terminatur ad personam non est mutua: non enim 
+      in<lb ed="#P" n="88" break="no"/>persona habetur mutua relatio que fuudetur in ipsa 
+      <lb ed="#P" n="89"/>persona et terminetur ad ipsam proprietatem: sicut etiam 
+      <lb ed="#P" n="90"/>rationale vel animal sunt idem homini per se primo 
+      <lb ed="#P" n="91"/>modo / non tamen homo sic est idem alicui ipsorum. Alio 
+      <lb ed="#P" n="92"/>modo potest comparari proprietas ad personam 
+      cu<lb ed="#P" n="93" break="no"/>ius est: et sic dico ( sicut iam dictum est et tactum ) quod non 
+      <lb ed="#P" n="94"/>habent non identitatem vel distinctionem formalem: quia 
+      <lb ed="#P" n="95"/>aliud includit persona quod non relatio: vel proprietas 
+      <lb ed="#P" n="96"/>conceptu suo quidditatiuo puta essentiam. Sic ergo 
+      ha<lb ed="#P" n="97" break="no"/>bent non identitatem continentie vel mutuitatis: quia si 
+      <lb ed="#P" n="98"/>relatio sit formaliter eadem persone non tamen 
+      econuerso<lb ed="#P" n="99" break="no"/>quia aliud plus continet scilicet persona: etiam quia 
+      per<lb ed="#P" n="100" break="no"/>sona est idem secundum rem alicui cui non proprietas: vt 
+      pa<lb ed="#P" n="101" break="no"/>ter spirationi actiue / cui non est eadem paternitas / eo 
+      <lb ed="#P" n="102"/>quod non est infinita. Secundo non identitatem habent 
+      adequa<lb ed="#P" n="103" break="no"/>tionis nisi secundum perfectionem: quia persona est 
+      forma<lb ed="#P" n="104" break="no"/>liter infinita in ratione essentie quam includit: pro 
+      <lb ed="#P" n="105"/>prietas vero non: et secundum predicationem etiam quia 
+      ali<lb ed="#P" n="106" break="no"/>quid praedicatur de persona quod non de relatione: sicut dici 
+      <lb ed="#P" n="107"/>mus quod persona generat vel huiusmodi / non tamen pater 
+      <lb ed="#P" n="108"/>nitas vel proprietas.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e692">
+      ¶ Ex praedictis concludo quod 
+      opi<lb ed="#P" n="109" break="no"/>nio praepositiui que fuit quod persona et proprietas non 
+      distin<lb ed="#P" n="110" break="no"/>guuntur nisi secundum rationem fuit falsa: posuit enim quod 
+      perso<lb ed="#P" n="111" break="no"/>ne se totis primo distinguuntur: sicut et proprietas sicut et 
+      <lb ed="#P" n="112"/>dictum est supra et argutum contra ipsum distin. xx vt 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e703">
+               <lb ed="#P" n="113"/>¶ Tamen modo possunt poni due rationes contra eum 
+      <lb ed="#P" n="114"/>Prima est: quia vna et eadem persona habet duas 
+      habi<lb ed="#P" n="115" break="no"/>tudines vel proprietates / sicut pater ad filium / et 
+      fili<lb ed="#P" n="116" break="no"/>ad patrem / et spiritum sanctum.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e714">
+      ¶ Secunda est ista due 
+      perso<lb ed="#P" n="117" break="no"/>ne habent vnam proprietatem / sicut pater et filius spira 
+      <lb ed="#P" n="118"/>tionem actiuam: ergo due persone sunt vna proprietas / et 
+      conse<lb ed="#P" n="119" break="no"/>quenter vna persona / que sunt falsa. Et ideo dico quod 
+      <lb ed="#P" n="120"/>proprietas et persona distinguuntur aliter quam secundum 
+      ra<lb ed="#P" n="121" break="no"/>tionem ( sicut dictum est. Hec de tertio articulo 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e727">
+               <lb ed="#P" n="122"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="123"/>quod cum identitate reali stat distinctio formalis 
+      suffi<lb ed="#P" n="124" break="no"/>ciens ad saluandum omnia illa.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e737">
+      ¶ Ad secundum dico quod 
+      be<lb ed="#P" n="125" break="no"/>ne concludit quod persona et proprietas non sunt idem identi 
+      <lb ed="#P" n="126"/>tate adequata: sed non quin sicut idem identitate reali¬ 
+      </p>
+            <p xml:id="qrdBas-a1183X-d1e744">
+               <lb ed="#P" n="127"/>¶ Ad tertium dico quod non est inconueniens quod vna sit 
+      <lb ed="#P" n="128"/>due proprietates / vel due persone vna proprietas per 
+      <!--380.xml-->
+       <pb ed="#P" n="184-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>identitatem realem.
+    </p>
+            <p xml:id="qrdBas-a1183X-d1e760">
+      ¶ Ad quartum dico quod illa 
+      predi<lb ed="#P" n="2" break="no"/>catio impeditur propter diuersum modum 
+      signifi<lb ed="#P" n="3" break="no"/>candi personam in concreto: et proprietatem in 
+      abstracto<lb ed="#P" n="4" break="no"/>vel propter non identitatem formalem relationis cum 
+      <lb ed="#P" n="5"/>persona: et vtrumque sufficit ad impediendum praedicatio 
+      <lb ed="#P" n="6"/>nem istam. Paternitas generat: et sic de similibus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

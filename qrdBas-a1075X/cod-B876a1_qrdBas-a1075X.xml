@@ -1,0 +1,331 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="166-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1075X"><!-- l1d29q1 -->
+            <head xml:id="qrdBas-a1075X-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a1075X-d1e101">
+               <lb ed="#P" n="117"/>¶ Distinctionis. xxix. 
+      <lb ed="#P" n="118"/>Questio Unica.
+  </p>
+            <p xml:id="qrdBas-a1075X-d1e108">
+               <lb ed="#P" n="119"/>CIrca distinctionem 
+      <lb ed="#P" n="120"/>vigesimamnonam. Quero vnum 
+      <lb ed="#P" n="121"/>scilicet vtrum in diuinis sit 
+      princi<lb ed="#P" n="122" break="no"/>pium.
+    </p>
+            <p xml:id="qrdBas-a1075X-d1e119">
+      ¶ Uidetur quod non. 
+      Prin<lb ed="#P" n="123" break="no"/>cipium et finis correlatiue 
+      di<lb ed="#P" n="124" break="no"/>cuntur: sed in deo non est finis: quia 
+      <lb ed="#P" n="125"/>in infinito non est finis: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e128">
+               <lb ed="#P" n="126"/>¶ Secundo sic. Si in deo est 
+      <lb ed="#P" n="127"/>principium aut hoc est ad 
+      in<lb ed="#P" n="128" break="no"/>tra aut ad extra. Sed non ad intra: quia quicquid est 
+      <!--345.xml-->
+       <pb ed="#P" n="166-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>in deo est independens: et per consequens non principia 
+      <lb ed="#P" n="2"/>tum: et per consequens non est ibi principium / nec ad 
+      <lb ed="#P" n="3"/>extra: quia quicquid est ad extra in ipso non est nisi 
+      <lb ed="#P" n="4"/>respectus rationis. Sed respectus rationis non est 
+      <lb ed="#P" n="5"/>principium: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1075X-d1e155">
+      ¶ Tertio sic. Si in diuinis est 
+      prin<lb ed="#P" n="6" break="no"/>cipium ad intra ita quod principium dicatur de patre et 
+      <lb ed="#P" n="7"/>filio respectu spiritus sancti / et similiter ad extra ita 
+      <lb ed="#P" n="8"/>quod principium dicatur de tribus respectu creature / aut 
+      <lb ed="#P" n="9"/>principium dicitur de tribus vniuoce / aut 
+      equiuoce<lb ed="#P" n="10" break="no"/>aut analogice. Non vniuoce quia persone in nullo 
+      vne<lb ed="#P" n="11" break="no"/>reali conueniunt nisi in essentia: nec equiuoce patet 
+      <lb ed="#P" n="12"/>nec analogice quia persone diuine non habent 
+      analo<lb ed="#P" n="13" break="no"/>giam inter se: quia non minus primo dicitur principium 
+      <lb ed="#P" n="14"/>de vno quam de alio.
+    </p>
+            <p xml:id="qrdBas-a1075X-d1e177">
+      ¶ Quarto sic Si pater et filius 
+      <lb ed="#P" n="15"/>sunt principium spiritus sancti aut vnum aut plura: non vnum 
+      <lb ed="#P" n="16"/>quia sunt plura fundamenta et plura quadam: nec plura quia 
+      <lb ed="#P" n="17"/>nec tres persone dicuntur nisi vnum principium 
+      creatu<lb ed="#P" n="18" break="no"/>re: sicut nec dicuntur nisi vnus creator ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e188">
+               <lb ed="#P" n="19"/>¶ Contra est magister in litera et Augustinus 
+      quin<lb ed="#P" n="20" break="no"/>to de trinitate ca. x 
+      vi<lb ed="#P" n="21" break="no"/>In ista quaestione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e197">
+               <lb ed="#P" n="22"/>¶ Primo distinguam inter principium: et causam 
+      <lb ed="#P" n="23"/>et de principio.
+    </p>
+            <p xml:id="qrdBas-a1075X-d1e204">
+      ¶ Secundo inquiram quomodo in 
+      di<lb ed="#P" n="24" break="no"/>uinis est principium et causa / et respectu quorum 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e209">
+               <lb ed="#P" n="25"/>¶ Tertio an ratio principii ad intra et ad extra sit 
+      <lb ed="#P" n="26"/>vniuoca in deo: et cum hoc an vnum principium ad 
+      in<lb ed="#P" n="27" break="no"/>tra dicatur vniuoce de deo patre cum filio respectu spi 
+      <lb ed="#P" n="28"/>ritus sancti / et de patre respectu filii: et vnum 
+      princi<lb ed="#P" n="29" break="no"/>pium ad extra vniuoce dicatur de tribus.
+    </p>
+            <p xml:id="qrdBas-a1075X-d1e223">
+      ¶ Quar 
+      <lb ed="#P" n="30"/>to vtrum pater et filius sint vnum principium 
+      spiritus<lb ed="#P" n="31" break="no"/>sancti / et an tres sint vnum principium creature. 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e230">
+               <lb ed="#P" n="32"/>¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e235">
+               <lb ed="#P" n="33"/>¶ Quantum ad primum dico quod 
+      <lb ed="#P" n="34"/>principium distinguitur a causa sicut magis 
+      commi<lb ed="#P" n="35" break="no"/>ne a minus communi. Nam omnis causa est principium 
+      <lb ed="#P" n="36"/>non tamen econuerso. Causa ergo dicit principium 
+      alicu<lb ed="#P" n="37" break="no"/>ius essentialiter distincti ab eo qui dicitur effectus: etiam 
+      <lb ed="#P" n="38"/>dicitur principiatum essentialiter distinctum a 
+      caus<lb ed="#P" n="39" break="no"/>Unde et bene dicitur causa est: ad cuius esse sequitur 
+      <lb ed="#P" n="40"/>aliud. Principium vero non oportet essentialiter 
+      di<lb ed="#P" n="41" break="no"/>stingui a suo principiato: nec principiatum a suo 
+      prin<lb ed="#P" n="42" break="no"/>cipio vnde principiatum est: nisi cum hoc esset causati 
+      <lb ed="#P" n="43"/>Principium autem dicitur vno modo quo est 
+      rati<lb ed="#P" n="44" break="no"/>principiandi actiue vel passiue. Alio modo de 
+      prin<lb ed="#P" n="45" break="no"/>cipio quod: primo modo potentia dicitur principium: 
+      <lb ed="#P" n="46"/>quinto et nono metaphisice. Secundo modo 
+      funda<lb ed="#P" n="47" break="no"/>mentum principians dicitur principium. 
+      <lb ed="#P" n="48"/>dico quod in deo ponendi¬ 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e272">
+               <lb ed="#P" n="49"/>¶ Hoc premisso est principium ad 
+      intra<lb ed="#P" n="50" break="no"/>et quod et quo: principium quod producit aliud: puta aliud 
+      <lb ed="#P" n="51"/>fundamentum et principium quo puta essentiam vel 
+      <lb ed="#P" n="52"/>aliquid tale: non tamen principium passiuum / sicut nec 
+      po<lb ed="#P" n="53" break="no"/>tentiam passiuam: vel materiam seu quasi materiam 
+      <lb ed="#P" n="54"/>Et in ista distinctione capitur principium pro 
+      princi<lb ed="#P" n="55" break="no"/>pio quod communiter / et in diuinis sitiprincipium quod 
+      in<lb ed="#P" n="56" break="no"/>tra hoc est manifestum omni catholico / et apparet per 
+      <lb ed="#P" n="57"/>Magistrum et per Augustinum. Et consequenter est 
+      ibi<lb ed="#P" n="58" break="no"/>ponere principium quo: quod non potest poni absque 
+      prin<lb ed="#P" n="59" break="no"/>cipio quod vt patet contradictione repugnante.
+    </p>
+            <p xml:id="qrdBas-a1075X-d1e298">
+      ¶ Se 
+      <lb ed="#P" n="60"/>cundo dico quod in diuinis non est principium causale vel 
+      <lb ed="#P" n="61"/>quasi ad intra. In deo enim omnia sunt essentialiter 
+      <lb ed="#P" n="62"/>idem. Et ideo in ipso nichil esticausatum.
+    </p>
+            <p xml:id="qrdBas-a1075X-d1e307">
+      ¶ Tertio 
+      <lb ed="#P" n="63"/>dico quod in deo est principium causale ad extra prin¬ 
+      <!--345.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>cipium quod / quod est suprpositum causatum vel causans 
+      <lb ed="#P" n="65"/>et quo / quod est essentia vel voluntas vel 
+      huiusmo<lb ed="#P" n="66" break="no"/>di. Deus enim et creatura essentialiter distinguuntur 
+      <lb ed="#P" n="67"/>sicut causa et effectus. Causa dico extrinseca est de 
+      <lb ed="#P" n="68"/>respectu creature: non autem intrinseca quia non est 
+      <lb ed="#P" n="69"/>componibilis. 
+      <lb ed="#P" n="70"/>quantum ad primum quod ponitur 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e332">
+               <lb ed="#P" n="71"/>¶ De tertio ibi: quia principium quod de 
+      <lb ed="#P" n="72"/>formali significato dicit respectum ad principiatum 
+      <lb ed="#P" n="73"/>Et dico loquendo de principio quod per totum 
+      articu<lb ed="#P" n="74" break="no"/>lum istum est respectus rationis in diuinis et ad 
+      in<lb ed="#P" n="75" break="no"/>tra et ad extra. Quod est contra aliquos: qui dicunt quod 
+      <lb ed="#P" n="76"/>ad intra dicat respectum realem. Non enim imaginor 
+      <lb ed="#P" n="77"/>quod pater inquantum principium accipiendo 
+      formali<lb ed="#P" n="78" break="no"/>ter principium referatur realiter ad filium: sed 
+      in<lb ed="#P" n="79" break="no"/>quantum pater vel generans aliquod consequitur in 
+      <lb ed="#P" n="80"/>patre aliqua relatio rationis que dicitur relatio 
+      prin<lb ed="#P" n="81" break="no"/>cipii ad principiatum secundum quod huiusmodi: sicut 
+      <lb ed="#P" n="82"/>suo modo in patre et filio respectu spiritus sancti. II 
+      <lb ed="#P" n="83"/>cet alii dicant multum probabiliter: pro tanto quod in deo 
+      <lb ed="#P" n="84"/>patre conuenirent generatio et paternitas in idem. 
+      Pa<lb ed="#P" n="85" break="no"/>ternitas autem in creaturis videtur relatio principii 
+      <lb ed="#P" n="86"/>talis ad tale principiatum vt ad filium: et ipsa est 
+      rea<lb ed="#P" n="87" break="no"/>spectus realis. Tamen non videtur simile de 
+      pater<lb ed="#P" n="88" break="no"/>nitate in creaturis et in deo: quia pater notas in 
+      crea<lb ed="#P" n="89" break="no"/>turis sequitur actum principiandi: sicut etiam relatio 
+      <lb ed="#P" n="90"/>principii debet ipsum sequi. Paternitas autem in 
+      <lb ed="#P" n="91"/>diuinis est ipse actus principiandi: et ideo sequitur 
+      <lb ed="#P" n="92"/>oppositum magis: quia sicut per actum productiuum 
+      <lb ed="#P" n="93"/>principiandi non refertur principians ad principia 
+      <lb ed="#P" n="94"/>tum in creaturis: sic nec principium quod est pater 
+      re<lb ed="#P" n="95" break="no"/>fertur per istum actum vt per formalem relationem 
+      prin<lb ed="#P" n="96" break="no"/>cipii vt principium est: licet tamen inquantum pater et 
+      <lb ed="#P" n="97"/>suppositum est. Si sic dicatur potest dici quod ratio 
+      prin<lb ed="#P" n="98" break="no"/>cipii dicitur vniuoce in deo ad intra et ad extra: quia 
+      <lb ed="#P" n="99"/>vtriusque ratio est relatio rationis: si tamen omnibus 
+      re<lb ed="#P" n="100" break="no"/>spectibus rationis sit vniuocum relatio rationis vel 
+      <lb ed="#P" n="101"/>respectus rationis. Si autem nichil sit vniuocum 
+      plu<lb ed="#P" n="102" break="no"/>ribus respectibus rationis vel saltim istis: quia 
+      vide<lb ed="#P" n="103" break="no"/>retur extare in suo esse rationis quantum deus et 
+      crea<lb ed="#P" n="104" break="no"/>tura que terminant istos respectus: tunc non dicitur 
+      vni<lb ed="#P" n="105" break="no"/>uoca in deo sed analogice: quia primo dicitur 
+      princi<lb ed="#P" n="106" break="no"/>pium de principio ad intra: et secundario de principio 
+      <lb ed="#P" n="107"/>ad extra. Si autem dicatur quod relatio principii in deo 
+      <lb ed="#P" n="108"/>est realis: tunc non videtur posse dici vniuoce 
+      princi<lb ed="#P" n="109" break="no"/>pium ad intra et extra: sicut nec enti rationis et 
+      enti<lb ed="#P" n="110" break="no"/>reali est aliquid vniuocum: quia illud secundum se et 
+      <lb ed="#P" n="111"/>set indifferens ad ens reale / et ad ens rationis quod 
+      <lb ed="#P" n="112"/>est inintelligibile. Et ideo dicendum est quod 
+      analogi<lb ed="#P" n="113" break="no"/>ce diceretur principium isto modo: quia primo de 
+      <lb ed="#P" n="114"/>principio ad intra: secundo de principio ad extra. Dico 
+      <lb ed="#P" n="115"/>enim quod in deo est multo verius ratio principii ad 
+      in<lb ed="#P" n="116" break="no"/>tra quam ad extra: sicut principium ad intra est multo per 
+      <lb ed="#P" n="117"/>fectior et verior quam ad extra. Sed in deo fit ratio 
+      cal<lb ed="#P" n="118" break="no"/>se tantum ad extra.
+    </p>
+            <p xml:id="qrdBas-a1075X-d1e439">
+      ¶ De secundo an scilicet principium dicatur 
+      <lb ed="#P" n="119"/>vniuoce de patre et filio respectu spiritus sancti / et 
+      <lb ed="#P" n="120"/>de patre respectu filii. Patet si relatio principii sit 
+      <lb ed="#P" n="121"/>relatio rationis. Sicut probabiliter predictum est: et 
+      <lb ed="#P" n="122"/>principium formaliter ipsam significet. Et talibus 
+      <lb ed="#P" n="123"/>respectibus sit respectus rationis vniuocus quod 
+      vniuo<lb ed="#P" n="124" break="no"/>ce dicitur de eis sicut suo modo respectus rationis: 
+      <lb ed="#P" n="125"/>vel intentio secunda differentie est vniuoca ad 
+      intentio<lb ed="#P" n="126" break="no"/>nem secundam differentie huius vel illius: licet se 
+      to<lb ed="#P" n="127" break="no"/>tis distinguantur et in nullo conueniant: sic respectus 
+      <lb ed="#P" n="128"/>rationis principii ad respectum patris: et filii ad spi¬ 
+      <!--346.xml-->
+       <pb ed="#P" n="167-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ritum sanctum / et patris ad filium suo modo. Eodem 
+      <lb ed="#P" n="2"/>modo dici potest de principio quod vniuoce conueniat 
+      <lb ed="#P" n="3"/>tribus personis respectu creature / dato quod quelibet 
+      <lb ed="#P" n="4"/>habeat suum respectum rationis ad creaturam 
+      produ<lb ed="#P" n="5" break="no"/>ctam: de quo tamen dubium est sed non eodem modo hoc. 
+      <lb ed="#P" n="6"/>aliqui dicunt quod pater et fi¬ 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e483">
+               <lb ed="#P" n="7"/>¶ De quario lius non possunt dici idem 
+      <lb ed="#P" n="8"/>principium vel vnum spiritus sancti: quia idem refert sut 
+      <lb ed="#P" n="9"/>positum patris et filii: quia pronomen relatiuum facit 
+      <lb ed="#P" n="10"/>secundam noticiam fundamenti. Unde pro nomine pro 
+      <lb ed="#P" n="11"/>prio ponitur secundum Priscianum. Et ideo dicendo / sicut 
+      <lb ed="#P" n="12"/>pater et filius sunt idem scilicet significantur ex vi 
+      locu<lb ed="#P" n="13" break="no"/>tionis quod pater et filius sunt idem suppositum 
+      princi<lb ed="#P" n="14" break="no"/>pians quod est falsum. Contra per eandem rationem ista 
+      <lb ed="#P" n="15"/>esset falsa pater et filius sunt idem vel vnus deus / et 
+      <lb ed="#P" n="16"/>tamen conceditur ab omnibus. Et ideo dico quod idem 
+      <lb ed="#P" n="17"/>cum sit adiectiuum ponit rem suam vel dicit secundum 
+      <lb ed="#P" n="18"/>exigentiam sui substantiui / et significat ista pater et 
+      fi<lb ed="#P" n="19" break="no"/>lius sunt vnus idem deus quia habent eandem 
+      deita<lb ed="#P" n="20" break="no"/>tem. Similiter dico in proposito quod in ista pater et 
+      fi<lb ed="#P" n="21" break="no"/>lius sunt idem principium vel vnum significat quod 
+      ha<lb ed="#P" n="22" break="no"/>beant eandem vim vel eandem potentiam spirandi / et vnum 
+      <lb ed="#P" n="23"/>actum spirandi / quod est verum et potest concedi licet 
+      no<lb ed="#P" n="24" break="no"/>sunt idem suppositum. Eodem modo concedi potest 
+      <lb ed="#P" n="25"/>de principio respectu creature quod pater et filius et 
+      <lb ed="#P" n="26"/>spiritus sanctus sunt vnum principium creature. Et 
+      <lb ed="#P" n="27"/>istas concedit Augustinus. Et hec de quarto articso. 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e531">
+               <lb ed="#P" n="28"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="29"/>quod in diuinis non ponitur principium durandi quod 
+      di<lb ed="#P" n="30" break="no"/>cit nouitatem essendi: sicut nec ponitur ibi finis duram 
+      <lb ed="#P" n="31"/>di. Sed tamen ponitur principium producendi ibi et 
+      <lb ed="#P" n="32"/>ad intra et ad extra / et notionaliter ad notio naliter 
+      <lb ed="#P" n="33"/>ad intra quantum ad principium quo: quia conuenit 
+      <lb ed="#P" n="34"/>tantum patri et filio / et essentialiter ad extra quia est 
+      con<lb ed="#P" n="35" break="no"/>mune tribus. Aliter dici potest quod principium et 
+      fi<lb ed="#P" n="36" break="no"/>nis non dicuntur correlatiue: sed magis principium et 
+      <lb ed="#P" n="37"/>principiatum: sicut finis et finitum: et dato quod relatiue 
+      <lb ed="#P" n="38"/>dicerentur non oportet vtrumque simul esse in eodem. Ali 
+      <lb ed="#P" n="39"/>ter etiam dici potest quod in deo non est finis ad intram 
+      <lb ed="#P" n="40"/>nec sequitur ex hoc quin sit principium ibi ad intra: 
+      <lb ed="#P" n="41"/>quia principio ad intra noncorrespondet finis: sed in ipso 
+      <lb ed="#P" n="42"/>est finis ad extra / et correspondet principio ad extra 
+      <lb ed="#P" n="43"/>Iuxta hoc. Ego sum alpha et o principium et finis. 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e568">
+               <lb ed="#P" n="44"/>¶ Ad secundum dico quod principium in deo est ab in 
+      <lb ed="#P" n="45"/>tra licet nichil sit independens nec etiam receptum 
+      <lb ed="#P" n="46"/>ab alio. Non enim omne principiatum est dependens 
+      <lb ed="#P" n="47"/>sed solum principiatum quod est causatum. Et etiam 
+      ibi<lb ed="#P" n="48" break="no"/>principium ad extra. Tu dicis nichil conuenit cum 
+      <lb ed="#P" n="49"/>deo ad extra nisi respectus rationis: dico quod nichil 
+      <lb ed="#P" n="50"/>conuenit deo ad extra relatiue nisirespectus 
+      ratio<lb ed="#P" n="51" break="no"/>nis sicut dicetur in sequenti questione: sed bene 
+      ali<lb ed="#P" n="52" break="no"/>quid quod est in deo ex natura rei dicitur sibi conuenit 
+      <lb ed="#P" n="53"/>re ad extra non sicut respectus: sed sicut fundamen 
+      <lb ed="#P" n="54"/>tum talis respectus et denominatum a tali 
+      respectu<lb ed="#P" n="55" break="no"/>Principium ergo potest accipi vel quantum ad 
+      re<lb ed="#P" n="56" break="no"/>spectum quem importat formaliter et principaliter: 
+      <lb ed="#P" n="57"/>et sic in deo non dicit nisi respectum rationis ad 
+      crea<lb ed="#P" n="58" break="no"/>turam. Alio modo potest accipi pro fundamento vel 
+      <lb ed="#P" n="59"/>denominato per talem respectum / et illud dicitur 
+      prin<lb ed="#P" n="60" break="no"/>cipium et est aliquid in deo ex natura rei puta 
+      prin<lb ed="#P" n="61" break="no"/>cipium quo vel suppositum quod est principium quod 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e610">
+               <lb ed="#P" n="62"/>¶ Ad tertium patet ex predictis quomodo 
+      princi<lb ed="#P" n="63" break="no"/>pium dicitur in diuinis vniuoce vel analogice / 
+      ne<lb ed="#P" n="64" break="no"/>arguitur aliquid contra predicta in isto argumento 
+      </p>
+            <p xml:id="qrdBas-a1075X-d1e620">
+        <!--346.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>¶ Ad quartum patet quomodo pater et filius licet 
+      <lb ed="#P" n="66"/>non sint vnum suppositum sunt tamen vnum 
+      princi<lb ed="#P" n="67" break="no"/>pium spiritus sancti / et pater et filius et spiritus 
+      san<lb ed="#P" n="68" break="no"/>ctus vnum principium creature. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

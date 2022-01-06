@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="129-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a83616"><!-- l1d21q1 -->
+            <head xml:id="qrdBas-a83616-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a83616-d1e101">
+               <lb ed="#P" n="14"/>¶ Distinctionis. xxi 
+      <lb ed="#P" n="15"/>Questio Unica
+  </p>
+            <p xml:id="qrdBas-a83616-d1e108">
+               <lb ed="#P" n="16"/>CIrca distinctionem 
+      <lb ed="#P" n="17"/>Uigesimam primam quero Utrum 
+      <lb ed="#P" n="18"/>ista sit concedenda vera solus 
+      pa<lb ed="#P" n="19" break="no"/>ter est deus.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e119">
+      ¶ Uidetur quod sic. 
+      <lb ed="#P" n="20"/>quia dictio exclusiua addita 
+      vni<lb ed="#P" n="21" break="no"/>correlatiuo non excludit 
+      reli<lb ed="#P" n="22" break="no"/>quum / nec predicatum a 
+      reliquo<lb ed="#P" n="23" break="no"/>quia philosophus arguit pr 
+      <lb ed="#P" n="24"/>mo phisicorum si tantum principium 
+      <lb ed="#P" n="25"/>est ergo principiatum / et per consequens plura sunt et non vnum 
+      <lb ed="#P" n="26"/>Sed propter hoc tantum videretur ista neganda solus 
+      po<lb ed="#P" n="27" break="no"/>ter est deus / quia sequeretur quod filius non esset deus: nec 
+      <lb ed="#P" n="28"/>spiritus sanctus. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e141">
+      ¶ Secundo sic. Solus deus es 
+      <lb ed="#P" n="29"/>pater ergo solus pater est deus / Antecedens patet 
+      <lb ed="#P" n="30"/>per exponentes primam: quia deus est pater in diuinis et 
+      <lb ed="#P" n="31"/>nullus non deus est pater / consequentia patet per con 
+      <lb ed="#P" n="32"/>uersionem exclusiue.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e153">
+      ¶ Tertio sic secundum 
+      Augu<lb ed="#P" n="33" break="no"/>stinum. 6 de tri. c. 7. Tantus est solus pater quantus 
+      po<lb ed="#P" n="34" break="no"/>ter et filius et spiritus sanctus est: ergo sicut tres persone sunt 
+      <lb ed="#P" n="35"/>deus / ita solus pater est deus: quia pater solus est 
+      tan<lb ed="#P" n="36" break="no"/>tum quantum tres et illud tantum non est nisi deus. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e164">
+               <lb ed="#P" n="37"/>¶ Quarto sic. Apostolus I. ad Thimotheum. 5. dicit de 
+      <lb ed="#P" n="38"/>patre. Et Augustinus hoc recipit quod solus habet 
+      <lb ed="#P" n="39"/>immortalitatem. Et similiter Matthei. I1. Dicitur / quod 
+      ni<lb ed="#P" n="40" break="no"/>mo nouit filium nisi pater / neque patrem quis nouit nisi 
+      <lb ed="#P" n="41"/>filius: et tamen ex hoc non sequitur quin filius habeat im 
+      <lb ed="#P" n="42"/>mortalitatem / et quin pater cognoscat seipsum: ergo 
+      simi<lb ed="#P" n="43" break="no"/>liter potest ista concedi et recipi solus pater est deus / 
+      <lb ed="#P" n="44"/>et stabit cum hoc quod filius et spiritus sanctus est deus. 
+      <lb ed="#P" n="45"/>sequitur Solus pater est deus / 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e186">
+               <lb ed="#P" n="46"/>¶ Contra ergo filius non est deus: quia solus 
+      <lb ed="#P" n="47"/>idem est quod non cum alio / filius autem est alius a patre: sed 
+      <lb ed="#P" n="48"/>consequens est falsum ergo et antceus. Similiter etiam 
+      <lb ed="#P" n="49"/>Augustinus dicit sexto de trinitate octauo non est 
+      <lb ed="#P" n="50"/>dicendum solum patrem esse deum. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e199">
+               <lb ed="#P" n="51"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e204">
+               <lb ed="#P" n="52"/>¶ Primo inquiram vtrum vnum relatiuum sit de 
+      con<lb ed="#P" n="53" break="no"/>ceptu quidditatiuo alterius per se primo modo 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e211">
+               <lb ed="#P" n="54"/>¶ Secundo inquiram vtrum dictio exclusiua addita 
+      vni<lb ed="#P" n="55" break="no"/>correlatiuorum excludat aliud vel praedicatum ab alio. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e219">
+               <lb ed="#P" n="56"/>¶ Tertio vtrum hec sit concedenda solus pater est deus. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e224">
+               <lb ed="#P" n="57"/>¶ Quantum ad primum 
+      di<lb ed="#P" n="58" break="no"/>n co quod est vna opinio que dicit quod vnum relatiuum est 
+      <lb ed="#P" n="59"/>n de conceptu quidditatiuo alterius per se primo 
+      mon<lb ed="#P" n="60" break="no"/>d do / de conceptu dico accipiendo conceptum non pro 
+      <lb ed="#P" n="61"/>actu concipiendi / sed pro obiecto conceptus. Ad  
+      <lb ed="#P" n="62"/>hoc adducuntur rationes. Prima est ista de conceptu¬ 
+      <!--271.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>quidditatiuo eius est aliud / cuius ratio et diffinitio i 
+      <lb ed="#P" n="64"/>propria et quidditatiua est esse ad aliud: quia esse ad 
+      pri<lb ed="#P" n="65" break="no"/>aliud includit aliud: sed esse ad aliud est propria et 
+      <lb ed="#P" n="66"/>quidditatiua ratio relatiui / vt patet in predicamen 
+      <lb ed="#P" n="67"/>t is. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e255">
+      ¶ Secundo sic quod non potest habere 
+      <lb ed="#P" n="68"/>aliquem conceptum sibi formalem et intrinsecum nisi 
+      <lb ed="#P" n="69"/>ad aliud / includit de suo conceptu quidditatiuo 
+      alid<lb ed="#P" n="70" break="no"/>per se primo modo / vt patet: sed relatiuum est 
+      hu<lb ed="#P" n="71" break="no"/>iusmodi. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e266">
+      ¶ Tertio sic contra alios qui 
+      di<lb ed="#P" n="72" break="no"/>cunt quod relatiuum est de conceptu secundario relatio 
+      <lb ed="#P" n="73"/>ui: aut per conceptum primarium intelligunt duos 
+      <lb ed="#P" n="74"/>conceptus / vel duos actus concipiendi / aut vnum 
+      <lb ed="#P" n="75"/>distinctum tantum secundum rationem et penes 
+      ob<lb ed="#P" n="76" break="no"/>iecta / non potest dici quod duos actus quorum vnus 
+      <lb ed="#P" n="77"/>sit relatiui et alter correlatiui: quia iam duo actus 
+      <lb ed="#P" n="78"/>intelligendi similes essent in intellectu contra 
+      Ari<lb ed="#P" n="79" break="no"/>stotelem secundo thopicorum / qui dicit quod contingit 
+      pli<lb ed="#P" n="80" break="no"/>ra scire vnum tantum intelligere. ergo etc. 
+      Simili<lb ed="#P" n="81" break="no"/>ter etiam ille primarius conceptus posset fieri et esse 
+      <lb ed="#P" n="82"/>tamen secundario / et sic saltem virtute diuina vnum 
+      <lb ed="#P" n="83"/>posset intelligi sine alio quod est falsum. Si 
+      intelli<lb ed="#P" n="84" break="no"/>gatur primo modo tunc est contra eos / scilicet quod vnum 
+      <lb ed="#P" n="85"/>correlatiuum esset de conceptu quidditatiuo 
+      alte<lb ed="#P" n="86" break="no"/>rius / ex quo amborum non est nisi vnus conceptus. igitur etc. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e301">
+               <lb ed="#P" n="87"/>¶ Quarto sic. Illud est de conceptu quidditatiuo 
+      <lb ed="#P" n="88"/>alicuius per quod ipsum distinguitur a quocumque alio 
+      <lb ed="#P" n="89"/>inquantum tale: sed vnum relatiuum distinguitur a 
+      quo<lb ed="#P" n="90" break="no"/>libet alio per hoc quod habet tale correlatiuum non 
+      <lb ed="#P" n="91"/>per esse ad aliud: quia in hoc conueniunt omnia 
+      rela<lb ed="#P" n="92" break="no"/>tiua: sed per hoc quod est ad tale relatiuum. ergo etc. 
+      <lb ed="#P" n="93"/>Modus ponendi istorum est quod hoc est singulare 
+      im<lb ed="#P" n="94" break="no"/>relatiuis quod aliquid extrinsecum ab ipsis secundum 
+      <lb ed="#P" n="95"/>rem sit de conceptu eorum quidditatiuo per se 
+      pri<lb ed="#P" n="96" break="no"/>mo. Et amplius dicunt quod vnum relatiuorum est 
+      ma<lb ed="#P" n="97" break="no"/>gis de per se primo conceptu et quidditatiuo 
+      alteri<lb ed="#P" n="98" break="no"/>quam sit genus vel differentia de conceptu speciei: quia 
+      <lb ed="#P" n="99"/>species habet aliquem conceptum sibi formaliter 
+      <lb ed="#P" n="100"/>intrinsecum / qui non includit conceptum generis / 
+      <lb ed="#P" n="101"/>puta conceptum differentie. Similiter habet 
+      ali<lb ed="#P" n="102" break="no"/>quem per quem non includit conceptum differentie / 
+      pu<lb ed="#P" n="103" break="no"/>ta conceptum generis: sed relatiuum nullum habet 
+      <lb ed="#P" n="104"/>conceptum sibi formaliter intrinsecum qui non in 
+      <lb ed="#P" n="105"/>cludat correlatiuum. alias haberet aliquem 
+      conce<lb ed="#P" n="106" break="no"/>ptum absolutum. Hec est opinio quod relatiuum 
+      in<lb ed="#P" n="107" break="no"/>telligi non potest sine suo correlatiuo et per 
+      conse<lb ed="#P" n="108" break="no"/>quens includit ipsum in suo conceptu 
+      quidditati<lb ed="#P" n="109" break="no"/>uo / quia dato quod non includat ipsum / iam poterit 
+      in<lb ed="#P" n="110" break="no"/>telligi sine illo correlatiuo non intelligendo ipsum / et 
+      <lb ed="#P" n="111"/>habebit conceptum quidditatiuum absolutum 
+      <lb ed="#P" n="112"/>videtur michi fal 
+      <lb ed="#P" n="113"/>Sed ista opinio sa et impossibilis: 
+      <lb ed="#P" n="114"/>et arguo contra eam. Primo sic. Illud quod cadit 
+      <lb ed="#P" n="115"/>in diffinitione alicuius sicut additamentum non est 
+      <lb ed="#P" n="116"/>de conceptu illius per se primo / quia iam non esset 
+      <lb ed="#P" n="117"/>additamentum nec extrinsecum sed intrinsecum: 
+      <lb ed="#P" n="118"/>sed vnum relatiuum cadit in diffinitione alterius 
+      <lb ed="#P" n="119"/>per additamentum. Probatio quia vnum relatis  
+      <lb ed="#P" n="120"/>uum dicit rem distinctam et frequenter essentiam 
+      <lb ed="#P" n="121"/>distinctam a correlatiuo / sicut patet de 
+      paternita<lb ed="#P" n="122" break="no"/>te et filiatione que sunt in distinctis suppositis vel 
+      <lb ed="#P" n="123"/>subectis. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e384">
+      ¶ Secundo sic que distingunt 
+      <lb ed="#P" n="124"/>tur specie non sunt eadem per se primo modo patet 
+      <lb ed="#P" n="125"/>de se: sed relatiuum vel relatio et sua correlatio 
+      di<lb ed="#P" n="126" break="no"/>stinguntur specie ab eodem genere proximo / vt 
+      pa<lb ed="#P" n="127" break="no"/>tet de paternitate et filiatione: vel saltem nunero sub¬ 
+      <!--272.xml-->
+       <pb ed="#P" n="130-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>eadem specie sicut similitudo et similitudo. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e405">
+               <lb ed="#P" n="2"/>¶ Tertio sic. Quecumque distinguuntur realiter 
+      distin<lb ed="#P" n="3" break="no"/>guntur etiam formaliter: et per consequens vnum non est de 
+      conce<lb ed="#P" n="4" break="no"/>ptu alterius per se primo modo ( sicut dictum est supra/ 
+      <lb ed="#P" n="5"/>sed relatiuum et suum correlatiuum sunt huiusmodi vt patet 
+      <lb ed="#P" n="6"/>de esse in diuinis de quibus minus videtur. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e418">
+               <lb ed="#P" n="7"/>¶ Quarto sic. Si correlatiuum est de conceptu 
+      quiddi<lb ed="#P" n="8" break="no"/>tatiuo relatiui sequitur quod vel aliquid absolutum vel 
+      <lb ed="#P" n="9"/>ens rationis sit de conceptu quidditatiuo relatiui 
+      <lb ed="#P" n="10"/>realis / hoc est falsum. ergo etc. Probatio 
+      consequen<lb ed="#P" n="11" break="no"/>tie: scientia refertur ad scibile / saltem scibli exxistente 
+      sci<lb ed="#P" n="12" break="no"/>bile autem vel terminat relationem scientie secundum aliquid 
+      <lb ed="#P" n="13"/>absolutum / et sic sequitur quod absolutum est de conceptu 
+      re<lb ed="#P" n="14" break="no"/>latiui: vel secundum respectum rationis quem habet scibile ad 
+      <lb ed="#P" n="15"/>scientiam et sic effectus rationis est de per se quidditatiuo 
+      con<lb ed="#P" n="16" break="no"/>ceptu alicuius entis realis / quod est etiam falsum. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e442">
+               <lb ed="#P" n="17"/>¶ Quinto sic. Si vnum relatiuum est sic de conceptu 
+      al<lb ed="#P" n="18" break="no"/>terius primo modo: sequitur quod praedicetur de ipso per se primo 
+      <lb ed="#P" n="19"/>modo saltem in concreto sicut aial vel rationale de homine: 
+      <lb ed="#P" n="20"/>sed hoc est falsum ergo etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e453">
+      ¶ Sexto sic. Terminus 
+      <lb ed="#P" n="21"/>tendentie non est de conceptu quidditatiuo tendentie 
+      im<lb ed="#P" n="22" break="no"/>ipsum: quia tunc idem esset terminus et tendentia / et sic 
+      ten<lb ed="#P" n="23" break="no"/>dentie esset tendentia / et termini esset terminus: sed 
+      rela<lb ed="#P" n="24" break="no"/>tio est tendentia in relatiuum vt in terminum. igitur etc. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e464">
+               <lb ed="#P" n="25"/>¶ Septimo sic. Si vnum relatiuorum est de per se primo 
+      <lb ed="#P" n="26"/>conceptu alterius et per consequens de primo signto: tunc est 
+      nu<lb ed="#P" n="27" break="no"/>gatio dicendo pater filii quia secundum phum primo 
+      Elenco<lb ed="#P" n="28" break="no"/>rum si concedatur quod nomen et oratio idem significant 
+      puta<lb ed="#P" n="29" break="no"/>duplum et dimidii duplum / ore quod sit nugatio distinguen 
+      <lb ed="#P" n="30"/>do duplum dimidii: quia tunc est dicere duplum dimidii / 
+      <lb ed="#P" n="31"/>dimidii / dimidii / quod est nugnatio: sed falsum est dice 
+      <lb ed="#P" n="32"/>re quod hic sit nugatio pater filii duplum dimidii. ergo etc. 
+      <lb ed="#P" n="33"/>Nec valet quod dicunt alii respondendo quod bne dicitur sine nuga 
+      <lb ed="#P" n="34"/>tione ho rationalis licet rationale conueniat homini per se 
+      <lb ed="#P" n="35"/>primo modo. Dictum enim eorum est falsum sicut patet plane 
+      <lb ed="#P" n="36"/>accipiendo rationem homins pro homine / animal scilicet rationale / et 
+      <lb ed="#P" n="37"/>tunc idem est dicere homo rationalis sicut animal rationale 
+      <lb ed="#P" n="38"/>Rationale est nugatio manifesta accipiendo 
+      rationa<lb ed="#P" n="39" break="no"/>le pro differentia non pro sapiente sicut dicitur ho sapiens 
+      <lb ed="#P" n="40"/>ritionalis.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e501">
+      ¶ Octauo sic. Si de conceptu quidditatiuo 
+      <lb ed="#P" n="41"/>vnius relatiui est alterum et econuerso: quaero an de 
+      conce<lb ed="#P" n="42" break="no"/>ptu vnius sit aliquid pater suum correlatiuum / aut nihil 
+      <lb ed="#P" n="43"/>Si nichil tunc vnum relatiuum non est nisi suum correlati 
+      <lb ed="#P" n="44"/>tiuum: et per consequens non est relatiuum: quia nullum relatiuum 
+      <lb ed="#P" n="45"/>est ad seipsum sed ad aliud / si aliquid capio praecise illud 
+      <lb ed="#P" n="46"/>aut ergo illud est compositus conceptus ex conceptu 
+      sibi<lb ed="#P" n="47" break="no"/>proprio et suo correlatiuo: aut non. si non habeo 
+      proposi<lb ed="#P" n="48" break="no"/>tum quod illud quod est proprium relatiuum non includit suum 
+      <lb ed="#P" n="49"/>correlatiuum: si sic ille potest resolui in duos conceptus 
+      <lb ed="#P" n="50"/>et sic procedere in infinitum in conceptibus relationis 
+      <lb ed="#P" n="51"/>vel necesse deuenietur ad aliquem vnum conceptum simplicem 
+      <lb ed="#P" n="52"/>qui non includet correlatiuum in suo proprio 
+      conceptu<lb ed="#P" n="53" break="no"/>et habeo etiam propositum.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e533">
+      ¶ Nono sic. Conceptus pri 
+      <lb ed="#P" n="54"/>mus cuiuslibet speciei per se in genere est per se vnus 
+      <lb ed="#P" n="55"/>non per accidens: quia ens per accidens non est per se in 
+      ge<lb ed="#P" n="56" break="no"/>nere. sed vnum relatiuum non facit vnum per se conceptum 
+      <lb ed="#P" n="57"/>cum suo correlatiuo: quia aut ille esset simpliciter 
+      sim<lb ed="#P" n="58" break="no"/>plex aut resolubilis. Non potest dici primum quia tunc 
+      <lb ed="#P" n="59"/>idem conceptus simpliciter simplex includeret aliqua 
+      <lb ed="#P" n="60"/>duo formaliter distinta et etiam subiecto vel 
+      suposito<lb ed="#P" n="61" break="no"/>quocunque quod est impossibile: si est resolubilis 
+      habeo<lb ed="#P" n="62" break="no"/>propositum: quia neuter illorum in quos resoluitur includit 
+      <lb ed="#P" n="63"/>alterum / et per consequens nec includit alterum / per consequens nec in 
+      <lb ed="#P" n="64"/>cludit correlatiuum quia tunc pars esset equalis toti 
+      <lb ed="#P" n="65"/>quod est impossibile / et ita habeo aliquem conce ptum rela¬ 
+      <!--272.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>tiui qui non includit correlatiuum. igitur etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e568">
+      ¶ Decimo sic. 
+      <lb ed="#P" n="67"/>Si vnum est de primo conceptu alterius rei: ergo sicut genus / 
+      <lb ed="#P" n="68"/>nut sicut distrintia / aut sicut alia aliqua per se causa eius 
+      intrin<lb ed="#P" n="69" break="no"/>seca / non potest dici primo modo: quia tunc praedicaretur de ipso 
+      <lb ed="#P" n="70"/>in primo modo dicendi per se sicut genus vel distereia de specie. 
+      <lb ed="#P" n="71"/>Preteterea etiam si ponitur vt genus cum genus sit 
+      conue<lb ed="#P" n="72" break="no"/>nientius quam species / sequitur quod poterit terminare 
+      depen<lb ed="#P" n="73" break="no"/>dentiam alicuius alterius quam sui correlatiui / quia secundum alios 
+      <lb ed="#P" n="74"/>vnum ponitur in diffinitione alterius sicut terminatiuum 
+      <lb ed="#P" n="75"/>dependentie eius / et econuerso quia econuerso alterum 
+      po<lb ed="#P" n="76" break="no"/>nitur in diffinitione illius / et sic idem respectu eiusdem 
+      <lb ed="#P" n="77"/>erit magis. commune et minus commune / genus / species / quod 
+      <lb ed="#P" n="78"/>est impossibile. Simliter ex hoc habetur propositum quia 
+      <lb ed="#P" n="79"/>in conceptu generis numquam includitur conceptus diemtrie / nec 
+      <lb ed="#P" n="80"/>per consequens in conceptu correlatiui quod ponitur tanquam 
+      ge<lb ed="#P" n="81" break="no"/>nus includitur ratio sui correlatiui / quod est species 
+      in<lb ed="#P" n="82" break="no"/>cludens ipsam differentam et per consequens nec econuerso cum 
+      <lb ed="#P" n="83"/>equaliter se respiciant quantum ad hoc: nec est in 
+      diffi<lb ed="#P" n="84" break="no"/>nitione eius sicut differentia: quia illud correlatiuum 
+      <lb ed="#P" n="85"/>trahit suam differentiam specificam ab ipso relatiuo vt 
+      <lb ed="#P" n="86"/>dicunt ergo ab illo correlatiuo non trahit istud relatiuum 
+      <lb ed="#P" n="87"/>suam dieteriam nec recipit ipsum vt dieteriam specificam 
+      im<lb ed="#P" n="88" break="no"/>sua diffinitione tunc enim esset circulus in per se 
+      speci<lb ed="#P" n="89" break="no"/>ficatione mutua aliquorum / nec vt per se causa ei 
+      <lb ed="#P" n="90"/>quia secundum Boetium super predicamenta capitu 
+      <lb ed="#P" n="91"/>lo de relatione vnum relatiuum non est causa alterius / 
+      <lb ed="#P" n="92"/>quia sunt simul natura. Causa autem est prior 
+      na<lb ed="#P" n="93" break="no"/>tura suo effectu / ergo nullo modo. Nec valet si 
+      di<lb ed="#P" n="94" break="no"/>cas quod distinctio est insufficiens: quia ponitur ibi sicut 
+      <lb ed="#P" n="95"/>terminans dependentiam relatiui / non autem vt genus vel 
+      <lb ed="#P" n="96"/>differentia vel per se causa. Contra tunc deus esset 
+      <lb ed="#P" n="97"/>de conceptu quidditatiuo creature quia terminat deus 
+      <lb ed="#P" n="98"/>pendentiam eius quod est falsum.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e640">
+      ¶ Undecimo sic 
+      <lb ed="#P" n="99"/>Si conceptus filiationis est de conceptu 
+      quidditati<lb ed="#P" n="100" break="no"/>uo paternitatis / hoc secundum alios videtur ponendum pro 
+      <lb ed="#P" n="101"/>pter distintionem paternitatis specificam a quacunque 
+      <lb ed="#P" n="102"/>alia relatione: sed hoc posito non habetur talis 
+      distin<lb ed="#P" n="103" break="no"/>ctio. Probatio quia aut in paternitate est aliquid 
+      pro<lb ed="#P" n="104" break="no"/>prium sibi preter esse ad aliud et filiationem: aut nichil 
+      <lb ed="#P" n="105"/>Si primum ergo perillud est distinctio paternitatis a 
+      <lb ed="#P" n="106"/>qualibet alia relatione. Ex quo est sibi proprium et non 
+      <lb ed="#P" n="107"/>per filiationem. Si nichil ergo in omni eo quod est de 
+      <lb ed="#P" n="108"/>primo conceptu paternitatis praeter filiationem conuenit 
+      <lb ed="#P" n="109"/>paternitas cum filiatione: et pari ratione filiatio cum 
+      <lb ed="#P" n="110"/>paternitate: et per consequens non plus habetur 
+      di<lb ed="#P" n="111" break="no"/>tinctio paternitatis per filiationem / quam per 
+      pater<lb ed="#P" n="112" break="no"/>nitatem nec econuerso / ergo sufficienter habetur 
+      distin<lb ed="#P" n="113" break="no"/>ctio paternitatis ab aliis relationibus per 
+      paternita<lb ed="#P" n="114" break="no"/>tem / et non oportet quod per filiationem.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e677">
+      ¶ Duodecimo sic. 
+      <lb ed="#P" n="115"/>Sicut esse relationem in communi est esse ad aliud in 
+      <lb ed="#P" n="116"/>communi / ita esse huius relationis puta paternitas 
+      <lb ed="#P" n="117"/>in esse ad filium. Quero igitur vtrum paternitas 
+      ra<lb ed="#P" n="118" break="no"/>tione qua est ad aliud in communi sibi determinat 
+      fi<lb ed="#P" n="119" break="no"/>lium pro termino: vel ratione filiationis / vel 
+      ratio<lb ed="#P" n="120" break="no"/>ne alicuius alterius: Non primo modo quia esse ad  
+      <lb ed="#P" n="121"/>aliud conuenit omni relationi: nec secundo modo quia 
+      <lb ed="#P" n="122"/>illud ratione cuius determinat sibi filium pro 
+      termi<lb ed="#P" n="123" break="no"/>non habet filium vel filiationem pro termino / et sic filia 
+      <lb ed="#P" n="124"/>tio haberet filiationem pro termino / vel filius filium / quod est fal 
+      <lb ed="#P" n="125"/>sum: ergo oportet quod ratione alicuius alterius quod nec est filiatio 
+      <lb ed="#P" n="126"/>nec includit ipsam in suo conceptu quidditatiuo.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e706">
+      ¶ 
+      Ter<lb ed="#P" n="127" break="no"/>tiodecimo sic. dictio exclusiua addita termino 
+      simpli<lb ed="#P" n="128" break="no"/>ti non excludit illud quod est de suo conceptu 
+      quidditati<lb ed="#P" n="129" break="no"/>uo vt patet: quia tunc excluderet ipsum cui additur. Sed ipsa. 
+      <lb ed="#P" n="130"/>addita vni correlatiuo excludit reliquum vt patet 
+      <!--273.xml-->
+       <pb ed="#P" n="130-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>primo phisicorum / et dicetur infra. ergo etc. Nec 
+      va<lb ed="#P" n="2" break="no"/>let responsio quod maior est vera in absolutis non in 
+      re<lb ed="#P" n="3" break="no"/>latiuis. Tum quia equaliter concludit probatio maioris 
+      <lb ed="#P" n="4"/>de vtrisque. Tum quia exclusiua praesupponit suum praeiacens 
+      <lb ed="#P" n="5"/>cui additur / et per consequens quodlibet contentum in ipso 
+      <lb ed="#P" n="6"/>per se primo modo / non autem presupponit illud cui 
+      <lb ed="#P" n="7"/>primum conceptum excludit. quare etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e739">
+      ¶ Ultimo sic 
+      <lb ed="#P" n="8"/>Aut conceptus paternitatis de quo est filiatio est 
+      <lb ed="#P" n="9"/>vnus conceptus aut plures si vnus aut simpliciter 
+      <lb ed="#P" n="10"/>simplex aut compositus. Si primo modo tunc filiatio 
+      <lb ed="#P" n="11"/>est totus conceptus paternitatis quia quicquid 
+      perti<lb ed="#P" n="12" break="no"/>net ad conceptum simpliciter simplicem est totus ille 
+      <lb ed="#P" n="13"/>conceptus sed hoc est falsum. Si conceptus quero 
+      <lb ed="#P" n="14"/>de parte illius aut de conceptu eius est alia pars 
+      <lb ed="#P" n="15"/>aut non / si sic pars illa de cuius conceptu est alia 
+      eri<lb ed="#P" n="16" break="no"/>equalis toti conceptui composito quod est impossi 
+      <lb ed="#P" n="17"/>bile. Si non cum partes sint paternitas et filiatio / 
+      ha<lb ed="#P" n="18" break="no"/>betur propositum quod de conceptu paternitatis non est 
+      <lb ed="#P" n="19"/>filiatio. Si autem ille conceptus paternitatis de quo 
+      <lb ed="#P" n="20"/>est filiatio non sit vnus sed plura / sed illa pluralitas non 
+      <lb ed="#P" n="21"/>potest esse nisi primorum conceptuum paternitatis et 
+      fi<lb ed="#P" n="22" break="no"/>liationis: aut igitur sunt plures sola pluralitate: nunc 
+      <lb ed="#P" n="23"/>rali et tunc non plus differunt paternitas et filiatio 
+      <lb ed="#P" n="24"/>quam filiatio et filiatio / vel paternitas et paternitas / quod 
+      <lb ed="#P" n="25"/>patet falsum: aut sunt plures pluralitate specifica 
+      <lb ed="#P" n="26"/>et sic oprtet te dicere velis nolis quod aliquid est in 
+      pri<lb ed="#P" n="27" break="no"/>mo conceptu vnius quod non est in primo conceptu 
+      al<lb ed="#P" n="28" break="no"/>terius / quod est contra te: quia dicis quod quodlibet est 
+      <lb ed="#P" n="29"/>in conceptu cuiuslibet: et patet necessarium: quia omnis 
+      spe<lb ed="#P" n="30" break="no"/>cies distinguitur ab alia aliquo proprio conceptu 
+      quid<lb ed="#P" n="31" break="no"/>ditatiuo sibi / que non includit conceptum alterius sicu 
+      <lb ed="#P" n="32"/>in re conceptibili que non est res alterius sed res 
+      essen<lb ed="#P" n="33" break="no"/>tialiter distincta.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e799">
+      ¶ Dico igitur quod vnum relatorum 
+      <lb ed="#P" n="34"/>non est de conceptu alterius per se primo et dico quod 
+      <lb ed="#P" n="35"/>dicere oppositum est ignorare vocem propriam. 
+      <lb ed="#P" n="36"/>4 Dico quod maior 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e808">
+               <lb ed="#P" n="37"/>¶ Ad primum alio eut eorum 
+      concludi<lb ed="#P" n="38" break="no"/>contra eos / quia eoipso quod diffinitio relatiui est ad aliudum 
+      <lb ed="#P" n="39"/>sequitur quod est ad aliquid extrinsecum ab ipso quod non 
+      <lb ed="#P" n="40"/>conuenit sibi per se primo modo / vnde et diffinitio in 
+      <lb ed="#P" n="41"/>cludit additamentum extrinsecum a diffinito / sicut suo 
+      <lb ed="#P" n="42"/>modo diffinitio accidentis per substantiam. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e824">
+               <lb ed="#P" n="43"/>¶ Ad secundum dico quod relatiuum non potest 
+      concip<lb ed="#P" n="44" break="no"/>non concipiendo aliud. Non tamen ex hoc 
+      sequitu<lb ed="#P" n="45" break="no"/>quod vnum sit de conceptu quidditatiuo alterius per si 
+      <lb ed="#P" n="46"/>primo modo: sed magis oppositum / quia est aliud et hoc 
+      <lb ed="#P" n="47"/>est regulare et singulare in relatiuis: nec habet 
+      locunm<lb ed="#P" n="48" break="no"/>in absolutis.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e840">
+      ¶ Ad tertium dico quod est idem actus 
+      con<lb ed="#P" n="49" break="no"/>cipiendi hoc relatiuum et suum correlatiuum / nec 
+      se<lb ed="#P" n="50" break="no"/>quitur ex hoc quod vnum sit de conceptu quidditatiuo al 
+      <lb ed="#P" n="51"/>terius: sed magis oppositum quia eodem actu intelligi 
+      <lb ed="#P" n="52"/>tur relatiuum et suum correlatiuum vt aliud et extrinso 
+      <lb ed="#P" n="53"/>cum sibi: non enim ex vnitate actus concipiendi sequitur 
+      <lb ed="#P" n="54"/>vnitas conceptorum et per se primo modo: tunc enim animal et 
+      ra<lb ed="#P" n="55" break="no"/>tionale essent idem per se primo modo / quia concipiuntur 
+      vne<lb ed="#P" n="56" break="no"/>actu oncipiendi speciem et deus omnia concipit vno 
+      actu<lb ed="#P" n="57" break="no"/>hoc autem locum non habet in absolutis.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e862">
+      ¶ Ad 
+      quan<lb ed="#P" n="58" break="no"/>tum dico quod correlatiuum non distinguitur per relatiui 
+      <lb ed="#P" n="59"/>ab omni alio a se / quia tunc non distingueretur a 
+      corre<lb ed="#P" n="60" break="no"/>latiuo sicut nec correlatiuum a seipso / sed per proprian 
+      <lb ed="#P" n="61"/>differentiam formalem et intrinsecam / tamen in 
+      habitu<lb ed="#P" n="62" break="no"/>dine ad correlatiuum extrinsecum sibi / sicut est id quoid 
+      <lb ed="#P" n="63"/>est ad ipsum quantumcunque non sit de suo conceptu in 
+      <lb ed="#P" n="64"/>trinseco: quod etiam aduertens Boetius posuit 
+      locun<lb ed="#P" n="65" break="no"/>a relatiuis inter locos extrinsecos. Hec de I arti¬ 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e882">
+        <!--273.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="67" break="no"/>ticulum dicunt quidam quod dictio exclusiua sicut so 
+      <lb ed="#P" n="68"/>lus et huiusmodi addita vnii relatiuo non excludit 
+      <lb ed="#P" n="69"/>reliquum / vel predicatum a reliquo. Hoc probant quia 
+      <lb ed="#P" n="70"/>dictio exclusiua addita relatiuo non excludit illud 
+      <lb ed="#P" n="71"/>quod est de conceptu quidditatiuo eius per se 
+      pri<lb ed="#P" n="72" break="no"/>mo modo vt patet: quia tunc excluderet ipsum cui 
+      addi<lb ed="#P" n="73" break="no"/>tur sed sic est quod correlatiuum est de conceptu 
+      quiddita<lb ed="#P" n="74" break="no"/>tio relatiui secundum eos. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e909">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="75"/>dictio exclusiua non excludit illud quod de 
+      necessi<lb ed="#P" n="76" break="no"/>tate absoluta sequitur ad illud cui additur / quia 
+      pre<lb ed="#P" n="77" break="no"/>supponeret suum preiacens / et non poneret ipsum immo de 
+      <lb ed="#P" n="78"/>strueret ipsum: quia destrueret vel excluderet id quoc 
+      <lb ed="#P" n="79"/>de necessitate sequitur ad ipsum et in re et in 
+      intellectu<lb ed="#P" n="80" break="no"/>sed vnum relatiuum necessario sequitur ad aliud: 
+      vn<lb ed="#P" n="81" break="no"/>de sequitur si pater est filius est et per consequens se 
+      <lb ed="#P" n="82"/>quitur si solus pater est filius est: quia sequitur si 
+      so<lb ed="#P" n="83" break="no"/>lus pater est / pater est. Si pater est / filius est: ergo si 
+      so<lb ed="#P" n="84" break="no"/>lus pater est / filius est: ergo non excluditur praedicatum a 
+      <lb ed="#P" n="85"/>correlatiuo.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e935">
+      ¶ Tertio sic. Dictio exclusiua 
+      addita<lb ed="#P" n="86" break="no"/>subiecto vel accidenti suo non excludit accidens vel 
+      <lb ed="#P" n="87"/>subiectum / et loquendo de accidente communi sed 
+      ma<lb ed="#P" n="88" break="no"/>gis necessario vnum relatiuum concomitatur alterum 
+      <lb ed="#P" n="89"/>et sequitur quemadmodum accidens subiectum. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e946">
+               <lb ed="#P" n="90"/>¶ Ultimo sic. Si dictio exclusiua excluderet 
+      vni<lb ed="#P" n="91" break="no"/>uersaliter correlatiuum sequeretur quod excluderet sui 
+      <lb ed="#P" n="92"/>preiacens cui additur probatio frequenter contingit 
+      <lb ed="#P" n="93"/>quod idem sit relatiuum et correlatiuum sicut mouens et 
+      moti<lb ed="#P" n="94" break="no"/>actiuum et passiuum. Similiter etiam in deo essentiali 
+      <lb ed="#P" n="95"/>ter sunt idem pater et filius: sed consequens est impossibilee 
+      er<lb ed="#P" n="96" break="no"/>go et antecedens. Uidetur ergo istis quod dictio 
+      exclu<lb ed="#P" n="97" break="no"/>siua non excludit correlatiuum / nec predicatum a 
+      cor<lb ed="#P" n="98" break="no"/>relatiuo cui additur / et ideo consequeter concedunt sicut dice 
+      <lb ed="#P" n="99"/>tur infra quod ista est vera solus pater est deus. 
+      <lb ed="#P" n="100"/>ft michi quod predicta opi¬ 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e972">
+               <lb ed="#P" n="101"/>¶ Sed videt  et nio non sit vera videtur 
+      <lb ed="#P" n="102"/>enim mihi et Aristoteli quod dictio exclusiua addita 
+      al<lb ed="#P" n="103" break="no"/>cui correlatiuo in ordine ad aliquod praedicatum quodcumqui 
+      <lb ed="#P" n="104"/>sit illud / excludit correlatiuum vel praedicatum a 
+      correla<lb ed="#P" n="105" break="no"/>tiuo / vt patet. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e985">
+      ¶ Secundo arguo sic. Solus idem 
+      <lb ed="#P" n="106"/>est / quod non cum alio: quia solus excludit alium vel aliud 
+      di<lb ed="#P" n="107" break="no"/>stinctum ab ipso / quod scilicet non est idem sibi sed vnum correlati 
+      <lb ed="#P" n="108"/>uum se habet ad reliquum sicut aliud / patet in 
+      creatu<lb ed="#P" n="109" break="no"/>ris. vel saltem sicut alius patet in diuinis.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e996">
+      ¶ Terto sic 
+      di<lb ed="#P" n="110" break="no"/>ctio exclusiua excludit omne illud quod non caderet sub 
+      di<lb ed="#P" n="111" break="no"/>stributione signi velis additamenti eidem cui additur / sed 
+      <lb ed="#P" n="112"/>correlatiuum non caderet sub distributione signi viellis 
+      <lb ed="#P" n="113"/>additi suo correlatiuo / patet dicendo. Ominis patur non 
+      ha<lb ed="#P" n="114" break="no"/>betur / nec distribuitur nisi pater / non autem filius: quia tunc se 
+      <lb ed="#P" n="115"/>queretur omnis pter currit ergo omnis filius currit / quod est falsum 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e1013">
+               <lb ed="#P" n="116"/>¶ Dico ergo quod dictio exclusiua quae est dictio 
+      sincathe<lb ed="#P" n="117" break="no"/>gorica et dicit dispoiotionem subiecti in ordine ad praedicatum 
+      <lb ed="#P" n="118"/>vel econuerso secundum intellectum componentem vel diuidentem 
+      <lb ed="#P" n="119"/>praedicatum cum subiecto vel a subiecto: addita alicui 
+      ex<lb ed="#P" n="120" break="no"/>cludit omne illud quod non est idem sibi numero sine subiecto 
+      <lb ed="#P" n="121"/>vel supposito secundum triplicem modum vel tres mons idem 
+      <lb ed="#P" n="122"/>titatis / qui sunt idem diffinitione: idem propo / idem accidente 
+      <lb ed="#P" n="123"/>Unde dictio exclusiua non excludit animal vel rationale quando 
+      <lb ed="#P" n="124"/>additur homin / et intelligo idem diffinitione non per additamen 
+      <lb ed="#P" n="125"/>tum / sed per se et propie et per se. Siliter etiam addita toti non 
+      ex<lb ed="#P" n="126" break="no"/>cludit partem extrinsecam. Similiter etiam dictio exclusiua 
+      <lb ed="#P" n="127"/>addita homini non excludit risibile / nec etiam 
+      addita<lb ed="#P" n="128" break="no"/>subiecto vel parieti excludit albedinem vel album: et nul 
+      <lb ed="#P" n="129"/>lo istorum modorum correlatiuum est ideo suo correlativo ac¬  
+      <!--274.xml-->
+       <pb ed="#P" n="131-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cipiendo ipsam pro relationibus: quia nulla relatio 
+      <lb ed="#P" n="2"/>opposita alteri pertinet ad diffinitionem alterius per 
+      <lb ed="#P" n="3"/>se primo / nec est proprium alterius sibi opposite nec 
+      <lb ed="#P" n="4"/>accidens eius vt subiecti / licet bene sit idem 
+      subie<lb ed="#P" n="5" break="no"/>cto cum ipsa / et quando ita est forte non excluditur 
+      corre<lb ed="#P" n="6" break="no"/>latiuum. Sie autem non est de distinctis supposito vel 
+      <lb ed="#P" n="7"/>subiecto. Dico quod dictio exclusiua addita vni 
+      corre<lb ed="#P" n="8" break="no"/>latiuo in ordine ad aliquod predicatum excludit illud a 
+      <lb ed="#P" n="9"/>suo correlatiuo. Unde dico quod conqueter ista est falsa dee 
+      <lb ed="#P" n="10"/>virtute sermonis exclusiuarum solus pater est de 
+      <lb ed="#P" n="11"/>sicut apparebit in sequenti articulo. 
+      <lb ed="#P" n="12"/> Dico quod minor est 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e1078">
+               <lb ed="#P" n="13"/>¶ Ad primum alio e fsa sicut patuit in 
+      <lb ed="#P" n="14"/>articulo praecedenti.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1085">
+      ¶ Ad secundum dico quod maior est 
+      <lb ed="#P" n="15"/>falsa quantucunque vnum correlatiuum in esse 
+      intelligi<lb ed="#P" n="16" break="no"/>bili sequatur ad aliud / tamen dico quod excluditur per 
+      di<lb ed="#P" n="17" break="no"/>ctionem exclusiuam additam alteri vt patuit per 
+      praedi<lb ed="#P" n="18" break="no"/>cta: quia relatiuum est aliud / et non est idem aliquo 
+      mon<lb ed="#P" n="19" break="no"/>do predictorum: sed dico quod respectu talium 
+      predicto<lb ed="#P" n="20" break="no"/>rum necessario conuenientium vtrique relatorum 
+      cuius<lb ed="#P" n="21" break="no"/>modi est esse / vel huiusmodi per exclusiuam dictionem 
+      <lb ed="#P" n="22"/>alteri additam relato: habetur propositio 
+      incompossibi<lb ed="#P" n="23" break="no"/>lis ad quam sequitur contradictorium vnum 
+      ratione<lb ed="#P" n="24" break="no"/>relatorum et aliud ratione dictionis exclusiue. Unde 
+      <lb ed="#P" n="25"/>ad istam solus pater sequitur ad istam filius est 
+      ra<lb ed="#P" n="26" break="no"/>tione patris: quia si pater est filius est et similiter ista 
+      <lb ed="#P" n="27"/>filius: non est ratione dictionis exclusiue. Similiter etiam 
+      <lb ed="#P" n="28"/>ad istam tantum principium est sequitur contradicto 
+      <lb ed="#P" n="29"/>ria / scilicet quod principiatum sit ratione principii / et quod 
+      <lb ed="#P" n="30"/>non sit ratione huius quod est tantum. Unde qui 
+      con<lb ed="#P" n="31" break="no"/>cedit tales propositiones concedit contradictoria / sicut 
+      <lb ed="#P" n="32"/>etiam videtur deducere philosophus primo Phisico 
+      <lb ed="#P" n="33"/>rum sicut patebit. Ad probationem quando dicit quod 
+      <lb ed="#P" n="34"/>tunc idem supponeret dictio exclusiua et destrueret 
+      <lb ed="#P" n="35"/>Dico quod non per se et immediate: sed per se supponitur 
+      <lb ed="#P" n="36"/>suum preiacens cui additur / et per se excludit 
+      corre<lb ed="#P" n="37" break="no"/>latiuum quod est aliud non idem: sed verum est quod hoc non 
+      <lb ed="#P" n="38"/>est virtute exclusiue vel exclusionis sed magis 
+      vir<lb ed="#P" n="39" break="no"/>tute relationis sequitur negatio et amotio primi 
+      re<lb ed="#P" n="40" break="no"/>lati ideo non valet.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1144">
+      ¶ Ad tertium dico quod non est 
+      si<lb ed="#P" n="41" break="no"/>mile de accidente et subiecto / et de relatiuo et 
+      corre<lb ed="#P" n="42" break="no"/>latiuo sicut dictum est supra.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1151">
+      ¶ Ad quartum dice 
+      <lb ed="#P" n="43"/>retur quod licet duo correlatiua possint esse idem. 
+      sub<lb ed="#P" n="44" break="no"/>iecto et quantum ad correlationes / sicut est in 
+      volun<lb ed="#P" n="45" break="no"/>tate mouente seipsam ad actum que refertur ad actum 
+      <lb ed="#P" n="46"/>productum / vel ad totum ex voluntate et actu et 
+      econ<lb ed="#P" n="47" break="no"/>uerso relationibus oppositis de secundo modo numquam 
+      <lb ed="#P" n="48"/>tamen vnum correlatiuum vt correlatiuum id est quantum 
+      <lb ed="#P" n="49"/>ad relationem est subiectum alterius / vt patet. Et 
+      <lb ed="#P" n="50"/>ideo diceretur quod alterum nunquam est idem alteri 
+      alte<lb ed="#P" n="51" break="no"/>ro trium modorum / et per consequens dictio exclusi 
+      <lb ed="#P" n="52"/>ua addita vni excludendo alterum non excludit et 
+      po<lb ed="#P" n="53" break="no"/>nit idem per se / primo licet per accidens sicut dictum 
+      <lb ed="#P" n="54"/>est in solutione secundi argumenti / eodem modo de 
+      re<lb ed="#P" n="55" break="no"/>lationibus actiui et passiui licet non opponantur 
+      <lb ed="#P" n="56"/>Sed contra hanc solutionem est quia si idem subiectum 
+      <lb ed="#P" n="57"/>sit musicum et grammaticum dicendo solum musicum est 
+      <lb ed="#P" n="58"/>non excluditur grammaticum / et tamen planum est quod 
+      <lb ed="#P" n="59"/>musicum per musicam non est subiectum grammatice / ergi 
+      <lb ed="#P" n="60"/>similiter hic. Et ideo potest dici quod quando 
+      correla<lb ed="#P" n="61" break="no"/>tiua sunt eadem subiecto vel supposito dictio 
+      exclus<lb ed="#P" n="62" break="no"/>ua addita vni non excludit predicatum a 
+      reliquo<lb ed="#P" n="63" break="no"/>sed quando sunt distincta subiecto vel supposito: vel 
+      <lb ed="#P" n="64"/>diceretur quod immo excluditur grammaticum non ratione 
+      subie<lb ed="#P" n="65" break="no"/>cti sed forme quae est grammatica. Hec de. 2. articulo. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e1203">
+        <!--274.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>¶ Quantum ad tertium 
+      di<lb ed="#P" n="67" break="no"/>cunt aliqui sicut tactum est supra quod ista est vera sol 
+      <lb ed="#P" n="68"/>pater est deus: quia per hoc non excluditur esse deum a 
+      <lb ed="#P" n="69"/>correlatiuo patris sicut dictum est: quia dictio 
+      exclu<lb ed="#P" n="70" break="no"/>siua addita vni correlatiuo non excludit 
+      predicatu<lb ed="#P" n="71" break="no"/>a correlatiuo nec ipsum correlatiuum. Sed visum est 
+      <lb ed="#P" n="72"/>in precedenti articulo quod ista opinio innititur super 
+      <lb ed="#P" n="73"/>falsum fundamentum.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1228">
+      ¶ Alii dicunt quod ista dictio 
+      ex<lb ed="#P" n="74" break="no"/>clusiua solus potest exercere actum suum circa 
+      sub<lb ed="#P" n="75" break="no"/>iectum cui additur precise et sic ista est vera / et est 
+      sen<lb ed="#P" n="76" break="no"/>sus solus pater est deus: id est ille qui est solus 
+      pa<lb ed="#P" n="77" break="no"/>ter est deus. Alio modo potest exercere actum suum 
+      <lb ed="#P" n="78"/>circa subiectum in ordine ad hoc predicatum deus et 
+      <lb ed="#P" n="79"/>tunc est falsa quia tunc est sensus quod pater est deus / 
+      <lb ed="#P" n="80"/>et quod alius a patre non est deus: quia excluditur predica 
+      <lb ed="#P" n="81"/>tum ab omni alio. Sed illud non valet quia semper 
+      di<lb ed="#P" n="82" break="no"/>ctio exclusiua immediate addita subiecto est 
+      disposi<lb ed="#P" n="83" break="no"/>tio eius in ordine ad predicatum propaitionis / non autem 
+      <lb ed="#P" n="84"/>absolute et secundum seipsam. Iterum etiam cum ista 
+      <lb ed="#P" n="85"/>dictio solus sit adiectiua et addatur immediate 
+      subie<lb ed="#P" n="86" break="no"/>cto non determinant subiectum suum in se / sic quod resol 
+      <lb ed="#P" n="87"/>uatur istud quod est solus pater in aliquam propationem 
+      <lb ed="#P" n="88"/>que est ista qui est solus pater. etc. Sicut dicunt 
+      ali<lb ed="#P" n="89" break="no"/>qui qui volunt quod semper vbi est adiectiuum et 
+      substan<lb ed="#P" n="90" break="no"/>tiuum intelligatur copula media: quia tunc nunquam 
+      imme<lb ed="#P" n="91" break="no"/>diate secundum intellectum adderetur adiectiuum 
+      sub<lb ed="#P" n="92" break="no"/>stantiuo vt dicendo homo est albus esset sensus 
+      ho<lb ed="#P" n="93" break="no"/>mo qui est albus vel qui est ho albus.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1274">
+      ¶ Alii dicunt quod 
+      <lb ed="#P" n="94"/>solus idem est quod non cum alio / aut quia accipitur alio 
+      neu<lb ed="#P" n="95" break="no"/>traliter / et sic est vera / et est sensus solus pater est de 
+      <lb ed="#P" n="96"/>id est nullum aliud a patre est deus. Aut accipitur 
+      ma<lb ed="#P" n="97" break="no"/>sculine et tunc est falsa / et est sensus solus pater est 
+      <lb ed="#P" n="98"/>deus / id est pater est deus: et nullus alius puta 
+      fili<lb ed="#P" n="99" break="no"/>vel spiritus sanctus. Sed hoc non valet / quia adiectiuum 
+      <lb ed="#P" n="100"/>semper accipit determinationem sui modi 
+      significam<lb ed="#P" n="101" break="no"/>di a substantiuo: et ita numquam potest teneri neutraliter. 
+      <lb ed="#P" n="102"/>Sed substantiuum est masculi generis sicut patet ideo non valet. 
+      <lb ed="#P" n="103"/>frius michi dicendum ab¬ 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e1298">
+               <lb ed="#P" n="104"/>¶ Didetur igu. ce solute et sine glosa 
+      <lb ed="#P" n="105"/>quod de virtute sermonis ista est falsa. Solus pater est 
+      <lb ed="#P" n="106"/>deus: quia ad istam sequitur quod filius non est deus 
+      vertu<lb ed="#P" n="107" break="no"/>te exclusionis: hoc autem est falsum. Et similiter 
+      sequi<lb ed="#P" n="108" break="no"/>tur quod spiritus sanctus non est deus / quod est falsum. 
+      <lb ed="#P" n="109"/>Ratio autem est quia sicut probatum est dictio exclusi 
+      <lb ed="#P" n="110"/>ua alicui addita in ordine ad predicatum quod excludit 
+      <lb ed="#P" n="111"/>predicatum a quocumque alio non eodem sibi illis 
+      mo<lb ed="#P" n="112" break="no"/>dis predictis. Modo dico quod tam filius quam spiritus 
+      sancti<lb ed="#P" n="113" break="no"/>isto modo sunt alii a patre. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1322">
+      ¶ Secunda rati 
+      <lb ed="#P" n="114"/>est: ista est falsa solus homo vel solus sortes est animal 
+      <lb ed="#P" n="115"/>ergo ista similiter vt videtur solus pater est deus. 
+      <lb ed="#P" n="116"/>Probatio antecedentis / sequitur solus ho est anima / ergo 
+      <lb ed="#P" n="117"/>omne animal est ho. Nam dictio exclusiua sumpta sic 
+      <lb ed="#P" n="118"/>excludendo praedicatum a quolibet alio a subiecto 
+      de<lb ed="#P" n="119" break="no"/>notat predicatum non excludere subiectum: 
+      conse<lb ed="#P" n="120" break="no"/>quens est falsum / ergo et antecedens: 
+      consequen<lb ed="#P" n="121" break="no"/>tia prima probatur quia in proposito possunt 
+      acci<lb ed="#P" n="122" break="no"/>pi propositiones et consequentie sic. Solus pater 
+      <lb ed="#P" n="123"/>est deus: ergo omnis deus est pater que est falsa: 
+      <lb ed="#P" n="124"/>quia deus filius non est pater. Alia probatio est 
+      <lb ed="#P" n="125"/>huius consequentie. Solus homo est animal: ergo 
+      <lb ed="#P" n="126"/>omne animal est homo. Nam sequitur solus homo 
+      <lb ed="#P" n="127"/>est animal: ergo nullus non homo est animal. Ultra 
+      nul<lb ed="#P" n="128" break="no"/>lus non homo est animal: ergo nullum animal est 
+      <lb ed="#P" n="129"/>non homo. Sed vltra sequitur. Nullum animal est 
+      <!--275.xml-->
+       <pb ed="#P" n="131-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non homo / ergo omne animal est ho: et sic etiam 
+      conformi<lb ed="#P" n="2" break="no"/>ter potest accipi in proposito. Dico ergo quod ista simpliliter 
+      <lb ed="#P" n="3"/>est falsa Solus pater est deus. Dico tamen quod 
+      aliquan<lb ed="#P" n="4" break="no"/>do inuenitur concessa et similes a sanctis. Et possunt 
+      <lb ed="#P" n="5"/>exponi Solus pater est deus / id est qui solus est pa 
+      <lb ed="#P" n="6"/>ter est deus. etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1379">
+      ¶ Circa predicta est aduertendum 
+      <lb ed="#P" n="7"/>quod solus potest accipi cathegorice et quasi 
+      substantiue<lb ed="#P" n="8" break="no"/>et tunc significat solitudinem / nec habet locum in 
+      diui<lb ed="#P" n="9" break="no"/>nis / sicut dicebat filius de patre non relinquit me so 
+      <lb ed="#P" n="10"/>lum. Et similiter de ipso dicebat / quia non sum ego solus 
+      <lb ed="#P" n="11"/>sed qui misit me pater meus est. Alio modo potest 
+      tene<lb ed="#P" n="12" break="no"/>ri sincathegoreumatice et consignificatiue et 
+      adiecti<lb ed="#P" n="13" break="no"/>ue / et sic recipitur in diuinis in multis propationibus: et 
+      <lb ed="#P" n="14"/>isto modo dicit propaitionem subiecti in ordine ad 
+      praedi<lb ed="#P" n="15" break="no"/>catum proprie accipiendo: et tunc vel additur subiecto 
+      een<lb ed="#P" n="16" break="no"/>tiali in diuinis in ordine ad aliquod essentiale / et sic 
+      <lb ed="#P" n="17"/>dico quod nunquam excludit aliquid intrinsecc deo / quia omne 
+      <lb ed="#P" n="18"/>intrinsecum deo quod est essentiale vel commune est vnum 
+      <lb ed="#P" n="19"/>et idem numero / sicut solus deus est eternus non 
+      exclu<lb ed="#P" n="20" break="no"/>ditur filius nec spiritus sanctus. nec aliquid deo 
+      intrin<lb ed="#P" n="21" break="no"/>secum: vel additur alicui essentiali in ordine ad 
+      no<lb ed="#P" n="22" break="no"/>tionale: et sic etiam non excluditur predicatum ab 
+      ali<lb ed="#P" n="23" break="no"/>quo essentiali sicut dicendo. Solus deus est pater: 
+      <lb ed="#P" n="24"/>vel additur subiectio notionali in ordine ad 
+      essen<lb ed="#P" n="25" break="no"/>tiale predicatum / et sic excludit correlatiuum et aliud 
+      <lb ed="#P" n="26"/>a notionali / et predicatum ab alio: sicut solus pater 
+      <lb ed="#P" n="27"/>est deus / et constituit propositionem falsam in 
+      di<lb ed="#P" n="28" break="no"/>uinis sicut dictum est supra de ista Solus pater est 
+      <lb ed="#P" n="29"/>deus. Uel additur notionali in ordine ad 
+      predica<lb ed="#P" n="30" break="no"/>tum notionale / et hoc dupliciter vel in ordine ad 
+      no<lb ed="#P" n="31" break="no"/>tionale proprium subiecto notionali / sicut solus pater 
+      <lb ed="#P" n="32"/>est ingenitus vel pater / et tunc est propositio vera vel 
+      <lb ed="#P" n="33"/>in ordine ad notionale commune pluribus vt 
+      spira<lb ed="#P" n="34" break="no"/>re et tunc est propositio falsa vt solus pater spirat / si tamen 
+      <lb ed="#P" n="35"/>spirare actiue notionale debet dici. Si autem 
+      dictio<lb ed="#P" n="36" break="no"/>exclusiua addatur predicato / aut illud praedicatum est 
+      <lb ed="#P" n="37"/>essentiale aut notionale. Si essentiale / aut habet 
+      sub<lb ed="#P" n="38" break="no"/>iectum essentiale aut notionale. Si essentiale semper 
+      <lb ed="#P" n="39"/>est propositio vera deus est solus deus / vel solus 
+      eter<lb ed="#P" n="40" break="no"/>mus. Si notionale propositio est vera / pater est solus 
+      <lb ed="#P" n="41"/>deus. Si predicatum est notionale aut habet 
+      sub<lb ed="#P" n="42" break="no"/>iectum essentialem aut notionale: sed si habet 
+      sub<lb ed="#P" n="43" break="no"/>iectum essentiale et notionale sit proprium alicuius per 
+      <lb ed="#P" n="44"/>sone tunc facit propositionem veram / sicut deus est 
+      so<lb ed="#P" n="45" break="no"/>lus pater / si commune falsam propositionem deus est solus 
+      <lb ed="#P" n="46"/>pirans. Si subiectum sit notionale aut illud 
+      praedi<lb ed="#P" n="47" break="no"/>catum est proprium illi subiecto / et sic facit 
+      propositio<lb ed="#P" n="48" break="no"/>nem veram. Pater est solus generans. Aut 
+      commune<lb ed="#P" n="49" break="no"/>illi subiecto et aliis / et sic falsam. Pater est solus spi 
+      <lb ed="#P" n="50"/>rans. De isto tamen membro est dubium: quia videre 
+      <lb ed="#P" n="51"/>tur posse dici quod hec est vera pater est solus spirans 
+      <lb ed="#P" n="52"/>sicut ista pater est solus deus / dato quod filius sit deus 
+      <lb ed="#P" n="53"/>Tamen etiam posset dici quod quia spirans non est 
+      subie<lb ed="#P" n="54" break="no"/>ctum sicut deus vel spirator / et non possunt dici 
+      pa<lb ed="#P" n="55" break="no"/>ter et filius solus spirans / sicut solus deus vel spira 
+      <lb ed="#P" n="56"/>lor / ideo non est simile. De hac autem trinitas est 
+      so<lb ed="#P" n="57" break="no"/>lus deus. Dico quod est vera / quia trinitas est deus / et 
+      <lb ed="#P" n="58"/>non aliquid aliud / nec aliquis alius a deo. De 
+      pre<lb ed="#P" n="59" break="no"/>dicatis autem repugnantibus subiectis non est men 
+      <lb ed="#P" n="60"/>tio / quia planum est quod semper talia predicata de 
+      sub<lb ed="#P" n="61" break="no"/>iectis quibus repugnant constituunt propositionem. 
+      <lb ed="#P" n="62"/>falsam / et sic intelligendum est de aliis dictionibus 
+      <lb ed="#P" n="63"/>exclusiuis. Sic ad questionem. 
+      </p>
+            <p xml:id="qrdBas-a83616-d1e1505">
+               <lb ed="#P" n="64"/>¶ Ad primum principale dico 
+      <!--275.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>quod minor est falsa. Ad philosophum dico quod non 
+      intem<lb ed="#P" n="66" break="no"/>dit ibi quod dictio exclusiua addita vni correlatiuo non 
+      <lb ed="#P" n="67"/>excludat reliquum: sed intendit deducere dictum ad 
+      <lb ed="#P" n="68"/>aduersarii ad contradictionem. Primo enim dixerant 
+      <lb ed="#P" n="69"/>quod tantum vnum est. Secundo quod illud vnumest principium 
+      <lb ed="#P" n="70"/>et tunc arguit contra eos phuns si est principium est 
+      <lb ed="#P" n="71"/>principiatum virtute relationis: et per consequens sunt 
+      plu<lb ed="#P" n="72" break="no"/>ra / quia principium et principiatum sunt plura: sed secundum 
+      <lb ed="#P" n="73"/>illos tantum vnum est: ergo non plura virtute 
+      exclu<lb ed="#P" n="74" break="no"/>sionis / ergo ponunt plura et non plura.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1537">
+      ¶ Ad secundum 
+      <lb ed="#P" n="75"/>dico quod non sequitur solus deus est pater: ergo solus 
+      pa<lb ed="#P" n="76" break="no"/>ter est deus / sed magis pater est solus deus / et hoc 
+      <lb ed="#P" n="77"/>est verum: quando dicis hec conuertitur in illam. Dico 
+      <lb ed="#P" n="78"/>quod non est verum: quia prima est pregnans vniuersalis 
+      <lb ed="#P" n="79"/>scilicet ista solus deus est pater: et ideo sicut 
+      vniuer<lb ed="#P" n="80" break="no"/>salis affirmatiua non conuertitur in vniuersalem 
+      affir<lb ed="#P" n="81" break="no"/>matiuam: sed est fallacia consequentis vt omnis homo est 
+      ani<lb ed="#P" n="82" break="no"/>mal: ergo omne animal est homo. Ita dico quod 
+      exclusi<lb ed="#P" n="83" break="no"/>ua non conuertitur in exclusiuam: quia exclusiua quantum 
+      <lb ed="#P" n="84"/>ad vnam exponentem suam vniuersalis affirmatiua 
+      <lb ed="#P" n="85"/>est vel equipolet sibi.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1563">
+      ¶ Ad tertium dico quod illa so 
+      <lb ed="#P" n="86"/>us pater est tantus. etc. id est qui est solus pater est 
+      <lb ed="#P" n="87"/>tantus. etc. quia est deus. Et similiter de aliis / non quod 
+      <lb ed="#P" n="88"/>ista expositio habeatur de virtute sermonis vel 
+      de<lb ed="#P" n="89" break="no"/>nsu loquendi / sicut etiam dictio reduplicatiua vt 
+      in<lb ed="#P" n="90" break="no"/>quantum non semper reduplicat rationem inharentie 
+      <lb ed="#P" n="91"/>predicati ad subiectum / quod tamen conuenit 
+      sibi<lb ed="#P" n="92" break="no"/>proprie inquantum est dictio reduplicatiua: sed aliquam 
+      <lb ed="#P" n="93"/>do conditionem subiecti que non est ratio predicati /  
+      <lb ed="#P" n="94"/>tamen conuenit subiecto specialiter / et tunc tenetur 
+      <lb ed="#P" n="95"/>specificatiue non reduplicatiue / sicut dicitur quod 
+      sub<lb ed="#P" n="96" break="no"/>iectum inquantum est potentia moralis ex pio modo 
+      <lb ed="#P" n="97"/>exponendi dicta sanctorum. etc.
+    </p>
+            <p xml:id="qrdBas-a83616-d1e1592">
+      ¶ Ad quartum 
+      di<lb ed="#P" n="98" break="no"/>tendum est quod eodem modo / nisi quod vnus respondet ad 
+      <lb ed="#P" n="99"/>illud mathei vndecimo. Nemo nouit filium nisi 
+      pa<lb ed="#P" n="100" break="no"/>ter / neque patrem quis nouit nisi filius. etc. Dicit quod 
+      <lb ed="#P" n="101"/>bi accipitur nemo pro quolibet supposito alterius 
+      na<lb ed="#P" n="102" break="no"/>ture intellectualis a natura diuina: ita quod nullum 
+      in<lb ed="#P" n="103" break="no"/>telligens aliud a natura diuina nouit patrem 
+      natu<lb ed="#P" n="104" break="no"/>raliter: neque patrem quis nouit nisi filius. Dicit quod 
+      <lb ed="#P" n="105"/>ibi accipitur quis pro homine. Et est sensus alius hoc 
+      <lb ed="#P" n="106"/>a filio non nouit patrem nisi filius voluerit reuelare 
+      <lb ed="#P" n="107"/>sibi. Et accipiatur ista expositio quia videtur satis bona. 
+      <lb ed="#P" n="108"/>Aliter tamen potest accipi ly quis pro quolibet 
+      supposi<lb ed="#P" n="109" break="no"/>to alterius nature intellectualis vel rationalis a 
+      natu<lb ed="#P" n="110" break="no"/>ra diuina / et tunc locum habet sicut patet et est propoitio 
+      ve<lb ed="#P" n="111" break="no"/>ra / nec est argumentum contra predicta. etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

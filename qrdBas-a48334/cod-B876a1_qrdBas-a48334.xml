@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="75-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a48334"><!-- l1d5q4 -->
+            <head xml:id="qrdBas-a48334-Hd1e99">Quaestio 4</head>
+            <p xml:id="qrdBas-a48334-d1e101">
+      <!--161.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>¶ Distinctionis Quinte. 
+      <lb ed="#P" n="66"/>Questio Quarta.
+  </p>
+            <p xml:id="qrdBas-a48334-d1e112">
+               <lb ed="#P" n="67"/>QUarto quaero utrum 
+      <lb ed="#P" n="68"/>communicatio et productio
+    <lb ed="#P" n="69"/>sint idem in diuinis.
+    </p>
+            <p xml:id="qrdBas-a48334-d1e121">
+      ¶ Et 
+      vi<lb ed="#P" n="70" break="no"/>detur quod non: quia 
+      communi<lb ed="#P" n="71" break="no"/>catum et productum non sunt 
+      <lb ed="#P" n="72"/>7 omnino idem scilicet essentia 
+      <lb ed="#P" n="73"/>et persona / ergo nec 
+      commu<lb ed="#P" n="74" break="no"/>nicatio et productio.
+    </p>
+            <p xml:id="qrdBas-a48334-d1e134">
+      ¶ 
+      Pre<lb ed="#P" n="75" break="no"/>terea quod producitur realiter refertur sed quod 
+      con<lb ed="#P" n="76" break="no"/>municatur non refertur realiter quia essentia non 
+      re<lb ed="#P" n="77" break="no"/>fertur: ergo etc. 
+      <lb ed="#P" n="78"/>et communi¬ 
+      </p>
+            <p xml:id="qrdBas-a48334-d1e146">
+               <lb ed="#P" n="79"/>¶ Contra producens causa sunt idem 
+      <lb ed="#P" n="80"/>ergo productio et communicatio sunt idem. 
+      <lb ed="#P" n="81"/>Primo quod productio et 
+      </p>
+            <p xml:id="qrdBas-a48334-d1e155">
+               <lb ed="#P" n="82"/>¶ Hic dico duo communicatio in 
+      diui<lb ed="#P" n="83" break="no"/>nis in hoc conueniunt / quia vterque dicit relationem 
+      <lb ed="#P" n="84"/>et respectum quendam vt patet.
+    </p>
+            <p xml:id="qrdBas-a48334-d1e164">
+      ¶ Sed differunt in 
+      <lb ed="#P" n="85"/>hoc quod productio in diuinis dicit relationem realem  
+      <lb ed="#P" n="86"/>producentis ad productum vel producti ad 
+      produ<lb ed="#P" n="87" break="no"/>cens. Communicatio vero dicit respectum rationis  
+      <lb ed="#P" n="88"/>communicantis ad communicatum puta persone et 
+      <lb ed="#P" n="89"/>producentis ad essentiam vel communicati ad 
+      com<lb ed="#P" n="90" break="no"/>municans scilicet essentie ad personam 
+      producen<lb ed="#P" n="91" break="no"/>tem aliam personam et communicantem sibi 
+      essen<lb ed="#P" n="92" break="no"/>tiam.
+    </p>
+            <p xml:id="qrdBas-a48334-d1e184">
+      ¶ Secundo differunt quia productio tam 
+      <lb ed="#P" n="93"/>actiue quam passiue accepta conuenit persone / et nullo 
+      <lb ed="#P" n="94"/>modo essentie vt dictum est supra. Sed 
+      communi<lb ed="#P" n="95" break="no"/>catio passiue conuenit essentie / et nullo modo perso 
+      <lb ed="#P" n="96"/>ne quia essentia communicabilis est. 
+      Communica<lb ed="#P" n="97" break="no"/>tio autem actiue dicta conuenit persone / et nullo 
+      mo<lb ed="#P" n="98" break="no"/>do essentie: vnde essentia non communicat sicut nec 
+      <lb ed="#P" n="99"/>generat vel spirat. Quod autem communicatio non sit 
+      <lb ed="#P" n="100"/>relatio realis in diuinis. Patet / quia nec realiter 
+      <lb ed="#P" n="101"/>distinguuntur sicut dictum est supra. nec realiter 
+      re<lb ed="#P" n="102" break="no"/>fertur ad essentiam nec econuerso. Impossibile est 
+      <lb ed="#P" n="103"/>autem in diuinis aliqua realiter referri nisi realiter 
+      <lb ed="#P" n="104"/>distinguantur: ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a48334-d1e213">
+      ¶ Sed hoc declarant 
+      <lb ed="#P" n="105"/>aliqui accipiendo vnum quod est dubium dicunt quod 
+      <lb ed="#P" n="106"/>in generatione creature aliquid est terminus 
+      gene<lb ed="#P" n="107" break="no"/>rationis per se primo scilicet compositum 
+      genera<lb ed="#P" n="108" break="no"/>tum: aliquid quod est terminus formalis et 
+      termi<lb ed="#P" n="109" break="no"/>nus per se / non tamen primo sicut forma ipsa. Et 
+      com<lb ed="#P" n="110" break="no"/>formiter ibi etiam est duplex respectus ad generans 
+      <lb ed="#P" n="111"/>vnus est qui est totius compositi alius est 
+      termini<lb ed="#P" n="112" break="no"/>formalis et vterque realis est: quia totum et pars vel 
+      <lb ed="#P" n="113"/>forma realiter distinguuntur / et possunt fundare 
+      di<lb ed="#P" n="114" break="no"/>stinctos reales respectus ad generans: et similiter 
+      ip<lb ed="#P" n="115" break="no"/>sius generantis sunt duo respectus reales ad istos 
+      <lb ed="#P" n="116"/>duos terminos realiter distinctos ab ipso. In 
+      diui<lb ed="#P" n="117" break="no"/>nis autem dicunt quod licet respectus termini per se 
+      <lb ed="#P" n="118"/>primo ipsius productionis scilicet suppositi 
+      produ<lb ed="#P" n="119" break="no"/>cti ad producens et econuerso sit realis: non tamen 
+      <lb ed="#P" n="120"/>respectus termini formalis qui est essentia: potest 
+      <lb ed="#P" n="121"/>esse realis / nec econuerso: quia nec essentia realiter 
+      <lb ed="#P" n="122"/>distinguitur a termino producto nec a producente. 
+      <lb ed="#P" n="123"/>Conicatio ergo cum dicat respectum essentie ad 
+      pro<lb ed="#P" n="124" break="no"/>pucens vel econuerso / non potest esse respectus realis 
+      <lb ed="#P" n="125"/>nec econuerso: quia nec essentia realiter 
+      distingui<lb ed="#P" n="126" break="no"/>tur a termino producto nec a producente. 
+      Commu<lb ed="#P" n="127" break="no"/>nicatio ergo cum dicat respectum essentie ad producens 
+      <!--162.xml-->
+       <pb ed="#P" n="76-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vel econuerso non potest esse respectus realis: nisi 
+      for<lb ed="#P" n="2" break="no"/>te diceretur quia nec essentia realiter distinguitur et 
+      <lb ed="#P" n="3"/>probabiliter idem est penitus in re essentia et 
+      prodi<lb ed="#P" n="4" break="no"/>ctio persone et tunc esset difficile euadere quod essentia non 
+      <lb ed="#P" n="5"/>sit producta et persona communicata realiter. Est igitur 
+      <lb ed="#P" n="6"/>respectus rationis vtrobique et ita nec est idem 
+      rea<lb ed="#P" n="7" break="no"/>liter productioni / nec distinguitur realiter ab ipsa: quia non 
+      <lb ed="#P" n="8"/>est res sed respectus rationis tantum sed distinguum 
+      <lb ed="#P" n="9"/>tur tantum secundum rationem. 
+      <lb ed="#P" n="10"/>se vnum dubium. An scilicet sit alius 
+      </p>
+            <p xml:id="qrdBas-a48334-d1e293">
+               <lb ed="#P" n="11"/>¶ Hic ei et alius respectus forme et 
+      composi<lb ed="#P" n="12" break="no"/>ti ad generans et econuerso. Et videretur alicui quod non 
+      <lb ed="#P" n="13"/>quia forme et compositi non est alia et alia productio: quia 
+      <lb ed="#P" n="14"/>vnica generatione et mutatione habetur forma et 
+      <lb ed="#P" n="15"/>compositum vt videtur: ergo non est alia et alia relatio 
+      <lb ed="#P" n="16"/>compositi et forme ad producens. Item si forma habet 
+      <lb ed="#P" n="17"/>propriam relationem ad producens sequitur quod sit ter 
+      <lb ed="#P" n="18"/>minus per se primus alicuius productionis sicut per 
+      <lb ed="#P" n="19"/>se primum fundamentum relationis ad producens hoc 
+      <lb ed="#P" n="20"/>est falsum et contra Aristotelem: quia nulla generatio 
+      <lb ed="#P" n="21"/>per se primo terminatur ad formam: ergo etc. Uidetur 
+      <lb ed="#P" n="22"/>ergo quod dubium assumatur: licet forte verum sit quod 
+      assu<lb ed="#P" n="23" break="no"/>mitur nec tollitur per istas rationes que in contrarium 
+      <lb ed="#P" n="24"/>assumuntur. Potest enim vnica mutatio generationis 
+      <lb ed="#P" n="25"/>terminari ad duos termiuos subordinatos formam 
+      <lb ed="#P" n="26"/>scilicet et compositum habentes distinctas relationes ad 
+      <lb ed="#P" n="27"/>generans et primo ad compositum via perfectionis: sed 
+      <lb ed="#P" n="28"/>primo ad formam via originis. Et ideo modus iste 
+      <lb ed="#P" n="29"/>declarandi distinguatur et accipiatur quod essentia non 
+      re<lb ed="#P" n="30" break="no"/>fertur realiter nec per se nec per accidens ad 
+      suppo<lb ed="#P" n="31" break="no"/>situm producens: quia cum hoc quod relatione producti ad 
+      <lb ed="#P" n="32"/>producens vel communicati est eadem realiter cum 
+      termi<lb ed="#P" n="33" break="no"/>no producto qui refertur realiter. Est etiam eadem 
+      <lb ed="#P" n="34"/>producenti et ideo ad ipsum non potest realiter 
+      refer<lb ed="#P" n="35" break="no"/>ri. Forma autem potest referri per accidens vel per se 
+      <lb ed="#P" n="36"/>non tamen primo ad generans eadem relatione qua 
+      compo<lb ed="#P" n="37" break="no"/>situm quia realiter a generante distinguitur.
+    </p>
+            <p xml:id="qrdBas-a48334-d1e355">
+      ¶ Ad  
+      <lb ed="#P" n="38"/>argumenta apparet solutio ex predictis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

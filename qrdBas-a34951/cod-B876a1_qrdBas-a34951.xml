@@ -1,0 +1,752 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 6</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 6</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="55-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a34951"><!-- l1d2q6 -->
+            <head xml:id="qrdBas-a34951-Hd1e99">Quaestio 6</head>
+            <p xml:id="qrdBas-a34951-d1e101">
+               <lb ed="#P" n="75"/>¶ Distinctionis Secunde. 
+      Questio<lb ed="#P" n="76" break="no"/>Sexta et vltima secundum membrum 
+      eius<lb ed="#P" n="77" break="no"/>dem specialiter concernens.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e110">
+               <lb ed="#P" n="78"/>VLtimo quantum ad 
+      <lb ed="#P" n="79"/>secundum membrum huius se 
+      <lb ed="#P" n="80"/>cunde distinctionis quaero. vtrum 
+      <lb ed="#P" n="81"/>trinitas personarum possit 
+      effi<lb ed="#P" n="82" break="no"/>scaciter ostendi viatori.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e123">
+      ¶ 
+      Ar<lb ed="#P" n="83" break="no"/>guo primo sic. Si vnum 
+      rela<lb ed="#P" n="84" break="no"/>tiuum potest efficaciter osten 
+      <lb ed="#P" n="85"/>di / et reliquum / sed imago 
+      tri<lb ed="#P" n="86" break="no"/>nitatis in anima potest efficaciter ostendi viatori / et 
+      <lb ed="#P" n="87"/>per rationem naturalem: quia esse imaginem vel ad 
+      ima<lb ed="#P" n="88" break="no"/>ginem est naturale homini: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e139">
+      ¶ Secundo sic. per 
+      <lb ed="#P" n="89"/>rationem naturalem potest efficaciter ostendi quod deum 
+      <lb ed="#P" n="90"/>habet duplicem potentiam infinitiuam productiuam 
+      <lb ed="#P" n="91"/>ad intra intellectum et voluntatem / quia licet ipsas 
+      <lb ed="#P" n="92"/>perfectissime / et planum est quod ratione perfectionis 
+      con<lb ed="#P" n="93" break="no"/>uenit eis esse principia productiua: ergo per rationem 
+      <lb ed="#P" n="94"/>naturalem ostendi potest quod in deo sunt due persone 
+      <lb ed="#P" n="95"/>producte et vna producens. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e158">
+      ¶ Tertio sic 
+      ef<lb ed="#P" n="96" break="no"/>ficaciter potest ostendi quod deus ( cum sit virtus 
+      infi<lb ed="#P" n="97" break="no"/>nita ) habet aliquod productum sibi maxime simile 
+      <lb ed="#P" n="98"/>infinitum: sed non nisi ad intra ergo etc. Et 
+      similite<lb ed="#P" n="99" break="no"/>arguendo de duobus productis secundum duo 
+      prin<lb ed="#P" n="100" break="no"/>cipia.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e171">
+      ¶ Quarto sic. Efficaciter potest iste 
+      articu<lb ed="#P" n="101" break="no"/>lus sustineri quod deus est trinus et vnus: ergo 
+      effica<lb ed="#P" n="102" break="no"/>citer potest sciri quod ad ipsum nullum sequitur 
+      impos<lb ed="#P" n="103" break="no"/>sibile: et per consequens quod est possibile deum esse trinum 
+      <lb ed="#P" n="104"/>et vnum. Sed demonstratum est quod quicquid est 
+      pos<lb ed="#P" n="105" break="no"/>sibile in deo actu est: ergo etc. 
+      <lb ed="#P" n="106"/>Ambrosius primo de trinitate 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e187">
+               <lb ed="#P" n="107"/>¶ Contra dicit quod mens deficit et vox silet 
+      <lb ed="#P" n="108"/>in talibus diuinis explicandis: ergo etc 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e194">
+               <lb ed="#P" n="109"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e199">
+               <lb ed="#P" n="110"/>¶ Primo ostendam an possit efficaciter ostendi per 
+      <lb ed="#P" n="111"/>scripturam veteris testamenti pluralitas diuinarum 
+      <lb ed="#P" n="112"/>personarum cuicumque recipienti ipsam scripturam / quia 
+      <lb ed="#P" n="113"/>de scriptura noui testamenti non est dubium.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e210">
+      ¶ 
+      Se<lb ed="#P" n="114" break="no"/>cundo inquiram vtrum trinitas personarum possit 
+      <lb ed="#P" n="115"/>efficaciter ostendi per rationem naturalem.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e218">
+      ¶ 
+      Ter<lb ed="#P" n="116" break="no"/>tio respondebo ad rationes. 
+      <lb ed="#P" n="117"/>dico efficax ostensio 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e225">
+               <lb ed="#P" n="118"/>¶ Circa primum per scripturam 
+      dupli<lb ed="#P" n="119" break="no"/>citer potest intelligi. Uno modo sic quod negantem 
+      il<lb ed="#P" n="120" break="no"/>lud quod ostendere oporteat consequenter plane 
+      nega<lb ed="#P" n="121" break="no"/>re scripturam / et dicere contradictoria manifeste quod 
+      <lb ed="#P" n="122"/>scriptura. Alio modo sic quod rationabiliter vel 
+      ratio<lb ed="#P" n="123" break="no"/>nabiliori modo exponendo scripturam oporteat 
+      il<lb ed="#P" n="124" break="no"/>lud concedere: ita quod non possit esse rationabilis eidem 
+      <lb ed="#P" n="125"/>scripture negando illud quod probatur / sicut ponen 
+      <lb ed="#P" n="126"/>do / sic nec ita consonus scripture.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e247">
+      ¶ Primo modo 
+      <lb ed="#P" n="127"/>nescio si est adhuc sufficienter ostensa per scripturam 
+      <!--121.xml-->
+       <pb ed="#P" n="55-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>veteris testamenti trinitas personarum vel pluralitas. 
+      <lb ed="#P" n="2"/>Secundo modo videtur michi sicut dicunt doctores 
+      <lb ed="#P" n="3"/>et magister sententiarum in hac distinctione secunda 
+      <lb ed="#P" n="4"/>quod efficaciter est probata pluralitas et trinitas 
+      perso<lb ed="#P" n="5" break="no"/>narum per scripturas autenticas receptas a 
+      quibus<lb ed="#P" n="6" break="no"/>dam recipientibus vetus testamentum.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e271">
+      ¶ Ad hoc ad  
+      <lb ed="#P" n="7"/>duco aliquas auctoritates. Prima est quam 
+      addu<lb ed="#P" n="8" break="no"/>cit magister in hac distinctione in principio 
+      Gene<lb ed="#P" n="9" break="no"/>sis. In principio creauit deus celum et terram. 
+      He<lb ed="#P" n="10" break="no"/>braica veritas habet. In principio creauit Heloym 
+      <lb ed="#P" n="11"/>Heloym autem est nomen plurale huius nomins ex et 
+      <lb ed="#P" n="12"/>heloy: sicut patet scientibus hebraicam hanc 
+      aucto<lb ed="#P" n="13" break="no"/>ritatem libro de trinitate. primo inducit 
+      Augu<lb ed="#P" n="14" break="no"/>stinus super Genesim. Et in tertio libro post medium 
+      <lb ed="#P" n="15"/>adducit illud. Faciamus hominem etc. Et ibidem 
+      de<lb ed="#P" n="16" break="no"/>ducit in auctoritate ergo allegata nomen plurale scilicet 
+      <lb ed="#P" n="17"/>Helovm coniungitur cum verbo singulari creauit 
+      <lb ed="#P" n="18"/>per quod aperte dat intelligi sacra scriptura quod in 
+      di<lb ed="#P" n="19" break="no"/>uinis est aliqua pluralitas personalis cum vnitate 
+      di<lb ed="#P" n="20" break="no"/>nine essentie.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e304">
+      ¶ Sed ad hoc multipliciter 
+      responde<lb ed="#P" n="21" break="no"/>tur ab aduersariis fidei et praecipue a iudeis. 
+      Respon<lb ed="#P" n="22" break="no"/>detur enim primo quod hoc nomen Helovm 
+      indifferen<lb ed="#P" n="23" break="no"/>ter ponitur pro plurali vel singulari: et quandoque inueni 
+      <lb ed="#P" n="24"/>tur pro singulari. tunc dicitur de deo vero sicut hic. 
+      <lb ed="#P" n="25"/>In principio etc. Et nunquam pro deo vero accipitur 
+      <lb ed="#P" n="26"/>in plurali: sicut dicunt. Unde et dicit Hieronymus 
+      <lb ed="#P" n="27"/>in epistola ad Marcellam de diuinis nominibus 
+      he<lb ed="#P" n="28" break="no"/>braicis quod Heloym potest accipi in singulari vel in 
+      <lb ed="#P" n="29"/>plurali. Uide ibi.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e326">
+      ¶ Secundo respondent alii quod inni 
+      <lb ed="#P" n="30"/>tentes super istam auctoritatem innititur baculo arum 
+      <lb ed="#P" n="31"/>dineo et confracto. Quantumcunque enim Heloym sit 
+      plu<lb ed="#P" n="32" break="no"/>rale et dicatur de deo / non tame habent intentum: quia 
+      ta<lb ed="#P" n="33" break="no"/>lis modus loquendi inuenitur in scriptura de vno so 
+      <lb ed="#P" n="34"/>lo / sicut patet Prouerbiorum. xx viii. vbi loquitur 
+      scri<lb ed="#P" n="35" break="no"/>ptura de suscitatione dicit Phitonissa Uidi deos 
+      <lb ed="#P" n="36"/>vel Helovm ascendentes de terra / et sequitur verbum 
+      <lb ed="#P" n="37"/>Saulis qualis est forma eius: de alio etiam 
+      nomi<lb ed="#P" n="38" break="no"/>ne: immo de aliis nominibus sic loquitur scriptura si 
+      <lb ed="#P" n="39"/>cut Ezechiel quadragesimo sexto dicit sic. In 
+      die<lb ed="#P" n="40" break="no"/>autem Ralendarum vitulum de armento 
+      immacu<lb ed="#P" n="41" break="no"/>latum etc. Hebraica veritas sic habet vitulum armen 
+      <lb ed="#P" n="42"/>to termini quod est plurale huius quod est tenuin / quod 
+      <lb ed="#P" n="43"/>significat immaculatum / et ita plurale adiectiuum 
+      <lb ed="#P" n="44"/>cum singulari substantiuo puta vitulum sine aliqua 
+      <lb ed="#P" n="45"/>pluralitate distinguenda. Similiter Canticorum 
+      pri<lb ed="#P" n="46" break="no"/>mo. Trahe me post te in odorem vnguentorum tud 
+      <lb ed="#P" n="47"/>rum curremus: ergo etc. Ecce trahe me. Et postes 
+      <lb ed="#P" n="48"/>curremus et sic in nullo habetur propositum dato quod 
+      <lb ed="#P" n="49"/>sit nomen plurale diuinum et conseruatur cum 
+      adiecti<lb ed="#P" n="50" break="no"/>uis pluralibus et verbis que soli deo conuenire 
+      pos<lb ed="#P" n="51" break="no"/>sunt.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e377">
+      ¶ Contra primam responsionem dico quod ipsa est 
+      <lb ed="#P" n="52"/>alsa. Dico enim quod Heloym pluraliter acceptum 
+      fre<lb ed="#P" n="53" break="no"/>quenter accipitur de deo: quod probo primo per illud Iosue 
+      <lb ed="#P" n="54"/>vltimo. Non poteritis seruire domino / quia dominus 
+      <lb ed="#P" n="55"/>sanctus ipse / hebrayca veritas habet. Non poteri 
+      <lb ed="#P" n="56"/>tis seruire domino / quia Heloym sancti ipse. Similiter 
+      <lb ed="#P" n="57"/>Hieremie. xxiii. Peruertistis verba dei viuentis 
+      <lb ed="#P" n="58"/>domini dei nostri. Hebrayca veritas sic habet. 
+      Peruer<lb ed="#P" n="59" break="no"/>istis verba Helovm viuentium domini exercituum dei 
+      <lb ed="#P" n="60"/>ri. Et loco huius vltimi puta domini exercituum 
+      <lb ed="#P" n="61"/>ponitur nomen dei tetagramathon / quod significat me 
+      <lb ed="#P" n="62"/>ram substantiam diuinam. Similiter ysa ve 
+      quinqua<lb ed="#P" n="63" break="no"/>gesimoquarto dicitur sic. Dominatur tui qui fecit 
+      <lb ed="#P" n="64"/>te / dominus exercituum. Nomen eius / hebrayca veritas 
+      <lb ed="#P" n="65"/>habet domina tores tui factores tui dominus exet 
+      <!--121.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>cituum etc. Et ponitur hic loco dominus exercituum 
+      <lb ed="#P" n="67"/>et est nomen domini tetagramaton. Ecce quod in istis 
+      <lb ed="#P" n="68"/>tribus auctoritatibus expresse ponitur nomen dei / 
+      <lb ed="#P" n="69"/>et precipue Helovm pluraliter in duabus primis. 
+      <lb ed="#P" n="70"/>Et similiter equipolent etiam in tertia / quia ponitur 
+      <lb ed="#P" n="71"/>cum adiectiuis pluralibus. In prima dicitur 
+      He<lb ed="#P" n="72" break="no"/>loym sancti. In secunda dicitur Heloym viuentium. 
+      <lb ed="#P" n="73"/>In tertia dicitur factores tui dominus exercituum 
+      no<lb ed="#P" n="74" break="no"/>men eius / ergo per ista. Prima responsio est falsa / 
+      <lb ed="#P" n="75"/>et habetur quod cum vnitate diuine essentie ( que signi 
+      <lb ed="#P" n="76"/>ficatur per nomen domini tetagramaton ) stat et est 
+      plu<lb ed="#P" n="77" break="no"/>ralitas diuinarum personarum.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e440">
+      ¶ Similiter etiam 
+      pa<lb ed="#P" n="78" break="no"/>tet quod Heloym accepto pro nomine veri dei 
+      accipi<lb ed="#P" n="79" break="no"/>tur pluraliter: quia coniungitur verbis pluralis 
+      nul<lb ed="#P" n="80" break="no"/>meri in scriptura / sicut patet in secundo Regum septimo 
+      <lb ed="#P" n="81"/>quod est inquit gens vt populus israel in terra propter 
+      <lb ed="#P" n="82"/>quam iuit deus vt redimeret sibi populum etc. Hebrat 
+      <lb ed="#P" n="83"/>ca veritas sic habet. Quis est vt populus tuus 
+      Is<lb ed="#P" n="84" break="no"/>rael gens vna in terra propter qua iuerunt Heloymi 
+      <lb ed="#P" n="85"/>ad redimendum sibi. Ecclesiastes secundo. Quis est 
+      ho<lb ed="#P" n="86" break="no"/>mo inquit vt sequi possit regem factorem suum. 
+      He<lb ed="#P" n="87" break="no"/>braica veritas sic habet. Quis est vt intret post 
+      re<lb ed="#P" n="88" break="no"/>gem qui iam fecerunt eum. Ecce quomodo nomen 
+      <lb ed="#P" n="89"/>domini adiungitur verbo pluralis numeri / saltem 
+      in<lb ed="#P" n="90" break="no"/>prima autctoritate et accipitur pluraliter / et in 
+      secun<lb ed="#P" n="91" break="no"/>da ly / qui / quod est plurale / iungitur cum ly fecerunt / pro 
+      <lb ed="#P" n="92"/>pter quod et in glosa hebrayca autentica dicitur 
+      su<lb ed="#P" n="93" break="no"/>per istud. Si queratur qui fecerunt eum scilicet hominem 
+      <lb ed="#P" n="94"/>potest dici quod deus sanctus et dominus consilii sui. 
+      Simi<lb ed="#P" n="95" break="no"/>liter respondetur in glosa super psalmum. Ego qui 
+      fa<lb ed="#P" n="96" break="no"/>ctus est ab Asaph deus deorum dominus / loco istorum 
+      <lb ed="#P" n="97"/>trium habetur in hebrayco Hel Heloym et nomen 
+      <lb ed="#P" n="98"/>domini tetagramaton. Querit igitur glosa quare 
+      Asaph<lb ed="#P" n="99" break="no"/>ter nominauit deum in principio huius psalmi. Et 
+      <lb ed="#P" n="100"/>respondet quod vt ostenderet quod deus in tribus proprietatibus 
+      <lb ed="#P" n="101"/>creauit seculum. Et si considerantur iste due 
+      respon<lb ed="#P" n="102" break="no"/>siones sunt verissime / et attestantur proposito. 
+      No<lb ed="#P" n="103" break="no"/>stra prima enim que dicit quod sanctus deus et dominus 
+      con<lb ed="#P" n="104" break="no"/>silii fecit hominem vera est / quia deus pater et dominus 
+      <lb ed="#P" n="105"/>consilii sui scilicet filius vel verbum et spiritus sanctus 
+      <lb ed="#P" n="106"/>Alia similiter dicit hoc idem quod deus in tribus 
+      pro<lb ed="#P" n="107" break="no"/>prietatibus relatiuis personalibus creauit seculum 
+      <lb ed="#P" n="108"/>quod indiuisa sunt opera trinitatis ad extra secundum 
+      Au<lb ed="#P" n="109" break="no"/>gustinum. Nec valet quod dicunt aliqui exponendo 
+      <lb ed="#P" n="110"/>hanc glosam vltimam quod deus in tribus 
+      proprietati<lb ed="#P" n="111" break="no"/>bus creauit seculum / quia in sua sapientia et 
+      bonita<lb ed="#P" n="112" break="no"/>te et potentia que sunt proprietates dei attributales 
+      <lb ed="#P" n="113"/>non autem in tribus personalibus paternitate scilicet 
+      fi<lb ed="#P" n="114" break="no"/>liatione et processione. Et quod etiam propter hoc 
+      di<lb ed="#P" n="115" break="no"/>catur Genesis primo. Creauit Heloym caelum et 
+      ter<lb ed="#P" n="116" break="no"/>ram non valet primo quia sicut deus operatur per 
+      sa<lb ed="#P" n="117" break="no"/>pientiam amorem et potentiam / ita artifex creatus / 
+      <lb ed="#P" n="118"/>et tamen in scriptura nunquam inuenitur iste modus 
+      loquen<lb ed="#P" n="119" break="no"/>di de artifice creato / sed de solo deo. Secundo quia 
+      <lb ed="#P" n="120"/>magis distinguuntur in artifice creato ista tria quam 
+      in<lb ed="#P" n="121" break="no"/>deo / et ita conuenientius posset esse modus iste 
+      loquen<lb ed="#P" n="122" break="no"/>di de artifice creato / et magis deberet inueniri im 
+      <lb ed="#P" n="123"/>scriptura. Tertio quod intentio Moysi in primo 
+      Ge<lb ed="#P" n="124" break="no"/>nesis erat inducere populum ad veram fidem non ad 
+      <lb ed="#P" n="125"/>errorem: sed ipsum ab errore ydolatrie reuocare 
+      con<lb ed="#P" n="126" break="no"/>ceditur / per modum loquendi praedictum in plurali 
+      pos<lb ed="#P" n="127" break="no"/>set haberi occasio et inductio probabilis ad 
+      redden<lb ed="#P" n="128" break="no"/>dum pluralitatem in diuinis: vt Moyses reuocaret 
+      <lb ed="#P" n="129"/>populum illum prauum ab errore ydolatrie. Non 
+      <lb ed="#P" n="130"/>est verisimile quod ita locutus fuisset: nisi per hoc sub¬ 
+      <!--122.xml-->
+       <pb ed="#P" n="56-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tiliter intelligentibus saltem et aliis quecumque 
+      potuis<lb ed="#P" n="2" break="no"/>sent aduertere significari voluisset / quod cum vnitate 
+      <lb ed="#P" n="3"/>diuine essentie stat vere pluralitas personarum. 
+      Simi<lb ed="#P" n="4" break="no"/>liter etiam quod non dicitur de proprietatibus 
+      formali<lb ed="#P" n="5" break="no"/>bus dominus consilii alicuius: sed de suppositis et perso 
+      <lb ed="#P" n="6"/>nis vna secum consiliantibus / alias suus modus 
+      lo<lb ed="#P" n="7" break="no"/>quendi fuisset contrarius sue intentioni. Sic ergo 
+      pri<lb ed="#P" n="8" break="no"/>ma responsio ad primam auctoritatem nichil valet. 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e581">
+               <lb ed="#P" n="9"/>¶ Contra secundam responsionem dico etiam quod non 
+      <lb ed="#P" n="10"/>alet. Ad illud enim de Phitonissa dico etiam secundum 
+      <lb ed="#P" n="11"/>expositores hebreos / quod Samuel ex ordinatione et 
+      <lb ed="#P" n="12"/>virtute diuina non fuit solus suscitatus vt dicunt he 
+      <lb ed="#P" n="13"/>braici timuit ad diuinum iudicium vocari / et 
+      roga<lb ed="#P" n="14" break="no"/>uit Moysem vt veniret secum ad testificandum quod 
+      <lb ed="#P" n="15"/>integre seruasset legem ab eo scriptam. Et hec 
+      sen<lb ed="#P" n="16" break="no"/>tentia concordat cum Augustino in epistola ad 
+      Fe<lb ed="#P" n="17" break="no"/>licianum / quantum ad vnam opinionem quam tangit 
+      <lb ed="#P" n="18"/>ibi Augustinus / quod Samuel non fuit solus 
+      suscita<lb ed="#P" n="19" break="no"/>tus Phitonissa: igitur qui vocauit solum 
+      Samue<lb ed="#P" n="20" break="no"/>lem admirans dicit in plurali video deos vel 
+      Heloymi<lb ed="#P" n="21" break="no"/>ascendentes de terra. Saul autem qui solum curabat 
+      <lb ed="#P" n="22"/>de Samuele petiuit postea que erat forma eius / ita 
+      <lb ed="#P" n="23"/>quod ibi non ponitur Heloym sine pluralitate. Hic hec 
+      <lb ed="#P" n="24"/>loym ibi de duobus dicitur. Et sic argumentum 
+      ro<lb ed="#P" n="25" break="no"/>boratur. Si autem dicatur secundum aliam opinionem quam 
+      <lb ed="#P" n="26"/>tangit Augustinus / quod Samuel vere non fuit 
+      suscita<lb ed="#P" n="27" break="no"/>tus sed apparuit aliqua forma representans eum / et 
+      <lb ed="#P" n="28"/>cum hoc priuatus mulieris adhuc stat propositum 
+      <lb ed="#P" n="29"/>nostrum.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e629">
+      ¶ Ad secundum de temimim dicitur quod 
+      <lb ed="#P" n="30"/>temimim non accipitur in accusatiuo / sed in 
+      geniti<lb ed="#P" n="31" break="no"/>uo vitulum temimim id est de numero duodecim 
+      im<lb ed="#P" n="32" break="no"/>maculatorum qui seruabantur ex ordinatione sacet 
+      <lb ed="#P" n="33"/>dotum ad sacrificandum / de quibus accipiebatur 
+      sem<lb ed="#P" n="34" break="no"/>per ille qui offerebatur in Ralendis et principio men 
+      <lb ed="#P" n="35"/>sis. Unde nos habemus accusatiuum immaculatum 
+      <lb ed="#P" n="36"/>vbi ibi habent genitiuum pluralem. Apud eos 
+      au<lb ed="#P" n="37" break="no"/>tem non differunt accusatiuus pluralis et genitiuus 
+      <lb ed="#P" n="38"/>quia non sic casus eorum non variantur et quod sit ibi 
+      te<lb ed="#P" n="39" break="no"/>mimim genitiuus pluralis et sit sensus de numero 
+      im<lb ed="#P" n="40" break="no"/>maculatorum illorum vitulorum qui sic seruabantur 
+      <lb ed="#P" n="41"/>per illud quod sequitur de agnis qui non sic seruaban 
+      <lb ed="#P" n="42"/>tur. De agnis sicut inuenit manus sua. Tertium etiam 
+      <lb ed="#P" n="43"/>exemplum de trahe me et curremus non valet / quia 
+      li<lb ed="#P" n="44" break="no"/>ber casaticorum a doctoribus hebreorum exponitur 
+      <lb ed="#P" n="45"/>de deo et synagoga / in qua sunt multe persone. Qund 
+      <lb ed="#P" n="46"/>igitur dicit synagoga trahe me / et subiungit 
+      curre<lb ed="#P" n="47" break="no"/>mus hoc dicitur propter multitudinem personarum 
+      de<lb ed="#P" n="48" break="no"/>bentium currere post deum et trahi ad ipsum / ita 
+      <lb ed="#P" n="49"/>quod non ponitur verbum plurale nisi propter 
+      plurali<lb ed="#P" n="50" break="no"/>tatem: ideo non valet.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e677">
+      ¶ Secundo dico quod non solum 
+      <lb ed="#P" n="51"/>probatur falsitas personarum diuinarum ex hoc 
+      no<lb ed="#P" n="52" break="no"/>mine Heloym quod pluraliter ponitur in lege: sed 
+      ex<lb ed="#P" n="53" break="no"/>pressius et clarius probatur per auctoritatem aliam 
+      <lb ed="#P" n="54"/>psalmo quadragesimoquarto: que non possunt 
+      expo<lb ed="#P" n="55" break="no"/>ni nisi de christo vbi exprimitur trinitas personarum 
+      <lb ed="#P" n="56"/>quando dicitur. Sedes tua deus in seculum seculi vit 
+      <lb ed="#P" n="57"/>ga equitatis virga regni tui. Dilexisti iusticiam et 
+      <lb ed="#P" n="58"/>odisti iniquitatem: propterea vnxit te deus tuus. 
+      <lb ed="#P" n="59"/>Hanc auctoritatem adducit Augustinus. x vii. de 
+      <lb ed="#P" n="60"/>ciuitate. c. xvi. exponens de christo et ecclesia illum 
+      <lb ed="#P" n="61"/>psalmum: Eructauit cor meum verbum bonum etc. 
+      <lb ed="#P" n="62"/>Dic enim exprimitur natura assumpta vnctus est 
+      pleni<lb ed="#P" n="63" break="no"/>tudine gratie. Exprimitur etiam hic deus vngens 
+      <lb ed="#P" n="64"/>tanquam persona distincta ab ipso et duplicatur deus ex 
+      <lb ed="#P" n="65"/>parte vngentis ad denotandum personam patris. et 
+      <!--122.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>piritus sancti. et sic ex ista auctoritate patet 
+      trini<lb ed="#P" n="67" break="no"/>tas personarum et diuinitas christi / ad quod etiam 
+      pro<lb ed="#P" n="68" break="no"/>bandum adducit eam Apostolus ad hebreos 
+      pri<lb ed="#P" n="69" break="no"/>mo. Tertia auctoritas principalis est psal. cix. 
+      vbi<lb ed="#P" n="70" break="no"/>dicitur sic. Dixit dominus domino meo etc. Hanc adducit 
+      Au<lb ed="#P" n="71" break="no"/>gustinus. xvii. de ciuitate. c. x vii. vide ibi. Item 
+      no<lb ed="#P" n="72" break="no"/>ta Augustinum libro quinto contra hereses vbi ad 
+      <lb ed="#P" n="73"/>lucit multas auctoritates. Dominus dicit ad me 
+      <lb ed="#P" n="74"/>et cetera. et alias plures. vide ibi. Et quod ista sint 
+      ver<lb ed="#P" n="75" break="no"/>ba patris ad filium scilicet Dixit dominus domino meo etc. 
+      <lb ed="#P" n="76"/>Patet per translationem caldaycam que habet 
+      di<lb ed="#P" n="77" break="no"/>xit dominus verbo suo / et per illud quod sequitur in eodem 
+      <lb ed="#P" n="78"/>psalmo / ex vtero ante luciferum genui te: quod non 
+      po<lb ed="#P" n="79" break="no"/>test conuenire nisi filio dei. Per hoc enim quod dicitur hic 
+      <lb ed="#P" n="80"/>dei verbum / et genitus de substantia dei ostenditur 
+      <lb ed="#P" n="81"/>veritas essentie: quia diuinitas plurificari non 
+      po<lb ed="#P" n="82" break="no"/>test. Per hoc quod dicitur genitus de substantia dei / 
+      <lb ed="#P" n="83"/>ostenditur distinctio personarum: quia nulla res 
+      se<lb ed="#P" n="84" break="no"/>ipsam gignit. Similiter etiam per hoc quod dicitur 
+      se<lb ed="#P" n="85" break="no"/>dere ad dexteram dei / notatur distinctio personarum: 
+      <lb ed="#P" n="86"/>quia vna persona non dicitur sedere ad dexteram suam 
+      <lb ed="#P" n="87"/>propriam. Unde ad hune sensum adducit saluator: 
+      <lb ed="#P" n="88"/>hanc auctoritatem Mathei. xxii. et Apostolus ad 
+      he<lb ed="#P" n="89" break="no"/>breos primo.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e768">
+      ¶ Quarta auctoritas est ysa ve. 48. 
+      <lb ed="#P" n="90"/>vbi loquitur doius dicens. Non a principio in 
+      abscon<lb ed="#P" n="91" break="no"/>dito locutus sum ex tempore antequam fierent ibi / et nunc 
+      <lb ed="#P" n="92"/>dominus deus misit me et spiritus eius. Hanc 
+      au<lb ed="#P" n="93" break="no"/>ctoritatem tractat Augustinus ad probandum 
+      di<lb ed="#P" n="94" break="no"/>uinitatem christi. xx. de ciuitate. c. xxx. et vltimo vi 
+      <lb ed="#P" n="95"/>de ibi. Et deducit ibidem. xxx vi. Alias in veteri 
+      te<lb ed="#P" n="96" break="no"/>stamento loquitur enim dominus in predicta 
+      aucto<lb ed="#P" n="97" break="no"/>ritate de datione legis: que non fuerit data in 
+      abscon<lb ed="#P" n="98" break="no"/>dito: sed in manifesto: quia de die et audiente 
+      vniuer<lb ed="#P" n="99" break="no"/>so populo vocem dei loquentis. Exodi. xix. et. xx. Et  
+      <lb ed="#P" n="100"/>hoc est quod dicit Non a principio in abscondito 
+      lo<lb ed="#P" n="101" break="no"/>cutus sum vobis. Et subdit dominus et nunc me 
+      mi<lb ed="#P" n="102" break="no"/>sit dominus et spiritus eius. Ubi dicit dominus se 
+      mis<lb ed="#P" n="103" break="no"/>sum a deo et spiritum eius. Significans 
+      distinctio<lb ed="#P" n="104" break="no"/>nem personalem inter deum mittentem et deum missum 
+      <lb ed="#P" n="105"/>vnum scilicet incarnatum et spiritum eius. Ita quod 
+      <lb ed="#P" n="106"/>dic ponit expresse trinitatem patrem et filium et 
+      spi<lb ed="#P" n="107" break="no"/>ritum sanctum. Et quod deus loquitur in his verbis 
+      <lb ed="#P" n="108"/>patet per textum precedentem immediate et 
+      sequen<lb ed="#P" n="109" break="no"/>tem / vbi dicitur Hec dicit dominus redemptor tuus 
+      <lb ed="#P" n="110"/>sanctus israel / nec valet fictio peruersa Rabbi 
+      Sa<lb ed="#P" n="111" break="no"/>lomonis ad euadendum istud / qua dicit non sunt 
+      ver<lb ed="#P" n="112" break="no"/>ba dei loquentis: sed potius ysaye: qui cum omnibus 
+      <lb ed="#P" n="113"/>prophetis alii fuerunt in dationem legis presentes 
+      <lb ed="#P" n="114"/>cum Moyse / et ibidem ex tunc omnes prophetias 
+      <lb ed="#P" n="115"/>suas acceperunt. Sed postea prophetias 
+      denuncia<lb ed="#P" n="116" break="no"/>uerunt populo secundum quod tempora adeo diuersa 
+      <lb ed="#P" n="117"/>sunt / ergo ista verba ysave secundum ipsum ab illo loco. 
+      <lb ed="#P" n="118"/>Ex tempore antequam fierent et eram id est a tempore 
+      da<lb ed="#P" n="119" break="no"/>tionis legis dei que fuit in monte sinay / et quod 
+      sub<lb ed="#P" n="120" break="no"/>ditur / et nunc me misit dominus / fuit factum in tempore 
+      <lb ed="#P" n="121"/>in quo ysayas missus fuit ad nunciandum suam pro 
+      <lb ed="#P" n="122"/>phetiam populo.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e843">
+      ¶ Contra istam fictionem patet 
+      <lb ed="#P" n="123"/>primo immo quod ista sunt verba dei loquentis / quia et 
+      <lb ed="#P" n="124"/>illud quod immediate precedit non a principio in¬ 
+      T<lb ed="#P" n="125" break="no"/>scondito etc. Est verbum etiam secundum ipsum / et 
+      <lb ed="#P" n="126"/>secundum textum immediate precedentem. Ego 
+      pri<lb ed="#P" n="127" break="no"/>mus et ego nouissimus manus mea fundauit terram 
+      <lb ed="#P" n="128"/>quod non potest dici de ysaya. Item glosa hebraica i 
+      <lb ed="#P" n="129"/>que representatur apud eos autentica super illum 
+      lo<lb ed="#P" n="130" break="no"/>cum. Exodi. xxo. Ego dominus deus tuus etc. dicit sic. e 
+      <!--123.xml-->
+       <pb ed="#P" n="56-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Si dicis in secreto fuit sermo scilicet legis. Nonne etiam 
+      <lb ed="#P" n="2"/>dictum est ysaye. xlviii. Non a principio in 
+      abscon<lb ed="#P" n="3" break="no"/>dito locutus sum etc. Et patet per istam glosam quod 
+      <lb ed="#P" n="4"/>illud verbum ysave dicitur in persona dei loquentis 
+      <lb ed="#P" n="5"/>de datione legis. Item etiam glosa hebraica autem 
+      <lb ed="#P" n="6"/>tica apud eos super illud exodi. xix. venerunt in 
+      so<lb ed="#P" n="7" break="no"/>litudine synai dicit data est lex in publico vt omnis 
+      <lb ed="#P" n="8"/>qui voluerit eam recipere et sequitur ibidem. Et 
+      ec<lb ed="#P" n="9" break="no"/>ce deus sanctus et benedictus est dicens. ysa ve 
+      scili<lb ed="#P" n="10" break="no"/>tet. xl viii A principio moculi locutus sum antequam 
+      <lb ed="#P" n="11"/>fierent ibi eram etc Et ibidem habetur super illud 
+      <lb ed="#P" n="12"/>Exodi. xx. Ego dominus deus tuus ergo non solum 
+      ex<lb ed="#P" n="13" break="no"/>textu precedente et subsequente. Unde etiam ex 
+      glo<lb ed="#P" n="14" break="no"/>sis hebraicis quod ista sunt verba dei loquentis de 
+      da<lb ed="#P" n="15" break="no"/>tione legis / in qua praesens erat / et postea missus a deo 
+      <lb ed="#P" n="16"/>et spiritu sancto in carnem ad redemptionem generis 
+      hu<lb ed="#P" n="17" break="no"/>mani. Et etiam fingere ysayam fuisse in monte 
+      sye<lb ed="#P" n="18" break="no"/>nai est valde absurdum: quia ysayas tunc non erat 
+      na<lb ed="#P" n="19" break="no"/>tus: immo postea fuit natus fere per sexcentum 
+      octo<lb ed="#P" n="20" break="no"/>ginta sex annos. Si dicas quod ysayas postquam recepit 
+      <lb ed="#P" n="21"/>suas prophetias in monte synai mortuus est / et 
+      po<lb ed="#P" n="22" break="no"/>stea resuscitatus ad prophetandum fictio est / quia 
+      <lb ed="#P" n="23"/>scriptura hoc vllo modo innuit / immo magis 
+      con<lb ed="#P" n="24" break="no"/>trariat maxime: quia oportet idem dici secundum eum 
+      <lb ed="#P" n="25"/>de omnibus prophetis. Si anima ysave fuit 
+      crea<lb ed="#P" n="26" break="no"/>ta ex tunc ante tempus / et postea per totum illud 
+      ten<lb ed="#P" n="27" break="no"/>pus fuit vnita corpori parentum per generationem 
+      <lb ed="#P" n="28"/>hoc est inconueniens. Tum quia dicitur Genesis 
+      pri<lb ed="#P" n="29" break="no"/>mo. Formauit dominus deus hominem terre / et inspirauit 
+      <lb ed="#P" n="30"/>in faciem eius spiraculum vite. Ex quo patet quod 
+      or<lb ed="#P" n="31" break="no"/>ganisatio corporis non est posterior anima: immo 
+      po<lb ed="#P" n="32" break="no"/>tius prior. Unde macharie duodecimo. hec dicit 
+      do<lb ed="#P" n="33" break="no"/>minus fingens spiritum hominis in eo. Patet quod 
+      ho<lb ed="#P" n="34" break="no"/>mo non facit spiritum nec econtra corpus. Unde et 
+      ibi<lb ed="#P" n="35" break="no"/>dem dicit glosa prosaica. Creator creat animam 
+      in<lb ed="#P" n="36" break="no"/>perfectione figure corpoti humani: quare et cetera. 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e947">
+               <lb ed="#P" n="37"/>¶ Item contra vtramque responsionem simul. Si ysayas 
+      <lb ed="#P" n="38"/>fuit in monte synai cum aliis prophetis / et ibi 
+      accepe<lb ed="#P" n="39" break="no"/>runt prophetias suas sequitur quod scriptura veteris 
+      <lb ed="#P" n="40"/>testamenti sit falsa / quia in pluribus locis dicit 
+      pro<lb ed="#P" n="41" break="no"/>phetas recepisse spiritum prophetie de viuo sicut 
+      <lb ed="#P" n="42"/>de heliseo. 4. Regum secundo. Et dicitur Ezechieli. 
+      <lb ed="#P" n="43"/>Ezechielis primo / et dicitur multis aliis. Similiter 
+      <lb ed="#P" n="44"/>falsa est quando dicit reuelationes factas prophetis 
+      <lb ed="#P" n="45"/>quas prius ignorabant / sicut de heliseo quarto 
+      Re<lb ed="#P" n="46" break="no"/>gum quarto de illa simamite de qua dicit. Aima eius 
+      <lb ed="#P" n="47"/>in amaritudine est et dominus reuelauit a me. Et dici 
+      <lb ed="#P" n="48"/>tur Daniele Danielis primo quomodo dominus dedit 
+      <lb ed="#P" n="49"/>ei intelligentiam sompniorum et visionum / et postea 
+      intel<lb ed="#P" n="50" break="no"/>ligentiam sompnii Nabugodonosor. Et nono 
+      capi<lb ed="#P" n="51" break="no"/>tulo introducitur angelus reuelans sibi ministerium 
+      <lb ed="#P" n="52"/>ebdomadarum / et in pluribus aliis locis similia ducum 
+      <lb ed="#P" n="53"/>tur: quare etc.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e986">
+      ¶ Ultima auctoritas est illa. 
+      Eccle<lb ed="#P" n="54" break="no"/>siastes primo. Funiculus triplex difficile rumpitur 
+      <lb ed="#P" n="55"/>glosa hebraica / prius videtur esse ministerium 
+      tri<lb ed="#P" n="56" break="no"/>ni dei vnius difficile discutitur. Sed hanc glosam 
+      <lb ed="#P" n="57"/>antiquam moderni peruertunt retorquentes hanc 
+      <lb ed="#P" n="58"/>trinitatem ad illa attributa diuina supradicta quod est 
+      <lb ed="#P" n="59"/>tuerius improbatum. De hoc nota Augustinum 
+      li<lb ed="#P" n="60" break="no"/>bro contra hereses refellendo heresim iudeorum / 
+      vbi<lb ed="#P" n="61" break="no"/>adducit plures auctoritates contra eos. Hec de 
+      pri<lb ed="#P" n="62" break="no"/>mo articulo. 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e1008">
+               <lb ed="#P" n="63"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="64" break="no"/>culum videretur forte alicui quod trinitas personarum di¬ 
+      <!--123.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>uinarum vel saltem aliqua pluralitas posset natura 
+      <lb ed="#P" n="66"/>li ratione demonstrari.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1024">
+      ¶ Et adducit aliquas 
+      ra<lb ed="#P" n="67" break="no"/>rationes. Prima ratio est ista. Non est magis 
+      exce<lb ed="#P" n="68" break="no"/>dens trinitas et pluralitas personarum intellectum 
+      via<lb ed="#P" n="69" break="no"/>torum / quam essentia diuina et vnitas eius / quia 
+      trini<lb ed="#P" n="70" break="no"/>tas non est aliquid maius quam essentia: sed essentia 
+      di<lb ed="#P" n="71" break="no"/>uina potest demonstrari esse per rationem naturalem: 
+      <lb ed="#P" n="72"/>ergo et trinitas et saltem pluralitas personarum.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1040">
+      ¶ 
+      Se<lb ed="#P" n="73" break="no"/>cundo sic. In quocumque possunt ostendi per rationem 
+      <lb ed="#P" n="74"/>naturalem esse intellectum et voluntatem et 
+      perfectissi<lb ed="#P" n="75" break="no"/>me potest ostendi et persone producte per eam quia sunt 
+      <lb ed="#P" n="76"/>productiua aliquid intra et alia perfectione / et tamen nisi 
+      <lb ed="#P" n="77"/>alicuius subsistentis vbi sunt perfectissime: sed in deo 
+      <lb ed="#P" n="78"/>possunt ostendi ista esse perfectissime quia est primum 
+      <lb ed="#P" n="79"/>agens. et per consequens per intellectum et voluntatem / 
+      <lb ed="#P" n="80"/>quia agens naturale non potest esse primum sicut 
+      di<lb ed="#P" n="81" break="no"/>ctum est supra: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1063">
+      ¶ Tertio sic per rationem 
+      natu<lb ed="#P" n="82" break="no"/>ralem haberi potest quod in deo ponendum est quicquid 
+      <lb ed="#P" n="83"/>est perfectionis simpliciter: quia ipse est ens simul 
+      <lb ed="#P" n="84"/>perfectum secundum commentatorem quinto metaphisice 
+      ca<lb ed="#P" n="85" break="no"/>pitulo de perfecto. Si generare est simile est perfectio / 
+      <lb ed="#P" n="86"/>nis simpliciter: quia tunc vnumquodque est perfectum 
+      <lb ed="#P" n="87"/>simpliciter quando potest generare sibi simile: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e1079">
+               <lb ed="#P" n="88"/>¶ Quarto sic. Per rationem naturalem haberi 
+      po<lb ed="#P" n="89" break="no"/>test quod omne perfectissimum producens producit 
+      per<lb ed="#P" n="90" break="no"/>fectissime suum sile quantum potest intelligi sine contradi 
+      <lb ed="#P" n="91"/>ctione / quia alias non esset dare perfectissimam 
+      produ<lb ed="#P" n="92" break="no"/>ctionem / ad quam alia imperfecta reducerentur. 
+      Produ<lb ed="#P" n="93" break="no"/>cens enim per se intendit assimilationem. Si dominus est 
+      perfe<lb ed="#P" n="94" break="no"/>ctissimum producens ergo perfecte suum simile 
+      produ<lb ed="#P" n="95" break="no"/>cit: sed nec est impossibile in substantia aliena: quia 
+      ne<lb ed="#P" n="96" break="no"/>cessario similiter non potest intelligi sine contradictio 
+      <lb ed="#P" n="97"/>ne in substantia propria ergo etc.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1103">
+      ¶ Quinto sic. Per 
+      ra<lb ed="#P" n="98" break="no"/>tionem naturalem potest haberi diuinam essentiam 
+      sub<lb ed="#P" n="99" break="no"/>ratione dicti intellecti ab ipso deo: quia intelligit se 
+      <lb ed="#P" n="100"/>ipsum: sed verbum non est nisi essentia diuina sub 
+      ra<lb ed="#P" n="101" break="no"/>tione et relatione adducta: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1114">
+      ¶ Sexto sic. 
+      Per<lb ed="#P" n="102" break="no"/>rationem naturalem haberi potest quod quanto ponatur 
+      <lb ed="#P" n="103"/>nobilior tanto est dare nobiliorem sibi actionem 
+      inde<lb ed="#P" n="104" break="no"/>pendentem et minus dependentem a quocumque 
+      extrin<lb ed="#P" n="105" break="no"/>seco: sed dicuntur habere nobilissimam et perfectissi 
+      <lb ed="#P" n="106"/>mam potentiam infinitam productiuam / ergo est sibi 
+      da<lb ed="#P" n="107" break="no"/>re aliquam nobilissimam actionem simpliciter non 
+      re<lb ed="#P" n="108" break="no"/>quirentem et coexigentem aliquem extrinsecum nec vt 
+      subie<lb ed="#P" n="109" break="no"/>ctum nec vt terminum ergo est dare actionem diuinam termina 
+      <lb ed="#P" n="110"/>tam ad intra: et sic productum termini in deo. Hoc 
+      con<lb ed="#P" n="111" break="no"/>firmatur per Augustinum de ciuitate dei vbi 
+      di<lb ed="#P" n="112" break="no"/>cit quod inuenit in libris Platonis. In principio erat 
+      <lb ed="#P" n="113"/>verbum hoc etiam dicit septimo confessionum 
+      prope<lb ed="#P" n="114" break="no"/>principium dicit sic loquens deo procurasse michi per 
+      <lb ed="#P" n="115"/>quendam hominem quosdam platonicorum libros et 
+      <lb ed="#P" n="116"/>bi legi non quidem his verbis. In principio erat 
+      ver<lb ed="#P" n="117" break="no"/>bum / et verbum erat apud deum / et deus erat verbum 
+      <lb ed="#P" n="118"/>Sed verbum caro factum est et habitauit in nobis 
+      <lb ed="#P" n="119"/>gitur legi.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1156">
+      ¶ Et nota etiam quod hoc non inuenitur. viii. 
+      <lb ed="#P" n="120"/>de ciuitate: sed decimo eiusdem capitulo. xx viii. 
+      Di<lb ed="#P" n="121" break="no"/>citur quod quidam platonicus dicebat illud scilicet. In 
+      prin<lb ed="#P" n="122" break="no"/>cipio erat verbum aureis literis considerandum / 
+      im<lb ed="#P" n="123" break="no"/>super omnes ecclesias in literis eminentissimis 
+      pro<lb ed="#P" n="124" break="no"/>ponendum / tamen nota de hoc Augustinum contra 
+      here<lb ed="#P" n="125" break="no"/>es: sed planum est quod plato non habuit hoc nisi per 
+      ra<lb ed="#P" n="126" break="no"/>tionem naturalem: ergo etc. Sed dico quod ratio naturalis 
+      <lb ed="#P" n="127"/>in ista questione est neutra / et stat iste quoad 
+      termi<lb ed="#P" n="128" break="no"/>nationem / quod in ipsa sit in diuinis attingere non potest 
+      <lb ed="#P" n="129"/>hoc probo sic. Ratio naturalis non poest cognoscere¬ 
+      <!--124.xml-->
+       <pb ed="#P" n="57-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>diuina nisi ex effectu: sed nullus est effectus 
+      natura<lb ed="#P" n="2" break="no"/>liter cognoscibilis / qui possit in hoc ducere: quia idem 
+      <lb ed="#P" n="3"/>effectus posset stare: si non esset trinitas in deo secundum 
+      <lb ed="#P" n="4"/>vnum suppositum absolutum / sicut imaginantur iu 
+      <lb ed="#P" n="5"/>dei et sarraceni / ergo etc. Unde dictum est supra quod 
+      <lb ed="#P" n="6"/>deus demonstrari non potest quod sit in vniuerio: nec 
+      <lb ed="#P" n="7"/>vnitas eius per rationem christi / nec trinitas dei 
+      <lb ed="#P" n="8"/>Item nulla substantia causata nec breuiter aliqua 
+      <lb ed="#P" n="9"/>res potest sic stare in ordinibus suppositis: sed in 
+      li<lb ed="#P" n="10" break="no"/>mine naturali non potest hoc haberi ex aliqua 
+      crea<lb ed="#P" n="11" break="no"/>tura: sed potius dico quod imperfectum duceret lumen 
+      <lb ed="#P" n="12"/>naturale licet lumen naturale non dicat in oppositu 
+      <lb ed="#P" n="13"/>manens in sua rectitudine sed stat neutrum non 
+      de<lb ed="#P" n="14" break="no"/>clarans aliquid: nec de proposito: nec de 
+      oppositor<lb ed="#P" n="15" break="no"/>Ad hoc adduco auctoritates. Prima est glose 
+      su<lb ed="#P" n="16" break="no"/>per illud apostoli ad corin. loquimur sapientes / et 
+      vb<lb ed="#P" n="17" break="no"/>loquitur de sapientia dei genita que est 
+      abscondi<lb ed="#P" n="18" break="no"/>ta in ministerio: et quam nemo principium huius 
+      se<lb ed="#P" n="19" break="no"/>culi cognouit secundum ipsum nemo prophetarum. 
+      Di<lb ed="#P" n="20" break="no"/>cit enim glosa quod sapientia dei non est inuestigabilis 
+      <lb ed="#P" n="21"/>ergo non est cognoscibilis ratione naturali. Secunda 
+      <lb ed="#P" n="22"/>est Hieronymi super illud Mathei primo libro 
+      ge<lb ed="#P" n="23" break="no"/>nerationis etc. vbi dicit quod generatio christi secundum 
+      di<lb ed="#P" n="24" break="no"/>uinitatem est impossibilis affectu secundum illud 
+      <lb ed="#P" n="25"/>ysaye. Generationem eius quis enarrabit. Et 
+      R<lb ed="#P" n="26" break="no"/>cardus. 6. tri. c. xxii. dicit hoc quod additur vna 
+      rati<lb ed="#P" n="27" break="no"/>ab aliquibus: quia diuina diuinitas est per relatio 
+      <lb ed="#P" n="28"/>nes constitutiuas suppositorum: sed quod relatio/ 
+      con<lb ed="#P" n="29" break="no"/>stituat suppositum non potest haberi per rationem 
+      <lb ed="#P" n="30"/>naturalem: ergo etc. 
+      <lb ed="#P" n="31"/>in oppositum respondeo 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e1254">
+               <lb ed="#P" n="32"/>¶ Ad rationes
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1260">
+      ¶ Ad primum dico quod 
+      <lb ed="#P" n="33"/>isto modo diuinam essentiam posse demonstrari ex 
+      <lb ed="#P" n="34"/>effectibus non oportet per personas quia trinitas 
+      <lb ed="#P" n="35"/>Inde trinitas non dicit aliquid necessarium 
+      cau<lb ed="#P" n="36" break="no"/>nalitati prime ipsorum effectuum sicut essentia / sicut 
+      <lb ed="#P" n="37"/>dictum est supra. Ita trinitas magis est 
+      impropor<lb ed="#P" n="38" break="no"/>tionata intellectui nostro non simpliciter: sed 
+      inquan<lb ed="#P" n="39" break="no"/>tum non cognoscit nisi ex effectibus.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1278">
+      ¶ Ad 
+      secun<lb ed="#P" n="40" break="no"/>dum dico quod posito deum demonstratum esse 
+      perfe<lb ed="#P" n="41" break="no"/>cte intelligentie et voluntatem habere non sequitur 
+      <lb ed="#P" n="42"/>tur propositum / quod enim ista sint pura productiua ad 
+      <lb ed="#P" n="43"/>intra diceretur quantum est perfectionis simpliciter 
+      <lb ed="#P" n="44"/>sed potius tales perfectiones defectiue: sunt 
+      enit<lb ed="#P" n="45" break="no"/>vtantum productiua vbi possunt habere 
+      productu<lb ed="#P" n="46" break="no"/>essentialiter distinctum / et receptum inest / quod non 
+      <lb ed="#P" n="47"/>potest esse in deo. Et ideo voluntas diuina ex sua 
+      <lb ed="#P" n="48"/>perfectione summa tantum est productiua ad 
+      ex<lb ed="#P" n="49" break="no"/>tra sicut diceret deus sed tamen et alicuius 
+      produ<lb ed="#P" n="50" break="no"/>ctiua.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1304">
+      ¶ Ad tertium diceretur quod generare non est 
+      <lb ed="#P" n="51"/>perfectionis simpliciter: sed est perfectionis supplet 
+      <lb ed="#P" n="52"/>tis imperfectionis: sicut dicitur secundo de anima. 
+      <lb ed="#P" n="53"/>quia natura perpetuari non potest in ente.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1313">
+      ¶ Ad 
+      <lb ed="#P" n="54"/>quartum diceretur quod deus est ita perfectus / quod 
+      nul<lb ed="#P" n="55" break="no"/>lo producibili ab ipso est perfecte assimilabilis / et 
+      <lb ed="#P" n="56"/>ita perfectissima assimilatur alicuius productiui ad 
+      <lb ed="#P" n="57"/>deum non est in identitate nature. Sed si 
+      impossibi<lb ed="#P" n="58" break="no"/>lis et implicans contradictionem et ficticia sed est 
+      <lb ed="#P" n="59"/>et tamen perfectissima productio: quia entis nobilissima 
+      <lb ed="#P" n="60"/>producti in diuersitate substantie et ad similem causo 
+      <lb ed="#P" n="61"/>quantum possibile est.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1333">
+      ¶ Ad quintum diceretur quod 
+      <lb ed="#P" n="62"/>licet per rationem naturalem habeatur deum 
+      intelli<lb ed="#P" n="63" break="no"/>gere se potest et essentiam suam tamen cum hoc 
+      habetu<lb ed="#P" n="64" break="no"/>quod istud intelligere et est idem intelligibilitati / et etiam 
+      <lb ed="#P" n="65"/>intellectu / et ita non potest haberi quod sitaliquod dice 
+      <!--124.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>re reale ne aliquod productum realiter sit a 
+      produce<lb ed="#P" n="67" break="no"/>te: sed tantum secundum reuerum.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1353">
+      ¶ Ad sextum dico quod non 
+      <lb ed="#P" n="68"/>plus concludit: sed tamen hoc concludit quod deus habet 
+      <lb ed="#P" n="69"/>aliquam actionem productiuam non dependentem a 
+      <lb ed="#P" n="70"/>subiecto receptiuo / non autem que non habeant 
+      tale<lb ed="#P" n="71" break="no"/>extrinsecum a deo a quo terminus non dependet / nec 
+      <lb ed="#P" n="72"/>credo ad omnes quod hoc etiam concludat: quia tunc 
+      con<lb ed="#P" n="73" break="no"/>cludet creationem ex naturalibus / inmen sub dubio 
+      re<lb ed="#P" n="74" break="no"/>linquatur.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1372">
+      ¶ Ad septimum dico quod si hoc in libris 
+      pla<lb ed="#P" n="75" break="no"/>tonis aliquibus inuenitur quod tamen plato hoc non 
+      ha<lb ed="#P" n="76" break="no"/>buit per rationem sed vel per reuelationem / quia 
+      ip<lb ed="#P" n="77" break="no"/>se fuit virgo ad hoc dispositus: sicut videtur dicet 
+      <lb ed="#P" n="78"/>re Augustinus vel quod ipse vidit hoc in libris 
+      aliqui<lb ed="#P" n="79" break="no"/>bus fidelium translatis in grecum. Ad quod per 
+      ver<lb ed="#P" n="80" break="no"/>bum non intelligebat vel intelligentiam vel 
+      intellectio<lb ed="#P" n="81" break="no"/>nem diuinam que potest produci verbum secundum rationem 
+      <lb ed="#P" n="82"/>continens ydeas: non autem secundum rem. A 
+      plato<lb ed="#P" n="83" break="no"/>ne vero habuerunt platonici vt dicaretur paternum 
+      <lb ed="#P" n="84"/>intellectum sicut patet de porphirio vt ait Augusti 
+      <lb ed="#P" n="85"/>nus primo de ciuitate capitulo vigesimosecundo 
+      <lb ed="#P" n="86"/>quod dicebat deum patrem et deum filium / scilicet paternam 
+      <lb ed="#P" n="87"/>mentem esse intellectum septimo capitulo vigesimo 
+      <lb ed="#P" n="88"/>secundo / et vigesimooctauo: tamen prima solutio videtur 
+      <lb ed="#P" n="89"/>melior quod plato intellectui est verbum proprie: sed per 
+      <lb ed="#P" n="90"/>reuelationem vt videtur hoc dicere Augustinus de 
+      <lb ed="#P" n="91"/>vera religione.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1411">
+      ¶ Hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-a34951-d1e1413">
+               <lb ed="#P" n="92"/>¶ Ad primum principale de 
+      <lb ed="#P" n="93"/>imagine dico quod anima sub ista ratione inquantum 
+      <lb ed="#P" n="94"/>imago est / non potest naturaliter cognosci quia prius 
+      <lb ed="#P" n="95"/>oporteret cognoscere trinitatem / sicut prius 
+      intelli<lb ed="#P" n="96" break="no"/>guntur extrema quam relatio.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1426">
+      ¶ Ad secundum dico de 
+      <lb ed="#P" n="97"/>intellectu et voluntate et de perfecto maxime aliter 
+      <lb ed="#P" n="98"/>autem prius.
+    </p>
+            <p xml:id="qrdBas-a34951-d1e1433">
+      ¶ Ad tertium dico quod non potest sciri ad 
+      <lb ed="#P" n="99"/>intelligentiam sequi impossibile si stet aliquid 
+      parti<lb ed="#P" n="100" break="no"/>culare. Ita dicitur quod ad ipsum nichil sequitur 
+      impos<lb ed="#P" n="101" break="no"/>sibile / et licet posse aliquid naturaliter sustineri / 
+      con<lb ed="#P" n="102" break="no"/>formiter dicitur ad ea que sunt fidei / non tamen ponitur 
+      effi<lb ed="#P" n="103" break="no"/>caciter ostendi per conceptus per rationem naturalem et etiam 
+      <lb ed="#P" n="104"/>efficaciter repugnaut sicut est de probleumatibus 
+      <lb ed="#P" n="105"/>neutrum / vtrum mundus sit eternus que possunt 
+      osten<lb ed="#P" n="106" break="no"/>disecundum vtramque partem / non tamen efficaciter 
+      osten<lb ed="#P" n="107" break="no"/>di quantum ad aliquam personarum si remaneat 
+      neu<lb ed="#P" n="108" break="no"/>tra in lumine naturali¬ 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

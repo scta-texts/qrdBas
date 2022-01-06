@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 7</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 7</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="27-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a17109"><!-- l1prolq7 -->
+            <head xml:id="qrdBas-a17109-Hd1e99">Quaestio 7</head>
+            <p xml:id="qrdBas-a17109-d1e101">
+               <lb ed="#P" n="11"/>¶ Questio Septima prohemialis seu 
+      <lb ed="#P" n="12"/>introductiua in Primum sententiarum. 
+  </p>
+            <p xml:id="qrdBas-a17109-d1e108">
+               <lb ed="#P" n="13"/>SEptimo quaero utrum 
+      <lb ed="#P" n="14"/>ex ordine ad praxim vt ad 
+      fi<lb ed="#P" n="15" break="no"/>nem dicatur primo et principaliter 
+      <lb ed="#P" n="16"/>noticia practica vel ex ordine 
+      <lb ed="#P" n="17"/>ad obiectum seu ad praxim vt 
+      <lb ed="#P" n="18"/>ad obiectum.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e124">
+      ¶ Arguitur primo 
+      <lb ed="#P" n="19"/>quod ex ordine ad praxim vt ad 
+      <lb ed="#P" n="20"/>obiectum seu ab obiecto dicatur 
+      <lb ed="#P" n="21"/>noticia primo et principaliter pra 
+      <lb ed="#P" n="22"/>ctica quia. 6. metha. diuidit philosophus practicas a specula 
+      <lb ed="#P" n="23"/>tiuis penes obiecta sicut patet ibidem. Dicit enim quod 
+      pra<lb ed="#P" n="24" break="no"/>ctice sunt de talibus obiectis quorum scimus principia 
+      <lb ed="#P" n="25"/>speculatiue vero non: ergo videtur quod primo et 
+      principali<lb ed="#P" n="26" break="no"/>ter ex obiecto noticia sit practica: quia ex ipso 
+      distin<lb ed="#P" n="27" break="no"/>guitur primo a speculatiua.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e146">
+      ¶ Secundo sic. 6. ethicorum 
+      <lb ed="#P" n="28"/>distinguit phuns obiectum practice et intellectus pra 
+      <lb ed="#P" n="29"/>ctici bonum agibile et contingens distinguendo ista a 
+      spe<lb ed="#P" n="30" break="no"/>culatiuo intellectu et habitu: et per consequens ergo etc. 
+      <lb ed="#P" n="31"/>tertio de anima dicit philosophus 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e158">
+               <lb ed="#P" n="32"/>¶ Contra quod intellectus sola extensione ad 
+      <lb ed="#P" n="33"/>opus vt ad finem sit practicus. Et propter hoc etiam 
+      <lb ed="#P" n="34"/>dicit quod intellectus practicus differt a speculatiuo 
+      <lb ed="#P" n="35"/>fine: ergo similiter habitus vel actus prior et principa 
+      <lb ed="#P" n="36"/>liter ex fine fit et est practicus.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e171">
+      ¶ Secundo sic primo me 
+      <lb ed="#P" n="37"/>taphisice distingunt practicam et speculatiuas per 
+      fi<lb ed="#P" n="38" break="no"/>nes. dicit enim quod finis speculatiue est veritas sed 
+      fi<lb ed="#P" n="39" break="no"/>nis practice est opus. ergo etc. 
+      <lb ed="#P" n="40"/>In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e182">
+               <lb ed="#P" n="41"/>¶ Primo declarando quid est praris. Et concludam 
+      <lb ed="#P" n="42"/>aliquas conclusiones.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e189">
+      ¶ Secundo ostendam vtrum ex 
+      eo<lb ed="#P" n="43" break="no"/>dem dicatur intellectus et habitus vel actus practicus. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e194">
+               <lb ed="#P" n="44"/>¶ Tertio ex quo primo et principaliter dicatur habi 
+      <lb ed="#P" n="45"/>tus: vtrum ex fine vel ex obiecto et qumo.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e201">
+      ¶ Quarto 
+      <lb ed="#P" n="46"/>vtrum speculatiuum et practicum sint differentie essentia 
+      <lb ed="#P" n="47"/>les intellectus et habitus.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e209">
+      ¶ Et quinto 
+      responde<lb ed="#P" n="48" break="no"/>bo ad rationes principales. 
+      <lb ed="#P" n="49"/>dico quod praxis a qua dicitur noti 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e216">
+               <lb ed="#P" n="50"/>¶ De priimo cia practica eo modo dice 
+      <lb ed="#P" n="51"/>infra est operatio alterius potentie ab intellectum et 
+      <lb ed="#P" n="52"/>alterius generis a cognitione ex se et natura sua secundum 
+      <lb ed="#P" n="53"/>id quod est non ordinata ad generandum noticiam: vt 
+      in<lb ed="#P" n="54" break="no"/>strumentaliter aut via aut dispositio naturaliter 
+      po<lb ed="#P" n="55" break="no"/>sterior intellectione quae est in potestate scientis vel in 
+      <lb ed="#P" n="56"/>teffigentis apta nata dirigi per rectam rationem et per se 
+      fi<lb ed="#P" n="57" break="no"/>nis intran prius et principalis noticie directiue vel 
+      <lb ed="#P" n="58"/>scientie.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e238">
+      ¶ Prima conditio patet scilicet quod praxis est 
+      ope<lb ed="#P" n="59" break="no"/>ratio alterius potentie ab intellectu quia ad praxim 
+      di<lb ed="#P" n="60" break="no"/>citur intellectus extendi vel tendere extra se modo 
+      intel<lb ed="#P" n="61" break="no"/>lectus non extenditur ad aliquam operationem suam: sed 
+      <lb ed="#P" n="62"/>magis secundum eam manet intra se: quare etc. Preterea 
+      <lb ed="#P" n="63"/>quia si praxis non esset alterius potentie ab intellectu 
+      <!--65.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>sequeretur quod logica que dirigit actus intellectus in 
+      <lb ed="#P" n="65"/>discurrendo esset practica: quia dirigeret praxim talem 
+      <lb ed="#P" n="66"/>que ponitur in intellectu saltem si acquireretur ex 
+      appeti<lb ed="#P" n="67" break="no"/>tu talis finis cuius est directiua.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e264">
+      ¶ Secunda conditio patet 
+      <lb ed="#P" n="68"/>quod est alterius generis a cognitione quia quod sit alterius generis 
+      <lb ed="#P" n="69"/>a cognitione intellectiua. Iam patet eo quod est alterius 
+      poten<lb ed="#P" n="70" break="no"/>tie ab intellectu. Quod etiam sit alterius generis a 
+      cogni<lb ed="#P" n="71" break="no"/>ione sensitiua patet: quia cognitio sensitiua in nobis per se 
+      <lb ed="#P" n="72"/>ordinatur ad noticiam intellectiuam acquirendam sicut 
+      <lb ed="#P" n="73"/>sensus ad intellectum et ita ipsa est propter scientie. 
+      <lb ed="#P" n="74"/>Et si esset aliqua noticia dirigens ipsam ipsa. esset 
+      ne<lb ed="#P" n="75" break="no"/>cessario speculatiua quia propter scire: et ita 
+      nulla<lb ed="#P" n="76" break="no"/>cognitio sensitiua est praxis. Preterea scientia non 
+      <lb ed="#P" n="77"/>dicitur practica a cognitione: sed ab operatione: vt 
+      <lb ed="#P" n="78"/>distinguitur contra cognitionem. primo et secundo 
+      metha<lb ed="#P" n="79" break="no"/>phisice ergo praxis ex qua dicitur noticia vel scientia  
+      <lb ed="#P" n="80"/>practica est alterius generis a cognitione.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e295">
+      ¶ 
+      Ter<lb ed="#P" n="81" break="no"/>tia conditio quod ex se et secundum id quod est non est ordinata ad 
+      <lb ed="#P" n="82"/>generandum vel causandum noticiam patet: quia talis 
+      <lb ed="#P" n="83"/>operatio causatiua noticie: vt sermo vel loquela 
+      ex<lb ed="#P" n="84" break="no"/>terior sensibilis ordinatur per se ad scire. Scientia 
+      au<lb ed="#P" n="85" break="no"/>tem dirigens operationem propter scire est speculatiua 
+      <lb ed="#P" n="86"/>ergo talis operatio non potest dici praxis. Item quia 
+      <lb ed="#P" n="87"/>i talis operatio esset praxis tunc scientie sermocina 
+      <lb ed="#P" n="88"/>les essent practice. Et intellige istam rationem sicut 
+      il<lb ed="#P" n="89" break="no"/>tam precedentem de logica quia dirigunt tales 
+      operatio<lb ed="#P" n="90" break="no"/>nes consequens est falsum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e319">
+      ¶ Quarta 
+      conditio<lb ed="#P" n="91" break="no"/>scilicet quod est naturaliter posterior intellectione patet: 
+      <lb ed="#P" n="92"/>quia noticia prior necessario ipsa praxi. Tum quia est 
+      <lb ed="#P" n="93"/>ostensiua obiecti circa quod debet elici ipsa praris. 
+      <lb ed="#P" n="94"/>Tum quia praxis debet sibi conformari ad hoc vt sit 
+      <lb ed="#P" n="95"/>recta. Preterea actus qui non habent posterioritatis 
+      <lb ed="#P" n="96"/>ad intellectionem cuiusmodi sunt actus vegetatiue 
+      <lb ed="#P" n="97"/>potentie / et actus potentie sensitiue / et appetitus 
+      sens<lb ed="#P" n="98" break="no"/>tiui preuenientes rationem et moderamen rationis non 
+      <lb ed="#P" n="99"/>sunt proprie praxes quia non habent ordinem talem ad 
+      in<lb ed="#P" n="100" break="no"/>tellectionem nec per consequens intelligo aliqua per 
+      exten<lb ed="#P" n="101" break="no"/>sionem ad ista potest dici practica.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e346">
+      ¶ Quinta 
+      condi<lb ed="#P" n="102" break="no"/>tio scilicet quod est in potestate intelligentis vel scientis. pa 
+      <lb ed="#P" n="103"/>tet principium enim actuum praxis est in sciente secundum 
+      phi<lb ed="#P" n="104" break="no"/>losophum. 6. ethicorum vbi dicit quod artifex indiget 
+      ar<lb ed="#P" n="105" break="no"/>te ad recte operandum. Et similiter aliquis indiget 
+      <lb ed="#P" n="106"/>virtute ad recte eliciendum et agendum in moralibus 
+      <lb ed="#P" n="107"/>sed nullus indiget virtute vel arte ad aliquid cui non 
+      <lb ed="#P" n="108"/>est principium actuum habens ipsum in sua potestate 
+      <lb ed="#P" n="109"/>quia ars est principium effectiuum et reducitur ad  
+      <lb ed="#P" n="110"/>genus cause efficientis. Secundo phisicorum: ergo 
+      <lb ed="#P" n="111"/>etc. Item sexto metaphisice dicitur quod in practicis 
+      <lb ed="#P" n="112"/>sciens habet principium actiuum operationis a 
+      <lb ed="#P" n="113"/>qua dicitur noticia practica et est causa operationis 
+      <lb ed="#P" n="114"/>Propter hoc enim practice dicuntur actiue vel 
+      fa<lb ed="#P" n="115" break="no"/>ctiue.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e379">
+      ¶ Sexta conditio scilicet quod est diligibilis per 
+      <lb ed="#P" n="116"/>rectam rationem. Patet praxis enim est operatio 
+      <lb ed="#P" n="117"/>in qua contingit recte et non recte propter hoc enim 
+      <lb ed="#P" n="118"/>respectu talis praxis ponitur necessaria noticia 
+      di<lb ed="#P" n="119" break="no"/>rectiua que non est necessaria nisi respectu 
+      opera<lb ed="#P" n="120" break="no"/>tionis que potest esse recta et non recta. Quod enim 
+      ne<lb ed="#P" n="121" break="no"/>cessario est rectum et non potest esse non rectum: non 
+      <lb ed="#P" n="122"/>indiget directiuo sed talis operatio dirigibilis est 
+      <lb ed="#P" n="123"/>per intellectum qui intelligitur sibi et aliis 
+      poten<lb ed="#P" n="124" break="no"/>tiis secundum Augustinum quinto decimo de 
+      tri<lb ed="#P" n="125" break="no"/>nitate capitulo septimo. Et potest iudicare non 
+      so<lb ed="#P" n="126" break="no"/>lum de actu suo: sed etiam aliarum potentiarum et 
+      <lb ed="#P" n="127"/>eos per consequens dirigere si sint dirigibiles: 
+      er<lb ed="#P" n="128" break="no"/>go praxis non solum praesupponit intellectionem primam 
+      <!--66.xml-->
+       <pb ed="#P" n="28-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ostensiuam obiecti sui: sed vt regulam et mensuram 
+      ali<lb ed="#P" n="2" break="no"/>quo modo cui debet elici conformiter vt sit recta hoc 
+      <lb ed="#P" n="3"/>idem dicitur sexto ethicorum de electione quod 
+      neces<lb ed="#P" n="4" break="no"/>sario electio recta requirit rationem rectam et non 
+      <lb ed="#P" n="5"/>solum verum est hoc de electione que est quedam 
+      <lb ed="#P" n="6"/>praxis sed etiam de omni praxi que est actus 
+      vo<lb ed="#P" n="7" break="no"/>luntatis aliquo modo pari ratione.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e431">
+      ¶ Nota hic 
+      <lb ed="#P" n="8"/>quod non sufficit quod noticia sit ostensiua ad hoc: vt sit 
+      <lb ed="#P" n="9"/>practica sed cum hoc directiua alioquin omnis 
+      noti<lb ed="#P" n="10" break="no"/>cia esset practica et omnis actus voluntatis esset praxis 
+      <lb ed="#P" n="11"/>a qua dicitur noticia practica quod non est verum. 
+      <lb ed="#P" n="12"/>Nota vltra quod praxis est dirigibilis ex qua dicitur 
+      <lb ed="#P" n="13"/>ticia practicia: alioquin enim non apparet 
+      ratio<lb ed="#P" n="14" break="no"/>quare omnis operatio voluntatis non possit dici pra 
+      <lb ed="#P" n="15"/>xis tam illa que est dirigibilis quam que non est 
+      dirigi<lb ed="#P" n="16" break="no"/>bilis cum ipsa sequatur actum intellectus ostensiuum ob 
+      <lb ed="#P" n="17"/>lecti et similiter sibi conueniant omnes alie conditiones hic 
+      po<lb ed="#P" n="18" break="no"/>site de praxi que non necessario concomitantur istam. Et 
+      <lb ed="#P" n="19"/>patet de actu citharim andi et aliis praxibus 
+      respe<lb ed="#P" n="20" break="no"/>ctu quarum ponuntur artes. directiue ipsarum et nunquam 
+      <lb ed="#P" n="21"/>ponerentur respectu ipsarum nisi essent dirigibiles et 
+      <lb ed="#P" n="22"/>posset in eis esse error. Unde patet quod nec tales 
+      ar<lb ed="#P" n="23" break="no"/>tes nec aliquis habitus directiuus alius debet esse 
+      <lb ed="#P" n="24"/>practicus principaliter propter substantiam actus sed 
+      <lb ed="#P" n="25"/>propter circumstantiam vt actus quantum ad suas circumstam 
+      <lb ed="#P" n="26"/>tias in quibus contingit errare dirigatur.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e475">
+      ¶ Septima 
+      <lb ed="#P" n="27"/>conditio scilicet quod sit per se finis proprius intrinsecus et 
+      prin<lb ed="#P" n="28" break="no"/>cipalis directiue noticie vel intellectionis. Quod finis 
+      <lb ed="#P" n="29"/>patet. 2. metha. Finis practice est opus illud opus 
+      <lb ed="#P" n="30"/>voco praxim. Quod per se finis patet quia oportet quod sit 
+      <lb ed="#P" n="31"/>finis ex natura talis noticie non ex intentione vel 
+      vo<lb ed="#P" n="32" break="no"/>luntate scientis: et per accidens. Tunc enim quandoque idem 
+      es<lb ed="#P" n="33" break="no"/>set practicus et quandoque speculatiuus: quia nichil est dictum 
+      <lb ed="#P" n="34"/>quia habitui practico per se primo vel saltem secundo modo 
+      <lb ed="#P" n="35"/>conuenit esse practicum: et ideo impossibile est quod vnquam sit 
+      <lb ed="#P" n="36"/>speculatiuus sicut dicetur inferius. Quod intrinsecus 
+      fi<lb ed="#P" n="37" break="no"/>nis dico non quia oporteat ipsam praxim elici ab eadem 
+      <lb ed="#P" n="38"/>potentia et in potentia intrinsece cum noticia vel habi 
+      <lb ed="#P" n="39"/>tu practico: sicut imaginantur aliqui et false: quia tuc 
+      fi<lb ed="#P" n="40" break="no"/>nis practice scientie non esset opus: sed veritas et 
+      co<lb ed="#P" n="41" break="no"/>gnitio vel actus eius cognitiuus quod est falsum et 
+      con<lb ed="#P" n="42" break="no"/>tra Aristotelem sed intrinsecus est sibi quia intrinsecus 
+      <lb ed="#P" n="43"/>est ambitui et diffinitioni scientie vel noticie quia 
+      parti<lb ed="#P" n="44" break="no"/>net ad per se diffinitionem vel descriptionem eius 
+      quantum<lb ed="#P" n="45" break="no"/>cumque sit in extrinseca potentia. A fine enim extrinseco 
+      <lb ed="#P" n="46"/>licet per se non dicitur scientia practica vel speculatiua. 
+      <lb ed="#P" n="47"/>Tunc enim scientia moralis diceretur speculatiua ab 
+      <lb ed="#P" n="48"/>Aristotele propter finem suum que est felicitas contemplati 
+      <lb ed="#P" n="49"/>qua vel speculatiua secundum eundem quod tamen est falsum: 
+      immo<lb ed="#P" n="50" break="no"/>ipsam posuit practicam vt potuit nec debuit eam 
+      pone<lb ed="#P" n="51" break="no"/>re speculatiuam ex tali fine. Nam talis finis 
+      extrinse<lb ed="#P" n="52" break="no"/>cus est causa remota et commnis: a tali autem causa non 
+      ha<lb ed="#P" n="53" break="no"/>bet effectus determinate et distinctiue quod sit nature 
+      <lb ed="#P" n="54"/>talis vel talis. Oportet etiam quod sit finis proprius per 
+      <lb ed="#P" n="55"/>eandem rationem ita quod non solum sit per se et intrinseca. 
+      <lb ed="#P" n="56"/>Oportet etiam quod sit finis principalis quia si finis est 
+      <lb ed="#P" n="57"/>sub fine et non principalis ab illo non dicitur noticia 
+      pra<lb ed="#P" n="58" break="no"/>ctica dato quod sit proprius et intrinsecus sicut patet. 
+      Fi<lb ed="#P" n="59" break="no"/>nis enim proprius et intrinsecus scientie moralis est 
+      co<lb ed="#P" n="60" break="no"/>gnitio boni agibilis intrinsecus. Dico aliquo 
+      mo<lb ed="#P" n="61" break="no"/>do non tamen principalis: sed principalis est operatio bo 
+      <lb ed="#P" n="62"/>ni agibilis humani. Ideo dico quod moralis scientia non 
+      <lb ed="#P" n="63"/>est scientia cuius finis sit veritas et speculatiua: sed pra 
+      <lb ed="#P" n="64"/>cticus ab isto fine principali est enim vt boni fiamus 
+      <lb ed="#P" n="65"/>ecundum Aristotelem: quare etc. Si dicas qumo ergo differt a 
+      <!--66.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>prudentia ex quo vtraque practica est dico quod sicut ars 
+      <lb ed="#P" n="67"/>ab experientia: quia vna est de bono humano agibili 
+      in<lb ed="#P" n="68" break="no"/>vniuersali scilicet scientia ethicorum / alia in particulari si 
+      <lb ed="#P" n="69"/>cut prudentia: et sic etiam diuersimode dirigunt praxim 
+      <lb ed="#P" n="70"/>vnam in vniuersali vel in generali alia in particulari. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e577">
+               <lb ed="#P" n="71"/>¶ Sic ergo patet descriptio praxis quae est eadem cum alia 
+      <lb ed="#P" n="72"/>descriptione breuiori cuiusdam doctoris que dicit quod 
+      pran<lb ed="#P" n="73" break="no"/>praxis est actus alterius potentie ab intellectum 
+      natu<lb ed="#P" n="74" break="no"/>raliter posterior intellectione natus elici conformiter 
+      <lb ed="#P" n="75"/>rationi vel intellectioni recte ad hoc vt sit rectus. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e590">
+               <lb ed="#P" n="76"/>¶ Ex predictis infero quedam correlaria. Primum 
+      <lb ed="#P" n="77"/>est quod praxis non est nisi actus voluntatis seu operatio 
+      <lb ed="#P" n="78"/>Actus dico elicitus vel imperatus quia praxis est actus 
+      al<lb ed="#P" n="79" break="no"/>terius potentie ab intellectu et alterius cognitione 
+      po<lb ed="#P" n="80" break="no"/>terior naturaliter intellectione et potestata scientis 
+      <lb ed="#P" n="81"/>et dirigibilis recta ratione sed nullus actus habet ista 
+      <lb ed="#P" n="82"/>nisi actus voluntatis elicitus vel imperatus: quia quaecumque 
+      <lb ed="#P" n="83"/>alia operatio detur aliqua eiusdem rationis cum ea potest 
+      es<lb ed="#P" n="84" break="no"/>se prior intellectione vt patet discurrendo per actus omnium 
+      <lb ed="#P" n="85"/>aliarum potentiarum. Siliter nullus actus est dirigibilis 
+      <lb ed="#P" n="86"/>recta rotione et in potestate scientis nisi actus 
+      volunta<lb ed="#P" n="87" break="no"/>tis elicitus vel imperatus.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e620">
+      ¶ Secundo concludo quod actus 
+      <lb ed="#P" n="88"/>voluntatis elicitus cuiusmodi est velle est primo et per 
+      <lb ed="#P" n="89"/>se praxis et per consequens enim separatus ab omni actu cuiui 
+      <lb ed="#P" n="90"/>cumque potentie inferioris siue apperitus sensitiui siue 
+      <lb ed="#P" n="91"/>potentie motiue imperabili ab ipsa voluntate quia 
+      ta<lb ed="#P" n="92" break="no"/>li actui voluntatis elicito per se primo conuenit ratio 
+      pra<lb ed="#P" n="93" break="no"/>cis. Dato quod nullum actum inferioris potentie habeat 
+      <lb ed="#P" n="94"/>sibi connexum circa idem obiectum sicut contingit in actu 
+      <lb ed="#P" n="95"/>volendi deum circa quem aliqua appetitiua sensitiua vel 
+      <lb ed="#P" n="96"/>motiua non potest habere aliquem actum elicitum. Et tamen 
+      <lb ed="#P" n="97"/>actui volendi deum sic ostensum in particulari omnes 
+      per<lb ed="#P" n="98" break="no"/>icule descriptionis ipsius praxis sibi conueniunt 
+      si<lb ed="#P" n="99" break="no"/>cut patet discurrendo per omnes quare etc. Hoc etiam 
+      <lb ed="#P" n="100"/>patet per Aristotelem tertio de anima qui ponit duplicom 
+      <lb ed="#P" n="101"/>appetitum sensitiuum motorem superiorem scilicet et inferiorem 
+      <lb ed="#P" n="102"/>Ex quo videtur quod sicut secundum aliquos actus appetitus 
+      <lb ed="#P" n="103"/>inferioris sine actus superioris esset vere praxis ita 
+      <lb ed="#P" n="104"/>actus appetitus superioris sine omni actu quolibet 
+      <lb ed="#P" n="105"/>inferioris sit vere praris: tamen illud primum dictum alio 
+      <lb ed="#P" n="106"/>rum non reputo verum.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e664">
+      ¶ Tertio concludo quod nullus 
+      <lb ed="#P" n="107"/>actus cuiuscumque potentie alterius a voluntate potest 
+      di<lb ed="#P" n="108" break="no"/>ci praxis nisi in ordine ad actum voluntatis elicitum per 
+      <lb ed="#P" n="109"/>quem sit imperatus quia nulli actui tali conueniunt 
+      parti<lb ed="#P" n="110" break="no"/>cule descriptionis ipsius praxis nisi in ordine ad illum 
+      <lb ed="#P" n="111"/>elicitum cui primo conueniunt vt patet discurrendo 
+      <lb ed="#P" n="112"/>articulus est videre an ex esto 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e680">
+               <lb ed="#P" n="113"/>¶ Secundus dem vel habitudine ad idem 
+      di<lb ed="#P" n="114" break="no"/>catur intellectus vel habitus practicus / vel specula. 
+      <lb ed="#P" n="115"/>tiuus. Et est opinio vna quod ex alio dicitur et est 
+      intel<lb ed="#P" n="116" break="no"/>lectus practicus et habitus vel actus. Dicit enim quod 
+      <lb ed="#P" n="117"/>intellectus practicus est ex fine. Intellectus enim 
+      <lb ed="#P" n="118"/>notus ad considerandum de his que sunt ad finem 
+      ex<lb ed="#P" n="119" break="no"/>appetitu finis est practicus. Ita quod intellectus 
+      simpli<lb ed="#P" n="120" break="no"/>ci intelligentia. Primo apprehendit finem. Secundo 
+      ap<lb ed="#P" n="121" break="no"/>petitus vel voluntas complacet in fine apprehenso. 
+      <lb ed="#P" n="122"/>Tertio ipsum appetit et vult efficaciter. Quarto in 
+      <lb ed="#P" n="123"/>tellectus ex appetitu et volitione finis efficaci 
+      o<lb ed="#P" n="124" break="no"/>uetur ad considerandum de his que sunt ad fmnem: et tunc 
+      <lb ed="#P" n="125"/>primo in tellectus incipit esse practicus et 
+      operati<lb ed="#P" n="126" break="no"/>uus: vt dicunt: et ante non est practicus nec 
+      operati<lb ed="#P" n="127" break="no"/>uus: vt dicunt. Intellectus autem considerans aliquid non 
+      mo<lb ed="#P" n="128" break="no"/>tus ex desiderio finis est speculatiuus: quicquid est ipse 
+      consi<lb ed="#P" n="129" break="no"/>lerat. Sed habitus vel actus dicitur practicus et est 
+      ex<lb ed="#P" n="130" break="no"/>obiecto quicquid obiectum est operabile vel factibile 
+      <!--67.xml-->
+       <pb ed="#P" n="28-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dicitur autem speculatiuus ex obiecto non operabili 
+      <lb ed="#P" n="2"/>vel factibili per intelligentem. Et quia obiectum 
+      ope<lb ed="#P" n="3" break="no"/>rabile / et non operabile sunt per se et prima obiecta 
+      <lb ed="#P" n="4"/>habituum / et actuum et sunt obiecta formaliter 
+      distin<lb ed="#P" n="5" break="no"/>cta / oportet quod diuersificent habitus et actus secundum 
+      <lb ed="#P" n="6"/>speciem / ita quod vnus sit speculatiuus / qui est de non 
+      opo<lb ed="#P" n="7" break="no"/>rabili et alius practicus qui est de operabili / quod 
+      ca<lb ed="#P" n="8" break="no"/>dit sub potestate vel operatione scientis / causando 
+      <lb ed="#P" n="9"/>ipsum secundum eos. Ideo dicunt quod differentia habituum 
+      <lb ed="#P" n="10"/>et actuum per speculatiuum et practicum est differentia 
+      per<lb ed="#P" n="11" break="no"/>se et formalis. Sed differentia speculatiui et 
+      practici<lb ed="#P" n="12" break="no"/>non sunt differentie per se et essentiales in intellectum 
+      <lb ed="#P" n="13"/>sed accidentales quia intellectus non respicit 
+      opera<lb ed="#P" n="14" break="no"/>bile vel non operabile pro per se primo obiecto: sed 
+      <lb ed="#P" n="15"/>magis ipsum ens cui accidunt ista.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e761">
+      ¶ Ex dictis istorum 
+      <lb ed="#P" n="16"/>sequitur quod si aliquis consideret de operabili aliquo non 
+      <lb ed="#P" n="17"/>motus ex appetitu vel desiderio finis quod habent 
+      con<lb ed="#P" n="18" break="no"/>siderationem practicam et intellectum speculatiuum ita 
+      <lb ed="#P" n="19"/>quod in intellectum manente speculatiuo potest esse habi 
+      <lb ed="#P" n="20"/>tus et actus practicus. Si autem consideret de obie 
+      <lb ed="#P" n="21"/>cto non operabili in se motus tamen ex desiderio finis 
+      <lb ed="#P" n="22"/>habebit considerationem speculatiuam et intellectum 
+      <lb ed="#P" n="23"/>practicum. Si vero consideret et moueatur ad talem 
+      <lb ed="#P" n="24"/>considerationem ex appetitu finis / habebit et 
+      intelle<lb ed="#P" n="25" break="no"/>lectum practicum. Si autem de non operabili et non 
+      mo<lb ed="#P" n="26" break="no"/>ueatur ex desiderio finis alicuius habebit conside 
+      <lb ed="#P" n="27"/>rationem speculatiuam et intellectum speculatiuum.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e790">
+      ¶ Et 
+      <lb ed="#P" n="28"/>confirmatur istud per illud tertii de anima quod intellectus 
+      <lb ed="#P" n="29"/>practicus differt a speculatiuo fine. Et per illud 
+      sex<lb ed="#P" n="30" break="no"/>to ethicorum quod bonum intellectus practici est verum se 
+      <lb ed="#P" n="31"/>habens confesse I conformiter ad appetitum entium qui 
+      <lb ed="#P" n="32"/>est appetitus finis. videtur ergo quod intellectus dicatur 
+      <lb ed="#P" n="33"/>et sit practicus ex fine vel appetitu eius. Sed habi 
+      <lb ed="#P" n="34"/>tus ex obiecto sic dicitur. 6. metaphisice per obiecta enim 
+      <lb ed="#P" n="35"/>ibi distinguntur speculatiue a practicis: ergo etc 
+      <lb ed="#P" n="36"/>Istam opinionem arguo / primo com¬ 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e812">
+               <lb ed="#P" n="37"/>¶ Contra tra illud dictum quod ex aliodicatur 
+      in<lb ed="#P" n="38" break="no"/>tellectus et habitus practicus. Aut enim accipiunt in 
+      <lb ed="#P" n="39"/>tellectum vt stat sub actu vel habitu / Aut accipiunt 
+      <lb ed="#P" n="40"/>intellectum crude et absolute. Si primo modo tunc 
+      no<lb ed="#P" n="41" break="no"/>cessario ex eodem est vtrumque: puta habitus vel actus 
+      <lb ed="#P" n="42"/>practicus et intellectus / vt stat sub istis: quia vt stat 
+      <lb ed="#P" n="43"/>sub istis necessario denominatur ab istis / et in ordine 
+      <lb ed="#P" n="44"/>ad idem vt videtur. Est enim omnium istorum vt sic iden 
+      <lb ed="#P" n="45"/>obiectum finis et idem actus. Tum quia in intellectu 
+      <lb ed="#P" n="46"/>vt stat sub habitu speculatiuo est eadem ratio: 
+      quare<lb ed="#P" n="47" break="no"/>dicatur speculatiuus sicut de habitu: quia amborum 
+      <lb ed="#P" n="48"/>est eadem carentia vel positio appetitus finis 
+      quar<lb ed="#P" n="49" break="no"/>etc. Si accipiunt intellectum secundo modo vt nudam 
+      <lb ed="#P" n="50"/>potentiam praecisam ab habitu et ab actu: non potest illud 
+      <lb ed="#P" n="51"/>dictum esse verum: quia intellectum vt sic nec conuenit 
+      es<lb ed="#P" n="52" break="no"/>se practicum nec speculatiuum sed solum modo 
+      intelle<lb ed="#P" n="53" break="no"/>tum et vnicam potentiam simplicem et omnino vniformi. 
+      <lb ed="#P" n="54"/>ter se habentem: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e855">
+      ¶ Secundo sic ex actibus 
+      practi<lb ed="#P" n="55" break="no"/>cis nunquam generatur habitus speculatiuus sed 
+      practi<lb ed="#P" n="56" break="no"/>cus: ergo similiter in intellectu practico nunquam general 
+      <lb ed="#P" n="57"/>hapitus speculatiuus nec econuerso. Eadem enim vide 
+      <lb ed="#P" n="58"/>tiffratio de vtroque. Si dicas quod non quia intellectus 
+      di<lb ed="#P" n="59" break="no"/>citur praceficus ex fine et habitus ex obiecto / et ita 
+      sta<lb ed="#P" n="60" break="no"/>quod intellectus non sit practicus: et tamen habitus erit 
+      pra<lb ed="#P" n="61" break="no"/>cticus. Ita dicam tibi de actu et habitu / quod actus 
+      po<lb ed="#P" n="62" break="no"/>terit esse speculatius / et habitus generatus erit 
+      pra<lb ed="#P" n="63" break="no"/>cticus: quare etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e877">
+      ¶ Tertio sic secundo metaphisice dicitu 
+      <lb ed="#P" n="64"/>quod finis habitus speculatiui est veritas sed finis pra 
+      <lb ed="#P" n="65"/>ctici est opus sicut dicitur tertio de anima: quia intellectus 
+      <!--67.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>speculatiuus differt a practico fine: ergo ex fine dicitur 
+      <lb ed="#P" n="67"/>tam intellectus quam habitus practicus / et ita bene vtrumque 
+      <lb ed="#P" n="68"/>secundum Aristotelem sicut de intellectu tantum. Item tertio de 3 
+      <lb ed="#P" n="69"/>anima dicitur de intellectum practico distinguendo eum a 
+      <lb ed="#P" n="70"/>speculatiuo quod obiectum eius est agibile bonum et 
+      conti<lb ed="#P" n="71" break="no"/>nens: ergo ex obiecto est practicus contra te.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e901">
+      ¶ Sol ro 
+      <lb ed="#P" n="72"/>uitur ad hoc quod finis practice est opus non per se sed per 
+      prae<lb ed="#P" n="73" break="no"/>accidens et in potentia et aptitudine tantum inquantum 
+      scili<lb ed="#P" n="74" break="no"/>cet est de obiecto operabili per se secundum quod obiectum 
+      ope<lb ed="#P" n="75" break="no"/>rabile consideratur secundum talem habitum scientie practice in 
+      <lb ed="#P" n="76"/>vniuersali que quidem consideratio non sufficit ad hoc 
+      <lb ed="#P" n="77"/>quod subiiciatur istud obiectum operationi in actu / ideo 
+      re<lb ed="#P" n="78" break="no"/>quiriter necessario alius habitus et alia consideratis  
+      <lb ed="#P" n="79"/>particularis in actu a scientia practica et illa non eft 
+      <lb ed="#P" n="80"/>nisi in intellectu practico sicut dicit. Ita quod ille 
+      ha<lb ed="#P" n="81" break="no"/>bitus non solum generatur ex actibus practicis qui sunt 
+      <lb ed="#P" n="82"/>circa obiectum operabile. verum etiam in intellectum 
+      pra<lb ed="#P" n="83" break="no"/>ctico et actibus eius / quia ad tales generationes 
+      predi<lb ed="#P" n="84" break="no"/>cti habitus mouetur intellectus ex appetitu finis 
+      con<lb ed="#P" n="85" break="no"/>sequendi. Quia ergo finis ille scilicet opus non est nisi in 
+      poten<lb ed="#P" n="86" break="no"/>tia: et per accidens non oportet quod ex fine tali 
+      vniuersa<lb ed="#P" n="87" break="no"/>liter et per se accipiatur per se distinguendo practicam a 
+      <lb ed="#P" n="88"/>speculatiua: sed magis ex obiecto per se operabili.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e940">
+      ¶ 
+      Con<lb ed="#P" n="89" break="no"/>tra opinantes primo quia cum secundum eos habitus et actus 
+      <lb ed="#P" n="90"/>principaliter distinguantur vel vniuocentur ex obiectis 
+      <lb ed="#P" n="91"/>si in intellectum speculatiuo ponatur vnus habitus pra 
+      <lb ed="#P" n="92"/>cticus respectu operabilis et vnus alius in intellectu 
+      <lb ed="#P" n="93"/>practico. tunc ad quicquid vnus et alius / quia eiusdem 
+      ra<lb ed="#P" n="94" break="no"/>tionis sunt et respectu eiusdem subiecti operabilis et 
+      <lb ed="#P" n="95"/>tunc alter superfluet ( vt videtur ) quia cum ex voluntate quo 
+      <lb ed="#P" n="96"/>modocumque se habeat ad actus intellectus siue 
+      appe<lb ed="#P" n="97" break="no"/>tendo finem siue non: non distinguantur habitus et actus 
+      <lb ed="#P" n="98"/>sed ex obiecto secundum eos / non dabit voluntas vni quod 
+      pos<lb ed="#P" n="99" break="no"/>sit in aliquid in quod non possit alius.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e966">
+      ¶ Iterum quia tunc 
+      <lb ed="#P" n="100"/>in eadem potentia intellectus qui est eadem potentia si 
+      <lb ed="#P" n="101"/>ue sit practicus siue speculatiuus erunt duo habitus 
+      <lb ed="#P" n="102"/>eiusdem rationis: puta ille generatus ex actibus 
+      pra<lb ed="#P" n="103" break="no"/>cticis in intellectu speculatiuo / et ille generatus ex 
+      <lb ed="#P" n="104"/>actibus practicis intellectus in intellectu practico 
+      <lb ed="#P" n="105"/>moto ex desiderio finis / hoc est falsum: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e982">
+               <lb ed="#P" n="106"/>¶ Iterum contra opinionem. Aristoteles non loquitur 
+      <lb ed="#P" n="107"/>de fine per accidens intellectus practici nec in potentia 
+      <lb ed="#P" n="108"/>sed de fine per se. sicut enim veritas est per se finis 
+      specu<lb ed="#P" n="109" break="no"/>latiui habitus non per accidens / ita et opus 
+      vniformi<lb ed="#P" n="110" break="no"/>ter est per se finis noticie habitualis vel actualis: et 
+      <lb ed="#P" n="111"/>ita Aristoteles distinguit eas ex per se finibus vt 
+      vi<lb ed="#P" n="112" break="no"/>detur.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1001">
+      ¶ Confirmatur hoc: quia Aristoteles primo 
+      me<lb ed="#P" n="113" break="no"/>taphisice facit tale argumentum. Scientia est 
+      gra<lb ed="#P" n="114" break="no"/>tia vsus seu operis: ergo est minus nobilis. Sed hoc 
+      <lb ed="#P" n="115"/>argumentum non valet nisi vsus vel opus sit per se 
+      fi<lb ed="#P" n="116" break="no"/>nis quia non valet de fine per accidens: ergo etc. Et ita 
+      <lb ed="#P" n="117"/>licet non valeat consequentia secundum me sicut dicam infra 
+      <lb ed="#P" n="118"/>nisi exponendo eam valuit tamen secundum iudicium 
+      Aristo<lb ed="#P" n="119" break="no"/>telis et secundum intentionem eius vsus vel opus est per se 
+      fi<lb ed="#P" n="120" break="no"/>nis noticie practice: quare etc. Unde non videntur 
+      te<lb ed="#P" n="121" break="no"/>nere suum Aristotelem.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1023">
+      ¶ Item contra opinionem in 
+      se<lb ed="#P" n="122" break="no"/>subiectum magis denominatur a per se cum 
+      distinctione<lb ed="#P" n="123" break="no"/>accidentis sui quam a conditione accidentali eius: ergo 
+      <lb ed="#P" n="124"/>si intellectus potest dici practicus ex conditione 
+      ac<lb ed="#P" n="125" break="no"/>tidentali voluntatis ordinantis actum eius in 
+      fi<lb ed="#P" n="126" break="no"/>nem secundum te multo magis potest dici et 
+      deno<lb ed="#P" n="127" break="no"/>minari practicus ex per se et essentiali conditione 
+      <lb ed="#P" n="128"/>sui habitus qua habitus dicitur practicus puta ex ordine ad 
+      <lb ed="#P" n="129"/>obiectum secundum te vel ex ordine ad finem secundum me. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1043">
+               <lb ed="#P" n="130"/>¶ Et ita dico quod ex eodem breuiter intellectus est pra¬ 
+      <!--68.xml-->
+       <pb ed="#P" n="29-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cticus et habitus vel actus eius / siue sit ex obiecto / siue 
+      <lb ed="#P" n="2"/>ex fine. Et quod istorum situt verius apparebit in 
+      sequen<lb ed="#P" n="3" break="no"/>ti articulo questionis. Dico tamen quod non vniformiter et 
+      <lb ed="#P" n="4"/>eque per se vel immediate dicitur intellectus practicus 
+      <lb ed="#P" n="5"/>sicut habitus vel actus / sicut etiam postea apparebit 
+      <lb ed="#P" n="6"/>hec de secundo articulo. 
+      <lb ed="#P" n="7"/> dicunt aliqui¬ 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1069">
+               <lb ed="#P" n="8"/>¶ De tertio articuo quod noticia 
+      scu<lb ed="#P" n="9" break="no"/>habitus / seu dicuntur practici principaliter ex 
+      obie<lb ed="#P" n="10" break="no"/>cto ita quod et si noticia dicatur practica ex praxi / hoc 
+      <lb ed="#P" n="11"/>non est inquantum praxis est finis: sed inquantum 
+      ob<lb ed="#P" n="12" break="no"/>iectum secundarium noticie practice circa obiectum 
+      <lb ed="#P" n="13"/>primum ipsius noticie practice / et etiam praxis / ita quod 
+      <lb ed="#P" n="14"/>notia ex hoc dicitur practica quia extenditur vel 
+      exte<lb ed="#P" n="15" break="no"/>dibilis est ad praxim vt ad obiectum / non autem ad finem 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1089">
+               <lb ed="#P" n="16"/>¶ Hoc probant primo sic. Finis non est causa 
+      ali<lb ed="#P" n="17" break="no"/>cuius nisi vt amatus et desideratus actualiter 
+      mo<lb ed="#P" n="18" break="no"/>uens causam efficientem vt patet: sed scire quid 
+      extendi<lb ed="#P" n="19" break="no"/>bilitas ad opus et ratio practici: per consequens siue finis 
+      <lb ed="#P" n="20"/>sit actualiter amatus a sciente sicut non potest enim 
+      ta<lb ed="#P" n="21" break="no"/>lis noticia practica esse in intellectu quoncunque 
+      vo<lb ed="#P" n="22" break="no"/>luntas se habeat circa finem appetendo siue non 
+      ap<lb ed="#P" n="23" break="no"/>petendo ipm / immo si per impossibile poneretur quod 
+      in<lb ed="#P" n="24" break="no"/>tellectus esset in aliquo sine voluntate. ergo etc. Si 
+      <lb ed="#P" n="25"/>autem dicatur quod finis natus est amari antequam talis 
+      co<lb ed="#P" n="26" break="no"/>gnitio habeatur non valet: quia ista aptitudo non dat 
+      fi<lb ed="#P" n="27" break="no"/>ni quod actus causet: nullus autem effectus habet esse 
+      in<lb ed="#P" n="28" break="no"/>actu a causa actu non causante. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1120">
+      ¶ Item aut 
+      <lb ed="#P" n="29"/>finis vel elicitus et habitus in re et in effectu facit 
+      <lb ed="#P" n="30"/>scientiam vel noticiam esse practicam aut vt intentus et 
+      <lb ed="#P" n="31"/>amatus. Non primo modo quia sic est posterior ipso 
+      ha<lb ed="#P" n="32" break="no"/>bitu vel noticia practica sicut directum per ipsam et 
+      <lb ed="#P" n="33"/>regulatum vt supra dictum est de praxi. Prius autem 
+      <lb ed="#P" n="34"/>in suo priori non dependet a posteriori. Nec secundo 
+      <lb ed="#P" n="35"/>modo vt amatus et intensus: quia antequam finis sit 
+      ama<lb ed="#P" n="36" break="no"/>tus vel intentus est noticia practica. Preterea etiam 
+      <lb ed="#P" n="37"/>vt amatus et intentus vel consideratus habet rationem 
+      <lb ed="#P" n="38"/>obiecti et non finis. ergo ex obiecto est noticia practica 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1145">
+               <lb ed="#P" n="39"/>¶ Item si scientiam esse practicam est ordinari eam 
+      <lb ed="#P" n="40"/>ad praxim sicut ad finem: sequitur quod scientia 
+      mora<lb ed="#P" n="41" break="no"/>lis non est practica: hoc est falsum et contra 
+      Aristote<lb ed="#P" n="42" break="no"/>lem. ergo et illud ex quo sequitur probatio consequentie: quia si 
+      <lb ed="#P" n="43"/>finis scientie moralis est aliqua praxis illa videtur esse 
+      <lb ed="#P" n="44"/>actus virtutis moralis hoc est impossibile: quia act 
+      <lb ed="#P" n="45"/>appetitus sensitiui in quo reponuntur saltem alique 
+      <lb ed="#P" n="46"/>virtutes morales: immo secundum aliquos omnes siue etiam 
+      <lb ed="#P" n="47"/>alicuius potentie inferioris non potest esse finis vel 
+      <lb ed="#P" n="48"/>habitus seu actus intellectualis: quia sunt simpliciter 
+      <lb ed="#P" n="49"/>innobiliores eis vt patet. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1171">
+      ¶ Item obiectum se 
+      <lb ed="#P" n="50"/>cundum quod obiectum primo virtualiter continet 
+      to<lb ed="#P" n="51" break="no"/>tam practicam sicut etiam totam noticiam speculatiuam 
+      <lb ed="#P" n="52"/>continet obiectum ipsius primo principia: et mediam 
+      <lb ed="#P" n="53"/>tibus ipsis continet conclusiones. ergo noticia pra 
+      <lb ed="#P" n="54"/>ctica nec quantum ad principia nec quantum ad 
+      conclusio<lb ed="#P" n="55" break="no"/>nes plus dependet a voluntate vel fine quam noticia 
+      <lb ed="#P" n="56"/>speculatiua sed solum ex obiecto: quia antequam finis 
+      si<lb ed="#P" n="57" break="no"/>amatus obiectum continet virtualiter istam noticiam 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1191">
+               <lb ed="#P" n="58"/>¶ Item aut habitus et actus dicuntur practici pro 
+      <lb ed="#P" n="59"/>pter aptitudinalem extensionem ad opus vel ad 
+      fi<lb ed="#P" n="60" break="no"/>nem aut propter actualem non propter aptitudinalem: 
+      <lb ed="#P" n="61"/>quia illa non est aliquid in re sed est solum 
+      respect<lb ed="#P" n="62" break="no"/>rationis nec est aliquid reale nisi tantum in potentia sed 
+      <lb ed="#P" n="63"/>nihil est in actu tale per aliquod potentiale vel 
+      aptitu<lb ed="#P" n="64" break="no"/>dinale tantum. ergo etc. Preterea etiam quia si propter 
+      ap<lb ed="#P" n="65" break="no"/>titudinalem extentionem et aptitudo aliqua non con¬ 
+      <!--68.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>uenit alicui nuture quae repugnat alteri nisi propter 
+      ali<lb ed="#P" n="67" break="no"/>quod absolutum in tali natura quem sequitur talis 
+      ap<lb ed="#P" n="68" break="no"/>titudo talem naturam non autem aliam oportet quod 
+      in<lb ed="#P" n="69" break="no"/>noticia practica sit aliqua conditio absoluta que non 
+      <lb ed="#P" n="70"/>est speculatiua. et illa oportet quod sit ab aliqua per se 
+      <lb ed="#P" n="71"/>cauia noticie practice: aut igitur ex obiecto: aut ex 
+      in<lb ed="#P" n="72" break="no"/>tellectu: aut ex fine. Non ex intellectu patet nec ex 
+      fi<lb ed="#P" n="73" break="no"/>ne quia siue finis sit amatus siue non conuenit talis 
+      exte<lb ed="#P" n="74" break="no"/>sio aptitudinalis ipsi scientie. ergo ex obiecto.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1235">
+      ¶ 
+      Pre<lb ed="#P" n="75" break="no"/>terea etiam iam non esset extensio aptitudinaliter ad 
+      <lb ed="#P" n="76"/>finem sed actualis sicut effectus ad causam dantem 
+      <lb ed="#P" n="77"/>sibi actualiter suam naturam absolutam. Nec potesi 
+      <lb ed="#P" n="78"/>dici quod ab extensione actuali ad finem dicatur 
+      noti<lb ed="#P" n="79" break="no"/>cia practica: quia tunc aliquis non intendens actualiter 
+      ope<lb ed="#P" n="80" break="no"/>rari non haberet noticiam practicam: et ita faber 
+      dor<lb ed="#P" n="81" break="no"/>miens non haberet habitum fabricalem practicum  
+      <lb ed="#P" n="82"/>quod est falsum. quare etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1255">
+      ¶ Item. 6. 
+      methaphisi<lb ed="#P" n="83" break="no"/>distinguntur practice a speculatiuis / quia sunt de rebus 
+      <lb ed="#P" n="84"/>quarum principium est in sciente: ille autem non ergo 
+      ex<lb ed="#P" n="85" break="no"/>obiectis accipitur principaliter practicum vel 
+      specu<lb ed="#P" n="86" break="no"/>latiuum / Puta penes operabile et non operable 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1266">
+               <lb ed="#P" n="87"/>¶ Item. 6. Ethicorum distinguit ratinocinatiuum ad  
+      <lb ed="#P" n="88"/>quod pertinet practicum a scientifico ad quod 
+      perti<lb ed="#P" n="89" break="no"/>net speculatiuum penes obiectum: puta operabile 
+      <lb ed="#P" n="90"/>et non operabile. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1278">
+      ¶ Item alibi Aristoteles facit 
+      <lb ed="#P" n="91"/>istam consequentiam. Si est aliqua substantia 
+      separa<lb ed="#P" n="92" break="no"/>ta et immobilis scientia de ipsa est speculatiua sed ista consequenti 
+      <lb ed="#P" n="93"/>nihil valeret nisi noticia speculatiua acciperetur 
+      prin<lb ed="#P" n="94" break="no"/>cipaliter de obiecto non autem ex aliquo alio. ergo 
+      <lb ed="#P" n="95"/>similiter scientia practica accipitur principaliter ex ob 
+      <lb ed="#P" n="96"/>iecto et non ex aliquo circa obiectum puta ex praxi 
+      <lb ed="#P" n="97"/>vel operatione nisi inquantum ipsa etiam est obiectum 
+      <lb ed="#P" n="98"/>Et similiter intellectus practicus sicut dicunt ipsi 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1298">
+               <lb ed="#P" n="99"/>¶ Adducuntur alique rationes quod ex obiecto 
+      primo<lb ed="#P" n="100" break="no"/>quia ex obiectis specificantur habitus sicut et actus 
+      <lb ed="#P" n="101"/>ex quibus generantur. 2. de anima. Secundo quia 
+      obie<lb ed="#P" n="102" break="no"/>ctum est causa habitus in causata: praxis autem que est 
+      <lb ed="#P" n="103"/>finis est causata ab obiecto ergo principalius ex ol 
+      <lb ed="#P" n="104"/>iecto. Tertio quia finis circumscriptis et positis ob 
+      <lb ed="#P" n="105"/>iectis nihilominus esset habitus speculatiuus et pra 
+      <lb ed="#P" n="106"/>cticus. Quarto et ipse scientiae puta speculatio et praxis 
+      <lb ed="#P" n="107"/>distinguntur ab obiectis. Quinto quia obiectum est 
+      prin<lb ed="#P" n="108" break="no"/>cipalior finis quam praxis quia finis est cuius praxis vel 
+      <lb ed="#P" n="109"/>ro finis quo ergo ex fine sequitur quod ex obiecto 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1324">
+               <lb ed="#P" n="110"/>¶ Ad ista potest dici quod actus distinctiue non 
+      spe<lb ed="#P" n="111" break="no"/>culantur ex obiecto quia eiusdem obiecti possunt esse 
+      di<lb ed="#P" n="112" break="no"/>stincti actus. Ad illud secundi de anima loquitur de 
+      acti<lb ed="#P" n="113" break="no"/>bus sensuum particularium per idem patet ad quartum 
+      <lb ed="#P" n="114"/>de finibus.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1337">
+      ¶ Ad secundum non oportet quod licet obiectum sit 
+      <lb ed="#P" n="115"/>causa in causata quod sit magis distinctiua quia non est 
+      <lb ed="#P" n="116"/>magis determinata sed minus.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1344">
+      ¶ Ad tertium 
+      di<lb ed="#P" n="117" break="no"/>citur quod fine circumscripto non esset habitus 
+      practi<lb ed="#P" n="118" break="no"/>tus: et hoc magis patet infra in ista questione.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1351">
+      ¶ Ad  
+      <lb ed="#P" n="119"/>quintum dico quod obiectum praxis sit principalior 
+      <lb ed="#P" n="120"/>finis non tamen magis propius sed minus nec sit 
+      de<lb ed="#P" n="121" break="no"/>terminatus sicut praxis nec propinquius secundum 
+      <lb ed="#P" n="122"/>conditiones positas in descriptione praxis 
+      <lb ed="#P" n="123"/>istam opinionem arguo. Et prir¬ 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1365">
+               <lb ed="#P" n="124"/>¶ Contra mo quod exfine vel ex prati vt 
+      fi<lb ed="#P" n="125" break="no"/>nis est accipiatur principaliter et dicatur practica et non 
+      <lb ed="#P" n="126"/>ex obiecto principaliter / licet ex obiecto simul tamen 
+      <lb ed="#P" n="127"/>sine premio: sic ratio quiditatiua cuiuslibet rei 
+      ac<lb ed="#P" n="128" break="no"/>cipitur et dependet ex per se causis eius ab vna quaque 
+      <lb ed="#P" n="129"/>secundum ordinem et modum suum: sed noticie 
+      pra<lb ed="#P" n="130" break="no"/>ctice non solum est causa per se obiectum nec ali¬ 
+      <!--69.xml-->
+       <pb ed="#P" n="29-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quem vt obiectum: sed vt finis immo principalior 
+      cau<lb ed="#P" n="2" break="no"/>sa est finis. Finis autem noticie practice est praxis / 
+      <lb ed="#P" n="3"/>accipiendo finem sicut supra in descriptione praxis 
+      <lb ed="#P" n="4"/>sed per se intrinsecum proprium et principale. ergo ex 
+      pra<lb ed="#P" n="5" break="no"/>xi inquantum finis vel ex fine / principalius est 
+      ratio<lb ed="#P" n="6" break="no"/>noticie practice.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1402">
+      ¶ Item ex eo dicitur intellectus et 
+      <lb ed="#P" n="7"/>habitus practicus secundum eos sicut dictum est supra: 
+      <lb ed="#P" n="8"/>sed intellectus practicus dicitur ex fine et est principa 
+      <lb ed="#P" n="9"/>lius sicut finis est principalior causa. Hoc patet / quia 
+      <lb ed="#P" n="10"/>finis vt amatus vel intentus est principium intelle 
+      <lb ed="#P" n="11"/>ctus practici sicut dicitur. 3. de anima et. 6. ethicorum 
+      ex<lb ed="#P" n="12" break="no"/>presse: quia dicitur ibi de appetitu quod est principium 
+      in<lb ed="#P" n="13" break="no"/>tellectus practici. Iste autem finis non est nisi amatus et 
+      <lb ed="#P" n="14"/>intentus. Et etiam dicitur in tertio de anima quod 
+      practi<lb ed="#P" n="15" break="no"/>cus differt a speculatiuo fine. quare etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1424">
+      ¶ Item 
+      se<lb ed="#P" n="16" break="no"/>cundo sic. Scientia practica est propter opus et per se 
+      <lb ed="#P" n="17"/>ordinatum ad ipsum: opus autem est praxis: ergo 
+      ex<lb ed="#P" n="18" break="no"/>praxi sicut ex fine accipitur noticia practica. Nec 
+      <lb ed="#P" n="19"/>potest dici sicut fingunt aliqui: quod practica sit propter 
+      <lb ed="#P" n="20"/>opus per accidens et in potentia pro tanto scilicet quia 
+      <lb ed="#P" n="21"/>est de operabili: quia non est idem esse de operabili et 
+      <lb ed="#P" n="22"/>propter opus sicut nec est idem finis et obiectum. 
+      <lb ed="#P" n="23"/>Preterea quia ibidem dicit philosophus quod 
+      practi<lb ed="#P" n="24" break="no"/>ca differt a speculatiua scientia non autem dicit obie 
+      <lb ed="#P" n="25"/>cto. Tunc enim Aristoteles distinxisset vnam ab alia 
+      <lb ed="#P" n="26"/>ter accidens non per se.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1450">
+      ¶ Item sexto ethicorum bonum 
+      <lb ed="#P" n="27"/>intellectus practici est vere confesse se habens 
+      appe<lb ed="#P" n="28" break="no"/>titui recto: sed hoc non est nisi quia ex appetitu 
+      recto<lb ed="#P" n="29" break="no"/>ipsius finis tanquam regula et mensura et principio 
+      pri<lb ed="#P" n="30" break="no"/>mo accipitur noticia practica: ergo noticia 
+      practi<lb ed="#P" n="31" break="no"/>ca accipitur ex fine intento. Loquitur enim 
+      Aristote<lb ed="#P" n="32" break="no"/>les de appetitu finis / non de electione sequente 
+      noti<lb ed="#P" n="33" break="no"/>ciam practicam eorum que sunt ad finiem dicit ibidem 
+      <lb ed="#P" n="34"/>Commentator. Intendit enim ben phuns quod appetitus 
+      <lb ed="#P" n="35"/>rectus et ratio recta sunt duo principia electorum / scilicet ap 
+      <lb ed="#P" n="36"/>petitus finis et ratio recta / non ergo intelligit de 
+      ap<lb ed="#P" n="37" break="no"/>petitu eligibili qui est electio: quia tunc esset circulus 
+      <lb ed="#P" n="38"/>in per se et essentialiter ordinatis: quia tunc 
+      appeti<lb ed="#P" n="39" break="no"/>tus vel electio esset principium rationis recte: et 
+      ra<lb ed="#P" n="40" break="no"/>tio recta esset principium electionis recte vel 
+      appe<lb ed="#P" n="41" break="no"/>titus in eodem genere principii et cause / quod est 
+      ci<lb ed="#P" n="42" break="no"/>culare: et oportet sic accipere quod appetus qui est 
+      vo<lb ed="#P" n="43" break="no"/>litio finis est principium rationis recte practice / et 
+      <lb ed="#P" n="44"/>ista duo sunt principia electionum et est intentio 
+      Ar<lb ed="#P" n="45" break="no"/>stotelis ibidem. quare etc. Appetitus ergo finis 
+      si<lb ed="#P" n="46" break="no"/>ue finis vt appetitus vel intentus est vnde accipitur 
+      <lb ed="#P" n="47"/>veritas intellectus practici et regula mensure 
+      prin<lb ed="#P" n="48" break="no"/>eius. ergo ex fine accipitur noticia practica.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1500">
+      ¶ Item illud 
+      <lb ed="#P" n="49"/>in ordine ad quod accipitur rectitudo et pectatanium 
+      acceden<lb ed="#P" n="50" break="no"/>do ad ipsum vel recedendo ab ipso: videtur esse prima 
+      <lb ed="#P" n="51"/>regula et mensura noticie practice / et a quo ipsa ac 
+      <lb ed="#P" n="52"/>cipitur et dicitur practica / sed hoc est finis vt patet 
+      <lb ed="#P" n="53"/>secundo phisi. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1513">
+      ¶ Item sicut se habent 
+      prin<lb ed="#P" n="54" break="no"/>cipia in speculabilibus / ita fines in practicis et in 
+      <lb ed="#P" n="55"/>agibilibus sicut dicitur secundo phisicorum. sed non solum 
+      <lb ed="#P" n="56"/>ex obiecto sed etiam ex fine dicitur. Et est noticia 
+      pra<lb ed="#P" n="57" break="no"/>ctca: et dependet a fine in ratione practici.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1525">
+      ¶ Item 
+      <lb ed="#P" n="58"/>illud deitur prima mensura et regula noticie 
+      practi<lb ed="#P" n="59" break="no"/>ce et actuum humanorum. Unde habet aliqua 
+      po<lb ed="#P" n="60" break="no"/>tentia quod imperet omnibus aliis potentiis et moueat 
+      <lb ed="#P" n="61"/>ad actus suos: quia nulli sunt actus humani nisi 
+      ex<lb ed="#P" n="62" break="no"/>motione voluntatis. Sed hoc habet voluntas ex 
+      <lb ed="#P" n="63"/>fine: quia sibi correspondet finis in vniuersali / non 
+      <lb ed="#P" n="64"/>solum finis particularis. ergo ex fine etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1543">
+      ¶ Item 
+      <lb ed="#P" n="65"/>illud propriissime dicitur regula et exceptio debet di¬ 
+      <!--69.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>ci noticia practica per comparationem ad quod dici 
+      <lb ed="#P" n="67"/>tur scienter aliquid rectum: sed hoc est finis vel 
+      ap<lb ed="#P" n="68" break="no"/>petitus illius / ita quod non noticia habet nec habere potest 
+      <lb ed="#P" n="69"/>rationem directiui nisi ex fine: qui est prima 
+      regu<lb ed="#P" n="70" break="no"/>la et principium ad quod aspicit agens. quare etc 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1563">
+               <lb ed="#P" n="71"/>¶ Item probo et si non secundum eos tamen secundum 
+      verita<lb ed="#P" n="72" break="no"/>tem sicut et in sequenti questione ex obiecto 
+      precise<lb ed="#P" n="73" break="no"/>non sit noticia practica quia de eodem obiecto posstesnt 
+      <lb ed="#P" n="74"/>esse et speculatiua et practica / siue de obiecto 
+      remo<lb ed="#P" n="75" break="no"/>to siue propinquo: quod est praxis sicut theologia vie 
+      <lb ed="#P" n="76"/>et patrie / vel dei. Etiam secundum alios similiter et 
+      theo<lb ed="#P" n="77" break="no"/>logia nostra et methaphisica quantum ad duodecimum 
+      <lb ed="#P" n="78"/>in quo ponunt multi deum esse subiectum vel 
+      simili<lb ed="#P" n="79" break="no"/>ter methaphisica consideratur de ipsa praxi / et tertius de 
+      <lb ed="#P" n="80"/>anima tanquam de actu voluntatis et tanquam de obiecto: et 
+      <lb ed="#P" n="81"/>tamen est speculatiua non obstante quod de ea sit aliqua 
+      <lb ed="#P" n="82"/>practica. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1592">
+      ¶ Item scientia practic a aut est 
+      <lb ed="#P" n="83"/>actiua vel factiua sexto methaphisice: sed quod aliquid sit 
+      <lb ed="#P" n="84"/>factiuum vel actiuum non habet nisi ex appetitu et deus 
+      <lb ed="#P" n="85"/>siderio finis / quia finis est principium mouens vt patet 
+      <lb ed="#P" n="86"/>quare etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1603">
+      ¶ Item intellectus practicus est qui 
+      di<lb ed="#P" n="87" break="no"/>tit aliquid de prosequendo vel fugiendo et similiter 
+      <lb ed="#P" n="88"/>scientia practica: sed nunquam in perpetuum ante 
+      appeti<lb ed="#P" n="89" break="no"/>tum finis dicatur aliquid fuigiendum vel 
+      prosequen<lb ed="#P" n="90" break="no"/>dum vt patet. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1614">
+      ¶ Item ex eadem videtur 
+      di<lb ed="#P" n="91" break="no"/>ci noticia practica et actus bonus vel malus mora 
+      <lb ed="#P" n="92"/>liter: sed hoc est principaliter ex fine / quia principalis 
+      <lb ed="#P" n="93"/>circumstantia in moralibus est circumstantia finis. et 
+      <lb ed="#P" n="94"/>go etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1626">
+      ¶ Additur vna ratio ab aliquibus de qua 
+      proa<lb ed="#P" n="95" break="no"/>rum timeo: quia obiectum comparatur ad habitu 
+      si<lb ed="#P" n="96" break="no"/>cut efficiens et sicut terminus et finis: sed non 
+      accipi<lb ed="#P" n="97" break="no"/>tur ratio practici vel speculatiui ex ipso inquantum 
+      <lb ed="#P" n="98"/>ad efficiens: quia obiecto non causante habitum sed  
+      <lb ed="#P" n="99"/>immediate causaret ipsum nihilominus esset habitus 
+      <lb ed="#P" n="100"/>practicus vel speculatiuus: et non solum obiecto non 
+      <lb ed="#P" n="101"/>causante actualiter: sed nec aptitudinaliter. Patet 
+      <lb ed="#P" n="102"/>de prudentia infusa: ad quam non operatur obiectum 
+      <lb ed="#P" n="103"/>creatum: similiter de fide quam deus in ratione obiecti 
+      <lb ed="#P" n="104"/>non causat effectiue: sed inquantum volens. ergo si ex 
+      <lb ed="#P" n="105"/>obiecto accipitur ratio practici: hoc est vt est 
+      termi<lb ed="#P" n="106" break="no"/>nus et finis et sic habetur propositum quia ex fine non 
+      <lb ed="#P" n="107"/>curo de ista ratione quia eodem modo concluderet quod 
+      <lb ed="#P" n="108"/>non ex appetitu finis vt ex casu vel priori 
+      naturali<lb ed="#P" n="109" break="no"/>ter non esset noticia practica.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1661">
+      ¶ Et ideo diceretur quod 
+      <lb ed="#P" n="110"/>prudentia infusa non est practica sicut infra de fide 
+      <lb ed="#P" n="111"/>in sequenti questione videbitur quod non solum ex 
+      obie<lb ed="#P" n="112" break="no"/>cto verum etiam ex fine: immo principalius intellectus 
+      <lb ed="#P" n="113"/>et habitus vel actus sint vel dicantur practici. 
+      Ratio<lb ed="#P" n="114" break="no"/>igitur quiditatiua noticie practice et extensio eius 
+      <lb ed="#P" n="115"/>non solum dependet et habetur ex obiecto verumetiam 
+      <lb ed="#P" n="116"/>ex fine que est praxis vt finis est. Et dico quod 
+      princi<lb ed="#P" n="117" break="no"/>palius accipiendo per distinctius dependet et 
+      accipi<lb ed="#P" n="118" break="no"/>tur ex fine qui est praxis quod est etiam obiectum noti 
+      <lb ed="#P" n="119"/>cie practice: et etiam ex praxi vt est finis quam vt est 
+      ob<lb ed="#P" n="120" break="no"/>iectum secundarium ipsius noticie practice: et per 
+      con<lb ed="#P" n="121" break="no"/>sequens intellectus practicus dicitur ex fine vel ex 
+      ap<lb ed="#P" n="122" break="no"/>petitu finis motus: quia ex eodem est intellectus 
+      pra<lb ed="#P" n="123" break="no"/>cticus et habitus vel actus sicut superius dicebatur. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1694">
+               <lb ed="#P" n="124"/>¶ Et est aduertendum quod alicuius noticie ad 
+      pra<lb ed="#P" n="125" break="no"/>rim potest intelligi extensio talis multiplex vna 
+      pos<lb ed="#P" n="126" break="no"/>sibilis et illa potest competere noticie mere speculati  
+      <lb ed="#P" n="127"/>ue que est noticia finis praecedeus appetitum eius.  
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1705">
+               <lb ed="#P" n="128"/>¶ Alia est extensio actualis noticie ad praxim et  n 
+      <lb ed="#P" n="129"/>ne cessaria noticie practice: sed non quod de communi 
+      le<lb ed="#P" n="130" break="no"/>ge habetur quicquid deus posset aliter / et ista est ex¬ 
+      <!--70.xml-->
+       <pb ed="#P" n="30-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tensio vel habitudo noticie actu practice ad praxim 
+      <lb ed="#P" n="2"/>formaliter: qui est appetitus finis et est habitudo 
+      mon<lb ed="#P" n="3" break="no"/>surati ad mensuram / et regulati ad regulantem et 
+      prin<lb ed="#P" n="4" break="no"/>cipati ad principatiuum / et posterioris essentialite 
+      <lb ed="#P" n="5"/>ad suum prius et sicut ad finem intentum licet 
+      sequa<lb ed="#P" n="6" break="no"/>tur aliquando in re et in effectu sicut est de multis 
+      fi<lb ed="#P" n="7" break="no"/>nibus qui sunt priores intentione et posteriores in 
+      re<lb ed="#P" n="8" break="no"/>Ex ista habitudine vel extentione ad praxim sicut 
+      <lb ed="#P" n="9"/>ex separatione dicitur vel denominatur noticia practica. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1740">
+               <lb ed="#P" n="10"/>¶ Tertia est extensio apptitudinalis ad praxim et 
+      <lb ed="#P" n="11"/>ista conuenit noticie practice in ordine ad praxim 
+      se<lb ed="#P" n="12" break="no"/>quentem vt in re et in effectu et est respectus 
+      priori<lb ed="#P" n="13" break="no"/>tatis et directiui respectu talis praxis et confirmatiui 
+      <lb ed="#P" n="14"/>sibi ita quod in praxi vt in re et in effectu est 
+      posteriori<lb ed="#P" n="15" break="no"/>tas et directio quasi passiua et conformitas ad noticiam 
+      <lb ed="#P" n="16"/>practicam et ex ista extensione ad praxim non dicit 
+      <lb ed="#P" n="17"/>noticia practica in actu quia ista non est nisi 
+      aptitudi<lb ed="#P" n="18" break="no"/>nalis et respectus quidem rationis: aliquando tamen est 
+      re<lb ed="#P" n="19" break="no"/>spectus actualis quando praxis est in actu sed est ad 
+      <lb ed="#P" n="20"/>cidentalis quia accidit noticie practice quod ipsam 
+      con<lb ed="#P" n="21" break="no"/>sequitur in re talis praxis. 
+      <lb ed="#P" n="22"/>ad euidentiam positionis que 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e1771">
+               <lb ed="#P" n="23"/>¶ Nota hic tenetur et ad solutionem aliquam 
+      <lb ed="#P" n="24"/>difficultatum et argumentorum contrariorum: quod praxis 
+      <lb ed="#P" n="25"/>que dicitur finis ille a quo dicitur noticia vel scientia 
+      <lb ed="#P" n="26"/>practica dupliciter accipi potest. Uno modo vt 
+      inten<lb ed="#P" n="27" break="no"/>ta et prior quam noticia ipsa practica: et vt sic non est aliud 
+      <lb ed="#P" n="28"/>quam amor finis vel appetitus finis vel ipsiusmet 
+      pra<lb ed="#P" n="29" break="no"/>xis que est finis obiecti: non est aliud dico realiter 
+      <lb ed="#P" n="30"/>licet non sunt idem realiter: et quia non est aliud 
+      rea<lb ed="#P" n="31" break="no"/>liter accipitur vnum pro alio sed intendere vel 
+      ama<lb ed="#P" n="32" break="no"/>re finem et finis vt intentus et amatus et hoc mode 
+      <lb ed="#P" n="33"/>accipitur quando dicitur quod ex hoc habitudine ad 
+      fine<lb ed="#P" n="34" break="no"/>vt intentum quia vt sic causa est et aliquid prius 
+      reali<lb ed="#P" n="35" break="no"/>ter quam noticia practica sicut et finem amare vel 
+      inten<lb ed="#P" n="36" break="no"/>dere prius est noticia practica et ipsa dependet ex 
+      fi<lb ed="#P" n="37" break="no"/>ne amato vel potius ex amore finis quia finis amat 
+      <lb ed="#P" n="38"/>vt sic quantum est ex parte sui non dicit nisi ens rationis 
+      <lb ed="#P" n="39"/>sed amor finis dicit ens reale verum. Ens autem 
+      ra<lb ed="#P" n="40" break="no"/>tionis non est vere causa entis realis et ita dixi quod 
+      po<lb ed="#P" n="41" break="no"/>tius ex amore finis. Et ita dominut omnia intelligi quantum 
+      <lb ed="#P" n="42"/>ad istam conclusionem: siue passio siue auctoritas si 
+      <lb ed="#P" n="43"/>ue solutiones rationum oppositarum accipiendo 
+      pro<lb ed="#P" n="44" break="no"/>pter finem intentum vel amore vel intentione finis 
+      <lb ed="#P" n="45"/>id est praxis: que proprie et realiter non est causa 
+      noti<lb ed="#P" n="46" break="no"/>cie practice: nisi accipiendo eam pro praxi circa 
+      fi<lb ed="#P" n="47" break="no"/>nem vel amore finis que simpliciter vel est ipsa 
+      pri<lb ed="#P" n="48" break="no"/>xis vel obiectum praxis.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1831">
+      ¶ Alio modo potest 
+      accipi<lb ed="#P" n="49" break="no"/>praxis ipsa prout effecta et in re posita et directa per 
+      no<lb ed="#P" n="50" break="no"/>ticiam practicam: loquendo de praxi circa illud quod 
+      <lb ed="#P" n="51"/>est ad finem et sic non est causa noticie practice nec 
+      v<lb ed="#P" n="52" break="no"/>re finis / cuius inquantum finis est vere causa cum 
+      passio<lb ed="#P" n="53" break="no"/>ne in esse quam causa noticia practica et directa vel 
+      ali<lb ed="#P" n="54" break="no"/>quo modo causata ab ipsa / nec sic debet accipi quande 
+      <lb ed="#P" n="55"/>dicitur quod ex praxi noticia praxis et ex ipsa dependeant 
+      <lb ed="#P" n="56"/>simpliciter principia nec potest esse sine ipsa secundum 
+      or<lb ed="#P" n="57" break="no"/>dinem et cursum seu virtutem naturalem / sed 
+      poti<lb ed="#P" n="58" break="no"/>debet accipi vel pro praxi circa finem vel obiectum 
+      <lb ed="#P" n="59"/>remotum id est pro appetitu finis remoti quod est omni 
+      <lb ed="#P" n="60"/>iectum praxis vel pro praxi ipsa circa finem vt 
+      inten<lb ed="#P" n="61" break="no"/>ta ex possibili pro amore vel intentione eius modo 
+      su<lb ed="#P" n="62" break="no"/>pradicto et vtruque istorum potest praecedere realiter 
+      no<lb ed="#P" n="63" break="no"/>ticiam practicam aliquam et ab eo potest 
+      naturali<lb ed="#P" n="64" break="no"/>ter dependere: verum est tamen quod secundum habitudinem 
+      di<lb ed="#P" n="65" break="no"/>rectiui qui consequitur noticiam practicam dicitur noti¬ 
+      <!--70.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>cia relatiue ad praxim ipsam vt ponibilem in 
+      effe<lb ed="#P" n="67" break="no"/>ctu quia talis respectus aptitudinalis est non actualis / 
+      <lb ed="#P" n="68"/>sed talis respectus vt sic nec a quo dependeat vel sit 
+      <lb ed="#P" n="69"/>practicus sed nihil talis respectus mensuratur 
+      confor<lb ed="#P" n="70" break="no"/>mitatis in noticia practica ad appetitum vel 
+      amo<lb ed="#P" n="71" break="no"/>rem finis: est respectus ad illud a quo dependet 
+      ha<lb ed="#P" n="72" break="no"/>bitus practicus in esse tali. Naturaliter dico quia 
+      <lb ed="#P" n="73"/>bene puto quod deus posset facere absolutum habitus pra 
+      <lb ed="#P" n="74"/>ctici sine amore vel appetitu finis / et quod talis sit ille 
+      <lb ed="#P" n="75"/>respectus mensurati et conformati in noticia practica 
+      <lb ed="#P" n="76"/>patet per tertium de anima / et per sextum Ethicorum / et per 
+      <lb ed="#P" n="77"/>secundum Phisicorum sicut allegatur pro ista positione 
+      <lb ed="#P" n="78"/>que hoc declaratur scilicet quod ex fine dicitur noticia esse 
+      pra<lb ed="#P" n="79" break="no"/>ctica et sic de speculatiua suo modo.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1905">
+      ¶ Et nota hic et 
+      <lb ed="#P" n="80"/>specialem diffinitatem de speculatiua quia nec 
+      ex<lb ed="#P" n="81" break="no"/>fine suo exhibito est talis / cum ille sit posterior nec 
+      <lb ed="#P" n="82"/>ex fine appetito: quia non oportet quod ipsam praecedat talis 
+      <lb ed="#P" n="83"/>appetitus veritatis qui est finis eius: ergo similiter 
+      <lb ed="#P" n="84"/>de practica et suo fine vt videtur. Stude et dicas 
+      con<lb ed="#P" n="85" break="no"/>sequenter ad praedicta de vtraque. Si enim habitus 
+      spe<lb ed="#P" n="86" break="no"/>culatiuus dependeat ab appetitu huius finis qui 
+      <lb ed="#P" n="87"/>est scire finem. Patet per descriptionem praxis 
+      su<lb ed="#P" n="88" break="no"/>pra positam quia est actus intellectus.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1927">
+      ¶ Sed 
+      vn<lb ed="#P" n="89" break="no"/>de habet actus causaliter quod sit speculatiuus non 
+      vi<lb ed="#P" n="90" break="no"/>detur quod ex fine quia non finis suiipsius nec ex appeti ¬ 
+      <lb ed="#P" n="91"/>tu sui vt fini pari ratione ergo ex obiecto. Nota secundo 
+      <lb ed="#P" n="92"/>quod finis noticie practice formaliter semper est aliqua 
+      <lb ed="#P" n="93"/>praxis formaliter et hoc vt appetita: vel intenta a 
+      s<lb ed="#P" n="94" break="no"/>sciente qui non practicat: nec mouetur nisi ex appeti uo 
+      <lb ed="#P" n="95"/>tu finis / ita quod intellectus practicus et noticia forma est 
+      <lb ed="#P" n="96"/>liter practica. semper praesupponunt appetitum 
+      quiqui<lb ed="#P" n="97" break="no"/>dem appetitus est vere praxis siue finis ille sit finis 
+      <lb ed="#P" n="98"/>quo quis est aliqua praxis / siue finis cuius sicut est 
+      <lb ed="#P" n="99"/>obiectum: vel finis vltimus remotus. Appetitus 
+      <lb ed="#P" n="100"/>autem finis qui est praxis qui necessario praecedit quam 
+      <lb ed="#P" n="101"/>libet noticiam formaliter et actu practicam et per 
+      con<lb ed="#P" n="102" break="no"/>sequens apprehensio finis etiam in particulari quantum 
+      <lb ed="#P" n="103"/>cunque sit directiua ipsius appetitus finis in 
+      parti<lb ed="#P" n="104" break="no"/>culari qui est vere praxis in qua contingit recte 
+      age<lb ed="#P" n="105" break="no"/>re et non recte / non est formaliter et actu practica quia 
+      <lb ed="#P" n="106"/>non dependet ex appetitu finis primo imo ipsa est 
+      pri<lb ed="#P" n="107" break="no"/>ma appetitui finis / et est mere speculatiua 
+      formali<lb ed="#P" n="108" break="no"/>ter loquendo quantumcunque sit directiua illius praxis quae 
+      <lb ed="#P" n="109"/>est appetitus finis / et est perfectio intellectus 
+      specu<lb ed="#P" n="110" break="no"/>latiui.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e1977">
+      ¶ Ex quo apparet quod licet contingat praxim 
+      <lb ed="#P" n="111"/>esse circa finem in particulari sicut circa deum non 
+      <lb ed="#P" n="112"/>tamen circa ipsum praecise contingit esse. noticiam 
+      pra<lb ed="#P" n="113" break="no"/>cticam qua praecedet omnem praxim nec etiam inte 
+      <lb ed="#P" n="114"/>lectum practicum. Unde praxis formaliter 
+      simpli<lb ed="#P" n="115" break="no"/>citer prior est in re et in effectu noticia practica forma 
+      <lb ed="#P" n="116"/>liter nisi forte diceretur quod ad noticiam practicam 
+      for<lb ed="#P" n="117" break="no"/>maliter sufficeret praecedere praxim virtualiter / 
+      pu<lb ed="#P" n="118" break="no"/>ta appetitum finis in communi / in quo non contingit 
+      er<lb ed="#P" n="119" break="no"/>ror / et ex tali appetitu moueri ad noticiam finis 
+      im<lb ed="#P" n="120" break="no"/>partiri qua esset formaliter practica / licet non 
+      praece<lb ed="#P" n="121" break="no"/>deret eam praxis formaliter: tamen si sic diceretur non 
+      <lb ed="#P" n="122"/>tolleretur quin noticia sit practica ex fine principaliter 
+      <lb ed="#P" n="123"/>Quod autem dictum est supra in descriptione pram 
+      <lb ed="#P" n="124"/>xis / quod praxis est operatio naturaliter posterior in 
+      <lb ed="#P" n="125"/>tellectione non est intelligendum de intellectione pra 
+      <lb ed="#P" n="126"/>ctica vniuersaliter loquendo de praxi: sed solum 
+      de<lb ed="#P" n="127" break="no"/>praxi que est obiectio earum que sunt ad finem sed 
+      <lb ed="#P" n="128"/>vniuersaliter loquendo de praxi accipienda est 
+      ibi<lb ed="#P" n="129" break="no"/>intellectio in communi ad speculatiuam et practicam 
+      <lb ed="#P" n="130"/>Semper enim vt praedictum est prior est aliqua praxis 
+      <!--71.xml-->
+       <pb ed="#P" n="30-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>etiam in re: et in effectu quam noticia formaliter et actu 
+      <lb ed="#P" n="2"/>practica / verum est tamen quod intellectio prima 
+      appeti<lb ed="#P" n="3" break="no"/>tui finis potest quoquomodo dici practica possibiliter 
+      <lb ed="#P" n="4"/>et denominatiue pro tanto quia directiua praxis 
+      cir<lb ed="#P" n="5" break="no"/>ca finem in particulari quia non est formaliter actu nec 
+      <lb ed="#P" n="6"/>composite et proprie practica: quia non est directiua 
+      <lb ed="#P" n="7"/>ex appetitu finis: sed est mere speculatiua sicut 
+      di<lb ed="#P" n="8" break="no"/>ctum est supra. Et multominus adhuc dico quod apprae 
+      <lb ed="#P" n="9"/>pensio finis in vniuersali vel in communi est 
+      practi<lb ed="#P" n="10" break="no"/>ca immo est speculatiua mere. Tum quia nec dependet 
+      <lb ed="#P" n="11"/>ex appetitu cum sit simpliciter prior omni 
+      appeti<lb ed="#P" n="12" break="no"/>tu finis: nec est directiua etiam quia in actu 
+      volendi<lb ed="#P" n="13" break="no"/>finem in communi vel in vniuersali sicut bonum in 
+      com<lb ed="#P" n="14" break="no"/>muni vel in vniuersali: sicut bonum in communi non 
+      <lb ed="#P" n="15"/>contingit bene et male agere et ideo solum est 
+      osten<lb ed="#P" n="16" break="no"/>siua obiecto / non autem directiua operationis vnde 
+      mul<lb ed="#P" n="17" break="no"/>tominus est practica quam noticia finis in particulari 
+      <lb ed="#P" n="18"/>in quo contingit rectitudo et pctantum vel error licet 
+      neu<lb ed="#P" n="19" break="no"/>tra sit practica formaliter et actu vel simpliciter 
+      lo<lb ed="#P" n="20" break="no"/>quendo: sed simpliciter speculatiua.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2073">
+      ¶ Si dicas quod 
+      <lb ed="#P" n="21"/>cognitio finis se habet sicut principium ad noticiam 
+      <lb ed="#P" n="22"/>eorum que sunt ad finem et ista sicut conclusio. 
+      Conclu<lb ed="#P" n="23" break="no"/>sio autem practica resoluitur in principium practicum 
+      <lb ed="#P" n="24"/>ergo illa est practica / scilicet cognitio finis dico quod 
+      <lb ed="#P" n="25"/>illa nunquam est principium noticie practice nisi ex 
+      ap<lb ed="#P" n="26" break="no"/>petitu finis prime / et ita semper reddit intentum. 
+      <lb ed="#P" n="27"/>aliorum. Ad pri¬ 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e2091">
+               <lb ed="#P" n="28"/>¶ Tunc ad rationes mum aliorum 
+      <lb ed="#P" n="29"/>probantium quod practica noticia principaliter sumatur 
+      ex<lb ed="#P" n="30" break="no"/>obiecto dico quod noticie practice non conuenit extensio 
+      <lb ed="#P" n="31"/>ad opus / nec ratio practici ad opus / nec ratio practici ante 
+      <lb ed="#P" n="32"/>appetitum et intensionem finis / immo dico quod omnis noticia 
+      <lb ed="#P" n="33"/>prior appetitu actuali ipsius finis est modo 
+      specu<lb ed="#P" n="34" break="no"/>latiua formaliter et actualiter loquendo. vnde nec 
+      pos<lb ed="#P" n="35" break="no"/>set esse noticia practica naturaliter in intellectu 
+      vo<lb ed="#P" n="36" break="no"/>luntate suparata ab ipso / et ponere noticiam practicam 
+      <lb ed="#P" n="37"/>sine appetitu finis vel sine appetitu / siue est 
+      ponere<lb ed="#P" n="38" break="no"/>principium naturaliter dependens / fine suo 
+      princi<lb ed="#P" n="39" break="no"/>pio a quo dependet et quod noticia practica sit noticia 
+      <lb ed="#P" n="40"/>speculatiua et econuerso.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2123">
+      ¶ Ad secundum dico quod finis 
+      <lb ed="#P" n="41"/>vt intentus vel potius intentio finis est causa 
+      noti<lb ed="#P" n="42" break="no"/>cie practice nec conuenit noticie practicitas sine fine 
+      <lb ed="#P" n="43"/>actu amato prius vel appetitu quia vel noticia dicitur 
+      <lb ed="#P" n="44"/>practica ex obiecto vel ex fine vel ex vtroque non 
+      ex<lb ed="#P" n="45" break="no"/>obiecto / quia idem obiectum potest esse speculatiue et 
+      <lb ed="#P" n="46"/>practice / sicut deus / sicut etiam abstractiue et intuiti 
+      <lb ed="#P" n="47"/>ue / et diuersarum potentiarum intellectus et 
+      volunta<lb ed="#P" n="48" break="no"/>tis / ergo oportet quod ex fine vel vtroque et quocumque 
+      mo<lb ed="#P" n="49" break="no"/>do oportet quod ex fine / sed non ex fine in re: quia est poste 
+      <lb ed="#P" n="50"/>rior noticia prica / ergo ex fine intento: vel potius 
+      <lb ed="#P" n="51"/>ex appetitu finis necessario: immo naturaliter ipsi noti 
+      <lb ed="#P" n="52"/>cie practice.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2152">
+      ¶ Ad tertium dico quod moralis scientia 
+      <lb ed="#P" n="53"/>est practica / et quod finis eius vnde dicitur practica est 
+      <lb ed="#P" n="54"/>opus virtutis moralis et si omnes virtutes 
+      ponan<lb ed="#P" n="55" break="no"/>tur in appetitu intellectiuo / et in voluntate 
+      princi<lb ed="#P" n="56" break="no"/>palius et voluntas est nobilior quam intellectus. Tumd 
+      <lb ed="#P" n="57"/>dico quod actus virtutis moralis ita quod argumentum 
+      <lb ed="#P" n="58"/>illud de innobilitate actus virtutis moralis non cur 
+      <lb ed="#P" n="59"/>rit contra me. Si autem ponantur virtutes morales 
+      <lb ed="#P" n="60"/>in appetitu sensitiuo: vel voluntas sit innobilior 
+      in<lb ed="#P" n="61" break="no"/>tellectu. Tunc argumentum est contra Aristotelem / 
+      <lb ed="#P" n="62"/>qui ponit quod finis practice est opus / et distinguitur 
+      <lb ed="#P" n="63"/>a cognitione / et per consequens opus virtutis moralis 
+      <lb ed="#P" n="64"/>non obstante quod sit innobilior noticia practica 
+      intelle<lb ed="#P" n="65" break="no"/>ctiua / et actu eius est. Et ideo respondetur quod non 
+      <!--71.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>semper est verum quod finis sit nobilior / eo quod est ad 
+      pre<lb ed="#P" n="67" break="no"/>cipue de fine quo / cuiusmodi est actus virtutis 
+      mo<lb ed="#P" n="68" break="no"/>ralis respectu noticie practice / licet non sit in eadem 
+      <lb ed="#P" n="69"/>potentia cum ipsa: sed eiusdem iste vel suppositi et 
+      <lb ed="#P" n="70"/>hoc sufficit. Aliter et melius iuxta predicta est pra 
+      <lb ed="#P" n="71"/>xis ipsa posterior noticia practica / et vt in se vel in 
+      re<lb ed="#P" n="72" break="no"/>est non est principium noticie practice / nec illud 
+      vn<lb ed="#P" n="73" break="no"/>de dicitur noticia practica: sed magis vt intenta / pro 
+      <lb ed="#P" n="74"/>tanto quia amor eius vel intentio eius seu etiam 
+      princi<lb ed="#P" n="75" break="no"/>palior finis est illud principium noticie etiam 
+      practi<lb ed="#P" n="76" break="no"/>ce / modo licet talis praxis in re pertineat ad 
+      appeti<lb ed="#P" n="77" break="no"/>tum sensitiuum / tamen amor ille pertinet ad 
+      volunta<lb ed="#P" n="78" break="no"/>tem / et est nobilior illa et ita non concludit 
+      argumen<lb ed="#P" n="79" break="no"/>tum dato etiam quod virtutes morales sint in 
+      appeti<lb ed="#P" n="80" break="no"/>tu sensitiuo.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2220">
+      ¶ Ad quartum dico quod primum obiectum 
+      <lb ed="#P" n="81"/>noticie practice non continet noticia practicam: nec 
+      prin<lb ed="#P" n="82" break="no"/>cipia practica sine fine intento / immo dico quod ista 
+      acci<lb ed="#P" n="83" break="no"/>piuntur ex fine intento et obiecto simul et principalius 
+      <lb ed="#P" n="84"/>ex fine / sicut probatum est supra secundo phisicorum et sexto 
+      <lb ed="#P" n="85"/>ethicorum. Ad illud quod diicitur quod prinpium 
+      pra<lb ed="#P" n="86" break="no"/>cticum necessarium non dependet a voluntate etc. 
+      Di<lb ed="#P" n="87" break="no"/>co quod principium practicum secundum quod sumitur a fine 
+      in<lb ed="#P" n="88" break="no"/>tento et amato est contingens: quia dependet a fine 
+      in<lb ed="#P" n="89" break="no"/>tento a voluntate sicut et actus appetendi finem / vel 
+      <lb ed="#P" n="90"/>appetitus finis / quod idem est / quod contingenter et 
+      li<lb ed="#P" n="91" break="no"/>bere elicitur a voluntate / tamen habitudo noticie et 
+      prin<lb ed="#P" n="92" break="no"/>cipii practici ad finem intentum vel appetitum finis / 
+      <lb ed="#P" n="93"/>et habitudo praxis eliciende ad noticiam practicam 
+      <lb ed="#P" n="94"/>id hoc vt sit recta et necessaria / et sic principium cum 
+      <lb ed="#P" n="95"/>hoc quod sumitur a fine intento et a voluntate quantum 
+      <lb ed="#P" n="96"/>ad habitudinem necessariam quam includit / potest esse 
+      <lb ed="#P" n="97"/>necessaria. De contingentibus enim et inter contingentia 
+      <lb ed="#P" n="98"/>in se sunt habitudines necessarie / non sic autem de 
+      prin<lb ed="#P" n="99" break="no"/>cipiis speculatiuis que non sumuntur ex fine 
+      intento<lb ed="#P" n="100" break="no"/>ui est praxis et non dependent a voluntate.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2266">
+      ¶ Ad quin 
+      <lb ed="#P" n="101"/>tum dico quod per extensionem actualem sicut ex per se 
+      pas<lb ed="#P" n="102" break="no"/>sione non conuenit noticie quod sit practica non intuit 
+      iue<lb ed="#P" n="103" break="no"/>et quiditatiue sed per naturam suam absolutam. Cum 
+      <lb ed="#P" n="104"/>dicis tunc faber non intendens actu operari non 
+      habe<lb ed="#P" n="105" break="no"/>bit habitum practicum. Dicoquod aliquis non intendens 
+      <lb ed="#P" n="106"/>actualiter opus nunquam habet in perpetuum actum 
+      no<lb ed="#P" n="107" break="no"/>ticie pra cticum / nec per consequens potest acquircre 
+      ha<lb ed="#P" n="108" break="no"/>bitum practicum / nec secundum habitudinem practicum non 
+      <lb ed="#P" n="109"/>otest exire in actum practicum / potest tamen habere 
+      <lb ed="#P" n="110"/>habitum practicum / quia actualis intentio non 
+      requi<lb ed="#P" n="111" break="no"/>ritur necessario ad seruationem habitus / licet ad actus 
+      <lb ed="#P" n="112"/>eius vel acquisitionem. Ad habitum autem 
+      quie<lb ed="#P" n="113" break="no"/>scentem non requiritur aliquis actualis appetitus 
+      <lb ed="#P" n="114"/>sed solum habitualis ita quod habitus practicus 
+      requi<lb ed="#P" n="115" break="no"/>rit habitum appetitus finis / vel si non requirat 
+      ip<lb ed="#P" n="116" break="no"/>sum saltem in acquirendo et operando necessario 
+      re<lb ed="#P" n="117" break="no"/>quirit actualem appetitum finis sicut per se principiis 
+      <lb ed="#P" n="118"/>eius. Tu dices ergo eadem noticia aliquado erat 
+      <lb ed="#P" n="119"/>practica aliquando speculatiua de eodem obiecto 
+      di<lb ed="#P" n="120" break="no"/>co quod nunquam eadem noticia erit speculatiua et 
+      pra<lb ed="#P" n="121" break="no"/>ctica / vel modo speculatiua et modo practica. Sed 
+      <lb ed="#P" n="122"/>dico bene quod de eodem obiecto operabili potest 
+      ali<lb ed="#P" n="123" break="no"/>quis habere noticiam speculatiuam aliquam non 
+      in<lb ed="#P" n="124" break="no"/>tendendo finem praxis / et aliam prcacticam ad quam 
+      <lb ed="#P" n="125"/>mouetur ex desiderio finis. quare etc. Uel si non 
+      po<lb ed="#P" n="126" break="no"/>test de illo haberi nisi practicam / sicut ponis / semper 
+      <lb ed="#P" n="127"/>illa in actu dependebat ex desiderio finis 
+      actuali<lb ed="#P" n="128" break="no"/>eo modo sicut dictum est supra / alias nunquam erit.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2329">
+      ¶ Ad  
+      <lb ed="#P" n="129"/>sextum dico quod non oportet obiectum primum et 
+      re<lb ed="#P" n="130" break="no"/>motum noticie practice esse operabile per scientem quod 
+      <!--72.xml-->
+       <pb ed="#P" n="31-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>patet quia ars citharisandi est practica / et eius 
+      obie<lb ed="#P" n="2" break="no"/>ctum primum vel remotum est cithara / de qua non oportet 
+      <lb ed="#P" n="3"/>quod sciens citharisare faciat eam vel sciat facere sicut 
+      <lb ed="#P" n="4"/>patet. Ars equitandi etiam cuius primum obiectum 
+      <lb ed="#P" n="5"/>est equus: vel animal equitabile: quod non potest fieri 
+      <lb ed="#P" n="6"/>per equitem. Similiter ars medicine est practica: 
+      <lb ed="#P" n="7"/>et tamen eius obiectum primum quod est corpus non 
+      po<lb ed="#P" n="8" break="no"/>test fieri per ipsam. Dico ergo quod non semper obiectum 
+      pri<lb ed="#P" n="9" break="no"/>marium noticie practice est contigens et operabile per 
+      <lb ed="#P" n="10"/>scientem sed hoc accidit in aliquibus et de aliquibus 
+      <lb ed="#P" n="11"/>particulariter ita quod distinctio Aristotelis per 
+      obie<lb ed="#P" n="12" break="no"/>ctum operabile et non operabile: vel non est vniuersalis 
+      <lb ed="#P" n="13"/>sed particularis tantum / et in aliquibus vero habet 
+      locum<lb ed="#P" n="14" break="no"/>in aliquibus vero non / sed intelligitur de primo 
+      obie<lb ed="#P" n="15" break="no"/>cto vel remoto scientie vel noticie practice / vel si est 
+      <lb ed="#P" n="16"/>vniuersalis dico quod non est intelligenda de 
+      obiecto<lb ed="#P" n="17" break="no"/>remoto sed de propinquo quod est praxis: tale enim sper 
+      <lb ed="#P" n="18"/>est contingens et operabile per scientem et hoc sufficit 
+      <lb ed="#P" n="19"/>ad distinctionem practice a speculatiua. Dico tamen 
+      <lb ed="#P" n="20"/>quod praxis ipsa principalis inquantum finis dat 
+      noti<lb ed="#P" n="21" break="no"/>cie quod sit practica quam vt obiectum sicut superius est ostem 
+      <lb ed="#P" n="22"/>sum.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2390">
+      ¶ Ad septimum de sexto Ethicorum dico quod 
+      de<lb ed="#P" n="23" break="no"/>praxi que est contingens inquantum contingenter alicitur 
+      <lb ed="#P" n="24"/>a voluntate libera sunt alique veritates contingentes 
+      <lb ed="#P" n="25"/>et quantum ad illas noticia practica pertinet ad 
+      ratioci<lb ed="#P" n="26" break="no"/>natiuum. Alique autem alie veritates sunt 
+      neces<lb ed="#P" n="27" break="no"/>sarie de praxi puta quod tales conditiones insunt ei ad hoc 
+      <lb ed="#P" n="28"/>vt sit recta et noticia istarum veritatum pertinet ad 
+      scien<lb ed="#P" n="29" break="no"/>tificum. Ad aliud de sexto methaphisice dico quod si 
+      <lb ed="#P" n="30"/>illa consequentia tenet gratia materie imediata que est 
+      <lb ed="#P" n="31"/>speculatiua non tamen tenet vniuersaliter / nec forma 
+      <lb ed="#P" n="32"/>liter tenet. Unde dico quod consequentia est nulla 
+      noti<lb ed="#P" n="33" break="no"/>cia vel sciencia est de substatm sempiterna et immobili: 
+      er<lb ed="#P" n="34" break="no"/>go est speculatiua / sicut patet ex dictis superius et 
+      <lb ed="#P" n="35"/>etiam declaratis. Non enim oportet quod primum 
+      ob<lb ed="#P" n="36" break="no"/>iectum et remotum noticie practice sit semper ob 
+      opo<lb ed="#P" n="37" break="no"/>rabile et contingeus sicut dictum est supra: sed 
+      suf<lb ed="#P" n="38" break="no"/>ficit quod obiectum proximum quod est praxis. Uel 
+      po<lb ed="#P" n="39" break="no"/>test dici quod non oportuit semper repetere Aristotelem 
+      <lb ed="#P" n="40"/>illa que dixerat prius. Unde supponendo illud quod 
+      <lb ed="#P" n="41"/>dixerat in secundo de fine speculatiuo supplendum est 
+      <lb ed="#P" n="42"/>in antecedente huius consequentie qui est veritas 
+      <lb ed="#P" n="43"/>deus enim substantia sempiterna est et innobilis qui 
+      <lb ed="#P" n="44"/>est obictum et hoc supple si finis est veritas sicut me 
+      <lb ed="#P" n="45"/>thaphisica tunc scientia est speculatiua / tamen prima 
+      so<lb ed="#P" n="46" break="no"/>lutio magis valet puta ad mentem Aristotelis. Et 
+      <lb ed="#P" n="47"/>est tertia que sequitur ad rei veritatem. Uel 
+      potes<lb ed="#P" n="48" break="no"/>dici quod Aristoteles in illa consequentia sequutus est 
+      prin<lb ed="#P" n="49" break="no"/>cipia sua quia non vidit quod dilectio caritatiua dei esse 
+      <lb ed="#P" n="50"/>per se finis alicuius scientie de deo / et quod illa 
+      dillectio<lb ed="#P" n="51" break="no"/>indigeret illa scientia non solum vt ostensiua obiect 
+      <lb ed="#P" n="52"/>sed etiam vt directiua circa obiectum / etiam ex 
+      ap<lb ed="#P" n="53" break="no"/>petitu ipsius praxis quae est dilectio ipsa et quod illi 
+      notu<lb ed="#P" n="54" break="no"/>cie necessario conformetur ipsa praxis vt esset 
+      recta<lb ed="#P" n="55" break="no"/>sicut nos tenemus. Si enim hoc vidisset illam 
+      consequen<lb ed="#P" n="56" break="no"/>tiam non fecisset. Hec igitur sufficiat de tertio 
+      ar<lb ed="#P" n="57" break="no"/>ticulo principali. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e2469">
+               <lb ed="#P" n="58"/>¶ Quartus articulus est 
+      vi<lb ed="#P" n="59" break="no"/>dere vtrum speculatiuum et practicum sint 
+      differen<lb ed="#P" n="60" break="no"/>tie essentiales intellectus et etiam noticie.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2478">
+      ¶ Et 
+      pri<lb ed="#P" n="61" break="no"/>mo dico quod speculatiuum et practicum non sunt de 
+      con<lb ed="#P" n="62" break="no"/>ceptu quiditatiuo intellectus absolute sumpti et in 
+      <lb ed="#P" n="63"/>communi simul et coniunctim accepta primo: quia tunc 
+      <lb ed="#P" n="64"/>omnis intellectus et respectu cuiuscunque obiecti esset 
+      <!--72.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>simul speculatiuus et practicus quod est falsum. 
+      <lb ed="#P" n="66"/>Secundo quia non est possibile quod iste due differentie 
+      <lb ed="#P" n="67"/>opposite sint de conceptu alicuius vnius per se potet 
+      <lb ed="#P" n="68"/>tie / differentie enim opposite non possunt esse de 
+      con<lb ed="#P" n="69" break="no"/>ceptu quiditatiuo alicuius entis per se vnius. quare 
+      <lb ed="#P" n="70"/>etc.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2507">
+      ¶ Secundo dico quantum ad istum articulum quod nec 
+      <lb ed="#P" n="71"/>alterum istorum puta speculatiuum vel practicum 
+      <lb ed="#P" n="72"/>potest esse de per se conceptu intellectus absolute et in 
+      <lb ed="#P" n="73"/>communi accepti: quia tunc omnis intellectus respectu cu 
+      <lb ed="#P" n="74"/>iuscunque obiecti esset practicus vel speculatiuus: 
+      <lb ed="#P" n="75"/>quod est falsum.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2520">
+      ¶ Tertio dico quod speculatiuum et 
+      <lb ed="#P" n="76"/>practicum non sunt differentie essentiales intellectus 
+      <lb ed="#P" n="77"/>diuidentes ipsum in ratione potentie: ita quod alia sit 
+      po<lb ed="#P" n="78" break="no"/>tentia intellectus speculatiuus / et alia intellectus 
+      pra<lb ed="#P" n="79" break="no"/>cticus quod probo quia intellectus noster respicit sal 
+      <lb ed="#P" n="80"/>tem secundum communiter loquentes pro per se obiecto 
+      pri<lb ed="#P" n="81" break="no"/>mo et adequato / et ideo non variatur intellectus in ratione 
+      <lb ed="#P" n="82"/>potentie ex variatione contentorum sub ente: quorum 
+      <lb ed="#P" n="83"/>vnum habet ordinem ad appetitum finis pro quam 
+      <lb ed="#P" n="84"/>to est scientia de ipso. Aliud vero non sicut visus 
+      no<lb ed="#P" n="85" break="no"/>variatur ad variationem colorum / sic in 
+      intellectu<lb ed="#P" n="86" break="no"/>dico in proposito. Secundo quia superior portio et 
+      in<lb ed="#P" n="87" break="no"/>ferior non variant potentiam sed solum officia et actus 
+      <lb ed="#P" n="88"/>potentie secundum Augustinum. 12. de trini. cap. 4. Et 
+      <lb ed="#P" n="89"/>go similiter nec speculatiuum et practicum sunt. 
+      er<lb ed="#P" n="90" break="no"/>go differentie accidentales intellectus eidem 
+      poten<lb ed="#P" n="91" break="no"/>tie diuersimode conuenientes.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2557">
+      ¶ Quarto dico quod 
+      spe<lb ed="#P" n="92" break="no"/>culatiuum et practicum simul non sunt de 
+      conceptu<lb ed="#P" n="93" break="no"/>quiditatiuo noticie siue habitualis siue actualis 
+      in<lb ed="#P" n="94" break="no"/>communi sicut dictum est et probatum de intellectu 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e2566">
+               <lb ed="#P" n="95"/>¶ Quinto dico quod speculatiuum et practicum non sunt 
+      <lb ed="#P" n="96"/>differentie essentiales distincte ipsius noticie 
+      acce<lb ed="#P" n="97" break="no"/>pte in communi diuidentes eam in diuersas noticias 
+      <lb ed="#P" n="98"/>semper est differens. et hoc si accipitur speculatiuum 
+      <lb ed="#P" n="99"/>pro negatione habitudinis ad praxim / vt ad finem 
+      <lb ed="#P" n="100"/>appetitum vel ad appetitum finis / et practicum pro 
+      <lb ed="#P" n="101"/>tali habitudine et extensione ad praxim. Cuius 
+      ra<lb ed="#P" n="102" break="no"/>tio est quia noticia quecumque secundum totum genus 
+      suum<lb ed="#P" n="103" break="no"/>et speciem et indiuiduum dicit aliquid absolutum 
+      po<lb ed="#P" n="104" break="no"/>sitiuum et modo supponatur / modo impossibile est quod 
+      <lb ed="#P" n="105"/>aliqua habitudo vel relatio seu negatio talis habi 
+      <lb ed="#P" n="106"/>tudinis vel rationis sint differentie separate / nec 
+      ade<lb ed="#P" n="107" break="no"/>quata quiditatiuo alicuius absoluti positiui sicut 
+      <lb ed="#P" n="108"/>patet. Iam enim non esset illud absolutum vel 
+      po<lb ed="#P" n="109" break="no"/>sitiuum quare etc. Secunda ratio est quia speculatiuum 
+      <lb ed="#P" n="110"/>et practicum sic accepta necessario praesupponunt 
+      natu<lb ed="#P" n="111" break="no"/>ras ipsarum noticiarum absolutas / sicut 
+      fundamen<lb ed="#P" n="112" break="no"/>ta ipsarum que consequuntur / et ex quibus consurgunt et 
+      <lb ed="#P" n="113"/>in quibus fundantur / sicut posteriora in prioribus ergo 
+      <lb ed="#P" n="114"/>non constituunt naturas illas sicut specifice differentie 
+      <lb ed="#P" n="115"/>vt videtur.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2615">
+      ¶ Sexto dico quod speculatiuum et 
+      practi<lb ed="#P" n="116" break="no"/>cum accepta modo praedicto possunt dici passiones 
+      ve<lb ed="#P" n="117" break="no"/>proprietates distincte ipsius noticie. ita quod 
+      speculati<lb ed="#P" n="118" break="no"/>uum conueniat vni noticie cui conuenit negatio habi 
+      <lb ed="#P" n="119"/>tudinis eius ad praxim vt ad finem vel ad appetitum 
+      <lb ed="#P" n="120"/>finis / sicut per se causam eius et practicam conueniat 
+      <lb ed="#P" n="121"/>alteri noticie secundum speciem et genus proximum 
+      <lb ed="#P" n="122"/>et indiuiduum differenti cui conuenit habitudo 
+      ta<lb ed="#P" n="123" break="no"/>lis ad fiuem / et sunt per se passiones inseparabiles a 
+      <lb ed="#P" n="124"/>predictis noticiis / et eis necessario conuenientes 
+      se<lb ed="#P" n="125" break="no"/>cundum ordinem nature vt per se subiectis.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2639">
+      ¶ Alio 
+      <lb ed="#P" n="126"/>modo possunt accipi speculatiuum et practicum 
+      pre<lb ed="#P" n="127" break="no"/>formalibus distinctis intrinsecis noticie 
+      practice<lb ed="#P" n="128" break="no"/>et speculatiue quibus distinguuntur iste genere 
+      pro<lb ed="#P" n="129" break="no"/>ximo et specie et indiuiduo que quidem principia con¬ 
+      <!--73.xml-->
+       <pb ed="#P" n="31-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sequuntur practicum et speculatiuum modo praedicto 
+      ac<lb ed="#P" n="2" break="no"/>cepta. Et isto modo possunt dici differentie specifico 
+      <lb ed="#P" n="3"/>et essentiales noticie ipsam noticiam in communi que 
+      <lb ed="#P" n="4"/>species subalternas diuidentes et ipsas species 
+      for<lb ed="#P" n="5" break="no"/>maliter continentes et ipsis noticiis ex suis per se 
+      cau<lb ed="#P" n="6" break="no"/>sis conuenientes Cum enim noticia practica secundum 
+      <lb ed="#P" n="7"/>totum genus suum respiciat et habeat appetitum 
+      <lb ed="#P" n="8"/>finis que est praxis pro per se causa sua / non autem 
+      <lb ed="#P" n="9"/>habitus speculatiuus non habeat oportet necessari 
+      <lb ed="#P" n="10"/>quod isti habitus specifice distingantur: et sint alterius 
+      ra<lb ed="#P" n="11" break="no"/>tionis / et quod speculatiuus sit vnus per consequens 
+      <lb ed="#P" n="12"/>nunquam possit fieri et esse practicus nec econuerso. 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e2683">
+               <lb ed="#P" n="13"/>¶ Ex quo apparet esse falsum quod aliqui dicunt eun 
+      <lb ed="#P" n="14"/>dem habitum posse esse nunc speculatiuum nunc 
+      practi<lb ed="#P" n="15" break="no"/>cum ex voluntate arbitraria intendentis opus vel 
+      <lb ed="#P" n="16"/>non intendentis / et applicantis ad opus vel non 
+      ap<lb ed="#P" n="17" break="no"/>plicantis: quod est vnum nihil dictum. Hec de 
+      se<lb ed="#P" n="18" break="no"/>cundo articulo principali.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2699">
+      ¶ Similiter etiam patet 
+      <lb ed="#P" n="19"/>falsum quod dicunt aliqui eundem habitum esse in 
+      ses<lb ed="#P" n="20" break="no"/>simpliciter speculatiuum quia ex obiecto secundum 
+      <lb ed="#P" n="21"/>eos et tamen alicui habenti per accidens esse pra 
+      <lb ed="#P" n="22"/>cticum sicut dictum est de theologia contingentium 
+      <lb ed="#P" n="23"/>precipue in nobis / quae est doctrina praxis circa 
+      theo<lb ed="#P" n="24" break="no"/>logica contingenter / bona vero recta vt est colere deum 
+      <lb ed="#P" n="25"/>in sacro altari: vel huiusmodi. Non enim est 
+      directi<lb ed="#P" n="26" break="no"/>ua ex obiecto quia nec obiectum diuinum 
+      determi<lb ed="#P" n="27" break="no"/>nate continet rectitudinem talis praxis / vt dicunt et 
+      <lb ed="#P" n="28"/>bene in hoc sed est directiua ex suppositione diuine 
+      <lb ed="#P" n="29"/>voluntatis determinantis rectitudinem talis 
+      pra<lb ed="#P" n="30" break="no"/>xis qua agnita cognitio prima est directiua praxi 
+      <lb ed="#P" n="31"/>sequentis / et sic per accidens et habenti practica vt 
+      <lb ed="#P" n="32"/>dicunt: puto autem quod hoc non videtur verum: sed sicut 
+      <lb ed="#P" n="33"/>est in se speculatiua et simpliciter secundum eos ita 
+      <lb ed="#P" n="34"/>et habenti vel si habenti practica tunc etiam in se 
+      <lb ed="#P" n="35"/>practica / practicum enim et speculatiuum per se 
+      di<lb ed="#P" n="36" break="no"/>uidunt habitum non per accidens 
+      </p>
+            <p xml:id="qrdBas-a17109-d1e2741">
+               <lb ed="#P" n="37"/>¶ Ad primum argumentum 
+      <lb ed="#P" n="38"/>quod probat noticiam practicam accipi ex obiecto 
+      <lb ed="#P" n="39"/>principaliter patet ex predictis ad illud sexti me 
+      <lb ed="#P" n="40"/>t haphisice.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2752">
+      ¶ Ad secundum de ratiocinatiuo et 
+      <lb ed="#P" n="41"/>scientifico de sexto Ethicorum / patet igitur quid 
+      <lb ed="#P" n="42"/>sit dicendum.
+    </p>
+            <p xml:id="qrdBas-a17109-d1e2760">
+      ¶ Ad tertium de tertio de anima quod 
+      <lb ed="#P" n="43"/>obiecti practici est agibile bonum et attingens. 
+      Di<lb ed="#P" n="44" break="no"/>co quod si intelligatur vniuersaliter de primo obiecto 
+      <lb ed="#P" n="45"/>non est verum sed de obiecto proximo quod est 
+      op<lb ed="#P" n="46" break="no"/>vel praxis est vniuersaliter verum. Et dico quod ipsum 
+      <lb ed="#P" n="47"/>est finis et magis ex ipso vt finis est accipitur 
+      noti<lb ed="#P" n="48" break="no"/>cia practica vt obiectum dicente Commentatore 
+      <lb ed="#P" n="49"/>tertio de anima quod intellectus per quem agitur 
+      dif<lb ed="#P" n="50" break="no"/>fert a speculatiuo fine id est per finem suum et 
+      de<lb ed="#P" n="51" break="no"/>clarat idem de habitu vel actu in secundo 
+      metha<lb ed="#P" n="52" break="no"/>phisice super illud finis practice est opus et 
+      specu<lb ed="#P" n="53" break="no"/>latiue est veritas. Dicit enim sic. Scientia 
+      opera<lb ed="#P" n="54" break="no"/>tiua quamuis vtatur ratione et speculetur de causis 
+      <lb ed="#P" n="55"/>et tamen non est digna vocari scientia speculatiua 
+      <lb ed="#P" n="56"/>quia non scrutatur de causis rerum et 
+      diffinitioni<lb ed="#P" n="57" break="no"/>bus Arum nisi vt scientes ea agant et non vt 
+      scieiian<lb ed="#P" n="58" break="no"/>sicut est in scientiis speculatiuis. Ecce quo modo 
+      <lb ed="#P" n="59"/>ex fine distinguit intellectum et habitum practicum 
+      <lb ed="#P" n="60"/>a speculatiuo. Sic de isto. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="160-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1039X"><!-- l1d27q3 -->
+            <head xml:id="qrdBas-a1039X-Hd1e99">Quaestio 3</head>
+            <p xml:id="qrdBas-a1039X-d1e101">
+               <lb ed="#P" n="105"/>¶ Distinctionis. xx vii. 
+      <lb ed="#P" n="106"/>Questio Tertia.
+  </p>
+            <p xml:id="qrdBas-a1039X-d1e108">
+               <lb ed="#P" n="107"/>Tertio quero utrum 
+      <lb ed="#P" n="108"/>verbum in diuinis dicatur 
+      essen<lb ed="#P" n="109" break="no"/>tialiter / et personaliter / seu 
+      no<lb ed="#P" n="110" break="no"/>tionaliter vel vtrum sit 
+      essentia<lb ed="#P" n="111" break="no"/>le / an notionale.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e121">
+      ¶ Uidetur quod 
+      <lb ed="#P" n="112"/>essentiale / quia illud quod potest 
+      con<lb ed="#P" n="113" break="no"/>cludi per rationem naturalem 
+      <lb ed="#P" n="114"/>de deo est essentiale. Nam 
+      per<lb ed="#P" n="115" break="no"/>sonalia non possunt concludi de deo: sed verbum est 
+      <lb ed="#P" n="116"/>huiusmodi: quia Augustinus octauo confessionum dicit 
+      <lb ed="#P" n="117"/>ne inuenisse in litteris Platonis illud euangelii Io. 
+      <lb ed="#P" n="118"/>primo. In principio erat verbum. etc.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e139">
+      ¶ Secundo sic 
+      <lb ed="#P" n="119"/>Augustinus quinto de trini. ca. 4o. dicit quod verbum 
+      <lb ed="#P" n="120"/>est cum amore noticia / sed vtrumque istorum dicit quid 
+      <lb ed="#P" n="121"/>essentiale ergo verbum.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e149">
+      ¶ Tertio sic. Anselmus 
+      <lb ed="#P" n="122"/>monologion dicit quod dicere summo spiritui idem est 
+      <lb ed="#P" n="123"/>quod cogitando rem intueri / sed istud cogitare vel in 
+      <lb ed="#P" n="124"/>tueri dicit quid essentiale. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e158">
+      ¶ Quarto sic. 
+      ver<lb ed="#P" n="125" break="no"/>bum non est spirituale filii / quia tunc filius haberet duas 
+      <lb ed="#P" n="126"/>proprietates quod est falsum: scilibet filiationem et verbum 
+      <lb ed="#P" n="127"/>sunt enim due proprietates / quia non vbicunque est filius 
+      ibi<lb ed="#P" n="128" break="no"/>est verbum / nec econuerso: ergo verbum est essentiale.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e169">
+      <!--334.xml-->
+               <pb ed="#P" n="161-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Contra Augustinus. 19. de trinitate. c. 19. in illa 
+      <lb ed="#P" n="2"/>summa trinitate sicut donum non dicitur nisi 
+      spiri<lb ed="#P" n="3" break="no"/>tus sanctus / ita verbum non dicitur nisi filius: ergo 
+      <lb ed="#P" n="4"/>sicut donum est personale ita et verbum. 
+      <lb ed="#P" n="5"/>in ista quaestione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e189">
+               <lb ed="#P" n="6"/>¶ Primo inquiram vtrum verbum sit personale in diuins. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e194">
+               <lb ed="#P" n="7"/>¶ Secundo vtrum verbum dicat respectum ad creaturam 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e199">
+               <lb ed="#P" n="8"/>¶ Tertio ( quia fit mentio hic de imagine) 
+      inqui<lb ed="#P" n="9" break="no"/>ram vtrum imago dicatur essentialiter vel personaliter. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e207">
+               <lb ed="#P" n="10"/>¶ Quantum ad primum dicit 
+      <lb ed="#P" n="11"/>vnus satis nouus quod verbum est in diuinis commune 
+      tri<lb ed="#P" n="12" break="no"/>bus / et dicitur essentialiter / et per consequens non est proprium 
+      <lb ed="#P" n="13"/>alicui persone. Hoc probat primo sic. Uerbum non 
+      <lb ed="#P" n="14"/>dicit nisi emanationem actus intelligendi ab intel 
+      <lb ed="#P" n="15"/>ligente sed quelibet persona diuina intelligens est 
+      <lb ed="#P" n="16"/>et habet intellectionem. ergo etc. Intellectio enim non 
+      <lb ed="#P" n="17"/>emanat realiter in diuinis / et ita illa emanatio cum 
+      <lb ed="#P" n="18"/>non sit nisi rationis potest esse communis tribus. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e229">
+               <lb ed="#P" n="19"/>¶ Secundo sic. Dicere in diuinis conuenit tribus et 
+      <lb ed="#P" n="20"/>est essentiale. Nam quelibet persona et dicit aliam 
+      <lb ed="#P" n="21"/>personam de qua loquitur et etiam creaturam: ergo verbum quod 
+      <lb ed="#P" n="22"/>est terminus est commune in diuinis sicut et dictum. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e240">
+               <lb ed="#P" n="23"/>¶ Tertio sic. Si solus pater diceret in diuinis / et 
+      <lb ed="#P" n="24"/>per consequens verbum esset proprium secunde persone 
+      <lb ed="#P" n="25"/>sequeretur quod alie persone non dicerent vel 
+      loqueren<lb ed="#P" n="26" break="no"/>tur aliquid verbo / sed solus pater: quia verbo quod vnus 
+      <lb ed="#P" n="27"/>homo format / alius non loquitur vt patet: sed hoc est 
+      fal<lb ed="#P" n="28" break="no"/>sum. ergo etc. Item esse verbum non est nisi esse 
+      reprae<lb ed="#P" n="29" break="no"/>sentatiuum seu expressiuum seu declaratiuum 
+      om<lb ed="#P" n="30" break="no"/>nium: sed hoc non conuenit alicui in diuinis nisi 
+      ra<lb ed="#P" n="31" break="no"/>tione essentie alicuius relationis. ergo et cetera¬ 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e262">
+               <lb ed="#P" n="32"/>¶ Secundo dicunt isti quod licet verbum absolute 
+      loquen<lb ed="#P" n="33" break="no"/>do sic commune et essentiale in diuinis / tamen 
+      appro<lb ed="#P" n="34" break="no"/>priatur filio et appropriate dicitur de ipso / sicut etiam 
+      <lb ed="#P" n="35"/>sapientia sibi appropriatur / et bonitas spiritui 
+      san<lb ed="#P" n="36" break="no"/>cto: licet sint communia et essentialia. 
+      <lb ed="#P" n="37"/>quod ista opinio est contra rationem 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e278">
+               <lb ed="#P" n="38"/>¶ Sed diio et contra Augustinum et 
+      do<lb ed="#P" n="39" break="no"/>ctores coniter. Arguo igitur primo contra eam quod 
+      ver<lb ed="#P" n="40" break="no"/>dum sit quid notionale et proprium filio / sicut illud quod 
+      <lb ed="#P" n="41"/>dicit emanationem realem ex memoria in diuinis 
+      <lb ed="#P" n="42"/>vel ab alio per memoriam non est essentiale sed 
+      per<lb ed="#P" n="43" break="no"/>sonale et proprium alicui persone / sed verbum est 
+      hu<lb ed="#P" n="44" break="no"/>iusmodi ( sicut dictum est supra ) quia verbum est 
+      ali<lb ed="#P" n="45" break="no"/>quid emanans realiter a memoria vt a principio. 
+      <lb ed="#P" n="46"/>ergo etc. Est enim verbum partus mentis realis 
+      no<lb ed="#P" n="47" break="no"/>no de trinitate. ca. vltimo.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e302">
+      ¶ Secundo sic. Uerbum 
+      <lb ed="#P" n="48"/>dicere vel producere realiter non conuenit nisi 
+      patri<lb ed="#P" n="49" break="no"/>et est quid notionale in diuinis vt patet / quia nec filio 
+      <lb ed="#P" n="50"/>nec spiritui sancto / sicut nec generare: sed verbum est 
+      <lb ed="#P" n="51"/>terminus productus. Producere ergo dicit aliquid 
+      <lb ed="#P" n="52"/>notionale vel personale.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e316">
+      ¶ Tertio sic per Augusti 
+      <lb ed="#P" n="53"/>num. Sicut donum diuinis dicitur essentialiter vel 
+      <lb ed="#P" n="54"/>personaliter. ita et verbum secundum Augustinum 
+      <lb ed="#P" n="55"/>vbi supra / sed donum ( sicut dictum est distinctione de 
+      <lb ed="#P" n="56"/>cima octaua dicitur personaliter de spiritu sancto tantum / 
+      <lb ed="#P" n="57"/>et secundum Augustinum vbi supra. Patet in auctoritate 
+      <lb ed="#P" n="58"/>allegata prius ad istam partem ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e332">
+      ¶ 
+      Quar<lb ed="#P" n="59" break="no"/>to sic secundum Augustinum septimo de trinitate eo 
+      <lb ed="#P" n="60"/>verbum quo filius: sed filius est quid personale vel 
+      no<lb ed="#P" n="61" break="no"/>tionale. ergo et cetera. 
+      <lb ed="#P" n="62"/>ii primo quantum ad hoc / quod 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e343">
+               <lb ed="#P" n="63"/>¶ Dico igitut cum verbum dicat aliquid 
+      <!--334.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>emanans realiter ab alio per modum intellectus vel 
+      <lb ed="#P" n="65"/>memorie. Et hoc conueniat soli filio in diuinis. 
+      Di<lb ed="#P" n="66" break="no"/>co quod verbum est proprium filio: quod patet ex ratione 
+      <lb ed="#P" n="67"/>verbationis passiue cui correspondet verbatum ipsum 
+      <lb ed="#P" n="68"/>et verbum.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e363">
+      ¶ Secundo dico quod verbum et verbatum / vel 
+      <lb ed="#P" n="69"/>dictum et genitum et filius dicunt omnino eandem 
+      proprie<lb ed="#P" n="70" break="no"/>tatem filii que est filiatio vel generatio passiua vel 
+      <lb ed="#P" n="71"/>verbatio vel dico quod omnia sunt idem totaliter 
+      indi<lb ed="#P" n="72" break="no"/>stinctum ex natura rei: sed solum secundum rationem 
+      <lb ed="#P" n="73"/>et modum intelligendi vel significandi aliter / sicut 
+      <lb ed="#P" n="74"/>paternitas / generetio actiua / dicere verbare / vel 
+      ge<lb ed="#P" n="75" break="no"/>nerare eandem proprietatem dicunt in patre.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e381">
+      ¶ 
+      Ter<lb ed="#P" n="76" break="no"/>tio concludo ex hoc quod verbum non est appropriatum 
+      <lb ed="#P" n="77"/>filio / sicut dicebant alii: sed magis proprium: quare 
+      <lb ed="#P" n="78"/>etc.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e390">
+      ¶ Ultimo quantum ad ista duo nomina que sunt 
+      fi<lb ed="#P" n="79" break="no"/>lius et verbum. Dico quod differunt secundum rationem 
+      <lb ed="#P" n="80"/>quia eadem persona vt est producta inesse 
+      substantia<lb ed="#P" n="81" break="no"/>li per generationem in natura viuente a producente 
+      <lb ed="#P" n="82"/>viuente eiusdem nature dicitur filius / sed vt 
+      pro<lb ed="#P" n="83" break="no"/>ducta in natura intellectuali subsistente per 
+      virtu<lb ed="#P" n="84" break="no"/>tem memorie ab aliquo eiusdem nature dicitur 
+      ver<lb ed="#P" n="85" break="no"/>dum in diuinis / licet ista non requirantur ad verbum 
+      <lb ed="#P" n="86"/>in creaturis / quia verbum creatum persona dici non 
+      <lb ed="#P" n="87"/>potest quia accidens est 
+      <lb ed="#P" n="88"/>etr ergo aliorum dico quod ver¬ 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e415">
+               <lb ed="#P" n="89"/>¶ Ad primum et bum non dicit emanatio 
+      <lb ed="#P" n="90"/>nem secundum rationem sicut intellectum. Emanat 
+      <lb ed="#P" n="91"/>in diuinis sicut accipiunt / sed sicut intellectio 
+      sub<lb ed="#P" n="92" break="no"/>sistens realiter producta emanat. Si tamen 
+      intelle<lb ed="#P" n="93" break="no"/>ctio proprie posset aliquo modo dici realiter 
+      pro<lb ed="#P" n="94" break="no"/>ducta. Credo enim quod ista non sit formalis quod 
+      ver<lb ed="#P" n="95" break="no"/>bum sit intellectio producta / quia licet ista sit 
+      for<lb ed="#P" n="96" break="no"/>malis quod verbum est productiuum / non tamen ista 
+      <lb ed="#P" n="97"/>quod verbum vel filius est intellectio / sicut nec ista 
+      ver<lb ed="#P" n="98" break="no"/>bum est essentia vel voluntas / sed sunt identice: et 
+      <lb ed="#P" n="99"/>tamen recipitur ista locutio communiter quod filius est 
+      <lb ed="#P" n="100"/>intellectio notionalis vel producta: quia est 
+      intelle<lb ed="#P" n="101" break="no"/>ctio identice / et cum hoc productus formaliter ab 
+      <lb ed="#P" n="102"/>aliquo per memoriam / sicut intellectio verbi 
+      pro<lb ed="#P" n="103" break="no"/>ducitur / non est magna vis. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e450">
+               <lb ed="#P" n="104"/>¶ Ad secundum dico quod dicere quod est realiter 
+      pro<lb ed="#P" n="105" break="no"/>ducere et habens terminum realiter productum non 
+      <lb ed="#P" n="106"/>est essentiale sed tantum conuenit patri in diuinis. 
+      <lb ed="#P" n="107"/>Quando dicis quelibet persona loquitur de alia 
+      <lb ed="#P" n="108"/>et dicit aliam / et etiam creaturam. Dico quod ibi 
+      dice<lb ed="#P" n="109" break="no"/>re accipitur improprie pro intelligere: que non sunt 
+      <lb ed="#P" n="110"/>idem secundum quod dictum est supra.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e468">
+      ¶ Ad tertium 
+      <lb ed="#P" n="111"/>dico quod quelibet persona dicit verbo non tamen 
+      di<lb ed="#P" n="112" break="no"/>cit verbum: sed solus pater dicit et format verbum 
+      <lb ed="#P" n="113"/>in diuinis. Quando dicis quod solus formans verbum 
+      <lb ed="#P" n="114"/>loquitur verbo et dicitur verbo: dicitur quod verum 
+      <lb ed="#P" n="115"/>est effectiue vel productiue / sed si verbum posset 
+      lo<lb ed="#P" n="116" break="no"/>qui / loqueretur seipso. Non alio verbo et hoc 
+      for<lb ed="#P" n="117" break="no"/>maliter. Similiter etiam audiens verbum potest 
+      ali<lb ed="#P" n="118" break="no"/>quo modo loqui verbo approbando verbum / et 
+      ali<lb ed="#P" n="119" break="no"/>quo modo obiectiue. Sic in proposito de filio et 
+      <lb ed="#P" n="120"/>spiritu sancto. Aliter dicitur quod pater est ille qui so 
+      <lb ed="#P" n="121"/>lus dicit et format verbum / et etiam dicit verbo 
+      prin<lb ed="#P" n="122" break="no"/>cipiatiue: sed non sibi soli format verbum / sed aliis 
+      <lb ed="#P" n="123"/>Ita quod assimilatur alicui qui poneret idem verbum 
+      <lb ed="#P" n="124"/>in ore trium / et illi tres vno verbo loquerentur. 
+      Ali<lb ed="#P" n="125" break="no"/>ter dico quod quelibet persona loquitur et dicit verbum 
+      <lb ed="#P" n="126"/>accipiendo dicere communiter pro intelligere / et 
+      di<lb ed="#P" n="127" break="no"/>cit verbo hoc est intelligit in verbo. Omienia enim nouit 
+      <lb ed="#P" n="128"/>pater in seipso et omnia in filio obiectiue sicut dictum est 
+      <!--335.xml-->
+       <pb ed="#P" n="161-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>fsupra. 19 de trinitate. Et similiter potest dici de 
+      spi<lb ed="#P" n="2" break="no"/>ritu sancto: sed solus pater dicit verbo eo modo quo 
+      <lb ed="#P" n="3"/>dicetur infra. xxxii. dist.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e523">
+      ¶ Ad vltimum dico quod 
+      ma<lb ed="#P" n="4" break="no"/>ior est falsa sed esse verbum conuenit alicui quia realiter 
+      <lb ed="#P" n="5"/>productum et expriessum ab aliquo vi memorie: non 
+      au<lb ed="#P" n="6" break="no"/>tem per rationem declaratiui vel representatiui sicut 
+      <lb ed="#P" n="7"/>apparebit melius in secundo articulo questionis. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e534">
+               <lb ed="#P" n="8"/>¶ Quantum ad secundum articulum 
+      <lb ed="#P" n="9"/>Dico primo quod verbum in diuinis nullum dicit 
+      respe<lb ed="#P" n="10" break="no"/>ctum pertinentem intrinsece ad personam verbi vel 
+      <lb ed="#P" n="11"/>filii / nisi respectu solum ad patrem dicentem / quia est idem 
+      <lb ed="#P" n="12"/>quod verbatio passiua vel filiatio: et per consequens nullum 
+      re<lb ed="#P" n="13" break="no"/>spectum rationis nec ad creaturam nec ad aliquid alid 
+      <lb ed="#P" n="14"/>breuiter includit de suo principali significato / sicut 
+      <lb ed="#P" n="15"/>probatum est etiam supra de dono quod non includit 
+      <lb ed="#P" n="16"/>aliquem respectum ad creaturam tanquam proprietatem 
+      <lb ed="#P" n="17"/>constitutiuam sui in esse personali: licet dissimile sit de 
+      <lb ed="#P" n="18"/>dono et de verbo: quia donum principaliter et 
+      forma<lb ed="#P" n="19" break="no"/>liter significat respectum rationis puta respectum 
+      do<lb ed="#P" n="20" break="no"/>nabilitatis: sed verbum principaliter et formaliter si 
+      <lb ed="#P" n="21"/>gnificat respectum realem ad dicentem: qui est 
+      respe<lb ed="#P" n="22" break="no"/>ctus realis constitutiuus persone filui et filiatio ipsa: sed 
+      <lb ed="#P" n="23"/>connotat aliquem respectum rationis quem non connotat 
+      <lb ed="#P" n="24"/>filius: et in hoc etiam distinguitur a filio.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e573">
+      ¶ Secundo 
+      <lb ed="#P" n="25"/>dico quod verbum habet aliquem respectum rationis ad 
+      <lb ed="#P" n="26"/>intra puta respectum declaratiui vel manifestatiui 
+      <lb ed="#P" n="27"/>ipsius patris vt a quo est per generationem suiipsius 
+      <lb ed="#P" n="28"/>vt qui est a patre: vel vt productiui a patre per 
+      genera<lb ed="#P" n="29" break="no"/>tionem / et isti duo respectus rationis sunt sibi proprii: li 
+      <lb ed="#P" n="30"/>cet non sint de conceptu quidditatiuo eius / habent enim 
+      <lb ed="#P" n="31"/>esse ibi specialiter vt patet ex modo procedendi et nulli 
+      <lb ed="#P" n="32"/>alii vt videtur / licet enim patri conueniat esse 
+      decla<lb ed="#P" n="33" break="no"/>ratiuum sui vt a quo est filius / et filii vt qui est ab ipso 
+      <lb ed="#P" n="34"/>Non tamen sunt idem respectus cum predictis / alium 
+      <lb ed="#P" n="35"/>respectum rationis habet ad essentiam vt declarati 
+      <lb ed="#P" n="36"/>uum eius inquantum ipsa vel per ipsam formaliter est 
+      <lb ed="#P" n="37"/>deus / et iste forte est sibi proprius non ratione huius quod 
+      <lb ed="#P" n="38"/>est esse deum: sed ratione huius quod est ipsum 
+      verbu<lb ed="#P" n="39" break="no"/>esse deum. Alium respectum declaratiui habet ad 
+      <lb ed="#P" n="40"/>spiritum sanctum vt ad productum ab ipso / et iste non 
+      <lb ed="#P" n="41"/>est sibi proprius sed communis tribus: tamen 
+      appropa<lb ed="#P" n="42" break="no"/>tur sibi propter suum specialem modum procedendi per 
+      <lb ed="#P" n="43"/>modum noticie ex memoria cuius est procedere vt 
+      <lb ed="#P" n="44"/>manifestationem vt declaratiuam vel representati 
+      <lb ed="#P" n="45"/>uam: et secundum etiam verbum non proprie sed 
+      approps<lb ed="#P" n="46" break="no"/>te diciturars respectu creaturarum. Ars inquam patris producta 
+      <lb ed="#P" n="47"/>quae etiam pater est ars / vnde ipse est ars de arte / appro 
+      <lb ed="#P" n="48"/>riate tamen: secundum quem modum loquitur 
+      Augu<lb ed="#P" n="49" break="no"/>stinus sexto de trinitate vltimo capitulo vbi dicit 
+      <lb ed="#P" n="50"/>quod verbum est ars omnipotentis dei plena rationibus omnium 
+      <lb ed="#P" n="51"/>viuentium. Unde etiam Augustinus vigesima que 
+      <lb ed="#P" n="52"/>stione quarta vbi dicit quod logos grece melius per 
+      fa<lb ed="#P" n="53" break="no"/>ctum interpretatur quam per rationem / vt significetur non 
+      <lb ed="#P" n="54"/>solum ad patrem respectus: sed etiam ad ea que per 
+      <lb ed="#P" n="55"/>verba facta sunt operatiua potentia: eo modo quo 
+      <lb ed="#P" n="56"/>noticia dicitur potentia operatiua. Ex quo 
+      habec<lb ed="#P" n="57" break="no"/>quod verbum connotat talem respectum sibi 
+      appropria<lb ed="#P" n="58" break="no"/>tum ad creaturas. Nota tamen circa auctoritatem 
+      predi<lb ed="#P" n="59" break="no"/>ctam Augustini vbi loquitur de arte quod accipiendo 
+      <lb ed="#P" n="60"/>artem absolute est communis tribus personis / sed 
+      ap<lb ed="#P" n="61" break="no"/>propriatur filio. Sed ars producta communis est 
+      fi<lb ed="#P" n="62" break="no"/>lio et spiritui sancto / et addhuc appropriatur filio 
+      <lb ed="#P" n="63"/>sed ars sic producta scilicet per memoriam iam est 
+      <lb ed="#P" n="64"/>proprium filio sicut ars improducta personaliter sub¬ 
+      <!--335.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>sistens est proprium patris. Et ars producta per 
+      vo<lb ed="#P" n="66" break="no"/>luntatem est proprium spiritui sancto. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e672">
+               <lb ed="#P" n="67"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="68" break="no"/>ticulum. Premitto primo quod in deo imago vno 
+      mo<lb ed="#P" n="69" break="no"/>do dicitur id ad cuius similitudinem vel imitationem 
+      <lb ed="#P" n="70"/>dicitur aliquid produci. Alio modo dicitur 
+      imago<lb ed="#P" n="71" break="no"/>illud quod producitur in idemptitate nature 
+      secun<lb ed="#P" n="72" break="no"/>dum grecos. Sed plus requiritur secundum latinos 
+      <lb ed="#P" n="73"/>quia requiritur quod non solum simile vel idem in 
+      natu<lb ed="#P" n="74" break="no"/>ra producatur / sed cum hoc quod per modum similis / 
+      <lb ed="#P" n="75"/>et per modum nature: hoc est premissum.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e694">
+      ¶ Secundo 
+      <lb ed="#P" n="76"/>dico quod imago primo conuenit tribus personis 
+      di<lb ed="#P" n="77" break="no"/>uinis / et est nomen non notionale vel personale / sed  
+      <lb ed="#P" n="78"/>commune / et isto modo dictum est genesis primo. Facia 
+      <lb ed="#P" n="79"/>mus hominem ad imaginem et similitudinem nostram. 
+      <lb ed="#P" n="80"/>Et Augustinus hoc ponit de fide ad petrum. 
+      Se<lb ed="#P" n="81" break="no"/>cundo modo planum est quod non conuenit patri 
+      imago<lb ed="#P" n="82" break="no"/>quia non est productus: sed secundum grecos conuenit 
+      <lb ed="#P" n="83"/>filio et spiritui sancto / quia producuntur in identitate 
+      na<lb ed="#P" n="84" break="no"/>ture et similis in natura producente. Secundum 
+      lati<lb ed="#P" n="85" break="no"/>nos autem non conuenit spiritui sancto / sed tantum filio 
+      <lb ed="#P" n="86"/>quia producitur inidemptitate nature / et per modum: 
+      <lb ed="#P" n="87"/>nature et similis. Non autem spiritus sauctus quantum ad 
+      <lb ed="#P" n="88"/>vltimam conditionem / et ideo filius solus legitur 
+      ima<lb ed="#P" n="89" break="no"/>go. Ex quo patet quod imago secundo modo 
+      accepta<lb ed="#P" n="90" break="no"/>est nomen personale soli filio conueniens secundum latino 
+      <lb ed="#P" n="91"/>vnde et Augustinus septimo de trinitate dicit eo 
+      <lb ed="#P" n="92"/>verbum quod filius et imago.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e733">
+      ¶ Ultimo dico quod quantum 
+      <lb ed="#P" n="93"/>ad hoc quod imago sic accepta de suo principali et 
+      for<lb ed="#P" n="94" break="no"/>mali significato dicit similitudinem producti per 
+      mo<lb ed="#P" n="95" break="no"/>dum nature ad producens / et iste est respectus 
+      ratio<lb ed="#P" n="96" break="no"/>nis nec est proprietas constitutiua persone filii: sed 
+      con<lb ed="#P" n="97" break="no"/>notat ipsam magis. Ex quo patet etiam expositio 
+      di<lb ed="#P" n="98" break="no"/>cti Augustini quod non omnino similiter eodem filius est 
+      <lb ed="#P" n="99"/>verbum et imago sed est verbum proprietate 
+      principa<lb ed="#P" n="100" break="no"/>liter importata per verbum / sed imago est non pro 
+      <lb ed="#P" n="101"/>prietate qua est verbum / sed proprietate connectan 
+      <lb ed="#P" n="102"/>te illam verbi proprietatem inquantum importatur per 
+      <lb ed="#P" n="103"/>imaginem / quia principale significatum verbi et filii 
+      <lb ed="#P" n="104"/>est connotatum imaginis. Sic etiam exponitur 
+      di<lb ed="#P" n="105" break="no"/>ctum Augustini septimo de trinitate quod imago 
+      di<lb ed="#P" n="106" break="no"/>citur ad aliud sicut verbum vel econuerso: et hoc de 
+      <lb ed="#P" n="107"/>verbo et imagine sic sit dictum. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e768">
+               <lb ed="#P" n="108"/>¶ Ad primum principale / quod 
+      <lb ed="#P" n="109"/>verbum dicatur essentialiter dico quod ratio 
+      natura<lb ed="#P" n="110" break="no"/>lis non potest attingere ad verbum proprie dictum 
+      <lb ed="#P" n="111"/>in diuinis quod est verbum subsistens realiter 
+      produ<lb ed="#P" n="112" break="no"/>ctum. Nec etiam hoc potest negare stando in sus 
+      <lb ed="#P" n="113"/>rectitudine sed debet stare neutra. Quando dicis 
+      <lb ed="#P" n="114"/>de Augustino de libris Platonicorum dico sicut 
+      <lb ed="#P" n="115"/>dixi supra Augustinus videtur sentire quod hoc 
+      ha<lb ed="#P" n="116" break="no"/>buit Plato per reuelationem cum esset virgo. 
+      Ali<lb ed="#P" n="117" break="no"/>ter dicitur quod intellexerunt hoc platonici de verbo 
+      <lb ed="#P" n="118"/>improprie dicto prout quecumque intellectio dicitur 
+      <lb ed="#P" n="119"/>verbum.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e797">
+      ¶ Ad secundum quod verbum non est quecum 
+      <lb ed="#P" n="120"/>que noticia / seu qualiscumque seu qualitercumque: sed pro 
+      <lb ed="#P" n="121"/>ducta et per productionem realem a memoria. 
+      </p>
+            <p xml:id="qrdBas-a1039X-d1e804">
+               <lb ed="#P" n="122"/>¶ Ad tertium de Anselmo dico quod accipit ibi 
+      di<lb ed="#P" n="123" break="no"/>cere large pro intelligere vel cognoscere. Sic non 
+      <lb ed="#P" n="124"/>respondet sibi verbum sed intellectum vel dictum / et sic 
+      di<lb ed="#P" n="125" break="no"/>cere est commune et essentiale. Sed dicere acceptum 
+      <lb ed="#P" n="126"/>pro producere ad intra per vim memorie est proprium 
+      <lb ed="#P" n="127"/>patri: et sic correspondet sibi verbum.
+    </p>
+            <p xml:id="qrdBas-a1039X-d1e821">
+      ¶ Ad qua in dico 
+      <!--336.xml-->
+       <pb ed="#P" n="162-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod verbum et filius dicunt eandem proprietatem realem 
+      <lb ed="#P" n="2"/>sicut dictum est supra et in diuinis vbicumque inuenitur 
+      <lb ed="#P" n="3"/>vnum et aliud: differunt tamen secundum rationem sicut 
+      di<lb ed="#P" n="4" break="no"/>ctum est: et differunt etiam in communi accipiendo verbum 
+      <lb ed="#P" n="5"/>et filium / sicut arguitur uel saltem in creaturis / quia numquam 
+      <lb ed="#P" n="6"/>verbum creatum potest dici filius nec econuerso. quaere etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

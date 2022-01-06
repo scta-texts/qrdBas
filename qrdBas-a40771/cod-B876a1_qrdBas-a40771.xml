@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="64-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a40771"><!-- l1d3q5 -->
+            <head xml:id="qrdBas-a40771-Hd1e99">Quaestio 5</head>
+            <p xml:id="qrdBas-a40771-d1e101">
+               <lb ed="#P" n="62"/>¶ Distinctionis tertie. 
+      <lb ed="#P" n="63"/>Questio Quinta 
+  </p>
+            <p xml:id="qrdBas-a40771-d1e108">
+      <!--138.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>Quinto quaero quantum 
+      <lb ed="#P" n="65"/>ad ymaginem. Utrum 
+      ymagion<lb ed="#P" n="66" break="no"/>trinitatis sit in creatura 
+      ratio<lb ed="#P" n="67" break="no"/>nali et intellectuali.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e124">
+      ¶ Et 
+      vi<lb ed="#P" n="68" break="no"/>detur quod imago trinitatis non 
+      <lb ed="#P" n="69"/>sit in mente nostra. Primo sic. 
+      <lb ed="#P" n="70"/>ydeatum non representat nisi 
+      <lb ed="#P" n="71"/>suam ydeam: quia non excedit 
+      <lb ed="#P" n="72"/>in representando suum ydeatum in essendo: sed deus 
+      <lb ed="#P" n="73"/>non est ydea inquantum trinus: sed magis per rationem 
+      <lb ed="#P" n="74"/>essentie siue sue intellectionis que est vna. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e142">
+               <lb ed="#P" n="75"/>¶ Secundo sic. Si imago representans trinitatem 
+      <lb ed="#P" n="76"/>esset in mente: tunc posset trinitas personarum natura 
+      <lb ed="#P" n="77"/>liter cognosci sicut et imago: hoc est falsum. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e152">
+               <lb ed="#P" n="78"/>¶ Tertio sic. in qualibet persona est memoria 
+      intelli<lb ed="#P" n="79" break="no"/>gentia et voluntas: ergo ista non representant 
+      distin<lb ed="#P" n="80" break="no"/>cte trinitatem: sed magis vnitatem: quia memoria 
+      <lb ed="#P" n="81"/>illa representat patrem sicut filium igitur. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e163">
+               <lb ed="#P" n="82"/>¶ Quarto sic. In mente nostra est vestigium 
+      trin<lb ed="#P" n="83" break="no"/>tatis: ergo non est imago mea. Probatio quia isti sunt 
+      <lb ed="#P" n="84"/>modi representandi ex opposito distinctum 
+      <lb ed="#P" n="85"/>Magister in littera et Augusti 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e174">
+               <lb ed="#P" n="86"/>¶ Contra nus quintodecimo de trinitate  
+      <lb ed="#P" n="87"/>capitulo octauo. Ecce mens nostra meminit sui 
+      intelli<lb ed="#P" n="88" break="no"/>git se diligit se. etc. hec si cernimus trinitatem non quidem 
+      <lb ed="#P" n="89"/>deum: sed ipsam imaginem dei. Et genesis primo. 
+      Fa<lb ed="#P" n="90" break="no"/>ciamus hominem ad imaginem et similitudinem nostram. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e187">
+               <lb ed="#P" n="91"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e192">
+               <lb ed="#P" n="92"/>¶ Primo dicam de ratione imaginis in 
+      corpori<lb ed="#P" n="93" break="no"/>pus. vnde est in spiritibus / et quod imago trinitatis sit in men 
+      <lb ed="#P" n="94"/>te.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e201">
+      ¶ Secundo ostendam que sunt illa que 
+      correspon<lb ed="#P" n="95" break="no"/>dent in deo imagini create: et respectu quaerum est imago. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e207">
+               <lb ed="#P" n="96"/>¶ Quantum ad primum dicitur 
+      <lb ed="#P" n="97"/>quod ymago dicitur quasi imitatio. Unde dico quod 
+      yma<lb ed="#P" n="98" break="no"/>go in corporibus dicitur illud quod imitatiue 
+      re<lb ed="#P" n="99" break="no"/>praesentat aliud quasi totum. Imago enim in hoc 
+      dif<lb ed="#P" n="100" break="no"/>fert a vestigio: quia vestigium primo est 
+      representa<lb ed="#P" n="101" break="no"/>tiuum partis ratione totius. Et imago primo representat 
+      <lb ed="#P" n="102"/>totum: non autem partem. Dico etiam quod imitando 
+      re<lb ed="#P" n="103" break="no"/>presentat quia non sufficit quecumque repraesentatio 
+      ali<lb ed="#P" n="104" break="no"/>cuius ab aliquo ad hoc vt representans dicitur esse 
+      <lb ed="#P" n="105"/>imago. Sed requiritur ad imaginem imitatio 
+      to<lb ed="#P" n="106" break="no"/>tius representanti: et etiam expressio vnius ab alio / 
+      ima<lb ed="#P" n="107" break="no"/>ginis ab imaginato ad similitudinem imaginati / 
+      <lb ed="#P" n="108"/>non autem econuerso quia secundum Augustinum 
+      octuagesi<lb ed="#P" n="109" break="no"/>ma tertia questionum. Ouum licet sit simile 
+      alteri<lb ed="#P" n="110" break="no"/>ouo: non est ymago alterius oui: quia non est ab alio 
+      <lb ed="#P" n="111"/>et ad vnitatem alterius expresse et productum. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e244">
+               <lb ed="#P" n="112"/>¶ Sic ergo dico quod imago in corporibus est 
+      imita<lb ed="#P" n="113" break="no"/>tio que est similitudo imitationis representans 
+      to<lb ed="#P" n="114" break="no"/>totum primo et expresse ad similitudinem alterius 
+      <lb ed="#P" n="115"/>scilicet imaginati / ex hoc autem transumitur ad 
+      ima<lb ed="#P" n="116" break="no"/>ginem in proposito / quia dico quod mens in qua quoddam 
+      <lb ed="#P" n="117"/>totum materiale: cuius partes sunt tres persone et 
+      <lb ed="#P" n="118"/>non solum patrem et filium et spiritum sanctum: sed  
+      <lb ed="#P" n="119"/>totam trinitatem personarum / et essentie vnitatem / et 
+      <lb ed="#P" n="120"/>est expressa et producta imitando ipsam. hec de primo 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e266">
+               <lb ed="#P" n="121"/>¶ Quantum ad secundum scilice 
+      <lb ed="#P" n="122"/>in quibus consistit imago trinitatis in mente. Dico 
+      <lb ed="#P" n="123"/>premittendo quod in nobis experimur duos actus in 
+      <lb ed="#P" n="124"/>superiori parte accidentali scilicet intelligere et velle. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e277">
+        <!--139.xml-->
+               <pb ed="#P" n="64-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Secundo premitto quod in potentiis nudis 
+      respe<lb ed="#P" n="2" break="no"/>ciu istorum actuum non potest consistere imago 
+      trin<lb ed="#P" n="3" break="no"/>tatis: quia inter ipsos non est ordo originis sicut 
+      in<lb ed="#P" n="4" break="no"/>ter diuinas personas: sed nec etiam in actibus 
+      secun<lb ed="#P" n="5" break="no"/>dis: tum quia in personis non est consubstantialitas 
+      <lb ed="#P" n="6"/>nec trinitas: et ideo oportet quod ratio imaginis 
+      assi<lb ed="#P" n="7" break="no"/>gnetur consistere in potentiis consubstantialibus 
+      <lb ed="#P" n="8"/>sibi et essentie cum actibus ipsarum potentiarum. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e303">
+               <lb ed="#P" n="9"/>¶ Assignatur ergo duobus modis imago trinita 
+      <lb ed="#P" n="10"/>tis consistere in aliquibus. Prima assignatio est in 
+      <lb ed="#P" n="11"/>memoria intelligentia et voluntate. Alio modo in 
+      mon<lb ed="#P" n="12" break="no"/>te noticia et amore. Primam assignationem ponit 
+      <lb ed="#P" n="13"/>Augustinus decimo. de trinitate capitulo quarteo 
+      <lb ed="#P" n="14"/>Secundam ponit nono de trinitate ca. secundo et 
+      quinton<lb ed="#P" n="15" break="no"/>et deinceps: et quinto decimo de trinitate dicit quod 
+      pri<lb ed="#P" n="16" break="no"/>ma est euidentior.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e323">
+      ¶ Dicamus ergo de prima. 
+      Di<lb ed="#P" n="17" break="no"/>co quod in mente nostra est aliqua perfectio quam est 
+      <lb ed="#P" n="18"/>in actu primo et respetu noticie declaratiue gignem: 
+      <lb ed="#P" n="19"/>de et producende: et est in prima fecunditate anime 
+      no<lb ed="#P" n="20" break="no"/>stre: et hoc voco memoriam: intellectumiscilicem habentem 
+      <lb ed="#P" n="21"/>principia obiecti intelligibilis per seipsam et per 
+      re<lb ed="#P" n="22" break="no"/>presentatiuum eius. Et complectitur ista menmoria 
+      <lb ed="#P" n="23"/>ad minus obiectum praesens in seipso vel in represen 
+      <lb ed="#P" n="24"/>tatiuo: et intellectum agentem. Utrum autem 
+      intelle<lb ed="#P" n="25" break="no"/>ctus possibilis et etiam obiectum sit coactiuus ad 
+      <lb ed="#P" n="26"/>gignitionem verbi et noticie declaratiue nihil modo 
+      <lb ed="#P" n="27"/>hec est ergo memoria intellectus habens obiectum 
+      <lb ed="#P" n="28"/>sibi presens: et hoc est prima fecunditas in mente 
+      no<lb ed="#P" n="29" break="no"/>stra: et representat personam patris que est prima 
+      <lb ed="#P" n="30"/>in diuinis.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e357">
+      ¶ Secundo est in mente nostra 
+      perfe<lb ed="#P" n="31" break="no"/>ctio per quam potest recipere actum 
+      intelligendi<lb ed="#P" n="32" break="no"/>noticiam declaratiuam obiecti: puta intellectus 
+      pos<lb ed="#P" n="33" break="no"/>sibilis: et inquantum recipit ipsam dicitur intelligen 
+      <lb ed="#P" n="34"/>tia et reprensentat verbum vel filium in diuinis / que 
+      <lb ed="#P" n="35"/>est noticia genita subsistens tamen.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e370">
+      ¶ Tertio est 
+      <lb ed="#P" n="36"/>in mente nostra perfectio qua possumus 
+      recipere<lb ed="#P" n="37" break="no"/>elicere actum volitionis: et est voluntas ipsa que vt 
+      <lb ed="#P" n="38"/>sic stans sub actu volendi quantum ad ipsum actum 
+      cau<lb ed="#P" n="39" break="no"/>satur ab obiecto: etiam intelligentia vel etiam a seipsa 
+      <lb ed="#P" n="40"/>Uel tamen primus quoquno: ita quod a memoria et 
+      in<lb ed="#P" n="41" break="no"/>telligentia aliquo modo causatur actus volendi / vel 
+      <lb ed="#P" n="42"/>saltem prima sunt et naturaliter requisita. Et dico 
+      <lb ed="#P" n="43"/>quod voluntas vt sic stans sub actu volendi 
+      represen<lb ed="#P" n="44" break="no"/>tat spiritum sanctum qui producitur vt amor 
+      subsi<lb ed="#P" n="45" break="no"/>stens ab vtroque scilicet patre et filio.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e394">
+      ¶ Quo 
+      mo<lb ed="#P" n="46" break="no"/>do ergo in istis omnibus consistit imago trinitatis 
+      <lb ed="#P" n="47"/>Dico quod de ratione imaginis trinitatis est 
+      repre<lb ed="#P" n="48" break="no"/>sentare vnitatem diuine essentie: pluralita tem per 
+      <lb ed="#P" n="49"/>sonarum / et ordinem orignis ipsarum. hoc autem 
+      ri<lb ed="#P" n="50" break="no"/>presentat per ista omnia. Primo quia iste potentie 
+      <lb ed="#P" n="51"/>sunt consubstantiales: et sic representant essentie 
+      vn<lb ed="#P" n="52" break="no"/>tatem. Secundo quia sunt tres qualitercumque distincti 
+      <lb ed="#P" n="53"/>non curo modo et sic personarum trinatem. Tertio 
+      <lb ed="#P" n="54"/>quia in ipsis inquantum substant suis actibus est 
+      or<lb ed="#P" n="55" break="no"/>do originis / quia ibi sunt duo actus producti 
+      scili<lb ed="#P" n="56" break="no"/>cet intelligere quod prodicitur a memoria sicut 
+      ver<lb ed="#P" n="57" break="no"/>bum a parte: et velle quod producitur quocumque modo 
+      <lb ed="#P" n="58"/>a memoria et intelligentia saltem prima sunt ista 
+      ne<lb ed="#P" n="59" break="no"/>cessaria sicut spiritus sanctus ab vtroque. Sed 
+      inter<lb ed="#P" n="60" break="no"/>ista et illa multe possunt dissimilitudines assignari 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e429">
+               <lb ed="#P" n="61"/>¶ Secunda assignatio est quod imago consistit in hiis 
+      <lb ed="#P" n="62"/>tribus scilicet in mente noticia et amore.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e436">
+      ¶ Et 
+      quan<lb ed="#P" n="63" break="no"/>tum ad hoc notandum est quod mens dicit duplicem 
+      fe<lb ed="#P" n="64" break="no"/>cunditatem anime: et sic includit tres potentias et 
+      <lb ed="#P" n="65"/>vnam substantiam cui potentie sunt consubstantia¬ 
+      <!--139.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>les: et etiam sibi inuicem: sed noticia accipitur pro 
+      <lb ed="#P" n="67"/>producto ab altero principio puta a memoria secundum 
+      <lb ed="#P" n="68"/>primam fecunditatem. Amor autem accipitur pro 
+      <lb ed="#P" n="69"/>actu producto a duobus principiis quocumque modo 
+      di<lb ed="#P" n="70" break="no"/>cant ordinem originis sed non consubstantialitatem 
+      <lb ed="#P" n="71"/>Et in hoc deficiunt a repraesentando perfecte 
+      ratio<lb ed="#P" n="72" break="no"/>nem trinitatis: sicut etiam illa que dicta sunt in 
+      pri<lb ed="#P" n="73" break="no"/>ma assignatione in multis deficiunt.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e467">
+      ¶ Ex 
+      predi<lb ed="#P" n="74" break="no"/>ctis apparet quo modo prima assignatio est euidem 
+      <lb ed="#P" n="75"/>tior quam secunda. In prima enim accipitur 
+      consubstan<lb ed="#P" n="76" break="no"/>tialitas vel vnitas potentiarum in substantia et 
+      tri<lb ed="#P" n="77" break="no"/>nitas: et ordo originis. In secunda autem non 
+      acci<lb ed="#P" n="78" break="no"/>pitur consubstantialitas nisi subintelligendo 
+      poten<lb ed="#P" n="79" break="no"/>tias ipsis actibus productis. Tamen etiam in 
+      secun<lb ed="#P" n="80" break="no"/>da est aliquod euidentius quam in prima: quia mens cum 
+      <lb ed="#P" n="81"/>includat duplicem fecunditatem vel potentiam 
+      fecum<lb ed="#P" n="82" break="no"/>dam expressius representat primam personam quam 
+      <lb ed="#P" n="83"/>memoria tantum: licet respectu totius trinitatis 
+      pri<lb ed="#P" n="84" break="no"/>ma sit euidentior et expressior. Hec de secundo. 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e494">
+               <lb ed="#P" n="85"/>¶ Quantum ad tertum 
+      Di<lb ed="#P" n="86" break="no"/>co quod in deoreperiuntur tria. Primum est vnitas 
+      <lb ed="#P" n="87"/>essentie. Secundum est ordo et habitudo originis im¬¬ 
+      <lb ed="#P" n="88"/>ter personas. Et ideo dico quod imago accenditur nec 
+      <lb ed="#P" n="89"/>correspondet alteri trium predictorum tantum sed 
+      <lb ed="#P" n="90"/>omnibus simul. Ita quod imago representat omnia pre 
+      <lb ed="#P" n="91"/>dicta. Ita quod representatiua tam vnitatis essentie quam 
+      <lb ed="#P" n="92"/>trinitatis personarum quam etiam ordinis et originis 
+      <lb ed="#P" n="93"/>inter ipsas. Et hoc est essentiale imagini nostre et 
+      <lb ed="#P" n="94"/>etiam angelice. Sic ad questionem. 
+      <lb ed="#P" n="95"/>et pale dico quod yde¬ 
+      </p>
+            <p xml:id="qrdBas-a40771-d1e520">
+               <lb ed="#P" n="96"/>¶ Ad primum prinipi atum scndumqudhumodi 
+      <lb ed="#P" n="97"/>non representat nisi suam ydeam. Sed ydeatum quod 
+      <lb ed="#P" n="98"/>est etiam ymago bene representat trinitatem: sicut 
+      <lb ed="#P" n="99"/>predictum est in corpore questionis.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e531">
+      ¶ Ad secundum 
+      <lb ed="#P" n="100"/>dico quod imago licet sit in mente: non tamen vt sic 
+      po<lb ed="#P" n="101" break="no"/>test cognosci per rationem naturalem nec per 
+      con<lb ed="#P" n="102" break="no"/>sequens ipsa trinitas.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e540">
+      ¶ Ad tertium dico quod memo 
+      <lb ed="#P" n="103"/>ria in imagine non representat sic memoriam in 
+      vne<lb ed="#P" n="104" break="no"/>persona quin sit in alia secundum id quod est: sed quantum 
+      <lb ed="#P" n="105"/>ad hoc distincte representat quod vna persona 
+      repre<lb ed="#P" n="106" break="no"/>sentat eam vt est principium productiuum: non autem 
+      <lb ed="#P" n="107"/>in alia et sic de aliis. Unde licet memoria sit in filio: non 
+      <lb ed="#P" n="108"/>tamen est in eo vt principium productiuum.
+    </p>
+            <p xml:id="qrdBas-a40771-d1e556">
+      ¶ Ad quartum 
+      <lb ed="#P" n="109"/>dico quod vestigium et imago non sunt rationes 
+      repeun<lb ed="#P" n="110" break="no"/>tandi opposite: sed solum disparate / ita quod eidem poastent 
+      co<lb ed="#P" n="111" break="no"/>uenire. Dico tamen quod non eadem creatura rationalis vel 
+      <lb ed="#P" n="112"/>intellectualis est vestigium et imago. Totaliter 
+      <lb ed="#P" n="113"/>est enim vestigium secundum suam substantiam: sed imago secundum 
+      <lb ed="#P" n="114"/>suam substantiam et potentias consubstantiales et 
+      act<lb ed="#P" n="115" break="no"/>productos vt dictum est supra quare etc. Sic de isto. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

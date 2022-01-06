@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="217-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1408X"><!-- l1d45q2 -->
+            <head xml:id="qrdBas-a1408X-Hd1e99">Quaestio 2</head>
+            <p xml:id="qrdBas-a1408X-d1e101">
+               <lb ed="#P" n="49"/>¶ Distin. xlv. Questio secunda.
+  </p>
+            <p xml:id="qrdBas-a1408X-d1e106">
+               <lb ed="#P" n="50"/>SEcundo quaero utrum 
+      <lb ed="#P" n="51"/>deus velit omnia bona alia ab 
+      <lb ed="#P" n="52"/>ipso.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e115">
+      ¶ Uidetur quod non: quia si de 
+      <lb ed="#P" n="53"/>vult alia bona aut hoc est actu 
+      <lb ed="#P" n="54"/>voluntatis qui est desiderium: 
+      <lb ed="#P" n="55"/>aut actu voluntatis qui est 
+      vo<lb ed="#P" n="56" break="no"/>luntas: vel quam consequitur 
+      dele<lb ed="#P" n="57" break="no"/>ctatio: quia non sunt plures actus 
+      <lb ed="#P" n="58"/>prosecutiui in voluntate: quod 
+      <lb ed="#P" n="59"/>patet: quia obiectum quod est bonum volitum vel est praesens et 
+      <lb ed="#P" n="60"/>tunc in ipso delectatur: aut est absens: et tunc voluntas 
+      <lb ed="#P" n="61"/>ipsum desiderat. Sed deus non desiderat alia: quia actus 
+      <lb ed="#P" n="62"/>desiderii est actus. Et nec delectatur in aliis a se: quia 
+      <lb ed="#P" n="63"/>tunc beatificaretur in aliquo alio a se: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e141">
+      ¶ Secundo 
+      <lb ed="#P" n="64"/>sic. Quicquid deus vult ab eterno / quia alias esset mu¬ 
+      <!--448.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>tabilis: et aliqua nouitas possibilis in ipso: sed deus 
+      <lb ed="#P" n="66"/>non vult alia a se ab eterno: quia voluntas tendit in 
+      rem<lb ed="#P" n="67" break="no"/>vt in se est: res autem alia a deo non est in seipso ab 
+      eter<lb ed="#P" n="68" break="no"/>no: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e160">
+      ¶ Tertio sic. Uolentis ad volitum est 
+      rela<lb ed="#P" n="69" break="no"/>tio realis sicut scientis et scire ad scibile vel scitum 
+      <lb ed="#P" n="70"/>sed deus non refertur realiter ad aliquid aliud: ergo nec 
+      <lb ed="#P" n="71"/>vult aliquid aliud a se.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e169">
+      ¶ Quarto sic. Si deus vult 
+      <lb ed="#P" n="72"/>alia a se aut vult ea necessario / aut contingenter: sed 
+      <lb ed="#P" n="73"/>non vult ea necessario: quia nichil non necessarium est 
+      vo<lb ed="#P" n="74" break="no"/>litum necessario vt videtur: nec contingenter: quia tunc 
+      pos<lb ed="#P" n="75" break="no"/>set ea non velle: et tunc posset mutari. Si enim deus non 
+      <lb ed="#P" n="76"/>vellet quod aliquando voluit necessario mutaretur: ergo etc. 
+      <lb ed="#P" n="77"/>Hester. xiii. Domine rex omnipotens i 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e185">
+               <lb ed="#P" n="78"/>¶ Contra in voluntate tua cuncta sunt 
+      posi<lb ed="#P" n="79" break="no"/>ta et Apocalyp. IiIi. Domine deus noster tu creasti omnia et 
+      <lb ed="#P" n="80"/>ppter voluntatem tuam erant et creata sunt. Et in Psali 
+      <lb ed="#P" n="81"/>mo. Omnia quecumque voluit dominus fecit etc. 
+      <lb ed="#P" n="82"/>Primo inquiram vtrum 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e198">
+               <lb ed="#P" n="83"/>¶ In ista quaestione dus velit bona 
+      ali<lb ed="#P" n="84" break="no"/>ase: et qumo.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e205">
+      ¶ Secundo vtrum deus per suam voluntatem 
+      <lb ed="#P" n="85"/>principalius sit causa rerum quam per suam scientiam. 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e210">
+               <lb ed="#P" n="86"/>¶ Tertio vtrum deus posset non velle aliquid quod 
+      ali<lb ed="#P" n="87" break="no"/>quando voluit sine sui mutatione.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e218">
+      ¶ Ultimo ad rationes. 
+      <lb ed="#P" n="88"/>N dico quod du¬ 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e223">
+               <lb ed="#P" n="89"/>¶ Quantum ad primiu plex est 
+      vel<lb ed="#P" n="90" break="no"/>le secundum rationem in voluntate diuina. Quoddam est 
+      <lb ed="#P" n="91"/>velle simplicis complacentie quo complacet sibi in 
+      ali<lb ed="#P" n="92" break="no"/>quo bono: vel in bonitate: seu bono alicuius. Secun in 
+      <lb ed="#P" n="93"/>dum velle est ibi quod dicitur efficax / quo non solum 
+      compla<lb ed="#P" n="94" break="no"/>cet sibi in bono aliquo sic absolute: sed etiam proponitur 
+      <lb ed="#P" n="95"/>ponere illud in effectu et in re disponendo efficaciter 
+      <lb ed="#P" n="96"/>omnia necessaria ad hoc vt illud ponatur in esse.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e243">
+      ¶ 
+      Con<lb ed="#P" n="97" break="no"/>similiter etiam est ibi duplex amor: scilicet amor 
+      simpli<lb ed="#P" n="98" break="no"/>cis complacentie: et amor efficax quem vocant aliqui affe ¬ 
+      <lb ed="#P" n="99"/>ctum.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e252">
+      ¶ Dico igitur duas conclusiones. Primo quod deus i 
+      <lb ed="#P" n="100"/>necessario diligit et vult omnia alia bona ab ipso amo 
+      <lb ed="#P" n="101"/>re complacentie.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e259">
+      ¶ Et secundo quod amore vel velle efficaci 
+      <lb ed="#P" n="102"/>diligit non omnia alia bona ab ipso: sed solum illa quae 
+      dispo<lb ed="#P" n="103" break="no"/>nit ponere in re: et in effectu / et contingenter diligit es 
+      <lb ed="#P" n="104"/>tali amore.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e268">
+      ¶ Primum probo scilicet quod deus diligit omnia 
+      <lb ed="#P" n="105"/>alia bona possibilia alia / siue possibilia / siue cum hoc 
+      <lb ed="#P" n="106"/>ponenda in re et in effectu amore complacentie et 
+      neces<lb ed="#P" n="107" break="no"/>sario. Ita quod non potest non velle ipsa tali amore. 
+      Omini<lb ed="#P" n="108" break="no"/>bonitas que est sua rectitudo et non potest esse non 
+      re<lb ed="#P" n="109" break="no"/>cta: necessario diligit illud quod necessario est bonum et 
+      <lb ed="#P" n="110"/>diligibile: vt sic. Alias enim non diligeret obiectum 
+      <lb ed="#P" n="111"/>quo modo est diligibile. Sed omne aliud bonum a deo 
+      <lb ed="#P" n="112"/>est necessario bonum in esse possibili: sicut in esse 
+      pos<lb ed="#P" n="113" break="no"/>sibili est aliquomodo necessarium: licet non 
+      simplici<lb ed="#P" n="114" break="no"/>ter in esse actuali: sicut deus quia non potest non esse possi 
+      <lb ed="#P" n="115"/>bile: voluntas autem diuina est sua rectitudo.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e295">
+      ¶ Secundo 
+      <lb ed="#P" n="116"/>sic. Uoluntas quae necessario vult aliquod obiectum de 
+      ne<lb ed="#P" n="117" break="no"/>cessitate vult omne necessario participans vt sic bone 
+      <lb ed="#P" n="118"/>tatem obiecti: sicut volens de necessitate id quod est ad 
+      fi<lb ed="#P" n="119" break="no"/>nem vt sic. Sed voluntas diuina necessario vult suam 
+      <lb ed="#P" n="120"/>essentiam vel bonitatem sicut probatum est in questione 
+      <lb ed="#P" n="121"/>precedenti. Omne autem aliud bonum vt sic est 
+      possibi<lb ed="#P" n="122" break="no"/>le et absolute acceptum necessario participat 
+      bonita<lb ed="#P" n="123" break="no"/>tem divine essentie sicut bonitatem primam: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e315">
+      ¶ 
+      Ter<lb ed="#P" n="124" break="no"/>tio sic. Sicut se habet intellectus diuinus ad intel 
+      <lb ed="#P" n="125"/>ligendum necessario omne verum necessarium: sic 
+      volun<lb ed="#P" n="126" break="no"/>tas ad volendum omne bonum necessarium: sed intellectus 
+      <lb ed="#P" n="127"/>diuinus necessario intelligit omne verum necessarium 
+      <lb ed="#P" n="128"/>sicut probatum est: ergo etc. Sed bonum necessarium est 
+      crea<lb ed="#P" n="129" break="no"/>tura in esse possibili. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e331">
+      ¶ Quarto probatur sic. 
+      <!--449.xml-->
+       <pb ed="#P" n="217-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ab vno voluntas diligens necessario aliquid de 
+      necessita<lb ed="#P" n="2" break="no"/>te diligit omne illud quod est idem sibi: alias diligeret idem ne 
+      <lb ed="#P" n="3"/>cessario et non necessario: sed creature vt praesentantur in 
+      sim<lb ed="#P" n="4" break="no"/>plici intelligentia diuina idem sunt quod essentia 
+      diui<lb ed="#P" n="5" break="no"/>na quam deus necessario diligit: sed talia diligit 
+      amo<lb ed="#P" n="6" break="no"/>re simplicis complacentie: ergo etc. Ista ratio est michi 
+      <lb ed="#P" n="7"/>dubia: quia non video quod creatura praesentata in 
+      intelligen<lb ed="#P" n="8" break="no"/>tia diuina sit idem quod diuina essentia: licet enim bene 
+      <lb ed="#P" n="9"/>videam quod vt sic non sit aliquid aliud. Preterea etiam 
+      <lb ed="#P" n="10"/>quia ista ratio non probat nisi quod deus necessario diligit 
+      <lb ed="#P" n="11"/>alia bona a se vt cognita. Non autem secundum rationes 
+      <lb ed="#P" n="12"/>propriarum bonitatum. Sic etiam diligit mala vt cogni 
+      <lb ed="#P" n="13"/>ta: quia diligit scientiam malorum et impossibilium: ideo 
+      di<lb ed="#P" n="14" break="no"/>mitto ipsam. Et sufficiant alie rationes.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e370">
+      ¶ 
+      Secun<lb ed="#P" n="15" break="no"/>da conclusio est quod deus contingenter amore efficaci 
+      <lb ed="#P" n="16"/>diligit alia bona a se ponenda in effectu: quae disposuit 
+      <lb ed="#P" n="17"/>facere non solum amore simplicis complacentie: sicut pro 
+      <lb ed="#P" n="18"/>batum est immediate. Ad hoc adducuntur rationes 
+      ali<lb ed="#P" n="19" break="no"/>que probabiles contra Aristotelem quod deus nihil aliud 
+      <lb ed="#P" n="20"/>a se vult necessario amore efficaci. Nec per consequens pro 
+      <lb ed="#P" n="21"/>ducitis ( sicut philosophi posuerunt ) deum scilicet producente 
+      <lb ed="#P" n="22"/>de necessitate sue nature siue voluntatis: quod magis 
+      <lb ed="#P" n="23"/>credo quicquid immediate producit.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e392">
+      ¶ Prima 
+      ra<lb ed="#P" n="24" break="no"/>tio est ista volens de necessitate finem non de 
+      necessi<lb ed="#P" n="25" break="no"/>tate vult aliquid quod non habet necessarium ordinem 
+      <lb ed="#P" n="26"/>ad finem vt patet: sed nullum aliud a deo habet 
+      necessa<lb ed="#P" n="27" break="no"/>rium ordinem ad finem qui est diuina essentia: sic quod 
+      opor<lb ed="#P" n="28" break="no"/>teat ipsum esse ad hoc vt deus volens hunc finem assequatur 
+      <lb ed="#P" n="29"/>vel habeat et possideat hunc finem / nec ad hoc quod sit iste 
+      <lb ed="#P" n="30"/>finis: quia nec creatura in re et in effectu est aliquid 
+      in<lb ed="#P" n="31" break="no"/>trinsecum isti fini: nec aliquid quo circumscripto 
+      tolla<lb ed="#P" n="32" break="no"/>tur talis finis: quia creatura vel non est ens necessarium 
+      <lb ed="#P" n="33"/>tamen est minus necessarium tali fine et obiecto primo. 
+      <lb ed="#P" n="34"/>Ens autem magis necessarium potest esse quocunque alio 
+      <lb ed="#P" n="35"/>minus necessario non existente: vel quocumque alio non 
+      <lb ed="#P" n="36"/>necessario: ergo essentia diuina tanquam finis et obiectum 
+      <lb ed="#P" n="37"/>primum non est sibi ratio volendi necessario aliquid 
+      <lb ed="#P" n="38"/>aliud a se amore efficaci. Dices contra hoc quod 
+      destru<lb ed="#P" n="39" break="no"/>cta conclusione destruitur principium. Unde ex 
+      oppo<lb ed="#P" n="40" break="no"/>sito consequentis sequitur oppositum antecedentis: et tamen 
+      <lb ed="#P" n="41"/>conclusio est minus necessaria quam principium: siue etiam 
+      <lb ed="#P" n="42"/>minus vera: quia propter vnumquodque tale est illud 
+      ma<lb ed="#P" n="43" break="no"/>gis primo posteriorum. Respondetur ad hoc quod veritas 
+      <lb ed="#P" n="44"/>conclusionis non est omnino siue alia veritas a 
+      verita<lb ed="#P" n="45" break="no"/>te principii: sed est quedam veritas partialis inclusa 
+      <lb ed="#P" n="46"/>in veritate principii. Et ideo destructa conclusione 
+      <lb ed="#P" n="47"/>destruitur principium: sicut destructa parte destruitur 
+      <lb ed="#P" n="48"/>totum. Non sic autem de bonitate creature in effectum 
+      <lb ed="#P" n="49"/>respectu bonitatis diuine.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e451">
+      ¶ Secunda ratio est ista. 
+      <lb ed="#P" n="50"/>Aliquid est contingens in vniuerso vt patet etiam per 
+      <lb ed="#P" n="51"/>Aristotelem / et alios philosophos / et dicere oppositum 
+      <lb ed="#P" n="52"/>est inconueniens sicut deducit philosophus primo 
+      <lb ed="#P" n="53"/>perihermenias: sed si deus vult efficaciter et causat 
+      <lb ed="#P" n="54"/>de necessitate quicquid vult et causat immediate 
+      ex<lb ed="#P" n="55" break="no"/>tra se sequitur quod non est contingens aliquid in vniuer 
+      <lb ed="#P" n="56"/>so. Probatio: quia eadem necessitate qua deus mouet 
+      <lb ed="#P" n="57"/>et causat: quia secunda causa non mouet nisi mota. 
+      Mo<lb ed="#P" n="58" break="no"/>uens autem quia motum eadem necessitate mouet qua mo 
+      <lb ed="#P" n="59"/>uetur. Patet de instrumento: ergo nullus effectus est 
+      contin<lb ed="#P" n="60" break="no"/>gens in vniuerso: siue immediate siue mediate sit a 
+      <lb ed="#P" n="61"/>deo: et ita pereunt effectus liberi arbitrii et exhorta 
+      <lb ed="#P" n="62"/>tiones / et consimilia / et punitiones / et premia Dices 
+      <lb ed="#P" n="63"/>quod immo sunt aliqui effectus contingentes non ex 
+      defe<lb ed="#P" n="64" break="no"/>ctu cause prime nec contingentia eius: sed ex 
+      impedi<lb ed="#P" n="65" break="no"/>mento aliquo proueniente ex materia vel ex aliqua 
+      <!--449.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>causa secunda: puta ex arbitrii libertate. Contra 
+      om<lb ed="#P" n="67" break="no"/>ne impedimentum reducibile est ad aliquam causam 
+      <lb ed="#P" n="68"/>agentem a qua est effectiue: sed sicut iam dictum est. Si 
+      <lb ed="#P" n="69"/>prima causa vult efficaciter et agit de necessitate: 
+      qua<lb ed="#P" n="70" break="no"/>libet causa secunda agit de necessitate: ergo 
+      impedimen<lb ed="#P" n="71" break="no"/>tum est necessarium et effectus necessario impeditur / et 
+      <lb ed="#P" n="72"/>sic nichil est contingens: sed omnia necessaria sicut 
+      <lb ed="#P" n="73"/>prius.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e511">
+      ¶ Tertia ratio. Si prima causa necessario 
+      <lb ed="#P" n="74"/>vult et agit quicquid immediate vult et agit: sequitur 
+      <lb ed="#P" n="75"/>quod non est malum in vniuerso: sed hoc est falsum: 
+      er<lb ed="#P" n="76" break="no"/>go etc. Probatio consequentie. Agens necessario 
+      <lb ed="#P" n="77"/>mediate vel immediate inducit omnem perfectionem quam 
+      <lb ed="#P" n="78"/>potest in effectum / et dat suo effectui omnem perfectionem quam 
+      <lb ed="#P" n="79"/>potest. Cum ergo deus sit agens perfectissimum et potentissimum 
+      po<lb ed="#P" n="80" break="no"/>tens in omnem perfectionem possibile effectui / si agat de 
+      ne<lb ed="#P" n="81" break="no"/>cessitate oportet quod det effectum omnium omnem perfectionem sibi 
+      <lb ed="#P" n="82"/>possibile / et ita non est malum vel defectus alicuius 
+      perfe<lb ed="#P" n="83" break="no"/>ctionis in vniuerso.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e535">
+      ¶ Quarta ratio est prius natura et 
+      <lb ed="#P" n="84"/>perfectione aliquo alio simpliciter independens non 
+      deter<lb ed="#P" n="85" break="no"/>minatur necessario ad illud esse vel fore siue secundum 
+      natu<lb ed="#P" n="86" break="no"/>ram siue secundum voluntatem / quia nullam implicat 
+      <lb ed="#P" n="87"/>contradictionem quod hoc sit sine illo ad quod 
+      necessa<lb ed="#P" n="88" break="no"/>rio determinatur vt sic / sed deus est prior respectu 
+      <lb ed="#P" n="89"/>creature vel omnis alterius ab ipso. ergo et cetera. 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e551">
+               <lb ed="#P" n="90"/>¶ Quinta ratio est ista. Omne illud quod vult de 
+      ne<lb ed="#P" n="91" break="no"/>cessitate efficaciter aliquid esse vel non esse extra se potest 
+      <lb ed="#P" n="92"/>impediri a sua perfectione per esse eius vel non esse / et 
+      indi<lb ed="#P" n="93" break="no"/>get ipso ad suam perfectionem vel potest assequi aliquam 
+      perfe<lb ed="#P" n="94" break="no"/>ctionem per esse eius / quia alias non est ratio quare necessario 
+      <lb ed="#P" n="95"/>velit ipsum / sed deus nec potest impediri a sua perfectione nec 
+      <lb ed="#P" n="96"/>assequi aliquam perfectionem per esse vel non esse alicuius 
+      extrinse<lb ed="#P" n="97" break="no"/>ci. ab ipso: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e571">
+      ¶ Sexta ratio est omne volens aliquid  
+      <lb ed="#P" n="98"/>efficaciter de necessitate est causans et dependens in 
+      <lb ed="#P" n="99"/>volendo vel causando: sed primum non est dependens in 
+      <lb ed="#P" n="100"/>volendo vel causando: ergo etc. 
+      <lb ed="#P" n="101"/>probabiles: non 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e582">
+               <lb ed="#P" n="102"/>¶ Iste rationes sunt tamen sunt 
+      de<lb ed="#P" n="103" break="no"/>monstrationes iudicio meo: nec cogunt intellectum 
+      <lb ed="#P" n="104"/>et ideo sola fide et dictis scripture: et sanctorum / et 
+      <lb ed="#P" n="105"/>doctorum teneo quod deus nichil aliud a se vult 
+      effi<lb ed="#P" n="106" break="no"/>caciter et amore efficaci: nec causat sed omnia 
+      contingen<lb ed="#P" n="107" break="no"/>ter et libere libertate contingentie. Ad hoc sunt 
+      aucto<lb ed="#P" n="108" break="no"/>ritates quam plurime. et Anselmus hoc dicit. Cur deus homo 
+      <lb ed="#P" n="109"/>et articulus doctorum parisiensis est expressus. Quod deus de 
+      ne<lb ed="#P" n="110" break="no"/>cessitate produxit mundum est error: siue intelligatur de 
+      ne<lb ed="#P" n="111" break="no"/>cessitate coactionis quia illa tollit libertatem: siue 
+      intelli<lb ed="#P" n="112" break="no"/>gatur de necessitate immutabilitatis vel 
+      ineuitabilita<lb ed="#P" n="113" break="no"/>tis: quae opponitur intelligentie supra: quia illa tolleret rerum 
+      <lb ed="#P" n="114"/>possibilitatem id est contingentiam saltem rerum supra 
+      immedia<lb ed="#P" n="115" break="no"/>te a deo productarum: deus enim contingenter producit alia a 
+      <lb ed="#P" n="116"/>se: sed sic vul ea amore efficaci sicut ea producit: ergo 
+      <lb ed="#P" n="117"/>contingenter vult alia a se volitione efficaci. 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e619">
+               <lb ed="#P" n="118"/>¶ Ad cuius euidentiam aduertendum est quod volun 
+      <lb ed="#P" n="119"/>tas nostra contingenter se habet ad diuersos actus 
+      <lb ed="#P" n="120"/>et mediantibus illis actibus ad diuersa obiecta / et 
+      <lb ed="#P" n="121"/>vlterius ad diuersos effectus. Sed secundum hoc in 
+      <lb ed="#P" n="122"/>voluntate nostra est triplex indeterminatio vell / 
+      in<lb ed="#P" n="123" break="no"/>differentia. Prima est ipsius voluntatis ad suos 
+      <lb ed="#P" n="124"/>actus vel ad negationes suorum actuum ad suos 
+      <lb ed="#P" n="125"/>actus / siue contrarios sicut velle et nolle respectu 
+      eius<lb ed="#P" n="126" break="no"/>dem obiecti / siue disparatos sicut sunt velle hoc 
+      ob<lb ed="#P" n="127" break="no"/>iectum vel velle illud / seu etiam nolle aliud. Et ista 
+      in<lb ed="#P" n="128" break="no"/>differentia seu indeterminatio necessario ponit 
+      mu<lb ed="#P" n="129" break="no"/>tabilitatem et potentialitatem / et arguit imperfectionem in 
+      <lb ed="#P" n="130"/>voluntate nostra. Secunda indifferentia est ipsius ad obiecta 
+      <!--450.xml-->
+       <pb ed="#P" n="218-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>secundum quam potest velle hoc vel illud: vel hoc et non 
+      <lb ed="#P" n="2"/>illud. Tertia indifferentia est ipsius per 
+      comparatio<lb ed="#P" n="3" break="no"/>nem ad effectus: et ista tertia presupponit secundam: quia 
+      <lb ed="#P" n="4"/>voluntas non potest aliquid habere extra se pro 
+      ter<lb ed="#P" n="5" break="no"/>tio producto / vel pro effectu nisi prius habeat ipsum 
+      <lb ed="#P" n="6"/>pro obiecto volito. Prima autem indifferentia 
+      ar<lb ed="#P" n="7" break="no"/>guit imperfectionem in voluntate nostra. Tum quia 
+      ar<lb ed="#P" n="8" break="no"/>guit in ipsa alietatem essentialem ab actu suo: et per consequens 
+      <lb ed="#P" n="9"/>potentialitatem et passibilitatem et possibilitatem 
+      succes<lb ed="#P" n="10" break="no"/>sionis diuersorum actuum in ipsa: et per consequens 
+      mu<lb ed="#P" n="11" break="no"/>tabilitatem ab actu ad negationemactus vel 
+      econuer<lb ed="#P" n="12" break="no"/>so. Et talis prima indifferentia et continentie non est 
+      <lb ed="#P" n="13"/>in voluntate diuina: quia ipsa est eadem realiter quod actus 
+      <lb ed="#P" n="14"/>suus vnicus. Est enim illimitata et infinita: et idem cum 
+      <lb ed="#P" n="15"/>actu suo vnico. Et ideo actu vnico indistincto vult 
+      <lb ed="#P" n="16"/>quicquid vult / nec est possibilis in ipsa actus alius 
+      <lb ed="#P" n="17"/>successiue: nec etiam negatio talis actus. Secunda 
+      indif<lb ed="#P" n="18" break="no"/>ferentia scilicet ad obiecta debet poni in voluntate 
+      <lb ed="#P" n="19"/>diuina: et hoc ad obiecta extrinseca loquendo de amo 
+      <lb ed="#P" n="20"/>re efficaci vel velle: quia sicut voluntas nostra potest 
+      vel<lb ed="#P" n="21" break="no"/>le hoc vel illud indifferenter vel incontingenter vel 
+      <lb ed="#P" n="22"/>etiam velle hoc vel non velle pro eodem instanti diuisim 
+      <lb ed="#P" n="23"/>vel etiam velle hoc vel nolle pro eodem instanti diuisim 
+      <lb ed="#P" n="24"/>vel etiam velle hoc et velle aliud pro eodem instanti 
+      con<lb ed="#P" n="25" break="no"/>lunctim accipiendo et eodem actu simpliciter propter 
+      <lb ed="#P" n="26"/>infinitatem actus. Non sic voluntas nostra potest 
+      <lb ed="#P" n="27"/>etiam hoc velle vel nolle pro eodem instanti diuisim et 
+      <lb ed="#P" n="28"/>eodem simplici actu sicut prius. Potest etiam hoc 
+      ob<lb ed="#P" n="29" break="no"/>iectum velle vel non velle pro eodem instanti diuisim / 
+      <lb ed="#P" n="30"/>et hoc obiectum velle et aliud non velle sic. Sed non 
+      vi<lb ed="#P" n="31" break="no"/>ydeo quod aliquo actu possit dici non velle aliud: sed 
+      ma<lb ed="#P" n="32" break="no"/>gis negatione actus. Est tamen difficilius in voluntate 
+      <lb ed="#P" n="33"/>diuina quam in voluntate nostra: quia in voluntate 
+      nostra<lb ed="#P" n="34" break="no"/>est possibilis successio respectu predictorum. In 
+      vo<lb ed="#P" n="35" break="no"/>luntate autem diuina nulla. Unde oportet quod ab 
+      eter<lb ed="#P" n="36" break="no"/>non velit quicquid vult / et nolit quicquid dicitur nolle 
+      <lb ed="#P" n="37"/>sicut magis dicetur infra. Eodem modo dicendum est de 
+      <lb ed="#P" n="38"/>tertia indifferentia et continentia ad effectus sicut de 
+      <lb ed="#P" n="39"/>ista: et sic patet quomodo deus vult alia a se 
+      contingen<lb ed="#P" n="40" break="no"/>ter amore vel velle efficaci: licet autem istud sit verum 
+      <lb ed="#P" n="41"/>et fidei consonum: quia tamen non videtur hoc demonstratum 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e746">
+               <lb ed="#P" n="42"/>¶ Ideo ad rationes superius adductas est soluent 
+      <lb ed="#P" n="43"/>dum. Ad primam dicerent philosophi quod essentia diuina 
+      <lb ed="#P" n="44"/>que est primum obiectum diuine voluntatis / et finis alio 
+      <lb ed="#P" n="45"/>rum est sibi ratio volendi necessario quicquid vult im 
+      <lb ed="#P" n="46"/>mediate et causat: non quia ab aliquo extrinseco 
+      depen<lb ed="#P" n="47" break="no"/>deat in acquirendo vel possidendo finem nec finis etiam 
+      <lb ed="#P" n="48"/>in essendo: sed magis ex plenitudine perfectionis 
+      ip<lb ed="#P" n="49" break="no"/>sius finis et obiecti primarii est volitus etc. Ex 
+      per<lb ed="#P" n="50" break="no"/>fectione enim primi obiecti quod est essentia per 
+      volun<lb ed="#P" n="51" break="no"/>tatem necessario fluit quicquid deus vult immediate: 
+      <lb ed="#P" n="52"/>et ideo deus vult ipsa necessario et amore efficaci si 
+      <lb ed="#P" n="53"/>cut prius dictum est / et etiam secundum istos quod necessario 
+      <lb ed="#P" n="54"/>vult alia bona a se amore simplicis complacentie / quia 
+      <lb ed="#P" n="55"/>necessario participant secundum esse possibile bonitatem 
+      <lb ed="#P" n="56"/>ipsam diuine essentie. Unde licet dicerent phpi quod licet 
+      <lb ed="#P" n="57"/>diuina essentia sitmagis necesse esse quam quod libet aliud 
+      <lb ed="#P" n="58"/>extrinsecum ab ipsa: est tamen perfectissima et fecundissi 
+      <lb ed="#P" n="59"/>ma et ex ipsa necessario fluit quicquid immediate est 
+      <lb ed="#P" n="60"/>volitum a deo sine quo esse non potest: non ex 
+      imperfe<lb ed="#P" n="61" break="no"/>ctione vel dependentia: sed ex summa perfectione et 
+      <lb ed="#P" n="62"/>primitate sui.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e794">
+      ¶ Ad secundum dicerent philosophi quod 
+      <lb ed="#P" n="63"/>est aliquid contingens in vniuerso secundum illud quod 
+      <lb ed="#P" n="64"/>est immediate volitum ab ipso: sed omne tale est 
+      ne<lb ed="#P" n="65" break="no"/>cesse esse: sed magis alia que producuntur a causis se¬ 
+      <!--450.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>cundis. Unde nec puto quod possit efficaciter 
+      demon<lb ed="#P" n="67" break="no"/>strari primam contingentiam esse in voluntate diuina 
+      <lb ed="#P" n="68"/>respectu volitorum immediate ab ipsa: immo nec 
+      ali<lb ed="#P" n="69" break="no"/>qua contingentia: licet hoc fuerit probatum superius 
+      <lb ed="#P" n="70"/>probabiliter per aliquas rationes. Quando dicis 
+      <lb ed="#P" n="71"/>causa secunda non agit nisi mota a causa prima. 
+      Di<lb ed="#P" n="72" break="no"/>co quod hoc potest dupliciter intelligi. Uno modo quod 
+      <lb ed="#P" n="73"/>moueatur a causa prima sicut instrumentum ad 
+      agen<lb ed="#P" n="74" break="no"/>dum: sicut securis mouetur ab artifice. Et tunc dice 
+      <lb ed="#P" n="75"/>rent philosophi quod ista imaginatio est falsa. Sic enim 
+      <lb ed="#P" n="76"/>omnes cause secunde non essent nisi instrumenta 
+      pro<lb ed="#P" n="77" break="no"/>prie dicta / quod est falsum etiam secundum multos 
+      catho<lb ed="#P" n="78" break="no"/>licos / et si omnes cause sic agerent monte a prima cau 
+      <lb ed="#P" n="79"/>sa necessario mediate vel immediate. Tuc cum 
+      actio<lb ed="#P" n="80" break="no"/>nes eorum non essent nisi motiones earum passiue 
+      se<lb ed="#P" n="81" break="no"/>queretur quod agerent omnia de necessitate et nichil 
+      es<lb ed="#P" n="82" break="no"/>set contingens. Aliomodo potest intelligi quod causa 
+      <lb ed="#P" n="83"/>secunda moueatur a prima metaphorice magis: non 
+      <lb ed="#P" n="84"/>autem effectiue: et hoc quantum ad causas voluntarias 
+      <lb ed="#P" n="85"/>sicut a fine: et isto modo non oportet quod licet finis et 
+      pri<lb ed="#P" n="86" break="no"/>ma causa quantum est ex se necessario moueat 
+      metapho<lb ed="#P" n="87" break="no"/>rice ad aliquid agendum / quia causa secunda 
+      necessa<lb ed="#P" n="88" break="no"/>rio mouet effectiue ad idem si est arbitrio libera 
+      prae<lb ed="#P" n="89" break="no"/>cipue: vel etiam si est agens naturale quod licet finis 
+      mo<lb ed="#P" n="90" break="no"/>ueat metaphorice: vt intentus a tali natura 
+      intende<lb ed="#P" n="91" break="no"/>re potest id est tendere in finem quod necessario agat 
+      sim<lb ed="#P" n="92" break="no"/>pliciter loquendo: sed potest occurrere 
+      impedimen<lb ed="#P" n="93" break="no"/>tum sicut etiam superius dicebatur: nec valet instantia 
+      ni<lb ed="#P" n="94" break="no"/>si supponendo quod causa secunda sic agat mota a prima 
+      <lb ed="#P" n="95"/>sicut dicebatur primo modo: quod tamen philosophi 
+      nega<lb ed="#P" n="96" break="no"/>rent. Aliter potest dici quod sicut dicerent 
+      philosophi<lb ed="#P" n="97" break="no"/>deus potest velle de necessitate aliqua necessaria: 
+      pu<lb ed="#P" n="98" break="no"/>ta quicquid vult immediate et potest velle de 
+      neces<lb ed="#P" n="99" break="no"/>sitate contingentiam aliquorum sicut super necessitatem 
+      ali<lb ed="#P" n="100" break="no"/>quorum et hoc non videtur repugnare: et per confequens 
+      <lb ed="#P" n="101"/>non perit contingentia a rebus.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e885">
+      ¶ Ad tertium eodem 
+      <lb ed="#P" n="102"/>modo est respondendum quod in aliquo volito a deo 
+      imme<lb ed="#P" n="103" break="no"/>diate non est malum sicut dicerent philosophi: in aliis 
+      <lb ed="#P" n="104"/>tamen bene sicut et contingentia.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e894">
+      ¶ Ad quartum dicendum 
+      <lb ed="#P" n="105"/>quod philosophi dicerent quod prius natura et perfectione 
+      <lb ed="#P" n="106"/>non determinatur ex aliqua imperfectione vel 
+      depen<lb ed="#P" n="107" break="no"/>dentia ad volendum efficaciter aliquid posterius: sed 
+      <lb ed="#P" n="108"/>potius ex summa perfectione et fecunditate et actiuita 
+      <lb ed="#P" n="109"/>te sua a qua fluit illud posterius.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e907">
+      ¶ Ad quintum 
+      ma<lb ed="#P" n="110" break="no"/>ior est falsa secundum philosophos de voluntate volente 
+      <lb ed="#P" n="111"/>aliquid necessario non propter indigentiam sed ex 
+      ple<lb ed="#P" n="112" break="no"/>nitudine perfectionis.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e916">
+      ¶ Ad vltimum dicendum quod 
+      <lb ed="#P" n="113"/>non plus arguitur de dependentia ex volitione effica 
+      <lb ed="#P" n="114"/>ci noticie vel causatione quam ex contingente: nec oportet 
+      <lb ed="#P" n="115"/>quod plus concludatur ex hoc quam ex illo. Sic ergo patet qund 
+      <lb ed="#P" n="116"/>deus vult alia a se. hec de primo articulo principali 
+      <lb ed="#P" n="117"/>ad secundum articulum dicunt aliqui.  
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e930">
+               <lb ed="#P" n="118"/>¶ Quantumi Supposito quod deus sit 
+      causalio<lb ed="#P" n="119" break="no"/>rum a se per intellectum et voluntatem: quia est agens a proposito  
+      <lb ed="#P" n="120"/>eo ipso quod est primum agens extra se / et ita per intellectum e 
+      <lb ed="#P" n="121"/>et voluntatem. Et quod per scientiam et intellectum dicit 
+      expres<lb ed="#P" n="122" break="no"/>se commentator. 12. metha. vbi dicit quod scientia rei est 
+      causa<lb ed="#P" n="123" break="no"/>rerum: et quod etiam per voluntatem superius probatum est.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e946">
+      ¶ 
+      Di<lb ed="#P" n="124" break="no"/>cunt tamen aliqui quod principalius deus est causa rerum per intellectum 
+      <lb ed="#P" n="125"/>quam per voluntatem et per scientiam quam per velle. Ad hoc adducum 
+      <lb ed="#P" n="126"/>tur quatuor rationes. Prima est ista. Agens principalius 
+      <lb ed="#P" n="127"/>agit per illam potentiam per quam principalius continet formam eft 
+      <lb ed="#P" n="128"/>fectus: sicut calidum principaliter calefacit per calorem: sed deus 
+      <lb ed="#P" n="129"/>per intellectum continet principaliter formam essectus causati: quia 
+      <lb ed="#P" n="130"/>ydea pertinet ad intellectum quae est forma exemplaris 
+      <!--451.xml-->
+       <pb ed="#P" n="218-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>creature. Non autem pertinet ad voluntatem: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e972">
+               <lb ed="#P" n="2"/>¶ Secundo sic. In agente per artem vel secundum artem 
+      prin<lb ed="#P" n="3" break="no"/>cipalior est intellectus quam voluntas: quia ars pertinet ad 
+      <lb ed="#P" n="4"/>intellectum et non ad voluntatem. Sed deus alia a se agit 
+      <lb ed="#P" n="5"/>secundum artem et causat per modum artis: non autem per 
+      mon<lb ed="#P" n="6" break="no"/>dum nature: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e985">
+      ¶ Tertio sic. Aliqua inclinatio non 
+      <lb ed="#P" n="7"/>potest esse principale principium alicuius actus: sed 
+      for<lb ed="#P" n="8" break="no"/>ma ipsa quam sequitur talis inclinatio ( sicut forma 
+      gra<lb ed="#P" n="9" break="no"/>uitatis ) est principalior causa motus deorsum quam 
+      in<lb ed="#P" n="10" break="no"/>clinatio grauis sequens talem formam. Sed voluntas 
+      <lb ed="#P" n="11"/>non est nisi inclinatio quedam sequens formam 
+      apprehen<lb ed="#P" n="12" break="no"/>sam per intellectum: sicut inclinatio grauis deorsum se 
+      <lb ed="#P" n="13"/>quitur formam impressam: ergo etc. 
+      <lb ed="#P" n="14"/>s opinio non videtur michi vera: sed videtur 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e1005">
+               <lb ed="#P" n="15"/>¶ I etunt michi quod principalius: vel saltem non 
+      mi<lb ed="#P" n="16" break="no"/>nus principaliter deus sit causa rerum per suam voluntatem 
+      <lb ed="#P" n="17"/>et suum velle quam per intellectum vel suam scientiam: 
+      suppo<lb ed="#P" n="18" break="no"/>sito quod per vtrumque: quod tamen est valde dubium: quia videretur 
+      <lb ed="#P" n="19"/>forte alicui quod voluntas in ratione per se cause vel 
+      prin<lb ed="#P" n="20" break="no"/>cipii / et non in ratione intellectus: nisi sicut dictans et 
+      <lb ed="#P" n="21"/>presentans obiectum secundarium in esse cognito ipsi 
+      vo<lb ed="#P" n="22" break="no"/>luntati. Ad hoc probandum arguo primo sic. Illa 
+      po<lb ed="#P" n="23" break="no"/>tentia est principalior in agendo ex qua habet alia quod 
+      <lb ed="#P" n="24"/>ipsa sit actiua vel motiua et in ordine ad ipsam: pa 
+      <lb ed="#P" n="25"/>tet: sed intellectus hoc habet ex voluntate vel ordi 
+      <lb ed="#P" n="26"/>ne ad voluntatem: quia intellectus non est operatiuus 
+      ali<lb ed="#P" n="27" break="no"/>cuius extrinseci nisi ex appetitu finis qui pertinet ad 
+      <lb ed="#P" n="28"/>voluntatem vt patet: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1038">
+      ¶ Secundo sic. Illa potentia 
+      <lb ed="#P" n="29"/>que est principalis in operando vel mouendo est 
+      prin<lb ed="#P" n="30" break="no"/>cipalior in causando et producendo: sed hec est 
+      volun<lb ed="#P" n="31" break="no"/>tas quae habet omnibus potentiis imperare et dirigere 
+      in<lb ed="#P" n="32" break="no"/>fines suos: quia respicit finem in communi: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1050">
+      ¶ 
+      Ter<lb ed="#P" n="33" break="no"/>tio sic. In productione libera principalius est illud 
+      <lb ed="#P" n="34"/>ad quod primo et principaliter pertinet libertas: sed 
+      liber<lb ed="#P" n="35" break="no"/>tas primo et principaliter pertinet ad voluntatem et non 
+      <lb ed="#P" n="36"/>ad intellectum sicut supponitur ad praesens: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e1061">
+               <lb ed="#P" n="37"/>¶ Quarto sic. Illud est principalius in producendo 
+      <lb ed="#P" n="38"/>creaturam per quod primo determinatur et principaliter de 
+      <lb ed="#P" n="39"/>terminatur creatura fore: sed hoc est per voluntatem 
+      diu<lb ed="#P" n="40" break="no"/>nam sicut dictum est supra. Unde nec intellectus 
+      diui<lb ed="#P" n="41" break="no"/>nus determinate cognoscit nec dictat creaturam 
+      fo<lb ed="#P" n="42" break="no"/>re: nec post determinationem voluntatis sicut dictum 
+      <lb ed="#P" n="43"/>est supra: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1079">
+      ¶ Dico igitur quod deus est causa rerum 
+      pr<lb ed="#P" n="44" break="no"/>uam scientiam et per intellectum: et per suam voluntatem 
+      vel<lb ed="#P" n="45" break="no"/>velle: sed principalius per voluntatem quam per intellectum / et 
+      <lb ed="#P" n="46"/>per velle quam per intelligere vel per scientiam: immo quod 
+      <lb ed="#P" n="47"/>plus est non puto quod intellectus vel scientia habeat 
+      <lb ed="#P" n="48"/>aliquam causalitatem super creaturam fore nisi ex 
+      volunta<lb ed="#P" n="49" break="no"/>te: vel presupponendo actum voluntatis quo deus 
+      deter<lb ed="#P" n="50" break="no"/>minat creaturam fore loquendo de intellectum quantum ad 
+      <lb ed="#P" n="51"/>scientiam qua nouit creaturam fore: sed loquendo de 
+      no<lb ed="#P" n="52" break="no"/>ticia quidditatum incomplexarum possibilium / dico quod 
+      in<lb ed="#P" n="53" break="no"/>tellectus quantum ad talem noticiam vel scientiam 
+      prece<lb ed="#P" n="54" break="no"/>dit voluntatem: nec praesupponit ipsam in sua causalitate 
+      <lb ed="#P" n="55"/>aliorum dico quod primum agens 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e1108">
+               <lb ed="#P" n="56"/>¶ Ad primum deus principalius 
+      continetef<lb ed="#P" n="57" break="no"/>fectum per voluntatem quam per intellectum: exemplariter tamen 
+      <lb ed="#P" n="58"/>et quantum ad esse possibile per intellectum. Sed per 
+      volun<lb ed="#P" n="59" break="no"/>tatem efficienter et virtualiter productiue ponendo 
+      in<lb ed="#P" n="60" break="no"/>effectum: vel imperando et determinando effectum fore pri 
+      <lb ed="#P" n="61"/>mo et principaliter: sicut dictum est supra.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1124">
+      ¶ Ad 
+      secun<lb ed="#P" n="62" break="no"/>dum dico quod in agente per artem: vel in agente aliquod 
+      arti<lb ed="#P" n="63" break="no"/>ficiatum ars non est principalior: sed voluntas imperans 
+      <lb ed="#P" n="64"/>et mouens secundum artem illam: nec ars habet aliquam effica 
+      <lb ed="#P" n="65"/>ciam nisi ex voluntate.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1135">
+      ¶ Ad tertium dico quod fundatur 
+      <!--451.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>super imaginationem falsam: quia imaginatur quod voluntas 
+      <lb ed="#P" n="67"/>non sit nisi quedam inclinatio sequens necessario formam 
+      <lb ed="#P" n="68"/>apprehensam per intellectum et determinatam omnino ab 
+      <lb ed="#P" n="69"/>intellectu. Dico enim quod voluntas non est minus 
+      princi<lb ed="#P" n="70" break="no"/>palis potentia quam intellectus et est primum dictum ab in 
+      <lb ed="#P" n="71"/>tellectum / et quasi alia quedam forma et perfectio absolum 
+      <lb ed="#P" n="72"/>ta non necessario determinabilis: sicut imaginatur: nec 
+      <lb ed="#P" n="73"/>determinabilis ab intellectum vel ratione: ideo etc. Ud 
+      <lb ed="#P" n="74"/>luntas namque inclinat intellectum et non econuerso. Tu 
+      di<lb ed="#P" n="75" break="no"/>cis sequitur formam apprehensam dico quod verum est: quia 
+      nui<lb ed="#P" n="76" break="no"/>chil vult nisi aliquod apprehensum: sed hoc nihil est 
+      <lb ed="#P" n="77"/>ad propositum: stat enim cum hoc quod voluntas sit principalis 
+      <lb ed="#P" n="78"/>et in imperando et in operando.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1171">
+      ¶ Ad quartum dico quod 
+      <lb ed="#P" n="79"/>voluntas est prima causa alicuius quantum ad fore: et intel 
+      <lb ed="#P" n="80"/>lectus posterior: quia voluntas primo determinat 
+      futu<lb ed="#P" n="81" break="no"/>rum fore / et postea intellectus vel scientia hoc dictat 
+      <lb ed="#P" n="82"/>determinate sicut dictum est supra. Et ideo istud 
+      ar<lb ed="#P" n="83" break="no"/>gumentum potest retorqueri contra eos. 
+      <lb ed="#P" n="84"/>articulo dicunt aliqui quod deus 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e1187">
+               <lb ed="#P" n="85"/>¶ De tertio potest non velle aliquid extrin¬¬ 
+      <lb ed="#P" n="86"/>secum quod aliquando voluit: vel velle: vel etiam velle aliquid  
+      <lb ed="#P" n="87"/>quod aliquando non voluit sine sui mutatione. Hoc probatur ao 
+      <lb ed="#P" n="88"/>primo sic. Uoluntas cuius actus est idem quod ipsa: et ille 
+      mu<lb ed="#P" n="89" break="no"/>tatus nec est dependens ab ipso obiecto potest de nouo  
+      <lb ed="#P" n="90"/>sine sui mutatione aliquid velle vel non velle sine sui 
+      <lb ed="#P" n="91"/>mutatione: quia actus ille vnicus infinitus in se habet 
+      <lb ed="#P" n="92"/>omnem perfectionem cuiuslibet actus nostre voluntatis. 
+      <lb ed="#P" n="93"/>Siliter etiam quicumque actus arguit mutationem in aliqua 
+      <lb ed="#P" n="94"/>potentia de necessitate dependet ab obiecto illius 
+      po<lb ed="#P" n="95" break="no"/>tentie: sed actus diuine voluntatis sic se habet ad 
+      ip<lb ed="#P" n="96" break="no"/>sam voluntatem: vt patet ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1216">
+      ¶ Secundo sic. Deus 
+      pot<lb ed="#P" n="97" break="no"/>ad extra quicquid non implicat contradictionem: sed quod 
+      <lb ed="#P" n="98"/>deus vellit modo aliquid quod prius non voluit nullam 
+      <lb ed="#P" n="99"/>implicat contradictionem vt patet: quia affirmatio et 
+      ne<lb ed="#P" n="100" break="no"/>gatio non sunt eiusdem durationis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1227">
+      ¶ Tertio sic 
+      <lb ed="#P" n="101"/>Deus ab eierno voluit creaturam: et potuit non velle si 
+      <lb ed="#P" n="102"/>ne sui mutatione vt dictum est supra: cum igitur nihil 
+      tran<lb ed="#P" n="103" break="no"/>seat in eternitate adhuc potest non velle creaturam quam 
+      <lb ed="#P" n="104"/>aliquando voluit sine sui mutatione.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1238">
+      ¶ Quarto sic. 
+      Re<lb ed="#P" n="105" break="no"/>latio rationis noua potest aduenire alicui sine sui 
+      mu<lb ed="#P" n="106" break="no"/>tatione: sed voluntatis dei ad alia extra se volita non est 
+      <lb ed="#P" n="107"/>nisi relatio rationis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1247">
+      ¶ Quinto sic. Non est 
+      mi<lb ed="#P" n="108" break="no"/>mus perfecta diuina voluntas quam nostra: sed nostra 
+      vo<lb ed="#P" n="109" break="no"/>luntas potest aliquid velle de nouo sine sui mutatione: 
+      <lb ed="#P" n="110"/>quia voluntas nostra volens finem eodem actu quo vult 
+      fi<lb ed="#P" n="111" break="no"/>nem manifeste potest ipsum extendere ad volendum id quod est 
+      <lb ed="#P" n="112"/>ad finem de nouo: ergo etc. et ita sine sui mutatione: et isti 
+      <lb ed="#P" n="113"/>habent dicere quod deus posset modo beatificare iudam: licet 
+      <lb ed="#P" n="114"/>fuerit prius damnatus: et damnare Petrum similiter 
+      <lb ed="#P" n="115"/>istam opinionem ( quia non videtur mihi¬ 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e1268">
+               <lb ed="#P" n="116"/>¶ Contra vera) dico quod deus in eternitate 
+      <lb ed="#P" n="117"/>vult et intelligit quicquid velle et intelligere potest 
+      <lb ed="#P" n="118"/>vel potius quicquid vult et intelligit: nec potest aliquid 
+      <lb ed="#P" n="119"/>de nouo velle vel intelligere sine sui mutatione / et 
+      <lb ed="#P" n="120"/>per consequens non potest non velle quod 
+      aliquan<lb ed="#P" n="121" break="no"/>do voluit: nec velle quod aliquando non voluit vel 
+      vel<lb ed="#P" n="122" break="no"/>le etiam: sed quicquid vult et intelligit vel etiam 
+      vel<lb ed="#P" n="123" break="no"/>le et intelligerelpotest: et non velle vel velle et non 
+      in<lb ed="#P" n="124" break="no"/>telligere oportet si ponatur velle vel non velle: vel 
+      <lb ed="#P" n="125"/>velle: vel intelligere: vel non intelligere: quod totum 
+      <lb ed="#P" n="126"/>sit ab eterno et nichil de nouo. Hoc primo 
+      probo<lb ed="#P" n="127" break="no"/>sic. Augustinus quinto de trinitate. Absurdum est 
+      <lb ed="#P" n="128"/>dicere quod deus de nouo creaturam diligat: sed non 
+      <lb ed="#P" n="129"/>est absurdum nisi quia sequitur mutatio: et ideo 
+      <lb ed="#P" n="130"/>et cetera. Dices quod Augustinus intendit quod ab¬ 
+      <!--452.xml-->
+       <pb ed="#P" n="219-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>furdum est deum diligere de nouo creaturam 
+      dilectio<lb ed="#P" n="2" break="no"/>ne noua realiter differente ab ipso: sicut voluntas 
+      no<lb ed="#P" n="3" break="no"/>stra potest aliquid diligere de nouo: sed quod 
+      dilectio<lb ed="#P" n="4" break="no"/>ne eterna quod sit idem realiter in ipso possit creaturam 
+      <lb ed="#P" n="5"/>de nouo diligere non negat Augustinus. Contra 
+      <lb ed="#P" n="6"/>istam cauillationem primo est contra mentem 
+      Augu<lb ed="#P" n="7" break="no"/>gustini: secundo quia sequeretur adhuc quod deo 
+      adueni<lb ed="#P" n="8" break="no"/>ret aliqua noua realitas et dilectio noua. Probao: 
+      <lb ed="#P" n="9"/>quia a contradictorio in contradictorium non est tram 
+      <lb ed="#P" n="10"/>situs nisi per mutationem aliquam: ista fuit superius 
+      <lb ed="#P" n="11"/>probata ) sed si deus vellet aliquid de nouo transiret 
+      <lb ed="#P" n="12"/>ve contradictorio in contradictorium: quia de non vellein 
+      <lb ed="#P" n="13"/>velle: sed illa mutatio non potest poni in volito: quia 
+      <lb ed="#P" n="14"/>per volitionem vt si absolute nichil ponitur in 
+      volito<lb ed="#P" n="15" break="no"/>ergo est in diuina voluntate et cum voluntas sit idem 
+      <lb ed="#P" n="16"/>quod essentia sequitur quod diuina essentia mutatur: Dices quod 
+      <lb ed="#P" n="17"/>non quia non aduenit voluntati nisi nouus respectus 
+      <lb ed="#P" n="18"/>rationis. Contra. Nouus respectus rationis non 
+      fit<lb ed="#P" n="19" break="no"/>nisi per aliquem motum nouum actum realem. Quero 
+      <lb ed="#P" n="20"/>igitur in quo ponitur ille nouus actus vel in 
+      volun<lb ed="#P" n="21" break="no"/>tate et sic etiam voluntas mutatur vel in intellectum 
+      <lb ed="#P" n="22"/>et sic deus saltem secundum intellectum mutatur: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e1357">
+               <lb ed="#P" n="23"/>¶ Secunda ratio est ista: quia sicut superius fuit de 
+      <lb ed="#P" n="24"/>claratum: licet diuina voluntas possit in opposita 
+      di<lb ed="#P" n="25" break="no"/>uisim pro eodem instanti: non tamen pro diuersis 
+      instanti<lb ed="#P" n="26" break="no"/>bus / tunc esset possibilis in ea successio et mutatio: sed 
+      <lb ed="#P" n="27"/>ponere quod deus non vellit vnum postea vnum est hoc 
+      <lb ed="#P" n="28"/>ponere: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1373">
+      ¶ Tertia ratio. Non est minus 
+      coeter<lb ed="#P" n="29" break="no"/>num volitum vt sic actui legendi quam presentatum actut 
+      <lb ed="#P" n="30"/>respondendi vel intelligendi: sed planum est quod 
+      pre<lb ed="#P" n="31" break="no"/>sentatum est coeternum actui respondendi vel inte 
+      <lb ed="#P" n="32"/>ligendi: ergo etc. Cum igitur actus volendi diuinus 
+      <lb ed="#P" n="33"/>sit eternus planum est quod volitum vt sic est 
+      coeter<lb ed="#P" n="34" break="no"/>num sibi: alioquin vel esset actus volendi sine 
+      voli<lb ed="#P" n="35" break="no"/>to: vel actus volendi esset nouus quorum vtrumque est 
+      <lb ed="#P" n="36"/>impossibile.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1393">
+      ¶ Quarta ratio est: quia sicut dictum / 
+      <lb ed="#P" n="37"/>est supra et probatum distinctione trigesima 
+      Intel<lb ed="#P" n="38" break="no"/>lectus diuinus et pari ratione nec aliqua alia 
+      poten<lb ed="#P" n="39" break="no"/>tia eius potest facere aliquem nouum respectum 
+      ra<lb ed="#P" n="40" break="no"/>tionis. Unde si non esset aliqua creatura habens 
+      in<lb ed="#P" n="41" break="no"/>tellectum dei ad creaturam non esset aliquis 
+      respe<lb ed="#P" n="42" break="no"/>ctus nouus: sed si deus possit non velle quod voluit / et 
+      <lb ed="#P" n="43"/>velle quod non voluit talis respectus rationis nouus 
+      <lb ed="#P" n="44"/>esset possibilis per aliquam diuinam potentiam sibi 
+      in<lb ed="#P" n="45" break="no"/>trinsecam: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1415">
+      ¶ Dico igitur quod licet deus possit 
+      <lb ed="#P" n="46"/>quicquid potuit: tamen non potest non velle quod 
+      aliquan<lb ed="#P" n="47" break="no"/>do voluit: nec hoc etiam vnquam potuit: quia hoc arguit 
+      <lb ed="#P" n="48"/>necessario mutationem in eo. Unde dico vltra contra 
+      <lb ed="#P" n="49"/>alios quod deus non potest beatificare Iudam: nec dam 
+      <lb ed="#P" n="50"/>nare Petrum: quia supponitur quod iam Iudas fuerit 
+      <lb ed="#P" n="51"/>bamnatus / et Petrus saluatus / licet absolute 
+      loquen<lb ed="#P" n="52" break="no"/>do nichil presupponendo possit Iudam beatifica 
+      <lb ed="#P" n="53"/>rei et Petrum reprobare sicut potuit ab 
+      eterno<lb ed="#P" n="54" break="no"/>aliorum dico maior est falsa 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e1437">
+               <lb ed="#P" n="55"/>¶ Ad primum quantumcumque enim voluntas 
+      <lb ed="#P" n="56"/>diuina sit illimitata / et idem cum suo actu: non tamen 
+      <lb ed="#P" n="57"/>potest aliquid velle de nouo: immo dico quod ista pro 
+      <lb ed="#P" n="58"/>positio voluntas eterna que est idem cum actu suo in 
+      <lb ed="#P" n="59"/>dependente potest velle aliquid de nouo. Dicdo quod 
+      <lb ed="#P" n="60"/>est falsa impossibilis: quia includit contradictionem 
+      <lb ed="#P" n="61"/>quia talis voluntas est eterna: et per consequens actus 
+      <lb ed="#P" n="62"/>suus: et per consequens obiectum vt volitum per 
+      ta<lb ed="#P" n="63" break="no"/>lem actum: ergo non est nouum nec aliquid de 
+      no<lb ed="#P" n="64" break="no"/>uo est volitum ab ipsa. Et si de nouo est volitum: 
+      di<lb ed="#P" n="65" break="no"/>co quod talis voluntas non est infinita: nec actus suus 
+      <!--452.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>est idem cum ea: sed est dependens simpliciter: quia 
+      om<lb ed="#P" n="67" break="no"/>ne nouum dependens est.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1473">
+      ¶ Ad secundum dico quod 
+      <lb ed="#P" n="68"/>ista implicant contradictionem in voluntate diuina 
+      <lb ed="#P" n="69"/>sicut dictum est statim: quia cum dico deum velle 
+      ali<lb ed="#P" n="70" break="no"/>quid est ipsum velle illud in eternitate / et pro tota 
+      du<lb ed="#P" n="71" break="no"/>ratione cuiuslibet temporis possibilis: ergo ponere ipsum 
+      <lb ed="#P" n="72"/>non velle idem postea est ponere simul velle deum idem 
+      <lb ed="#P" n="73"/>et nonn velle: et plana est contradictio.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1489">
+      ¶ Ad tertium 
+      <lb ed="#P" n="74"/>dicon quod deus ab eterno voluit creaturam: et tamen 
+      po<lb ed="#P" n="75" break="no"/>tuit non velle diuisim pro eodem instanti non 
+      presup<lb ed="#P" n="76" break="no"/>posito velle eiusdem creature: et adhuc potest idem 
+      <lb ed="#P" n="77"/>quia in eternitate: sed ab eterno non potuit velle 
+      crea<lb ed="#P" n="78" break="no"/>turam et postea in alio instanti non velle ipsam nec 
+      <lb ed="#P" n="79"/>etiam potest modo.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1505">
+      ¶ Ad quartum dico quod nouus 
+      re<lb ed="#P" n="80" break="no"/>spectus rationis bene aduenit alicui vt obiecto 
+      si<lb ed="#P" n="81" break="no"/>ne mutatione sui: sed non sine mutatione operantis 
+      <lb ed="#P" n="82"/>vel facientis talem respectum: operans autem in 
+      pro<lb ed="#P" n="83" break="no"/>posito esset deus vel esse posset: ideo etc. Preterea 
+      <lb ed="#P" n="84"/>dico quod omne velle quo aliquid est volitum de nouo 
+      re<lb ed="#P" n="85" break="no"/>fertur realiter ad obiectum volitum: sed illud est aliquid 
+      <lb ed="#P" n="86"/>actu existens.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1523">
+      ¶ Ad quintum dico. quod voluntas 
+      nostra<lb ed="#P" n="87" break="no"/>non potest aliquid velle de nouo sine mutatione nec 
+      <lb ed="#P" n="88"/>finem nec illud quando est ad finem. Unde dico quod 
+      impos<lb ed="#P" n="89" break="no"/>sibilis et ficta est extensio illius actus prioris sine 
+      mu<lb ed="#P" n="90" break="no"/>latione volendi finem ad volendum de nouo id quod est 
+      <lb ed="#P" n="91"/>id finem: sed est nouus actus necessario vel saltem 
+      <lb ed="#P" n="92"/>nouus respectus realis ipsius actus ad id quod est 
+      <lb ed="#P" n="93"/>ad finem: si illud sit aliquid in actu: immo dico plus 
+      <lb ed="#P" n="94"/>peterminate quod necessario est nouus actus vel nouus 
+      <lb ed="#P" n="95"/>gradus intensionis in actu et hoc non est sine 
+      muta<lb ed="#P" n="96" break="no"/>tione. Sic de ista questione 
+      </p>
+            <p xml:id="qrdBas-a1408X-d1e1547">
+               <lb ed="#P" n="97"/>¶ Ad primum principale Dico 
+      <lb ed="#P" n="98"/>quod deus proprie loquendo nec desiderat creaturam 
+      <lb ed="#P" n="99"/>nec delectatur in ipsa: licet bene vellit eam sicut 
+      obie<lb ed="#P" n="100" break="no"/>ctum secundarium: sed in primo obiecto suo quod est 
+      di<lb ed="#P" n="101" break="no"/>ina essentia delectatur: sed aliquomodo dicitur desi 
+      <lb ed="#P" n="102"/>derare vel delectari pro quanto placet sibi creatura 
+      prae<lb ed="#P" n="103" break="no"/>ens: vel dicatur quod deus delectatur in creatura sicut 
+      <lb ed="#P" n="104"/>in obiecto secundario: non tamen beatificatur in ipsa sed  
+      <lb ed="#P" n="105"/>tantum in obiecto primario.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1569">
+      ¶ Ad secundum dico quod deus 
+      <lb ed="#P" n="106"/>vult quicquid vult ab eterno / et vult creaturam ab 
+      <lb ed="#P" n="107"/>eterno. Tu dicis creatura non est in re ab eterno: 
+      di<lb ed="#P" n="108" break="no"/>to quod verum est in seipsa: sed in primo obiecto volito est 
+      <lb ed="#P" n="109"/>aliqualiter: puta in essentia diuina. QSdtum autem ad 
+      pri<lb ed="#P" n="110" break="no"/>num obiectum volitum verum est quod voluntas tendit in rem: vt 
+      <lb ed="#P" n="111"/>in se est: non oportet autem de obiecto secundario: si tamen 
+      <lb ed="#P" n="112"/>vniuersalem habet sensum illa propositio: de qua puto quod 
+      <lb ed="#P" n="113"/>non est intelligenda sicut sonat alibi habet locum.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1590">
+      ¶ Ad  
+      <lb ed="#P" n="114"/>tertium dico quod volitionis vel voluntatis divine ad obie 
+      <lb ed="#P" n="115"/>ctum nulla est nec esse potest relatio realis sicut dictum / 
+      <lb ed="#P" n="116"/>est supra de intellectione eius. Unde maior absolute 
+      <lb ed="#P" n="117"/>accipiendo et vniuersaliter est falsa: sed in aliquibus tantum 
+      <lb ed="#P" n="118"/>est vera. Secundo dico quod ad hoc vt deus distincte velit 
+      <lb ed="#P" n="119"/>alia a se nullus respectus rationis conexigitur vel preexigitur 
+      <lb ed="#P" n="120"/>in deo nec in voluntate sua: nec in actu suo ad ipsa: quia 
+      <lb ed="#P" n="121"/>actus et obiectum primum et potentia omnia sunt 
+      illimitata<lb ed="#P" n="122" break="no"/>sicut dictum est distin. xxxv. Tertio dico quod consequuntur 
+      <lb ed="#P" n="123"/>respectus rationis facti ab intellectu comparante voluntatem 
+      <lb ed="#P" n="124"/>ad / volita et actum eius etc. Quarto dico quod voluntas 
+      di<lb ed="#P" n="125" break="no"/>uina vel creata potest facere obiecto suo vel circa obie 
+      <lb ed="#P" n="126"/>ctum suum aliquem respectum qui non est respectus realis quia 
+      <lb ed="#P" n="127"/>non surgit ex natura extremorum / et hoc potest facere quia 
+      <lb ed="#P" n="128"/>est potentia operatiua potens operari obiectum suum 
+      <lb ed="#P" n="129"/>ad aliquid propter quod vult ipsum vt quod vult propter 
+      <!--453.xml-->
+       <pb ed="#P" n="219-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>aliud vel propter quod vult aliud: sicut etiam imaginatio 
+      <lb ed="#P" n="2"/>vel ratio particularis potest conferre et obiecta sua 
+      <lb ed="#P" n="3"/>adinuicem comparare et tales respectus causare. Tales 
+      <lb ed="#P" n="4"/>autem respectus non sunt proprie respectus rationis 
+      <lb ed="#P" n="5"/>quia non sunt facti per intellectum nisi vocetur respectus ration 
+      <lb ed="#P" n="6"/>nis omnis respectus qui non consurgit ex natura rei.
+    </p>
+            <p xml:id="qrdBas-a1408X-d1e1647">
+      ¶ Ad  
+      <lb ed="#P" n="7"/>quartum dico quod deus necessario vult alia bona a se 
+      <lb ed="#P" n="8"/>amore simplicis complacentie / et sic etiam sunt necessaria 
+      <lb ed="#P" n="9"/>in esse possibili et contingenter in amore efficaci. Sed non 
+      <lb ed="#P" n="10"/>sic quod possit ea non velle postquam ea voluit: sed velle vel 
+      <lb ed="#P" n="11"/>non velle pro eodem instanti diuisim sicut dictum est supra. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,593 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="201-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1308X"><!-- l1d40q1 -->
+            <head xml:id="qrdBas-a1308X-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a1308X-d1e101">
+               <lb ed="#P" n="110"/>¶ Distinctionis Quadragesime. 
+      <lb ed="#P" n="111"/>Questio Unica. 
+  </p>
+            <p xml:id="qrdBas-a1308X-d1e108">
+               <lb ed="#P" n="112"/>CIrca distinctionem 
+      <lb ed="#P" n="113"/>Quadragesimam quero. Utrum 
+      <lb ed="#P" n="114"/>predestinati de necessitate sal 
+      <lb ed="#P" n="115"/>uabuntur. An vtrum possibile 
+      <lb ed="#P" n="116"/>sit aliquem predestinatum damna 
+      <lb ed="#P" n="117"/>ri.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e124">
+      ¶ Uidetur quod omnes de 
+      nece<lb ed="#P" n="118" break="no"/>sitate saluabuntur. Primo sic 
+      <lb ed="#P" n="119"/>coctauo ethicorum dicitur quod hoc 
+      <lb ed="#P" n="120"/>solo priuatur deus quod est ingenita facere que facta 
+      <lb ed="#P" n="121"/>sunt: sed predestinatio omnium transit in preteritum 
+      <lb ed="#P" n="122"/>quia ab eterno deus predestinauit omnes electos: 
+      <lb ed="#P" n="123"/>ergo non potest non predestinare.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e140">
+      ¶ Secundo sic 
+      <lb ed="#P" n="124"/>Si predestinatus potest damnari: et non de 
+      necessi<lb ed="#P" n="125" break="no"/>tate saluabitur: hoc non est nisi per actum proprie 
+      <lb ed="#P" n="126"/>voluntatis: sed actus voluntatis create non potest 
+      impedi<lb ed="#P" n="127" break="no"/>re voluntatem diuinam vt patet: nec actum eius: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e152">
+        <!--418.xml-->
+               <pb ed="#P" n="202-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Tertio sic. Causa que frustrari non potest / 
+      impo<lb ed="#P" n="2" break="no"/>nit necessitatem suo effectui: alioquin frustrabilis est 
+      <lb ed="#P" n="3"/>sed voluntas diuina predestinans est huiusmodi: et 
+      <lb ed="#P" n="4"/>go etc.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e170">
+      ¶ Quarto sic. Illud est eque necessarium cum 
+      <lb ed="#P" n="5"/>alio cuius oppositum est ita impossibile sicut 
+      oppos<lb ed="#P" n="6" break="no"/>tum illius est impossibile: sed oppositum huius quod 
+      <lb ed="#P" n="7"/>est predestinatum saluare: puta predestinatum non sal 
+      <lb ed="#P" n="8"/>uare: est ita impossibile sicut oppositum huius quod est 
+      <lb ed="#P" n="9"/>deum esse / puta deum non esse: quia ita impossibile est 
+      <lb ed="#P" n="10"/>diuinam voluntatem frustrari / sicut deum non esse: ergo 
+      <lb ed="#P" n="11"/>predestinatum saluari est ita simpliciter et absolute 
+      <lb ed="#P" n="12"/>necessarium sicut deum esse.  
+      <lb ed="#P" n="13"/>Si praedestinati de necessitate sal 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e192">
+               <lb ed="#P" n="14"/>¶ Conti lt uabuntur tollitur tota necessitas 
+      <lb ed="#P" n="15"/>preceptorum / consiliorum / et totius legis diuine / et 
+      quic<lb ed="#P" n="16" break="no"/>quid faciat homo oportet quod saluetur si est praedestinatus 
+      <lb ed="#P" n="17"/>vel quod damnetur si non est praedestinatus vel si est reprobatus 
+      <lb ed="#P" n="18"/>s Primo inquiram qui 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e205">
+               <lb ed="#P" n="19"/>¶ In ista quaestiont vocatur predestinatio 
+      <lb ed="#P" n="20"/>et quomodo distinguitur ab aliis in deo que se 
+      te<lb ed="#P" n="21" break="no"/>nent ex parte diuine scientie: et ostendam quod deo 
+      conue<lb ed="#P" n="22" break="no"/>nit predestinare / et in ipso est predestinatio.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e216">
+      ¶ 
+      Se<lb ed="#P" n="23" break="no"/>cundo vtrum predestinatio imponat suo effectui: vel 
+      <lb ed="#P" n="24"/>libero arbitrio necessitatem.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e223">
+      ¶ Tertio ex hoc vtrum 
+      <lb ed="#P" n="25"/>predestinatus de necessitate saluabitur vel vtrum 
+      <lb ed="#P" n="26"/>predestinatus possit damnari.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e231">
+      ¶ Quarto vtrum 
+      nu<lb ed="#P" n="27" break="no"/>merus predestinatorum possit minui vel augeri. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e236">
+               <lb ed="#P" n="28"/>¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e241">
+               <lb ed="#P" n="29"/>¶ Quantum ad primum dico quod 
+      <lb ed="#P" n="30"/>secundum Augustinum predestinatio est diuina scientia 
+      <lb ed="#P" n="31"/>de futuris bonis predestinato conferendis in 
+      ordi<lb ed="#P" n="32" break="no"/>ne ad finem vltimum consequendum / et hoc pro 
+      quante<lb ed="#P" n="33" break="no"/>predestinatio pertinet ad diuinam scientiam: verum 
+      <lb ed="#P" n="34"/>est quod multum videtur ad voluntatem pertinere: sicut et 
+      <lb ed="#P" n="35"/>reprobatio. Unde et Augustinus dicit quod 
+      predesti<lb ed="#P" n="36" break="no"/>natio est propositum conferendi. Propositum autem ad 
+      <lb ed="#P" n="37"/>voluntatem videtur pertinere. Unde et vnus dicit quod 
+      <lb ed="#P" n="38"/>predestinatio est volitio efficax et determinata sal 
+      <lb ed="#P" n="39"/>uandi aliquem et conferendi sibi vitam eternam / et ea 
+      <lb ed="#P" n="40"/>per que talem finem consequuntur. Et hoc est verum pro 
+      <lb ed="#P" n="41"/>quanto se tenet ex parte diuine voluntatis. Secundum 
+      <lb ed="#P" n="42"/>quod tenet se et pertinet ad intellecium. Tunc igitur 
+      po<lb ed="#P" n="43" break="no"/>test dici quod predestinatio est scientia diuina de de 
+      fu<lb ed="#P" n="44" break="no"/>turis bonis alteri vel alicui conferendis in ordine ad 
+      <lb ed="#P" n="45"/>finem vltimum consequendum efficaciter.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e280">
+      ¶ Sed 
+      <lb ed="#P" n="46"/>quomodo differt ab aliis pertinentibus ad diuinam 
+      <lb ed="#P" n="47"/>scientiam vel intellectum diuinum. Dico quod licet actus 
+      <lb ed="#P" n="48"/>intelligendi diuinus sit vnicus et simplicissimus et 
+      <lb ed="#P" n="49"/>omnino indistinctus ex natura rei: tamen diuersimode 
+      <lb ed="#P" n="50"/>nominatur secundum quod transit super diuersa obiecta 
+      <lb ed="#P" n="51"/>Sunt ergo multa quae inueniuntur in intellectum diuino 
+      <lb ed="#P" n="52"/>distincta secundum rationem / scilicet noticia simplicis in 
+      <lb ed="#P" n="53"/>telligentie / scientia visionis / prouidentia / praedestinatio 
+      <lb ed="#P" n="54"/>reprobatio / electio / consilium. Scientia / vel 
+      notici<lb ed="#P" n="55" break="no"/>simplicis intelligentie dicitur actus intelligendi 
+      diui<lb ed="#P" n="56" break="no"/>mus: vt cadit super omnes quidditates simplicium 
+      termi<lb ed="#P" n="57" break="no"/>norum / et complexiones necessarias eorumdem / vel etiam 
+      <lb ed="#P" n="58"/>contingentes sub disiunctione ad oppositas. Scientio 
+      <lb ed="#P" n="59"/>visionis dicitur: vt cadit super illa que aliquando fuerum 
+      <lb ed="#P" n="60"/>sunt vel erunt tam bona quam mala. Prouidentia vero 
+      <lb ed="#P" n="61"/>est preuisio vel scientia visionis quasi practica: quia in 
+      <lb ed="#P" n="62"/>deo proprie non est aliqua noticia practica / et sic est 
+      <lb ed="#P" n="63"/>preuisio futurorum agibilium ordinandorum in finem 
+      secun<lb ed="#P" n="64" break="no"/>dum beneplacitum divine voluntatis. Unde patet quod di¬ 
+      <!--418.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>uina prouidentia cadit super omnia: tamen dicitur respectu 
+      fu<lb ed="#P" n="66" break="no"/>turorum quod pars prouidentie quae versatur circa futura ipsi 
+      <lb ed="#P" n="67"/>deo: et omnia quae aliquando fuerunt sunt vel erunt in eternitate 
+      <lb ed="#P" n="68"/>fuerunt sibi futura. Predestinatio vero est scientia qua¬ p 
+      <lb ed="#P" n="69"/>si practica etiam de bonis considerandis alteri in. 
+      ordi<lb ed="#P" n="70" break="no"/>ne ad finem vltimum efficaciter consequendum / quiquidem 
+      <lb ed="#P" n="71"/>finis est gloria eterna. Unde patet quod non ad tot se 
+      <lb ed="#P" n="72"/>extendit ad quot prouidentia: nec scientia visionis vel 
+      <lb ed="#P" n="73"/>scientia seu noticia simplicis intelligentie. Reproba 
+      ri<lb ed="#P" n="74" break="no"/>tio vel prescientia est diuina scientia de malis 
+      futu<lb ed="#P" n="75" break="no"/>ris in aliquo ad damnationem eius eternam. Nota tamen quod e 
+      <lb ed="#P" n="76"/>prescientia appropriatur scientie malorum istorum / licet 
+      ta<lb ed="#P" n="77" break="no"/>sit nomen commune secundum se respectu omnium futurorum 
+      <lb ed="#P" n="78"/>Electio est noticia practica: vel quasi practica de 
+      di<lb ed="#P" n="79" break="no"/>stinctione aliquorum / et acceptione pre aliis ad finem 
+      <lb ed="#P" n="80"/>consequendum. Unde praedestinatio non connotat aliquem 
+      <lb ed="#P" n="81"/>alium cui praedestinatus praeferatur / et in hoc differt ab 
+      ele<lb ed="#P" n="82" break="no"/>ctione. Consilium vero dicit actum divine scientie de his 
+      <lb ed="#P" n="83"/>quae sunt ad finem in ordine ad finem ipsum. Est ibi 
+      notam<lb ed="#P" n="84" break="no"/>dum quod electio et consilium ad plura se extendunt quam 
+      praedesti<lb ed="#P" n="85" break="no"/>natio: quia predestinatio tantum ad rationales vel 
+      intelle<lb ed="#P" n="86" break="no"/>ctuales creaturas: Sed electio et consilium ad omnes suo 
+      <lb ed="#P" n="87"/>modo et modo eis competenti.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e378">
+      ¶ His visis dico quod 
+      pre<lb ed="#P" n="88" break="no"/>destinatio est in deo et deo conuenit praedestinare. Quod 
+      <lb ed="#P" n="89"/>probo primo: sicut se habet prouidentia omnium in deo 
+      <lb ed="#P" n="90"/>ad creaturam in generali. Sic predestinatio ad 
+      ali<lb ed="#P" n="91" break="no"/>quas in speciali: sed deo conuenit prouidentia de 
+      fu<lb ed="#P" n="92" break="no"/>turis in finem vel ad finem generalem: vt patet ex 
+      predi<lb ed="#P" n="93" break="no"/>ctis. Et potest probari statim: quia ad illum in quo est 
+      <lb ed="#P" n="94"/>magna prudentia pertinet prouidentia que est pars 
+      <lb ed="#P" n="95"/>prudentie: sed deus est huiusmodi. Similiier etiam 
+      <lb ed="#P" n="96"/>ad summum principem pertinet prouidere de 
+      pertinenti<lb ed="#P" n="97" break="no"/>bus ad suum principatum. Deus autem summus princeps 
+      <lb ed="#P" n="98"/>est. xii. metaphi. ergo etc. ergo in deo etiam est predestina 
+      <lb ed="#P" n="99"/>tio quae est quedam scientia dei ad creaturam: vel de 
+      crea<lb ed="#P" n="100" break="no"/>tura in speciali: puta de intellectuali.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e409">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="101"/>Unicuique nature vel creature prouidet deus secundum 
+      <lb ed="#P" n="102"/>modum conuenientem illi creature: sed natura vel 
+      crea<lb ed="#P" n="103" break="no"/>tura intellectualis hunc modum specialem habet quod non 
+      <lb ed="#P" n="104"/>potest nisi in deo quietari perfecte / ergo creature 
+      intelle<lb ed="#P" n="105" break="no"/>ctuali saltem alicui prouidet deus de seipso 
+      predestu<lb ed="#P" n="106" break="no"/>mando eas ad vitam eternam capiendam de seipso / et 
+      <lb ed="#P" n="107"/>dirigendo eos in hunc finem specialem.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e428">
+      ¶ Tertio quia 
+      <lb ed="#P" n="108"/>ad illum solum pertinet predestinatio ad quem per 
+      <lb ed="#P" n="109"/>tinet conferre gratiam et gloriam: sed ad solum deum hoc 
+      <lb ed="#P" n="110"/>pertinet: ergo etc. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e437">
+               <lb ed="#P" n="111"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="112" break="no"/>ticulum. An scilicet praescientia vel praedestinatio imponat 
+      no<lb ed="#P" n="113" break="no"/>cessitatem libero arbitrio vel rebus ipsis. Dico quod 
+      ne<lb ed="#P" n="114" break="no"/>cessitas duplex est. Una est conditionata / et ex 
+      suppo<lb ed="#P" n="115" break="no"/>sitione vel genere vt sortes necessario sedet dum sedet 
+      <lb ed="#P" n="116"/>et dum sedet non potest non sedere simul. Alia est 
+      necessi<lb ed="#P" n="117" break="no"/>tas simpliciter et absoluta: vt deum esse est necessarium / et si 
+      <lb ed="#P" n="118"/>mul hominem esse animal et triangulum habere tres: et 
+      hu<lb ed="#P" n="119" break="no"/>iusmodi de necessitate absoluta. Dico quod nec scientia 
+      <lb ed="#P" n="120"/>visionis / nec prescientia: nec predestinatio imponunt 
+      <lb ed="#P" n="121"/>necessitatem libero arbitrio: seu etiam rebus circa 
+      <lb ed="#P" n="122"/>quas sunt: sed relinquunt contingentiam simpliciter in 
+      ip<lb ed="#P" n="123" break="no"/>sis.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e468">
+      ¶ Ad hoc est prima ratio illa scientia vel 
+      noti<lb ed="#P" n="124" break="no"/>cia que est simpliciter contingentia de scito non 
+      im<lb ed="#P" n="125" break="no"/>ponit scito: nec rei aliquam necessitatem simpliciter: sed noti 
+      <lb ed="#P" n="126"/>cia visionis et omnes iste sunt simpliciter contingentes: vt proba 
+      <lb ed="#P" n="127"/>tum est supra: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e479">
+      ¶ Secundo illa noticia que est 
+      vni<lb ed="#P" n="128" break="no"/>uscuiusque secundum modum secundum quem natum est 
+      <!--419.xml-->
+       <pb ed="#P" n="202-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>obiectum sciri vel cognosci non imponit 
+      necessita<lb ed="#P" n="2" break="no"/>tem simpliciter obiecti cogniti: quia et ipsum 
+      obie<lb ed="#P" n="3" break="no"/>ctum sic contingenter natum est sciri: sed diuina 
+      no<lb ed="#P" n="4" break="no"/>ticia vel scientia est huiusmodi / et obiectum est de 
+      <lb ed="#P" n="5"/>se contingens: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e501">
+      ¶ Tertio sic. Aut noticia 
+      <lb ed="#P" n="6"/>dei imponeret necessitatem rebus per hoc quod est cau 
+      <lb ed="#P" n="7"/>sa earum: aut per hoc quod est visiua earum. Non per 
+      <lb ed="#P" n="8"/>hoc quod est causa: quia non est causa nisi per 
+      volunta<lb ed="#P" n="9" break="no"/>tem vel voluntate libera: nec vt visiua quia si video 
+      <lb ed="#P" n="10"/>te quod curris non magis necessario ex hoc curris quam 
+      <lb ed="#P" n="11"/>si non viderem te / sicut declarat Boetius quarto de 
+      <lb ed="#P" n="12"/>consolatione: similiter etiam quia non est visiua 
+      in<lb ed="#P" n="13" break="no"/>deo nisi presupposita volitione: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e521">
+      ¶ Quarta 
+      ra<lb ed="#P" n="14" break="no"/>tio est ad hoc quod complectitur non solum rem: sed  
+      <lb ed="#P" n="15"/>etiam omnem modum rei et euentus rei 
+      conformi<lb ed="#P" n="16" break="no"/>ter ad ipsam rem: ita potest cadere super aliquid 
+      con<lb ed="#P" n="17" break="no"/>tingens sicut super aliquid necessarium / et relinque 
+      <lb ed="#P" n="18"/>re ipsum in sua contingentia: sed scientia dei est 
+      hu<lb ed="#P" n="19" break="no"/>iusmodi. Unde sicut nouit deus quod hoc eueniet: sio 
+      <lb ed="#P" n="20"/>nouit quod contingenter eueniet / et ita non tollitur con 
+      <lb ed="#P" n="21"/>tingentia / nec imponitur aliqua necessitas 
+      simplici<lb ed="#P" n="22" break="no"/>ter libero arbitrio. hec videtur ratio Augustini 
+      con<lb ed="#P" n="23" break="no"/>tra Ciceronem quinto de ciuitate dei capitulo 
+      quan<lb ed="#P" n="24" break="no"/>to.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e548">
+      ¶ Quinto sic. Sicut memoria ad preteritum 
+      <lb ed="#P" n="25"/>sic prescientia ad futurum: sed memoria non 
+      impo<lb ed="#P" n="26" break="no"/>nit necessitatem preterito vt patet: ergo nec 
+      prescien<lb ed="#P" n="27" break="no"/>tia futuro.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e557">
+      ¶ Sexto. Omne prescitum ita euenie 
+      <lb ed="#P" n="28"/>sicut prescitur sed deus presciuit liberum arbitrium 
+      <lb ed="#P" n="29"/>producturum actum suum contingenter: ergo 
+      pro<lb ed="#P" n="30" break="no"/>ducet ipsum contingenter / et sic non necessario 
+      sim<lb ed="#P" n="31" break="no"/>pliciter.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e568">
+      ¶ Septimo sic. Prescientia non imponitur 
+      <lb ed="#P" n="32"/>aliam necessitatem: nisi quod futurum de necessitate est 
+      <lb ed="#P" n="33"/>futurum: sed hoc non infert aliquam necessitaten 
+      <lb ed="#P" n="34"/>simpliciter: sed relinquit contingentiam: quia licet 
+      <lb ed="#P" n="35"/>futurum necessario sit futurum: non est tamen 
+      nece<lb ed="#P" n="36" break="no"/>sarium. Refert enim dicere ista duo: scilicet futurum 
+      <lb ed="#P" n="37"/>necessario est futurum: et futurum esse necessarium 
+      <lb ed="#P" n="38"/>sicut album necessario esse album / et Petrum esse album. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e586">
+               <lb ed="#P" n="39"/>¶ Ultimo confirmatur: quia diuina scientia de 
+      pas<lb ed="#P" n="40" break="no"/>te negatiua alicuius contingentis vt quod sortes non 
+      <lb ed="#P" n="41"/>curret non imponit illi parti necessitatem. Nam 
+      di<lb ed="#P" n="42" break="no"/>uina scientia et voluntate circunscripta adhuc illa 
+      <lb ed="#P" n="43"/>pars eueniret / et non necessario sed contingenter: et 
+      <lb ed="#P" n="44"/>go similiter non imponit necessitatem parti 
+      affirma<lb ed="#P" n="45" break="no"/>tiue si nouerit eam: vt quod sortes curret. Cum enim 
+      <lb ed="#P" n="46"/>diuina scientia non immutet naturam et modum 
+      ob<lb ed="#P" n="47" break="no"/>iecti illud quod est contingens per se formaliter 
+      sem<lb ed="#P" n="48" break="no"/>per est contingens quantumcunque a deo scitum vel 
+      vo<lb ed="#P" n="49" break="no"/>litum: sicut necessarium a nobis contingenter scitum 
+      <lb ed="#P" n="50"/>et volitum non propter hoc est minus necessarium: 
+      <lb ed="#P" n="51"/>sed semper manet necessarium et nullo contingens est 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e617">
+               <lb ed="#P" n="52"/>¶ Secundo dico quod prescientia vel predestinatio 
+      <lb ed="#P" n="53"/>imponit rebus aliquam necessitatem: sed 
+      suppositio<lb ed="#P" n="54" break="no"/>nis et consequentie et conditionate.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e626">
+      ¶ Prima ratio 
+      <lb ed="#P" n="55"/>est ista. Scientia infallibilis quantumcumque contingens 
+      <lb ed="#P" n="56"/>imponit necessitatem aliquam obiecto: quia si nullam 
+      <lb ed="#P" n="57"/>tunc potest se habere difformiter ad rem / et non est 
+      <lb ed="#P" n="58"/>infallibilis / sed potest esse falsa: sed scientia diuina 
+      <lb ed="#P" n="59"/>vel prescientia est infallibilis: vt dictum est supra: ere 
+      <lb ed="#P" n="60"/>go etc.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e643">
+      ¶ Secundo sic. Scientia sequens volitionem 
+      effi<lb ed="#P" n="61" break="no"/>cacem et omnipotentem de obiecto ponit et arguit 
+      ali<lb ed="#P" n="62" break="no"/>quam necessitatem in obiecto: sed sic est de scientia vel 
+      <lb ed="#P" n="63"/>prescientia dei respectu futurorum et actuum 
+      libe<lb ed="#P" n="64" break="no"/>ri arbitrii: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e654">
+      ¶ Tertio sic. Si scientia dei non al 
+      <lb ed="#P" n="65"/>guit vel concludit aliquam necessitatem in obiecto: tunc 
+      <!--419.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>non differret ab opinione vel coniectura: sed hoc est 
+      <lb ed="#P" n="67"/>falsum: quia est certa sicut dictum est supra: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e667">
+               <lb ed="#P" n="68"/>¶ Quarto quia scientia nostra eo ipso quod non est 
+      ni<lb ed="#P" n="69" break="no"/>si verorum arguit aliquam necessitatem in scito. Patet: 
+      <lb ed="#P" n="70"/>dico tamen quod ista necessitas non repugnat contingentie 
+      <lb ed="#P" n="71"/>simpliciter: sicut nec necessitas consequentie repugnat 
+      <lb ed="#P" n="72"/>contingentie consequentis vt patet: quia inter 
+      contin<lb ed="#P" n="73" break="no"/>gentia potest esse consequentia necessaria / et contingens 
+      <lb ed="#P" n="74"/>potest esse necessarium secundum quid necessitate 
+      conse<lb ed="#P" n="75" break="no"/>quentie: sicut et falsum: vt si asinus volat necessarium 
+      <lb ed="#P" n="76"/>est quod habeat alas etc. Et si sortes currit sortes 
+      mo<lb ed="#P" n="77" break="no"/>uetur: non tamen absolute necessario mouetur sicut 
+      <lb ed="#P" n="78"/>nec currit. Hec de secundo articulo 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e693">
+               <lb ed="#P" n="79"/>¶ Quantum ad tertium articu  
+      <lb ed="#P" n="80"/>lum dico breuiter quod omnes predestinati de necessitate 
+      <lb ed="#P" n="81"/>saluabuntur non loquendo de necessitate absoluta: quia il 
+      i<lb ed="#P" n="82" break="no"/>lam non imponunt predestinatio / nec prescientia / nec l 
+      <lb ed="#P" n="83"/>scientia dei: vt probatum est: sed de necessitate condi¬ a 
+      <lb ed="#P" n="84"/>tionata et ex suppositione divine volitionis et 
+      scien<lb ed="#P" n="85" break="no"/>tie contingentis de hoc effectum / et ita absolute 
+      lo<lb ed="#P" n="86" break="no"/>quendo contingenter / sed necessario secundum quid.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e713">
+      ¶ Ex  
+      <lb ed="#P" n="87"/>quo apparet quod ista propositio predestinatum posse dam 
+      <lb ed="#P" n="88"/>nari / vel prescitum posse predestinari / etiam deum posse 
+      <lb ed="#P" n="89"/>scire plura scientia visionis quam sciat / et huiusmodi sunt 
+      <lb ed="#P" n="90"/>absolute / possibiles / et vere / tamen non sunt possibiles ex 
+      <lb ed="#P" n="91"/>impossibilitate conditionata. Uel ad euidentiam 
+      maio<lb ed="#P" n="92" break="no"/>rem sensus et veritatis earum ipse sunt distinguendem 
+      <lb ed="#P" n="93"/>secundum compositionem et diuisionem / secundum compositio 
+      <lb ed="#P" n="94"/>nem et in sensu composito semper sunt false / et est 
+      sen<lb ed="#P" n="95" break="no"/>sus quod contradictoria possunt stare simul / quod scilicet 
+      <lb ed="#P" n="96"/>simul aliquis sit praedestinatus et praescitus: vel possit 
+      <lb ed="#P" n="97"/>esse vtrumque sicut sedentem ambulare dum sedet. In 
+      sen<lb ed="#P" n="98" break="no"/>su diuisionis possunt accipi dupliciter. Uno modo 
+      <lb ed="#P" n="99"/>quod accipiantur diuisim instantibus / vt sit sensus quod 
+      pre<lb ed="#P" n="100" break="no"/>destinatus prius in vno instanti possit praesciri: postea 
+      <lb ed="#P" n="101"/>in alio instanti vel reprobatur seu prescitur 
+      prede<lb ed="#P" n="102" break="no"/>stinari: sed hoc est falsum: quia tunc necessario esset 
+      <lb ed="#P" n="103"/>mutatio et successio in deo: sicut in nostra voluntate 
+      <lb ed="#P" n="104"/>Aliomodo quod accipiantur diuisim vel in sensu diuiso 
+      <lb ed="#P" n="105"/>pro eodem instanti: et sic sunt vere quia voluntas diuina 
+      <lb ed="#P" n="106"/>vt prior actu suo pro quanto cadit super aliquod obiectum 
+      <lb ed="#P" n="107"/>extrinsecum pro eodem instanti potest diuisim eum reproba 
+      <lb ed="#P" n="108"/>re vel praedestinare / et sic praedestinatus potest presciri: et per 
+      <lb ed="#P" n="109"/>consequens damnari et sic in consimilibus: igitur etc. Contra. 
+      Om<lb ed="#P" n="110" break="no"/>ne quod est quando est necesse est esse / sed predestinatio 
+      <lb ed="#P" n="111"/>vel predestinatum esse semper est et eternum: ergo necesse 
+      <lb ed="#P" n="112"/>est ipsam esse semper et eterno: ergo predestinatus non 
+      <lb ed="#P" n="113"/>potest esse non predestinatus. Dico quod ista 
+      proposi<lb ed="#P" n="114" break="no"/>tio omne quod est quando est etc. potest habere sensum 
+      <lb ed="#P" n="115"/>vpothetice / et hoc quia est ypothetica: aut ergo 
+      per<lb ed="#P" n="116" break="no"/>ipsam denotatur necessitas consequentis / et sic est 
+      fal<lb ed="#P" n="117" break="no"/>sa: sicut ista. Necesse est hominem currere: quando cur 
+      <lb ed="#P" n="118"/>rit: vel mouetur quando currit: sicut si dicatur si homo 
+      cur<lb ed="#P" n="119" break="no"/>rit homo mouetur de necessitate: aut denotat 
+      nece<lb ed="#P" n="120" break="no"/>sitatem consequentie vel illationis: et tunc est vera: 
+      <lb ed="#P" n="121"/>vel necessitatem ex conditione / et sic est vera: et 
+      sci<lb ed="#P" n="122" break="no"/>licet talis necessitas in predestinatione diuina cum 
+      <lb ed="#P" n="123"/>contingentia simpliciter et cum possibilitate ad 
+      op<lb ed="#P" n="124" break="no"/>positum: licet non simul sed diuisim pro eodem 
+      in<lb ed="#P" n="125" break="no"/>stanti eternitatis: ideo non valet. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e800">
+               <lb ed="#P" n="126"/>¶ Circa istum articulum nota contra aliquos quod 
+      <lb ed="#P" n="127"/>impossibile est predestinatum dampnari per istum 
+      <lb ed="#P" n="128"/>modum quod deus aliquando voluerit aliquem salua 
+      <lb ed="#P" n="129"/>ri et ita fuerit predestinatus: et postea de nouo veliter 
+      <!--420.xml-->
+       <pb ed="#P" n="203-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ipsum damnari vel damnare. Impossibile est enim deum 
+      <lb ed="#P" n="2"/>aliquid velle vel nolle de nouo: licet enim actu 
+      diui<lb ed="#P" n="3" break="no"/>ne voluntatis vel volitione diuina necessaria in 
+      se<lb ed="#P" n="4" break="no"/>possit obiectum esse contingenter volitum: non enim 
+      <lb ed="#P" n="5"/>volitione diuina eterna potest esse aliquid de noue 
+      <lb ed="#P" n="6"/>volitum / licet de nouo productum vel creatum vel 
+      <lb ed="#P" n="7"/>positum in re: non tamen in esse volito.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e834">
+      ¶ Quod pro 
+      <lb ed="#P" n="8"/>bo. Primo quia tunc esset vere et realiter 
+      mutabi<lb ed="#P" n="9" break="no"/>lis: quia a contradictorio vel contrario in contradi 
+      <lb ed="#P" n="10"/>ctorium vel contrarium non est transitus sine 
+      reali<lb ed="#P" n="11" break="no"/>mutatione: que est prior et ad quam necessario 
+      redu<lb ed="#P" n="12" break="no"/>citur mutatio rationis: quia mutatio prima nunquam 
+      <lb ed="#P" n="13"/>terminatur ad ens rationis: ergo si aliquid de non 
+      <lb ed="#P" n="14"/>volito sit volitum vel nolitum / vel econuerso: 
+      neces<lb ed="#P" n="15" break="no"/>sario est mutatio aliqua realis. Contra aliquid 
+      rea<lb ed="#P" n="16" break="no"/>liter se habet aliter vel variatur sed illa non potest 
+      <lb ed="#P" n="17"/>poni in obiecto volito: quia volitum ex eo quod 
+      voli<lb ed="#P" n="18" break="no"/>tum nullum esse reale. Habet igitur in voluntate 
+      <lb ed="#P" n="19"/>diuina quod est impossibile.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e863">
+      ¶ Secundo: quia 
+      vo<lb ed="#P" n="20" break="no"/>litio et esse volitum vel sunt idem vel 
+      concomitan<lb ed="#P" n="21" break="no"/>tur se inseparabiliter. sic saltem quod vtriusque est eadem 
+      <lb ed="#P" n="22"/>mensura: sicut etiam intellectio et esse intellectum / 
+      <lb ed="#P" n="23"/>representatiuum formaliter / et esse representatum 
+      <lb ed="#P" n="24"/>sola enim volitione et nullo alio dicitur aliquid 
+      for<lb ed="#P" n="25" break="no"/>maliter volitum: ergo si volitio eterna et esse 
+      voli<lb ed="#P" n="26" break="no"/>tum et si illud nouum et illa noua.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e881">
+      ¶ Tertio: quia 
+      vo<lb ed="#P" n="27" break="no"/>litione diuina ab eterno ponitur determinate 
+      om<lb ed="#P" n="28" break="no"/>ne volitum et in esse volito: Alioquin esset 
+      imposi<lb ed="#P" n="29" break="no"/>ta ad determinationem de aliquibus: et per 
+      conse<lb ed="#P" n="30" break="no"/>quens careret determinatione aliquorum / et per 
+      con<lb ed="#P" n="31" break="no"/>sequens scientia eorundem: quia non cognoscit 
+      ni<lb ed="#P" n="32" break="no"/>si presupposita determinatione voluntatis. et sic non 
+      <lb ed="#P" n="33"/>esset deus: quia nesciret aliquid quod potest poni 
+      fu<lb ed="#P" n="34" break="no"/>turum non obstante sua priori determinatione de 
+      <lb ed="#P" n="35"/>opposito: et caderet ignorantia in ipso / et nouitas / et 
+      <lb ed="#P" n="36"/>non esset deus sicut arguit Augustinus quinto 
+      di<lb ed="#P" n="37" break="no"/>ciuitate dei capitulo nono vbi dicit quod qui negat deum 
+      <lb ed="#P" n="38"/>determinate scire vel prescire futura: dicit deum non 
+      <lb ed="#P" n="39"/>esse deum.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e912">
+      ¶ Quarto: quia scientie diuine posset sub 
+      <lb ed="#P" n="40"/>esse falsum: si enim postquam predestinauit petrum: et 
+      <lb ed="#P" n="41"/>noluit ipsum finaliter esse saluandum / et per 
+      conse<lb ed="#P" n="42" break="no"/>quens sciuit hoc et potest reprobare petrum vel nol 
+      <lb ed="#P" n="43"/>le saluare: sequitur quod prima scientia sua potest esse 
+      <lb ed="#P" n="44"/>falsa. Hoc autem est impossibile quod deus possit 
+      fal<lb ed="#P" n="45" break="no"/>li vel errare: ergo etc. hec de tertio articulo. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e928">
+               <lb ed="#P" n="46"/>¶ Quantum ad quartum 
+      di<lb ed="#P" n="47" break="no"/>co breuiter quod numerus electorum vel predestinato 
+      <lb ed="#P" n="48"/>rum potest augeri vel minui vel talem numerum 
+      ele<lb ed="#P" n="49" break="no"/>ctorum posse augeri vel minui potest distingui sicut 
+      <lb ed="#P" n="50"/>precedentes propositiones: quia sicut ista posse deum 
+      <lb ed="#P" n="51"/>augere vel minuere numerum electorum: aut in sen 
+      <lb ed="#P" n="52"/>su compositionis / et tunc est falsa / et est sensus quod cum 
+      <lb ed="#P" n="53"/>numero quem pretaxauit manente precise possit 
+      or<lb ed="#P" n="54" break="no"/>dinare numerum maiorem vel minorem / et est falsum 
+      <lb ed="#P" n="55"/>et concludunt contradictionem. vel diuisim et hoc 
+      <lb ed="#P" n="56"/>pro diuersis instantibus successiue / et est falsum. Est 
+      <lb ed="#P" n="57"/>enim sensus quod prius taxauit vnum numerum / et postea 
+      <lb ed="#P" n="58"/>successiue potest taxare alium / quod est falsum: quia 
+      <lb ed="#P" n="59"/>necessario arguit mutationem et successionem: aui 
+      <lb ed="#P" n="60"/>pro eodem instanti / et est sensus quod in eodem 
+      instan<lb ed="#P" n="61" break="no"/>ti eternitatis in quo taxauit vel taxat istum 
+      nume<lb ed="#P" n="62" break="no"/>rum posset taxare maiorem vel minorem: et hoc est 
+      <lb ed="#P" n="63"/>verum. Unde dico quod absolute est possibile 
+      nume<lb ed="#P" n="64" break="no"/>rum electorum augeri vel minui / non tamen est pos¬ 
+      <!--420.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>sibile sed impossibile ex presuppositione / et 
+      necessa<lb ed="#P" n="66" break="no"/>rium est ipsum sic remanere necessitate 
+      conditiona<lb ed="#P" n="67" break="no"/>ta supposita / scilicet quod deus talem numerum 
+      taxa<lb ed="#P" n="68" break="no"/>uerit cum tamen alium taxare potuerit.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e985">
+      ¶ Contra 
+      <lb ed="#P" n="69"/>quia dicitur Apoca. tertio tene quod habes ne alius 
+      <lb ed="#P" n="70"/>accipiat coronam tuam: ergo potest mutari 
+      nume<lb ed="#P" n="71" break="no"/>rus electorum: quia possunt perdere coronas suas / 
+      <lb ed="#P" n="72"/>et alii accipere / et similiter glo. super illud qui nume 
+      <lb ed="#P" n="73"/>rat multitudinem stellarum etc. quod aliquis 
+      aliquan<lb ed="#P" n="74" break="no"/>do non obumbrata fidei specie se interserit electis dei. 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e1002">
+               <lb ed="#P" n="75"/>¶ Dico quod ista sunt intelligenda de corona 
+      presen<lb ed="#P" n="76" break="no"/>tis iusticie non glorie eterne: vel de corona quantum ad 
+      <lb ed="#P" n="77"/>apparentiam hominum / et tunc est sfensus tene quod 
+      <lb ed="#P" n="78"/>habes et videris habere ne alius videatur 
+      accipere<lb ed="#P" n="79" break="no"/>coronam glorie: et ponendus in gloria loco tui: et 
+      si<lb ed="#P" n="80" break="no"/>militer de illa intercessione: vel si de corona glorie 
+      <lb ed="#P" n="81"/>hoc non est intelligendum quod tales non fuerunt 
+      pre<lb ed="#P" n="82" break="no"/>destinati ex quo accipiunt coronam: sed non 
+      videban<lb ed="#P" n="83" break="no"/>tur apud homines / et alii qui perdunt coronam quam 
+      <lb ed="#P" n="84"/>videbantur tenere non erant electi vel 
+      predestina<lb ed="#P" n="85" break="no"/>ti. hec de quarto articulo 
+      </p>
+            <p xml:id="qrdBas-a1308X-d1e1028">
+               <lb ed="#P" n="86"/>¶ Ad primum principale Dico 
+      <lb ed="#P" n="87"/>quod argumentum currit super imaginationem falsam 
+      <lb ed="#P" n="88"/>Non enim predestinatio transit in predestinatum. 
+      <lb ed="#P" n="89"/>Nam cum ipsa sit in instanti eternitatis quod est 
+      per<lb ed="#P" n="90" break="no"/>manens non transit: sicut nec instans eternitatis / et 
+      <lb ed="#P" n="91"/>ita sicut deus ab eterno absolute loquendo potuit 
+      <lb ed="#P" n="92"/>non predestinare: vel non velle saluare petrum: ita 
+      <lb ed="#P" n="93"/>et modo potest / posito tamen quod et velit ipsum salua 
+      <lb ed="#P" n="94"/>re non potest non velle simul ipsum saluare vel vel 
+      <lb ed="#P" n="95"/>le damnare: ita etiam de predestinatione quantum ad 
+      <lb ed="#P" n="96"/>id quod est in re: licet secundum quod significat per hoc 
+      <lb ed="#P" n="97"/>nomen transierit in preteritum: quia predestinatio 
+      si<lb ed="#P" n="98" break="no"/>gnificat et dicitur respectu futuri. Aliter dicit quod 
+      <lb ed="#P" n="99"/>supposito quod deus predestinauerit non sequitur eos 
+      <lb ed="#P" n="100"/>esse predestinatos de necessitate absolute: sed tantum 
+      <lb ed="#P" n="101"/>necessitate suppositionis et consequentie.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e1065">
+      ¶ Ad se 
+      <lb ed="#P" n="102"/>cundum dico quod actus proprie voluntatis in 
+      prede<lb ed="#P" n="103" break="no"/>stinato non potest impedire diuinam 
+      predestinatio<lb ed="#P" n="104" break="no"/>nem quin necessario necessitate consequentie: et se 
+      <lb ed="#P" n="105"/>cundum quam non sequatur effectum cum eliciat 
+      <lb ed="#P" n="106"/>firmum actum: sed sicut absolute loquendo potest 
+      <lb ed="#P" n="107"/>non predestinari aliquis et non saluari / ita et 
+      habe<lb ed="#P" n="108" break="no"/>re alium actum vel non habere illum: qui tamen non 
+      <lb ed="#P" n="109"/>impediret tunc in aliquo diuinam voluntatem vt 
+      pa<lb ed="#P" n="110" break="no"/>tet.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e1087">
+      ¶ Ad tertium dico quod potest dici vno modo quod 
+      <lb ed="#P" n="111"/>causa licet frustrari non possit non tamen imponit 
+      <lb ed="#P" n="112"/>necessitatem effectui suo si est libera et contingens: 
+      <lb ed="#P" n="113"/>sicut nec est causa necessaria. Aliter dicitur quod non 
+      <lb ed="#P" n="114"/>imponit necessitatem absolutam: sed tamen 
+      necessi<lb ed="#P" n="115" break="no"/>tatem secundum quid et consequentie de qua dictum 
+      <lb ed="#P" n="116"/>est supra: sic est de voluntate diuina.
+    </p>
+            <p xml:id="qrdBas-a1308X-d1e1103">
+      ¶ Ad quartum 
+      <lb ed="#P" n="117"/>dico quod non est eque impossibile predestinatum non 
+      <lb ed="#P" n="118"/>saluari sicut deum non esse. Nam deum esse non deum 
+      <lb ed="#P" n="119"/>absolute et simpliciter est impossibile: non autem 
+      pre<lb ed="#P" n="120" break="no"/>destinatum non saluari: sed impossibile ex 
+      supposi<lb ed="#P" n="121" break="no"/>tione. Et ideo dico quod non est eque necessarium 
+      pre<lb ed="#P" n="122" break="no"/>destinatim saluari: sicut deum non esse. Nam deum 
+      <lb ed="#P" n="123"/>esse est simpliciter necessarium: quod non subest 
+      ali<lb ed="#P" n="124" break="no"/>cui potentie: illud vero est necessarium secundum 
+      <lb ed="#P" n="125"/>quid et ex suppositione: igitur etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

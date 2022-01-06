@@ -1,0 +1,603 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="219-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1423X"><!-- l1d46q1 -->
+            <head xml:id="qrdBas-a1423X-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a1423X-d1e101">
+               <lb ed="#P" n="12"/>¶ Distin. xlvi. Questio Unica.
+  </p>
+            <p xml:id="qrdBas-a1423X-d1e106">
+               <lb ed="#P" n="13"/>CIrca distinctionem 
+      <lb ed="#P" n="14"/>quadragesimamsextam quaero. 
+      vtrum<lb ed="#P" n="15" break="no"/>deus velit mala fieri.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e115">
+      ¶ Uidetur 
+      <lb ed="#P" n="16"/>quod sic. Deus non nouit futura 
+      con<lb ed="#P" n="17" break="no"/>ingentia nisi quia determinat ea 
+      <lb ed="#P" n="18"/>fore et vult ea fore / ergo deus non 
+      no<lb ed="#P" n="19" break="no"/>uit mala fieri nisi quia vult ea 
+      fo<lb ed="#P" n="20" break="no"/>re. Sed planum est quod ipse nouit 
+      <lb ed="#P" n="21"/>futura mala / ergo vult ea fore.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e131">
+      ¶ Secundo sic. Deus vult 
+      <lb ed="#P" n="22"/>fieri illa quae permittit: sed deus permittit mala fieri cum 
+      pos<lb ed="#P" n="23" break="no"/>set ea impedire: ergo etc. Maior patet: quia permittere est 
+      ali<lb ed="#P" n="24" break="no"/>quis actus voluntatis puta velle / vel est negatio actus 
+      <lb ed="#P" n="25"/>puta non velle respectu mali: sed non est non velle vel 
+      <lb ed="#P" n="26"/>nolle: quia tunc malum non esset: ergo est velle.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e145">
+      ¶ Tertio sic. 
+      <lb ed="#P" n="27"/>Agens quod vult aliquid ad quod de necessitate sequitur 
+      ma<lb ed="#P" n="28" break="no"/>lum fieri vel esse vult malum fteri vel esse. Patet. Si 
+      <lb ed="#P" n="29"/>deus vult omne positiuum quod est aliquando in re et in effectu 
+      <lb ed="#P" n="30"/>sicut per se causa eius. Et planum est quod ad aliqua positi 
+      <lb ed="#P" n="31"/>ua de necessitate sequitur malum fieri vel esse / sicut in 
+      <lb ed="#P" n="32"/>actione negandi deum positiuum necessario sequitur 
+      ma<lb ed="#P" n="33" break="no"/>lum. Et similiter ad actum odiendi ipsum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e163">
+      ¶ Quarto sic. 
+      <lb ed="#P" n="34"/>Si deus non vult malum fieri sequitur quod malum non fit: quia 
+      <lb ed="#P" n="35"/>quod non fit a causa essentialiter prima non fit a causa secunda 
+      <lb ed="#P" n="36"/>Si autem deus non vult malum fieri sequitur quod malum non 
+      <lb ed="#P" n="37"/>fit ab ipso: sed consequens est falsum multa enim mala fiunt 
+      <lb ed="#P" n="38"/>ergo etc. Si dicas quod per accidens fit malum a deo: ita dicam 
+      <lb ed="#P" n="39"/>tibi quod a causa secunda fit per accidens.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e179">
+      ¶ Contra. Agens 
+      <lb ed="#P" n="40"/>quod vult malum fieri est malum: habet enim voluntatem auersam 
+      <lb ed="#P" n="41"/>et bono: sed deus non est nec potest esse malus: ergo etc. 
+      <lb ed="#P" n="42"/>Primo inquiram 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e188">
+               <lb ed="#P" n="43"/>¶ In ista quaestione auid est malum et 
+      di<lb ed="#P" n="44" break="no"/>stinguam de malo.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e195">
+      ¶ Secundo inquiram vtrum deus possit 
+      <lb ed="#P" n="45"/>velle malum fieri: et permittere malum.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e200">
+      ¶ Tertio vtrum 
+      <lb ed="#P" n="46"/>possit precipere malum.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e206">
+      ¶ Quarto vtrum deus velit 
+      <lb ed="#P" n="47"/>malala fieri.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e211">
+      ¶ Ultimo ad rationes principales. 
+      <lb ed="#P" n="48"/>dicitur quod ma¬ 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e216">
+               <lb ed="#P" n="49"/>¶ Quantum ad primum ide opponum 
+      <lb ed="#P" n="50"/>pono aliquomodo accipiendo bonum et malum quantum 
+      <lb ed="#P" n="51"/>ad suas rationes formales. Bonum autem et perfectum idem 
+      <lb ed="#P" n="52"/>et bonitas et perfectio idem: bonum etiam dicit ordinem 
+      affe<lb ed="#P" n="53" break="no"/>ctiui ad appetitum vel appetibilis: vel dicit 
+      negatio<lb ed="#P" n="54" break="no"/>nem alicuius perfectionis debite inesse creature. Unde et 
+      <lb ed="#P" n="55"/>vnumquodque dicitur perfectum ex eo quod nichil deest sibi de 
+      <lb ed="#P" n="56"/>dis quae debet habere: et hoc dico de bono pro quanto 
+      ad<lb ed="#P" n="57" break="no"/>dit aliquid super ens. Unde non puto sicut dixi alias quod 
+      <lb ed="#P" n="58"/>bonum addat super ens nisi vel negationem illam / vel 
+      re<lb ed="#P" n="59" break="no"/>spectum rationis qui est respectus affectiui ad 
+      appeti<lb ed="#P" n="60" break="no"/>tum vel respectus appetibilis.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e245">
+      ¶ Ex hoc statim patet 
+      <lb ed="#P" n="61"/>quid sit malum formaliter acceptum vel non est nisi 
+      caren<lb ed="#P" n="62" break="no"/>tia perfectionis debite inesse vel non nisi negatio 
+      ap<lb ed="#P" n="63" break="no"/>petibilis in aliquo / et hoc per se: quia sicut diceret aliquis 
+      <lb ed="#P" n="64"/>impossibile est et implicat contradictionem quod malum per se 
+      <!--453.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>appetatur: sicut quod non ens per se intelligatur: et quod color au 
+      <lb ed="#P" n="66"/>diatur: sed bonum per se appetitur. Unde et bonum omnia 
+      appe<lb ed="#P" n="67" break="no"/>tere videntur dicitur primo ethicorum. Circa quod est 
+      ad<lb ed="#P" n="68" break="no"/>uertendum quod iuxta primum dictum dicitur quod malum est 
+      ca<lb ed="#P" n="69" break="no"/>carentia perfectionis: quia carentia alicuius quod non est 
+      <lb ed="#P" n="70"/>perfectionis in aliquo: nec conueniens nature sue non est 
+      <lb ed="#P" n="71"/>malum in ipso. Similiter etiam dicitur quod perfectio sit 
+      de<lb ed="#P" n="72" break="no"/>bita in esse: quia si non est nata vel debita inesse non est 
+      <lb ed="#P" n="73"/>malum. Sic enim omnia essent mala etiam deus: quia multe per 
+      <lb ed="#P" n="74"/>fectiones non insunt sibi formaliter sicut perfectio 
+      lapi<lb ed="#P" n="75" break="no"/>dis vel asini. Siliter etiam per hoc patet quod nulla nega 
+      <lb ed="#P" n="76"/>tio vnius substantie de alia est malum: sicut negatio hoc 
+      <lb ed="#P" n="77"/>minis de asino non est malum: quia homo non est natus 
+      es<lb ed="#P" n="78" break="no"/>se asinus nec econuerso: nec etiam negatio qualitatis  
+      <lb ed="#P" n="79"/>de alia in abstracto: sed etiam de subiecto: vt negatio 
+      <lb ed="#P" n="80"/>albedinis de musica / vel albedinis in abstracto: quia 
+      <lb ed="#P" n="81"/>nunquam sic potest verificari de ipso nec conuenire quod 
+      ve<lb ed="#P" n="82" break="no"/>rificetur de ipso in abstracto: licet enim hec possit esse vel 
+      <lb ed="#P" n="83"/>ra. Musicum est album: nun tamen ista musica est alba. Si 
+      <lb ed="#P" n="84"/>militer ista posset esse vera: homo est albus / nunquam 
+      <lb ed="#P" n="85"/>tamen ista homo est albedo. Secundum hoc igitur malum et vt 
+      <lb ed="#P" n="86"/>consequens accipitur non est nisi negatio boni vel perfe 
+      <lb ed="#P" n="87"/>ctionis secunde in aliqua per fectione prima cui nata est 
+      <lb ed="#P" n="88"/>inesse / et cuius negatio est sibi disconueniens: vel 
+      nega<lb ed="#P" n="89" break="no"/>tio appetens fundata super talem carentiam.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e315">
+      ¶ Aliter ri  
+      <lb ed="#P" n="90"/>dicitur ab vno et reddit in idem quod malum potest accipi 
+      quan<lb ed="#P" n="91" break="no"/>tum ad illud quod formaliter et principaliter significat 
+      <lb ed="#P" n="92"/>et istud est malicia in abstracto: sicut album quod est 
+      com<lb ed="#P" n="93" break="no"/>cretum principaliter significat albedinem / et sic malum 
+      <lb ed="#P" n="94"/>priuationem puram perfectionis alicuius debite 
+      inet<lb ed="#P" n="95" break="no"/>se. Hoc autem probat tripliciter. Primo quia 
+      malum<lb ed="#P" n="96" break="no"/>sic acceptum non dicit nisi carentiam alicuius: sed 
+      ca<lb ed="#P" n="97" break="no"/>rentia non est nisi priuatio: ergo etc. Secundo quia malicia 
+      <lb ed="#P" n="98"/>opponitur bonitati / et malum bono: sed non 
+      contradi<lb ed="#P" n="99" break="no"/>ctorie: quia alterum contradictorium verificatur de quo 
+      <lb ed="#P" n="100"/>libet: ideo sic bonitas vel malicia: vel bonum et malum 
+      <lb ed="#P" n="101"/>vt patet de chimera / nec contrarie quia contraria sunt 
+      <lb ed="#P" n="102"/>determinati generis et eiusdem generis proximi: 
+      er<lb ed="#P" n="103" break="no"/>go priuatiue: ergo malicia est priuatio alicuius. 
+      Ter<lb ed="#P" n="104" break="no"/>tio quia malicia distinguitur rationibus oppositis ad 
+      <lb ed="#P" n="105"/>rationes quibus bonum distinguitur per vtile honestum / 
+      <lb ed="#P" n="106"/>et delectabile: igitur etc.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e354">
+      ¶ Aliter potest accipi malum non 
+      <lb ed="#P" n="107"/>solum pro eo quod principaliter significat: sed etiam 
+      pro<lb ed="#P" n="108" break="no"/>cognomento malicie: vt importatur per nomen mali et sic 
+      <lb ed="#P" n="109"/>non dicit puram priuationem sed cum hoc subiectum dicit 
+      <lb ed="#P" n="110"/>cognoscendo quod subiectum denominatur ab ipsa malicia 
+      <lb ed="#P" n="111"/>et dicitur malum.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e368">
+      ¶ Sic ergo patet quod importatur per malum  
+      <lb ed="#P" n="112"/>tunc distinguo malum et distinguitur communiter in 
+      ma<lb ed="#P" n="113" break="no"/>lum nature: in malum pene: et in malum culpe. Malum 
+      na<lb ed="#P" n="114" break="no"/>ture dicitur in aliquo carentia perfectionis naturalis 
+      <lb ed="#P" n="115"/>vel conuenientis nature sue: et nate sibi in esse secundum 
+      <lb ed="#P" n="116"/>cursum et ordinem causarum naturalium: sicut 
+      claudica<lb ed="#P" n="117" break="no"/>tio in tibia: et cecitas in oculo et talia. Aliquando etiam 
+      <lb ed="#P" n="118"/>extenditur malum nature et ad carentiam perfectionis 
+      na<lb ed="#P" n="119" break="no"/>te inesse et conuenientis nature: licet non possit 
+      habe<lb ed="#P" n="120" break="no"/>ri virtute causarum vel agentium naturalium: sed solum 
+      <lb ed="#P" n="121"/>virtute prime cause supernaturalis: sicut carentia 
+      glo<lb ed="#P" n="122" break="no"/>rie vel gratie dicitur malum nature: sicut etiam aliquo 
+      <lb ed="#P" n="123"/>modo gratia et gloria sunt perfectiones: et bona 
+      que<lb ed="#P" n="124" break="no"/>dam nature intellectualis. Malum pene proprie 
+      ha<lb ed="#P" n="125" break="no"/>bet locum in cognoscentibus: et est carentia perfectionis 
+      <lb ed="#P" n="126"/>debite inesse: vel nate inesse illi cui inest inflicta vel 
+      <lb ed="#P" n="127"/>assumpta et cognita inesse: et proprie et stricte 
+      accipien<lb ed="#P" n="128" break="no"/>do penam carentia est demerita ad culpam et pro aliqua cui 
+      <lb ed="#P" n="129"/>pa: si etiam extendatur nomen mali pene ad carentiam 
+      <!--454.xml-->
+       <pb ed="#P" n="220-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>perfectionis nate inesse apprehense a substinente 
+      pe<lb ed="#P" n="2" break="no"/>nam habente ipsam: licet non demeritam istomodo etiam 
+      ex<lb ed="#P" n="3" break="no"/>tenditur ad bruta: et accipitur frequenter pro labore quem 
+      <lb ed="#P" n="4"/>concomitatur carentia dispositionis debite vel conuenien 
+      <lb ed="#P" n="5"/>tis nature. Tertio modo dicitur malum culpe et dicit 
+      vo<lb ed="#P" n="6" break="no"/>luntariam carentiam perfectionis debite inesse: et sic est 
+      perfe<lb ed="#P" n="7" break="no"/>ctus: vel non est actus: et isto modo culpa omissionis dicit 
+      <lb ed="#P" n="8"/>carentiam et priuat actum debitum inesse vel circumstantiam 
+      qua<lb ed="#P" n="9" break="no"/>actus dicitur carere: et sic est culpa commissionis quae non priuat 
+      <lb ed="#P" n="10"/>actum sed circumstantiam debitam sibi inesse / et habet malum 
+      culpe<lb ed="#P" n="11" break="no"/>tantummodo locum in voluntariis sicut patet. Hec de primo 
+      <lb ed="#P" n="12"/>articulo quod sit malum et quo distinguatur quantum ad  
+      <lb ed="#P" n="13"/>propositum licet alioo possit distingui sed non est vis 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e444">
+               <lb ed="#P" n="14"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="15" break="no"/>ticulum scilicet an deus possit vel debeat permittere mala 
+      fie<lb ed="#P" n="16" break="no"/>ri. Uidendum est primo quid vocatur permittere. Ad hoc 
+      <lb ed="#P" n="17"/>diceretur quod permittere in deo est nolle quoddam remissum 
+      <lb ed="#P" n="18"/>de malo quod non placet: immo displicet. sic tamen non effica 
+      <lb ed="#P" n="19"/>citer displicet vt prohibeatur poni in effectu. Et ide 
+      <lb ed="#P" n="20"/>est nolle remissum: ita quod permittere dicatur nolle malum 
+      <lb ed="#P" n="21"/>sic tamen est scienter quod non impediatur: licet posset impediri 
+      <lb ed="#P" n="22"/>et hoc persuaderi videtur quod sicut est velle simplicis 
+      con<lb ed="#P" n="23" break="no"/>placentie quod non est efficax nec ponit rem in effectu: se 
+      <lb ed="#P" n="24"/>est velle remissum. Et signum huius velle est praeceptum a 
+      <lb ed="#P" n="25"/>firmatiuum vel consilium: vel suasio / et hoc respectu bon. 
+      <lb ed="#P" n="26"/>Ita videtur quod sit nolle quoddam diuinum remissum non 
+      <lb ed="#P" n="27"/>efficax quo sic malum displicet et scienter: quod tamen non 
+      im<lb ed="#P" n="28" break="no"/>peditur fieri / licet possit impediri. Et signum talis nolle 
+      <lb ed="#P" n="29"/>dicitur permissio vel dissuasio vel praeceptum negatiuum. 
+      <lb ed="#P" n="30"/>Ista sententia non placet aliis: quia sicut dicunt nolle 
+      al<lb ed="#P" n="31" break="no"/>quid quod tamen euenit et fit et hoc scienter non est sine 
+      tristi<lb ed="#P" n="32" break="no"/>cia et imperfectione voluntatis quae non est ponenda in deo 
+      <lb ed="#P" n="33"/>Et ideo consequenter non est ponendum quod permittere 
+      diui<lb ed="#P" n="34" break="no"/>num sit nolle aliquod respectu mali: quia tunc deus trista 
+      <lb ed="#P" n="35"/>retur: quia illud sciente deo non eueniret: et illud tamen esset 
+      <lb ed="#P" n="36"/>volitum et sic voluntas non efficax nec perfecta vel ipsi 
+      <lb ed="#P" n="37"/>tristaretur. Sed faciliter responderent alii quantum ad hoc 
+      <lb ed="#P" n="38"/>quod si efficaciter nollet et bene fieret: tunc diuina 
+      volu<lb ed="#P" n="39" break="no"/>tas esset imperfecta: et deus tristaretur: non sic autem noll 
+      <lb ed="#P" n="40"/>est efficax sicut etiam est velle quoddam supra dictum 
+      <lb ed="#P" n="41"/>simplicis complacentie multorum quae non ponuntur in 
+      effe<lb ed="#P" n="42" break="no"/>ctu: nec tamen diuinum velle imperfectum est nec diuina 
+      vo<lb ed="#P" n="43" break="no"/>luntas tristatur.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e512">
+      ¶ Contra hoc tamen posset dici quod velle 
+      <lb ed="#P" n="44"/>simplicis complacentie non est nisi respectu complexionum 
+      <lb ed="#P" n="45"/>aliquarum puta respectu huius quod fiat bonum: vel 
+      fiat<lb ed="#P" n="46" break="no"/>aliquid et disponatur fore: sed tantum respectu simplicium 
+      <lb ed="#P" n="47"/>quidditatum aliorum entium a deo: et ideo non oportet quod 
+      <lb ed="#P" n="48"/>fiant qua sunt volita velle simplicis complacentie: quia nec 
+      <lb ed="#P" n="49"/>fieri ipsorum vel ipsa fieri vel fore in actu volitum est 
+      <lb ed="#P" n="50"/>licet ipsa sint volita. Similiter forte est nolle quod 
+      <lb ed="#P" n="51"/>dam simplicis displicentie mali quodquidem non argui 
+      <lb ed="#P" n="52"/>malum fore vel non fore: sed quantumcumque sit volitum sic tamen 
+      <lb ed="#P" n="53"/>fiet et fit: nec tamen diuinum nolle imperfectum: nec divina 
+      vo<lb ed="#P" n="54" break="no"/>luntas tristatur sicut immediate argutum est et hoc 
+      voca<lb ed="#P" n="55" break="no"/>rent alii permittere.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e541">
+      ¶ Sed dico quod istud non valet: quia 
+      <lb ed="#P" n="56"/>permittere non est malorum quantum ad simplices rationes 
+      <lb ed="#P" n="57"/>terminorum: sed quantum ad fieri ipsorum sicut patet / et ideo 
+      <lb ed="#P" n="58"/>permittere est respectu completionis quae est malum esse 
+      <lb ed="#P" n="59"/>sed fieri propter quod non valet ad propositum istud velle 
+      sim<lb ed="#P" n="60" break="no"/>plicis coplacentie respectu simplicium quidditatum 
+      ip<lb ed="#P" n="61" break="no"/>sorum bonorum: quia breuiter omne velle: vel velle de al 
+      <lb ed="#P" n="62"/>qua complexione circa bonum et malum pertinens est ad 
+      vo<lb ed="#P" n="63" break="no"/>luntatem consequentem ad quam pertinet permittere sicut dico 
+      <lb ed="#P" n="64"/>tur infra: puta quod bonum fiat / et malum non fiat / est velle 
+      <!--454.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>vel velle efficax et oportet quod volitum fiat et nolitum 
+      <lb ed="#P" n="66"/>non fiat: vel si non sit sequitur quod divina voluntas est imperfe 
+      <lb ed="#P" n="67"/>cta et impotens / et quod ipsa tristatur ipso deo sciente quod 
+      ma<lb ed="#P" n="68" break="no"/>lum fit.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e576">
+      ¶ Dicitur ergo aliter quod permittere malum fieri indeo 
+      <lb ed="#P" n="69"/>nec est velle malum fieri nec velle malum fieri directo 
+      <lb ed="#P" n="70"/>et actu recto sed est scienter non velle: nec velle sic tamen 
+      <lb ed="#P" n="71"/>quod placet permittenti non velle / nec velle / ita quod non est 
+      ali<lb ed="#P" n="72" break="no"/>quis actus siue respectus positus circa malum fieri: quia si 
+      <lb ed="#P" n="73"/>esset velle fieret et deus esset malus: si nolle non fieret 
+      <lb ed="#P" n="74"/>malus: sed nolle non fieret: sed est actus voluntatis 
+      re<lb ed="#P" n="75" break="no"/>flexus super nec velle nec nolle malum fieri praecipue quam 
+      <lb ed="#P" n="76"/>tum ad malum culpe vt malum est et ita permissio non est 
+      si<lb ed="#P" n="77" break="no"/>gnum voluntatis recte sed reflexe vt dictum est.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e598">
+      ¶ Sed  
+      <lb ed="#P" n="78"/>adhuc contra hoc est arduadifficultas: quia secundum hoc non  
+      <lb ed="#P" n="79"/>videtur determinate quod sciat mala futura contingentia 
+      <lb ed="#P" n="80"/>precipue mala culpe: quia cum hoc quod vult permittere non 
+      <lb ed="#P" n="81"/>volendo / nec volendo ea fieri: sed placet sibi quod hoc non 
+      <lb ed="#P" n="82"/>velit nec nolit stat quod malum ita possit non fieri sicut 
+      <lb ed="#P" n="83"/>fieri: et ita numquam determinate sciet alterius partem. Non 
+      <lb ed="#P" n="84"/>enim potest eam scire vt videtur nisi ex determinatione 
+      volun<lb ed="#P" n="85" break="no"/>tatis sue quae velit hoc fieri vel non fieri. Preterea etiam 
+      <lb ed="#P" n="86"/>cum istud non velle ad non nolle non sit nisi negatio quaedam 
+      <lb ed="#P" n="87"/>alicuius actus: et actus reflexus non cadat nisi super actum 
+      <lb ed="#P" n="88"/>rectum qumo velle diuinum reflexum potest cadere super non 
+      <lb ed="#P" n="89"/>velle et non velle.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e628">
+      ¶ Ad ista posset dici sustinendo viam 
+      <lb ed="#P" n="90"/>praedictam quod nouit determinate mala culpe futura 
+      fie<lb ed="#P" n="91" break="no"/>ri: sed non voluit nec nolit ea fieri directe: sed volet 
+      <lb ed="#P" n="92"/>do nec velle nec nolle de ipsis per hoc quod quaecunque vult 
+      <lb ed="#P" n="93"/>se velle fieri fieret: quacunque se nolle fieri non fieret: quae 
+      <lb ed="#P" n="94"/>cumque etiam placet sibi non velle nec nolle fieri fieret 
+      <lb ed="#P" n="95"/>quia placet sibi permittere ea fieri: ita quod permittere fier 
+      <lb ed="#P" n="96"/>est quoddam velle respectu fieri: non tamen directe et 
+      imme<lb ed="#P" n="97" break="no"/>diate: quia tunc esset malum respectu ipsius mali culpe: sed 
+      <lb ed="#P" n="98"/>reflexum modo sub praedicto. Aliter potest dici sicut dictum 
+      <lb ed="#P" n="99"/>est distin. xxx viii. in fine soluendo. Ad idem argumen 
+      <lb ed="#P" n="100"/>tum quod deus determinat mala culpe fieri non per se nec 
+      di<lb ed="#P" n="101" break="no"/>recte: sed per se et directe determinando bona 
+      substra<lb ed="#P" n="102" break="no"/>cta fieri: et volendo non influere ad perfectionem vel 
+      cir<lb ed="#P" n="103" break="no"/>cumstantiam debitam a peccante: quia non tenetur ad hoc licet 
+      <lb ed="#P" n="104"/>peccans teneatur et sic in culpa: quia non facit et hoc libere 
+      <lb ed="#P" n="105"/>vt dictum est ibi: et ista determinatio per accidens de 
+      ma<lb ed="#P" n="106" break="no"/>lo non est permixtio: sed differt a permixtione et secundum hoc 
+      <lb ed="#P" n="107"/>diceretur ex actu permixtio secundum quod huiusmodi nouit deus 
+      ma<lb ed="#P" n="108" break="no"/>la fieri. Ad illam dici potest quod non solum super actum positiuum 
+      <lb ed="#P" n="109"/>rectum cadit vel cadere potest actus reflexus: sed etiam sut 
+      <lb ed="#P" n="110"/>ponit negationem talis actus licet sit hoc videre 
+      diffi<lb ed="#P" n="111" break="no"/>cile: quia actus reflexus positiuus est quodammodo: ergo hab 
+      <lb ed="#P" n="112"/>per se negatiuum super quod cadit per se / quia nulla negatio vit 
+      <lb ed="#P" n="113"/>detur per se obiectum alicuius actus positiui: dico quod malum 
+      <lb ed="#P" n="114"/>est per se obiectum vel esse potest respectu actus nolendi et 
+      <lb ed="#P" n="115"/>primum etiam obiectum in voluntate creata: per se autem ( non 
+      <lb ed="#P" n="116"/>primum ) respectu voluntatis divine: et ideo dico quod sicut 
+      <lb ed="#P" n="117"/>actus positiuus rectus potest esse respectu mali vt malum 
+      <lb ed="#P" n="118"/>est: cum tamen vt sic non sit aliquidipositiuus per se: vt dictum est 
+      <lb ed="#P" n="119"/>supra. Sic actus reslexus potest esse circa negationem 
+      <lb ed="#P" n="120"/>actus positiui de malo sicut est in proposito 
+      permit<lb ed="#P" n="121" break="no"/>tere. Sic ergo apparet quod est 
+      permittere<lb ed="#P" n="122" break="no"/>videre vtrum deus debeat vel pos¬ 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e702">
+               <lb ed="#P" n="123"/>¶ Restat sit permittere mala esse vel 
+      fieri<lb ed="#P" n="124" break="no"/>primo de malo nature. Secundo de malo pene. 
+      <lb ed="#P" n="125"/>Tertio de malo culpe.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e711">
+      ¶ De malo nature et 
+      pene<lb ed="#P" n="126" break="no"/>dicitur quod deus potest velle et vult ea fieri eo mod 
+      <lb ed="#P" n="127"/>quo ipsorum est fieri: per accidens tamen quia 
+      m<lb ed="#P" n="128" break="no"/>lorum per se non est fieri sicut nec facere. Unde 
+      mali<lb ed="#P" n="129" break="no"/>vt malum est non est causa effectiua sed defectiua: 
+      <!--455.xml-->
+       <pb ed="#P" n="220-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quia malum vt malum est non est nisi negatiuum: non autem 
+      <lb ed="#P" n="2"/>aliquid positiuum. Permissio ergo secundum istos non 
+      <lb ed="#P" n="3"/>est proprie respectu mali pene vel nature: sed 
+      magis<lb ed="#P" n="4" break="no"/>culpe.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e737">
+      ¶ Hoc probatur: quia illud est a deo volitum 
+      <lb ed="#P" n="5"/>quod pertinet ad ordinem vniuersi et decorem et 
+      perfectio<lb ed="#P" n="6" break="no"/>nem: sed malum nature et pene faciunt ad vniuersi 
+      de<lb ed="#P" n="7" break="no"/>corem et perfectionem sicut patet: quia ex hoc manifestant 
+      <lb ed="#P" n="8"/>tur diuersi gradus perfectionum qui pertinent ad 
+      de<lb ed="#P" n="9" break="no"/>corem vniuersi. Similiter quod sint mala pene pertinent 
+      <lb ed="#P" n="10"/>ad decorem iusticie ne relinquatur malum impunitum: 
+      <lb ed="#P" n="11"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e755">
+      ¶ Secundo sic. Illud potest deus velle circa 
+      <lb ed="#P" n="12"/>creaturam vel in creatura sua quod est rationabile 
+      sibi<lb ed="#P" n="13" break="no"/>inesse: sed rationabile est quod aliquod ens careat aliqua 
+      <lb ed="#P" n="14"/>perfectione mali in esse aliquomodo ex impedimen 
+      <lb ed="#P" n="15"/>to aliquo occurrente: quia talis natura impedibilis est 
+      <lb ed="#P" n="16"/>a sua perfectione et quod peccator puniatur pro culpe 
+      mo<lb ed="#P" n="17" break="no"/>do: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e771">
+      ¶ Tertio sic. Non minus vult vel 
+      potes<lb ed="#P" n="18" break="no"/>deus malum nature vel pene alicui infligere: quam 
+      ali<lb ed="#P" n="19" break="no"/>quis iustus iudex malum pene: quod etiam includit malum 
+      <lb ed="#P" n="20"/>nature: sed iustus iudex hoc debet / velle debet enim 
+      <lb ed="#P" n="21"/>malum puniendum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e783">
+      ¶ Quarto sic. Potest et 
+      de<lb ed="#P" n="22" break="no"/>bet velle illud quod facit ad bonum vniuersi secundum suas 
+      <lb ed="#P" n="23"/>partes: sed talia sunt mala nature et pene. Patet: quia 
+      <lb ed="#P" n="24"/>corruptio vnius quod est malum nature est generatio 
+      al<lb ed="#P" n="25" break="no"/>terius quod est etiam bonum secundum ordinem et cursum rerum 
+      <lb ed="#P" n="26"/>institutum a deo secundum successionem ipsarum: ergo etc. Sic 
+      <lb ed="#P" n="27"/>igitur deus vult per accidens ( licet tamen actu recto ) 
+      ma<lb ed="#P" n="28" break="no"/>lum nature et pene quodlibet quod est in vniuerso: et 
+      <lb ed="#P" n="29"/>non proprie permittit: quia permittere sicut dictum est 
+      su<lb ed="#P" n="30" break="no"/>pra est actus reflexus secundum illud non est malum 
+      inquo<lb ed="#P" n="31" break="no"/>uitate quod non faciat deus. Et ego dominus creans 
+      malum<lb ed="#P" n="32" break="no"/>Preterea etiam vltimo nulla contradictio implica. 
+      <lb ed="#P" n="33"/>in hoc: nec ex parte dei nec ex parte voliti: ergo etc. 
+      sci<lb ed="#P" n="34" break="no"/>vult deus ista mala vel potest velle.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e814">
+      ¶ Sed de 
+      ma<lb ed="#P" n="35" break="no"/>lo culpe dicitur quod deus actu recto non vult ipsum: sed  
+      <lb ed="#P" n="36"/>vult ipsum nec velle nec nolle: et ita permittit et vult 
+      <lb ed="#P" n="37"/>ipsum indirecte: et actu reflexo qui vocatur permissio 
+      <lb ed="#P" n="38"/>quod autem debeat vel possit iuste permittere mala cul 
+      <lb ed="#P" n="39"/>pe. probatur primo sic. Deus potest administrare res 
+      <lb ed="#P" n="40"/>sic quod eas proprios motus agere sinat: sed proprius 
+      <lb ed="#P" n="41"/>motus liberi arbitrii creati est quod possit peccare 
+      quan<lb ed="#P" n="42" break="no"/>tum est ex se: quia non est sua rectitudo nec necessario 
+      re<lb ed="#P" n="43" break="no"/>cta: ergo iuste potest permittere ipsum peccare.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e836">
+      ¶ Secundo 
+      <lb ed="#P" n="44"/>sic. Deus potest iuste permittere id quod iuste potest 
+      pu<lb ed="#P" n="45" break="no"/>nire: sed deus iuste potest punire malum culpe: ergo etc 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e843">
+               <lb ed="#P" n="46"/>¶ Tertio sic. Deus potest iuste permittere quod iuste 
+      po<lb ed="#P" n="47" break="no"/>test scienter non impedire: sed deus potest scienter iuste 
+      <lb ed="#P" n="48"/>non impedire malum culpe: quia non tenetur ad aliquid 
+      ex<lb ed="#P" n="49" break="no"/>debito circa creaturam nisi quod praelacet sibi: ergo etc. Si 
+      <lb ed="#P" n="50"/>igitur deus potest permittere mala fieri / etiam culpe 
+      stan<lb ed="#P" n="51" break="no"/>te omnimoda sua iusticia et hoc dicit beatus 
+      Gre<lb ed="#P" n="52" break="no"/>gorius et omnes doctores. Hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e861">
+               <lb ed="#P" n="53"/>¶ Quantum ad tertium 
+      articu<lb ed="#P" n="54" break="no"/>lum vtrum deus possit precipere mala fieri: et praecipue 
+      <lb ed="#P" n="55"/>mala culpe quia de malo nature et pene iam satis dictum 
+      <lb ed="#P" n="56"/>est supra quod potest ea precipere sicut velle.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e872">
+      ¶ Uideretur 
+      <lb ed="#P" n="57"/>alicui quod sic: immo quod praecepit de facto mala culpe. Pr 
+      <lb ed="#P" n="58"/>mo quia praecepit Abrahe interficere filium suum Isaac 
+      <lb ed="#P" n="59"/>quem sciebat innocentem: sed hoc est malum culpe: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e882">
+               <lb ed="#P" n="60"/>¶ Secundo sic: quia Osee praecepit accipere mulierem 
+      forni<lb ed="#P" n="61" break="no"/>cariam et commisceri cum ea: sed hoc est malum culpe: ergo etc 
+      <lb ed="#P" n="62"/>Si dicas quod non fuit facta sine diuino praecepto. Con 
+      <lb ed="#P" n="63"/>tra: quia tunc filii non fuissent filii fornicationis sed 
+      legi<lb ed="#P" n="64" break="no"/>timi fuissent: et tamen dominus praecepit sibi facere filios forni¬ 
+      <!--455.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>cationis.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e902">
+      ¶ Tertio quia deus praecepit Hebreis 
+      accipe<lb ed="#P" n="66" break="no"/>re furtiue res egyptiorum: et portare ipsis inuitis: sed 
+      <lb ed="#P" n="67"/>hoc est malum culpe: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e909">
+      ¶ Quarto sic. Qua 
+      ratio<lb ed="#P" n="68" break="no"/>ne potest permittere malum culpe eadem ratione et 
+      praecipe<lb ed="#P" n="69" break="no"/>re. Probatio: quia permittere est scienter non 
+      impedire<lb ed="#P" n="70" break="no"/>malum: cum tamen posset impedire: et hoc videtur ita iniustum 
+      <lb ed="#P" n="71"/>sicut precipere quia agentes et consentientes 
+      digni<lb ed="#P" n="72" break="no"/>sunt morte. Ad Romanos secundo. Cum igitur 
+      pos<lb ed="#P" n="73" break="no"/>sit permittere: ergo et precipere et implere. 
+      <lb ed="#P" n="74"/>dicendum est cum aliis quod deus non praece¬ 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e927">
+               <lb ed="#P" n="75"/>¶ Sed pit nec praecipere potest malum 
+      culpe<lb ed="#P" n="76" break="no"/>Circa quod est aduertendum quod sunt actus quidam 
+      qui<lb ed="#P" n="77" break="no"/>bus necessario conuoluitur malum culpe / sicut odire deum 
+      <lb ed="#P" n="78"/>vel blasphemare / vel mentiri / vel huiusmodi / et talia 
+      <lb ed="#P" n="79"/>nunquam possunt bene fieri / et tales actus non potest deus 
+      <lb ed="#P" n="80"/>precipere fieri: quia quotienscumque fiunt sunt mali et 
+      de<lb ed="#P" n="81" break="no"/>formes actus et culpabiles actus: ita quod respectu 
+      ta<lb ed="#P" n="82" break="no"/>lium non est praeceptum diuinum sed repugnat hoc ex 
+      pas<lb ed="#P" n="83" break="no"/>te talium que non sunt materia praecepti: sed potius pro 
+      <lb ed="#P" n="84"/>hibitionis / et talia sunt peccata quae opponuntur actibus 
+      <lb ed="#P" n="85"/>et circumstantiis cadentibus sub praeceptis prime / 
+      tabu<lb ed="#P" n="86" break="no"/>le. In quibus non potest deus dispensare quantum ad 
+      <lb ed="#P" n="87"/>substantiam talium preceptorum: sic videlicet quod 
+      oppos<lb ed="#P" n="88" break="no"/>ta eorum possint bene et licite et iuste fieri: licet possit 
+      <lb ed="#P" n="89"/>sic dispensare quod non obliget ad ea adimplenda nec 
+      ve<lb ed="#P" n="90" break="no"/>lit punire transgredientes vel facientes opposita 
+      si<lb ed="#P" n="91" break="no"/>cut dicetur in tertio. Aliqui vero sunt actus qui non 
+      <lb ed="#P" n="92"/>sunt necessario conuoluti malo culpe: cuiusmodi est 
+      <lb ed="#P" n="93"/>occidere hominem: vel accipere rem aliquam: vel 
+      com<lb ed="#P" n="94" break="no"/>misceri cum aliqua: sed possunt bene fieri et huiusmo 
+      <lb ed="#P" n="95"/>di sunt actus multi pertinentes ad hominem in 
+      ordi<lb ed="#P" n="96" break="no"/>ne ad proximum / et istos actus deus potest praecipere: sed 
+      <lb ed="#P" n="97"/>diuino praecepto cadente super tales actus iam non sunt 
+      <lb ed="#P" n="98"/>culpabiles vel mali: sed sunt liciti: et sunt actus per 
+      <lb ed="#P" n="99"/>tinentes ad praecepta secunde tabule: in quorum pluribus 
+      <lb ed="#P" n="100"/>deus potest dispensare aliquomodo et vt sic 
+      substan<lb ed="#P" n="101" break="no"/>tia actuum oppositorum iuste fiat: et sic dico quod deus potest 
+      <lb ed="#P" n="102"/>precipere id quod alias esset malum nisi preciperet: quod 
+      <lb ed="#P" n="103"/>tamen non manet malum postquam preceptum est. Quod autem hoc 
+      <lb ed="#P" n="104"/>possit deus patet: quia nec aliqua est repugnantia ex 
+      <lb ed="#P" n="105"/>parte talis actus: quia non est necessario malus: sed stat 
+      <lb ed="#P" n="106"/>cum debito ordine ad deum et ad proximum et etiam non 
+      <lb ed="#P" n="107"/>potest argui aliqua iniusticia in deo: ergo etc. 
+      <lb ed="#P" n="108"/>rensam aliorum dico quod deus potuit il¬ 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e1003">
+               <lb ed="#P" n="109"/>¶ Ad priii eur lud praecipere. Tu dicis erat i 
+      <lb ed="#P" n="110"/>malum culpe dico quod non erat quia Abraham accepit 
+      pta<lb ed="#P" n="111" break="no"/>tem a deo ex ipso praecepto. Tu dicis Isaac erat 
+      inno<lb ed="#P" n="112" break="no"/>tens dico quod erat obnoxius mortis ex pena pctia 
+      ori<lb ed="#P" n="113" break="no"/>ginalis. Et dato quod non esset obnoxius mortis non erat 
+      <lb ed="#P" n="114"/>malum culpe ex quo volitum a deo nec erat in iusticis 
+      <lb ed="#P" n="115"/>ex parte ipsius dei et hoc praecepit propter maius bonum 
+      ali<lb ed="#P" n="116" break="no"/>quod consequendum ad impletionem praecepti vel ad 
+      prompti<lb ed="#P" n="117" break="no"/>tudinem obedientie Abrahe.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e1025">
+      ¶ Ad secundum de Osee 
+      <lb ed="#P" n="118"/>dico quod cognoscere non suam ex libidine semper est 
+      pec<lb ed="#P" n="119" break="no"/>catum: nec potest ben fieri: seddico quod illa fornicaria prius 
+      <lb ed="#P" n="120"/>fuit facta sua ex divino praecepto. Tu dicis ergo filii fuert 
+      <lb ed="#P" n="121"/>legitimi concedo: tamen dicuntur filii fornicationis propter 
+      <lb ed="#P" n="122"/>hoc quod mater prius fuit fornicaria. Aliter dicit vnum 
+      <lb ed="#P" n="123"/>doctor quod cognoscere non suam absolute non est malum 
+      <lb ed="#P" n="124"/>culpe: nisi quia prohibitum a deo: licet cognoscere non suam 
+      <lb ed="#P" n="125"/>ex libidine sit peccatum et deordinatio quedam: 
+      prohi<lb ed="#P" n="126" break="no"/>bitio autem amota fuit per diuinum praeceptum de isto actu 
+      <lb ed="#P" n="127"/>et non cognouit eam ex libidine. Patet / et sic saluat 
+      fi<lb ed="#P" n="128" break="no"/>lios fornicationis: quia non de sua: non tamen ex libidine. 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e1052">
+               <lb ed="#P" n="129"/>¶ Ad tertium dico quod res egyptiorum facte fuerunt sub¬ 
+      <!--456.xml-->
+       <pb ed="#P" n="221-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dominio hebreorum ex voluntate dei praecipientis propter 
+      demi<lb ed="#P" n="2" break="no"/>rita egyptiorum: et quia bent tantum lucrati fuerant pro labore quae 
+      <lb ed="#P" n="3"/>seruierant egyptiis: et ita hebrei acceperunt que sua 
+      <lb ed="#P" n="4"/>erant et non que aliena / nec commiserunt furtum. Furtum 
+      <lb ed="#P" n="5"/>enim de se et secundum se malum est nec potest bene fieri 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e1074">
+               <lb ed="#P" n="6"/>¶ Ad quartum dico quod deus iuste potest permitere malum 
+      <lb ed="#P" n="7"/>culpe / licet non praecipre. Tu dicis quod consentit ita 
+      be<lb ed="#P" n="8" break="no"/>ne permitendo scienter cum posset impedire sicut 
+      preci<lb ed="#P" n="9" break="no"/>piendo / sed sic permittit quod ex alia parte prohibet et 
+      <lb ed="#P" n="10"/>sub pena quam intendit infligere et qua intendet 
+      puni<lb ed="#P" n="11" break="no"/>re peccantes / et mala facientes / et ita non consentit. 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e1090">
+               <lb ed="#P" n="12"/>¶ Ex predictis patet quantum ad quartum 
+      arti<lb ed="#P" n="13" break="no"/>culum vtrum deus velit mala fieri de malis enim 
+      natu<lb ed="#P" n="14" break="no"/>re et pene patet quod vult ea fieri per accidens tamen / et actu 
+      <lb ed="#P" n="15"/>recto. Sed de culpe patet quod non vult ea fieri actu 
+      <lb ed="#P" n="16"/>recto sed permittit quod quidem est actus reflexus et 
+      mo<lb ed="#P" n="17" break="no"/>do superius enarrato. Sic ad questiones. 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e1106">
+               <lb ed="#P" n="18"/>¶ Ad primum principale sicut 
+      <lb ed="#P" n="19"/>dictum est in corpore questionis.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e1113">
+      ¶ Ad secundum de 
+      per<lb ed="#P" n="20" break="no"/>mitte re. etc. sicut dictum est.
+    </p>
+            <p xml:id="qrdBas-a1423X-d1e1118">
+      ¶ Ad tertium dico quod non 
+      <lb ed="#P" n="21"/>oportet quod deus velit malum vel carentiam illam que 
+      <lb ed="#P" n="22"/>sequitur ad actum positiuum / ita quod maior est falsa. 
+      </p>
+            <p xml:id="qrdBas-a1423X-d1e1126">
+               <lb ed="#P" n="23"/>¶ Ad quartum dico quod non oportet quod malum sit 
+      cau<lb ed="#P" n="24" break="no"/>sa prima simpliciter effectiua / sed tantum a causa defectiua 
+      <lb ed="#P" n="25"/>et ita dato quod deus non velit malum culpe tamen fit a 
+      cau<lb ed="#P" n="26" break="no"/>sa defectiua secunda / nec ad hoc requiritur aliqua 
+      in<lb ed="#P" n="27" break="no"/>fluentia cause prime / qua malum vt malum est non est 
+      <lb ed="#P" n="28"/>positiuum / nec ipsum causare est efficere sed deficere 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

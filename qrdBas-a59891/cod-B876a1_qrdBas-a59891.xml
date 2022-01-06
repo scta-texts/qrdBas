@@ -1,0 +1,513 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="93-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a59891"><!-- l1d8q3 -->
+            <head xml:id="qrdBas-a59891-Hd1e99">Quaestio 3</head>
+            <p xml:id="qrdBas-a59891-d1e101">
+               <lb ed="#P" n="117"/>¶ Distinctionis Octaue. 
+      <lb ed="#P" n="118"/>Questio tertia.
+  </p>
+            <p xml:id="qrdBas-a59891-d1e108">
+               <lb ed="#P" n="119"/>Tertio quaero utrum 
+      <lb ed="#P" n="120"/>solus deus sit immutabilis. 
+  </p>
+            <p xml:id="qrdBas-a59891-d1e115">
+               <lb ed="#P" n="121"/>Uidetur quod non sit 
+      immuta<lb ed="#P" n="122" break="no"/>bilis immo mutabilis: omne illud 
+      <lb ed="#P" n="123"/>quod habet habitudinem ad  
+      <lb ed="#P" n="124"/>aliquid per se mutabile est 
+      mu<lb ed="#P" n="125" break="no"/>Qtabile: quia habitudo 
+      perma<lb ed="#P" n="126" break="no"/>nere non potest termino suo non 
+      <lb ed="#P" n="127"/>ceEn.
+      EeEn<lb ed="#P" n="128" break="no"/>manente: sed deus est huiusmodi / habet enim habi 
+      <lb ed="#P" n="129"/>tudinem primitatis ad omnem creaturam et acciden 
+      <!--197.xml-->
+       <pb ed="#P" n="93-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tis et causalitatis. Patet igitur etc.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e146">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="2"/>Omne illud quod se habet nunc aliter quam prius est 
+      <lb ed="#P" n="3"/>mutabile: sed deus se habet aliter nunc quod prius 
+      pro<lb ed="#P" n="4" break="no"/>ducendo aliquam rem de nouo / quia modo est 
+      produ<lb ed="#P" n="5" break="no"/>cens et prius non: et exit ab ocio in actum / igitur deus 
+      <lb ed="#P" n="6"/>est mutabilis.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e160">
+      ¶ Tertio videtur quod non solus ipse sit 
+      <lb ed="#P" n="7"/>immutabilis quia quod est mutabile est subiectum 
+      vel<lb ed="#P" n="8" break="no"/>terminus mutationis / sed actio non est subiectum 
+      <lb ed="#P" n="9"/>nec terminus mutationis / nec similiter motus vel 
+      <lb ed="#P" n="10"/>nutatio quinto Phisicorum. Igitur ista non sunt 
+      <lb ed="#P" n="11"/>mutabilia.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e173">
+      ¶ Quarto sic. Aristoteles. 12. 
+      metha<lb ed="#P" n="12" break="no"/>phisice in illo capitulo. Utrum autem. etc. Postquam 
+      osten<lb ed="#P" n="13" break="no"/>dit prius aliquod esse necesse esse et immobile vel 
+      im<lb ed="#P" n="14" break="no"/>mutabile inquirit si talia entia sint plura. Et 
+      respon<lb ed="#P" n="15" break="no"/>det quod est dare plures substantias necesse esse 
+      sempi<lb ed="#P" n="16" break="no"/>ternas et immobiles et sine magnitudine: igitur non 
+      <lb ed="#P" n="17"/>solum prima intelligentia que est deus est 
+      immuta<lb ed="#P" n="18" break="no"/>bilis sed alie plures intelligentie 
+      <lb ed="#P" n="19"/>primum Malachie tertio. 
+      Ego<lb ed="#P" n="20" break="no"/>Contra dominus et non mutor.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e195">
+      ¶ 
+      Con<lb ed="#P" n="21" break="no"/>tra secundum dicit Augustinus sexto de 
+      trinita<lb ed="#P" n="22" break="no"/>te / quod omnis creatura mutabilis est. Et similiter 
+      pri<lb ed="#P" n="23" break="no"/>mo de trinitate dicit quod solus deus est immutabilis. 
+      <lb ed="#P" n="24"/>Et allegat illud Apostoli quarto Solus habet im 
+      <lb ed="#P" n="25"/>mortalitatem. igitur etc. 
+      <lb ed="#P" n="26"/>In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e211">
+               <lb ed="#P" n="27"/>¶ Primo distinguam de mutatione vel mutabilitate 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e216">
+               <lb ed="#P" n="28"/>¶ Secundo ostendam quod deus est simpliciter et omnio immutabil. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e221">
+               <lb ed="#P" n="29"/>¶ Tertio quod omnis creatura est aliquo modo mutabi 
+      <lb ed="#P" n="30"/>lis / et per consequens quod solus deus est simpliciter 
+      <lb ed="#P" n="31"/>immutabilis 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e231">
+               <lb ed="#P" n="32"/>¶ Quantum ad primum 
+      di<lb ed="#P" n="33" break="no"/>co quod mutatio accipitur vno modo proprie / alio 
+      mo<lb ed="#P" n="34" break="no"/>do accipitur large et improprie. Mutatio proprie 
+      <lb ed="#P" n="35"/>accepta describitur tertio phisicorum / quod est actus 
+      <lb ed="#P" n="36"/>entis in potentia secundum quod huiuismodi: vel actus 
+      <lb ed="#P" n="37"/>mobilis seu mobilis in eo quod mutabile. Ex quo 
+      ap<lb ed="#P" n="38" break="no"/>paret quod mutatio requirit subiectum cuius ipsa sit actus 
+      <lb ed="#P" n="39"/>et accidens. Ex quo patet quod nec creatio nec 
+      annichi<lb ed="#P" n="40" break="no"/>latio nec transsubstantiatio totalis est proprie motus 
+      <lb ed="#P" n="41"/>Mutari enim est aliter se habere nunc quam prius sed 
+      <lb ed="#P" n="42"/>actualitas est entis. igitur nichil quod totaliter 
+      accipit<lb ed="#P" n="43" break="no"/>esse nouum vel non esse mutatur quia prius non 
+      fuis<lb ed="#P" n="44" break="no"/>ens et per consequens non se habuit aliter quia eodem 
+      <lb ed="#P" n="45"/>modo se habuit sicut vnum nichil. Secundo 
+      requi<lb ed="#P" n="46" break="no"/>rit in subiecto necessario negationem termini 
+      ali<lb ed="#P" n="47" break="no"/>cuius positiui ad quam est / vel positionem termini quam 
+      <lb ed="#P" n="48"/>destruit: quia est inter duos terminos quorum vnus 
+      <lb ed="#P" n="49"/>est positiuus et alius negatiuus: hoc patet quia est 
+      <lb ed="#P" n="50"/>actus entis in potentia. Ens autem in potentia 
+      im<lb ed="#P" n="51" break="no"/>cludit negatioi. em illius ad quod est in potentia / et 
+      <lb ed="#P" n="52"/>est in potentia a. l aliquid vel ad negationem eius. 
+      <lb ed="#P" n="53"/>Ex quo patet quod si aliquid produceretur ab eterno 
+      quam<lb ed="#P" n="54" break="no"/>tumcunque in subiecto et de subiecto hoc non esset per 
+      ve<lb ed="#P" n="55" break="no"/>ram et propriam mutationem quia in subiecto tunc non 
+      <lb ed="#P" n="56"/>precederet negatio termini. Tertio requiritur quod sit 
+      <lb ed="#P" n="57"/>actus habens ordinem in terminum: quia est actus 
+      en<lb ed="#P" n="58" break="no"/>tis in potentia secundum quod huiusmodi / quia in ordine 
+      <lb ed="#P" n="59"/>ad aliquem terminum ponendum vel corrumpendum 
+      <lb ed="#P" n="60"/>per ipsam. Unde patet quod nulla forma non habens 
+      <lb ed="#P" n="61"/>ordinem in terminum ( cuiusmodi est omnis forma 
+      <lb ed="#P" n="62"/>absoluta ) isto modo potest dici mutatio. Unde nec a 
+      <lb ed="#P" n="63"/>bedo nec forma substantialis possunt dici mutatio¬ 
+      <!--197.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>nes nec sunt motus nec generatio: quia tunc 
+      mutatio<lb ed="#P" n="65" break="no"/>esset actus mutabilis in ordine ad seipsum quod est 
+      <lb ed="#P" n="66"/>nihil. Quarto oportet quod mutatio sit actus 
+      instanta<lb ed="#P" n="67" break="no"/>neus vel in fieri et successiuus: Instantaneus sicut 
+      <lb ed="#P" n="68"/>generatio: Successiuus sicut motus. Unde 
+      impos<lb ed="#P" n="69" break="no"/>sibile est quod aliqua forma permanens sit mutatio vel 
+      <lb ed="#P" n="70"/>motus. Et hoc patet ex ipsa ratione mutationis qrgo 
+      <lb ed="#P" n="71"/>excludit esse permansiuum. Quod enim permanet non 
+      <lb ed="#P" n="72"/>mutatur secundum quod huiusmodi / immo ista opponuntur 
+      <lb ed="#P" n="73"/>sicut album et nigrum. quare etc. Et ista mutatio pro 
+      <lb ed="#P" n="74"/>prie accepta communis est ad generationem et 
+      corru<lb ed="#P" n="75" break="no"/>ptionem / que sunt mutationes substantiales: et ad 
+      mu<lb ed="#P" n="76" break="no"/>tationes instantaneas accidentales cuiusmodi est 
+      <lb ed="#P" n="77"/>illuminatio / et ad mutationes accidentales 
+      successi<lb ed="#P" n="78" break="no"/>uas quae sunt motus sicut alteratio augmentatio et latio 
+      <lb ed="#P" n="79"/>Unde ibi accipit Aristo. motum non proprie distinguendo 
+      <lb ed="#P" n="80"/>ipsum a simplici mutatione quod etiam nondum 
+      distin<lb ed="#P" n="81" break="no"/>xerat inter ista. Unde et ibidem exemplificat et de 
+      mo<lb ed="#P" n="82" break="no"/>tu proprie dicto et de simplici mutatione cuiusmodi 
+      <lb ed="#P" n="83"/>est generatio vel corruptio substantialis.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e351">
+      ¶ Alio 
+      <lb ed="#P" n="84"/>modo accipitur mutatio improprie vel large pro 
+      <lb ed="#P" n="85"/>quacumque noua inceptione alicuius esse realis vel 
+      de<lb ed="#P" n="86" break="no"/>sitione talis esse quantumcumque non de subiecto: et hoc 
+      <lb ed="#P" n="87"/>siue per se siue per accidens et isto modo creatio vel 
+      <lb ed="#P" n="88"/>annichilatio dicuntur mutationes et transsubstantia 
+      <lb ed="#P" n="89"/>tio: et omne breuiter quod potest incipere vel desinere 
+      <lb ed="#P" n="90"/>dicitur mutabile: primo autem modo non / sed solum subiectum 
+      <lb ed="#P" n="91"/>mutationis dicitur mutabile Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e371">
+               <lb ed="#P" n="92"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="93" break="no"/>
+      a<lb ed="#P" n="94" break="no"/>ticulum Probo primo quod deus non est mutabili 
+      <lb ed="#P" n="95"/>mutatione proprie dicta et acceptione. Primo modo 
+      <lb ed="#P" n="96"/>primo sic. Illud quod non est componibile cum 
+      ali<lb ed="#P" n="97" break="no"/>quo nec potest habere rationem subiecti non est 
+      mu<lb ed="#P" n="98" break="no"/>tabile primo modo patet ex predictis: sed deus non 
+      <lb ed="#P" n="99"/>est componibilis cum aliquo nec potest esse subiectum 
+      <lb ed="#P" n="100"/>alicuius vt dictum est supra et probatum. igitur etc. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e393">
+               <lb ed="#P" n="101"/>¶ Secundo sic. Illud quod non est in potentia ad aliquid 
+      <lb ed="#P" n="102"/>non est mutabile ad aliquid sicut dictum est: quia 
+      mu<lb ed="#P" n="103" break="no"/>tatio est actus entis in potentia: sed deus cum sit 
+      pu<lb ed="#P" n="104" break="no"/>rus actus ad nichil est in potentia. igitur etc.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e404">
+      ¶ Ter 
+      <lb ed="#P" n="105"/>tio sic. quod est idem realiter omni compossibili sibi 
+      for<lb ed="#P" n="106" break="no"/>maliter in eodem supposito non est mutabile: sed deus 
+      <lb ed="#P" n="107"/>est huiusmodi cum sit infinitus intensiue 
+      simplici<lb ed="#P" n="108" break="no"/>ter. igitur etc.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e415">
+      ¶ Quarto sic. quod secundum totum id quod est 
+      <lb ed="#P" n="109"/>et quod habet est necesse esse est immutabile / quod patet 
+      <lb ed="#P" n="110"/>quia omne mutabile secundum primum modum potest 
+      habe<lb ed="#P" n="111" break="no"/>re aliquid quod non habet: sed deus est huiusmodi. igitur etc. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e425">
+               <lb ed="#P" n="112"/>¶ Secundo probo quod deus est immutabilis per nega 
+      <lb ed="#P" n="113"/>tionem mutationis dicte large etiam et communiter. 
+      <lb ed="#P" n="114"/>Primo sic. Necesse esse ex se formaliter non potest 
+      <lb ed="#P" n="115"/>non esse vel esse post non esse / sed deus est huiusmodi. igitur etc. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e436">
+               <lb ed="#P" n="116"/>¶ Secundo sic quod est primum simpliciter in entibus 
+      <lb ed="#P" n="117"/>non potest mutari ab esse in non esse / nec 
+      econuerso<lb ed="#P" n="118" break="no"/>quia tunc dependeret ab alio et non esset primum sed 
+      <lb ed="#P" n="119"/>deus est huiusmodi. igitur etc.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e447">
+      ¶ Tertio sic. Illud non 
+      <lb ed="#P" n="120"/>potest mutari ab esse in non esse de cuius 
+      conceptu<lb ed="#P" n="121" break="no"/>quidditatiuo est esse / sicut non potest mutari a 
+      conceptu<lb ed="#P" n="122" break="no"/>quidditatiuo ad non conceptum: sed deus est huiusmodi vt 
+      <lb ed="#P" n="123"/>probatum est supra. igitur etc. Et concludunt iste rationes 
+      <lb ed="#P" n="124"/>de deo et omni eo quod est in ipso formaliter et ex 
+      natu<lb ed="#P" n="125" break="no"/>ra rei quia omne tale est deus. Unde nec potest esse 
+      sub<lb ed="#P" n="126" break="no"/>iectum nec terminus alicuius mutationis nec 
+      mu<lb ed="#P" n="127" break="no"/>tatio ipsa siue per se siue per accidens. Unde dico quod 
+      <lb ed="#P" n="128"/>est simpliciter immutabilis et per se et per accidens. 
+      <!--198.xml-->
+       <pb ed="#P" n="94-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>te instabis quod deus est mutabi¬ 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e478">
+               <lb ed="#P" n="2"/>¶ Sed focde lis Primo modo quia 
+      qui<lb ed="#P" n="3" break="no"/>cunque vult aliquid de nouo mutatur. patet. sed deus 
+      <lb ed="#P" n="4"/>vult aliquid de nouo quia creat aliquid de nouo / suum 
+      <lb ed="#P" n="5"/>autem creare est suum velle secundum me. igitur etc. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e489">
+               <lb ed="#P" n="6"/>¶ Secundo sic. Sicut se habet voluntas noua ad effe 
+      <lb ed="#P" n="7"/>ctum nouum sic voluntas antiqua ad effectum antiquum 
+      <lb ed="#P" n="8"/>sed voluntate noua non potest produci effectus 
+      anti<lb ed="#P" n="9" break="no"/>quus igitur nec antiqua vel eterna nouus: sed deus 
+      <lb ed="#P" n="10"/>producit aliquid de nouo igitur habet voluntatem vel 
+      <lb ed="#P" n="11"/>volitionem nouam. igitur mutatur.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e505">
+      ¶ Tertio sic. 
+      <lb ed="#P" n="12"/>vel deus ab eterno voluit effectum suum et sic de 
+      ne<lb ed="#P" n="13" break="no"/>cessitate / et sic effectus est eternus: vel voluit 
+      contin<lb ed="#P" n="14" break="no"/>genter et tunc voluntas eius fuit indeterminata: sed 
+      <lb ed="#P" n="15"/>nichil indeterminatum exit in actum nisi per aliquid de 
+      <lb ed="#P" n="16"/>terminetur: igitur oportet ipsam determinari et per 
+      con<lb ed="#P" n="17" break="no"/>sequens mutari.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e522">
+      ¶ Quarto quia si voluntas eius est 
+      inde<lb ed="#P" n="18" break="no"/>terminata quare plus vult hoc quam illud non videtur ratio. 
+      <lb ed="#P" n="19"/> instantiam dico quod deus 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e529">
+               <lb ed="#P" n="20"/>¶ Ad primant nullum actum volendi 
+      ha<lb ed="#P" n="21" break="no"/>bet de nouo sed vnico actu eterno vult omnia ab 
+      eter<lb ed="#P" n="22" break="no"/>non ex parte sui: et aliqua pro tali immo pro tali 
+      tempo<lb ed="#P" n="23" break="no"/>re ex parte volitorum / vnde dico quod ratio actiua non 
+      <lb ed="#P" n="24"/>est nisi volitio eterna dei de qua voluit et vult rem esse 
+      <lb ed="#P" n="25"/>pro illo nunc in quo creatur.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e545">
+      ¶ Ad secundam dico 
+      <lb ed="#P" n="26"/>quod prima comparatio vel similitudo est mala: quia 
+      <lb ed="#P" n="27"/>voluntas noua est voluntas creata et limitata / nec 
+      <lb ed="#P" n="28"/>habet esse ante antiquum effectum nec natura nec 
+      <lb ed="#P" n="29"/>duratione: voluntas autem antiqua diuina est 
+      illi<lb ed="#P" n="30" break="no"/>mitata et omnipotens: et potest in aliquid posterius 
+      pu<lb ed="#P" n="31" break="no"/>ta in effectum nouum cui praexistit natura vel 
+      dura<lb ed="#P" n="32" break="no"/>tione / et ideo dico quod voluntas diuina propter sui illum 
+      <lb ed="#P" n="33"/>mitationem et perfectionem vnico simplici actu et 
+      <lb ed="#P" n="34"/>eterno potest velle et vult omnia quecumque vult et 
+      no<lb ed="#P" n="35" break="no"/>ua et antiqua.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e569">
+      ¶ Ad tertiam dico quod voluntas 
+      diui<lb ed="#P" n="36" break="no"/>ma voluit ab eterno quicquid vult et voluit / nec tamen 
+      <lb ed="#P" n="37"/>sequitur quod effectus aliquis sit eternus / quia ab 
+      eter<lb ed="#P" n="38" break="no"/>no voluit omnem effectum suum esse nouum et ex 
+      tem<lb ed="#P" n="39" break="no"/>pore / ita quod actus voluntatis divine licet sit eternus 
+      <lb ed="#P" n="40"/>in se et necessarius tamen obiectum super quod transit 
+      <lb ed="#P" n="41"/>potest esse contingens et nouum. Tu dicis igitur 
+      vo<lb ed="#P" n="42" break="no"/>luntas secundum se est indeterminata et sic vult 
+      com<lb ed="#P" n="43" break="no"/>tingenter. Dico quod non est indeterminata 
+      indetermi<lb ed="#P" n="44" break="no"/>natione passiua sed bene actiua: nec etiam prius quam 
+      <lb ed="#P" n="45"/>peterminentur tempore vel aliqua duratione: sed 
+      so<lb ed="#P" n="46" break="no"/>lum ratione. et ideo nec oportet ipsum per aliquid alid 
+      <lb ed="#P" n="47"/>determinari nec de nouo determinari nec mutari 
+      <lb ed="#P" n="48"/>aliquo modo / nec est etiam indeterminata ad actum 
+      <lb ed="#P" n="49"/>intrinsecum sed ad obiectum contingens exetrinse 
+      <lb ed="#P" n="50"/>cum.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e604">
+      ¶ Ad quartum dico quod voluntas dei est prima 
+      <lb ed="#P" n="51"/>causa omnium: prime autem cause non debet queri causa 
+      <lb ed="#P" n="52"/>et ideo dico quod voluntas vult hoc et non illud et hoc 
+      <lb ed="#P" n="53"/>prius quam illud et nulla est causa altera sed solum quia 
+      <lb ed="#P" n="54"/>voluntas est voluntas / et dico quod in contingentibus 
+      <lb ed="#P" n="55"/>sicut et in necessariis necesse est deuenire ad aliqua 
+      <lb ed="#P" n="56"/>prima et immediata quorum non est altera causa. vn 
+      <lb ed="#P" n="57"/>inter propoaitiones contingentes necesse est dare 
+      aliquan<lb ed="#P" n="58" break="no"/>primam ad quam stat resolutio omnium aliarum / 
+      <lb ed="#P" n="59"/>et illa est propositio deus vult / sed voluntas diuina 
+      <lb ed="#P" n="60"/>vult contingens vel contingenter quequidem 
+      volu<lb ed="#P" n="61" break="no"/>tio licet in se sit necessaria tamen vt transit super ob 
+      <lb ed="#P" n="62"/>iectum contingens quod est possibile et creatura 
+      di<lb ed="#P" n="63" break="no"/>citur et denominatur contingens. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e635">
+               <lb ed="#P" n="64"/>¶ Quantum ad tertium arti¬ 
+      <!--198.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>culum dico quod philosophi aliqua alia a primo 
+      posue<lb ed="#P" n="66" break="no"/>runt esse necesse esse ex se formaliter et aliqui ex ipsis l 
+      <lb ed="#P" n="67"/>sicut refert Augustinus vndecimo de trinitate dei  
+      <lb ed="#P" n="68"/>Posuerunt quod illansunt dependentia a primo non 
+      <lb ed="#P" n="69"/>tamen sunt facta: ita quod sicut a fine dependent a deo 
+      <lb ed="#P" n="70"/>non sicut ab efficiente quemadinodum imponunt mul 
+      <lb ed="#P" n="71"/>ti astrologi.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e660">
+      ¶ Alii vero posuerunt quod illa sunt 
+      ne<lb ed="#P" n="72" break="no"/>cesse esse ex se formaliter et tamen dependentia et 
+      fa<lb ed="#P" n="73" break="no"/>cta in primo necessario tamen / et immutabiliter. Ad  
+      <lb ed="#P" n="74"/>do autem menbrum qui est Auicenne quinto 
+      metha<lb ed="#P" n="75" break="no"/>phice qui etiam imponitur Aristoteli ab aliis quod vnum 
+      <lb ed="#P" n="76"/>quodque incorporale aliud a primo est possibile esse 
+      <lb ed="#P" n="77"/>secundum quidditatem et necesse esse secundum 
+      existen<lb ed="#P" n="78" break="no"/>tiam / quam largitur agens necessario deus ne 
+      po<lb ed="#P" n="79" break="no"/>natur mutatio in ipso secundum omnes istos oporteret 
+      <lb ed="#P" n="80"/>dicere quod non solum deus est immutabilis sed etiam 
+      <lb ed="#P" n="81"/>alia adeo incorruptibilia immutabilia aliquo modo / 
+      <lb ed="#P" n="82"/>licet non simpliciter et omnino sicut deus que omnia sunt 
+      <lb ed="#P" n="83"/>falsa et contra fidem et de predictis inquiram in secundo. 
+      <lb ed="#P" n="84"/>breuiter quod omne aliud  
+      </p>
+            <p xml:id="qrdBas-a59891-d1e691">
+               <lb ed="#P" n="85"/>¶ Dico igitue a deo mutabile est muta quod 
+      <lb ed="#P" n="86"/>tione que dicitur versio que est desitio totalis 
+      essen<lb ed="#P" n="87" break="no"/>di quam voco annichilationem et hoc probo primo sic  
+      <lb ed="#P" n="88"/>Primo Omne illud quando habet esse post non esse potest non 
+      <lb ed="#P" n="89"/>esse totaliter post esse quia secundum Damascenum 
+      pri<lb ed="#P" n="90" break="no"/>mo libro capitulo tertio. Omne quod a versione 
+      inci<lb ed="#P" n="91" break="no"/>pit in versionem tendit sed omne aliud a deo 
+      secun<lb ed="#P" n="92" break="no"/>dum veritatem fidei est huiusmodi. igitur etc. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e711">
+               <lb ed="#P" n="93"/>¶ Tertio sic. Illud quod est totalis causa 
+      contin<lb ed="#P" n="94" break="no"/>gens et libera totalis esse alicuius potest mutare illud 
+      <lb ed="#P" n="95"/>faciendo illud simpliciter non esse sed deus 
+      respectu<lb ed="#P" n="96" break="no"/>omnis extrinseci est huiusmodi igitur etc. Hoc 
+      di<lb ed="#P" n="97" break="no"/>cit Augustinus super Genesim ad litteram 
+      octa<lb ed="#P" n="98" break="no"/>uo ca. quod si manutenentia dei substraheretur ab istis 
+      <lb ed="#P" n="99"/>statim caderent ad nichilum / et ponit exemplum 
+      de<lb ed="#P" n="100" break="no"/>sole et aere illuminato.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e731">
+      ¶ Secundo dico quod loquendo 
+      <lb ed="#P" n="101"/>de mutatione proprie dicta multe creature sunt 
+      mu<lb ed="#P" n="102" break="no"/>tabiles: patet primo de materia que mutabilis est 
+      <lb ed="#P" n="103"/>ad formam substantialem secundo de composito 
+      cor<lb ed="#P" n="104" break="no"/>ruptibili quod est mutabile ad aliquod accidens quod 
+      <lb ed="#P" n="105"/>potest sibi inesse et non inesse. Tertio patet de 
+      compo<lb ed="#P" n="106" break="no"/>sitis incorruptibilibus si ponantur aliqua 
+      composita<lb ed="#P" n="107" break="no"/>ex materia et forma esse incorruptibilia sicut celum 
+      <lb ed="#P" n="108"/>secundum aliquos quod est transmutabile ad vbi et 
+      <lb ed="#P" n="109"/>ad illuminationem et lumen sicut patet de luna. Si 
+      <lb ed="#P" n="110"/>militer patet de substantia separata cuiusmodi est 
+      <lb ed="#P" n="111"/>angelus vel intelligentia quecumque alia a prima. 
+      Pa<lb ed="#P" n="112" break="no"/>tet enim secundum fideles quod est transmutabilis ad 
+      <lb ed="#P" n="113"/>aliqua multa puta ad intellectiones vel volitiones 
+      <lb ed="#P" n="114"/>que sunt aliqua in ipsa / sicut patet etiam de 
+      ange<lb ed="#P" n="115" break="no"/>lis qui peccauerunt Ideo propter hoc dicit beatus 
+      Gre<lb ed="#P" n="116" break="no"/>gorius quod sola natura a suo statu nescit moueri que 
+      <lb ed="#P" n="117"/>ab eo quod semper idem est nescit immutari natura autem 
+      <lb ed="#P" n="118"/>angelica mutabilis est sicut dicit super illud 
+      Iob<lb ed="#P" n="119" break="no"/>Ecce quiiseruiunt ei non sunt stabiles et in angelis 
+      <lb ed="#P" n="120"/>suis reperit prauitatem.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e777">
+      ¶ Hoc autem aliqui nitun 
+      <lb ed="#P" n="121"/>tur probare sed non video quod demonstrent. Arguuntur 
+      <lb ed="#P" n="122"/>enim sic. Intellectus angelicus potest intelligere 
+      <lb ed="#P" n="123"/>quodlibet ens quia quilibet intellectus habet totum 
+      <lb ed="#P" n="124"/>ens pro obiecto etiam intellectus humanus de quo 
+      <lb ed="#P" n="125"/>minus videtur sed intelligibilia sunt infinita igitur 
+      <lb ed="#P" n="126"/>intellectus angelicus infinita potest intelligere: 
+      <lb ed="#P" n="127"/>aut igitur pluribus intellectionibus actu simul 
+      ext<lb ed="#P" n="128" break="no"/>stentibus in angelo / aut pluribus suecessiue / aut 
+      vna<lb ed="#P" n="129" break="no"/>et eadem intellectione: non pluribus actu simul existen¬ 
+      <!--199.xml-->
+       <pb ed="#P" n="94-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tibus quia cum intelligibilia sint infinita 
+      intellectio<lb ed="#P" n="2" break="no"/>nes erunt actum finite et per consequens subiectum 
+      <lb ed="#P" n="3"/>ipsarum. Dices quod intellectiones erunt actu. Contra 
+      <lb ed="#P" n="4"/>ex hoc habetur propositum quod scilicet natura angeli 
+      mu<lb ed="#P" n="5" break="no"/>tabilis est ad formam accidentalem. Dices quod sunt 
+      <lb ed="#P" n="6"/>substantia angeli. Contra quia tunc substantia 
+      ange<lb ed="#P" n="7" break="no"/>li erit infinita intensiue: quia substantialiter continet 
+      <lb ed="#P" n="8"/>intellectiones infinitas. Si dicas quod pluribus 
+      intel<lb ed="#P" n="9" break="no"/>lectionibus succedentibus intelligat habetur 
+      propo<lb ed="#P" n="10" break="no"/>situm quod substantia angeli sit mutabilis ad accidens 
+      <lb ed="#P" n="11"/>Si dicas quod vnica intellectione / aut illa erit accidens 
+      <lb ed="#P" n="12"/>et sic habetur propositum si substantia angeli. 
+      Con<lb ed="#P" n="13" break="no"/>tra Omne quod habet ex natura et substantia sua 
+      <lb ed="#P" n="14"/>(non dico tanquam accidens distinctum) intellectionem 
+      <lb ed="#P" n="15"/>infinitorum est substantialiter infinitum intensiue: an 
+      <lb ed="#P" n="16"/>gelus est huiusmodi per te igitur etc. sed hoc est 
+      fal<lb ed="#P" n="17" break="no"/>sum. Igitur intellectio angeli est accidens eius et per 
+      <lb ed="#P" n="18"/>consequens angelus est mutabilis ad ipsam. Ista 
+      ra<lb ed="#P" n="19" break="no"/>tio tanquam probabilis relinquatur quia non videtur 
+      mi<lb ed="#P" n="20" break="no"/>chi quod demonstret.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e849">
+      ¶ Nota hic quod ista ratio secundum me 
+      <lb ed="#P" n="21"/>non est de magistro quia infinita distincte non arguit 
+      <lb ed="#P" n="22"/>infinitam perfectionem in intelligente: et hoc siue 
+      <lb ed="#P" n="23"/>sit illa intellectio accidens siue substantia 
+      intelligen<lb ed="#P" n="24" break="no"/>tis. De substantia dictum est supra distinctione 
+      ter<lb ed="#P" n="25" break="no"/>tia. vbi loquebatur de infinitate dei. De accidente 
+      <lb ed="#P" n="26"/>dicetur in Tertio. distinctione quartadecima de 
+      no<lb ed="#P" n="27" break="no"/>ticia anime christi in verbo qua videt infinita 
+      distin<lb ed="#P" n="28" break="no"/>cte in verbo siue verbum / et tamen illa intellectio non 
+      <lb ed="#P" n="29"/>est actu infinita: hoc tamen magis posset euadi quia 
+      <lb ed="#P" n="30"/>hoc est per rationem vnius primi obiecti quod non 
+      con<lb ed="#P" n="31" break="no"/>prehenditur: nec ista eque perfecte intelliguntur sicut 
+      <lb ed="#P" n="32"/>possunt intelligi / sicut nec primum obiectum per quod 
+      <lb ed="#P" n="33"/>intelliguntur perfecte comprehenditur et ita non oportet 
+      <lb ed="#P" n="34"/>noticiam accidentalem esse infinitam infinitorum 
+      <lb ed="#P" n="35"/>distincte: tamen forte aliqua similia possent dici de 
+      <lb ed="#P" n="36"/>intellectione secunde intelligentie. Diceretur enim quod 
+      <lb ed="#P" n="37"/>vel per seipsam vellper primam intelligitur alia / et 
+      <lb ed="#P" n="38"/>nec seipsam nec primam intelligit ita perfecte sicut 
+      <lb ed="#P" n="39"/>est intelligibilis sed solum primam / et ita finaliter 
+      <lb ed="#P" n="40"/>non video quod illa ratio demonstret. Diceretur etiam quod 
+      <lb ed="#P" n="41"/>illa prima euasio non valet quia licet deus ita 
+      perfe<lb ed="#P" n="42" break="no"/>cte intelligat alia sicut sunt intelligibilia et per obiectum 
+      <lb ed="#P" n="43"/>comprehensum non tamen est ratio demonstratiua 
+      <lb ed="#P" n="44"/>quod deus sit infinitus require supra distinctione 
+      se<lb ed="#P" n="45" break="no"/>cunda. Deiceretur tamen sustinendo illam 
+      euasio<lb ed="#P" n="46" break="no"/>nem quod licet intelligere infinita quantum perfecte 
+      <lb ed="#P" n="47"/>intelligi possunt non domonstret infinitatem 
+      intel<lb ed="#P" n="48" break="no"/>ligentis: tamen non intelligere perfecte quantum sunt 
+      <lb ed="#P" n="49"/>intelligibilia tollit sufficienter infinitatem 
+      intelligen<lb ed="#P" n="50" break="no"/>tis. Similiter etiam angeli sunt mutabiles 
+      secun<lb ed="#P" n="51" break="no"/>dum locum / secundum modum existendi in loco / se 
+      <lb ed="#P" n="52"/>cundum veritatem fide et Damascenum primo 
+      li<lb ed="#P" n="53" break="no"/>bro capitulo tertio. Alia autem sunt creata quae proprie 
+      <lb ed="#P" n="54"/>non sunt mutabilia secundum istum modum 
+      muta<lb ed="#P" n="55" break="no"/>tionis sed vel sunt mutiones ipse vel termini 
+      mu<lb ed="#P" n="56" break="no"/>tationum vel aliquid concomitans ipsa. 
+      <lb ed="#P" n="57"/>igitur quod solus deus simpli¬ 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e933">
+               <lb ed="#P" n="58"/>¶ Concludo citer est immutabilis 
+      quocun<lb ed="#P" n="59" break="no"/>que modo mutationis nec enim potest esse subiectum 
+      <lb ed="#P" n="60"/>mutationis quia est purus actus / nec terminus 
+      muta<lb ed="#P" n="61" break="no"/>tionis quocumque modo / quia primum est summum 
+      ne<lb ed="#P" n="62" break="no"/>cesse esse / immo ipse solus necesse esse non de nullo sicut 
+      <lb ed="#P" n="63"/>ait August. 12. de ciui. dei. cap 1. Et hec de. 3. ar. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e949">
+               <lb ed="#P" n="64"/>¶ Ad primum principale di¬ 
+      <!--199.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>co quod deus nullam realem rationem vel 
+      aptitudina<lb ed="#P" n="66" break="no"/>lem habet ad creaturam sed econuerso ad ipsum. 
+      </p>
+            <p xml:id="qrdBas-a59891-d1e962">
+               <lb ed="#P" n="67"/>¶ Ad secundum dico quod deus nichil vult 
+      volitio<lb ed="#P" n="68" break="no"/>ne noua licet volitum sit nouum in esse ideo dicitur 
+      <lb ed="#P" n="69"/>creans de nouo.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e971">
+      ¶ Ad tertium dico quod licet 
+      muta<lb ed="#P" n="70" break="no"/>tionis non sit mutatio vt subiecti: tamen incipit et desinit 
+      <lb ed="#P" n="71"/>esse et ideo mutabilis est large.
+    </p>
+            <p xml:id="qrdBas-a59891-d1e978">
+      ¶ Ad quartum 
+      di<lb ed="#P" n="72" break="no"/>co quod Aristoteles in hoc errauit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

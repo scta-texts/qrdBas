@@ -1,0 +1,971 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="96-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a61741"><!-- l1d9q1 -->
+            <head xml:id="qrdBas-a61741-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a61741-d1e101">
+               <lb ed="#P" n="57"/>¶ Distinctionis None Primi 
+      <lb ed="#P" n="58"/>Sententiarum. Questio
+      <lb ed="#P" n="59"/>Unica.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e110">
+      <!--202.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="60"/>CIrca distinctionem 
+      <lb ed="#P" n="61"/>Nonam quero. Utrum 
+      gene<lb ed="#P" n="62" break="no"/>ratio a patre sit eterna.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e123">
+      ¶ Et 
+      <lb ed="#P" n="63"/>videtur quod non: quia vbi est idem 
+      <lb ed="#P" n="64"/>duratio et esse: quod habet 
+      prin<lb ed="#P" n="65" break="no"/>cipium suum esse et sue duratio 
+      <lb ed="#P" n="66"/>nis: sed in filio dei est idem 
+      du<lb ed="#P" n="67" break="no"/>ratio et esse. Filius autem 
+      ha<lb ed="#P" n="68" break="no"/>bet principium sui esse: quia 
+      patrem<lb ed="#P" n="69" break="no"/>igitur et durationis ergo non est eternus.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e141">
+      ¶ Secun<lb ed="#P" n="70" break="no"/>do sic. Sicut se habet corruptio ad non esse: sic 
+      ge<lb ed="#P" n="71" break="no"/>neratio ad esse: sed omne quod corrumpitur habet non 
+      <lb ed="#P" n="72"/>esse post esse vt patet / igitur omne quod generatur 
+      <lb ed="#P" n="73"/>habet esse post non esse et per consequens est nouum. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e153">
+               <lb ed="#P" n="74"/>¶ Tertio sic. Principium est prius principiato igi 
+      <lb ed="#P" n="75"/>pater filio / non natura: quia eadem est natura in 
+      ambo<lb ed="#P" n="76" break="no"/>bus igitur duratione / igitur filius non est eternus. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e162">
+               <lb ed="#P" n="77"/>¶ Quarto sic. Si a et b mensurantur tempore: et f 
+      <lb ed="#P" n="78"/>generatur ab a / a est prius tempore ipso b: igitur 
+      si<lb ed="#P" n="79" break="no"/>militer cum pater et filius mensurentur eternitatem 
+      <lb ed="#P" n="80"/>et filius generetur de patre / pater est prior filio eternitate 
+      <lb ed="#P" n="81"/>ergo duratione.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e175">
+      ¶ Contra in Symbolo 
+      Atha<lb ed="#P" n="82" break="no"/>nasii. Eternus pater / eternus filius / eternus spiritus 
+      <lb ed="#P" n="83"/> sanctus. Igitur generatio filii est eterna. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e182">
+               <lb ed="#P" n="84"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e187">
+               <lb ed="#P" n="85"/>¶ Primo inquiram vtrum generatio arguat in 
+      di<lb ed="#P" n="86" break="no"/>uinis personis realem distinctionem generationis a genito. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e194">
+               <lb ed="#P" n="87"/>¶ Secundo inquiram vtrum generatio diuina sit eterna. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e200">
+               <lb ed="#P" n="88"/>¶ Tertio vtrum inter generationem et genitum sit 
+      <lb ed="#P" n="89"/>aliquis ordo realis et ex natura rei¬ 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e207">
+               <lb ed="#P" n="90"/>¶ Quantum ad primum 
+      ar<lb ed="#P" n="91" break="no"/>ticulum videretur alicui quod generatio non arguat in 
+      di<lb ed="#P" n="92" break="no"/>uinis realem distinctionem generantis a genito / sed  
+      <lb ed="#P" n="93"/>quod idem suppositum realiter sit generans et genitum 
+      <lb ed="#P" n="94"/>pater et filius.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e220">
+      ¶ Primo sic. Idem potest esse 
+      mo<lb ed="#P" n="95" break="no"/>uens et motum sicut patet de voluntate / ita quod 
+      mo<lb ed="#P" n="96" break="no"/>tio actiua et passiua conuenit eidem: ergo similiter idem 
+      <lb ed="#P" n="97"/>potest esse producens et productum generans et 
+      ge<lb ed="#P" n="98" break="no"/>nitum / ita quod generatio actiua et passiua eidem 
+      suppo<lb ed="#P" n="99" break="no"/>sito conueniant.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e233">
+      ¶ Secundo sic. Essentia diuina 
+      ra<lb ed="#P" n="100" break="no"/>tione sue illimitationis et infinitatis est 
+      commu<lb ed="#P" n="101" break="no"/>nicabilis nec arguit aliquam distinctionem in 
+      ha<lb ed="#P" n="102" break="no"/>bentibus ipsam sed relatio quecumque vel generatio 
+      <lb ed="#P" n="103"/>siue actiua siue passiua in diuinis est illimitata et in 
+      <lb ed="#P" n="104"/>finita. Probatur quia non est finita. Finitum autem et 
+      <lb ed="#P" n="105"/>infinitum diuidunt omne ens: est etiam realiter cum 
+      <lb ed="#P" n="106"/>essentia: igitur quelibet est communicabilis et non 
+      ar<lb ed="#P" n="107" break="no"/>guit distinctionem in supposito sed filiatio et patet 
+      <lb ed="#P" n="108"/>nitas possunt conuenire eidem supposito vt videtur / 
+      <lb ed="#P" n="109"/>et per consequens generatio actiua et passiua 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e257">
+               <lb ed="#P" n="110"/>¶ Tertio illud quod quanto perfectius est arguit 
+      ma<lb ed="#P" n="111" break="no"/>iorem vnitatem / in summo raguit maximam vnitatem 
+      <lb ed="#P" n="112"/>et per consequens nullam distinctionem. Sed 
+      gene<lb ed="#P" n="113" break="no"/>ratio quanto est perfectior tanto arguit maiorem 
+      vni<lb ed="#P" n="114" break="no"/>tatem vel minorem distinctionem inter generans et 
+      <lb ed="#P" n="115"/>genitum / vt dictum est supra: igitur in deo in quo 
+      <lb ed="#P" n="116"/>est summe perfecta generatio nullam arguit distinctio. 
+      <lb ed="#P" n="117"/>nem sed summam vnitatem.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e277">
+      ¶ Quarto sic. Non plus 
+      <lb ed="#P" n="118"/>videtur de ratione generationis distinctio quam 
+      mu<lb ed="#P" n="119" break="no"/>tatio: sed generatio inuenitur in diuinis sine 
+      muta<lb ed="#P" n="120" break="no"/>tione / igitur et sine distinctione. Confirmatur quia 
+      <lb ed="#P" n="121"/>idem est ratio communicandi seipsum idem in numero¬ 
+      <!--203.xml-->
+       <pb ed="#P" n="96-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Patet de diuina essentia igitur similiter 
+      generan<lb ed="#P" n="2" break="no"/>di se. Confirmatur secundo quia idem realiter est 
+      communi<lb ed="#P" n="3" break="no"/>cabile et incommunicabile. Patet de essentia et 
+      rela<lb ed="#P" n="4" break="no"/>tione / igitur idem realiter potest esse generans et 
+      ge<lb ed="#P" n="5" break="no"/>nitum: quia non magis repugnat ista circa idem quam 
+      <lb ed="#P" n="6"/>contra supradicta. 
+      <lb ed="#P" n="7"/>sicut oportet dicere quod gene¬ 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e311">
+               <lb ed="#P" n="8"/>¶ Sed dico ratio arguit in diuinis realem 
+      <lb ed="#P" n="9"/>distinctionem generantis a genito. Hoc primo 
+      pro<lb ed="#P" n="10" break="no"/>batur sic. Nichil dat sibiipsi esse simpliciter. 
+      Pro<lb ed="#P" n="11" break="no"/>batio / quia omne quod dat alicui esse simpliciter pre 
+      <lb ed="#P" n="12"/>supponitur illi vt patet: sed generans dat 
+      genita<lb ed="#P" n="13" break="no"/>esse simpliciter quia generatio est ad esse simpliciter / 
+      <lb ed="#P" n="14"/>igitur generans non est ipsum genitum realiter. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e329">
+               <lb ed="#P" n="15"/>¶ Secundo sic. Relatiua realia abinuicem realite 
+      <lb ed="#P" n="16"/>distinguuntur inquantum relatiua sunt. sed generans 
+      <lb ed="#P" n="17"/>et genitum in diuinis sunt relatiua realia et relatio 
+      <lb ed="#P" n="18"/>nibus oppositis vt patet. igitur etc.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e340">
+      ¶ Tertio sic 
+      <lb ed="#P" n="19"/>Omnes quod est assimilatiuum alicuius ad seipsum est 
+      <lb ed="#P" n="20"/>distinctiuum alicuius a seipso quia nichil 
+      assimilatu<lb ed="#P" n="21" break="no"/>sibiipsi sed alterum alteri sed generatio est 
+      huiusmo<lb ed="#P" n="22" break="no"/>di. Patet igitur etc.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e351">
+      ¶ Quarto sic. Patet ex 
+      predi<lb ed="#P" n="23" break="no"/>ctis alibi quod generatio arguat non solum 
+      distinctio<lb ed="#P" n="24" break="no"/>nem realem in diuinis sed etiam suppositalem: quia 
+      <lb ed="#P" n="25"/>omne proroductum in diuinis est subsistens: quia 
+      ni<lb ed="#P" n="26" break="no"/>chil potest ibi esse inherens subsistenti: quia in diuinis 
+      <lb ed="#P" n="27"/>non est accidens: sed generatum est productum et 
+      rea<lb ed="#P" n="28" break="no"/>liter distinctum vt probatum est / igitur subsistens 
+      in<lb ed="#P" n="29" break="no"/>natura intellectuali et per consequens persona. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e369">
+               <lb ed="#P" n="30"/>¶ Quinto sic: quia quod generatio non terminetur ad 
+      <lb ed="#P" n="31"/>aliquid suppositaliter distinctum a producente hoc 
+      <lb ed="#P" n="32"/>est quia est generatio secundum quid non terminata ad 
+      <lb ed="#P" n="33"/>substantiam: sed generatio diuina terminatur ad 
+      sub<lb ed="#P" n="34" break="no"/>stantiam: quia in diuinis nullum est accidens: nec per 
+      <lb ed="#P" n="35"/>consequens potest ibi esse generatio secundum 
+      quid<lb ed="#P" n="36" break="no"/>sed simpliciter tantum.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e387">
+      ¶ Confirmatur ista positio 
+      per<lb ed="#P" n="37" break="no"/>Augustinum primo de trinitate capitulo primo qui 
+      <lb ed="#P" n="38"/>dicit quod nichil generat seipsum vt sit. Hoc idem dicit 
+      <lb ed="#P" n="39"/>Anselmus quod nec natura pater nec ratio capit quod idem 
+      <lb ed="#P" n="40"/>seipsum generet. quare etc. 
+      <lb ed="#P" n="41"/>Dico quod con¬ 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e401">
+               <lb ed="#P" n="42"/>¶ Ad primum aliorum sequentia non 
+      <lb ed="#P" n="43"/>valet quia generare est dare esse genito in actu 
+      primo<lb ed="#P" n="44" break="no"/>et simpliciter nichil autem continet seipsum in actu 
+      <lb ed="#P" n="45"/>primo quia tunc actus primus praesupponeretur actum 
+      <lb ed="#P" n="46"/>primo: sed mouere aliquid non est dare esse in actu 
+      <lb ed="#P" n="47"/>primo sed in actu secundo nichil obuiat quin actus 
+      <lb ed="#P" n="48"/>primus possit continere secundum virtualiter vt 
+      pa<lb ed="#P" n="49" break="no"/>tet / et ideo dico quod licet idem possit mouere seipsum 
+      no<lb ed="#P" n="50" break="no"/>tamen producere vel generare seipsum. Preterea etiam. 
+      <lb ed="#P" n="51"/>relationes mouentis et moti non sunt formaliter 
+      op<lb ed="#P" n="52" break="no"/>posite sicut dixi supra: sed relationes producentis et 
+      <lb ed="#P" n="53"/>producti sunt formaliter opposite nec possunt 
+      sta<lb ed="#P" n="54" break="no"/>re in eodem per se sicut dictum est supra et 
+      precipu<lb ed="#P" n="55" break="no"/>quando productum est substantia non inherens 
+      produ<lb ed="#P" n="56" break="no"/>scenti sed subsistens sicut est in genere substantie. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e436">
+               <lb ed="#P" n="57"/>¶ Ad secundum dico quod relatio diuina non est ex se 
+      for<lb ed="#P" n="58" break="no"/>maliter infinita et ideo non est communicabilis: vel sal 
+      <lb ed="#P" n="59"/>tem ex eius infinitate argui non potest quod sit comicabi 
+      <lb ed="#P" n="60"/>lis. Tu dicis vel est finita vel infinita dico quod neu 
+      <lb ed="#P" n="61"/>trum ex se formaliter. sed bene dico quod realiter quia 
+      <lb ed="#P" n="62"/>eadem realiter cum essentia. Et isto modo finitum 
+      <lb ed="#P" n="63"/>et infinitum diuidunt ens quantum ad supposita et 
+      na<lb ed="#P" n="64" break="no"/>turas: non autem quantum ad omnes rationes in ipsis 
+      re<lb ed="#P" n="65" break="no"/>pertas: nisi pro quanto sunt eedem cum illis naturis 
+      <!--203.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>vel essentiis.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e465">
+      ¶ Ad tertium dico quod generatio non 
+      <lb ed="#P" n="67"/>arguit vnitatem generantis cum genito sed bene 
+      si<lb ed="#P" n="68" break="no"/>militudinem aliquam que non stat nisi cum 
+      distinctio<lb ed="#P" n="69" break="no"/>ne. Et ideo perfectissima generatio arguit maximam 
+      <lb ed="#P" n="70"/>similitudinem et minimam distinctionem vnius ab 
+      al<lb ed="#P" n="71" break="no"/>tero sic est in diuinis.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e478">
+      ¶ Ad quartum dico quod 
+      genera<lb ed="#P" n="72" break="no"/>tio transcendens est ad generationem que est 
+      crea<lb ed="#P" n="73" break="no"/>ture et ad generationem diuinam que non est 
+      muta<lb ed="#P" n="74" break="no"/>tio. Unde dico quod generatio accepta in communi ab 
+      <lb ed="#P" n="75"/>strahit a mutatione / non autem a distinctione 
+      gene<lb ed="#P" n="76" break="no"/>rantis a genito sicut probatum est supra.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e491">
+      ¶ Ad 
+      com<lb ed="#P" n="77" break="no"/>firmationem. communicandi se non est de ratione cum 
+      <lb ed="#P" n="78"/>communicato patet quod communicatum potest existere 
+      immo<lb ed="#P" n="79" break="no"/>presupponit communicabile in diuinis sit infinitum 
+      <lb ed="#P" n="80"/>et ideo intrinsecat ibi realiter ipsum incommunicabile 
+      <lb ed="#P" n="81"/>Non sic autem generans est infinitum. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e504">
+               <lb ed="#P" n="82"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="83" break="no"/>ticulum Dico quod fuit opinio Arrii heretica de qua 
+      <lb ed="#P" n="84"/>loquitur Augustinus sexto de trinitate capitulo I 
+      <lb ed="#P" n="85"/>quod filius dei non est eternus: nec per consequens prodi 
+      <lb ed="#P" n="86"/>ctio eius eterna: sed ex tempore non enim potuit 
+      inte<lb ed="#P" n="87" break="no"/>ligere generationem vel productionem alicuius 
+      in<lb ed="#P" n="88" break="no"/>esse / que non esset ex non esse. Et ita genitum 
+      necessa<lb ed="#P" n="89" break="no"/>rio habet non esse antequam generetur et per consequens 
+      <lb ed="#P" n="90"/>est nouum et non eternum. Tt similiter. generatio eius 
+      <lb ed="#P" n="91"/>Unde posuit filium esse creaturam nobilissimam 
+      <lb ed="#P" n="92"/>et perfectum ex 
+      tempore<lb ed="#P" n="93" break="no"/>est pessimus. Et arguo 
+      con<lb ed="#P" n="94" break="no"/>ste exroe tra eum quod filius in diuinis 
+      <lb ed="#P" n="95"/>est eternus et generatio sua. Agens perfectum non 
+      <lb ed="#P" n="96"/>dependes ab aliquo nec impedibile / agens per modum 
+      <lb ed="#P" n="97"/>nature vel necessario non per motum nec mutationem 
+      <lb ed="#P" n="98"/>habet actionem vel productionem sibi coeternam et pro 
+      <lb ed="#P" n="99"/>ductum patet ex terminis: sed deus pater est tale 
+      pro<lb ed="#P" n="100" break="no"/>ducens respectu filii sicut dictum est igitur. Secundo 
+      <lb ed="#P" n="101"/>sic. Si filius non est eternus / et per consequens generatio / se 
+      <lb ed="#P" n="102"/>quitur quod nec pater nec filius sit deus / hoc est falsum 
+      <lb ed="#P" n="103"/>etiam secundum Arrium. ergo etc. Quod filius non sit de 
+      <lb ed="#P" n="104"/>patet quia non fuerat antequam esset / et est possibile esse et 
+      <lb ed="#P" n="105"/>esse: quod pater non esset deus patet etiam quia ab 
+      eterno<lb ed="#P" n="106" break="no"/>non esset pater / sed de nouo fieret pater et adueniret 
+      <lb ed="#P" n="107"/>sibi paternitas relatio realis ad filium. et sic 
+      muta<lb ed="#P" n="108" break="no"/>retur secundum Ambrosium de spiritu sancto ergo 
+      <lb ed="#P" n="109"/>etc.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e568">
+      ¶ Tertio sic. Illud quod producitur de substantia 
+      <lb ed="#P" n="110"/>necesse esse est eternum sicut et ipsum necesse esse de cuius 
+      <lb ed="#P" n="111"/>substantia producitur: alias enim eadem substantia esset 
+      <lb ed="#P" n="112"/>necesse esse / et non necesse esse: sed filius producitur de 
+      <lb ed="#P" n="113"/>substantia patris. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e579">
+      ¶ Quarto sic. quia in 
+      di<lb ed="#P" n="114" break="no"/>uinis ponenda est generatio sine omni imperfectione 
+      <lb ed="#P" n="115"/>generantis et geniti sed imperfectionis est in 
+      genito<lb ed="#P" n="116" break="no"/>quod incipiat esse et habeat esse nouum et pet consequens 
+      <lb ed="#P" n="117"/>quod generatio eius non sit eterna ergo etc. Hoc 
+      confir<lb ed="#P" n="118" break="no"/>matur per Augustinum sexto de trinitate 
+      capitu<lb ed="#P" n="119" break="no"/>lo primo Ibi disputando contra Arrium ponit / 
+      exen<lb ed="#P" n="120" break="no"/>plum de igne et splendore / quod si ignis esset ab 
+      eterno<lb ed="#P" n="121" break="no"/>splendor eius esset ab eterno / supposito quod ignis sit 
+      <lb ed="#P" n="122"/>agens naturale non impeditum / nec agens per 
+      mo<lb ed="#P" n="123" break="no"/>tum vel mutationem proprie acceptam: sed per simplicen 
+      <lb ed="#P" n="124"/>creationem quia sicut dixi supra. Impossibile est quod 
+      mu<lb ed="#P" n="125" break="no"/>tatio proprie sumpta nec per consequens termini eius 
+      <lb ed="#P" n="126"/>sint eterni secundum se tota quia mutatio necessario prae 
+      <lb ed="#P" n="127"/>supponit negationem forme in subiecto vel formam 
+      <lb ed="#P" n="128"/>negationis. quare etc. Hoc idem vult 
+      Damasce<lb ed="#P" n="129" break="no"/>mus ponens idem exemplum libro primo capitulo. I 
+      <!--204.xml-->
+       <pb ed="#P" n="97-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et capitulo octauo. Ubi probat patrem semper esse 
+      <lb ed="#P" n="2"/>et fuisse patrem / et per consequens generare et 
+      habe<lb ed="#P" n="3" break="no"/>re filium. Dixit sic. Non enim fuit vnquam pater quam 
+      <lb ed="#P" n="4"/>do non fuit filius / sed simul pater simul filius ex eo 
+      <lb ed="#P" n="5"/>genitus. Pater enim sine filio nequaquam vocabitur 
+      <lb ed="#P" n="6"/>Si autem esset non habens filium et postea habue 
+      <lb ed="#P" n="7"/>rit filium et factus est pater non existens ante hoc 
+      <lb ed="#P" n="8"/>pater. Uersus est ab esse et non esse patrem in esse 
+      <lb ed="#P" n="9"/>batrem quod est blasphemia. hec Damascenus. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e642">
+               <lb ed="#P" n="10"/>¶ Dico igitur quod generatio filii est eterna / ita quod 
+      fi<lb ed="#P" n="11" break="no"/>lius semper generatur quia generatio eius est 
+      eter<lb ed="#P" n="12" break="no"/>ua et stans et necesse esse / et semper genitus est: quia 
+      <lb ed="#P" n="13"/>est perfectissima habens secundum terminum suum 
+      <lb ed="#P" n="14"/>perfectissime: ita quod non expectat terminum sicut 
+      ge<lb ed="#P" n="15" break="no"/>nerationes istorum inferiorum quantum ad alteratio 
+      <lb ed="#P" n="16"/>nes et dispositiones procedentes propter 
+      imperfe<lb ed="#P" n="17" break="no"/>ctiones earum in quibus est verum dictum 
+      Augu<lb ed="#P" n="18" break="no"/>stini. 83. questionum. questione tertia. quod 
+      sempe<lb ed="#P" n="19" break="no"/>nascitur nunquam natum est natiuitas habet enim 
+      mo<lb ed="#P" n="20" break="no"/>ra. In diuinis autem quod semper nascitur et 
+      sem<lb ed="#P" n="21" break="no"/>per natum est / et quod semper generatur semper 
+      ge<lb ed="#P" n="22" break="no"/>ueratum est. Hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e673">
+               <lb ed="#P" n="23"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="24" break="no"/>ticulum. Utrum scilicet inter generantem et genitum 
+      <lb ed="#P" n="25"/>sit aliquis ordo ex natura rei et prioritas aliqua 
+      ge<lb ed="#P" n="26" break="no"/>nerantis ad genitum.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e684">
+      ¶ Notandui quod in re preter 
+      <lb ed="#P" n="27"/>ordinem rationis et operationem intellectus / est 
+      du<lb ed="#P" n="28" break="no"/>plex ordo. Unus est ordo durationis quo aliquid 
+      <lb ed="#P" n="29"/>prius est tempore vel duratione / et iste satis patet. 
+      <lb ed="#P" n="30"/>Alius est ordo qui dicitur nature. Et iste dicitur 
+      <lb ed="#P" n="31"/>ordo quo aliquid est prius alio in esse / sic quod aliud dee 
+      <lb ed="#P" n="32"/>pendet in esse ab eo / non econuerso / sicut causatum 
+      <lb ed="#P" n="33"/>a causa dependet non econuerso / et sicut noticia 
+      con<lb ed="#P" n="34" break="no"/>clusionis ex noticia principii non econuerso. 
+      Un<lb ed="#P" n="35" break="no"/>de et Aristoteles dicit quod premisse sunt priores 
+      con<lb ed="#P" n="36" break="no"/>clusione / quod intelligo non quantum ad 
+      proposi<lb ed="#P" n="37" break="no"/>tiones in se / quia aliquando contingit quod conclusio 
+      <lb ed="#P" n="38"/>et premissa sunt realiter eedem sicut patet hic. Omne 
+      <lb ed="#P" n="39"/>animal rationale mortale est risibile / omnis ho mo 
+      <lb ed="#P" n="40"/>est animal rationale mortale / ergo omnis homo est 
+      <lb ed="#P" n="41"/>risibilis / premissa et conclusio sunt eadem ex parte 
+      <lb ed="#P" n="42"/>rei signate sicut diffinitio et diffinitum / nisi forte 
+      di<lb ed="#P" n="43" break="no"/>catur etiam sicut dictum est supra quod alia est 
+      propo<lb ed="#P" n="44" break="no"/>sitio que formatur de diffinitione et alia que forma 
+      <lb ed="#P" n="45"/>tur de diffinito Quantum ad noticias earum 
+      pla<lb ed="#P" n="46" break="no"/>num est quod noticie sunt alie et alie et quod vna dependet 
+      <lb ed="#P" n="47"/>ex alia et non 
+      econuerso<lb ed="#P" n="48" break="no"/>prioritatem assignant alii 
+      se<lb ed="#P" n="49" break="no"/>Alio modo cundum perfectionem 
+      na<lb ed="#P" n="50" break="no"/>turalem / ita quod est naturaliter perfectius est prius 
+      <lb ed="#P" n="51"/>et naturaliter perfectius est posterius sicut videtur 
+      <lb ed="#P" n="52"/>dicere Aristoteles nono Methaphisice. quod forma 
+      <lb ed="#P" n="53"/>est naturaliter prior materia licet econuerso sit quam 
+      <lb ed="#P" n="54"/>tum ad primum modum vel ordinem nature. Iste 
+      <lb ed="#P" n="55"/>autem ordo habet tres conditiones quantum ad 
+      pri<lb ed="#P" n="56" break="no"/>mum modum suum. Prima est quod a priori natura 
+      <lb ed="#P" n="57"/>id quod est posterius dependet realiter. Secunda 
+      <lb ed="#P" n="58"/>conditio est quod prius et posterius natura 
+      essentiali<lb ed="#P" n="59" break="no"/>ter distinguntur. Unde in eadem essentia 
+      simplici<lb ed="#P" n="60" break="no"/>et inuariata impossibile est saluari istum ordinem. 
+      <lb ed="#P" n="61"/>Tertia quod prius sine posteriori potest siue contra 
+      <!--204.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="62"/>dictione esse / quia sicut dixi supra. Omne 
+      essentia<lb ed="#P" n="63" break="no"/>liter distinctum ab alio quod est prius natura ipso 
+      <lb ed="#P" n="64"/>sine contradictione potest esse sine ipso quia ex hoc 
+      <lb ed="#P" n="65"/>quod est prius et habet esse distinctum nulla 
+      contradi<lb ed="#P" n="66" break="no"/>ctio implicatur. Et est notandum quod esse prius et 
+      po<lb ed="#P" n="67" break="no"/>sterius natura se compatiuntur et possunt esse simtu 
+      <lb ed="#P" n="68"/>duratione. Ita quod si multas durationis et ordo 
+      na<lb ed="#P" n="69" break="no"/>ture secundum prius et posterius stant simul / sicut 
+      <lb ed="#P" n="70"/>patet de causa et effectu sibi coeuo. Ex quo statim 
+      <lb ed="#P" n="71"/>sequitur quod esse prius natura alio non est aliud esse 
+      <lb ed="#P" n="72"/>quod est prius quando alterum non est quod est 
+      po<lb ed="#P" n="73" break="no"/>sterius / quia tunc idem simul esset et non esset in 
+      eo<lb ed="#P" n="74" break="no"/>dem instanti temporis quod est contradictio 
+      plana<lb ed="#P" n="75" break="no"/>ordinis vel tertius 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e797">
+               <lb ed="#P" n="76"/>¶ Tertius modus ordo dicitur 
+      ore<lb ed="#P" n="77" break="no"/>do originis et breuiter in hoc consistit iste proprie / 
+      <lb ed="#P" n="78"/>quod aliquid est ab alio: vel hoc est ab hoc productiue 
+      <lb ed="#P" n="79"/>vel originatiue sicut ab originante ipsum / nec est 
+      <lb ed="#P" n="80"/>idem ordo cum ordine nature quod non habet 
+      necessa<lb ed="#P" n="81" break="no"/>rio dependentiam inter extrema nec diuersitatem 
+      <lb ed="#P" n="82"/>nec separabilitatem: sed abstrahit ab istis omnibus 
+      <lb ed="#P" n="83"/>per se loquendo / ita quod hoc tantum dicit quod hoc sit 
+      <lb ed="#P" n="84"/>ab hoc siue dependent siue non / siue in diuersitate 
+      <lb ed="#P" n="85"/>nature siue non / siue separabiliter siue non. Isto 
+      mo<lb ed="#P" n="86" break="no"/>do / quia sunt correlatiua dicimus quod pater et 
+      fili<lb ed="#P" n="87" break="no"/>us ordinantur secundum ordinem licet sint simul 
+      <lb ed="#P" n="88"/>natura. 
+      <lb ed="#P" n="89"/>secundum ista / quod vna relatio 
+      mu<lb ed="#P" n="90" break="no"/>¶
+    </p>
+            <p xml:id="qrdBas-a61741-d1e833">
+      ¶ ota tua vel vnum relatiuum mutuum 
+      <lb ed="#P" n="91"/>alteri non videtur esse prior vel prius origine alia 
+      <lb ed="#P" n="92"/>vel alio / quia secundum philosophum in 
+      predica<lb ed="#P" n="93" break="no"/>mentis Unum relatiuum vt sic non est alteri causa 
+      <lb ed="#P" n="94"/>vt sitl ita quod non est ibi principium vel causa essendi. 
+      <lb ed="#P" n="95"/>Et videtur hoc probari: quia tunc non essent 
+      si<lb ed="#P" n="96" break="no"/>mul natura sed vnum prius et aliud posterius: ergo 
+      <lb ed="#P" n="97"/>vnum non est a quo aliud. Et ita pater inquantum 
+      <lb ed="#P" n="98"/>pater non est prior origine ipso filio / nec 
+      paterni<lb ed="#P" n="99" break="no"/>tas filiatione. Et vltra consequenter ordo 
+      origi<lb ed="#P" n="100" break="no"/>nis non videtur stare cum simultate nature. Hoc 
+      <lb ed="#P" n="101"/>videtur etiam confirmari quia vna relatio non est 
+      <lb ed="#P" n="102"/>ab alia. Productionis enim non est productio / 
+      er<lb ed="#P" n="103" break="no"/>go nec est vna persona ab alia quia in persona 
+      ni<lb ed="#P" n="104" break="no"/>chil est nisi essentia et relatio / esse ante hec ordine 
+      <lb ed="#P" n="105"/>essentie alicui conuenit produci. Comparantur 
+      <lb ed="#P" n="106"/>enim divine origines ad suum fundamentum vt 
+      <lb ed="#P" n="107"/>ad principium originatum ex quo originantur et 
+      <lb ed="#P" n="108"/>pullulant: et non vna ad aliam / et per consequens habentur 
+      <lb ed="#P" n="109"/>persone ab hoc quod vna originet aliam et quod ab 
+      vna<lb ed="#P" n="110" break="no"/>sit alia et sic vna non est prior origince alia. quare et 
+      <lb ed="#P" n="111"/>cetera.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e881">
+      ¶ Solutio. Dico quod vna relatio mutua et 
+      <lb ed="#P" n="112"/>opposita alteri non potest esse vere causa alterius 
+      <lb ed="#P" n="113"/>accipiendo proprie causam: quia tunc non essent 
+      si<lb ed="#P" n="114" break="no"/>mul natura / et hoc intendit Aristoteles. Potest 
+      ta<lb ed="#P" n="115" break="no"/>men vna relatio mutua esse origo actiua vel quasi 
+      <lb ed="#P" n="116"/>passiua vel quasi alia sine ratione vere 
+      causalita<lb ed="#P" n="117" break="no"/>tis: sed abstrahendo ab ea sicut in proposito de 
+      pa<lb ed="#P" n="118" break="no"/>ternitate et filiatione diuina. Et sicut etiam dicit 
+      <lb ed="#P" n="119"/>Auicenna suo modo sexto Methaphisice quod causa 
+      <lb ed="#P" n="120"/>etiam inquantum causa est prior effectu 
+      inquan<lb ed="#P" n="121" break="no"/>tum effectus et tamen ista secundum quod 
+      huiusmodi<lb ed="#P" n="122" break="no"/>dicunt respectus mutuos / quorum vnus non est 
+      cau<lb ed="#P" n="123" break="no"/>sa alterius nec prior natura sed sunt simul natura. 
+      <!--205.xml-->
+       <pb ed="#P" n="97-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Et vltra dico quod pater secundum quod huiusmodi est 
+      <lb ed="#P" n="2"/>prior origine filio et tamen simul natura et pater est 
+      <lb ed="#P" n="3"/>a quo est filius in diuinis non tamen est causa filii 
+      <lb ed="#P" n="4"/>proprie.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e925">
+      ¶ Quando dicis vltra quod vna relatio non 
+      <lb ed="#P" n="5"/>est / nec originatur ab alia: concedo licet vna perso 
+      <lb ed="#P" n="6"/>na ab alia: immo dico quod nec originantur proprie a 
+      <lb ed="#P" n="7"/>fundamento / nec vi fundamenti ab aliquo / quia non 
+      <lb ed="#P" n="8"/>comparantur ad aliquid sicut termini productiui 
+      <lb ed="#P" n="9"/>tunc enim paternitas esset producta et pater esset 
+      <lb ed="#P" n="10"/>persona producta / quod est falsum: sed 
+      comparan<lb ed="#P" n="11" break="no"/>tur sicut origines non sicut termini et sic insunt origi 
+      <lb ed="#P" n="12"/>nes quod non sunt producte et ideo comparantur ad 
+      <lb ed="#P" n="13"/>fundamentum non solum vt ad fundamentum sed  
+      <lb ed="#P" n="14"/>vt ad principium productiuum vt origines. Dico 
+      <lb ed="#P" n="15"/>non vt producte: sed ipse persone sunt 
+      producen<lb ed="#P" n="16" break="no"/>tes vel producte licet nichil aliud sit in persona quam 
+      <lb ed="#P" n="17"/>essentia et relatio: quorum tamen neuter conuenit 
+      <lb ed="#P" n="18"/>produci nec per se nec per accidens: licet sit multum 
+      <lb ed="#P" n="19"/>difficile intellectu nisi inueniatur simile in 
+      creatu<lb ed="#P" n="20" break="no"/>ris / sicut de multis aliis. Sicut etiam persona 
+      for<lb ed="#P" n="21" break="no"/>maliter est persona non autem essentia vel relatio. 
+      <lb ed="#P" n="22"/>Similiter dico quia vna relatio est prior origine 
+      <lb ed="#P" n="23"/>alia / licet minus proprie quam persona quia vna non 
+      <lb ed="#P" n="24"/>est ab alia sicut persona a persona: sed vna est sicut 
+      <lb ed="#P" n="25"/>origo actiua / et alia sicut passiua: et ita vna 
+      prior<lb ed="#P" n="26" break="no"/>alia / licet minus proprie et reducibiliter ad modum 
+      <lb ed="#P" n="27"/>illum quo vna persona dicitur magis proprie 
+      prior<lb ed="#P" n="28" break="no"/>alia modo predicto.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e980">
+      ¶ Circa hoc etiam 
+      intelli<lb ed="#P" n="29" break="no"/>ge quod ordo originis totus potest stare cum eodem 
+      <lb ed="#P" n="30"/>signo nature / vnde non oportet si aliquid est prius 
+      <lb ed="#P" n="31"/>origine sicut a quo originatur quod alius sit prius 
+      na<lb ed="#P" n="32" break="no"/>tura sed ambo possunt esse simul natura et 
+      multofor<lb ed="#P" n="33" break="no"/>tius duratione. Ex quo statim sequitur quod esse 
+      ali<lb ed="#P" n="34" break="no"/>quid prius origine alio non est ipsum esse prius et 
+      <lb ed="#P" n="35"/>posterius non esse: quia tunc simul natura idem esset 
+      <lb ed="#P" n="36"/>et non esset scilicet ipsum posterius quod est 
+      contra<lb ed="#P" n="37" break="no"/>dictio. Sed esse prius origine est esse a quo alius: 
+      <lb ed="#P" n="38"/>et esse posterius est esse aliquid quod est ab alio non 
+      <lb ed="#P" n="39"/>plus.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1006">
+      ¶ Isti sunt tres ordines qui ponuntur 
+      pre<lb ed="#P" n="40" break="no"/>ter ordinem rationis. 
+      <lb ed="#P" n="41"/>quos etiam est aduertendum vlti¬ 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1013">
+               <lb ed="#P" n="42"/>¶ Ctri a mo quod respectus prioritatis in 
+      pri<lb ed="#P" n="43" break="no"/>mo ordine qui est ourationis / et respectus ad poste 
+      <lb ed="#P" n="44"/>rius non potest dici realis licet suum fundamentum 
+      <lb ed="#P" n="45"/>sit reale / quia esse prius ab alio duratione est esse alio 
+      <lb ed="#P" n="46"/>nondum existente vel saltem necessario 
+      concomi<lb ed="#P" n="47" break="no"/>tante. Unde priori duratione existente secundum 
+      <lb ed="#P" n="48"/>quod huiusmodi posterius nondum existit vt patet. 
+      <lb ed="#P" n="49"/>Ad non existens in re nulla potest esse relatio 
+      rea<lb ed="#P" n="50" break="no"/>lis Similiter etiam patet per idem quod respectus 
+      prio<lb ed="#P" n="51" break="no"/>ritatis non potest dici realis sed sunt respectus 
+      ra<lb ed="#P" n="52" break="no"/>tionis / ad quos tamen comparandos intellectus 
+      de<lb ed="#P" n="53" break="no"/>terminate mouetur ex rebus diuersis quarum 
+      vna<lb ed="#P" n="54" break="no"/>dicitur posterior et alia prior / et ad attribuendum isti 
+      <lb ed="#P" n="55"/>prioritatem et illi posterioritatem. Et propter hoc 
+      <lb ed="#P" n="56"/>dicitur iste ordo realis non quia sit relatio realis. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1049">
+               <lb ed="#P" n="57"/>¶ Sed de secundo ordine quantum ad primum men 
+      <lb ed="#P" n="58"/>brum est magis dubium / quia sicut dictum est 
+      su<lb ed="#P" n="59" break="no"/>pra esse prius natuta non est esse / alio non existente 
+      <lb ed="#P" n="60"/>nec ipsum necessario concomitatur. Et ideo 
+      vide<lb ed="#P" n="61" break="no"/>retur quod magis posset dici ordo iste relatio realis et 
+      <lb ed="#P" n="62"/>prioritas / quam de alio. Si aliud non impediat quod 
+      in<lb ed="#P" n="63" break="no"/>multis accidit quod sint simul duratione. Et posset 
+      <lb ed="#P" n="64"/>forte dici quod inter quecumque duo limitata et finita or¬ 
+      <!--205.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>do iste est relatio realis ex vtraque parte: tamen 
+      in<lb ed="#P" n="66" break="no"/>ter duo quorum vnum est infinitum et illimitatum 
+      <lb ed="#P" n="67"/>et aliud finitum et limitatum vt inter deum et 
+      crea<lb ed="#P" n="68" break="no"/>turam non est relatio realis ordo iste ex parte dei / 
+      <lb ed="#P" n="69"/>scilicet respectus prioritatis: licet ex parte 
+      creatu<lb ed="#P" n="70" break="no"/>re sit realis et forte idem cum respectu vestigiali. 
+      <lb ed="#P" n="71"/>Similiter etiam inter creaturam et creaturam: sed  
+      <lb ed="#P" n="72"/>est relatio realis et forte non est nisi relatio cause que 
+      <lb ed="#P" n="73"/>est ipsa prioritas / et relatio causati ad causam que 
+      <lb ed="#P" n="74"/>est respectus posterioritatis. Uel forte posset dici quod 
+      <lb ed="#P" n="75"/>sunt alie relationes / sed nescirem bene in quo 
+      gene<lb ed="#P" n="76" break="no"/>re reponere eas sic determinate / quin forte possent 
+      <lb ed="#P" n="77"/>dici in alio. Aduertendum quod si isti sunt respectus 
+      <lb ed="#P" n="78"/>reales mutui quod ipsi sunt simul natura / quia hoc est 
+      <lb ed="#P" n="79"/>verum de omnibus respectibus mutuis: sed funda 
+      <lb ed="#P" n="80"/>menta non sunt simul natura sed se habent sicut 
+      pri<lb ed="#P" n="81" break="no"/>us et posterius. Tertio modo diceret aliquis 
+      for<lb ed="#P" n="82" break="no"/>te quod nunquam prioris est realis sed solum respectus 
+      po<lb ed="#P" n="83" break="no"/>sterioris sicut etiam respectus mensurati: et ita 
+      <lb ed="#P" n="84"/>similes essent isti respectus respectibus de 
+      tertio<lb ed="#P" n="85" break="no"/>modo dicatur de hoc quomodocunque videtur me 
+      <lb ed="#P" n="86"/>lius iudicandi.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1121">
+      ¶ De tertio breuiter quod secundum 
+      <lb ed="#P" n="87"/>illos qui ponunt istum ordinem in diuinis ipsi non 
+      <lb ed="#P" n="88"/>possunt ponere nisi alterum istorum scilicet quod 
+      vel<lb ed="#P" n="89" break="no"/>non dicant respectus reales in diuinis / vel quod non 
+      <lb ed="#P" n="90"/>dicant alios respectus quam producentis et producti 
+      <lb ed="#P" n="91"/>generantis et geniti / spirantis et spirati / quia in 
+      di<lb ed="#P" n="92" break="no"/>uinis non sunt nisi quatuor relationes reales 
+      secun<lb ed="#P" n="93" break="no"/>dum me / et sicut dicetur infra. Et videtur consonum 
+      <lb ed="#P" n="94"/>habens que dicta sunt quod ordo originis extra intel 
+      <lb ed="#P" n="95"/>lectum et in re non est nisi quad hoc sit ab hoc / esse a 
+      <lb ed="#P" n="96"/>quo / et esse quod ab alio. Sie de istis in creaturis 
+      aut<lb ed="#P" n="97" break="no"/>ibi inuenitur ordo originis dicatur de ordine 
+      na<lb ed="#P" n="98" break="no"/>ture suo modo. 
+      <lb ed="#P" n="99"/>procedo ad tertium 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1152">
+               <lb ed="#P" n="100"/>¶ Diis premissis articulum 
+      questio<lb ed="#P" n="101" break="no"/>nis Et dico sicut omnes catholici / quod inter 
+      gene<lb ed="#P" n="102" break="no"/>rans et genitum / producens et productum / in 
+      diui<lb ed="#P" n="103" break="no"/>nis nullus est ordo durationis ita quod pater non est 
+      <lb ed="#P" n="104"/>prior duratione filio. hoc probatum est supra 
+      vbi<lb ed="#P" n="105" break="no"/>ostensum est filium esse coeuum patri. 
+      Productio<lb ed="#P" n="106" break="no"/>alicuius quod est necesse non ponit immo includit in. 
+      <lb ed="#P" n="107"/>ter producens et productum ordinem durationis. 
+      <lb ed="#P" n="108"/>Probatio quia excludit in producto nouitatem 
+      <lb ed="#P" n="109"/>essendi et durandi / eo ipso quod est necesse esse / quia si 
+      <lb ed="#P" n="110"/>potest incipere non est necesse esse sed possibile est 
+      <lb ed="#P" n="111"/>esse et non esse sed quodlibet productum diuinum 
+      <lb ed="#P" n="112"/>ad intra est necesse esse quia est deus sicut ostensum 
+      <lb ed="#P" n="113"/>est supra. ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1185">
+      ¶ Secundo sic. 
+      Produ<lb ed="#P" n="114" break="no"/>ctum eternum non habet ordinem durationis ad 
+      <lb ed="#P" n="115"/>producens / nec producens est posterius ipso / nec 
+      <lb ed="#P" n="116"/>ipsum producente operatiua non autem factiua: 
+      <lb ed="#P" n="117"/>patet in nobis ex nono Methaphisice: ergo in 
+      di<lb ed="#P" n="118" break="no"/>uinis voluntas est tantum operatiua ad intra: 
+      <lb ed="#P" n="119"/>quia habet bene actum volendi: sed non 
+      producti<lb ed="#P" n="120" break="no"/>ua alicuius suppositaliter distincti a producente. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1203">
+               <lb ed="#P" n="121"/>¶ Sic ergo dicunt isti / quod voluntas secundum quod 
+      <lb ed="#P" n="122"/>huiusmodi non est principium communicandi 
+      na<lb ed="#P" n="123" break="no"/>turam diuinam alicui persone / nec per consequens 
+      <lb ed="#P" n="124"/>producendi spiritum sanctum. Sed natura et essen 
+      <lb ed="#P" n="125"/>tia precise secundum rationem essentie est 
+      imme<lb ed="#P" n="126" break="no"/>diatum principium duarum productionum 
+      diui<lb ed="#P" n="127" break="no"/>narum generationis verbi / et spirationis spiritus 
+      <lb ed="#P" n="128"/>sancti. Dicunt tamen secundo quod non obstante hoc 
+      <!--206.xml-->
+       <pb ed="#P" n="98-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>filius dicitur per modum intellectus / et spiritus: 
+      <lb ed="#P" n="2"/>sanctus per modum voluntatis pro tanto quia 
+      fi<lb ed="#P" n="3" break="no"/>lius ab vno est et spiritus sactus a duobus. Ad 
+      actio<lb ed="#P" n="4" break="no"/>nem enim per modum nature in creaturis non 
+      con<lb ed="#P" n="5" break="no"/>currit nisi vnum genus secundum rationem sicut ad 
+      <lb ed="#P" n="6"/>generationem vnius hominis non concurrit nisi 
+      <lb ed="#P" n="7"/>vnus homo. Sed ad actionem per modum 
+      volun<lb ed="#P" n="8" break="no"/>tatis possunt concurrere duo agentia equalis 
+      gra<lb ed="#P" n="9" break="no"/>dus et perfectionis: sicut patet in tractu nauis 
+      <lb ed="#P" n="10"/>Ex ista autem similitudine dicitur filius in diuinis 
+      <lb ed="#P" n="11"/>procedere per modum nature vel intellectus: quod 
+      <lb ed="#P" n="12"/>idem est sicut dictum est supra / Spiritus sanctus per 
+      <lb ed="#P" n="13"/>modum voluntatis quia est a duobus puta a patre 
+      <lb ed="#P" n="14"/>et filio spiratur. 
+      <lb ed="#P" n="15"/>videtur quod praedicta opi¬ 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1262">
+               <lb ed="#P" n="16"/>¶ Alus autem vide et no est 
+      impo<lb ed="#P" n="17" break="no"/>sibilis / et quod voluntas necessario est principium 
+      con<lb ed="#P" n="18" break="no"/>municandi naturam et producendi spiritum 
+      san<lb ed="#P" n="19" break="no"/>ctum. Hoc autem ipsi probant primo sic. Natura 
+      <lb ed="#P" n="20"/>intelligibilis non est principium alicuius 
+      opera<lb ed="#P" n="21" break="no"/>tionis vel productionis nisi mediante potentia in 
+      <lb ed="#P" n="22"/>ratione principii. ergo etc. Potentia enim dicitur 
+      <lb ed="#P" n="23"/>quod habet immediatum ordinem ad actum 
+      produ<lb ed="#P" n="24" break="no"/>ctiuum sicut operatiuum non autem natura. 
+      Un<lb ed="#P" n="25" break="no"/>de natura sicut etiam ipsi dicunt alibi quia propter 
+      <lb ed="#P" n="26"/>hoc ipsi ponunt potentias anime accidentia et in 
+      di<lb ed="#P" n="27" break="no"/>uinis sunt due potentie tantum scilicem intellectus 
+      <lb ed="#P" n="28"/>et voluntas: ergo vel intellectus vel voluntas est 
+      <lb ed="#P" n="29"/>principium spiritiis sancti productiuum. Non inter 
+      <lb ed="#P" n="30"/>lectus patet secundum omnes: ergo voluntas 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1298">
+               <lb ed="#P" n="31"/>¶ Secundo sic. Uoluntas perfectissima et 
+      infini<lb ed="#P" n="32" break="no"/>ta comparatur ad obiectum perfectissimum modo 
+      <lb ed="#P" n="33"/>perfectiori ergo potest intelligi sine contradictio 
+      <lb ed="#P" n="34"/>ne: sed si non compararetur ad ipsum tanquam 
+      producti<lb ed="#P" n="35" break="no"/>ua amoris spirabilis adequati obiecto non 
+      compara<lb ed="#P" n="36" break="no"/>retur ad ipsum perfectissimo modo intelligendi 
+      si<lb ed="#P" n="37" break="no"/>ne contradictione quia nullam contradictionem 
+      in<lb ed="#P" n="38" break="no"/>cluderet quia eternum sed quodlibet productum 
+      di<lb ed="#P" n="39" break="no"/>uinum ad intra est eternum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1320">
+      ¶ Tertio sic 
+      <lb ed="#P" n="40"/>Cuius productio est simplex acceptio esse: non 
+      au<lb ed="#P" n="41" break="no"/>tem mutatio nec quod inutatio ex non esse non habet 
+      <lb ed="#P" n="42"/>ordinem durationis ad producens. Patet quia omne 
+      <lb ed="#P" n="43"/>habens ordinem durationis ad aliud aliquando non 
+      <lb ed="#P" n="44"/>est et est postquam non fuit: sed productio diuina 
+      intrin<lb ed="#P" n="45" break="no"/>seca est huiusmodi: ergo et cetera. Confirmatur quia 
+      <lb ed="#P" n="46"/>est ei consubstantialis.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1338">
+      ¶ Secundo dico cum 
+      om<lb ed="#P" n="47" break="no"/>nibus quod inter productum diuinum et producens non 
+      <lb ed="#P" n="48"/>est aliquis ordo nature aut ille esset ordo perfectio 
+      <lb ed="#P" n="49"/>nis aut ordo creationis: non ordo creationis. Pro 
+      <lb ed="#P" n="50"/>bo. Quorum vnum non dependet ab alio illa non 
+      <lb ed="#P" n="51"/>habent ordinem istum nature: sed quodlibet 
+      produ<lb ed="#P" n="52" break="no"/>ctum diuinum est simpliciter independens quia est 
+      <lb ed="#P" n="53"/>deus: ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1356">
+      ¶ Secundo sic. Quorum est ea 
+      <lb ed="#P" n="54"/>dem essentia illa non habent ordinem nature isto 
+      <lb ed="#P" n="55"/>modo / sed producentis et producti in diuinis est ea 
+      <lb ed="#P" n="56"/>dem essentia et natura ( vt probatum est supra I quia 
+      <lb ed="#P" n="57"/>diuina natura simplex est et impartibilis.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1367">
+      ¶ 
+      Ter<lb ed="#P" n="58" break="no"/>tio sic. Quorum vnum non potest esse sine 
+      contra<lb ed="#P" n="59" break="no"/>dictione alio non existente non ordinantur naturam 
+      <lb ed="#P" n="60"/>sed sic est de producente ad productum diuinum / quia 
+      <lb ed="#P" n="61"/>sunt idem necesse esse. ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1378">
+      ¶ Nec etiam 
+      <lb ed="#P" n="62"/>habent ordinem nature qui est ordo perfectionis 
+      <lb ed="#P" n="63"/>Patet. Primo sic. Illa que sunt summe perfecta 
+      <lb ed="#P" n="64"/>simpliciter non ordinantur natura isto modo: pro¬ 
+      <!--206.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ducens et productum diuinum sunt huiusmodi qui a 
+      <lb ed="#P" n="66"/>quodlibet est deus.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1397">
+      ¶ Secundo sic. Si vnum esset 
+      <lb ed="#P" n="67"/>perfectius alio: alterum non esset infinitum 
+      inten<lb ed="#P" n="68" break="no"/>siue: hoc est falsum quia productum adequatur 
+      pro<lb ed="#P" n="69" break="no"/>ducenti in diuinis / sicut dictum est supra. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1406">
+               <lb ed="#P" n="70"/>¶ Tertio sic. Si vnum esset perfectius alio / aut esset 
+      <lb ed="#P" n="71"/>ratione essentialium aut ratione relationis: sed non 
+      <lb ed="#P" n="72"/>ratione alicuius essentialis / quia eadem sunt in omni 
+      <lb ed="#P" n="73"/>bus: nec ratione relationis quia relatio sicut dictum 
+      <lb ed="#P" n="74"/>est non dicit perfectionem / nec similiter 
+      imperfectio<lb ed="#P" n="75" break="no"/>nem. ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1422">
+      ¶ Quarto sic. Nichil quod est in 
+      <lb ed="#P" n="76"/>vltimato gradu perfectionis est altero imperfectius 
+      <lb ed="#P" n="77"/>sed omnia diuina sunt huiusmodi. ergo etc 
+      <lb ed="#P" n="78"/>no scilicet originis 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1431">
+               <lb ed="#P" n="79"/>¶ De tertio orditir est magis dubium 
+      <lb ed="#P" n="80"/>Et dicunt aliqui quod non est in diuinis ordo originis 
+      <lb ed="#P" n="81"/>nisi tantum ordo rationis. Quod probant primo sic  
+      <lb ed="#P" n="82"/>Ubicunque est ordo ibi est aliquid prius et posterius 
+      <lb ed="#P" n="83"/>sed sicut dicitur in Symbolo in diuinis vel in hac 
+      <lb ed="#P" n="84"/>trinitate nichil prius aut posterius. ergo et cetera. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1447">
+               <lb ed="#P" n="85"/>¶ Secundo sic. Ubicunque est aliquid prius et 
+      po<lb ed="#P" n="86" break="no"/>sterius ibi aliquid est indignius et ignobilius: quia 
+      <lb ed="#P" n="87"/>sicut prioritas dicit nobilitatem ita posterioritas 
+      di<lb ed="#P" n="88" break="no"/>cit ignobilitatem / sed in diuinis nullum est 
+      indi<lb ed="#P" n="89" break="no"/>gnius vel ignobilius alio / ergo etc.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1460">
+      ¶ Tertio sic. 
+      <lb ed="#P" n="90"/>Sicut prius in suo priori / sine contradictione 
+      po<lb ed="#P" n="91" break="no"/>test intelligi sine posteriori / non intelligendo 
+      scili<lb ed="#P" n="92" break="no"/>cet ipsum posterius vt patet / sed pater non potest 
+      <lb ed="#P" n="93"/>intelligi non intelligendo filium / quia sunt simul 
+      na<lb ed="#P" n="94" break="no"/>tura et intellectu: ergo pater non est prior filio. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1474">
+               <lb ed="#P" n="95"/>¶ Quarto sic. Si pater esset prior filio quero a 
+      te<lb ed="#P" n="96" break="no"/>an in illo priori filius sit vel non sit. Si dicas quod est 
+      <lb ed="#P" n="97"/>ergo simul est cum illo quod dicis esse prius et 
+      neu<lb ed="#P" n="98" break="no"/>trum: vel neuter est prior. Si dicas quod non sit: ergo 
+      <lb ed="#P" n="99"/>filius non est deus: quia habet esse postquam non fuit. 
+      <lb ed="#P" n="100"/>ergo et cetera. 
+      <lb ed="#P" n="101"/>t quod in diuinis est 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1492">
+               <lb ed="#P" n="102"/>¶ Alii vero dicunde ordo originis: qui 
+      <lb ed="#P" n="103"/>vna persona est ab alia non econuerso. Si autem 
+      <lb ed="#P" n="104"/>non esset ordo / talem habitudinem haberet vna ad 
+      <lb ed="#P" n="105"/>alim qualem econuerso quod est falsum.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1503">
+      ¶ 
+      Secun<lb ed="#P" n="106" break="no"/>do dicunt quod ibi est ordo sine prioritate et 
+      posterio<lb ed="#P" n="107" break="no"/>ri propter rationes premissas impugnantes prius 
+      <lb ed="#P" n="108"/>et posterius in diuinis. Ita quod ordo secundum istos 
+      ab<lb ed="#P" n="109" break="no"/>strahitur a priori et posteriori / et potest inueniri 
+      ali<lb ed="#P" n="110" break="no"/>cubi vbi non inuenitur prius et posterius: puta 
+      quam<lb ed="#P" n="111" break="no"/>do eadem est substantia et natura ordinatorum 
+      si<lb ed="#P" n="112" break="no"/>cut in proposito. 
+      <lb ed="#P" n="113"/> michi dicendum nece¬ 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1523">
+               <lb ed="#P" n="114"/>¶ Sed videtue sario in diuinis est 
+      or<lb ed="#P" n="115" break="no"/>do originis et cum priori et posteriori / circa quoc 
+      <lb ed="#P" n="116"/>sic procedo. Primo probo quod in personis diuinis est 
+      <lb ed="#P" n="117"/>ordo qui non potest dici rationis tantum sicut 
+      dici<lb ed="#P" n="118" break="no"/>tur ordo eiusdem et seipsum. Secundo sic quod est 
+      or<lb ed="#P" n="119" break="no"/>do originis. Tertio quod cum priori et posteriori. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1539">
+               <lb ed="#P" n="120"/>¶ Primum sic. Inter quecunque distincta 
+      reali<lb ed="#P" n="121" break="no"/>ter non est processus in infinitum: sed inter illa 
+      in<lb ed="#P" n="122" break="no"/>finita est aliquis ordo. Probatio per aliud non 
+      com<lb ed="#P" n="123" break="no"/>cluditur primitas nisi per exclusionem processus 
+      in<lb ed="#P" n="124" break="no"/>infinitum vt patet: ergo inter eas est ordo ex 
+      natu<lb ed="#P" n="125" break="no"/>ra rei: licet enim ordo ( vt puto ) non excludat 
+      pro<lb ed="#P" n="126" break="no"/>cessum in infinitum secundum aliquem modum vt dictum est 
+      <lb ed="#P" n="127"/>supra bene tamen exclusio processus in infinitum inter 
+      ali<lb ed="#P" n="128" break="no"/>quem ordinem: inter finita equalia non est processus in infinitum 
+      <!--207.xml-->
+       <pb ed="#P" n="98-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et tamen inter ea non est ordo.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1570">
+      ¶ Secundo sic. 
+      In<lb ed="#P" n="2" break="no"/>ter quaslibet vnitates est dare primam vt patet: 
+      si<lb ed="#P" n="3" break="no"/>cut inter entitates entitatem diuinam inter alias 
+      <lb ed="#P" n="4"/>omnes: sed vnitas personalis est aliqua vnitas: ergo 
+      inter<lb ed="#P" n="5" break="no"/>personas est dare primam / ergo inter personas diuinas est ordo. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1582">
+               <lb ed="#P" n="6"/>¶ Tertio sic. In qualibet multitudine finita est 
+      da<lb ed="#P" n="7" break="no"/>re primam vnitatem: sed multitudo diuinarum 
+      per<lb ed="#P" n="8" break="no"/>sonarum est finita. ergo et cetera. Similiter in quo 
+      <lb ed="#P" n="9"/>libet genere est dare vnum primum. et cetera. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1593">
+               <lb ed="#P" n="10"/>¶ Sic ergo dico quod inter personas diuinas est 
+      or<lb ed="#P" n="11" break="no"/>do et realis ordo eodem modo quo dictum est supra 
+      <lb ed="#P" n="12"/>sic etiam inter deum et creaturam est ordo realis 
+      li<lb ed="#P" n="13" break="no"/>cet ordo ex parte dei non sit realis relatio.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1604">
+      ¶ 
+      Se<lb ed="#P" n="14" break="no"/>cundumprobo sic. Inter quascumque personas non est 
+      <lb ed="#P" n="15"/>similis habitudo originis / sed vna sic est ab alia quod 
+      <lb ed="#P" n="16"/>non econuerso inter illas est ordo originis: sed sic 
+      <lb ed="#P" n="17"/>est inter personas diuinas vt patet. ergo et cetera. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1615">
+               <lb ed="#P" n="18"/>¶ Secundo sic. quecumque tres persone sic habent se 
+      <lb ed="#P" n="19"/>cundum originem quod vna sola originat aliam et am 
+      <lb ed="#P" n="20"/>be tertiam / inter illa est ordo originis vt patet. 
+      <lb ed="#P" n="21"/>Da oppositum / non est ratio quare hec plus 
+      origi<lb ed="#P" n="22" break="no"/>netur tantum ab vna et non a duabus plusquam alia vel 
+      <lb ed="#P" n="23"/>econuerso / sed sic se habent tres persone diuine 
+      er<lb ed="#P" n="24" break="no"/>go et cetera. Preterea ordo originis nichil aliud 
+      <lb ed="#P" n="25"/>est extra intellectum quam hoc ab hoc: sed in diuinis 
+      <lb ed="#P" n="26"/>est hec persona ab hac ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1637">
+      ¶ Tertium 
+      <lb ed="#P" n="27"/>probo quod cum priori et posteriori vbicunque non est 
+      <lb ed="#P" n="28"/>prius neque posterius ibi non est ordo: sed simultas 
+      <lb ed="#P" n="29"/>sicut patet inducendo in omnibus: vbi non est pris 
+      <lb ed="#P" n="30"/>tempore et posterius ibi est simultas vel nullus 
+      or<lb ed="#P" n="31" break="no"/>do durationis. Similiter vbi non est prius natura 
+      <lb ed="#P" n="32"/>nec posterius ibi non est ordo nature: sed in 
+      diui<lb ed="#P" n="33" break="no"/>nis est ordo originis vt probatum est ergo prius et 
+      <lb ed="#P" n="34"/>posterius.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1657">
+      ¶ Secundo sic. vbicumque est primum 
+      se<lb ed="#P" n="35" break="no"/>cundum et tertium ibi est prius et posterius. 
+      Pro<lb ed="#P" n="36" break="no"/>bo quia prius est quod est primo propinquius 
+      quin<lb ed="#P" n="37" break="no"/>to Metaphisice: sed in diuinis est prima secundaus 
+      <lb ed="#P" n="38"/>tertia persona. Secundum autem semper 
+      propin<lb ed="#P" n="39" break="no"/>quius est primo quam tertium. ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1671">
+      ¶ 
+      Ter<lb ed="#P" n="40" break="no"/>tio sic. Impossibile est absoluere totum a partibus 
+      <lb ed="#P" n="41"/>vel relationem a fundamento: sed prius et posterius 
+      <lb ed="#P" n="42"/>vel sunt ordinis: scilicet ordines partiales / vel sunt 
+      <lb ed="#P" n="43"/>fundamenta ordinis. ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1682">
+      ¶ Unde dico 
+      <lb ed="#P" n="44"/>quod simpliciter impossibile est et implicat 
+      contradi<lb ed="#P" n="45" break="no"/>ctionem ponere ordinem sine priori et posteriori. 
+      <lb ed="#P" n="46"/>Unde dico breuiter quod inter producens et 
+      produ<lb ed="#P" n="47" break="no"/>ctum diuinum intrinsecum necessario est ordo 
+      ori<lb ed="#P" n="48" break="no"/>ginis et prius et posterius origine.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1695">
+      ¶ Hoc 
+      confir<lb ed="#P" n="49" break="no"/>no per Augustinum in libro de triplici 
+      habitacu<lb ed="#P" n="50" break="no"/>lo. Ubi dicit quod sancti videbunt in patria quod patet 
+      <lb ed="#P" n="51"/>est prior origine filio: et est expressa auctoritas / 
+      si<lb ed="#P" n="52" break="no"/>cut potest esse. Item primo de trinitate capitulo primo. 
+      <lb ed="#P" n="53"/>Nulla res est que seipsam gignat vt sit: quia tunc 
+      <lb ed="#P" n="54"/>idem esset prius seipso. ergo generans est ibi prius 
+      <lb ed="#P" n="55"/>genito / et maxime origine et hoc siue gignat 
+      pro<lb ed="#P" n="56" break="no"/>ducendo naturam / siue non producendo: sed tantum 
+      <lb ed="#P" n="57"/>communicando.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1717">
+      ¶ Secundo sic. Hoc confirmo 
+      <lb ed="#P" n="58"/>per origenem Omelia prima super Ioannem. 
+      vbi<lb ed="#P" n="59" break="no"/>dicit quod pater est prior filio non natura sed causa. 
+      <lb ed="#P" n="60"/>Modo certum est quod ibi non accipit causam 
+      pro<lb ed="#P" n="61" break="no"/>prie: quia de filio dicit ibi quod est deus / et per 
+      conse<lb ed="#P" n="62" break="no"/>quens increatus ( Non sicut posuit Arrius ) ergo 
+      <lb ed="#P" n="63"/>accipit ibi causam pro origine / ergo et cetera. 
+      <lb ed="#P" n="64"/>Sic ad istud  
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1735">
+        <!--207.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>¶ Ad primum aliorum Dico 
+      <lb ed="#P" n="66"/>quod in diuinis nichil est prius et posterius natura vel. 
+      <lb ed="#P" n="67"/>duratione sed bene origine quia prima ponunt 
+      im<lb ed="#P" n="68" break="no"/>perfectionem. Ista autem non. Per idem patet ad  
+      <lb ed="#P" n="69"/>secundum.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1753">
+      ¶ Ad tertium dicitur quod maior est 
+      fal<lb ed="#P" n="70" break="no"/>sa de priori origine quia sicut dictum est supra 
+      pri<lb ed="#P" n="71" break="no"/>us et posterius sunt simul natura et intelligibilia: 
+      <lb ed="#P" n="72"/>sed de priori duratione vel natura maior est vera. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1763">
+               <lb ed="#P" n="73"/>¶ Ad quartum dico / quod esse prius origine non est 
+      <lb ed="#P" n="74"/>prius esse et posterius non esse. Et ideo dico quod 
+      im<lb ed="#P" n="75" break="no"/>illo priori originis non debet concedi filius non esse 
+      <lb ed="#P" n="76"/>simpliciter et absolute / sed tantum non esse prior. 
+      <lb ed="#P" n="77"/>sed pater est prior et filius posterior / quia a patre 
+      <lb ed="#P" n="78"/>et vterque est. Responde ad omnes auctoritates que 
+      <lb ed="#P" n="79"/>videntur contrarie sicut ad primam. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1781">
+               <lb ed="#P" n="80"/>¶ Ad primum principale 
+      di<lb ed="#P" n="81" break="no"/>co quod in filio duratio et non esse idem sunt. Et 
+      di<lb ed="#P" n="82" break="no"/>co quod sic habet principium sui esse / scilicet patrem 
+      <lb ed="#P" n="83"/>originantem: ita quod habet principium durationis 
+      <lb ed="#P" n="84"/>sub hoc sensu / quia principium originantis suam 
+      <lb ed="#P" n="85"/>durationem vel ipsum durantem tamen 
+      eternali<lb ed="#P" n="86" break="no"/>tet: sed non habet principium durationis sic quod 
+      in<lb ed="#P" n="87" break="no"/>cipiat esse: vel potest dici quod principium quando 
+      con<lb ed="#P" n="88" break="no"/>struitur cum esse / tunc signat originationem. sed 
+      <lb ed="#P" n="89"/>quando cum duratione tunc denotat inceptionem 
+      <lb ed="#P" n="90"/>et hoc ex vsu loquendi vt videtur.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1807">
+      ¶ Ad 
+      secun<lb ed="#P" n="91" break="no"/>dum dico quod verum est de generatione que est 
+      mu<lb ed="#P" n="92" break="no"/>tatio que est a non esse in esse cuiusmodi non est in 
+      <lb ed="#P" n="93"/>diuinis sed est simplex acceptio esse substantialis 
+      <lb ed="#P" n="94"/>viuentis / non de non esse. Unde generatio in 
+      diui<lb ed="#P" n="95" break="no"/>nis non habet terminum a quo negatiuum / nec est 
+      <lb ed="#P" n="96"/>mutatio nec quasi mutatio sicut dictum est supra. 
+      </p>
+            <p xml:id="qrdBas-a61741-d1e1823">
+               <lb ed="#P" n="97"/>¶ Ad tertium dico quod pater vt pater est principium 
+      <lb ed="#P" n="98"/>filii / est prior ipso non natura nec duratione: sed 
+      <lb ed="#P" n="99"/>origine.
+    </p>
+            <p xml:id="qrdBas-a61741-d1e1832">
+      ¶ Ad quartum dico quod genitum ab 
+      alio<lb ed="#P" n="100" break="no"/>mediante motu necessario est posterius. generante 
+      <lb ed="#P" n="101"/>tempore quia motus est quid successiuum et 
+      tem<lb ed="#P" n="102" break="no"/>pus similiter. Sed si esset generatio instantanea 
+      <lb ed="#P" n="103"/>non per mutationem genitum non esset posterius 
+      <lb ed="#P" n="104"/>generante secundum aliquam durationem. 
+      Mo<lb ed="#P" n="105" break="no"/>do sic est in diuinis quod generatio diuina est in 
+      instan<lb ed="#P" n="106" break="no"/>ti eternitatis quod est instans et permanens et non est 
+      <lb ed="#P" n="107"/>mutatio nec quasi. Et ideo dico quod filius genitus 
+      <lb ed="#P" n="108"/>non est posterior patre generante / nec eternitate /  
+      <lb ed="#P" n="109"/>nec aliqua duratione sed origine. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

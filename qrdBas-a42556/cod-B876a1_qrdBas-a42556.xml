@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="66-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a42556"><!-- l1d4q1 -->
+            <head xml:id="qrdBas-a42556-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a42556-d1e101">
+               <lb ed="#P" n="101"/>Distinctionis. 4. Primi sententiarum. 
+      <lb ed="#P" n="102"/>Questio prima
+  </p>
+            <p xml:id="qrdBas-a42556-d1e108">
+               <lb ed="#P" n="103" break="no"/>CIrca distinctionem 
+      <lb ed="#P" n="104"/>quartam quero primo. Utrum 
+      <lb ed="#P" n="105"/>in natura diuina sit aliqua pro 
+      <lb ed="#P" n="106"/>ductio intrinseca.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e119">
+      ¶ Uidetur 
+      <lb ed="#P" n="107"/>quod non / quia idem non potest 
+      <lb ed="#P" n="108"/>esse necessarium et possibile: sed 
+      <lb ed="#P" n="109"/>omne intrinsecum deo est 
+      ne<lb ed="#P" n="110" break="no"/>cessarium: et omne productum 
+      <lb ed="#P" n="111"/>est possibile: quia potest 
+      pro<lb ed="#P" n="112" break="no"/>duci vel potuit. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e135">
+      ¶ Secundo sic. Impossibile ergo 
+      <lb ed="#P" n="113"/>idem esse necesse esse ex se et ex alio vel ab alio: quia 
+      <lb ed="#P" n="114"/>quod est necessarium ex se manet et potest esse quolibet 
+      <lb ed="#P" n="115"/>alio circumscripto: sed quod est necesse esse ab alio non 
+      <lb ed="#P" n="116"/>manet alio circumscripto: sed esse intrinsecum deo est 
+      <lb ed="#P" n="117"/>necessarium ex se: nihil ergo est ibi productum ab alio. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e149">
+               <lb ed="#P" n="118"/>¶ Tertio sic. Impossibile est idem esse mutabile et 
+      <lb ed="#P" n="119"/>immutabile: sed esse intrinsecum deo est immutabile 
+      <lb ed="#P" n="120"/>ergo nichil est ibi productum ab alio. consequentia 
+      <lb ed="#P" n="121"/>patet: quia producens est prius producto: et in illo 
+      <lb ed="#P" n="122"/>priori productum non est: sed omne quod habet esse 
+      post<lb ed="#P" n="123" break="no"/>non esse est mutabilem: ergo et cetera. Et 
+      confirma<lb ed="#P" n="124" break="no"/>tur quia generatio est mutatio quidditatiue et 
+      essen<lb ed="#P" n="125" break="no"/>tialiter: ergo essentia non habet personam 
+      produ<lb ed="#P" n="126" break="no"/>ctam nisi per mutationem.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e171">
+      ¶ Quarto sic. 
+      Im<lb ed="#P" n="127" break="no"/>possibile est idem esse dependens et 
+      indepen<lb ed="#P" n="128" break="no"/>dens: sed omne intrinsecum deo est independens: 
+      <!--144.xml-->
+       <pb ed="#P" n="67-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>omne producibile dependens / quia productum non 
+      <lb ed="#P" n="2"/>potest esse nisi supposito producente. ergo etc. 
+      <lb ed="#P" n="3"/>f in psalmista dicit pater ad filium 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e191">
+               <lb ed="#P" n="4"/>¶ Comn  Ex vtero ante luciferum genui 
+      <lb ed="#P" n="5"/>te. Et alibi Filius meus es tu ego hodie genui 
+      te<lb ed="#P" n="6" break="no"/>In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e200">
+               <lb ed="#P" n="7"/>¶ Primo ponam rationes aliquorum / qui volunt pro 
+      <lb ed="#P" n="8"/>bare quod in diuinis est productio ad intra: et soluam eas 
+      <lb ed="#P" n="9"/>quia non declarant propositum nec fideli nec infideli. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e209">
+               <lb ed="#P" n="10"/>¶ Secundo ostendam per alias rationes 
+      proba<lb ed="#P" n="11" break="no"/>biles ( quas etiam ego soluam ) quod in diuinis est 
+      pos<lb ed="#P" n="12" break="no"/>sibilis productio intrinseca / et quod est actu ibi. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e218">
+               <lb ed="#P" n="13"/>¶ Tertio ad rationes. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e224">
+               <lb ed="#P" n="14"/>¶ Circa primum arguunt aliquo sic 
+      <lb ed="#P" n="15"/>In diuinis est aliqua persona constituta: sed non nisi 
+      <lb ed="#P" n="16"/>per relationem originis: quia si relatio non constitueret 
+      <lb ed="#P" n="17"/>personam: tunc illa adueniret persone et esset accidens 
+      <lb ed="#P" n="18"/>in deo: sed vbicumque est relatio originis ibi est 
+      produ<lb ed="#P" n="19" break="no"/>cens et productum originans et originatum. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e240">
+               <lb ed="#P" n="20"/>¶ Secundo arguitur sic. Summe actiuum et summe 
+      <lb ed="#P" n="21"/>bonum summe se diffundit et conicat. ergo deus summe 
+      <lb ed="#P" n="22"/>se diffundit: sed non ad extra. ergo ad intra.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e249">
+      ¶ 
+      Ter<lb ed="#P" n="23" break="no"/>tio sic productio et actio principaliter intendunt 
+      assi<lb ed="#P" n="24" break="no"/>milationem. ergo cum deus sit summe actiuus summe 
+      <lb ed="#P" n="25"/>assimilat sibi aliquod productum: non ad extra. 
+      er<lb ed="#P" n="26" break="no"/>go ad intra. 
+      <lb ed="#P" n="27"/>quod non ostendunt propositum. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e262">
+               <lb ed="#P" n="28"/>¶ Iste rationes Prima non ostendit 
+      <lb ed="#P" n="29"/>nec declarat propositum infideli: quia ipse negaret 
+      rela<lb ed="#P" n="30" break="no"/>tionem originis in diuinis / et per consequens constitutionem 
+      <lb ed="#P" n="31"/>talem / et poneret in deo vnum tantum suppositum 
+      ab<lb ed="#P" n="32" break="no"/>solutum nec ostendit etiam fideli. Primo / quia 
+      proba<lb ed="#P" n="33" break="no"/>tio sua etiam apund fidelem nihil valet: quia relatio actiua 
+      <lb ed="#P" n="34"/>non constituit personam patris et filii et tamen non 
+      acci<lb ed="#P" n="35" break="no"/>dit eis. Secundo quia non est articulus expressus: nec 
+      <lb ed="#P" n="36"/>ita notum fideli quod persone constituantur per relationes 
+      <lb ed="#P" n="37"/>originis: sicut quod sint ibi persone producte et ita ex 
+      igno<lb ed="#P" n="38" break="no"/>tioribus procedit.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e288">
+      ¶ Secunda ratio non concludit in 
+      <lb ed="#P" n="39"/>fideli. Diceret enim quod summe actiuum et bonum et 
+      sum<lb ed="#P" n="40" break="no"/>me se diffundit et communicat quantum est possibile: sed 
+      <lb ed="#P" n="41"/>talis communicatio ad intra non est sibi possibilis. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e297">
+               <lb ed="#P" n="42"/>¶ Similiter ad tertiam diceret infidelis quod summe 
+      <lb ed="#P" n="43"/>assimilat sibi aliquid quantum potest: sed hoc non 
+      po<lb ed="#P" n="44" break="no"/>test. Et fidelis diceret ad vtramque licet hoc verum sit 
+      <lb ed="#P" n="45"/>tamen rationes non declarant. Hec de primo. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e309">
+               <lb ed="#P" n="46"/>¶ Quantum ad secundum 
+      ad<lb ed="#P" n="47" break="no"/>duco tres rationes ad probandum productionem 
+      intrin<lb ed="#P" n="48" break="no"/>secam in diuinis. Prima est ista. Omne suppositum 
+      <lb ed="#P" n="49"/>habens a se et perfecte principium productiuum 
+      reali<lb ed="#P" n="50" break="no"/>ter potest per illud producere aliquod productum sibi 
+      ade<lb ed="#P" n="51" break="no"/>quatum. Sed aliquod suppositum diuinum habet a se 
+      <lb ed="#P" n="52"/>et perfecte principium aliquod realiter productiuum ad 
+      <lb ed="#P" n="53"/>intra: puta memoriam secundam: ergo potest producere ad 
+      <lb ed="#P" n="54"/>intra et realiter noticiam declaratiuam vel verbum 
+      si<lb ed="#P" n="55" break="no"/>cut terminum sibi adequatum: et per consequens 
+      in<lb ed="#P" n="56" break="no"/>finitum sicut ponitur intellectus et etiam obiectum 
+      <lb ed="#P" n="57"/>infinitum: et per consequens etiam noticiam 
+      decla<lb ed="#P" n="58" break="no"/>ratiuam subsistentem: quia talis non potest esse 
+      inhe<lb ed="#P" n="59" break="no"/>rens / nec accidens cum sit infinita: ergo est 
+      subsisten<lb ed="#P" n="60" break="no"/>tia et persona: ergo in diuinis est persona 
+      intrinse<lb ed="#P" n="61" break="no"/>ce producta per memoriam. Et similiter potest 
+      ar<lb ed="#P" n="62" break="no"/>gui de voluntate accipiendo eam sicut accipiebatur 
+      <!--144.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>memoria. Tota vis consistit in declarando maiorem 
+      <lb ed="#P" n="64"/>et minorem.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e357">
+      ¶ Primo ergo declaro maiorem. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e359">
+               <lb ed="#P" n="65"/>¶ Duplex enim potest esse ratio quare super positum 
+      <lb ed="#P" n="66"/>habens aliquod principium realiter productiuum 
+      <lb ed="#P" n="67"/>non potest producere secundum ipsum. Una est quia 
+      <lb ed="#P" n="68"/>habet tale principium imperfectum vel imperfecte 
+      <lb ed="#P" n="69"/>vt sicut si aliquid habet calorem imperfectum 
+      po<lb ed="#P" n="70" break="no"/>test impediri propter illam imperfectionem 
+      calo<lb ed="#P" n="71" break="no"/>ris a calefaciendo. Alia ratio est quia licet habeat 
+      <lb ed="#P" n="72"/>illud principium productiuum tamen accepit ipsum 
+      <lb ed="#P" n="73"/>ab alio per productionem adequatam illi principio 
+      <lb ed="#P" n="74"/>sicut filius in diuinis accepit memoriam a patre: 
+      <lb ed="#P" n="75"/>ideo non potest generare / quia accepit eam per pro 
+      <lb ed="#P" n="76"/>ductionem adequatam memorie. Similiter 
+      spiri<lb ed="#P" n="77" break="no"/>tus sanctus accepit voluntatem ab vtroque. 
+      Pri<lb ed="#P" n="78" break="no"/>mum excluditur in maiore quando dicitur 
+      supposi<lb ed="#P" n="79" break="no"/>tum habere perfecte tale principium productiuu. Se 
+      <lb ed="#P" n="80"/>cundum excluditur quando dicitur ipsum habere a se 
+      <lb ed="#P" n="81"/>et non per productionem adequatam illi principio 
+      <lb ed="#P" n="82"/>Ita patet maior.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e401">
+      ¶ Minor declaratur. 
+      excluden<lb ed="#P" n="83" break="no"/>do quattuor responsiones que possent dari ad eam 
+      <lb ed="#P" n="84"/>Primo enim diceretur quod memoria creata est 
+      prin<lb ed="#P" n="85" break="no"/>cipium realiter productiuum ad intra: non autem 
+      <lb ed="#P" n="86"/>memoria increata sicut accipitur in minori. 
+      Secun<lb ed="#P" n="87" break="no"/>do quod memoria est principium productiuum 
+      quan<lb ed="#P" n="88" break="no"/>do est vel coniungitur cum intellectum possibili / qui 
+      <lb ed="#P" n="89"/>potest recipere noticiam genitam vt inherentem 
+      sibi<lb ed="#P" n="90" break="no"/>quod non habet locum in deo. Tertio diceretur quod 
+      <lb ed="#P" n="91"/>frustra ponitur noticia formalis producta in deo. 
+      <lb ed="#P" n="92"/>quia producens per eam non perficitur nec ipsa 
+      in<lb ed="#P" n="93" break="no"/>diget quia sufficit noticia essentialis que est 
+      perfe<lb ed="#P" n="94" break="no"/>ctissima respectu cuiuscumque intelligibilis. Quarto 
+      <lb ed="#P" n="95"/>diceretur quod memoria in deo non est principium pro 
+      <lb ed="#P" n="96"/>ductiuum realiter sed solum secundum rationem 
+      <lb ed="#P" n="97"/>in deo vbi intellectus differt ab intelligente tantum 
+      <lb ed="#P" n="98"/>secundum rationem.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e438">
+      ¶ Primum excluditur. 
+      Di<lb ed="#P" n="99" break="no"/>ceretur enim quod multofortius memoria increata 
+      <lb ed="#P" n="100"/>vel saltem equaliter est productiuum realiter ipsius 
+      <lb ed="#P" n="101"/>verbi sicut memoria creata: quod probatur quia 
+      <lb ed="#P" n="102"/>cum memoria ex ratione sue formalis perfectionis 
+      <lb ed="#P" n="103"/>sit principium productiuum verbi / et multofortius 
+      <lb ed="#P" n="104"/>inueniatur in deo quam in creatura: quia in deo per 
+      essen<lb ed="#P" n="105" break="no"/>tiam in creatura per participationem sequitur quod 
+      <lb ed="#P" n="106"/>non minus sit productiua verbi in deo quam in 
+      crea<lb ed="#P" n="107" break="no"/>tura. Quod autem memoria sit ex sua ratione 
+      formali<lb ed="#P" n="108" break="no"/>produnctiua verbi et ratione sue perfectionis ( 
+      Im<lb ed="#P" n="109" break="no"/>perfectio enim non est ratio producendi aliquid 
+      <lb ed="#P" n="110"/>vel causandi. 7.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e467">
+      ¶ Excluditur secundum per hoc 
+      <lb ed="#P" n="111"/>quod si memoria est productiua verbi inuenitur cum 
+      <lb ed="#P" n="112"/>intellectu possibili non minus vbi inuenitur sine in 
+      <lb ed="#P" n="113"/>tellectu possibili et perfectissime: quia et si ratio agendi 
+      <lb ed="#P" n="114"/>et patiendi coniungantur. hoc tamen non est 
+      vniuer<lb ed="#P" n="115" break="no"/>saliter et per se: sed accidit hoc ratione alicuius 
+      na<lb ed="#P" n="116" break="no"/>ture in particulari: et ideo dicitur quod ratio agendi 
+      <lb ed="#P" n="117"/>non minus est ratio agendi vbi inuenitur sine 
+      ra<lb ed="#P" n="118" break="no"/>tione patiendi quam vbi cum ratione patiendi / quod 
+      <lb ed="#P" n="119"/>patet quia medicina enim et infirmitas vel 
+      infir<lb ed="#P" n="120" break="no"/>mus coniunguntur per accidens / puta quando me 
+      <lb ed="#P" n="121"/>dicus est infirmus: medicina autem est ratio 
+      curanm<lb ed="#P" n="122" break="no"/>di vel agendi. Et planum est quod non minus est 
+      ratio<lb ed="#P" n="123" break="no"/>curandi quando non concurrit cum infirmo: sed est 
+      <lb ed="#P" n="124"/>in medico sano: quam quando cum infirmitate 
+      con<lb ed="#P" n="125" break="no"/>currit in medico. Modo dico quod accidit memorie. 
+      <lb ed="#P" n="126"/>Unde memoria quod coniungatur cum 
+      intelle<lb ed="#P" n="127" break="no"/>ctu possibili: quia in deo est verissime memoria: 
+      <!--145.xml-->
+       <pb ed="#P" n="67-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non autem intellectus possibilis qui est ratio 
+      acci<lb ed="#P" n="2" break="no"/>piendi. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e518">
+      ¶ Tertium excluditur per hoc quod illa 
+      <lb ed="#P" n="3"/>noticia personalis non est frustra: quia procedit ex 
+      ple<lb ed="#P" n="4" break="no"/>nitudine perfectionis ipsius producentis: non quod 
+      ex<lb ed="#P" n="5" break="no"/>pectet perfici per productum. Tunc diceretur ad formam 
+      <lb ed="#P" n="6"/>instantie quod necessario in producentibus oportet 
+      stare<lb ed="#P" n="7" break="no"/>ad aliquod producens quod non perficitur per 
+      produ<lb ed="#P" n="8" break="no"/>ctum: sed est producens mere liberale / ita quod 
+      produ<lb ed="#P" n="9" break="no"/>cit: nichil perfectionis adepturus per productionem 
+      <lb ed="#P" n="10"/>quia ipsum est simpliciter perfectum nullam habens 
+      im<lb ed="#P" n="11" break="no"/>perfectionem. Et tale dicitur agens ex liberalite se 
+      <lb ed="#P" n="12"/>cundum Auicennam sexto methaphisice: sicut in actu 
+      <lb ed="#P" n="13"/>bus humanis ille dicitur liberalis moraliter qui dat 
+      <lb ed="#P" n="14"/>non expectans redditionem.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e547">
+      ¶ Ad quartum dice 
+      <lb ed="#P" n="15"/>retur quod de ratione memorie sit quod sit principium 
+      rea<lb ed="#P" n="16" break="no"/>le verbi / vel si non haberet productum reale esset in 
+      po<lb ed="#P" n="17" break="no"/>tentia respectu illius productionis: et ita memoria 
+      di<lb ed="#P" n="18" break="no"/>uina non esset necesse esse nec purus actus. Ex quo se 
+      <lb ed="#P" n="19"/>quitur quod productum suum non potest esse tantum secundum 
+      <lb ed="#P" n="20"/>rationem sed secundum rem et verissime productum: et per 
+      <lb ed="#P" n="21"/>consequens realiter a producente productum. Sic 
+      er<lb ed="#P" n="22" break="no"/>go declarata est minor quantum ad hoc quod memoria est 
+      <lb ed="#P" n="23"/>principium realiter productiuum noticie 
+      declarati<lb ed="#P" n="24" break="no"/>ne genite. Sed quod sit perfecta in aliqua persona 
+      di<lb ed="#P" n="25" break="no"/>uina patet: quia deus est ens summe perfectum 
+      simpli<lb ed="#P" n="26" break="no"/>citer. Sed quod a se sit in aliqua persona productio et non 
+      <lb ed="#P" n="27"/>per productionem adequatam sibi patet: quia in 
+      perso<lb ed="#P" n="28" break="no"/>nis diuinis non est processus in infinitum: ergo in eis est 
+      <lb ed="#P" n="29"/>aliqua que habet memoriami et alias perfectiones 
+      di<lb ed="#P" n="30" break="no"/>uinas a se / et non per productionem adequatam: immo nec 
+      <lb ed="#P" n="31"/>per aliquam productionem. Hec de prima ratione. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e586">
+               <lb ed="#P" n="32"/>¶ Secunda ratio principalis est ista. Obiectum in 
+      no<lb ed="#P" n="33" break="no"/>bis vt est in memoria est ratio producendi vel 
+      comni<lb ed="#P" n="34" break="no"/>candi seipsum vt est in intelligentia sit tantum secundum 
+      <lb ed="#P" n="35"/>esse intentionale in specie vel in actu hoc est 
+      imper<lb ed="#P" n="36" break="no"/>fectionis: quia si memoria est perfecta vel 
+      intelligen<lb ed="#P" n="37" break="no"/>tia: dicitur quod oportet necessario secundum 
+      Aristote<lb ed="#P" n="38" break="no"/>lem quod obiectum sit idem realiter cum ipsis: oportet 
+      <lb ed="#P" n="39"/>ergo quod tam potentia quam obiectum quam actus sint 
+      rea<lb ed="#P" n="40" break="no"/>liter idem in summe perfecto. Sed quod conicetur 
+      obie<lb ed="#P" n="41" break="no"/>ctum / hoc non est imperfectionis igitur accipiendo 
+      <lb ed="#P" n="42"/>illud quod est perfectionis et dimittendo imperfectio. 
+      <lb ed="#P" n="43"/>nem obiectum diuinum / quod est diuina essentia potest conica 
+      <lb ed="#P" n="44"/>re realiter per aliquam productionem intelligentie 
+      subsi<lb ed="#P" n="45" break="no"/>stenti quae est verbum ab aliquo supposito habente memoriam. 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e619">
+               <lb ed="#P" n="46"/>¶ Tertia ratio est ista. In omni conditione entigenm 
+      <lb ed="#P" n="47"/>non dicit imperfectionem / necessitas est perfectionis 
+      <lb ed="#P" n="48"/>simpliciter sed productio est quedam conditio entis / quae 
+      <lb ed="#P" n="49"/>secundum huiusmodi non dicit imperfectionem nec 
+      ha<lb ed="#P" n="50" break="no"/>bet ipsam necessario annexam: ergo necessitas 
+      produ<lb ed="#P" n="51" break="no"/>ctionis debet poni in deo sed non ad extra. ergo 
+      <lb ed="#P" n="52"/>ad intra. 
+      <lb ed="#P" n="53"/>sunt probabiles non tamen 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e639">
+               <lb ed="#P" n="54"/>¶ Iste rationes demonstrant 
+      euiden<lb ed="#P" n="55" break="no"/>ter: ideo soluo eas.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e646">
+      ¶ Ad primam diceretur breuiter 
+      <lb ed="#P" n="56"/>quod memoria vnde memoria sic absolute accepta vt 
+      <lb ed="#P" n="57"/>abstrahit ab increata et creata saltem quelibet 
+      me<lb ed="#P" n="58" break="no"/>moria non est principium realiter producendi aliquid 
+      <lb ed="#P" n="59"/>ad intra sed tantum memoria creata. Tu dicis quod 
+      per<lb ed="#P" n="60" break="no"/>fectio simpliciter: diceretur quod verum est quod licet sit 
+      du<lb ed="#P" n="61" break="no"/>bium. Sed non curo modo: ponatur quod ita sit: et ita 
+      <lb ed="#P" n="62"/>etiam intelligere vel velle est perfectio simpliciter 
+      <lb ed="#P" n="63"/>et tamen non sunt actus productiui. Dicis quod 
+      produce<lb ed="#P" n="64" break="no"/>re non conuenit memorie create ratione 
+      imperfectio<lb ed="#P" n="65" break="no"/>nis. Dico quod verum est sic quod imperfectio quae est nega¬ 
+      <!--145.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>tiosit sibi ratio agendi. Sed dico quod conuenit sibi 
+      ratio<lb ed="#P" n="67" break="no"/>ne talis perfectionis create supplentis 
+      imperfe<lb ed="#P" n="68" break="no"/>ctionem / sicut homini conuenit generare: supplet 
+      <lb ed="#P" n="69"/>autem hoc imperfectionem producentis: quia nisi 
+      <lb ed="#P" n="70"/>memoria creata esset principium realiter 
+      producti<lb ed="#P" n="71" break="no"/>uum noticie nunquam posset creatura naturaliter 
+      inteli<lb ed="#P" n="72" break="no"/>gere: quia non est suum intelligere: sicut deus. Ista 
+      au<lb ed="#P" n="73" break="no"/>tem imperfectio non est in deo. Et per hoc patet ad 
+      <lb ed="#P" n="74"/>totam deductionem et confirmiationem eius quod ipsa non 
+      <lb ed="#P" n="75"/>concludit.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e697">
+      ¶ Ad secundam dico quod obiectum in 
+      me<lb ed="#P" n="76" break="no"/>moria realiter productiua et creata est productiuum sui 
+      <lb ed="#P" n="77"/>similis actus vel ratio producendi intelligentia: sed non 
+      <lb ed="#P" n="78"/>in deo quia nec in ipso memoria est realiter 
+      producti<lb ed="#P" n="79" break="no"/>ua sed tantum secundum rationem: eo quod intelligentia 
+      <lb ed="#P" n="80"/>sua non distinguitur ab eo nisi secundum rationem: saltem non 
+      <lb ed="#P" n="81"/>realiter.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e713">
+      ¶ Ad tertium diceretur quod productio 
+      quacum<lb ed="#P" n="82" break="no"/>que realis dicit imperfectionem aliquam in producto 
+      ne<lb ed="#P" n="83" break="no"/>cessario et possibilitatem et dependentiam. Et ideo 
+      di<lb ed="#P" n="84" break="no"/>ceretur quod nullum productum est simpliciter necesse esse 
+      <lb ed="#P" n="85"/>nec simpliciter perfectum: nec per consequens ponenda 
+      <lb ed="#P" n="86"/>est aliqua productio necessaria nec ad intra nec ad 
+      ex<lb ed="#P" n="87" break="no"/>tra. Et si forte ad extra secundum philosophos: et 
+      quan<lb ed="#P" n="88" break="no"/>tum ad hoc concluderet argumentum de productione 
+      <lb ed="#P" n="89"/>alicuius necessarii ab alio: tamen non oportet quod ad 
+      intra<lb ed="#P" n="90" break="no"/>nec hoc concludit argumentum. Et quod diuina 
+      perfectio<lb ed="#P" n="91" break="no"/>non concludit talem productionem patet quia ita esset 
+      perfe<lb ed="#P" n="92" break="no"/>ctus deus si in eo esset vnicum suppositum absolutum 
+      <lb ed="#P" n="93"/>et simpliciter persona producens non est perfectior perso 
+      <lb ed="#P" n="94"/>na non producente. Hec de secundo 
+      </p>
+            <p xml:id="qrdBas-a42556-d1e744">
+               <lb ed="#P" n="95"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="96"/>quod possibile vno modo opponitur impossibili: et sic est 
+      <lb ed="#P" n="97"/>commune ad contingens et necessarium. Et sic dico quod 
+      <lb ed="#P" n="98"/>omne productum siue sit necessarium siue contingens 
+      <lb ed="#P" n="99"/>est possibile sicut et omne producens. Secundo modo 
+      <lb ed="#P" n="100"/>opponitur necessario: et sic idem est quod contingens 
+      <lb ed="#P" n="101"/>ad vtrumlibet. Et sic productum necessarium non est 
+      <lb ed="#P" n="102"/>possibile. Tertio modo vt opponitur alicui 
+      relati<lb ed="#P" n="103" break="no"/>ue sicut actui. Et isto etiam modo est possibile actui 
+      <lb ed="#P" n="104"/>incompossibile: nec isto modo productum 
+      necessa<lb ed="#P" n="105" break="no"/>rium est possibile. Alio modo vt opponitur etiam 
+      <lb ed="#P" n="106"/>relatiue ad potens et isto quarto modo etiam 
+      om<lb ed="#P" n="107" break="no"/>ne productum siue contingens siue necessarium est 
+      <lb ed="#P" n="108"/>possibile et relatiue dictum ad potens siue illud 
+      po<lb ed="#P" n="109" break="no"/>tens sit actiuum siue factiuum siue productiuum 
+      <lb ed="#P" n="110"/>tantum.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e781">
+      ¶ Ad secundum dico quod non est impossibile 
+      <lb ed="#P" n="111"/>nec inconueniens aliquid esse necessarium ex se 
+      for<lb ed="#P" n="112" break="no"/>maliter et ab alioproductiue vel originaliter. Tu 
+      <lb ed="#P" n="113"/>dicis quod necessarium ex se manet quocunque alio 
+      cir<lb ed="#P" n="114" break="no"/>cunscripto. Dico quod verum est si circumscriptio illius 
+      <lb ed="#P" n="115"/>alterius non implicat contradictionem ad esse 
+      il<lb ed="#P" n="116" break="no"/>ludiquod ponitur manere. Modo dico quod 
+      circumscri<lb ed="#P" n="117" break="no"/>ptio vnius persone contradicit ad esse alterius per 
+      <lb ed="#P" n="118"/>sone propter identitatem nature in eis: ita quod sicut 
+      <lb ed="#P" n="119"/>mpossibile est filium productum manere non 
+      ma<lb ed="#P" n="120" break="no"/>tente patre sed ipso circumscripto ita et econuerso. 
+      <lb ed="#P" n="121"/>Ita bene aliter diceretur quod necesse esse ex se 
+      for<lb ed="#P" n="122" break="no"/>maliter et a se quantum est ex se potest esse 
+      circumscripto<lb ed="#P" n="123" break="no"/>quocunque alio saltem maxime videtur hoc de tali 
+      ne<lb ed="#P" n="124" break="no"/>cesse esse: sed non sic de necesse esse ex se formaliter 
+      <lb ed="#P" n="125"/>tantum: ab alio tantum productiue / quod possit esse quo 
+      <lb ed="#P" n="126"/>cunque alio circumscripto: puta producente ipso quia 
+      <lb ed="#P" n="127"/>pari necessitate qua est ex se formaliter necesse esse 
+      <lb ed="#P" n="128"/>est ab alio productiue. ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e823">
+      ¶ Ad 
+      ter<lb ed="#P" n="129" break="no"/>tium dico quod non omne productum est mutabile. 
+      <!--146.xml-->
+       <pb ed="#P" n="68-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Ad probationem dico quod producens est prius 
+      origi<lb ed="#P" n="2" break="no"/>ne producto. Sed dico quod esse prius origine non est 
+      <lb ed="#P" n="3"/>producens esse et productum non este: sed est esse ipsum a 
+      <lb ed="#P" n="4"/>quo est ipsum productum: et ita non oportet quod productum 
+      <lb ed="#P" n="5"/>de non esse transeat ad esse per mutationem aliquam. 
+      <lb ed="#P" n="6"/>Ad confirmationem dico quod generatio non ponitur in 
+      <lb ed="#P" n="7"/>deo secundum habitudinem vel ordinem quantum ad 
+      subie<lb ed="#P" n="8" break="no"/>ctum sic enim est imperfectionis et conuenit sibi esse 
+      mu<lb ed="#P" n="9" break="no"/>tationem. sed ponitur in deo secundum ordinem ad terminum 
+      <lb ed="#P" n="10"/>productum: et sic non dicit imperfectionem. Tu dicis 
+      <lb ed="#P" n="11"/>quod generatio quidditatiue est mutatio. Dico quod fal 
+      <lb ed="#P" n="12"/>sum est / absolute dico loquendo de generatione vt 
+      <lb ed="#P" n="13"/>transcendens est: quia est dare aliquam quae non est 
+      muta<lb ed="#P" n="14" break="no"/>tio et non est creata nec in genere: verum est autem quod omnis 
+      <lb ed="#P" n="15"/>generatio cum creata in genere mutatio est.
+    </p>
+            <p xml:id="qrdBas-a42556-d1e867">
+      ¶ Ad 
+      <lb ed="#P" n="16"/>quartum dico quod non esse productum est dependens quia 
+      <lb ed="#P" n="17"/>est in eadem natura cum producente licet non posset esse nisi 
+      <lb ed="#P" n="18"/>a producente sed esse dductum in natura aliena dico 
+      <lb ed="#P" n="19"/>quod est dependens. Sic ad istum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

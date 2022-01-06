@@ -1,0 +1,699 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="84-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a54130"><!-- l1d7q4 -->
+            <head xml:id="qrdBas-a54130-Hd1e99">Quaestio 4</head>
+            <p xml:id="qrdBas-a54130-d1e101">
+               <lb ed="#P" n="23"/>¶ Distinctionis Septime. 
+      <lb ed="#P" n="24"/>Questio quarta. 
+  </p>
+            <p xml:id="qrdBas-a54130-d1e108">
+               <lb ed="#P" n="25"/>QUarto quaero utrum 
+      <lb ed="#P" n="26"/>generatio actiua sit in patre. 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e115">
+               <lb ed="#P" n="27"/>¶ Uidetur quod non quia 
+      genera<lb ed="#P" n="28" break="no"/>tio in diuinis est quasi actio /¬ 
+      <lb ed="#P" n="29"/>ed actio non est in agente sed in
+      <lb ed="#P" n="30"/>passo tertio phisicorum.
+    </p>ß
+    <p xml:id="qrdBas-a54130-d1e126">
+      ¶ 
+      Se<lb ed="#P" n="31" break="no"/>cundo sic. Generatio actiua 
+      <lb ed="#P" n="32"/>Au s habet terminum extrinsecum a 
+      <lb ed="#P" n="33"/>generante et formaliter extrinsecum: sed actio habens 
+      <lb ed="#P" n="34"/>terminum extrinsecum ab agente est actio transiens 
+      <lb ed="#P" n="35"/>et non manens in agente sicut patet quarto metha¬ 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e140">
+               <lb ed="#P" n="36"/>¶ Tertio sic. Generatio non est in patre sicut in 
+      fun<lb ed="#P" n="37" break="no"/>damento. Patet. nec sicut in subiecto patet / nec sicut 
+      <lb ed="#P" n="38"/>in supposito quia precedit paternitatem que constituit 
+      <lb ed="#P" n="39"/>paternum suppositum. igitur nullo modo. 
+      <lb ed="#P" n="40"/>Generatio passiua est in filio igi 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e153">
+               <lb ed="#P" n="41"/>¶ Contra tur / similiter generatio actiua est 
+      <lb ed="#P" n="42"/>in patre / quia sicut filius dicitur formaliter genitus 
+      <lb ed="#P" n="43"/>ita pater formaliter generans. 
+      <lb ed="#P" n="44"/>In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e164">
+               <lb ed="#P" n="45"/>¶ Primo ostendam si generatio sitactio de 
+      gene<lb ed="#P" n="46" break="no"/>re actionis vel quasi.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e171">
+      ¶ Secundo inquiram vtrum 
+      actio<lb ed="#P" n="47" break="no"/>de genere actionis sit in agente.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e176">
+      ¶ Tertio vtrum 
+      <lb ed="#P" n="48"/>generatio actiua sit in patre.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e181">
+      ¶ Ultimo ad rationes. 
+      <lb ed="#P" n="49"/>t est aduertendum quod 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e187">
+               <lb ed="#P" n="50"/>¶ Circa primuut actio de predicamen 
+      <lb ed="#P" n="51"/>to actionis habet tres conditiones que ad ipsam 
+      re<lb ed="#P" n="52" break="no"/>uiruntur.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e196">
+      ¶ Prima est quod sit in fieri siue 
+      successi<lb ed="#P" n="53" break="no"/>ne siue instantanee: quod patet per actorem sex 
+      <lb ed="#P" n="54"/>principiorum qui dicit quod omnis actio est in 
+      motu<lb ed="#P" n="55" break="no"/>non accipit proprie motum / sed accipit ibi pro 
+      quo<lb ed="#P" n="56" break="no"/>libet fieri ex quo patet quod nulla forma permanens 
+      <lb ed="#P" n="57"/>et habens esse quietum in subiecto est actio de 
+      ge<lb ed="#P" n="58" break="no"/>nere actionis.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e212">
+      ¶ Secunda conditio est quod actio de 
+      <lb ed="#P" n="59"/>genere actionis requirit subiectum. Quod patet / 
+      <lb ed="#P" n="60"/>quia actio est secundum quam in id quod subiicitur 
+      age<lb ed="#P" n="61" break="no"/>re vt ille auctor. 6. Principiorum dicit. Sed in hoc 
+      <lb ed="#P" n="62"/>est variatio inter aliquos: quia quidam volunt quod 
+      <!--179.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>actio requirit subiectum de quo vel in quo fiat 
+      ali<lb ed="#P" n="64" break="no"/>quid / vel in quo corrumpatur aliquid non tanquam 
+      sub<lb ed="#P" n="65" break="no"/>iectum proprium / sed tanquam subiectum passionis et 
+      <lb ed="#P" n="66"/>termini formalis ipsius actionis: et isti sunt qui 
+      po<lb ed="#P" n="67" break="no"/>nunt actionem in agente. Alii vero volunt quod 
+      requi<lb ed="#P" n="68" break="no"/>rat illud sicut subiectum proprium actionis non 
+      so<lb ed="#P" n="69" break="no"/>lum passionis et termini formalis. Et isti ponunt 
+      <lb ed="#P" n="70"/>actionem in passo de quo in secundo articulo 
+      inqui<lb ed="#P" n="71" break="no"/>retur: tamen hoc verum est quod actio necessario 
+      requi<lb ed="#P" n="72" break="no"/>rit subiectum et presupponit ipsum duratione vel 
+      <lb ed="#P" n="73"/>natura. Ex quo patet quod creatio vt dicitur de 
+      increa<lb ed="#P" n="74" break="no"/>tis non potest dici actio proprie creatio: etiam 
+      creatu<lb ed="#P" n="75" break="no"/>re create non potest dici passio de genere passionis 
+      <lb ed="#P" n="76"/>propter eandem rationem. Unde licet non semper 
+      re<lb ed="#P" n="77" break="no"/>quirat quid / tamen semper in quid agat. Patet deus 
+      <lb ed="#P" n="78"/>actione corruptiua et passione correspondente suo 
+      <lb ed="#P" n="79"/>modo.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e264">
+      ¶ Tertia conditio quod habeat habitudinem 
+      <lb ed="#P" n="80"/>vel ordinem in terminum ponendum vel corrumpendum 
+      <lb ed="#P" n="81"/>per ipsam sicut per actum positiuum corruptiuum 
+      <lb ed="#P" n="82"/>tanquam via ad esse positum vel corruptum et 
+      quodam<lb ed="#P" n="83" break="no"/>modo ad non esse / non enim semper requitur quod 
+      actio<lb ed="#P" n="84" break="no"/>ponat vel agat aliquod positiue sicut dicit 
+      auctor<lb ed="#P" n="85" break="no"/>sex. principiorum. Actio enim requirit non quid agat 
+      <lb ed="#P" n="86"/>secundum quid / sed est vere aliqua actio realis quae 
+      ta<lb ed="#P" n="87" break="no"/>men nihil ponit / sed quod erat positum destruit. Et 
+      <lb ed="#P" n="88"/>dicitur actio corruptiua: licet etiam sit alia que 
+      po<lb ed="#P" n="89" break="no"/>nit et dicitur actio positiua. Ex defectu huius 
+      con<lb ed="#P" n="90" break="no"/>ditionis dico quod delectatio nec volitio nec sensatio 
+      <lb ed="#P" n="91"/>nec intellectio et huiusmodi non sunt actiones de 
+      <lb ed="#P" n="92"/>genere actionis: quia non habent ordinem in 
+      ter<lb ed="#P" n="93" break="no"/>minum aliquem per ipsas acquirendum vel 
+      corrum<lb ed="#P" n="94" break="no"/>pendum sicut per actus productionis vel 
+      corruptio<lb ed="#P" n="95" break="no"/>nis: sed ipsi sunt termini et vltimum potentie 
+      ope<lb ed="#P" n="96" break="no"/>rantis et fines: sicut dicitur nono Methaphisice. et 
+      <lb ed="#P" n="97"/>primo Ethicorum: et de delectatione apparet 
+      sep<lb ed="#P" n="98" break="no"/>timo et decimo Ethicorum.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e308">
+      ¶ Et nota hic quod non 
+      <lb ed="#P" n="99"/>intelligit actionem vel passionem ordinari ad 
+      ter<lb ed="#P" n="100" break="no"/>minum productum sicut relatio ad suum 
+      correla<lb ed="#P" n="101" break="no"/>tiuum. Nam actio est respectus ad agens non ad 
+      <lb ed="#P" n="102"/>terminum productum / cum terminus productus 
+      <lb ed="#P" n="103"/>sit posterior naturaliter actione et passione quibus 
+      <lb ed="#P" n="104"/>mediantibus producitur. Uerum est tamen quod 
+      im<lb ed="#P" n="105" break="no"/>actione et passione circa ipsas fundatur quidam 
+      re<lb ed="#P" n="106" break="no"/>pectus ordinis ad terminum vt propter quem 
+      in<lb ed="#P" n="107" break="no"/>truditur et ponitur vt ille terminus habeatur. Et 
+      <lb ed="#P" n="108"/>dico bene quod talis respectus non est realis quia 
+      si<lb ed="#P" n="109" break="no"/>tut iam dictum est terminus est posterior natura in 
+      <lb ed="#P" n="110"/>re ad hoc quod actio sit et passio / et ordinantur ad 
+      ter<lb ed="#P" n="111" break="no"/>minum vt ad id quod nondum est vel posterius est 
+      <lb ed="#P" n="112"/>Ad illud autem quod non est in re nunquam est ordo 
+      <lb ed="#P" n="113"/>vel aliquis respectus realis.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e343">
+      ¶ Secundo est aduer 
+      <lb ed="#P" n="114"/>tendum ex nono Methaphisice quod quedam est 
+      actio<lb ed="#P" n="115" break="no"/>immanens et quedam transiens et ista est 
+      distinctio<lb ed="#P" n="116" break="no"/>realis et methaphisica non autem grammaticalis 
+      <lb ed="#P" n="117"/>et tantum penes modos significandi sicut volunt 
+      ali<lb ed="#P" n="118" break="no"/>qui dicere fictice et fingendo ne aliquid agat in 
+      se<lb ed="#P" n="119" break="no"/>ipsum. Actio autem immanens de genere 
+      actio<lb ed="#P" n="120" break="no"/>nis dicitur illa cuius terminus productus est in 
+      a<lb ed="#P" n="121" break="no"/>gente secundum eandem potentiam aliquam 
+      secun<lb ed="#P" n="122" break="no"/>dum quam agitur et elicitur ab ipsa / ita quod idem 
+      <lb ed="#P" n="123"/>agat in seipsum per se et primo: sicut dicimus quod 
+      <lb ed="#P" n="124"/>elitio volitionis et intellectionis est actio manens 
+      <lb ed="#P" n="125"/>in agente: quia secundum eandem potentiam 
+      re<lb ed="#P" n="126" break="no"/>cipitur terminus in volente scilicet volitio ipsa 
+      <lb ed="#P" n="127"/>secundum quam elitio ipsam actionem / puta se¬ 
+      <!--180.xml-->
+       <pb ed="#P" n="85-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cundum voluntatem. Et similiter de 
+      intellectio<lb ed="#P" n="2" break="no"/>ne respectu intellectus et de visione respectu 
+      vi<lb ed="#P" n="3" break="no"/>sus et sic de similibus. Actio vero transiens est 
+      cu<lb ed="#P" n="4" break="no"/>ius terminus saltem est in extrinseca natura vel 
+      po<lb ed="#P" n="5" break="no"/>tentia a potentia eliciente / sicut calefactio cuius 
+      ter<lb ed="#P" n="6" break="no"/>minus puta calor productus / sicut terminus forma 
+      <lb ed="#P" n="7"/>lis est extra calefaciens puta in ligno calefacto. Nec 
+      <lb ed="#P" n="8"/>sufficit ad hoc vt dicatur actio immanens quod 
+      termi<lb ed="#P" n="9" break="no"/>nus maneat in supposito agente secundum aliquam partem 
+      <lb ed="#P" n="10"/>sui / nisi pars sit eadem secundum eam potentiam in qua recipiatur 
+      <lb ed="#P" n="11"/>et a qua eliciatur: tunc enim quando aliquis manu 
+      per<lb ed="#P" n="12" break="no"/>cutit caput habet actionem immanentem quod est 
+      fal<lb ed="#P" n="13" break="no"/>sum. Habet enim vere actionem transeuntem ac 
+      si<lb ed="#P" n="14" break="no"/>alium percuteret: similiter animal mouendo seipsum origine. 
+      <lb ed="#P" n="15"/>videndum si generatio diuina 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e416">
+               <lb ed="#P" n="16"/>¶ Hoc pilo est actio vel quasi actio 
+      imma<lb ed="#P" n="17" break="no"/>nens vel transiens. Et dico breuiter quod non est 
+      actio<lb ed="#P" n="18" break="no"/>nec quasi actio de genere actionis: quia nec 
+      requi<lb ed="#P" n="19" break="no"/>rit subiectum nec quasi subiectum: nec etiam est in 
+      fie<lb ed="#P" n="20" break="no"/>ri sed est necesse esse et permanentissima. Sed 
+      bene<lb ed="#P" n="21" break="no"/>dico quod ipsa est actio quedam personalis productiua 
+      <lb ed="#P" n="22"/>alterius termini a se: non tamen actus qui est 
+      actio<lb ed="#P" n="23" break="no"/>sed actus qui est relatio. Unde in hoc conueniunt 
+      <lb ed="#P" n="24"/>conuenientia rationis tantum actio et diuina generatio 
+      <lb ed="#P" n="25"/>quod vtrumque est respectus productiuus / licet 
+      genera<lb ed="#P" n="26" break="no"/>tio non sit actio nec quasi actio. Et hoc modo dico 
+      <lb ed="#P" n="27"/>quod proprie loquendo non est actio immanens nec 
+      tran<lb ed="#P" n="28" break="no"/>siens nec quasi. Tamen dico quod terminus suus 
+      pro<lb ed="#P" n="29" break="no"/>ductus puta filius non manet formaliter in 
+      produ<lb ed="#P" n="30" break="no"/>scente: sed distinguitur formaliter et suppositaliter 
+      <lb ed="#P" n="31"/>ab ipso et in hoc aliqualiter conuenit cum actione 
+      <lb ed="#P" n="32"/>transeunte / et disconuenit ab actione immanente: cuius 
+      <lb ed="#P" n="33"/>terminus formalis inheret producenti: quia est actus 
+      <lb ed="#P" n="34"/>eius sicut volitio volentis creati. Tamen terminus 
+      <lb ed="#P" n="35"/>eius formalis et etiam totalis non transit in aliquid 
+      <lb ed="#P" n="36"/>quasi in materiam nec in materiam extrinsecam: quod 
+      <lb ed="#P" n="37"/>essentia diuina est terminus formalis verbum 
+      termi<lb ed="#P" n="38" break="no"/>nus totalis vel quasi / et in hoc disconuenit cum 
+      actio<lb ed="#P" n="39" break="no"/>ne transeunte et aliqualiter conuenit cum immanet 
+      <lb ed="#P" n="40"/>te / non tamen omnino quia et si terminus formalis 
+      <lb ed="#P" n="41"/>actionis immanentis non respicit aliquid extrinsecum 
+      <lb ed="#P" n="42"/>sicut materiam vel subiectum / tamen respicit ipsum pro 
+      <lb ed="#P" n="43"/>ducens cuiusmodi est actus sicut vere subiectum: hoc 
+      <lb ed="#P" n="44"/>autem locum non habet in diuinis.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e481">
+      ¶ Sic igitur 
+      pa<lb ed="#P" n="45" break="no"/>tet quod generatio diuina non est actio nec quasi 
+      actio<lb ed="#P" n="46" break="no"/>de genere actionis. Sed dico quod omnis generatio 
+      <lb ed="#P" n="47"/>creature vel in creatura ex parte generantis est 
+      actio<lb ed="#P" n="48" break="no"/>de genere actionis quia habet illas conditiones 
+      su<lb ed="#P" n="49" break="no"/>perius enarratas requisitas ad actionem de genere 
+      <lb ed="#P" n="50"/>actionis. Et hoc modo dico quod generatio passio / est 
+      <lb ed="#P" n="51"/>passio de genere passionis et impossibile est quod sit 
+      sub<lb ed="#P" n="52" break="no"/>stantia: vnde simpliciter falsum dicunt illi / qui 
+      di<lb ed="#P" n="53" break="no"/>cunt quod generatio est idem cum forma substantiali 
+      <lb ed="#P" n="54"/>Tunc enim maneret manente forma substantiali: et 
+      <lb ed="#P" n="55"/>ita quandiu homo generaret aliquid / generatum 
+      ha<lb ed="#P" n="56" break="no"/>beret formam substantialem tam diu quod generare. 
+      <lb ed="#P" n="57"/>quod est falsum. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e512">
+               <lb ed="#P" n="58"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="59" break="no"/>ticulum dicunt aliqui quod actio de genere actionis 
+      <lb ed="#P" n="60"/>per se et vniuetsaliter loquendo non est in agente sed 
+      <lb ed="#P" n="61"/>in passo. Ita quod si aliquando sit in agente hoc accidit 
+      <lb ed="#P" n="62"/>inquantum agens et passum sunt idem: sicut patet in 
+      actio<lb ed="#P" n="63" break="no"/>ne immanente: quia tunc non est in agente secundum quod 
+      hu<lb ed="#P" n="64" break="no"/>iusmodi sed secundum quod patiens est. Hoc autem probant 
+      <!--180.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ipsi per Aristotelem tertio phisicorum vbi 
+      deter<lb ed="#P" n="66" break="no"/>minat istud dicens quod actio et passio sunt idem 
+      subie<lb ed="#P" n="67" break="no"/>cto tamen differunt ratione vel secundum esse id est 
+      se<lb ed="#P" n="68" break="no"/>cundum quidditatem. Sed passio est in passo igitur 
+      <lb ed="#P" n="69"/>et actio.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e545">
+      ¶ Secundo sic. In quocunque est motus sul 
+      <lb ed="#P" n="70"/>iectiue in eodem est actio et passio. Probatio quia 
+      <lb ed="#P" n="71"/>dicit ibidem philosophus quod hec scilicet actio et 
+      pas<lb ed="#P" n="72" break="no"/>sio insunt motui ita quod videtur ibi dicere quod actio et 
+      <lb ed="#P" n="73"/>passio habent pro immediato subiecto vel fundamen 
+      <lb ed="#P" n="74"/>to ipsum motum: sed motus per se est in eo quod 
+      mo<lb ed="#P" n="75" break="no"/>uetur vel in passo seu moto igitur etc.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e561">
+      ¶ Item 
+      ter<lb ed="#P" n="76" break="no"/>tio sic. Si actio esset per se in agente tunc agens per se 
+      <lb ed="#P" n="77"/>mutaretur: quia de non habente actionem fieret habens 
+      <lb ed="#P" n="78"/>eam et ita mutaretur: sed hoc est falsum: igitur etc 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e570">
+               <lb ed="#P" n="79"/>¶ Quarto sic. Deus potest calefacere lignum 
+      immo<lb ed="#P" n="80" break="no"/>diate educendo calorem de potentia ligni sicut median 
+      <lb ed="#P" n="81"/>te igne / et planum est quod in ligno calefactio passio est 
+      <lb ed="#P" n="82"/>de genere passionis tunc vltra non est dare passionem 
+      <lb ed="#P" n="83"/>sine actione Quero igitur in quo est illa actio de 
+      ge<lb ed="#P" n="84" break="no"/>nere actionis qui est verus respectus realis 
+      corre<lb ed="#P" n="85" break="no"/>spondens illi actioni non potest dici quod sit in deo: quia 
+      <lb ed="#P" n="86"/>deus non refertur realiter ad creaturam: igitur 
+      opor<lb ed="#P" n="87" break="no"/>tet quod sit in ligno / calefactio igitur actio est in 
+      pas<lb ed="#P" n="88" break="no"/>so.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e595">
+      ¶ Quinto sic. In eodem est dispositio necessitans 
+      <lb ed="#P" n="89"/>ad formam et ipsa forma sed actio est dispositio 
+      ne<lb ed="#P" n="90" break="no"/>cessitans ad terminum actionis qui est forma quia non 
+      <lb ed="#P" n="91"/>potest poni actio quin ponatur forma / sicut nec 
+      actio<lb ed="#P" n="92" break="no"/>sineltermino. Uidetur enim implicatio 
+      contradictio<lb ed="#P" n="93" break="no"/>nis dicere oppositum: forma autem per se est in passe 
+      <lb ed="#P" n="94"/>igitur et actio ipsa. Dicunt igitur isti quod actio et 
+      pas<lb ed="#P" n="95" break="no"/>sio sunt in passo nec oportet quod actio denominet 
+      pas<lb ed="#P" n="96" break="no"/>sum ita quod dicatur agens per illam sicut nec oportet 
+      <lb ed="#P" n="97"/>quod intellectus denominetur per intellectionem vt res 
+      <lb ed="#P" n="98"/>intellecta licet intellectio formaliter sit in 
+      intelle<lb ed="#P" n="99" break="no"/>ctu. hec est opinio.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e621">
+      ¶ Modus ponendi aliquorum de 
+      <lb ed="#P" n="100"/>ista opinione est quod actio et passio dicunt duos 
+      respe<lb ed="#P" n="101" break="no"/>ctus in ipso motu sicut in subiecto vel fundamento 
+      <lb ed="#P" n="102"/>scilicet respectum ab hoc / et respectum in hoc: ita quod 
+      <lb ed="#P" n="103"/>motus vt ab hoc dicitur actio vel ab agente: sed vt in 
+      <lb ed="#P" n="104"/>hoc puta in patiente dicitur passio et videntur hab 
+      <lb ed="#P" n="105"/>re verba Aristotelis pro eis vt patet tertio 
+      phisi<lb ed="#P" n="106" break="no"/>corum. Et isti ponunt quod motus est idem quod forma 
+      in<lb ed="#P" n="107" break="no"/>fieri tantum.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e641">
+      ¶ Alii de eadem conclusione dicunt et 
+      be<lb ed="#P" n="108" break="no"/>ne quantum ad hoc quod ista sunt impossibilia. Primo quia 
+      <lb ed="#P" n="109"/>si actio et passio fundarentur in motu necessario 
+      actio<lb ed="#P" n="110" break="no"/>et passio essent respectus intrinseci et non extrinseci 
+      <lb ed="#P" n="111"/>aduenientes: quia posito fundamento necessario 
+      po<lb ed="#P" n="112" break="no"/>nerentur: quia impossibile est esse motum qui non sit 
+      <lb ed="#P" n="113"/>ab hoc et in hoc: sed isti sunt respectus extrinseci 
+      ve<lb ed="#P" n="114" break="no"/>patet in auctore sex principiorum igitur etc. 
+      Mo<lb ed="#P" n="115" break="no"/>tus igitur non est fundamentum vel immediatum 
+      sub<lb ed="#P" n="116" break="no"/>iectum ipsorum.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e663">
+      ¶ Secundo quia potentia passiua 
+      <lb ed="#P" n="117"/>videtur esse immediatum subiectum et 
+      fundamen<lb ed="#P" n="118" break="no"/>tum passionis: sed motus vel forma in fieri non est 
+      <lb ed="#P" n="119"/>potentia passiua: sed magis ad subiectum motus 
+      per<lb ed="#P" n="120" break="no"/>tinet ista potentia igitur etc.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e674">
+      ¶ Tertio contra illud 
+      <lb ed="#P" n="121"/>dictum quod motus et forma sunt essentialiter idem: 
+      for<lb ed="#P" n="122" break="no"/>ma manet et motus non manet igitur motus et forma 
+      <lb ed="#P" n="123"/>non sunt idem. Dices verum est forma absoluta et 
+      <lb ed="#P" n="124"/>completa: sed non vt in fieri. Contra: illud in fieri vel 
+      <lb ed="#P" n="125"/>aliquid addit vltra formam et gradum forme sub 
+      ip<lb ed="#P" n="126" break="no"/>so quod non manet manente forma: et illud voco motum et 
+      <lb ed="#P" n="127"/>habeo propositum quod motus et forma essentialiter 
+      <lb ed="#P" n="128"/>distinguuntur. Aut nichil addit et sic manente illo 
+      <lb ed="#P" n="129"/>gradu manet in fieri sicut prius quod est falsum. 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e696">
+        <!--181.xml-->
+               <pb ed="#P" n="85-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Item impossibile est quod eadem species sit plures 
+      <lb ed="#P" n="2"/>species realiter vel econuerso / sed si motus est idem 
+      <lb ed="#P" n="3"/>cum termino sequitur hoc. Probatio quia ad eun 
+      <lb ed="#P" n="4"/>dem terminum specie possunt esse duo motus 
+      distin<lb ed="#P" n="5" break="no"/>cti specie / sicut circularis et rectus septimo phisico 
+      <lb ed="#P" n="6"/>rum igitur etc. Et ideo dicunt isti de eadem 
+      conclu<lb ed="#P" n="7" break="no"/>sione quod actio et passio sunt respectus extrinsecus ad  
+      <lb ed="#P" n="8"/>uenientes qui fundantur in potentia passiua ipsius mobi 
+      <lb ed="#P" n="9"/>lis vel passi secundum quod subiectum vel passum se habet 
+      <lb ed="#P" n="10"/>ad agens vt a quo est forma ipsa: et sic in ipso funda 
+      <lb ed="#P" n="11"/>tur actio. Alio modo se habens ad agens vt ipsum 
+      <lb ed="#P" n="12"/>in quo est forma inducta ab agente / et sic fundat 
+      re<lb ed="#P" n="13" break="no"/>spectum passionis / ita quod respectus passionis est 
+      respe<lb ed="#P" n="14" break="no"/>ctus patientis ad agens vt in quo recipitur forma 
+      <lb ed="#P" n="15"/>sed respectus actionis est respectus patientis ad agens 
+      <lb ed="#P" n="16"/>vt a quo est forma recepta Et dicunt quod isti deuo 
+      re<lb ed="#P" n="17" break="no"/>spectus essentialiter distinguuntur. Tum quia sunt 
+      <lb ed="#P" n="18"/>res diuersorum generum. Actio enim et passio sunt 
+      di<lb ed="#P" n="19" break="no"/>uersa predicamenta. Tum quia vnus eorum est 
+      cau<lb ed="#P" n="20" break="no"/>sa alterius scilicet actio passionis / vt patet per illum 
+      au<lb ed="#P" n="21" break="no"/>ctorem sex principiorum qui dicit quod passio est effe 
+      <lb ed="#P" n="22"/>ctus illatioque actionis. Hoc dicit commentator 
+      ter<lb ed="#P" n="23" break="no"/>tio phisicorum. 18. commento quod actio motorum facit 
+      <lb ed="#P" n="24"/>motum. Et ibidem. 19. et. 20. similiter quinto 
+      ethi<lb ed="#P" n="25" break="no"/>corum nono capitulo commento. 30. quod operatio non 
+      <lb ed="#P" n="26"/>est generatio vel motus quia est causa generationis 
+      <lb ed="#P" n="27"/>vel motus. Unde si aliquando dicat quod actio est 
+      mo<lb ed="#P" n="28" break="no"/>tus / hoc est dictu per causalitatem / et quia etiam est 
+      di<lb ed="#P" n="29" break="no"/>spositio necessitans ad passionem.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e769">
+      ¶ Ulterius dicunt 
+      <lb ed="#P" n="30"/>quod isti duo respectus essentialiter sunt motus 
+      scili<lb ed="#P" n="31" break="no"/>cet actio et passio sunt duo motus partiales 
+      subor<lb ed="#P" n="32" break="no"/>dinati et ita vnus motus vnitate ordinis quia ordi 
+      <lb ed="#P" n="33"/>nem habent adinuicem et ambo ad eundem terminum 
+      or<lb ed="#P" n="34" break="no"/>dinantur. Actio enim prior est passione et ambo sunt 
+      <lb ed="#P" n="35"/>priores termino. Et quod vterque sit motus vel 
+      muta<lb ed="#P" n="36" break="no"/>tio probant: quia vterque est actus mobilis in eo quoa 
+      <lb ed="#P" n="37"/>mobile in ordine ad terminum acquirendum et est actus 
+      <lb ed="#P" n="38"/>entis in potentia secundum quod huiusmodi.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e791">
+      ¶ Ex praedictis 
+      <lb ed="#P" n="39"/>vltimo concludunt quod quando dicitur actio et passio 
+      <lb ed="#P" n="40"/>est vnus motus non est intelligendum essentialiter et 
+      <lb ed="#P" n="41"/>quidditatiue / sed vnus subiecto: quia ambo sunt in 
+      <lb ed="#P" n="42"/>eodem subiecto puta in passo non in motu / quia 
+      ip<lb ed="#P" n="43" break="no"/>se motus et quilibet eorum est motus vel mutatio. 
+      <lb ed="#P" n="44"/>Sunt etiam vnus motus non solum subiecto: sed 
+      vni<lb ed="#P" n="45" break="no"/>tate ordinis inter se et ad eundem terminum. Hec 
+      <lb ed="#P" n="46"/>est opinio. 
+      <lb ed="#P" n="47"/>quod actio de genere actio¬ 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e813">
+               <lb ed="#P" n="48"/>¶ Alia est opinio nis est respectus ex 
+      <lb ed="#P" n="49"/>trinsecus qui est formaliter et subiectiue in agente per 
+      <lb ed="#P" n="50"/>se et nunquam in passo nisi per accidens quando agens et 
+      <lb ed="#P" n="51"/>passum adinuicem concurrunt in eodem / et est 
+      respo<lb ed="#P" n="52" break="no"/>ctus ad ipsum passum receptiuum forme vel termi 
+      <lb ed="#P" n="53"/>ni formalis ipsius mutationis vel motus: non autem 
+      <lb ed="#P" n="54"/>ad terminum productum siue totalem cuiusmodi est 
+      <lb ed="#P" n="55"/>compositum: siue formalem cuiusmodi est forma: quia 
+      <lb ed="#P" n="56"/>iste est in secundo modo relatorum in agentibus 
+      crea<lb ed="#P" n="57" break="no"/>tis / et est intrinsecus: quia ponitur statim posito 
+      fui<lb ed="#P" n="58" break="no"/>damento scilicet potentia actiua: et termino scilicet 
+      prodi<lb ed="#P" n="59" break="no"/>cto ipso.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e842">
+      ¶ Quod autem actio de genere actionis sit in 
+      <lb ed="#P" n="60"/>agente sicut in subiecto Probant primo per 
+      Aristo<lb ed="#P" n="61" break="no"/>telem qui dicit tertio phisicorum quod actio non 
+      distin<lb ed="#P" n="62" break="no"/>guitur ab agente / igitur non separatur ab eo sed est in 
+      <lb ed="#P" n="63"/>to sicut in subiecto. Ista ratio non valet quia 
+      quan<lb ed="#P" n="64" break="no"/>do dicit actio est actus non distinctus intelligit hoc 
+      <lb ed="#P" n="65"/>quia est continue ab agente non interruptus non quia 
+      <!--181.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>sit formaliter in agente.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e864">
+      ¶ Secundo sic. 
+      Impossi<lb ed="#P" n="67" break="no"/>bile est quod eadem forma sit in aliquo subiecto 
+      formali<lb ed="#P" n="68" break="no"/>ter et non denominet ipsum sicut albedo album et 
+      pa<lb ed="#P" n="69" break="no"/>ternitas patrem. Sed actio non denominat passum 
+      <lb ed="#P" n="70"/>quia tunc passum diceretur agens quod est falsum: igi 
+      <lb ed="#P" n="71"/>tur etc. Nec valet exemplum illorum de 
+      intellectio<lb ed="#P" n="72" break="no"/>ne et intellecto / quia licet intellectus bene denominet 
+      <lb ed="#P" n="73"/>rem denominatione extrinseca / tamen cum hoc 
+      denomi<lb ed="#P" n="74" break="no"/>nat intellectum: quia per intellectionem dicitur 
+      intel<lb ed="#P" n="75" break="no"/>ligens formaliter. Similiter etiam si actio est in 
+      pas<lb ed="#P" n="76" break="no"/>so diceretur passum agens et per se hoc est falsum: 
+      <lb ed="#P" n="77"/>ita quod exemplum non est ad propositum. licet enim 
+      for<lb ed="#P" n="78" break="no"/>ma que non est in aliquo subiectiue possit ipsum des 
+      <lb ed="#P" n="79"/>nominare denominatione extrinseca tamen 
+      impossibi<lb ed="#P" n="80" break="no"/>le est quod forma sit in aliquo subiectiue et non 
+      denomi<lb ed="#P" n="81" break="no"/>net ipsum. Dices quod actio denominat passum sed 
+      ex<lb ed="#P" n="82" break="no"/>hoc passum non dicitur sed actum actuatum. 
+      Con<lb ed="#P" n="83" break="no"/>tra passum non dicitur actuatum vel actum nisi 
+      secun<lb ed="#P" n="84" break="no"/>dum quod receptiuum est sed secundum quod receptiuum 
+      <lb ed="#P" n="85"/>est passiuum certum est quod non respicit nisi passionem 
+      <lb ed="#P" n="86"/>vel receptionem forme: igitur per actionem non potest 
+      <lb ed="#P" n="87"/>dici actum vel actuatum. Preterea non video 
+      ratio<lb ed="#P" n="88" break="no"/>nem conuenire sicut subiectum passionis dicitur 
+      pa<lb ed="#P" n="89" break="no"/>tiens subiectum actionis non dicatur agens et ita se 
+      <lb ed="#P" n="90"/>quitur propositum.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e919">
+      ¶ Tertio sic. In eo est 
+      forma<lb ed="#P" n="91" break="no"/>liter et per se respectus in quo est suum 
+      fundamen<lb ed="#P" n="92" break="no"/>tum vt patet in omnibus sed fundamentum actionis 
+      <lb ed="#P" n="93"/>est potentia actiua qua per se agens agit / sicut fundam 
+      <lb ed="#P" n="94"/>mentum passionis est per se potentia passiua qua 
+      pa<lb ed="#P" n="95" break="no"/>titur et recipit / non video quare non / igitur etc.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e933">
+      ¶ Quar 
+      <lb ed="#P" n="96"/>to sic. Si actio est in passo oportet necessario quod 
+      pas<lb ed="#P" n="97" break="no"/>sum et per ipsam ad aliquid referatur / non nisi ad agens 
+      <lb ed="#P" n="98"/>quia non ad seipsum per se et vniuersaliter loquendo 
+      <lb ed="#P" n="99"/>vt patet: nec ad formam receptam quia nec formo 
+      <lb ed="#P" n="100"/>conuenit aliqua actio respectu subiecti vel passi nec 
+      <lb ed="#P" n="101"/>passo respectu forme igitur ad agens: sed hoc est im 
+      <lb ed="#P" n="102"/>possibile quia ad ipsum referri non potest nisi vt 
+      pa<lb ed="#P" n="103" break="no"/>titur ab ipso: sed vt patitur non refertur nisi per 
+      pas<lb ed="#P" n="104" break="no"/>sionem vt patet / igitur nullomodo ponenda est 
+      actio<lb ed="#P" n="105" break="no"/>in agente. Confirmatur quia cuius est potentia eius est actus 
+      <lb ed="#P" n="106"/>in de somno et vigilia: et accipit vniuersaliter tam de 
+      po<lb ed="#P" n="107" break="no"/>tentia actiua quam passiua / alias nichil valeret argumen 
+      <lb ed="#P" n="108"/>tum suum: sed est fallacia consequentis concedendo ad 
+      in<lb ed="#P" n="109" break="no"/>finita plures causas veritatis ad vnam singularem. 
+      <lb ed="#P" n="110"/>Item agens dicitur perfectum inquantum agit sed non 
+      <lb ed="#P" n="111"/>est perfectum nec aliquo quod est formaliter in ipso ets 
+      <lb ed="#P" n="112"/>non extra se. Item nono metaphisice. In eadem 
+      poten<lb ed="#P" n="113" break="no"/>tia precedit actum ergo actus et potentia sunt in eo 
+      <lb ed="#P" n="114"/>dem et exemplat ibi de actu cithari sandi. Item 
+      actio<lb ed="#P" n="115" break="no"/>immanens est in agente inquantum agens igitur et tran  
+      <lb ed="#P" n="116"/>siens. Item commentator nono metaphisice 
+      commento<lb ed="#P" n="117" break="no"/>secundo actio artis carpentarie est in carpentatore. 
+      <lb ed="#P" n="118"/>Item Auicenna secundo phisicorum capitulo primo 
+      <lb ed="#P" n="119"/>in fine dicit sic. Dicunt aliqui quod motio et motus sunt 
+      <lb ed="#P" n="120"/>vna essentia: sed dicemus subtiliori modo quod veritas 
+      <lb ed="#P" n="121"/>rei non sic se habet: quia mouere est dispositio 
+      mouen<lb ed="#P" n="122" break="no"/>tis non motus / et comparatur motus ad mouentem 
+      vi<lb ed="#P" n="123" break="no"/>est dispositio motus non mouentis. Item agere 
+      vel<lb ed="#P" n="124" break="no"/>actio conuenit alicui in actu et potentia actiua: sed quod 
+      <lb ed="#P" n="125"/>conuenit moto et passo conuenit sibi vt in potentia 
+      pas<lb ed="#P" n="126" break="no"/>siua quare etc.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1003">
+      ¶ Quinto arguunt aliqui. Respectus 
+      <lb ed="#P" n="127"/>oppositi non sunt necessario et vniuersaliter loquen 
+      <lb ed="#P" n="128"/>do et per se in eodem: sed passio et actio sunt respectus 
+      <lb ed="#P" n="129"/>formaliter oppositi. Passio autem est in passo per 
+      <lb ed="#P" n="130"/>se et vniuersaliter non igitur actio. Sed ista ratio non 
+      <!--182.xml-->
+       <pb ed="#P" n="86-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>valet iudicio meo quia actio et passio non sunt 
+      respe<lb ed="#P" n="2" break="no"/>ctus oppositi. Tum quia sunt alterius et alterius 
+      ge<lb ed="#P" n="3" break="no"/>neris. Tum quia non sunt simul natura: quia 
+      actio<lb ed="#P" n="4" break="no"/>cum sit causa passionis ( sicut dicit principiator ) est 
+      <lb ed="#P" n="5"/>prior natura ipsa passione. Et ideo dico quod sunt 
+      re<lb ed="#P" n="6" break="no"/>pectus disparati non oppositi: et non est isti rationi 
+      in<lb ed="#P" n="7" break="no"/>nitendum.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1036">
+      ¶ Et nota circa hoc quod actio in agente non 
+      <lb ed="#P" n="8"/>habet respectum aliquem oppositum nec in agente 
+      <lb ed="#P" n="9"/>nec in patiente / similiter nec passio sicut nec 
+      respe<lb ed="#P" n="10" break="no"/>ctus scientie ad scibile et creature ad deum non 
+      ha<lb ed="#P" n="11" break="no"/>bent respectus reales oppositos / quia tunc essent 
+      mu<lb ed="#P" n="12" break="no"/>tui quod est falsum. Dicitur igitur proportionabiliter 
+      <lb ed="#P" n="13"/>quod actio est formaliter in agente quicquid sit de 
+      inten<lb ed="#P" n="14" break="no"/>tione Aristotelis que magis videtur declinare ad  
+      <lb ed="#P" n="15"/>aliam opinionem sed non video pro ea rationem / et ideo 
+      <lb ed="#P" n="16"/>de sua opinione parum est curandum. 
+      <lb ed="#P" n="17"/>aliorum dicitur 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e1060">
+               <lb ed="#P" n="18"/>¶ Ad rationes ergo Ano mod quod ad 
+      <lb ed="#P" n="19"/>tio aliquando accipitur pro termino actionis et tunc 
+      <lb ed="#P" n="20"/>dicitur actio acta et illa est in passo et de illa 
+      intendit<lb ed="#P" n="21" break="no"/>Aristoteles quod est idem subiecto puta in passo. Alio 
+      <lb ed="#P" n="22"/>modo accipitur actio pro ipsa productione vel actu 
+      <lb ed="#P" n="23"/>productiuo termini et isto modo non intelligit de actione 
+      <lb ed="#P" n="24"/>quod sit in passo sed magis in agente: quia non diuiditur 
+      <lb ed="#P" n="25"/>ab agente. Quicquid sit de ista solutione dico quod 
+      ma<lb ed="#P" n="26" break="no"/>gis videtur intentio Aristotelis quod actio sit in passo 
+      <lb ed="#P" n="27"/>actio dico de genere actionis. Et tunc dico ad 
+      argu<lb ed="#P" n="28" break="no"/>mentum quod Aristoteles nunquam habuit ita probabile 
+      <lb ed="#P" n="29"/>rationem de illo sicut habetur de opposito / nec est 
+      ne<lb ed="#P" n="30" break="no"/>cessario tenendus in hoc / sicut nec in multis aliis. 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e1091">
+               <lb ed="#P" n="31"/>¶ Ad secundum per idem est dicendum quod actio et 
+      <lb ed="#P" n="32"/>passio non insunt motui sicut subiecto vel fundamen 
+      <lb ed="#P" n="33"/>to sed ipsa passio est motus ipse / non autem 
+      actio<lb ed="#P" n="34" break="no"/>passio igitur motus est / et ideo actio non inest 
+      mo<lb ed="#P" n="35" break="no"/>tui sicut actio non inest passioni. Dicis ista fuit 
+      inten<lb ed="#P" n="36" break="no"/>tio Aristotelis: dico quod bene videtur sed 
+      Aristote<lb ed="#P" n="37" break="no"/>les non probat hoc: alie solutiones dantur sed non cu 
+      <lb ed="#P" n="38"/>ro.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1111">
+      ¶ Ad tertium dico quod non sequitur / Agens 
+      mu<lb ed="#P" n="39" break="no"/>tari vel moueri dato quod actio sit in ipso: quia 
+      termi<lb ed="#P" n="40" break="no"/>nus actionis non est in ipso. Si dicas quod sic immo 
+      om<lb ed="#P" n="41" break="no"/>nino quia transit de non actione ad actionem et sic 
+      de<lb ed="#P" n="42" break="no"/>non agente lgens. Dico quod ita potest argui contra 
+      <lb ed="#P" n="43"/>eos. Si actio est in passo sequeretur quod passum secundum 
+      <lb ed="#P" n="44"/>actionem mutaretur et secundum passionem et secundum terminum 
+      <lb ed="#P" n="45"/>vtriusque et sic erunt ibi tres mutationes. Solue igi 
+      <lb ed="#P" n="46"/>tur et ego soluam. Et ideo dico quod accipiendo 
+      om<lb ed="#P" n="47" break="no"/>ne illud mutari quod habet aliquid reale positiuum 
+      <lb ed="#P" n="48"/>quod prius non habebat: quod agens mutatur isto 
+      mo<lb ed="#P" n="49" break="no"/>do sed non mutatur sicut habens terminum motus 
+      <lb ed="#P" n="50"/>vel mutationis sicut passum et hoc sufficit.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1141">
+      ¶ Ad 
+      <lb ed="#P" n="51"/>quartum dico quod habes pro inconuenienti quod sit 
+      pas<lb ed="#P" n="52" break="no"/>sio de genere passionis sine actione de genere 
+      actio<lb ed="#P" n="53" break="no"/>nis quia isti non sunt respectus oppositi nec mutui 
+      <lb ed="#P" n="54"/>sicut dictum est supra: immo nec habeo pro 
+      inconue<lb ed="#P" n="55" break="no"/>nienti econuerso / quod sit actio sine passione et 
+      termino<lb ed="#P" n="56" break="no"/>vel forma producta: non tamen sine passo. Actio enim 
+      <lb ed="#P" n="57"/>cum sit prior natura passione: quia causa eius: vel etiam 
+      <lb ed="#P" n="58"/>dato quod non sit causa eius distincta essentialiter ab 
+      <lb ed="#P" n="59"/>ea: sine contradictione potest esse sine ipsa.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1163">
+      ¶ Ad 
+      <lb ed="#P" n="60"/>quintum dico quod non valet de dispositione que non 
+      <lb ed="#P" n="61"/>est ra tio recipiendi actio autem non est 
+      dispositio<lb ed="#P" n="62" break="no"/>que sit ratio recipiendi sicut patet: quia actio 
+      tran<lb ed="#P" n="63" break="no"/>sit et terminus formalis manet: quare etc. hec de secundo 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e1174">
+               <lb ed="#P" n="64"/>¶ Quantum ad tertium di¬ 
+      <!--182.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>co quod generatio actiua non est in filio sed in patre. 
+      <lb ed="#P" n="66"/>Primo sic. Opposite relationes originis non sunt 
+      <lb ed="#P" n="67"/>formaliter in eodem supposito quia tunc idem 
+      sup<lb ed="#P" n="68" break="no"/>positum originaret se contra Augustinum primo de 
+      <lb ed="#P" n="69"/>trinitate capitulo primo: sed generatio actiua et 
+      pas<lb ed="#P" n="70" break="no"/>siua sunt opposite relationes originis in diuinis quid 
+      <lb ed="#P" n="71"/>quid sit in creaturis: igitur etc. Sed generatio passio 
+      <lb ed="#P" n="72"/>est formaliter in filio non igitur in ipso est generare 
+      <lb ed="#P" n="73"/>sed in patre.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1203">
+      ¶ Secundo sic. Respectus vel actus 
+      <lb ed="#P" n="74"/>productiuus non est per se primo et formaliter in 
+      ter<lb ed="#P" n="75" break="no"/>mino producto quod patet: quia terminus 
+      produ<lb ed="#P" n="76" break="no"/>ctus habet esse per actum productiuum / et ita 
+      poste<lb ed="#P" n="77" break="no"/>rior est ipso quocumque modo / et ita per se non est in eo 
+      <lb ed="#P" n="78"/>per accidens autem est possibile quod sit in eo producto 
+      <lb ed="#P" n="79"/>ratione partis sicut actus productiuus volitionis 
+      <lb ed="#P" n="80"/>est in toto volente producto: quia est in voluntate 
+      <lb ed="#P" n="81"/>que est pars eius. Similiter illi qui ponunt quod 
+      actio<lb ed="#P" n="82" break="no"/>est in passo dicunt hoc sicut quod calefactio est in 
+      ligno<lb ed="#P" n="83" break="no"/>calefacto quia est in parte huius totius puta in 
+      sub<lb ed="#P" n="84" break="no"/>iecto caloris / quia idem est subiectum actionis et 
+      ter<lb ed="#P" n="85" break="no"/>mini formalis vt dicunt. Sic igitur quando est 
+      pro<lb ed="#P" n="86" break="no"/>ductio immanens et in subiecto: possibile est quod actus 
+      <lb ed="#P" n="87"/>productiuus sit per accidens in termino ratione 
+      par<lb ed="#P" n="88" break="no"/>tis ipsius: vbi autem non est productio de 
+      subiecto<lb ed="#P" n="89" break="no"/>nec quasi de subiecto non est hoc possibile nec per se 
+      <lb ed="#P" n="90"/>nec per accidens: sed generatio diuina est respectus vel 
+      <lb ed="#P" n="91"/>magis actus productiuus non de subiecto nec 
+      qua<lb ed="#P" n="92" break="no"/>si de subiecto: igitur nullo modo est in termino 
+      pro<lb ed="#P" n="93" break="no"/>ducto puta in filio igitur in patre.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1249">
+      ¶ Tertio sic. 
+      Re<lb ed="#P" n="94" break="no"/>spectus producentis ad productum semper est in 
+      pro<lb ed="#P" n="95" break="no"/>ducente et nunquam in producto / sed generatio vel 
+      ge<lb ed="#P" n="96" break="no"/>nerare est respectus in diuinis producentis ad 
+      sub<lb ed="#P" n="97" break="no"/>iectum vel quasi subiectum sicut in creaturis / 
+      igi<lb ed="#P" n="98" break="no"/>tur est in patre producente.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1262">
+      ¶ Quarto sic. 
+      Genera<lb ed="#P" n="99" break="no"/>re et paternitas sunt idem totaliter hoc patebit 
+      in<lb ed="#P" n="100" break="no"/>fra / et hoc dicitur expresse vigesimaseptima 
+      distinctio<lb ed="#P" n="101" break="no"/>ne huius primi: alias essent in diuinis plures 
+      rela<lb ed="#P" n="102" break="no"/>tiones quam quatuor quod est falsum: sed paternitas 
+      <lb ed="#P" n="103"/>non est formaliter in filio quia tunc filius esset 
+      pa<lb ed="#P" n="104" break="no"/>ter / igitur est in patre igitur et ipsum generare. 
+      Con<lb ed="#P" n="105" break="no"/>firmatur de paternitate que est in patre igitur 
+      simi<lb ed="#P" n="106" break="no"/>liter generatio actiua patet de vtroque in creaturis 
+      <lb ed="#P" n="107"/>quia in patre est proximum et immediatum fundamen 
+      <lb ed="#P" n="108"/>tum vtriusque scilicet potentia generatiua. Sic 
+      igi<lb ed="#P" n="109" break="no"/>tur dico ad questionem quod generare vel generatio 
+      <lb ed="#P" n="110"/>actiua est formaliter in patre. 
+      </p>
+            <p xml:id="qrdBas-a54130-d1e1292">
+               <lb ed="#P" n="111"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="112"/>quod imo actio est in agente. Et ad minorem dico quod 
+      ge<lb ed="#P" n="113" break="no"/>nerare diuinum non est actio nec quasi actio de 
+      gene<lb ed="#P" n="114" break="no"/>te actionis: et ideo dato quod actio non esset in agente non 
+      <lb ed="#P" n="115"/>sequitur quin generatio sit in patre.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1305">
+      ¶ Ad secundum 
+      <lb ed="#P" n="116"/>dico quod generatio non est actio nec quasi actio. et per 
+      <lb ed="#P" n="117"/>consequens nec immanens nec transiens sicut dictum 
+      <lb ed="#P" n="118"/>est supra. Aliter diceretur quod actio de genere 
+      actio<lb ed="#P" n="119" break="no"/>nis quecumque est formaliter in agente: tamen aliqua 
+      dici<lb ed="#P" n="120" break="no"/>tur transiens quia terminus eius non est in agente / et 
+      <lb ed="#P" n="121"/>in hoc distinguitur ab immanente cuius terminus est 
+      <lb ed="#P" n="122"/>in agente: et non solum actio ipsa.
+    </p>
+            <p xml:id="qrdBas-a54130-d1e1323">
+      ¶ Ad tertium 
+      di<lb ed="#P" n="123" break="no"/>co quod generare est inpatre vt in supposito 
+      generan<lb ed="#P" n="124" break="no"/>te et dico quod est idem quod paternitas omnino extra 
+      in<lb ed="#P" n="125" break="no"/>tellectum et ita per generare constitutuitur suppositum 
+      pa<lb ed="#P" n="126" break="no"/>ternum sicut per paternitatem: quomodo autem seinutcem 
+      <lb ed="#P" n="127"/>secundum rationem presupponat vtrum generare 
+      pater<lb ed="#P" n="128" break="no"/>nitatem vel econuerso inferius apparebit. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,873 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="205-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1331X"><!-- l1d42q1 -->
+            <head xml:id="qrdBas-a1331X-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a1331X-d1e101">
+               <lb ed="#P" n="126"/>¶ Distinctionis quadragesimesecunde. 
+      <lb ed="#P" n="127"/>Questio Prima. 
+  </p>
+            <p xml:id="qrdBas-a1331X-d1e108">
+      <!--425.xml-->
+               <pb ed="#P" n="205-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>CIrca distinctionem 
+      <lb ed="#P" n="2"/>quadragesimam secundam. 
+      Que<lb ed="#P" n="3" break="no"/>ro primo vtrum deum esse 
+      omnipo<lb ed="#P" n="4" break="no"/>tentem possit demonstrari 
+      ra<lb ed="#P" n="5" break="no"/>tione naturali.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e128">
+      ¶ Uidetur primo 
+      <lb ed="#P" n="6"/>quod sic. quia ratione naturali 
+      po<lb ed="#P" n="7" break="no"/>test ostendi quod in tota vniuersi 
+      <lb ed="#P" n="8"/>tate entium est vnum ens 
+      sim<lb ed="#P" n="9" break="no"/>pliciter primum / quod est cau 
+      <lb ed="#P" n="10"/>sa omnium / et deus / sed hoc est deum esse omnipotem 
+      <lb ed="#P" n="11"/>tem. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e144">
+      ¶ Secundo sic. quia ratione naturali 
+      po<lb ed="#P" n="12" break="no"/>test ostendi quod deus est infinite potentie / et infinitus 
+      <lb ed="#P" n="13"/>intensiue in vtgore / sicut demonstratur octauo 
+      phi<lb ed="#P" n="14" break="no"/>sicorum / sed infinita potentia est omnipotentia / quia 
+      <lb ed="#P" n="15"/>infinita potentia non est aliqua maior. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e156">
+               <lb ed="#P" n="16"/>¶ Tertio sic. Ratione naturali demonstrari potest quod 
+      <lb ed="#P" n="17"/>omnipotentia non repugnat enti / et quod est possibilis 
+      <lb ed="#P" n="18"/>in aliquo: quia non implicat contradictionem. sed 
+      omni<lb ed="#P" n="19" break="no"/>potens ab alio esse non potest / ergo omnipotens potest esse 
+      <lb ed="#P" n="20"/>in actu hoc maxime conuenit deo. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e169">
+      ¶ Quarto 
+      <lb ed="#P" n="21"/>sic. Nos tenemus per fidem quod deu est omnipotens. 
+      Cre<lb ed="#P" n="22" break="no"/>do in deum patrem omnipotentem. Sed in Richarde 
+      <lb ed="#P" n="23"/>primo de trinitate ad talia probanda non desunt 
+      ne<lb ed="#P" n="24" break="no"/>cessarie rationes: ergo istud est demonstrabile 
+      ne<lb ed="#P" n="25" break="no"/>cessaria ratione 
+      <lb ed="#P" n="26"/>quia tunc posset 
+      demonstrari<lb ed="#P" n="27" break="no"/>Contra. deum generare filium et 
+      secun<lb ed="#P" n="28" break="no"/>dum Augustinum tertio libro contra maximinum si 
+      <lb ed="#P" n="29"/>non potuit non est omnipotens: ergo si est omnipotens 
+      <lb ed="#P" n="30"/>potuit et potest / et per consequens generat.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e193">
+      ¶ Secundo 
+      <lb ed="#P" n="31"/>quia tunc posset demonstrari intelligentias esse 
+      crea<lb ed="#P" n="32" break="no"/>tas contra philosophum duodecimo methaphice 
+      <lb ed="#P" n="33"/>vbi ponit plures substantias immateriales infinitas 
+      <lb ed="#P" n="34"/>et per consequens a se. quia etc. 
+      <lb ed="#P" n="35"/>primo ponam ali¬ 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e206">
+               <lb ed="#P" n="36"/>¶ In ista questione quas 
+      distinctioce<lb ed="#P" n="37" break="no"/>ad questionem necessarias.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e213">
+      ¶ Secundo ponam 
+      con<lb ed="#P" n="38" break="no"/>clusiones de euestione et probabo.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e218">
+      ¶ Tertio ad 
+      ra<lb ed="#P" n="39" break="no"/>tiones principales. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e224">
+               <lb ed="#P" n="40"/>¶ Quantum ad primum 
+      di<lb ed="#P" n="41" break="no"/>co quod ratio naturalis vno modo dicitur ( prout 
+      di<lb ed="#P" n="42" break="no"/>stinguitur contra fidem ) ratio non procedens ex 
+      fi<lb ed="#P" n="43" break="no"/>de / nec aliquo credito / et isto modo omnis 
+      demonstra<lb ed="#P" n="44" break="no"/>tio proprie dicta potest dici ratio naturalis. Alio 
+      <lb ed="#P" n="45"/>modo potest dici ratio naturalis non quecumque 
+      demon<lb ed="#P" n="46" break="no"/>stratio / sed ratio que potest haberi modo naturali 
+      <lb ed="#P" n="47"/>et ex apparentibus in rerum natura secundum 
+      mo<lb ed="#P" n="48" break="no"/>dum nostrum cognoscendi naturalem quomodo 
+      di<lb ed="#P" n="49" break="no"/>cimus philosophos habuisse in suis processionibus 
+      <lb ed="#P" n="50"/>rationem naturalem.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e250">
+      ¶ Secunda est quod duplex est de 
+      <lb ed="#P" n="51"/>nonstratio propter quid / et quia est / patet ex 
+      primo<lb ed="#P" n="52" break="no"/>posteriorum. Prima est per causam vel aliquid prius 
+      <lb ed="#P" n="53"/>Secunda per effectum vel per aliquid posterius: nam omne 
+      <lb ed="#P" n="54"/>verum necessarium non euidens ex terminis est habens 
+      <lb ed="#P" n="55"/>connexionem necessariam ad aliud verum necessarium 
+      <lb ed="#P" n="56"/>et euidens ex terminis. Et illud verum est acceptum 
+      <lb ed="#P" n="57"/>vel a causa / et tunc per illud demonstratur aliud 
+      ve<lb ed="#P" n="58" break="no"/>rum propter quid et a priori / vel ab effectu / et tunc de 
+      <lb ed="#P" n="59"/>monstratur ab effectu / et a posteriori per 
+      demonstra<lb ed="#P" n="60" break="no"/>tionem. quia.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e274">
+      ¶ Terta distinctio est de statu demodo 
+      <lb ed="#P" n="61"/>strantis prefatam conclusionem. Aut enim demonstrans 
+      <lb ed="#P" n="62"/>est comprehensor / aut est purus viator secundum 
+      sta<lb ed="#P" n="63" break="no"/>tum et modum intelligendi naturalem / qui habetur de 
+      <!--425.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>communi lege. Aut est viator / non tamen habet 
+      noti<lb ed="#P" n="65" break="no"/>ciam secundum talem modum / sed magis noticiam 
+      <lb ed="#P" n="66"/>abstractiuam que dicta est in principio huius / que 
+      <lb ed="#P" n="67"/>est clara noticia de diuina essentia / nec 
+      repugnatsta<lb ed="#P" n="68" break="no"/>tui vie sicut dictum est supra.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e298">
+      ¶ Quarta distinctio 
+      <lb ed="#P" n="69"/>est de omnipotentia / quia ipsa potest dupliciter ac 
+      <lb ed="#P" n="70"/>cipi. Uno modo sicut teneremus eam per fidem esse 
+      in<lb ed="#P" n="71" break="no"/>deo sic quod potest immediate et perfecte in omnia: et possi 
+      <lb ed="#P" n="72"/>bilia / et contradictionem non implicantia / loquendo de 
+      <lb ed="#P" n="73"/>immediatione cause extrinsece cuiuscumque. Non dico 
+      <lb ed="#P" n="74"/>immediatione cause cuiuslibet effectus / sic quod possit in 
+      <lb ed="#P" n="75"/>aliquem effectum sine maiori effectu medio: quia isto 
+      <lb ed="#P" n="76"/>modo vltimo non conceditur deus omnipotens / nos 
+      <lb ed="#P" n="77"/>a catholicis / nec a philosophis: quia non potest facere 
+      <lb ed="#P" n="78"/>relationem nisi prius natura saltem fecerit 
+      principia<lb ed="#P" n="79" break="no"/>tum / nec compositum vel totum nisi prius partes / et 
+      <lb ed="#P" n="80"/>sic de consimilibus / et hoc non est ex defectum 
+      poten<lb ed="#P" n="81" break="no"/>tie / sed ex conditione rei quae hoc non patitur. Secundo 
+      <lb ed="#P" n="82"/>modo accipitur omnipotentia / sic quod deus possit in omnia 
+      <lb ed="#P" n="83"/>possibilia mediate saltem quantum ad aliqua / vel 
+      im<lb ed="#P" n="84" break="no"/>mediate quantum ad aliquid vel aliqua / et sic habemus 
+      <lb ed="#P" n="85"/>duplicem intellectionem omnipotentie.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e337">
+      ¶ Hoc 
+      pre<lb ed="#P" n="86" break="no"/>misso distinguo questionem. Potest enim questio 
+      quae<lb ed="#P" n="87" break="no"/>rere an intellectus comprehensorum vel beatus possit 
+      <lb ed="#P" n="88"/>demonstrare deum esse omnipotentem primo vel 
+      se<lb ed="#P" n="89" break="no"/>cundo modo demonstratione propter quid et a 
+      priori<lb ed="#P" n="90" break="no"/>Secundo an demonstratione quia / et a posteriori. Secundo 
+      <lb ed="#P" n="91"/>potest querere an viator possit demonstrare deum esse 
+      <lb ed="#P" n="92"/>omnipotentem primo vel secundo modo 
+      demonstra<lb ed="#P" n="93" break="no"/>tione propter quid / vel quia / et loquor de viatore 
+      haben<lb ed="#P" n="94" break="no"/>te illam noticiam abstractiuuam de diuina essentia 
+      <lb ed="#P" n="95"/>quam dixi superius esse possibilem viatori virtute 
+      <lb ed="#P" n="96"/>diuina. Tertio potest querere an viator purus secundum 
+      <lb ed="#P" n="97"/>suum modum intellendi naturalem ex hiis que 
+      ap<lb ed="#P" n="98" break="no"/>parent naturaliter et de lege communi possit 
+      demon<lb ed="#P" n="99" break="no"/>strare deum esse omnipotentem primo vel secundo modo 
+      <lb ed="#P" n="100"/>demonstratione propter quid / vel quia. Hec de 
+      pri<lb ed="#P" n="101" break="no"/>mo 
+      principali<lb ed="#P" n="102" break="no"/>pono primo istan 
+      <lb ed="#P" n="103"/>Quantum ad secundum conclusionem quod deum 
+      <lb ed="#P" n="104"/>esse omnipotentem vtroque modo est verum / 
+      demonstra<lb ed="#P" n="105" break="no"/>bile simpliciter / et demonstratione propter quid / 
+      acci<lb ed="#P" n="106" break="no"/>piendo semper omnipotentiam hic et in omnibus 
+      sequon<lb ed="#P" n="107" break="no"/>tibus prout per omnipotentiam distribuitur omne 
+      po<lb ed="#P" n="108" break="no"/>sibile. Non autem omnipotentia sicut dictum est 
+      distinctio<lb ed="#P" n="109" break="no"/>ne vigesima / et sit sensus omnipotentia id est potentia 
+      <lb ed="#P" n="110"/>est omne possibile.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e394">
+      ¶ Istam conclusionem probo sic 
+      <lb ed="#P" n="111"/>Illud est verum demonstrabile in se propter quid 
+      <lb ed="#P" n="112"/>quod ex terminis suis habet quod sic possit 
+      demonstra<lb ed="#P" n="113" break="no"/>ri per aliud verum prius simpliciter et notius. 
+      Ta<lb ed="#P" n="114" break="no"/>le est istud verum / deus est omnipotens vtroque 
+      mo<lb ed="#P" n="115" break="no"/>do predicto. ergo etc. Maior patet / quia tale est in 
+      se<lb ed="#P" n="116" break="no"/>verum quale est ex ratione terminorum / saltem in 
+      ve<lb ed="#P" n="117" break="no"/>ris necessariis. vnde et illud vnde dicitur per se 
+      no<lb ed="#P" n="118" break="no"/>tum qunod est notum ex terminis / sic etiam 
+      demon<lb ed="#P" n="119" break="no"/>strabile quod ex terminis suis habet hoc. Minor 
+      <lb ed="#P" n="120"/>patet presupponitur enim quod deum esse omnipotentem vtroque 
+      <lb ed="#P" n="121"/>modo est verum et necessarium / nec hoc probatur hic 
+      <lb ed="#P" n="122"/>quia de hoc non est questio / sed de modo per quem 
+      <lb ed="#P" n="123"/>potest hoc probari. Quod etiam sit verum mediatum patet 
+      <lb ed="#P" n="124"/>dupliciter. Tum quia si natura intellectus et voluntas 
+      <lb ed="#P" n="125"/>vel potentia ad extra esset distincta realiter / poten 
+      <lb ed="#P" n="126"/>tia ad extra esset demonstrabilis / et verum de ipsa 
+      <lb ed="#P" n="127"/>esset mediatum / tunc demonstrabile per priora vel 
+      <lb ed="#P" n="128"/>precedentia: ergo non minus quia deguntur secundum ra¬ 
+      <!--426.xml-->
+       <pb ed="#P" n="206-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tionem precipue realem quia consimilem ordinem habent 
+      <lb ed="#P" n="2"/>Tum quia predictum verum non est immediatum / quia 
+      notio<lb ed="#P" n="3" break="no"/>nale in deo precedit: et est prius simpliciter 
+      respectu<lb ed="#P" n="4" break="no"/>ad extra / et per consequens ipsa potentia prout dicit 
+      <lb ed="#P" n="5"/>respectum ad possibibilia quare etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e454">
+      ¶ Secundo sic 
+      <lb ed="#P" n="6"/>Omne verum necessarium complexum non euidens ex 
+      <lb ed="#P" n="7"/>terminis habet aliquid verum prius ex terminis eui 
+      <lb ed="#P" n="8"/>dens: per quod potest demonstrari vt videtur / quia 
+      <lb ed="#P" n="9"/>nullum tale potest esse primum verum: sed deum esse 
+      omni<lb ed="#P" n="10" break="no"/>potentem ( sicut supponitur ad presens ) est verum / 
+      <lb ed="#P" n="11"/>nec est euidens ex terminis vt patet / ergo verum de 
+      <lb ed="#P" n="12"/>monstrabile hec est prima conclusio.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e472">
+      ¶ Secunda 
+      con<lb ed="#P" n="13" break="no"/>clusio est ista quod beatus intellectus potest 
+      demonstra<lb ed="#P" n="14" break="no"/>re propter quid deum esse omnipotentem vtroque modo / 
+      <lb ed="#P" n="15"/>et etiam viator habens noticiam abstractiuam illam 
+      <lb ed="#P" n="16"/>de diuina essentia quam possim sibi possibilem in principio 
+      <lb ed="#P" n="17"/>cipio. Hoc probo sic. quia in quocumque intellectu 
+      ha<lb ed="#P" n="18" break="no"/>betur intellectus simplex alicuius termini 
+      virtua<lb ed="#P" n="19" break="no"/>liter includens veritatem immediatam principii / e 
+      <lb ed="#P" n="20"/>vlterius veritatem mediatam conclusionis / in illo im 
+      <lb ed="#P" n="21"/>tellectu potest haberi veritas propter quid 
+      proposi<lb ed="#P" n="22" break="no"/>tionis mediate / sed sic est in intellectu beati et 
+      via<lb ed="#P" n="23" break="no"/>toris habentis illam noticiam de diuina essentia a 
+      <lb ed="#P" n="24"/>stractiuam / quia noticia diuine essentie siue intuitiue 
+      <lb ed="#P" n="25"/>siue abstractiue / clare tamen et euidenter note / 
+      conti<lb ed="#P" n="26" break="no"/>net veritatem aliquam immediatam priorem ad istan 
+      <lb ed="#P" n="27"/>quod deus est opies / et per consequens mediante illa 
+      con<lb ed="#P" n="28" break="no"/>tinet istam / hoc patet ex precedenti conclusione / quia 
+      <lb ed="#P" n="29"/>hec est veritas habens priorem / de qua planum est quod 
+      <lb ed="#P" n="30"/>virtualiter seu intelligibiliter continetur in essentia 
+      <lb ed="#P" n="31"/>sicut et alia intelligibilia et intrinseca diuina 
+      neces<lb ed="#P" n="32" break="no"/>saria. ergo etc. Quod autem beatus habeat conceptum 
+      sim<lb ed="#P" n="33" break="no"/>plicem diuine essentie patet / quia in ipsa beatifica. 
+      <lb ed="#P" n="34"/>tur quod viator possit habere patuit supra ex 
+      prima<lb ed="#P" n="35" break="no"/>questione.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e524">
+      ¶ Secundo hoc idem probo sic. Omne verum 
+      <lb ed="#P" n="36"/>mediatum necessarium potest ab aliquo intellectum 
+      po<lb ed="#P" n="37" break="no"/>tentie concipere ipsum euidenter demonstrari per aliud 
+      <lb ed="#P" n="38"/>verum euidentius immediatum. Patet / quia ex quo non 
+      <lb ed="#P" n="39"/>est euidens ex terminis oportet quod euidens sit ex de 
+      <lb ed="#P" n="40"/>monstratione / sed deum esse omnipotentem est aliquod vel 
+      <lb ed="#P" n="41"/>rum necessarium mediatum ( vt dictum est supra )/ et 
+      <lb ed="#P" n="42"/>potest concipi euidenter ab intellectu beato: et ab intel 
+      <lb ed="#P" n="43"/>lectu viatoris habente illam noticiam abstractiuam 
+      <lb ed="#P" n="44"/>non minus quam diuina essentia vt videtur. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e546">
+               <lb ed="#P" n="45"/>¶ Tertia conclusio est ista quod homo viator secundum 
+      <lb ed="#P" n="46"/>suum modum intelligendi naturalem ratione naturali non 
+      <lb ed="#P" n="47"/>potest demonstrare propter quid et a priori deum esse 
+      <lb ed="#P" n="48"/>omnipotentem vtroque modo / nec altero. ego etc. Hoc 
+      <lb ed="#P" n="49"/>probo primo sic. Intellectus alicuius non potest 
+      cogno<lb ed="#P" n="50" break="no"/>scere propter quid aliquam propositionem mediatam 
+      <lb ed="#P" n="51"/>nisi cognoscat propriam immediatam vt patet / sed 
+      intel<lb ed="#P" n="52" break="no"/>lectus viatioris secundum modum intelligendi 
+      natura<lb ed="#P" n="53" break="no"/>lem non potest euidenter cognoscere immediatam 
+      hu<lb ed="#P" n="54" break="no"/>ius deus est omnipotens priorem ipsa / quia non potest 
+      habe<lb ed="#P" n="55" break="no"/>re conceptum simplicem euidenter et sufficienter ad hoc 
+      <lb ed="#P" n="56"/>distinctum de deo vertualiter continentem talem 
+      verita<lb ed="#P" n="57" break="no"/>tem immediatam de deo / quia non potest habere secundum 
+      <lb ed="#P" n="58"/>modum intelligendi de lege qui aliquem conceptum 
+      <lb ed="#P" n="59"/>simplicem igitur nec complexum de deo nisi in virtute 
+      <lb ed="#P" n="60"/>intellectus agentis et faptasmatis quae ad hoc non 
+      at<lb ed="#P" n="61" break="no"/>tingunt. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e585">
+      ¶ Secundo hoc patet quia viator 
+      na<lb ed="#P" n="62" break="no"/>turaliter et de lege communi non habet aliquem 
+      conce<lb ed="#P" n="63" break="no"/>ptum de deo perfectiorem quam methaphisicus habeat 
+      <lb ed="#P" n="64"/>Sed planum est quod adhoc conceptus methaphisic 
+      <lb ed="#P" n="65"/>non attingit / sed si ad aliquam demonstrationem de 
+      <!--426.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>deo attingit illa est quia et a posteriori. ergo etc. Dices quod 
+      <lb ed="#P" n="67"/>immo habet aliquem conceptum perfectiorem de deo quam 
+      <lb ed="#P" n="68"/>methaphisicus saltem per fidem dico quod non fides 
+      ter<lb ed="#P" n="69" break="no"/>mini vel cognitio fidei non tribuit conceptus alius 
+      ter<lb ed="#P" n="70" break="no"/>minorum naturnliter habeantur / sed tantummo si 
+      ali<lb ed="#P" n="71" break="no"/>quid facit inclinans ad assentiendum alibus 
+      concepti<lb ed="#P" n="72" break="no"/>bus complexis qui non habent euidentiam ex terminis 
+      <lb ed="#P" n="73"/>apprehnsis / et ita per fidem non habetur aliquis 
+      com<lb ed="#P" n="74" break="no"/>ceptus simplex transcendens omnem conceptum 
+      metha<lb ed="#P" n="75" break="no"/>phisicum / quod patet etiam quia eundem conceptum 
+      sim<lb ed="#P" n="76" break="no"/>plicem de quocumque termino habet methaphisicus 
+      ni<lb ed="#P" n="77" break="no"/>si de his sicut et fidelis. Quod autem nullus conceptus 
+      <lb ed="#P" n="78"/>methaphisicus ( prout a methaphisico habetur )o 
+      attin<lb ed="#P" n="79" break="no"/>gat vel includat virtualiter diuinas veritates 
+      intrin<lb ed="#P" n="80" break="no"/>secas deo euidenter et a priori vt videtur. Tum quia 
+      <lb ed="#P" n="81"/>philosophi tunc habuissent per talem conceptum 
+      me<lb ed="#P" n="82" break="no"/>thaphisicum de talibus veritatibus demonstratio 
+      <lb ed="#P" n="83"/>nem a priori. Tum quia principium methaphisici proprium 
+      <lb ed="#P" n="84"/>ad probandum aliquid de deo non est sibi notum nisi 
+      <lb ed="#P" n="85"/>quia est aliqua propositio personarum affirmans de 
+      ente<lb ed="#P" n="86" break="no"/>partialiter aliquod predicatum quod conuenit 
+      enti<lb ed="#P" n="87" break="no"/>causato / et ex tali premissa concludit de ente partiali 
+      <lb ed="#P" n="88"/>ter fieri aliquod predicatum / puta de deo / sicut hic 
+      <lb ed="#P" n="89"/>aliquod ens est causatum ergo aliquod ens est causa 
+      <lb ed="#P" n="90"/>aliquod ens est finitum / ergo aliquod ens est infinitum 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e655">
+               <lb ed="#P" n="91"/>¶ Contra istam tertiam conclusionem obiicitur 
+      tri<lb ed="#P" n="92" break="no"/>pliciter. Primo sic. Uoluntas est medium ad 
+      conclu<lb ed="#P" n="93" break="no"/>dendum propter quid omnipotentiam de deo vt 
+      vide<lb ed="#P" n="94" break="no"/>batur dici in prima conclusione / sed methaphisicus 
+      <lb ed="#P" n="95"/>potest deuenire ad noticiam huius quod deus habet per 
+      <lb ed="#P" n="96"/>fectissimam voluntatem: ergo et perfectissimam 
+      no<lb ed="#P" n="97" break="no"/>ticiam.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e674">
+      ¶ Secundo sic / et est magis contra primam 
+      com<lb ed="#P" n="98" break="no"/>clusionem. Propositio ex terminis habentibus 
+      con<lb ed="#P" n="99" break="no"/>ceptus simplices simpliciter est per se nota / quia non 
+      <lb ed="#P" n="100"/>potest probari per diffinitionem vel descriptionem 
+      <lb ed="#P" n="101"/>alicuius illorum vt videtur / sed sic est in ista deus est 
+      <lb ed="#P" n="102"/>omnipotens / ergo est per se nota non ergo 
+      demon<lb ed="#P" n="103" break="no"/>strabilis.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e690">
+      ¶ Tertio sic quia si methaphisicus non potest 
+      <lb ed="#P" n="104"/>demonstrare de deo aliquid a priori / sequeretur quod non 
+      <lb ed="#P" n="105"/>haberet perfectiorem noticiam per nomen quod de 
+      <lb ed="#P" n="106"/>nominat deum et suam infinitatem. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e699">
+      ¶ Ad pri A 
+      <lb ed="#P" n="107"/>mam dico quod inter omnipotentiam diuinam et suam volun¬¬ 
+      <lb ed="#P" n="108"/>tatem non intelligo aliquam differentiam nisi secundum 
+      <lb ed="#P" n="109"/>rationem / sed hoc posito vel intellecto adhuc potest 
+      <lb ed="#P" n="110"/>dici quod diuina voluntas non potest perfecte 
+      cognosci<lb ed="#P" n="111" break="no"/>a methaphisico quantum sufficit ad demonstrandum 
+      <lb ed="#P" n="112"/>ex ipsa suam omnipotentiam / sicut etiam nec diuinam 
+      essen<lb ed="#P" n="113" break="no"/>tiam potest ita perfecte cognoscere naturaliter. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e717">
+               <lb ed="#P" n="114"/>¶ Ad secundum dico quod illa maior propositio non est 
+      <lb ed="#P" n="115"/>vera / nec oportet quod talis propositio demonstretur 
+      <lb ed="#P" n="116"/>per diffinitionem vel descriptionem alicuius 
+      ter<lb ed="#P" n="117" break="no"/>mini / sed per passionem inter subiectum et predicatum 
+      <lb ed="#P" n="118"/>si est ipsam dare / sicut est bene in proposito. Preterea 
+      <lb ed="#P" n="119"/>etiam non oportet interuenire semper 
+      diffinitio<lb ed="#P" n="120" break="no"/>nem ad demonstrandum aliquid de aliquo sicut 
+      <lb ed="#P" n="121"/>superius dicebatur / sed sufficit quod per quiditatem 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e737">
+               <lb ed="#P" n="122"/>¶ Ad tertium dico quod methaphisicus perfectiorem 
+      <lb ed="#P" n="123"/>noticiam habet de deo quam phisicus / quia phisicus 
+      <lb ed="#P" n="124"/>vno modo demonstrat deum ( si tamen demonstrat quod non 
+      <lb ed="#P" n="125"/>credo ) methaphisicus vero pluribus modis non 
+      so<lb ed="#P" n="126" break="no"/>lum ex motu et ratione naturali accepta / ex motu / sed 
+      <lb ed="#P" n="127"/>ex aliis vt ex potentia demonstrat actum / puta 
+      ex<lb ed="#P" n="128" break="no"/>causato etiam abstrahente demonstrat primam causam 
+      <lb ed="#P" n="129"/>ex finito infinitum / et sic de aliis / si tamen aliquid 
+      de<lb ed="#P" n="130" break="no"/>monstrat ( quod non credo ) non es nim videtur michi quod ali¬ 
+      <!--427.xml-->
+       <pb ed="#P" n="206-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>qua ratio phisica vel methaphisica demonstre deum 
+      <lb ed="#P" n="2"/>esse sicut dixi supra distinctione secunda.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e770">
+      ¶ Iste igitur 
+      <lb ed="#P" n="3"/>sunt conclusiones pertinentes ad demonstrationem 
+      <lb ed="#P" n="4"/>nimam scilicet quod deum esse omnipotentem vtroque modo 
+      <lb ed="#P" n="5"/>predicto secundum se est verum demonstrabile 
+      demon<lb ed="#P" n="6" break="no"/>stratione / quia et ex effectibus. Prima ratio est ista 
+      <lb ed="#P" n="7"/>verum de causa secundum rationem cause est verum demodo 
+      <lb ed="#P" n="8"/>strabile per demonstrationem quia: scilicet per effectus vel 
+      <lb ed="#P" n="9"/>per effectum / sed dei omnipotentia est causa / et istud 
+      ve<lb ed="#P" n="10" break="no"/>rum deum esse omnipotentem est verum de causa secundum quod 
+      <lb ed="#P" n="11"/>huiusmodi / ergo potest quantum est ex se monstrari de 
+      <lb ed="#P" n="12"/>monstratione quia.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e795">
+      ¶ Secundo sic vero de aliquo 
+      in<lb ed="#P" n="13" break="no"/>dependente et vt aliquo alterum dependet 
+      simplici<lb ed="#P" n="14" break="no"/>ter non repugnat demonstrari / quia per aliquid quod 
+      ex<lb ed="#P" n="15" break="no"/>ipso dependet: sed tale est istud verum. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e804">
+               <lb ed="#P" n="16"/>¶ Secunda conclusio est quod beatus et viator 
+      cogno<lb ed="#P" n="17" break="no"/>scens diuinam essentiam et intrinseca eius / viator scilicet 
+      <lb ed="#P" n="18"/>abstractiue / beatus intuitiue possunt demonstrare 
+      <lb ed="#P" n="19"/>deum esse omnipotentem vtroque modo demonstratione 
+      <lb ed="#P" n="20"/>quia prima ratio est ad hoc / quia possunt perfecte 
+      effe<lb ed="#P" n="21" break="no"/>ctum aliquem cognoscere de ipso deo et vt effectus est 
+      <lb ed="#P" n="22"/>omnipotentie / ergo possunt cognoscere causam deum 
+      <lb ed="#P" n="23"/>scilicet esse omnipotentem.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e824">
+      ¶ Secsido quia patent 
+      cognosce<lb ed="#P" n="24" break="no"/>re dependentiam ad deum / et ad suam omnipotentiam et per 
+      con<lb ed="#P" n="25" break="no"/>sequens ipsum esse omnipotentem / et talem a quo creatura 
+      <lb ed="#P" n="26"/>dependet quia si posstent cognoscetur habitudinem et terminum. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e833">
+               <lb ed="#P" n="27"/>¶ Tertia conclusio est quod loquendo de omnipotentia 
+      <lb ed="#P" n="28"/>immediate in omnia possibilia immediationem cause 
+      ex<lb ed="#P" n="29" break="no"/>trinsece causa entis non potest demonstrari 
+      demonstra<lb ed="#P" n="30" break="no"/>tione quia / scilicet ex naturaliter sibi apparentibus. Ad 
+      <lb ed="#P" n="31"/>hoc est prima ratio quia illud ad quod non poasstsnt induci 
+      na<lb ed="#P" n="32" break="no"/>turaliter apparentia et sensibilia vel fantasiabilia 
+      <lb ed="#P" n="33"/>non potest sic demonstrari naturaliter: sed ad talem 
+      omnipo<lb ed="#P" n="34" break="no"/>tentiam non poatsesnt adduci apparentia intellectui nostri 
+      <lb ed="#P" n="35"/>secundum modum intelligendi cum non appareant nobis 
+      na<lb ed="#P" n="36" break="no"/>turaliter aliqui effectus vt immediate producti 
+      dupli<lb ed="#P" n="37" break="no"/>ci immediatione predicta: sed quotquot apparent 
+      no<lb ed="#P" n="38" break="no"/>bis effectus sensibiles producti apparent producti 
+      me<lb ed="#P" n="39" break="no"/>diante aliqua causa secunda vel effectu etiam primo 
+      ali<lb ed="#P" n="40" break="no"/>quo. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e866">
+      ¶ Secundo sic et est persuasio / quia si 
+      ta<lb ed="#P" n="41" break="no"/>lis omnipotentia esset demonstrabilis isto modo tunc 
+      <lb ed="#P" n="42"/>philosophi ( vt videtur ) attigissent ad eam ex 
+      effecti<lb ed="#P" n="43" break="no"/>bus / et methaphisicus perfectus ad ipsam attingeret 
+      <lb ed="#P" n="44"/>sed hoc non est verum immo philosophi nec attingunt 
+      <lb ed="#P" n="45"/>omnipotentiam quin potius omnes negauerunt eam / 
+      Ari<lb ed="#P" n="46" break="no"/>toteles / Auerrois / et Auicenna. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e882">
+      ¶ Prima 
+      ra<lb ed="#P" n="47" break="no"/>tio autem qua mouet communiter philosophos est ne 
+      po<lb ed="#P" n="48" break="no"/>natur mutatio in deo / si aliquid immediate de nouo 
+      pro<lb ed="#P" n="49" break="no"/>duceret sicut oportet ponere si in eo esset talis 
+      omnipo<lb ed="#P" n="50" break="no"/>tentia / et cum hoc ageret de necessitate nature / quod 
+      ali<lb ed="#P" n="51" break="no"/>qua sunt in vniuerso noua sicut patet. Agens autem 
+      <lb ed="#P" n="52"/>necessarium et de necessitate et perfectissimum / et non 
+      <lb ed="#P" n="53"/>impedibile nichil potest facere nouum vt videtur: quia 
+      <lb ed="#P" n="54"/>nec impeditur nec aliter se habet et agit de 
+      decessi<lb ed="#P" n="55" break="no"/>tate. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e905">
+      ¶ Secunda ratio philosophorum fuit 
+      <lb ed="#P" n="56"/>ista / si deus haberet talem omnipotentiam deus posset in 
+      <lb ed="#P" n="57"/>mediate causare motum celi / sed hoc est falsum quia virt 
+      <lb ed="#P" n="58"/>infinita si mouet immediate mouet in non tempore vel 
+      <lb ed="#P" n="59"/>in instanti secundo phisicorum: sed motus celi non potest 
+      causare<lb ed="#P" n="60" break="no"/>in instanti. Tunc enim omnes partes simul et semel 
+      essen<lb ed="#P" n="61" break="no"/>in eodem loco. Et hec fuit causa quare 
+      Commenta<lb ed="#P" n="62" break="no"/>tor duodecimo methaph. posuit caelum moueri a 
+      pri<lb ed="#P" n="63" break="no"/>mo mouente non immediate / sed cum hoc a secunda 
+      in<lb ed="#P" n="64" break="no"/>telligentia a qua motus secundum ipsum habet 
+      successio<lb ed="#P" n="65" break="no"/>nem / non a prima: sed a prima habet perpetuitatem et eternitatem 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e929">
+        <!--427.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>¶ Tertia ratio est ista. Si deus posset immediate 
+      <lb ed="#P" n="67"/>in omnem effectum nulla causa secunda haberet actionem 
+      <lb ed="#P" n="68"/>prpriam / nec per consequens essentiam propriam / alioquin 
+      fru<lb ed="#P" n="69" break="no"/>stra quia essentia et natura est propter operationem / et sic 
+      <lb ed="#P" n="70"/>deus posset omnes essentias aliorum destruere quod est 
+      <lb ed="#P" n="71"/>maximum inconueniens apud philosophum / qui nullas 
+      <lb ed="#P" n="72"/>earum posuit necesse esse / et sic etiam ordo 
+      causali<lb ed="#P" n="73" break="no"/>tatis in rebus non esset simpliciter essentialis / et sic 
+      ne<lb ed="#P" n="74" break="no"/>cessarius. Hec videt ratio Commentatoris. 6. 
+      metha<lb ed="#P" n="75" break="no"/>phisice dicentis sic. Moderni autem ponunt vnum agens 
+      <lb ed="#P" n="76"/>omnia sine medio id est deum / et contingit istis vt 
+      nul<lb ed="#P" n="77" break="no"/>lum ens habeat actionem propriam naturaliter / et cum 
+      <lb ed="#P" n="78"/>entia non habeant actiones proprias non habebunt 
+      essen<lb ed="#P" n="79" break="no"/>tias proprias / actiones enim non diuersificantur nisi per 
+      <lb ed="#P" n="80"/>essentias diuersas. Et hec est opinio valde extranea 
+      <lb ed="#P" n="81"/>et qui recipiunt huiusmodi non habent cerebrum 
+      natu<lb ed="#P" n="82" break="no"/>raliter habile ad bonum.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e973">
+      ¶ Quarta ratio / quia 
+      nullum<lb ed="#P" n="83" break="no"/>immateriale transmutat immediate materiam secundum 
+      Ari<lb ed="#P" n="84" break="no"/>stotelem et Commentatorem. 7. methaphi. contra 
+      pla<lb ed="#P" n="85" break="no"/>tonem et ydeam suam / quam ponebat immediate 
+      transmu<lb ed="#P" n="86" break="no"/>tare materiam et principium generationis deus autem 
+      <lb ed="#P" n="87"/>summe immaterialis est. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e986">
+      ¶ Ultima ratio quia omnia 
+      <lb ed="#P" n="88"/>euenirent de necessitate / et non esset malum in 
+      vniuer<lb ed="#P" n="89" break="no"/>so / et agentia secundaria preuenirentur / ita quod nunquam 
+      <lb ed="#P" n="90"/>aliquid agerent ex quo deus agit de necessitate / quia 
+      <lb ed="#P" n="91"/>cuius actio est necessaria et sua substantia que est 
+      ne<lb ed="#P" n="92" break="no"/>cesse esse / agit de necessitate quicquid agit. 
+      Posue<lb ed="#P" n="93" break="no"/>runt ergo philosophi quod deus non habet omnipotentiam 
+      <lb ed="#P" n="94"/>llam primo modo dictam quam attribuimus sibi: et 
+      dixe<lb ed="#P" n="95" break="no"/>runt de hoc diuersimode qumo deus est causa omnium non 
+      <lb ed="#P" n="96"/>immediata / nec potest esse / sed aliquorum mediata 
+      <lb ed="#P" n="97"/>et aliquorum vel alicuius sicut in principio secundi 
+      <lb ed="#P" n="98"/>poterit apparere.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1012">
+      ¶ Sed licet ista sententia a nobis 
+      <lb ed="#P" n="99"/>non possit demonstratiue impugnari. Oppositum 
+      ta<lb ed="#P" n="100" break="no"/>men habemus ex scriptura et dictis sanctorum et 
+      attri<lb ed="#P" n="101" break="no"/>buimus deo / scilicet quod habet omnipotentiam immediatam 
+      <lb ed="#P" n="102"/>immediatione cause extrinsece respectu omnium. Ita quod 
+      <lb ed="#P" n="103"/>quicquid potest absolutum cum causa secunda media 
+      <lb ed="#P" n="104"/>et extrinseca effectiua scilicet et finali / idem et sine illa.  
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e1028">
+               <lb ed="#P" n="105"/>¶ Et ad hoc adducunt rationes eque probabiles 
+      immo<lb ed="#P" n="106" break="no"/>magis quam rationes philosophorum. Prima est ista 
+      <lb ed="#P" n="107"/>Causa perfectissima perfectissime / et independenter  
+      <lb ed="#P" n="108"/>a quocumque alio causans potest in quemlibet effectum cuius 
+      <lb ed="#P" n="109"/>habet virtutem perfectissime sine alia causa / et mul  
+      <lb ed="#P" n="110"/>to perfectius quam quecumque alia causa / sed causa prima 
+      <lb ed="#P" n="111"/>est huiusmodi / quia omnis virtus actiua cuiuscumque 
+      cau<lb ed="#P" n="112" break="no"/>se secunde eminentius et perfectius continetur / et perfe 
+      <lb ed="#P" n="113"/>ctius est in causa prima: nec sufficit ad hoc aliquid 
+      <lb ed="#P" n="114"/>habens talem virtutem diminute. Nulla enim 
+      imper<lb ed="#P" n="115" break="no"/>fectio virtutis est ratio agendi / sed magis est 
+      impe<lb ed="#P" n="116" break="no"/>dimentum actionis. ergo etc. Et confirmatur / quia 
+      vi<lb ed="#P" n="117" break="no"/>demus causas equiuocas ita perfecte et immediate 
+      pro<lb ed="#P" n="118" break="no"/>ducere aliquos effectus siue causas vuiuocas / hoc 
+      <lb ed="#P" n="119"/>autem non est nisi quia continent in se et habent 
+      virtu<lb ed="#P" n="120" break="no"/>tes actiuas suorum effectuum aliquorum quantum sufficit ad 
+      <lb ed="#P" n="121"/>ponendum illos effectus. Patet de sole qui non solum 
+      <lb ed="#P" n="122"/>calefacit cum igne vel aliquo formaliter calido / sed 
+      <lb ed="#P" n="123"/>etiam per seipsum immediate. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1073">
+      ¶ Secunda 
+      ra<lb ed="#P" n="124" break="no"/>tio est. Nullusordo essentialis necessarius est 
+      vni<lb ed="#P" n="125" break="no"/>cause ad aliam in causando / nisi quia illarum scilicet 
+      sub<lb ed="#P" n="126" break="no"/>ordinata alteri non potest ponere effectum in esse / 
+      <lb ed="#P" n="127"/>dato enim quod possit non est talis ordo necessarius. Sed 
+      <lb ed="#P" n="128"/>prima causa potest perfecte ponere quemlibet effectum 
+      <lb ed="#P" n="129"/>inesse / quia habet virtutem per fectam non impedibilem. 
+      <lb ed="#P" n="130"/>Unde et philosophi confitentur quod ordo non est necessa¬ 
+      <!--428.xml-->
+       <pb ed="#P" n="207-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>rius propter omnipotentiam vel perfectionem dei. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e1099">
+               <lb ed="#P" n="2"/>¶ Tertia ratio. Omne possibile in vniuerso obie 
+      <lb ed="#P" n="3"/>ctiue vel passiue non dicitur primo tale nisi inhabi 
+      <lb ed="#P" n="4"/>tudine ad primam potentiam nec per consequens primo 
+      <lb ed="#P" n="5"/>producibile / sed prima productiua et actiua potentia 
+      <lb ed="#P" n="6"/>est potentia diuina: ergo omne possibile est primo 
+      pro<lb ed="#P" n="7" break="no"/>ducibile per illam. Sed posito primo producibili / et 
+      <lb ed="#P" n="8"/>primo productiuo perfecto non impedito potest 
+      po<lb ed="#P" n="9" break="no"/>ni productio quocumque alio secundario circumscripto / quia 
+      <lb ed="#P" n="10"/>prius in suo priori non dependet a posteriori. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e1121">
+               <lb ed="#P" n="11"/>¶ Iste rationes sunt solubiles a philosophis per 
+      <lb ed="#P" n="12"/>vnum verbum / quia cause secunde non requiruntur cum 
+      <lb ed="#P" n="13"/>causa prima propter imperfectionem vel dependentiam 
+      <lb ed="#P" n="14"/>aliquam cause prime vel impedibilitas: sed propter 
+      <lb ed="#P" n="15"/>imperfectionem vel nouitatem effectus. Non 
+      credi<lb ed="#P" n="16" break="no"/>igitur quod a viatore secundum modum intelligendi qui 
+      <lb ed="#P" n="17"/>habetur talis omnipotentia demonstrari. Ordo enim 
+      <lb ed="#P" n="18"/>causalitatis non arguit quod illud possit causa prima 
+      im<lb ed="#P" n="19" break="no"/>mediate quod potest cum causis mediis. Patet de sole qui 
+      <lb ed="#P" n="20"/>potest generare hominem aliquo modo cum patre 
+      suo<lb ed="#P" n="21" break="no"/>non tamen sine patre. Patet de materia prima in 
+      gene<lb ed="#P" n="22" break="no"/>nere causalitatis materialis. Non oportet quod 
+      mate<lb ed="#P" n="23" break="no"/>ria prima vel remota possit immediate recipere 
+      quam<lb ed="#P" n="24" break="no"/>cunque formam sicut proxima / et immediate sicut patet 
+      <lb ed="#P" n="25"/>de forma que est anima. Similiter etiam de principio 
+      <lb ed="#P" n="26"/>in genere cognitionis non oportet quod principium 
+      pri<lb ed="#P" n="27" break="no"/>mum et remotum possit immediate inferre quamcunque 
+      <lb ed="#P" n="28"/>cognitionem particularem sicut principium proximum 
+      <lb ed="#P" n="29"/>et proprium vt patet. Similiter etiam in genere finium 
+      <lb ed="#P" n="30"/>non oportet quod finis remotus possit esse finis 
+      immeo<lb ed="#P" n="31" break="no"/>diatus / et sic in multis. Quod etiam non possit ista omnipote 
+      <lb ed="#P" n="32"/>tia demonstrari a nobis videtur quod nec de deo vt est 
+      <lb ed="#P" n="33"/>agens de necessitate nature secundum positionem 
+      phi<lb ed="#P" n="34" break="no"/>losophorum / quia hoc est falsum. Nec etiam vt est 
+      agen<lb ed="#P" n="35" break="no"/>voluntarium / quia hoc demonstrari non potest / sed tantum 
+      <lb ed="#P" n="36"/>est creditum sicut etiammulto fortius creditum est et 
+      <lb ed="#P" n="37"/>non demonstratum nobis deum esse sicut dixi 
+      distinctio<lb ed="#P" n="38" break="no"/>ne secunda huius primi: ergo etc. Dico tamen quod nec potest 
+      <lb ed="#P" n="39"/>istud efficaciter impugnari / et ideo respondeo ad 
+      ra<lb ed="#P" n="40" break="no"/>tiones philosophorum.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1189">
+      ¶ Ad primam dico quod primum 
+      <lb ed="#P" n="41"/>agens quantumcumque perfectum et immutabile potest 
+      immedia<lb ed="#P" n="42" break="no"/>te facere aliquid nouum / et tota mutatio est in effectu 
+      <lb ed="#P" n="43"/>dico etiam quod non agit de necessitate nature / sicut 
+      di<lb ed="#P" n="44" break="no"/>cunt primum. Patet quod etiam creatura potest facere 
+      ali<lb ed="#P" n="45" break="no"/>quid nouum volitone antiqua non mutando volitio 
+      <lb ed="#P" n="46"/>nem licet non immutabiliter omnino sicut deus.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1205">
+      ¶ Ad  
+      <lb ed="#P" n="47"/>secundam dico quod deus potest immediate causare motum 
+      <lb ed="#P" n="48"/>celi / non tamen in instanti / quia nec motus causabilis est 
+      <lb ed="#P" n="49"/>in instanti. Quando dicis. Tunc aliqua virtus 
+      finita<lb ed="#P" n="50" break="no"/>poterit mouere ita velociter sicut deus / vel in tam 
+      <lb ed="#P" n="51"/>paruo tempore. Dico quod non / quia non potest esse tanta 
+      <lb ed="#P" n="52"/>sicut virtus infinita dei. Uel dic quod licet hoc sit 
+      ve<lb ed="#P" n="53" break="no"/>rum / non tamen est inconueniens / nec attingit ex hoc 
+      <lb ed="#P" n="54"/>virtus finita perfectionem diuine virtutis motiue que 
+      <lb ed="#P" n="55"/>posset mouere corpus actu infinitum si esset / quod non 
+      <lb ed="#P" n="56"/>posset creatura: Unde et ratio Commentatoris ad 
+      <lb ed="#P" n="57"/>ponendum illam duplicem intelligentiam necessariam 
+      ab<lb ed="#P" n="58" break="no"/>solute ad mouendum nichil valet / et dictum suum 
+      po<lb ed="#P" n="59" break="no"/>stea minus valet: quia quando dicit quod motus a prima 
+      <lb ed="#P" n="60"/>intelligentia habet infinitatem / et secunda successio 
+      <lb ed="#P" n="61"/>nem: contradictio videtur / quia aut successio et 
+      infini<lb ed="#P" n="62" break="no"/>tas successiua sunt idem: et tunc ab vtraque 
+      intelligen<lb ed="#P" n="63" break="no"/>tia est vtraque et eodem modo / et ita sicut infinitas a prima 
+      <lb ed="#P" n="64"/>intelligentia / ita et successio: sicut etiam successio est a 
+      <lb ed="#P" n="65"/>secunda intelligentia: ita et infinitas et immediate. Aut 
+      <!--428.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>infinitas et successio non sunt idem / quod magis 
+      vide<lb ed="#P" n="67" break="no"/>tur intendere / licet sit falsum / et tunc cuilibet istarum 
+      <lb ed="#P" n="68"/>correspondet propria et immediata causa / quia 
+      infinita<lb ed="#P" n="69" break="no"/>ti correspondet prima intelligentia / et successioni cor 
+      <lb ed="#P" n="70"/>respondet secunda / et sic adhuc prima causa 
+      immedia<lb ed="#P" n="71" break="no"/>te causat infinitatem motus / et tamen non in instanti 
+      <lb ed="#P" n="72"/>et ita diceretur sibi de motu / et ideo dictum illud nichil 
+      <lb ed="#P" n="73"/>valet nec intelligit seipsum. Preterea secunda 
+      intelli<lb ed="#P" n="74" break="no"/>gentia in nullo impedit primam in mouendo / nec im 
+      <lb ed="#P" n="75"/>pedire potest ergo potest facere tarditatem in motu 
+      mo<lb ed="#P" n="76" break="no"/>uente prima intelligentia / et ita semper motus erit in 
+      <lb ed="#P" n="77"/>instanti. Unde dico quod quantum est ex parte diuine 
+      vir<lb ed="#P" n="78" break="no"/>tutis mouentis non repugnat motum fieri in 
+      instanti<lb ed="#P" n="79" break="no"/>quia virtus est infinita ad hoc sufficiens / sed hoc 
+      re<lb ed="#P" n="80" break="no"/>pugnat ex parte motus et ratione eius quia essentiali 
+      <lb ed="#P" n="81"/>ter est snccessiuus / sicut mutatio simplex puta 
+      gene<lb ed="#P" n="82" break="no"/>ratio est instantanea / et non potest esse successiua qua 
+      <lb ed="#P" n="83"/>cunque virtute. Item contra Commentatorem quia secunda 
+      <lb ed="#P" n="84"/>intelligentia no agit nisi mota a prima / ergo non 
+      im<lb ed="#P" n="85" break="no"/>pedit nec retardat primam a velocitate actionis / sicut 
+      <lb ed="#P" n="86"/>nec resistit sibi. Et confirmatur quia quando ad vnum effectum 
+      <lb ed="#P" n="87"/>concurrunt due cause. vna superior et alia inferior 
+      <lb ed="#P" n="88"/>quanto superior magis intenditur inferiori stante 
+      im<lb ed="#P" n="89" break="no"/>eadem dispositione / tanto effectus magis 
+      intenditu<lb ed="#P" n="90" break="no"/>ergo si superior est infinite virtutis sicut in 
+      proposito<lb ed="#P" n="91" break="no"/>sequitur quod intensio velocitatis motus in infintum / et 
+      <lb ed="#P" n="92"/>quod motus est in instanti. Aliter dicitur quod non oportet quod 
+      <lb ed="#P" n="93"/>moueat in instnnti / quia non mouet de necessitate 
+      na<lb ed="#P" n="94" break="no"/>ture / sed voluntarie et libere sicut placet sibi. Sed  
+      <lb ed="#P" n="95"/>istud non excludit difficultatem / quia non excludit quin 
+      <lb ed="#P" n="96"/>saltem posset mouere in instanti. Aliter dicitur quod 
+      <lb ed="#P" n="97"/>deus potest mouere in instanti / sed ego reputo hoc 
+      <lb ed="#P" n="98"/>falsum / quia motus essentialiter est successio quedam 
+      <lb ed="#P" n="99"/>ideo etc.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1327">
+      ¶ Ad tertium dico contra Commentatorem quod 
+      <lb ed="#P" n="100"/>deus potest priuare esse aliud a se / et propria entitate / et 
+      <lb ed="#P" n="101"/>prpria operatione in actu: sed quin essentia manens 
+      po<lb ed="#P" n="102" break="no"/>sit habere propriam operationem non intendo / ita quod ap 
+      <lb ed="#P" n="103"/>titudine saltem verum est dictum Commentatoris. 
+      <lb ed="#P" n="104"/>Sed si intelligat quod deus non possit facere immediate 
+      <lb ed="#P" n="105"/>sine causa secunda / et eius operatione illud quod facit me 
+      <lb ed="#P" n="106"/>diante ipsa nego eum. Et dic quod non habuit bonum 
+      ce<lb ed="#P" n="107" break="no"/>rebrum. Potest etiam dici quod ipse non loquitur contra 
+      <lb ed="#P" n="108"/>christianos / sed contra errorem quorumdam qui dicebant quod 
+      <lb ed="#P" n="109"/>cause secunde facto nichil agunt: sed quod deus omnia facit 
+      <lb ed="#P" n="110"/>immediate et hoc est falsum / quia secundum Augustinum 
+      <lb ed="#P" n="111"/>deus sic res administrat vt eas proprios motus 
+      age<lb ed="#P" n="112" break="no"/>re sinat licet aliter posset facere.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1359">
+      ¶ Ad quartum 
+      di<lb ed="#P" n="113" break="no"/>ci potest vno modo quod maior est falsa / sicut etam aliquid 
+      <lb ed="#P" n="114"/>incorporale puta intelligibilia immediate 
+      transmu<lb ed="#P" n="115" break="no"/>tat et mouet corpus / puta caelum. Uel dic ad 
+      intentio<lb ed="#P" n="116" break="no"/>nem Aristotelis quod nullum immateriale / 
+      cuiusmodi<lb ed="#P" n="117" break="no"/>ponebatur ydea que non est aliquid singulare / 
+      trans<lb ed="#P" n="118" break="no"/>mutat et sicut agens vniuocum quemadiodum dicebat 
+      <lb ed="#P" n="119"/>Plato.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1377">
+      ¶ Ad vltimum dico quod deus potest 
+      immedia<lb ed="#P" n="120" break="no"/>te agere omnia / et si immediate faceret omnia non esset 
+      ma<lb ed="#P" n="121" break="no"/>lum culpe. in vniuerso: tamen esset contingens aliquid 
+      <lb ed="#P" n="122"/>quia in voluntate sua libere et contingenter ageret 
+      <lb ed="#P" n="123"/>Dicis sua actio est necesse esse. Concedo illud quod est 
+      <lb ed="#P" n="124"/>in se ex narura rei: tamen dico quod contingenter transit 
+      <lb ed="#P" n="125"/>obiectum extrinsecum sicut ad istud.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1393">
+      ¶ Tertia 
+      con<lb ed="#P" n="126" break="no"/>clusio est ista secundum aliquos quod deum esse 
+      omnipo<lb ed="#P" n="127" break="no"/>tentem mediate sic quod sit causa omnium mediata vel in 
+      <lb ed="#P" n="128"/>mediata potest efficaciter demonstrari ab homine 
+      via<lb ed="#P" n="129" break="no"/>tore demonstratione quia hoc probatur primo sic. 
+      Uni<lb ed="#P" n="130" break="no"/>uersitas causatorum est causata et habet causam: sed 
+      <!--429.xml-->
+       <pb ed="#P" n="207-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>hec causa non potest aliquid illins vniuersitatis / quia 
+      <lb ed="#P" n="2"/>tunc illud esset causa sui: ergo aliquid extra totam 
+      vni<lb ed="#P" n="3" break="no"/>uersitatem / ergo si in causis ostendatur in infinitum 
+      <lb ed="#P" n="4"/>non solum quelibet erit causata: sed tota multitudo 
+      <lb ed="#P" n="5"/>erit causata / et per consequens ab aliquo extra totam 
+      <lb ed="#P" n="6"/>multitudinem illam / ergo in illo est status tanquam in 
+      sim<lb ed="#P" n="7" break="no"/>pliciter primo causante omnia sed hoc primum est deus 
+      <lb ed="#P" n="8"/>ergo etc. Secundo sic. Causa effectiua quanto superior 
+      <lb ed="#P" n="9"/>tanto perfectior in causalitate / ergo si qua est in 
+      infini<lb ed="#P" n="10" break="no"/>tum superior ista in causando / illa erit in infinitum 
+      <lb ed="#P" n="11"/>perfectior in causalitate / ergo habebit causalitatem 
+      <lb ed="#P" n="12"/>infinite perfectam / et per consequens non dependebit 
+      <lb ed="#P" n="13"/>ab aliquo in causando / quia tunc esset imperfecta 
+      re<lb ed="#P" n="14" break="no"/>spectu illius ex quo dependeret: et consequenter non 
+      <lb ed="#P" n="15"/>est infinita / et tunc in illa erit status. siue ergo 
+      conci<lb ed="#P" n="16" break="no"/>das infinitatem in causis sicut non semper habetur 
+      <lb ed="#P" n="17"/>quod est aliqua causa effectiua non dependens in cau 
+      san<lb ed="#P" n="18" break="no"/>do et causa omnium aliorum / et ita potest in omnia mediate 
+      <lb ed="#P" n="19"/>vel immediate et habet omnipotentiam isto modo dictam 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e1454">
+               <lb ed="#P" n="20"/>¶ Sed non videtur michi sicut dixi supra distinction 
+      <lb ed="#P" n="21"/>ne secunda quod iste sunt demonstrationes. Possunt enim 
+      <lb ed="#P" n="22"/>impediri quia non video ( sicut dicebam ibi / quantum ad 
+      <lb ed="#P" n="23"/>llla que apparent nobis quin omnia que ponuntur in 
+      vni<lb ed="#P" n="24" break="no"/>uerso possent saluari stante processu in infinitum in 
+      cau<lb ed="#P" n="25" break="no"/>sis: sicut non video quin possent stare omnia 
+      apparen<lb ed="#P" n="26" break="no"/>tia: sed ponerentur in sursum infinite substantie in actu 
+      <lb ed="#P" n="27"/>sicut reputo possibile et dicam infra / et ideo non vide 
+      <lb ed="#P" n="28"/>tur michi quod ex apparentibus et effectibus possit 
+      com<lb ed="#P" n="29" break="no"/>cludi demonstratione / quod aliqua prima simpliciter 
+      <lb ed="#P" n="30"/>in vniuerso / a qua omnia dependeant sicut ex efficien 
+      <lb ed="#P" n="31"/>te mediate vel immediate / nec per consequens ostendi quod deus 
+      <lb ed="#P" n="32"/>sit talis causa immo nec quod deus sit: nec per consequens quod 
+      ha<lb ed="#P" n="33" break="no"/>beat talem omnipotentiam.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1487">
+      ¶ Secundo possunt 
+      im<lb ed="#P" n="34" break="no"/>pediri iste rationes quia et si poneretur status in aliqua 
+      <lb ed="#P" n="35"/>causa prima effectiua illa esset intelligentia mouens 
+      <lb ed="#P" n="36"/>primum celum: non autem deus Sic etiam secundum 
+      mul<lb ed="#P" n="37" break="no"/>tos de intentione Aristotelis fuit quod prima 
+      intelli<lb ed="#P" n="38" break="no"/>gentia / que est deus: non mouet effectiue / nec 
+      cau<lb ed="#P" n="39" break="no"/>sat aliquid: sed tantum vt amatum et desideratum per 
+      <lb ed="#P" n="40"/>modum finis: nec vltra potest deduci Aristoteles 
+      per<lb ed="#P" n="41" break="no"/>rationem naturalem sicut dicunt: saltem isti hoc non pro 
+      <lb ed="#P" n="42"/>bant.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1509">
+      ¶ Tertio quia diceretur quod illud efficiens 
+      primo<lb ed="#P" n="43" break="no"/>non probatur habere omnipotentiam simpliciter 
+      respo<lb ed="#P" n="44" break="no"/>ctu omnium causabilium sui ordinis preter que oporte 
+      <lb ed="#P" n="45"/>probare non esse alia causabilia: nec aliam causam 
+      <lb ed="#P" n="46"/>primam ab illa. Quod etiam nec potest forte 
+      demonstra<lb ed="#P" n="47" break="no"/>ri saltem per rationes illas non probatur quare etc 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e1523">
+               <lb ed="#P" n="48"/>¶ Credo igitur deum esse et omnipotentem esse non solum 
+      <lb ed="#P" n="49"/>primo modo: sed etiam secundo modo secundum illum 
+      arti<lb ed="#P" n="50" break="no"/>culum symboli. Credo in deum patrem omnipotentem 
+      <lb ed="#P" n="51"/>Et secundum auctoritates sacre scripture et sctonrum: 
+      <lb ed="#P" n="52"/>quas dimitto gratia breuitatis. Non solum autem de 
+      <lb ed="#P" n="53"/>bet dici deus omnipotens quia potest quecumque vult: sed 
+      <lb ed="#P" n="54"/>quia omne possibile sua potentia actiua que dicitur 
+      omni<lb ed="#P" n="55" break="no"/>potentia que non est proprie nisi respectu causabilis 
+      <lb ed="#P" n="56"/>et est respectu omnis causabilis.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1545">
+      ¶ Ad rationes duas 
+      <lb ed="#P" n="57"/>istarum diceretur. Ad primam quod tota vniuersitas 
+      <lb ed="#P" n="58"/>est causata: sed non est ab aliqua vna causa extra 
+      to<lb ed="#P" n="59" break="no"/>tam vniuersitatem sicut imaginatur. Sed ista ab ille 
+      <lb ed="#P" n="60"/>et illa ab alia et sic in infinitum: nec sequitur aliquod 
+      <lb ed="#P" n="61"/>mandatum impossibile.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1558">
+      ¶ Ad secundum diceretur pro 
+      <lb ed="#P" n="62"/>quanto causa superior tanto perfectior: sed non est 
+      ibi<lb ed="#P" n="63" break="no"/>dare aliquam in infinitum distantem ab alia: vltra quam 
+      <lb ed="#P" n="64"/>non sit processus sicut imaginantur. Hoc enim excludit 
+      <lb ed="#P" n="65"/>processus in infinitum: et ita ponit quod quelibet est fi¬ 
+      <!--429.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>nita et distans finite ab alia: licet multitudo sit 
+      infi<lb ed="#P" n="67" break="no"/>nita et quelibet dependens ab alia in infinitum: nec 
+      ar<lb ed="#P" n="68" break="no"/>gumentum concludit vt videtur. Sic de ista quatdione. 
+      </p>
+            <p xml:id="qrdBas-a1331X-d1e1580">
+               <lb ed="#P" n="69"/>¶ Ad primum principale 
+      pa<lb ed="#P" n="70" break="no"/>tet quid dicendum quod non est demonstratum nobis esse 
+      <lb ed="#P" n="71"/>vnum ens simpliciter in vniuerso quod sit causa omnium alio 
+      <lb ed="#P" n="72"/>rum.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1591">
+      ¶ Ad secundum dico quod nobis non est 
+      demonstra<lb ed="#P" n="73" break="no"/>tum deum esse infinite virtutis intensiue: licet 
+      pu<lb ed="#P" n="74" break="no"/>tem quod Aristoteles hoc putauerit demonstrare: 
+      si<lb ed="#P" n="75" break="no"/>cut dixi distinctione secunda. Aliter dato quod deus 
+      ha<lb ed="#P" n="76" break="no"/>beat instantiam et potentiam sicut Aristoteles 
+      di<lb ed="#P" n="77" break="no"/>ceret: et in vigore et non solum in duratione: quia alias 
+      <lb ed="#P" n="78"/>non haberet argumentum quare non possit esse virtus 
+      <lb ed="#P" n="79"/>in magnitudine: sicut etiam virtus celi vel solis que 
+      <lb ed="#P" n="80"/>sunt infinite in duratione. Et dato quod sit infinita 
+      po<lb ed="#P" n="81" break="no"/>tentia omnipotentia: non tamen sequitur si ratione 
+      natu<lb ed="#P" n="82" break="no"/>rali potest ostendi deum habere infinitam potentiam: quod 
+      <lb ed="#P" n="83"/>propter hoc ostendatur euidenter habere 
+      omnipoten<lb ed="#P" n="84" break="no"/>tiam: quia non est notum ratione naturali infinitam 
+      poten<lb ed="#P" n="85" break="no"/>tiam esse omnipotentiam: sicut etiam dato quod essentia et 
+      pa<lb ed="#P" n="86" break="no"/>ternitas sint idem in diuinis: licet demonstretur deum 
+      <lb ed="#P" n="87"/>esse secundum aliquos: non tamen demonstratur esse 
+      pa<lb ed="#P" n="88" break="no"/>ter. Ad probationem Infinita potentia non potest 
+      exce<lb ed="#P" n="89" break="no"/>di: verum est intensiue: quia sic infinita est: sed extensiue 
+      be<lb ed="#P" n="90" break="no"/>ne / quia est dare aliquid possibile in quod non potest / sed 
+      <lb ed="#P" n="91"/>vna alia potentia que ad istam non pertinet / sicut 
+      di<lb ed="#P" n="92" break="no"/>cetur / saltem oppositum non est demonstratum. Ali 
+      <lb ed="#P" n="93"/>ter diceret philosophus quod infinita potentia non 
+      ex<lb ed="#P" n="94" break="no"/>ceditur intensiue / et ideo est omnipotentia aliquo modo 
+      <lb ed="#P" n="95"/>sic quod potest omnia immediate vel mediate / et sic concederet 
+      <lb ed="#P" n="96"/>deum esse omnipotentem / non tamen immediate / quia 
+      contra<lb ed="#P" n="97" break="no"/>dictionem includit: et tolleretur ordo essentialis 
+      causa<lb ed="#P" n="98" break="no"/>rum si potentia immediata ad quodlibet possibile 
+      po<lb ed="#P" n="99" break="no"/>neretur in eodem / vel esset vna potentia 
+      intensiue<lb ed="#P" n="100" break="no"/>infinita.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1654">
+      ¶ Ad tertium diceretur quod non est verum quod 
+      <lb ed="#P" n="101"/>demonstratione naturali possit ostendi quod omnipotentia 
+      <lb ed="#P" n="102"/>accipiendo pro vna aliqua potentia qua aliquod ens 
+      <lb ed="#P" n="103"/>vnum possit in omne possibile non repugnet enti. Sed 
+      <lb ed="#P" n="104"/>bene ratione naturali potest ostendi quod omnis potentia 
+      con<lb ed="#P" n="105" break="no"/>uenit enti / quia cuilibet enti conuenit sua potentia / et non 
+      <lb ed="#P" n="106"/>est dare aliquam potentiam que non conueniat alicui 
+      <lb ed="#P" n="107"/>enti.
+    </p>
+            <p xml:id="qrdBas-a1331X-d1e1673">
+      ¶ Ad quartum de Richardo dico quod licet ad 
+      <lb ed="#P" n="108"/>multa que tenemus per fidem non desint necessarie 
+      <lb ed="#P" n="109"/>rationes: tamen latent industriam naturalem nec sunt 
+      <lb ed="#P" n="110"/>nobis note naturaliter: et de lege communi¬ 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,598 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Praefatio</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Praefatio</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="1-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBaS-a1e3xx"><!-- l1-praefatio -->
+            <head xml:id="qrdBaS-a1e3xx-Hd1e99">Praefatio</head>
+            <p xml:id="qrdBaS-a1e3xx-d1e101">
+      <!--12.xml-->
+               <pb ed="#P" n="1-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Reuerendi patris fratris  
+      <lb ed="#P" n="2"/>Ioannis de Bassolis minori 
+      <lb ed="#P" n="3"/>te / Sacre Theologie 
+      professo<lb ed="#P" n="4" break="no"/>ris / ac interpretis 
+      profundissi<lb ed="#P" n="5" break="no"/>mi in primum sententiarum. 
+      <lb ed="#P" n="6"/>prefatio. 
+      <lb ed="#P" n="7"/>Rincipium 
+      ver<lb ed="#P" n="8" break="no"/>borum tuorum veritas. 
+      Bea<lb ed="#P" n="9" break="no"/>tus Gregorius. 20. 
+      mora<lb ed="#P" n="10" break="no"/>lium loquens de sacra 
+      scriptu<lb ed="#P" n="11" break="no"/>ra et scientia eius sic dicit 
+      <lb ed="#P" n="12"/>Omnem scientiam atque 
+      doctri<lb ed="#P" n="13" break="no"/>nam sacra scriptura sine 
+      ali<lb ed="#P" n="14" break="no"/>qua compassione transcendit 
+      <lb ed="#P" n="15"/>eo quod vera predicat ad 
+      cele<lb ed="#P" n="16" break="no"/>stem patriam vocat a 
+      terre<lb ed="#P" n="17" break="no"/>nis desideriis ad superna amplectenda cor legentis 
+      <lb ed="#P" n="18"/>inuitat vsu fastidium tollit et tanto amplius 
+      diligi<lb ed="#P" n="19" break="no"/>tur quanto amplius meditatur animum legentis 
+      humi<lb ed="#P" n="20" break="no"/>limis virtutibus adiuuat sublimibus sensibus leuat 
+      <lb ed="#P" n="21"/>omnibus colligitur quod scien¬ 
+      </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e156">
+               <lb ed="#P" n="22"/>¶ Ex quibus tia sacre scripture que in 
+      li<lb ed="#P" n="23" break="no"/>bro sententiarum quasi aurum preciosum in thesauro 
+      <lb ed="#P" n="24"/>reconditur in quatuor priuilegiis ceteras scientias 
+      hu<lb ed="#P" n="25" break="no"/>manitus adinuentas antecellit. Est enim honore 
+      di<lb ed="#P" n="26" break="no"/>gnior quod tangitur ibi sacra scriptura omnem scientiam 
+      <lb ed="#P" n="27"/>etc. Secundo est fulgore clarior quod tangitur eo quod 
+      ve<lb ed="#P" n="28" break="no"/>ra praedicat. Tertio est valore potior seu melior quod 
+      tan<lb ed="#P" n="29" break="no"/>gitur ad celestem patriam vocat etc. Quarto est vigore 
+      fir<lb ed="#P" n="30" break="no"/>mior vel potior quod tangitur ibi quod vltimo animam legentis etc. 
+      <lb ed="#P" n="31"/>quatuor per ordinem in verbis de 
+      </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e180">
+               <lb ed="#P" n="32"/>¶ Et ista ipsa propositis describuntur. In 
+      <lb ed="#P" n="33"/>quibus tanquam caput et principium aliarum scientiarum 
+      <lb ed="#P" n="34"/>nuncupatur cum dicitur principium etc. Est enim 
+      scien<lb ed="#P" n="35" break="no"/>tia pre ceteris excessiue dignitatis quia principium 
+      <lb ed="#P" n="36"/>Secundo est scientia expressiue claritatis quia 
+      vero<lb ed="#P" n="37" break="no"/>rum. / Tertio ipsa est scientia possessiue repletiue seu 
+      <lb ed="#P" n="38"/>diciatiue bonitatis quia tuorum. Quarto est scientia 
+      <lb ed="#P" n="39"/>permansiue firmitatis quia veritas. Habet enim 
+      pre<lb ed="#P" n="40" break="no"/>ceteris eminentie dignitatem quia principium et hoc a 
+      cau<lb ed="#P" n="41" break="no"/>sa originali. Secundo habet euidentie claritatem quia 
+      ver<lb ed="#P" n="42" break="no"/>borum et hoc ex causa formali habet opulentie vel 
+      af<lb ed="#P" n="43" break="no"/>fluentie bonitatem et hoc ex causa finali quia tuorum 
+      <lb ed="#P" n="44"/>habet nichilominus permanentie firmitatem ex causa 
+      <lb ed="#P" n="45"/>materiali quia veritas. Est igitur scientia dignissima 
+      si<lb ed="#P" n="46" break="no"/>cut principium. Scientia clarissima quia verborum. 
+      Scien<lb ed="#P" n="47" break="no"/>tia plenissima ditissima seu carissima quia tuorum. 
+      Sci<lb ed="#P" n="48" break="no"/>entia firmissima quia veritas.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e219">
+      ¶ Dico igitur primo quod 
+      <lb ed="#P" n="49"/>scientia sacre scripture habet pre ceteris dignitatem 
+      <lb ed="#P" n="50"/>eminentie quasi principium sicut enim principium dignius 
+      <lb ed="#P" n="51"/>aliis propositionibus in scientia. vnde et dignitas 
+      ap<lb ed="#P" n="52" break="no"/>pellatur sic recte ista scientia aliis scientiis dignior est et 
+      <lb ed="#P" n="53"/>inter ipsas obtinet principatum. Unde et ipsa est 
+      scien<lb ed="#P" n="54" break="no"/>tia caput habens et dea scientiarum sicut dicitur de 
+      metaphisi<lb ed="#P" n="55" break="no"/>ca in prologo metaphisice propter quod pulcre de ipsa dicitur 
+      <lb ed="#P" n="56"/>in figura. Gen. 2. c. Plantauerat autem dominus deus 
+      para<lb ed="#P" n="57" break="no"/>disum voluptatis a principio in quo posuit hominem 
+      <lb ed="#P" n="58"/>quem formauerat Gesi. 2. vbi tanguntur quatuor quae pro¬ 
+      <!--12.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="59"/>bant huius scientiae praecellentem dignitatem. Est enim ista scientia 
+      di<lb ed="#P" n="60" break="no"/>uinitus inspirata et radicata quod tangitur cum dicitur. 
+      Planta<lb ed="#P" n="61" break="no"/>uerat autem dominus deus. Secundo dico quod est diuinitus 
+      mira<lb ed="#P" n="62" break="no"/>biliter decorata paradisum inquit voluptatis. Tertio 
+      <lb ed="#P" n="63"/>quia est diuinitus eternaliter ordinata a principio inquit. 
+      <lb ed="#P" n="64"/>Quarto quia est diuinitus mirabiliter sociata fecundata et 
+      <lb ed="#P" n="65"/>habitata in quo posuit hominem etc.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e264">
+      ¶ Dico primo quod 
+      <lb ed="#P" n="66"/>ipsa est diuinitus inspirata et radicata profundius 
+      specia<lb ed="#P" n="67" break="no"/>liter vel singularius. Dominus enim deus plantauit eam et 
+      inspira<lb ed="#P" n="68" break="no"/>uit in faciem eius spiraculum vite. Non enim aristoteles philosophus 
+      <lb ed="#P" n="69"/>non galienus medicus non legista iustinianus sed quis dominus 
+      <lb ed="#P" n="70"/>plantauit qui est thesaurus et plenitudo omnis scientiae et ideo 
+      ip<lb ed="#P" n="71" break="no"/>sa est liberrima ad principandum. Est enim scientia domini scientia dei 
+      <lb ed="#P" n="72"/>vel diuina: diuina inquam possit non humana non terrena non 
+      <lb ed="#P" n="73"/>animalis et diabolica sicut illa sapientia mundana: sed dominus. 
+      <lb ed="#P" n="74"/>plantauit eam sicut vineam praeciosam cuius vinum delectant 
+      <lb ed="#P" n="75"/>deum et hominem sicut oliuam copiosam cuius oleum sanat 
+      <lb ed="#P" n="76"/>debiles sicut primulam gratiosam cuius odor recreat 
+      di<lb ed="#P" n="77" break="no"/>ligentes. Plantauit igitur dominus deus ipsam. Plantauit enim 
+      <lb ed="#P" n="78"/>eam dominus iesus in quo habetur stilus gloriose sublimitatis 
+      <lb ed="#P" n="79"/>et auctoritatis in cuius sermone silet ventus prophetice 
+      va<lb ed="#P" n="80" break="no"/>nitatis et cuius cogitatione placatur abyssus curiose 
+      pro<lb ed="#P" n="81" break="no"/>funditatis propter quod dicitur in psal. 79. Dux itineris fuisti 
+      <lb ed="#P" n="82"/>in conspectu eius et plantasti radices eius et impleuit terram 
+      <lb ed="#P" n="83"/>operuit montes vmbra eius et arbusta cedros dei 
+      exte<lb ed="#P" n="84" break="no"/>dit palmites suos vsque ad mare et vsque ad flumen pro 
+      <lb ed="#P" n="85"/>pagines eius dux itineris fuisti. dicitur quod ipsam regulasti 
+      <lb ed="#P" n="86"/>plantasti etc. quia ipsam profundasti operuit montes quia 
+      ip<lb ed="#P" n="87" break="no"/>sam sublimasti. Extendit palmites quia ipsam dilatasti 
+      <lb ed="#P" n="88"/>vel aliter exponitur. dux itineris fuisti ipsam rectificando 
+      <lb ed="#P" n="89"/>et plantasti radices eius ipsam profundando operuit 
+      mon<lb ed="#P" n="90" break="no"/>tes vmbra eius ipsam exaltando / extendit etc. ipsam 
+      dila<lb ed="#P" n="91" break="no"/>tando longum esset exponere.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e323">
+      ¶ Secundo dico quod ipsa est a 
+      <lb ed="#P" n="92"/>deo decorata iocundius quia paradisus voluptatis in quo 
+      inue<lb ed="#P" n="93" break="no"/>nitur humor aquarum interne deuotionis viror herbarum 
+      <lb ed="#P" n="94"/>externe praetensionis fructus arborum perfectionis causatus auium 
+      di<lb ed="#P" n="95" break="no"/>uine confessionis Si enim philosophia illa terrena habet mirabiles 
+      vo<lb ed="#P" n="96" break="no"/>luptates et delectationes ob sui pulchritudinem 
+      mul<lb ed="#P" n="97" break="no"/>to fortius sacra scriptura. Unde recte dicitur paradisus 
+      volu<lb ed="#P" n="98" break="no"/>ptatis et ortus delitiarum quia in ea inuenitur humor interne 
+      <lb ed="#P" n="99"/>deuotionis decor vel candor floride et externe 
+      conuersa<lb ed="#P" n="100" break="no"/>tionis fructus sapide et viuide operationis. Et causatus auium 
+      <lb ed="#P" n="101"/>armonice iubilationis ergo ipsa est ortus conclusus fons 
+      si<lb ed="#P" n="102" break="no"/>gnatus et emissionis sue paradisus malorum punicorum cum 
+      <lb ed="#P" n="103"/>pomorum fructibus canticorum. 4o. Iste est paradisus in quo 
+      <lb ed="#P" n="104"/>egregie deriuantur quatuor fluuii aquae divine sapine quae sunt 
+      <lb ed="#P" n="105"/>quatuor libri sententiarum ad irrigandum vniuersam 
+      superfi<lb ed="#P" n="106" break="no"/>ciem terre. Iste est paradisus de quo Adam iste terrenus omnis 
+      <lb ed="#P" n="107"/>sapiens mudanus. Emisit inquit eum dominus deus de paradiso 
+      <lb ed="#P" n="108"/>voluptatis vt operaretur terram de qua sumptus est Gen. 3. 
+      <lb ed="#P" n="109"/>Ista est etiam qua vniuersa irrigantur sicut paradisus antequam 
+      <lb ed="#P" n="110"/>subuerteret dominus sodomam et gomorram ergo scriptura 
+      sa<lb ed="#P" n="111" break="no"/>cra et gratia doctrine sue est sicut paradisus in 
+      benedi<lb ed="#P" n="112" break="no"/>ctionibus. De isto paradiso dicit Damascenus libro 
+      <lb ed="#P" n="113"/>quarto. Pulsemus inquit in paradisum pulcherrimum 
+      scri<lb ed="#P" n="114" break="no"/>pturarum omnimodis intellectualium volucrum 
+      cantile<lb ed="#P" n="115" break="no"/>nis circumsonantem aures nostras tangentem quasi cor 
+      <lb ed="#P" n="116"/>ipsum et contristatum et consolatum.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e380">
+      ¶ Dico tertio quod ipsa est 
+      di<lb ed="#P" n="117" break="no"/>uinitus eternaliter ordinata vel ordinata principalibus quia a 
+      <lb ed="#P" n="118"/>primo deus enim deus primo debuit prouidere scientiam de 
+      seip<lb ed="#P" n="119" break="no"/>so antequam de aliis sicut ipse est primum ens et primum scibile 
+      <lb ed="#P" n="120"/>inter omnia entia et non ante alias scientias istam 
+      <lb ed="#P" n="121"/>adinuenit prudentia sua sicut dicitur Baruth. 3. et 
+      <lb ed="#P" n="122"/>ipsa de seipsa dicit dominus possedit me in initio 
+      via<lb ed="#P" n="123" break="no"/>tum suarum antequam quicquam faceret a principio ab eter¬ 
+      <!--13.xml-->
+       <pb ed="#P" n="1-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non ordinata sum et ex antiquis antequam terra fieret etc 
+      <lb ed="#P" n="2"/>Prouerbiorum. 8. vbi manifestum est quod preponitur 
+      <lb ed="#P" n="3"/>vnus propter rectitudinem sui. Preponitur terris 
+      pro<lb ed="#P" n="4" break="no"/>pter sui latitudinem vel amplitudinem. Preponitur 
+      <lb ed="#P" n="5"/>fontibus propter sui limpitudinem. Preponitur 
+      mon<lb ed="#P" n="6" break="no"/>tibus et collibus propter sui celsitudinem. 
+      Preponi<lb ed="#P" n="7" break="no"/>tur abissis propter sui profunditatem. Preponitur 
+      <lb ed="#P" n="8"/>fluminibus propter sui mobilitatem. Preponitur 
+      <lb ed="#P" n="9"/>omnibus aliis breuiter propter sui solemnitatem. 
+      Ip<lb ed="#P" n="10" break="no"/>sa enim est qua omnia fuerunt mensurata qua 
+      om<lb ed="#P" n="11" break="no"/>nia fuerunt figurata qua omnia fuerunt 
+      pondera<lb ed="#P" n="12" break="no"/>ta qua omnia fuerunt ordinata et id omnibus. 
+      Pre<lb ed="#P" n="13" break="no"/>ponitur sicut ars omnipotenter dei plena 
+      rationi<lb ed="#P" n="14" break="no"/>bus omnium vincentium. 6 de trinitate. Igitur a 
+      prin<lb ed="#P" n="15" break="no"/>cipio dominus possedit me: quia a deo primitus in 
+      <lb ed="#P" n="16"/>spirata in initio viarum suarum: quia a deo 
+      primi<lb ed="#P" n="17" break="no"/>tus regulata antequam quicquam faceret: quia a deo 
+      pri<lb ed="#P" n="18" break="no"/>mitus fabricata. A principio quia antequam primitus 
+      <lb ed="#P" n="19"/>acceptata. Est enim liberrime possessionis ad occu 
+      <lb ed="#P" n="20"/>pandum possidendum obtinendum rectissime ostensio 
+      <lb ed="#P" n="21"/>nis ad dirigendum veterrime durationis ad 
+      reueren<lb ed="#P" n="22" break="no"/>dum et celerrime promotionis ad erigendum suos 
+      <lb ed="#P" n="23"/>possessores quia a principio. 
+      <lb ed="#P" n="24"/>dico quod ipsa est diuinitus habi 
+      </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e456">
+               <lb ed="#P" n="25"/>¶ Quarto tata fecundius quia in ipsa 
+      si<lb ed="#P" n="26" break="no"/>cut in paradiso posuit hominem quem formauerat id 
+      <lb ed="#P" n="27"/>est formandum disposuerat dominum iesum. In 
+      scri<lb ed="#P" n="28" break="no"/>ptura namque sacra inuenitur homo iste dominus 
+      Ie<lb ed="#P" n="29" break="no"/>sus christus qui ipsam semper custodiuit semper 
+      exco<lb ed="#P" n="30" break="no"/>luit semper defendit sicut adam positus fuerat in pa 
+      <lb ed="#P" n="31"/>radiso vt operaretur et custodiret illum. Sed ille de 
+      <lb ed="#P" n="32"/>terra fuit terrenus non est vis de eo sed noster 
+      ha<lb ed="#P" n="33" break="no"/>bitator et cultor sacre scripture est secundus. Adam 
+      <lb ed="#P" n="34"/>de celo celestis et ipse est ille homo mirabilis qui se 
+      <lb ed="#P" n="35"/>cundum sacram scripturam non solum est homo sed 
+      <lb ed="#P" n="36"/>etiam est homo deus de quo homine dicitur 
+      Gene<lb ed="#P" n="37" break="no"/>sis. 20. Tulit deus hominem et posuit eum in paradiso 
+      <lb ed="#P" n="38"/>voluptatis vt operaretur et custodiret illum. Quod etiam 
+      <lb ed="#P" n="39"/>dicitur Ezechielis. 28. Tu signaculum 
+      similitudi<lb ed="#P" n="40" break="no"/>nis plenus sapientia et perfectus decore in deliciis 
+      <lb ed="#P" n="41"/>paradisi dei fuisti. Tu signaculum altitudinis quia in 
+      <lb ed="#P" n="42"/>scripturis scientiis fuisti figuratus plenus sapien 
+      <lb ed="#P" n="43"/>tia quia de scripturis fuisti inspiratus est formatus 
+      <lb ed="#P" n="44"/>perfectus decore quia in scripturis et secundum scripturas 
+      <lb ed="#P" n="45"/>fuisti conuersatus in deliciis paradisi fuisti etc. quia in 
+      <lb ed="#P" n="46"/>scripturis legis coronatus et in eis delectatus 
+      inue<lb ed="#P" n="47" break="no"/>nitur in sacra scriptura christi figuratio contemplatio 
+      <lb ed="#P" n="48"/>christi / conuersatio christi delectatio vel premiatio 
+      <lb ed="#P" n="49"/>seu exaltatio de ipso enim precipue scriptum est 
+      Apoca<lb ed="#P" n="50" break="no"/>lipsis. 2o. Uincenti dabo edere de ligno vite quod est 
+      <lb ed="#P" n="51"/>in paradiso dei mei lignum vite in medio paradisi 
+      <lb ed="#P" n="52"/>dicitur et Genesis 1. Afferens fructus duodecim per 
+      <lb ed="#P" n="53"/>menses singulos. Et potest hoc exponi de scriptura 
+      <lb ed="#P" n="54"/>in medio ecclesie quasi in medio paradisi vel de christo 
+      <lb ed="#P" n="55"/>in medio scripture. Affert enim duodecim fructus 
+      stu<lb ed="#P" n="56" break="no"/>dentibus in scriptura. In primis enim tribus anni 
+      <lb ed="#P" n="57"/>mensibus affert tres fructus. In primo fructum 
+      fi<lb ed="#P" n="58" break="no"/>dei in cognoscendo. In secundo fructum fidei 
+      confi<lb ed="#P" n="59" break="no"/>tendo. In tertio fructum caritatis in diligendo et 
+      <lb ed="#P" n="60"/>isti sunt menses incipientium. In tribus secundis 
+      men<lb ed="#P" n="61" break="no"/>sibus affert tres alios. In primos fructum patientie 
+      <lb ed="#P" n="62"/>in sustinendo. In secundo fructum diligentie. In pri 
+      <lb ed="#P" n="63"/>mo fructum prudentie in iudice constantie in tolle 
+      <lb ed="#P" n="64"/>rando. In secundo fructum iusticie in operando. 
+      In<lb ed="#P" n="65" break="no"/>tertio fructum clementie in miserando et isti sunt tres 
+      <!--13.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>menses proficientium. In tribus tertiis affert. In 
+      <lb ed="#P" n="67"/>primo fructum humilitatis obediendo. In secundo 
+      <lb ed="#P" n="68"/>fructum austeritatis vel sinceritatis in continendo. 
+      <lb ed="#P" n="69"/>In tertio fructum tenuitatis et paupertatis in 
+      pos<lb ed="#P" n="70" break="no"/>sidendo et isti sunt menses excellentium et 
+      perfecto<lb ed="#P" n="71" break="no"/>rum. Sed in tribus vltimis mensibus qui sunt men 
+      <lb ed="#P" n="72"/>ses vite beate affert primo fructum divine claritatis  
+      <lb ed="#P" n="73"/>ad intuendum. In secundo fructum diuine 
+      bonita<lb ed="#P" n="74" break="no"/>tis ad perfruendum. In tertio fructum divine 
+      bo<lb ed="#P" n="75" break="no"/>nitatis ad permanendum fructus scilicet visionis 
+      <lb ed="#P" n="76"/>fruitionis et tentionis de dignitate et auctoritate 
+      <lb ed="#P" n="77"/>huius sacre scripture. Nota Augustinum de 
+      ciui<lb ed="#P" n="78" break="no"/>tata dei libro. II. ca. II. 
+      <lb ed="#P" n="79"/>principale vbi 
+      </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e582">
+               <lb ed="#P" n="80"/>¶ Sequitur secundum tangitur quod ista 
+      <lb ed="#P" n="81"/>scientia habet pre ceteris claritatem euidentie et 
+      tan<lb ed="#P" n="82" break="no"/>gitur in hoc quod dicitur verbum. Uerbum enim sicut 
+      sci<lb ed="#P" n="83" break="no"/>tis de sua ratione est quid expressiuum conceptus 
+      <lb ed="#P" n="84"/>mentis. Unde et cum aliquis loquitur vel profert 
+      <lb ed="#P" n="85"/>verbum dicimus quod declarat et manifestat conceptum 
+      <lb ed="#P" n="86"/>suum. Uerbum enim declaratiuum est et 
+      manifesta<lb ed="#P" n="87" break="no"/>tiuum conceptus et obedientia de quo formatur 
+      con<lb ed="#P" n="88" break="no"/>ceptus et per consequens verbum. In hoc ergo quod ista 
+      <lb ed="#P" n="89"/>scientia pre ceteris est manifesta et clara recte dicitur 
+      <lb ed="#P" n="90"/>scientia verborum non quia sit sermocinalis 
+      scien<lb ed="#P" n="91" break="no"/>tia sicut grammatica logica et rethorica: sed quia est 
+      <lb ed="#P" n="92"/>clara et manifesta. Unde et super omnem dispositionem 
+      <lb ed="#P" n="93"/>stellarum luci comparata inuenitur prior. est enim lux 
+      <lb ed="#P" n="94"/>vera que illuminat omnem hominem venientem in hunc 
+      <lb ed="#P" n="95"/>mundum vt dicitur Ioan. 7. Propter quod de ipsa 
+      <lb ed="#P" n="96"/>dicitur. Prouer. primo. Sapientia foris predicat 
+      <lb ed="#P" n="97"/>in plateis dat vocem suam in capite turbarum 
+      clami<lb ed="#P" n="98" break="no"/>tat in foribus portarum verbis profert verba sua. 
+      <lb ed="#P" n="99"/>Ecce quam pateunt et clare docet ista sacra scientia pro 
+      <lb ed="#P" n="100"/>pter quatuor claritates quatuor sensuum secundum quos a 
+      <lb ed="#P" n="101"/>sacris doctoribus exponitur qui sunt quasi quatuor ra 
+      <lb ed="#P" n="102"/>dii luminares quatuor fluuii speculares quatuor ocu 
+      <lb ed="#P" n="103"/>li visuales quatuor tituli generales quatuor rote quibus 
+      <lb ed="#P" n="104"/>currus scripturarum deportatur quatuor porte quibus 
+      <lb ed="#P" n="105"/>deus sapine subintratur quatuor note quibus cantus 
+      scri<lb ed="#P" n="106" break="no"/>pturarum mensuratur quatuor columne quibus tentorum 
+      scriptu<lb ed="#P" n="107" break="no"/>re sustentatur. Et isti quatuor sensus in verbo praefato desi 
+      <lb ed="#P" n="108"/>gnantur. Sapina enim foris praedicat quantum ad sensum historia 
+      <lb ed="#P" n="109"/>cum siue historialem secundum quem locutus est beatus 
+      Hierony<lb ed="#P" n="110" break="no"/>mus. In plateis dat vocem suam quantum ad sensum 
+      tro<lb ed="#P" n="111" break="no"/>pologicum vel moralem secundum quem locutus est beatus 
+      Gre<lb ed="#P" n="112" break="no"/>gorius in capite turbarum clamitat / quantum ad sensum 
+      <lb ed="#P" n="113"/>analogicum secundum quem locutus est Ambrosius vt sic habeat 
+      <lb ed="#P" n="114"/>sacra scriptura quadruplices sensus claritatem et 
+      quadru<lb ed="#P" n="115" break="no"/>plicis doctori correspondentem auctoritatem.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e663">
+      ¶ Tangitur 
+      pri<lb ed="#P" n="116" break="no"/>mo claritas sensus historici. Propter quod dicitur quod diuina 
+      <lb ed="#P" n="117"/>sapientia foris praedicat in isto sensu quod non dicitur in hoc vt in 
+      <lb ed="#P" n="118"/>pluribus foris apparet et patet quasi omnibus in superficie littere 
+      <lb ed="#P" n="119"/>patentis et simplicitate verborum quae despicitur a superbis 
+      pro<lb ed="#P" n="120" break="no"/>pter quod dicebat apostolus dum placuit deo per stulticiam 
+      praedi<lb ed="#P" n="121" break="no"/>cationis saluos facere credere I corin I. Egrediebatur 
+      <lb ed="#P" n="122"/>sapientia foris in hoc sensu et loquebatur in idipsam. Iste sensus 
+      <lb ed="#P" n="123"/>est primus inter alios quasi prius ordo lapidum in rotionali 
+      iudi<lb ed="#P" n="124" break="no"/>cum et in veste ponderis aaron in quo describuntur parentum 
+      <lb ed="#P" n="125"/>magnalia ad addiscendum exprimendum et reos leuandum: 
+      <lb ed="#P" n="126"/>quia ipse alterum sensuum fundamentum aliorum fulcimentum 
+      <lb ed="#P" n="127"/>aliorum nutrimentum.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e693">
+      ¶ Secundo tangitur claritas 
+      sen<lb ed="#P" n="128" break="no"/>sus tropologici cum dicitur. In plateis dat vocem suam 
+      pre<lb ed="#P" n="129" break="no"/>dicationis sicut scitis praedicant in plateis et in locis 
+      communi<lb ed="#P" n="130" break="no"/>bus sicut in ecclesiis. Ecclesie enim recte platea dicitur 
+      <!--14.xml-->
+       <pb ed="#P" n="2-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quia est locus complanatus emundatus et dilatatus 
+      <lb ed="#P" n="2"/>in talibus plateis sapientia dat vocem quia in 
+      sen<lb ed="#P" n="3" break="no"/>su morali praedicat quid agendum quid canendum quid 
+      tui<lb ed="#P" n="4" break="no"/>miendum quid sperandum quid sequendum propter quod 
+      <lb ed="#P" n="5"/>ipsa in plateis. Sicut cynamomum et balsamum 
+      <lb ed="#P" n="6"/>aromatimans odorem dedi quasi mirra electa odo 
+      <lb ed="#P" n="7"/>rem suauitatis. Unde et in figuram dicitur 
+      Neemi<lb ed="#P" n="8" break="no"/>octauo quod congregatus est omnis populus quasi vit 
+      <lb ed="#P" n="9"/>vnus ad plateam. Et sequitur quod benedixit esdras 
+      <lb ed="#P" n="10"/>domino deo voce magna et quod legerunt in libro 
+      le<lb ed="#P" n="11" break="no"/>gis dei distincte et aperte ad intelligendum et iste est 
+      <lb ed="#P" n="12"/>secundus ordo lapidum in quo describuntur 
+      magna<lb ed="#P" n="13" break="no"/>lia ad exequendum.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e737">
+      ¶ Tertio describitur claritas 
+      <lb ed="#P" n="14"/>ensus anagogici cum dicitur in capite omnium tur 
+      <lb ed="#P" n="15"/>barum clamitat iste sensus clamitat potissime in 
+      ca<lb ed="#P" n="16" break="no"/>pitibus turbarum in prelatis et doctoribus non in tut 
+      <lb ed="#P" n="17"/>bis propter sui claritatem excellentem que est claritas 
+      <lb ed="#P" n="18"/>contemplationis. Unde et loqui sub isto sensu 
+      attri<lb ed="#P" n="19" break="no"/>buitur Augustino doctori precipuo et volanti super 
+      <lb ed="#P" n="20"/>alios quasi aquila grandis ponens in arduis 
+      nidi<lb ed="#P" n="21" break="no"/>suum vbi. 3o de hoc prudentia sensu scripture 
+      dici<lb ed="#P" n="22" break="no"/>tur Prouerbiorum. 8. Sapientia clamitat et dat 
+      vo<lb ed="#P" n="23" break="no"/>cem suam in excelsis summis quia verticibus. Et quid 
+      <lb ed="#P" n="24"/>dicit. Ecce praebete inquit aures vos qui continetis 
+      <lb ed="#P" n="25"/>multitudines et placetis vobis in turbis nationum 
+      <lb ed="#P" n="26"/>Sapientie sexto. Isti sunt precipue doctores et 
+      pre<lb ed="#P" n="27" break="no"/>lati iste est tertius ordo vbi describuntur parentum 
+      <lb ed="#P" n="28"/>imagnalia ad contemplandum.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e772">
+      ¶ Quarto tangit 
+      cla<lb ed="#P" n="29" break="no"/>ritatem sensus allegorici cum dicitur in foribus 
+      por<lb ed="#P" n="30" break="no"/>tarum vrbis. Per fores portarum vrbis non 
+      intelli<lb ed="#P" n="31" break="no"/>go nisi figicias et imaginatur earum: quia per eas 
+      si<lb ed="#P" n="32" break="no"/>cut per fores ingrediuntur ad thalamum scriptura 
+      <lb ed="#P" n="33"/>rum ad vrbem sicut ad exteriora ad interiora intratur / 
+      <lb ed="#P" n="34"/>et hoc per sensum allegoricum siue figuralem propter 
+      <lb ed="#P" n="35"/>quod dicitur de sapientia. Prouerbiorum. 8. quod 
+      ip<lb ed="#P" n="36" break="no"/>sa stans iuxta portas ciuitatis et in ipsis foribus 
+      lo<lb ed="#P" n="37" break="no"/>quitur. Et iste est quartus ordo lapidum in quo de 
+      <lb ed="#P" n="38"/>scribuntur parentum magnalia ad pretendendum. 
+      <lb ed="#P" n="39"/>figurandum istam: ergo claritatem quadruplicem 
+      ha<lb ed="#P" n="40" break="no"/>bet scriptura sacra et ideo clarissima vt accedat 
+      de<lb ed="#P" n="41" break="no"/>verbis eius illud prouerbiorum primo. Parabole si 
+      <lb ed="#P" n="42"/>lomonis filii Dauid regis Israel ad sciendam 
+      sa<lb ed="#P" n="43" break="no"/>pientiam et disciplinam ad intelligendum verba 
+      pru<lb ed="#P" n="44" break="no"/>dentie et suscipiendam eruditionem doctrine iusticiam 
+      <lb ed="#P" n="45"/>iudicium et equitatem vt detur paruulis astucia ado 
+      <lb ed="#P" n="46"/>lescentulis autem scientia et intellectus audiens et 
+      sa<lb ed="#P" n="47" break="no"/>piens sapientior erit et intelligens gubernacula 
+      pos<lb ed="#P" n="48" break="no"/>sidebit. Ecce claritas omnibus patens propter quod 
+      <lb ed="#P" n="49"/>pulcre dicit de ipsa Augustinus ad volusianum. 
+      Me<lb ed="#P" n="50" break="no"/>do inquit quo sacra doctrina contexitur omnibus est 
+      <lb ed="#P" n="51"/>accessibilis quasi enim amicus familiaris sine fine ad 
+      <lb ed="#P" n="52"/>cor in doctorum pariter et doctoris. Et beatus 
+      Gre<lb ed="#P" n="53" break="no"/>gorius in prologo moralium. Sacra scriptura 
+      inquit<lb ed="#P" n="54" break="no"/>omnes scientias locutionis sue more transcedit: quia il 
+      <lb ed="#P" n="55"/>vno et in eodem sensu dum narrat sensum prodit miste 
+      <lb ed="#P" n="56"/>rium et sicut misteriis prudentes exercet sic plerumque 
+      <lb ed="#P" n="57"/>superficies simplices fouet. De secundo principali vbi 
+      ta<lb ed="#P" n="58" break="no"/>gitur quod hec scientia habet pre ceteris claritatem euidentie 
+      <lb ed="#P" n="59"/>9 tertium vbi tangitur quod hec 
+      </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e842">
+               <lb ed="#P" n="60"/>¶ Sequitu et scientia pre ceteris habet 
+      bdo<lb ed="#P" n="61" break="no"/>nitatem opulentie ex causa finali quia tuorum. Est eni 
+      <lb ed="#P" n="62"/>verborum sed non quorumcunque verborum puta 
+      va<lb ed="#P" n="63" break="no"/>norum falsorum malorum sed tuorum domine iesu christo 
+      <lb ed="#P" n="64"/>qui es verbum bonum a patre eructatum. Eructauit 
+      <lb ed="#P" n="65"/>inquit verbum bonum ergo tuorum. Est enim scien¬ 
+      <!--14.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>tia tuorum ministeriorum prodigiorum tuorum vesti 
+      <lb ed="#P" n="67"/>giorum tuorum stipendiorum et iudiciorum. Est dico 
+      mi<lb ed="#P" n="68" break="no"/>nisteriorum tuorum de tuo genere nobilissimo. Est 
+      <lb ed="#P" n="69"/>tuorum prodigiorum quia de tuo opere strenuissimo 
+      <lb ed="#P" n="70"/>Est tuorum vestigiorum: quia de tuo fidere 
+      dilectissi<lb ed="#P" n="71" break="no"/>mo. Est tuorum stipendiorum quia de tuo munere 
+      <lb ed="#P" n="72"/>fertilissimo vel clarissimo. Propter primum dico quod 
+      <lb ed="#P" n="73"/>mentem ornat verissimis de tuo genere. Propter se 
+      <lb ed="#P" n="74"/>cundum mentem cibat meris deliciis de tuo opere. 
+      <lb ed="#P" n="75"/>Propter tertium mentem leuat altis fastigiis et 
+      su<lb ed="#P" n="76" break="no"/>spiriis pro tuo federe. Propter quartum mentem 
+      di<lb ed="#P" n="77" break="no"/>tat plenis diuitiis de tuo munere. Ergo bene 
+      tuo<lb ed="#P" n="78" break="no"/>rum ministeriorum que mentem ornant veris 
+      scien<lb ed="#P" n="79" break="no"/>tiis. Mirabilia enim testimonia tua etc. et mirabilis 
+      <lb ed="#P" n="80"/>facta est scientia tua. Psal. 18. Tuorum etiam 
+      pro<lb ed="#P" n="81" break="no"/>digiorum que mentem cibant meris deliciis de tud 
+      <lb ed="#P" n="82"/>opere. Quod dulcia faucibus meis eloquia tua etiam 
+      de<lb ed="#P" n="83" break="no"/>lectasti me domine in factura tua. Tuorum etiam 
+      vestigio<lb ed="#P" n="84" break="no"/>rum que mentem leuat altis suspiriis de tuo 
+      federe<lb ed="#P" n="85" break="no"/>quam habuisti ad nos in tua incarnatione benedicta. 
+      <lb ed="#P" n="86"/>Prope eim es tu domine et omnes vie tue veritas immo 
+      po<lb ed="#P" n="87" break="no"/>tius claritas. Unde ista sunt verba federis quod 
+      pe<lb ed="#P" n="88" break="no"/>pigit dominus filiis israel. Sed tuorum stipendiorum qui 
+      <lb ed="#P" n="89"/>mentem ditant summis diuitiis de tuo munere. Ideo 
+      <lb ed="#P" n="90"/>dilexi mandata tua super aurum et topamion. In via 
+      <lb ed="#P" n="91"/>testimoniorum tuorum delectatus sum sicut in 
+      on<lb ed="#P" n="92" break="no"/>nibus diuitiis inclina cor meum ad faciendas iusti 
+      <lb ed="#P" n="93"/>ficationes tuas ineternum propter retributionem 
+      <lb ed="#P" n="94"/>Psal. 118. De istis diuitiis exclamat apostolus. Ad  
+      <lb ed="#P" n="95"/>Romanos. II. Altitudo diuitiarum sapientie et 
+      sci<lb ed="#P" n="96" break="no"/>entie dei I huius sacre scientie que est in fructu 
+      ple<lb ed="#P" n="97" break="no"/>nissima et habet opulentie bonitatem quod notatur cum 
+      <lb ed="#P" n="98"/>dicitur tuorum. De vtilitate huius scientie loquitur 
+      <lb ed="#P" n="99"/>Augustinus. 14 de trinitate in principio dicens. 
+      <lb ed="#P" n="100"/>Non vtique quicquid sciri potest ab homine 
+      potes<lb ed="#P" n="101" break="no"/>in rebus humanis vbi plurimum superuacue 
+      vanita<lb ed="#P" n="102" break="no"/>tis et noxie curiositatis est huic scientie tribuo. Sed 
+      <lb ed="#P" n="103"/>illud tantummodo quo fides saluberrima qui ad 
+      ve<lb ed="#P" n="104" break="no"/>ram beatitudinem ducit nutritur defenditur et 
+      robo<lb ed="#P" n="105" break="no"/>ratur qua scientia non pollent plurimi fideles quanuis 
+      <lb ed="#P" n="106"/>polleant fide plurimum. Aliud est enim scire 
+      tantum<lb ed="#P" n="107" break="no"/>modo. quod homo credere debeat. Aliud autem scire quam 
+      <lb ed="#P" n="108"/>admodum hoc ipsum et piis opituletur et contra 
+      im<lb ed="#P" n="109" break="no"/>pios defendatur. Ex quibus patet vtilitas sacre 
+      scri<lb ed="#P" n="110" break="no"/>pture quam habent ex fine suo: vt scilicet fides 
+      salu<lb ed="#P" n="111" break="no"/>berrima nutriatur / defendatur et roboretur et 
+      tan<lb ed="#P" n="112" break="no"/>dem finaliter beatitudo que non nisi eterna est 
+      fel<lb ed="#P" n="113" break="no"/>citer attingatur 
+      <lb ed="#P" n="114"/>trprincipali 
+      </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e968">
+               <lb ed="#P" n="115"/>¶ Sequitur quartui vbi 
+      sacra<lb ed="#P" n="116" break="no"/>scriptura describitur tanquam illa que habet pre aliis 
+      <lb ed="#P" n="117"/>permanentie firmitatem ex causa materiali: quia ve  
+      <lb ed="#P" n="118"/>ritas. Est enim veritas mea totum quod hic dicitur 
+      <lb ed="#P" n="119"/>sine alicuius errore amissione: quia procedit imme 
+      <lb ed="#P" n="120"/>diate a diuina veritate: et ideo ista est veritas 
+      ad<lb ed="#P" n="121" break="no"/>mirabilis veritas predicabilis veritas 
+      ruminabi<lb ed="#P" n="122" break="no"/>lis veritas inuincibilis. Ista est illa veritas que est 
+      <lb ed="#P" n="123"/>singularis regularis veritas salutaris. Et veritas 
+      <lb ed="#P" n="124"/>aliarum exemplaris secundo Esdri octao. Ueri 
+      <lb ed="#P" n="125"/>tas manet et inualescit ineternum et viuit et 
+      obti<lb ed="#P" n="126" break="no"/>net in secula seculorum: vbi tangit quatuor quare 
+      per<lb ed="#P" n="127" break="no"/>manet ista scientia et veritas plusquam alie.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e999">
+      ¶ Primo 
+      <lb ed="#P" n="128"/>quia ipsa diuinis fundamentis collocatur. veritas in 
+      <lb ed="#P" n="129"/>quit manet: secundo quia diuinis incrementis augmentatur 
+      <lb ed="#P" n="130"/>et inualescit ineternum tertio quia diuinis argumen 
+      <!--15.xml-->
+       <pb ed="#P" n="2-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tis comprobatur: quia viuit: quarto quia in diuinis 
+      con<lb ed="#P" n="2" break="no"/>plementis accumulatur et obtinet in secula 
+      seculo<lb ed="#P" n="3" break="no"/>rum.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e1022">
+      ¶ De primo nota quod fundamenta eius in 
+      mol<lb ed="#P" n="4" break="no"/>tibus sanctis. Psal. 79. Fundamentum enim scripture 
+      sa<lb ed="#P" n="5" break="no"/>cre christus est petra solidissima supra quam fundata est 
+      <lb ed="#P" n="6"/>veritas scripture et super auctoritatem eius I ad corin. 3. 
+      <lb ed="#P" n="7"/>Fundamentum aliud nemo ponit praeter id quod positum 
+      <lb ed="#P" n="8"/>est dominus iesus christus et ideo veritas domini manet 
+      ineter<lb ed="#P" n="9" break="no"/>num. praes. 119. Ponam enim in fundamentis svon lapidem 
+      ar<lb ed="#P" n="10" break="no"/>gularem electum praeciosum omnis qui credit in me non confunde 
+      <lb ed="#P" n="11"/>ysa. 28.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e1042">
+      ¶ Secundo dico quod diuinis incrementis 
+      augmon<lb ed="#P" n="12" break="no"/>tatur inualescit ineternum non decidit in terram ista 
+      veritas<lb ed="#P" n="13" break="no"/>non quia tota vnum aut vnus apex non praeteribit a lege 
+      do<lb ed="#P" n="14" break="no"/>nec omnia fient. Istud est gramen synapis quod proiectum in 
+      <lb ed="#P" n="15"/>terram in tantum creuit quod super omnia olera aliarum scientiarum 
+      ap<lb ed="#P" n="16" break="no"/>paruit et in eo nidificauerunt aues celi maxine 
+      intelli<lb ed="#P" n="17" break="no"/>gentes et doctores qui quotidie crescebant et fructifica 
+      <lb ed="#P" n="18"/>bant in scientia dei. Propter quod et semen est verbum dei 
+      ma<lb ed="#P" n="19" break="no"/>thei. 13. quod attulit fructum aliud tricesimum aliud 
+      sexa<lb ed="#P" n="20" break="no"/>gesimum aliud centesimum. Unde et ipsa dicit de seipsa. 
+      <lb ed="#P" n="21"/>Gen. 3. Comparauit me dominus sorori mee et inualuit so 
+      <lb ed="#P" n="22"/>ror eius lippa oculis lya est mundana et terrena 
+      scien<lb ed="#P" n="23" break="no"/>tia et ista est Rachel pulcherrima et decora. Illa 
+      mun<lb ed="#P" n="24" break="no"/>dana licet plures filios et auditores habeat quam ista tamen 
+      <lb ed="#P" n="25"/>isti preponderant et praeualent secundum rei veritatem. Nam per filium 
+      <lb ed="#P" n="26"/>istius theologum bonum et deuotum filii alterius scientiae 
+      di<lb ed="#P" n="27" break="no"/>periculo liberantur sicut per Ioseph accrescentem 
+      fili<lb ed="#P" n="28" break="no"/>lve fuerunt liberati.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e1081">
+      ¶ Tertio dico quod diuinis 
+      argu<lb ed="#P" n="29" break="no"/>mentis vigoratur quia viuit non eii mortua sicut ille sed est 
+      <lb ed="#P" n="30"/>vitam habens et argumenta viuentia facit: quia ad hebreos 
+      <lb ed="#P" n="31"/>4. dicitur quod viuus est sermo dei et efficax et 
+      penetrabilior<lb ed="#P" n="32" break="no"/>omni gladio ancipiti pertingens vsque ad diuisionem anime et 
+      <lb ed="#P" n="33"/>compagum quoque et medullarum et non est aliqua 
+      creatu<lb ed="#P" n="34" break="no"/>ra inuisibilis in cospectu eius etc. Inquit enim christus. 
+      Ego<lb ed="#P" n="35" break="no"/>sum via veritas et vita. Ioan. 14. Uia sine deuio 
+      ve<lb ed="#P" n="36" break="no"/>ritas sine dubio vita sine tedio. Ego inquit viuo et 
+      <lb ed="#P" n="37"/>vos scolares mei viuetis. Qui me inuenerit inueniet 
+      <lb ed="#P" n="38"/>vitam et lignum vite his qui apprehenderunt eam. Prouen 
+      <lb ed="#P" n="39"/>3o. et hauriet salutem a domino.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e1107">
+      ¶ Quarto dico quod ipsa ergo 
+      <lb ed="#P" n="40"/>diuinis complementis cumulata quia obtinet in sclentia sclentio 
+      <lb ed="#P" n="41"/>rum. Ista veritas sic fuit cumulata et consummata quod si 
+      <lb ed="#P" n="42"/>bi subiecit totum mundum imparatores reges principes 
+      <lb ed="#P" n="43"/>duces magistratus et tyramnos quia superborum et 
+      sublimis<lb ed="#P" n="44" break="no"/>colla propria vertute calcauit. Ecclesiastici. 24. Et 
+      in<lb ed="#P" n="45" break="no"/>omni gente primatum tenuit. Unde primo machabeorum dicitur 
+      <lb ed="#P" n="46"/>quod obtinuit regiones gentium et tyramnos et facti sunt il 
+      <lb ed="#P" n="47"/>li in tributum. In tributum facti sunt illi regiones 
+      gen<lb ed="#P" n="48" break="no"/>tium et tyramni quando ad fidem christi conuersi fidei iugo dulcis 
+      <lb ed="#P" n="49"/>magistri Iesu christi sunt subiugati ita vt soli regi et 
+      <lb ed="#P" n="50"/>principi et doctori huius scripture regi seculorum immor 
+      <lb ed="#P" n="51"/>tali inuisibili soli deo esset honor et gloria in sclentia sclenti 
+      <lb ed="#P" n="52"/>rumamen I ad thimo.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e1138">
+      ¶ Secundo ergo excellit alias 
+      scien<lb ed="#P" n="53" break="no"/>tias in firmitate permanentie nec mirum quod ipsa est solida 
+      <lb ed="#P" n="54"/>ta propit etarum oraculis martirum propugnaculis et omnium 
+      <lb ed="#P" n="55"/>iustorum habitaculis et receptaculis. Propter quod 
+      de<lb ed="#P" n="56" break="no"/>ipsa dicit maximus contra curiosos et dubios 
+      perseruta<lb ed="#P" n="57" break="no"/>tores istius veritatis. Nouerimus itaque: quia non sine 
+      <lb ed="#P" n="58"/>magno discrimine de religionis veritate 
+      disputa<lb ed="#P" n="59" break="no"/>mut quam talltorum sanguine confirmatam videmus 
+      ma<lb ed="#P" n="60" break="no"/>gni periculi res est si post prophetarum oracula post 
+      <lb ed="#P" n="61"/>apostolorum testimonia post martirum vulnera veteren 
+      <lb ed="#P" n="62"/>fidem quasi nouellam discutere presumas cum post tam 
+      <lb ed="#P" n="63"/>manifestos duces in errore permaneas et post 
+      mo<lb ed="#P" n="64" break="no"/>rientium sudores ociosi disputatione contendas.
+    </p>
+            <p xml:id="qrdBaS-a1e3xx-d1e1167">
+      ¶ 
+      Ue<lb ed="#P" n="65" break="no"/>ritas ergo est ista doctrina sacra illa inquam de qua di¬ 
+      <!--15.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>citur. 3. Esdre. 4 quod forte vinum corporalis 
+      vinolem<lb ed="#P" n="67" break="no"/>tie fortior est rex mundialis excellentie fortiores sunt 
+      <lb ed="#P" n="68"/>mulieres animalis immundicie sed super omnia 
+      vin<lb ed="#P" n="69" break="no"/>cit veritas divine sapientie scientialis theologie: 
+      <lb ed="#P" n="70"/>ergo carissimi persistamus in ista veritate vt 
+      dica<lb ed="#P" n="71" break="no"/>tur de quolibet nostrum veritas mea et misericordia 
+      <lb ed="#P" n="72"/>mea cum ipso et in nomine meo exaltabitur cornu ei 
+      <lb ed="#P" n="73"/>Psal. 88. Quomodo exaltabitur sicut dicitur 
+      ali<lb ed="#P" n="74" break="no"/>bi. Cornu eius exaltabitur in gloria. Psal. cxi. Ad 
+      <lb ed="#P" n="75"/>quam nos perducat dominus iesus christus doctor 
+      <lb ed="#P" n="76"/>veritatis qui cum patre et spiritu sancto viuit et 
+      re<lb ed="#P" n="77" break="no"/>gnat in secula seculorum. Amen. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

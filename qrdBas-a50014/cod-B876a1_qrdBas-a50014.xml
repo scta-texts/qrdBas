@@ -1,0 +1,567 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="78-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a50014"><!-- l1d6q4 -->
+            <head xml:id="qrdBas-a50014-Hd1e99">Quaestio 4</head>
+            <p xml:id="qrdBas-a50014-d1e101">
+               <lb ed="#P" n="68"/>¶ Distinctionis Sexte
+      <lb ed="#P" n="69"/>Questio quarta. 
+  </p>
+            <p xml:id="qrdBas-a50014-d1e108">
+               <lb ed="#P" n="70"/>QUarto quaero utrum 
+      <lb ed="#P" n="71"/>pater genuit filium volens. 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e115">
+               <lb ed="#P" n="72"/>¶ Uidetur quod non: quia 
+      intelli<lb ed="#P" n="73" break="no"/>gere prius est quam velle et 
+      intel<lb ed="#P" n="74" break="no"/>lectus quam voluntas. Sed 
+      pa<lb ed="#P" n="75" break="no"/>ter producit filium per 
+      intelle<lb ed="#P" n="76" break="no"/>ctum vel intelligere: ergo 
+      pro<lb ed="#P" n="77" break="no"/>ducit filium ante velle / ergo 
+      <lb ed="#P" n="78"/>non producit filium volens.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e133">
+      ¶ Secundo sic. Si 
+      produ<lb ed="#P" n="79" break="no"/>cit filium volens: ergo producit filium voluntate: quia 
+      <lb ed="#P" n="80"/>non est volens nisi voluntate: sed hoc est falsum. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e141">
+               <lb ed="#P" n="81"/>¶ Item Augustinus. 19 de trinitate approbat 
+      re<lb ed="#P" n="82" break="no"/>ponsionem illius qui heretico querenti respondit 
+      <lb ed="#P" n="83"/>querendo consimiliter ab eo. An deus pater sit deus 
+      <lb ed="#P" n="84"/>volens vel nolens / sicut ille querebat. An pater 
+      ge<lb ed="#P" n="85" break="no"/>neret filium nolens vel volens. Et si respondisset quod 
+      <lb ed="#P" n="86"/>nolens sequitur quod in deo est tristicia et miseria: quia 
+      <lb ed="#P" n="87"/>tristicia est de hiis que nobis nolentibus accidunt 
+      <lb ed="#P" n="88"/>Si respondisset quod volens sequeretur quod pater 
+      ge<lb ed="#P" n="89" break="no"/>nerat voluntate / sicut voluit concludere contra 
+      <lb ed="#P" n="90"/>Henricum quod pater esset deus voluntate vel 
+      econ<lb ed="#P" n="91" break="no"/>uerso. ergo et cetera. 
+      <lb ed="#P" n="92"/>deus pater generat filium aut 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e170">
+               <lb ed="#P" n="93"/>¶ Contra nolens aut volens. Si 
+      volensha<lb ed="#P" n="94" break="no"/>beo propositum. Si nolens. ergo est miser quod est falsum 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e177">
+               <lb ed="#P" n="95"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e182">
+               <lb ed="#P" n="96"/>¶ Primo ponam vnam distinctionem. Et illud quod 
+      <lb ed="#P" n="97"/>dicunt omnes de quatione quantum ad vnum menbrum in diuinis. 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e189">
+               <lb ed="#P" n="98"/>¶ Secundo ponam vnam opinionem de questione 
+      <lb ed="#P" n="99"/>et arguam contra eam.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e196">
+      ¶ Tertio ponam aliam et 
+      ar<lb ed="#P" n="100" break="no"/>guam contra eam. Et respondebo ad questionem et 
+      <lb ed="#P" n="101"/>ad motiua opinionum.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e204">
+      ¶ Quarto ad rationes 
+      <lb ed="#P" n="102"/>principales. 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e209">
+               <lb ed="#P" n="103"/>¶ Quantum ad primum 
+      di<lb ed="#P" n="104" break="no"/>co quod patrem volentem gignere filium potest 
+      vne<lb ed="#P" n="105" break="no"/>modo intelligi de actu voluntatis antecedente de 
+      <lb ed="#P" n="106"/>nouo: ita quod pater aliquando non voluit gignere 
+      mo<lb ed="#P" n="107" break="no"/>do vult gignere habendo nouam volitionem de 
+      ge<lb ed="#P" n="108" break="no"/>uerando. Secundo potest intelligi de actu 
+      anteceden<lb ed="#P" n="109" break="no"/>te / ita quod volitio patris praecedit generationem filii / 
+      <lb ed="#P" n="110"/>non solum volitio essentie patris: sed volitio filii et 
+      <lb ed="#P" n="111"/>generationis eius praecedat dico non re vel natura sed 
+      <lb ed="#P" n="112"/>origine. Tertio potest intelligi quod pater gignat 
+      fi<lb ed="#P" n="113" break="no"/>lium volens volitione concomitante ita quod simul omnio 
+      <lb ed="#P" n="114"/>sint volitio generationis et generatio filii. 
+      Quar<lb ed="#P" n="115" break="no"/>to quod volitione subsequente et quasi approbante 
+      ge<lb ed="#P" n="116" break="no"/>nerationem et complacente in ipsam ita quod volitio 
+      fi<lb ed="#P" n="117" break="no"/>lii et generationis sequeretur secundum rationem et 
+      mo<lb ed="#P" n="118" break="no"/>dum intelligendi. hec de primo.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e246">
+      ¶ Quantum ad 
+      se<lb ed="#P" n="119" break="no"/>cundum dico quod omnes conueniunt cum Augustino 
+      con<lb ed="#P" n="120" break="no"/>tra Eunomium. 19 de trinitate quod pater non generat 
+      <lb ed="#P" n="121"/>filium voluntate sibi de nouo antecedente qua de non 
+      <lb ed="#P" n="122"/>volentate fiat volens. Tum quia deus pater mutare 
+      <lb ed="#P" n="123"/>tur et per consequens non esset deus. Tum quia etiam deus esset nouus 
+      <lb ed="#P" n="124"/>et per consequens creatura: ideo etc. hec patent 
+      <lb ed="#P" n="125"/>ex dictis Ambrosii de spiritus sancto. Si deus incipe¬ 
+      <!--167.xml-->
+       <pb ed="#P" n="78-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ret esse pater mutaretur quod est impossibile 
+      <lb ed="#P" n="2"/>dum prin¬ 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e275">
+               <lb ed="#P" n="3"/>¶ Quantum ad tecuti cipale 
+      dico<lb ed="#P" n="4" break="no"/>quod est vna opinio quod deus pater non generat filium 
+      <lb ed="#P" n="5"/>volens volitione antecedente gignitionem verbi: ita 
+      <lb ed="#P" n="6"/>quod breuiter nulla volitio praecedit in patre aliquando 
+      gi<lb ed="#P" n="7" break="no"/>gnitionem verbi: sed magis sequitur secundum 
+      ori<lb ed="#P" n="8" break="no"/>ginem vel rationem et non modum intelligendi. Hoc pro 
+      <lb ed="#P" n="9"/>bat sic / intelligere perfectum patris praecedit suum 
+      vel<lb ed="#P" n="10" break="no"/>le / sed intelligere perfectum non est sine productione 
+      <lb ed="#P" n="11"/>verbi quia verbum est terminus et perfectio intellectua 
+      <lb ed="#P" n="12"/>lis operationis. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e299">
+      ¶ Tertio sic. Dicere et in 
+      <lb ed="#P" n="13"/>telligere sunt idem / sed intelligere precedit omnem 
+      <lb ed="#P" n="14"/>velle ergo et dicere. Dicere autem cum sit actus pro 
+      <lb ed="#P" n="15"/>ductiuus verbi non est sine ipso. ergo etc. 
+      Confirma<lb ed="#P" n="16" break="no"/>tur ista positio quia pater prius est pater quam sit volens 
+      <lb ed="#P" n="17"/>quia prius est patrem esse quam velle: sed pater est pater 
+      <lb ed="#P" n="18"/>generatione actiua que est idem penitus cum pater: 
+      <lb ed="#P" n="19"/>nitate et dicere quo dicit filium et habet simul filium. 
+      <lb ed="#P" n="20"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e319">
+      ¶ Dicunt ergo isti quod volens non generat 
+      fi<lb ed="#P" n="21" break="no"/>ium non volitione subsequente et complacente et appro 
+      <lb ed="#P" n="22"/>bante et nulla volitione cuiuscumque obiecti neque 
+      essen<lb ed="#P" n="23" break="no"/>tie nec filii antecedente 
+      <lb ed="#P" n="24"/>istam oainionem quantum ad tria quae 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e331">
+               <lb ed="#P" n="25"/>¶ Contra ponit. Primum est quod 
+      intellige<lb ed="#P" n="26" break="no"/>re non est perfectum nec per verbum vel sine verbo. 
+      <lb ed="#P" n="27"/>Secundum est quod intelligere et dicere sunt idem. 
+      Ter<lb ed="#P" n="28" break="no"/>tium est quod dicere praecedit omne velle.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e342">
+      ¶ Contra 
+      pri<lb ed="#P" n="29" break="no"/>mum primo sic. Pater vt est prior origine filio est 
+      <lb ed="#P" n="30"/>simpliciter perfectus: ergo habet formaliter omnem 
+      per<lb ed="#P" n="31" break="no"/>fectionm simpliciter vt est prior filio origine: sed in 
+      <lb ed="#P" n="32"/>telligere diuinam essentiam est perfectionis simpliciter/ 
+      <lb ed="#P" n="33"/>quia illa intellectione pater est beatus formaliter 
+      <lb ed="#P" n="34"/>vt patet. Beatitudo aut diuina est perfectior 
+      sim<lb ed="#P" n="35" break="no"/>pliciter: ergo pater vt prior filio perfecte intelligit 
+      <lb ed="#P" n="36"/>suam essentiam vt prior filio / ergo suum 
+      intellige<lb ed="#P" n="37" break="no"/>re non perficitur per verbum.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e364">
+      ¶ Secundo sic. Si 
+      in<lb ed="#P" n="38" break="no"/>t elligere non sit perfectum nec per verbum tunc pater 
+      <lb ed="#P" n="39"/>et filius sunt aliquid magis quam pater et aliquid 
+      perfe<lb ed="#P" n="40" break="no"/>ctius hoc est falsum igitur: et plane contra Augustinum 
+      <lb ed="#P" n="41"/>septimo de trinitate.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e375">
+      ¶ Tertio sic. Intelligere 
+      pa<lb ed="#P" n="42" break="no"/>tris et esse idem sunt ergo si intelligere patris 
+      perfici<lb ed="#P" n="43" break="no"/>tur verbo sequitur etiam quod esse patris / et ita pater est 
+      <lb ed="#P" n="44"/>verbo et sapit verbo sapientia genita contra August. 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e384">
+               <lb ed="#P" n="45"/>¶ Contra secundum arguo sic. Perfectio simpliciter et non 
+      perfe<lb ed="#P" n="46" break="no"/>ctio simpliciter non sunt idem totaliter sed intelligere 
+      <lb ed="#P" n="47"/>est perfectio simpliciter non autem dicere quia tunc 
+      ne<lb ed="#P" n="48" break="no"/>cessario conueniret cuilibet persone / cum quelibet sit 
+      <lb ed="#P" n="49"/>perfecta simpliciter. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e397">
+      ¶ Secundo sic. Essentiale et 
+      <lb ed="#P" n="50"/>inconicabile notionabile et inconicabile non sunt idem to 
+      <lb ed="#P" n="51"/>taliter sed intelligere est essentiale et communicabile. 
+      di<lb ed="#P" n="52" break="no"/>cere autem vel generare est notionale et 
+      incommuni<lb ed="#P" n="53" break="no"/>cabile. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e409">
+      ¶ Tertio sic. Actus non 
+      producti<lb ed="#P" n="54" break="no"/>uus alterius termini a se et actus productiuus 
+      ter<lb ed="#P" n="55" break="no"/>mini alterius a se non sunt idem: intelligere est actus 
+      <lb ed="#P" n="56"/>non productiuus: quia conuenit cuilibet persone 
+      formali<lb ed="#P" n="57" break="no"/>ter: non autem producere verbum sed est magis 
+      ter<lb ed="#P" n="58" break="no"/>minus vel quasi vt patet nono methaphisice et 
+      pri<lb ed="#P" n="59" break="no"/>mo ethicorum. Dicere autem vel generare est actus 
+      <lb ed="#P" n="60"/>productiuus termini alterius a se puta verbi vel 
+      fi<lb ed="#P" n="61" break="no"/>lii ergo etc.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e429">
+      ¶ Dicis quod immo intelligere et dicere sunt 
+      <lb ed="#P" n="62"/>idem actus quia sunt eiusdem potentie: quia potentie 
+      <lb ed="#P" n="63"/>distinguntur per actus. Dico quod et si forte sit 
+      impossi<lb ed="#P" n="64" break="no"/>bile eandem potentiam habere duos actus sibi ade 
+      <lb ed="#P" n="65"/>quatos eque primo et non subordinatos tamen bene¬ 
+      <!--167.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>potest habere duos subordinatos: sicut 
+      dispositio<lb ed="#P" n="67" break="no"/>et actus ad eandem potentiam pertinent. Sic est in 
+      pro<lb ed="#P" n="68" break="no"/>posito de intelligere quod est dispositio praecedens 
+      ne<lb ed="#P" n="69" break="no"/>tessario: et de dicere qui est actus productiuus et 
+      quili<lb ed="#P" n="70" break="no"/>bet adequatur intellectui secundum rationem propriam. Similiter 
+      <lb ed="#P" n="71"/>etiam potest dici quod eadem potentia non potest 
+      ha<lb ed="#P" n="72" break="no"/>bere simul duos actus adequatos operatiuos 
+      am<lb ed="#P" n="73" break="no"/>pos vel productiuos circa idem obiectum: sed 
+      bene<lb ed="#P" n="74" break="no"/>quorum vnus sit operatiuus et alius productiuus. 
+      <lb ed="#P" n="75"/>In nobis etiam apparet quod in eadem potentia 
+      intel<lb ed="#P" n="76" break="no"/>lectus habet istos duos actus scilicet dicere vel 
+      pro<lb ed="#P" n="77" break="no"/>ducere intellectionem: et ipsam intellectionem 
+      intelli<lb ed="#P" n="78" break="no"/>gere: tamen multum differunt ab intellectu diuino. Tum 
+      <lb ed="#P" n="79"/>quia dicere est nobis actus de genere actionis: non 
+      <lb ed="#P" n="80"/>autem in deo nec quasi de genere actionis: quia non 
+      <lb ed="#P" n="81"/>est de subiecto vel quasi subiecto. Secundo quia 
+      dice<lb ed="#P" n="82" break="no"/>re et intelligere sunt actus essentialiter distincti quia 
+      <lb ed="#P" n="83"/>sunt indistinctis praedicamentis non solum formaliter sicut 
+      <lb ed="#P" n="84"/>in diuinis sed etiam realiter. Tertio quia omne 
+      intelligere<lb ed="#P" n="85" break="no"/>actuale in nobis est productum realiter: et per consequens 
+      <lb ed="#P" n="86"/>verum: et ideo quodlibet intelligere in nobis 
+      praece<lb ed="#P" n="87" break="no"/>dit aliquis actus productiuus qui est dicere in deo non 
+      <lb ed="#P" n="88"/>autem quelibet intellectio est producta: quia 
+      intellige<lb ed="#P" n="89" break="no"/>re essentiale non est productum: sed solum 
+      intellectio<lb ed="#P" n="90" break="no"/>subsistens suppositaliter cuiusmodi est verbum. 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e499">
+               <lb ed="#P" n="91"/>¶ Contra tertium dictum opinionis arguo 
+      primo<lb ed="#P" n="92" break="no"/>sic. Pater prehabet omnem perfectionem simpliciter 
+      <lb ed="#P" n="93"/>vt prior origine filio sed volitio diuine essentie est per 
+      <lb ed="#P" n="94"/>fectio simpliciter quia est beatitudo formalis essentia 
+      <lb ed="#P" n="95"/>liter. ergo etc. Non ergo dicere verbum vel 
+      genera<lb ed="#P" n="96" break="no"/>re praecedit omne velle.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e515">
+      ¶ Secundo sic. Intellectus 
+      per<lb ed="#P" n="97" break="no"/>fectus simpliciter potest intelligere perfecte 
+      obie<lb ed="#P" n="98" break="no"/>ctum sibi presens pro quocumque signo est sibi praesens 
+      <lb ed="#P" n="99"/>et similiter voluntas velle: sed pro illo priori origi 
+      <lb ed="#P" n="100"/>nis pro quo pater est prior filio intellectus patris 
+      <lb ed="#P" n="101"/>est perfectus simpliciter / alias esset imperfectus et 
+      per<lb ed="#P" n="102" break="no"/>fectibilis quod est absurdum et habet obiectum 
+      sum<lb ed="#P" n="103" break="no"/>ne presens / et similiter voluntas velle immo 
+      intelli<lb ed="#P" n="104" break="no"/>git et vult: ergo aliquid velle precedit dicere 
+      puta<lb ed="#P" n="105" break="no"/>velle diuine essentie saltem in patre.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e537">
+      ¶ Ex hiis 
+      ap<lb ed="#P" n="106" break="no"/>paret quod motiua aliorum accipiunt falsa simpliciter. 
+      <lb ed="#P" n="107"/>Intelligere enim non est actus productiuus sicut 
+      super<lb ed="#P" n="108" break="no"/>ponit prima et secunda: vt apparet ex predictis 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e546">
+               <lb ed="#P" n="109"/>¶ Ad confirmationem suppositam dici potest quod 
+      pa<lb ed="#P" n="110" break="no"/>ter est deus et est pater et non conuenit sibi quod sit 
+      in<lb ed="#P" n="111" break="no"/>telligens vel volens inquantum pater / sed inquantum 
+      <lb ed="#P" n="112"/>deus. et quia prius est esse deum quam patrem. Paten 
+      <lb ed="#P" n="113"/>prius est volens diuinam essentiam quam sit pater. Ali 
+      <lb ed="#P" n="114"/>ter diceretur quod pater licet sit prius quam volens tamen 
+      <lb ed="#P" n="115"/>bro illo priori non cohabet filium sed est prior filio 
+      <lb ed="#P" n="116"/>origine saltem teneo me cum prima solutione. 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e567">
+               <lb ed="#P" n="117"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="118" break="no"/>culum dico quod est alia opinio quod pater generat filium 
+      <lb ed="#P" n="119"/>volens volitione antecedente secundum originem et etiam 
+      <lb ed="#P" n="120"/>modum intelligendi. Uolitione dico prius origine 
+      <lb ed="#P" n="121"/>et ratione vult filium et generationem filii quam 
+      gene<lb ed="#P" n="122" break="no"/>ret filium. Hoc probant dupliciter. Primo sic. 
+      quic<lb ed="#P" n="123" break="no"/>quid conicatur filio habetur a patre. Patet: sed 
+      voli<lb ed="#P" n="124" break="no"/>tio et intellectio verbi conicatur ipsi a patre: quia alias 
+      <lb ed="#P" n="125"/>non haberet ista: quia nichil habet quod non nascendo 
+      ac<lb ed="#P" n="126" break="no"/>ceperit et quod non fuerit sibi communicatum excepta 
+      re<lb ed="#P" n="127" break="no"/>latione qua est filius que non est sibi communicata in 
+      <lb ed="#P" n="128"/>communicabilis est. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e596">
+      ¶ Secundo sic. Patet 
+      <lb ed="#P" n="129"/>prehabet omnem perfectionem simpliciter a se: sed in¬ 
+      <!--168.xml-->
+       <pb ed="#P" n="79-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tellectio verbi et volitio precedunt verbum in patre 
+      <lb ed="#P" n="2"/>et productionem 
+      verbi<lb ed="#P" n="3" break="no"/>istam opinionem quam non tenec¬ 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e614">
+               <lb ed="#P" n="4"/>¶ Conte i licet sit subtilis et pulchra: arguo 
+      <lb ed="#P" n="5"/>primo sic. Illud quod est simpliciter necesse esse: et 
+      <lb ed="#P" n="6"/>non habet esse primo nisi per productionem realem non po 
+      <lb ed="#P" n="7"/>test esse intellectum vel volitum ante suam 
+      produ<lb ed="#P" n="8" break="no"/>ctionem: quia da oppositum quod preintelligitur ante suam 
+      <lb ed="#P" n="9"/>productionem. Quero a te: an in illo priori in quo 
+      <lb ed="#P" n="10"/>preintelligitur habet esse reale si habet esse et non 
+      per<lb ed="#P" n="11" break="no"/>productionem: ita est antequam producatur quod est contra 
+      <lb ed="#P" n="12"/>dictio. Si dicas quod in illo priori habet esse tantum 
+      <lb ed="#P" n="13"/>intelligibile. Tunc sic. omne quod ante suum esse 
+      rea<lb ed="#P" n="14" break="no"/>le habet esse intelligibile tantum habet esse 
+      diminu<lb ed="#P" n="15" break="no"/>tum: quia esse intellectum tantum est esse diminutum et per 
+      <lb ed="#P" n="16"/>consequens tale non est simpliciter necesse esse: et per 
+      con<lb ed="#P" n="17" break="no"/>sens maior patet. Et confirmatur quia sicut deo 
+      ex<lb ed="#P" n="18" break="no"/>hoc quod est necesse esse: repugnat prius intelligi quam esse 
+      <lb ed="#P" n="19"/>ita quod cuilibet divine productioni et producto / cum non 
+      <lb ed="#P" n="20"/>sit minus necesse esse immo idem necesse esse quod deus 
+      li<lb ed="#P" n="21" break="no"/>cet non omnimode idem Sed verbum est 
+      simplici<lb ed="#P" n="22" break="no"/>ter necesse esse nec habet esse simpliciter nisi per pro 
+      <lb ed="#P" n="23"/>ductionem ergo impossibile est quod ante sui 
+      produ<lb ed="#P" n="24" break="no"/>ctionem sit cognitum et volitum:
+    </p>
+            <p xml:id="qrdBas-a50014-d1e662">
+      ¶ Hec ratio 
+      con<lb ed="#P" n="25" break="no"/>firmatur quia nullum magis necesse vel necessarium 
+      <lb ed="#P" n="26"/>seu inquantum magis necessarium presupponit minus 
+      ne<lb ed="#P" n="27" break="no"/>cessarium vel etiam seipsum inquantum minus 
+      necessa<lb ed="#P" n="28" break="no"/>rium vt patet: sed verbum in diuinis vt est 
+      termin<lb ed="#P" n="29" break="no"/>realis productionis est magis necessarium quam vt 
+      co<lb ed="#P" n="30" break="no"/>gnitum a patre vel volitum vt patet: quia primo 
+      mo<lb ed="#P" n="31" break="no"/>do est ens simpliciter necesse esse sicut pater. 
+      Secun<lb ed="#P" n="32" break="no"/>do modo est ens solum rationis et non simpliciter 
+      no<lb ed="#P" n="33" break="no"/>cesse esse ergo ipsum vt productum non presupponit se 
+      <lb ed="#P" n="34"/>ipsum vt cognitum vel volitum.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e686">
+      ¶ Secundo sic 
+      si<lb ed="#P" n="35" break="no"/>verbum cognoscitur a patre ante sui 
+      productioni<lb ed="#P" n="36" break="no"/>ergo verbum est in scientia patris ante sui 
+      productio<lb ed="#P" n="37" break="no"/>nem. Tunc sic. Omne productum vt est in scientia pro 
+      <lb ed="#P" n="38"/>ducentis est ratio producendi seipsum in actuali 
+      exi<lb ed="#P" n="39" break="no"/>stentia sicut domus extra fit a domo in anima. 
+      Pro<lb ed="#P" n="40" break="no"/>pter quod etiam dicit Augustinus. 15. de trinitat 
+      <lb ed="#P" n="41"/>quod verbum de tota scientia nascitur et de omnino quod 
+      <lb ed="#P" n="42"/>est in scientia patris: sed verbum non est ratio 
+      produ<lb ed="#P" n="43" break="no"/>scendi seipsum nec nascitur de seipso nec de noticia 
+      <lb ed="#P" n="44"/>sui: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e710">
+      ¶ Tertio sic. Omne productum 
+      precc<lb ed="#P" n="45" break="no"/>gnitum habet rationem artificiati et exemplati et 
+      <lb ed="#P" n="46"/>refertur realiter ad noticiam producentis. Ptet 
+      de<lb ed="#P" n="47" break="no"/>creatura respectu scientie dei. Est enim productum 
+      <lb ed="#P" n="48"/>secundum exemplar obiectiue relucens in scientia 
+      pro<lb ed="#P" n="49" break="no"/>ducentis hoc patet septimo methaphisice. vbi dici 
+      <lb ed="#P" n="50"/>tur quod ab arte fiunt quorum species est in anima. 
+      Di<lb ed="#P" n="51" break="no"/>co autem speciem quodcumque erat: esse igitur ab 
+      ar<lb ed="#P" n="52" break="no"/>te fit sicut exemplatum et ydeatum cuius quantitas pre 
+      <lb ed="#P" n="53"/>est in anima secundum esse cognitum. Sed verbum non est 
+      <lb ed="#P" n="54"/>exemplatum nec ydeatum nec refertur realiter ad 
+      <lb ed="#P" n="55"/>scientiam patris: licet ad patrem: nec realiter 
+      dist<lb ed="#P" n="56" break="no"/>guitur ab ea quia tunc esset creatura: ergo verbum non est 
+      <lb ed="#P" n="57"/>precognitum sue productoni nec per consequens 
+      pre<lb ed="#P" n="58" break="no"/>uolitum. Propter tertiam rationem videtur etiam quod 
+      <lb ed="#P" n="59"/>creatura ante productionem verbi vel spiritus sancti non 
+      <lb ed="#P" n="60"/>est precognita a patre: quia tunc verbum dependeret 
+      <lb ed="#P" n="61"/>a creatura in esse intelligibili: et per consequens non est 
+      <lb ed="#P" n="62"/>necesse esse nec deus sicut deducit Anselmus.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e753">
+      ¶ 
+      Quan<lb ed="#P" n="63" break="no"/>to sic. Productio simpliciter est prior productione se 
+      <lb ed="#P" n="64"/>cundum quid: ergo prima productio simpliciter: est 
+      prio<lb ed="#P" n="65" break="no"/>quacumque productione secundum quid: sed productio¬ 
+      <!--168.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>realis verbi est prima productio simpliciter ergo ergo 
+      <lb ed="#P" n="67"/>prior productione eiusdem verbi secundum quid 
+      puta<lb ed="#P" n="68" break="no"/>in esse intellecto vel volito ergo prius producitur 
+      rea<lb ed="#P" n="69" break="no"/>liter quam intelligatur.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e775">
+      ¶ Quinto sic. Relatiuum 
+      ali<lb ed="#P" n="70" break="no"/>quod reale vel realiter prius respicit suum 
+      correla<lb ed="#P" n="71" break="no"/>tiuum in esse reali quam quocumque alio modo: sed pater est 
+      <lb ed="#P" n="72"/>relatiuum realiter a filio ergo prius respicit suum 
+      <lb ed="#P" n="73"/>correlatiuum vt productum et existentem realiter quam vt 
+      <lb ed="#P" n="74"/>intellectum et volitum.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e788">
+      ¶ Adduntur hic due 
+      ratio<lb ed="#P" n="75" break="no"/>nes de quibus minus curo / quia si filius prius est 
+      <lb ed="#P" n="76"/>volitus a patre quam productus et per consequens prius 
+      <lb ed="#P" n="77"/>cognitus / cum omnis noticia patris sit intuitiua: quia 
+      <lb ed="#P" n="78"/>perfectissima: et noticia diuina intuitiua de 
+      intrin<lb ed="#P" n="79" break="no"/>secis deo / non est nisi presentis in se sequitur quod 
+      fili<lb ed="#P" n="80" break="no"/>sit prius in re quam productus quod est falsum.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e804">
+      ¶ 
+      Secun<lb ed="#P" n="81" break="no"/>da ratio quia nullum verbum in nobis precedit actum 
+      <lb ed="#P" n="82"/>voluntatis respectu productionis illius verbi. 
+      Pti<lb ed="#P" n="83" break="no"/>quia tunc cum omnis intellectio in nobis esset in 
+      po<lb ed="#P" n="84" break="no"/>testate nostra contra Augustinum tertio de libero 
+      <lb ed="#P" n="85"/>arbitrio: immo non oportet in diuinis quod ipsum dicere 
+      <lb ed="#P" n="86"/>vel verbum precedatur ab actu volendi cadente sus 
+      <lb ed="#P" n="87"/>per dicere vel verbum: non minus enim immediate 
+      po<lb ed="#P" n="88" break="no"/>test sequi intellectum diuinum cui est 
+      consubstantia<lb ed="#P" n="89" break="no"/>liter idem quam verbum nostrum cui est accidentaliter idem 
+      <lb ed="#P" n="90"/>videtur dicendum quod filius non 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e828">
+               <lb ed="#P" n="91"/>¶ Sic ergo est prius volitus nec cognit 
+      <lb ed="#P" n="92"/>a patre quam productus nec etiam spiritus sanctus a patre et 
+      <lb ed="#P" n="93"/>filio per easdem rationes. ita quod pater non generat 
+      fi<lb ed="#P" n="94" break="no"/>lium volens volitionem cadentem super filium praeuolitum 
+      <lb ed="#P" n="95"/>et antecedente licet bene volens essentiam suam 
+      volu<lb ed="#P" n="96" break="no"/>tione anteecdente.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e844">
+      ¶ Secundo dico quod bene generat 
+      <lb ed="#P" n="97"/>filium volens volitione communicante generationem 
+      <lb ed="#P" n="98"/>et genitum: et complacente in generante et genito: quia 
+      <lb ed="#P" n="99"/>simul per omnem modum generat et habet filium: et vult 
+      <lb ed="#P" n="100"/>vel diligit generare filium. Non video quod 
+      expecter<lb ed="#P" n="101" break="no"/>amplius quia ex tunc habet obiectum praesens 
+      secun<lb ed="#P" n="102" break="no"/>darium et suus intellectus est perfectus. Unde non 
+      <lb ed="#P" n="103"/>video consequenter quod generet filium voluntate 
+      sub<lb ed="#P" n="104" break="no"/>sequente / qua prius generet filium / et postea velit hoc 
+      <lb ed="#P" n="105"/>et placeat sibi sed simul sunt ibi omnia ista nisi 
+      for<lb ed="#P" n="106" break="no"/>te alique rationes premisse concludant oppositum 
+      <lb ed="#P" n="107"/>sicut videtur. Hec ad questionem. 
+      <lb ed="#P" n="108"/>vltime opinionis: quia moti¬ 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e874">
+               <lb ed="#P" n="109"/>¶ Ad motiua ua prime sunt nulla vt 
+      pa<lb ed="#P" n="110" break="no"/>tuit supra. Dico ad primum quod forma arguendi non 
+      <lb ed="#P" n="111"/>valet. Et similiter arguam tibi quicquid pater 
+      com<lb ed="#P" n="112" break="no"/>municat filio prius habet esse / sed communicatur filio 
+      <lb ed="#P" n="113"/>creationem lapidis: ergo praehabet esse ergo prius creat 
+      <lb ed="#P" n="114"/>quam filius producatur vel quod producant verbum ergo hoc 
+      <lb ed="#P" n="115"/>est falsum. Similiter de spiratione actiua que 
+      con<lb ed="#P" n="116" break="no"/>municatur filio non tamen praehabetur relatio ante 
+      fi<lb ed="#P" n="117" break="no"/>liationem vel generationem: nec sequitur ex hoc quod 
+      pa<lb ed="#P" n="118" break="no"/>ter acquirat eam per generationem filii vel ex 
+      filio<lb ed="#P" n="119" break="no"/>Et ideo sicut dicunt doctores communiter ad illam 
+      <lb ed="#P" n="120"/>questionem. Utrum pater prius spiret quam filius / quod 
+      con<lb ed="#P" n="121" break="no"/>parando actionem spiratiuuam ad terminum vt sid 
+      <lb ed="#P" n="122"/>non prius vel posterius est ab vna persona quam ab alia 
+      <lb ed="#P" n="123"/>Sed comparando ipsam spirationem actiuam ad sup 
+      <lb ed="#P" n="124"/>posita spirantia: prius est a supposito patris: vel prius 
+      <lb ed="#P" n="125"/>conuenit patri quam filio: pater eam habet a se filius a 
+      <lb ed="#P" n="126"/>patre quia hoc est suppositum habere ad prius 
+      or<lb ed="#P" n="127" break="no"/>gine quia sic ab ipso aliud suppositum habet illud / non 
+      <lb ed="#P" n="128"/>sic quod vnum suppositum habeat et aliud non: sed sic 
+      <lb ed="#P" n="129"/>quod pro illo signo pro quo supposita habent vnum 
+      <lb ed="#P" n="130"/>habet sic quod aliud ab ipso. Et simliter de actu cream¬ 
+      <!--169.xml-->
+       <pb ed="#P" n="79-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>di / comparando enim ipsum ad terminum productum ille actus 
+      <lb ed="#P" n="2"/>non prius est ab vno supposito diuino quam ab alio. 
+      Con<lb ed="#P" n="3" break="no"/>parando tamen ipsum ad diuina supposita prius est a 
+      <lb ed="#P" n="4"/>patre vel prius conuenit patri quam filio et vtrique quam 
+      <lb ed="#P" n="5"/>spiritui sancto quia patri sic conuenit quod filio conuenit 
+      <lb ed="#P" n="6"/>a patre et sic vtrique quod spiritui sancto ab vtroque 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e944">
+               <lb ed="#P" n="7"/>¶ Ad propositum dico quod intellectio verbi vel 
+      voli<lb ed="#P" n="8" break="no"/>tio comparata ad terminum vt terminus est puta ad 
+      <lb ed="#P" n="9"/>verbum vt intellectum est nec conuenit prius 
+      patri<lb ed="#P" n="10" break="no"/>nec posterius filio / sed comparata ad supposita 
+      intel<lb ed="#P" n="11" break="no"/>ligentia et volentia pro quado eis conuenitr. Dico quod 
+      <lb ed="#P" n="12"/>prius conuenit patri quam filio producto et licet producto 
+      <lb ed="#P" n="13"/>quia sic conuenit patri / quod conuenit filio a patre. Ita quod 
+      <lb ed="#P" n="14"/>secundum signum originis quod est signum filii 
+      pro<lb ed="#P" n="15" break="no"/>ducti diuiditur in duo signa / in quo primo conuenit 
+      <lb ed="#P" n="16"/>patri intellectio et volitio verbi a se. In secundo 
+      con<lb ed="#P" n="17" break="no"/>uenit hoc verbo vel filio a patre / et ita non conuenit 
+      <lb ed="#P" n="18"/>patri ante productionem verbi sicut nec creatio 
+      con<lb ed="#P" n="19" break="no"/>uenit patri ante productionem verbi / licet patri 
+      con<lb ed="#P" n="20" break="no"/>ueniat a se et verbo a patre. Tunc ad formam dico 
+      <lb ed="#P" n="21"/>quod pater praehabet volitionem et cognitionem 
+      verbi<lb ed="#P" n="22" break="no"/>sed non sequitur quod sic / puta ante productionem 
+      verbi<lb ed="#P" n="23" break="no"/>sed sicut predictum est: et ideo est fallacia 
+      consequen<lb ed="#P" n="24" break="no"/>tis in argumento a pluribus causis vel a pluribus 
+      mo<lb ed="#P" n="25" break="no"/>dis praehabendi ad vnum determinatum. Ad confirma 
+      <lb ed="#P" n="26"/>tionem eodem modo.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e990">
+      ¶ Ad secundum motiuum dico 
+      <lb ed="#P" n="27"/>quod intellectio verbi potest considerari absolute vt 
+      in<lb ed="#P" n="28" break="no"/>tellectio est / et similiter volitio et sic dicunt perfectionem 
+      <lb ed="#P" n="29"/>simpliciter. Et vt sic dico quod pater praehabet eam filio 
+      <lb ed="#P" n="30"/>Et ideo dico quod intellectio vel volitio essentialis et 
+      <lb ed="#P" n="31"/>vt sunt perfectionis simpliciter precedunt filium 
+      <lb ed="#P" n="32"/>in patre secundum originem. Alio modo ista intel 
+      <lb ed="#P" n="33"/>lectio eadem potest accipi vt cadit super obiectum 
+      <lb ed="#P" n="34"/>puta super verbum secundum quod huiusmodi: et sic 
+      di<lb ed="#P" n="35" break="no"/>co quod non dicunt perfectionem simpliciter sicut nec 
+      <lb ed="#P" n="36"/>verbum / Unde verbum ecum sit aliquid 
+      incommuni<lb ed="#P" n="37" break="no"/>cabile. Et ita dico quod non oportet ipsam precedere 
+      <lb ed="#P" n="38"/>verbum in patre. 
+      </p>
+            <p xml:id="qrdBas-a50014-d1e1019">
+               <lb ed="#P" n="39"/>¶ Ad primum principale 
+      di<lb ed="#P" n="40" break="no"/>co quod intelligere prius est quam velle prius est quam 
+      dice<lb ed="#P" n="41" break="no"/>re vel verbum producere velle. Dico vt dicit 
+      perfe<lb ed="#P" n="42" break="no"/>ctionem simpliciter licet dicere sit prius quam spirare. 
+      <lb ed="#P" n="43"/>Ita quod non oportet quod dicere sit prius ipso velle 
+      si<lb ed="#P" n="44" break="no"/>cut intelligere ipso velle: quia dicere non dicit per 
+      <lb ed="#P" n="45"/>fectionem simpliciter et ideo non concluditur quin 
+      <lb ed="#P" n="46"/>pater generet filium volens etiam antecedenter 
+      <lb ed="#P" n="47"/>alio modo de volitione aliqua saltem.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e1041">
+      ¶ Ad 
+      secun<lb ed="#P" n="48" break="no"/>dum maior est falsa sicut dictum est supra. Dices 
+      <lb ed="#P" n="49"/>immo est vera si pater producit filium volens 
+      produ<lb ed="#P" n="50" break="no"/>cit libere: ergo voluntate. Dico quod non oportet quod 
+      li<lb ed="#P" n="51" break="no"/>bere dato quod volens quia producit ipsum natura non 
+      <lb ed="#P" n="52"/>voluntate vt principio licet voluntarie.
+    </p>
+            <p xml:id="qrdBas-a50014-d1e1054">
+      ¶ Ad 
+      ter<lb ed="#P" n="53" break="no"/>tium dico quod Augustinus approbat responsionem 
+      <lb ed="#P" n="54"/>illius quia fuit bona ad hominem ad concludendum 
+      <lb ed="#P" n="55"/>contra hereticum quod pater esset deus vel 
+      volunta<lb ed="#P" n="56" break="no"/>te vel necessitate inuoluntaria et tristante / sicut 
+      vo<lb ed="#P" n="57" break="no"/>lebat hereticus arguere de productione filii a 
+      pa<lb ed="#P" n="58" break="no"/>tre. Sed dico quod respondendo ad rem: potuit dicere 
+      <lb ed="#P" n="59"/>quod pater genuit filium volens sicut predictum est 
+      <lb ed="#P" n="60"/>Non tamen sequitur quod voluntate sicut dictum est supra. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

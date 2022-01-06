@@ -1,0 +1,732 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="148-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a96012"><!-- l1d25q1 -->
+            <head xml:id="qrdBas-a96012-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a96012-d1e101">
+               <lb ed="#P" n="84"/>Distinctionis. xxv. 
+      <lb ed="#P" n="85"/>Questio Unica.
+  </p>
+            <p xml:id="qrdBas-a96012-d1e108">
+               <lb ed="#P" n="86"/>CIrca distinctionem 
+      <lb ed="#P" n="87"/>vigesimamquintam quero vtrum 
+      <lb ed="#P" n="88"/>persona sit nomen prime inter 
+      <lb ed="#P" n="89"/>tionis vel secunde.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e119">
+      ¶ Uidetur quod 
+      <lb ed="#P" n="90"/>secunde intentionis: quia illud esgo 
+      <lb ed="#P" n="91"/>secunde intentionis in deo quod 
+      <lb ed="#P" n="92"/>habet tantum vnitatem nomins 
+      in<lb ed="#P" n="93" break="no"/>ipso / sed persona est huiusmodi. 
+      er<lb ed="#P" n="94" break="no"/>go etc. Probatur minor: quia 
+      <lb ed="#P" n="95"/>persone secundum quod huiusmodi non conueniunt in 
+      ali<lb ed="#P" n="96" break="no"/>quo extra intellectum nisi secundum rationem vt 
+      vi<lb ed="#P" n="97" break="no"/>detur / quia plura secundum rationem non sunt vnum nisi 
+      <lb ed="#P" n="98"/>secundum rationem.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e141">
+      ¶ Secundo sic. Particulare est 
+      <lb ed="#P" n="99"/>nomen secunde intentionis sicut et vniuersale cui 
+      op<lb ed="#P" n="100" break="no"/>ponitur: ergo similiter persona vt videtur.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e149">
+      ¶ 
+      Ter<lb ed="#P" n="101" break="no"/>tio sic. Nomen quod non dicit ex principali 
+      signifi<lb ed="#P" n="102" break="no"/>cato aliquid reale vel aliquid positiuum est nomen 
+      <lb ed="#P" n="103"/>non prime impositionis sed secunde intentionis / vt 
+      <lb ed="#P" n="104"/>videtur sed persona est huiusmodi vt dictum est 
+      su<lb ed="#P" n="105" break="no"/>pra quia in principali significato non dicit nec 
+      impor<lb ed="#P" n="106" break="no"/>tat nisi negationem que est incommunicabilitas: 
+      er<lb ed="#P" n="107" break="no"/>go etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e167">
+      ¶ Quarto sic. Nullum abstractum a 
+      singulari<lb ed="#P" n="108" break="no"/>pus et a rebus est nomen prime intentionis: quia prinme 
+      <lb ed="#P" n="109"/>intentiones sunt in rebus nec significata talium sunt 
+      <lb ed="#P" n="110"/>entia nisi rationis / sicut nec aliquid est abstractum 
+      <lb ed="#P" n="111"/>a rebus secundum rem / sed tantum rationem. sed 
+      per<lb ed="#P" n="112" break="no"/>sona est huiusmodi quia abstrahit a patre et filio et 
+      spiritu<lb ed="#P" n="113" break="no"/>sancto et non est aliquid commune in re. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e183">
+               <lb ed="#P" n="114"/>¶ Contra illud quod dicitur ad se non est nomen 
+      <lb ed="#P" n="115"/>secunde intentionis: quia intellectus non facit per 
+      <lb ed="#P" n="116"/>suum intelligere precise nisi respectum rationis: sed 
+      <lb ed="#P" n="117"/>persona dicitur ad se septimo de trinitate. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e194">
+               <lb ed="#P" n="118"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e199">
+               <lb ed="#P" n="119"/>¶ Primo inquiram vtrum persona sit nomen se 
+      <lb ed="#P" n="120"/>cunde intentionis vel prime.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e206">
+      ¶ Secundo dato quod 
+      <lb ed="#P" n="121"/>sit nomen prime / vtrum sit nomen vniuocum ad 
+      per<lb ed="#P" n="122" break="no"/>sonam creatam increatam.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e214">
+      ¶ Tertio vtrum sit 
+      vniuo<lb ed="#P" n="123" break="no"/>cum ad tres personas increatas.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e219">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e221">
+               <lb ed="#P" n="124"/>¶ Quantum ad primum est 
+      opi<lb ed="#P" n="125" break="no"/>nio aliquorum quod persona est nomen secunde intentio¬ 
+      <!--310.xml-->
+       <pb ed="#P" n="149-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nis et non potest esse prime intentionis. Ad hoc 
+      ha<lb ed="#P" n="2" break="no"/>bent aliquas rationes. Prima est ista quia sicut 
+      in<lb ed="#P" n="3" break="no"/>diuiduum se babet in omni natura ita persona in 
+      na<lb ed="#P" n="4" break="no"/>tura intellectuali. Patet quia indiuiduum cadit in 
+      <lb ed="#P" n="5"/>pescriptione vel diffinitione persone. Persona enim 
+      <lb ed="#P" n="6"/>secundum Boetium de duabus naturis / et vna persons 
+      <lb ed="#P" n="7"/>christi: est nature intellectualis indiuidua 
+      substan<lb ed="#P" n="8" break="no"/>tia: sed indiuiduum est nomen secunde intentionis vt 
+      <lb ed="#P" n="9"/>patet: sicut etiam species et genus ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e254">
+      ¶ Secundo 
+      <lb ed="#P" n="10"/>sic vel est nomen prime intentionis vel secude: sed non 
+      <lb ed="#P" n="11"/>est nomen prime: quia tunc esset vniuersale tribus perso 
+      <lb ed="#P" n="12"/>nis. Omne enim quod est prime intentionis et est 
+      commu<lb ed="#P" n="13" break="no"/>ne est vniuersale aliquod: sed persona non est vniuersa 
+      <lb ed="#P" n="14"/>le: quia nec generalissimum nec subalternum nec 
+      spe<lb ed="#P" n="15" break="no"/>cies: eo quod indiuiduis non est vniuersale sicut dictum 
+      <lb ed="#P" n="16"/>est supra: sequeretur etiam quod due essent species 
+      spe<lb ed="#P" n="17" break="no"/>cialissime respectu eiusdem suppositi quia essentia 
+      ma<lb ed="#P" n="18" break="no"/>xime est species sed aliquid est species ad diuina 
+      sui<lb ed="#P" n="19" break="no"/>posita / et similiter persona esset species specialissima: 
+      <lb ed="#P" n="20"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e280">
+      ¶ Tertio sic. Si persona esset nomen pri 
+      <lb ed="#P" n="21"/>me intentionis necessario ratio eius variaretur in per 
+      <lb ed="#P" n="22"/>sonis secundum variationem naturarum in quibus sunt 
+      per<lb ed="#P" n="23" break="no"/>sone: sed non variatur quia natura intellectualis 
+      po<lb ed="#P" n="24" break="no"/>nitur in eius diffinitione vel descriptione sicut ad 
+      <lb ed="#P" n="25"/>ditamentum non sicut aliquid intrinsecum: ergo etc 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e293">
+               <lb ed="#P" n="26"/>¶ Dicunt ergo isti quod persona est nomen secunde 
+      inten<lb ed="#P" n="27" break="no"/>tionis: sed addunt vltimo quod secunda intentio vel 
+      no<lb ed="#P" n="28" break="no"/>men secunde intentionis aliquando accipitur in 
+      concre<lb ed="#P" n="29" break="no"/>to ad rem cui debetur vel attribuitur per intellectum 
+      <lb ed="#P" n="30"/>illa secunda intentio: sicut hoc nomen species cum dicitur 
+      <lb ed="#P" n="31"/>homo est species vel asinus / et sic predicatur de re 
+      ta<lb ed="#P" n="32" break="no"/>men in concreto. Aliquando vero accipitur in abstra 
+      <lb ed="#P" n="33"/>cto sicut cum dicitur quod species est intentio: primo autem 
+      <lb ed="#P" n="34"/>modo persona est nomen secunde intentionis / et 
+      predi<lb ed="#P" n="35" break="no"/>catur de re cui attribuitur esse personam / sicut cum 
+      di<lb ed="#P" n="36" break="no"/>citur pater est persona / filius est persona: et sic de aliis. 
+      <lb ed="#P" n="37"/>Aliomodo secundo non est nomen secunde intentionis 
+      ac<lb ed="#P" n="38" break="no"/>cipiendo scilicet in abstracto: et ideo non potest dici quod per 
+      <lb ed="#P" n="39"/>sona sit intentio vel quod secunda intentio: adoretur 
+      pro<lb ed="#P" n="40" break="no"/>ducatur realiter etc. 
+      <lb ed="#P" n="41"/>t quod persona est nomen pri¬ 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e331">
+               <lb ed="#P" n="42"/>¶ Alii dicunt me intentionis non autem 
+      se<lb ed="#P" n="43" break="no"/>cunde. Ad hoc adducunt rationes. Prima est ista. Si 
+      <lb ed="#P" n="44"/>a constitutiuis et primo distinctiuis formalibus 
+      ali<lb ed="#P" n="45" break="no"/>quorum potest abstrahi aliquid commune prime 
+      im<lb ed="#P" n="46" break="no"/>tentionis pari ratione immo multofortius et a 
+      consti<lb ed="#P" n="47" break="no"/>tutis vel distinctis: quia sicut dictum est supra nunquam 
+      <lb ed="#P" n="48"/>plus conueniunt distinctiua quam distincta. Sed a 
+      di<lb ed="#P" n="49" break="no"/>stinctiuis personarum potest abstrahi aliquid vnum 
+      com<lb ed="#P" n="50" break="no"/>mune prime intentionis: puta a relationibus diuinis 
+      <lb ed="#P" n="51"/>abstrahitur relatio: sicut a paternitate filiatio etc. ergo 
+      <lb ed="#P" n="52"/>a distinctis puta a patre et filio et spiritu sancto 
+      al<lb ed="#P" n="53" break="no"/>quid commune prime intentionis. Hoc autem non est 
+      <lb ed="#P" n="54"/>nisi persona: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e362">
+      ¶ Secundo sic. Persona est per se 
+      <lb ed="#P" n="55"/>subsistens incommunicabiliter in natura 
+      intellectuali<lb ed="#P" n="56" break="no"/>sed hoc non est secunda intentio: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e369">
+      ¶ Tertio sic. 
+      <lb ed="#P" n="57"/>Persona adoratur in diuinis secundum prefationem 
+      gre<lb ed="#P" n="58" break="no"/>gorii: in personis adoretur equalitas: sed ens secunde 
+      <lb ed="#P" n="59"/>intentionis vel rationis non adoratur: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e378">
+      ¶ 
+      Quar<lb ed="#P" n="60" break="no"/>to sic. Persona vere et realiter producitur et non ens 
+      <lb ed="#P" n="61"/>rationis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e385">
+      ¶ Quinto sic Persona est vera res 
+      <lb ed="#P" n="62"/>secundum Augustinum primo de doctrina christiana. c I 
+      <lb ed="#P" n="63"/>Res quibus fruendum est sunt pater et filius et spiri 
+      <lb ed="#P" n="64"/>tus sanctus: sed secunda intentio non est res: ergo etc. Item se 
+      <lb ed="#P" n="65"/>cundum Augustinum ad questionem factam per quid 
+      <!--310.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>de deo conuenienter. Respondetur. Tres personas / 
+      er<lb ed="#P" n="67" break="no"/>go persona non est nomen intentionis secunde. Et 
+      con<lb ed="#P" n="68" break="no"/>firmatur quia trinitas non consistit in secundis 
+      inten<lb ed="#P" n="69" break="no"/>tionibus: sed in rebus ergo etc. 
+      <lb ed="#P" n="70"/>tim vtrum persona sit nomen 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e411">
+               <lb ed="#P" n="71"/>¶ Ad sidendum. est prime intentionis vel se 
+      <lb ed="#P" n="72"/>cunde. Notandum est primo quid sit prima intentio et 
+      <lb ed="#P" n="73"/>secunda. Secundo que sunt nomina prime intentionis 
+      <lb ed="#P" n="74"/>et secunde. Tertio quod persona non est nomen secunde 
+      im<lb ed="#P" n="75" break="no"/>tentionis: sed prime per alias rationes. Quarto de 
+      con<lb ed="#P" n="76" break="no"/>clusione premissarum rationum.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e428">
+      ¶ Quantum ad 
+      pri<lb ed="#P" n="77" break="no"/>mum dico quod intentio prima dicitur res ipsa intellecta  
+      <lb ed="#P" n="78"/>Etiam quicquid se tenet ex parte obiecti / et ex natura 
+      rei<lb ed="#P" n="79" break="no"/>de re intellecta / quicquid sit illud siue positiuum siue 
+      pri<lb ed="#P" n="80" break="no"/>uatio siue negatio. Intentio vero secunda est ens rationis  
+      <lb ed="#P" n="81"/>quod conuenit rei vt intellecta / et est quedam relatio 
+      ra<lb ed="#P" n="82" break="no"/>tionis facta et fabricata circa rem intellectam per actum 
+      <lb ed="#P" n="83"/>intellectus comparantis: vel componentis: vel diuidem 
+      <lb ed="#P" n="84"/>tis / et est comparatio rationis seu habitudo vnius 
+      <lb ed="#P" n="85"/>extremi ad rem seu ad aliquod extremum facta per 
+      in<lb ed="#P" n="86" break="no"/>tellectum. Et dicitur intentio secunda quia prius 
+      ali<lb ed="#P" n="87" break="no"/>quo modo est intendere in rem secundum se et vt in re est 
+      <lb ed="#P" n="88"/>absolute / quam comparando ipsam in habitudine ad aliud 
+      <lb ed="#P" n="89"/>seu ad aliquid faciendo intentionem secundam.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e459">
+      ¶ Ex 
+      <lb ed="#P" n="90"/>hoc patet que sunt nomina prime intentionis et que 
+      <lb ed="#P" n="91"/>secunde intentionis: quia nomina prime intentionis sunt 
+      <lb ed="#P" n="92"/>illa que significant ea quae tenent se ex parte rei: et sunt 
+      <lb ed="#P" n="93"/>in re ex natura rei / sicut hoc nomen animal: vel homo 
+      <lb ed="#P" n="94"/>vel rationale / vel lapis / vel asinus / vel cecitas / vel 
+      <lb ed="#P" n="95"/>vnitas / deitas / et sic de aliis. Nomina vero secundarum 
+      in<lb ed="#P" n="96" break="no"/>tentionum sunt illa que significant illa que conueniunt 
+      <lb ed="#P" n="97"/>rebus ex opere intellectus comparantis et negociantis 
+      <lb ed="#P" n="98"/>circa ipsam: sicut est nomen generis / vel speciei. 
+      In<lb ed="#P" n="99" break="no"/>tellectus enim comparando animal ad sua inferiora 
+      at<lb ed="#P" n="100" break="no"/>tribuit sibi / et facit circa ipsum intentionem secundam 
+      <lb ed="#P" n="101"/>generis. Similiter etiam homini attribuit 
+      intentio<lb ed="#P" n="102" break="no"/>nem speciei comparando ipsum ad indiuidua / et sic 
+      de<lb ed="#P" n="103" break="no"/>aliis.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e492">
+      ¶ Ad propositum videtur michi dicendum quod 
+      <lb ed="#P" n="104"/>persona non est nomen secunde intentionis sed prime. Quod 
+      <lb ed="#P" n="105"/>autem sit prime intentionis. Probo quia illud nomen quod 
+      <lb ed="#P" n="106"/>primo et principaliter significat in ente ex natura 
+      <lb ed="#P" n="107"/>rei / vel non per intellectum / est nomen prime 
+      intentio<lb ed="#P" n="108" break="no"/>nis apud logicum / et prime mixtionis apud 
+      gramma<lb ed="#P" n="109" break="no"/>ticum: sed persona est huiusmodi: quia formaliter et 
+      <lb ed="#P" n="110"/>primo significat incommunicabilitatem subsistentis 
+      im<lb ed="#P" n="111" break="no"/>natura ietellectuali. Hec autem incommunicabilitas 
+      <lb ed="#P" n="112"/>conuenit rei non per intellectum sed ex natura rei sicut 
+      <lb ed="#P" n="113"/>nec cecitas oculo conuenit per intellectum sed in re: non sicut 
+      <lb ed="#P" n="114"/>aliquid positiuum sed sicut. priuatio positiui quod est 
+      vi<lb ed="#P" n="115" break="no"/>sus / ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e521">
+      ¶ Secundo sic. Illud nomen est prime 
+      im<lb ed="#P" n="116" break="no"/>positionis vel intentionis cuius impositio non praesup 
+      <lb ed="#P" n="117"/>lonit nisi simplicem apprehensionem rei vt in se est. 
+      <lb ed="#P" n="118"/>hoc patet: quia hec apprehensio est prima intentio. 
+      <lb ed="#P" n="119"/>sed persona est huiusmodi: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e532">
+      ¶ Secundo probo quod 
+      <lb ed="#P" n="120"/>non sit nomen secunde intentionis. Primo sic. Illud 
+      no<lb ed="#P" n="121" break="no"/>men non est secunde intentionis quod non dicit 
+      respecti<lb ed="#P" n="122" break="no"/>nomnis nec significat. Patet ex predictis quod 
+      om<lb ed="#P" n="123" break="no"/>nis intentio secunda est respectus rationis factus per 
+      <lb ed="#P" n="124"/>intellectum / Sed persona ad modum secunde inten 
+      <lb ed="#P" n="125"/>tionis non dicit respectum rationis: tunc enim haberet 
+      <lb ed="#P" n="126"/>correlatiuum ad aliquod sibi correspondens / sicut 
+      pa<lb ed="#P" n="127" break="no"/>tet de aliis intentionibus secundis: vt de genere et 
+      spe<lb ed="#P" n="128" break="no"/>cie / que correlatiue dicuntur / et sic de aliis 
+      <lb ed="#P" n="129"/>aliorum qui dicunt quod per¬ 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e556">
+               <lb ed="#P" n="130"/>¶ Ad rationes sona est nomen scde in¬ 
+      <!--311.xml-->
+       <pb ed="#P" n="149-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tentionis. Ad primam dico quod indiuiduum dicitur 
+      du<lb ed="#P" n="2" break="no"/>pliciter. Uno modo inquantum dicit vnum nunero / quod est 
+      <lb ed="#P" n="3"/>in se indiuisum et ab alio diuisum / et sic accipitur 
+      inde<lb ed="#P" n="4" break="no"/>uiduum secundum rem / et sic est vera maior: quia 
+      indiui<lb ed="#P" n="5" break="no"/>duum isto modo est nomen prime intentionis. Alio 
+      <lb ed="#P" n="6"/>modo dicitur indiuiduum secundum predicationem / et sic 
+      <lb ed="#P" n="7"/>dicit respectum rationis ad speciem / vel ad id cuius 
+      <lb ed="#P" n="8"/>est indiuiduum / et sic est nomen secunde intentionis: et illa 
+      <lb ed="#P" n="9"/>intentio secunda respectus quidam est rationis causatus 
+      <lb ed="#P" n="10"/>in indiuiduo. Primo ex comparatione eius per 
+      intel<lb ed="#P" n="11" break="no"/>lectum ad speciem vel naturam specificam in qua est 
+      <lb ed="#P" n="12"/>vnum numero et sub qua non predicatur de aliquo nisi 
+      <lb ed="#P" n="13"/>de seipso quod est tantum vnum numero. et isto modo 
+      <lb ed="#P" n="14"/>accipiendo indiuiduum dico quod maior est falsa: et 
+      mi<lb ed="#P" n="15" break="no"/>nor vera: nec sequitur aliquod contra me.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e601">
+      ¶ Ad 
+      se<lb ed="#P" n="16" break="no"/>cundum dico quod est contra eos: quia ipsi concedunt quod a 
+      <lb ed="#P" n="17"/>paternitate filiatione et spiratione passiua 
+      abstra<lb ed="#P" n="18" break="no"/>hitur vnum commune prime intentionis: puta relatio 
+      <lb ed="#P" n="19"/>et tamen non concedunt quod relatio sit vniuersale in 
+      diui<lb ed="#P" n="20" break="no"/>nis: ita etiam dicetur eis de persona quod quantumcunque 
+      <lb ed="#P" n="21"/>sit nomen prime intentionis / non tamen est vniuersale 
+      indi<lb ed="#P" n="22" break="no"/>uiduis: sed eo modo quo dicetur in tertio articulo que 
+      <lb ed="#P" n="23"/>stionis. Et si esset vniuersale: hoc non esset nisi secundum 
+      <lb ed="#P" n="24"/>negationem quam principaliter significat quequidem 
+      <lb ed="#P" n="25"/>vniuersalitas vel communitas non presupponit aliquam 
+      <lb ed="#P" n="26"/>imperfectionem in deo.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e627">
+      ¶ Ad tertium dico quod siue persona 
+      <lb ed="#P" n="27"/>sit nomen prime intentionis / siue secunde non oportet quod 
+      ra<lb ed="#P" n="28" break="no"/>tio eius formalis varietur secundum variationem naturarum 
+      <lb ed="#P" n="29"/>in quibus inuenitur persona / quia dico quod intentio 
+      se<lb ed="#P" n="30" break="no"/>cunda eiusdem rationis et similiter negatio aliqua 
+      eius<lb ed="#P" n="31" break="no"/>dem rationis possunt conuenire naturis diuersarum 
+      <lb ed="#P" n="32"/>rationum: sicut intentio secunda speciei specialissime 
+      <lb ed="#P" n="33"/>eiusdem rationis attribuitur homini asino et leoni et 
+      <lb ed="#P" n="34"/>aliis. Similiter etiam non sequitur que est negatio 
+      <lb ed="#P" n="35"/>eiusdem rationis conuenit asino / leoni / ceruo / vel non 
+      <lb ed="#P" n="36"/>homo etiam / quare etc 
+      <lb ed="#P" n="37"/>rgo adducuntur ab aliis 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e653">
+               <lb ed="#P" n="38"/>¶ Rationes que non concludunt quod 
+      per<lb ed="#P" n="39" break="no"/>sona esset nomen prime intentionis: licet conclusio 
+      illa<lb ed="#P" n="40" break="no"/>esset vera. Ad primam dico quod simpliciter non 
+      conclu<lb ed="#P" n="41" break="no"/>dit quia minor est falsa secundum me. Unde dico quod 
+      nui<lb ed="#P" n="42" break="no"/>chil prime intentionis abstrahitur a relationibus 
+      con<lb ed="#P" n="43" break="no"/>stitutiuis personarum / quia se totis primo distinguun 
+      <lb ed="#P" n="44"/>tur et in nullo conueniunt positiue: sed bene concludit 
+      <lb ed="#P" n="45"/>contra aduersarios qui concedunt istam minorem.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e673">
+      ¶ Ad 
+      <lb ed="#P" n="46"/>secundum dicerent alii quod bene concludit quod persona non 
+      si<lb ed="#P" n="47" break="no"/>gnificat intentionem secundam in abstracto: sed 
+      ma<lb ed="#P" n="48" break="no"/>gis in concreto et ideo aliquod subsistens in natura 
+      in<lb ed="#P" n="49" break="no"/>tellectuali est persona / non tamen est secunda intentio: sicut etiam 
+      <lb ed="#P" n="50"/>nec significat illam duplicem negationem communica 
+      <lb ed="#P" n="51"/>bilitatis in abstracto: quia persona esset negatio sed 
+      <lb ed="#P" n="52"/>in concreto / et ideo sicut dicitur quod persona est 
+      incommu<lb ed="#P" n="53" break="no"/>nicabilis: ita diceretur quod persona est intentionale: non 
+      <lb ed="#P" n="54"/>autem intentio sicut animal / eo quod est genus est 
+      intentio<lb ed="#P" n="55" break="no"/>nale: non tamen intentio secunda.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e697">
+      ¶ Ad tertium per idem / quia si 
+      <lb ed="#P" n="56"/>argumentum esset bonum ita bene concluderet quod perso 
+      <lb ed="#P" n="57"/>na non est prime intentionis eo quod significat 
+      formali<lb ed="#P" n="58" break="no"/>ter negationem: quia negatio non adoratur nec 
+      produ<lb ed="#P" n="59" break="no"/>citur sed habens negationem concretiue: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e708">
+      ¶ Ad 
+      <lb ed="#P" n="60"/>quartum dicendum quod persona quantum ad suum forma 
+      <lb ed="#P" n="61"/>le significatum non est vera res sed negatio 
+      concreti<lb ed="#P" n="62" break="no"/>ue / tamen ratione substracti dicitur res: sic etiam diceretur 
+      <lb ed="#P" n="63"/>de secunda intentione.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e720">
+      ¶ Per idem ad vltimum de 
+      tri<lb ed="#P" n="64" break="no"/>nitate et de confirmatione ad questionem factam 
+      pe<lb ed="#P" n="65" break="no"/>quid / quod persona responderetur ad ipsam non quantum 
+      <!--311.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>ad intentionem sicut nec quantum ad negationem in 
+      ab<lb ed="#P" n="67" break="no"/>stracto: sed quantum ad positiuum reale abstractum 
+      <lb ed="#P" n="68"/>et in concreto quare etc. hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e738">
+               <lb ed="#P" n="69"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="70" break="no"/>ticulum dicunt aliqui quod persona dicitur vniuoce de 
+      per<lb ed="#P" n="71" break="no"/>sona creata et increata / non tamen vniuocatione aliqua 
+      <lb ed="#P" n="72"/>que accipitur ex natura rei siue in differentia aliqua 
+      <lb ed="#P" n="73"/>ipsorum vniuocorum quam habeant in re / sicut 
+      gen<lb ed="#P" n="74" break="no"/>vel species dicuntur vniuoca ex natura rei suis 
+      infe<lb ed="#P" n="75" break="no"/>rioribus sed vniuocatio accepta est ex 
+      indistinctio<lb ed="#P" n="76" break="no"/>ne actus vel modi concipiendi: sicut omnis homo 
+      di<lb ed="#P" n="77" break="no"/>citur vniuocum ad sortem / et platonem.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e760">
+      ¶ Hoc probant 
+      <lb ed="#P" n="78"/>tripliciter. Primo sic. Conceptus dubius et certus 
+      <lb ed="#P" n="79"/>non est idem in intellectu de eadem re vt patet: quia tunc 
+      <lb ed="#P" n="80"/>idem conceptus esset certus et non certus: sed conceptus 
+      <lb ed="#P" n="81"/>persone apud intellectum aliquem potest esse certus 
+      <lb ed="#P" n="82"/>apud quem dubius est conceptus talis persone: 
+      puta<lb ed="#P" n="83" break="no"/>create vel increate divine vel indiuine. Patet deu 
+      <lb ed="#P" n="84"/>idolatris qui colunt aliqua de quibus constat eis quod 
+      <lb ed="#P" n="85"/>sunt persone: et tamen nesclebant si illud quod colebant esset 
+      <lb ed="#P" n="86"/>persona diuina: quia tunc sciuissent falsum: vel 
+      crea<lb ed="#P" n="87" break="no"/>ta quia tunc nunquam coluissent tale quid creatum / et 
+      con<lb ed="#P" n="88" break="no"/>ceptus persone est vnus alius et distinctus a 
+      conce<lb ed="#P" n="89" break="no"/>ptibus persone create et increate: et per consequens 
+      <lb ed="#P" n="90"/>est eis vniuocus: quare etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e791">
+      ¶ Secundo sic. Illud quod 
+      <lb ed="#P" n="91"/>est commune aliquibus secundum nomen et rationem est eis 
+      <lb ed="#P" n="92"/>vniuocum: sed persona est communis persone create et 
+      <lb ed="#P" n="93"/>increate secundum nomen et rationem: et quod secundum nomen 
+      pa<lb ed="#P" n="94" break="no"/>tet: quod secundum rationem etiam patet: accipiendo descriptio 
+      <lb ed="#P" n="95"/>nem probatam Richardo: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e804">
+      ¶ Tertio illud 
+      secun<lb ed="#P" n="96" break="no"/>dum quod est vera contradictio et est medium 
+      congruum<lb ed="#P" n="97" break="no"/>veri sillogismi est vniuocum: sed persona est 
+      huiusmo<lb ed="#P" n="98" break="no"/>di: quia hec est vera contradictio. Pater est persona 
+      <lb ed="#P" n="99"/>pater non est persona: ergo hic est bonus sillogismus 
+      <lb ed="#P" n="100"/>persona est incommunicabilis in natura intellectua 
+      <lb ed="#P" n="101"/>li: pater est persona ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e820">
+      ¶ Dicunt ergo isti quod 
+      per<lb ed="#P" n="102" break="no"/>sona isto modo vniuoce dicitur de persona creata 
+      <lb ed="#P" n="103"/>et 
+      increata<lb ed="#P" n="104" break="no"/>3e non possum omni¬ 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e830">
+               <lb ed="#P" n="105"/>¶ Istam opinione no tenere ad 
+      inte<lb ed="#P" n="106" break="no"/>tionem istius: quia ipse tenet quod persona quantum ad 
+      <lb ed="#P" n="107"/>omnia que dicit siue de formali significato: siue de 
+      <lb ed="#P" n="108"/>connotato positiuo est vniuocus persone create et 
+      <lb ed="#P" n="109"/>increate. Hoc autem notaui supra distinctione 
+      octa<lb ed="#P" n="110" break="no"/>ua: quia nichil est positiuum commune deo et creature 
+      vni<lb ed="#P" n="111" break="no"/>uoce.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e848">
+      ¶ Ideo dico aliter primo quod persona quantum 
+      <lb ed="#P" n="112"/>ad principale et suum formale significatum quod est 
+      no<lb ed="#P" n="113" break="no"/>gatio incomunicabilitatis est vniuoca deo et 
+      crea<lb ed="#P" n="114" break="no"/>ture ex natura rei.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e857">
+      ¶ Secundo quod quantum ad positiuum 
+      <lb ed="#P" n="115"/>connota tum non est vniuocus deo et creature: vel per 
+      <lb ed="#P" n="116"/>sone divine et create.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e864">
+      ¶ Primum probo. Negatio 
+      in<lb ed="#P" n="117" break="no"/>communicabilitatis est eiusdem rationis in deo et 
+      crea<lb ed="#P" n="118" break="no"/>tura / et in persona diuina et creata non obstante 
+      diuer<lb ed="#P" n="119" break="no"/>sitate naturarum in quibus inuenitur: sicut dicebatur 
+      <lb ed="#P" n="120"/>supra: sicut non sortes: vel non homo est negatio 
+      eius<lb ed="#P" n="121" break="no"/>dem rationis conueniens deo et asino: non obstante diuer 
+      <lb ed="#P" n="122"/>sitate naturarum divine scilicet et asinine: et patet quod 
+      <lb ed="#P" n="123"/>est eiusdem nomins. Ista negatio tam etiam in diuinis quam 
+      <lb ed="#P" n="124"/>in creatis: ergo persona quantum ad suum formale 
+      <lb ed="#P" n="125"/>significatum ( quod est negatio illa ) est vniuocus 
+      vtro<lb ed="#P" n="126" break="no"/>bique.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e888">
+      ¶ Sed contra hoc est vna difficultas vel due  
+      <lb ed="#P" n="127"/>valde fortes. Prima est quod affirmatioduplex 
+      oppo<lb ed="#P" n="128" break="no"/>sita isti duplici negationi non est eiusdem rationis 
+      in<lb ed="#P" n="129" break="no"/>deo et in creaturis: ergo nec negatio. Antecedens pa¬ 
+      <!--312.xml-->
+       <pb ed="#P" n="150-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tet: quia communicabilitas vt quod in diuinis non. est 
+      <lb ed="#P" n="2"/>per modum vniuersalis sicut in creaturis nec etiam 
+      <lb ed="#P" n="3"/>communicabilitas vt quo est per modum forme 
+      infor<lb ed="#P" n="4" break="no"/>mantis vel partis sicut in creaturis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e912">
+      ¶ 
+      Secun<lb ed="#P" n="5" break="no"/>da difficultas est quia secundum me nichil positiuum est 
+      <lb ed="#P" n="6"/>vniuocum in diuinis et creatis nec eiusdem rationis: 
+      <lb ed="#P" n="7"/>etiam nec aliquid negatiuum cum illud neget 
+      nega<lb ed="#P" n="8" break="no"/>tio quod affirmatio ponit Confirmatur quia fundame 
+      <lb ed="#P" n="9"/>ta negationum non sunt eiusdem rationis in deo et 
+      crea<lb ed="#P" n="10" break="no"/>turis: sed iam hoc est solutum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e929">
+      ¶ Ad primum 
+      <lb ed="#P" n="11"/>dico quod communicabilitas vt quo et vt quod sunt eiusdem 
+      <lb ed="#P" n="12"/>rationis in diuinis et creatis: quia nec in diuinis / nec 
+      <lb ed="#P" n="13"/>creatis communicabile formaliter dicit nisi respectum 
+      <lb ed="#P" n="14"/>rationis: qui sicut dictum est supra potest idem esse 
+      in<lb ed="#P" n="15" break="no"/>naturis diuersis: etiam dico in non habentibus aliquid 
+      <lb ed="#P" n="16"/>commune sed se totis distinctis: sicut deus et 
+      creatu<lb ed="#P" n="17" break="no"/>ra: vt patet de intentione secunda differentie in duabus 
+      <lb ed="#P" n="18"/>differentiis vltimis se totis distinctis et non habenti 
+      <lb ed="#P" n="19"/>bus aliquid commune vniuocum. Aliter dici potest 
+      <lb ed="#P" n="20"/>quod dato quod communicabilitas non sit eiusdem rationis 
+      <lb ed="#P" n="21"/>in diuinis / et etiam in creatis: nec vt quod: nec vt quo 
+      <lb ed="#P" n="22"/>quia cum persona neget vtramque / ideo est eiusdem 
+      rati<lb ed="#P" n="23" break="no"/>nis hinc et inde. Neque similiter persona tam in 
+      diu<lb ed="#P" n="24" break="no"/>nis quam in creaturis neget incommunicabilitatem vt quod 
+      <lb ed="#P" n="25"/>per modum vniuersalis que est vnius rationis / et non 
+      <lb ed="#P" n="26"/>est nisi in creaturis: similiter etiam neget communica 
+      <lb ed="#P" n="27"/>bilitatem: vt quo per modum essentie singularis que 
+      <lb ed="#P" n="28"/>licet non sit nisi in diuinis negatur tamen persona tam 
+      <lb ed="#P" n="29"/>in diuinis quam in creatis: et sic de aliis sicut non sortem 
+      <lb ed="#P" n="30"/>vniuoce dicitur de deo et asino ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e975">
+      ¶ Per idem 
+      <lb ed="#P" n="31"/>dico ad secundum quod medium positiuum reale: nec al 
+      <lb ed="#P" n="32"/>quod nomen significans aliquid positiuum reale est com 
+      <lb ed="#P" n="33"/>mune vniuocum ad deum et creaturam. Modo dico 
+      <lb ed="#P" n="34"/>quod incommunicabilitas non dicit aliquid positiuum 
+      rea<lb ed="#P" n="35" break="no"/>le. Preterea etiam non oportet quod illud positiuum 
+      da<lb ed="#P" n="36" break="no"/>to quod esset reale esset in vtroque: sed sufficit quod in 
+      ali<lb ed="#P" n="37" break="no"/>quo vno tantum quod non est nisi vnius rationis / sicu 
+      <lb ed="#P" n="38"/>non sortes conuenit deo et creature puta asino / et 
+      vni<lb ed="#P" n="39" break="no"/>uoce / tamen sortes non est in deo neque in asino / nec 
+      conue<lb ed="#P" n="40" break="no"/>nit alicui istorum. Unde non est aliquid deo et 
+      creatu<lb ed="#P" n="41" break="no"/>re reale quod conueniat eis sed quod negatur ab eis. 
+      Ex<lb ed="#P" n="42" break="no"/>hoc patet statim quod negationes non sunt alterius 
+      ra<lb ed="#P" n="43" break="no"/>tionis propter illa que sequuntur: sed magis propter 
+      <lb ed="#P" n="44"/>illud vel illa que sequuntur per ipsas scilicet propter a 
+      <lb ed="#P" n="45"/>firmationes oppositas.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e1010">
+      ¶ Secundum probo quod 
+      per<lb ed="#P" n="46" break="no"/>sona quantum ad connotatum dicit aliquid positiuum 
+      <lb ed="#P" n="47"/>reale sicut dictum est supra: sed sicut dictum est 
+      dist<lb ed="#P" n="48" break="no"/>ctione octaua nullum positiuum reale est eiusdem 
+      ra<lb ed="#P" n="49" break="no"/>tionis in deo et creaturis: vt aliquod nomen 
+      impor<lb ed="#P" n="50" break="no"/>tans positiuum reale secundum quod huiusmodi: ergo etc. quia 
+      <lb ed="#P" n="51"/>deus et creatura se totis distinguuntur primo: et in 
+      <lb ed="#P" n="52"/>nullo conueniunt positiuo. Sic autem hic dico quod 
+      per<lb ed="#P" n="53" break="no"/>sona non est vniuocum vel analogum proprie 
+      loquen<lb ed="#P" n="54" break="no"/>do: quia ista non accipiuntur in nomibus nisi secundum 
+      <lb ed="#P" n="55"/>formalia et principalia significata ipsorum: non 
+      au<lb ed="#P" n="56" break="no"/>tem secundum connotata: tunc dico quod est analogum. 
+      <lb ed="#P" n="57"/>Ad rationes primi modi dicendi dico quod 
+      conceden<lb ed="#P" n="58" break="no"/>do eas si concludut quod persona sit vniuocum quantum 
+      <lb ed="#P" n="59"/>ad suum formale significatum et sunt bone. Si autem 
+      <lb ed="#P" n="60"/>quantum ad connotatum dico quod non valent sicut 
+      di<lb ed="#P" n="61" break="no"/>ctum est distinctione octaua require in illa 
+      questu<lb ed="#P" n="62" break="no"/>ne. hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e1049">
+               <lb ed="#P" n="63"/>¶ Quantum ad tertium 
+      articu<lb ed="#P" n="64" break="no"/>lum dicit vnus quod persona est nomen vniuocum tribus 
+      <!--312.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>personis diuinis quod probat: quia sicut relatio est 
+      con<lb ed="#P" n="66" break="no"/>mune ad distinctiua personarum: ita persona ad 
+      per<lb ed="#P" n="67" break="no"/>sonas constitutas et distinctas: sed relatio est aliquid 
+      <lb ed="#P" n="68"/>commune vniuocum ad relationes distinctiuas et ad  
+      <lb ed="#P" n="69"/>aliquid prime intentionis et cetera: minor patet. quia 
+      <lb ed="#P" n="70"/>non plus conueniunt distinctiua quam. Dant autem modum 
+      <lb ed="#P" n="71"/>istius vniuocationis: quia ista vniuocatio non est se 
+      <lb ed="#P" n="72"/>cundum aliquid commune reale: sed est commune 
+      ratio<lb ed="#P" n="73" break="no"/>nis non create per intellectum: sed rationis realis vel 
+      <lb ed="#P" n="74"/>modi: ita quod personis secundum quod persone vel 
+      relationi<lb ed="#P" n="75" break="no"/>bus diuinis non est aliquid reale commune: puta res 
+      <lb ed="#P" n="76"/>aliqua vel realitas. Sed modus realis aliquis 
+      posi<lb ed="#P" n="77" break="no"/>tiuus: puta per se subsistendi. Similiter etiam dicunt 
+      <lb ed="#P" n="78"/>de communitate persone ad creatam et increatam. 
+      <lb ed="#P" n="79"/>est Quicquid est commu¬ 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e1093">
+               <lb ed="#P" n="80"/>¶ Istud nichil ne communitate modi 
+      rea<lb ed="#P" n="81" break="no"/>lis est commune reale: sed hoc nomen persona est 
+      commu<lb ed="#P" n="82" break="no"/>ne communitate modi realis / ergo est commune reale. 
+      <lb ed="#P" n="83"/>Igitur ista dicta sibi contradicunt.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e1104">
+      ¶ Preterea quia 
+      <lb ed="#P" n="84"/>est commune ( vt homo ) suis indiuiduis / vel superius 
+      <lb ed="#P" n="85"/>vniuocum suo inferiori / et est commune ex natura 
+      rei<lb ed="#P" n="86" break="no"/>secundum aliquid positiuum: distinguitur et numeratur in 
+      <lb ed="#P" n="87"/>illis quibus est commune: et est proprie vniuersale: sed 
+      <lb ed="#P" n="88"/>persona non est vniuersale in diuinis: quia dictum est 
+      <lb ed="#P" n="89"/>supra quod in diuinis non est vniuersale aliquid 
+      posi<lb ed="#P" n="90" break="no"/>tiuum.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e1123">
+      ¶ Tertio quia ab illo quod est pure hoc: et al 
+      <lb ed="#P" n="91"/>alio quod est pure hoc positiuum: non potest 
+      abstrahi<lb ed="#P" n="92" break="no"/>aliquid superius et contra ex natura rei: sed 
+      relatio<lb ed="#P" n="93" break="no"/>nes divine sunt huiusmodi et quodlibet positiuum 
+      <lb ed="#P" n="94"/>in deo / ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e1134">
+      ¶ Quarto quia non plus conueniunt 
+      <lb ed="#P" n="95"/>ex natura rei due relationes in diuinis ex natura 
+      <lb ed="#P" n="96"/>rei in aliquo communi quam due differentie indiuiduales 
+      <lb ed="#P" n="97"/>vltime / quia non minus sunt simpliciter simplices: et 
+      <lb ed="#P" n="98"/>iste in nullo conueniunt ex natura rei: nec in re / nec in 
+      <lb ed="#P" n="99"/>medio aliquo eis intrinseco / a quo possit abstrahi 
+      ali<lb ed="#P" n="100" break="no"/>quid eis commune: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e1150">
+      ¶ Ad rationem eorum dico quod 
+      <lb ed="#P" n="101"/>relatio non dicitur vniuoce de tribus relationibus 
+      v<lb ed="#P" n="102" break="no"/>quatuor nec est aliquid prime intentionis nisi 
+      signi<lb ed="#P" n="103" break="no"/>ficet istas relationes immediate et non aliquid 
+      come<lb ed="#P" n="104" break="no"/>e quod persona est vniuocum tri¬ 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e1161">
+               <lb ed="#P" n="105"/>¶ Alius dicii bus personis diuinis non 
+      <lb ed="#P" n="106"/>ex differentia aliqua reali: vel ex natura rei: siue ex 
+      <lb ed="#P" n="107"/>modo reali personarum: sed ex vnitate modi 
+      concipien<lb ed="#P" n="108" break="no"/>di: sicut aliquis homo quod est indiuiduum vagum 
+      <lb ed="#P" n="109"/>est vniuocum ad sortem et platonem: sicut etiam suo 
+      <lb ed="#P" n="110"/>modo dicebant de communitateipersone ad creatam et 
+      <lb ed="#P" n="111"/>increatam. Et est persona commune tribus personis 
+      <lb ed="#P" n="112"/>non autem vniuersale: quia non descendit in personas 
+      <lb ed="#P" n="113"/>nisi per conceptus rationis: et non per conceptus 
+      rea<lb ed="#P" n="114" break="no"/>lis: sicut commune ex natura rei est: vnde sicut 
+      indiui<lb ed="#P" n="115" break="no"/>duum vagum non abstrahit a sorteitate et 
+      platonei<lb ed="#P" n="116" break="no"/>tate et vnitate numerali hac et illa re: sed dicit 
+      om<lb ed="#P" n="117" break="no"/>nes indeterminate tamen et indistincte vno conceptu. 
+      Sic<lb ed="#P" n="118" break="no"/>et persona non abstrahit a patre in re nec a filio: nec 
+      <lb ed="#P" n="119"/>distinguit personas indeterminate 
+      <lb ed="#P" n="120"/>breuiter quod licet persona 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e1198">
+               <lb ed="#P" n="121"/>¶ Dico tamen sit nomen prime 
+      intentio<lb ed="#P" n="122" break="no"/>nis et quantum ad principale significatum / et quantum 
+      <lb ed="#P" n="123"/>ad connotatum: et dicat aliquid in deo ex natura rei: 
+      <lb ed="#P" n="124"/>quod persona quantum ad principale et formale secundum 
+      <lb ed="#P" n="125"/>est vniuocum tribus personis: et illud est negatio et 
+      <lb ed="#P" n="126"/>incommunicabilitas. Et hoc multofortius patet quam 
+      <lb ed="#P" n="127"/>de persona diuina et creata: sed dico quod quantum ad 
+      <lb ed="#P" n="128"/>positiua connotata / que sunt relationes personales / 
+      <lb ed="#P" n="129"/>non est vniuocum: sicut nec aliquid positiuum in deo ex¬ 
+      <!--313.xml-->
+       <pb ed="#P" n="150-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>natura rei / et eiusdem rationis est plurificabile in deo 
+      <lb ed="#P" n="2"/>sed est ex se hoc et se toto distinguitur ab alio: 
+      nichi<lb ed="#P" n="3" break="no"/>habens vniuocum commune cum ipso / et ita persona est 
+      <lb ed="#P" n="4"/>vniuocum formaliter et absolute loquendo: non autem 
+      <lb ed="#P" n="5"/>equiuocum nec analogum diuinis personis: quia ista 
+      <lb ed="#P" n="6"/>proprie non accipiuntur in nominibus ex 
+      connota<lb ed="#P" n="7" break="no"/>tis: sed ex principalibus et formalibus significatis 
+      <lb ed="#P" n="8"/>vel si aliquomodo improprie ex connotatis: tunc est 
+      <lb ed="#P" n="9"/>equiuocum / sicut etiam relatio: supposito quod relatio 
+      <lb ed="#P" n="10"/>dicat quid reale et sit nomen prime intentionis / 
+      simi<lb ed="#P" n="11" break="no"/>liter potest dici quod si persona connotat naturam in 
+      <lb ed="#P" n="12"/>tellectualem in qua subtrahit / quod quantum ad istud 
+      <lb ed="#P" n="13"/>connotatum non est vniuocum deo et creature saltem 
+      <lb ed="#P" n="14"/>vniuocatione reali: sed tribus personis diuinis 
+      ali<lb ed="#P" n="15" break="no"/>quo modo / licet non proprie videretur esse 
+      vniuoca<lb ed="#P" n="16" break="no"/>ri: quia natura intellectualis non solum est eiusdem 
+      <lb ed="#P" n="17"/>rationis in tribus: immo eadem singulariter. Et hec 
+      <lb ed="#P" n="18"/>de tertio articulo 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e1266">
+               <lb ed="#P" n="19"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="20"/>quod persona est nomen prime intentionis in diuinis 
+      <lb ed="#P" n="21"/>et conuenit persone incommunicabilitate ex natura 
+      <lb ed="#P" n="22"/>rei vt dictum est supra quantum ad principale 
+      sign<lb ed="#P" n="23" break="no"/>ficatum / licet non in aliquo reali positiuo 
+      connotato<lb ed="#P" n="24" break="no"/>nec oportet quod in illo conueniat. Unde dico quod 
+      con<lb ed="#P" n="25" break="no"/>munis est nomen prime intentionis / dato quod 
+      signifi<lb ed="#P" n="26" break="no"/>cata sua non conueniant in aliquo vno: quando dicit 
+      <lb ed="#P" n="27"/>distincta realiter non conueniunt in aliquo ex 
+      natu<lb ed="#P" n="28" break="no"/>ra rei / dictum est supra de hoc quantum ad positiua 
+      <lb ed="#P" n="29"/>quantum ad negatiua dico quod licet in ipsis no sit 
+      conue<lb ed="#P" n="30" break="no"/>nientia nec identitas: tamen aliquo modo est 
+      conue<lb ed="#P" n="31" break="no"/>nientia que possibilis est in negationibus que non 
+      <lb ed="#P" n="32"/>sunt in re per intellectum: eo modo quo dicimus quod 
+      <lb ed="#P" n="33"/>duo ceci conueniunt.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e1302">
+      ¶ Ad secundum dico quod 
+      pas<lb ed="#P" n="34" break="no"/>ticulare est nomen secunde intentionis relatum ad 
+      <lb ed="#P" n="35"/>vniuersale: nec est simile de persona vt dictum est 
+      su<lb ed="#P" n="36" break="no"/>pra.
+    </p>
+            <p xml:id="qrdBas-a96012-d1e1311">
+      ¶ Ad tertium dico quod persona de principali si 
+      <lb ed="#P" n="37"/>gnificato dicit aliquid negatiuum ex natura rei. non 
+      <lb ed="#P" n="38"/>autem aliquid positiuum. Dices quod non: quia 
+      nega<lb ed="#P" n="39" break="no"/>tio est ens rationis et precipue incommunicabilitas 
+      <lb ed="#P" n="40"/>sicut suum oppositum quod est communicabilitas 
+      <lb ed="#P" n="41"/>Dico quod incommunicabilitas personalis 
+      quidditati<lb ed="#P" n="42" break="no"/>ue non est ens rationis sed denominatiue tantum / l 
+      <lb ed="#P" n="43"/>cet communicabilitas sit ens rationis quidditatiue 
+      <lb ed="#P" n="44"/>quantumcunque sint opposita sicut etiam identitas / 
+      rela<lb ed="#P" n="45" break="no"/>tio rationis: et distinctio aliquorum est relatio 
+      rea<lb ed="#P" n="46" break="no"/>lis / vel negatio ex natura rei. Potest enim esse quod vnum 
+      <lb ed="#P" n="47"/>oppositorum conueniat alicui tantum per opus 
+      ra<lb ed="#P" n="48" break="no"/>tionis: sicut vniuersalitas homini: et negatio 
+      oppos<lb ed="#P" n="49" break="no"/>ta conueniat alicui ex natura rei: sicut non esse vni 
+      <lb ed="#P" n="50"/>uersale conuenit sorti ex natura rei / quia vniuersale 
+      <lb ed="#P" n="51"/>repugnat sibi: vel saltem sibi non potest conuenire 
+      </p>
+            <p xml:id="qrdBas-a96012-d1e1346">
+               <lb ed="#P" n="52"/>¶ Ad quartum dico quod nomen abstractum a 
+      singu<lb ed="#P" n="53" break="no"/>laribus bene est prime intentionis vt homo et animal 
+      <lb ed="#P" n="54"/>quando dicis quod tale non significat nisi ens rationis 
+      <lb ed="#P" n="55"/>falsum est / quando dicis quod non est abstractum nisi 
+      <lb ed="#P" n="56"/>secundum rationem / verum est in actu: sed natura si 
+      <lb ed="#P" n="57"/>gnificata abstrahibilis est / nec etiam nomen 
+      signi<lb ed="#P" n="58" break="no"/>ficat illam abstractionem sed naturam 
+      abstrahibi<lb ed="#P" n="59" break="no"/>lem: sic de persona suo modo quantum ad principi 
+      <lb ed="#P" n="60"/>le significatum negatiuum / non quantum ad 
+      posi<lb ed="#P" n="61" break="no"/>tiuum connotatum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

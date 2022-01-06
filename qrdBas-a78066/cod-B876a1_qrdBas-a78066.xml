@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="121-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a78066"><!-- l1d18q1 -->
+            <head xml:id="qrdBas-a78066-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a78066-d1e101">
+               <lb ed="#P" n="23"/>¶ Distinctionis Decimeoctaue Questio Unica 
+      <lb ed="#P" n="24"/>CIrca distinctionem 
+  </p>
+            <p xml:id="qrdBas-a78066-d1e108">
+               <lb ed="#P" n="25"/>Decimamoctauam. Quero vtrum 
+      <lb ed="#P" n="26"/>scilicet donum sit proprietas 
+      <lb ed="#P" n="27"/>spiritus sancti.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e117">
+      ¶ Uidetur quod 
+      <lb ed="#P" n="28"/>non. Quod est comune 
+      trini<lb ed="#P" n="29" break="no"/>tati non est proprium spiritur 
+      <lb ed="#P" n="30"/>sancto: sed donu est 
+      huiusmo<lb ed="#P" n="31" break="no"/>di / quod patet de filio Isave. 9 
+      <lb ed="#P" n="32"/>filius datus est nobis: ergo 
+      <lb ed="#P" n="33"/>et cetera. Similiter etiam dictum est supra quod tota 
+      <lb ed="#P" n="34"/>trinitas dat et datur decimoquinto de trinitate 
+      er<lb ed="#P" n="35" break="no"/>go etc.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e137">
+      ¶ Secundo sic. Illud quod dicit relationem 
+      <lb ed="#P" n="36"/>ad creaturam et ex tempore est commune: et per 
+      cons<lb ed="#P" n="37" break="no"/>quens non est proprium spiritui sancto. Sed donum 
+      <lb ed="#P" n="38"/>est huiusmodi / quia secundum Augustinum 
+      deci<lb ed="#P" n="39" break="no"/>moquinto de trinitate capitulo decimooctauo eo 
+      <lb ed="#P" n="40"/>est donum quod datum vel datur. Datui autem ex 
+      <lb ed="#P" n="41"/>tempore: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e154">
+      ¶ Tertio sic. Spiritus sanctus est 
+      <lb ed="#P" n="42"/>donum in quo omnia dona donantur. Ita quod per 
+      ip<lb ed="#P" n="43" break="no"/>sum dantur dona decimoquinto de trinitate 
+      capi<lb ed="#P" n="44" break="no"/>tulo decimoseptimo. Si ergo ipse esset donum 
+      do<lb ed="#P" n="45" break="no"/>naretur per seipsum et a seipso / et ita referretur ad 
+      <lb ed="#P" n="46"/>seipsum quod est falsum ergo etc.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e167">
+      ¶ Quarto sic. Eo 
+      <lb ed="#P" n="47"/>spiritus sanctus est donum quo deus secundum 
+      Hy<lb ed="#P" n="48" break="no"/>arium: sed esse deum non est proprium spiritui san 
+      <lb ed="#P" n="49"/>cto / ergo nec esse donum 
+      <lb ed="#P" n="50"/>quarto de trinitate capitulo vi¬ 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e178">
+               <lb ed="#P" n="51"/>¶ Contra gesimo. Spiritui sancto donum 
+      <lb ed="#P" n="52"/>esse est ipsum a patre filioque pro cedere: sed hoc est 
+      si<lb ed="#P" n="53" break="no"/>bi proprium ergo et donum. 
+      <lb ed="#P" n="54"/>In ista quaestione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e189">
+               <lb ed="#P" n="55"/>¶ Primo ostendam quid importatur nomine 
+      do<lb ed="#P" n="56" break="no"/>ni.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e196">
+      ¶ Secundo ostendam vtrum esse donum sit pro 
+      <lb ed="#P" n="57"/>prium spiritui sancto.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e201">
+      ¶ Tertio vtrum sit proprietas eius 
+      <lb ed="#P" n="58"/>constitutiua inesse personali.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e207">
+      ¶ Quarto ad rationes. 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e209">
+               <lb ed="#P" n="59"/>¶ Quantum ad primum dico 
+      bre<lb ed="#P" n="60" break="no"/>uiter quod donum in diuinis importat duplicem relatione 
+      <lb ed="#P" n="61"/>vnam realem et aliam rationis vel habitualem: nec dicit vtrum 
+      <lb ed="#P" n="62"/>que equaliter: quia tunc esset equiuocum: sed vnam dicit et signi¬ 
+      <!--254.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>ficat principaliter connotando aliam.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e227">
+      ¶ Secundo dico secundum 
+      <lb ed="#P" n="64"/>vsum Augustini principalius et primo significat 
+      re<lb ed="#P" n="65" break="no"/>lationem habitualem vel rationis / secundario ergo connotat 
+      <lb ed="#P" n="66"/>actualem realem: formaliter enim secundum ipsum dicitur donum 
+      <lb ed="#P" n="67"/>quia donabile. Unde donabilitas / vel respectus 
+      do<lb ed="#P" n="68" break="no"/>nabilitatis quae est habitualis respectus ad creaturam 
+      <lb ed="#P" n="69"/>et suum principale significatum: sed quia ista donabilitas 
+      <lb ed="#P" n="70"/>non conuenit nisi persone procedenti per modum amoris: quia 
+      <lb ed="#P" n="71"/>amor productus est primum donum: ideo donum comnotat 
+      <lb ed="#P" n="72"/>in diuinis relationem originis: scilicet producti per modum 
+      <lb ed="#P" n="73"/>amoris vt ad procedens. Donum enim dicit relationem 
+      <lb ed="#P" n="74"/>procedentis liberaliter quia est datio irredibilis alias 
+      <lb ed="#P" n="75"/>non est donum sed venditio vel redemptio / vel que 
+      <lb ed="#P" n="76"/>stus: vel aliquid 
+      huiusmodi<lb ed="#P" n="77" break="no"/>rit ad secundum dico quod donum et quam s 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e260">
+               <lb ed="#P" n="78"/>¶ Quantu it tum ad principale 
+      significa<lb ed="#P" n="79" break="no"/>tum et quantum ad connotatum est proprium spiritui sancto. 
+      Quan<lb ed="#P" n="80" break="no"/>tum ad connotatum patet / quia sibi est proprium quod procedat ri 
+      <lb ed="#P" n="81"/>modum amoris a patre et filio: sed hoc est connotatum 
+      <lb ed="#P" n="82"/>doni: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e273">
+      ¶ Secundum patet quia principale 
+      significa<lb ed="#P" n="83" break="no"/>tum est donabilitas / donabilitas autem patet quod sit 
+      re<lb ed="#P" n="84" break="no"/>spectus habitualis: tamen concernit in eo cui conuenit quod 
+      <lb ed="#P" n="85"/>procedat ab aliquo per modum amoris: et ideo est 
+      pro<lb ed="#P" n="86" break="no"/>prium spiritui sancto sicut et procedere: quare etc. 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e284">
+               <lb ed="#P" n="87"/>¶ Nota circa praesentem questionem quod magister primo 
+      <lb ed="#P" n="88"/>capitulo distinctionis videtur sentire cum Augustino 
+      <lb ed="#P" n="89"/>xy. de trini. in auctoritatibus quas allegat quod spiritus san 
+      <lb ed="#P" n="90"/>ctus formaliter donum est / quia procedit a patre et 
+      filio<lb ed="#P" n="91" break="no"/>sicut patet literam inspicienti: et per consequens donum 
+      prin<lb ed="#P" n="92" break="no"/>cipaliter et formaliter videtur significare processionem 
+      <lb ed="#P" n="93"/>spiritus sancti / vel aliquid procedens per modum 
+      amo<lb ed="#P" n="94" break="no"/>ris in diuinis connotando magis respectum 
+      donabi<lb ed="#P" n="95" break="no"/>litatis tanquam illud a quo nomen imponitur non cui nomen 
+      <lb ed="#P" n="96"/>imponitur vel ad quod significandum et per consequens donum quantum 
+      <lb ed="#P" n="97"/>ad relationem principaliter et formaliter significatam 
+      <lb ed="#P" n="98"/>diceret proprietatem constitutiuam spiritus sancti: non quantum 
+      <lb ed="#P" n="99"/>ad respectum donabilitatis sicut ben probabitur in 
+      praesen<lb ed="#P" n="100" break="no"/>ti quaestione.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e318">
+      ¶ Dicit enim Augustinus. xv. de tri. c. xx. 
+      <lb ed="#P" n="101"/>et ponitur in litera quod sicut natum esse est filio a patre 
+      es<lb ed="#P" n="102" break="no"/>se. Ita spiritui sancto est donum esse a patre filioque pro 
+      <lb ed="#P" n="103"/>cedere. Et similiter hoc datur intelligi in alia auctoritate 
+      <lb ed="#P" n="104"/>vbi dicitur quod in hoc nomine donum apparet relatio qua 
+      spi<lb ed="#P" n="105" break="no"/>ritus sanctus ad patrem et filium relatiue dicitur. Qui tamen 
+      vel<lb ed="#P" n="106" break="no"/>let tenere ea quae in quastione dicuntur diceret quod non 
+      inten<lb ed="#P" n="107" break="no"/>dit magiter et Augustinus sicut eis imponitur: sed sicut 
+      ibi<lb ed="#P" n="108" break="no"/>dem dicitur.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e338">
+      ¶ Ad auctoritatem vero primam Augustini qrgo 
+      <lb ed="#P" n="109"/>est magis apparens diceretur quod sicut natum esse est a patre 
+      <lb ed="#P" n="110"/>esse formaliter supra. Ita donum esse est a patre filioque pro 
+      <lb ed="#P" n="111"/>cedere non formaliter sed fundamentaliter: quia in processione 
+      <lb ed="#P" n="112"/>vel spiratione passiua fundatur donabilitas quam 
+      prin<lb ed="#P" n="113" break="no"/>cipaliter significat donum / et tunc lysicut vel silitudo 
+      <lb ed="#P" n="114"/>Augustini non tet per omnia. Ad aliam auctoritatem dicere 
+      <lb ed="#P" n="115"/>tur quod alia relatio spiritus sancti ad patrem et filium 
+      appa<lb ed="#P" n="116" break="no"/>ret in ho nomine non sicut principale et formale significa. um: 
+      <lb ed="#P" n="117"/>sed magis vt connotatum. quicquid sit de istis prima fronte 
+      magi<lb ed="#P" n="118" break="no"/>videtur primus modus de mente Augustini et 
+      Magistri<lb ed="#P" n="119" break="no"/>ad tertium dico sic quod est vna opi¬ 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e364">
+               <lb ed="#P" n="120"/>¶ Quantum nio aliquorum qui dixerunt aliquando quod 
+      <lb ed="#P" n="121"/>donum est proprietas constitutiua spiritus sancti in esse per 
+      <lb ed="#P" n="122"/>sonali. Primo quia sicut conuenit verbum. Ita spiritui 
+      <lb ed="#P" n="123"/>sancto conuenit donum sexto de trini. ca. xiiii. sed 
+      ver<lb ed="#P" n="124" break="no"/>bum dicit proprietatem constitutiuam filii: ergo 
+      do<lb ed="#P" n="125" break="no"/>num spiritus sancti.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e380">
+      ¶ Secundo quia per rationem doni 
+      distin<lb ed="#P" n="126" break="no"/>guitur spiritus sanctus a filio: quia vnus procedit qumo natus: 
+      <lb ed="#P" n="127"/>et alius quomodo datus: vel donum vt dictum est su¬ 
+      <!--255.xml-->
+       <pb ed="#P" n="121-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>pra: ergo praer esse donum constituitur in esse perso 
+      <lb ed="#P" n="2"/>nali.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e398">
+      ¶ Tertio sic. Quia esse donum sibi conuenit ab 
+      <lb ed="#P" n="3"/>eterno: sed non esse datum: sed spiritus sanctus ab 
+      eter<lb ed="#P" n="4" break="no"/>no non habet nisi vnam proprietatem et illa est 
+      con<lb ed="#P" n="5" break="no"/>stitutiua ergo et donum 
+      <lb ed="#P" n="6"/>ad hoc quod donum quantum ad re¬ 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e409">
+               <lb ed="#P" n="7"/>¶ Sed dico lationem habitualem quam 
+      impo<lb ed="#P" n="8" break="no"/>tat principaliter non est proprietas constitutiua spiritusctim 
+      <lb ed="#P" n="9"/>Secundo quod quantum ad relationem eternam et 
+      reale<lb ed="#P" n="10" break="no"/>quam connotat est proprietas spiritus sancti.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e421">
+      ¶ 
+      Pri<lb ed="#P" n="11" break="no"/>mum probo quadrupliciter. Primo sic. Ens reale se 
+      <lb ed="#P" n="12"/>cundum id quod est non constituitur per ens rationis 
+      <lb ed="#P" n="13"/>respectus ille habitualis vel est ens rationis vel 
+      sim<lb ed="#P" n="14" break="no"/>pliciter non ens: persona spiritus sancti est ens realem 
+      <lb ed="#P" n="15"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e434">
+      ¶ Secundo sic. Ens in actu non constituitur per 
+      <lb ed="#P" n="16"/>aliquid habituale vel potentiale: sed persona 
+      spiritu<lb ed="#P" n="17" break="no"/>sancti est ens in actu: ergo non constituitur per illam 
+      re<lb ed="#P" n="18" break="no"/>lationem habitualem quae est donabilitas.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e443">
+      ¶ Tertio 
+      <lb ed="#P" n="19"/>sic. Ens diminutum non est de formali ratione eius 
+      <lb ed="#P" n="20"/>quod est necesse esse et purus actus: relatio illa est ens 
+      di<lb ed="#P" n="21" break="no"/>minutum: quia secundum quid non necesse esse realiter / ergo 
+      <lb ed="#P" n="22"/>non est de formali ratione spiritus sancti.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e454">
+      ¶ Quar 
+      <lb ed="#P" n="23"/>to sic. Una persona simplex non constituitur in esse 
+      per<lb ed="#P" n="24" break="no"/>sonali nisi per vnam proprietatem relatiuam / non autem 
+      <lb ed="#P" n="25"/>per duas vt patet inducendo. Pater licet enim in 
+      se<lb ed="#P" n="26" break="no"/>habeat tres proprietates: puta innascibilitatem / 
+      pa<lb ed="#P" n="27" break="no"/>ternitatem / et spirationem actiuam. Similiter etiam filius 
+      <lb ed="#P" n="28"/>licet habeat duas / puta filiationem / et spirationem 
+      <lb ed="#P" n="29"/>actiuam / neuter tamen eorum constituitur nisi per vnam 
+      simpli<lb ed="#P" n="30" break="no"/>cem proprietatem. Puta pater per paternitatem / fili 
+      <lb ed="#P" n="31"/>per filiationem. Spiritus sanctus est vna persona 
+      sim<lb ed="#P" n="32" break="no"/>plex / et constituitur per spirationem passiuam que est 
+      re<lb ed="#P" n="33" break="no"/>latio ad producentes: sicut verbum per suam relatione 
+      <lb ed="#P" n="34"/>ad producentem / non ergo per illam donabilitatem / quia 
+      <lb ed="#P" n="35"/>est alia relatio ab illa vt patet quia habent distinctos 
+      <lb ed="#P" n="36"/>terminos: ergo etc. Confirmatur quia illa relatio 
+      ratio<lb ed="#P" n="37" break="no"/>nis est posterior / et ipsa circumscripta nichil minus 
+      con<lb ed="#P" n="38" break="no"/>stitueretur.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e491">
+      ¶ Secundum patet / quia per relationem 
+      comno<lb ed="#P" n="39" break="no"/>tatam a dono constituitur spiritus sanctus in esse 
+      persona<lb ed="#P" n="40" break="no"/>li: quia illa est spiratio passiua. Per spirationem 
+      au<lb ed="#P" n="41" break="no"/>tem passiuam constituitur spiritus sanctus sicut per 
+      ge<lb ed="#P" n="42" break="no"/>nerationem vel filiationem filius: quare etc 
+      <lb ed="#P" n="43"/>aliorum. Si intelligant 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e504">
+               <lb ed="#P" n="44"/>¶ Ad primum aliomodo dico quod non sio 
+      <lb ed="#P" n="45"/>omnino conuenit spiritui sancto donum sicut filio 
+      ver<lb ed="#P" n="46" break="no"/>bum: sic enim sibi conuenit quia proprie sibi conuenit si 
+      <lb ed="#P" n="47"/>cut filio verbum: sed ex alia parte non sic: quia donum 
+      <lb ed="#P" n="48"/>ex principali significato dicit respectum ad 
+      creatu<lb ed="#P" n="49" break="no"/>ram. Non autem verbum / sed relationem realem filii per 
+      <lb ed="#P" n="50"/>quam constituitur. Prima autem non potest esse 
+      constitu<lb ed="#P" n="51" break="no"/>tiua vt dictum est.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e525">
+      ¶ Per idem ad secundum: non enim 
+      per<lb ed="#P" n="52" break="no"/>hoc quod principaliter dicitur per donum spiritus sanctus 
+      <lb ed="#P" n="53"/>primo distinguitur a filio: sed bene per relationem que 
+      <lb ed="#P" n="54"/>connotatur.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e534">
+      ¶ Ad tertium dico quod relatio doni 
+      prin<lb ed="#P" n="55" break="no"/>cipaliter et si sit eterna non tamen est nisi rationis / 
+      <lb ed="#P" n="56"/>et ideo non potest esse constitutiua. Quando dicit quod 
+      <lb ed="#P" n="57"/>spiritus sanctus non habet nisi vnam proprietatem 
+      eter<lb ed="#P" n="58" break="no"/>nam. Dico quod verum est realem / et illa est constitut 
+      <lb ed="#P" n="59"/>ua et connotata: non tamen illa que rationis est tantum: 
+      <lb ed="#P" n="60"/>dato quod esset eterna sicut patet. 
+      </p>
+            <p xml:id="qrdBas-a78066-d1e550">
+               <lb ed="#P" n="61"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="62"/>quod donum non est commune toti trinitati / quando dicis 
+      <lb ed="#P" n="63"/>de filio quod est datus: dico quod verum est: sed dico quod non 
+      <lb ed="#P" n="64"/>est donum stricte accipiendo donum secundum intentionem 
+      <!--255.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>et modum vtendi Augustini. Dico enim quod datum non 
+      <lb ed="#P" n="66"/>connotat aliquam originem / vel respectum realem 
+      ori<lb ed="#P" n="67" break="no"/>ginis ipsius dati / sicut dictum est supra. Unde dico 
+      <lb ed="#P" n="68"/>quod licet vtendo communiter hoc nomine doni et dati 
+      pos<lb ed="#P" n="69" break="no"/>sit dici quod pater amans essentiam suam per voluntatem 
+      <lb ed="#P" n="70"/>suam det amorem essentialem ipsi essentie diliget 
+      <lb ed="#P" n="71"/>do ipsam: et similiter diligendo dat sibi amorem in 
+      <lb ed="#P" n="72"/>ratione obiecti: quia amans dat amorem dilecto. Si 
+      <lb ed="#P" n="73"/>militer filius ( cui pater communicat eandem 
+      volunta<lb ed="#P" n="74" break="no"/>tem quam habet diligendo essentiam ) dat amorem 
+      <lb ed="#P" n="75"/>essentie sicut obiecto / et dat sibi seipsum diligendo / 
+      <lb ed="#P" n="76"/>et etiam ipsi patri rependendo amorem / et postea 
+      pa<lb ed="#P" n="77" break="no"/>ter et filius producendo spiritum sanctum dant ipsum 
+      <lb ed="#P" n="78"/>Ita quod spiritus sanctus sit quoddam datum / et etiam 
+      <lb ed="#P" n="79"/>amor essentialis et breuiter tota trinitas. Non tamen 
+      <lb ed="#P" n="80"/>tota trinitas / nec pater / nec essentia / nec filius 
+      pro<lb ed="#P" n="81" break="no"/>prie possunt dici donum sicut dictum est supra quia 
+      <lb ed="#P" n="82"/>non procedunt realiter per modum amoris: sed 
+      spi<lb ed="#P" n="83" break="no"/>ritus sanctus tantum: et ideo proprie est donum / 
+      pro<lb ed="#P" n="84" break="no"/>prie dico in diuinis quia nulli conuenit nisi ibi.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e609">
+      ¶ Ad 
+      <lb ed="#P" n="85"/>secundum dico quod maior non est vniuersaliter vera. Ene enim 
+      <lb ed="#P" n="86"/>incarnatum dicit relationem ad creaturam / et tamen 
+      <lb ed="#P" n="87"/>non est commune tribus: sed est proprium filio / et ita 
+      <lb ed="#P" n="88"/>maior est falsa. Ad minorem quando dicis quod sic est 
+      <lb ed="#P" n="89"/>de dono: dico quod hoc posito nichil habes de 
+      intento<lb ed="#P" n="90" break="no"/>Tamen dico ad minorem quod non eo est donum quo 
+      da<lb ed="#P" n="91" break="no"/>tum. Est enim datum formaliter quia liberaliter 
+      con<lb ed="#P" n="92" break="no"/>municatum / et hoc potest communicare omnibus 
+      di<lb ed="#P" n="93" break="no"/>uinis: sed dico quod non eo est donum / sed eo est donum 
+      <lb ed="#P" n="94"/>sicut dictum est supra: quia est donabilis connotan 
+      <lb ed="#P" n="95"/>do realem respectum ad producentes: vel saltem 
+      ip<lb ed="#P" n="96" break="no"/>sius producti vel producentis realiter per modum 
+      <lb ed="#P" n="97"/>amoris: quod solum conuenit spiritui sancto in 
+      di<lb ed="#P" n="98" break="no"/>uinis.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e642">
+      ¶ Ad tertium dico quod spiritus sanctus est 
+      do<lb ed="#P" n="99" break="no"/>num in quo omnia dona donantur / hoc patet de 
+      do<lb ed="#P" n="100" break="no"/>nis creatis. Tu dicis ergo refertur ad seipsum: 
+      di<lb ed="#P" n="101" break="no"/>co quod non est inconueniens relatione rationis que est 
+      <lb ed="#P" n="102"/>dantis ad donum: vel econuerso. Et similiter tota 
+      <lb ed="#P" n="103"/>trinitas dat et datur.
+    </p>
+            <p xml:id="qrdBas-a78066-d1e655">
+      ¶ Ad quartum dico quod eo est 
+      <lb ed="#P" n="104"/>spiritus sanctus quo est donum non quantum ad 
+      prin<lb ed="#P" n="105" break="no"/>cipale significatum: sed quantum ad relationem 
+      conno<lb ed="#P" n="106" break="no"/>tatam que est processio realis per modum amoris. 
+      <lb ed="#P" n="107"/>Et ista idem est quod spiratio passiua. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

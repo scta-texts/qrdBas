@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="108-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a70082"><!-- l1d15q1 -->
+            <head xml:id="qrdBas-a70082-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a70082-d1e101">
+               <lb ed="#P" n="114"/>¶ Distinctionis Decimequinte Questio Unica. 
+  </p>
+            <p xml:id="qrdBas-a70082-d1e106">
+               <lb ed="#P" n="115"/>Irca distinctionem 
+      <lb ed="#P" n="116"/>Decimamquintam quaero vtrum 
+      quaelibs<lb ed="#P" n="117" break="no"/>persona diuina mittat et mittatur 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e115">
+               <lb ed="#P" n="118"/>¶ Uidetur quod sic quia quicquid est 
+      <lb ed="#P" n="119"/>essentia in diuinis est commune tribus 
+      <lb ed="#P" n="120"/>sed missio tam actiua quam passiua est 
+      <lb ed="#P" n="121"/>aliquid essentiale in diuinis: quia 
+      con<lb ed="#P" n="122" break="no"/>quenit eis in comparatione ad 
+      creatu<lb ed="#P" n="123" break="no"/>ram / ergo est commne: quare etc.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e131">
+      ¶ Secundo sic. Illud quod conuenit 
+      <lb ed="#P" n="124"/>diuinis personis ex tempure est commne tribus / sicut patet de 
+      crea<lb ed="#P" n="125" break="no"/>re: sed tam mittere quam mitti conuenit personis divinis ex tempus 
+      <lb ed="#P" n="126"/>vt patet etc.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e141">
+      ¶ Tertio sic. In Ioanne. xiiii. dicit salua 
+      <!--228.xml-->
+       <pb ed="#P" n="109-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tor de patre et seipso / ad deum ( inquit veniemus et mansionem 
+      <lb ed="#P" n="2"/>apud eum faciemus ergo pater mittitur et filius / et planum est quod 
+      <lb ed="#P" n="3"/>mittit / ergo mittere et mitti sibi conuenit: ergo et aliis. 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e157">
+               <lb ed="#P" n="4"/>¶ Quarto sic. Augustinus ad Dardanum dicit quod 
+      <lb ed="#P" n="5"/>quelibet persona dat et datur ergo similiter 
+      mitti<lb ed="#P" n="6" break="no"/>et mittitur. Quere plura de ista materia missionis 
+      <lb ed="#P" n="7"/>secundo de trinitate capitulo. 5. 6. et 17. et 4. de 
+      tri<lb ed="#P" n="8" break="no"/>nitate. c. vigesimo et vigesimoprimo. 
+      <lb ed="#P" n="9"/>Augustinus quarto de trinita¬ 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e173">
+               <lb ed="#P" n="10"/>¶ Contra te c. vigesimo. Pat cum ex 
+      tempo<lb ed="#P" n="11" break="no"/>re a quocumque percipitur et dicitur missus non enim 
+      <lb ed="#P" n="12"/>habet de quo sit aut a quo procedat / ergo non quelibet 
+      <lb ed="#P" n="13"/>persona mittitur.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e184">
+      ¶ Secundo sic. Uidetur pari 
+      ra<lb ed="#P" n="14" break="no"/>tione quod spiritus sanctus non mittat / quia sicut de 
+      pa<lb ed="#P" n="15" break="no"/>tre dicitur quod non habet a quo procedat. Ita dico quod 
+      <lb ed="#P" n="16"/>spiritus sanctus non habet quem producat vel qui ab ipso 
+      <lb ed="#P" n="17"/>procedat / ergo sicut pater non mittitur quia non 
+      ha<lb ed="#P" n="18" break="no"/>bet a quo procedat / ita spiritus sanctus non mittit 
+      <lb ed="#P" n="19"/>quia. non habet quem producat. 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e200">
+               <lb ed="#P" n="20"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e205">
+               <lb ed="#P" n="21"/>¶ Primo ostendam quid est missio: et qumo distingui 
+      <lb ed="#P" n="22"/>tur a processione / datione / et apparitione.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e213">
+      ¶ 
+      Secun<lb ed="#P" n="23" break="no"/>do inquiram vtrum quelibet persona mittat et mit 
+      <lb ed="#P" n="24"/>tatur / et qumo.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e220">
+      ¶ Tertio ad rationes. 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e222">
+               <lb ed="#P" n="25"/>¶ Quantum ad primum 
+      Di<lb ed="#P" n="26" break="no"/>co quod missio sic describitur. Missio est 
+      manifestatio<lb ed="#P" n="27" break="no"/>persone emanantis secundum id quod est per 
+      effecti<lb ed="#P" n="28" break="no"/>appropriatum illi persone per quam habetur sim 
+      <lb ed="#P" n="29"/>pliciter vel secundum quid vel ostenditur haberi 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e235">
+               <lb ed="#P" n="30"/>¶ Quo ad primum dico quod missio est manifestatio 
+      <lb ed="#P" n="31"/>quia ad hoc est missio vt per ipsam aliquid 
+      manifeste<lb ed="#P" n="32" break="no"/>tur: immo secundum istam descriptionem verius 
+      loquen<lb ed="#P" n="33" break="no"/>do ipsa missio manifestatio quadam est / et hoc est principa 
+      <lb ed="#P" n="34"/>le significatum missionis. Ista autem manifestatio 
+      siue<lb ed="#P" n="35" break="no"/>ex parte manifestantis actiue accepta / siue ex 
+      par<lb ed="#P" n="36" break="no"/>te persone manifestate accepta quasi passiue / non 
+      di<lb ed="#P" n="37" break="no"/>cit nisi respectum rationis vt patet. Sed subditur 
+      <lb ed="#P" n="38"/>quod persone emanantis et hoc est suum connotatum quod 
+      <lb ed="#P" n="39"/>se tenet ex parte persone misse / et connotatur a 
+      missio<lb ed="#P" n="40" break="no"/>ne passiua in persona cui conuenit missio ipsa passiua 
+      <lb ed="#P" n="41"/>Unde sicut dicetur infra. Nulla persona mittitur 
+      <lb ed="#P" n="42"/>nisi emanans ab alia / connotatur istud a missione 
+      actu<lb ed="#P" n="43" break="no"/>ua non in persona mittente: sed per se et vniuersali 
+      <lb ed="#P" n="44"/>ter in persona missa. Unde etiam diceretur quod 
+      quaeli<lb ed="#P" n="45" break="no"/>bet persona mittit licet non qualibet emanet vel 
+      mis<lb ed="#P" n="46" break="no"/>tatur. Sed additur per effectum: effectum dico 
+      in<lb ed="#P" n="47" break="no"/>generali non inuisibilis tantum nec sensibilis seu 
+      vi<lb ed="#P" n="48" break="no"/>sibilis tantum / sed vtrumque potest sibi competere. Sed 
+      di<lb ed="#P" n="49" break="no"/>citur quod per effectum sibi appropriatum persone 
+      mis<lb ed="#P" n="50" break="no"/>se: quia alias per illum effectum non manifestaretur 
+      <lb ed="#P" n="51"/>vna persona plusquam alia et debet sibi sic 
+      appropria<lb ed="#P" n="52" break="no"/>ri suo modo procedendi si sit notum istud sibi appro 
+      <lb ed="#P" n="53"/>priari: sicut de sapientia notum est quod appropriatur 
+      <lb ed="#P" n="54"/>verbo ex suo modo procedendi. Et de caritate quod 
+      ap<lb ed="#P" n="55" break="no"/>propriatur spiritui sancto ex suo modo procedendi. 
+      Se<lb ed="#P" n="56" break="no"/>quitur per quem habetur simpliciter scilicet persona 
+      mi<lb ed="#P" n="57" break="no"/>sa: et hoc est quando habetur persona per gratiam 
+      gra<lb ed="#P" n="58" break="no"/>tum facientem que facit hominem simpliciter 
+      acce<lb ed="#P" n="59" break="no"/>ptum deo et persone misse et mittenti: vel secundum 
+      <lb ed="#P" n="60"/>quid hoc dicitur in persona missa habet secundum quid 
+      <lb ed="#P" n="61"/>per aliquam gratiam gratis datam non gratum 
+      facien<lb ed="#P" n="62" break="no"/>tem sicut habuit Balaam: habuit enim aliquam 
+      pe<lb ed="#P" n="63" break="no"/>sonam diuinam sibi missam quando prophetauit su¬ 
+      <!--228.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>per castra insrael. Numerorum vigesimo quarto et 
+      si<lb ed="#P" n="65" break="no"/>miles que sine gratia gratum faciente habuerunt 
+      gra<lb ed="#P" n="66" break="no"/>tiam prophetie gratis datam. Sequitur vel osten 
+      <lb ed="#P" n="67"/>ditur haberi: quia non semper per missionem datur 
+      per<lb ed="#P" n="68" break="no"/>sona quasi inhabita prius vel quod perfectius 
+      habea<lb ed="#P" n="69" break="no"/>tur quam prius: sed tantum ostenditur haberi sicut 
+      fuis<lb ed="#P" n="70" break="no"/>de missione spirituf ancti visibili super christum in 
+      spe<lb ed="#P" n="71" break="no"/>cie columbe / qui tamen christus perfectissime et plenissime 
+      <lb ed="#P" n="72"/>prius habebat spiritum sanctum ante illam missionem.  
+      </p>
+            <p xml:id="qrdBas-a70082-d1e335">
+               <lb ed="#P" n="73"/>¶ Probo autem quod talis manifestatio est missio 
+      per<lb ed="#P" n="74" break="no"/>Augustinum quarto de trinitate ca. 20. Mitti est 
+      <lb ed="#P" n="75"/>cognosci esse ab alio vel manifestari.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e344">
+      ¶ Secundo 
+      <lb ed="#P" n="76"/>probant hoc aliqui per simile in exemplis in 
+      creatu<lb ed="#P" n="77" break="no"/>ris / aliquando omissum habet a mittente essentiam sicut 
+      <lb ed="#P" n="78"/>radius a sole / aliquando virtutem licet non essentiam sicut 
+      <lb ed="#P" n="79"/>spiculum vel iaculum a proiiciente: aliquando 
+      autcto<lb ed="#P" n="80" break="no"/>ritatiue vt nuncius a preceptore: sic in diuinis patam 
+      <lb ed="#P" n="81"/>quod persona manifesta esse ab alio habet a mittente 
+      <lb ed="#P" n="82"/>manifestantem essentiem vel esse: secundo virtutem: 
+      tertio<lb ed="#P" n="83" break="no"/>auctoritatem vel subauctoritatem ergo talis 
+      mani<lb ed="#P" n="84" break="no"/>festatio dici potest missio. Similiter etiam persona 
+      <lb ed="#P" n="85"/>missa habet distinctionem a mittente vel separatio 
+      <lb ed="#P" n="86"/>nem loco cuius in diuinis est emanatio persone 
+      mis<lb ed="#P" n="87" break="no"/>se a mittente. Secundo persona missa habet 
+      subie<lb ed="#P" n="88" break="no"/>ctionem respectu mittentis loco cuius in 
+      persona<lb ed="#P" n="89" break="no"/>diuina missa est principatio passiua a mittente. Si 
+      <lb ed="#P" n="90"/>militer persona missa in creaturis habet 
+      operatio<lb ed="#P" n="91" break="no"/>nem aliquam et aliquid facit si mittitur / loco cuius 
+      <lb ed="#P" n="92"/>in diuina persona missa est facere aliquem nouum effe 
+      <lb ed="#P" n="93"/>ctum in creatura ad quam mittitur / et ita dicitur per 
+      <lb ed="#P" n="94"/>sona diuina mitti. Sicut etiam persona missa per 
+      sua<lb ed="#P" n="95" break="no"/>missionem manifestatur per suum effectum qui de 
+      <lb ed="#P" n="96"/>nouo sit prius. 
+      <lb ed="#P" n="97"/>Ista deductio non est consona¬  
+      </p>
+            <p xml:id="qrdBas-a70082-d1e395">
+               <lb ed="#P" n="98"/>¶ Contra dictis Magistri in litera dicit  
+      <lb ed="#P" n="99"/>enim cum Augustino quod spiritus sanctus mittit se et 
+      <lb ed="#P" n="100"/>filius mittit se / si ergo persona missa vel missio 
+      pas<lb ed="#P" n="101" break="no"/>siua dicit relationem realem emanationis ad 
+      perso<lb ed="#P" n="102" break="no"/>nam mittentem / sequitur quod eadem persona originatur 
+      <lb ed="#P" n="103"/>a seipsa et emanat ad seipsam refertur realiter quod 
+      <lb ed="#P" n="104"/>est falsum / vel nulla persona potest mittere se cuius 
+      <lb ed="#P" n="105"/>oppositum dicit Magister. Predicta autem 
+      dedu<lb ed="#P" n="106" break="no"/>ctio ponit quod persone misse conuenit emanatio et 
+      princi<lb ed="#P" n="107" break="no"/>piatio passiua vel subauctoritas respectu 
+      mitten<lb ed="#P" n="108" break="no"/>tis: ideo non est conueniens.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e421">
+      ¶ Ideo dico quod 
+      predi<lb ed="#P" n="109" break="no"/>cta similitudo stat quantum ad hoc quod persona missa 
+      ha<lb ed="#P" n="110" break="no"/>bet / essentiam virtutem et subauctoritatem et principia 
+      <lb ed="#P" n="111"/>tionem passiuam et distinctionem realem ab aliquo sed 
+      <lb ed="#P" n="112"/>non oportet quod a mittente vt mittens est: quia 
+      nulla<lb ed="#P" n="113" break="no"/>persona posset esse mittens seipsam: sed ab aliqua 
+      <lb ed="#P" n="114"/>persona diuina a qua originatur. Et sic dico quod 
+      per<lb ed="#P" n="115" break="no"/>sona que manifestatur sic procedere et originari ab 
+      <lb ed="#P" n="116"/>aliqua persona ipsa mittitur et sibi conuenit missio passiua. 
+      <lb ed="#P" n="117"/>secundum quomode 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e443">
+               <lb ed="#P" n="118"/>¶ Quantum ad differt nisio a 
+      proces<lb ed="#P" n="119" break="no"/>sione datione et apparitione: est aduertendum quod ad 
+      <lb ed="#P" n="120"/>missionem passiuam persone divine requiritur primo 
+      <lb ed="#P" n="121"/>modo quod persona missa sit procedens et originata 
+      al<lb ed="#P" n="122" break="no"/>aliqua persona. Unde et pater qui non originatur nun 
+      <lb ed="#P" n="123"/>quam legitur nec dicitur missus secundum Augustinum 
+      <lb ed="#P" n="124"/>quarto de trini. c. 20. et. 21. Secundo requiritur quod 
+      per<lb ed="#P" n="125" break="no"/>sona que dicitur mitti sit nouo modo essendi in 
+      crea<lb ed="#P" n="126" break="no"/>tura quantum ad aliquem effectum nouum in creatura 
+      <lb ed="#P" n="127"/>Tertio oportet quod effectus ille sit representatiuus 
+      <lb ed="#P" n="128"/>modi originandi vel originis ipsius persone misse 
+      <!--229.xml-->
+       <pb ed="#P" n="109-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Unde non in quocunque nouoeffectum dicitur 
+      miti<lb ed="#P" n="2" break="no"/>aliqua persona diuina proprie loquendo licet 
+      commu<lb ed="#P" n="3" break="no"/>niter possit dici.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e482">
+      ¶ Dico ergo quod missio differt a 
+      pro<lb ed="#P" n="4" break="no"/>cessione sicut minus commune a magis communi quia 
+      pro<lb ed="#P" n="5" break="no"/>cessio communis est ad temporalem et eternam: missio 
+      <lb ed="#P" n="6"/>autem non est nisi temporalis / filius et spiritus sanctus 
+      <lb ed="#P" n="7"/>licet eternaliter procedant non tamen nisi 
+      temporali<lb ed="#P" n="8" break="no"/>ter mittuntur.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e495">
+      ¶ Secundo differt a datione: quia 
+      da<lb ed="#P" n="9" break="no"/>tio non dicit originem persone date sicut misio vel 
+      <lb ed="#P" n="10"/>processio: ita quod patri et toti trinitati conuenit dari 
+      <lb ed="#P" n="11"/>licet sibi non conueniat procedere nec mitti quia nec 
+      or<lb ed="#P" n="12" break="no"/>ginari: conuenit tamen missio cum processione et datione 
+      <lb ed="#P" n="13"/>et apparitione: quia connotat effectum nouum in 
+      creatu<lb ed="#P" n="14" break="no"/>ra sicut et alie tres.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e511">
+      ¶ Differt enim missio ab appar 
+      <lb ed="#P" n="15"/>tione quia missio connotat in persona missa originem 
+      <lb ed="#P" n="16"/>ab alia non autem apparitio. Et per hoc differt etiam 
+      <lb ed="#P" n="17"/>apparitio a processione temporali. Sed qumo differi 
+      <lb ed="#P" n="18"/>datio ab aparitione dico quod per hoc differunt quia 
+      <lb ed="#P" n="19"/>datio connotat effectum nouum in creatura cui datur 
+      <lb ed="#P" n="20"/>saltem de lege communi / sed apparitio non: sed solum 
+      <lb ed="#P" n="21"/>effectum nouum qui representet personam apparentem 
+      <lb ed="#P" n="22"/>sicut fuit in tribus corporibus assumptis ab angelis 
+      <lb ed="#P" n="23"/>in quorum vna apparuit patri Abrahe sicut dici 
+      <lb ed="#P" n="24"/>tur in Genesi. Differt etiam ab aliis tribus ipsa 
+      al<lb ed="#P" n="25" break="no"/>paritio quia semper oportet quod fiat in aliquo signo 
+      sen<lb ed="#P" n="26" break="no"/>sibili non sic de aliis. 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e541">
+               <lb ed="#P" n="27"/>¶ Quantum ad secundum 
+      a<lb ed="#P" n="28" break="no"/>ticulum diceret aliquis quod mittere et mitti est 
+      commu<lb ed="#P" n="29" break="no"/>ne tribus / ita quod quelibet persona mittitur et mittit: vel 
+      <lb ed="#P" n="30"/>quod neutrum est commune.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e552">
+      ¶ Ad hoc adducuntur ratio 
+      <lb ed="#P" n="31"/>nes que probant quod mitti est commune sicut et 
+      mitte<lb ed="#P" n="32" break="no"/>re / vel quod neutrum est commune tribus: mitti non dici 
+      <lb ed="#P" n="33"/>respectum nisi ad deum cui aliquid mittitur vel ad 
+      <lb ed="#P" n="34"/>mittentem / si accipiatur respectus primus: planum est 
+      <lb ed="#P" n="35"/>quod est communis tribus / quia est respectus rationis ad 
+      ex<lb ed="#P" n="36" break="no"/>tra. Secundus respectus autem est realis aut 
+      ratio<lb ed="#P" n="37" break="no"/>nis: si rationis tantum ita potest esse patris ad filium 
+      <lb ed="#P" n="38"/>sicut econuerso / sicut pater potest etiam dare et 
+      dar<lb ed="#P" n="39" break="no"/>nulla enim videtur repugnantia. Si vero mitti dicat 
+      <lb ed="#P" n="40"/>respectum realem ad mittentem tunc mittere non est 
+      <lb ed="#P" n="41"/>essentiale nec conuenit spiritui sancto quia ab ipso nulla 
+      <lb ed="#P" n="42"/>persona originatur. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e581">
+      ¶ Secundo sic. 
+      Mit<lb ed="#P" n="43" break="no"/>te re et mitti videntur idem significare / sicut 
+      intelli<lb ed="#P" n="44" break="no"/>gere et intelligi licet differat quantum ad modum 
+      gram<lb ed="#P" n="45" break="no"/>maticales actiui et passiui: ergo si mitti connotat 
+      ali<lb ed="#P" n="46" break="no"/>quem respectum realem ad intra puta produci / 
+      si<lb ed="#P" n="47" break="no"/>militer mittere connotabit aliquem puta 
+      producere<lb ed="#P" n="48" break="no"/>et tta filius nunquam mittet se nec spiritus sanctus mitter 
+      <lb ed="#P" n="49"/>se nec filium.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e599">
+      ¶ Tertio sic. Mittere et mitti viden 
+      <lb ed="#P" n="50"/>tur dicere relationes oppositas et similiter produce 
+      <lb ed="#P" n="51"/>re et produci et econuerso ergo a transmutata 
+      propor<lb ed="#P" n="52" break="no"/>tione sicut mitti ad produci ita mittere ad 
+      produce<lb ed="#P" n="53" break="no"/>re si ergo vnum non includit producere nec alterum 
+      <lb ed="#P" n="54"/>includit produci. Probant ergo iste rationes quod sicut 
+      <lb ed="#P" n="55"/>mittere est commune tribus et essentiale ad extra sicut 
+      <lb ed="#P" n="56"/>creare suo modo: ita et mitti per correspondentian 
+      <lb ed="#P" n="57"/>actiui ad passiuum. vel si mitti est notionale quod etiam 
+      <lb ed="#P" n="58"/>mitteri.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e621">
+      ¶ Dicunt ergo quod secundum Augustinum. 4 
+      <lb ed="#P" n="59"/>de trinitate vbi supra. et secundo de trinitate. ca. 5. et eo 
+      <lb ed="#P" n="60"/>dem secundo capimnlo. 12. in fine. Pater non 
+      dicitu<lb ed="#P" n="61" break="no"/>missus Oportet quod mitti ad hoc quod dicit respectum 
+      <lb ed="#P" n="62"/>ad extra et connotet processionem ad intra / et tunc 
+      rationa<lb ed="#P" n="63" break="no"/>bile videtur consimiliter de mittere: quia licet mittere 
+      <lb ed="#P" n="64"/>dicat principaliter respectum rationis ad extra tamen 
+      <!--229.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>connotat respectum productionis realis actiue 
+      res<lb ed="#P" n="66" break="no"/>pectu alicuius persone / et sic neutrum erit 
+      mere<lb ed="#P" n="67" break="no"/>essentiale: sed si mitti tantum conueniet personis 
+      produ<lb ed="#P" n="68" break="no"/>centibus primum conueniet filio et spiritui sancto et 
+      <lb ed="#P" n="69"/>nunquam patri / secundum conueniet tantum patri et filio et 
+      <lb ed="#P" n="70"/>nunquam spiritui sancto / nec aliqua persona mittet 
+      se<lb ed="#P" n="71" break="no"/>ipsam / nec pecrsona producta producentem. 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e656">
+               <lb ed="#P" n="72"/>¶ Adducitur exemplum ad hoc quia si pater dici 
+      <lb ed="#P" n="73"/>tur creare per verbum et similiter filius posset dici 
+      <lb ed="#P" n="74"/>creare per spiritum sanctum sed non econuerso / quia 
+      <lb ed="#P" n="75"/>creare licet dicat respectum rationis ad extra 
+      puta<lb ed="#P" n="76" break="no"/>actionem / tamen non absolute sed cum auctoritate 
+      <lb ed="#P" n="77"/>et ita connotat productionem actiuam in persona 
+      ope<lb ed="#P" n="78" break="no"/>rante respectu illius persone per quam subauctori 
+      <lb ed="#P" n="79"/>tatiue operatur: ita posset dici quod mittere personam 
+      <lb ed="#P" n="80"/>est propter operari per eam aliquem effectum extra 
+      <lb ed="#P" n="81"/>manifestatiuum persone misse / et ita operari per eam 
+      <lb ed="#P" n="82"/>per modum auctoritatis dantis illi persone 
+      actio<lb ed="#P" n="83" break="no"/>nem / quod tantum conuenit persone producenti respectu pro 
+      <lb ed="#P" n="84"/>ducte / et hoc diceret ipsum mittere. Mitti autem 
+      dice<lb ed="#P" n="85" break="no"/>ret idem quod subautentice operari virtute persone 
+      mit<lb ed="#P" n="86" break="no"/>tentis quod non est nisi persone producte.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e692">
+      ¶ Ad illud 
+      <lb ed="#P" n="87"/>vero quod adducit Magister quod spiritus sanctus 
+      mit<lb ed="#P" n="88" break="no"/>tit filium et filius seipsum. Respondet quod hoc debe 
+      <lb ed="#P" n="89"/>intelligi secundum humanitatem de filio iam 
+      incan<lb ed="#P" n="90" break="no"/>nato / non autem de filio incarnando. Ad rationem 
+      vere<lb ed="#P" n="91" break="no"/>magistri quam adducit per se: respondet quod non 
+      sequi<lb ed="#P" n="92" break="no"/>tur si filius non mitteret se / nec spiritus sanctus non 
+      mit<lb ed="#P" n="93" break="no"/>teret filium / vel si quelibet persona non mitteret 
+      per<lb ed="#P" n="94" break="no"/>sonam missam / quod pater operaretur aliquid in 
+      creatu<lb ed="#P" n="95" break="no"/>ra quod non filius vel spiritus sanctus / sed est fallacia 
+      fi<lb ed="#P" n="96" break="no"/>gure dictionis committendo quid in qualiter vel in qumo. 
+      <lb ed="#P" n="97"/>Pater enim operaretur in creatura non qualiter 
+      fi<lb ed="#P" n="98" break="no"/>lius: quia pater auctoritate mittendo actiue: et filius 
+      <lb ed="#P" n="99"/>subauctentice mittendo passiue. 
+      <lb ed="#P" n="100"/>michi dicendum cum 
+      ma<lb ed="#P" n="101" break="no"/>Sed hidetum et gistro quia 
+      auctorita<lb ed="#P" n="102" break="no"/>tes Augustini videntur ad oppositum predictorum 
+      <lb ed="#P" n="103"/>Unde et ipse Augustinus intelligit quod missio ipsa vi 
+      <lb ed="#P" n="104"/>sibilis filii fuit incarnatio eius / et tamen quod misserit 
+      seip<lb ed="#P" n="105" break="no"/>sum / et quod spiritus sanctus miserit eum sicut dicetur infra 
+      <lb ed="#P" n="106"/>Et sic patet oppositum secundum Augustinum.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e738">
+      ¶ Dico 
+      <lb ed="#P" n="107"/>igitur primo cum Mgsto quod mittere est essentiale et 
+      <lb ed="#P" n="108"/>commune tribus personis diuinis. Cuius ratio est quia 
+      <lb ed="#P" n="109"/>mittere est manifestare effectiue personam 
+      aliquan<lb ed="#P" n="110" break="no"/>esse vel originari ab alia causando effectum aliquem 
+      <lb ed="#P" n="111"/>in creatura representatiuum persone misse quantum 
+      <lb ed="#P" n="112"/>ad ipsum modum originandi: sed hoc conuenit tribus 
+      <lb ed="#P" n="113"/>personis quia opera trinitatis ad extra sunt indiuisa 
+      <lb ed="#P" n="114"/>in ratione actiui secundo de trinitate. et quarto 
+      eiu<lb ed="#P" n="115" break="no"/>dem capitulo. 21. Alias autem sequeretur quod dicit 
+      ma<lb ed="#P" n="116" break="no"/>gister quod aliquid causaret aliqua persone quod non alia 
+      <lb ed="#P" n="117"/>quia mittere est talem effectum causare absolute 
+      lo<lb ed="#P" n="118" break="no"/>quendo secundum vsum augustini et sanctorum. 
+      vnde<lb ed="#P" n="119" break="no"/>non valetilla solutio prius data per fallaciam 
+      figu<lb ed="#P" n="120" break="no"/>re dionnis mittere non dicit operari auctentice tantum 
+      <lb ed="#P" n="121"/>sed absolute: ergo mittere est commune et essentiale 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e773">
+               <lb ed="#P" n="122"/>¶ Secundo per auctoritatem Augustini quam 
+      po<lb ed="#P" n="123" break="no"/>nit Magister in litera secundo de trinitate 
+      capitu<lb ed="#P" n="124" break="no"/>lo quinto vbi dicit eoipso missum filium a patre quo e 
+      <lb ed="#P" n="125"/>factum ex muliere. Et sequitur proinde mitti a 
+      pa<lb ed="#P" n="126" break="no"/>tre siue spiritu sancto non potuit eo quod intelligitur 
+      <lb ed="#P" n="127"/>misisse eum cum facit ex femina quod vtique siue 
+      spiri<lb ed="#P" n="128" break="no"/>tu sancto facere non potuit et in eodem 
+      librolcapi<lb ed="#P" n="129" break="no"/>tulo eodem dicit quod filius seipsum dedit et misit sicut 
+      <!--230.xml-->
+       <pb ed="#P" n="110-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>seipsum sanctificauit. Iuxta illud Ioannis decimose 
+      <lb ed="#P" n="2"/>ptimo. Ego pro illis sanctifico meipsum / ergo patet 
+      <lb ed="#P" n="3"/>quod mittere est commune et essentiale.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e806">
+      ¶ Secundo dico 
+      <lb ed="#P" n="4"/>de mitti quod est notionale tantum conueniens duabus 
+      per<lb ed="#P" n="5" break="no"/>sonis productis nunquam autem ipsi patri / et mitti secundum 
+      Au<lb ed="#P" n="6" break="no"/>gustinum. 20. de trinitate et. 4 in capitulis 
+      pluri<lb ed="#P" n="7" break="no"/>bus / est manifestari personam esse ab alia et produci: 
+      <lb ed="#P" n="8"/>sed tantum sunt due persone producte. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e819">
+               <lb ed="#P" n="9"/>¶ Secundo sic. quia secundo de trinitate capitulo. 5. 
+      <lb ed="#P" n="10"/>Pater nunquam legitur missus nec sibi conuenit mitti 
+      <lb ed="#P" n="11"/>quia non habet a quo procedat. ergo etc.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e828">
+      ¶ Unde dico 
+      <lb ed="#P" n="12"/>quod mittere est mere essentiale / non significans nec 
+      com<lb ed="#P" n="13" break="no"/>notans aliquem respectum realem in mittente ad 
+      ali<lb ed="#P" n="14" break="no"/>quam personam / sed tantum significans respectum 
+      ratio<lb ed="#P" n="15" break="no"/>nis qui est respectus manifestantis per 
+      productio<lb ed="#P" n="16" break="no"/>nem vel causationem alicuius effectus representantis  
+      <lb ed="#P" n="17"/>personam missam. Et ideo dico quod quelibet persona 
+      <lb ed="#P" n="18"/>mittit personam ipsam / ita quod eadem seipsam producta 
+      pro<lb ed="#P" n="19" break="no"/>ducentem et producens productam / sicut filius seipsum 
+      <lb ed="#P" n="20"/>similiter spiritus sanctus seipsum / spiritus sanctus filium / 
+      fi<lb ed="#P" n="21" break="no"/>lius spiritum sanctum / et pater vtrumque. Mitti vero 
+      di<lb ed="#P" n="22" break="no"/>cit respectum rationis qui est respectus manifestati per 
+      <lb ed="#P" n="23"/>effectum respectu manifestantis actiue causando 
+      effe<lb ed="#P" n="24" break="no"/>ctum / vel etiam ad ipsum effectum qui manifestat 
+      obie<lb ed="#P" n="25" break="no"/>ctiue aliquo modo quasi speculum / et connotat in 
+      perso<lb ed="#P" n="26" break="no"/>na missa quod procedat et producatur originaliter ab 
+      ali<lb ed="#P" n="27" break="no"/>qua alia / et ideo est notionale conueniens tantum perso 
+      <lb ed="#P" n="28"/>nis duabus productis scilicet filio et spiritui sancto. 
+      <lb ed="#P" n="29"/>Et est ad hoc conueniens exemplum de mittere et mit 
+      <lb ed="#P" n="30"/>ti siue de incarnare et incarnari. Patet quia 
+      incarna<lb ed="#P" n="31" break="no"/>re est commune toti trinitati et incarnari est quid 
+      no<lb ed="#P" n="32" break="no"/>tionale conueniens tantum filio. 
+      <lb ed="#P" n="33"/>2 Dico ad pri¬ 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e879">
+               <lb ed="#P" n="34"/>¶ Ad rationes alio. et mam quod 
+      nita<lb ed="#P" n="35" break="no"/>ti dicit formaliter respectum rationis ad mittentem 
+      <lb ed="#P" n="36"/>formalitersed connotat cum hoc respectum realem 
+      pro<lb ed="#P" n="37" break="no"/>ducti non ad mittentem sed ad aliquam personam a qua 
+      <lb ed="#P" n="38"/>pducitur / et tunc non sequitur quin mittere sit 
+      essen<lb ed="#P" n="39" break="no"/>tiale non autem notionale. Et sequitur quod mitti non 
+      <lb ed="#P" n="40"/>est essentiale et quod eadem persona poterit mittere 
+      seip<lb ed="#P" n="41" break="no"/>sam / vel producta producentem / vel producens productum 
+      <lb ed="#P" n="42"/>sicut dictum est supra.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e901">
+      ¶ Ad secundum dico quod act 
+      <lb ed="#P" n="43"/>uum et passiuum non idem significant de significato 
+      <lb ed="#P" n="44"/>principali aliquando cum sub aliquo modo 
+      generali<lb ed="#P" n="45" break="no"/>eodem puta verbi / tamen variantur per modos 
+      specia<lb ed="#P" n="46" break="no"/>les actiui et passiui et vnum potest aliud connotare 
+      <lb ed="#P" n="47"/>quod non aliud comnotat aut non oportet variari 
+      si<lb ed="#P" n="48" break="no"/>cut actiuum et passiuum. Ita quod sicut passiuum 
+      con<lb ed="#P" n="49" break="no"/>notat aliquod in actiuo vel etiam in passiuo quod actiuum 
+      <lb ed="#P" n="50"/>connotet illud cum modo opposito sicut patet de 
+      sci<lb ed="#P" n="51" break="no"/>re ignem calefacere / et sciri ignem calefacere. 
+      Simili<lb ed="#P" n="52" break="no"/>ter dicis in proposito quod mitti potest aliquid 
+      comno<lb ed="#P" n="53" break="no"/>tare in passiuo puta producti. Ita mittere siue 
+      mani<lb ed="#P" n="54" break="no"/>festare produci / et hoc est verum / et potest hoc 
+      queli<lb ed="#P" n="55" break="no"/>bet persona sicut etiam potest causare effectum 
+      ma<lb ed="#P" n="56" break="no"/>nifestatiuum persone producte.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e934">
+      ¶ Ad tertium per idem 
+      <lb ed="#P" n="57"/>dico quod mittere et mitti quantum ad sua significata 
+      di<lb ed="#P" n="58" break="no"/>cunt relationes oppositas rationis. Sed dico quod 
+      ex<lb ed="#P" n="59" break="no"/>vsu doctorum mitti connotat produci non autem mittere 
+      <lb ed="#P" n="60"/>connotat producere et ideo deficit proportio. Ad hoc 
+      <lb ed="#P" n="61"/>mouentur doctores non ex natura rei. sed ex scriptu 
+      <lb ed="#P" n="62"/>ra quia nunquam inueniunt patrem mitti / et inueniunt 
+      <lb ed="#P" n="63"/>tres personas mittere. ideo etc. Ad exemplum alio 
+      <lb ed="#P" n="64"/>rum in quo innuunt rationem quod mittere est operari / 
+      <lb ed="#P" n="65"/>sed nichil operatur per seipsum sed per aliud sicut pa 
+      <!--230.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>ter per verbum. Dico quod mittere non est operari per 
+      <lb ed="#P" n="67"/>personam missam sic quod mittenti conueniat operari 
+      au<lb ed="#P" n="68" break="no"/>tentice et persone misse subautentice / sicut ymaginam 
+      <lb ed="#P" n="69"/>tur sed mittere est operari quod quidem no dicit 
+      au<lb ed="#P" n="70" break="no"/>ctoritatem persone super personam: sed persone 
+      su<lb ed="#P" n="71" break="no"/>per effectum causatum. 
+      </p>
+            <p xml:id="qrdBas-a70082-d1e973">
+               <lb ed="#P" n="72"/>¶ Ad primum principale 
+      di<lb ed="#P" n="73" break="no"/>co quod non omnis respectus conueniens deo ex 
+      tempo<lb ed="#P" n="74" break="no"/>re ( si ponatur aliquis talis ) non est conamunis tribus 
+      <lb ed="#P" n="75"/>personis praecipue quando connotat aliquem respectum 
+      <lb ed="#P" n="76"/>realem intrinsecum sicut est mitti: patet etiam de 
+      in<lb ed="#P" n="77" break="no"/>carnari.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e989">
+      ¶ Ad secundum dico quod creare conuenit cui 
+      <lb ed="#P" n="78"/>libet persone non tamen mitti propter rationem 
+      immedia<lb ed="#P" n="79" break="no"/>te dictam.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e996">
+      ¶ Ad tertium dico quod pater inhabitat 
+      <lb ed="#P" n="80"/>inuisibiliter mentem et aliquando apparet / sicut 
+      Abra<lb ed="#P" n="81" break="no"/>de et Ioamni baptiste in voce protestante filium: et 
+      simi<lb ed="#P" n="82" break="no"/>liter apostolis in transfiguratione / non tamen missus 
+      <lb ed="#P" n="83"/>est quia secundum Augustinum non habet de quo 
+      pro<lb ed="#P" n="84" break="no"/>cedat.
+    </p>
+            <p xml:id="qrdBas-a70082-d1e1010">
+      ¶ Ad quartum dico quod quelibet persona dat et 
+      <lb ed="#P" n="85"/>patur / non tamen mittit et mittitur propter differentiam 
+      <lb ed="#P" n="86"/>que dicta est supra inter dationem et missionem dare 
+      <lb ed="#P" n="87"/>et dari: dari enim non dicit nisi liberaliter alteri 
+      com<lb ed="#P" n="88" break="no"/>municari. Sed mitti connotat respectum realem 
+      in<lb ed="#P" n="89" break="no"/>trinsecum quem non connotat dari. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

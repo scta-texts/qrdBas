@@ -1,0 +1,966 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="15-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-ae9495"><!-- l1prolq4 -->
+            <head xml:id="qrdBas-ae9495-Hd1e99">Quaestio 4</head>
+            <p xml:id="qrdBas-ae9495-d1e101">
+               <lb ed="#P" n="86"/>¶ Quarta questio prologalis seu 
+      in<lb ed="#P" n="87" break="no"/>troductoria in Primum sententiarum. 
+  </p>
+            <p xml:id="qrdBas-ae9495-d1e108">
+               <lb ed="#P" n="88"/>QUarto quaero utrum 
+      <lb ed="#P" n="89"/>deus sit subiectum theologie per 
+      <lb ed="#P" n="90"/>propriam rationem diuinitatis  
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e117">
+               <lb ed="#P" n="91"/>¶ Et arguitur primo quod non: quia 
+      <lb ed="#P" n="92"/>cientie specialis debet esse 
+      sub<lb ed="#P" n="93" break="no"/>iectum sub ratione speciali et 
+      con<lb ed="#P" n="94" break="no"/>tracta / sicut scientie communis 
+      <lb ed="#P" n="95"/>q debet esse subiectum sub 
+      ratio<lb ed="#P" n="96" break="no"/>ne generali et absoluta: sed ratio diuinitatis non est 
+      <lb ed="#P" n="97"/>ratio contracta: sed magis absoluta: ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e135">
+      ¶ 
+      Secun<lb ed="#P" n="98" break="no"/>do sic. Nobilissima scientia debet habere subiectum 
+      <lb ed="#P" n="99"/>sub ratione nobilissima: sed hec est ratio bonitatis  
+      <lb ed="#P" n="100"/>et non ratio diuinitatis: quia ratio bonitatis et ratio 
+      fi<lb ed="#P" n="101" break="no"/>nis idem dicitur. Bonum enim et finis idem. 2. 
+      metaphi<lb ed="#P" n="102" break="no"/>sice. Quod autem ratio finis sit nobilissima patet per 
+      Aui<lb ed="#P" n="103" break="no"/>cemnam 6. metaphisice qui dicit quod si esset aliqua 
+      scien<lb ed="#P" n="104" break="no"/>tia de fine illa esset nobilissima: ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e154">
+      ¶ Tertio sic 
+      <lb ed="#P" n="105"/>Illa ratio que ex se formaliter et intrinsece est 
+      infi<lb ed="#P" n="106" break="no"/>nita non est ratio obiectiua scientie finite cum enim 
+      ob<lb ed="#P" n="107" break="no"/>iectorum perfectiones denominent scientias et scientie 
+      <lb ed="#P" n="108"/>denominentur ab obiectis sequeretur quod scientia 
+      fini<lb ed="#P" n="109" break="no"/>ta esset infinita quod est contradictio sed ratio diuini 
+      <lb ed="#P" n="110"/>tatis est huiusmodi ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e170">
+      ¶ Item quarto sub eadem 
+      <lb ed="#P" n="111"/>ratione non videtur esse obiectum scientie in create et 
+      <lb ed="#P" n="112"/>huius scientie create. tunc enim non esset proportio 
+      in<lb ed="#P" n="113" break="no"/>ter scientias et obiecta: sed deus sub ratione 
+      diuinita<lb ed="#P" n="114" break="no"/>tis est obiectum scientie sue: ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e181">
+      ¶ Confirmatur quia si 
+      <lb ed="#P" n="115"/>dicit Hugo de sacramentis in principio quod opera 
+      ret<lb ed="#P" n="116" break="no"/>staurationis sunt hoc subiectu: ergo deus inquantum quo 
+      <lb ed="#P" n="117"/>restauratior vel glorificator. Et Cassiodorus super ni 
+      <lb ed="#P" n="118"/>ipsalmum vult quod christus totus caput cum menbris. ergo deus 
+      <lb ed="#P" n="119"/>inquantum incarnatus est caput ecclesie: quare etc. 
+      <lb ed="#P" n="120"/>Cognitio alicuius sub ratione con 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e197">
+               <lb ed="#P" n="121"/>¶ Contra tracta presupponit cognitionem 
+      <lb ed="#P" n="122"/>eius sub ratione absoluta: sicut patet de 
+      cognitio<lb ed="#P" n="123" break="no"/>ne linee visualis / que praesupponit cognitionem et 
+      scien<lb ed="#P" n="124" break="no"/>tiam de linca absolute per geometriam. Si ergo deus esset 
+      <lb ed="#P" n="125"/>subiectum sub aliqua ratione contracta / et non sub 
+      ratio<lb ed="#P" n="126" break="no"/>ne absoluta diuinitatis theologia praesupponeret 
+      ali<lb ed="#P" n="127" break="no"/>quam scientiam priorem de deo: hoc est falsum: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e215">
+        <!--42.xml-->
+               <pb ed="#P" n="16-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e226">
+               <lb ed="#P" n="2"/>¶ Primo ponam opiniones circa eam.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e232">
+      ¶ Secundo 
+      ar<lb ed="#P" n="3" break="no"/>guam contra eas ponendo aliam que tamen magis placet. 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e237">
+               <lb ed="#P" n="4"/>¶ Tertio respondeo ad rationes eorum.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e242">
+      ¶ Quarto in 
+      <lb ed="#P" n="5"/>quiram an theologia sit de omnibus per attributionem 
+      <lb ed="#P" n="6"/>ad deum sub ratione diuinitatis.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e249">
+      ¶ Et quinto ad 
+      ra<lb ed="#P" n="7" break="no"/>tiones speciales. 
+      <lb ed="#P" n="8"/> primum est quedam opi¬ 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e256">
+               <lb ed="#P" n="9"/>¶ Quantum ab nio quod deus secundum rationem 
+      <lb ed="#P" n="10"/>diuinitatis non est subiectum in theologia quod probant. 
+      <lb ed="#P" n="11"/>Tum quia deus sub ratione diuinitatis est 
+      subie<lb ed="#P" n="12" break="no"/>ctum vnius partis metaphisice puta que traditur in. xii 
+      <lb ed="#P" n="13"/>ergo non theologie. Antecedens patet / consequentia pro 
+      <lb ed="#P" n="14"/>batur: quia quecumque due scientie sunt de eodem obiecti 
+      <lb ed="#P" n="15"/>et secundum eandem rationem possunt haberi de eodem in eodem 
+      <lb ed="#P" n="16"/>lumine vt videtur: quia correspondentia est inter 
+      habi<lb ed="#P" n="17" break="no"/>tus lumina et obiecta. Si ergo metaphisica possit 
+      ha<lb ed="#P" n="18" break="no"/>beri in lumine naturali: ergo et theologia hoc est falsum 
+      <lb ed="#P" n="19"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e282">
+      ¶ Item quandocumque aliquod obiectum secundum 
+      <lb ed="#P" n="20"/>propriam rationem est contentiuum omnium et se 
+      exten<lb ed="#P" n="21" break="no"/>dit ad omnia / etiam scientia que est de ipso secundum illam 
+      ra<lb ed="#P" n="22" break="no"/>tionem de eadem se extendit vel saltem non repugnat 
+      sibi<lb ed="#P" n="23" break="no"/>hoc. Sed deus per propriam rationem diuinitatis omnia 
+      <lb ed="#P" n="24"/>continet tam intrinseca quam extrinseca vt patet etiam 
+      <lb ed="#P" n="25"/>sub propriis rationibus si ergo theologia est de deo 
+      <lb ed="#P" n="26"/>secundum propriam rationem diuinitatis / ipsa se 
+      extendit<lb ed="#P" n="27" break="no"/>ad infinita cognoscenda secundum proprias rationes: hoc 
+      <lb ed="#P" n="28"/>est falsum: quia tunc esset infinita.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e305">
+      ¶ Confirmatur quod 
+      <lb ed="#P" n="29"/>si ratio formalis obiectiua theologie vel visionis 
+      <lb ed="#P" n="30"/>beatifice esset diuinitas vel aliqua ratio formaliter 
+      <lb ed="#P" n="31"/>infinita sequeretur quod actus noticie vel visionis 
+      crea<lb ed="#P" n="32" break="no"/>te esset infinitus intensiue quod cum sit impossibilis 
+      proces<lb ed="#P" n="33" break="no"/>sus in infinitum in speciebus / et actus diuersificentur 
+      <lb ed="#P" n="34"/>et nobilitentur ex obiectis / sequeretur quod actus diuine 
+      <lb ed="#P" n="35"/>visionis excederet aliquem actum noticie respectu 
+      crea<lb ed="#P" n="36" break="no"/>ture in infinitum / et quod esset nobilior infinitis actib 
+      <lb ed="#P" n="37"/>variis secundum speciem / et per consequens quod esset actu in 
+      <lb ed="#P" n="38"/>finitus. Et hoc argumentum adduci potest de 
+      ratio<lb ed="#P" n="39" break="no"/>ne obiectiua fruitionis vie vel patrie quod non sit 
+      ali<lb ed="#P" n="40" break="no"/>qua ratio formaliter infinita et est quasi contra omnem 
+      <lb ed="#P" n="41"/>opinionem et hoc argumentum eque concludit dato quod 
+      <lb ed="#P" n="42"/>non sit possibilis processus in infinitum: quia licet non sit 
+      <lb ed="#P" n="43"/>possibilis dato tamen hoc per impossibile adhuc 
+      excede<lb ed="#P" n="44" break="no"/>ret talis actus vt videtur. Posset autem dici quod 
+      ratio<lb ed="#P" n="45" break="no"/>non concludit infinitatem actus: quia licet ceteris 
+      pa<lb ed="#P" n="46" break="no"/>ribus talis actus esset nobilior infinitis actibus / non 
+      <lb ed="#P" n="47"/>tamen contineret eos perfectionaliter nec \ excederet quem 
+      <lb ed="#P" n="48"/>libet improportionabiliter / sicut actus diuini intel 
+      <lb ed="#P" n="49"/>lectus sed quemlibet secundum proportionem determinatam 
+      <lb ed="#P" n="50"/>quare etc. Uel sicut dicetur infra tractando de 
+      cari<lb ed="#P" n="51" break="no"/>tate nobilitas maior obiecti non semper tantam 
+      nobil<lb ed="#P" n="52" break="no"/>tatem in scientia / nec sic oportet subiectum et scientiam 
+      con<lb ed="#P" n="53" break="no"/>mensurari semper: sed tantum modo obiectum infinitum et 
+      <lb ed="#P" n="54"/>scientiam increatam diuinam / non autem scientiam creatam qrgo 
+      <lb ed="#P" n="55"/>exceditur ab obiecto. Unde licet ceteris paribus talis est 
+      <lb ed="#P" n="56"/>sentia esset nobilior aliis quodammodo intensiue et 
+      ex<lb ed="#P" n="57" break="no"/>tensiue: non tamen simpliciter et absolute infinita esset.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e370">
+      ¶ Item 
+      <lb ed="#P" n="58"/>tertio. Ratio obiectiua scientie debat accipi secundum exi 
+      <lb ed="#P" n="59"/>gentiam finis illius scientie vt patet: quia sciens non versatur 
+      cir<lb ed="#P" n="60" break="no"/>ca obiectum nisi propter finem ipsum: sed ratio diuinitatis  
+      <lb ed="#P" n="61"/>non est ratio deifica secundum exigentiam finis theologie: 
+      <lb ed="#P" n="62"/>sed magis ratio boni finis / sed theologia est amor vel 
+      <lb ed="#P" n="63"/>caritas quia finis praecepti est caritas quae per se respicit bo 
+      <lb ed="#P" n="64"/>num pro per se obiecto: et nihil nisi secundum rationem boni: ergo etc. 
+      <!--42.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>Item quarto obiecta noticie nunquam excedunt virtum 
+      <lb ed="#P" n="66"/>tem luminis correspondentis illi noticie sicut 
+      impossibi<lb ed="#P" n="67" break="no"/>le est quod aliquid habeat rationem obiecti visibilis et 
+      exce<lb ed="#P" n="68" break="no"/>dat lumen sensus visus. Sed ratio diuinitatis cum sit 
+      infi<lb ed="#P" n="69" break="no"/>nita simpliciter excedit lumen quodcumque in nobis siue 
+      na<lb ed="#P" n="70" break="no"/>turale siue infusum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e405">
+      ¶ Dicit ergo quod impossibile est 
+      <lb ed="#P" n="71"/>ationem diuinitatis esse rationem formalem obiecti 
+      theolo<lb ed="#P" n="72" break="no"/>gie: sed oportet aliam assignare.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e412">
+      ¶ In assignando 
+      <lb ed="#P" n="73"/>autem sunt tot scientie quot capita. Quidam enim 
+      di<lb ed="#P" n="74" break="no"/>cunt quod deus est subiectum theologie sub ratione 
+      boni<lb ed="#P" n="75" break="no"/>tatis vel ratione finis.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e421">
+      ¶ Alii quod inquantum glorificator / 
+      <lb ed="#P" n="76"/>vel reparator.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e426">
+      ¶ Alii quod est subiectum per vnam rationem fi 
+      r<lb ed="#P" n="77" break="no"/>nitam quam ponunt in deo ex natura rei litcet sit materialiter 
+      i<lb ed="#P" n="78" break="no"/>vel fundamentaliter infinita quam ponunt obiici 
+      scien<lb ed="#P" n="79" break="no"/>tie beatorum et ipsi theologie quia non possunt videre quod 
+      <lb ed="#P" n="80"/>scientie vel noticie formaliter finite sit obiectiua ideo 
+      for<lb ed="#P" n="81" break="no"/>maliter infinita.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e440">
+      ¶ Propter quod etiam dicit vnus 
+      do<lb ed="#P" n="82" break="no"/>ctor in suo quolibeto quod deus non sub eadem ratione est 
+      ob<lb ed="#P" n="83" break="no"/>iectum scientie sue proprie et scientie beatorum et viatorum: quia 
+      <lb ed="#P" n="84"/>est obiectum scientie sue secundum suam infinitatem / ita ratio 
+      infi<lb ed="#P" n="85" break="no"/>nitatis est ratio formalis obiecti scientie divine et ab 
+      ip<lb ed="#P" n="86" break="no"/>sa infinitate formaliter scientia eius: sed ipse deus secundum rati 
+      <lb ed="#P" n="87"/>nem sue essentie est obiectum scientie create: sic quod licet 
+      infini<lb ed="#P" n="88" break="no"/>tas concomitetur: non tamen est ratio formalis obiectiua: nec 
+      <lb ed="#P" n="89"/>ab ipsa formentur et mouentur isti per tres vltimas rationes. 
+      <lb ed="#P" n="90"/>Alii dicunt quod sub ratione credibilis quia sub ista 
+      ratione<lb ed="#P" n="91" break="no"/>est obiectum fidei quae per theologiam nutritur / gignitur / 
+      defen<lb ed="#P" n="92" break="no"/>ditur et roboratur.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e466">
+      ¶ Alii quod sub ratione non apparentis: quia 
+      <lb ed="#P" n="93"/>theologia est scientia no euidens ex obiecto.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e471">
+      ¶ Alii 
+      <lb ed="#P" n="94"/>sicut Thomas in prima parte summe quastione prima quod 
+      ali<lb ed="#P" n="95" break="no"/>quid inquantum supernaturaliter reuelatum: quia per istam rationem 
+      <lb ed="#P" n="96"/>saluat veritatem theologie. Et tamen postea dicit ibidem 
+      <lb ed="#P" n="97"/>quod deus sub et per rationem diuinitatis est subiectum: quia ipsa ergo 
+      <lb ed="#P" n="98"/>per quam omnia considerata attribuuntur sibi et reducuntur in 
+      ip<lb ed="#P" n="99" break="no"/>sum attribuuntur sibi. vnde non videtur quod ipse dicat consequenr.  
+      <lb ed="#P" n="100"/>contra omnes istas opiniones arguo. Et 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e489">
+               <lb ed="#P" n="101"/>¶ Sed primo quod deus non sit subiectum 
+      theologie<lb ed="#P" n="102" break="no"/>sub ratione bonitatis pro quanto bonitas dicit rationem 
+      distin<lb ed="#P" n="103" break="no"/>ctam ab essentia vel diuinitate. Primo prima scientia 
+      sim<lb ed="#P" n="104" break="no"/>pliciter non respicit obiectum suum sub ratione 
+      formali<lb ed="#P" n="105" break="no"/>obiectiua secundaria sed sub ratione prima: sed 
+      theolo<lb ed="#P" n="106" break="no"/>gia non distinguendo modo de theologia: sed 
+      accipien<lb ed="#P" n="107" break="no"/>do eam secundum genus suum et coniter est prima scientia 
+      simpie<lb ed="#P" n="108" break="no"/>et summa vt patet. Ratio autem bonitatis est ratio 
+      se<lb ed="#P" n="109" break="no"/>cundaria et posterior ratione entitatis divine vel 
+      deita<lb ed="#P" n="110" break="no"/>tis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e513">
+      ¶ Item bonitas habet rationem passionis 
+      respo<lb ed="#P" n="111" break="no"/>ctu alicuius prioris rationis in deo qumocumque distinguatur 
+      <lb ed="#P" n="112"/>ergo non potest esse ratio primi subiecti: quia tuc oporteret 
+      <lb ed="#P" n="113"/>dare aliquam priorem scientiam ipsa theologia secundum totum 
+      <lb ed="#P" n="114"/>genus quae respiceret priorem rationem sicut sibi per se 
+      obiecti<lb ed="#P" n="115" break="no"/>uam et primo.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e526">
+      ¶ Item cognitio eius quod est quod quid est 
+      pri<lb ed="#P" n="116" break="no"/>fectissima. 7. metha. et prima. et per consequens ratio 
+      quiddita<lb ed="#P" n="117" break="no"/>tiua est ratio primi obiecti: sed nec bonitas nec etiam quae 
+      <lb ed="#P" n="118"/>cumque ratio attributalis siue quacumque alia distincta adet 
+      <lb ed="#P" n="119"/>tate est ratio eius quicquid est nec cognitio talis est 
+      cogni<lb ed="#P" n="120" break="no"/>tio quod quid est ergo nec aliqua talis ratio est obiectiua. Si 
+      <lb ed="#P" n="121"/>cut enim si esset dare supremam et perfectissimam scientiam deu 
+      <lb ed="#P" n="122"/>homine in genere suo vel secundum genus / illa non esset de haie 
+      <lb ed="#P" n="123"/>secundum rationem generalem: quia esset confusa et indestincta / 
+      <lb ed="#P" n="124"/>nec secundum rationem passionis: quia praesupponeret scientiam per 
+      <lb ed="#P" n="125"/>rationem quidditatiuam: nec sub ratione alicuius respectus 
+      <lb ed="#P" n="126"/>vel negationis: quia praesupponeret noticiam de ipso secundum 
+      <lb ed="#P" n="127"/>rationem fundamenti vel alicuius positiui sed de homine 
+      <lb ed="#P" n="128"/>ecundum rationem quidditatiuam ita hoc in proposito.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e558">
+      ¶ 
+      Ex<lb ed="#P" n="129" break="no"/>quo patet quod nulla ratio quis communitate praedicationis vel n 
+      <!--43.xml-->
+       <pb ed="#P" n="16-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>veritatis potest esse ratio obiectiua theologie. Tum 
+      <lb ed="#P" n="2"/>quia nulla talis continet virtualiter veritates theologicas 
+      <lb ed="#P" n="3"/>Tum quia theologia non esset nisi noticia confusa et indistin 
+      <lb ed="#P" n="4"/>cta. Tum quia etiam rationes communes non sunt soli deo 
+      na<lb ed="#P" n="5" break="no"/>turaliter note nec etiam aliqua ratio attributalis vel 
+      <lb ed="#P" n="6"/>cumque posterior ratione quidditatiua. Nam eundem ordinem 
+      <lb ed="#P" n="7"/>habent inter se iste rationes ad primam quocumque 
+      distingu<lb ed="#P" n="8" break="no"/>tur ac si realiter distinguerentur: et ideo cum impossibile sit 
+      <lb ed="#P" n="9"/>vbi realiter distinguntur quod aliqua posterior ratio ipsa quid 
+      <lb ed="#P" n="10"/>ditatiua sit formalis ratio obiectiua et prima 
+      alici<lb ed="#P" n="11" break="no"/>ius scientie prime de habente ipsam. Ita impossibile est 
+      <lb ed="#P" n="12"/>hec in deo dato quod secundum rationem tantummo distinguantur. 
+      <lb ed="#P" n="13"/>probo quod deus sub ratione glorifi¬ 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e597">
+               <lb ed="#P" n="14"/>¶ Secundo cationis credibilis / diligibilis 
+      <lb ed="#P" n="15"/>vel capitis seu reparationis siue reuelabilis non sit 
+      sub<lb ed="#P" n="16" break="no"/>iectum theologie. Et siliter de omnibus talibus quae dicunt 
+      re<lb ed="#P" n="17" break="no"/>spectus rationis ad extra quia scientia quae considerat subiectum 
+      <lb ed="#P" n="18"/>suum secundum respectum rationis / ita quod ratio eius formalis ob 
+      <lb ed="#P" n="19"/>iectiua est aliquid rationis tantum est scientia rationalis et non 
+      <lb ed="#P" n="20"/>realis. Hec patet de logica omnes illi respectus praedicti et 
+      <lb ed="#P" n="21"/>etiam respectus cuiuscumque causalitatis dei ad 
+      creatu<lb ed="#P" n="22" break="no"/>ram est respectus mere rationis: quia dei ad creaturam est 
+      re<lb ed="#P" n="23" break="no"/>latio rationis: vt patet. ergo etc. Et nota hic quod etiam ens ratio 
+      <lb ed="#P" n="24"/>nis non est in deo formaliter: quia relatio rationis si sit aliquod 
+      <lb ed="#P" n="25"/>ens illud est diminutum et imperfectissimum quod non 
+      conue<lb ed="#P" n="26" break="no"/>nit deo formaliter.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e628">
+      ¶ Iterum probatur quia nulla talis ratio 
+      <lb ed="#P" n="27"/>facit per se vnum conceptum cum deo per accidens vnum sicut ens 
+      <lb ed="#P" n="28"/>rationis cum ente reali: ergo impossibile est quod sit ratio obiectiva 
+      <lb ed="#P" n="29"/>secundum quem deus est subiectum in theologia quia vel 
+      theolo<lb ed="#P" n="30" break="no"/>gia esset mere scientia rationis: vel oporteret necessario 
+      <lb ed="#P" n="31"/>psupponere alias duas quae essent de partibus huius 
+      conce<lb ed="#P" n="32" break="no"/>ptus vnius per accidens hec duo sunt falsa sicut patet. 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e644">
+               <lb ed="#P" n="33"/>¶ Si dicas quod ista non dicunt respectus rationis sed 
+      ali<lb ed="#P" n="34" break="no"/>quam rationem substractam: tunc habeo propositum quod sub 
+      ratio<lb ed="#P" n="35" break="no"/>ne vel per rationem diuinitatis: quia isto modo 
+      acci<lb ed="#P" n="36" break="no"/>piendo eodem modo est deus et redibilis et glorifica 
+      <lb ed="#P" n="37"/>tor existente deitate tanquam substracto seu fundamen 
+      <lb ed="#P" n="38"/>to istorum respectuum. 
+      <lb ed="#P" n="39"/>probo quod ratio non apparentis non potest 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e662">
+               <lb ed="#P" n="40"/>¶ Tertio esse ratio obiectia formalis 
+      theo<lb ed="#P" n="41" break="no"/>logie. Impossibile est quod nemo sit prima ratio obiectiua 
+      <lb ed="#P" n="42"/>formalis alicuius positiui de non ente enim formaliter 
+      <lb ed="#P" n="43"/>non est scientia primo posteriorum. Negatio autem est 
+      for<lb ed="#P" n="44" break="no"/>maliter et intrinsece non ens sed theologia est habitus 
+      <lb ed="#P" n="45"/>positiuus vt patet ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e678">
+      ¶ Item nemo non nisi per 
+      affir<lb ed="#P" n="46" break="no"/>mationem cognoscitur / ergo impossibile est quod sit ratio prima 
+      <lb ed="#P" n="47"/>formalis obiectiua alicuius noticie vel scientiae quare etc 
+      <lb ed="#P" n="48"/>probo quod deus non est subiectum 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e688">
+               <lb ed="#P" n="49"/>¶ Quarto sub ratione finiti vel alicuius 
+      fini<lb ed="#P" n="50" break="no"/>tatis quae sit in deo ex natura rei. Primo sic. Illa 
+      ratio<lb ed="#P" n="51" break="no"/>quae est ficticia et impossibilis non est ratio obiectiva alicui 
+      <lb ed="#P" n="52"/>scientie sed ratio talis est ficticia et impossibilis in deo: quod 
+      <lb ed="#P" n="53"/>cum deus sit infinitus impossibile est ponere in eo aliquid 
+      fini<lb ed="#P" n="54" break="no"/>tum ex natura rei: sed solum in respectu ad creaturas secundu 
+      <lb ed="#P" n="55"/>aliquos hoc ponentes de ydeis.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e706">
+      ¶ Item quia 
+      cognita<lb ed="#P" n="56" break="no"/>euidenter ista ratione si esset possibilis in deo: non haberetur 
+      <lb ed="#P" n="57"/>euidentia de veritatibus necessariis theologicis: quia 
+      ta<lb ed="#P" n="58" break="no"/>ratio vinita non potest vertualiter aliquam includere nec in 
+      conc<lb ed="#P" n="59" break="no"/>ptu nec inaffectu veritatem istam quod deus sit trinus et vnus: quia 
+      <lb ed="#P" n="60"/>ista ab omnibus doctoribus sper resoluitur ad rationem infinitatis 
+      <lb ed="#P" n="61"/>divine. Dicunt enim quod impossibile est de quocumque limitato et 
+      <lb ed="#P" n="62"/>finito / ergo illa non potest poni ratio prima formalis obiectius 
+      <lb ed="#P" n="63"/>theologie.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e726">
+      ¶ Item quae ratione ponis eam obiectiuam 
+      theo<lb ed="#P" n="64" break="no"/>logie pari ratione debes eam ponere obiectiuam beatitud 
+      <lb ed="#P" n="65"/>nis tante: vel vnam aliam finita / quia beatitudo creata finita¬ 
+      <!--43.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>est: sed impossibile est quod aliquis beatificetur in aliqua ratione 
+      fini<lb ed="#P" n="67" break="no"/>ta quia nec in ipsam quietari quia potentia beatificabilis non 
+      <lb ed="#P" n="68"/>quietatur nisi in obiecto per suam rationem formalem omnia obiecta 
+      <lb ed="#P" n="69"/>secundaria continentem perfectionaliter vel vertualiter quoqumo 
+      <lb ed="#P" n="70"/>Ultra enim quodcumque finitum datum potest aliquid appetere: ergo 
+      <lb ed="#P" n="71"/>nec debet poni ratio formalis obiectiva theologie aliqua 
+      rti<lb ed="#P" n="72" break="no"/>finita propter eius finitatem. Sic ergo patet quod nulla praedicta 
+      <lb ed="#P" n="73"/>rum opinionum habet veritatem. Hec de primo articulo. 
+      <lb ed="#P" n="74"/>articulus est ad quastionem respondo¬ 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e757">
+               <lb ed="#P" n="75"/>¶ Secundus re. Ad cuius euidentiam 
+      distin<lb ed="#P" n="76" break="no"/>guo primo de theologia quantum ad partes eius sicut supra 
+      <lb ed="#P" n="77"/>Est enim quadam theologia necessariorum. Et quadam 
+      theolo<lb ed="#P" n="78" break="no"/>gia contingentium veritatum. De theologia necessariorum 
+      <lb ed="#P" n="79"/>quecumque sit illa siue dei siue beatorum siue viatorum. de 
+      <lb ed="#P" n="80"/>co quod deus est subiectum eius per se primum sub ratione 
+      propri<lb ed="#P" n="81" break="no"/>essentie sue huius quae est ratio diuinitatis.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e775">
+      ¶ Hoc probo si 
+      <lb ed="#P" n="82"/>primo sub illa ratione deus est subiectum theologie huius 
+      sul<lb ed="#P" n="83" break="no"/>qua vel secundum quam primo continet quasi vertualiter omnes 
+      verita<lb ed="#P" n="84" break="no"/>tes scibiles theologie. Ista patent ex praedictis supra die 
+      <lb ed="#P" n="85"/>rotione obiecti: sed hec est ratio essentie dine vel 
+      diuinita<lb ed="#P" n="86" break="no"/>tis quia hec est ratio simpliciter prima et quidditatiua ipsius dei 
+      <lb ed="#P" n="87"/>Alie autem rationes sunt posteriores et quasi passiones 
+      <lb ed="#P" n="88"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e793">
+      ¶ Secundo sic. Sub eadem ratione deus est obiectum in 
+      <lb ed="#P" n="89"/>tellectus sui sicut ostendetur distinctione quinta vel septina. 
+      <lb ed="#P" n="90"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e801">
+      ¶ Item sub illa ratione deus est subiectum in 
+      theolo<lb ed="#P" n="91" break="no"/>gia sub qua excedit in cognoscibilitate omnia alia 
+      consi<lb ed="#P" n="92" break="no"/>derata in ipsa: vt videtur. sed hec est ratio deitatis et nulla alia 
+      <lb ed="#P" n="93"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e810">
+      ¶ Item sub illa ratione deus est subiectum in theolo 
+      <lb ed="#P" n="94"/>gia secundum quam et sub qua omnia alia considerata in ipsa 
+      me<lb ed="#P" n="95" break="no"/>lius attribuuntur ad ipsum et in ipsum reducuntur: quia hec ergo 
+      <lb ed="#P" n="96"/>ratio primi subiecti sed hec est roto diuinitatis sicut patet 
+      <lb ed="#P" n="97"/>comparando eam ad quamlibet aliam rationem. ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e821">
+      ¶ Quintam 
+      <lb ed="#P" n="98"/>ritionem adducit iste doctor quam non intelligo sub illa ratio 
+      <lb ed="#P" n="99"/>ne qua est actualior debet esse deus subiectum theologie: sed  
+      <lb ed="#P" n="100"/>ro essentie vel diuinitatis est actualior quam ratio bonitatis 
+      <lb ed="#P" n="101"/>quia est magis inconicabilis quam illa. Non sic enim diuinitas 
+      <lb ed="#P" n="102"/>conicatur ad ex sicut bonitas: ergo etc. Non intelligo quod plus 
+      <lb ed="#P" n="103"/>possit alicui conicare divina bonitas quam diuinitas hec 
+      <lb ed="#P" n="104"/>aliter enim vtrumque conicabile est et infinitum etiam secundum eum 
+      <lb ed="#P" n="105"/>alibi. praterea Si illud quod est minus conicabile est magis actua 
+      <lb ed="#P" n="106"/>le / ergo relatio est magis actualis quam bonitas immo quam 
+      di<lb ed="#P" n="107" break="no"/>uinitas: hoc est falsum: quia relatio saltem secundum eum nec est 
+      <lb ed="#P" n="108"/>finita nec infinita: et per consequens non est ita actualis sicut il 
+      <lb ed="#P" n="109"/>lud quod est ex se formaliter infinitum cuiusmodi 
+      es<lb ed="#P" n="110" break="no"/>quodcumque absolutum.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e852">
+      ¶ Teneo igitur me cum rationi 
+      <lb ed="#P" n="111"/>bus precedentibus et addo sextam: quia sub illa ratione 
+      <lb ed="#P" n="112"/>deus est subiectum theologie per quam praecipue de ipso 
+      po<lb ed="#P" n="113" break="no"/>sumus denominare de eo proprietates theologie et quia 
+      <lb ed="#P" n="114"/>euidenter cognita habentur primo per eam euidentiam de 
+      ta<lb ed="#P" n="115" break="no"/>libus passionibus quod insint deo / sed hec est ratio 
+      diui<lb ed="#P" n="116" break="no"/>nitatis et nulla alia: vt videtur: igitur etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e868">
+      ¶ Nota quod 
+      opor<lb ed="#P" n="117" break="no"/>tet necessario conceptum diuinitatis vel rationem forma d 
+      <lb ed="#P" n="118"/>lem per quandeus est subiectum in theologia esse in deo ex  
+      <lb ed="#P" n="119"/>natura rei et distinctam ab aliis rationibus vel non eandem et 
+      <lb ed="#P" n="120"/>cum rationibus vel conceptibus passionalibus ante omnem 
+      <lb ed="#P" n="121"/>actum intellectus. Prio quia oportet quod ratio formalis 
+      pro<lb ed="#P" n="122" break="no"/>pria obiecti scientiae realis sit realis et vt sit distincta a 
+      ratio<lb ed="#P" n="123" break="no"/>nibus vel conceptibus passionalibus alioqui vt ratio formalis 
+      <lb ed="#P" n="124"/>subiectiua non esset nisi ens rationis formaliter. Secundo quia in 
+      <lb ed="#P" n="125"/>tellectus circa deum non potest fabricare vel causare 
+      ali<lb ed="#P" n="126" break="no"/>quem conceptum sibi quantitatiuum nec obiectum diuinum potest 
+      <lb ed="#P" n="127"/>mouere aliquam potentiam ad causandum scipsum ita nec 
+      <lb ed="#P" n="128"/>conceptum aliquem sibi quidditatiuum. Et ideo nichil 
+      <lb ed="#P" n="129"/>est quod dicunt quod intellectus circa deum fabricat 
+      diuer<lb ed="#P" n="130" break="no"/>sos conceptus: quorum vnus est quidditatiuus quia prius 
+      <!--44.xml-->
+       <pb ed="#P" n="17-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et alius passionalis vel alii passionales. Nullus nim 
+      <lb ed="#P" n="2"/>conceptus factus per intellectum potest esse deo 
+      quidditati<lb ed="#P" n="3" break="no"/>uus cum sit ens rationis et non deus diuinitas autem et conceptus 
+      <lb ed="#P" n="4"/>bei quidditatiuus correspondens actui concipiendi deus est 
+      <lb ed="#P" n="5"/>nec ideo aliquis est quidditatiuus: quia posset magis 
+      econ<lb ed="#P" n="6" break="no"/>uerso quia quidditatiuus ideo prius ita quod in omni de quo 
+      <lb ed="#P" n="7"/>est proprie scientia demonstratiua et propter quid oportet quod sit 
+      <lb ed="#P" n="8"/>ordo quidditatiui conceptus ad alios vel alium / et hoc non 
+      <lb ed="#P" n="9"/>est ex parte intellectus vel actu eius quia vnico actu 
+      simpli<lb ed="#P" n="10" break="no"/>ci potest haberi scientia. Patet de actu intelligendi diuino et 
+      <lb ed="#P" n="11"/>ita oportet esse talem ordinem ante talem actum intellectus in ob 
+      <lb ed="#P" n="12"/>iecto de quo est scientia realis: et per consequens oportet ibi esse 
+      distin<lb ed="#P" n="13" break="no"/>ctionem ex natura rei et hec ponitur in ipso deo. 
+      <lb ed="#P" n="14"/>vero contingentium siue 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e938">
+               <lb ed="#P" n="15"/>¶ De theologia dei siue bcatorum siue 
+      <lb ed="#P" n="16"/>viatorum dici potest secundum duplicem viam sicut tactum est in 
+      praece<lb ed="#P" n="17" break="no"/>denti quaestione.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e948">
+      ¶ Una est secundum doctorem istum quod sub eadem 
+      <lb ed="#P" n="18"/>rtione deus est subiectum theologie contingentium puta sul 
+      <lb ed="#P" n="19"/>ratione diuinitatis sub qua est obiectum theologie 
+      neces<lb ed="#P" n="20" break="no"/>sariorum / tamen non eodem modo vt vniformiter se habet per istam 
+      <lb ed="#P" n="21"/>rationem ad hanc et ad illam: quia ad hanc comparatur vt obiectum 
+      <lb ed="#P" n="22"/>non continens determinate veritates contingentes huius 
+      theo<lb ed="#P" n="23" break="no"/>logie contingentis: nec etiam vt notum euidentiam ipsarum 
+      da<lb ed="#P" n="24" break="no"/>to quod euidenter videntur: sed sicut primum intuibile 
+      pri<lb ed="#P" n="25" break="no"/>mum proximum illi cui natum est praedicatum prime contingenti 
+      <lb ed="#P" n="26"/>inesse sed ad theologiam necessariorum saltem dei et beato 
+      <lb ed="#P" n="27"/>rum quae est theologia simpliciter et in se habet se deus vt continens 
+      <lb ed="#P" n="28"/>et virtualiter veritates ipsius: et vt notum euidentias ea 
+      <lb ed="#P" n="29"/>rum: quia iste sunt euidentes ex obiecto.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e977">
+      ¶ Alious dicere 
+      <lb ed="#P" n="30"/>tur sicut tactum fuit supra quod deus secundum rationem essentie sue 
+      <lb ed="#P" n="31"/>sic absolute sumptam. Non potest esse subiectum 
+      theolo<lb ed="#P" n="32" break="no"/>gie contingentis: quia sic non continet determinate et scibili 
+      <lb ed="#P" n="33"/>ter veritates contingentes. Sed secundum quod essentia diuina 
+      <lb ed="#P" n="34"/>accipitur vt voluntas stans sub determinatione diuine 
+      <lb ed="#P" n="35"/>voluntatis sic continet determinate praedictas veritates  
+      <lb ed="#P" n="36"/>eo modo quo superius dicebatur et ita potius secundum rationem 
+      vo<lb ed="#P" n="37" break="no"/>luntatis vt stantis sub actuali determinatione est primum 
+      <lb ed="#P" n="38"/>subiectum theologie contingentis. Non quod actus 
+      determi<lb ed="#P" n="39" break="no"/>nationis cadat infra rationem subiecti primi quia ipse est ri 
+      <lb ed="#P" n="40"/>dicatum prime contingentis: vt dictum est supra. sed 
+      opor<lb ed="#P" n="41" break="no"/>tet necessario quod hec sit conditio requisita quod voluntas 
+      <lb ed="#P" n="42"/>stet sub eo ad hoc vt determinate ipsum habeat et 
+      pri<lb ed="#P" n="43" break="no"/>ipsum determinate et scibiliter I certitudinaliter alia 
+      <lb ed="#P" n="44"/>contingentia extrinseca contineat et per primam complexionem 
+      <lb ed="#P" n="45"/>immediatam contingentem quae non potest cognosci determinate 
+      <lb ed="#P" n="46"/>virtute alicuius obiecti vel primi subiecti incomplexi 
+      <lb ed="#P" n="47"/>sed solum ex seipsa cognita tota et existente possint alie 
+      <lb ed="#P" n="48"/>contingentes veritates certitudinaliter cognosci.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1021">
+      ¶ Et 
+      <lb ed="#P" n="49"/>sic videtur expeditum qumo et sub qua ratione deus sit 
+      subie<lb ed="#P" n="50" break="no"/>ctum in theologia contingentium. Si enim accipiatur 
+      subie<lb ed="#P" n="51" break="no"/>ctum pro eo quod primo occurrit ad noticiam vel scientiam 
+      ali<lb ed="#P" n="52" break="no"/>cuius sic deus etiam secundum rationem diuinitatis est subiectum i 
+      <lb ed="#P" n="53"/>theologia contingentium. Sed si accipiatur subiectum 
+      pro<lb ed="#P" n="54" break="no"/>eo quod primo certitudinaliter et determinate habet vel continet 
+      <lb ed="#P" n="55"/>veritates alicuius noticie et scientiae. Dico quod quantum ad istam 
+      <lb ed="#P" n="56"/>conditionem deficit essentia diuina vel ratio diuinitatis a 
+      <lb ed="#P" n="57"/>ratione subiecti absolute et praecise sumpta / sed oportet 
+      concun<lb ed="#P" n="58" break="no"/>rere voluntatem stantem sub actu suo determinatiuo: quia 
+      <lb ed="#P" n="59"/>sic habet vel continet determinate istas veritates vel 
+      sa<lb ed="#P" n="60" break="no"/>tem oportet expectare vsque ad tertium signum in quo essentia 
+      <lb ed="#P" n="61"/>etiam secundum propriam rationem diuinitatis illameterminatione facta 
+      <lb ed="#P" n="62"/>per voluntatem in secundo signo determinate repentat eam et 
+      <lb ed="#P" n="63"/>continet inesse intelligibili et per istam vel mediante ipsa 
+      extrin<lb ed="#P" n="64" break="no"/>secas veritates contingentes quocumque trium modorum videtur 
+      <lb ed="#P" n="65"/>probabiliter posse dici sic ergo dico quod deus secundum propriam rationem 
+      <!--44.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>diuinitatis est subiectum in thoologia.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1067">
+      ¶ Ad rationes contra 
+      <lb ed="#P" n="67"/>rie opinionis.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1072">
+      ¶ Ad primam dicitur quod liecet deus sit subiectum 
+      il<lb ed="#P" n="68" break="no"/>lius partis metha. secundum rotionem diuinitatis potest tamen esse 
+      subie<lb ed="#P" n="69" break="no"/>ctum theologie secundum eandem rationem. Qando dicis ergo pastsent 
+      habe<lb ed="#P" n="70" break="no"/>ri ambo in eodem luine dico quod non sequitur. dicimus enim quod deus 
+      <lb ed="#P" n="71"/>est subiectum fidei et beatem visionis et tamen secundum multos non 
+      <lb ed="#P" n="72"/>posstest actus eorum haberi in eodem luine ergo nec in proposito propter 
+      <lb ed="#P" n="73"/>naturam diuersam ipsarum noticiarum in seipsis. Tu dico 
+      <lb ed="#P" n="74"/>ergo non est correspondentia obiectorum et luminum diceretur quod non 
+      <lb ed="#P" n="75"/>talem qualem tu imaginaris. non enim est tal proportio quod si 
+      ob<lb ed="#P" n="76" break="no"/>iectum est idem quod lumen sit idem / sicut nec in fide nec in 
+      vi<lb ed="#P" n="77" break="no"/>sione: sicut etiam non oportet quod si obiectum est idem quod habitus vel 
+      <lb ed="#P" n="78"/>noticia sit eadem: sed est tal proportio et correspondentia quod obie 
+      <lb ed="#P" n="79"/>ctum idem intelligibile est per quemlibet habitum vel noticiam 
+      cir<lb ed="#P" n="80" break="no"/>ca ipsam in luine correspondente habitui illi et hoc sufficit. pratera est 
+      <lb ed="#P" n="81"/>illa ratio videtur esse contra alias sequentes: quia tunc metaphisica esset 
+      <lb ed="#P" n="82"/>scientia infinita et extenderet se ad omnia distincte et perfecte¬ 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1107">
+               <lb ed="#P" n="83"/>¶ Ad secundum dico quod quando obiectum se extendit ad omnia non 
+      <lb ed="#P" n="84"/>oportet quod scientia propter hoc se extendat ad omnia in quolibet 
+      in<lb ed="#P" n="85" break="no"/>tellectu habente scientiam de illo obiecto sed solum in illo 
+      intelle<lb ed="#P" n="86" break="no"/>ctu qui adequatur tali obiecto in intellectiuitate tale ita quod 
+      <lb ed="#P" n="87"/>tantum et ita perfecte praet intelligere quantum obiectum est intelligi 
+      <lb ed="#P" n="88"/>bile ab intellectu quocumque qualis est solus intellectus 
+      <lb ed="#P" n="89"/>diuinus. licet enim scientia quantum est ex parte obiecti possit se 
+      ex<lb ed="#P" n="90" break="no"/>tendere ad omnia / tamen ex parte subiecti in quo est et recipitur 
+      re<lb ed="#P" n="91" break="no"/>cipit limitationem et determinationem nec oportet quod 
+      qui<lb ed="#P" n="92" break="no"/>cumque sciens omnia sciat: sed vnus potest scire de eodem 
+      plura<lb ed="#P" n="93" break="no"/>alius pauciora sicut ex eodem principio vnus scit elicere 
+      <lb ed="#P" n="94"/>plures conclusiones et alius pauciores. Obiectum enim potest 
+      <lb ed="#P" n="95"/>excedere scientiam sicut causa equoca eius. Non tamen scientia 
+      <lb ed="#P" n="96"/>potest excedere obiectum. quia mensuratur et determinatur 
+      ex<lb ed="#P" n="97" break="no"/>ipso. Aliter dicendum est quod si ratio est bona per eam sequitur 
+      <lb ed="#P" n="98"/>quod ens non potest esse subiectum in metaphisica sicut pater 
+      <lb ed="#P" n="99"/>Et ideo dico quod non oportet actualiter cognosci omnia namliter ad 
+      <lb ed="#P" n="100"/>quod se extendit tale obiectum nisi ab intellectu 
+      infini<lb ed="#P" n="101" break="no"/>to qui adequatur obiecto et quem nichil potest latere. 
+      Di<lb ed="#P" n="102" break="no"/>co tamen quod etiam ab intellectu creato poatsteusnt cognosci omnia 
+      su<lb ed="#P" n="103" break="no"/>pernaturaliter. Unde credo quod intellectus creatus potest 
+      <lb ed="#P" n="104"/>etiam actualiter et distincte intelligere sicut deus quemad 
+      <lb ed="#P" n="105"/>modum et ipsum deum non obstante quod sit infinitus: non tamen ita 
+      <lb ed="#P" n="106"/>perfecte et clare nec etiam namliter sicut deus.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1163">
+      ¶ Ad tertium 
+      <lb ed="#P" n="107"/>dico quod ratio deiuinitatis est ratio conuenienter accepta secundum ext 
+      <lb ed="#P" n="108"/>gentiam finis in theologia. Dato etiam quod finis 
+      theolo<lb ed="#P" n="109" break="no"/>gie sit amor caritatiuus. deus enim per propriam rationem 
+      diuinita<lb ed="#P" n="110" break="no"/>tis. Primo est diligibilis et amabili( non solum nanliter sed  
+      <lb ed="#P" n="111"/>etiam caritatiue. Tu dicis quod non sed per rationem bonitatis  
+      <lb ed="#P" n="112"/>sue: dico quod ratio bonitatis in deo quantum ad illud quod dicit 
+      <lb ed="#P" n="113"/>positiuum extra intellectum si aliquid tale dicat non 
+      distin<lb ed="#P" n="114" break="no"/>guitur a ratione diuinitatis sed vel sunt penitus idem et realiter 
+      <lb ed="#P" n="115"/>et formaliter vel solum ratio bonitatis ditrab illa secundum 
+      intelle<lb ed="#P" n="116" break="no"/>ctum et rationem tantum vel secundum negationem aliquam quae duo non 
+      <lb ed="#P" n="117"/>posstent esse rationes obiectiue primarie alicuius habitus vel actus 
+      <lb ed="#P" n="118"/>positiui.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1192">
+      ¶ Ad quartum patet ex praedictis dico enim quod ob 
+      <lb ed="#P" n="119"/>iectum vel ratio obiecti numquam excedit habitum vel noticiam quae 
+      <lb ed="#P" n="120"/>est de obiecto secundum rationem obiecti quin possit aliquo 
+      <lb ed="#P" n="121"/>attingi ab habitu illo in luine sibi correspondente sed non oportet quod 
+      <lb ed="#P" n="122"/>adequante et perfecte sicut dictum est erg. Cum dicis de visu quod 
+      ni<lb ed="#P" n="123" break="no"/>hil est visibile ad quod non extendat se visus in luine 
+      propriodi<lb ed="#P" n="124" break="no"/>co quod istdm est contra te sicut contra me. Tu enim ponis mltaentelligi et 
+      <lb ed="#P" n="125"/>de deo et non in luine proprio nanli ipsius intellectus ita quod ad  
+      <lb ed="#P" n="126"/>ipsam non sufficit lumen namle.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1212">
+      ¶ Dico igitur quod propter 
+      imperfe<lb ed="#P" n="127" break="no"/>ctionem et artationem visus prouenit quod nihil possit videre 
+      <lb ed="#P" n="128"/>ad quod quantum est ex parte sui non sufficiat lumen visus 
+      <lb ed="#P" n="129"/>naturale. Non sic est autem de intellectu: quia 
+      poten<lb ed="#P" n="130" break="no"/>tia illimitata ad omnia entia et potest in multa ad 
+      <!--45.xml-->
+       <pb ed="#P" n="17-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>que tamen non potest attingere naturaliter nec 
+      per<lb ed="#P" n="2" break="no"/>fecte etiam potest ipsa attingere quantum sunt 
+      attin<lb ed="#P" n="3" break="no"/>gibilia ita quod obiecta et excedunt potentiam et 
+      exce<lb ed="#P" n="4" break="no"/>dunt omne lumen sibi possibile infundi in 
+      cognosci<lb ed="#P" n="5" break="no"/>bilitate. Nota etiam quod posset dici nullum aliud 
+      lu<lb ed="#P" n="6" break="no"/>men de necessitate requiri nisi lumen naturale ex per 
+      <lb ed="#P" n="7"/>te cognoscibilitatis et hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1245">
+               <lb ed="#P" n="8"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="9" break="no"/>culum. Utrum scilicet theologia sit de omnibus per 
+      at<lb ed="#P" n="10" break="no"/>tributionem ad ipsum deum sub ratione diuinitatis  
+      <lb ed="#P" n="11"/>vel per rationem diuinitatis. Dicitur quod triplex est 
+      theo<lb ed="#P" n="12" break="no"/>logia in genere. Una est dei: alia est beatorum / et alia 
+      <lb ed="#P" n="13"/>viatorum.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1261">
+      ¶ De prima videretur alicui quod ipsa non 
+      <lb ed="#P" n="14"/>est de omnibus scibilibus per rationem diuinitatis / 
+      <lb ed="#P" n="15"/>vel essentie diuine quia multe sunt veritates 
+      scibi<lb ed="#P" n="16" break="no"/>les que continentur. Primo in quidditatibus 
+      crea<lb ed="#P" n="17" break="no"/>tis etiam per impossibile si essentia diuina non esset 
+      <lb ed="#P" n="18"/>Si enim non esset deus adhuc triangulo conuenit 
+      <lb ed="#P" n="19"/>ret habere tres et homini risibilitas: sed illud quod 
+      <lb ed="#P" n="20"/>primo non continet aliquam veritatem non potest es 
+      <lb ed="#P" n="21"/>se intellectui ratio cognoscendi eam vt videtur. Cum 
+      <lb ed="#P" n="22"/>igitur ratio diuinitatis non contineat primo tales 
+      <lb ed="#P" n="23"/>veritates sed magis proprie quidditates rerum non 
+      <lb ed="#P" n="24"/>videtur quod possint esse omnia scita a deo per rationem 
+      <lb ed="#P" n="25"/>diuinitatis: sed aliqua sciuntur a deo de rebus per 
+      <lb ed="#P" n="26"/>proprias quidditates et rationes ipsarum. 
+      <lb ed="#P" n="27"/>non potest esse verum primo 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1294">
+               <lb ed="#P" n="28"/>¶ Sed istud quia si intellectus diuinus 
+      <lb ed="#P" n="29"/>moueretur aliud ad aliquam noticiam ab aliquo 
+      ex<lb ed="#P" n="30" break="no"/>trinseco a sua essentia puta a quidditatibus creato 
+      <lb ed="#P" n="31"/>rum necessario dependeret in sua intellectione ab 
+      ali<lb ed="#P" n="32" break="no"/>quo extrinseco / et non esset simpliciter primum 
+      inde<lb ed="#P" n="33" break="no"/>pendens: quia suum intelligere est sua essentia et per 
+      <lb ed="#P" n="34"/>consequens non esset deus: immo vilesceret suus 
+      in<lb ed="#P" n="35" break="no"/>tellectus. Si enim per suam essentiam non intelligit 
+      <lb ed="#P" n="36"/>veritatem aliquam de linea: tunc necessario post 
+      in<lb ed="#P" n="37" break="no"/>tellectionem essentie sue expectat motum linee ad hoc 
+      <lb ed="#P" n="38"/>vt cognoscat illam veritatem / et sic est in potentia 
+      pas<lb ed="#P" n="39" break="no"/>siua ad intellectionem suam recipiendam ex linea / 
+      <lb ed="#P" n="40"/>quod est impossibile: immo necessario sequereturque 
+      <lb ed="#P" n="41"/>essent in eo plures intellectiones realiter distincte 
+      <lb ed="#P" n="42"/>vna essentie sue ad quam nihil facit linea: et alia 
+      ali<lb ed="#P" n="43" break="no"/>cuius veritatis geometrice de linea ad quam nichil 
+      <lb ed="#P" n="44"/>faceret essentia.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1334">
+      ¶ Item omnis potentie actuabilis vel 
+      <lb ed="#P" n="45"/>perfectibilis a diuersis obiectis vertute propria 
+      eo<lb ed="#P" n="46" break="no"/>rum primum obiectum non est aliquod eorum sed 
+      com<lb ed="#P" n="47" break="no"/>mune eis vt dictum est supra: sed secundum predictam 
+      po<lb ed="#P" n="48" break="no"/>tentiam quelibet res virtute propria potest causare 
+      <lb ed="#P" n="49"/>noticiam alicuius veritatis de seipsa in intellectu 
+      <lb ed="#P" n="50"/>diuino sicut linea aliquam veritatem geometricam: 
+      <lb ed="#P" n="51"/>ita quod est actuabilis et perfectibilis per diuersa 
+      ob<lb ed="#P" n="52" break="no"/>iecta virtute propria ipsorum: ergo obiectum primum 
+      <lb ed="#P" n="53"/>diuini intellectus non est essentia sua sed aliquid 
+      con<lb ed="#P" n="54" break="no"/>mune sibi et aliis hoc est falsum sicut probabitur in 
+      <lb ed="#P" n="55"/>fra ergo etc. Nec valet si dicas quod immo essentia est 
+      pri<lb ed="#P" n="56" break="no"/>mum obiectum / quia omnia alia attribuuntur essen 
+      <lb ed="#P" n="57"/>ties sue ita enim omnia accidentia attribuuntur 
+      sub<lb ed="#P" n="58" break="no"/>stanntie ergo tamen non oportet quod substantia sit primum ob 
+      <lb ed="#P" n="59"/>iectum adequatum intellectus nec hoc poneretur. 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1369">
+               <lb ed="#P" n="60"/>¶ Item si essentia diuina esset primum obiectum 
+      di<lb ed="#P" n="61" break="no"/>uini intellectus sicut supponitur planum est quod non con 
+      <lb ed="#P" n="62"/>munitate predicationis sed secundum virtutem continentie 
+      <lb ed="#P" n="63"/>aliorum sed si quelibet quidditas moueret diuinam 
+      <lb ed="#P" n="64"/>intellectualem diuinum intellectum iam non esset pri¬ 
+      <!--45.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>mum secundum virtutem continendi ergo etc.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1389">
+      ¶ Item sequeretur 
+      <lb ed="#P" n="66"/>quod intellectio aliqua noua esset in deo cum enim 
+      quid<lb ed="#P" n="67" break="no"/>ditas rei tante non sit in effectum sed et in re ab 
+      eterno<lb ed="#P" n="68" break="no"/>sed de nouo impossibile est quod ab eterno moueat ad 
+      <lb ed="#P" n="69"/>aliquam veram intellectionem realem: ergo de nouo 
+      di<lb ed="#P" n="70" break="no"/>uinus intellectus mouetur ab ipsa et ita mutatur et 
+      <lb ed="#P" n="71"/>est ens in potentia: et per consequens non est actus 
+      pu<lb ed="#P" n="72" break="no"/>rus nec deus et intellectiones multe eius sunt. 
+      Di<lb ed="#P" n="73" break="no"/>cendum est ergo quod theologia dei est de omnibus 
+      scibi<lb ed="#P" n="74" break="no"/>libus per rationem diuinitatis eo modo quo dictum est 
+      <lb ed="#P" n="75"/>supra. Assignando rationem obiecti theologie: quia 
+      <lb ed="#P" n="76"/>obiectum primum theologie sue facit omnia alia actu 
+      co<lb ed="#P" n="77" break="no"/>gnita in intellectu suo: ita quod in primo signo secundum 
+      ra<lb ed="#P" n="78" break="no"/>tionem et modum intelligendi nostrum facit noticiam de 
+      <lb ed="#P" n="79"/>seipso. In secundo noticiam omnium quidditatum creata 
+      <lb ed="#P" n="80"/>rum quas continet virtualiter. In tertio vero 
+      noti<lb ed="#P" n="81" break="no"/>ciam omnium veritatum in illis quiddiratibus 
+      deter<lb ed="#P" n="82" break="no"/>minate et scibiliter contentarum non autem ipse quiddi 
+      <lb ed="#P" n="83"/>tates faciunt apud intellectum diuinum illam noticiam 
+      <lb ed="#P" n="84"/>sicut nec suam ita quod iste ordo noticiarum plurium secundum 
+      <lb ed="#P" n="85"/>rationem non est sicut creatorum et sicut creatarum: sed 
+      <lb ed="#P" n="86"/>sicut trium effectuum vel quasi effectuum ab eodem 
+      <lb ed="#P" n="87"/>principio secundum quendam rationis ordinem procedentium 
+      <lb ed="#P" n="88"/>puta ab essentia diuina ita quod si mtio essentie 
+      diui<lb ed="#P" n="89" break="no"/>ne respectu diuini intellectus cessaret in primo 
+      si<lb ed="#P" n="90" break="no"/>gno et in prima noticia nunquam deus posset 
+      intellige<lb ed="#P" n="91" break="no"/>re quidditates creatas nec veritates complexas de ipsis quia 
+      <lb ed="#P" n="92"/>mpossibile est quod ab aliquo extrinseco obiecto moueatur 
+      <lb ed="#P" n="93"/>dictum sit de theologia dei vt cadit 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1452">
+               <lb ed="#P" n="94"/>¶ Et hoi super necessaria.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1457">
+      ¶ De ipsa vero vt 
+      <lb ed="#P" n="95"/>cadit super contingentia dicitur sicut in praecedenti 
+      que<lb ed="#P" n="96" break="no"/>stione vbi dicebatur quomodo deus est subiectum  
+      <lb ed="#P" n="97"/>in ea vel primum obiectum secundum rationem diuinitatis. 
+      Di<lb ed="#P" n="98" break="no"/>co etiam vltra quod deus noticiam solum theologicam habet deus 
+      <lb ed="#P" n="99"/>bmibus et sua theologia est sibi omnis scientia quia ipsa 
+      so<lb ed="#P" n="100" break="no"/>la non includit aliquam limitationem nec imperfectionem / 
+      <lb ed="#P" n="101"/>et est in ipso omnis noticia sibi possibilis per rationem essentie 
+      <lb ed="#P" n="102"/>sue qumocumque accepte / sicut superius dicebatur.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1477">
+      ¶ Nec 
+      <lb ed="#P" n="103"/>valet motiuum aliorum contra hoc quod multe veritates non 
+      con<lb ed="#P" n="104" break="no"/>tinentur primo et immediate in essentia diceretur quod hoc non 
+      <lb ed="#P" n="105"/>requiritur ad noticiam diuinam theologicam de ipsis: sed  
+      <lb ed="#P" n="106"/>sufficit quod mediantibus quidditatibus creatis contineat 
+      <lb ed="#P" n="107"/>llas sed hoc bene requireretur ad noticias proprias et 
+      distin<lb ed="#P" n="108" break="no"/>ctas talium veritatum in proprio vel forte posset dici quod 
+      <lb ed="#P" n="109"/>ista meditatio quidditatum inter essentiam diuinam et 
+      ve<lb ed="#P" n="110" break="no"/>ritates vel passiones eorum non est in ratione cause sed 
+      in<lb ed="#P" n="111" break="no"/>mediate in ratione cause deus continet tales veritates mul 
+      <lb ed="#P" n="112"/>te veritates quam ipse quidditates.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1502">
+      ¶ Aliter dicitur melius 
+      <lb ed="#P" n="113"/>quod diuina essentia primo continet tales veritates sicut 
+      pri<lb ed="#P" n="114" break="no"/>ma causa continens etiam veritates quas sequuntur passiones 
+      <lb ed="#P" n="115"/>de quibus sunt. Cum dicis quod non quia si per impossibile deus 
+      <lb ed="#P" n="116"/>non esset adhuc iste quidditates continerent eas dico quod 
+      <lb ed="#P" n="117"/>ita arguam contra te si tales non essent in re et in effectu 
+      adhud<lb ed="#P" n="118" break="no"/>deus contineret et continebat ab eterno quando non erant. 
+      Pro<lb ed="#P" n="119" break="no"/>te ponis incompossibilia. Si enim deus non esset quidditates  
+      <lb ed="#P" n="120"/>ille non essent: et per consequens nichil continerent: ergo secundum te et non 
+      con<lb ed="#P" n="121" break="no"/>tinerent: quia deus non esset nec ipse essent et ita nichil valet 
+      <lb ed="#P" n="122"/>Non quod si deus non esset quidditates creaturarum non essent 
+      <lb ed="#P" n="123"/>nec inesse reali nec inesse intelligibili quia quidditates  
+      <lb ed="#P" n="124"/>creaturarum primo habent esse intelligibile per diuinam 
+      intelle<lb ed="#P" n="125" break="no"/>ctionem sicut dicetur infra: et per consequens non continerent tales 
+      veri<lb ed="#P" n="126" break="no"/>tates nec inesse intelligibili nec inesse reali. 
+      <lb ed="#P" n="127"/>theologia in intellectu beatorum dico quod cum 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1537">
+               <lb ed="#P" n="128"/>¶ De per eundem actum cognoscatur essenia diuina et quid 
+      <lb ed="#P" n="129"/>quid namir repentat secundum rationem essentie quod ipsa est de omnibus 
+      <!--46.xml-->
+       <pb ed="#P" n="18-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quidditatibus et complexionibus necessariis per rationem 
+      <lb ed="#P" n="2"/>essentie diuine siue sit finita siue infinita. Non enim 
+      pos<lb ed="#P" n="3" break="no"/>sum videre ex quo est actus idem cognitiuus essenie et aliorum 
+      <lb ed="#P" n="4"/>per ipsam qumo possit videri diuina essentia vel 
+      cognosci<lb ed="#P" n="5" break="no"/>euidenter et clare. non autem omnia que naturaliter et 
+      <lb ed="#P" n="6"/>necessario representat cuiusmodi sunt omnes 
+      quiddi<lb ed="#P" n="7" break="no"/>tates simplicium terminorum / et per consequens omnes 
+      <lb ed="#P" n="8"/>quiddita tes vel complexiones necessarie ipsorum 
+      da<lb ed="#P" n="9" break="no"/>to quod ista sint infinita: non enim est maius 
+      cognosce<lb ed="#P" n="10" break="no"/>re infinita extensiue quam infinitum intensiue. Si autem 
+      po<lb ed="#P" n="11" break="no"/>neretur alius actus et alius actus cognoscendi essentiam 
+      <lb ed="#P" n="12"/>et alia per ipsam ( quod tamen non credo esse verum ) tunc deus 
+      <lb ed="#P" n="13"/>posset influere ad primum non influendo ad secundum. 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1579">
+               <lb ed="#P" n="14"/>¶ Nec valet quod dicunt aliqui quod essentia diuina est 
+      <lb ed="#P" n="15"/>obiectum intellectus beatorum non naturale sed 
+      volun<lb ed="#P" n="16" break="no"/>tarium et ideo non oportet quod omnia representet et quod omnia 
+      <lb ed="#P" n="17"/>cognoscantur per eam: quia licet deus sit obiectum volunta 
+      <lb ed="#P" n="18"/>rium quantum ad influendum ad actum ipsum ita quod si vult 
+      <lb ed="#P" n="19"/>videtur et si non vult non videtur non tamen est obiectum 
+      <lb ed="#P" n="20"/>voluntarium quantum ad hoc quod actu posito in esse non 
+      <lb ed="#P" n="21"/>videantur omnia que essentia diuina representat 
+      ne<lb ed="#P" n="22" break="no"/>cessario et necessitate naturali / quia sicut dicitur idem 
+      <lb ed="#P" n="23"/>actus est respectu essentie divine et aliorum per ipsam. 
+      <lb ed="#P" n="24"/>et ideo sicut ad eundem actum non potest simul 
+      influe<lb ed="#P" n="25" break="no"/>re et non influere ita nec hoc potest. Cum dico quod 
+      theo<lb ed="#P" n="26" break="no"/>logia beatorum non est omnis noticia eorum sed habent 
+      <lb ed="#P" n="27"/>aliam noticiam et scientiam rerum in proprio genere quia 
+      <lb ed="#P" n="28"/>non repugnat eis moueri ad actum ab obiectis 
+      ex<lb ed="#P" n="29" break="no"/>trinsecis siue per seipsa siue per representatiua ipsorum 
+      <lb ed="#P" n="30"/>et non solum habent noticiam vel scientiam rerum 
+      matuti<lb ed="#P" n="31" break="no"/>nam et in vno sed etiam vespertinam et in proprio 
+      gene<lb ed="#P" n="32" break="no"/>re. Unde non solum habent scientiam de linea per 
+      essen<lb ed="#P" n="33" break="no"/>tiam diuinam: sed etiam per ipsam lineam et sic de aliis 
+      <lb ed="#P" n="34"/>obiectis. Unde patet quod distinctio huius doctoris 
+      <lb ed="#P" n="35"/>quod theologia beatorum potest considerari in se et sic de 
+      <lb ed="#P" n="36"/>omnibus vel vt habita ab intellectu tali puta creato 
+      <lb ed="#P" n="37"/>et finito et sic potest haberi de omnibus etiam per rationem 
+      <lb ed="#P" n="38"/>essentie divine et de facto limitationem non habet 
+      ni<lb ed="#P" n="39" break="no"/>si ex voluntate diuina ostendente illa quae placent sibi 
+      in<lb ed="#P" n="40" break="no"/>essentia sua et ideo loquendo de facto est de tot quot 
+      <lb ed="#P" n="41"/>vult deus ostendere non est ad propositum quocumque enim 
+      <lb ed="#P" n="42"/>modo capiatur siue in se siue in tali intellectum siue de 
+      <lb ed="#P" n="43"/>possibili siue de facto dico quod est de omnibus 
+      supradi<lb ed="#P" n="44" break="no"/>ctis.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1649">
+      ¶ De theologia eorum respectu contingentium 
+      di<lb ed="#P" n="45" break="no"/>co quod non oportet dicere quod sit de omnibus per rationem 
+      <lb ed="#P" n="46"/>diuinitatis vel ignorantur vel nesciunt multa 
+      contin<lb ed="#P" n="47" break="no"/>gentia de quibus fiunt et possunt eis fieri reuelatio 
+      <lb ed="#P" n="48"/>nes immo quod nullam complexionem contingentem 
+      cogno<lb ed="#P" n="49" break="no"/>scunt per rationem diuitatis cognoscendo verbum vel in 
+      <lb ed="#P" n="50"/>verbo: quia qua ratione viderent vnam et omnes alias / et 
+      <lb ed="#P" n="51"/>eodem actu: quia essentia diuina pro illo tertio signo pro 
+      <lb ed="#P" n="52"/>quo est repraesentatiua contingentium non verificat eos 
+      <lb ed="#P" n="53"/>led pro primo tantum: et ideo non cognoscunt aliquas 
+      con<lb ed="#P" n="54" break="no"/>plexiones contingentes per eam actu suo beatifico: sed si 
+      <lb ed="#P" n="55"/>per eam pro illo tertio signo cognoscunt aliqua hoc est 
+      per<lb ed="#P" n="56" break="no"/>actus alios et varios secundum multitudinem contingentium 
+      <lb ed="#P" n="57"/>vero viatorum quae est 
+      theolo<lb ed="#P" n="58" break="no"/>De theologia gia nostra reuelata vel 
+      ex<lb ed="#P" n="59" break="no"/>reuelatis procedens dicitur quod ipsa non est de omnibus sed habet 
+      <lb ed="#P" n="60"/>tantum secundum diuinam reuelationem et voluntatem ipsius dei 
+      <lb ed="#P" n="61"/>reuelantis. Unde ipsa est solum de his quae in sacra 
+      scriptu<lb ed="#P" n="62" break="no"/>ra reuelantur et de his quae patest elici ex ipsis illatione 
+      ne<lb ed="#P" n="63" break="no"/>cessaria et euidenti quia sicut dicitur apoca. vlt. Si quis 
+      ap<lb ed="#P" n="64" break="no"/>posuerit adhuc apponet ei deus plagas quae sunt in 
+      li<lb ed="#P" n="65" break="no"/>bro isto.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1697">
+      ¶ Secundo dicitur quod nec ipsa potest esse de omnibus. Tum 
+      <!--46.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>propter defectum intellectus nostri pro statu isto non 
+      poten<lb ed="#P" n="67" break="no"/>tis intelligere quidditates omnium terminorum. 
+      Reuela<lb ed="#P" n="68" break="no"/>tio autem de communi lege et cui intuitur theologia nostra non 
+      <lb ed="#P" n="69"/>est nisi de his quorum terminos possumus naturaliter 
+      <lb ed="#P" n="70"/>concipere ita quod reuelatio ista tantum est de veritate 
+      com<lb ed="#P" n="71" break="no"/>plexionum non de conceptibus terminorum. Et tamen aliquoo 
+      <lb ed="#P" n="72"/>de omnibus etiam aliis a deo secundum quandam rationem generalem quod 
+      <lb ed="#P" n="73"/>omia sunt a deo producta vel producibilia: non autem secundum 
+      <lb ed="#P" n="74"/>rationes speciales: vt dictum est quare etc. Tum vt dicunt 
+      <lb ed="#P" n="75"/>propter defectum theologie nostre quia non potest stare cum 
+      co<lb ed="#P" n="76" break="no"/>gnitione euidenti de eisdem cognoscibilibus propter sui 
+      in<lb ed="#P" n="77" break="no"/>perfectionem et ineuidentiam. Sed ista fatio est superius 
+      <lb ed="#P" n="78"/>soluta nec concludit sicut dictum est supra. Et dico quod 
+      <lb ed="#P" n="79"/>theologia reuelata potest stare de notis naturaliter 
+      no<lb ed="#P" n="80" break="no"/>bis puta quod deus est vnus vel oipes vel huiusmodi. Si tamen ista 
+      <lb ed="#P" n="81"/>possent ratione namli demonstrari nec ista ratio impedit in aliquo 
+      <lb ed="#P" n="82"/>Tumc enim theologus vel fidetur nulloo deberet 
+      addiscere<lb ed="#P" n="83" break="no"/>demonstrationes istorum: quia perderet fidem: et per consequens meritum 
+      <lb ed="#P" n="84"/>fidei in credendo quod est absurdum. Sic ergo patet qumo 
+      theolo<lb ed="#P" n="85" break="no"/>gia est de omnibus et quo non. et hec de tertio ar. principali. 
+      <lb ed="#P" n="86"/>rationem quaestionis dico quod 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1749">
+               <lb ed="#P" n="87"/>¶ Ad primam specialis scientiae est 
+      ratio<lb ed="#P" n="88" break="no"/>obiectiua specialis suoo qumocumque hoc intelligatur litcet 
+      pos<lb ed="#P" n="89" break="no"/>set habere in metaphisica. Tu dicis quod ratio diuini 
+      <lb ed="#P" n="90"/>tatis non est ratio specialis: dico quod immo specialissima et contracti 
+      <lb ed="#P" n="91"/>sima secundum quod contractum opponitur vniuersali et absoluto secundum 
+      <lb ed="#P" n="92"/>raedicationem et hoc sufficit: non tamen est contracta ad noticiam 
+      <lb ed="#P" n="93"/>sicut alie rationes posteriores nec oportet immo 
+      im<lb ed="#P" n="94" break="no"/>possibile est hoc sicut superius est probatum.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1770">
+      ¶ Ad se 
+      <lb ed="#P" n="95"/>cundum dico quod ratio diuinitatis est ratio nobilissimi 
+      <lb ed="#P" n="96"/>finis dicit fundamentum et respectus rationis dei ad 
+      <lb ed="#P" n="97"/>effectum: et isto modo finis est causa et de ipso est 
+      no<lb ed="#P" n="98" break="no"/>bilissima: dicit quod non sed ratio diuinitatis iam dictum 
+      <lb ed="#P" n="99"/>est ad supra quod eadem est ratio diuinitatis et 
+      bonita<lb ed="#P" n="100" break="no"/>tis quantum ad illud quod dicunt positiuum extra intellectum 
+      </p>
+            <p xml:id="qrdBas-ae9495-d1e1786">
+               <lb ed="#P" n="101"/>¶ Ad tertium dico quod non omnes perfectiones vel proprieta 
+      <lb ed="#P" n="102"/>tes in obiecto denominant scientiam sicut perfectio 
+      la<lb ed="#P" n="103" break="no"/>pidis quae est lapideitas vel proprietas eius que est 
+      duri<lb ed="#P" n="104" break="no"/>cia non denominat scientiam de lapide. Modo enim dicitur 
+      <lb ed="#P" n="105"/>scientia lapidea vel dura vel corporea sicut patet. 
+      <lb ed="#P" n="106"/>Ita dico in proposito quod quantumcumque scientia sit de 
+      infini<lb ed="#P" n="107" break="no"/>to et sub ratione infinita quantum ad illud quod dicit 
+      po<lb ed="#P" n="108" break="no"/>sitiuum cuius est ratio deitatis non oportet quod sit 
+      v<lb ed="#P" n="109" break="no"/>dicatur infinita formaliter et subiectiue. Hoc enim 
+      sibi<lb ed="#P" n="110" break="no"/>repugnat aliunde et ex seipsa et ex subiecto saltem secundum 
+      <lb ed="#P" n="111"/>illos qui ponunt quod non posset esse creatura actu 
+      infi<lb ed="#P" n="112" break="no"/>nita intensiue in propria perfectione sui generis. Et 
+      <lb ed="#P" n="113"/>dato quod posset esse non est tamen necessarium quod sit.
+    </p>
+            <p xml:id="qrdBas-ae9495-d1e1817">
+      ¶ Ad 
+      <lb ed="#P" n="114"/>quartum dico quod deus est subiectum scientie sue et 
+      scien<lb ed="#P" n="115" break="no"/>tie create sub estadem ratione infinita intrinsece quae est 
+      <lb ed="#P" n="116"/>ratio diuinitatis non obstante proportione et 
+      corre<lb ed="#P" n="117" break="no"/>spondentia obiecti ad scientiam vel noticia que non est 
+      <lb ed="#P" n="118"/>semper secundum equalitatem perfectionis et gradus in 
+      natu<lb ed="#P" n="119" break="no"/>ra sed est talis proportio qualis sufficit scilicet quod hoc 
+      <lb ed="#P" n="120"/>possit esse eius noticia et istud cognitum per illud et 
+      <lb ed="#P" n="121"/>hoc stat cum predictis. Ad confirmationem de 
+      Hugo<lb ed="#P" n="122" break="no"/>ne pro operibus restaurationis. Et Cassiodorus 
+      <lb ed="#P" n="123"/>pro christo capite et consimiles dicendum quod non 
+      lo<lb ed="#P" n="124" break="no"/>quuntur quod theologia sit de istis tanquam de obiecto 
+      for<lb ed="#P" n="125" break="no"/>mali et primo sed tanquam de materia considerata in 
+      scien<lb ed="#P" n="126" break="no"/>tia secundum attributionem ad formale obiectum eo modo 
+      <lb ed="#P" n="127"/>quo dictum est supra in corpore questionis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

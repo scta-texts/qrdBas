@@ -1,0 +1,900 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="186-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1207X"><!-- l1d36q1 -->
+            <head xml:id="qrdBas-a1207X-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a1207X-d1e101">
+               <lb ed="#P" n="20"/>¶ Distinctionis. xxx vi. 
+      <lb ed="#P" n="21"/>Questio Prima. 
+  </p>
+            <p xml:id="qrdBas-a1207X-d1e108">
+               <lb ed="#P" n="22"/>CIrca distinctionem 
+      <lb ed="#P" n="23"/>Trigesimamsextam quero. 
+      Utri<lb ed="#P" n="24" break="no"/>deus intelligat distincte 
+      om<lb ed="#P" n="25" break="no"/>nia alia a se.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e119">
+      ¶ Uidetur quod non 
+      <lb ed="#P" n="26"/>Potentia non excedit suum 
+      <lb ed="#P" n="27"/>obiectum adequatum in 
+      cogno<lb ed="#P" n="28" break="no"/>scendo. Sed obiectum 
+      adequa<lb ed="#P" n="29" break="no"/>tum diuini intellectus est 
+      essen<lb ed="#P" n="30" break="no"/>tia sua: ergo nichil aliud 
+      cogno<lb ed="#P" n="31" break="no"/>scit.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e135">
+      ¶ Secundo sic. Et est ratio Commentatoris 
+      <lb ed="#P" n="32"/>duodecimo metaphisice. Si deus aliquid aliud 
+      in<lb ed="#P" n="33" break="no"/>telligeret / necessario preexigeret illud ad suam 
+      in<lb ed="#P" n="34" break="no"/>tellectionem / et ita in intelligendo dependeret ab 
+      ali<lb ed="#P" n="35" break="no"/>quo extrinseco / et vilesceret eius intellectus: sed hoc 
+      <lb ed="#P" n="36"/>est falsum: ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e149">
+      ¶ Tertio sic. Simile sensi 
+      <lb ed="#P" n="37"/>bile non est intelligibile / nisi per immutationem a 
+      <lb ed="#P" n="38"/>sensu / et abstractionem / et reflexionem vt dicitur ter 
+      <lb ed="#P" n="39"/>io de anima: sed deus nullo istorum modorum 
+      in<lb ed="#P" n="40" break="no"/>telligit: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e160">
+      ¶ Quarto sic. Si deus 
+      intellige<lb ed="#P" n="41" break="no"/>ret aliquid aliud a se aut hoc esset noticia intuitiua 
+      <lb ed="#P" n="42"/>aut abstractiua: sed nullo modo: quia non cognoscit 
+      <lb ed="#P" n="43"/>aliter presentia quam futura: sed quando res actu 
+      exi<lb ed="#P" n="44" break="no"/>stit: vel intuitiue cognoscit: vel non cognoscit: ergo 
+      <lb ed="#P" n="45"/>similiter quando res non existit non potest eum 
+      co<lb ed="#P" n="46" break="no"/>gnoscere intuitiue: ergo non cognoscit vt videtur. 
+      <lb ed="#P" n="47"/>ad Hebreos quarto. Omnia nul¬ 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e178">
+               <lb ed="#P" n="48"/>¶ Contra da et aperta oculis eius ad quam 
+      <lb ed="#P" n="49"/>nobis sermo / et non est vlla creatura inuisibilis in 
+      com<lb ed="#P" n="50" break="no"/>spectu eius 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e187">
+               <lb ed="#P" n="51"/>¶ In ista quaestione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e192">
+               <lb ed="#P" n="52"/>¶ Primo ostendam quod deus perfectissime 
+      cogno<lb ed="#P" n="53" break="no"/>scat omnia alia a se / et quomodo creatura possit 
+      es<lb ed="#P" n="54" break="no"/>se obiectum per se intellectus diuini.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e201">
+      ¶ Secundo 
+      <lb ed="#P" n="55"/>inquiram vtrum aliquid aliud a deo puta creatura 
+      <lb ed="#P" n="56"/>prius sit representata vel expressa per diuinam 
+      es<lb ed="#P" n="57" break="no"/>sentiam quam actu intellecta.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e211">
+      ¶ Tertio vtrum ad hoc 
+      <lb ed="#P" n="58"/>quod deus distincte cognoscat alia necessario 
+      exigan<lb ed="#P" n="59" break="no"/>tur siue preexigantur in eo distincti respectus 
+      ratio<lb ed="#P" n="60" break="no"/>nis ad ipsa intellecta. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e220">
+               <lb ed="#P" n="61"/>¶ De primo ostendam qua¬ 
+      <!--385.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="62"/>liter cognoscit omnia alia a se / et hoc sic. si 
+      intelle<lb ed="#P" n="63" break="no"/>ctus diuinus non intelligeret aliquod ens: aut  
+      <lb ed="#P" n="64"/>hoc esset propter defectum / et debilitatem potentie 
+      <lb ed="#P" n="65"/>intelligentis: sicut exemplificat Commentator de 
+      <lb ed="#P" n="66"/>materia secundo metaphisice. Aut propter 
+      intelli<lb ed="#P" n="67" break="no"/>gibilis excellentiam: sicut exemplificat Aristoteles 
+      <lb ed="#P" n="68"/>de intellectu nostro / et de manifestissimis in natura 
+      <lb ed="#P" n="69"/>que excedunt intellectum nostrum: sed neutrum 
+      isto<lb ed="#P" n="70" break="no"/>rum potest habere locum in deo: non primum: quia cum 
+      <lb ed="#P" n="71"/>intellectus diuinus sit formaliter infinitus nullum 
+      <lb ed="#P" n="72"/>obiectum ipsum formaliter potest excedere aliquo 
+      <lb ed="#P" n="73"/>modo. Secundum non / scilicet defectus entitatis in 
+      <lb ed="#P" n="74"/>telligibilis: quia sicut patebit infra intellectus 
+      di<lb ed="#P" n="75" break="no"/>uinus non presupponit aliquid extrinsecum in 
+      in<lb ed="#P" n="76" break="no"/>telligendo in esse intelligibili: sed dat sibi primo 
+      es<lb ed="#P" n="77" break="no"/>se intelligibile per suum intelligere. Secundo etiam 
+      <lb ed="#P" n="78"/>quia sibi sufficit entitas primi obiecti sui: quod est 
+      <lb ed="#P" n="79"/>essentia sua virtualiter continens omnia alia: ergo 
+      <lb ed="#P" n="80"/>omnia perfecte cognoscit seu intelligit.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e270">
+      ¶ 
+      Secun<lb ed="#P" n="81" break="no"/>do sic. Quicunque intellectus potest perfecte 
+      cogno<lb ed="#P" n="82" break="no"/>scere causam et inquantum causa est / potest 
+      intelli<lb ed="#P" n="83" break="no"/>gere causatum / et precipue loquendo de totali 
+      cau<lb ed="#P" n="84" break="no"/>sa et perfecta. Sed deus ( sicut supponitur ad 
+      pre<lb ed="#P" n="85" break="no"/>sens ) est causa totalis et perfecta cuiuslibet alterius 
+      <lb ed="#P" n="86"/>a se / et potest cognoscere seipsum perfectissime: vt 
+      <lb ed="#P" n="87"/>dictum est supra: ergo omne aliud a se.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e288">
+      ¶ Tertio sic. 
+      <lb ed="#P" n="88"/>Et arguo specialiter quod cognoscat omnia bona et 
+      ma<lb ed="#P" n="89" break="no"/>la: prouisor vniuersalis et sufficiens et dirigens vnum 
+      <lb ed="#P" n="90"/>quodque in finem necessario cognoscit omnia alia: quia 
+      <lb ed="#P" n="91"/>cadunt sub prouidentia eius perfecta: sed deus est 
+      <lb ed="#P" n="92"/>huiusmodi respectu omnium aliorum a se: quia 
+      om<lb ed="#P" n="93" break="no"/>nia subiecta sunt sue prouidentie sicut dicetur infra 
+      <lb ed="#P" n="94"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e306">
+      ¶ Quarto sic. Ex parte diuine iusticie 
+      iu<lb ed="#P" n="95" break="no"/>stus iudex debet habere certam noticiam de his de 
+      <lb ed="#P" n="96"/>quibus habet iudicare: sed deus est huiusmodi: 
+      ha<lb ed="#P" n="97" break="no"/>bet enim iudicare deiomnibus bonis et malis: ergo etc. 
+      <lb ed="#P" n="98"/>Confirmatur quia diuina essentia eminenter et per 
+      <lb ed="#P" n="99"/>fectissime continet et representat omnia et omnem 
+      mo<lb ed="#P" n="100" break="no"/>dum: omnia igitur intellectus eius cognoscit etc. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e322">
+               <lb ed="#P" n="101"/>¶ Quantum ad modum quomodo cognoscit 
+      om<lb ed="#P" n="102" break="no"/>nia. Notandum est quod entia creata / et priuationes: ets 
+      <lb ed="#P" n="103"/>negationes ipsorum: vel que consequuntur ipsa 
+      pos<lb ed="#P" n="104" break="no"/>sunt dupliciter considerari vel accipi: vel quantumo 
+      <lb ed="#P" n="105"/>ad incomplexionem. vt incomplexi termini sunt / eti 
+      <lb ed="#P" n="106"/>sic considerantur secundum proprias rationes 
+      ter<lb ed="#P" n="107" break="no"/>minorum: vel quantum ad complexionem seu 
+      complexio<lb ed="#P" n="108" break="no"/>nes eorum. Complexiones autem quedam sunt 
+      ne<lb ed="#P" n="109" break="no"/>cessarie que resultant et consurgunt quadam 
+      neces<lb ed="#P" n="110" break="no"/>sitate ex terminis: vt sunt iste: homo est animal: 
+      ho<lb ed="#P" n="111" break="no"/>mo est rationalis: et huiusmodi. Alie vero sunt 
+      con<lb ed="#P" n="112" break="no"/>tingentes / et sunt contingentia complexa: vt quod 
+      sor<lb ed="#P" n="113" break="no"/>tes curret / vel comedet. Et ista adhuc possunt 
+      acci<lb ed="#P" n="114" break="no"/>pi dupliciter. Unomodo pro suo esse possibili: vt 
+      pos<lb ed="#P" n="115" break="no"/>sibilia: et sic quandam necessitatem habent / licet non 
+      <lb ed="#P" n="116"/>sit absolute et simpliciter necessaria. Aliomodo 
+      quam<lb ed="#P" n="117" break="no"/>tum ad esse in actu / et sic sunt pure contingentia. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e362">
+               <lb ed="#P" n="118"/>¶ Ad propositum dico quod deus cognoscit omnia 
+      <lb ed="#P" n="119"/>positiua incomplexa actu simplicis intelligentie / et 
+      <lb ed="#P" n="120"/>negationes / et priuationes ipsorum: et per consequens 
+      <lb ed="#P" n="121"/>figmenta et impossibilia intelligendo essentiam suam 
+      <lb ed="#P" n="122"/>per rationem essentie sue vt primi obiecti / per se 
+      ta<lb ed="#P" n="123" break="no"/>men positiua / et aliquomodo per accidens negatio 
+      <lb ed="#P" n="124"/>ua et priuatiua. Intelligit etiam complexiones 
+      necessa<lb ed="#P" n="125" break="no"/>rias terminorum / vel necessaria complexa et contingentia 
+      <lb ed="#P" n="126"/>pro esse possibili / et inquantum aliquomodo sunt neces¬ 
+      <!--386.xml-->
+       <pb ed="#P" n="187-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>saria per rationem essentie: sicut et terminos 
+      comple<lb ed="#P" n="2" break="no"/>xionum talium / et hoc non intelligentia simplici: vel 
+      <lb ed="#P" n="3"/>vt simplex dicitur sed vt compositiua vel diuissua 
+      <lb ed="#P" n="4"/>Et consequenter omnes argumentationes: et 
+      sillo<lb ed="#P" n="5" break="no"/>gismos / et paralogismos de ipsis. Sed 
+      contingen<lb ed="#P" n="6" break="no"/>tia quantum ad esse in actu cognoscit ( sicut dicetur 
+      <lb ed="#P" n="7"/>infra ) per determinationem sue voluntatis: per quam 
+      <lb ed="#P" n="8"/>determinat illa aliquando fore vel esse vel fuisse / et 
+      <lb ed="#P" n="9"/>a qua omnia talia secundum esse in actu dependent 
+      <lb ed="#P" n="10"/>Ex sua etiam determinatione deus cognoscit 
+      om<lb ed="#P" n="11" break="no"/>nia bona et mala / etiam culpe vt puto ( sicut dicetur 
+      <lb ed="#P" n="12"/>infra ) ita quod necessario expectat determinationem 
+      <lb ed="#P" n="13"/>diuine voluntatis de istis antequam possit 
+      cognosce<lb ed="#P" n="14" break="no"/>re ea: puto tamen sicut apreparet ex predictis quod 
+      fa<lb ed="#P" n="15" break="no"/>cta determinatione intellectus cognoscit omnia 
+      per<lb ed="#P" n="16" break="no"/>rationem essentie vt per se primi adequati obiecti / 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e425">
+               <lb ed="#P" n="17"/>¶ Sic ergo patet quod deus cognoscit alia a se / et 
+      ali<lb ed="#P" n="18" break="no"/>quid aliud a se est obiectum sui intellectus. Sed quo 
+      <lb ed="#P" n="19"/>modo: dico quod obiectum potest intelligi secundum 
+      <lb ed="#P" n="20"/>aliquos habere duplicem habitudinem ad 
+      poten<lb ed="#P" n="21" break="no"/>tiam vnam sub ratione motiui: aliam in ratione 
+      ter<lb ed="#P" n="22" break="no"/>minatiui. Quantum ad primam habitudinem / 
+      di<lb ed="#P" n="23" break="no"/>co quod creatura non potest esse obiectum intellectus 
+      <lb ed="#P" n="24"/>diuini aliquomodo vt probatum est supra. 
+      Quan<lb ed="#P" n="25" break="no"/>tum ad secundam dico quod habitudo terminatiui 
+      po<lb ed="#P" n="26" break="no"/>test esse duplex. Una vt terminatiui per se primo 
+      <lb ed="#P" n="27"/>et sic non potest poni creatura obiectum diuini 
+      in<lb ed="#P" n="28" break="no"/>tellectus. Alia potest esse vt terminatiui per se: non 
+      <lb ed="#P" n="29"/>tamen primo / et sic creatura positiua vel aliquid 
+      po<lb ed="#P" n="30" break="no"/>sitiuum extra deum potest poni obiectum per se 
+      di<lb ed="#P" n="31" break="no"/>uini intellectus: et sic non oportet quod intellectus 
+      di<lb ed="#P" n="32" break="no"/>uinus aliquo modo a creatura dependeat in 
+      intelli<lb ed="#P" n="33" break="no"/>gendo / licet sit eius per se obiectum: quod tamen 
+      <lb ed="#P" n="34"/>oportet: et sic creatura poneretur per se primo non 
+      <lb ed="#P" n="35"/>intelligi a deo et ab intellectu suo secundum 
+      imagi<lb ed="#P" n="36" break="no"/>nationem quam intendit Commentator quando 
+      di<lb ed="#P" n="37" break="no"/>cit duodecimo metaphisice ( secundum aliquos non 
+      <lb ed="#P" n="38"/>secundum me ) quod deus non intelligit alia a se. Quod i 
+      <lb ed="#P" n="39"/>intellexit quod deus non intelligit alia a se vllomodo 
+      <lb ed="#P" n="40"/>falsum dicit / et irrationabiliter / et contra seipsum im 
+      <lb ed="#P" n="41"/>pluribus locis: vbi ostendit ipsum esse causam a pro 
+      <lb ed="#P" n="42"/>posito multorum aliorum a se: de quo tamen puto quod 
+      <lb ed="#P" n="43"/>ex perfectione diuina demonstrari non potest quod 
+      <lb ed="#P" n="44"/>deus intelligat alia a se: nec quod sua essentia 
+      represen<lb ed="#P" n="45" break="no"/>tet ea. Non est enim deus magis perfectus ex hoc 
+      <lb ed="#P" n="46"/>quod se et alia cognoscit quam se solum: sicut nec magis 
+      bea<lb ed="#P" n="47" break="no"/>tus secundum Augustinum dicentem. Beatus qui 
+      <lb ed="#P" n="48"/>te et illa nouit non propter illa beatior: sed propter 
+      <lb ed="#P" n="49"/>te solum beatus. Unde rationes superius 
+      proceden<lb ed="#P" n="50" break="no"/>tes ex diuina perfectione non sunt demonstratiue 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e501">
+               <lb ed="#P" n="51"/>¶ Nota circa articulum istum quod opinio Commen 
+      <lb ed="#P" n="52"/>tatoris duodecimo metaphisice. Fuit quod deus non 
+      <lb ed="#P" n="53"/>intelligit alia a se: sic quod apud intellectum suum sit 
+      <lb ed="#P" n="54"/>multitudo intellectorum: sed sicut est vnicus actus 
+      <lb ed="#P" n="55"/>intelligendi: et vnicus intellectus: sic et vnicum intel 
+      <lb ed="#P" n="56"/>lectum: quod est essentia sua. Tum quia essentia sua 
+      <lb ed="#P" n="57"/>est obiectum sibi adequatum. Alioquin potentia 
+      <lb ed="#P" n="58"/>excederet essentiam. Tum quia vbi est multitude 
+      <lb ed="#P" n="59"/>intellectorum ibi est compositio eorum apud intel 
+      <lb ed="#P" n="60"/>lectum: quia vnio et non nisi per compositionem. 
+      <lb ed="#P" n="61"/>Tum quia non esset perfecta identitas actus ad on 
+      <lb ed="#P" n="62"/>iectum: sicut nec potentie ad obiectum: sed obiectum 
+      <lb ed="#P" n="63"/>intellectum esset aliud extra ipsum. Tum quia 
+      in<lb ed="#P" n="64" break="no"/>telligit alia in vniuersali ( sicut posuerunt aliqui 
+      phi<lb ed="#P" n="65" break="no"/>losophi ) quia tunc in perfectione et sua noticia esset 
+      <lb ed="#P" n="66"/>alterius perfectionis: nec in particulari: quia sic sunt 
+      <!--386.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>intelligentia infinita. Infinitum autem non est 
+      in<lb ed="#P" n="68" break="no"/>telligibile. Tum quia intellectus diuinus 
+      mutabi<lb ed="#P" n="69" break="no"/>lis esset sicut et obiectum extrinsecum de actu in 
+      po<lb ed="#P" n="70" break="no"/>tentiam vel econuerso. Tum quia intellectus eius 
+      <lb ed="#P" n="71"/>vilesceret intelligendo ista inferiora vilia / et 
+      repro<lb ed="#P" n="72" break="no"/>bat Commentator per Themistium qui posuit quod 
+      <lb ed="#P" n="73"/>intelligit alia per seipsum vt causa est aliorum: 
+      di<lb ed="#P" n="74" break="no"/>cit tamen quod alia non omnino sunt ignota apud 
+      pri<lb ed="#P" n="75" break="no"/>mum: quia cognoscendo essentiam suam / que est 
+      quas<lb ed="#P" n="76" break="no"/>exemplar et imago aliorum: dicitur alia non 
+      igno<lb ed="#P" n="77" break="no"/>rare: non quod intellectus eius comparet istam 
+      essen<lb ed="#P" n="78" break="no"/>tiam ad aliam: vel cognoscat eam vt imago vel 
+      exem<lb ed="#P" n="79" break="no"/>plar: quia tunc esset ibi intellectum: sed intelligit eam 
+      <lb ed="#P" n="80"/>absolute vt in se et precise secundum se: et per hoc 
+      di<lb ed="#P" n="81" break="no"/>citur alia non ignorare.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e575">
+      ¶ Sed dico quod ista 
+      positio<lb ed="#P" n="82" break="no"/>falsa est / et heretica: quia si sint de mente 
+      Aristote<lb ed="#P" n="83" break="no"/>lis hereticus fuit. Quod autem deus intelligat omnis 
+      <lb ed="#P" n="84"/>et perfecte distincta: et quantum ad omnem 
+      modum<lb ed="#P" n="85" break="no"/>omnium. Patet / quia sua essentia perfecte eminen 
+      <lb ed="#P" n="86"/>ter et illimitate continet omnia: ac per hoc represen 
+      <lb ed="#P" n="87"/>tat secundum modum qui explicatur in corpore istius 
+      <lb ed="#P" n="88"/>questionis: sed intellectus eius in intelligendo 
+      equa<lb ed="#P" n="89" break="no"/>liter essent in representando: igitur etc. Quod autem 
+      <lb ed="#P" n="90"/>posuit Themistius quod per rationem causalitatis in 
+      <lb ed="#P" n="91"/>telligat omnia non est verum. Si intelligatur quod 
+      ra<lb ed="#P" n="92" break="no"/>tio causalitatis accipiendo formaliter sit ratio 
+      in<lb ed="#P" n="93" break="no"/>telligendi: quia tunc prior esset causalitas: vel prius 
+      <lb ed="#P" n="94"/>esset in deo causare quam intelligere: quod non 
+      econuer<lb ed="#P" n="95" break="no"/>so. Sed si intelligatur de fundamento causalitatis  
+      <lb ed="#P" n="96"/>quod est essentia potest saluari. Sed tunc 
+      quomo<lb ed="#P" n="97" break="no"/>do dicit Commentator scientiam dei esse causam 
+      re<lb ed="#P" n="98" break="no"/>rum si deus non intelligit res alias a se. 
+      Responde<lb ed="#P" n="99" break="no"/>tur ad hoc quod secundum viam philosophorum: et pre 
+      <lb ed="#P" n="100"/>cipue Commentatoris: non oportet ad hoc vt 
+      ali<lb ed="#P" n="101" break="no"/>quid causetur ab intelligentia quod preconcipiatur ab 
+      <lb ed="#P" n="102"/>ea: sed sufficit quod aliquid preconcipiatur ad cuius 
+      <lb ed="#P" n="103"/>conceptionem illud ponatur in esse: sicut ponit 
+      exem<lb ed="#P" n="104" break="no"/>plum de motu celi ab intelligentia: vt patet in exem 
+      <lb ed="#P" n="105"/>plo quod non oportet canem preconcipere motum ad 
+      <lb ed="#P" n="106"/>hoc vt moueat se ad cibum apprehensum: sed ad 
+      ap<lb ed="#P" n="107" break="no"/>prehensionem cibi sequitur motus in ipso. Sic ad 
+      <lb ed="#P" n="108"/>apprehensionem et scientiam quam habet de seipso 
+      <lb ed="#P" n="109"/>sequitur illud quod ponitur in esse ab eo / nec 
+      opor<lb ed="#P" n="110" break="no"/>tet quod preintelligat res: et si eas preintelligeret dice 
+      <lb ed="#P" n="111"/>ret Commentator quod tunc scientia dei non esset 
+      cau<lb ed="#P" n="112" break="no"/>sa rerum sed magis econuerso.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e645">
+      ¶ Ad motiua 
+      Con<lb ed="#P" n="113" break="no"/>mentatoris dico quod essentia sua est obiectum sibi 
+      ade<lb ed="#P" n="114" break="no"/>quatum tanquam primum obiectum: et dico quod aliquid 
+      <lb ed="#P" n="115"/>aliud potest intelligere non tanquam primum sed 
+      secun<lb ed="#P" n="116" break="no"/>darium obiectum. Ad secundum et ad omnia per 
+      di<lb ed="#P" n="117" break="no"/>stinctionem de obiecto primario et secundario 
+      po<lb ed="#P" n="118" break="no"/>test dici: vel ad primum potest dici quod essentia dei est 
+      <lb ed="#P" n="119"/>obiectum adequatum intensiue non extensiue et illa 
+      <lb ed="#P" n="120"/>ad aliqua alia obiecta secundaria potest se 
+      extende<lb ed="#P" n="121" break="no"/>re. Ad tertium dico quod nulla sequitur compositio in 
+      <lb ed="#P" n="122"/>intellectu diuino quia aliud obiectum secundarium. 
+      <lb ed="#P" n="123"/>Unde intellectum vel intelligibile nullam habet 
+      en<lb ed="#P" n="124" break="no"/>titatem realem secundum se nec vnitur primo 
+      obie<lb ed="#P" n="125" break="no"/>cto nisi in ratione eminenter contenti per ipsum ac 
+      <lb ed="#P" n="126"/>per hoc intellecti eodem supplici actu et ita 
+      nulla<lb ed="#P" n="127" break="no"/>compositio. Ad quartum dico quod est perfecta 
+      iden<lb ed="#P" n="128" break="no"/>titas potentie et actus sicut potentie et obiecti nec 
+      <lb ed="#P" n="129"/>sequitur aliqua diuersitas ex secundario obiecto. 
+      <lb ed="#P" n="130"/>Ad quintum dico actu indistincto et singulariter 
+      <lb ed="#P" n="131"/>intelligit omnia distinctissime et quantum ad 
+      vniuersali<lb ed="#P" n="132" break="no"/>tatem et quantum ad singularitatem et omnem rationem 
+      <!--387.xml-->
+       <pb ed="#P" n="187-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et modum obiecti. Quando dicis quod infinita 
+      singu<lb ed="#P" n="2" break="no"/>laria non sunt intelligenda: dico quod est falsum ab 
+      in<lb ed="#P" n="3" break="no"/>tellectu infinito quicquid sit de intellectum finito. 
+      <lb ed="#P" n="4"/>Ad sextum dico quod non oportet ponere mutationem 
+      <lb ed="#P" n="5"/>ibi sicut nec in obiecto primo modo sed solum in 
+      ob<lb ed="#P" n="6" break="no"/>iecto secundario. Ad septimum dico quod intellectus 
+      <lb ed="#P" n="7"/>non vilescit ex vilibus intellectis: quia nec 
+      intelli<lb ed="#P" n="8" break="no"/>gendo dependet ab eis etiam intelliguntur 
+      perfe<lb ed="#P" n="9" break="no"/>ctissime sicut et per essentiam representantur que est 
+      <lb ed="#P" n="10"/>primum obiectum. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e719">
+               <lb ed="#P" n="11"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="12" break="no"/>ticulum est vna opinio subtilis que dicit quod 
+      creatu<lb ed="#P" n="13" break="no"/>ra prius habet esse expressum vel representatum per 
+      <lb ed="#P" n="14"/>diuinam essentiam actu et formaliter / quam intelliga 
+      <lb ed="#P" n="15"/>tua vel habeat esse intellectum. Nam secundum 
+      in<lb ed="#P" n="16" break="no"/>sos essentia diuina est similitudo quedam causalis 
+      <lb ed="#P" n="17"/>et exemplar creaturarum actuale et formaliter 
+      secun<lb ed="#P" n="18" break="no"/>dum seipsam: ita quod creature prius sunt in essentia 
+      <lb ed="#P" n="19"/>diuina vt in exemplari / et actu repraesentatiuo / quam sint 
+      <lb ed="#P" n="20"/>vbiectiue in intellectu per intellectionem.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e744">
+      ¶ Ad 
+      <lb ed="#P" n="21"/>hoc est prima ratio talis intellectio necessario 
+      pre<lb ed="#P" n="22" break="no"/>supponit potentiam et obiectum in aliquo esse: erge 
+      <lb ed="#P" n="23"/>intellectio diuina secundum rationem et modum in 
+      <lb ed="#P" n="24"/>telligendi presupponit creaturam que est per se ob 
+      <lb ed="#P" n="25"/>iectum eius in aliquo esse / siue representatum et 
+      ex<lb ed="#P" n="26" break="no"/>pressum per essentiam ipsam: ergo et cetera.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e760">
+      ¶ 
+      Se<lb ed="#P" n="27" break="no"/>cundo sic. Ex creaturis consurgimus ad 
+      cognoscen<lb ed="#P" n="28" break="no"/>dum diuina omni imperfectioni semota: sed in 
+      crea<lb ed="#P" n="29" break="no"/>turis ita est quod obiectum est prius representatiuum 
+      <lb ed="#P" n="30"/>vel praesens in seipso quam intellectui / vt patet: quia prius 
+      <lb ed="#P" n="31"/>est representatiuum per speciem si non sit presens in 
+      <lb ed="#P" n="32"/>seipso / cum ergo creatura pro tunc non sit presens 
+      <lb ed="#P" n="33"/>in seipsa prius necessario est representata per 
+      essen<lb ed="#P" n="34" break="no"/>tiam quam per aliquid aliud quod accidentaliter 
+      inhe<lb ed="#P" n="35" break="no"/>reret. Unde et hoc excludit imperfectionem 
+      creatu<lb ed="#P" n="36" break="no"/>re que ex se non habet obiectum presens.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e784">
+      ¶ 
+      Ter<lb ed="#P" n="37" break="no"/>tio sic. Qualis est ordo inter essentiam diuinam vt 
+      <lb ed="#P" n="38"/>est exemplar et similitudo: et ipsam intellectionem. 
+      <lb ed="#P" n="39"/>talis est in obiecto vt representatum et vt intellectum 
+      <lb ed="#P" n="40"/>Sed essentia diuina vt sic prior est intellectione: et 
+      <lb ed="#P" n="41"/>go et cetera. Minor patet: quia essentia ex vi sue 
+      con<lb ed="#P" n="42" break="no"/>tinentie representat alia plura quam intellectio ipsa. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e800">
+               <lb ed="#P" n="43"/>¶ Quarto sic. Essentia diuina secundum rationem 
+      <lb ed="#P" n="44"/>essentie vt prior est omnibus aliis est primum obie 
+      <lb ed="#P" n="45"/>ctum diuini intellectus adequatum sibi / et per 
+      con<lb ed="#P" n="46" break="no"/>sequens continens omnia perfectissime et actu 
+      se<lb ed="#P" n="47" break="no"/>cundum esse intelligibile / eoipso quod est actus purus 
+      <lb ed="#P" n="48"/>et primus et prima perfectio inter diuinas 
+      perfectio<lb ed="#P" n="49" break="no"/>nes: quia ipsa essentia diuina: vt sic eque potens est 
+      <lb ed="#P" n="50"/>et perfecta in representando sicut intellectus in 
+      in<lb ed="#P" n="51" break="no"/>telligendo: sed creatura per hoc habet esse actu 
+      in<lb ed="#P" n="52" break="no"/>telligibile: quia continetur intelligibiliter in 
+      diui<lb ed="#P" n="53" break="no"/>na essentia: ergo prius habet esse intelligibile quam 
+      im<lb ed="#P" n="54" break="no"/>tellectum.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e829">
+      ¶ Quinto sic. Qualem ordinem habent 
+      <lb ed="#P" n="55"/>aliqui vbi distinguuntur secundum rem / talem vbi 
+      <lb ed="#P" n="56"/>distinguuntur secundum rationem. sed ibi esse 
+      in<lb ed="#P" n="57" break="no"/>telligibile precedit secundum rem et est prius: ergo 
+      <lb ed="#P" n="58"/>ibi distinguuntur tantum secundum rationem ( 
+      pu<lb ed="#P" n="59" break="no"/>ta in creatura ) respectu dei: igitur etc.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e842">
+      ¶ Confirma 
+      <lb ed="#P" n="60"/>tur ista positio quia per aliud non probatur quod 
+      diui<lb ed="#P" n="61" break="no"/>na intellectio est omnis intelligibilis et per ipsum 
+      <lb ed="#P" n="62"/>esse intelligibile in actu intellectum nisi quod est 
+      infi<lb ed="#P" n="63" break="no"/>nita: et quia est simpliciter perfecta: sed eodem 
+      mo<lb ed="#P" n="64" break="no"/>do potest probari quod diuina memoria cum sit infini¬ 
+      <!--387.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ta et simpliciter perfecta ex se est omnis 
+      memorabi<lb ed="#P" n="66" break="no"/>lis: et per consequens quod est memorabile est actu 
+      me<lb ed="#P" n="67" break="no"/>moratum et formaliter presentatum per ipsam: vt 
+      <lb ed="#P" n="68"/>prior est intellectione: et non solum virtualiter / 
+      pro<lb ed="#P" n="69" break="no"/>tanto scilicet quia in effectu vel quasi effectu memo 
+      <lb ed="#P" n="70"/>rie est actualiter presentatum vel intellectum vel 
+      <lb ed="#P" n="71"/>formaliter sicut per intellectionem est formaliter et 
+      <lb ed="#P" n="72"/>actualiter intellectum. Si enim deus non esset actu 
+      <lb ed="#P" n="73"/>intelligens nichilominus esset memoria perfecta in 
+      <lb ed="#P" n="74"/>ipso / secundum quod memoria / et planum est quod non 
+      <lb ed="#P" n="75"/>esset perfecta nisi actu formaliter et distincte 
+      repre<lb ed="#P" n="76" break="no"/>sentaret omnia: sicut memoria nostra non esset 
+      per<lb ed="#P" n="77" break="no"/>fecta nec est perfecta in ratione memorie nisi actu 
+      <lb ed="#P" n="78"/>et formaliter distincte obiectum sit presens per 
+      se<lb ed="#P" n="79" break="no"/>ipsum: vel per speciem: vel per aliam scilicet per 
+      di<lb ed="#P" n="80" break="no"/>uinam essentiam. Respondeo quod creatura cum non 
+      <lb ed="#P" n="81"/>sit intelligibilis a deo per rationem propriam: licet 
+      <lb ed="#P" n="82"/>sit intelligibilis et perfectionis est: vel saltem 
+      infi<lb ed="#P" n="83" break="no"/>nitatis in intellectione quod intelligatur et habet esse 
+      <lb ed="#P" n="84"/>actu / et formaliter intellectum per intellectionem. 
+      <lb ed="#P" n="85"/>sed non oportet quod esse memoratum vel presentatum 
+      <lb ed="#P" n="86"/>per memoriam quod tale esse memorabile non habet: 
+      <lb ed="#P" n="87"/>non est sic memorabilis: sed tantum virtualiter in 
+      <lb ed="#P" n="88"/>hoc est eque potens memoria et infinita sicut et 
+      in<lb ed="#P" n="89" break="no"/>telligentia intelligibilis modo conuenienti ipsi 
+      me<lb ed="#P" n="90" break="no"/>morabili: sed creatura apud intellectum nostrum 
+      <lb ed="#P" n="91"/>cum sit intellecta / et per essentiam suam in se et in 
+      re<lb ed="#P" n="92" break="no"/>presentatiuo oportet quod prius sit presentata 
+      distin<lb ed="#P" n="93" break="no"/>cte et formaliter quam intellecta: et ita si non sit presens 
+      <lb ed="#P" n="94"/>per seipsam oportet quod per propriam speciem / et hoc 
+      <lb ed="#P" n="95"/>est imperfectionis in nobis simpliciter / et talis 
+      re<lb ed="#P" n="96" break="no"/>presentatio si sit aliquo modo perfectionis in nobis 
+      <lb ed="#P" n="97"/>non tamen nisi supplentis imperfectionem 
+      simpli<lb ed="#P" n="98" break="no"/>citer / nec habet locum in deo.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e934">
+      ¶ Dicunt ergo isti quod 
+      <lb ed="#P" n="99"/>creatura prius habet esse intelligibile et expressum  
+      <lb ed="#P" n="100"/>formaliter non effectiue per essentiam sicut suo 
+      mo<lb ed="#P" n="101" break="no"/>do obiectum: representatur per speciem formaliter 
+      <lb ed="#P" n="102"/>et resultanter / vel concomitatiue / vel effectiue / quam 
+      ha<lb ed="#P" n="103" break="no"/>beat esse intellectum per intellectionem. Unde et 
+      di<lb ed="#P" n="104" break="no"/>uina intellectio creature presupponit necessario 
+      es<lb ed="#P" n="105" break="no"/>se intelligibile creaturarum: vel creaturas in esse 
+      in<lb ed="#P" n="106" break="no"/>telligibili / non propter imperfectionem diuini 
+      in<lb ed="#P" n="107" break="no"/>tellectus vt moueatur a creaturis in dependendo 
+      <lb ed="#P" n="108"/>ab ipsis in: intelligendo sicut intellectus noster: sed 
+      <lb ed="#P" n="109"/>propter perfectionem obiecti primarii quod est 
+      di<lb ed="#P" n="110" break="no"/>uina essentia que secundum seipsam est 
+      exemplar<lb ed="#P" n="111" break="no"/>representatiuum creature: et presupponitur 
+      intel<lb ed="#P" n="112" break="no"/>lectioni: et per consequens creatura in esse 
+      intelli<lb ed="#P" n="113" break="no"/>gibili. 
+      <lb ed="#P" n="114"/>inionem arguo  
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e971">
+               <lb ed="#P" n="115"/>¶ Contra istam oprise. creatura de 
+      <lb ed="#P" n="116"/>se nullum esse habet nec rei nec rationis: sicut de se 
+      <lb ed="#P" n="117"/>patet. Tunc sic. In quocunque esse ponitur creatura 
+      <lb ed="#P" n="118"/>ponitur necessario per actum alicuius 
+      productiue<lb ed="#P" n="119" break="no"/>potentie et si illud esse est reale oportet quod potentia 
+      <lb ed="#P" n="120"/>sit realiter productiua. Si rationis quod productiua 
+      <lb ed="#P" n="121"/>secundum rationem. sed esse actu et formaliter 
+      in<lb ed="#P" n="122" break="no"/>telligibile est primum esse in quo creatura potest 
+      po<lb ed="#P" n="123" break="no"/>ni: ergo ponitur in illo per actum alicuius potentie 
+      <lb ed="#P" n="124"/>et precipue prime potentie productiue que est intel 
+      <lb ed="#P" n="125"/>lectus: quia tale esse non est reale: sed rationis 
+      <lb ed="#P" n="126"/>Nec valet si dicas quod esse intelligibile non habet 
+      <lb ed="#P" n="127"/>creatura per essentiam productiue sed resultanter 
+      <lb ed="#P" n="128"/>vel concomitanter: quia ex quo de se nullum esse 
+      <lb ed="#P" n="129"/>habet oportet quod per aliquam potentiam ponatur 
+      <!--388.xml-->
+       <pb ed="#P" n="188-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>in suo esse et hoc vel causando illud esse 
+      immediato<lb ed="#P" n="2" break="no"/>vel aliquid ad quod consequitur vel concomitatur 
+      <lb ed="#P" n="3"/>tale esse / sicut patet in exemplo quod adducunt deus 
+      <lb ed="#P" n="4"/>specie que est causata ab aliquo et concomitatur esse 
+      <lb ed="#P" n="5"/>representatum obiecti: et ideo oportet quod illud esse 
+      <lb ed="#P" n="6"/>representatum tantum et precise causetur ab intel 
+      <lb ed="#P" n="7"/>lectu: vel oportet quod essentia diuina cum tali esse ab 
+      <lb ed="#P" n="8"/>aliquo causetur sicut species: secundum est 
+      impossi<lb ed="#P" n="9" break="no"/>bile: ergo primum est necessarium. Non enim 
+      vide<lb ed="#P" n="10" break="no"/>tur quomodo creatura que secundum suum esse quod 
+      <lb ed="#P" n="11"/>habet vt. est causabilis accipiat aliquod esse 
+      concomi<lb ed="#P" n="12" break="no"/>tanter vel resultanter nisi per causationem alicuius 
+      <lb ed="#P" n="13"/>quod consequitur tale esse: essentia autem secundum rationem 
+      es<lb ed="#P" n="14" break="no"/>fentie est incommunicabilis: igitur etc.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1043">
+      ¶ Secundo 
+      <lb ed="#P" n="15"/>sic. Omnis presupponens obiectum extrinsecum 
+      in<lb ed="#P" n="16" break="no"/>aliquo esse necessario dependet ex illo obiecto: hec 
+      <lb ed="#P" n="17"/>est enim ratio quare presupponit ipsum. Sed 
+      secun<lb ed="#P" n="18" break="no"/>dum istam potentiam intellectio dei respectu 
+      creatu<lb ed="#P" n="19" break="no"/>re presupponit eam in aliquo esse: ergo etc. Sed hoc 
+      <lb ed="#P" n="20"/>est inconueniens quod actus intelligendi diuinus cum sit 
+      <lb ed="#P" n="21"/>necesse esse cuiusmodi non est creatura: nec per 
+      con<lb ed="#P" n="22" break="no"/>sequens presupponere eam in aliquo esse: Dices quod 
+      ve<lb ed="#P" n="23" break="no"/>rum est propter imperfectionem potentie: sicut in 
+      no<lb ed="#P" n="24" break="no"/>bis intellectus presupponit obiectum in aliquo 
+      es<lb ed="#P" n="25" break="no"/>se: sed bene propter perfectionem primi obiecti quod 
+      <lb ed="#P" n="26"/>est diuina essentia / et tunc non oportet quod dependeat 
+      <lb ed="#P" n="27"/>ex ipso: sicut etiam nec dependet intellectio diuina a 
+      <lb ed="#P" n="28"/>relatione que presupponitur sue intellectioni que 
+      <lb ed="#P" n="29"/>habetur de ipsa / licet sit formaliter extrinseca 
+      diui<lb ed="#P" n="30" break="no"/>ne essentie que ponitur primum obiectum. Sed hoc 
+      <lb ed="#P" n="31"/>parum valet: quia diuina relatio eadem est essentiali 
+      <lb ed="#P" n="32"/>ter et essentie / et intellectioni: immo et realiter: non sic 
+      <lb ed="#P" n="33"/>creatura. Contra ex hoc sequitur quod creatura 
+      secun<lb ed="#P" n="34" break="no"/>dum aliquod esse suum puta intelligibile sit 
+      simpli<lb ed="#P" n="35" break="no"/>citer necesse esse: quia quod consequitur essentiam vel 
+      <lb ed="#P" n="36"/>concomitatur secundum rationem essentie: vt prior est 
+      <lb ed="#P" n="37"/>omni actu intellectus et cuiuscunque potentie / est 
+      ne<lb ed="#P" n="38" break="no"/>cesse esse simpliciter. Probatio / quia antecedens quod 
+      <lb ed="#P" n="39"/>est essentia simpliciter necesse esse: et consequentia quia 
+      <lb ed="#P" n="40"/>necessario consequitur est simpliciter necessaria: quia 
+      <lb ed="#P" n="41"/>in ipsa nichil ponitur diuinius necessitate pertinens 
+      <lb ed="#P" n="42"/>ad actum rationis vel alicuius potentie: ergo 
+      conse<lb ed="#P" n="43" break="no"/>quens est simpliciter necesse esse / hoc est falsum de 
+      creatu<lb ed="#P" n="44" break="no"/>ra secundum quodcumque suum esse / quia simpliciter 
+      <lb ed="#P" n="45"/>esse est deus: ergo etc. Creatura enim se tota et 
+      om<lb ed="#P" n="46" break="no"/>ni suo esse distinguitur a simpliciter necesse esse: 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1115">
+               <lb ed="#P" n="47"/>¶ Tertio sic. Si creatura habet prius esse 
+      represen<lb ed="#P" n="48" break="no"/>tatum / et esse intelligibile per essentiam vt prior est 
+      <lb ed="#P" n="49"/>intellectione: ergo necessario secundum tale esse pertinet 
+      <lb ed="#P" n="50"/>ad memoriam patris / et creatura prius est in 
+      memo<lb ed="#P" n="51" break="no"/>ria quam in intelligentia. Sed secundum Augustinum 
+      decimo<lb ed="#P" n="52" break="no"/>quinto de trinitate verbum diuinum de tota memo 
+      <lb ed="#P" n="53"/>ria patris nascitur: ergo verbum nascitur de 
+      memo<lb ed="#P" n="54" break="no"/>ria creata: et per consequens est similitudo et 
+      imago<lb ed="#P" n="55" break="no"/>creature ex vi sue productionis: quod est falsum / quia 
+      <lb ed="#P" n="56"/>tunc creatura que non est necesse esse est ratio 
+      pro<lb ed="#P" n="57" break="no"/>ducendi vt memoria: vel per modum memorie vel 
+      <lb ed="#P" n="58"/>bum diuinum quod est simpliciter necesse esse / quod 
+      <lb ed="#P" n="59"/>est falsum. Tunc enim ab eterno esset realiter et in 
+      <lb ed="#P" n="60"/>actu sicut ratio producendi ens reale necesse esse / et 
+      <lb ed="#P" n="61"/>in actu quod est hereticum. Hec videtur ratio 
+      An<lb ed="#P" n="62" break="no"/>selmi monologion. xx viii. capitulo. Cum verbum 
+      <lb ed="#P" n="63"/>gignatur de tota memoria et creatura prius sit in 
+      me<lb ed="#P" n="64" break="no"/>moria quam in intelligentia: sequitur quod verbum ex 
+      vi<lb ed="#P" n="65" break="no"/>sue productionis sit similitudo creature / et ex hoc. 
+      <lb ed="#P" n="66"/>concludit ibi quod verbum non erit summa veritas: nec 
+      <!--388.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="67"/>per consequens deus: igitur etc. Dices quod verbum 
+      <lb ed="#P" n="68"/>producitur de tota memoria patris non formaliter 
+      <lb ed="#P" n="69"/>accepta / sed equipollenter: quia nascitur de 
+      memo<lb ed="#P" n="70" break="no"/>ria essentie tantum: que eminenter continet 
+      creatu<lb ed="#P" n="71" break="no"/>ram. Secundo dicitur ad istam rationem 
+      confirman<lb ed="#P" n="72" break="no"/>do predictam rationem quod relatio diuina pertinet 
+      <lb ed="#P" n="73"/>ad memoriam patris: puta paternitas: et tamen non 
+      <lb ed="#P" n="74"/>oportet quod de memoria paternitatis nascatur 
+      ver<lb ed="#P" n="75" break="no"/>dum: quia tunc verbum esset similitudo 
+      paternita<lb ed="#P" n="76" break="no"/>tis quod non est verum. Contra primum non vide 
+      <lb ed="#P" n="77"/>tur quod sit intentio Augustini: quia videtur quod inten 
+      <lb ed="#P" n="78"/>dat de tota memoria formaliter: et omni eo quod est in 
+      <lb ed="#P" n="79"/>memorta precedens ad generationem verbi: et 
+      an<lb ed="#P" n="80" break="no"/>tequam sit in intelligentia. Ad confirmationem de 
+      re<lb ed="#P" n="81" break="no"/>latione diceretur quod non valeret. Nam paternitas 
+      <lb ed="#P" n="82"/>non pertinet ad memoriam sicut obiectum: sed sicut 
+      <lb ed="#P" n="83"/>eius actus productiuus qui est generare: quod est 
+      <lb ed="#P" n="84"/>totaliter eadem cum generare: ideo et cetera. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1204">
+               <lb ed="#P" n="85"/>¶ Quarto sic. Non est minus potens intellectus 
+      <lb ed="#P" n="86"/>diuinus dare suo obiecto secundario esse 
+      intelligi<lb ed="#P" n="87" break="no"/>bile / et intellectum simul quam iutellectus noster: 
+      <lb ed="#P" n="88"/>quia est multo perfectior quam noster: sed 
+      intelle<lb ed="#P" n="89" break="no"/>ctus non dat obiecto. suo secundario puta 
+      intentio<lb ed="#P" n="90" break="no"/>ni secunde post esse / intelligere et intellectum: quia 
+      <lb ed="#P" n="91"/>nullum esse habet nisi per intellectionem: ergo 
+      simi<lb ed="#P" n="92" break="no"/>iter intellectus diuinus creature nec presupponit 
+      <lb ed="#P" n="93"/>eam in esse intelligibile. Dices quod hoc non est 
+      pro<lb ed="#P" n="94" break="no"/>pter imperfectionem intellectus diuini quin hoc 
+      pos<lb ed="#P" n="95" break="no"/>sit vel posset facere: sed propter perfectionem 
+      pri<lb ed="#P" n="96" break="no"/>mi obiecti: sicut intellectus angeli qui habet species 
+      <lb ed="#P" n="97"/>communicatas non potest facere illa quorum sunt 
+      <lb ed="#P" n="98"/>pecies in esse intelligibili: quia iam habet ea actu 
+      <lb ed="#P" n="99"/>per illas species: nec ramen est imperfectior 
+      intelle<lb ed="#P" n="100" break="no"/>ctu nostro qui hoc potest. Contra: quia hoc sibi 
+      po<lb ed="#P" n="101" break="no"/>test intellectus diuinus cum hoc fit ad intra 
+      neces<lb ed="#P" n="102" break="no"/>sario hoc facit: quia quicquid est in diuinis possibi 
+      <lb ed="#P" n="103"/>le ad intra totum est ibi actu et est necessario: nec est 
+      <lb ed="#P" n="104"/>simile de intellextu angeli in quo non sunt omnia 
+      ne<lb ed="#P" n="105" break="no"/>cesse esse: sicut in deo ad intra.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1252">
+      ¶ Quinto sic. Si est 
+      <lb ed="#P" n="106"/>sentia diuina non est ratio intelligendi lapidem vel 
+      <lb ed="#P" n="107"/>creaturam sicut species obiectum vt dictum est 
+      su<lb ed="#P" n="108" break="no"/>pra: sed sicut obiectum primo cognitum essentia non 
+      <lb ed="#P" n="109"/>est primo cognita: nisi per actum intellectus: ergo 
+      <lb ed="#P" n="110"/>per actum intellectus: et vt intellecta habet essentia 
+      <lb ed="#P" n="111"/>quod per ipsam creature sint actu intelligibiles. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1269">
+               <lb ed="#P" n="112"/>¶ Sexto sic. Quicquid conuenit essentie precise per 
+      <lb ed="#P" n="113"/>rationem eius: et alicui per ipsam vt sic conucnit 
+      si<lb ed="#P" n="114" break="no"/>di ante productionem personarum: sicut etiam 
+      ratio<lb ed="#P" n="115" break="no"/>essentie prior est productione personarum / et per consequens 
+      <lb ed="#P" n="116"/>antequam essentia sit in tribus personis. 
+      <lb ed="#P" n="117"/>Ro sex rationes non con¬ 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1285">
+               <lb ed="#P" n="118"/>¶ Irota hic quod lnae cludunt efficaciter 
+      <lb ed="#P" n="119"/>Ad primam enim diceretur ( sicut dicetur infra 
+      in<lb ed="#P" n="120" break="no"/>sequenti questione ) quod representari vel exprimi non 
+      <lb ed="#P" n="121"/>est aliud esse formaliter conueniens creature: sed de 
+      <lb ed="#P" n="122"/>nominatio extrinseca / sicut nec intelligi / nec esse 
+      rea<lb ed="#P" n="123" break="no"/>le / nec esse rationis: quia non habetur per 
+      aliquen<lb ed="#P" n="124" break="no"/>actum intellectus comparatiuum: vel si est aliquod 
+      <lb ed="#P" n="125"/>esse: nec est esse reale aliud ab esse representatiui: nec 
+      <lb ed="#P" n="126"/>est rationis: sed secundum aliud quod est esse obiet 
+      <lb ed="#P" n="127"/>ctiuum: et ita non oportet quod habeatur tale esse per 
+      ali<lb ed="#P" n="128" break="no"/>quam potentiam productiuam. Preterea dato quod esset 
+      <lb ed="#P" n="129"/>aliquod esse rationis: adhuc non haberetur per 
+      intellectio<lb ed="#P" n="130" break="no"/>nem absolutam sicut alii accipiunt / sed per 
+      intellectio<lb ed="#P" n="131" break="no"/>nem comparatiuam / et ita non valet prima ratio pro eis. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1318">
+               <lb ed="#P" n="132"/>¶ Ad secundam diceretur quod non supponitur obiectum 
+      <!--389.xml-->
+       <pb ed="#P" n="188-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>in aliquo esse alio a representatiuo a quo non de 
+      <lb ed="#P" n="2"/>pendet actus diuinus: et dato quod in alio esse hoc non 
+      <lb ed="#P" n="3"/>est ex perfectione actus: nec illud esse reale est: nec 
+      <lb ed="#P" n="4"/>plus sequitur quod creatura sit necesse esse quam si per 
+      in<lb ed="#P" n="5" break="no"/>telligere habet esse representatum: quia 
+      intellectio<lb ed="#P" n="6" break="no"/>diuina est ita necessaria sicut essentia ex cuius 
+      per<lb ed="#P" n="7" break="no"/>fectione representatur creatura.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1344">
+      ¶ Ad tertiam dice 
+      <lb ed="#P" n="8"/>retur sicut supra: scilicet quod creatura repraesentata non 
+      <lb ed="#P" n="9"/>pertinet formaliter ad memoriam inquantum 
+      produ<lb ed="#P" n="10" break="no"/>ctiua verbi: nec pro illo signo pro quo est 
+      producti<lb ed="#P" n="11" break="no"/>ua / ita quod verbum producitur de tota memoria 
+      equipo<lb ed="#P" n="12" break="no"/>lenter: quia de memoria essentie. Similiter posse 
+      <lb ed="#P" n="13"/>etiam argui de intellectione contra alios. An scili 
+      <lb ed="#P" n="14"/>cet pertineat ad memoriam vt productiua verbi / vel 
+      <lb ed="#P" n="15"/>non: si sic tunc sequitur idem contra eos: si non pari 
+      ra<lb ed="#P" n="16" break="no"/>tione nec hic / nec probatur contrarium esse de mente 
+      <lb ed="#P" n="17"/>Augustini vel Anselmi.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1368">
+      ¶ Ad quartam diceretur 
+      <lb ed="#P" n="18"/>quod esse intelligibile non dat intellectus noster alicu 
+      <lb ed="#P" n="19"/>obiecto suo. Unde esse intelligibile et intellectum 
+      in<lb ed="#P" n="20" break="no"/>tentionis secunde non est idem: sed prius est 
+      intelligibi<lb ed="#P" n="21" break="no"/>lis per intentionem primam quam intellecta: vel dato quod 
+      <lb ed="#P" n="22"/>ita sit: non tamen est simile hic et ibi: quia diuinus 
+      intelle<lb ed="#P" n="23" break="no"/>ctus ex perfectione diuine essentie preuenitur ne 
+      pos<lb ed="#P" n="24" break="no"/>sit hoc: sicut etiam preuenitur ne possit dare essentie 
+      <lb ed="#P" n="25"/>quod sit intelligibilis. Unde non potest hoc non ex 
+      im<lb ed="#P" n="26" break="no"/>potentia aliqua vel imperfectione sua: sed ex 
+      perfe<lb ed="#P" n="27" break="no"/>ctione et prioritate essentie. Unde male accipitur 
+      sim<lb ed="#P" n="28" break="no"/>pliciter arguendo quod hoc possit / et per consequens quod 
+      <lb ed="#P" n="29"/>hoc faciat.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1397">
+      ¶ Ad quintam diceretur quod non 
+      conclu<lb ed="#P" n="30" break="no"/>dit / nisi quod creatura non est actu intellecta nisi per in 
+      <lb ed="#P" n="31"/>tellectionem. sed non est actu intelligibilis: quia et 
+      <lb ed="#P" n="32"/>ipsa essentia prius est actu intelligibilis quam 
+      intelle<lb ed="#P" n="33" break="no"/>cta / et ratio intelligibilitatis aliorum: licet non 
+      actua<lb ed="#P" n="34" break="no"/>lis intellectionis.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1411">
+      ¶ Ad sextam diceretur quod idem 
+      se<lb ed="#P" n="35" break="no"/>quitur de intellectione: quia sicut est prior 
+      productio<lb ed="#P" n="36" break="no"/>ne personarum / ita et intellectio / et sicut illa est 
+      neces<lb ed="#P" n="37" break="no"/>saria ita et ista / et ideo licet per essentiam producantur 
+      <lb ed="#P" n="38"/>persone producuntur quam creature tamen ordine quodam/ 
+      <lb ed="#P" n="39"/>quia prius persone / et exprimantur creature: tamen ordine 
+      <lb ed="#P" n="40"/>quodam: quia prius persone producuntur quam creature 
+      expri<lb ed="#P" n="41" break="no"/>mantur / sicut et ipsi diceret de intellectionesuo modo 
+      <lb ed="#P" n="42"/>vtraque via: ergo probabilis est / et potest sustineri: igitur etc. 
+      <lb ed="#P" n="43"/>Sed secundum istas sex praedictas rationes essentia non 
+      dai<lb ed="#P" n="44" break="no"/>creature esse intelligibile nisi preexistens in tribus 
+      <lb ed="#P" n="45"/>personis: igitur etc. 
+      <lb ed="#P" n="46"/>ergo aliter quantum ad istum arti¬ 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1440">
+               <lb ed="#P" n="47"/>¶ Dicitur culum quod formaliter loquendo 
+      se<lb ed="#P" n="48" break="no"/>cundum quod aliquid dicitur formaliter intelligibile 
+      crea<lb ed="#P" n="49" break="no"/>tura non prius habet esse intelligibile quam intellectum 
+      <lb ed="#P" n="50"/>nec presupponitur intellectioni: sed magis 
+      intellectio<lb ed="#P" n="51" break="no"/>nem presupponit / et per ipsam habet primum esse / et 
+      ex<lb ed="#P" n="52" break="no"/>pressum / et intellectum: immo per hoc quod habet esse intel 
+      <lb ed="#P" n="53"/>lectum habet esse expressum et repraesentatum: loquendo 
+      au<lb ed="#P" n="54" break="no"/>tem virtualiter supponitur in essentia: vt virtualiter ip 
+      <lb ed="#P" n="55"/>telligibile et expressibile vt in obiecto primo: et illud 
+      <lb ed="#P" n="56"/>nichil est nisi essentia ipsa. Aliud enim est formaliter 
+      <lb ed="#P" n="57"/>representare: sicut species vel imago vel 
+      exempla<lb ed="#P" n="58" break="no"/>representans obiectum. Aliud virtualiter: sicut creans 
+      <lb ed="#P" n="59"/>speciem et virtualiter continens representat obiectum: 
+      pri<lb ed="#P" n="60" break="no"/>mo modo creature praesentatur in intellectione diuina: 
+      <lb ed="#P" n="61"/>secundo modo in essentia. Ad hoc ponendum mouent 
+      <lb ed="#P" n="62"/>prius posite rationes et determinatio Anselmi: vt vt 
+      <lb ed="#P" n="63"/>detur ad hanc partem: et ideo diceretur quod creatura nul 
+      <lb ed="#P" n="64"/>um esse representatum formaliter vel expressum ha 
+      <lb ed="#P" n="65"/>bet nisi per intellectum . 
+      <!--389.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/> modum eorum diceretur quod essentia 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1490">
+               <lb ed="#P" n="67"/>¶ Coni indi precise secundum rationem essentie ac 
+      <lb ed="#P" n="68"/>cepta pront distinguitur intellectioni non potest esse 
+      <lb ed="#P" n="69"/>nec est exemplar formale: vel similitudo creature: sed 
+      <lb ed="#P" n="70"/>tantum est virtualiter exemplar: vel quasi virtuale 
+      <lb ed="#P" n="71"/>quasi primum obiectum virtualiter motiuum: vel 
+      qua<lb ed="#P" n="72" break="no"/>si ipsius intellectus ad intellectionem: per quam 
+      creatu<lb ed="#P" n="73" break="no"/>re habent esse exemplatum et intelligibile et intellectum 
+      <lb ed="#P" n="74"/>ideo etc.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1510">
+      ¶ Ad primum istorum diceretur quod 
+      intellectio<lb ed="#P" n="75" break="no"/>non presupponit necessario obiectum secundarium in 
+      ali<lb ed="#P" n="76" break="no"/>quo esse formaliter: exemplificatum est de obiecto se 
+      <lb ed="#P" n="77"/>cundario supra quod est intentio secunda respectu 
+      intelle<lb ed="#P" n="78" break="no"/>ctus nostri: et multo fortius de intellectione 
+      perfe<lb ed="#P" n="79" break="no"/>ctissima / cuiusmodi est intellectio diuina 
+      respectu<lb ed="#P" n="80" break="no"/>obiecti secundarii quod est creatura.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1526">
+      ¶ Ad secundum 
+      di<lb ed="#P" n="81" break="no"/>ceretur quod in nobis intellectiopresupponit obiectum 
+      <lb ed="#P" n="82"/>primum. Sic etiam et in deo: sed non oportet quod secunda 
+      <lb ed="#P" n="83"/>rium / et multominus: nec in deo nisi dato quod in nobis 
+      <lb ed="#P" n="84"/>esset: ita quia intellectioni nostre non veniat 
+      depen<lb ed="#P" n="85" break="no"/>dentia ab aliquo extrinseco / in deo tamen hoc esse non 
+      po<lb ed="#P" n="86" break="no"/>test propter causas oppositas.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1542">
+      ¶ Ad tertium dice 
+      <lb ed="#P" n="87"/>retur ad minorem quod essentia diuina vt prior est intel 
+      <lb ed="#P" n="88"/>lectione precise secundum rationem essentie non est 
+      exem<lb ed="#P" n="89" break="no"/>plar actuale et formale ipsius creature: sed tantum 
+      <lb ed="#P" n="90"/>virtuale: sicut obiectum quod continet speciem etc. quom 
+      <lb ed="#P" n="91"/>dicis quod vt sic continet: dico quod verum est virtualiter 
+      <lb ed="#P" n="92"/>non actu et formaliter exemplando et distincte.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1559">
+      ¶ Ad  
+      <lb ed="#P" n="93"/>quartum diceretur quod essentia secundum rationem est 
+      <lb ed="#P" n="94"/>sentie vt prior est omnibus aliis obiectum est 
+      adequa<lb ed="#P" n="95" break="no"/>tum primum diuini intellectus: sed vt sic non est ex 
+      <lb ed="#P" n="96"/>em plar nisi virtualiter: non autem formaliter: ita quod 
+      <lb ed="#P" n="97"/>non continet creaturas intelligibiliter actu et 
+      distin<lb ed="#P" n="98" break="no"/>cte: sed tantum supereminenter et vnitiue et quasi 
+      vir<lb ed="#P" n="99" break="no"/>tualiter. Sed postea in ratione obiecti cogniti per 
+      <lb ed="#P" n="100"/>intellectionem ipsam continet eas actu et distincte 
+      <lb ed="#P" n="101"/>Et quando dicis vltra quod ita potens est essentia 
+      im<lb ed="#P" n="102" break="no"/>representando sicut intellectus intelligendo: 
+      Dice<lb ed="#P" n="103" break="no"/>retur quod verum est secundum modum sibi conuenien 
+      <lb ed="#P" n="104"/>tem / qui est modus representandi virtualiter et vt 
+      ob<lb ed="#P" n="105" break="no"/>iectum cognitum representandi formaliter: ideo non 
+      <lb ed="#P" n="106"/>valet.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1592">
+      ¶ Ad quintum diceretur quod illa propositio 
+      ma<lb ed="#P" n="107" break="no"/>ior de ordine illo fallit vbi extrema habent esse 
+      me<lb ed="#P" n="108" break="no"/>re rationis: sicut patet de intentionibus secundis 
+      qua<lb ed="#P" n="109" break="no"/>rum. esse intelligibile non est prius quam esse intellectum: 
+      <lb ed="#P" n="110"/>immo quod plus est idem est esse intelligibile et 
+      in<lb ed="#P" n="111" break="no"/>tellectum Sic dicuntur de esse intelligibili et intel 
+      <lb ed="#P" n="112"/>lecto creature in deo. Ex quo patet quod non est 
+      simi<lb ed="#P" n="113" break="no"/>le in nobis: quia esse intelligibile alicuius est reale: 
+      <lb ed="#P" n="114"/>et potest precedere suum esse intellectum: sic non est 
+      <lb ed="#P" n="115"/>in proposito: vel dicas quod istud concludit de esse 
+      in<lb ed="#P" n="116" break="no"/>telligibili / et intellecto primi obiecti: de quo minor 
+      <lb ed="#P" n="117"/>est vera si habet veritatem / non autem concludit de et 
+      <lb ed="#P" n="118"/>se intelligibili et intellecto creature. Ad 
+      Augusti<lb ed="#P" n="119" break="no"/>num vero super Genesim capitulo decimoquinto 
+      <lb ed="#P" n="120"/>vbi videtur dicere quod per essentiam creature habent 
+      <lb ed="#P" n="121"/>esse intelligibile non per intellectum diceretur quod hoc 
+      <lb ed="#P" n="122"/>intelligit virtualiter.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1629">
+      ¶ Nota hic quod aliqui dicunt 
+      <lb ed="#P" n="123"/>similiter de esse representabili et representato / et de 
+      <lb ed="#P" n="124"/>esse intelligibili et intellecto / quod sicut non oportet 
+      <lb ed="#P" n="125"/>esse representabile non aliud vel prius ipso esse 
+      re<lb ed="#P" n="126" break="no"/>presentato: sed secundum alios vtrunque est per 
+      es<lb ed="#P" n="127" break="no"/>sentiam / sic non oportet in obiecto secundario esse 
+      <lb ed="#P" n="128"/>aliud ipsum esse intelligibile et esse intellectum / igi 
+      <lb ed="#P" n="129"/>tur possunt esse per idem. Cum igitur esse intellectum 
+      <lb ed="#P" n="130"/>sit per intellectionem / igitur et esse intelligibile / et 
+      <!--390.xml-->
+       <pb ed="#P" n="189-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non aliquid prius / sicut nec ibi de esse 
+      representabi<lb ed="#P" n="2" break="no"/>li secundum te quia essentia nichil est prius. Posset 
+      <lb ed="#P" n="3"/>tamen dici quod duo prima non distinguuntur 
+      respectu<lb ed="#P" n="4" break="no"/>diuini representatiui: sed alia duo bene patet in 
+      essen<lb ed="#P" n="5" break="no"/>tia diuina. Hec de secundo articulo. Tertium 
+      articu<lb ed="#P" n="6" break="no"/>lum dimitto vsque ad sequentem questionem. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1668">
+               <lb ed="#P" n="7"/>¶ Ad primum principale 
+      di<lb ed="#P" n="8" break="no"/>co quod potentia non excedit simpliciter suum primum 
+      <lb ed="#P" n="9"/>obiectum adequatum / quia tunc posset habere aliud 
+      <lb ed="#P" n="10"/>obiectum primum: sed bene excedit secundum 
+      quic<lb ed="#P" n="11" break="no"/>quia potest intelligere aliquid aliud etiam vt 
+      per<lb ed="#P" n="12" break="no"/>se obiectum / non tamen primarium sed secundarium 
+      <lb ed="#P" n="13"/>Aliter posset dici quod essentia diuina est obiectum ade 
+      <lb ed="#P" n="14"/>quatum / pro quanto in eodem concurrunt obiectum et 
+      ra<lb ed="#P" n="15" break="no"/>tio intelligendi / quia quicquid deus tntelligit vel est ipsa 
+      <lb ed="#P" n="16"/>vel per ipsam vt per rationem intelligendi. Et isto modo 
+      <lb ed="#P" n="17"/>do accipiendo adequationem intellectus diuinus potest 
+      <lb ed="#P" n="18"/>intelligere aliquid vltra obiectum adequatum: quia 
+      creatu<lb ed="#P" n="19" break="no"/>ra licet sit obiectum intellectum / non tamen ratio 
+      intelli<lb ed="#P" n="20" break="no"/>gendi seipsam apud deum / sed magis essentia diuina 
+      <lb ed="#P" n="21"/>Alio modo vt obiectum intellectum distinguitur a 
+      ra<lb ed="#P" n="22" break="no"/>tione intelligendi / nec concurrit adequate in idem cum 
+      <lb ed="#P" n="23"/>ipsa: et sic essentia diuina non est obiectum adequatum / 
+      <lb ed="#P" n="24"/>sed omnia intellecta sunt pro obiecto adequato / et sic 
+      <lb ed="#P" n="25"/>potest dici quod nichil deus iutelligit vltra obiectum 
+      ade<lb ed="#P" n="26" break="no"/>quatum: nec potest dici forte quod ens in communi hoc 
+      mo<lb ed="#P" n="27" break="no"/>do sit obiectum adequatum / sicut ponitur respectu 
+      intel<lb ed="#P" n="28" break="no"/>lectus nostri / quia non quodlibet ens est sibi ratio intelligendi 
+      <lb ed="#P" n="29"/>apud diuinum intellectum: sicut est vel non repugnat 
+      <lb ed="#P" n="30"/>apud nostrum.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1723">
+      ¶ Ad secundum dico quod si creatura esset 
+      pri<lb ed="#P" n="31" break="no"/>marium obiectum / vel etiam presupponitur in esse intel 
+      <lb ed="#P" n="32"/>ligibili intellectioni diuine quod intellectio diuina esset 
+      <lb ed="#P" n="33"/>dependens / et intellectus diuinus vilesceret: sed non 
+      <lb ed="#P" n="34"/>sic vt supra dictum est.
+    </p>
+            <p xml:id="qrdBas-a1207X-d1e1734">
+      ¶ Ad tertium de singulari 
+      <lb ed="#P" n="35"/>quod quicquid sit de singulari respectu intellectus nostri non 
+      <lb ed="#P" n="36"/>tamen illa habent locum respectu intellectus separati quia nullan 
+      <lb ed="#P" n="37"/>habent potentialitatem / sed est actus purus et ideo dico quod 
+      <lb ed="#P" n="38"/>deus potest intelligere singulare quodcumque sensibile. 
+      </p>
+            <p xml:id="qrdBas-a1207X-d1e1746">
+               <lb ed="#P" n="39"/>¶ Ad quartum dicunt aliqui quod deus cognoscit alia a 
+      <lb ed="#P" n="40"/>se aliqua noticia / quae nec est intellectiua nec 
+      abstracti<lb ed="#P" n="41" break="no"/>ua / sed superexcellens. Sed contra istud argutum 
+      <lb ed="#P" n="42"/>est supra in prima questione huius primi: et ideo dico quod 
+      <lb ed="#P" n="43"/>deus cognoscit omnia cognitione intuitiua per 
+      ratio<lb ed="#P" n="44" break="no"/>nem primi obiecti quod est essentia. Quando dicis quod non 
+      <lb ed="#P" n="45"/>quia noticia intuitiua non est nisi praesentis in re 
+      crea<lb ed="#P" n="46" break="no"/>tura autem non fuit deo praesens in re ab eterno. Dico 
+      <lb ed="#P" n="47"/>quod non oportet quod sit actu praesens in seipso / sed sufficit quod 
+      <lb ed="#P" n="48"/>in eminentiori obiecto representatiuo cuiusmodi est 
+      <lb ed="#P" n="49"/>essentia diuina sicut dictum fuit iupra. ideo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-06">January 06, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a1">Paris, 1517, Vol. 1</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-06" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-a1190X"><!-- l1d34q1 -->
+            <head xml:id="qrdBas-a1190X-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-a1190X-d1e101">
+               <lb ed="#P" n="7"/>¶ Distinctionis. xxxiiii. 
+      <lb ed="#P" n="8"/>Questio Unica. 
+  </p>
+            <p xml:id="qrdBas-a1190X-d1e108">
+               <lb ed="#P" n="9"/>Circa distinctionem
+    <lb ed="#P" n="10"/>crigesimamquartam quero vtrum 
+      <lb ed="#P" n="11"/>ersona sit idem quod essentia 
+  </p>
+            <p xml:id="qrdBas-a1190X-d1e117">
+               <lb ed="#P" n="12"/>Uidetur quod non. Primo sic. 
+      <lb ed="#P" n="13"/>Quia secundum Hylarium. 
+      Natu<lb ed="#P" n="14" break="no"/>ra et res nature non sunt idem 
+      <lb ed="#P" n="15"/>sed essentia est natura: perso 
+      <lb ed="#P" n="16"/>na vero res nature: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1190X-d1e130">
+      ¶ Se 
+      <lb ed="#P" n="17"/>cundo sic. Essentia est vna / 
+      perso<lb ed="#P" n="18" break="no"/>na vero trina / et multiplicatur persona: ergo etc.
+    </p>
+            <p xml:id="qrdBas-a1190X-d1e138">
+      ¶ 
+      Ter<lb ed="#P" n="19" break="no"/>tio sic. Absolutum et respectiuum non sunt idem. Sed 
+      <lb ed="#P" n="20"/>essentia est quid absolutum: persona vero relatiua: et 
+      <lb ed="#P" n="21"/>go etc.
+    </p>
+            <p xml:id="qrdBas-a1190X-d1e147">
+      ¶ Quarto: quia essentia est communicabilis 
+      <lb ed="#P" n="22"/>realiter / persona non: ergo non sunt idem realiter. 
+      </p>
+            <p xml:id="qrdBas-a1190X-d1e152">
+               <lb ed="#P" n="23"/>¶ Contra. Essentia est formaliter infinita: ergo est 
+      <lb ed="#P" n="24"/>eadem cuilibet persone sibi compossibili. 
+      </p>
+            <p xml:id="qrdBas-a1190X-d1e159">
+               <lb ed="#P" n="25"/>¶ In ista questione est 
+      viden<lb ed="#P" n="26" break="no"/>dum quomodo essentia est in persona et econuerso. Et 
+      <lb ed="#P" n="27"/>potest statim expediri: quia essentia est in persona sicut 
+      <lb ed="#P" n="28"/>natura in supposita dans sibi formaliter esse deum 
+      <lb ed="#P" n="29"/>persona vero in essentia sicut suppositum in natura 
+      </p>
+            <p xml:id="qrdBas-a1190X-d1e172">
+               <lb ed="#P" n="30"/>¶ Secundo videndum esset et probandum quod essentia et 
+      <lb ed="#P" n="31"/>persona sunt idem realiter: sed istud potest 
+      proba<lb ed="#P" n="32" break="no"/>ri conformiter sicut probatum est supra de relatione et 
+      <lb ed="#P" n="33"/>essentia / et aliquibus viis sicut probatum est de perso 
+      <lb ed="#P" n="34"/>na: ideo dimitto.
+    </p>
+            <p xml:id="qrdBas-a1190X-d1e185">
+      ¶ Tertio videndum est dee 
+      distin<lb ed="#P" n="35" break="no"/>ctione formali istorum vel identitate adinuicem. 
+      Cir<lb ed="#P" n="36" break="no"/>ca quod notandum est quod si identitas fundetur in essentia 
+      <lb ed="#P" n="37"/>et terminetur ad personam: sic sunt idem formaliter. Est 
+      <lb ed="#P" n="38"/>sentia enim est formaliter eadem persone: quia includitur 
+      <lb ed="#P" n="39"/>in suo conceptu quidditatiuo. Si vero identitas 
+      intel<lb ed="#P" n="40" break="no"/>ligatur fundari in persona et terminari ad essentiam. 
+      <lb ed="#P" n="41"/>Sic dico quod non sunt idem formaliter: quia persona non 
+      <lb ed="#P" n="42"/>est de conceptu essentie: quia persona includit 
+      relatio<lb ed="#P" n="43" break="no"/>nem que est extra conceptum quidditatiuum essentie si 
+      <lb ed="#P" n="44"/>cut dictum est supra. Et ita ( non identitate 
+      presupposi<lb ed="#P" n="45" break="no"/>ta ) dico quod non habent identitatem adequationis 
+      secun<lb ed="#P" n="46" break="no"/>dum rem: quia essentia adequat sibi realiter omnes perso 
+      <lb ed="#P" n="47"/>nas tres: non autem vna persona adequat sibi secundi 
+      <lb ed="#P" n="48"/>rem essentiam ipsam: sed essentia excedendo personam 
+      <lb ed="#P" n="49"/>extendit se ad alias. Aliter enim esset possibile in 
+      diui<lb ed="#P" n="50" break="no"/>nis nisi vnam esse personam: habent etiam non 
+      identita<lb ed="#P" n="51" break="no"/>tem adequationis secundum predicationem: quia de 
+      quo<lb ed="#P" n="52" break="no"/>cumque predicatur persona et essentia et non econuerso. 
+      <lb ed="#P" n="53"/>Essentia enim de qualibet persona et relatione 
+      predi<lb ed="#P" n="54" break="no"/>catur: non sic prsona aliqua vt patet.
+    </p>
+            <p xml:id="qrdBas-a1190X-d1e232">
+      ¶ Si dicas 
+      con<lb ed="#P" n="55" break="no"/>tra predicta quod nec proprietas est eadem formaliter 
+      <lb ed="#P" n="56"/>cum persona nec essentia: quia tunc iste essent vere 
+      per<lb ed="#P" n="57" break="no"/>se primo modo. Pater est paternitas / et pater est 
+      e<lb ed="#P" n="58" break="no"/>sentia: sicut ista homo est anima / et huiusmodi: quod 
+      <lb ed="#P" n="59"/>est falsum. Dico quod non sequitur propter diuersum 
+      mon<lb ed="#P" n="60" break="no"/>dum significandi concretiue et abstractiue / sicut licet 
+      <lb ed="#P" n="61"/>animalitas et rationalitas sint eedem homini per se 
+      <lb ed="#P" n="62"/>primo modo: quia includitur in suo conceptu 
+      quiddi<lb ed="#P" n="63" break="no"/>tatiuo: non tamen est ista vera per se primo. Homo est 
+      <!--380.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>animalitas vel rationalitas. Sed si in concreto 
+      signi<lb ed="#P" n="65" break="no"/>ficentur et modo conuenienti tunc est predicatio per se 
+      <lb ed="#P" n="66"/>primo modo: vt pater est deus. Pater est 
+      supposi<lb ed="#P" n="67" break="no"/>tum relatiuum et huiusmodi: sicut ista est etiam in 
+      pri<lb ed="#P" n="68" break="no"/>mo modo. Homo est animal / homo est rationalis etc. 
+      <lb ed="#P" n="69"/>Sic ad istud. 
+      </p>
+            <p xml:id="qrdBas-a1190X-d1e271">
+               <lb ed="#P" n="70"/>¶ Ad primum principale 
+      dici<lb ed="#P" n="71" break="no"/>tur quod Hylarius dicit hoc non asserendo: sed inserendo 
+      <lb ed="#P" n="72"/>contra hereticos quasi inconueniens in diuinis. 
+      Ali<lb ed="#P" n="73" break="no"/>ter dicitur quod Hylarius dicit pro tanto: quia suppositum 
+      <lb ed="#P" n="74"/>in creaturis addit supra naturam differentiam 
+      indiu<lb ed="#P" n="75" break="no"/>dualem / que non transit in naturam ratione infinitatis  
+      <lb ed="#P" n="76"/>quia in creatura nihil est infinitum: in deo non sic. Et 
+      <lb ed="#P" n="77"/>ideo dictum Hylarii verum est in creaturis. Uel 
+      di<lb ed="#P" n="78" break="no"/>co quod natura et suppositum non sunt totaliter idem 
+      ex<lb ed="#P" n="79" break="no"/>natura rei: licet realiter sint eadem: vt dictum est 
+      </p>
+            <p xml:id="qrdBas-a1190X-d1e295">
+               <lb ed="#P" n="80"/>¶ Ad secundum dic sicut supra dictum est de essentia 
+      <lb ed="#P" n="81"/>et relatione: quarum vna multiplicatur reliter alia non: 
+      </p>
+            <p xml:id="qrdBas-a1190X-d1e302">
+               <lb ed="#P" n="82"/>¶ Similiter ad tertium de absoluto et 
+      respectiuo<lb ed="#P" n="83" break="no"/>quod non sunt totaliter idem.
+    </p>
+            <p xml:id="qrdBas-a1190X-d1e309">
+      ¶ Ad quartum de 
+      commu<lb ed="#P" n="84" break="no"/>nicabili et incommunicabili. dico quod illa que sunt idem 
+      <lb ed="#P" n="85"/>realiter possunt sic se habere quod vnum sit realiter 
+      incom<lb ed="#P" n="86" break="no"/>municabile: et non aliud propter distinctionem forma 
+      <lb ed="#P" n="87"/>lem eorum ex natura rei: sicut dictum est supra. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
