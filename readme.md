@@ -1,3 +1,3 @@
-[![CI](https://github.com/scta-texts/graciliscommentary/actions/workflows/validation.yml/badge.svg?branch=master)](https://github.com/scta-texts/graciliscommentary/actions/workflows/validation.yml)
+[![CI](https://github.com/scta-texts/qrdBaS/actions/workflows/validation.yml/badge.svg?branch=master)](https://github.com/scta-texts/qrdBaS/actions/workflows/validation.yml)
 
-# Repo for Peter Gracilis Commentary on the Sentences of Peter Lombard
+# Repo for John Bassolis Commentary on the Sentences of Peter Lombard
