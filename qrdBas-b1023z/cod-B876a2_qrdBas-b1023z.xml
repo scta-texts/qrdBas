@@ -1,0 +1,562 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="154-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b1023z"><!--l2d36q1 -->
+            <head xml:id="qrdBas-b1023z-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b1023z-d1e101">
+               <lb ed="#P" n="94"/>¶ Distinctionis trigesimesexte 
+      <lb ed="#P" n="95"/>¶ Questio Unica 
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e108">
+               <lb ed="#P" n="96"/>CIrca distinctionem 
+      <lb ed="#P" n="97"/>istam quero. Utrum vnum 
+      pec<lb ed="#P" n="98" break="no"/>catum possit esse pena alterius 
+      <lb ed="#P" n="99"/>speccati.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e119">
+      ¶ Uidetur quod non. 
+      Ome<lb ed="#P" n="100" break="no"/>inis pena peccati est aliquid 
+      iu<lb ed="#P" n="101" break="no"/>stum et omne iustum est a deo. 
+      <lb ed="#P" n="102"/>¶Sed nullum peccatum a deo: et 
+      <lb ed="#P" n="103"/>lgo nullum peccatum est pena a 
+      <lb ed="#P" n="104"/>terius. Maior patet per Augustinum I retractatio 
+      <lb ed="#P" n="105"/>et Magister ponit in littera.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e135">
+      ¶ Secundo sic. 
+      Omne<lb ed="#P" n="106" break="no"/>peccatum est voluntarium. Sed nulla pena est 
+      vo<lb ed="#P" n="107" break="no"/>luntaria: immo omnis pena est inuoluntaria: igitur etc. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e143">
+               <lb ed="#P" n="108"/>¶ Tertio sic. Peccatum sequens et vltimum est aliquando 
+      <lb ed="#P" n="109"/>grauissimum et tamen non habet culpam aliam pro pena: ergo 
+      <lb ed="#P" n="110"/>nullum aliud minus graue habet penam pro culpa. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e152">
+               <lb ed="#P" n="111"/>¶ Quarto sic. Nulla pena est grauior culpa: quia 
+      <lb ed="#P" n="112"/>deus semper punit citra condignum. Sed peccatum se 
+      <lb ed="#P" n="113"/>quens frequenter est grauius et maius malum quam 
+      cul<lb ed="#P" n="114" break="no"/>pa precedens: ergo non est pena eius 
+      <lb ed="#P" n="115"/>Magister in littera et allegat mul¬ 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e165">
+               <lb ed="#P" n="116"/>¶ Contra tas auctoritates quarum 
+      praecipun<lb ed="#P" n="117" break="no"/>est apostoli ad Rom 1 vbi cum enumerauit 
+      multa<lb ed="#P" n="118" break="no"/>peccata gentilium subdit propter ea tradidit illos 
+      <lb ed="#P" n="119"/>deus in reprobum sensum in desideria cordis eorum 
+      in<lb ed="#P" n="120" break="no"/>immundiciam: vt faciant ea que non conueniunt. Alio 
+      <lb ed="#P" n="121"/>est Gregorii. 20. moralium. Peccatum vero quod ex 
+      pec<lb ed="#P" n="122" break="no"/>cato oritur non solum peccatum est sed pena alterius 
+      <lb ed="#P" n="123"/>pctim: quia iusto iudicio deus cor peccantis obnubilat: vt 
+      <lb ed="#P" n="124"/>merito precedentis peccati in aliud cadat: quia quem 
+      <lb ed="#P" n="125"/>liberare noluit deserendo percussit. 
+      <!--318.xml-->
+      <pb ed="#P" n="155-r"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-b1023z-d1e196">
+               <lb ed="#P" n="1"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e201">
+               <lb ed="#P" n="2"/>¶ Primo inquiram vtrum omne peccatum sit pec 
+      <lb ed="#P" n="3"/>na.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e208">
+      ¶ Secundo vtrum peccatum per se possit esse 
+      <lb ed="#P" n="4"/>pena alterius peccati.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e214">
+      ¶ Tertio vtrum vnum 
+      pec<lb ed="#P" n="5" break="no"/>catum possit esse causa alterius peccati.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e219">
+      ¶ Ultimo 
+      <lb ed="#P" n="6"/>ad rationes. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e224">
+               <lb ed="#P" n="7"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="8" break="no"/>culum videretur alicui quod peccatum vel culpa non 
+      <lb ed="#P" n="9"/>posset esse pena.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e233">
+      ¶ Primo quia malum diuiditur 
+      <lb ed="#P" n="10"/>in malum culpe et malum pene. Sed duo diuidentia 
+      <lb ed="#P" n="11"/>aliquid vnum per se non concurrunt in vnum: ergo etc 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e240">
+               <lb ed="#P" n="12"/>¶ Secundo quia omnis pena est reordinatiua 
+      pec<lb ed="#P" n="13" break="no"/>cantis. Sedculpa non est reordinatiua peccantis: in 
+      <lb ed="#P" n="14"/>mo deordinatiua: ergo non est pena peccantis.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e249">
+      ¶ 
+      Ter<lb ed="#P" n="15" break="no"/>tio quia culpa est causa pene et naturaliter prior quae 
+      <lb ed="#P" n="16"/>pena. Sed nichil est causa sui vel naturaliter prius 
+      <lb ed="#P" n="17"/>seipso: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e259">
+      ¶ Quarto quia non omnis pena est 
+      <lb ed="#P" n="18"/>culpa. Patet de pena sensus ipsorum damnatorum: 
+      <lb ed="#P" n="19"/>ergo econuerso non omnis culpa est pena.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e266">
+      ¶ Quin 
+      <lb ed="#P" n="20"/>to quia omnis pena est tristabilis. Sed multa 
+      pec<lb ed="#P" n="21" break="no"/>cata sunt delectabilia: igitur etc.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e273">
+      ¶ Ultimo quia secundum 
+      <lb ed="#P" n="22"/>Augustinum culpa est malum quod facimus. Pena vel 
+      <lb ed="#P" n="23"/>ro est malum quod patimur: ergo culpa non est pena. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e280">
+               <lb ed="#P" n="24"/>¶ Sed quantum ad hoc dico quod peccatum. Uno modo ad 
+      <lb ed="#P" n="25"/>cipitur vt est carentia perfectionis debite in esse vel 
+      <lb ed="#P" n="26"/>rectitudinis et vt facit voluntatem deformen et sic est 
+      <lb ed="#P" n="27"/>in ipsa formaliter tanquam in receptiuo vel passiuo et 
+      <lb ed="#P" n="28"/>non libere: quia nullum passiuum vt sic est liberum et 
+      <lb ed="#P" n="29"/>si non sit in voluntate saltem est in alia potentia et 
+      <lb ed="#P" n="30"/>teriori.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e298">
+      ¶ Alio modo potest accipi vt imputabile 
+      <lb ed="#P" n="31"/>voluntati et vt voluntas culpabilis est ratione 
+      ip<lb ed="#P" n="32" break="no"/>sius et isto modo magis est a voluntate et 
+      compara<lb ed="#P" n="33" break="no"/>tur ad ipsam vt ad causam actiuam a qua est actiue 
+      <lb ed="#P" n="34"/>et libere. Primo modo accipiendo peccatum vel 
+      cul<lb ed="#P" n="35" break="no"/>pam. Dico quod omne peccatum et omnis culpa per se 
+      <lb ed="#P" n="36"/>inquantum tale est pena peccantis licet non secundo modo 
+      <lb ed="#P" n="37"/>hoc probo primo sic. Priuatio vel carentia boni de 
+      <lb ed="#P" n="38"/>biti in esse et inuoluntaria est pena illi cui inesti hoc 
+      <lb ed="#P" n="39"/>patet: quia nichil plus de ratione pene. Sed culpa 
+      <lb ed="#P" n="40"/>vel peccatum est talis carentia. Si primo modo ad 
+      <lb ed="#P" n="41"/>cipiatur quia est carentia rectitudinis actualis debi 
+      <lb ed="#P" n="42"/>te in esse peccati et est inuoluntaria. Non quia 
+      opor<lb ed="#P" n="43" break="no"/>tet quod displiceat actu elicito: sed quia est contra 
+      in<lb ed="#P" n="44" break="no"/>clinationem naturalem voluntatis et appetitus si 
+      <lb ed="#P" n="45"/>perioris que naturaliter tendit in perfectionem de 
+      <lb ed="#P" n="46"/>bite rectitudinis siue suiipsius siue aliarum 
+      poten<lb ed="#P" n="47" break="no"/>tiarum vt patet: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e337">
+      ¶ Secundo sic. Priuatio 
+      <lb ed="#P" n="48"/>maioris boni contra inclinationem naturalem 
+      volun<lb ed="#P" n="49" break="no"/>tatis et nata sibi displicere magis est priuatio quam 
+      pri<lb ed="#P" n="50" break="no"/>uatio vel carentia minoris boni. Sed carentia 
+      recti<lb ed="#P" n="51" break="no"/>tudinis debite est maioris boni carentia quam carentia 
+      <lb ed="#P" n="52"/>boni commodi que dicitur tamen pena: ergo etc. Minor 
+      <lb ed="#P" n="53"/>patet: quia illa rectitudo est bonum honestum et ita 
+      <lb ed="#P" n="54"/>minus bonum quam commodum vel vtile.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e356">
+      ¶ Tertio sic 
+      <lb ed="#P" n="55"/>Mors corporalis quantumcunque in aliquo volente et 
+      de<lb ed="#P" n="56" break="no"/>siderante ipsam est pena aliqua et aliquo modo: quia 
+      <lb ed="#P" n="57"/>est priuatio vel carentia boni naturalis alicuius 
+      con<lb ed="#P" n="58" break="no"/>tra inclinationem naturalem anime que semper et 
+      <lb ed="#P" n="59"/>naturaliter appetit vniri corpori. Sed mors 
+      spiri<lb ed="#P" n="60" break="no"/>tualis peccati multo grauior est ergo multo magis 
+      <lb ed="#P" n="61"/>pena debet dici vt videtur.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e374">
+      ¶ Hoc probatur per 
+      Au<lb ed="#P" n="62" break="no"/>gustium I confes. 12. Iussisti domine et ita est vt 
+      pe<lb ed="#P" n="63" break="no"/>na sibi sit omnis inordinatus animus. Ita quod ipsa 
+      <!--318.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>inordinatio culpe pena est animi inordinati et ipsius 
+      <lb ed="#P" n="65"/>peccantis. Propter quod etiam dicit Damascenus quod 
+      <lb ed="#P" n="66"/>omne peccatum est contra naturam: quia contra 
+      in<lb ed="#P" n="67" break="no"/>clinationem naturalem appetitus intellectiui et 
+      vo<lb ed="#P" n="68" break="no"/>liti et nati displicere sibi inquantum est in ipso priuans 
+      <lb ed="#P" n="69"/>rectitudinem debitam in esse.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e398">
+      ¶ Ad primum in 
+      op<lb ed="#P" n="70" break="no"/>positum dico quod malum pene vniuersaliter acceptum 
+      <lb ed="#P" n="71"/>et malum culpe etiam vniuersaliter non diuidunt 
+      ma<lb ed="#P" n="72" break="no"/>lum per se sed possunt in aliquo vno concurrere 
+      si<lb ed="#P" n="73" break="no"/>cut in proposito. Sed si ista per se diuidunt malum 
+      <lb ed="#P" n="74"/>hoc est accipiendo malum pene pro aliquo 
+      positiuo<lb ed="#P" n="75" break="no"/>inflicto ab aliquo affligente extrinseco 
+      cuiusmodi<lb ed="#P" n="76" break="no"/>erit pena ignis in damnatis: et sic de talibus penis et 
+      <lb ed="#P" n="77"/>talis pena verum est quod non est culpa licet in eodem 
+      con<lb ed="#P" n="78" break="no"/>currant: non tamen secundum eandem rationem: quia culpa est 
+      <lb ed="#P" n="79"/>vt a voluntate effectiue. Sed pena vt in voluntate 
+      <lb ed="#P" n="80"/>subiectiue priuans bonum et perfectionem debitam 
+      <lb ed="#P" n="81"/>in esse.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e427">
+      ¶ Ad secundum potest solui sicut primo 
+      mon<lb ed="#P" n="82" break="no"/>do dictum est ad primum. Alio modo dici potest quod 
+      <lb ed="#P" n="83"/>lomnis priena secundum quod huiusmodi reordinatiua sicut etiam 
+      <lb ed="#P" n="84"/>est punitiua. Modo dico quod culpa et est 
+      deordinati<lb ed="#P" n="85" break="no"/>ua voluntatis pro quanto est ab ipsa effectiua et est 
+      re<lb ed="#P" n="86" break="no"/>ordinatiua inquantum est in ipsa subiectiue: quia 
+      pri<lb ed="#P" n="87" break="no"/>fuatiua iuste boni vel perfectionis debite in esse et 
+      cor<lb ed="#P" n="88" break="no"/>respondenter ad seipsam: vt culpa est et a voluntate 
+      <lb ed="#P" n="89"/>effectiue vt non sit dedecus culpe sine decore 
+      iusti<lb ed="#P" n="90" break="no"/>cie.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e449">
+      ¶ Ad tertium potest dici quod culpa est causa 
+      pe<lb ed="#P" n="91" break="no"/>ne et prior loquendo de pena quod est aliquid positiuum 
+      <lb ed="#P" n="92"/>inflictum ab extrinseco disconueniens nature et 
+      ta<lb ed="#P" n="93" break="no"/>lis pena non est culpa nec econuerso. Non autem est 
+      <lb ed="#P" n="94"/>causa omnis pene vel dici potest quod culpa omnis 
+      prior<lb ed="#P" n="95" break="no"/>est sua pena quia prior est culpa vt culpa et a 
+      volun<lb ed="#P" n="96" break="no"/>tate effectiue quam in voluntate subiectiue vt in 
+      pena<lb ed="#P" n="97" break="no"/>et ita aliquo modo causa. Unde et videtur dicere 
+      <lb ed="#P" n="98"/>vnus quod actio de genere actionis que est causa 
+      volu<lb ed="#P" n="99" break="no"/>tionis male sit culpa et ipsa volitio mala est pena et 
+      <lb ed="#P" n="100"/>non curo de hoc: quia forte idem incurreret: quia alia 
+      <lb ed="#P" n="101"/>actio de genere actionis et est a voluntatet et in 
+      vo<lb ed="#P" n="102" break="no"/>luntate et cum ipsa sit deformis: tunc ante 
+      volitio<lb ed="#P" n="103" break="no"/>nem malam esset culpa et in quolibet peccato esset 
+      <lb ed="#P" n="104"/>puplex culpa: quia non videtur negandum quin 
+      vo<lb ed="#P" n="105" break="no"/>litio mala sit culpa:
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e484">
+      ¶ Ad quartum dico quod non est 
+      <lb ed="#P" n="106"/>simile: quia pena est in plus quam culpa: et ideo non 
+      opor<lb ed="#P" n="107" break="no"/>tet quod omnis pena sit culpa sicut econuerso et 
+      quo<lb ed="#P" n="108" break="no"/>modo vnum sit in plus quam aliud dictum est supra. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e494">
+               <lb ed="#P" n="109"/>¶ Ad quintum dico quod licet passiones sensibiles 
+      im<lb ed="#P" n="110" break="no"/>peccatis multis sint delectabiles et etiam actus 
+      po<lb ed="#P" n="111" break="no"/>sitiui interiores tamen omnis culpa tristatiua est 
+      <lb ed="#P" n="112"/>pro tanto: quia contra inclinationem naturalem et 
+      <lb ed="#P" n="113"/>secundum rationem rectam voluntatis: non quia 
+      <lb ed="#P" n="114"/>actu elicito contristet et sufficit hoc quod sit pena. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e510">
+               <lb ed="#P" n="115"/>¶ Ad sextum dico quod pena est malum quod 
+      pati<lb ed="#P" n="116" break="no"/>mur pure: et tunc non est culpa et de tali pena 
+      po<lb ed="#P" n="117" break="no"/>test Augustinus exponi vel si pena est malum quoc 
+      <lb ed="#P" n="118"/>facimus sicut quando culpa est pena: tamen non est 
+      <lb ed="#P" n="119"/>pena inquantum facimus et inquantum est a voluntate 
+      <lb ed="#P" n="120"/>effectiue: sed magis inquantum patimur et est in 
+      vo<lb ed="#P" n="121" break="no"/>luntate subiectiue: vt dictum est supra. Hec de 
+      pri<lb ed="#P" n="122" break="no"/>mo articulo 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e530">
+               <lb ed="#P" n="123"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="124" break="no"/>ticulum vtrum scilicet vnum peccatum sit pena alterius 
+      <lb ed="#P" n="125"/>peccati precedentis. Est vna opinio quae dicit quod vnum 
+      <lb ed="#P" n="126"/>peccatum non potest esse pena per se alterius pcti¬ 
+      <!--319.xml-->
+      <pb ed="#P" n="155-v"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-b1023z-d1e548">
+               <lb ed="#P" n="1"/>¶ Secundo dicit quod per accidens aliquo modo 
+      po<lb ed="#P" n="2" break="no"/>test esse pena alterius peccati.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e555">
+      ¶ Primum probatur 
+      <lb ed="#P" n="3"/>primo sic. Impossibile est quod idem formaliter sit cul 
+      <lb ed="#P" n="4"/>pa et pena. Sed peccatum per se et formaliter est cum 
+      <lb ed="#P" n="5"/>pa: ergo non pena.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e564">
+      ¶ Secundo sic. Malum culpe est 
+      <lb ed="#P" n="6"/>priuatio perfectionis secunde que est actus 
+      secun<lb ed="#P" n="7" break="no"/>dus vel circumstantia eius. Sed malum pene est 
+      pri<lb ed="#P" n="8" break="no"/>uatio perfectionis prime cuiusmodi est cecitas 
+      vi<lb ed="#P" n="9" break="no"/>sus: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e576">
+      ¶ Tertio sic. Per penam solutam 
+      libe<lb ed="#P" n="10" break="no"/>ratur quis a peccato primo vel prima culpa per 
+      se<lb ed="#P" n="11" break="no"/>cundamlimmo magis offendit in sequenti culpa: ergo 
+      <lb ed="#P" n="12"/>etc. quia tunc peccator puniret seipsum sicut et 
+      pec<lb ed="#P" n="13" break="no"/>cat. Secundum declaratur scilicet quod per accidens peccatum 
+      <lb ed="#P" n="14"/>potest esse pena peccati. Primo ratione alicuius 
+      com<lb ed="#P" n="15" break="no"/>comitantis peccatum sicut infamia concomitatur 
+      fre<lb ed="#P" n="16" break="no"/>quenter peccatum vel etiam afflictio et remorsus 
+      con<lb ed="#P" n="17" break="no"/>scientie vel ratione alicuius consequentis vt effectus 
+      <lb ed="#P" n="18"/>cuiusmodi est diminutio naturalis aptitudinis ad 
+      <lb ed="#P" n="19"/>bonum.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e600">
+      ¶ Dicunt ergo quod peccatum per se et vt 
+      pec<lb ed="#P" n="20" break="no"/>catum non est pena alterius ratione peccati vel cul 
+      <lb ed="#P" n="21"/>pe: sed ratione eius quod concomitatur sequens 
+      pec<lb ed="#P" n="22" break="no"/>catum: vt si aliquis primo sit superbus et postea 
+      ca<lb ed="#P" n="23" break="no"/>dat in luxuriam consequitur infamiaratione cuius 
+      <lb ed="#P" n="24"/>luxuria est pena precedentis superbie.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e613">
+      ¶ Aliter 
+      <lb ed="#P" n="25"/>videtur michi dicendum quod peccatum subsequens per 
+      <lb ed="#P" n="26"/>se potest esse pena alterius peccati praecedentis.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e620">
+      ¶ 
+      Hu<lb ed="#P" n="27" break="no"/>ius ratio est prima talis. Illud quod est demeritum 
+      per<lb ed="#P" n="28" break="no"/>peccatum potest esse per se pena eius. Sed peccatum 
+      <lb ed="#P" n="29"/>sequens est demeritum per precedens. Peccans enim 
+      <lb ed="#P" n="30"/>peccato priori demeretur quod deus iuste permittat eum 
+      <lb ed="#P" n="31"/>ruere in peccatum sequens: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e633">
+      ¶ Secunda 
+      ra<lb ed="#P" n="32" break="no"/>tio est ista. Sicut deus iuste puniendo aufert gratiam 
+      <lb ed="#P" n="33"/>a peccante quando non agit ad rectitudinem debi 
+      <lb ed="#P" n="34"/>tam et hoc quando deus annichilat gratiam ex 
+      deme<lb ed="#P" n="35" break="no"/>rito peccantis sic videtur quod exigente demerito 
+      prio<lb ed="#P" n="36" break="no"/>ris peccati possit iuste non dare rectitudinem debitam 
+      <lb ed="#P" n="37"/>actui posteriori vel etiam voluntati posterius. Sed 
+      <lb ed="#P" n="38"/>primum est pena et per se pena: quia carentia boni et per 
+      <lb ed="#P" n="39"/>fectionis debite in esse et inuoluntaria: quia contra 
+      <lb ed="#P" n="40"/>inclinationem naturalem appetitus volitiui: ergo 
+      si<lb ed="#P" n="41" break="no"/>militer et secundum.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e657">
+      ¶ Tertia ratio videtur ista: quia non 
+      <lb ed="#P" n="42"/>minus videtur quod peccatum sequens ex demerito 
+      pre<lb ed="#P" n="43" break="no"/>cedentis possit esse per se pena eius quam primum pecca. 
+      <lb ed="#P" n="44"/>tum sit pena peccantis. Sed primum peccatum est 
+      pena<lb ed="#P" n="45" break="no"/>peccantis pro seipso et per se: ergo etiam sequens 
+      pec<lb ed="#P" n="46" break="no"/>catum iuste est pena pro alio precedente.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e671">
+      ¶ Ad hoc 
+      <lb ed="#P" n="47"/>est auctoritas Magistri in littera vbi dicit sic. 
+      In<lb ed="#P" n="48" break="no"/>nullo preiudicium veritati fieri putatur si quis 
+      di<lb ed="#P" n="49" break="no"/>cat ipsa peccata essentialiter vt ita dicam esse penas 
+      <lb ed="#P" n="50"/>id est punitiones peccatorum precedentium. Ad hoc 
+      <lb ed="#P" n="51"/>idem dicit Apocalipsis vltimo. Iustum est vt qui 
+      <lb ed="#P" n="52"/>in sordibus est sordescat adhuc et Isidorus. 2. li. c. 
+      <lb ed="#P" n="53"/>390. de summo bono dicit quod deus occultam superbiam 
+      <lb ed="#P" n="54"/>punit per manifestam luxuriam.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e691">
+      ¶ Dico ergo quod 
+      pec<lb ed="#P" n="55" break="no"/>catum non solum est pena peccati per accidens vel 
+      <lb ed="#P" n="56"/>ratione alicuius concomitantis vel precedentis vel 
+      <lb ed="#P" n="57"/>subsequentis: sed etiam per se eo modo quo dictum est 
+      <lb ed="#P" n="58"/>supra.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e702">
+      ¶ Ad primum aliorum quando dicis quod 
+      pec<lb ed="#P" n="59" break="no"/>na et culpa non sunt idem essentialiter. Dico quod 
+      fal<lb ed="#P" n="60" break="no"/>sum est sicut dictum est in articulo precedente. 
+      Iden<lb ed="#P" n="61" break="no"/>enim vt a voluntate est culpa vt in voluntate 
+      rece<lb ed="#P" n="62" break="no"/>ptum potest esse pena peccantis pro peccato priori. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e713">
+               <lb ed="#P" n="63"/>¶ Ad secundum dico quod malum pene bene potest et 
+      <lb ed="#P" n="64"/>se et est aliquando priuatio perfectionis secunde de 
+      <lb ed="#P" n="65"/>bite in esse sicut et potest esse malum culpe.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e722">
+      ¶ Ad ter¬ 
+      <!--319.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>tium dico quod non quecunque pena liberat a peccato nec 
+      <lb ed="#P" n="67"/>satisfacit pro ipso. Sed pena acceptata a deo ad 
+      sa<lb ed="#P" n="68" break="no"/>tisfactionem et talis nunquam est culpa et patet de 
+      pe<lb ed="#P" n="69" break="no"/>na inferni que non est satisfactoria.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e738">
+      ¶ Ad quartum 
+      <lb ed="#P" n="70"/>quando dicis quod voluntas puniret seipsam. Dico quod 
+      <lb ed="#P" n="71"/>non sequitur quia non est pena inquantum est a 
+      volun<lb ed="#P" n="72" break="no"/>tate actiue vel effectiue: sed inquantum est in 
+      volunta<lb ed="#P" n="73" break="no"/>te formaliter et subiectiue. Uel dicendum quod non est 
+      <lb ed="#P" n="74"/>inconueniens quod voluntas seipsam puniat tali pena 
+      <lb ed="#P" n="75"/>que est culpa que non est pena nisi vt inuoluntaria 
+      <lb ed="#P" n="76"/>eo modo quo dictum est supra. Hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e757">
+               <lb ed="#P" n="77"/>¶ Quantum ad tercium 
+      arti<lb ed="#P" n="78" break="no"/>culum vtrum scilicet peccatum sit causa peccati 
+      di<lb ed="#P" n="79" break="no"/>citur quod in triplici genere vnum peccatum potest 
+      es<lb ed="#P" n="80" break="no"/>se causa peccati alterius.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e768">
+      ¶ Primo in genere 
+      cau<lb ed="#P" n="81" break="no"/>se finalis isto modo quod vnum peccatum ordinatur ad  
+      <lb ed="#P" n="82"/>aliud sicut fornicatio finis vel auaricie vel 
+      econuer<lb ed="#P" n="83" break="no"/>so: et sic de aliis. Unde et fornicans propter lucrum 
+      <lb ed="#P" n="84"/>magis debet dici auarus quam fornicator secundum 
+      Aristo<lb ed="#P" n="85" break="no"/>telem.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e781">
+      ¶ Secundo modo in genere cause materia 
+      <lb ed="#P" n="86"/>lis: quia vnum peccatum frequenter ministrat alte 
+      <lb ed="#P" n="87"/>risicut gulaluxurie. Unde Hieronymus venter me 
+      <lb ed="#P" n="88"/>ro estuans de facili spumat in libidinem.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e790">
+      ¶ Tertio 
+      <lb ed="#P" n="89"/>modo potest esse vnum peccatum causa alterius 
+      in<lb ed="#P" n="90" break="no"/>genere cause efficientis et hoc dupliciter. Uno 
+      mo<lb ed="#P" n="91" break="no"/>do per se. Alio modo per accidens per se quia pecca. 
+      <lb ed="#P" n="92"/>tum frequentatum est causa habitus vitiosi 
+      agge<lb ed="#P" n="93" break="no"/>neratus: et per consequens peccati sibi consimilis ad 
+      <lb ed="#P" n="94"/>quod inclinat habitus vitiosus et per se per accidens 
+      <lb ed="#P" n="95"/>vero sicut remouens prohibens quia primum 
+      pecca<lb ed="#P" n="96" break="no"/>tum remouet gratiam ab habente ipsam. Et ita quia 
+      <lb ed="#P" n="97"/>homo toto tempore vitare non potest peccatum sine 
+      <lb ed="#P" n="98"/>gratia: quia gratia est quasi prohibens peccatum: 
+      <lb ed="#P" n="99"/>ideo peccatum sic est causa alterius peccati per 
+      ac<lb ed="#P" n="100" break="no"/>cidens. De hoc autem videtur michi dicendum quod 
+      <lb ed="#P" n="101"/>peccatum formaliter acceptum non potest esse per se 
+      cau<lb ed="#P" n="102" break="no"/>sa alicuius peccati nec finis nec efficiens nec 
+      mate<lb ed="#P" n="103" break="no"/>ria quia per se causalitas non conuenit nisi enti per 
+      <lb ed="#P" n="104"/>se positiuo. Unde et peccatum non est generatiuum 
+      <lb ed="#P" n="105"/>habitus nisi inquantum est aliquid positiuum.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e829">
+      ¶ 
+      Di<lb ed="#P" n="106" break="no"/>co ergo qued peccatum per se non est causa peccati 
+      si<lb ed="#P" n="107" break="no"/>cut nec malum causa mali. Sed malum causatur ex 
+      <lb ed="#P" n="108"/>bono et aliquo modo per accidens ex malo eo modo 
+      <lb ed="#P" n="109"/>quo dictum est supra. Unde et beatus Gregorius 
+      in<lb ed="#P" n="110" break="no"/>moralibus dicit quod peccatum quod per penitentiam non 
+      <lb ed="#P" n="111"/>diluitur mox suo podere ad aliud trahit: quare etc. 
+      <lb ed="#P" n="112"/>hec de secundo articuio questionis.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e847">
+      ¶ 
+      Aduerten<lb ed="#P" n="113" break="no"/>dum est etiam quod peccatum primum quomodocunque sit 
+      <lb ed="#P" n="114"/>causa secundi peccati nullo modo tamen necessitat 
+      volun<lb ed="#P" n="115" break="no"/>tatem ad secundum peccatum. Sed voluntas semper 
+      ma<lb ed="#P" n="116" break="no"/>net libera sic quod et potest vitare secundum peccatum et 
+      expe<lb ed="#P" n="117" break="no"/>dire se a primo disponendo se ad gratiam de 
+      congruo<lb ed="#P" n="118" break="no"/>sicut est in sua potestate. 
+      </p>
+            <p xml:id="qrdBas-b1023z-d1e864">
+               <lb ed="#P" n="119"/>¶ Ad primum principale dico quod 
+      <lb ed="#P" n="120"/>apparebit magis in sequenti questione vtrum aliquod 
+      <lb ed="#P" n="121"/>pctantum sit a deo. Sed quantum spectat ad propositum dico quod 
+      <lb ed="#P" n="122"/>omne iustum est a deo: et hoc secundum rationem iusti. Et 
+      ad<lb ed="#P" n="123" break="no"/>propositum Dico quod pena omnis iusta est a deo: sed non 
+      <lb ed="#P" n="124"/>eodem modo quia quedam est a deo infligendo sicut pena 
+      <lb ed="#P" n="125"/>secundum aliquod positiuum ab extrinseco afflictiuum sicut 
+      <lb ed="#P" n="126"/>est pena ignis in damnatis et consiles. Sed de pena quae est 
+      cul<lb ed="#P" n="127" break="no"/>pa dico quod est a deo deserendo peccatorem sicut pericli 
+      <lb ed="#P" n="128"/>tatio nauis est a nauta derelinquendo nauem et dico 
+      <!--320.xml-->
+      <pb ed="#P" n="156-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod iuste derelinquit eum adnichilando gratiam vel 
+      <lb ed="#P" n="2"/>non infundendo ex demerito peccati.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e899">
+      ¶ Ad secundum 
+      prin<lb ed="#P" n="3" break="no"/>cipale dico quod omne peccatum actuale est voluntarium 
+      <lb ed="#P" n="4"/>actiue a voluntate peccantis aliquo modo vel quoquo 
+      <lb ed="#P" n="5"/>modo et hoc inquantumculpa est sed non inquantum est in voluntate 
+      <lb ed="#P" n="6"/>formaliter et subiectiue priuans bonum debitum in esse eo 
+      <lb ed="#P" n="7"/>modo quo dictum est supra.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e912">
+      ¶ Ad tertium dico quod sequens 
+      <lb ed="#P" n="8"/>bene est aliquando grauius precedente: et tamen non est 
+      <lb ed="#P" n="9"/>aliud sequens punitiuum propter multa 
+      impedimen<lb ed="#P" n="10" break="no"/>ta que possunt contingere vel quia scilicet moritur et sic 
+      am<lb ed="#P" n="11" break="no"/>plius peccare non potest: vel quia penitet: et sic a 
+      pec<lb ed="#P" n="12" break="no"/>cato expeditur. Nec oportet quod illud peccatum quod 
+      <lb ed="#P" n="13"/>est grauius semper habeat aliquid puniens. Sed si 
+      in<lb ed="#P" n="14" break="no"/>vtroque decedat grauius punitur pro vno quam pro alio 
+      <lb ed="#P" n="15"/>loquendo de pena seusus inflicta.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e932">
+      ¶ Ad quartum quando 
+      <lb ed="#P" n="16"/>dicis quod nulla pena est grauior vel maius malumquam 
+      <lb ed="#P" n="17"/>culpa. Dico quod verum est inquantum vnum est culpa et aliud 
+      <lb ed="#P" n="18"/>pena quia pena: vt pena rationem culpe non habet. 
+      <lb ed="#P" n="19"/>Nec tanti mali sicut culpa vnde culpa. Peccatum 
+      <lb ed="#P" n="20"/>autem sequens pena est: vt in voluntate subiectiue et 
+      <lb ed="#P" n="21"/>formaliter sed est et sic non est culpa. Precedens 
+      vero<lb ed="#P" n="22" break="no"/>peccatum culpa est vt est a voluntate et sic est peius 
+      <lb ed="#P" n="23"/>et malum maius vel dic quod deus infligendo punit 
+      ci<lb ed="#P" n="24" break="no"/>tra condignum et nunquam pena inflicta sensibilis est 
+      tan<lb ed="#P" n="25" break="no"/>tum malum quantum malum est culpa: sed deserendo et 
+      <lb ed="#P" n="26"/>permittendo potest grauius punire iuste dimittendo 
+      <lb ed="#P" n="27"/>istum cadere in grauiorem propter demeritum 
+      culpe<lb ed="#P" n="28" break="no"/>precedentis ex propria voluntate peccantis non ex 
+      vo<lb ed="#P" n="29" break="no"/>luntate dei infligentis vel impellentis. Sic de isto 
+      <lb ed="#P" n="30"/>Nisi quod potes notare auctoritates pro primo 
+      ariicu<lb ed="#P" n="31" break="no"/>lo quod peccatum sit pena peccantis.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e969">
+      ¶ Prima est 
+      Au<lb ed="#P" n="32" break="no"/>gustini de libero arbitrio. Dicit enim quod nullo 
+      inter<lb ed="#P" n="33" break="no"/>uallo temporis diuiduntur ista: vt quod alio tempore non 
+      <lb ed="#P" n="34"/>faciat quod debet et alio patiatur quod debet ne temporis 
+      <lb ed="#P" n="35"/>vniuersalis pulchritudo culpetur vt sit in ea pecca. 
+      <lb ed="#P" n="36"/>ti dedecus sine decore vindicte. Eodem enim loco 
+      <lb ed="#P" n="37"/>dicit postea quod sicut qui non vigilat dormit sic 
+      quis<lb ed="#P" n="38" break="no"/>quis non facit quod debet sine interuallo patitur quod deus 
+      <lb ed="#P" n="39"/>bet quaniam tanta est beatitudo iusticie: vt nemo ab ea 
+      ni<lb ed="#P" n="40" break="no"/>si ad miseriam potest abscedere.
+    </p>
+            <p xml:id="qrdBas-b1023z-d1e991">
+      ¶ Pro secundo ar 
+      <lb ed="#P" n="41"/>ticulo quod peccatum sit pena peccati dicit 
+      Augusti<lb ed="#P" n="42" break="no"/>nus super. 5. psal. sic. Deus malos in suis malis deo 
+      <lb ed="#P" n="43"/>relinquit non inferendo sed deserendo. Et contra 
+      iu<lb ed="#P" n="44" break="no"/>lianum libr. 7. Peccatores iudicio dei traditi sunt 
+      <lb ed="#P" n="45"/>peccatis scilicet deserendo. Quod etiam vnum sit causa 
+      al<lb ed="#P" n="46" break="no"/>terius dictum est supra et declaratum per quem 
+      mo<lb ed="#P" n="47" break="no"/>dum. Hec de questione. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

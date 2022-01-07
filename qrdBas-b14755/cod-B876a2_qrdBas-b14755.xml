@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="23-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b14755"><!--l2d2q1 -->
+            <head xml:id="qrdBas-b14755-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b14755-d1e101">
+               <lb ed="#P" n="36"/>¶ Distinctionis secunde questio prima
+    </p>
+            <p xml:id="qrdBas-b14755-d1e106">
+               <lb ed="#P" n="37"/>CIrca distinctionem 
+      <lb ed="#P" n="38"/>secundam quero primum 
+      Utri<lb ed="#P" n="39" break="no"/>euum sit mensura successiua vel 
+      <lb ed="#P" n="40"/>duratio.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e117">
+        Uidetur quod sic Illa 
+      du<lb ed="#P" n="41" break="no"/>ratio est successiua que non est 
+      <lb ed="#P" n="42"/>tota simul. Sed euum est 
+      huiu<lb ed="#P" n="43" break="no"/>modi quia cum euum sit duratio 
+      infini<lb ed="#P" n="44" break="no"/>ta a parte post saltem. Si igitur 
+      <lb ed="#P" n="45"/>esset tota simul esset dare infinitum in actu quod est 
+      <lb ed="#P" n="46"/>falsum ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e133">
+      ¶ Secundo sic. Illa duratio quae 
+      non<lb ed="#P" n="47" break="no"/>differt a tempore est successiua sicut tempus. Sed 
+      <lb ed="#P" n="48"/>euum non differt a tempore secundum Augustinum 
+      octa<lb ed="#P" n="49" break="no"/>uo super Genes qui dicit quod deus administrat 
+      crea<lb ed="#P" n="50" break="no"/>turam spiritualem per tempus et planum est quod per euum 
+      <lb ed="#P" n="51"/>ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e147">
+      ¶ Tertio sic Esse euiterni medium est in 
+      <lb ed="#P" n="52"/>teree motus et primum esse quod est esse dei igitur 
+      medie<lb ed="#P" n="53" break="no"/>modo se debet habere ad suam durationem. Sed 
+      pri<lb ed="#P" n="54" break="no"/>mum esse et sua duratio simplex est non habens partem 
+      <lb ed="#P" n="55"/>et partem sibi inuicem succedentes. Motus vero et 
+      <lb ed="#P" n="56"/>sua duratio puta tempus vtrumque est successiuum et 
+      <lb ed="#P" n="57"/>habet partem et partem. igitur medio modo esse 
+      euiter<lb ed="#P" n="58" break="no"/>ni simplex est et sua duratio successiua partem habens 
+      <lb ed="#P" n="59"/>et partem.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e167">
+      ¶ Quarto sic. Si euum non esset mensura 
+      <lb ed="#P" n="60"/>successiua sequeretur quod nunc eui et euum non 
+      differ<lb ed="#P" n="61" break="no"/>rent. Sed hoc est falsum quia non minus est nunc eui 
+      in<lb ed="#P" n="62" break="no"/>diuisibile et per consequens non magis duratiuum quam nunc 
+      <lb ed="#P" n="63"/>temporis quod tamen differt a tempore sicut indiuits 
+      <!--53.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>bile a continuo et diuisibili. ergo etc 
+      <lb ed="#P" n="65"/>Omnis duratio successiua vele 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e187">
+               <lb ed="#P" n="66"/>¶ Conti. atempus vel tempore mensurat 
+      <lb ed="#P" n="67"/>vt videtur quia omne successiuum vel est tempus vel 
+      <lb ed="#P" n="68"/>motus vel oratio. si tamen sit successiua. Sed euum 
+      <lb ed="#P" n="69"/>nec est tempus nec tempore mensuratur. Quod non si 
+      <lb ed="#P" n="70"/>tempus patet quia mediat inter eternitatem et 
+      tempo<lb ed="#P" n="71" break="no"/>et differt realiter ab vtroque sicut etiam diceretur infra 
+      <lb ed="#P" n="72"/>Quod etiam non mensuretur tempore. Patet quia 
+      <lb ed="#P" n="73"/>non est motus. ergo. etc. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e207">
+               <lb ed="#P" n="74"/>¶ In ista questione sic procedam 
+      <lb ed="#P" n="75"/>Primo ostendam quid intelligam per euum. 
+      Secun<lb ed="#P" n="76" break="no"/>do inquiram vtrum euum sit mensura vel duratio sud 
+      <lb ed="#P" n="77"/>cessiua. Tertio vtrum euum sit idem cum euiterne 
+      <lb ed="#P" n="78"/>vltimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e220">
+               <lb ed="#P" n="79"/>¶ Quantum ad primum 
+      ar<lb ed="#P" n="80" break="no"/>ticulum Dicitur quod est quedam mensura quiditatiua 
+      <lb ed="#P" n="81"/>et perfectionalis. Alia vero est duratiua loquendo 
+      <lb ed="#P" n="82"/>de prima dicimus quod in quolibet genere est vnum primum 
+      <lb ed="#P" n="83"/>quod est perfectissimum respectu omnium que sunt 
+      <lb ed="#P" n="84"/>illius generis quod est metrum et mensura omnium que sunt 
+      <lb ed="#P" n="85"/>illius generis sicut albedo coloris vt dicitur. 10. meta. 
+      <lb ed="#P" n="86"/>Et quanto aliquid est tali mensura propinquius in illo 
+      <lb ed="#P" n="87"/>genere tanto est perfectius quanto vero remotius 
+      tanto<lb ed="#P" n="88" break="no"/>imperfectius.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e244">
+      ¶ Secunda mensura est duratio cui 
+      <lb ed="#P" n="89"/>accidit quod sit perfectionalis nec est de ratione eius. 
+      <lb ed="#P" n="90"/>Non enim aliquid est perfectius quia durat plus quam 
+      <lb ed="#P" n="91"/>illud quod durat minus Ita enim perfecta est 
+      albe<lb ed="#P" n="92" break="no"/>do durans tribus diebus sicut tribus annis. Talis 
+      <lb ed="#P" n="93"/>mensura dicitur esse tempus ab aristotele quarto 
+      phi<lb ed="#P" n="94" break="no"/>sicorum respectu motus. Est enim mensura motus 
+      <lb ed="#P" n="95"/>secundum prius et posterius vt dicitur ibidem. Talis autem 
+      <lb ed="#P" n="96"/>mensure puta duratiue rationem dicitur habere euum: 
+      <lb ed="#P" n="97"/>et eternitas et tempus queomnia dicunt quantum 
+      exten<lb ed="#P" n="98" break="no"/>siue vel quasi extensiue res manet in esse et habet suum 
+      <lb ed="#P" n="99"/>esse vnde et durationes quedam dicuntur. Duratio 
+      au<lb ed="#P" n="100" break="no"/>tem a duro dicitur. Durum autem est quod non facile 
+      ce<lb ed="#P" n="101" break="no"/>dit alteri sed resistit et manet. Unde et durans cesiste 
+      <lb ed="#P" n="102"/>re vel non cedere corrumpenti dicitur et manere. Ad 
+      <lb ed="#P" n="103"/>distinctionem vero eternitatis eui et tperis est.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e280">
+      ¶ 
+      Aduer<lb ed="#P" n="104" break="no"/>tendum quod triplex est genus entium. Quoddam enim 
+      <lb ed="#P" n="105"/>est ens simpliciter inuariabile actu et potentia et 
+      immu<lb ed="#P" n="106" break="no"/>tabile simpliciter et necesse esse non habens terminum 
+      <lb ed="#P" n="107"/>sui esse sed simpliciter infinitum et illimitatum in suo 
+      <lb ed="#P" n="108"/>esse et duratio talis entis dicitur eternitas 
+      simplici<lb ed="#P" n="109" break="no"/>ter. Et dicitur eternum quasi extra terminum esset 
+      <lb ed="#P" n="110"/>di. Nec enim potest incipere nec desinere esse / et tale 
+      <lb ed="#P" n="111"/>ens est deus. propter quod dicit Boetius secundo de 
+      <lb ed="#P" n="112"/>Consolatione quod / eternitas est interminabilis vite 
+      to<lb ed="#P" n="113" break="no"/>ta simul et perfecta possessio. Ex quo patet quod in 
+      eter<lb ed="#P" n="114" break="no"/>nitate non est pars / pars prior et posterior sed est 
+      dura<lb ed="#P" n="115" break="no"/>tio simplicissima et simul tota et perfecta non habens 
+      ter<lb ed="#P" n="116" break="no"/>minum actu vel potentia. Aliud vero est ens quod 
+      <lb ed="#P" n="117"/>sic est variabile quod intrinsece habet partem et 
+      parte<lb ed="#P" n="118" break="no"/>succedentes sibi inuicem quarum vna non est 
+      existen<lb ed="#P" n="119" break="no"/>te alia cuius est motus qui est de genere successiuorum 
+      <lb ed="#P" n="120"/>sicut dictum est in primo et mensura duratiua modo 
+      <lb ed="#P" n="121"/>dico duratio talis entis dicitur tempus quod est etiam. 
+      <lb ed="#P" n="122"/>mensura successiua et non est aliquid permanens sed 
+      <lb ed="#P" n="123"/>fluens. Et loquendo per se / dico quod tempus est men 
+      <lb ed="#P" n="124"/>sura motus qumocunque vel de quocumque motu debeat 
+      <lb ed="#P" n="125"/>intelligi. Est autem tempus sicut patet quarto 
+      phi<lb ed="#P" n="126" break="no"/>sicorum prius et posterius numerata in motu non sicut 
+      <!--54.xml-->
+      <pb ed="#P" n="24-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>partes in toto quia tempus et motus realiter 
+      distin<lb ed="#P" n="2" break="no"/>guuntur sicut patet quarto phisicorum quia prius et 
+      po<lb ed="#P" n="3" break="no"/>sterius temporis numerantur in motu sicut in 
+      subie<lb ed="#P" n="4" break="no"/>cto. Motus enim subiectum est ipsius temporis 
+      vn<lb ed="#P" n="5" break="no"/>de et tempus est passio motus saltem primi vt patet 
+      <lb ed="#P" n="6"/>quarto phisicorum. Et sunt istud prius et posterius 
+      <lb ed="#P" n="7"/>preteritum et futurum quae copulantur ad presens vel 
+      <lb ed="#P" n="8"/>instans siue ipsum nunc quod solum habemus de 
+      ten<lb ed="#P" n="9" break="no"/>pore in actu extra intellectum. Unde nec puto quod 
+      pas<lb ed="#P" n="10" break="no"/>tes temporis habeant aliquam vnitatem actualem 
+      <lb ed="#P" n="11"/>extra intellectum sed solum ab intellectu vel anima. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e363">
+               <lb ed="#P" n="12"/>¶ Sed tunc oportet videre qumo tempus sit aliquid 
+      <lb ed="#P" n="13"/>extra intellectum cum partes. eius non sint extra 
+      in<lb ed="#P" n="14" break="no"/>tellectum et tantum de tempore habeamus ipsum nunc 
+      <lb ed="#P" n="15"/>quod quidem non est tempus nec pars temporis est 
+      <lb ed="#P" n="16"/>difficilimum. Cum omne illud quod est aliquid 
+      ex<lb ed="#P" n="17" break="no"/>tra intellectum actu existat extra intellectum siue sit 
+      <lb ed="#P" n="18"/>permanens siue successiuum vt videtur. Pars autem 
+      <lb ed="#P" n="19"/>temporis aliqua nunquam est quia nunquam de tempore 
+      ha<lb ed="#P" n="20" break="no"/>betur nisi nunc quod non est tempus nec pars tem 
+      <lb ed="#P" n="21"/>poris. Et similis difficultas est de motu et qui 
+      bene<lb ed="#P" n="22" break="no"/>potest capere capiat tamen non capio bene. Tertium est 
+      <lb ed="#P" n="23"/>genus entis quod est in se simplex per priuationem 
+      <lb ed="#P" n="24"/>vel negationem partium sibi inuicem succedentium / 
+      <lb ed="#P" n="25"/>quia est totum simul variabile tamen in potentia ab 
+      <lb ed="#P" n="26"/>esse in non esse vel econuerso. Nec est necesse esse nec 
+      sim<lb ed="#P" n="27" break="no"/>pliciter extra terminos et talis entis duratio dicitur 
+      <lb ed="#P" n="28"/>euum. Talia entia sunt angeli et substantie create se 
+      <lb ed="#P" n="29"/>parate.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e405">
+      ¶ Ex quo patet quod euum differt a tempore 
+      <lb ed="#P" n="30"/>et eternitate. Nam ab eternitate differt per hoc quod non 
+      <lb ed="#P" n="31"/>est simpliciter interminabile sed saltem in potentia 
+      <lb ed="#P" n="32"/>est alicuius terminabilis vel terminabile.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e414">
+      ¶ 
+      Distin<lb ed="#P" n="33" break="no"/>guitur etiam a tempore quia non est alicuius habentis 
+      pas<lb ed="#P" n="34" break="no"/>tem et partem sibi succedentes sicut motus habet cuius men 
+      <lb ed="#P" n="35"/>sura est tempus / sed est duratio vel mensura alicuius simplicis 
+      <lb ed="#P" n="36"/>per negationem talium partium et existentis 
+      simu<lb ed="#P" n="37" break="no"/>totum cuiusmodi est angelus vt dictum est supra 
+      <lb ed="#P" n="38"/>Sic igitur patet quod euum est mensura vel duratio 
+      ali<lb ed="#P" n="39" break="no"/>cuius actu existentis totum simul et perfectum 
+      termi<lb ed="#P" n="40" break="no"/>nabilis tamen in esse et possibilis non esse quantum est ex parte 
+      <lb ed="#P" n="41"/>sua et qumo dicitur a tempore et eternitate. Et hoc 
+      de<lb ed="#P" n="42" break="no"/>primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e438">
+               <lb ed="#P" n="43"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="44" break="no"/>ticulum Est vna opinio quod euum est duratio quedam 
+      <lb ed="#P" n="45"/>successiua habens partem et partem: licet euiternum et 
+      <lb ed="#P" n="46"/>substantia cui conuenit sit tota simul sine innouatione 
+      <lb ed="#P" n="47"/>aliqua vel inueteratione siue secundum totum siue secundum 
+      pan<lb ed="#P" n="48" break="no"/>tes et in hoc differt a tempore cuius subiectum 
+      puta<lb ed="#P" n="49" break="no"/>motus secundum partes continue innouatur vel corrumpitur 
+      <lb ed="#P" n="50"/>et ab eternitate que nec habet partem et partem sed 
+      <lb ed="#P" n="51"/>est tota simul simplex et perfecta. Nec etiam illud 
+      cu<lb ed="#P" n="52" break="no"/>ius est vel cui conuenit puta deus innouatur vel 
+      vete<lb ed="#P" n="53" break="no"/>rascit.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e464">
+      ¶ Euum autem conuenit cum tempore per hoc 
+      <lb ed="#P" n="54"/>quod habet partem et partem succedentes inuicem et cum 
+      eter<lb ed="#P" n="55" break="no"/>nitate quia illud cui conuenit non habet partem et 
+      par<lb ed="#P" n="56" break="no"/>tem succedentes inuicem et cum eternitate quia illud 
+      <lb ed="#P" n="57"/>cui conuenit non habet partem et partem sed est 
+      sim<lb ed="#P" n="58" break="no"/>plex. Quod autem euum sit successiuum probatur 
+      multipli<lb ed="#P" n="59" break="no"/>citer.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e481">
+      ¶ Primo sic. Ponatur quod nunquam fuisset tem 
+      <lb ed="#P" n="60"/>pus deus potuit creare vnum angelum et ipsum 
+      ad<lb ed="#P" n="61" break="no"/>nihilare. Quero igitur vtrum esse angeli precedens 
+      <lb ed="#P" n="62"/>et suum non esse sequens sint simul duratione vel non sed 
+      <lb ed="#P" n="63"/>vnum prius et aliud posterius. Si simul ergo 
+      contra<lb ed="#P" n="64" break="no"/>dictoria stant simul et sunt vera simul de eodem. Si 
+      <!--54.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>vnum est prius et aliud posterius ergo in duratione 
+      <lb ed="#P" n="66"/>angeli est prius et posterius et per consequens euum est 
+      succes<lb ed="#P" n="67" break="no"/>siuum.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e505">
+      ¶ Eodem modo potest argui quia deus potuit 
+      <lb ed="#P" n="68"/>creare angelum non intelligentem aliquid postea 
+      ani<lb ed="#P" n="69" break="no"/>gelus potuit aliquid intelligere etiam si non esset 
+      ten<lb ed="#P" n="70" break="no"/>pus. Quero igitur vtrum simul duratione fuit 
+      an<lb ed="#P" n="71" break="no"/>gelus intelligens et non intelligens. Aut prius non 
+      <lb ed="#P" n="72"/>intelligens et postea intelligens. Non primo modo 
+      <lb ed="#P" n="73"/>quia tunc contradictoria simul starent igitur. secundomodo 
+      <lb ed="#P" n="74"/>igitur dato quod non esset tempus adhuc in duratione 
+      <lb ed="#P" n="75"/>angeli puta in euo est prius et posterius.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e525">
+      ¶ Tertio 
+      <lb ed="#P" n="76"/>sic Quandocumque aliquid est tantum in actu quantum est 
+      reli<lb ed="#P" n="77" break="no"/>quum in potentia si vnum est infinitum in potentia 
+      re<lb ed="#P" n="78" break="no"/>liquum est infinitum in actu. Patet si euum non sit 
+      <lb ed="#P" n="79"/>successiuum quantum est tempus in potentia tantum 
+      <lb ed="#P" n="80"/>est euum in actu quia est quedam duratio perpetua 
+      to<lb ed="#P" n="81" break="no"/>ta in actu tempus autem successiue est in potentia. 
+      <lb ed="#P" n="82"/>Cum igitur tempus sit infinitum in potentia videtu 
+      <lb ed="#P" n="83"/>quod euum sit infinitum in actu. Sed hoc est 
+      impossi<lb ed="#P" n="84" break="no"/>bile. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e547">
+      ¶ Quarto sic illud quod existens tot 
+      <lb ed="#P" n="85"/>tum in actu potest coexistere infinito tempori est actu 
+      <lb ed="#P" n="86"/>infinitum sicut illud quod potest coexistere loco in 
+      <lb ed="#P" n="87"/>finito est actu infinitum. Sed si euum non habet 
+      par<lb ed="#P" n="88" break="no"/>tem et partem ipsum actu totum existens potest 
+      coexi<lb ed="#P" n="89" break="no"/>stere infinito tempori succedenti vt patet. ergo. etc. 
+      <lb ed="#P" n="90"/>Ad hoc etiam est exemplum in eternitate vel de 
+      eter<lb ed="#P" n="91" break="no"/>nitate.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e565">
+      ¶ Quinto sic. Angelus potest creari et 
+      ad<lb ed="#P" n="92" break="no"/>nihilari et iterum reparari etiam si tempus non esset et 
+      <lb ed="#P" n="93"/>sic haberet esse interruptum et reparatum esse et non esse 
+      <lb ed="#P" n="94"/>Sed hoc est impossibile in quacumque mensura 
+      simpli<lb ed="#P" n="95" break="no"/>ci et indiuisibili finita et limitata. In nulla enim 
+      ta<lb ed="#P" n="96" break="no"/>li mensura possunt stare simul contradictoria sed 
+      so<lb ed="#P" n="97" break="no"/>lum in mensura actu infinita et illimitata que est 
+      eter<lb ed="#P" n="98" break="no"/>nitas. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e583">
+      ¶ Sexto sic. Uno angelo 
+      creato<lb ed="#P" n="99" break="no"/>deus potest alium creare non simul dato quod tempus 
+      <lb ed="#P" n="100"/>non sit vt patet quia non ex hoc necessitatur si creet vnum 
+      <lb ed="#P" n="101"/>angelum quod creat alium simul. Angeli ergo isti non 
+      <lb ed="#P" n="102"/>simul sunt nec durant sed vnus est prior duratione 
+      <lb ed="#P" n="103"/>quam alius. Sed hoc non est nisi euum habeat prius et 
+      <lb ed="#P" n="104"/>posterius. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e600">
+      ¶ Septimo sic. Si in euo non 
+      <lb ed="#P" n="105"/>est successio in angelo non differt esse fuisse et fore. ergo 
+      <lb ed="#P" n="106"/>sicut deus non potest facere angelum / puta gabrie 
+      <lb ed="#P" n="107"/>lem non fuisse. Ita non potest facere ipsum non fore. 
+      <lb ed="#P" n="108"/>Sed hoc est falsum. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e611">
+      ¶ Octauo sic. Si 
+      in<lb ed="#P" n="109" break="no"/>duratione angeli non est prius et posterius sequitur quod 
+      <lb ed="#P" n="110"/>omne futurum sit sibi presens vel quod sit presens 
+      cui<lb ed="#P" n="111" break="no"/>ibet futuro sicut deus per suam eternitatem suo 
+      mo<lb ed="#P" n="112" break="no"/>do quia nihil expectat de sua duratione secundum quod aliquam 
+      <lb ed="#P" n="113"/>do fiat praesens illi futuro. Sed hoc posito sequitur quod 
+      <lb ed="#P" n="114"/>potest naturaliter cognoscere futura contingentia. hoc 
+      <lb ed="#P" n="115"/>autem est in conueniens. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e629">
+      ¶ Nono sic. Si 
+      du<lb ed="#P" n="116" break="no"/>ratio angeli non habet partem / et partem prius et 
+      po<lb ed="#P" n="117" break="no"/>sterius sequitur quod eadem indiuisibilis continue 
+      con<lb ed="#P" n="118" break="no"/>seruatur et angelus per consequens. Sed quod 
+      continue<lb ed="#P" n="119" break="no"/>conseruatur continue efficitur et fit sicut dictum est 
+      su<lb ed="#P" n="120" break="no"/>pra: ergo euum et angelus sunt in continuo fieri quod est 
+      <lb ed="#P" n="121"/>falsum quia tunc nihil esset permanens.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e645">
+      ¶ Ad hoc 
+      <lb ed="#P" n="122"/>adducuntur auctoritates.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e650">
+      ¶ Prima est Anselmi 
+      pro<lb ed="#P" n="123" break="no"/>sol. 20. vbi dicit de euiternis loquens deo de sua 
+      aeter<lb ed="#P" n="124" break="no"/>nitate. Tua et illorum eternitas tota tibi presens est 
+      <lb ed="#P" n="125"/>cum illa nondum habeant de sua eternitate quod 
+      ven<lb ed="#P" n="126" break="no"/>turum est vel futurum sicut iam non habent quod 
+      <lb ed="#P" n="127"/>preteritum est.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e663">
+      ¶ Secunda est Augustini. xi. de. 
+      ci<lb ed="#P" n="128" break="no"/>uitate dei vbi dicit quod nunc temporis si non fueret 
+      <lb ed="#P" n="129"/>non esset tempus sed eternitas. ergo similiter de nunc 
+      <!--55.xml-->
+      <pb ed="#P" n="24-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>eui si non flueret non esset euum sed eternitas.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e680">
+      ¶ Ter 
+      <lb ed="#P" n="2"/>tia Ieronimi ad Marcellam Ubi dicit quod solus deus 
+      <lb ed="#P" n="3"/>non nouit futurum esse vel fuisse. ergo angelus nouit 
+      <lb ed="#P" n="4"/>ista et sua duratio est successiua vt videtur. quare. etc. 
+      <lb ed="#P" n="5"/>hec est positio. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e691">
+               <lb ed="#P" n="6"/>¶ Ista positio est multum proba 
+      <lb ed="#P" n="7"/>bilis tamen coniter non tenetur nec teneo ipsam. At 
+      <lb ed="#P" n="8"/>guitur contra eam. Primo sic. Mensura vel quasi de 
+      <lb ed="#P" n="9"/>bet esse vnigenea et conformis mensuratio 4o. 
+      me<lb ed="#P" n="10" break="no"/>taphisice. Sed esse angeli mensuratum non est 
+      succer<lb ed="#P" n="11" break="no"/>siuum habens partem et partem vel prius et posterius. 
+      <lb ed="#P" n="12"/>igitur nec euum quod est mensura eius.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e709">
+      ¶ Secundo 
+      <lb ed="#P" n="13"/>sic prius et posterius non inuenitur in tpore nisi propter 
+      <lb ed="#P" n="14"/>prius et posterius in motu cuius est passio vel mensura 
+      <lb ed="#P" n="15"/>secundum philosophum 4o phisi. ergo a simili prius et 
+      poste<lb ed="#P" n="16" break="no"/>rius non possunt inueniri in euo nisi ex priori et 
+      po<lb ed="#P" n="17" break="no"/>steriori ipsius euiterni. Sed in euiterno non est prius 
+      <lb ed="#P" n="18"/>et posterius. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e725">
+      ¶ Tertio sic. Si euum habet 
+      <lb ed="#P" n="19"/>partem et partem. Ita quod vna pars corrumpitur alia 
+      <lb ed="#P" n="20"/>adueniente quero quare et a quo corrumpitur. Non cor 
+      <lb ed="#P" n="21"/>ruptione immediati subiecti sicut partes temporis ad 
+      <lb ed="#P" n="22"/>corruptionem partium motus quia angeli no 
+      corrum<lb ed="#P" n="23" break="no"/>punt. Nec actione contrarii quia pars adueniens non 
+      <lb ed="#P" n="24"/>est contraria. Nec actione agentis vt videtur. ergo nul 
+      <lb ed="#P" n="25"/>lo modo igitur non est ponendum habere sic partem et 
+      <lb ed="#P" n="26"/>partem sed simplex et simul totum. Ista ratio non 
+      va<lb ed="#P" n="27" break="no"/>let multum vt videtur quia pari ratione posset sic 
+      ar<lb ed="#P" n="28" break="no"/>gui vnde corrumpitur pars motus primi mobilis 
+      <lb ed="#P" n="29"/>qui non habet contrarium adueniente alia et tunc dicere 
+      <lb ed="#P" n="30"/>tur quod idem est generans nouam partem et corrumpens 
+      <lb ed="#P" n="31"/>per accidens priorem partem propter naturam 
+      successi<lb ed="#P" n="32" break="no"/>ui cuius partes non possunt stare simul.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e758">
+      ¶ 
+      Quar<lb ed="#P" n="33" break="no"/>to sic. Sicut probabitur infra in articulo sequenti. 
+      <lb ed="#P" n="34"/>Euum non differt a substantia angeli. Sed 
+      substan<lb ed="#P" n="35" break="no"/>tia angeli non habet partem et partem. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e767">
+      ¶ Qui 
+      <lb ed="#P" n="36"/>to sic. Non est ponenda pluralitas partium sine 
+      ne<lb ed="#P" n="37" break="no"/>cessitate in aliquo. Sed nulla est necessitas 
+      ponendi<lb ed="#P" n="38" break="no"/>quod euum sit successiuum et habeat partes. Tum quia 
+      <lb ed="#P" n="39"/>omnia possunt saluari ponendo quod sit simplex sicut 
+      pa<lb ed="#P" n="40" break="no"/>tebit soluendo rationes. Tum quia sicut esse 
+      angeli<lb ed="#P" n="41" break="no"/>est magnum intensiue in perfectione et virtute 
+      stan<lb ed="#P" n="42" break="no"/>te sua simplicitate sic videtur quod magnum duratiue 
+      <lb ed="#P" n="43"/>potest coexistere toti tempere et durare stante sua 
+      simpli<lb ed="#P" n="44" break="no"/>citate et simplicitate durationis sue.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e790">
+      ¶ Sexto 
+      ar<lb ed="#P" n="45" break="no"/>guunt aliqui sic. Omnis mensura vel duratio 
+      succet<lb ed="#P" n="46" break="no"/>siua est vere de genere quantitatis vt videtur quia omnis 
+      <lb ed="#P" n="47"/>talis extentionem habet. Sed nulla quantitas vera 
+      rea<lb ed="#P" n="48" break="no"/>lis praet esse in substantia spirituali siucut in subiecto et ita 
+      <lb ed="#P" n="49"/>illi qui ponunt quod euum est duratio successiua habent 
+      <lb ed="#P" n="50"/>negare quod sit in angelo sicut in subiecto quod est 
+      com<lb ed="#P" n="51" break="no"/>tra eos.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e808">
+      ¶ Ista ratio parum valet secundum eos quia ipsi 
+      po<lb ed="#P" n="52" break="no"/>nunt quod motus vere est de genere quantitatis et quid 
+      sui<lb ed="#P" n="53" break="no"/>cessiuum et tamen ponunt quod motus est in angelo sicut in 
+      <lb ed="#P" n="54"/>subiecto. Et ratio est secundum eos quia de motu nihil est in 
+      <lb ed="#P" n="55"/>actu nisi indiuisibile motus quod est mutatum esse. Et ideo 
+      <lb ed="#P" n="56"/>angelus non est quantus. Sic etiam diceretur de euo. 
+      <lb ed="#P" n="57"/>Si autem dicatur vlterius quod philosophus non posuit 
+      <lb ed="#P" n="58"/>mensuram successiuam vel durationem nisi tempus 
+      <lb ed="#P" n="59"/>Responderent alii quod philosophus putauit omnia ergo 
+      <lb ed="#P" n="60"/>ponuntur modo euiterna esse eterna et non curauit de 
+      <lb ed="#P" n="61"/>euo sed tantum de eternitate et tempore. Ad hanc 
+      conclu<lb ed="#P" n="62" break="no"/>sionem adducuntur auctoritates.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e834">
+      ¶ Prima est 
+      Au<lb ed="#P" n="63" break="no"/>gustini. 83. q. q. 72. Ubi dicit quod tantum distat inter 
+      <lb ed="#P" n="64"/>euum et tempus quod euum est stabile / tempus autem muta¬ 
+      <!--55.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>bile.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e847">
+      ¶ Secunda est Dyonisii de diuinis nominibus 
+      <lb ed="#P" n="66"/>ca. x. Ubi dicit quod proprietas eui est totum secundum totum 
+      <lb ed="#P" n="67"/>metiri non ergo secundum partem et partem successiue. Et 
+      <lb ed="#P" n="68"/>ca. 5. Dicit quod euum dicitur quieta et tota simul vita¬ 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e856">
+               <lb ed="#P" n="69"/>¶ Tertia auctoritas est Gregorii. 4o. moralium 
+      <lb ed="#P" n="70"/>Ubi dicit quod gaudio beatorum nihil preteriit nihil 
+      <lb ed="#P" n="71"/>aduenit nihil est preteritum nihilque futurum. Eandem 
+      <lb ed="#P" n="72"/>sententiam dicit Augus. et de esse et de contemplatione 
+      <lb ed="#P" n="73"/>angelorum. 12. confessionum.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e869">
+      ¶ Quarta est plato 
+      <lb ed="#P" n="74"/>nis in Thymeo Ubi dicit quod eui mansio perpetua est 
+      <lb ed="#P" n="75"/>et quod fuisse et fore temporis geniture sunt propria et non 
+      <lb ed="#P" n="76"/>eui.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e879">
+      ¶ Et confirmatur per Auicennam. II. meta. ca 1. 
+      <lb ed="#P" n="77"/>hoc est quod nos vocamus tempus mensurationem 
+      sta<lb ed="#P" n="78" break="no"/>bilitatem non habentem secundum viam successionis. Et 
+      <lb ed="#P" n="79"/>secundo phisicorum ca. II. Dicit quod cui conuenit et accidit 
+      <lb ed="#P" n="80"/>ex seipso antem et post est tempus. Sed euum non est 
+      <lb ed="#P" n="81"/>tempus. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e892">
+      ¶ Uidetur ergo per praedicta de 
+      men<lb ed="#P" n="82" break="no"/>te philosophorum et sanctorum quod duratio seu 
+      mensu<lb ed="#P" n="83" break="no"/>ra duratiua non habet prius et posterius nisi tempus 
+      <lb ed="#P" n="84"/>et quod euum per consequens est duratio vel mensura 
+      sim<lb ed="#P" n="85" break="no"/>plex tota simul existens.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e903">
+      ¶ Dico igitur quod euum non 
+      <lb ed="#P" n="86"/>est mensura vel duratio successiua sed est simplex non 
+      <lb ed="#P" n="87"/>habens partes sibi succedentes et potest simul 
+      coexi<lb ed="#P" n="88" break="no"/>stere toti tempori succedenti stante sua simplicitate 
+      <lb ed="#P" n="89"/>nec est in ipso prius et posterius secundum se / sed per 
+      compara<lb ed="#P" n="90" break="no"/>tionem vel habitudinem ad partes tparis quibus 
+      co<lb ed="#P" n="91" break="no"/>existit vel coexistere potest.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e919">
+      ¶ Secundo dico quod potest 
+      <lb ed="#P" n="92"/>coexistere instanti tparis nostri vel ipsi tempori inditur 
+      <lb ed="#P" n="93"/>ferenter.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e926">
+      ¶ Tertio ex hoc concludo quod instans eui et 
+      <lb ed="#P" n="94"/>euum ipsum non distinguntur realiter sed idem est 
+      om<lb ed="#P" n="95" break="no"/>nino extra intellectum instans et euum. Non sic 
+      au<lb ed="#P" n="96" break="no"/>temde instanti temporis et de tempore. Instans ei 
+      <lb ed="#P" n="97"/>temporis si dicat aliquid reale positiuum realiter 
+      di<lb ed="#P" n="98" break="no"/>stinguitur a tempore. Si vero non dicat nisi 
+      nega<lb ed="#P" n="99" break="no"/>tionem sicut dicunt aliqui de puncto quod non dicit 
+      ni<lb ed="#P" n="100" break="no"/>si negationem diuisionis loquendo de puncto 
+      conti<lb ed="#P" n="101" break="no"/>nuatiuo vel negationem vlterioris extensionis 
+      loquen<lb ed="#P" n="102" break="no"/>do de puncto terminatiuo vel negationem anterio 
+      <lb ed="#P" n="103"/>ris extensionis loquendo de puncto initiatiuo.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e950">
+      ¶ Tunc 
+      <lb ed="#P" n="104"/>licet realiter non distinguatur a tempore quia non est 
+      <lb ed="#P" n="105"/>res sed negatio rei non tamen est idem realiter cum 
+      tempo<lb ed="#P" n="106" break="no"/>re sicut nec negatio cum affirmatione ideo. etc. Sed 
+      <lb ed="#P" n="107"/>id quod est euum dicitur instans eui prout coexistit 
+      <lb ed="#P" n="108"/>vel natum est coexistere instanti temporis nostri. Euum 
+      <lb ed="#P" n="109"/>vero prout coexistit vel natum est coexistere nostro 
+      ten<lb ed="#P" n="110" break="no"/>pori.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e969">
+      ¶ Ad primum aliorum dico quod esse et non esse 
+      an<lb ed="#P" n="111" break="no"/>geli creati et adnihilati non sunt simul duratione qua 
+      <lb ed="#P" n="112"/>est euum nec prius et posterius in diuersis partibus eui 
+      <lb ed="#P" n="113"/>Sed bene verum est quod non sunt simul quia vnum est euum 
+      <lb ed="#P" n="114"/>vel cum euo puta ipm esse. Aliud vero est 
+      negatio<lb ed="#P" n="115" break="no"/>eui et destructio. Puta ipsum non esse Ita quod simul 
+      de<lb ed="#P" n="116" break="no"/>struitur et esse et euum quia idem sunt.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e985">
+      ¶ Si autem 
+      di<lb ed="#P" n="117" break="no"/>cas vltra de eternitate quod saltem sunt simul 
+      eterni<lb ed="#P" n="118" break="no"/>tate quia eternitas est quando angelus creatur et est quando 
+      <lb ed="#P" n="119"/>adnihilatur et non est. Dico quod non est ad propositum. Sio 
+      <lb ed="#P" n="120"/>enim partes eui dato quod esset successiuum essent simel 
+      <lb ed="#P" n="121"/>et esse et non esse euiterni. Ita quod non est plus argume 
+      <lb ed="#P" n="122"/>tum contra me quam contra te.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1001">
+      ¶ Ad secundum per idem 
+      <lb ed="#P" n="123"/>potest dici de angelo prius non intelligente et postea 
+      <lb ed="#P" n="124"/>intelligente.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1008">
+      ¶ Ad tertium dico quod maior vera est de 
+      <lb ed="#P" n="125"/>iis que sunt eiusdem rationis. Unde linea vna quae esset 
+      <lb ed="#P" n="126"/>tanta in actu quanta alia in potentia esset actu 
+      infinita<lb ed="#P" n="127" break="no"/>si illa alia esset infinita in potentia sic non est de 
+      tem<lb ed="#P" n="128" break="no"/>pore et euo nec sunt eiusdem rationis. Ad minorem 
+      <lb ed="#P" n="129"/>Dico quod euum proprie loquendo non est tantum in actu 
+      <!--56.xml-->
+      <pb ed="#P" n="25-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quantum tempus est in potentia. sed pro tanto 
+      impro<lb ed="#P" n="2" break="no"/>prie dicitur tantum quia virtualiter ex se 
+      quantumcun<lb ed="#P" n="3" break="no"/>que sit finitum et ens alterius rationis potest 
+      coexiste<lb ed="#P" n="4" break="no"/>re tempori quod est infinitum in potentia. Ad 
+      con<lb ed="#P" n="5" break="no"/>clusionem vero diceretur quod non est inconueniens 
+      ali<lb ed="#P" n="6" break="no"/>quam durationem citra eternitatem esse actu 
+      infi<lb ed="#P" n="7" break="no"/>ni tam licet etiam possit non esse non tamen 
+      simplici<lb ed="#P" n="8" break="no"/>ter infinitam: sicut deus est infinitus et eternitas sua 
+      <lb ed="#P" n="9"/>que est idem penitus quod ipse extra intellectum 
+      quan<lb ed="#P" n="10" break="no"/>tum ad illud positiuum quod dicunt licet eternitas 
+      <lb ed="#P" n="11"/>addat vel dicat negationem termini in essendo et actu 
+      <lb ed="#P" n="12"/>et potentia supra id quod dicit deus vel forte 
+      respe<lb ed="#P" n="13" break="no"/>ctum rationis coexistendi ex se et a se cuilibet dura 
+      <lb ed="#P" n="14"/>tioni posite tanquam id a quo dependet illud quod 
+      sibi<lb ed="#P" n="15" break="no"/>coexistit impossibile esse sine ipsa.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1060">
+      ¶ Ad quartum 
+      <lb ed="#P" n="16"/>dicitur quod maior non est vera nisi illud sit totale quod 
+      ne<lb ed="#P" n="17" break="no"/>cessario coexistat toti tempori et ex seipso et sua 
+      illi<lb ed="#P" n="18" break="no"/>mitatione et infinitate hoc habeat sicut etiam de 
+      co<lb ed="#P" n="19" break="no"/>existente loco infinito vel etiam omni loco non 
+      opor<lb ed="#P" n="20" break="no"/>tet quod sit actu infinitum nisi sit tale quod ex sua 
+      immen<lb ed="#P" n="21" break="no"/>sitate necessario coexistat omni loco posito in esse 
+      <lb ed="#P" n="22"/>Unde et deus posset facere vnum corpus in omni 
+      lo<lb ed="#P" n="23" break="no"/>co et non esset propter hoc infinitum in actu sicut 
+      di<lb ed="#P" n="24" break="no"/>cetur in quarto. Modo dico quod euum licet potest 
+      co<lb ed="#P" n="25" break="no"/>existere omni tempore vel toti tempori non sic 
+      ta<lb ed="#P" n="26" break="no"/>men vt predictum est quemadmodum eternitas 
+      coexi<lb ed="#P" n="27" break="no"/>stere potest et preterea tempus non est aliquid 
+      per<lb ed="#P" n="28" break="no"/>manens simul totum sicut locus. Ideo non est 
+      sim<lb ed="#P" n="29" break="no"/>le de tempore et loco. Si enim argumentum esset 
+      bo<lb ed="#P" n="30" break="no"/>num. Sequeretur contra eos quod substantia angeli esse 
+      <lb ed="#P" n="31"/>actu infinita / quia ipsa saltem ipsa simul tota existens 
+      <lb ed="#P" n="32"/>potest coexistere omni parti temporis et eui dato quod 
+      <lb ed="#P" n="33"/>euum sit successiuum quod est falsum et contra eos. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1102">
+               <lb ed="#P" n="34"/>¶ Ad quintum dico quod si non esset tempus / angelus 
+      <lb ed="#P" n="35"/>posset creari et adnihilari et reparari. Sed dico quod 
+      <lb ed="#P" n="36"/>non simul simultate eui nec posterius et prius in 
+      diuer<lb ed="#P" n="37" break="no"/>sis partibus eui eiusdem euiterni. Dicendum est 
+      ip<lb ed="#P" n="38" break="no"/>sum esse et non esse sicut dictum est supra ad primum 
+      <lb ed="#P" n="39"/>argumentum. Ita quod simul simultate proprii eui non 
+      <lb ed="#P" n="40"/>est esse angeli et interruptio essendi quia esse 
+      angel<lb ed="#P" n="41" break="no"/>et euum quod est sua duratio idem sunt et non esse 
+      su<lb ed="#P" n="42" break="no"/>um et non durare idem et dico quod non sunt simul. Nec 
+      <lb ed="#P" n="43"/>tamen prius et posterius que sint partes eiusdem 
+      eui<lb ed="#P" n="44" break="no"/>sicut dictum est. Et oportet eos dicere quia si 
+      secun<lb ed="#P" n="45" break="no"/>dum eos euum est accidens et non est nisi in 
+      euiter<lb ed="#P" n="46" break="no"/>no sicut in subiecto destructo euiterno destruitur 
+      <lb ed="#P" n="47"/>euum et quelibet pars eius. Ita quod non est dare 
+      par<lb ed="#P" n="48" break="no"/>tem posteriorem eui in qua sit non esse euiterni¬ 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1138">
+               <lb ed="#P" n="49"/>¶ Ad Sextum dico quod vno angelo creato deus 
+      po<lb ed="#P" n="50" break="no"/>test alium non creare vel etiam creare. Ponamus 
+      <lb ed="#P" n="51"/>quod non creat vnum creando alium et tamen 
+      aliquan<lb ed="#P" n="52" break="no"/>do creet ipsum. Dico quod quelibet habet durationem 
+      <lb ed="#P" n="53"/>propriam et vna non est pars alterius nec ambe 
+      ali<lb ed="#P" n="54" break="no"/>cuius tertie sicut prius et posterius intelliguntur 
+      pan<lb ed="#P" n="55" break="no"/>tes eiusdem durationis. Sed verum est quod vna fuit 
+      <lb ed="#P" n="56"/>alia non existente et sic intelligitur prior vel prius 
+      <lb ed="#P" n="57"/>fuisse et alia posterior vel posterior sine omni 
+      succes<lb ed="#P" n="58" break="no"/>sione vel partibilitate alicuius durationis vt patet 
+      <lb ed="#P" n="59"/>Unde non plus per hoc arguitur successio vel 
+      pas<lb ed="#P" n="60" break="no"/>tibilitas in euo quam in esse alicuius angeli nisi forte per 
+      <lb ed="#P" n="61"/>comparationem ad tempus nostrum in quo talia 
+      inue<lb ed="#P" n="62" break="no"/>niuntur.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1171">
+      ¶ Ad septimum Dico quod idem est in re 
+      ip<lb ed="#P" n="63" break="no"/>si angelo esse fuisse et fore quantum ad illud 
+      positu<lb ed="#P" n="64" break="no"/>uum quod ista dicunt et important que est duratio 
+      ip<lb ed="#P" n="65" break="no"/>sa euiterni vel angeli. Et sicut absolute deus potuit 
+      <!--56.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>facere vel determinare angelum non fore vel esse 
+      <lb ed="#P" n="67"/>ita et non fuisse licet supposito quod fuerit non potest 
+      fa<lb ed="#P" n="68" break="no"/>cere ipsum non fuisse / quia nec est factibile nec vnquam 
+      <lb ed="#P" n="69"/>hoc potuit: sicut etiam supposito quod sit vel quod futurus sit 
+      <lb ed="#P" n="70"/>non posse facere ipsum non esse coniunctim vel non 
+      <lb ed="#P" n="71"/>fore. Unde non maiorem necessitatem concludit in 
+      <lb ed="#P" n="72"/>fuisse vel fore angeli absolute loquendo quam in esse 
+      pre<lb ed="#P" n="73" break="no"/>sentialiter et planum est quod non est ibi aliqua 
+      necet<lb ed="#P" n="74" break="no"/>sitas consequentis et simpliciter / sed consequentie 
+      tan<lb ed="#P" n="75" break="no"/>tum et ex suppositione supposito quod sit.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1206">
+      ¶ Ad 
+      octa<lb ed="#P" n="76" break="no"/>uum dico quod angelus nihil expectat de sua duratio 
+      <lb ed="#P" n="77"/>ne per quod fiat vel sit presens aliquando alicui 
+      sibi<lb ed="#P" n="78" break="no"/>futuro tamen dico quod futurum aliud a se non est 
+      sibi<lb ed="#P" n="79" break="no"/>presens. Ita quod defectus presentie qui est 
+      coexisten<lb ed="#P" n="80" break="no"/>tia ad rem futuram non est ex parte angeli vel sue 
+      <lb ed="#P" n="81"/>durationis sed ex parte ipsius rei future. Et ideo 
+      <lb ed="#P" n="82"/>non oportet quod naturaliter cognoscat futura 
+      conti<lb ed="#P" n="83" break="no"/>gentia. sicut arguitur quia illa non sunt sibi 
+      princi<lb ed="#P" n="84" break="no"/>pia quicquid sit de deo de quo est alia ratio quam deu 
+      ani<lb ed="#P" n="85" break="no"/>gelo apud omnes.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1230">
+      ¶ Ad nonum Dico quod angelus 
+      <lb ed="#P" n="86"/>et sua duratio indiuisibilis et simplex semper 
+      conser<lb ed="#P" n="87" break="no"/>uatur sicut dictum est supra. Quando dicis quod esset 
+      <lb ed="#P" n="88"/>in continuo fieri. Dico quod verum est pro tanto quia 
+      <lb ed="#P" n="89"/>continue accipit idem esse ab alio sicut radius a 
+      so<lb ed="#P" n="90" break="no"/>le. Sed non est in continuo fieri sicut motus vel 
+      ten<lb ed="#P" n="91" break="no"/>pus sicut tu ponis quando ponis ipsum habere 
+      pas<lb ed="#P" n="92" break="no"/>tes sibi continue succedentes.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1248">
+      ¶ Ad primam 
+      aucto<lb ed="#P" n="93" break="no"/>ritatem de Anselmo. Dico quod illa videtur fuisse 
+      in<lb ed="#P" n="94" break="no"/>tentio Aselmi. vel dic quod Anselmus vult dicere quod 
+      <lb ed="#P" n="95"/>angelus a se non habet quod futurum est de sua 
+      du<lb ed="#P" n="96" break="no"/>ratione sicut deus. Ita etiam nec idem quod est 
+      pre<lb ed="#P" n="97" break="no"/>sens est vel preteritum. Uel dic quod in angelo 
+      conce<lb ed="#P" n="98" break="no"/>ditur preteritum et futurum per comparationem ad 
+      ten<lb ed="#P" n="99" break="no"/>pus nostrum et secundum diuersos respectus 
+      ratio<lb ed="#P" n="100" break="no"/>nis qui sunt respectus coexistentiarum ad diuersas 
+      <lb ed="#P" n="101"/>partes temporis quando sunt in actu.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1270">
+      ¶ Ad 
+      Au<lb ed="#P" n="102" break="no"/>gustinum potest dici quod accipit ibi eternitatem pro 
+      <lb ed="#P" n="103"/>euo vel eternitate participata et tunc sequitur 
+      pro<lb ed="#P" n="104" break="no"/>positum quod euum non sit fluxibile vel fluxiuum. Alio 
+      <lb ed="#P" n="105"/>ter potest dici quod si instans temporis non flueret 
+      ali<lb ed="#P" n="106" break="no"/>quo modo esset eternitas et sic etiam de euo si nullo 
+      <lb ed="#P" n="107"/>modo flueret / nec in se nec per habitudinem ad tem 
+      <lb ed="#P" n="108"/>pus: sic quod cuilibet instanti temporis posset 
+      coexiste<lb ed="#P" n="109" break="no"/>re vel non coexistere sed necessario et immutabiliter 
+      <lb ed="#P" n="110"/>semper existeret tunc eternitas esset. Sed sic non est 
+      <lb ed="#P" n="111"/>de euo licet sit simplex vtdictum est.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1295">
+      ¶ Ad 
+      Hierons<lb ed="#P" n="112" break="no"/>mum per idem dici potest quod solus deus non nouit 
+      fu<lb ed="#P" n="113" break="no"/>turum sicut angelus sicut statim est predictum non 
+      <lb ed="#P" n="114"/>quia duratio angeli sit successiua / vel habens 
+      par<lb ed="#P" n="115" break="no"/>tes. Et similiter dicendum est ad consimiles 
+      aucto<lb ed="#P" n="116" break="no"/>ritates. Hec de secundo articulo 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1308">
+               <lb ed="#P" n="117"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="118" break="no"/>ticulum. Est vna opinio quod euum realiter et essentia 
+      <lb ed="#P" n="119"/>liter distinguitur a substantia et ab esse angeli cuius 
+      <lb ed="#P" n="120"/>est.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1319">
+      ¶ Ad hoc est prima ratio talis. Mensura 
+      rea<lb ed="#P" n="121" break="no"/>lis distinguitur realiter a mensurato. Patet quia nichil 
+      <lb ed="#P" n="122"/>mensurat seipsum realiter vt patet. Sed euum est 
+      <lb ed="#P" n="123"/>mensura angeli sicut duratio eius. ergo et cetera. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1328">
+               <lb ed="#P" n="124"/>¶ Secundo sic. Sicut se habet tempus ad motum 
+      <lb ed="#P" n="125"/>sic euum ad euiternum vel ad angelum. Sed 
+      tem<lb ed="#P" n="126" break="no"/>pus realiter differt a motu / sicut probatur quarto 
+      <lb ed="#P" n="127"/>phisicorum quia tempus non est velox nec tardum 
+      <lb ed="#P" n="128"/>sicut est motus. ergo et cetera. 
+      <!--57.xml-->
+      <pb ed="#P" n="25-v"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-b14755-d1e1348">
+               <lb ed="#P" n="1"/>¶ Hoc etiam patet quia tempus est passio motus. 
+      <lb ed="#P" n="2"/>ergo differt ab ipso..
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1355">
+      ¶ Tertio sic. Illud quod 
+      <lb ed="#P" n="3"/>est aliquid successiuum habens partem et partem 
+      rea<lb ed="#P" n="4" break="no"/>liter distinguitur ab eo quod non est successiuum nec 
+      <lb ed="#P" n="5"/>habens partem et partem sed est simplex. Sed euum 
+      <lb ed="#P" n="6"/>et esse angeli sunt huiusmodi. ergo. etc. Quarto sic 
+      <lb ed="#P" n="7"/>Quantitas permanens et successiua sunt eiusdem 
+      prae<lb ed="#P" n="8" break="no"/>dicamenti et accidentis. ergo sicut quantitas 
+      perma<lb ed="#P" n="9" break="no"/>nens differt realiter et essentialiter a suo subiecto 
+      <lb ed="#P" n="10"/>sic et quantitas successiua vel duratiua puta euum. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1376">
+               <lb ed="#P" n="11"/>¶ Quinto sic. Secundum illos qui ponunt quod euun 
+      <lb ed="#P" n="12"/>est simplex non habens partem et partem sicut se 
+      ha<lb ed="#P" n="13" break="no"/>bet instans temporis ad mobile vel subiectum / sic 
+      <lb ed="#P" n="14"/>euum ad esse angeli vt videtur. Sed instans 
+      tempo<lb ed="#P" n="15" break="no"/>ris realiter differt a substantia mobilis: quia 
+      mobi<lb ed="#P" n="16" break="no"/>le absolute loquendo potest esse sine tempore et per 
+      <lb ed="#P" n="17"/>consequens sine instanti temporis sicut etiam 
+      potes<lb ed="#P" n="18" break="no"/>esse sine motu. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1396">
+      ¶ Sexto sic. Illud quod est 
+      <lb ed="#P" n="19"/>sua duratio et idem realiter cum ipsa non potest non 
+      <lb ed="#P" n="20"/>durare vel non esse sicut idem non potest non esse ipsum 
+      <lb ed="#P" n="21"/>Sed angelus potest non durare et non esse ergo 
+      no<lb ed="#P" n="22" break="no"/>est idem quod sua duratio puta euum. Sic ergo dicunt 
+      <lb ed="#P" n="23"/>quod siue euum dicat aliquid permanens simplex siue 
+      <lb ed="#P" n="24"/>dicat aliquid successiuum quod realiter distinguitur 
+      <lb ed="#P" n="25"/>ab esse et actuali existentia angeli seu etiam 
+      euiter<lb ed="#P" n="26" break="no"/>ni.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1416">
+      ¶ Sed videtur mihi dicendum quod euiternum vel 
+      <lb ed="#P" n="27"/>angelus non distinguitur realiter vel essentialiter 
+      <lb ed="#P" n="28"/>quod accipitur pro eodem supposito ab euo quod 
+      <lb ed="#P" n="29"/>ponitur formaliter in ipso vel formaliter conuenit 
+      <lb ed="#P" n="30"/>sibi tanquam duratio eius.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1427">
+      ¶ Hoc probo primo sic. 
+      <lb ed="#P" n="31"/>Quandocumque aliqua distinguuntur essentialiter et 
+      <lb ed="#P" n="32"/>vnum est prius natura alio. Unum sine contradictione 
+      <lb ed="#P" n="33"/>potest poni et esse in effectu sine alio saltem prius a 
+      <lb ed="#P" n="34"/>posteriori quia hoc nullam implicat 
+      contradictio<lb ed="#P" n="35" break="no"/>nem. Si ergo euum differt a substantia angeli 
+      essen<lb ed="#P" n="36" break="no"/>tialiter cum ipsum sit posterius natura substantia angeli sed 
+      <lb ed="#P" n="37"/>tur quod angelus potest esse et manere sine euo et sua 
+      du<lb ed="#P" n="38" break="no"/>ratione / et sic durabit sine duratione quod est cotra 
+      <lb ed="#P" n="39"/>dictio.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1449">
+      ¶ Secundo sic Si euum est aliquid ab 
+      exi<lb ed="#P" n="40" break="no"/>stentia angeli vel euiterni cuius est duratio tunc illud 
+      <lb ed="#P" n="41"/>aliud habet durationem et durat vel durare potest 
+      <lb ed="#P" n="42"/>Aut ergo est idem cum sua duratione propria. aut 
+      <lb ed="#P" n="43"/>non / sed alia duratione durat. Si est idem pari 
+      ra<lb ed="#P" n="44" break="no"/>tione standum fuit in primo quod angelus et sua dura 
+      <lb ed="#P" n="45"/>tio que est euum sunt idem realiter. Si alia duratio 
+      <lb ed="#P" n="46"/>ne durat est processus in infinitum quod est 
+      incon<lb ed="#P" n="47" break="no"/>ueniens. igitur euum quod est duratio euiterni est 
+      <lb ed="#P" n="48"/>idem realiter cum ipso.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1471">
+      ¶ Tertio sic pluralitas non est 
+      <lb ed="#P" n="49"/>ponenda sine necessitate primo phisicorum. Sed nul 
+      <lb ed="#P" n="50"/>la necessitas est quod euum sit aliud ab euiterno et quod sint 
+      <lb ed="#P" n="51"/>plura vt patebit soluendo rationes. ergo. et cetera¬ 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1481">
+               <lb ed="#P" n="52"/>¶ Quarto sic Si euum realiter et essentialiter 
+      disti<lb ed="#P" n="53" break="no"/>guitur ab angelo vel euiterno cuiusmodi est 
+      dura<lb ed="#P" n="54" break="no"/>tio. Sequitur quod sit aliquod accidens eius Sed hoc 
+      <lb ed="#P" n="55"/>videtur impossibile quod per accidens durat ipsa 
+      sub<lb ed="#P" n="56" break="no"/>stantia. Magis enim videtur accidens durare per 
+      <lb ed="#P" n="57"/>substantiam quam econuerso. ergo. etc. Dico igitur quod 
+      <lb ed="#P" n="58"/>ista sunt realiter et essentialiter idem et penitus idem 
+      <lb ed="#P" n="59"/>extra intellectum. scilicet esse vel existentia angeli et 
+      <lb ed="#P" n="60"/>suum euum quod est duratio eius. eodem enim 
+      for<lb ed="#P" n="61" break="no"/>maliter res durat et existit. Tamen differunt secundum 
+      ra<lb ed="#P" n="62" break="no"/>tionem quia euum super esse addit vel dicit et dat in 
+      <lb ed="#P" n="63"/>telligere respectum rationis coexistentie ad tempus 
+      <lb ed="#P" n="64"/>cum possibilitate non coexistendi respectum Dico 
+      <lb ed="#P" n="65"/>aptitudinalem tantum saltem hoc autem non dicit nec dat intelli¬ 
+      <!--57.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>gere ipsum esse euiterni¬ 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1520">
+               <lb ed="#P" n="67"/>¶ Ad primum aliorum Dico 
+      <lb ed="#P" n="68"/>quod duratio rei intrinseca proprie loquendo non men 
+      <lb ed="#P" n="69"/>surat ipsam sed magis aliquid extrinsecum. Unde 
+      <lb ed="#P" n="70"/>et quantitas panni non mensurat pannum / sed 
+      ma<lb ed="#P" n="71" break="no"/>gis quantitas vlne que est aliquid extrinsecum a pa 
+      <lb ed="#P" n="72"/>no. Euum autem vt dicit durationem est 
+      intrinse<lb ed="#P" n="73" break="no"/>cum illi cuius est duratio / ideo non est proprie men 
+      <lb ed="#P" n="74"/>sura vt sic. Et dato quod aliquid intrinsecum 
+      formali<lb ed="#P" n="75" break="no"/>ter inherens alteri diceretur mensura eius intrinse 
+      <lb ed="#P" n="76"/>ca saltem sicut quantitas. Dicitur mensura 
+      substan<lb ed="#P" n="77" break="no"/>tie cui inheret secundum aliquos. Tamen dico quod euum 
+      <lb ed="#P" n="78"/>duratio euiterni non est mensura illius cui est 
+      intrin<lb ed="#P" n="79" break="no"/>seca nisi secundum rationem non autem secundum rem quia 
+      <lb ed="#P" n="80"/>sicut probatum est: est idem sibi. Quomodo 
+      autemmips<lb ed="#P" n="81" break="no"/>euo et conueniat cuius respectu ratio mensure magis inferius 
+      <lb ed="#P" n="82"/>apparebit.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1557">
+      ¶ Ad secundum dico quod maior non est 
+      <lb ed="#P" n="83"/>vera. Non enim sicut tempus realiter differt a 
+      mo<lb ed="#P" n="84" break="no"/>tu cui formaliter conuenit et inest. Sic euum quod 
+      <lb ed="#P" n="85"/>est duratio ab illo cuius est. Unde dico quod nec 
+      tem<lb ed="#P" n="86" break="no"/>pus est duratio motus / sed duratio motus est idem 
+      <lb ed="#P" n="87"/>cum motu. Si dicas quod illa maior conceditur a Dionysio 
+      <lb ed="#P" n="88"/>de diuinis nominbus ca. quarto. Dico quod intendit deu 
+      <lb ed="#P" n="89"/>euo quod proprie habet rationem mensure respectu 
+      <lb ed="#P" n="90"/>euiterni et vt sic et hoc non est aliquid intrinsecum eui 
+      <lb ed="#P" n="91"/>terno sed magis aliquid extrinsecum sicut etiam dici 
+      <lb ed="#P" n="92"/>tur ab aliquibus quod tempus non est mensura motus 
+      pri<lb ed="#P" n="93" break="no"/>mi mobilis sed magis est passio eius et mensura alio 
+      <lb ed="#P" n="94"/>rum motuum. Omnino tamen dicendum est quod non si 
+      <lb ed="#P" n="95"/>se habet euum euiterno intrinsecum ad ipsum euiter 
+      <lb ed="#P" n="96"/>num sicut tempus ad motum quia prima duo non 
+      di<lb ed="#P" n="97" break="no"/>stinguntur realiter. Sed motus et tempus realite 
+      <lb ed="#P" n="98"/>distinguntur secundum Augustinum. II. confessio. ca. 23. et 
+      <lb ed="#P" n="99"/>secundum Aristotelem quarto phisicorum et sunt res vt 
+      puto<lb ed="#P" n="100" break="no"/>diuersorum punctorum. sed non curo modo quorum. 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1599">
+               <lb ed="#P" n="101"/>¶ Ad 3m patet ex praecedenti articulo quod minor est falsa 
+      <lb ed="#P" n="102"/>Non enim euum est aliquid successiuum.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1606">
+      ¶ Ad quar 
+      <lb ed="#P" n="103"/>tum per idem dico quod nec euum nec tempus quod plus 
+      <lb ed="#P" n="104"/>est sunt quantitates vielte loquendo. Sed dico quod euum qri 
+      <lb ed="#P" n="105"/>substantia vel idipsum quod euiternum cuius est 
+      du<lb ed="#P" n="106" break="no"/>ratio.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1617">
+      ¶ Ad quintum nego maiorem. Non sic enim 
+      <lb ed="#P" n="107"/>euum ad euiternum sicut instans ad mobile nisi 
+      quan<lb ed="#P" n="108" break="no"/>tum ad hoc quod sicut instans est aliquid indiuisibile et 
+      <lb ed="#P" n="109"/>simplex ita euum sed non quantum ad hoc quod vel non sit 
+      <lb ed="#P" n="110"/>realiter idem cum euiterno vel quod realiter distinguatur 
+      <lb ed="#P" n="111"/>ab ipso sicut instans a mobili.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1631">
+      ¶ Ad sextum dico quod 
+      <lb ed="#P" n="112"/>illud quod est idem realiter vel essentialiter cum sua 
+      <lb ed="#P" n="113"/>duratione potest non durare licet non possit non esse 
+      <lb ed="#P" n="114"/>sua duratio sicut etiam illud quod est realiter et 
+      essen<lb ed="#P" n="115" break="no"/>tialiter idem cum suo esse potest non esse sicut etiam 
+      <lb ed="#P" n="116"/>licet homo necessario sit homo tamen potest non esse: 
+      <lb ed="#P" n="117"/>Sic dico in proposito suo modo quod etiam ipsa dura 
+      <lb ed="#P" n="118"/>tio creata potest non durare sicut et qualibet creatua 
+      <lb ed="#P" n="119"/>ra quia potest non esse. Nec est necesse esse. Hec de 
+      <lb ed="#P" n="120"/>Tertio articulo 
+      </p>
+            <p xml:id="qrdBas-b14755-d1e1653">
+               <lb ed="#P" n="121"/>¶ Ad primum principale 
+      Di<lb ed="#P" n="122" break="no"/>co quod non est dare infinitum in actu creatum licet sit 
+      da<lb ed="#P" n="123" break="no"/>re durationem que quantumcunque finita naturaliter prtet 
+      <lb ed="#P" n="124"/>coexistere tempori infinito in potentia cuiusmodi est 
+      <lb ed="#P" n="125"/>euum. et ideo dicatur infinita. Unde dico quod sola 
+      ete<lb ed="#P" n="126" break="no"/>nitas diuina est duratio actu infinita. Non tamenex 
+      hou<lb ed="#P" n="127" break="no"/>quod coexistere praet toti tpeori nisi forte quia ex se et a se hohabet 
+      <lb ed="#P" n="128"/>Sed quae ratione deus hoc habet quod est infinitus quia est idem quod deus. 
+      <!--58.xml-->
+      <pb ed="#P" n="26-r"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-b14755-d1e1679">
+               <lb ed="#P" n="1"/>¶ Ad secundum dico quod euum differt a tempore / 
+      <lb ed="#P" n="2"/>nec est tempus sicut dictum est supra. Quando 
+      di<lb ed="#P" n="3" break="no"/>cis de Augustino quod deus mouet creaturam 
+      spiri<lb ed="#P" n="4" break="no"/>tualem per tempus. Dico quod verum est quia licet ei de 
+      <lb ed="#P" n="5"/>beatur euum secundum substantiam et esse tamen ei de 
+      <lb ed="#P" n="6"/>betur vel conuenit tempus secundum motum suum et hoc 
+      <lb ed="#P" n="7"/>non est contra propositum.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1697">
+      ¶ Ad tertium dico quod 
+      con<lb ed="#P" n="8" break="no"/>cludit pro me. Esse enim diuinum est necesse esse et 
+      in<lb ed="#P" n="9" break="no"/>terminabile et impossibile aliter se habere et summen 
+      <lb ed="#P" n="10"/>simplex / et ideo sibi debetur eternitas. Esse motus 
+      <lb ed="#P" n="11"/>est esse partibile et variabile quod non est totum 
+      siml<lb ed="#P" n="12" break="no"/>et ideo sibi correspondet tempus. Sed esse angeli 
+      sim<lb ed="#P" n="13" break="no"/>plex est terminabile tamen et possibile non esse et ita 
+      de<lb ed="#P" n="14" break="no"/>bet sibi correspondere non euum vt duratio vel men 
+      <lb ed="#P" n="15"/>sura simplex tamen possibilis non esse.
+    </p>
+            <p xml:id="qrdBas-b14755-d1e1717">
+      ¶ Ad 
+      quar<lb ed="#P" n="16" break="no"/>tum dico quod nunc eui et euum non differunt realiter 
+      <lb ed="#P" n="17"/>sed tantum secundum rationem sicut dictum est 
+      su<lb ed="#P" n="18" break="no"/>pra. Nec est simile de nunc temporis et tempore / quia 
+      <lb ed="#P" n="19"/>euum est duratio perfectior et superior et potest in 
+      ip<lb ed="#P" n="20" break="no"/>sa vniri nunc durationis et duratio sic quod idem sit in 
+      <lb ed="#P" n="21"/>diuisibile tamen potens coexistere tempori. Non sic 
+      <lb ed="#P" n="22"/>autem oportet de nunc temporis et tempore. Nunc 
+      <lb ed="#P" n="23"/>enim temporis permanere non potest nec esse idem cum 
+      <lb ed="#P" n="24"/>tpare. Ita quod in vna duratione inferiori ista sunt 
+      dis<lb ed="#P" n="25" break="no"/>persa que in superiori sunt vnita. licet ergo nunc eui 
+      <lb ed="#P" n="26"/>non sit minus indiuisibile formaliter quam nunc 
+      tempo<lb ed="#P" n="27" break="no"/>ris tamen permanens est et non illud et potest 
+      coexiste<lb ed="#P" n="28" break="no"/>re tam nunc temporis quam ipsi tempori non sic illud. 
+      <lb ed="#P" n="29"/>Et hec de questione prima secunde distinctionis 
+      <lb ed="#P" n="30"/>huius secundi 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

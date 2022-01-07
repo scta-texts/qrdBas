@@ -1,0 +1,534 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="118-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b78188"><!--l2d20q1 -->
+            <head xml:id="qrdBas-b78188-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b78188-d1e101">
+               <lb ed="#P" n="28"/>¶ Distinctionis Uigesime. 
+      <lb ed="#P" n="29"/>¶ Questio Unica.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e108">
+               <lb ed="#P" n="30"/>CIrca istam 
+      distin<lb ed="#P" n="31" break="no"/>tionem quero vnam questionem. 
+      <lb ed="#P" n="32"/>Utrum scilicet prueri nati in statu 
+      in<lb ed="#P" n="33" break="no"/>nocentie statim fuissent 
+      perfe<lb ed="#P" n="34" break="no"/>cti quantum ad corpus et quantum ad 
+      <lb ed="#P" n="35"/>animam.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e124">
+      ¶ Uidetur quod sic quantum 
+      <lb ed="#P" n="36"/>ad corpus quia agens perfectum 
+      <lb ed="#P" n="37"/>nisi sit impedimentum ex parte 
+      <lb ed="#P" n="38"/>passi inducit: suam perfectam similitudinem in passum. 
+      <lb ed="#P" n="39"/>Sed in statu innocentie nec ex parte agentis nec 
+      ex<lb ed="#P" n="40" break="no"/>parte patientis fuisset aliquod impedimentum in 
+      actio<lb ed="#P" n="41" break="no"/>ne generantis: ergo generasset sibi perfecte simile quantum 
+      <lb ed="#P" n="42"/>ad corpus.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e142">
+      ¶ Secundo sic. Homo est nobilius 
+      ani<lb ed="#P" n="43" break="no"/>mal et perfectius omnibus aliis. Sed quedam sunt 
+      <lb ed="#P" n="44"/>animalia que statim nata matres sequuntur et 
+      cur<lb ed="#P" n="45" break="no"/>runt post matres secundum Augustinum contra donastitas 
+      <lb ed="#P" n="46"/>de baptismo paruulorum: ergo similiter fuisset de 
+      ho<lb ed="#P" n="47" break="no"/>mine in statu sue perfectionis qui erat status 
+      inno<lb ed="#P" n="48" break="no"/>centie.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e159">
+      ¶ Et confirmatur secundum Augustinum ibidem 
+      <lb ed="#P" n="49"/>quialproprie infirmitati mentis congruit hec 
+      infirmi<lb ed="#P" n="50" break="no"/>tas carnis Sed ibi non fuisset infirmitas mentis 
+      <lb ed="#P" n="51"/>ergo nec infirmitas carnis vel imperfectio corporis 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e168">
+               <lb ed="#P" n="52"/>¶ Tertio arguitur quantum ad animam Et 
+      primo<lb ed="#P" n="53" break="no"/>quod quantum ad intellectum fuissent perfecti quia intellect 
+      <lb ed="#P" n="54"/>non impeditur a sua cognitione per corpus nisi 
+      pro<lb ed="#P" n="55" break="no"/>pter aliquam indispositionem et infirmitatem in 
+      cor<lb ed="#P" n="56" break="no"/>pore ipso sap. 9. corpus quod corrumpitur 
+      aggra<lb ed="#P" n="57" break="no"/>uat animam Sed in statu innocentie non fuisset talis 
+      <lb ed="#P" n="58"/>indispositio vel infirmitas in corpore ergo etc 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e186">
+               <lb ed="#P" n="59"/>¶ Quarto sic quod est perfectionis in aliquibus 
+      <lb ed="#P" n="60"/>animalibus minus perfectis homine non est 
+      negan<lb ed="#P" n="61" break="no"/>dum ab homine pro statu perfecto sue institutionis. 
+      <lb ed="#P" n="62"/>Sed sunt aliqua animalia que statim nata habent 
+      <lb ed="#P" n="63"/>cognitionem perfectam profuturorum sibi et 
+      nociuo<lb ed="#P" n="64" break="no"/>rum sicut agnus statim natus fugit lupum et sequitur 
+      <!--243.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>matrem quod non est sine cognitione: ergo similiter 
+      fuis<lb ed="#P" n="66" break="no"/>set in pueris illis status innocentie: ergo etc. 
+      <lb ed="#P" n="67"/>primo quod non fuissent omnes perfe¬ 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e212">
+               <lb ed="#P" n="68"/>¶ Contre cti statim secundum corpus quia in statu 
+      <lb ed="#P" n="69"/>illo fuisset generatio mulierum. Sed mulier est 
+      vir<lb ed="#P" n="70" break="no"/>occasionatus et imperfectus de generatione anima 
+      <lb ed="#P" n="71"/>lium: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e223">
+      ¶ Et confirmatur quia oportuisset eos 
+      <lb ed="#P" n="72"/>masci valde paruos propter vteros matrum quae non erant 
+      <lb ed="#P" n="73"/>vel fuissent ita magni: sed subito non accepissent 
+      quan<lb ed="#P" n="74" break="no"/>titatem perfecti hominis potentis generare. 
+      Gene<lb ed="#P" n="75" break="no"/>ratiua enim in duobus primis septenniis non potest 
+      ha<lb ed="#P" n="76" break="no"/>bere opus suum: quia semen ante maturari non potest 
+      <lb ed="#P" n="77"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e239">
+      ¶ Secundo quod non quantum ad animam: quia. 2. 
+      <lb ed="#P" n="78"/>ethicorum dicitur quod intellectualis virtus indiget ex 
+      <lb ed="#P" n="79"/>perimento et tempore et. 7. phisicorum. In quiescendo 
+      <lb ed="#P" n="80"/>sit anima prudens. Sed nec experimentum nec 
+      quie<lb ed="#P" n="81" break="no"/>tatio humorum in corpore potuerunt esse in pueris 
+      <lb ed="#P" n="82"/>statim natis.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e253">
+      ¶ Et confirmatur quia non statim 
+      fuis<lb ed="#P" n="83" break="no"/>sent confirmati in iusticia originali sicut nec Adam 
+      <lb ed="#P" n="84"/>quare etc. 
+      <lb ed="#P" n="85"/>I 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e262">
+               <lb ed="#P" n="86"/>¶ In ista questioue sic 
+      proce<lb ed="#P" n="87" break="no"/>dam.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e269">
+      ¶ Primo inquiram an prueri nati in statu in 
+      <lb ed="#P" n="88"/>nocentie statim fuissent perfecti secundum corpus.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e274">
+      ¶ 
+      Se<lb ed="#P" n="89" break="no"/>cundo an secundum animam.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e279">
+      ¶ Tertio an in illo statu 
+      fuis<lb ed="#P" n="90" break="no"/>set generatio mulierum et reproborum. An solum 
+      ele<lb ed="#P" n="91" break="no"/>cti qui sunt et fuerunt et erunt fuissent generati. 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e286">
+               <lb ed="#P" n="92"/>¶ Quantum ad primum dico 
+      <lb ed="#P" n="93"/>quod non fuissent perfecti statim secundum debitam corporis 
+      <lb ed="#P" n="94"/>quantitatem: licet deus sic potuisset fecisse vel etiam 
+      or<lb ed="#P" n="95" break="no"/>dinasse et hoc est rationabile dicere: quia processus 
+      <lb ed="#P" n="96"/>nature est de imperfecto ad perfectum: igitur natura 
+      <lb ed="#P" n="97"/>liter processissent de imperfecta quantitate ad perfectam 
+      <lb ed="#P" n="98"/>et non statim habuissent perfectam quantitatem.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e305">
+      ¶ 
+      Secun<lb ed="#P" n="99" break="no"/>do quia vita hominis secundum totum cursum suum in qua 
+      <lb ed="#P" n="100"/>dam circulatione consistit et incipit a defectu et 
+      me<lb ed="#P" n="101" break="no"/>diatur imperfecto et tandem tendit ad defectum. 
+      Mo<lb ed="#P" n="102" break="no"/>do licet defectus vel mors non fuisset ibi ex 
+      ordina<lb ed="#P" n="103" break="no"/>tione diuina propter peccati carentiam: tamen non 
+      <lb ed="#P" n="104"/>videtur rationabile negare primum defectum 
+      pueri<lb ed="#P" n="105" break="no"/>cie tendentis ad perfectionem virilem.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e323">
+      ¶ Hec est etiam 
+      <lb ed="#P" n="106"/>intentio Magistri in presenti distinctione: licet 
+      Au<lb ed="#P" n="107" break="no"/>gustinus hoc non determinet nec oppositum de baptit 
+      <lb ed="#P" n="108"/>mo paruulorum sicut ipsemet allegat et sicut dictum 
+      <lb ed="#P" n="109"/>est de quantitate corporis. Ita dicendum est de virtuti 
+      <lb ed="#P" n="110"/>bus vel potentiis organicis que ad suos actus 
+      exi<lb ed="#P" n="111" break="no"/>gunt perfectionem quantitatis ipsius quod actiones vel 
+      ope<lb ed="#P" n="112" break="no"/>rationes illarum non statim nati habuissent. Unde 
+      <lb ed="#P" n="113"/>non statim potuissent comedisse vel masticasse 
+      ali<lb ed="#P" n="114" break="no"/>qua dura nec statim potuissent ambulasse vel saltas 
+      <lb ed="#P" n="115"/>se nec statim generassent vel potuissent generasse et 
+      <lb ed="#P" n="116"/>sic de consimilibus est dicendum.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e349">
+      ¶ Ad predictam etiam 
+      <lb ed="#P" n="117"/>conclusionem bona est ratio adducta ad oppositum 
+      <lb ed="#P" n="118"/>uestionis vt patet intuenti. Hec de primo 
+      articu<lb ed="#P" n="119" break="no"/>lo. Dicit tamen vnus quod Augustinus in. 4. lib. contra 
+      Iu<lb ed="#P" n="120" break="no"/>lianum dicit oppositum nec potest glosari illam 
+      aucto<lb ed="#P" n="121" break="no"/>ritatem non vidi si est ita et assertiue dicat Augusti 
+      <lb ed="#P" n="122"/>nus teneatur dictum suum. 
+      <lb ed="#P" n="123"/>Quantum ad secundum 
+      articu<lb ed="#P" n="124" break="no"/>lum de perfectione anime vel mentis primo quantum ad 
+      <lb ed="#P" n="125"/>intellectum. Secundo quantum ad voluntatem.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e371">
+      ¶ 
+      Quan<lb ed="#P" n="126" break="no"/>tum ad intellectum et cognitionem naturalem si statim  
+      <lb ed="#P" n="127"/>potuissent intellexisse nati sicut perfecti et adulti non 
+      <!--244.xml-->
+      <pb ed="#P" n="119-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>possumus intelligere. Uidetur quod non quia si non hoc 
+      <lb ed="#P" n="2"/>non videretur impediri nisi propter indispositionem 
+      ce<lb ed="#P" n="3" break="no"/>rebri et fantasie et vsum sensuum imperfectum ex 
+      qui<lb ed="#P" n="4" break="no"/>bus dependet intellectio. Sed istud non impedit quia 
+      <lb ed="#P" n="5"/>quod intellectus dependeat in inteligendo ex istis non 
+      <lb ed="#P" n="6"/>est nisi pena sicut videtur dicere. August. 19. de 
+      tri<lb ed="#P" n="7" break="no"/>nitate vltimo vbi dicit sic que inquit causa cur 
+      ip<lb ed="#P" n="8" break="no"/>sam lucem acie fixa videre non possis nisi vtique 
+      infirmi<lb ed="#P" n="9" break="no"/>tas et quis eam tibi fecit nisi iniquitas et si ista sit 
+      tota<lb ed="#P" n="10" break="no"/>causa tunc cum pena peccati non fuisset in statu 
+      innocen<lb ed="#P" n="11" break="no"/>tie. Uidetur quod intellectus puerorum impeditus non 
+      <lb ed="#P" n="12"/>fuisset ab intelligendo ex impedimento sensuum 
+      vel<lb ed="#P" n="13" break="no"/>corporis siue fantasmatum ex quibus in intelligende 
+      <lb ed="#P" n="14"/>non dependebat.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e415">
+      ¶ Si autem ista non sit tota 
+      causa<lb ed="#P" n="15" break="no"/>sed sit aliqua causa alia communis isti statim 
+      presen<lb ed="#P" n="16" break="no"/>ti et illi puta ordo potentiarum secundum aliquos quod 
+      <lb ed="#P" n="17"/>tamen non video bene: quia idem ordo potentiarum 
+      <lb ed="#P" n="18"/>erit in resurrectione sicut modo: et tamen intellectus 
+      <lb ed="#P" n="19"/>non dependebit ex fantasia nec ex sensibus in 
+      intelli<lb ed="#P" n="20" break="no"/>gendo nec oportebit recurrere ad fantasmata. Tunc 
+      <lb ed="#P" n="21"/>oporteret dicere quod proueri non statim fuerunt perfecti 
+      <lb ed="#P" n="22"/>secundum mentem sic quod immediate possent intelligere sicut 
+      <lb ed="#P" n="23"/>adulti. Infirmitas enim mentis comitabatur 
+      infir<lb ed="#P" n="24" break="no"/>mitatem corporis. Et hoc videtur tenere Magister. 
+      <lb ed="#P" n="25"/>literfox dicendum est de voluntate sud 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e441">
+               <lb ed="#P" n="26"/>¶ Sim. et et modo quod vel statim 
+      potuis<lb ed="#P" n="27" break="no"/>sent velle sicut intelligere vel secundum alios non statim 
+      <lb ed="#P" n="28"/>Posito autem quod statim potuissent intelligere et 
+      vel<lb ed="#P" n="29" break="no"/>le tanquam adulti non propter hoc fuissent perfecti 
+      has<lb ed="#P" n="30" break="no"/>bitibus et scientiis et virtutibus quas potuissent 
+      na<lb ed="#P" n="31" break="no"/>turaliter adquisiuisse sicut nec adulti modo statim vt 
+      <lb ed="#P" n="32"/>possunt intelligere nisi forte deus infundisset eis 
+      in<lb ed="#P" n="33" break="no"/>los habitus sicut et fecit Ade in sua creatione et cum 
+      <lb ed="#P" n="34"/>hoc forte ipsi Ade infudit aliquam speciem per quam 
+      <lb ed="#P" n="35"/>intelligebat deum abstractiue noticia clara de qua 
+      <lb ed="#P" n="36"/>dictum est in principio primi saltem postquam vidit deun 
+      <lb ed="#P" n="37"/>clare in illo sopore sibi immisso a deo sicut tenetur a 
+      <lb ed="#P" n="38"/>multis.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e473">
+      ¶ Unde et Magister dicit quod medio modo 
+      <lb ed="#P" n="39"/>deum cognoscebat inter fidem et visionem clarius quam 
+      pr<lb ed="#P" n="40" break="no"/>fidem et ex effectibus tamen minus clare quam per gloriam 
+      <lb ed="#P" n="41"/>vel visionem per quod intelligo noticiam illam 
+      abstra<lb ed="#P" n="42" break="no"/>ctiuam. Sic patet de mente eorum quomodo fuit 
+      per<lb ed="#P" n="43" break="no"/>fecta quantum ad intellectum et partim de voluntate 
+      <lb ed="#P" n="44"/>Sed de originali iusticia que erat habitus quidam 
+      <lb ed="#P" n="45"/>pertinens ad voluntatem secundum aliquos de quo 
+      videbi<lb ed="#P" n="46" break="no"/>tur infra.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e493">
+      ¶ Dico quod statim habuissent originalem 
+      <lb ed="#P" n="47"/>iusticiam sibi a deo infusam ante suam natiuitatem 
+      <lb ed="#P" n="48"/>statim cum infusione anime rationalis non merito 
+      pa<lb ed="#P" n="49" break="no"/>rentum nec per transfusionem ipsorum: quia ipsam 
+      trans<lb ed="#P" n="50" break="no"/>fundere non poterant: sed ex vera liberalitate diuina 
+      <lb ed="#P" n="51"/>cum sit donum supernaturale.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e506">
+      ¶ Et dico quod statim 
+      na<lb ed="#P" n="52" break="no"/>ti non fuissent in illa iusticia confirmati aliquo mode 
+      <lb ed="#P" n="53"/>sicut nec Adam statim fuit confirmatus in ea: sed post 
+      <lb ed="#P" n="54"/>quam primam temptationem vicissent fuissent in ea 
+      ce<lb ed="#P" n="55" break="no"/>firmati sicut Adam fuisset si in prima temptatione 
+      <lb ed="#P" n="56"/>stetisset et fuissent non sic: quin absolute loquendo 
+      po<lb ed="#P" n="57" break="no"/>tuissent peccare: sed quia nunquam deinceps peccassent 
+      <lb ed="#P" n="58"/>vel essent peccaturi. Et hoc modo potest aliquis 
+      me<lb ed="#P" n="59" break="no"/>rus viator esse confirmatus sicut tenetur de virgine 
+      <lb ed="#P" n="60"/>gloriosa nisi plus detur sibi sic beatis. Hec de 
+      secun<lb ed="#P" n="61" break="no"/>do articulo 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e530">
+               <lb ed="#P" n="62"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="63" break="no"/>culum. Dico primo de generatione mulierum quod 
+      du<lb ed="#P" n="64" break="no"/>rante statu innocentie fuisset in ipso generatio mu¬ 
+      <!--244.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>lierum.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e546">
+      ¶ Hoc patet primo: quia sicut fuit 
+      institutio<lb ed="#P" n="66" break="no"/>nature in primis parentibus in viro et muliere ita 
+      <lb ed="#P" n="67"/>fuisset multiplicatio eiusdem nature in vtroque sexu¬ 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e553">
+               <lb ed="#P" n="68"/>¶ Secundo quia sicut dictum est supra in illo statu 
+      <lb ed="#P" n="69"/>fuisset generatio hominum et multiplicatio: sed non 
+      ni<lb ed="#P" n="70" break="no"/>si per mulieres et de multeribus genitis. Nam 
+      nul<lb ed="#P" n="71" break="no"/>lus potuisset habere mulierem attinentem sibi secundum lineam 
+      <lb ed="#P" n="72"/>ascendentem vel descendentem. hoc enim est contra 
+      na<lb ed="#P" n="73" break="no"/>turle dictamen rationis. vnde et si Adam viuerat hocie 
+      <lb ed="#P" n="74"/>non posset nubere alicui mulieri nec econtrario alieo 
+      <lb ed="#P" n="75"/>mulier posset nubere sibi. tamen quelibet persona esset 
+      <lb ed="#P" n="76"/>alicui alteri obligata et fuisset durante statu 
+      inno<lb ed="#P" n="77" break="no"/>centie per illud preceptum. Crescite et 
+      multiplica<lb ed="#P" n="78" break="no"/>mini. et non vnus homo pluribus vxoribus quia 
+      biga<lb ed="#P" n="79" break="no"/>mia. etiam est contra legem nature sicut dicunt aliqui: 
+      <lb ed="#P" n="80"/>ergo fuisset in illo statu generatio mulierum et tot 
+      mu<lb ed="#P" n="81" break="no"/>lierum quot hominum vt videtur: ita quod quilibet 
+      ha<lb ed="#P" n="82" break="no"/>buisset suam.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e589">
+      ¶ Tertio quia si homo non peccasset et 
+      sta<lb ed="#P" n="83" break="no"/>tus innocentie permansisset. adhuc puto sicut dixi in 
+      <lb ed="#P" n="84"/>primo quod christus fuisset incarnatus. Totus enim ordo 
+      <lb ed="#P" n="85"/>electorum in quibus christus est primus preuisus fuit 
+      <lb ed="#P" n="86"/>et preordinatus antequam preuideretur aliquod pectantum 
+      <lb ed="#P" n="87"/>Sed planum est quod christus fuisset natus et incarnatus de 
+      <lb ed="#P" n="88"/>Maria virgine: ergo illa fuisset genita. igitur 
+      fuis<lb ed="#P" n="89" break="no"/>set generatio aliquarum mulierum. 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e607">
+               <lb ed="#P" n="90"/>¶ Dicitur tamen ab aliquibus 
+      <lb ed="#P" n="91"/>quod tunc mulieres fuissent genite ex intentione et 
+      ima<lb ed="#P" n="92" break="no"/>ginatione vel saltem secundum intentionem et voluntatem 
+      ge<lb ed="#P" n="93" break="no"/>nerantium et non casualiter vel occasionaliter sicut 
+      <lb ed="#P" n="94"/>modo et preter intentionem generantis. Nam secundum 
+      sta<lb ed="#P" n="95" break="no"/>tum modernum mulier est vir occasionatus et 
+      genera<lb ed="#P" n="96" break="no"/>tur interueniente aliquo impedimento generationis 
+      <lb ed="#P" n="97"/>viri. Et forte etiam sicut dicit vnus quilibet simul 
+      ge<lb ed="#P" n="98" break="no"/>nuisset virum et mulierem et ita fuisset generatio 
+      per<lb ed="#P" n="99" break="no"/>fecta viri et mulieris sicut etiam ex viro et muliere. 
+      <lb ed="#P" n="100"/>qi 
+      <lb ed="#P" n="101"/>Secundo dicitur de 
+      genera<lb ed="#P" n="102" break="no"/>tione electorum quod statu innocentie durante electi qui 
+      <lb ed="#P" n="103"/>sunt fuerunt et futuri sunt et soli fuissent geniti et non 
+      <lb ed="#P" n="104"/>reprobi aliqui. Quod non reprobi aliqui. Patet quia 
+      <lb ed="#P" n="105"/>tunc status innocentie saltem in eis non stetisset nec 
+      <lb ed="#P" n="106"/>durasset: et ita soli electi fuissent generati. hec videtur 
+      <lb ed="#P" n="107"/>fuisse intentio Gregorii. 8. moralinm in fine vbi 
+      di<lb ed="#P" n="108" break="no"/>cit. Si parentem peccati rubigo corrumperet nequaquam 
+      <lb ed="#P" n="109"/>ex se filios gehenne generaret et videtur expressa 
+      au<lb ed="#P" n="110" break="no"/>ctoritas ad istud propositum. 
+      <lb ed="#P" n="111"/>Sed contra hoc videntur 
+      es<lb ed="#P" n="112" break="no"/>se aliqua que tamen non concludunt.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e659">
+      ¶ Primo quia non 
+      <lb ed="#P" n="113"/>est identitas numeralis effectus nisi stante identitate 
+      <lb ed="#P" n="114"/>agentis et materie. 8. meta. Sed non fuisset identitas 
+      <lb ed="#P" n="115"/>agentis vel generantis electos si soli electi fuissent 
+      <lb ed="#P" n="116"/>generati nec identitas materie. Nam multi electi 
+      ge<lb ed="#P" n="117" break="no"/>niti sunt a reprobis parentibus patre et matre qui tunc 
+      <lb ed="#P" n="118"/>non fuissent geniti: ergo nec idem electi qui modo sunt 
+      <lb ed="#P" n="119"/>geniti fuissent.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e677">
+      ¶ Secundo quia sicut deus preordi 
+      <lb ed="#P" n="120"/>nauit quod isti essent praedestinati et electi et preuidit hoc 
+      <lb ed="#P" n="121"/>ita preuidit quod de reprobis nascerentur. igitur sicut 
+      <lb ed="#P" n="122"/>fuit necessarium quod electi nascerentur. Ita etiam 
+      re<lb ed="#P" n="123" break="no"/>probi de quibus fuissent geniti¬ 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e688">
+               <lb ed="#P" n="124"/>¶ Ad primum istorum dici 
+      po<lb ed="#P" n="125" break="no"/>test quod non obstante diuersitate generantis siue viri 
+      <lb ed="#P" n="126"/>siue mulieris seu virorum vel mulierum et dato quod re¬ 
+      <!--245.xml-->
+      <pb ed="#P" n="119-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>probi parentes electorum non fuissent geniti: tamen ipsi 
+      <lb ed="#P" n="2"/>electi iidem numero fuissent generati. Nam cum 
+      ali<lb ed="#P" n="3" break="no"/>quid de substantia parentum non ingrediatur fetum 
+      <lb ed="#P" n="4"/>sed superfluum alimenti: et idem semen et idem 
+      men<lb ed="#P" n="5" break="no"/>struum potuit ab aliis parentibus ministrari: et ita 
+      <lb ed="#P" n="6"/>idem fetus generari sicut etiam idem alimentum potest 
+      <lb ed="#P" n="7"/>sumi a diuersis. A diuersis enim in numero potest 
+      <lb ed="#P" n="8"/>idem in numero in eadem numero meteria generari: 
+      <lb ed="#P" n="9"/>vt videtur sicut a diuersis calefacientibus potest idem 
+      <lb ed="#P" n="10"/>calor numero in eodem subiecto generari. Sic etiam. 
+      <lb ed="#P" n="11"/>suo modo in proposito idem homo potest generari 
+      <lb ed="#P" n="12"/>a diuersis hominibus ex eadem muliere et alius et 
+      <lb ed="#P" n="13"/>alius ab eodem ex eadem vel in eadem muliere et hoc si 
+      <lb ed="#P" n="14"/>ue semen viri intret substantiam geniti siue non. 
+      Na<lb ed="#P" n="15" break="no"/>idem alimentum secundum materiam ab vtrisque potest 
+      su<lb ed="#P" n="16" break="no"/>mi diuisim dico intelligendo: ideo etc. Similiter etiam 
+      <lb ed="#P" n="17"/>non cogit: quia diceretur quod stante innocentia et 
+      du<lb ed="#P" n="18" break="no"/>rante statu innocentie deus non preuidisset aliquem 
+      <lb ed="#P" n="19"/>reprobum generare. Nec per consequens aliquemele 
+      <lb ed="#P" n="20"/>ctu ex reprobis generari: sed electos ex electis. Et 
+      <lb ed="#P" n="21"/>ita adhuc soli electi fuissent generati¬ 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e749">
+               <lb ed="#P" n="22"/>¶ Alii vero dicunt de isto 
+      ar<lb ed="#P" n="23" break="no"/>ticulo quod non solum illi qui electi sunt non fuissent 
+      ge<lb ed="#P" n="24" break="no"/>nerati: sed etiam omnes quotquot nati sunt et sunt 
+      na<lb ed="#P" n="25" break="no"/>scituri: tamen nullus fuisset reprobatus. Ita quod illi qu 
+      <lb ed="#P" n="26"/>sunt modo reprobi non fuissent reprobi sed electi: 
+      li<lb ed="#P" n="27" break="no"/>cet iidem numero fuissent generati.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e766">
+      ¶ Quod 
+      decla<lb ed="#P" n="28" break="no"/>ratur sic ab eis quia in priori signo rationis preuisa est 
+      <lb ed="#P" n="29"/>et determinata a deo natura humana fore quantum ad 
+      <lb ed="#P" n="30"/>omnia ista supposita priusquam aliquid fuerit preuisun 
+      <lb ed="#P" n="31"/>de casu de lapsu alicuius suppositi vel nature in 
+      ali<lb ed="#P" n="32" break="no"/>quo supposito. Sed post illud primum signum 
+      ratio<lb ed="#P" n="33" break="no"/>nis voluntas diuina determinauit aliquos ad 
+      glo<lb ed="#P" n="34" break="no"/>riam predestinando eos et isti fecissent primum ordinem 
+      <lb ed="#P" n="35"/>electorum inter quos christus homo fuisset primus 
+      <lb ed="#P" n="36"/>In tertio vero signd in quo fuit preuisus casus 
+      hu<lb ed="#P" n="37" break="no"/>mani generis et aliquorum finaliter discedentium in 
+      <lb ed="#P" n="38"/>peccato et reprobatio eorum dicunt quod si homo non 
+      <lb ed="#P" n="39"/>cecidisset sed stetisset fuissent praedestinati illi qui sunt 
+      <lb ed="#P" n="40"/>modi reprobati et fuisset constitutus secundus ordo 
+      <lb ed="#P" n="41"/>electorum ex ipsis minoris glorie et beatitudinis quam 
+      <lb ed="#P" n="42"/>illi de primo ordine.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e801">
+      ¶ Et istud videtur probabili 
+      <lb ed="#P" n="43"/>ter posse dici stante innocentia vniuersaliter in omnibus. 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e806">
+               <lb ed="#P" n="44"/>¶ Secundo modo dici 
+      potesi<lb ed="#P" n="45" break="no"/>quod stante innocentia in parentibus potuerunt reprobi 
+      <lb ed="#P" n="46"/>generari et etiam stante malicia in parentibus 
+      potue<lb ed="#P" n="47" break="no"/>runt innocentes generari et electi si sic deus 
+      ordina<lb ed="#P" n="48" break="no"/>re voluisset sed sic non ordinauit. Ordinauit enim vt 
+      <lb ed="#P" n="49"/>de peccatoribus et nocentibus peccatores et nocentes 
+      <lb ed="#P" n="50"/>vel obnoxii naturaliter nascerentur: hec de isto nisi quod 
+      <lb ed="#P" n="51"/>Notandum quod vnus dicit quod in statu innocentie non 
+      opor<lb ed="#P" n="52" break="no"/>tuit tot viros generari quot mulieres vel etiam 
+      econ<lb ed="#P" n="53" break="no"/>uerso. Nam si teneatur quod plures viri sunt saluati qui 
+      <lb ed="#P" n="54"/>mulieres et quod soli electi qui sunt modo electi fuissent 
+      <lb ed="#P" n="55"/>generati. Tunc potest dici quod fuissent in statu inno 
+      <lb ed="#P" n="56"/>centie plures viri quam mulieres per istum modum secundum 
+      <lb ed="#P" n="57"/>aliquos: quia vir prolixius vixisset quam mulier. Ita 
+      <lb ed="#P" n="58"/>mulier citius fuisset translata quam vir: et tunc maritus 
+      <lb ed="#P" n="59"/>remanens assumpsisset aliam mulierem: et sic omnes 
+      ad<lb ed="#P" n="60" break="no"/>implessent preceptum. Crescite et multiplicamini 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e845">
+               <lb ed="#P" n="61"/>¶ Sed quia vt dicunt secunde nuptie non sunt 
+      mul<lb ed="#P" n="62" break="no"/>tum laudabiles etiam in presenti statu minus 
+      fuis<lb ed="#P" n="63" break="no"/>sent laudabiles in illo. Sunt enim signum incontinentie 
+      <!--245.xml-->
+      <cb ed="#P" n="b"/>
+            </p>
+            <p xml:id="qrdBas-b78188-d1e858">
+               <lb ed="#P" n="64"/>¶ Et ideo dicunt aliter quod 
+      ea<lb ed="#P" n="65" break="no"/>dem persona potuit esse mas et femina. Nam 
+      mascu<lb ed="#P" n="66" break="no"/>lus et femina sunt differentie accidentales. Ita quod 
+      <lb ed="#P" n="67"/>diuersitas sexus non variat speciem secundum 
+      Aristote<lb ed="#P" n="68" break="no"/>lem. 4. meta. Et sicut sexus non variat speciem 
+      ho<lb ed="#P" n="69" break="no"/>minis ita nec hic sexus variat hanc personam et tunc 
+      <lb ed="#P" n="70"/>illa quae nunc est talis sexus fuisset alterius sexus prius 
+      <lb ed="#P" n="71"/>Puta illa que hodie est mulier fuisset heri vir vel 
+      <lb ed="#P" n="72"/>que fuit heri vir cras esset mulier et ita fuissent 
+      pli<lb ed="#P" n="73" break="no"/>res viri quam mulieres vel econuerso esse potuit si 
+      plu<lb ed="#P" n="74" break="no"/>res mulieres fuissent saluande quam viri sicut dicunt. 
+      <lb ed="#P" n="75"/>Istud est dubium et potius concedendum est quod viri et 
+      <lb ed="#P" n="76"/>mulieres fuissent in numero equali sicut superius 
+      <lb ed="#P" n="77"/>erat dictum / 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e891">
+               <lb ed="#P" n="78"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="79"/>quod et ex parte agentis et patientis mulieris fuisset 
+      in<lb ed="#P" n="80" break="no"/>peditum nec corpus pueri statim fuisset perfectum 
+      <lb ed="#P" n="81"/>Ex parte agentis quia oportuisset quod generasset des 
+      <lb ed="#P" n="82"/>cidendo semen modicum. Et ex parte patientis quia 
+      <lb ed="#P" n="83"/>vterum habebat non tantum et similiter ministrasset 
+      <lb ed="#P" n="84"/>menstruum modicum cuius materia non fuisset 
+      tan<lb ed="#P" n="85" break="no"/>ta quod potuisset suffecisse ad tantum corpus. Uel 
+      di<lb ed="#P" n="86" break="no"/>cendum est quod proprie loquendo non fuit 
+      impedimen<lb ed="#P" n="87" break="no"/>tum istud: sed magis modus agendi ab imperfecto 
+      <lb ed="#P" n="88"/>ad perfectum qui non permittebat quod poueri statim 
+      <lb ed="#P" n="89"/>essent perfecti secundum corpus nec oportet etiam puerum 
+      <lb ed="#P" n="90"/>in omnibus assimilari patri: sed secundum modum nature 
+      <lb ed="#P" n="91"/>possibilem et conuenientem. Tunc enim puer nascere. 
+      <lb ed="#P" n="92"/>tur cum geometria patris. Similiter tunc nunquam a 
+      <lb ed="#P" n="93"/>masculo fuisset genita femina: sed tantum masculus 
+      </p>
+            <p xml:id="qrdBas-b78188-d1e929">
+               <lb ed="#P" n="94"/>¶ Ad secundum dico quod homo ex nobilitate sue 
+      con<lb ed="#P" n="95" break="no"/>plexionis requirit maius tempus ad sui corporis 
+      per<lb ed="#P" n="96" break="no"/>fectionem quam aliqua animalia imperfectiora. 
+      Un<lb ed="#P" n="97" break="no"/>de non oportet quod licet sit nobilior quod statim possit 
+      am<lb ed="#P" n="98" break="no"/>bulare sicut pulli gallinarum post matres. Unde et 
+      <lb ed="#P" n="99"/>communiter perfectiora in natura pluribus 
+      indigen<lb ed="#P" n="100" break="no"/>et citius ledunturquam imperfectiora.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e947">
+      ¶ Ad confirma 
+      <lb ed="#P" n="101"/>tionem de Augustino dico quod infirmitas carnis 
+      fuis<lb ed="#P" n="102" break="no"/>set in statu innocentie sicut dictum est: sed non 
+      fuis<lb ed="#P" n="103" break="no"/>set ibi infirmitas penalis sicut etiam mors fuisset in 
+      <lb ed="#P" n="104"/>statu innocentie stante generali influentia et omni 
+      <lb ed="#P" n="105"/>miraculo circumscripto tamen non fuisset in penam: 
+      <lb ed="#P" n="106"/>quia non precessisset culpa.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e963">
+      ¶ Ad tertium dico secundum 
+      <lb ed="#P" n="107"/>primam viam quod non est contra eam: quia secundum eam non 
+      <lb ed="#P" n="108"/>fuisset in statu innocentie infirmitas carnis 
+      impe<lb ed="#P" n="109" break="no"/>ditiua saltem intellectus. Secundum aliam 
+      dicen<lb ed="#P" n="110" break="no"/>dum est quod immo quia non fuisset statim in pueris 
+      quie<lb ed="#P" n="111" break="no"/>tatio humorum nec conueniens cerebri 
+      dispositio<lb ed="#P" n="112" break="no"/>nec organorum ad deseruiendum intellectui quod 
+      ta<lb ed="#P" n="113" break="no"/>men oportuisset sicut modo secundum illam viam.
+    </p>
+            <p xml:id="qrdBas-b78188-d1e981">
+      ¶ Ad 
+      <lb ed="#P" n="114"/>quartum de cognitione diceretur secundum illam viam que 
+      <lb ed="#P" n="115"/>tenet quod potuerunt intelligere statim sicut adulti quod 
+      <lb ed="#P" n="116"/>argumentum est pro isto. Secundum aliam viam 
+      di<lb ed="#P" n="117" break="no"/>ceretur quod ex maiori perfectione cognitionis 
+      homi<lb ed="#P" n="118" break="no"/>num est quod ad ipsam plura requirantur quam ad 
+      cogni<lb ed="#P" n="119" break="no"/>tionem aliquorum imperfectorum animalium sicut 
+      <lb ed="#P" n="120"/>dictum est ad secundum illa autem requisita 
+      habe<lb ed="#P" n="121" break="no"/>ri statim non possunt in pruero nato secundum cursum 
+      na<lb ed="#P" n="122" break="no"/>ture etiam constitute. Ad illam in oppositum patet 
+      <lb ed="#P" n="123"/>quod procedunt et quomodo viis suis etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

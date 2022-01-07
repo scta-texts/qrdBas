@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="46-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b29907"><!--l2d6q1 -->
+            <head xml:id="qrdBas-b29907-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b29907-d1e101">
+               <lb ed="#P" n="110"/>¶ Distinctionis sexte. 
+      <lb ed="#P" n="111"/>¶ Questio vnica.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e108">
+               <lb ed="#P" n="112"/>CIrca distinctionem 
+      <lb ed="#P" n="113"/>sextam. Quero vnam questionem 
+      <lb ed="#P" n="114"/>vtrum angelus peccando 
+      appe<lb ed="#P" n="115" break="no"/>tierit diuinam equalitatem. 
+      vide<lb ed="#P" n="116" break="no"/>tur quod non. Angelus non 
+      appe<lb ed="#P" n="117" break="no"/>tiit illud quod impossibile est 
+      ap<lb ed="#P" n="118" break="no"/>peti. Sed equalitas creature 
+      <lb ed="#P" n="119"/>cum deo non potest appeti: 
+    </p>
+            <p xml:id="qrdBas-b29907-d1e128">
+      quia 
+      <lb ed="#P" n="120"/>non potest intelligi nec est intelligibilis: quia 
+      inclu<lb ed="#P" n="121" break="no"/>dit contradictoria creaturam scilicet non esse creaturam et 
+      <lb ed="#P" n="122"/>deum non esse deum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e137">
+      ¶ Secundo angelus non 
+      pec<lb ed="#P" n="123" break="no"/>cauit in appetendo illud quod simpliciter est bonum. Sed 
+      <lb ed="#P" n="124"/>esse equalem deo est simpliciter bonum: quia filius dei 
+      <lb ed="#P" n="125"/>non rapinam arbitratus est esse equalem deo ad 
+      phi<lb ed="#P" n="126" break="no"/>lippen. 2. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e149">
+      ¶ Tertio sic secundum Augustinum. Adam 
+      <lb ed="#P" n="127"/>quia mente preditus erat non est credendum quod voluerit 
+      <!--99.xml-->
+      <pb ed="#P" n="46-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>deus esse. ergo multo fortius non est credendum hoc de 
+      <lb ed="#P" n="2"/>angelo qui magis erat mente preditus. Sed 
+      impos<lb ed="#P" n="3" break="no"/>sibile est esse equalem deo nisi equalis deo sit deus. ergo 
+      <lb ed="#P" n="4"/>etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e169">
+      ¶ Quarto sic. Ratione existente non recta 
+      volun<lb ed="#P" n="5" break="no"/>tas non potest esse recta. ergo similiter ratione existente 
+      <lb ed="#P" n="6"/>recta voluntas non potest non esse recta. Sed in angelo 
+      <lb ed="#P" n="7"/>antequam peccaret fuit ratio recta quia non peccauit 
+      <lb ed="#P" n="8"/>ex errore et per consequens reputauit impossibile 
+      es<lb ed="#P" n="9" break="no"/>se se equalem deo igitur voluntas etiam fuit recta 
+      quan<lb ed="#P" n="10" break="no"/>tum ad hoc quod istud non appetiit. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e185">
+               <lb ed="#P" n="11"/>¶ Contra videtur esse illud. 
+      <lb ed="#P" n="12"/>Isaye. 14. Ubi dicitur de rege tyrii in persona 
+      dya<lb ed="#P" n="13" break="no"/>boli. Ascendam in caelum et ero similis altissimo. Et 
+      si<lb ed="#P" n="14" break="no"/>militer Hieronymus super illud psal. Que non 
+      ra<lb ed="#P" n="15" break="no"/>pui tunc exsoluebam. dicit Rapuit enim Adam et Euam 
+      <lb ed="#P" n="16"/>presumens vt dyabolus de diuinitate et quia rapuerunt 
+      <lb ed="#P" n="17"/>diuinitatem perdiderunt felicitatem. Et 
+      Augusti<lb ed="#P" n="18" break="no"/>nus de questionibus noui et veteris testamenti dicit 
+      <lb ed="#P" n="19"/>de dyabolo quod elatione inflatus voluit esse deus. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e207">
+               <lb ed="#P" n="20"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="21" break="no"/>dam.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e214">
+      ¶ Primo inquiram de possibili. Utrum 
+      ange<lb ed="#P" n="22" break="no"/>lus potuit peccare appetendo diuinam equalitatem. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e219">
+               <lb ed="#P" n="23"/>¶ Secundo inquiram quid de facto appetiuit 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e225">
+               <lb ed="#P" n="24"/>¶ Tertio an primum peccatum angeli fuerit 
+      super<lb ed="#P" n="25" break="no"/>bia vel aliquid aliud. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e232">
+               <lb ed="#P" n="26"/>¶ Quantum ad primum est una 
+      <lb ed="#P" n="27"/>opinio quod angelus non potuit appetere vel velle 
+      di<lb ed="#P" n="28" break="no"/>uinam equalitatem nec sic per consequens potuit 
+      pec<lb ed="#P" n="29" break="no"/>care. Ad hoc adducuntur rationes alique.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e243">
+      ¶ 
+      Pri<lb ed="#P" n="30" break="no"/>ma est ista. Angelus peccauit ex electione: sed 
+      ele<lb ed="#P" n="31" break="no"/>ctio non est impossibilium. 3. ethicorum. Cum ergo hoc 
+      <lb ed="#P" n="32"/>sit impossibile et implicans contradictionem nec elegit 
+      <lb ed="#P" n="33"/>istud nec potuit eligere vel velle quia non est 
+      eligibi<lb ed="#P" n="34" break="no"/>le nec bonum.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e256">
+      ¶ Secunda ratio est ista. Angelus non 
+      <lb ed="#P" n="35"/>potest appetere illud ad quod de necessitate sequitur 
+      <lb ed="#P" n="36"/>angelum non esse angelum sicut non potest directe et 
+      <lb ed="#P" n="37"/>per se appetere non esse secundum Augustinum. 3. de 
+      libe<lb ed="#P" n="38" break="no"/>ro arbitrio. Sed hoc sequitur ad esse equalem deo. 
+      <lb ed="#P" n="39"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e269">
+      ¶ Tertio sic. Licet homo possit 
+      desidera<lb ed="#P" n="40" break="no"/>re quod non potest habere. non tamen quod non potest 
+      co<lb ed="#P" n="41" break="no"/>gitare vel est estimare. Sed esse equalem deo creaturam 
+      <lb ed="#P" n="42"/>non potest estimari nec cogitari ab angelo secundum 
+      An<lb ed="#P" n="43" break="no"/>selmum de casu dyaboli. 4. ca. vbi dicit de 
+      equalita<lb ed="#P" n="44" break="no"/>te dei. Quomodo inquit potuit dyabolus velle quod 
+      <lb ed="#P" n="45"/>non potuit cogitare quasi diceret nullo modo. ergo etc 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e285">
+               <lb ed="#P" n="46"/>¶ Ad hoc videtur facere auctoritas Augustini 
+      su<lb ed="#P" n="47" break="no"/>perius adducta de Adam praedito mente. Dicunt 
+      igi<lb ed="#P" n="48" break="no"/>tur isti quod angelus per se et directe non potuit 
+      appete<lb ed="#P" n="49" break="no"/>re diuinam equalitatem accipiendo diuinam equalitatem 
+      <lb ed="#P" n="50"/>proprie: sed accipiendo diuinam equalitatem pro 
+      ali<lb ed="#P" n="51" break="no"/>qua similitudine ad deum sic potuit appetere et 
+      appe<lb ed="#P" n="52" break="no"/>tuit diuinam equalitatem: quia quod haberet suam 
+      beatitu<lb ed="#P" n="53" break="no"/>dinem et consequeretur eam ex suis naturalibus: et in 
+      <lb ed="#P" n="54"/>hoc assimilaretur deo qui ex natura sua non dono 
+      <lb ed="#P" n="55"/>alicuius vel gratia est beatus.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e310">
+      ¶ Sed contra istam 
+      opi<lb ed="#P" n="56" break="no"/>nionem videtur michi aliter dicendum quantum ad istum 
+      <lb ed="#P" n="57"/>articulum quod scilicet angelus potuit appetere sibi et 
+      <lb ed="#P" n="58"/>velle diuinam equalitatem per se et directe. Quod probo: 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e319">
+               <lb ed="#P" n="59"/>¶ Primo sic. Omne bonum simpliciter potest 
+      appe<lb ed="#P" n="60" break="no"/>ti a voluntate cuicumque in esse et hoc siue possit sibi in 
+      <lb ed="#P" n="61"/>esse siue non possit in esse per abusum voluntatis. Sed 
+      <lb ed="#P" n="62"/>equalitas dei est quoddam bonum verum et simpliciter 
+      <!--99.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>Alioquin non vellet hoc vna diuina persona alteri. ergo 
+      <lb ed="#P" n="64"/>potest appeti inesse cuicumque recte vel non recte sicut 
+      <lb ed="#P" n="65"/>personis diuinis quibus potest conuenire et inesse et 
+      <lb ed="#P" n="66"/>aliis saltem abusiue et non recte.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e343">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="67"/>Si angelus non posset eam velle hoc non 
+      videre<lb ed="#P" n="68" break="no"/>tur nisi quia est sibi impossibilis. Sed hoc non 
+      ob<lb ed="#P" n="69" break="no"/>stat quia secundum philosophum tertio ethicorum 
+      volun<lb ed="#P" n="70" break="no"/>tas est impossibilium. ergo etc. Item secudo rethorice 
+      <lb ed="#P" n="71"/>dicitur quod qui odit aliquid vult ipsum non esse saltem 
+      <lb ed="#P" n="72"/>ei non esse bene. sed damnati odiunt deum. ergo volunt 
+      ip<lb ed="#P" n="73" break="no"/>sum non esse vel non bene esse: sed hoc est impossibile 
+      <lb ed="#P" n="74"/>igitur non obstante impossibilitate huius quod est 
+      an<lb ed="#P" n="75" break="no"/>gelum esse equalem deo voluntas angeli peccando 
+      <lb ed="#P" n="76"/>potest illud velle.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e367">
+      ¶ Tertio sic. Omne illud quod per 
+      <lb ed="#P" n="77"/>se et directe est intelligibile per se et directe est 
+      appeti<lb ed="#P" n="78" break="no"/>bile vel volibile cuicunque apprehenso: quia sicut 
+      in<lb ed="#P" n="79" break="no"/>tellectus absolute loquendo potest hoc componere cum 
+      <lb ed="#P" n="80"/>illo. Ita voluntas potest hoc velle vel appetere. 
+      Alio<lb ed="#P" n="81" break="no"/>quin intellectus et voluntas non essent equales: nec 
+      <lb ed="#P" n="82"/>seinuicem caperent contra Augustinum. 10. de 
+      trinita<lb ed="#P" n="83" break="no"/>te. Sed equalitas diuina per se et directe est 
+      intelli<lb ed="#P" n="84" break="no"/>gibilis vt patet. ergo angelo appetibilis et angelus 
+      ab<lb ed="#P" n="85" break="no"/>solute potest eam sibi velle. Ultimo videtur quod ista opinio 
+      <lb ed="#P" n="86"/>praemissa quae dicit quod hoc est impossibile contradicit sibi ipsi. 
+      di<lb ed="#P" n="87" break="no"/>cit enim quod angelus appetiuit indirecte diuinam 
+      equali<lb ed="#P" n="88" break="no"/>tatem pro tanto quia appetiuit scilicet beatitudinem ex 
+      naturali<lb ed="#P" n="89" break="no"/>bus suis.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e398">
+      ¶ Tunc arguo. Angelum consequi suam 
+      beatitu<lb ed="#P" n="90" break="no"/>dinem per sua naturalia potest intelligi dupliciter. 
+      <lb ed="#P" n="91"/>Uno modo effectiue sic quod possit seipsum ex suis 
+      na<lb ed="#P" n="92" break="no"/>turalibus principiis effectiue beatificare sicut 
+      gra<lb ed="#P" n="93" break="no"/>ue seipsum mouere sicut etiam deus potest ipsum 
+      beati<lb ed="#P" n="94" break="no"/>ficare et hoc est impossibile: nec hoc deus posset 
+      fa<lb ed="#P" n="95" break="no"/>cere. Nam ad hoc saltem requiritur ostensio obiecti 
+      <lb ed="#P" n="96"/>beatifici quod est diuina essentia quae dependet mere ex 
+      li<lb ed="#P" n="97" break="no"/>bertate voluntatis divine. Cum ergo angelus non 
+      po<lb ed="#P" n="98" break="no"/>potuerit vel possit appetere impossibile nec istud 
+      po<lb ed="#P" n="99" break="no"/>tuit appetere.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e422">
+      ¶ Alio modo potest hoc intelligi quod ex 
+      <lb ed="#P" n="100"/>suis naturalibus appetat sufficienter dispositus ad  
+      <lb ed="#P" n="101"/>recipiendum beatitudinem a deo beatificante. Tunc quaero 
+      <lb ed="#P" n="102"/>de isto aut hoc est possibile aut impossibile. Si 
+      impossi<lb ed="#P" n="103" break="no"/>bile non potuit hoc appetere sicut dicit ratio eorum: et 
+      <lb ed="#P" n="104"/>sic non peccauit in hoc: nec istud appetiit quod est contra 
+      <lb ed="#P" n="105"/>eos. Si possibile fuit contra quia secundum ipsum in 
+      pri<lb ed="#P" n="106" break="no"/>mo distinctione. 17. Anima non potest beatificari 
+      <lb ed="#P" n="107"/>nisi mediante dispositione super naturali que est 
+      gra<lb ed="#P" n="108" break="no"/>tia gratum faciens: qua anima formaliter est 
+      gra<lb ed="#P" n="109" break="no"/>ta et accepta ad vitam eternam sicut per albedinem ali 
+      <lb ed="#P" n="110"/>quid est formaliter album et pari ratione nec angelus 
+      <lb ed="#P" n="111"/>potest beatificari sic quod ex suis naturalibus sit 
+      suffi<lb ed="#P" n="112" break="no"/>cienter dispositus ad beatitudinem. igitur hoc est / 
+      im<lb ed="#P" n="113" break="no"/>possibile: et sic non est appetibile ab angelo quod est 
+      con<lb ed="#P" n="114" break="no"/>tra eos.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e458">
+      ¶ Tertio modo potest intelligi consequi 
+      beati<lb ed="#P" n="115" break="no"/>tudinem vel habere ex naturalibus pro tanto: quia sua 
+      <lb ed="#P" n="116"/>beatitudo esset sua natura sicut dei et hoc est 
+      impos<lb ed="#P" n="117" break="no"/>sibile quia hoc est esse deum et sic iterum illud non 
+      po<lb ed="#P" n="118" break="no"/>tuit appetere nec appetiuit quare etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e469">
+      ¶ Dico 
+      igi<lb ed="#P" n="119" break="no"/>tur quod cum sit duplex amor vnus amicitie qui est 
+      re<lb ed="#P" n="120" break="no"/>spectu illius cui aliquod bonum diligitur et propter 
+      <lb ed="#P" n="121"/>ipsum illud aliud diligitur. Alius autem est 
+      concupi<lb ed="#P" n="122" break="no"/>scentie qui est respectu illius quod alteri diligitur et 
+      ip<lb ed="#P" n="123" break="no"/>sum propter alterum diligitur / et quicquid potest 
+      di<lb ed="#P" n="124" break="no"/>ligi amore amicitie ab aliquo potest sibi concupisci 
+      <lb ed="#P" n="125"/>quodcumque aliud bonum concupiscibile ordinate vel 
+      in<lb ed="#P" n="126" break="no"/>ordinate seu abusiue si non potest sibi conuenire vel 
+      <lb ed="#P" n="127"/>non possit ipsum habere et angelus in primo peccato 
+      <!--100.xml-->
+      <pb ed="#P" n="47-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>potuerit se diligere amore amicitie et de ordinate 
+      po<lb ed="#P" n="2" break="no"/>tuit sibi ipsi concupiscere quodcumque aliud bonum: 
+      pu<lb ed="#P" n="3" break="no"/>ta diuinam equalitatem dato quod non posset sibi 
+      inesse<lb ed="#P" n="4" break="no"/>et hoc actu voluntatis peccantis et etiam abutentis 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e506">
+               <lb ed="#P" n="5"/>¶ Est tamen aduertendum quod actus voluntatis 
+      du<lb ed="#P" n="6" break="no"/>plex est. Unus est qui est velle simplicis complacentie 
+      <lb ed="#P" n="7"/>quo quidem aliquis bene vult aliquid et complacet in 
+      <lb ed="#P" n="8"/>illo. non tamen habet spem consequendi ipsum nec 
+      pre<lb ed="#P" n="9" break="no"/>sequitur vt habeat ipsum nec nititur ad habendum 
+      <lb ed="#P" n="10"/>Alius est actus qui est velle efficax quo aliquis 
+      ef<lb ed="#P" n="11" break="no"/>ficaciter vult aliquid prosequendo ipsum et sperando 
+      <lb ed="#P" n="12"/>quod ipsum possit habere et cum nisu habendi ipsum in 
+      re<lb ed="#P" n="13" break="no"/>et in effectu. In primo actu voluntatis potest 
+      pec<lb ed="#P" n="14" break="no"/>catum consistere: dato quod sit complacentia simplex quia 
+      <lb ed="#P" n="15"/>talis potest esse et est communiter inordinata 
+      loquen<lb ed="#P" n="16" break="no"/>do de actu primo voluntatis.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e535">
+      ¶ Dico quod angelus 
+      <lb ed="#P" n="17"/>potuit sibi appetere diuinam equalitatem: licet 
+      reputa<lb ed="#P" n="18" break="no"/>ret sibi eam impossibilem sicut etiam potest velle esse 
+      <lb ed="#P" n="19"/>in celo et habere felicitatem: licet de hoc sit desperat 
+      <lb ed="#P" n="20"/>Et loquendo de isto actu. dico quod voluntas est 
+      frequen<lb ed="#P" n="21" break="no"/>ter et esse potest impossibilium. Sed loquendo de alio 
+      <lb ed="#P" n="22"/>actu non puto quod potuerit appetere diuinam 
+      equalita<lb ed="#P" n="23" break="no"/>tem intendendo ad hoc et prosequendo vel volendo 
+      ef<lb ed="#P" n="24" break="no"/>ficaciter prosequi quod esset deus: quia bene sciuit istud 
+      <lb ed="#P" n="25"/>esse impossibile sibi. Et loquendo de isto actu dico 
+      <lb ed="#P" n="26"/>quod voluntas non est impossibilium sicut nec electio: quia 
+      <lb ed="#P" n="27"/>ad talem actum electio pertinet vt videtur. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e561">
+               <lb ed="#P" n="28"/>¶ Ad primum aliorum dico quod 
+      <lb ed="#P" n="29"/>electio capitur. Uno modo pro actu voluntatis se 
+      <lb ed="#P" n="30"/>quente actum certe noticie circa idem obiectum. Et 
+      <lb ed="#P" n="31"/>sto modo accipitur quando dicitur quis peccare ex 
+      <lb ed="#P" n="32"/>electione non ex errore vel passione quando peccat ex 
+      <lb ed="#P" n="33"/>certa scientia. Et isto modo dico quod electio potest esse 
+      <lb ed="#P" n="34"/>impossibilium vel impossibilis illi cui appetitur 
+      vel<lb ed="#P" n="35" break="no"/>eligitur et quorumcunque intelligibilium. Alio modo 
+      <lb ed="#P" n="36"/>accipitur electio proprie a philosopho. 3. ethicorum 
+      <lb ed="#P" n="37"/>pro actu voluntatis sequente actum simili practici de 
+      <lb ed="#P" n="38"/>agibili vel volibili in ordine ad finem quod quidem 
+      sem<lb ed="#P" n="39" break="no"/>per subiacet voluntati seu potestati eligentis aliquo 
+      <lb ed="#P" n="40"/>modo vel per se vel per alium: et isto modo electio non 
+      <lb ed="#P" n="41"/>est impossibilium iudicatorum sicut iam patet ex 
+      pre<lb ed="#P" n="42" break="no"/>dictis. Tum quia eligibile isto modo semper est in 
+      po<lb ed="#P" n="43" break="no"/>testate eligentis: Tum quia non est nisi rei ordinabis 
+      <lb ed="#P" n="44"/>lis in finem. Sed si angelus appetisset equalitatem 
+      di<lb ed="#P" n="45" break="no"/>uinam non peccasset ex electione accepta isto modo 
+      <lb ed="#P" n="46"/>sed primo modo.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e605">
+      ¶ Ad secundum dico quod aliquid 
+      pri<lb ed="#P" n="47" break="no"/>se et directe potest velle vel appetere suum non esse: 
+      <lb ed="#P" n="48"/>licet non primo secundum Augustinum: sed appetendo aliud  
+      <lb ed="#P" n="49"/>esse.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e615">
+      ¶ Preterea dico quod angelum non esse angelum 
+      <lb ed="#P" n="50"/>sequitur ad angelum esse deum per consequentiam 
+      te<lb ed="#P" n="51" break="no"/>nentem per locum extrinsecum per locum scilicet a 
+      dispara<lb ed="#P" n="52" break="no"/>tis. Modo ita est quod quando aliquid sequitur ad 
+      ali<lb ed="#P" n="53" break="no"/>quod antecedens per locum extrinsecum potest aliquis 
+      <lb ed="#P" n="54"/>velle antecedens non volendo consequens sicut aliquis 
+      <lb ed="#P" n="55"/>potest velle habere redditus ecclesie et dominium 
+      su<lb ed="#P" n="56" break="no"/>per monachos dato quod non velit esse abbas nec 
+      mo<lb ed="#P" n="57" break="no"/>nachus: et tamen ad hoc sequitur illud: licet ergo 
+      ange<lb ed="#P" n="58" break="no"/>lus non posset appetere suum non esse tamen bene esse 
+      equa<lb ed="#P" n="59" break="no"/>lem deo potuit appetere. Aliter diceretur quod ad 
+      es<lb ed="#P" n="60" break="no"/>se equalem deo non sequitur simpliciter non esse: sed 
+      ta<lb ed="#P" n="61" break="no"/>tum non esse tale puta angelum et ponitur nobilius 
+      <lb ed="#P" n="62"/>esse. Ideo illud appeti potest.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e646">
+      ¶ Ad tertium 
+      quan<lb ed="#P" n="63" break="no"/>do dicis quod angelus ante peccatum non potuit estima 
+      <lb ed="#P" n="64"/>re cum assensu istam complexionem esse se equalem deo vel 
+      <!--100.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>fore: licet simpliciter et absolute intellectus 
+      potuis<lb ed="#P" n="66" break="no"/>set formare talem complexionem non assentiendo 
+      sibi<lb ed="#P" n="67" break="no"/>quia si assensisset sibi errasset et consequenter ad 
+      com<lb ed="#P" n="68" break="no"/>plexionem formatam voluntas potuit hoc velle 
+      vo<lb ed="#P" n="69" break="no"/>luntate absolute non electione proprie dicta sicut in 
+      <lb ed="#P" n="70"/>tendit Anselmus.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e670">
+      ¶ Aliter dicitur quod ad volendum 
+      <lb ed="#P" n="71"/>aliquam propositionem vel aliquod complexum non 
+      opor<lb ed="#P" n="72" break="no"/>tet quod intellectus estimet illud formando talem 
+      com<lb ed="#P" n="73" break="no"/>plexionem: sed sufficit praesentatio extremorum talis 
+      com<lb ed="#P" n="74" break="no"/>plexionis in intellectu. Uoluntas enim potest 
+      confer<lb ed="#P" n="75" break="no"/>re vnum extremum alteri et velle vnum in esse alteri: quia 
+      <lb ed="#P" n="76"/>est potentia collatiua sicut patet in actu vtendi quo 
+      <lb ed="#P" n="77"/>vult vnum propter alterum. Nam secundum Augustinum 
+      <lb ed="#P" n="78"/>primo de doctrina christiana vti est id quod in vsum 
+      <lb ed="#P" n="79"/>venerit referre ad id quo fruendum est: et ideo dico quod 
+      in<lb ed="#P" n="80" break="no"/>tellectu ostendente angelum et equalitatem voluntas 
+      po<lb ed="#P" n="81" break="no"/>test velle vnum inesse alteri. Dato quod intellectus non 
+      <lb ed="#P" n="82"/>estimet vel iudicet talem complexionem nec forme . 
+      <lb ed="#P" n="83"/>ipsam comparando vnum extremum ad aliud sicut 
+      di<lb ed="#P" n="84" break="no"/>cit Damascenus quod possumus appetere quod numquam 
+      mo<lb ed="#P" n="85" break="no"/>riamur.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e705">
+      ¶ Ad Augustinum de Adam mente predito et 
+      <lb ed="#P" n="86"/>angelo. Dico quod non est putandum quod ex electione pro 
+      <lb ed="#P" n="87"/>prie dicta voluerit esse deus nec similiter angelus 
+      <lb ed="#P" n="88"/>volitione efficaci. Nec errore: quia putauerunt se 
+      <lb ed="#P" n="89"/>posse esse deum sed quin fuerit possibile modo 
+      pre<lb ed="#P" n="90" break="no"/>dicto non intendit Augustinus. Hec de primo 
+      ar<lb ed="#P" n="91" break="no"/>ticulo. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e721">
+               <lb ed="#P" n="92"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="93" break="no"/>ticulum. Quid de facto appetierit angelus malus 
+      <lb ed="#P" n="94"/>in primo peccato suo dubium est. Nam alique 
+      au<lb ed="#P" n="95" break="no"/>ctoritates sunt ille que adducte sunt ad oppositum 
+      <lb ed="#P" n="96"/>questionis videntur dicere expresse quod appetuit 
+      diu<lb ed="#P" n="97" break="no"/>nam equalitatem. Si autem appetiit diuinam 
+      equalita<lb ed="#P" n="98" break="no"/>tem hoc non fuit ex electione sicut dictum est supra 
+      <lb ed="#P" n="99"/>Alii doctores sicut Anselmus videntur dicere quod non 
+      <lb ed="#P" n="100"/>appetiit diuinam equalitatem directe et per se et 
+      imme<lb ed="#P" n="101" break="no"/>diate sed aliquid aliud. Quid fuerit autem illud aliud 
+      <lb ed="#P" n="102"/>videtur dicere Anselmus de casu dyaboli. ca. 4. 
+      Di<lb ed="#P" n="103" break="no"/>cit enim quod appetiit esse regula sue voluntatis et esse 
+      <lb ed="#P" n="104"/>sui iuris non subiectus alicui legi. Unde et ex hoc 
+      ali<lb ed="#P" n="105" break="no"/>quo modo indirecte appetiit equalitatem dei cuius 
+      <lb ed="#P" n="106"/>solius istud est proprium. immo quod plus est interpreta 
+      <lb ed="#P" n="107"/>tiue plus appetiit quam equalitatem dei: quia appetii 
+      <lb ed="#P" n="108"/>esse maior deo: quia qui voluntati alterius vult 
+      re<lb ed="#P" n="109" break="no"/>sistere vult esse maior eo. Sic autem voluit angelus 
+      <lb ed="#P" n="110"/>peccans respectu dei quare etc. Propter quod dicit 
+      <lb ed="#P" n="111"/>Anselmus ibidem. Non solum voluit esse equalis deo 
+      <lb ed="#P" n="112"/>qui presumpsit habere propriam voluntatem sed etiam 
+      <lb ed="#P" n="113"/>maior voluit esse volendo quod deus ipsum velle nole 
+      <lb ed="#P" n="114"/>bat.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e773">
+      ¶ Dicunt igitur quod angelus ille sicut et omnes alii 
+      <lb ed="#P" n="115"/>acceperant legem subiectionis ad deum et ad diuinam 
+      <lb ed="#P" n="116"/>voluntatem vt per illius obseruantiam consequerentur 
+      <lb ed="#P" n="117"/>suam perfectionem scilicet beatitudinem quam quidem obseruam 
+      <lb ed="#P" n="118"/>tiam recusauit volendo beatitudinem consequi sine 
+      ip<lb ed="#P" n="119" break="no"/>sa et ideo voluit quod deus noluit ipsum velle et 
+      pecca<lb ed="#P" n="120" break="no"/>uit.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e790">
+      ¶ Aliter dicitur quod angelus seipsum primo 
+      pec<lb ed="#P" n="121" break="no"/>cato inordinate dilexit amore amicitie fruendo 
+      se<lb ed="#P" n="122" break="no"/>ipso et consequenter voluit beatitudinem perfectionem 
+      <lb ed="#P" n="123"/>suam amore commodi et concupiscentie propter seipsum 
+      fi<lb ed="#P" n="124" break="no"/>naliter non referendo hoc in vltimum finem et in deum et sic 
+      <lb ed="#P" n="125"/>appetitus eius non fuit regulatus amore iusti sed 
+      con<lb ed="#P" n="126" break="no"/>modi et principaliter ferebatur circa seipsum: et sic 
+      <lb ed="#P" n="127"/>primo inordinate diligendo seipsum et fruendo 
+      pec<lb ed="#P" n="128" break="no"/>cauit. hec videtur sententia Augustini de ciuitate 
+      <!--101.xml-->
+      <pb ed="#P" n="47-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dei vbi dicit quod duo amores fecerunt duas 
+      ciuita<lb ed="#P" n="2" break="no"/>tes: et quod inordinatus amor sui fecit: et fundauit ciu 
+      <lb ed="#P" n="3"/>tatem diaboli. Quod autem horum sit verius: 
+      nescio<lb ed="#P" n="4" break="no"/>nec multum curo meliori iudicio reliquatur. hec deus 
+      <lb ed="#P" n="5"/>secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e827">
+               <lb ed="#P" n="6"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="7" break="no"/>culum / Utrum scilicet primum peccatum angeli fuerit 
+      super<lb ed="#P" n="8" break="no"/>bia: vel aliquid aliud. Est opinio multorum: quod pctantum 
+      <lb ed="#P" n="9"/>primum angeli fuit superbia: que est distinctum peccati 
+      <lb ed="#P" n="10"/>et speciale inter septem capitalia.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e840">
+      ¶ Ad hoc 
+      addu<lb ed="#P" n="11" break="no"/>cuntur multe rationes. Prima est ista. Primum 
+      pec<lb ed="#P" n="12" break="no"/>catum angeli fuit appetere aliquod spirituale bonum 
+      <lb ed="#P" n="13"/>non subdendo se legi divine: et legi sui superioris secundum 
+      <lb ed="#P" n="14"/>Anselmum supra. Hoc autem est peccatum scientie si 
+      <lb ed="#P" n="15"/>non velle subdere se suo superiori: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e853">
+      ¶ 
+      Secun<lb ed="#P" n="16" break="no"/>do sic. Uelle videredeum / et amare non est peccatum 
+      <lb ed="#P" n="17"/>nisi appetat aliquis: quod habeat propriis viribus / vel 
+      <lb ed="#P" n="18"/>vt excellat super alios. Cum ergo angelus primo 
+      pcto<lb ed="#P" n="19" break="no"/>peccauerit appetendo beatitudinem: quae consistit in illis 
+      duo<lb ed="#P" n="20" break="no"/>bus non peccauit: nisi altero illorum duorum 
+      modo<lb ed="#P" n="21" break="no"/>rum volendo beatitudinem sed vterque illorum 
+      mo<lb ed="#P" n="22" break="no"/>dorum ad superbiam pertinet vt patet et specialiter de 
+      <lb ed="#P" n="23"/>appetitu proprie excellentie secundum Augustinum. 12. de 
+      ci<lb ed="#P" n="24" break="no"/>uitate. ca. 7. vbi dicit sic. Porro male voluntatis  
+      <lb ed="#P" n="25"/>initium quod potuit esse nisi superbia. Initium enim 
+      on<lb ed="#P" n="26" break="no"/>nis peccati superbia ecclesiastici primo.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e879">
+      ¶ Hoc idem 
+      di<lb ed="#P" n="27" break="no"/>cit de peccato angeli. 11 de ciui. c. 13. et. 19. et. 14. de 
+      <lb ed="#P" n="28"/>ciuitate. ca. 13. in principio eandem sententiam et 
+      ver<lb ed="#P" n="29" break="no"/>ba repetit.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e888">
+      ¶ Tertia ratio velle finem est primum in 
+      <lb ed="#P" n="30"/>omnibus creatis adquirendis. Sed in omnibus 
+      ta<lb ed="#P" n="31" break="no"/>libus finis est vt volens aliquam excellentiam 
+      consequa<lb ed="#P" n="32" break="no"/>tur maxime in his que non sunt sensibilia. ergo sic 
+      ange<lb ed="#P" n="33" break="no"/>lus inordinate primo appetiit consequi excellentiam. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e900">
+               <lb ed="#P" n="34"/>¶ Quarta ratio. Omne bonum vel est honestum vel 
+      <lb ed="#P" n="35"/>vtile vel delectabile. 8. ethicorum. Sed non peccaui 
+      <lb ed="#P" n="36"/>nisi appetendo bonum non vtile: quia vtile non est 
+      ap<lb ed="#P" n="37" break="no"/>petibile primum: sed magis illud ad quod est sicut ad 
+      f<lb ed="#P" n="38" break="no"/>nem nec delectabile quia angelus appetitum sensitiuum 
+      <lb ed="#P" n="39"/>non habet. ergo appetendo bonum honestum indebite. ergo 
+      su<lb ed="#P" n="40" break="no"/>perbia est primum peccatum suum.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e918">
+      ¶ Quinta ratio et 
+      <lb ed="#P" n="41"/>quia superbia dicitur quando aliquis per suam voluntatem 
+      ten<lb ed="#P" n="42" break="no"/>dit supra id quod est. Sed angelus nimis ambiendo sic 
+      <lb ed="#P" n="43"/>fecit. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e927">
+      ¶ Dicunt igitur isti quod primum peccatum 
+      an<lb ed="#P" n="44" break="no"/>geli fuit superbia: non tantum superbia coniter 
+      accepta<lb ed="#P" n="45" break="no"/>est inobedientia quedam mandatorum dei offerendem 
+      <lb ed="#P" n="46"/>se inordinate contra quodlibet mandatum vel aliquoc 
+      <lb ed="#P" n="47"/>quia talis superbia est in omni peccato mortali: sed 
+      <lb ed="#P" n="48"/>accipiendo proprie pro peccato speciali distincto con 
+      <lb ed="#P" n="49"/>tra alia pro appetitu inordinato proprie excellentie 
+      <lb ed="#P" n="50"/>in gradu et honore vel dignitate 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e945">
+               <lb ed="#P" n="51"/>¶ Alia opinio imponitur cui 
+      <lb ed="#P" n="52"/>dam doctori quod primum peccatum angeli non fuit super 
+      <lb ed="#P" n="53"/>bia. Sed si debeat reduci ad aliquod peccatum de se 
+      <lb ed="#P" n="54"/>ptem capitalibus magis debet reduci ad luxuria 
+      <lb ed="#P" n="55"/>qui est inordinatus amor sui amoris amicitie et 
+      ali<lb ed="#P" n="56" break="no"/>cuius boni delectabilis propter seipsum amore 
+      con<lb ed="#P" n="57" break="no"/>cupiscentie consequentis ad talem amorem sui 
+      inor<lb ed="#P" n="58" break="no"/>dinatum quod non fuerit superbia que est speciale 
+      pec<lb ed="#P" n="59" break="no"/>catum.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e967">
+      ¶ Unde ibi. Nota quod iste doctor. Scotus scilice 
+      <lb ed="#P" n="60"/>cui imponitur ista opinio non dicit sicut illi imponunt 
+      <lb ed="#P" n="61"/>sibi. Sed dicit quod primum peccatum angeli cum 
+      fueri<lb ed="#P" n="62" break="no"/>peccatum commissionis fuit in aliquo actu positiuo 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e976">
+               <lb ed="#P" n="63"/>¶ Actus autem positiuus voluntatis duplex est 
+      <!--101.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>Unus qui dicitur velle et alius qui dicitur nolle. 
+      <lb ed="#P" n="65"/>Actus volendi qui est amor ipse actualis duplex est 
+      <lb ed="#P" n="66"/>Unus est amor amicitie et alius est amor 
+      concupi<lb ed="#P" n="67" break="no"/>scentie. Modo dicit quod sicut in velle et nolle 
+      ordina<lb ed="#P" n="68" break="no"/>tis velle est prius quam nolle: quia aliquis non refugii 
+      <lb ed="#P" n="69"/>disconueniens per actum nolendi nisi quia vult 
+      bo<lb ed="#P" n="70" break="no"/>num et conueniens per actum volendi. Et similiter 
+      amor<lb ed="#P" n="71" break="no"/>amicitie vel velle prius est quam velle vel amor 
+      concu<lb ed="#P" n="72" break="no"/>piscentie. Nam prius aliquid in sediligitur quam aliquid 
+      <lb ed="#P" n="73"/>aliud sibi diligatur. Ita quod prius est velle 
+      amicitie<lb ed="#P" n="74" break="no"/>quam concupiscentie. Sic est in actibus deordinatis quod 
+      <lb ed="#P" n="75"/>deordinatum nolle precedit deordinatum velle. Si enim 
+      <lb ed="#P" n="76"/>velle precedens esset ordinatum cum nolle sequatur secundum 
+      <lb ed="#P" n="77"/>mensuram et modum illius velle: nolle etiam esset ordi 
+      <lb ed="#P" n="78"/>natum. Similiter et velle amicitie deordinatum est 
+      <lb ed="#P" n="79"/>prius quam velle concupiscentie.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1021">
+      ¶ Da enim quod velle 
+      ami<lb ed="#P" n="80" break="no"/>citie quod est prius sit ordinatum consequenter et 
+      vel<lb ed="#P" n="81" break="no"/>le concupiscentie sequens ipsum. Ex his dicit vltra quod 
+      <lb ed="#P" n="82"/>primum peccatum angeli non potuit consistere in aliquo 
+      <lb ed="#P" n="83"/>nolle deordinato.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1032">
+      ¶ Secundo quod non potuit 
+      connsiste<lb ed="#P" n="84" break="no"/>re in velle concupiscentie deordinato per eandem 
+      ra<lb ed="#P" n="85" break="no"/>tionem: et ideo consistebat in velle amicitie deordina 
+      <lb ed="#P" n="86"/>to non dei nec alicuius alterius a se. ergo in amore sui 
+      <lb ed="#P" n="87"/>deordinato fruendo quasi seipso. Et istud primum 
+      <lb ed="#P" n="88"/>peccatum reduxit ad superbiam largo modo dictam quae 
+      <lb ed="#P" n="89"/>non est appetitus alicuius excellentie sed est 
+      compla<lb ed="#P" n="90" break="no"/>centia in seipso qua complacuit sibi inordinate 
+      diligi<lb ed="#P" n="91" break="no"/>do et volendo se esse aliquid maius quam esset 
+      appeten<lb ed="#P" n="92" break="no"/>do magnitudinem sui in seipso non vt aliis comparatam 
+      <lb ed="#P" n="93"/>ecundum excessum vel excellentiam eo modo quo placens 
+      <lb ed="#P" n="94"/>sibi ipsi dicitur superbus et talis superbia vocatur 
+      <lb ed="#P" n="95"/>presumptio ab Augustino.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1061">
+      ¶ Primum ergo pecca. 
+      <lb ed="#P" n="96"/>tum fuit amor amicitie respectu sui.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1066">
+      ¶ Secundun 
+      <lb ed="#P" n="97"/>peccatum fuit amor concupiscentie quo inordinate 
+      con<lb ed="#P" n="98" break="no"/>cupiuit sibi aliquod bonu. Puta beatitudinem de 
+      <lb ed="#P" n="99"/>quo dicit quod si ad aliquod septem capitalium 
+      reduci<lb ed="#P" n="100" break="no"/>tur magis ad luxuriam quam ad aliquod aliud quia 
+      pri<lb ed="#P" n="101" break="no"/>mo appetiuit sibi amore concupiscentie beatitudinem 
+      <lb ed="#P" n="102"/>inquantum donum in se et delectabilis non autem 
+      inquanti<lb ed="#P" n="103" break="no"/>excellens vel huiusmodi. Tum quia beatitudo est 
+      sum<lb ed="#P" n="104" break="no"/>mum commodum appetibile volenti et vt 
+      delectabi<lb ed="#P" n="105" break="no"/>lis secundum affectionem commodi secundum quam volebat malus 
+      <lb ed="#P" n="106"/>angelus relicta affectione iusti in ordinate 
+      volende<lb ed="#P" n="107" break="no"/>Tum quia sicut appetitus quilibet sensitiuus summi 
+      <lb ed="#P" n="108"/>appetit delectabile secundum illum sensum quem 
+      consequi<lb ed="#P" n="109" break="no"/>tur et delectationem. Sic appetitus intellectiuus secundum 
+      <lb ed="#P" n="110"/>affectionem commodi primo et summo amore 
+      concu<lb ed="#P" n="111" break="no"/>piscentie appetit summum delectabile secundum intellectum 
+      <lb ed="#P" n="112"/>quod est beatitudo ipsa. Tum quia si ipsa delectatio 
+      so<lb ed="#P" n="113" break="no"/>la esset adhuc a tali appetitu appeteretur et nichil 
+      <lb ed="#P" n="114"/>aliud appetitur sine ea. Patet cum tristicia nihil 
+      ap<lb ed="#P" n="115" break="no"/>petitur quia tristicia est de his que nobis nolentibus 
+      <lb ed="#P" n="116"/>accidunt.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1112">
+      ¶ Et ita primo appetitus angeli amore 
+      <lb ed="#P" n="117"/>concupiscentie appetiuit delectationem vel beatitudi 
+      <lb ed="#P" n="118"/>nem inquantum delectabilis inordinate: quia vel 
+      perfe<lb ed="#P" n="119" break="no"/>ctiorem et maiorem beatitudinem quam sibi competeret 
+      vel<lb ed="#P" n="120" break="no"/>aliquo alio modo quam sibi competeret et quam deus vellet 
+      <lb ed="#P" n="121"/>et peccauit magis conformiter ad luxuriam quam ad 
+      su<lb ed="#P" n="122" break="no"/>perbiam: licet proprie loquendo non fuerit luxuria: 
+      <lb ed="#P" n="123"/>quia tale peccatum consistit in actibus carnis.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1130">
+      ¶ Si 
+      <lb ed="#P" n="124"/>dicatur quod omne peccatum proprie vel est superbia vel 
+      <lb ed="#P" n="125"/>aliquod de septem capitalibus et iste amor 
+      beatitudi<lb ed="#P" n="126" break="no"/>nis proprie no est luxuria nec aliquod aliorum a super 
+      <lb ed="#P" n="127"/>bia. ergo proprie est superbia. Dicunt quod siue peccata 
+      di<lb ed="#P" n="128" break="no"/>stinguantur per habitus naturales quibus opponitur 
+      <!--102.xml-->
+      <pb ed="#P" n="48-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>siue per decem precepta que transgrediuntur ille 
+      se<lb ed="#P" n="2" break="no"/>ptenarius non videtur sufficiens ad omne peccatum 
+      <lb ed="#P" n="3"/>proprie dictum: quia si primo distinguantur 
+      despera<lb ed="#P" n="4" break="no"/>tio non cadit nec infidelitas sub eis sicut nec fides 
+      <lb ed="#P" n="5"/>vel spes sub habitibus oppositis. Si secundo modo 
+      <lb ed="#P" n="6"/>tunc non sufficiunt septem sed debent ese decem: sicut 
+      <lb ed="#P" n="7"/>precepta. Sic dicit iste doctor.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1166">
+      ¶ Quod autem non 
+      fue<lb ed="#P" n="8" break="no"/>rit superbia probatur sic. Immoderatus amor sui non 
+      <lb ed="#P" n="9"/>est superbia: sed magis immoderatus amor peruerse 
+      <lb ed="#P" n="10"/>excellentie secundum Augustinum. Sed angelus primo 
+      pec<lb ed="#P" n="11" break="no"/>cato peccauit immoderato amore sui: vt probatur 
+      <lb ed="#P" n="12"/>multipliciter. Tum quia hoc dicit Augustinus. 14. 
+      <lb ed="#P" n="13"/>de ciuitate dei. ca. 6. et ca. vlti. et ca. 13. videtur 
+      expres<lb ed="#P" n="14" break="no"/>seponere primum peccatum angeli et hominis esse 
+      pla<lb ed="#P" n="15" break="no"/>centiam sui. Uide ibi circa medium capituli quod 
+      immo<lb ed="#P" n="16" break="no"/>deratus amor sui fecit ciuitatem dyaboli: nec fuit 
+      ibi<lb ed="#P" n="17" break="no"/>primum contemptus dei sed amor sui quia contemptus dei 
+      <lb ed="#P" n="18"/>non est nisi nolle deum vel despicere. Non autem 
+      despi<lb ed="#P" n="19" break="no"/>citur nisi quia prius aliquid aliud amatur. Tum quia 
+      <lb ed="#P" n="20"/>non peccauit nimis amando deum nec aliquid aliud quia 
+      <lb ed="#P" n="21"/>nichil aliud fuit sibi maius bonum et plus etiam 
+      natu<lb ed="#P" n="22" break="no"/>raliter diligit seipsum quam quodcumque aliud creatum quam 
+      <lb ed="#P" n="23"/>tumcumque esset maius bonum. ergo amando seipsum. Tum 
+      <lb ed="#P" n="24"/>quia amicabilia que ad alterum veniunt ex his quae ad 
+      <lb ed="#P" n="25"/>seipsum. 9. ethicorum. igitur si dilexerit aliquid inor 
+      <lb ed="#P" n="26"/>dinate probabile est quod seipsum. Tum quia velle 
+      ami<lb ed="#P" n="27" break="no"/>citie ad seipsum est prius quam velle concupiscentie 
+      dili<lb ed="#P" n="28" break="no"/>gendo aliquid aliud propter seipsum: igitur sicut amo 
+      <lb ed="#P" n="29"/>re ordinato secundum iusticiam prius est christum amare 
+      ordi<lb ed="#P" n="30" break="no"/>nate quam aliquid sibi amare. Ita in amore peruerso 
+      <lb ed="#P" n="31"/>prius est seipsum inordinate diligere quam aliquid aliud 
+      <lb ed="#P" n="32"/>sibi inordinate diligere. Tum quia nullum aliud ita 
+      <lb ed="#P" n="33"/>efficaciter mouit intellectum eius sicut sua substantia 
+      <lb ed="#P" n="34"/>vel ipsemet sibi praesens per suam essentiam. Nec est 
+      pro<lb ed="#P" n="35" break="no"/>babile etiam quod affectum.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1229">
+      ¶ Secunda ratio 
+      principa<lb ed="#P" n="36" break="no"/>lis est ista. Superbia est appetitus excellentie 
+      sup<lb ed="#P" n="37" break="no"/>alios. Sed appetitus primus angeli inordinatus 
+      <lb ed="#P" n="38"/>non fuit appetitus excellentie vel amor sed magis 
+      <lb ed="#P" n="39"/>amor sui vt videtur quia prius aliquid inordinate 
+      di<lb ed="#P" n="40" break="no"/>ligitur in seipso quam in comparatione ad alterum vel 
+      vi<lb ed="#P" n="41" break="no"/>excellat aliis. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1245">
+      ¶ Tertia ratio. Appetitus sum 
+      <lb ed="#P" n="42"/>mi commodi et delectabilis: vt delectabile est non est 
+      <lb ed="#P" n="43"/>superbia. Sed si angelus primo peccauit appetendo 
+      <lb ed="#P" n="44"/>beatitudinem sicut dicunt alii peccauit appetendo 
+      sum<lb ed="#P" n="45" break="no"/>mum commodum vel affectione commodi et boni delecta 
+      <lb ed="#P" n="46"/>bilis vt delectabile est in seipso: non autem vt excel 
+      <lb ed="#P" n="47"/>lens super alia quare etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1261">
+      ¶ Quarta ratio est. Super 
+      <lb ed="#P" n="48"/>bia est in irascibili quia respicit arduum secundum quod 
+      hu<lb ed="#P" n="49" break="no"/>iusmodi. Sed nullus actus irascibilis est primus 
+      <lb ed="#P" n="50"/>quia passiones irascibilis oriuntur ex passionibus 
+      <lb ed="#P" n="51"/>concupiscibilis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1272">
+      ¶ Quinta ratio: quia peccatum 
+      <lb ed="#P" n="52"/>primum angeli fuit grauissimum. Sed superbia non est 
+      <lb ed="#P" n="53"/>grauissimum peccatum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1279">
+      ¶ Ista ratio parum 
+      va<lb ed="#P" n="54" break="no"/>let: quia etiam nec luxuria vel aliquid reductum ad 
+      lu<lb ed="#P" n="55" break="no"/>xuriam multo minus est grauissimum peccatum 
+      preci<lb ed="#P" n="56" break="no"/>se sic accipiendo.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1289">
+      ¶ Ad idem videtur esse auctoritas 
+      <lb ed="#P" n="57"/>apostoli ad Tymotheum. 6. quod radix omnium 
+      malo<lb ed="#P" n="58" break="no"/>rum est cupiditas: sed radix et principium idem. Cu 
+      <lb ed="#P" n="59"/>piditas no est superbia. ergo etc. Dicunt ergo quod licet 
+      pri<lb ed="#P" n="60" break="no"/>mum peccatum angeli non fuerit luxuria peccatum 
+      car<lb ed="#P" n="61" break="no"/>nis vel circa carnalia: tamen si ad aliquod peccatum 
+      de<lb ed="#P" n="62" break="no"/>bet reduci. Ita quod recte angelus nimis et 
+      inordina<lb ed="#P" n="63" break="no"/>te diligendo seipsum et delectando in amore sui et per 
+      <lb ed="#P" n="64"/>consequens volendo beatitudinem non vt bonum 
+      excel<lb ed="#P" n="65" break="no"/>lens super bonum aliorum: sed vt delectabile bonum quasi¬ 
+      <!--102.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>carnaliter sapiebat in seipso sicut persona delectans 
+      <lb ed="#P" n="67"/>in seipsa carnaliter et inordinate dicitur peccare 
+      pec<lb ed="#P" n="68" break="no"/>cato luxurie sicut suo modo in persona extrinseca. 
+      <lb ed="#P" n="69"/>Dicunt ergo quod prima deformitas sua fuit inordina 
+      <lb ed="#P" n="70"/>tio actus diligendi seipsum.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1326">
+      ¶ Secundo dicunt 
+      be<lb ed="#P" n="71" break="no"/>ne quod concomitanter ibi fuit superbia quia appetiuit super 
+      <lb ed="#P" n="72"/>excellere alios inordinate. Ego nichil affirmo de 
+      <lb ed="#P" n="73"/>istis: quia etiam relinqui sub dubio quid primo 
+      ap<lb ed="#P" n="74" break="no"/>petierit. Et per consequens relinquo sub dubio 
+      qua<lb ed="#P" n="75" break="no"/>li peccato primo peccauerit. Tamen qui vellet 
+      tene<lb ed="#P" n="76" break="no"/>re istam opinionem posset respondere ad rationes alio 
+      <lb ed="#P" n="77"/>rum probantium quod fuerit superbia. 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e1344">
+               <lb ed="#P" n="78"/>¶ Ad primum diceretur quod 
+      vel<lb ed="#P" n="79" break="no"/>le non subdi deo licet bene concomitanter fuerit in 
+      pec<lb ed="#P" n="80" break="no"/>cato angeli: non tamen fuit primum peccatum: sed inordina 
+      <lb ed="#P" n="81"/>te diligere seipsum. Nec anselmus dicit oppositum 
+      <lb ed="#P" n="82"/>expresse.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1357">
+      ¶ Ad secundum diceretur quod angelus non 
+      <lb ed="#P" n="83"/>peccauit primo volendo beatitudinem: sed inordina 
+      <lb ed="#P" n="84"/>te diligendo seipsum et si aliquo modo consequenter 
+      di<lb ed="#P" n="85" break="no"/>ligendo beatitudinem: non tamen vt propriis viribus 
+      con<lb ed="#P" n="86" break="no"/>sequendam vel vt excelleret aliis: sed vt delectabile 
+      <lb ed="#P" n="87"/>bonum secundum affectionem commodi.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1370">
+      ¶ Ad tertium dice 
+      <lb ed="#P" n="88"/>retur quod angelus seipsum ex inordinato amore 
+      sta<lb ed="#P" n="89" break="no"/>tuit pro fine: et ita inordinate dilexit seipsum: et pri 
+      <lb ed="#P" n="90"/>mo non autem illam excellentiam quantu ponis.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1379">
+      ¶ Ad  
+      <lb ed="#P" n="91"/>quartum dico quod peccauit volendo bonum vtile secundum seipsum 
+      <lb ed="#P" n="92"/>tamen vt fruibile quia seipsum inordinate fruendo licet esset aliquid 
+      <lb ed="#P" n="93"/>vtile et referibile in finem secundum rei veritatem et conqueter 
+      pec<lb ed="#P" n="94" break="no"/>cauit appetendo bonum delectabile beatitudinem. 
+      <lb ed="#P" n="95"/>Non delectabile secundum sensum tactus: sed secundum 
+      affectio<lb ed="#P" n="96" break="no"/>nem et voluntatem.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1396">
+      ¶ Ad quintum quod licet angelus 
+      <lb ed="#P" n="97"/>sic se extulerit non tamen secundum superbiam primo: sed 
+      conse<lb ed="#P" n="98" break="no"/>quenter vt dictum est: ideo non concludit. Ad 
+      auctori<lb ed="#P" n="99" break="no"/>tatem illam quod initium omnis peccati superbia.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1405">
+      ¶ 
+      Di<lb ed="#P" n="100" break="no"/>co quod conuenienter exponi potest quod non intelligit de 
+      <lb ed="#P" n="101"/>superbia que est peccatum speciale distinctum contra 
+      <lb ed="#P" n="102"/>alia sex capitalia: sed potius de superbia 
+      communite<lb ed="#P" n="103" break="no"/>dicta que est se efferre contra preceptum dei et ista 
+      in<lb ed="#P" n="104" break="no"/>uenitur in omni peccato et est aliquo modo 
+      princi<lb ed="#P" n="105" break="no"/>pium omnis peccati.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1421">
+      ¶ Aliter exponerent alii de alia 
+      <lb ed="#P" n="106"/>opinione quod intelligit de superbia que est nimia 
+      com<lb ed="#P" n="107" break="no"/>placentia in seipso: et nimius amor sui. Eo modo quo 
+      <lb ed="#P" n="108"/>aliquis complacens in seipso et placens sibiipsi 
+      super<lb ed="#P" n="109" break="no"/>bire dicitur. Sicut etiam displicens sibiipsi et 
+      vilipen<lb ed="#P" n="110" break="no"/>dens seipsum humilis reputatur. Et talem superbiam 
+      <lb ed="#P" n="111"/>Augustinus vocat presumptionem. 190 de 
+      trinita<lb ed="#P" n="112" break="no"/>te et hec non est superbia speciale peccatum: nec 
+      distin<lb ed="#P" n="113" break="no"/>ctum contra alia nec ad intensionem ipsorum. Sic igi 
+      <lb ed="#P" n="114"/>tur patet de ista questione 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e1443">
+               <lb ed="#P" n="115"/>¶ Ad argumenta principalia 
+      </p>
+            <p xml:id="qrdBas-b29907-d1e1448">
+               <lb ed="#P" n="116"/>¶ Ad primum dico quod quicquid sit vel fuerit de facto 
+      <lb ed="#P" n="117"/>quod angelus potuit appetere diuinam equalitatem. 
+      <lb ed="#P" n="118"/>Quando dicis quod non: quia istud non est intelligibile 
+      <lb ed="#P" n="119"/>quia includit contradictionem.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1459">
+      ¶ Dico quod sicut patet 
+      <lb ed="#P" n="120"/>ex predictis. voluntas potest esse impossibilium et 
+      <lb ed="#P" n="121"/>includentium contradictionem et ad hoc sufficit praesen 
+      <lb ed="#P" n="122"/>tatio simplicium terminorum per intellectum. Nec 
+      re<lb ed="#P" n="123" break="no"/>quiritur quod intellectu prius intelligat complexionem. 
+      <lb ed="#P" n="124"/>illam vel formet.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1473">
+      ¶ Dico igitur quod illud quod nullo 
+      mo<lb ed="#P" n="125" break="no"/>do est intelligibile non est appetibile. Sed bene quod 
+      <lb ed="#P" n="126"/>aliquo modo est intelligibile sicut complexio in 
+      ter<lb ed="#P" n="127" break="no"/>minis suis.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1482">
+      ¶ Aliter dicitur quod licet angelum esse 
+      <lb ed="#P" n="128"/>deum vel equalem deo implicet contradictionem et non 
+      <!--103.xml-->
+      <pb ed="#P" n="48-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sit vnum per intelligibile: tamen intelligibile est aliquo 
+      <lb ed="#P" n="2"/>modo ab angelo formando talem complexionem et 
+      po<lb ed="#P" n="3" break="no"/>tuit eam formare angelus ante peccatum non 
+      assentien<lb ed="#P" n="4" break="no"/>do tali propositioni tanquam vere vel possibili quia tunc 
+      <lb ed="#P" n="5"/>errasset et etiam absolute postea potuit hoc velle sicut 
+      <lb ed="#P" n="6"/>dictum est supra.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1506">
+      ¶ Aliter potest dici secundum aliquos quod 
+      <lb ed="#P" n="7"/>angelus nunquam potuit appetere nec appetiit 
+      ange<lb ed="#P" n="8" break="no"/>lum manentem angelum esse deum vel equalem deo sed 
+      an<lb ed="#P" n="9" break="no"/>gelum fieri deum et esse deum dimittendo esse angeli et 
+      <lb ed="#P" n="10"/>accipiendo formam dei.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1517">
+      ¶ Ad secundum dico quod si 
+      ange<lb ed="#P" n="11" break="no"/>lus appetiit equalitatem dei peccauit. Tu dicis hoc 
+      <lb ed="#P" n="12"/>est simpliciter bonum.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1524">
+      ¶ Dico quod hoc est verum bonum 
+      <lb ed="#P" n="13"/>et necessarium in quocumque et calicitum potest conuenire 
+      <lb ed="#P" n="14"/>et conuenire non potest cuicuns non conuenit in actu et ideo 
+      <lb ed="#P" n="15"/>peruerse vult hoc bonum in esse alicui cui actu non 
+      <lb ed="#P" n="16"/>inest. Ita quod volendo verum bonum eo modo et illi cui 
+      <lb ed="#P" n="17"/>debet esse volitum et quomodo debet esse volitum non 
+      <lb ed="#P" n="18"/>est pectantum: sed alio modo bene. Dices esse similemdeo 
+      <lb ed="#P" n="19"/>est finis creature intellectualis. igitur appetendo hoc 
+      <lb ed="#P" n="20"/>non peccauit angelus: dato quod hoc appetierit.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1544">
+      ¶ 
+      Di<lb ed="#P" n="21" break="no"/>co quod esse similem deo similitudine remota per gloriam 
+      <lb ed="#P" n="22"/>non per naturam est finis intellectualis creature. 
+      <lb ed="#P" n="23"/>Ad tertium de adam mente predito et de 
+      angelo<lb ed="#P" n="24" break="no"/>dictum est supra.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1556">
+      ¶ Ad quartum dico quod ratio se 
+      ha<lb ed="#P" n="25" break="no"/>bet sicut regula ad voluntatem et ideo ipsa existente 
+      <lb ed="#P" n="26"/>non recta voluntas non est recta sicut nec regulatum 
+      <lb ed="#P" n="27"/>sine regula: sed non oportet quod econuerso ratione 
+      existen<lb ed="#P" n="28" break="no"/>te recta sit voluntas recta potest enim regula 
+      mane<lb ed="#P" n="29" break="no"/>re et esse recta sine regulato. Et dato quod regulatum 
+      <lb ed="#P" n="30"/>non sit rectum: quia habet obliquitatem aliunde.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1572">
+      ¶ Alio 
+      <lb ed="#P" n="31"/>ter dicitur quod ratio recta dupliciter potest accipi. 
+      vno<lb ed="#P" n="32" break="no"/>modo pro noticia conformi ad obiectum precise: si 
+      <lb ed="#P" n="33"/>cut est scientia libri ethicorum quantum ad vera que 
+      ib<lb ed="#P" n="34" break="no"/>continentur. Et de ista dicitur quod ista stante recta 
+      vo<lb ed="#P" n="35" break="no"/>luntas potest in oppositum et esse non recta secundum 
+      articu<lb ed="#P" n="36" break="no"/>los in praecedenti questione allegatos. Alio modo 
+      po<lb ed="#P" n="37" break="no"/>test accipi ratio recta prout loquitur de ea 
+      Aristo<lb ed="#P" n="38" break="no"/>teles. 6. ethicorum secundum quod est actus virtutis 
+      intelle<lb ed="#P" n="39" break="no"/>ctualis quo est prudentia habens conformitatem non 
+      <lb ed="#P" n="40"/>solum ad obiectum sed etiam ad appetitum rectum si 
+      <lb ed="#P" n="41"/>cut ad regulam suam et principium suum et sic 
+      impos<lb ed="#P" n="42" break="no"/>sibile est et implicat contradictionem quod ratione 
+      stan<lb ed="#P" n="43" break="no"/>te recta doluntas vel appetitus possit esse non 
+      re<lb ed="#P" n="44" break="no"/>ctus nec sic intelligit articulus sed eo modo quo 
+      di<lb ed="#P" n="45" break="no"/>ctum est supra. Si aut angelus peccasset appetendo 
+      <lb ed="#P" n="46"/>equalitatem diuinam potuisset habuisse vel habere 
+      ra<lb ed="#P" n="47" break="no"/>tionem rectam primo modo et non obstante peccasser 
+      <lb ed="#P" n="48"/>et habuisset voluntatem non rectam non autem habuit 
+      <lb ed="#P" n="49"/>set rationem rectam. Secundo modo. Si enim isto 
+      mo<lb ed="#P" n="50" break="no"/>do rationem rectam habuisset appetitum rectum habuit 
+      <lb ed="#P" n="51"/>set et sic non peccasset non curo de ista solutione. Ad ar 
+      <lb ed="#P" n="52"/>ctoritates in oppositum.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1622">
+      ¶ Ad primam auctoritatem 
+      <lb ed="#P" n="53"/>et ad alias duas auctoritates aductas in oppositum 
+      <lb ed="#P" n="54"/>que videntur omnino concludere quod angelus 
+      appo<lb ed="#P" n="55" break="no"/>tierit equalitatem diuinam de facto.
+    </p>
+            <p xml:id="qrdBas-b29907-d1e1631">
+      ¶ Dico quod 
+      vel<lb ed="#P" n="56" break="no"/>simpliciter sicut pretendunt dicunt verum vel 
+      expo<lb ed="#P" n="57" break="no"/>nendo de superbia dyaboli qua quam superbia videtur 
+      <lb ed="#P" n="58"/>vsurpari celsitudo diuina vel de nimio amore sui 
+      <lb ed="#P" n="59"/>fruendo seipso non referendo in finem licet 
+      referi<lb ed="#P" n="60" break="no"/>bilis esset: et ita dei proprietatem vsurpabat qui so 
+      <lb ed="#P" n="61"/>lus iuste fruitur seipso: quia solus finem non habet 
+      <lb ed="#P" n="62"/>in quem referri debeat: sed propter seipsum est 
+      dili<lb ed="#P" n="63" break="no"/>gendus. Nulla autem creatura licite potest frui se 
+      <lb ed="#P" n="64"/>ipsa vel alia: sed vti tantum referendo in finem illum 
+      <lb ed="#P" n="65"/>benedictum qui est deus.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

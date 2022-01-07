@@ -1,0 +1,888 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="10-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-be6275"><!--l2d1q3 -->
+            <head xml:id="qrdBas-be6275-Hd1e99">Quaestio 3</head>
+            <p xml:id="qrdBas-be6275-d1e101">
+      ¶ Questio tertia. 
+      <lb ed="#P" n="75"/>Tertio quero utrum 
+      <lb ed="#P" n="76"/>creatio vel productio 
+      creatu<lb ed="#P" n="77" break="no"/>rarum de necessitate 
+      presup<lb ed="#P" n="78" break="no"/>ponat productionem diuinarum 
+      <lb ed="#P" n="79"/>personarum 
+    </p>
+            <p xml:id="qrdBas-be6275-d1e114">
+      Uidetur quod non 
+      <lb ed="#P" n="80"/>Illud quod est essentiale in 
+      di<lb ed="#P" n="81" break="no"/>et uinis prius est quam notionale 
+      <lb ed="#P" n="82"/>quia prius est absolutum quam 
+      res<lb ed="#P" n="83" break="no"/>pectiuum. Sed 
+      producerecrea<lb ed="#P" n="84" break="no"/>turam est aliquid essentiale et commune quia est idem 
+      <lb ed="#P" n="85"/>quod velle. Producere vero personam est 
+      notiona<lb ed="#P" n="86" break="no"/>le et respectus vt patet ergo. etc.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e132">
+      ¶ Secundo sic. Si 
+      <lb ed="#P" n="87"/>cut principium ad principium / ita operatio ad 
+      ope<lb ed="#P" n="88" break="no"/>rationem. Sed principium productiuum creature 
+      <lb ed="#P" n="89"/>est prius principio productio persone / quia primum 
+      <lb ed="#P" n="90"/>est essentiale et perfectio simpliciter secundum 
+      vero<lb ed="#P" n="91" break="no"/>videtur notionale et respectus igitur. etc.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e145">
+      ¶ Tertio 
+      <lb ed="#P" n="92"/>sic Si actio productiua creature presupponeret 
+      pro<lb ed="#P" n="93" break="no"/>ductionem personarum. Sequeretur quod esset trium 
+      <lb ed="#P" n="94"/>suppositorum. Cum igitur actiones sint 
+      supposito<lb ed="#P" n="95" break="no"/>rum et numerentur secundum supposita vti videtur 
+      sequi<lb ed="#P" n="96" break="no"/>tur quod actio productiua creature non esset vna sed  
+      <lb ed="#P" n="97"/>tres sicut tria supposita.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e162">
+      ¶ Quarto sic Richardus 
+      <lb ed="#P" n="98"/>tertio de trinitate dicit quod si tantum esset vna perso 
+      <lb ed="#P" n="99"/>na in diuina natura adhuc in ea esset plenitudo 
+      sa<lb ed="#P" n="100" break="no"/>pientie et potentie. Sed hoc posito ipsa posset 
+      crea<lb ed="#P" n="101" break="no"/>re igitur productio creare no de necessitate 
+      presup<lb ed="#P" n="102" break="no"/>ponit productionem personarum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e175">
+      ¶ Quinto sic 
+      <lb ed="#P" n="103"/>Si productio creaturarum necessario 
+      presuppone<lb ed="#P" n="104" break="no"/>ret productionem personarum. Sequeretur quod 
+      pro<lb ed="#P" n="105" break="no"/>ductio creaturarum argueret productionem perso 
+      <lb ed="#P" n="106"/>narum et per consequens philosophi qui secundum 
+      ratio<lb ed="#P" n="107" break="no"/>nem naturalem posuerunt creationem et 
+      productio<lb ed="#P" n="108" break="no"/>nem creaturarum potuissent naturaliter deuenisse 
+      <lb ed="#P" n="109"/>in noticiam productionis diuinarum personarum 
+      <lb ed="#P" n="110"/>quod est falsum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e195">
+      ¶ Contra productio creaturarum 
+      <lb ed="#P" n="111"/>presupponit de necessitate suum principium. Sed  
+      <lb ed="#P" n="112"/>pater et filius et spiritus sanctus sunt vnum 
+      princi<lb ed="#P" n="113" break="no"/>pium creature sicut pater et filius vnum principium 
+      <lb ed="#P" n="114"/>spiritus sancti secundum Augustinum quinto de 
+      trini<lb ed="#P" n="115" break="no"/>tate. igitur creatio presupponit personas 
+      produ<lb ed="#P" n="116" break="no"/>ctas et per consequens productiones ipsarum. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e211">
+               <lb ed="#P" n="117"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="118" break="no"/>dam. Primo inquiram vtrum creatura secundum 
+      essein<lb ed="#P" n="119" break="no"/>tellectuale et per consequens secundum esse potentiale pre 
+      <lb ed="#P" n="120"/>supponat necessario productiones diuinarum per 
+      <lb ed="#P" n="121"/>sonarum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e224">
+      ¶ Secundo vtrum creatura secundum esse suum 
+      <lb ed="#P" n="122"/>actualis existentie / creatum et productum 
+      presup<lb ed="#P" n="123" break="no"/>ponat necessario productiones diuinarum 
+      perso<lb ed="#P" n="124" break="no"/>narum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e233">
+      ¶ Tertio an supposito quod in diuinis non 
+      <lb ed="#P" n="125"/>esset nisi vna persona absoluta sicut posuerunt philosoph 
+      <lb ed="#P" n="126"/>et ponunt iudei an posset stare productio crearturarum. 
+      <!--28.xml-->
+      <pb ed="#P" n="11-r"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-be6275-d1e247">
+               <lb ed="#P" n="1"/>¶ Quantum ad primum 
+      ar<lb ed="#P" n="2" break="no"/>ticulum secundum vnam opinionem dico sicut dictum est 
+      <lb ed="#P" n="3"/>in primo. distinctione. xxxvi. quod creatura non prius 
+      <lb ed="#P" n="4"/>habet esse intelligibile quam intellectum sed simul 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e258">
+               <lb ed="#P" n="5"/>¶ Secundo quod idem est iudicium de esse possibili et 
+      in<lb ed="#P" n="6" break="no"/>tellecto esse creature sicut dictum est distinctione. 4 
+      2a<lb ed="#P" n="7" break="no"/>Dictum est enim ibi quod creatura constituitur in esse 
+      pos<lb ed="#P" n="8" break="no"/>sibili per intellectum diuinum seu per intellectum eius 
+      in<lb ed="#P" n="9" break="no"/>questione secunda illius distinctionis.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e271">
+      ¶ Tunc dico quantum 
+      <lb ed="#P" n="10"/>ad istum articulum secundum ista quod creatura quantum ad suum 
+      <lb ed="#P" n="11"/>esse intelligibile et intellectum et per consequens quam ad suum 
+      <lb ed="#P" n="12"/>esse possibile necessario praesupponit productionem 
+      di<lb ed="#P" n="13" break="no"/>uinarum personarum. Ita quod productio diuinarum 
+      per<lb ed="#P" n="14" break="no"/>sonarum est prior natura ipsa creatura secundum esse intel 
+      <lb ed="#P" n="15"/>ligibile vel intellectum et per consequens secundum esse possibile. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e287">
+               <lb ed="#P" n="16"/>¶ Hoc probo primo sic. Unaqueque potentia 
+      operati<lb ed="#P" n="17" break="no"/>ua vel productiua prius habet actum operandi vel 
+      <lb ed="#P" n="18"/>operationem seu productionem circa obiectum primarium 
+      <lb ed="#P" n="19"/>quam cir ca obiectum secundarium vt patet de se et prius 
+      natu<lb ed="#P" n="20" break="no"/>ra si sit obiectum secundarium et extrinsecum et dependens 
+      <lb ed="#P" n="21"/>igitur intellectus diuimus prius habet operationes 
+      <lb ed="#P" n="22"/>intelligendi circa obiectum suum primarium quod est 
+      <lb ed="#P" n="23"/>essentia. et etiam actum producendi verbum quam circa quod 
+      <lb ed="#P" n="24"/>cunque obiectum creatum secundarium vel creabile est. 
+      <lb ed="#P" n="25"/>Sed in illo priori conicatur natura diuina ipsifilio a 
+      <lb ed="#P" n="26"/>patre et spiritui sancto ab vtroque ergo prior est 
+      produ<lb ed="#P" n="27" break="no"/>ctio istarum personarum quam creature secundum esse intellectum 
+      <lb ed="#P" n="28"/>vel possibile.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e318">
+      ¶ Secunda ratio prior est habitudo 
+      na<lb ed="#P" n="29" break="no"/>ture diuine ad propria supposita sibi intrinseca quam ad 
+      <lb ed="#P" n="30"/>quodcumque extrinsecum et per consequens quam ad creaturam. Sed 
+      <lb ed="#P" n="31"/>supposita plura non sunt in natura diuina nisi per 
+      pro<lb ed="#P" n="32" break="no"/>ductiones. ergo priores sunt productiones diuinarum 
+      <lb ed="#P" n="33"/>personarum quam creaturarum in quocumque esse etiam possi 
+      <lb ed="#P" n="34"/>bili vel intelligibili seu intellecto.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e334">
+      ¶ Tertia ratio 
+      <lb ed="#P" n="35"/>Simpliciter necesse esse independens est prius 
+      natu<lb ed="#P" n="36" break="no"/>ra ente diminuto et secundum quid. Sed creatura secundum esse 
+      pos<lb ed="#P" n="37" break="no"/>sibile vel intellectum seu intelligibile estens diminutum 
+      <lb ed="#P" n="38"/>et secundum quid. Quelibet autem diuina productio cum sit 
+      <lb ed="#P" n="39"/>idipsum quod deus est simpliciter necesse esse ergo. etc 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e348">
+               <lb ed="#P" n="40"/>¶ Quarta ratio est ista quia aut productio diuinam 
+      <lb ed="#P" n="41"/>personarum est prior natura ipsa creatura vel 
+      quidi<lb ed="#P" n="42" break="no"/>tate creature secundum esse intellectum vel esse possibile. Aut 
+      <lb ed="#P" n="43"/>simul natura aut posterior. Sed non potest esse simul quia 
+      <lb ed="#P" n="44"/>vnum est deus et aliud non / productio enim divine 
+      perso<lb ed="#P" n="45" break="no"/>ne / deus est qui non potest esse simul natura cum aliqua 
+      <lb ed="#P" n="46"/>creatura / nec etiam sunt inuicem correlativa / nec 
+      poste<lb ed="#P" n="47" break="no"/>rior natura per eandem rationem. igitur prior natura. igitur 
+      ne<lb ed="#P" n="48" break="no"/>cessario presupponitur a creatura secundum esse 
+      intelligibi<lb ed="#P" n="49" break="no"/>le et intellectum et esse possibile quia de istis idem est 
+      iu<lb ed="#P" n="50" break="no"/>dicium. Eodem modo praet argui / dato quod creatura prius 
+      ha<lb ed="#P" n="51" break="no"/>beat esse intelligibile per essentiam quam per intellectum / per 
+      in<lb ed="#P" n="52" break="no"/>tellectionem secundum aliam opinionem in primo tactam. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e379">
+               <lb ed="#P" n="53"/>¶ Circa quod est aduertendum quod deus et 
+      intrinse<lb ed="#P" n="54" break="no"/>ca omnia eius prior est ordine nature cuiuscumque extrinse 
+      <lb ed="#P" n="55"/>ci positi. In in illo autem priori nature completur totus 
+      <lb ed="#P" n="56"/>ordo originis diuinarum personarum et producuntur persone 
+      <lb ed="#P" n="57"/>divine et pro illo priori Deus nondum intelligit aliquid 
+      <lb ed="#P" n="58"/>extrinsecum. Sed personis productis in secundo signo 
+      intel<lb ed="#P" n="59" break="no"/>liguntur creature ab ipso et habent primo esse possibile et 
+      re<lb ed="#P" n="60" break="no"/>presentantur per essentiam diuinam personis iam productis. 
+      <lb ed="#P" n="61"/>Non quia persone producte sint rationes causales vel 
+      for<lb ed="#P" n="62" break="no"/>males intelligendi / sed propter causas praedictas quia 
+      intelle<lb ed="#P" n="63" break="no"/>ctus ordine quodam habet suam operationem circa ob¬ 
+      <!--28.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>lectum primarium et secundarium / et similiter voluntas. 
+      <lb ed="#P" n="65"/>Ita quod prius natura circa obiectum primarium quod 
+      <lb ed="#P" n="66"/>est essentia quam circa secundarium quod est creatura et in 
+      <lb ed="#P" n="67"/>illo priori nature divine persone producuntur / et sic 
+      pro<lb ed="#P" n="68" break="no"/>ductiones earum necessario praesupponitur 
+      productioni<lb ed="#P" n="69" break="no"/>creature secundum esse intellectum vel possibile. In 
+      secun<lb ed="#P" n="70" break="no"/>do autem signo nature intelligit deus creaturam. Et 
+      <lb ed="#P" n="71"/>dico quod nullo seruatur ordo originis inter personas 
+      di<lb ed="#P" n="72" break="no"/>uinas et in intelligendo creaturam / quia dico quod pate prius 
+      <lb ed="#P" n="73"/>origine intelligit. Secundo filius. Tertio spiritus 
+      san<lb ed="#P" n="74" break="no"/>ctus / quia quod pater intelligat hoc habet a se. Sed quod 
+      fi<lb ed="#P" n="75" break="no"/>lius intelligat ho / habet a patre et quod spiritus sanctus 
+      in<lb ed="#P" n="76" break="no"/>telligat hoc / habet ab vtroque. Et iste ordo in 
+      intel<lb ed="#P" n="77" break="no"/>lectione creature non accipitur ex parte obiecti vel 
+      <lb ed="#P" n="78"/>creature intellecte quia obiectum est penitus idem. Nec 
+      <lb ed="#P" n="79"/>ex parte intellectus absolute / sed magis ex parte 
+      sup<lb ed="#P" n="80" break="no"/>positorum intelligentium / quiuorum secudum est a primo 
+      <lb ed="#P" n="81"/>et tertium ab vtroque. Secus autem est de intellectione 
+      di<lb ed="#P" n="82" break="no"/>uinarum personarum in suo priori nature. Pater enim 
+      <lb ed="#P" n="83"/>primo secundum originem intelligit seipsum / secundo filium / terton 
+      <lb ed="#P" n="84"/>spiritum sanctum. Sed iste ordo non accipitur ex 
+      parte<lb ed="#P" n="85" break="no"/>intelligentis nec intellectionis sed ex parte obiecto 
+      <lb ed="#P" n="86"/>rum cognitorum / puta personarum quarum vna est 
+      pri<lb ed="#P" n="87" break="no"/>ma secundum originem / et ideo primo intelligitur. Alia 
+      <lb ed="#P" n="88"/>vero est secunda et ideo secundo. Alia est tertia et ideo tertio 
+      im<lb ed="#P" n="89" break="no"/>telligitur. Omnes tamen simul et secundum naturam et in eodem 
+      <lb ed="#P" n="90"/>signo nature et prius natura quam aliqua creatura.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e468">
+      ¶ Ex 
+      <lb ed="#P" n="91"/>quibus patet opinio eorum falsa qui dicunt quod prius deus 
+      <lb ed="#P" n="92"/>pater intelligit creaturam etiam de quacumque 
+      intellectio<lb ed="#P" n="93" break="no"/>ne siue simplici siue dispositiua quam producat personam 
+      <lb ed="#P" n="94"/>Similiter etiam quod prius velit amore simplicis 
+      compla<lb ed="#P" n="95" break="no"/>centie quam producat speitum sanctum apparet esse falsum. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e481">
+               <lb ed="#P" n="96"/>¶ Contra tamen praedicta arguitur dupliciter. Primo sic. 
+      <lb ed="#P" n="97"/>Tu dicis quod pater prius intelligit creaturam quam filius 
+      <lb ed="#P" n="98"/>Sed in illo priori filius non intelligit nec est. ergo 
+      crea<lb ed="#P" n="99" break="no"/>tura prius habet esse intellectum quam filius sit quia priusquam 
+      <lb ed="#P" n="100"/>intelligat. Idem est enim filio intelligere et esse. ergo 
+      <lb ed="#P" n="101"/>creatura non praesupponit productionem filii secundum esse 
+      ine<lb ed="#P" n="102" break="no"/>tellectum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e499">
+      ¶ Secundo sic. Illud non praesupponit 
+      produ<lb ed="#P" n="103" break="no"/>ctionem filii quod conicatur filio a patre quia quod conicatur 
+      <lb ed="#P" n="104"/>presupponitur in diuinis illi cui conicetur et 
+      productio<lb ed="#P" n="105" break="no"/>ni per quam communicatur filio a patre quia quod filius 
+      in<lb ed="#P" n="106" break="no"/>telligat hoc habet a patre sicut quod sit. igitur 
+      intellectio<lb ed="#P" n="107" break="no"/>creature non praesupponit productionem filii nec per 
+      con<lb ed="#P" n="108" break="no"/>sequens esse intellectum creature quia simul sunt esse 
+      <lb ed="#P" n="109"/>intellectum et intellectio.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e517">
+      ¶ Confirmatur quia 
+      <lb ed="#P" n="110"/>filio non communicatur intellectio creature nisi 
+      <lb ed="#P" n="111"/>per productionem. Sed in illo instanti priori 
+      natu<lb ed="#P" n="112" break="no"/>re in quo completur productio nondum habetur in 
+      <lb ed="#P" n="113"/>tellectio secundum te. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e529">
+      ¶ Ad primum dico quod 
+      in<lb ed="#P" n="114" break="no"/>illo priori nature correspondente omnibus 
+      intrin<lb ed="#P" n="115" break="no"/>secis diuinis secundum quod huiusmodi producuntur 
+      diui<lb ed="#P" n="116" break="no"/>ne persone. In signo secundo nature intelligitur 
+      crea<lb ed="#P" n="117" break="no"/>tura et prius origine a patre / sed ex hoc non 
+      sequi<lb ed="#P" n="118" break="no"/>tur quod non a filio. Patrem enim intelligere 
+      creatu<lb ed="#P" n="119" break="no"/>ram prius secundum originem non est patrem 
+      intelligere<lb ed="#P" n="120" break="no"/>et filium non intelligere sed patrem intelligere a se 
+      <lb ed="#P" n="121"/>et filium a patre et ita super falsum curret 
+      argumen<lb ed="#P" n="122" break="no"/>tum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e551">
+      ¶ Ad secundum dico quod pater prius origine 
+      <lb ed="#P" n="123"/>habet intellectionem creature quam filius. Non quia 
+      ha<lb ed="#P" n="124" break="no"/>beat ipsam ante productionem filii filio non 
+      habe<lb ed="#P" n="125" break="no"/>te sed quia filio producto pater habet eam a se et 
+      fi<lb ed="#P" n="126" break="no"/>lius a patre sicut concreatam sibi / ita quod ibi non est ordo ex 
+      per<lb ed="#P" n="127" break="no"/>te intelltionis et obiecti sed ex parte suppositorum intel¬ 
+      <!--29.xml-->
+      <pb ed="#P" n="11-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ligentium quorum vnum est ab alio intelligit 
+      con<lb ed="#P" n="2" break="no"/>sequenter ab alio.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e575">
+      ¶ Et quando dicis prius est 
+      com<lb ed="#P" n="3" break="no"/>municatum quam illud cui communicabitur. Dico quod 
+      <lb ed="#P" n="4"/>verum est non natura sed origine in diuinis etet non sper sed 
+      <lb ed="#P" n="5"/>secundum quod illi cui conicatur est habens ipsum quod commuicatur 
+      <lb ed="#P" n="6"/>Unde licet intellectio creature non sit prior filio 
+      sim<lb ed="#P" n="7" break="no"/>pliciter. producto vel productione filii simpliciter / 
+      ta<lb ed="#P" n="8" break="no"/>men est prior ipso vt intelligens creaturam et hoc in 
+      pa<lb ed="#P" n="9" break="no"/>tre quia in patre est a se et in filo a patre et est prior 
+      pro<lb ed="#P" n="10" break="no"/>ductione filii secundum quid. Puta vt intelligens creati 
+      <lb ed="#P" n="11"/>ram licet non productione simpliciter. vt est verbum et deus: 
+      <lb ed="#P" n="12"/>et sic patet ad illud quod obiicitur. Et ita dico quod 
+      in<lb ed="#P" n="13" break="no"/>tellectio creature prior est in patre secundum originem quam 
+      <lb ed="#P" n="14"/>in filio licet pater non habeat ipsam nisi 
+      producto<lb ed="#P" n="15" break="no"/>filio quia ipso producto pater habet eam a se et filius 
+      <lb ed="#P" n="16"/>a patre sicut recte est de creatione vt dicetur infra. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e608">
+               <lb ed="#P" n="17"/>¶ Si dicas vltra quod creatura prius producitur in 
+      <lb ed="#P" n="18"/>esse intelligibili a patre. igitur non potest produci sa 
+      <lb ed="#P" n="19"/>filio in eodem esse nisi bis producatur in tali esse quia 
+      po<lb ed="#P" n="20" break="no"/>tentia habens prius origine terminum adequatum quam com 
+      <lb ed="#P" n="21"/>municetur alteri non est illi ratio operandi / et ita intel 
+      <lb ed="#P" n="22"/>lectus non est in filio ratio constituendi creaturam 
+      in<lb ed="#P" n="23" break="no"/>esse intellecto vel intelligibili.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e626">
+      ¶ Dico quod simul 
+      na<lb ed="#P" n="24" break="no"/>tura et eadem intellectione constituitur creatura in esse 
+      <lb ed="#P" n="25"/>intelligibili et intellecto a patre et a filio licet prius 
+      <lb ed="#P" n="26"/>prigine a patre quam a filio et ita non bis sed simul. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e635">
+               <lb ed="#P" n="27"/>¶ Dicis vltra de potentia habente terminum 
+      adequa<lb ed="#P" n="28" break="no"/>tum. Dico quod intellectus antequam conicetur filio per 
+      pro<lb ed="#P" n="29" break="no"/>ductionem simpliciter non habet creaturam pro 
+      termine<lb ed="#P" n="30" break="no"/>adequato immo nec simpliciter pro termino. Prius 
+      <lb ed="#P" n="31"/>enim verbum natura simpliciter producitur et conica 
+      <lb ed="#P" n="32"/>tur sibi intellectus.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e652">
+      ¶ Secundo vero creatura ab 
+      am<lb ed="#P" n="33" break="no"/>bobus vel tribus intelligitur. Dicis quod prius origine 
+      <lb ed="#P" n="34"/>saltem est terminus potentie intellectiue in patre 
+      <lb ed="#P" n="35"/>Dico quod verum est / sed conclusio non est propositum quia 
+      <lb ed="#P" n="36"/>iam praeconicatus erat intellectus ordine nature ideo. etc. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e663">
+               <lb ed="#P" n="37"/>¶ Ad confirmationem potest patere ex predictis. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e668">
+               <lb ed="#P" n="38"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="39" break="no"/>ticulum. Est opinio vnius doctoris 
+      sextoquolibe<lb ed="#P" n="40" break="no"/>to questione tertia. quod philosophi qui non posuerum 
+      <lb ed="#P" n="41"/>in deo nisi vnum suppositum absolutum / et per consequens negau 
+      <lb ed="#P" n="42"/>runt productiones personarum conquenter circa 
+      producti<lb ed="#P" n="43" break="no"/>nem creaturarum errauerunt. Non enim posuerunt in 
+      <lb ed="#P" n="44"/>deo noticiam declaratiuam et dispositiuam expriessam de 
+      <lb ed="#P" n="45"/>noticia simplici que quidem noticia declaratiua et 
+      <lb ed="#P" n="46"/>dispositiua de fiendo est verbum diuinum productum et 
+      <lb ed="#P" n="47"/>filius dei. Nec posuerunt in deo amorem praecedentem et 
+      <lb ed="#P" n="48"/>intensiuum seu affectiuum de producendo rem que 
+      qui<lb ed="#P" n="49" break="no"/>dem amor est spiritus sanctus procedens de amore 
+      sim<lb ed="#P" n="50" break="no"/>plicis complacentie rei sed solum posuerunt in deo 
+      not<lb ed="#P" n="51" break="no"/>ciam simplicis intelligentie et amorem simplicis 
+      compla<lb ed="#P" n="52" break="no"/>centie respectu creaturarum et quia noticia talis et 
+      amor<lb ed="#P" n="53" break="no"/>etiam necessario cadunt supra creaturas hinc est quod 
+      con<lb ed="#P" n="54" break="no"/>equenter posuerunt deum agere de necessitate ipsas 
+      <lb ed="#P" n="55"/>creaturas sicut necessario intelligit eas noticia 
+      sim<lb ed="#P" n="56" break="no"/>plici et vult eas amore simplicis complacentie sicut est 
+      <lb ed="#P" n="57"/>dictum est in primo et in hoc errauerunt.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e714">
+      ¶ Sed nos 
+      <lb ed="#P" n="58"/>fideles qui ponimus in diuinis verbum productum 
+      quasi<lb ed="#P" n="59" break="no"/>noticiam et artem patris dispositiuam de fiendis et 
+      ami<lb ed="#P" n="60" break="no"/>rem affectantem de fiendis quae est ipse spiritus 
+      sanci<lb ed="#P" n="61" break="no"/>quibus deus libere disposuit et vult omnia facere 
+      <lb ed="#P" n="62"/>quecunque facit facile possumus vt dicit saluare 
+      libe<lb ed="#P" n="63" break="no"/>tatem et contingentiam creationis et quantum ad effectum 
+      <!--29.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>et quantum ad perfectionem eius vel modum. Ita quod nec 
+      <lb ed="#P" n="65"/>necessario producit creando aliquid nec necessario 
+      <lb ed="#P" n="66"/>creat ipsum modo meliori quo potest ex parte effectus vel per 
+      <lb ed="#P" n="67"/>fectius sicut potest. Ulterius dicit quod productio 
+      intrin<lb ed="#P" n="68" break="no"/>seca diunarum personarum necessario secundum causalitati 
+      <lb ed="#P" n="69"/>presupponitur productioni creaturarum et per 
+      con<lb ed="#P" n="70" break="no"/>sequens creaturis in esse reali producto vel creato 
+      <lb ed="#P" n="71"/>quia noticia simplex et amor rei creande non sunt 
+      su<lb ed="#P" n="72" break="no"/>ficientia nec perfecta principia in deo patre donec 
+      perfi<lb ed="#P" n="73" break="no"/>ciantur per noticiam productam dispositiuam que est 
+      <lb ed="#P" n="74"/>verbum / et per amorem affectantem productum qui 
+      <lb ed="#P" n="75"/>est ipse spiritus sanctus. Sed noticia simplex et 
+      amor<lb ed="#P" n="76" break="no"/>sunt principia remota productionis creature secundum se 
+      <lb ed="#P" n="77"/>accepte / ita quod pater habens filium productum perficit 
+      <lb ed="#P" n="78"/>in noticia simplici inquantum talis noticia est principium 
+      <lb ed="#P" n="79"/>creature et amor vtriusque per specitum sanctum / et ydee pro 
+      <lb ed="#P" n="80"/>quanto spectant ad intellectum paternum secundum se 
+      specu<lb ed="#P" n="81" break="no"/>latiue sunt et non practice. Sed ad hoc vt sint 
+      praeteri<lb ed="#P" n="82" break="no"/>te necessario expectant vel coexigunt filium 
+      produ<lb ed="#P" n="83" break="no"/>ctum et spiritum sanctum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e777">
+      ¶ Hoc declarant in nobis 
+      <lb ed="#P" n="84"/>rtifex enim habet duplicem noticiam in artificiate 
+      <lb ed="#P" n="85"/>vnam in vniuersali et quasi speculatiuam qua 
+      absolu<lb ed="#P" n="86" break="no"/>te in communi cognoscit artificiatum non disponendo 
+      <lb ed="#P" n="87"/>ipsum facere. Aliam vero in particulari et practican 
+      <lb ed="#P" n="88"/>qua disponit et dictat efficaciter causare illud 
+      arti<lb ed="#P" n="89" break="no"/>ficiatum et facere et similiter duplicem amorem. Unum 
+      <lb ed="#P" n="90"/>simplicis complacentie quo complacet sibi absolute 
+      <lb ed="#P" n="91"/>illud quod apprehensum est per simplicem noticiam non 
+      <lb ed="#P" n="92"/>curando adhuc vtrum fiat vel non fiat et alium amen 
+      <lb ed="#P" n="93"/>rem affectantem quo vult ipsum efficaciter ponere in 
+      <lb ed="#P" n="94"/>re et in effectu volendo et determinando quod fiat. Sic est in de 
+      <lb ed="#P" n="95"/>vt dicit et dictum est supra. Et illa simplex noticia 
+      ip<lb ed="#P" n="96" break="no"/>deo est noticia essentialis tribus. Noticia vero 
+      dispo<lb ed="#P" n="97" break="no"/>sitiua est verbum. Amor etiam simplicis complacetie 
+      <lb ed="#P" n="98"/>est amor essentialis. Sed amor affectans et efficax est 
+      <lb ed="#P" n="99"/>ipse spiritus sctuns. Sic ergo secundum istum sicut 
+      artificia<lb ed="#P" n="100" break="no"/>tum in esse producto praesupponit necessario amorem 
+      <lb ed="#P" n="101"/>affectantem et noticiam dispositiuam causaliter. Sic 
+      <lb ed="#P" n="102"/>creatura in esse producto et creato necessario presui 
+      <lb ed="#P" n="103"/>ponit filium et spiritum sanctum et per consequens 
+      producto<lb ed="#P" n="104" break="no"/>nes diuinarum personarum. 
+      <lb ed="#P" n="105"/>Contra istam positionem ar 
+      <lb ed="#P" n="106"/>guo. Et primo quod noticia procedens que est verbum 
+      <lb ed="#P" n="107"/>et similiter amor qui est spiritus sctuns non sint nec possit 
+      <lb ed="#P" n="108"/>esse rationes producendi aliquid vel creandi ipsi patri 
+      <lb ed="#P" n="109"/>et hoc sic. Illud quod est suppositum distinctum ab 
+      <lb ed="#P" n="110"/>alio non potest esse sibi ratio operandi. Probatio 
+      <lb ed="#P" n="111"/>quia omnis ratio operandi conuenit operanti / vit 
+      <lb ed="#P" n="112"/>quo. Sed suppositum non potest alicui conueniret 
+      <lb ed="#P" n="113"/>vt quo quia est incommunicabilis et vt quo et vt quod 
+      <lb ed="#P" n="114"/>vt dictum est in primo. Sed verbum et spiritus san 
+      <lb ed="#P" n="115"/>ctus sunt supposita distincta a patre. ergo non 
+      pos<lb ed="#P" n="116" break="no"/>sunt esse sibi ratio vel principium operandi nec 
+      me<lb ed="#P" n="117" break="no"/>diate nec immediate.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e853">
+      ¶ Secundo sic. Illud quo 
+      ali<lb ed="#P" n="118" break="no"/>quid esse non potest non potest esse sibi ratio 
+      agen<lb ed="#P" n="119" break="no"/>di vel operandi. Nam omnis ratio operandi dat 
+      <lb ed="#P" n="120"/>aliquod esse ipsi operanti sicut calor dat esse calidum 
+      <lb ed="#P" n="121"/>calefacienti. et sic de similibus. Sed nec verbum / nec 
+      <lb ed="#P" n="122"/>spiritus sanctus sunt ratio essendi aliquid ipsi 
+      pa<lb ed="#P" n="123" break="no"/>tri quia pater non est nec sapit sapientia genita secundum 
+      <lb ed="#P" n="124"/>Augustinum de trinitate capitulo. 20. ergo. etc. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e872">
+               <lb ed="#P" n="125"/>¶ Trtio sic. Si noticia in patre et amorsunt imper 
+      <lb ed="#P" n="126"/>fecti ad producedum creaturam sicut dicit et expectant 
+      <!--30.xml-->
+      <pb ed="#P" n="12-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>perfici per verbum et amorem productum. igitur pater vel 
+      <lb ed="#P" n="2"/>bum et spiritus sctuns sunt aliquid maius vel perfectius 
+      <lb ed="#P" n="3"/>quam pater tantum. Sed hoc est falsum. Tum quia infinito 
+      sim<lb ed="#P" n="4" break="no"/>pliciter nihil est perfectius. Tum quia ho est contra Aus. ergo. etc. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e894">
+               <lb ed="#P" n="5"/>¶ Quarto sic eo quod habet pater / vt producens habet 
+      <lb ed="#P" n="6"/>productum vel sibi correlarium et subsistens per se non 
+      <lb ed="#P" n="7"/>producit aliquid vt principio productiuo. Sed 
+      pas<lb ed="#P" n="8" break="no"/>habet filium et specuntum sanctum sicut producens aliud 
+      pro<lb ed="#P" n="9" break="no"/>ductum subsistens et sicut relatiuum aliud correlatiui 
+      <lb ed="#P" n="10"/>non autem sicut formam ergo etc.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e910">
+      ¶ Quinto sic quero quid 
+      <lb ed="#P" n="11"/>intelligis per sapientiam dispositiuam et amorem 
+      affe<lb ed="#P" n="12" break="no"/>ctantem. Aut intelligis aliqua appropriata 
+      filioe<lb ed="#P" n="13" break="no"/>spiritui sancto: aut aliqua eis propria. Si 
+      appropa<lb ed="#P" n="14" break="no"/>ta sequitur quod sunt communia / et sic conueniunt patri sicut 
+      fi<lb ed="#P" n="15" break="no"/>lio et spiritui sancto quod est contra te. Si propria 
+      sequi<lb ed="#P" n="16" break="no"/>tur quod pater non habens ista / formaliter non est 
+      produ<lb ed="#P" n="17" break="no"/>ctiuus creature sed solum filius et spiritus sanctus 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e928">
+               <lb ed="#P" n="18"/>¶ Sexto Omnis noticia que est filio conicata est a 
+      <lb ed="#P" n="19"/>patre. Nec filius addit super illa que conicata sunt 
+      <lb ed="#P" n="20"/>a patre nisi respectu originis filiationis ad 
+      patre<lb ed="#P" n="21" break="no"/>qui non est aliqua noticia formaliter sicut patet. Sed 
+      <lb ed="#P" n="22"/>pater prehabet quicquid conicat filio. igitur prior est in 
+      <lb ed="#P" n="23"/>patre noticia quelibet quam in filio / et similiter amor et 
+      <lb ed="#P" n="24"/>sic pater habet perfectam noticiam et dispositiuam / et 
+      simi<lb ed="#P" n="25" break="no"/>liter perfectum amorem non a filio nec ex filio nec 
+      ex<lb ed="#P" n="26" break="no"/>pectat filium / sed potius filius habet eam a patre et 
+      si<lb ed="#P" n="27" break="no"/>militer de amore affectante.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e952">
+      ¶ Septimo sic contra 
+      <lb ed="#P" n="28"/>illud quod dicitur quod verbum ponitur ibi ad perficiendum 
+      opera<lb ed="#P" n="29" break="no"/>tionem inclinalem vel intellectionem patris quia ratio 
+      produ<lb ed="#P" n="30" break="no"/>cendi aliquid secundum operationem vel transeuntem non perficitur pri 
+      <lb ed="#P" n="31"/>operatum vel productum vt patet. Calor enim in calefacien 
+      <lb ed="#P" n="32"/>te non perficitur per calorem productum. Sed intellectio est 
+      <lb ed="#P" n="33"/>ratio in patre gignendi verbum secundum istum doctorem et 
+      gigne<lb ed="#P" n="34" break="no"/>re non est actio manens in gignente quia terminus suus 
+      <lb ed="#P" n="35"/>verbum non manet in generante puta in patre sed 
+      sup<lb ed="#P" n="36" break="no"/>positaliter distinguitur ab ipso. ergo intellectio patris 
+      <lb ed="#P" n="37"/>non perficitur per verbum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e976">
+      ¶ Octauo sic Contra illud de ydeis 
+      <lb ed="#P" n="38"/>quod sunt speculatiue vt pertinent ad intellectum patris quia 
+      <lb ed="#P" n="39"/>est contra Augustinum. 15o. de trinitate vbi dicit de 
+      fi<lb ed="#P" n="40" break="no"/>lio dei et patre sic. Ion inquit verbum hoc vere est 
+      veri<lb ed="#P" n="41" break="no"/>tas quia quicquid est in ea scientia de qua genitum est et 
+      <lb ed="#P" n="42"/>inipso est quod autem in eo non est nec in ipso esse potest et 
+      pau<lb ed="#P" n="43" break="no"/>lopost. Omienia inquit nouit deus pater in seipso nouit 
+      <lb ed="#P" n="44"/>et in filio. Et iterum post Ominia que sunt in eorum 
+      scien<lb ed="#P" n="45" break="no"/>tia vnusquisque eorum plene videt.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e997">
+      ¶ Ex quibus ver 
+      <lb ed="#P" n="46"/>bis statim appet quod quelibet persona perfectissime 
+      no<lb ed="#P" n="47" break="no"/>uit omnia et in particulari / et ita ydee non plus sunt pra 
+      <lb ed="#P" n="48"/>ctice vel speculatiue in vna quam in alia. Unde dico quod 
+      <lb ed="#P" n="49"/>ista positio quasi per omnia est falsa. Quod et dicit 
+      phi<lb ed="#P" n="50" break="no"/>losophos errasse circa creationem rerum ex causa 
+      predi<lb ed="#P" n="51" break="no"/>cta patet falsum. Ita enim est noticia perfecta et dispositi 
+      <lb ed="#P" n="52"/>ua et amor affectans et liber in vna persona sicut in 
+      <lb ed="#P" n="53"/>tribus. Unde et si per impossibile non esset in deo 
+      plu<lb ed="#P" n="54" break="no"/>ralitas personarum sed vnum tantum suppositum absolutur 
+      <lb ed="#P" n="55"/>tamen non deberet negari productio creaturarum sicut 
+      <lb ed="#P" n="56"/>dicetur infra in tertio articulo questionis. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e1023">
+               <lb ed="#P" n="57"/>¶ Dico ergo aliter de isto 
+      ar<lb ed="#P" n="58" break="no"/>ticulo quod creatura necessa rio praesupponit productionem 
+      <lb ed="#P" n="59"/>psonarum in esse producto sed non causaliter sic quod 
+      <lb ed="#P" n="60"/>persone producte sint rationes producendi creaturam ipsam 
+      <lb ed="#P" n="61"/>sicut ymaginatur positio pdicta sed per modum alium 
+      <lb ed="#P" n="62"/>qui dicetur infra. Quod autem ita sit probo primo sic. 
+      Pro<lb ed="#P" n="63" break="no"/>ductio contingens et alicuius contingentis praesupponitur 
+      <!--30.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>de necessitate productionem necessariam et alicuius 
+      no<lb ed="#P" n="65" break="no"/>cessarii ab eodem principio. Ex quo enim principium est 
+      <lb ed="#P" n="66"/>duarum productionum quarum vna est necessaria et 
+      <lb ed="#P" n="67"/>alia est contingens et necessaria non potest 
+      presuppo<lb ed="#P" n="68" break="no"/>nere contingentem sicut nec ens necessarium potest praesupr 
+      <lb ed="#P" n="69"/>ponere contingens / oportet quod econtra contingens 
+      praesuppo<lb ed="#P" n="70" break="no"/>nat necessarium. Sed productio creature contingens 
+      <lb ed="#P" n="71"/>est et alicuius contingentis. Productio vero diuine 
+      <lb ed="#P" n="72"/>persone necessaria est et ab eisdem principiis intellectu 
+      <lb ed="#P" n="73"/>scilicet et voluntate igitur. etc.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1067">
+      ¶ Secudo sic. 
+      Prior<lb ed="#P" n="74" break="no"/>est productio alicuius potentie circa obiectum 
+      prima<lb ed="#P" n="75" break="no"/>rium quam secundarium et precipue hoc est verum de 
+      obie<lb ed="#P" n="76" break="no"/>cto secundario quod constituitur per actum potentiale 
+      <lb ed="#P" n="77"/>sicut est creatura. igitur. prior est productio intellectus 
+      <lb ed="#P" n="78"/>et voluntatis in deiuinis circa diuinam essentiam que 
+      <lb ed="#P" n="79"/>est productio personarum diuinarum quam circa creaturam 
+      <lb ed="#P" n="80"/>ergo creatura in esse producto praesupponit 
+      producto<lb ed="#P" n="81" break="no"/>nes personarum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1087">
+      ¶ Tertio sic Prior est habitudo 
+      na<lb ed="#P" n="82" break="no"/>ture diuine ad propria supposita quam habitudo ad actum 
+      <lb ed="#P" n="83"/>secundum vel ad aliquod extrinsecum / quia habitudo nature 
+      <lb ed="#P" n="84"/>ad suppositum pertinet ad esse quod est prius quam 
+      opera<lb ed="#P" n="85" break="no"/>ri et actus secundus. Similiter etiam quia est magis 
+      neces<lb ed="#P" n="86" break="no"/>saria quam habitudo ad extrinsecum contingens et magis 
+      <lb ed="#P" n="87"/>intima sibi et proxima et essentialis. Cum igitur 
+      per<lb ed="#P" n="88" break="no"/>sone divine comparentur ad diuinam naturam sicut 
+      <lb ed="#P" n="89"/>supposita prius natura habet esse in suppositis illis 
+      tri<lb ed="#P" n="90" break="no"/>bus quam sit principium productiuum creature. ergo 
+      crea<lb ed="#P" n="91" break="no"/>tura in esse producto presupponit personas productas 
+      <lb ed="#P" n="92"/>et per consequens productiones ipsarum.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1113">
+      ¶ Quarta 
+      ra<lb ed="#P" n="93" break="no"/>tio est specialiter de productione quia creatio 
+      presup<lb ed="#P" n="94" break="no"/>ponit suppositum patris constitutum. Sed suppositum 
+      pa<lb ed="#P" n="95" break="no"/>tris constituitur per relationem que est simul natura 
+      <lb ed="#P" n="96"/>cum productione passiua verbi. Idem enim est 
+      gene<lb ed="#P" n="97" break="no"/>ratio actiua et paternitas et generatio passiua et 
+      fi<lb ed="#P" n="98" break="no"/>liatio ergo productio creature praesupponit 
+      productio<lb ed="#P" n="99" break="no"/>nem verbi.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1131">
+      ¶ Sed per quem modum. Dico quod sicut 
+      ef<lb ed="#P" n="100" break="no"/>fectus posterior praesupponit priorem ab eodem 
+      princi<lb ed="#P" n="101" break="no"/>pio licet non sicut causam suam proprie loquendo. Ita quod 
+      <lb ed="#P" n="102"/>creaturarum est principium aliquod absolutum vel 
+      plu<lb ed="#P" n="103" break="no"/>ra puta intellectus et voluntas que sunt itaperfecte 
+      in<lb ed="#P" n="104" break="no"/>vna persona sicut intribus et ita perfecta causalitas in 
+      vna<lb ed="#P" n="105" break="no"/>persona sicut in tribus. Sed quia principia ista prius 
+      <lb ed="#P" n="106"/>natura habent suas operationes et productiones circa ob 
+      <lb ed="#P" n="107"/>iectum suum primarium quod est diuina essentia. quam 
+      <lb ed="#P" n="108"/>circa obiectum secundarium quod est creatura quod quidem non 
+      <lb ed="#P" n="109"/>est obiectum secundarium nisi quia constitutum per tales 
+      po<lb ed="#P" n="110" break="no"/>tentias vel satem non est obiectum simpliciter 
+      neces<lb ed="#P" n="111" break="no"/>sarium sicut diuina essentia circa quod primo habent 
+      <lb ed="#P" n="112"/>suas operationes et productiones et in illo priori 
+      na<lb ed="#P" n="113" break="no"/>tura producuntur diuine persone et conicantur eis 
+      il<lb ed="#P" n="114" break="no"/>lud perfectissimum principium et illa principia 
+      crea<lb ed="#P" n="115" break="no"/>ture a patre ipsi filio et ab vtroque spiritui sancto 
+      ani<lb ed="#P" n="116" break="no"/>tequam exeant in actum producendi. Hinc est quod 
+      productio<lb ed="#P" n="117" break="no"/>creaturarum praesupponit necessario productionem per 
+      <lb ed="#P" n="118"/>sonarum sicut productio posterioris effectus 
+      natu<lb ed="#P" n="119" break="no"/>ra praesupponit priorem effectum sicut calefacere 
+      pre<lb ed="#P" n="120" break="no"/>supponit illuminare licet vtrumque sit ab eadem cau 
+      <lb ed="#P" n="121"/>sa et neutrum sit causa alterius. Sic etiam productio 
+      per<lb ed="#P" n="122" break="no"/>sonarum non est causalis respectu productionis 
+      crea<lb ed="#P" n="123" break="no"/>turarum nisi eo modo quo effectus vel quasi 
+      effe<lb ed="#P" n="124" break="no"/>ctus prior habet rationem cause respectu 
+      posterio<lb ed="#P" n="125" break="no"/>ris quia causa non potest in primum nisi prius 
+      exe<lb ed="#P" n="126" break="no"/>at in primum. In illo autem posteriori natra in qua 
+      produci<lb ed="#P" n="127" break="no"/>tur creatura ptus productionem personarum et creature Dico quod pater 
+      <!--31.xml-->
+      <pb ed="#P" n="12-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>prius origine creat quia a se et filius Secundo quia 
+      <lb ed="#P" n="2"/>a patre et spiritus sctuns ab vtroque et 3o / et tamen simul 
+      natu<lb ed="#P" n="3" break="no"/>ra et eadem creatione. Nec iste ordo accipitur ex 
+      pas<lb ed="#P" n="4" break="no"/>te creationis vel creature / sed ex parte suppositorum 
+      <lb ed="#P" n="5"/>creantium quorum secundum est a primo et tertium ab 
+      vtro<lb ed="#P" n="6" break="no"/>que. Dices contra predicta quod pater creat 
+      verbo<lb ed="#P" n="7" break="no"/>Primo quia eo pater creat quo dicit / quia dixit et 
+      fctan<lb ed="#P" n="8" break="no"/>sunt. Sed pater dicit verbo secundum August. 19. de 
+      ci<lb ed="#P" n="9" break="no"/>dei. Uerbo tuo tibi coeterno dicis quacumque dicis nec 
+      <lb ed="#P" n="10"/>aliter quam dicendo facis.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1223">
+      ¶ Secundo quia illo creat patet 
+      <lb ed="#P" n="11"/>per quod omnia facta sunt. Sed per verbum omnia facta 
+      <lb ed="#P" n="12"/>sunt. Io I. ergo etc.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1230">
+      ¶ Tertio quia dicitur in psalmo. 
+      Uer<lb ed="#P" n="13" break="no"/>bo domini celi firmati sunt etc. Et exponit 
+      Grege<lb ed="#P" n="14" break="no"/>rius Uerbum enim domini filius est patris etc. Et 
+      si<lb ed="#P" n="15" break="no"/>miles auctoritates plures.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1239">
+      ¶ Quarto quia 
+      artifex<lb ed="#P" n="16" break="no"/>producit artificiatum sua arte vel principio quo. 
+      <lb ed="#P" n="17"/>Sed verbum est ars dei omnipotentis secundum August. 
+      <lb ed="#P" n="18"/>go de trinitate ergo. etc.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1248">
+      ¶ Ad primum dico sicut 
+      di<lb ed="#P" n="19" break="no"/>ctum est in primo. distin. xxxii. quod dicere non 
+      accipi<lb ed="#P" n="20" break="no"/>tur ibi pro creare vel producere / sed pro manifesta 
+      <lb ed="#P" n="21"/>re effectiue. Ita quod sensus est. Pater dicit 
+      verbo<lb ed="#P" n="22" break="no"/>creaturam I1 declarat creaturam verbo a se producto. 
+      <lb ed="#P" n="23"/>Declarat inquit effectiue et declarando racit 
+      crea<lb ed="#P" n="24" break="no"/>turam non quod declarare sit facere sed concomitatur. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e1264">
+               <lb ed="#P" n="25"/>¶ Ad secundum dico quod per verbum omnia facta sunt: non 
+      si<lb ed="#P" n="26" break="no"/>cut per rationem agendi ipsi patri sed sicut per 
+      supposi<lb ed="#P" n="27" break="no"/>tum creans cum patre. Ita etiam per spiritum sctantum 
+      omina<lb ed="#P" n="28" break="no"/>facta sunt et per patrem. Tamen conuenientius dicitur 
+      <lb ed="#P" n="29"/>hoc de verbo quam de patre quia verbum est secunda persona 
+      <lb ed="#P" n="30"/>et media in trinitate.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1280">
+      ¶ Ad tertium per idem de verbo 
+      <lb ed="#P" n="31"/>et spiritu sancto. vel aliter potest accipi ibi verbo 
+      pro<lb ed="#P" n="32" break="no"/>imperio domini.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1288">
+      ¶ Ad 4m dico quod ars commune nomen 
+      <lb ed="#P" n="33"/>est tribus personis diuinis / quelibet enim ars 
+      perfe<lb ed="#P" n="34" break="no"/>ctissima creature. Tamen pater est ars non de 
+      arte<lb ed="#P" n="35" break="no"/>filius ars de arte. Tamen appropriatur verbo propter 
+      <lb ed="#P" n="36"/>similitudinem sui modi procedendi per modum 
+      intel<lb ed="#P" n="37" break="no"/>lectus.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1301">
+      ¶ Uando dicis quod artifex operatur per suam 
+      ar<lb ed="#P" n="38" break="no"/>tem. Uerum est sibi formaliter in existentem et ita 
+      pa<lb ed="#P" n="39" break="no"/>ter per suam sapientiam qua formaliter sapit. verbum 
+      <lb ed="#P" n="40"/>autem non sic est ars patris sed est ars subsistens 
+      produ<lb ed="#P" n="41" break="no"/>cta et suppositaliter a patre distincta. Tali autem 
+      ari<lb ed="#P" n="42" break="no"/>te nullus artifex agit sicut principio quo sicut dictum ergo 
+      <lb ed="#P" n="43"/>supra. hec desecundo articulo. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e1317">
+               <lb ed="#P" n="44"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="45" break="no"/>culum Diceret ille doctor prime opinionis secundi 
+      <lb ed="#P" n="46"/>articuli. Quod philosophi et iudei qui non ponunt in 
+      <lb ed="#P" n="47"/>deo nisi vnicum suppositum absolutum errant circa 
+      pro<lb ed="#P" n="48" break="no"/>ductionem creaturarum et quantum ad actum creationis et 
+      <lb ed="#P" n="49"/>quantum ad modum necessitatis. Quantum ad actum 
+      crea<lb ed="#P" n="50" break="no"/>tionis quia productio personarum causaliter de necessitate 
+      <lb ed="#P" n="51"/>supponitur sicut illa per quam habetur ratio formalis 
+      proxi<lb ed="#P" n="52" break="no"/>ma et perfecta principii creatiui et ita negando 
+      produ<lb ed="#P" n="53" break="no"/>ctionem diuinarum personarum consequenter deberent nega 
+      <lb ed="#P" n="54"/>re actum creationis quem tamen ipsi concedunt. Quantum 
+      <lb ed="#P" n="55"/>ad necessitatem vero dictum est supra quia secundum ipsum tales quo 
+      <lb ed="#P" n="56"/>non ponunt in deo nisi vnum suppositum absolutum non 
+      <lb ed="#P" n="57"/>ponunt in deo conqunter nisi noticiam simplicem et 
+      amo<lb ed="#P" n="58" break="no"/>rem creaturarum et quia ista sunt nessio in deo etiam 
+      respe<lb ed="#P" n="59" break="no"/>ctu creaturarum et hinc est quod ponunt conqueter creaturam deus 
+      <lb ed="#P" n="60"/>necessitate produci a deo quod est error.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1356">
+      ¶ Sed non videtur 
+      <lb ed="#P" n="61"/>mihi ista esse vera. Nam sicut argutum est supra. Principium 
+      <lb ed="#P" n="62"/>pductiuum in patre est ita perfectum in tribus nec in aliquo 
+      <lb ed="#P" n="63"/>perficitur per verbum vel speantum sctum. Et ideo dico quod creatura 
+      <!--31.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>nullomodo praesupponit verbum vel specitum sanctum sicut 
+      prin<lb ed="#P" n="65" break="no"/>cipium quo productiuum nec mediatum nec immediatum nec 
+      <lb ed="#P" n="66"/>per consequens productionem verbi vel spiritus sancti ex ista causa. Et 
+      <lb ed="#P" n="67"/>ideo dico vltra quod si per impossibile negaretur 
+      productio<lb ed="#P" n="68" break="no"/>personarum et poneretur tantum vnum suppositum absolutum 
+      di<lb ed="#P" n="69" break="no"/>uinum non deberet negari productio creaturarum esse possi 
+      <lb ed="#P" n="70"/>bilis quia illud suppositum vnicum poneretur habere principium 
+      <lb ed="#P" n="71"/>creatiuum ita perfectum sicut est modo in tribus et esset 
+      suppo<lb ed="#P" n="72" break="no"/>situm conueniens actioni sicut modo tria supposita ad  
+      <lb ed="#P" n="73"/>actionem vel productionem creature non videntur 
+      plu<lb ed="#P" n="74" break="no"/>ra requiri ex parte producentis. Et ideo dico quod phlhosoipi et illi 
+      <lb ed="#P" n="75"/>qui ponunt vnum suppositum absolutum in natura diuina 
+      <lb ed="#P" n="76"/>non debent ex hoc conqueter negare creationem nec ad hoc 
+      <lb ed="#P" n="77"/>rotionabiliter patent cogi quia tria supposita nichil 
+      perfe<lb ed="#P" n="78" break="no"/>ctionis addunt super vnum: nec per consequens aliquid causalitatis. 
+      </p>
+            <p xml:id="qrdBas-be6275-d1e1402">
+               <lb ed="#P" n="79"/>¶ Circa quod est aduertendum quod in creaturis si 
+      com<lb ed="#P" n="80" break="no"/>paretur causa ad duos effectus ordinatos sicut si 
+      pona<lb ed="#P" n="81" break="no"/>tur ignis calefacere et ignire essentialior est eius 
+      con<lb ed="#P" n="82" break="no"/>paratio ad vtrumque effectum quam vnius effectus ad alterum 
+      <lb ed="#P" n="83"/>propter dependentiam vtriusque ad causam a qua dependent 
+      <lb ed="#P" n="84"/>no autem a se inuicem mutuo igitur si per impossibile 
+      destrua<lb ed="#P" n="85" break="no"/>tur ac circumscribatur ille ordo effectuum inter se. Neon 
+      <lb ed="#P" n="86"/>propter hoc adhuc negandus est ordo et dependentia vtriui 
+      <lb ed="#P" n="87"/>que ad causam quia propter minus impossibile non est 
+      conce<lb ed="#P" n="88" break="no"/>dendum maius impossibile. Nec propter minus neium est 
+      <lb ed="#P" n="89"/>negandum magis necessarium.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1428">
+      ¶ Unde si ponatur per 
+      impos<lb ed="#P" n="90" break="no"/>sibile ignem non posse calefacere propter hoc non est 
+      negan<lb ed="#P" n="91" break="no"/>dum ipsum ignem posse ignire licet calefacere sit prius 
+      <lb ed="#P" n="92"/>et ideo obligans seipsum ad tenendum antecens non est obligatus 
+      <lb ed="#P" n="93"/>ad tenendum illud consequens. Non enim tenet illa consequentia. Ignis 
+      <lb ed="#P" n="94"/>non potest calefacere. ergo non prtet ignire nisi per hanc propaitionem 
+      <lb ed="#P" n="95"/>affirmatiuam. Potens ignire potest calefacere quae ex 
+      po<lb ed="#P" n="96" break="no"/>sitione destruitur. igitur propositum applicando. Dico quod 
+      <lb ed="#P" n="97"/>in diuinis sunt principia productionis intrinsece 
+      per<lb ed="#P" n="98" break="no"/>sonarum et productionis extrinsece creaturarum et habent iste 
+      <lb ed="#P" n="99"/>bue productiones ordinem ad eadem principia. Una sicut 
+      <lb ed="#P" n="100"/>prior et alia sicut posterior et est magis necessarius ordo 
+      <lb ed="#P" n="101"/>vtriusque productionis ad suum principium quam ipsarum 
+      adinui<lb ed="#P" n="102" break="no"/>cem. Si ergo per impossibile ponatur principium aliquod 
+      <lb ed="#P" n="103"/>puta intellectus vel voluntas non principiare primam 
+      pro<lb ed="#P" n="104" break="no"/>ductionem scilicet intrinsecam et per consequens tollatur ordo 
+      produ<lb ed="#P" n="105" break="no"/>ctionum ad inuicem non propter hoc negandum est illud 
+      prin<lb ed="#P" n="106" break="no"/>cipium posse in productionem extrinsecam / quia hoc 
+      posi<lb ed="#P" n="107" break="no"/>to adhuc stat tota ratio perfecti principii respectu 
+      pro<lb ed="#P" n="108" break="no"/>ductionis extrinsece.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1473">
+      ¶ Et io si arguatur. Nulla 
+      per<lb ed="#P" n="109" break="no"/>sona diuina praet aliquid producere ad intra ergo nec ad 
+      ex<lb ed="#P" n="110" break="no"/>tra creando. Neganda est consequentia a ponente anteceus quia consequentia non 
+      <lb ed="#P" n="111"/>tenet nisi per hanc propoaitionem affirmatiuam. Si aliqua 
+      per<lb ed="#P" n="112" break="no"/>sona diuina prtest creare aliqua potest ad intra personam pro 
+      <lb ed="#P" n="113"/>ducere et sic processissent philosophi quia licet viderunt 
+      habi<lb ed="#P" n="114" break="no"/>tudinem effectus ad causam non tamen necessariam 
+      habitudi<lb ed="#P" n="115" break="no"/>nem productionis ad productionem quia nec viderunt 
+      produ<lb ed="#P" n="116" break="no"/>ctionem intrinsecam in diuinis et licet negarent illam 
+      <lb ed="#P" n="117"/>tamen concedebant productionem extrinsecam vel 
+      <lb ed="#P" n="118"/>aliquam creationem.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1497">
+      ¶ Quantum ad secundum deus 
+      <lb ed="#P" n="119"/>necessitate productionis. Patet quod ex hoc non 
+      po<lb ed="#P" n="120" break="no"/>suerunt philosophi necessitatem creationis. Nec 
+      pu<lb ed="#P" n="121" break="no"/>to quod arguerunt quia negarent productiones 
+      intrinse<lb ed="#P" n="122" break="no"/>cas diuinarum personarum quia puto quod 
+      philoso<lb ed="#P" n="123" break="no"/>phi bene viderunt hoc et intellexerunt quod ita 
+      perfe<lb ed="#P" n="124" break="no"/>cta et libera vel necessaria est voluntas diuina et 
+      scien<lb ed="#P" n="125" break="no"/>tia dispositiua et amor efficax in vna persona vel 
+      <lb ed="#P" n="126"/>supposito quod ponebant sicut in centum milibus 
+      <lb ed="#P" n="127"/>si ponerentur sicut nos ponimus ibi tria / et ideo 
+      <!--32.xml-->
+      <pb ed="#P" n="13-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non magis libere vel necessario posuissent 
+      creatu<lb ed="#P" n="2" break="no"/>ram a tribus quam ab vna et dico quod in nullo habet iste 
+      <lb ed="#P" n="3"/>doctor intentionem ipsorum et tota sua ymaginatio 
+      <lb ed="#P" n="4"/>est falsa. Patet quod ita necessaria est productio 
+      diui<lb ed="#P" n="5" break="no"/>ne persone et persona ipsa producta sicut et 
+      produ<lb ed="#P" n="6" break="no"/>cens. Posuerunt enim philosophi necessitatem 
+      produ<lb ed="#P" n="7" break="no"/>ctionis vel actionis diuine ad extra propter diuinam 
+      <lb ed="#P" n="8"/>immutabilitatem non propter suppositi vnitatem. Et 
+      <lb ed="#P" n="9"/>ideo dico quod posito in diuinis vnico supposito abso 
+      <lb ed="#P" n="10"/>luto stat libertas et contingentia creationis sicut etiam 
+      <lb ed="#P" n="11"/>imaginantur et tenent iudei qui licet in deo non ponant 
+      <lb ed="#P" n="12"/>nisi vnum suppositum tamen tenent quod voluntarie et libere 
+      <lb ed="#P" n="13"/>deus produxit mundum et cum principio durationis. 
+      <lb ed="#P" n="14"/>In principio creauit deus caelum et terram etc. Sic igitur 
+      <lb ed="#P" n="15"/>de isto articulo dico quod licet productio creaturarum de 
+      <lb ed="#P" n="16"/>necessitate presupponat productionem personarum ex 
+      <lb ed="#P" n="17"/>causis dictis in secundo articulo. Tamen si per 
+      impos<lb ed="#P" n="18" break="no"/>sibile poneretur vnum suppositum absolutum tantum in 
+      <lb ed="#P" n="19"/>natura diuina: et per consequens negaretur 
+      productio<lb ed="#P" n="20" break="no"/>personarum adhuc staret possibilitas creationis et 
+      li<lb ed="#P" n="21" break="no"/>bertas vel contingentia respectu eius in deo. Nec 
+      ne<lb ed="#P" n="22" break="no"/>gans productionem illam intrinsecam debet negare 
+      <lb ed="#P" n="23"/>creationem vel contingentiam eius sicut declaratum 
+      <lb ed="#P" n="24"/>est per predicta in presenti articulo 
+      <lb ed="#P" n="25"/>Ad primum principale dico quod 
+      <lb ed="#P" n="26"/>
+      u<lb ed="#P" n="27" break="no"/>licet essentialia ad intra sint priora notionalibus 
+      ta<lb ed="#P" n="28" break="no"/>men essentialia vel communia ad extra sicut est creare non 
+      <lb ed="#P" n="29"/>sunt priora sed necessario presupponunt notionalia 
+      <lb ed="#P" n="30"/>et personas pro quanto sunt ad extra. Unde licet 
+      intelli<lb ed="#P" n="31" break="no"/>gere et velle sic absolute accepta sint priora 
+      notiona<lb ed="#P" n="32" break="no"/>libus personalibus non tamen intelligere vel velle 
+      crea<lb ed="#P" n="33" break="no"/>turam: et vt cadit super ipsam.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1597">
+      ¶ Ad secundumde 
+      prin<lb ed="#P" n="34" break="no"/>cipio dico quod principium est idem vtriusque 
+      produ<lb ed="#P" n="35" break="no"/>ctionis saltem aliquid essentiale et absolutum. Non 
+      <lb ed="#P" n="36"/>autem respectus sicut dictum est in primo. Sed dico 
+      <lb ed="#P" n="37"/>quod istud principium prius natura habet suam operatio 
+      <lb ed="#P" n="38"/>nem vel productionem circa obiectum primarium quod est essentia 
+      <lb ed="#P" n="39"/>quam circa secundarium quod est creatura vt dictum est 
+      su<lb ed="#P" n="40" break="no"/>pra.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1615">
+      ¶ Ad tertium dico quod creatio est trium 
+      suppo<lb ed="#P" n="41" break="no"/>sitorum sicut vltimo denominatorum et hoc non 
+      obstan<lb ed="#P" n="42" break="no"/>te dico quod non numeratur secundum ista supposita sed 
+      ma<lb ed="#P" n="43" break="no"/>gis secundum principium et quia principium est idem in tribus 
+      <lb ed="#P" n="44"/>Dico quod ipsa est eadem in tribus et hoc est 
+      rationa<lb ed="#P" n="45" break="no"/>bile quia essentialius et immediatius respicit 
+      princi<lb ed="#P" n="46" break="no"/>pium quam suppositum quia non suppositum nisi per 
+      princi<lb ed="#P" n="47" break="no"/>pium.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1633">
+      ¶ Ad quartum dico quod licet de facto creatio in 
+      <lb ed="#P" n="48"/>re presupponat productionem intrinsecam que ponitur 
+      <lb ed="#P" n="49"/>in natura diuina secundum fidem. Tamen si per 
+      impossi<lb ed="#P" n="50" break="no"/>bile poneretur vnum suppositum absolutum nichil 
+      mi<lb ed="#P" n="51" break="no"/>nus posset creare quia haberet in se plenitudinem 
+      sa<lb ed="#P" n="52" break="no"/>pientie et potentie: sicut habent modo tres persone. 
+      <lb ed="#P" n="53"/>Et sicut dicit Richardus. Unde auctoritas est 
+      pro<lb ed="#P" n="54" break="no"/>me.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1651">
+      ¶ Ad quintum dico quod si creatio supponeret 
+      pro<lb ed="#P" n="55" break="no"/>ductionem et personas productas sicut rationes 
+      for<lb ed="#P" n="56" break="no"/>males agendi sicut disgregare presupponit 
+      albedi<lb ed="#P" n="57" break="no"/>nem vel huiusmodi: tunc per rationem naturalem philo 
+      <lb ed="#P" n="58"/>sophi potuissent deuenisse in noticiam trinitatis. 
+      <lb ed="#P" n="59"/>Si tamen in aliquam noticiam deuenerunt per 
+      ratio<lb ed="#P" n="60" break="no"/>nem naturalem. Sed non sic presupponit creatio 
+      prodi<lb ed="#P" n="61" break="no"/>ctionem intrinsecam vt dictum est supra. Sed 
+      suppos<lb ed="#P" n="62" break="no"/>to per fidem quod sit in diuinis productio intrinseca. 
+      <lb ed="#P" n="63"/>Oportet quod presuponatur creationi eo modo quo 
+      <lb ed="#P" n="64"/>dictum est supra.
+    </p>
+            <p xml:id="qrdBas-be6275-d1e1676">
+      ¶ Aliter dici potest quod non opor¬ 
+      <!--32.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>tet quod philosophi deuenissent in hoc propter 
+      imbe<lb ed="#P" n="66" break="no"/>cillitatem intellectus humani. Non enim ad omne 
+      na<lb ed="#P" n="67" break="no"/>turaliter cognoscibile attigerunt sed multa ipsos 
+      <lb ed="#P" n="68"/>latuerunt. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

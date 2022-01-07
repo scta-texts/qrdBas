@@ -1,0 +1,999 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="152-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b1005z"><!--l2d35q1 -->
+            <head xml:id="qrdBas-b1005z-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b1005z-d1e101">
+               <lb ed="#P" n="51"/>¶ Distinctionis trigesimequinte 
+      <lb ed="#P" n="52"/>¶ Questio Unica. 
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e108">
+               <lb ed="#P" n="53"/>CIrca istam 
+      distin<lb ed="#P" n="54" break="no"/>ctionem quero vtrum omne 
+      pecca<lb ed="#P" n="55" break="no"/>tum ab originali consistat in 
+      ali<lb ed="#P" n="56" break="no"/>quo actu positiuo.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e119">
+      ¶ Uidetur 
+      <lb ed="#P" n="57"/>visic omne peccatum ab origi 
+      <lb ed="#P" n="58"/>nali est actuale. Sed 
+      peccatu<lb ed="#P" n="59" break="no"/>actuale ab actu proprio peccam 
+      <lb ed="#P" n="60"/>ltis dicitur: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e130">
+      ¶ 
+      Secun<lb ed="#P" n="61" break="no"/>do sic. Si peccatum actuale potest esse sine omni 
+      po<lb ed="#P" n="62" break="no"/>sitiuo actu tunc dormiens posset actualiter peccare. 
+      <!--312.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>sicut arguitur de beatitudine quod nisi consisteret in actu 
+      <lb ed="#P" n="64"/>dormiens posset esse beatus. Sed hoc est falsum: en 
+      <lb ed="#P" n="65"/>go etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e149">
+      ¶ Secundo. Illud quod non consistit in aliquo 
+      <lb ed="#P" n="66"/>positiuo pertinente ad ipsum nichil: sed pectantum actua 
+      <lb ed="#P" n="67"/>le non est nichil. Tunc enim pro nichilo damnaret deus 
+      <lb ed="#P" n="68"/>hominem quod non est verum: igitur etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e158">
+      ¶ Quarto 
+      <lb ed="#P" n="69"/>sic. Illi peccato quod non consistit in aliquo actu non 
+      <lb ed="#P" n="70"/>correspondet pena sensus: sed tantum pena damni: quia 
+      in<lb ed="#P" n="71" break="no"/>ipso nulla delectatio inuenitur quia delectatio 
+      om<lb ed="#P" n="72" break="no"/>nis concomitatur aliquem positiuum. Sed omni 
+      pec<lb ed="#P" n="73" break="no"/>cato praeter originale correspondet pena sensus: ergo etc. 
+      <lb ed="#P" n="74"/>In hoc distinguitur peccatum omis¬ 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e174">
+               <lb ed="#P" n="75"/>¶ Contra sionis a peccato commissionis: qui 
+      <lb ed="#P" n="76"/>peccatum commissionis consistit in aliquo actu 
+      posi<lb ed="#P" n="77" break="no"/>tiuo. Non autem oportet hoc de peccato omissionis 
+      <lb ed="#P" n="78"/>Sed peccatum omissionis est actuale et aliud ab 
+      ori<lb ed="#P" n="79" break="no"/>ginali: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e187">
+               <lb ed="#P" n="80"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="81" break="no"/>dam.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e194">
+      ¶ Primo inquiram de quesito scilicet vtrum omne 
+      <lb ed="#P" n="82"/>peccatum aliud ab originali consistat in actu aliquo 
+      <lb ed="#P" n="83"/>secundo positiuo.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e201">
+      ¶ Secundo inquiram ad quam 
+      po<lb ed="#P" n="84" break="no"/>tentiam pertinet principaliter peccatum vtrum ad 
+      <lb ed="#P" n="85"/>voluntatem vel intellectum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e209">
+      ¶ Tertio dato quod ad 
+      <lb ed="#P" n="86"/>voluntatem inquiram vtrum actus talis sit 
+      pecca<lb ed="#P" n="87" break="no"/>tum inquantum ab ipsa voluntate effectiue vel inquantum 
+      <lb ed="#P" n="88"/>in ipsa formaliter vel subiectiue.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e218">
+      ¶ Quarto vtrum 
+      <lb ed="#P" n="89"/>omne peccatum corrumpat aliquod bonum in eo in quo est 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e223">
+               <lb ed="#P" n="90"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="91" break="no"/>culum. Est vna opinio quod omne aliud peccatum ab 
+      <lb ed="#P" n="92"/>originali consistit in aliquo actu positiuo secundo in 
+      <lb ed="#P" n="93"/>teriori vel exteriori. Ita quod nullum peccatum est nisi 
+      <lb ed="#P" n="94"/>sit aliquis actus positiuus. Ad hoc adducuntur ra 
+      <lb ed="#P" n="95"/>tiones et auctoritates.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e239">
+      ¶ Prima ratio est ista. 
+      Om<lb ed="#P" n="96" break="no"/>ne peccatum est voluntarium et si non est voluntarium 
+      <lb ed="#P" n="97"/>non est peccatum secundum Augustinum de vera religione 
+      <lb ed="#P" n="98"/>Sed nichil est voluntarium nisi actus interior vel 
+      <lb ed="#P" n="99"/>exterior quia ex parte agentis non inuenitur aliquid 
+      <lb ed="#P" n="100"/>in potestate sua nisi actus. Non est natura vel 
+      poten<lb ed="#P" n="101" break="no"/>tia volitiua seu operatiua est in potestate agentis: 
+      <lb ed="#P" n="102"/>quia nullo modo cadunt ista vel cadere possunt 
+      sub<lb ed="#P" n="103" break="no"/>causalitate peccantis et ita nullo modo sunt in 
+      pote<lb ed="#P" n="104" break="no"/>state eius: sed solum actus qui est actus voluntatis  
+      <lb ed="#P" n="105"/>primo et mediante ipso alii actus: ergo in aliquo actu 
+      <lb ed="#P" n="106"/>consistit omne peccatum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e265">
+      ¶ Secunda ratio. 
+      Impos<lb ed="#P" n="107" break="no"/>sibile est esse malum culpe nisi in aliquo bono / funda 
+      <lb ed="#P" n="108"/>tum sicut patet ex precedenti questione. Sed malum 
+      <lb ed="#P" n="109"/>culpe non fundatur nisi in bono actu vel actu aliquo 
+      <lb ed="#P" n="110"/>secundo. Probatio quia opposita nata sunt fieri 
+      cir<lb ed="#P" n="111" break="no"/>ca idem. Bonum autem moris et malum culpe sunt op 
+      <lb ed="#P" n="112"/>posita. Sed bonum moris non est nisi circa actum bo 
+      <lb ed="#P" n="113"/>num ex genere non in habitu solo vel natura vel 
+      po<lb ed="#P" n="114" break="no"/>tentia et impossibile est quod sit sine tali actu: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e285">
+               <lb ed="#P" n="115"/>¶ Tertia ratio. Quicumque non se habet aliter nunc 
+      <lb ed="#P" n="116"/>quam prius non peccat. Sed qui nichilagit sicut nec 
+      priu<lb ed="#P" n="117" break="no"/>non se habet aliter nunc quam prius vt patet: igitur non 
+      <lb ed="#P" n="118"/>peccat sicut nec prius: ergo peccatum in aliquo actu 
+      <lb ed="#P" n="119"/>positiuo consistit. Maior probatur: quia omnis 
+      pec<lb ed="#P" n="120" break="no"/>causas de nouo necessario mutatur igitur se habet 
+      ali<lb ed="#P" n="121" break="no"/>ter nunc quam prius.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e304">
+      ¶ Quarta ratio. Omnis peccans 
+      <lb ed="#P" n="122"/>aut facit aliquid aut nichil. Sifacit aliquid 
+      habeo<lb ed="#P" n="123" break="no"/>propositum. Si nichil igitur pro nichilo damnatur et 
+      <lb ed="#P" n="124"/>pro aliquo quod non fuit in potestate eius: quia solus 
+      <lb ed="#P" n="125"/>actus est in potestate peccantis. 
+      <!--313.xml-->
+      <pb ed="#P" n="152-v"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-b1005z-d1e322">
+               <lb ed="#P" n="1"/>¶ Ad hoc sunt auctoritates. 
+      <lb ed="#P" n="2"/>Omnes peccati descriptiones in quibus semper 
+      po<lb ed="#P" n="3" break="no"/>nitur aliquis actus positiuus interior vel exterior. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e331">
+               <lb ed="#P" n="4"/>¶ Prima est Augusti. 22. contra faustum. Peccatum 
+      <lb ed="#P" n="5"/>est dictum vel factum vel concupitum contra legen dei. 
+      <lb ed="#P" n="6"/>Sed omnia ista significant actus positiuos.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e340">
+      ¶ 
+      Se<lb ed="#P" n="7" break="no"/>cunda auctoritas est eiusdem de duabus animabus 
+      <lb ed="#P" n="8"/>Peccatum est voluntas retinendi vel consequendi quod 
+      <lb ed="#P" n="9"/>iusticia vetat et ita patet quod ibi accipit Augustinus 
+      <lb ed="#P" n="10"/>voluntatem pro actu volendi non pro potentia.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e351">
+      ¶ 
+      Ter<lb ed="#P" n="11" break="no"/>tia ratio est Ambrosii in libro de paradiso. Pecca 
+      <lb ed="#P" n="12"/>tum est praeuaricatio legis diuiue et celestium 
+      inobedien<lb ed="#P" n="13" break="no"/>tia mandatorum. Modo planum est quod preuaricatio 
+      <lb ed="#P" n="14"/>actum positiuum dicit et similiter inobedientia: quia 
+      <lb ed="#P" n="15"/>dicit voluntatem non obediendi necesse est enim 
+      om<lb ed="#P" n="16" break="no"/>ne peccatum esse volitum vel in seipso vel suo antece 
+      <lb ed="#P" n="17"/>dente ad quod ipsum necessario consequitur.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e369">
+      ¶ 
+      Quan<lb ed="#P" n="18" break="no"/>ta auctoritas est Augusti. 3. de libero arbitrio 
+      vbi<lb ed="#P" n="19" break="no"/>dicit quod peccatum est spreto bono incommutabili 
+      re<lb ed="#P" n="20" break="no"/>bus commutabilibus adherere sed ista dicunt actus 
+      <lb ed="#P" n="21"/>positiuos.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e381">
+      ¶ Ultima auctoritas est Magistri in 
+      lit<lb ed="#P" n="22" break="no"/>tera in presenti distinctione vbi dicit quod peccatum est 
+      <lb ed="#P" n="23"/>corruptio vel priuatio non passiue sed actiue. Sed  
+      <lb ed="#P" n="24"/>hoc non esset nisi consisteret in actu positiuo: igitur etc. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e390">
+               <lb ed="#P" n="25"/>¶ Nodus ponendi est iste. 
+      di<lb ed="#P" n="26" break="no"/>cunt enim quod peccatum duplex est. Unum omissionis et 
+      <lb ed="#P" n="27"/>aliud commissionis et quodlibet istorum in aliquo actu 
+      <lb ed="#P" n="28"/>positiuo consistit: sed differenter quia peccatum 
+      commis<lb ed="#P" n="29" break="no"/>sionis potest consistere et in actu interiori et in actu 
+      <lb ed="#P" n="30"/>exteriori.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e406">
+      ¶ Sed peccatum omissionis nunquam consistit 
+      <lb ed="#P" n="31"/>nisi in actu in teriori. Sed quomodo declarant 
+      dif<lb ed="#P" n="32" break="no"/>ferenter enim consistit in actu interiori et aliter quam 
+      pec<lb ed="#P" n="33" break="no"/>catum commissionis. Nam peccatum commissionis 
+      con<lb ed="#P" n="34" break="no"/>sistit in velle facere oppositum actum actui praecepti¬ 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e417">
+               <lb ed="#P" n="35"/>¶ Sed peccatum omissionis consistit in velle non 
+      rac<lb ed="#P" n="36" break="no"/>re preceptum vel in nolle facere actum precepti verbi 
+      <lb ed="#P" n="37"/>gratia preceptum est de honorando parentes. Circa 
+      <lb ed="#P" n="38"/>istud preceptum potest quis peccare peccato 
+      commi<lb ed="#P" n="39" break="no"/>sionis in actu interiori. Puta si velit exhonorare 
+      pa<lb ed="#P" n="40" break="no"/>rentes vel peccato omistionis si nolit actu positiuo 
+      <lb ed="#P" n="41"/>honorare parentes vel velit non honorare et sic de aliis 
+      <lb ed="#P" n="42"/>preceptis suo modo. Lex enim non tantum precipit non 
+      fe<lb ed="#P" n="43" break="no"/>cere contrarium precepti sed facere preceptum et quam 
+      <lb ed="#P" n="44"/>do facit iste contrarium precepti tunc peccat 
+      commit<lb ed="#P" n="45" break="no"/>tendo quando vult non facere preceptum vel renuit 
+      fa<lb ed="#P" n="46" break="no"/>cere peccat omissiue. Ita quod peccatum omissionis et 
+      <lb ed="#P" n="47"/>commissionis non distinguntur quia vnum consistat in 
+      <lb ed="#P" n="48"/>actu et aliud non: sed sicut dictum est. Ita quod licet 
+      po<lb ed="#P" n="49" break="no"/>sint distingui penes actum et non actum ex parte 
+      ob<lb ed="#P" n="50" break="no"/>iecti non tamen ex parte agentis vel peccantis.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e454">
+      ¶ Sed ista 
+      <lb ed="#P" n="51"/>positio videtur michi falsa de peccato omissionis. 
+      <lb ed="#P" n="52"/>Bene enim dico quod pectantum commissionis in aliquo actu 
+      <lb ed="#P" n="53"/>consistit. Sed videtur michi quod potest esse peccatum 
+      <lb ed="#P" n="54"/>omissionis sine omni actu positiuo voluntatis sine 
+      <lb ed="#P" n="55"/>etiam actu exteriori 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e467">
+               <lb ed="#P" n="56"/>¶ Ad hoc adduco aliquas 
+      ra<lb ed="#P" n="57" break="no"/>tiones.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e475">
+      ¶ Prima est ista. In cuius potestate est 
+      li<lb ed="#P" n="58" break="no"/>bere agere circa aliquod obiectum et libertate 
+      con<lb ed="#P" n="59" break="no"/>tradictionis in eius potestate est agere vel non 
+      age<lb ed="#P" n="60" break="no"/>re pro eodem instanti diuisim. Ista de se patet. Sed 
+      <lb ed="#P" n="61"/>voluntatis nostre est libere agere libertate contra 
+      <lb ed="#P" n="62"/>dictionis circa obiectum precepti propositum ad quod 
+      <!--313.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>tenetur implendum pro aliquo nunc sicut de hono 
+      <lb ed="#P" n="64"/>rando parentes: ergo pro eodem instanti diuisim 
+      po<lb ed="#P" n="65" break="no"/>test hoc velle vel non velle et ab actu cessare: Sed hoc 
+      <lb ed="#P" n="66"/>posito quod non velit peccabit peccato omissionis: quia 
+      <lb ed="#P" n="67"/>non faciet illud ad quod pro nunc tenetur. Nec oportet 
+      <lb ed="#P" n="68"/>quod aliquem alium actum eliciat propter hoc: ergo 
+      pecca<lb ed="#P" n="69" break="no"/>tum omissionis esse potest sine omni actu interiorit 
+      <lb ed="#P" n="70"/>voluntatis: et per consequens sine quocunque 
+      exterio<lb ed="#P" n="71" break="no"/>ri imperato ab ipsa.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e512">
+      ¶ Secunda ratio est ista. In 
+      nul<lb ed="#P" n="72" break="no"/>lo plus determinatur indifferentia voluntatis ad 
+      ali<lb ed="#P" n="73" break="no"/>quem actum positiuum quin possit omnem actum 
+      suspen<lb ed="#P" n="74" break="no"/>dere circa obiectum dictatum a ratione et 
+      presenta<lb ed="#P" n="75" break="no"/>tum per quemcunque modum quam circa obiectum non 
+      pre<lb ed="#P" n="76" break="no"/>sentatum nec omnino ostensum: igitur obiecto 
+      man<lb ed="#P" n="77" break="no"/>dati vel precepti presentato ad quod tenetur pro isto 
+      <lb ed="#P" n="78"/>nunc. Ita potest omnem actum suspendere circa 
+      ip<lb ed="#P" n="79" break="no"/>sum vel nullum actum positiuum habere sicut si 
+      om<lb ed="#P" n="80" break="no"/>nino non presentaretur. Nec intellectus aliquid 
+      co<lb ed="#P" n="81" break="no"/>gitaret de ipso. Sed nullum actum habendo circa 
+      il<lb ed="#P" n="82" break="no"/>lud obiectum circa quod tenetur habere actu pro 
+      in<lb ed="#P" n="83" break="no"/>stanti pro quo tenetur intellectum aduertente. Planum 
+      <lb ed="#P" n="84"/>est quod voluntas peccat peccato omissionis igitur etc. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e543">
+               <lb ed="#P" n="85"/>¶ Preterea ipsi dicunt quod peccatum omissionis 
+      con<lb ed="#P" n="86" break="no"/>sistit in aciu nolendi facere preceptum vel volendi non 
+      <lb ed="#P" n="87"/>facere. Tunc arguo contra hoc. Sicut se habet actus 
+      <lb ed="#P" n="88"/>volendi facere prohibitum ad omissionem vel 
+      commir<lb ed="#P" n="89" break="no"/>sionem. Sic se habet actus nolendi facere preceptum 
+      <lb ed="#P" n="90"/>affirmatiuum vel actus volendi non facere. Sed 
+      pla<lb ed="#P" n="91" break="no"/>num est quod actus volendi facere prohibitum est actus 
+      <lb ed="#P" n="92"/>et peccatum commissionis sicut patet de velle furari 
+      <lb ed="#P" n="93"/>vel fornicari: igitur actus positiuus nolendi 
+      imple<lb ed="#P" n="94" break="no"/>re preceptum vel volendi non implere est peccatum 
+      com<lb ed="#P" n="95" break="no"/>missionis non ergo omissionis. Unde non sic 
+      distingun<lb ed="#P" n="96" break="no"/>tur peccatum omissionis et commissionis sicut dicunt. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e572">
+               <lb ed="#P" n="97"/>¶ Quarta ratio est ista. Sicut in potestate 
+      volun<lb ed="#P" n="98" break="no"/>tatis est actus exterior vel negatio eius: ita 
+      multo<lb ed="#P" n="99" break="no"/>magis est actus interior: quia nichil tam est in 
+      po<lb ed="#P" n="100" break="no"/>testate voluntatis quam voluntas et sicut esset peccatum 
+      <lb ed="#P" n="101"/>imputabile voluntati si non exequeretur actum 
+      ex<lb ed="#P" n="102" break="no"/>teriorem quando tenetur. Ita non exequi vel 
+      elice<lb ed="#P" n="103" break="no"/>re actum interiorem precepti quando tenetur. Sed  
+      <lb ed="#P" n="104"/>planum est quod voluntati imputaretur ad peccatum 
+      <lb ed="#P" n="105"/>omissionis non mouere extrinsecam potentiam ad actum 
+      <lb ed="#P" n="106"/>exteriorem precepti.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e596">
+      ¶ Preterea de eundo ad 
+      ec<lb ed="#P" n="107" break="no"/>clesiam vel dando elemosinam dato quod nullum alium 
+      <lb ed="#P" n="108"/>actum exteriorem faceret: igitur multo fortius non 
+      <lb ed="#P" n="109"/>elicere actum interiorem. Sed hoc posito habebimus 
+      <lb ed="#P" n="110"/>peccatum sine actu omni interiori et exteriori: ergo 
+      <lb ed="#P" n="111"/>etc. Peccatum enim tale non consistit nisi omittendo 
+      <lb ed="#P" n="112"/>preceptum: non autem in aliquo actu reflexo: vt in 
+      <lb ed="#P" n="113"/>velle omit tere vel nolle facere siue velle. Unde et 
+      <lb ed="#P" n="114"/>velle non facere non est peccatum nisi quia non velle 
+      <lb ed="#P" n="115"/>vel non facere est prohibitum et peccatum et sunt 
+      pec<lb ed="#P" n="116" break="no"/>cata alterius rationis sicut puto.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e620">
+      ¶ Quinta ratio 
+      <lb ed="#P" n="117"/>est ista: quia si voluntas possit aliquid contra 
+      iudi<lb ed="#P" n="118" break="no"/>cium rationis potest tamen contra secundum iudicium 
+      ratio<lb ed="#P" n="119" break="no"/>nis. Sed ratio erronea potest dictare alicui quod nihil 
+      <lb ed="#P" n="120"/>est volendum vel nolendum circa materiam 
+      precepti<lb ed="#P" n="121" break="no"/>vel etiam circa velle vel non velle precepti etiam pro 
+      <lb ed="#P" n="122"/>instanti pro quo voluntas tenetur ad preceptum: 
+      er<lb ed="#P" n="123" break="no"/>go voluntas potest non velle vel nolle aliquid circa 
+      <lb ed="#P" n="124"/>istud videlicet stare sine omni actu et pro instanti pro quo 
+      <lb ed="#P" n="125"/>tenetur ad preceptum. Sed hoc facto peccat pecca 
+      <lb ed="#P" n="126"/>to omissionis: ergo sine omni actu potest stare 
+      pec<lb ed="#P" n="127" break="no"/>catum omissionis.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e647">
+      ¶ Ultima ratio quia aliquis non 
+      <!--314.xml-->
+      <pb ed="#P" n="153-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>punitur pena sensus eterna nisi pro peccato alio ab 
+      <lb ed="#P" n="2"/>originali. Sed aliquis iuste sic punitur pro eo quod 
+      fa<lb ed="#P" n="3" break="no"/>cit preceptum. Nec oportet quod faciat aliquem alium 
+      <lb ed="#P" n="4"/>actum: ergo hoc est peccatum et ita peccatum omne ab 
+      <lb ed="#P" n="5"/>priginali non oportet quod sit in aliquo actu positiuo. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e667">
+               <lb ed="#P" n="6"/>¶ Dico ergo quod voluntas quia 
+      <lb ed="#P" n="7"/>ex sua libertate habet quod potest libere velle vel non 
+      <lb ed="#P" n="8"/>velle quodcumque obiectum quantumcumque volendum quod si 
+      <lb ed="#P" n="9"/>ne omni actu positiuo potest peccare peccato 
+      omis<lb ed="#P" n="10" break="no"/>sionis non volendo id quod est volendum et ad quod 
+      tene<lb ed="#P" n="11" break="no"/>tur et sic non oportet omnem culpam voluntatis con 
+      <lb ed="#P" n="12"/>sistere in actu secundo positiuo sicut patet de pecca. 
+      <lb ed="#P" n="13"/>to omissionis de peccato commissionis bene puto. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e687">
+               <lb ed="#P" n="14"/>¶ Ad primum aliorum dico 
+      <lb ed="#P" n="15"/>quod nichil est voluntarium positiue nisi aliquis actus 
+      <lb ed="#P" n="16"/>qui est in potestate voluntatis sed banm priuatiue pro 
+      <lb ed="#P" n="17"/>tanto quia voluntati potest in esse aliqua priuatio 
+      <lb ed="#P" n="18"/>et voluntarie pro tanto quia potuit et debuit 
+      volun<lb ed="#P" n="19" break="no"/>tarie ponere actum positum quem tamen non posuit 
+      <lb ed="#P" n="20"/>et ideo dicitur priuatio talis voluntaria. Tu dicis 
+      <lb ed="#P" n="21"/>voluntas non potest suspendere actum nisi per velle. 
+      <lb ed="#P" n="22"/>Dico quod falsum est. Ita quod suspensio actus non est nisi 
+      <lb ed="#P" n="23"/>non elicere actum quem posset elicere.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e711">
+      ¶ Ad secundum 
+      di<lb ed="#P" n="24" break="no"/>co quod impossibile est esse malum culpe nisi fundatum 
+      <lb ed="#P" n="25"/>in aliquo bono positiuo et dico quod malum culpe 
+      omis<lb ed="#P" n="26" break="no"/>sionis fundatur in voluntate non in aliquo actu elici 
+      <lb ed="#P" n="27"/>to positiuo. Ad probationem dico quod non concludit 
+      ni<lb ed="#P" n="28" break="no"/>si de malo culpe commissionis in actu bono ex 
+      gene<lb ed="#P" n="29" break="no"/>re quod quidem est carentia rectitudinis moralis: quia 
+      recti<lb ed="#P" n="30" break="no"/>tudo circumstantie debite. Sed etiam dico quod non valet 
+      <lb ed="#P" n="31"/>de malo omni culpe commissionis quia potest esse peccatum 
+      <lb ed="#P" n="32"/>commissionis in actu malo ex genere qui non potest esse 
+      <lb ed="#P" n="33"/>bonus moraliter nec bene circumstantionari sicut actus 
+      <lb ed="#P" n="34"/>odiendi vel blasphemandi deum. Et tunc vltra dico 
+      <lb ed="#P" n="35"/>quod multominus valet in peccato omissionis quod non 
+      <lb ed="#P" n="36"/>solum priuat circumstantiam debitam in actu: sed etiam. 
+      <lb ed="#P" n="37"/>totam substantiam actus: et tunc dico quod sicut totus actus 
+      <lb ed="#P" n="38"/>habet fundari in voluntate sicut in bono et non in 
+      ali<lb ed="#P" n="39" break="no"/>quo actu secundo positiuo elicito: ita etiam malum cum 
+      <lb ed="#P" n="40"/>pe omissionis.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e750">
+      ¶ Ad tertium dico quod maior non est 
+      ve<lb ed="#P" n="41" break="no"/>ra nisi de peccato commissionis. Potest enim aliquis 
+      <lb ed="#P" n="42"/>peccare de nouo peccato omissionis dato quod in se non 
+      <lb ed="#P" n="43"/>mutetur per aliquid receptum nec aliquem actum 
+      posi<lb ed="#P" n="44" break="no"/>tiuum elicitum. Et ratio est: quia prius non tenebatur 
+      <lb ed="#P" n="45"/>ad implendum preceptum pro illo tunc priori et ideo 
+      <lb ed="#P" n="46"/>non peccabat prius non adimplendo modo et pro nunc 
+      <lb ed="#P" n="47"/>tenetur et ita posito quod non impleat sicut prius non 
+      im<lb ed="#P" n="48" break="no"/>plebat / peccat: et tamen prius non peccabat et non est 
+      om<lb ed="#P" n="49" break="no"/>nino mutatus quia non facit aliquid sicut nec prius. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e772">
+               <lb ed="#P" n="50"/>¶ Ad quartum dico quod peccans peccato omissionis 
+      <lb ed="#P" n="51"/>no oportet quod faciat aliquid sed sufficit quod non facit 
+      <lb ed="#P" n="52"/>aliquid ad quod faciendum tenetur. Tu dicis: ergo 
+      fa<lb ed="#P" n="53" break="no"/>cit nichil. Dico quod si voces nichil nullum actum 
+      posi<lb ed="#P" n="54" break="no"/>tiuum concedo. Et cum dicis: ergo pro nichilo 
+      dam<lb ed="#P" n="55" break="no"/>natur. Dico quod non pro nichilo omnino quod est 
+      mera<lb ed="#P" n="56" break="no"/>negatio extra genus sed bene pro nichilo eo mode 
+      <lb ed="#P" n="57"/>quo dicit Augustinus quod peccatum est nichil et istud 
+      <lb ed="#P" n="58"/>nichil bene saluatur in negatione que concernit 
+      sub<lb ed="#P" n="59" break="no"/>iectum et est priuatio rectitudinis debite inesse cum 
+      <lb ed="#P" n="60"/>iusmodi est peccatum omissionis. 
+      <lb ed="#P" n="61"/>vno verbo 
+      <lb ed="#P" n="62"/>Ad omnes auctoritates dici poneto 
+      <lb ed="#P" n="63"/>quia peccatum commissionis noxius est omnes ille descriptio 
+      <!--314.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>nes peccati verificantur et date sunt de peccato 
+      con<lb ed="#P" n="65" break="no"/>missionis. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e815">
+               <lb ed="#P" n="66"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="67" break="no"/>tulum. Posito quod aliquis actus sit peccatum vel in 
+      ali<lb ed="#P" n="68" break="no"/>quo actu consistat peccatum ad quam potentiam 
+      prin<lb ed="#P" n="69" break="no"/>cipalius pertinet ipsum peccatum et in quo est forma 
+      <lb ed="#P" n="70"/>lius sicut in subiecto et causa prima. Uidetur mihi 
+      <lb ed="#P" n="71"/>quod aliqui si sequerentur sua principia deberent 
+      princi<lb ed="#P" n="72" break="no"/>palius attribuere peccatum intellectiui quam voluntatio 
+      <lb ed="#P" n="73"/>Tum quia secundum ipsos est potentia liberior quam voluntas 
+      <lb ed="#P" n="74"/>quia intellectus est prima potentia immaterialis et ab 
+      <lb ed="#P" n="75"/>stracta. Tum quia voluntas nichil potest nisi 
+      iudi<lb ed="#P" n="76" break="no"/>catum a ratione nec potest aliquid contra ipsam: ita 
+      <lb ed="#P" n="77"/>quod intellectus est principalis motor et voluntas non 
+      <lb ed="#P" n="78"/>potest non moueri ab intellectum stante iudicio. Tum quia 
+      <lb ed="#P" n="79"/>intellectus est potentia simpliciter nobilior: quia est 
+      <lb ed="#P" n="80"/>propter se et voluntas propter ipsum sicut appetitus 
+      <lb ed="#P" n="81"/>ensitiuus propter sensum. Ad potentiam autem 
+      nobi<lb ed="#P" n="82" break="no"/>liorem pertinet meritum et per consequens 
+      demeritum<lb ed="#P" n="83" break="no"/>Tum quia ad potentiam illam precipue pertinet meritum 
+      <lb ed="#P" n="84"/>et demeritum que est precipue regitiua hominis. Sed 
+      <lb ed="#P" n="85"/>hoc est intellectus. Homo enim per rationem 
+      princi<lb ed="#P" n="86" break="no"/>paliter. Animalia enim imaginationibus viuut. Sed 
+      <lb ed="#P" n="87"/>pominum genus arte et rationibus 1. meta. quare etc. 
+      <lb ed="#P" n="88"/>ret ergo oppositum quod peccatum et cul 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e867">
+               <lb ed="#P" n="89"/>¶ Dico auci paprincipalius pertinet ad 
+      <lb ed="#P" n="90"/>voluntatem sicut ad causam et subiectum propter 
+      om<lb ed="#P" n="91" break="no"/>nes illas rationes que verificantur de voluntate. 
+      Pri<lb ed="#P" n="92" break="no"/>mo quia potentia sola formaliter libera libertate 
+      di<lb ed="#P" n="93" break="no"/>co meritoria non ex immunitate a materia sicut dictum 
+      <lb ed="#P" n="94"/>est supra in quadam questione. Tum quia voluntas 
+      <lb ed="#P" n="95"/>stante omnimoda rectitudine rationis potest in 
+      opposi<lb ed="#P" n="96" break="no"/>tum eius quod iudicatum est et est principalis motor in 
+      re<lb ed="#P" n="97" break="no"/>gno animae et intellectus. Non quia intellectus mera 
+      ne<lb ed="#P" n="98" break="no"/>cessitate naturali mouetur ab obiecto praesentato 
+      ni<lb ed="#P" n="99" break="no"/>si auertatur a voluntate. Tum quia voluntas secundum 
+      mul<lb ed="#P" n="100" break="no"/>tos est simpliciter nobilior et actus intellectus est 
+      sim<lb ed="#P" n="101" break="no"/>pliciter propter actum voluntatis et optimus propter 
+      <lb ed="#P" n="102"/>oppositum sicut videtur et cognoscere deum propter 
+      di<lb ed="#P" n="103" break="no"/>ligere et frui non econuerso: quia hoc esset peruersim secundum 
+      <lb ed="#P" n="104"/>Bernardum. Tum quia voluntas est precipue regitiua 
+      <lb ed="#P" n="105"/>homins: quia imperando sicut regina et rex in regno. 
+      In<lb ed="#P" n="106" break="no"/>tellectus autem solum dictando et consulendo: quare etc. 
+      <lb ed="#P" n="107"/>ri autem alias rationes ad idem. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e911">
+               <lb ed="#P" n="108"/>¶ Adduio.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e916">
+      ¶ Primo sic. Ad illam 
+      poten<lb ed="#P" n="109" break="no"/>tiam principalius pertinet peccatum et culpa que 
+      <lb ed="#P" n="110"/>sola punietur et cui soli culpa imputatur. Sed hec 
+      <lb ed="#P" n="111"/>est solum voluntas secundum Anselmum de conceptu vit 
+      <lb ed="#P" n="112"/>ginali: ergo etc. Nichil enim pena est nisi 
+      inuolun<lb ed="#P" n="113" break="no"/>tarium proprie loquendo.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e929">
+      ¶ Secunda ratio est ista 
+      <lb ed="#P" n="114"/>Ad illam potentiam pertinet principaliter 
+      pecca<lb ed="#P" n="115" break="no"/>tum et culpa in cuius potestate primo est facere cul 
+      <lb ed="#P" n="116"/>pam vel non. Sed hec est voluntas per suam 
+      liber<lb ed="#P" n="117" break="no"/>tatem stante quocunque dictamine in intellectu sicut 
+      <lb ed="#P" n="118"/>probatum est supra. distinc. 29. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e942">
+      ¶ Tertia 
+      <lb ed="#P" n="119"/>ratio. Ad illam potentiam primo et principaliter 
+      vn<lb ed="#P" n="120" break="no"/>de habet culpa quod sit voluntaria: quia peccatum a deo 
+      <lb ed="#P" n="121"/>est voluntarium quod si non est voluntarium non est 
+      pec<lb ed="#P" n="122" break="no"/>catum secundum Augustinum de vera religione. 
+      <lb ed="#P" n="123"/>Sed planum est quod ex voluntate habet culpa quod sit 
+      <lb ed="#P" n="124"/>voluntaria et non ex intellectu: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e959">
+               <lb ed="#P" n="125"/>¶ Quarta ratio. Si culpa pertineret 
+      principali<lb ed="#P" n="126" break="no"/>ter ad intellectum cum actus intellectus sit prior 
+      <lb ed="#P" n="127"/>actu voluntatis culpa posset esse ante omnem actum 
+      <!--315.xml-->
+      <pb ed="#P" n="153-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>voluntatis etiam culpa commissionis. Sed hoc est 
+      fal<lb ed="#P" n="2" break="no"/>sum quia nichil est imputabile vt peccatum actuale: 
+      <lb ed="#P" n="3"/>nisi voluntarium: ergo etc. Dico quod culpa ad 
+      volun<lb ed="#P" n="4" break="no"/>tatem pertinet et ad nullam aliam potentiam vt 
+      cul<lb ed="#P" n="5" break="no"/>pa est et imputabilis facienti vel habenti culpam: 
+      li<lb ed="#P" n="6" break="no"/>cet enim peccatum vt peccatum bene sit in aliis 
+      poten<lb ed="#P" n="7" break="no"/>tiis et ab aliis sicut et inuenitur peccatum in 
+      naturali<lb ed="#P" n="8" break="no"/>bus. Tamen nunquam imputatur aliquod peccatum aliis 
+      <lb ed="#P" n="9"/>potentiis: sed solum voluntati et est culpa omnis 
+      ip<lb ed="#P" n="10" break="no"/>sius voluntatis vel sicut in principio effectiuo et 
+      sub<lb ed="#P" n="11" break="no"/>iecto vel sicut in principio cui imputatur. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e998">
+               <lb ed="#P" n="12"/>¶ Ad rationes aliorum dico quod 
+      <lb ed="#P" n="13"/>si illa libertas quae est immunitas a materia esset liber 
+      <lb ed="#P" n="14"/>tas meritoria vel demeritoria et intellectus esset 
+      pri<lb ed="#P" n="15" break="no"/>mo liber et magis liber tali libertate sicut dicunt 
+      tunc<lb ed="#P" n="16" break="no"/>deberent concedere quod peccatum est principalius 
+      im<lb ed="#P" n="17" break="no"/>intellectu. Sed dico quod intellectus non est liber liber 
+      <lb ed="#P" n="18"/>tate meritoria que pertinet ad propositum plus quam 
+      <lb ed="#P" n="19"/>vnus truncus vel plus quam pes vel oculus: licet enim 
+      <lb ed="#P" n="20"/>possit in opposita obiecta sicut et sensus visus in 
+      al<lb ed="#P" n="21" break="no"/>bum vel nigrum et in actum et negationem actus 
+      ab<lb ed="#P" n="22" break="no"/>sente obiecto sicut et sensus: non tamen in potestate 
+      <lb ed="#P" n="23"/>sua habet hoc quod omnibus requisitis necessariis ad 
+      <lb ed="#P" n="24"/>actionem possit ex sua spontaneitate agere vel actum 
+      <lb ed="#P" n="25"/>suspendere sed sola voluntas et ideo non est liber quod 
+      <lb ed="#P" n="26"/>patet in intellectione questionis deducte euidenter 
+      <lb ed="#P" n="27"/>ex principiis et de principio que necessario 
+      intelli<lb ed="#P" n="28" break="no"/>git si presentetur obiectum nisi forte auertatur per 
+      vo<lb ed="#P" n="29" break="no"/>luntatem. Unde et in potestate sua non est 
+      determina<lb ed="#P" n="30" break="no"/>re se ad alterum. 9. metha.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1042">
+      ¶ Ad secundum dico quod 
+      <lb ed="#P" n="31"/>deberent concedere questionem tamen dico quod ex falsis pro 
+      <lb ed="#P" n="32"/>cedunt: quia sicut dictum est supra voluntas potest 
+      <lb ed="#P" n="33"/>contra iudicium rationis nec necessario datur a 
+      ra<lb ed="#P" n="34" break="no"/>tione. Dices peccatum non est nisi defectus a bono 
+      <lb ed="#P" n="35"/>lcun rationem. Dico quod verum est. Sed ille defectus est 
+      <lb ed="#P" n="36"/>principaliter a voluntate non ab intellectu sicut et 
+      bo<lb ed="#P" n="37" break="no"/>num licet sit secundum rationem: est tamen voluntatis et a 
+      volunta<lb ed="#P" n="38" break="no"/>te principaliter.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1062">
+      ¶ Ad tertium dico quod deberent 
+      com<lb ed="#P" n="39" break="no"/>cedere conclusionem tamen ex falso procedit. 
+      Intel<lb ed="#P" n="40" break="no"/>lectus enim non est simpliciter nobilior voluntate: 
+      <lb ed="#P" n="41"/>nec voluntas est propter ipsum sed magis 
+      econuer<lb ed="#P" n="42" break="no"/>to et similiter de actibus. Tu dicis. Intellectus est 
+      <lb ed="#P" n="43"/>sui gratia. Dico quod verum est non simpliciter: sed in 
+      <lb ed="#P" n="44"/>ordine potentiarum cognitiuarum. Tu dicis 
+      appe<lb ed="#P" n="45" break="no"/>titus est propter sensum falsum est: sed magis 
+      econ<lb ed="#P" n="46" break="no"/>uerso: quia appetitus non est finaliter propter 
+      sen<lb ed="#P" n="47" break="no"/>tire: sed propter delectari et sensus etiam propter idem 
+      <lb ed="#P" n="48"/>finaliter.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1086">
+      ¶ Ad quartum dico quod dederent 
+      concede<lb ed="#P" n="49" break="no"/>re conclusionem licet ex falso procedat: quia 
+      intelle<lb ed="#P" n="50" break="no"/>ctus non est potentia principaliter regitiua hominis 
+      <lb ed="#P" n="51"/>sed voluntas mouendo et imperando licet intellectus 
+      <lb ed="#P" n="52"/>sit potentia regitiua consulendo et dictando quare etc. 
+      <lb ed="#P" n="53"/>Dices quod voluntas eoipso quod ad ipsam pertinet cul 
+      <lb ed="#P" n="54"/>sa vel peccatum videtur innobilior. Dico quod non 
+      <lb ed="#P" n="55"/>Nobilitas enim potentie debet accipi ex optimo actu 
+      <lb ed="#P" n="56"/>suo que non est minus nobilis in proposito quam actus 
+      <lb ed="#P" n="57"/>intellectus: quia optimus actus intellectus videtur 
+      <lb ed="#P" n="58"/>propter ipsum. Non autem debet accipi nobilitas 
+      <lb ed="#P" n="59"/>vel conditio potentie simpliciter ex actu defectiuo si 
+      <lb ed="#P" n="60"/>quem potest habere. Preterea etiam intellectus 
+      po<lb ed="#P" n="61" break="no"/>test habere actum defectiuum et erroneum. Hec 
+      de<lb ed="#P" n="62" break="no"/>secundo articulo questionis.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1119">
+      ¶ Unde nota quod non 
+      <lb ed="#P" n="63"/>ex aliquo malo vnde possit voluntas in malum sed 
+      <lb ed="#P" n="64"/>ex bono quod est ipsa: quia ergo ipsa est bonum quoddam 
+      <!--315.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>in se potens in actum qui non est minus nobilis quam 
+      <lb ed="#P" n="66"/>actus intellectus non est minus bonum. Nec potest 
+      <lb ed="#P" n="67"/>argui ex hoc esse minus bonum. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e1138">
+               <lb ed="#P" n="68"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="69" break="no"/>ticulum. An scilicet actus voluntatis malus sit 
+      pec<lb ed="#P" n="70" break="no"/>catum vel culpa inquantum est a voluntate effectiuem: 
+      <lb ed="#P" n="71"/>vel inquantum in voluntate formaliter et 
+      subiectiue<lb ed="#P" n="72" break="no"/>Dico premittendo vnam distinctionem. Secundo ad  
+      <lb ed="#P" n="73"/>propositum. Tertio concludendo vnum correlarium 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e1154">
+               <lb ed="#P" n="74"/>¶ Quantum ad primum dico. quod actus voluntatis 
+      <lb ed="#P" n="75"/>malus potest dupliciter considerari. Uno modo vt 
+      <lb ed="#P" n="76"/>in se malus et deformis carens perfectione sibi 
+      de<lb ed="#P" n="77" break="no"/>bita in esse. Alio modo inquantum imputabilis ad 
+      pe<lb ed="#P" n="78" break="no"/>nam et per consequens culpabilis.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1167">
+      ¶ Ad 
+      proposi<lb ed="#P" n="79" break="no"/>tum dico quod actus voluntatis malus et deformis 
+      ca<lb ed="#P" n="80" break="no"/>rens perfectione sibi debita inesse. Alio modo inquam 
+      <lb ed="#P" n="81"/>tum imputabilis ad penam et per consequens culpa 
+      <lb ed="#P" n="82"/>bilis.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1178">
+      ¶ Ad propositum dico quod actus voluntatis 
+      <lb ed="#P" n="83"/>malus habet rationem culpabilis et imputabilis ipsi 
+      <lb ed="#P" n="84"/>voluntati inquantum est ab ipsa effectiue.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1185">
+      ¶ 
+      Secun<lb ed="#P" n="85" break="no"/>do dico quod habet rationem deformantis et 
+      deturpan<lb ed="#P" n="86" break="no"/>tis seu maculantis vel inficientis voluntatem inquam 
+      <lb ed="#P" n="87"/>tum est in ipsa subiectiue et denominantis 
+      volunta<lb ed="#P" n="88" break="no"/>tem vt malam.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1196">
+      ¶ Primum probo sic. Primo 
+      pec<lb ed="#P" n="89" break="no"/>catum habet rationem culpabilis et imputabilis 
+      vo<lb ed="#P" n="90" break="no"/>luntatis secundum illam rationem secundum quam comparatur 
+      <lb ed="#P" n="91"/>ad ipsam: vt in sua potestate: quia nichil est 
+      imputa<lb ed="#P" n="92" break="no"/>bile alicui nisi vt in sua potestate. Sed actus malus 
+      <lb ed="#P" n="93"/>fuit in potestate voluntatis inquantum actio eius et 
+      po<lb ed="#P" n="94" break="no"/>test esse ab ipso effectiue vt patet. Non inquantum 
+      re<lb ed="#P" n="95" break="no"/>ceptum in ipso passiue: quia in potestate 
+      patien<lb ed="#P" n="96" break="no"/>tis vt sic non est ipse effectus: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1217">
+      ¶ Secundo 
+      <lb ed="#P" n="97"/>sic secundum illam rationem est peccatum imputabile 
+      vo<lb ed="#P" n="98" break="no"/>luntati secundum quam comparatur ad voluntatem vt ad 
+      <lb ed="#P" n="99"/>causam liberam. Sed hoc est vt comparatur ad 
+      ip<lb ed="#P" n="100" break="no"/>sam tanquam ad causam liberam sicut pluries 
+      proba<lb ed="#P" n="101" break="no"/>tum est supra: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1230">
+      ¶ Tertio sic secundum illam ratio 
+      <lb ed="#P" n="102"/>nem. Peccatum imputatur voluntati qua posita et 
+      <lb ed="#P" n="103"/>aliis circunscriptis adhuc imputatur et qua non 
+      po<lb ed="#P" n="104" break="no"/>sita non imputatur. Sed posito quod actus sit a 
+      volun<lb ed="#P" n="105" break="no"/>tate dato quod non sit in voluntate adhuc imputatur. 
+      <lb ed="#P" n="106"/>Nunquam autem imputatur nisi a voluntate: quia 
+      so<lb ed="#P" n="107" break="no"/>li voluntati imputatur vnde et actus deformis 
+      in<lb ed="#P" n="108" break="no"/>feriorum potentiarum voliti licet non sint in ipsa: 
+      <lb ed="#P" n="109"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1250">
+      ¶ Ad hoc videtur facere Augustinus 1. 
+      <lb ed="#P" n="110"/>de libero arbitrio vbi dicit quod culpa est malum quod 
+      fa<lb ed="#P" n="111" break="no"/>cimus. Pena vero malum quod patimur secundo 
+      mo<lb ed="#P" n="112" break="no"/>do accipiendo culpam vel peccatum scilicet vt denominat 
+      <lb ed="#P" n="113"/>voluntatem malam et deformen. Dico quod est in 
+      volun<lb ed="#P" n="114" break="no"/>tate sicut in subiecto. Tum quia sicut nichil est 
+      bo<lb ed="#P" n="115" break="no"/>num formaliter bonitate extrinseca que non est in 
+      <lb ed="#P" n="116"/>ipso. Ita nichil malum est vel deforme nisi malicia 
+      <lb ed="#P" n="117"/>vel deformitate existente in ipso. Sed peccatum est 
+      <lb ed="#P" n="118"/>n voluntate formaliter inquantum passiua et 
+      recepti<lb ed="#P" n="119" break="no"/>ua non inquantum actiua: igitur etc. Tum quia secundum 
+      il<lb ed="#P" n="120" break="no"/>lam rationem peccatum deformat voluntatem secundum 
+      <lb ed="#P" n="121"/>quam tollit ab ea bonum sibi oppositum et 
+      incompos<lb ed="#P" n="122" break="no"/>sibile peccato. Sed hoc est vt comparatur ad 
+      volun<lb ed="#P" n="123" break="no"/>tatem vt passiuam et receptiuam sicut habitus et 
+      pri<lb ed="#P" n="124" break="no"/>uatio comparantur ad potentiam subiecti: ergo etc. 
+      <lb ed="#P" n="125"/>Quarto quia secundum illam rationem pectantum inficit 
+      volunta<lb ed="#P" n="126" break="no"/>tem secundum quam voluntas dicitur vitiosa per habitum generatum 
+      ex<lb ed="#P" n="127" break="no"/>actibus peccatorum. Sed hoc est vt passiua: quia vt 
+      <lb ed="#P" n="128"/>habens in se formaliter talem habitum. Unde et alio 
+      <!--316.xml-->
+      <pb ed="#P" n="154-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>potentie iniquibus aggenerantur habitus ex 
+      motie<lb ed="#P" n="2" break="no"/>ne voluntatis dicuntur vitiosi secundum tales habitus si sint 
+      <lb ed="#P" n="3"/>mali: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1307">
+      ¶ Ultimo patet hoc: quia voluntas 
+      <lb ed="#P" n="4"/>inquantum passiua et receptiua virtutis vel gratie 
+      di<lb ed="#P" n="5" break="no"/>citur gratiosa vel virtuosa: ergo similiter vitiosa et 
+      <lb ed="#P" n="6"/>deformata per peccatum 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e1316">
+               <lb ed="#P" n="7"/>¶ Ex predictis concludo 
+      vnum<lb ed="#P" n="8" break="no"/>correlarium I quod illi qui ponunt voluntatem pure 
+      pas<lb ed="#P" n="9" break="no"/>siuam siue ab obiecto siue ab alio non possunt saluare 
+      <lb ed="#P" n="10"/>imputabilitatem peccati nec culpabilitatem 
+      volunta<lb ed="#P" n="11" break="no"/>tis. Nec possunt saluare quod voluntati imputetur ali 
+      <lb ed="#P" n="12"/>quid ad premium vel penam aliquid. Dico de actibus 
+      <lb ed="#P" n="13"/>suis: quia ad omne tale se habet pure passiue: 
+      imme<lb ed="#P" n="14" break="no"/>nec aliquid de actibus extrinsecis: quia ad omne 
+      ta<lb ed="#P" n="15" break="no"/>le se habet mera necessitate naturali: quia eadem 
+      me<lb ed="#P" n="16" break="no"/>ra necessitate qua mouetur ab alio mouet alia: et ita 
+      <lb ed="#P" n="17"/>licet bene possint saluare actum deformen et malum 
+      in<lb ed="#P" n="18" break="no"/>voluntate sicut in aliis potentiis et sicut est in 
+      natura<lb ed="#P" n="19" break="no"/>libus. Culpam tamen aliquam que imputetur voluntati 
+      sal<lb ed="#P" n="20" break="no"/>uare non possunt. Ex quo patet quod illa positio false 
+      <lb ed="#P" n="21"/>est et periculosa valde. Magis enim debet 
+      imputari<lb ed="#P" n="22" break="no"/>actus obiecto vel mouenti voluntatem et non 
+      volun<lb ed="#P" n="23" break="no"/>tati. hec de tertio articulo. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e1355">
+               <lb ed="#P" n="24"/>¶ Quantum ad quartum 
+      arti<lb ed="#P" n="25" break="no"/>culum distinguit quidam doctor parte prima summ 
+      <lb ed="#P" n="26"/>sue quod bonum triplex est. Quoddam quod per malum tol 
+      <lb ed="#P" n="27"/>litur totaliter sicut gratia gratum faciens quod per 
+      ma<lb ed="#P" n="28" break="no"/>lum peccati mortalis totaliter tollitur sicut per suum 
+      <lb ed="#P" n="29"/>oppositum sic lux per tenebram tollitur et visus per 
+      ce<lb ed="#P" n="30" break="no"/>citatem.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1374">
+      ¶ Aliud est bonum quod omnino non tollitur 
+      <lb ed="#P" n="31"/>nec diminuitur sicut substantia aeris non tollitur 
+      per<lb ed="#P" n="32" break="no"/>tenebram nec diminuitur et hoc bonum in proposite 
+      <lb ed="#P" n="33"/>est substantia subiecti ipsius peccati. Puta 
+      substan<lb ed="#P" n="34" break="no"/>tia anime.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1385">
+      ¶ Tertium bonum est quod diminuitur: non 
+      ti<lb ed="#P" n="35" break="no"/>omnino tollitur et dicit quod hoc bonum est aptitudo ad 
+      <lb ed="#P" n="36"/>bonum vel habilitas que diminuitur per peccatum 
+      <lb ed="#P" n="37"/>nunquam tamen omnino potest tolli. Sicut enim intenditur 
+      <lb ed="#P" n="38"/>talis habilitas in anima per bonos actus: quia subiectum 
+      <lb ed="#P" n="39"/>magis est dispositum per bonos actus sic etiam 
+      remit<lb ed="#P" n="40" break="no"/>titur per actus malos.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1401">
+      ¶ Ponit exemplum de 
+      mate<lb ed="#P" n="41" break="no"/>ria quod quanto magis ac magis disponitur et habet 
+      pli<lb ed="#P" n="42" break="no"/>res dispositiones ad aliquam formam tanto habil 
+      <lb ed="#P" n="43"/>tas eius ad formam illam intenditur et quanto minus 
+      dif<lb ed="#P" n="44" break="no"/>ponitur et pauciores habet dispositiones et plures 
+      <lb ed="#P" n="45"/>contrarias tanto magis remittitur et diminuitur et si 
+      <lb ed="#P" n="46"/>dispositiones quibus remittitur habilitas materie 
+      <lb ed="#P" n="47"/>ad formam non possint multiplicari in infinitum. Nec 
+      <lb ed="#P" n="48"/>etiam habilitas potest remitti vel minui in infinitum 
+      <lb ed="#P" n="49"/>Sicut patet: quia si humiditas et frigiditas que sunt 
+      <lb ed="#P" n="50"/>dispositiones contrarie ipsius materie ad formam 
+      <lb ed="#P" n="51"/>ignis: possent multiplicari in infinitum in materia 
+      <lb ed="#P" n="52"/>tunc et habilitas materie ad formam ignis diminuere 
+      <lb ed="#P" n="53"/>tur in infinitum. Sed non sic possunt multiplicari in 
+      in<lb ed="#P" n="54" break="no"/>finitum. Sed in proposito dispositiones contrarie ad 
+      <lb ed="#P" n="55"/>bonum. Puta mali actus et peccata possunt mult 
+      <lb ed="#P" n="56"/>plicari in infinitum et nunquam totaliter tolleretur quod 
+      <lb ed="#P" n="57"/>semper remanet in radice. Puta in voluntate. Et 
+      po<lb ed="#P" n="58" break="no"/>nit exemplum. Sicut si ponerentur obstacula in 
+      infi<lb ed="#P" n="59" break="no"/>nitum inter aerem et solem in infinitum diminueretur 
+      <lb ed="#P" n="60"/>habilitas aeris ad lumen nunquam tamen totaliter tol 
+      <lb ed="#P" n="61"/>leretur: quia semper maneret dyaphaneitas aeris et 
+      <lb ed="#P" n="62"/>illa habilitas in radice. Sic in proposito de 
+      pecca<lb ed="#P" n="63" break="no"/>tis multiplicatis in voluntate que sunt quasi obsta¬ 
+      <!--316.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>cula inter animam nostram et deum impedientia 
+      lu<lb ed="#P" n="65" break="no"/>men gratie. Hec est positio¬ 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e1462">
+               <lb ed="#P" n="66"/>¶ Sed contra istam 
+      positio<lb ed="#P" n="67" break="no"/>nem arguo multipliciter: quia quasi per omnia vide 
+      <lb ed="#P" n="68"/>michi falsa.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1471">
+      ¶ Contra primum dictum quod peccatum 
+      <lb ed="#P" n="69"/>corrumpit gratiam vel expellit sicut tenebra lucem: quia 
+      <lb ed="#P" n="70"/>illud quod solum habetur per creationem non perditur 
+      <lb ed="#P" n="71"/>nisi per adnichilationem. Sed gratia habetur tantum 
+      pe<lb ed="#P" n="72" break="no"/>creationem: ergo non perditur nisi per 
+      adnichilatio<lb ed="#P" n="73" break="no"/>nem. Sed in hoc nichil potest peccatum nec peccato: 
+      <lb ed="#P" n="74"/>nisi demeritorie tantum. Ita quod non potest corrumpi per actum 
+      <lb ed="#P" n="75"/>alicuius creature siue bonum siue malum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1489">
+      ¶ 
+      Secun<lb ed="#P" n="76" break="no"/>do contra illud quod dicit quod peccatum opponitur 
+      gra<lb ed="#P" n="77" break="no"/>tie et corrumpit ipsam sicut lux tenebram: quia 
+      pec<lb ed="#P" n="78" break="no"/>catum non est priuatio gratie sibi directe et 
+      priuati<lb ed="#P" n="79" break="no"/>ue opposita. Primo quia anima non posset esse siue 
+      <lb ed="#P" n="80"/>mortali peccato vel sine gratia cuius oppositum 
+      ap<lb ed="#P" n="81" break="no"/>paruit in anima Ade qui non fuit creatus in gratia 
+      <lb ed="#P" n="82"/>sicut nec aer esse potest sine tenebra vel lumine. 
+      Se<lb ed="#P" n="83" break="no"/>cundo quia tunc omnia peccata mortalia essent 
+      eius<lb ed="#P" n="84" break="no"/>dem speciei sicut et habitus sibi oppositus. Puta 
+      gra<lb ed="#P" n="85" break="no"/>tia quod est falsum. Tertio quia solum primum 
+      pecc<lb ed="#P" n="86" break="no"/>tum mortale tolleret tale bonum et vel 
+      corrumperet<lb ed="#P" n="87" break="no"/>et alia non: et ita non est hoc commnune omni pecca. 
+      <lb ed="#P" n="88"/>to sicut querimus quomodo omne peccatum est 
+      cor<lb ed="#P" n="89" break="no"/>ruptio alienuius boni secundum Augustinum in 
+      en<lb ed="#P" n="90" break="no"/>chiridion et Magistrum. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e1525">
+               <lb ed="#P" n="91"/>¶ Contra secundum dictum deus 
+      <lb ed="#P" n="92"/>diminutione habilitatis quero aut ista habilitas / est 
+      <lb ed="#P" n="93"/>aliquid aliud a voluntate vel anima ipsa aut non. 
+      <lb ed="#P" n="94"/>Si non tunc non diminuitur sicut nec voluntas vel 
+      <lb ed="#P" n="95"/>anima. Et si diminuitur tunc anima ipsa vel 
+      volun<lb ed="#P" n="96" break="no"/>tas diminuitur quod est contra aliud dictum suum. Si non 
+      <lb ed="#P" n="97"/>est idem sed aliud planum est quod est aliquod bonum et in 
+      <lb ed="#P" n="98"/>anima vel voluntate est habilitas ad ipsam 
+      sequit<lb ed="#P" n="99" break="no"/>processus in infinitum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1547">
+      ¶ Preterea contra modum 
+      <lb ed="#P" n="100"/>diminutionis et augmentationis quem ponit sicut in 
+      <lb ed="#P" n="101"/>qualitatibus non per additionem partis ad partem 
+      si<lb ed="#P" n="102" break="no"/>cut in quantitatibus vel substractionem partis a parte sed 
+      <lb ed="#P" n="103"/>propter maiorem dispositionem subiecti vel 
+      indispositio<lb ed="#P" n="104" break="no"/>nem: quia iste modus est falsus sicut apparuit distin. 17. 
+      <lb ed="#P" n="105"/>de caritate et augmento eius. Et accipe inconuenien 
+      <lb ed="#P" n="106"/>tia que adducuntur ibi contra istud dictum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1565">
+      ¶ Preter 
+      <lb ed="#P" n="107"/>ea ipse accipit vnum falsum dictum quod scilicet elongatio 
+      po<lb ed="#P" n="108" break="no"/>tentie vel aptitudinis ab actu minuit habilitatem 
+      sub<lb ed="#P" n="109" break="no"/>iecti. Nam si sit graue multum sursum et multum remotum 
+      <lb ed="#P" n="110"/>a deorsum non minus est habile esse vel ferri deorsum 
+      <lb ed="#P" n="111"/>quam si non esset ita sursum nec ita elongatum a deorsum 
+      <lb ed="#P" n="112"/>Nec exemplum est ad propositum. Uerum est enim quod 
+      ma<lb ed="#P" n="113" break="no"/>ior calor auget potentiam resistendi frigido: immo est 
+      <lb ed="#P" n="114"/>ipsa potentia resistendi: sed licet elonget a frigido: non 
+      <lb ed="#P" n="115"/>tamen minuit habilitatem subiecti ad frigidum sicut 
+      <lb ed="#P" n="116"/>etiam nec augetur habilitas successiui aucta forma 
+      <lb ed="#P" n="117"/>in ipso. Si enim sic esset tunc calidum. 20. graduum 
+      <lb ed="#P" n="118"/>non posset: ita cito corrumpere frigidum. 10. 
+      gra<lb ed="#P" n="119" break="no"/>duum sicut calidum duorum graduum frigidum 
+      <lb ed="#P" n="120"/>vnius gradus quod est falsum et contra sensum. Non 
+      <lb ed="#P" n="121"/>enim esset equalis proportio resistentie vnius ad 
+      duo<lb ed="#P" n="122" break="no"/>et decem ad viginti propter maiorem habilitatem 
+      <lb ed="#P" n="123"/>subiecti in viginti quam in duobus. Similiter dico de 
+      <lb ed="#P" n="124"/>habilitate materie et nunquam augetur vel minuitur 
+      <lb ed="#P" n="125"/>ipsa materia eadem manente: quia non est aliud quam 
+      <lb ed="#P" n="126"/>materia. 
+      <!--317.xml-->
+      <pb ed="#P" n="154-v"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-b1005z-d1e1617">
+               <lb ed="#P" n="1"/>¶ Contra aliud quod dicit quod 
+      per<lb ed="#P" n="2" break="no"/>vnum peccatum indisponitur anima ad bonum et sic 
+      ha<lb ed="#P" n="3" break="no"/>bilitas eius ad bonum minuitur et per aliud peccati 
+      <lb ed="#P" n="4"/>magis etc.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1628">
+      ¶ Contra. Impossibile est aliquod 
+      fini<lb ed="#P" n="5" break="no"/>tum minui per partem vel saltem equaliter semper secundum 
+      <lb ed="#P" n="6"/>quantitatem vel quasi quantitatem quin tandem consuma 
+      <lb ed="#P" n="7"/>tur totum vel possit consumi. Sed per peccata 
+      mu<lb ed="#P" n="8" break="no"/>ta sibi succedentia equalia vel maiora frequenter 
+      di<lb ed="#P" n="9" break="no"/>minui potest ista habilitas equaliter: immo magis 
+      <lb ed="#P" n="10"/>ac magis et quasi secundum maiores ac maiores partes: ergo 
+      <lb ed="#P" n="11"/>totaliter consumi.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1646">
+      ¶ Preterea non valet 
+      exemplu<lb ed="#P" n="12" break="no"/>de aere interiectis obstaculis inter ipsum et solem: quia 
+      <lb ed="#P" n="13"/>habilitas aeris non propter hoc minuitur sicut nec 
+      <lb ed="#P" n="14"/>dyaphanitas eius vel natura licet impedimenta 
+      ex<lb ed="#P" n="15" break="no"/>trinseca multiplicentur.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1658">
+      ¶ Sic etiam in proposito: et 
+      <lb ed="#P" n="16"/>ideo videtur michiquod quasi omnia ista dicta nichil valent 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e1663">
+               <lb ed="#P" n="17"/>¶ Alii sunt qui ponunt quod 
+      pec<lb ed="#P" n="18" break="no"/>catum adimit aliquod bonum ab anima et illud bo 
+      <lb ed="#P" n="19"/>num est habitus virtutis que tollitur vel minuitur per 
+      <lb ed="#P" n="20"/>peccatum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1674">
+      ¶ Contra quia gratia non tollit nec 
+      mi<lb ed="#P" n="21" break="no"/>nuit habitum vitiosum. Patet in penitentibus de 
+      no<lb ed="#P" n="22" break="no"/>uo qui non minus inclinantur secundum suos habitus vitio 
+      <lb ed="#P" n="23"/>sos quam prius quantum est ex vi illorum habituum. Cu 
+      <lb ed="#P" n="24"/>ergo gratia sit potior in hoc vel non minus 
+      poten<lb ed="#P" n="25" break="no"/>quam peccatum in tollendo habitum virtuosum videtur 
+      <lb ed="#P" n="26"/>quod non tollat ipsum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1690">
+      ¶ Preterea ante omnem habi 
+      <lb ed="#P" n="27"/>tum virtuosum adquisitum potest esse peccatum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1695">
+      ¶ Pr 
+      <lb ed="#P" n="28"/>terea quia peccatum potest esse instantaneum. Hab 
+      <lb ed="#P" n="29"/>tus autem virtuosus non corrumpitur nec adquiritur in 
+      <lb ed="#P" n="30"/>instanti.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1704">
+      ¶ Quarto quia habens vnum habitum 
+      virtuo<lb ed="#P" n="31" break="no"/>sum circa vnam materiam potest peccare circa aliam 
+      <lb ed="#P" n="32"/>et ideo non tangitur ille habitus: sed remanet illesus 
+      <lb ed="#P" n="33"/>igitur etc. Dico ergo aliter quantum ad istum articulum 
+      <lb ed="#P" n="34"/>quod peccatum duplex est. Unum est peccatum omissionis 
+      <lb ed="#P" n="35"/>Aliud est peccatum commissionis.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1718">
+      ¶ De pcto 
+      omis<lb ed="#P" n="36" break="no"/>sionis dico quod cum sit priuatio actus et circumstantie 
+      <lb ed="#P" n="37"/>actus pro quando debent in esse quod adimit et corrumpit 
+      <lb ed="#P" n="38"/>actum debitum et circunstantiam eius: et sic adimit et 
+      <lb ed="#P" n="39"/>corrumpit bonum non effectiue sed priuando vel ipsum 
+      <lb ed="#P" n="40"/>negando. Peccans autem aliquo modo effectiue eo 
+      <lb ed="#P" n="41"/>modo quo potest dici quod peccando est causa effectius 
+      <lb ed="#P" n="42"/>talis peccati et consequenter tollit habitum qui posset 
+      <lb ed="#P" n="43"/>generari per talem actum frequentatum.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1738">
+      ¶ Peccatum 
+      <lb ed="#P" n="44"/>vero commissionis dico quod priuat bonum circa actum 
+      ip<lb ed="#P" n="45" break="no"/>sum: quia circumstantiam debitam in esse actui. Non 
+      <lb ed="#P" n="46"/>quod inueniat peccatum illam circumstantiam et actu et 
+      <lb ed="#P" n="47"/>ipsam expellat: sed quia nisi tale peccatum et 
+      caren<lb ed="#P" n="48" break="no"/>tia eius fuisset. Similiter etiam de peccato 
+      omissio<lb ed="#P" n="49" break="no"/>nis in voluntate. Non ergo minuitur habilitas 
+      sub<lb ed="#P" n="50" break="no"/>iecti vel anime ad bonum licet bene per peccata 
+      mu<lb ed="#P" n="51" break="no"/>ta ponatur aliqua difficultas ne ista habilitas 
+      redu<lb ed="#P" n="52" break="no"/>catur ad bonum. Similiter etiam per peccatum non 
+      <lb ed="#P" n="53"/>tollitur gratia sicut per priuationem habitus. Sed 
+      <lb ed="#P" n="54"/>demeritorie et a deo tollitur effectiue quando inerat 
+      <lb ed="#P" n="55"/>prius adueniente peccato vel non infunditur 
+      cont<lb ed="#P" n="56" break="no"/>nuato peccato: quia ergo ille actus rectus vel etiam 
+      <lb ed="#P" n="57"/>circumstantia recta vel rectitudo actus nata sunt perfi 
+      <lb ed="#P" n="58"/>cere naturam cui inessent nisi inesset peccatum. Ideo 
+      <lb ed="#P" n="59"/>dicitur quod peccatum est corruptio nature non in se 
+      loquen<lb ed="#P" n="60" break="no"/>do de natura subiecti sed quantum ad perfectionem 
+      ali<lb ed="#P" n="61" break="no"/>quam accidentalem debitam inesse: et sic debent intelligi 
+      <lb ed="#P" n="62"/>auctoritates sanctorum et doctorum quod peccatum corrum 
+      <lb ed="#P" n="63"/>pit vel adimit bonum vt dictum est.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1784">
+      ¶ Ex predictis 
+      <!--317.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>possunt multa concludi de peccatis videlicet 
+      quo<lb ed="#P" n="65" break="no"/>modo specie distinguantur quia distinguntur et actus 
+      <lb ed="#P" n="66"/>vel circumstantie priuate per ipsos. Quomodo etiam 
+      <lb ed="#P" n="67"/>vnum est grauius alio quia priuat meliorem actum 
+      ve<lb ed="#P" n="68" break="no"/>circumstantiam quam aliud et quid est principalius in 
+      pecca<lb ed="#P" n="69" break="no"/>to: quia auersio a bono iustitie et rectitudinis 
+      debi<lb ed="#P" n="70" break="no"/>te inesse et consequenter a bono incommutabili deo: quia 
+      <lb ed="#P" n="71"/>carentia rectitudinis debite inesse est ipsum peccatum 
+      <lb ed="#P" n="72"/>formaliter et sic de multis aliis que possent 
+      inquiri<lb ed="#P" n="73" break="no"/>de peccato. hec de quarto articulo. 
+      </p>
+            <p xml:id="qrdBas-b1005z-d1e1813">
+               <lb ed="#P" n="74"/>¶ Ad primum principale dico quod 
+      <lb ed="#P" n="75"/>peccatum actuale non solum dicitur ab actu posit 
+      <lb ed="#P" n="76"/>uo in existente. Sed etiam dicitur actuale a priuatio 
+      <lb ed="#P" n="77"/>ne actus qui debuit inesse sicut est de peccato 
+      omis<lb ed="#P" n="78" break="no"/>sionis.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1826">
+      ¶ Ad secundum dicendum quod non oportet quod 
+      <lb ed="#P" n="79"/>dormiens possit peccare aduertenter non omittit 
+      ali<lb ed="#P" n="80" break="no"/>quid quod teneatur facere nec dormiendo tenetur ad 
+      <lb ed="#P" n="81"/>uertere. Si tamen per aliquem actum priorem se posuit in 
+      <lb ed="#P" n="82"/>ista necessitate dormiendi pro illo tempore pro quo 
+      <lb ed="#P" n="83"/>tenetur aduertere et aliquid facere ille actus prior 
+      si<lb ed="#P" n="84" break="no"/>bi imputatur ad peccatum et forte etiam dormiendo 
+      <lb ed="#P" n="85"/>peccat peccato omissionis et imputatur sibi iuste: quia 
+      <lb ed="#P" n="86"/>potuit cohibere se ab actu dormiendi pro illo 
+      tempo<lb ed="#P" n="87" break="no"/>re.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1848">
+      ¶ Ad tertium dictum est quomodo peccatum est 
+      <lb ed="#P" n="88"/>nichil et quomodo non licet non consistat in aliquo 
+      po<lb ed="#P" n="89" break="no"/>sitiuo actu.
+    </p>
+            <p xml:id="qrdBas-b1005z-d1e1856">
+      ¶ Ad quartum dico quod peccato 
+      sponta<lb ed="#P" n="90" break="no"/>neo quod non consistit in aliquo actu correspondet pe 
+      <lb ed="#P" n="91"/>na sensus. quia spontaneo omittit: licet non 
+      habea<lb ed="#P" n="92" break="no"/>delectationem consequentem aliquem actum clicitum 
+      <lb ed="#P" n="93"/>in peccando etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

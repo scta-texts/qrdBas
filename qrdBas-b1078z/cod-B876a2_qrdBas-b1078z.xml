@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="164-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b1078z"><!--l2d40-41q1 -->
+            <head xml:id="qrdBas-b1078z-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b1078z-d1e101">
+      <!-- 
+        missing section
+        Order
+        bsb 334/file-.xml 333/f162v
+        !!! MISSING pages 163r and 163v !!!
+        bsb 335/file-.xml 344/f164r
+        bsb 336/file-.xml 345/f164v
+        -->
+      
+      <!--334.xml-->
+               <pb ed="#P" n="164-r"/>
+               <!-- should be 164r -->
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Non tamende eodem actu numero est ordinatum a 
+      <lb ed="#P" n="2"/>deo quod aliquando sit meritorius et aliquando 
+      demeri<lb ed="#P" n="3" break="no"/>torius. Hoc quantum ad istas bonitates et malicias. 
+      <lb ed="#P" n="4"/>cundum huius arti¬ 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e123">
+               <lb ed="#P" n="5"/>¶ Quantum ad lteculi. Unde slice habi 
+      <lb ed="#P" n="6"/>actus bonitatem quamcunque.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e130">
+      ¶ De prima bonitatei 
+      <lb ed="#P" n="7"/>scilicet naturali. Dico quod actus ab eodem vel eisdem 
+      <lb ed="#P" n="8"/>habet bonitatem naturalem et suam entitatem et tunc 
+      di<lb ed="#P" n="9" break="no"/>co quod bonitatem naturalem habet ab omnibus per se cau 
+      <lb ed="#P" n="10"/>sis causaliter quecumque sint ille et ex seipso formaliter 
+      <lb ed="#P" n="11"/>et de ista non est magna dubitatio.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e143">
+      ¶ De secunda boni 
+      <lb ed="#P" n="12"/>tate. Dico quod actus habet bonitatem ex genere ex omnibus 
+      <lb ed="#P" n="13"/>per se causis suis in ordine ad obiectum conueniens sut 
+      <lb ed="#P" n="14"/>quod transit quia ex hoc quod transit super obiectum conuenit 
+      <lb ed="#P" n="15"/>ens est bonus ex genere. Unde et actus aliqui transeum 
+      <lb ed="#P" n="16"/>tes super obiectum indebitum vel inconueniens 
+      mali<lb ed="#P" n="17" break="no"/>dicuntur ex genere propter disconuenientiam obiecti sicut 
+      <lb ed="#P" n="18"/>mentiri vel furari et sicut odire deum: et hoc patet 
+      per<lb ed="#P" n="19" break="no"/>Augustinum contra mendacium. Unde et tales actus non 
+      <lb ed="#P" n="20"/>sunt circumstantionales nec possunt bene fieri sed 
+      sta<lb ed="#P" n="21" break="no"/>tim nominati conuoluti sunt malo secundum Aristotelem 
+      <lb ed="#P" n="22"/>tertio ethicorum.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e170">
+      ¶ De tertia bonitate scilicet morali 
+      di<lb ed="#P" n="23" break="no"/>co quod talis bonitas habet in actu causaliter ex suis per se 
+      cau<lb ed="#P" n="24" break="no"/>sis et effectiue est ab efficiente actum voluntatis. Si 
+      <lb ed="#P" n="25"/>tamen dicat aliquid positiuum reale. Nam ista bonitas 
+      consi<lb ed="#P" n="26" break="no"/>stit in multitudine omnium circumstantiarum debitarum 
+      <lb ed="#P" n="27"/>anen esse secundum iudicium rationis. Sicut pulchritudo consisti 
+      <lb ed="#P" n="28"/>in proportione debita quantitatis et qualitatis et 
+      corres<lb ed="#P" n="29" break="no"/>pondentia debita ipsarum ad inuicem et ad subiectum et al 
+      <lb ed="#P" n="30"/>eodem habet actus circumstantias debitas et bonitaten 
+      <lb ed="#P" n="31"/>moralem. Modo constat quod principalis circumstantia in 
+      <lb ed="#P" n="32"/>ter istas est cicumstantia finis. Unde dico quod actus a suis 
+      <lb ed="#P" n="33"/>per se causis vt moralis est habet bonitatem moralem 
+      <lb ed="#P" n="34"/>causaliter lrtet ex conformitate ad rectam rationem quantum ad 
+      <lb ed="#P" n="35"/>omnes circumstantias debitas in esse quarum prima et 
+      prin<lb ed="#P" n="36" break="no"/>cipalis est ordo ad finem debitum habet forrmaliter talem 
+      <lb ed="#P" n="37"/>bonitatem.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e205">
+      ¶ Ex quo patet quod non solum ex fine actus habet bo 
+      <lb ed="#P" n="38"/>nitatem moralem quia non solum ad bonitatem moralem 
+      <lb ed="#P" n="39"/>requitur circumstantia finis sed alie circumstantie 
+      mult<lb ed="#P" n="40" break="no"/>et ex parte agentis et ex parte aliorum concurrentium ad 
+      <lb ed="#P" n="41"/>actum moraliter bonum secundum dictamen recte rationis. Sed 
+      <lb ed="#P" n="42"/>qualis respectus est talis conformitas actus moralis ad 
+      <lb ed="#P" n="43"/>rectam rationem secundum omnes circumstantias dictatas satis es 
+      <lb ed="#P" n="44"/>difficile videre et videretur aliquibus quod esset respectus 
+      rea<lb ed="#P" n="45" break="no"/>lis ad actum rationis.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e225">
+      ¶ Primo quia videtur esse respectus cans 
+      <lb ed="#P" n="46"/>ti ad causam effectiuam quia obiectum in intellectu vel actus 
+      <lb ed="#P" n="47"/>rationis qui est idem videtur esse causa effectiua actus moralis 
+      <lb ed="#P" n="48"/>ipsius voluntatis.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e234">
+      ¶ Secundo quia videtur esse rectus 
+      men<lb ed="#P" n="49" break="no"/>surati ad mensuram. Nam actus rationis dictans circumstam 
+      <lb ed="#P" n="50"/>tias debitas videtur esse regula et mensura actus voluntatis  
+      <lb ed="#P" n="51"/>Respectus autem mensurati ad mensuram videtur esse et 
+      <lb ed="#P" n="52"/>est realis. quaere etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e245">
+      ¶ Tertio quia per respectum 
+      rationi<lb ed="#P" n="53" break="no"/>non videtur esse actus aliquis moralis. Tuc enim scientio 
+      <lb ed="#P" n="54"/>moralis non esset scientia realis sed rationis. Exquo 
+      mo<lb ed="#P" n="55" break="no"/>ralitas vel bonitas moralis in actu non diceret 
+      ni<lb ed="#P" n="56" break="no"/>si repectum rationis.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e256">
+      ¶ Quarto quia bonitas principaliter 
+      <lb ed="#P" n="57"/>esset ab actu intellectus vel per actum intelligendi ab in 
+      <lb ed="#P" n="58"/>tellectu. Sed hoc est falsum quia tunc esset aliquis 
+      lau<lb ed="#P" n="59" break="no"/>dabilis principaliter et formaliter ex vno respectu 
+      ratio<lb ed="#P" n="60" break="no"/>nis vel vituparabilis expefectum vnius respectus rationis 
+      <lb ed="#P" n="61"/>videretur etiam talis actus esse accidentalis ipsi actut 
+      <lb ed="#P" n="62"/>in substantia actus prtet esse sine tali respectu ad actum 
+      ra<lb ed="#P" n="63" break="no"/>tionis sicut et absolute potest esse sine actu intellectus 
+      <lb ed="#P" n="64"/>vel rationis saltem vertate diuina quare etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e277">
+      ¶ Aliis autem 
+      <lb ed="#P" n="65"/>videretur esse respectus rationis non realis. Tum quia talis 
+      <!--334.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>respectus non consurgit ex natura extremorum nec 
+      ex<lb ed="#P" n="67" break="no"/>natura rei. Potest enim esse et poni vtrumque 
+      extere<lb ed="#P" n="68" break="no"/>mum sine tali respectu substantia actus voluntatis / 
+      <lb ed="#P" n="69"/>et actus rationis: et ita non est rectus realis 
+      intrinses<lb ed="#P" n="70" break="no"/>cus nec extrinsecus etiam patet inducendo quia nec ad 
+      <lb ed="#P" n="71"/>tio nec passio nec situs nec vbi nec quando nec habi 
+      <lb ed="#P" n="72"/>tus. quaere etc. Tum quia respectus realis intrinsecus vt 
+      cau<lb ed="#P" n="73" break="no"/>sati ad causam et mensurati ad mensuram non 
+      vide<lb ed="#P" n="74" break="no"/>tur esse actus ad actum: sed actus ad obiectum vt 
+      <lb ed="#P" n="75"/>videtur. Tum quia magis videtur habere respectum 
+      <lb ed="#P" n="76"/>pertinentem ad primum modum que est 
+      similitudo<lb ed="#P" n="77" break="no"/>vel conformitas ad actum rationis quam ad secundum 
+      <lb ed="#P" n="78"/>modum vel tertium sicut etiam difformitas non 
+      vi<lb ed="#P" n="79" break="no"/>detur nisi quedam diuersitas vel dissimilitudo et 
+      il<lb ed="#P" n="80" break="no"/>lum non habet sicut probatum est in prima ratione: 
+      <lb ed="#P" n="81"/>quia non ponitur necessario hiis exemplis positis 
+      ta<lb ed="#P" n="82" break="no"/>lis conformitas. Similiter etiam quia fundamenta 
+      <lb ed="#P" n="83"/>Puta actus rationis et actus voluntatis non sunt 
+      <lb ed="#P" n="84"/>eiusdem rationis: sed alterius et alterius vt patet 
+      <lb ed="#P" n="85"/>igitur etc. Non assero aliquam istarum viarum. 
+      Di<lb ed="#P" n="86" break="no"/>co tamen quod bonitas moralis est in actu ex 
+      concursu<lb ed="#P" n="87" break="no"/>omnium circunstantiarum secundum dictamen rationis 
+      recte<lb ed="#P" n="88" break="no"/>cui conformatur talis actus.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e336">
+      ¶ De quarta 
+      bonita<lb ed="#P" n="89" break="no"/>te scilicet meritoria. Dico quod actus meritorius habet bo 
+      <lb ed="#P" n="90"/>nitatem meritoriam formaliter ex acceptione passi 
+      <lb ed="#P" n="91"/>ua diuine voluntatis acceptantis talem actum ad 
+      <lb ed="#P" n="92"/>premium vite eterne effectiue autem a voluntate 
+      di<lb ed="#P" n="93" break="no"/>uina acceptante et concomitanter a caritate vel gratia 
+      <lb ed="#P" n="94"/>que est dispositio persone necessaria ad hoc secundum 
+      <lb ed="#P" n="95"/>ordinationem diuinam.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e354">
+      ¶ De maliciis vero 
+      oppo<lb ed="#P" n="96" break="no"/>sitis bonitatibus predictis dico quod satis patere 
+      po<lb ed="#P" n="97" break="no"/>test quid est causa malicie talis causa inquam non 
+      po<lb ed="#P" n="98" break="no"/>sitiua sed priuatiua quantum ad illud quod est priua 
+      <lb ed="#P" n="99"/>tiuum in talibus malis per correspondentiam ad 
+      <lb ed="#P" n="100"/>habitus vel ad positiua opposita excepto quod in deum 
+      <lb ed="#P" n="101"/>reduci non potest aliqua malicia culpabilis eo modo 
+      <lb ed="#P" n="102"/>quo dictum est supra.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e372">
+      ¶ Quantum vero ad positiua 
+      <lb ed="#P" n="103"/>que sunt ibi patere potest ex predictis. Unde actus 
+      <lb ed="#P" n="104"/>habet esse talis quod ipsum concomitatur deformitas et 
+      <lb ed="#P" n="105"/>malicia. Et hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e381">
+               <lb ed="#P" n="106"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="107" break="no"/>culum. Utrum scilicet actus humanus qui nec sit bonus nec 
+      ma<lb ed="#P" n="108" break="no"/>ilus sed simpliciter indifferens.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e390">
+      ¶ Notandum est 
+      pri<lb ed="#P" n="109" break="no"/>mo quod actus aliquis est ad quem mouetur homo non 
+      <lb ed="#P" n="110"/>deliberatiue nec ex deliberatione vel aduertentia 
+      <lb ed="#P" n="111"/>rationis: sed ex ymaginatione vel passione. Ita quod 
+      <lb ed="#P" n="112"/>ratio preuenitur a tali actu nec preueniet talem actum 
+      <lb ed="#P" n="113"/>sicut est confricatio barbe vel aliquid tale: et talis 
+      <lb ed="#P" n="114"/>actus non dicitur humanus licet sit hominis quia 
+      <lb ed="#P" n="115"/>non est hominis secundum rationem et deliberatiue 
+      <lb ed="#P" n="116"/>ue elicitus..
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e411">
+      ¶ Alii vero sunt actus habis qui 
+      con<lb ed="#P" n="117" break="no"/>ueniunt sibi a voluntate eliciente vel imperante prae 
+      <lb ed="#P" n="118"/>cedente ratione et deliberatione et tales actus 
+      pro<lb ed="#P" n="119" break="no"/>prie dicuntur humani.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e420">
+      ¶ De talibus ergo actibus 
+      <lb ed="#P" n="120"/>est iste articulus. Utrum aliquis talis actus 
+      huma<lb ed="#P" n="121" break="no"/>nus possit esse indifferens qui non sit bonus nec 
+      ma<lb ed="#P" n="122" break="no"/>lus et est procedendum secundum quadruplicem bo 
+      <lb ed="#P" n="123"/>nitatem supradictam et loquendo de prima 
+      bonita<lb ed="#P" n="124" break="no"/>te scilicet naturali clarum est quod non potest esse 
+      acti<lb ed="#P" n="125" break="no"/>idifferens qui non sit bonus. Oportet enim quod sit 
+      <lb ed="#P" n="126"/>omnis actus bonus tali bonitate sicut oportet quod sit 
+      <lb ed="#P" n="127"/>ens. Alioquin implicatio contradictionis est quod sit 
+      <lb ed="#P" n="128"/>ens et non ens vel neque ens neque non ens
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e442">
+      <!--335.xml-->
+               <pb ed="#P" n="164-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ De secunda bonitate ex genere scilicet non videtur aliquis 
+      <lb ed="#P" n="2"/>actus qui non transeat super obiectum conueniens tali actui 
+      <lb ed="#P" n="3"/>vel non conueniens quia inter contradictoria non est medium. Si 
+      <lb ed="#P" n="4"/>autem sufficiat ad maliciam actus ex genere quod cadat su 
+      <lb ed="#P" n="5"/>per obiectum non conueniens non est tunc dare actum 
+      indif<lb ed="#P" n="6" break="no"/>serentem ad bonitatem vel maliciam ex genere. Sed si non 
+      <lb ed="#P" n="7"/>sufficiat hoc sed requiratur quod obiectum non solum sit non 
+      <lb ed="#P" n="8"/>conueniens negatiue sed etiam dieterns positiue et quasi contra 
+      <lb ed="#P" n="9"/>rie tunc est dare actum indifferentem ad talem bonitatem 
+      <lb ed="#P" n="10"/>vel maliciam qui est neque bonus neque malus ex genere 
+      si<lb ed="#P" n="11" break="no"/>cut forte diceretur esse leuare festucam vel aliquid tale 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e475">
+               <lb ed="#P" n="12"/>¶ De tertia bonitate vel malicia scilicet morali est 
+      <lb ed="#P" n="13"/>dubium et sunt opiniones. 
+      <lb ed="#P" n="14"/>st quod actus in communi¬ 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e484">
+               <lb ed="#P" n="15"/>¶ Prima opinio ei et in vniuersat 
+      <lb ed="#P" n="16"/>est indifferens ad bonitatem vel maliciam moralem: 
+      <lb ed="#P" n="17"/>quia non repugnat sibi saluari in actu bono vel 
+      ma<lb ed="#P" n="18" break="no"/>o moraliter contento sub actu in communi sicut animal 
+      indif<lb ed="#P" n="19" break="no"/>ferens ad rationale vel irrationale. Sed de actu in 
+      <lb ed="#P" n="20"/>particulari dicunt quod impossibile est inuenire aliquem 
+      <lb ed="#P" n="21"/>actum particularem humanum qui non sit bonus 
+      morali<lb ed="#P" n="22" break="no"/>ter vel malus moraliter. 
+      <lb ed="#P" n="23"/>cuntur multe rationes. 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e506">
+               <lb ed="#P" n="24"/>¶ Ad hoc addu Prima estista quia onnis 
+      <lb ed="#P" n="25"/>actus in particulari est propter aliquem finem intentum. 
+      <lb ed="#P" n="26"/>Non minus enim voluntas agit propter finem quam 
+      natu<lb ed="#P" n="27" break="no"/>ra. Aut ergo ille finis est bonus et sic actus est bonus. 
+      <lb ed="#P" n="28"/>Aut non est bonus et sic est malus et per consequens actus 
+      ma<lb ed="#P" n="29" break="no"/>lus. etc. Dices quod finis nec bonus nec malus. contra quia tunc 
+      <lb ed="#P" n="30"/>talis actus est frustra et per consequens ociosus et malus sicut 
+      <lb ed="#P" n="31"/>patet de verbo ocioso quod est peccatum veniale saltem 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e527">
+               <lb ed="#P" n="32"/>¶ Secunda ratio. Impossibile est dare actum qui non 
+      ha<lb ed="#P" n="33" break="no"/>beat omnem circumstantiam debitam secundum rationem rectam vel 
+      <lb ed="#P" n="34"/>qui non careat ipsis vel aliqua ipsarum patet per 
+      contra<lb ed="#P" n="35" break="no"/>dictionem. Sed actus habens omnes est moraliter bonus 
+      <lb ed="#P" n="36"/>Actus vero carens omnibus vel aliqua est malus 
+      mo<lb ed="#P" n="37" break="no"/>raliter. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e543">
+      ¶ Tertia ratio. Si esset dare aliquem 
+      <lb ed="#P" n="38"/>actum indifferentem qui nec esset bonus nec malus 
+      mo<lb ed="#P" n="39" break="no"/>raliter pari ratione et habitum qui generaretur ex tali 
+      <lb ed="#P" n="40"/>actu frequentato vel posset generari qui nec esset 
+      vertuo<lb ed="#P" n="41" break="no"/>sus nec vitiosus. Sed hoc est falsum. ergo etc 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e554">
+               <lb ed="#P" n="42"/>¶ Quarta ratio. Inter priuationem et habitum non est 
+      <lb ed="#P" n="43"/>medium circa aptum natum. Sed malum moraliter 
+      <lb ed="#P" n="44"/>est priuatio boni. ergo in actibus humanis non est 
+      <lb ed="#P" n="45"/>dare medium. puta neque bonum neque malum.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e565">
+      ¶ Quin 
+      <lb ed="#P" n="46"/>ta ratio. Ominis actus humanus aut est conformis otioni 
+      <lb ed="#P" n="47"/>recte aut non sed difformis. Sed hoc posito oportet quod st 
+      <lb ed="#P" n="48"/>bonus vel malus moraliter. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e574">
+      ¶ Ultima ratio 
+      <lb ed="#P" n="49"/>Omnis actus eoipso quod humanus habet aliquam 
+      spe<lb ed="#P" n="50" break="no"/>cialem bonitatem vel maliciam super actum non 
+      huma<lb ed="#P" n="51" break="no"/>num. puta vltra actum brutalem. Sed hoc non est nisi 
+      <lb ed="#P" n="52"/>bonitas vel malicia secundum rationem vel discordans a 
+      ra<lb ed="#P" n="53" break="no"/>tione que est principium moris. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e587">
+      ¶ Alia est 
+      <lb ed="#P" n="54"/>opinio contraria quod potest esse aliquis actus humanus ad 
+      <lb ed="#P" n="55"/>uertenter et deliberatiue elicitus a voluntate vel 
+      im<lb ed="#P" n="56" break="no"/>peratus qui est indifferens ad bonitatem vel maliciam 
+      <lb ed="#P" n="57"/>moralem neque bonus scilicet neque malus. 
+      <lb ed="#P" n="58"/>cuntur rationes. Prima est 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e601">
+               <lb ed="#P" n="59"/>¶ Ad hoc adduista voluntas huana 
+      po<lb ed="#P" n="60" break="no"/>test elicere vel imperare aliquem actum talem 
+      qua<lb ed="#P" n="61" break="no"/>lis natus est esse vel est talis actus de natura sua vt pa 
+      <lb ed="#P" n="62"/>tet. Sed esse potest aliquis actus vel est qui nec bonus 
+      <lb ed="#P" n="63"/>est de natura sua moraliter nec malus quia natura sua 
+      <lb ed="#P" n="64"/>pensatur ex obiecto quod quidam nec est bonum nec 
+      ma<lb ed="#P" n="65" break="no"/>lum sed indifferens vt leuare festucam vel confricare. 
+      <!--335.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>parbam. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e625">
+      ¶ Secundo sic. Uoluntas 
+      humana<lb ed="#P" n="67" break="no"/>aduertenter potest in aliquem actum qui non est sibi 
+      praece<lb ed="#P" n="68" break="no"/>ptus nec prohibitus nec consultus nec disconsultus. Sed 
+      <lb ed="#P" n="69"/>talis est indterns ad bonum et malum vel bonitatem et 
+      ma<lb ed="#P" n="70" break="no"/>liciam moraliter. etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e636">
+      ¶ Tertio sic. Commune vel vni 
+      <lb ed="#P" n="71"/>uersale non est aliud quam suas species vel partes. Sed est 
+      <lb ed="#P" n="72"/>dare actum in communi indtentem ad bonitatem vel 
+      mali<lb ed="#P" n="73" break="no"/>ciam moralem vt dicunt alii. ergo etiam in 
+      particula<lb ed="#P" n="74" break="no"/>ri. Sed iste rationes parum valent et posset ad ipsas 
+      fa<lb ed="#P" n="75" break="no"/>ciliter respondere.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e649">
+      ¶ Ion adduco vnam aliam quam Scotus 
+      <lb ed="#P" n="76"/>adducit. Actus non est bonus vel malus moraliter 
+      ni<lb ed="#P" n="77" break="no"/>si quia habet omnes circumstantias bonas natas inesse si sit 
+      <lb ed="#P" n="78"/>bonus vel quia caret omnibus vel aliqua sibi debita 
+      in<lb ed="#P" n="79" break="no"/>esse non tantum nata in esse sed cum hoc debita a 
+      volunta<lb ed="#P" n="80" break="no"/>te si sit malus. Sed aliquis actus potest aduertenter 
+      eli<lb ed="#P" n="81" break="no"/>ci a voluntate qui non habet omnes circumstantias pertinentes 
+      <lb ed="#P" n="82"/>ad perfectionem eius secundum rectam rationem et sic non est 
+      bo<lb ed="#P" n="83" break="no"/>nus et tamen non caret aliqua circumstantia debita in 
+      <lb ed="#P" n="84"/>esse quia voluntas non est ad hoc obligata nec est 
+      debi<lb ed="#P" n="85" break="no"/>trix huius ex aliqua lege quod in omni actu suo ponat 
+      <lb ed="#P" n="86"/>omnem bonam circumstantiam possibilem sibi in esse. 
+      <lb ed="#P" n="87"/>Potest ergo non ponere aliquam circumstantiam que 
+      <lb ed="#P" n="88"/>requiritur ad bonitatem et sic actus non est bonus 
+      mo<lb ed="#P" n="89" break="no"/>raliter quia bonum est ex integra causa et tamen actus 
+      <lb ed="#P" n="90"/>non est malus moraliter quia non est debita et per consequens actus 
+      <lb ed="#P" n="91"/>est neuter. Unde videtur ymaginari quod non sufficiat ad 
+      <lb ed="#P" n="92"/>maliciam actus moralem quod actus careat aliqua 
+      cir<lb ed="#P" n="93" break="no"/>cunstantia requisita ad bonitatem: sed cum hoc requiritur 
+      <lb ed="#P" n="94"/>quod illa circumstantia sit debita a voluntate.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e693">
+      ¶ Sed 
+      <lb ed="#P" n="95"/>tunc est difficultas qumo tunc bonitas et malicia 
+      mo<lb ed="#P" n="96" break="no"/>ralis priuatiue opponitur circa eandem substantiam 
+      <lb ed="#P" n="97"/>actus quia si sic tunc non est dare medium actum qui 
+      na<lb ed="#P" n="98" break="no"/>tus sit esse bonus vel malus moraliter et sit indifferens 
+      <lb ed="#P" n="99"/>ad vtrumque. Sed ad hoc respondebitur in solutione vnius 
+      <lb ed="#P" n="100"/>de principalibus argumentis. Licet ergo actus non sit 
+      bo<lb ed="#P" n="101" break="no"/>nus moraliter non tum est malus sicut quando aliquis dat 
+      ad<lb ed="#P" n="102" break="no"/>uertenter elemosinam non cogitando aliquid de fine. 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e713">
+               <lb ed="#P" n="103"/>¶ Tenendo istud potest 
+      respon<lb ed="#P" n="104" break="no"/>deri ad rationes aliorum. Ad primam dicitur quod non oportet 
+      <lb ed="#P" n="105"/>quod omnis actus voluntatis elicitus vel imparatus sit propter 
+      <lb ed="#P" n="106"/>aliquem finem actu intentum ab ipsa: sed potest fieri non 
+      <lb ed="#P" n="107"/>cogitando aliquid de fine sicut exemplificatum est. Et quando 
+      <lb ed="#P" n="108"/>dicis quod tunc est frustra et ociosus talis actus. Dico 
+      <lb ed="#P" n="109"/>quod licet talis actus sit non propter aliquem finem 
+      in<lb ed="#P" n="110" break="no"/>tentum ex parte intendentis tamen potest cadere 
+      su<lb ed="#P" n="111" break="no"/>per tale obiectum quod non est ociosus nec 
+      frustra<lb ed="#P" n="112" break="no"/>ex parte sui sed ad bonum proximum sicut dare 
+      ele<lb ed="#P" n="113" break="no"/>mosinam. Et quando dicis quod actus carens fine 
+      intem<lb ed="#P" n="114" break="no"/>to est ociosus et malus. Dico quod verum est quando 
+      <lb ed="#P" n="115"/>non habet materiam indifferentem sed determinam 
+      <lb ed="#P" n="116"/>tem materiam ad oppositum actum conuenientem 
+      <lb ed="#P" n="117"/>illi materie. Sed non oportet de omni actu non 
+      in<lb ed="#P" n="118" break="no"/>tendentis finem quod sit peccatum nisi pro tunc 
+      tenea<lb ed="#P" n="119" break="no"/>tur finem intendere.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e753">
+      ¶ Ad secundum iam 
+      respon<lb ed="#P" n="120" break="no"/>sum est quod est dare actum qui non habet omnem 
+      cir<lb ed="#P" n="121" break="no"/>cunstantiam debitam vel requisitam ad esse bonum 
+      <lb ed="#P" n="122"/>et ita non est bonum nec tamen caret aliqua circum 
+      <lb ed="#P" n="123"/>stantia cuius voluntas absolute loquendo sit 
+      debi<lb ed="#P" n="124" break="no"/>trix et ita non est malus.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e766">
+      ¶ Ad tertium potest 
+      con<lb ed="#P" n="125" break="no"/>cedi ille habitus possibilis neuter nec virtuosus 
+      <lb ed="#P" n="126"/>nec viciosus.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e773">
+      ¶ Ad quartum dico quod inter 
+      priua<lb ed="#P" n="127" break="no"/>tionem et habitum non est medium circa subiectum 
+      <lb ed="#P" n="128"/>debitum. Sed actus absolute non se habet sicut 
+      <lb ed="#P" n="129"/>subiectum ad circunstantiam vel priuationem circum¬ 
+      <!--336.xml-->
+      <pb ed="#P" n="165-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>stantie tanquam ad bonitatem vel maliciam moraliter nisi 
+      <lb ed="#P" n="2"/>propter quanto circumstantia debita est a voluntate 
+      cir<lb ed="#P" n="3" break="no"/>ca talem actum. Ideo dico quod est dare medium actum per 
+      <lb ed="#P" n="4"/>abnegationem quando circumstantia non est debita sicut dictum 
+      <lb ed="#P" n="5"/>est supra.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e799">
+      ¶ Ad quintum dicitur per idem quod actus licet non sit 
+      <lb ed="#P" n="6"/>conformis quantum ad hoc quod habeat omnes circumstantias: tamen 
+      <lb ed="#P" n="7"/>non est difformis nec malus nec circumstantia sit 
+      debita<lb ed="#P" n="8" break="no"/>immo quod plus est nec hoc dictat ratio quod circumstantia sit sper 
+      <lb ed="#P" n="9"/>debita immo oppom. ideo etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e810">
+      ¶ Ad sextum dico quod actus 
+      <lb ed="#P" n="10"/>humanus vt sic habet aliam bonitatem naturalem ab actu 
+      <lb ed="#P" n="11"/>bruti: sed non oportet quod sit bonus vel malus moraliter ex hoc 
+      <lb ed="#P" n="12"/>quod est humanus sicut superius est probatum plus enim requiritur 
+      <lb ed="#P" n="13"/>ad hoc quod actus sit moralis quam quod sit humanus vel secundum 
+      <lb ed="#P" n="14"/>rationem.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e823">
+      ¶ De quarta bonitate scilicet meritoria et 
+      ma<lb ed="#P" n="15" break="no"/>licia sibi contraria puta demeritoria. Dico breuiter quod 
+      <lb ed="#P" n="16"/>est possibilis actus qui nec est meritorius nec demeritoris 
+      <lb ed="#P" n="17"/>Tum quia possibis est actus qui nec est bonus nec malus 
+      mo<lb ed="#P" n="18" break="no"/>raliter sicut probatum est supra et talis nec est meritorius 
+      <lb ed="#P" n="19"/>nec demeritorius.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e837">
+      ¶ Secundo quia possibilis est aliquis ho in 
+      <lb ed="#P" n="20"/>puris naturalibus sine gratia et caritate et posset habere 
+      ta<lb ed="#P" n="21" break="no"/>lis ho actum non meritorium quia non haberet gratiam et 
+      carita<lb ed="#P" n="22" break="no"/>tem. Nec demeritorium quia recte elicitum secundum dictamen 
+      <lb ed="#P" n="23"/>rationis recte quantum ad omnes circumstantias requisitas ad 
+      <lb ed="#P" n="24"/>bonitatem moralem. quaere etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e850">
+      ¶ Tertio quia dico quod cum 
+      ex<lb ed="#P" n="25" break="no"/>natura rei ipsius caritatis vel gratiae non sit ratio 
+      merito<lb ed="#P" n="26" break="no"/>rii in actu: sed ex libera acceptioe diuina sicut patui 
+      <lb ed="#P" n="27"/>in principio. Posset habere aliquis actum informatum caritate 
+      <lb ed="#P" n="28"/>et gratia qui non esset meritorius quia deus posset ipsum non 
+      acce<lb ed="#P" n="29" break="no"/>ptare. Nec demeritorius patet quaere etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e863">
+      ¶ Quarto quia 
+      <lb ed="#P" n="30"/>actus damnatorum multi poasstent esse et sut humani et tamen non sunt me 
+      <lb ed="#P" n="31"/>ritorii vel demeritorii quia non sunt in statu merendi nec 
+      <lb ed="#P" n="32"/>demerendi. quaere etc. Non est tamen dare actum qui non sit 
+      meriteo<lb ed="#P" n="33" break="no"/>rius vel non meritorius contradictione repugnante quia omnis 
+      <lb ed="#P" n="34"/>actus vel acceptatur vel non acceptatur ad vitaneternam. 
+      <lb ed="#P" n="35"/>hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e879">
+               <lb ed="#P" n="36"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="37" break="no"/>culum. An scilicet omnis actus infidelium sit pctantum est vna opinio 
+      <lb ed="#P" n="38"/>valde dura quod sic. Tum quia omnis actus infidelis est non 
+      re<lb ed="#P" n="39" break="no"/>latus in finem debitum. Puta in deum nec actu nec 
+      ha<lb ed="#P" n="40" break="no"/>bitu fidei vel caritatis. Tum quia omnis talis actus habet 
+      ali<lb ed="#P" n="41" break="no"/>quem finem indebitum statum a voluntate sequente 
+      incre<lb ed="#P" n="42" break="no"/>dulitatem suam et falsam crudelitatem de aliquo fine 
+      pri<lb ed="#P" n="43" break="no"/>mo qui est deus. Tum quia actus fidelium eoipso sunt boni: 
+      <lb ed="#P" n="44"/>quia per fidem directam in vltimum finem puta in veram 
+      beati<lb ed="#P" n="45" break="no"/>tudinem secundum intentionem bonam correspontem fidei quia 
+      inten<lb ed="#P" n="46" break="no"/>tie bona imponit denominationem actui secundum Augusti. et 
+      <lb ed="#P" n="47"/>Ambrosium et Mgntum. igitur per oppositum omnis actus infide 
+      <lb ed="#P" n="48"/>lium est malus nec potest esse bonus propter defectum fidei 
+      <lb ed="#P" n="49"/>et bone intentionis. Tum quia in quolet actu suo sunt de 
+      <lb ed="#P" n="50"/>bitores originalis iusticie qui fuisset in quolbet 
+      acti<lb ed="#P" n="51" break="no"/>si Adam stetisset. Et ad hoc videntur esse auctoritates  
+      <lb ed="#P" n="52"/>superius allegate in isto secundo in illa quatione. Utrum ho 
+      pos<lb ed="#P" n="53" break="no"/>sit vitare omne pectantum sine gratia gratum faciente quas 
+      <lb ed="#P" n="54"/>non repeto modo. Sed dicunt quod omnes actus homins infidelis est 
+      <lb ed="#P" n="55"/>pectantum mortale et hoc est diettera inter fidelem pectorem tamen 
+      <lb ed="#P" n="56"/>et in pctato mortali quia sicut dicunt omnis actus fidelis 
+      in<lb ed="#P" n="57" break="no"/>peccato mortali est pctantum: sed oportet quod sit mortale quia 
+      <lb ed="#P" n="58"/>virtualiter vel habitualiter potest referre secundum 
+      directio<lb ed="#P" n="59" break="no"/>nem fidei suos actus in deum licet actu referat sed in 
+      <lb ed="#P" n="60"/>fidelis sic referre non potest et ideo in omni actu suo fruitur 
+      <lb ed="#P" n="61"/>vtendis quod est summa peruersitas secundum Augustinum 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e938">
+               <lb ed="#P" n="62"/>¶ Sed ista opinio videtur mihi falsa et nimis dura. 
+      <lb ed="#P" n="63"/>Dico enim quod nec infidelis nec fidelis in pctotio 
+      morta<lb ed="#P" n="64" break="no"/>li existens in omni actu suo siue venialiter siue mortali 
+      <!--336.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ter. Tum quia sicut infidelis in gratia existens potest in 
+      ali<lb ed="#P" n="66" break="no"/>quem actum indifferentem in quo non peccat nec 
+      me<lb ed="#P" n="67" break="no"/>retur sicut probatum est supra. Ita etiam infidelis 
+      <lb ed="#P" n="68"/>siue peccator fidelis vt videtur. Tum quia vterque 
+      po<lb ed="#P" n="69" break="no"/>test facere aliquem bonum actum ex genere propter finem 
+      <lb ed="#P" n="70"/>aliquem ad quem talis actus ex natura sua ordinatur 
+      <lb ed="#P" n="71"/>sicut dare elemosinam vt releuetur inopia vel mise 
+      <lb ed="#P" n="72"/>ria pauperis vel honorare parentes et ex pietate 
+      na<lb ed="#P" n="73" break="no"/>turali non propter vanam gloriam vel aliquem malum 
+      <lb ed="#P" n="74"/>finem. Sed talis actus non est malus nec pctantum 
+      immo<lb ed="#P" n="75" break="no"/>magis videtur esse meritum de congruo gratie dei et illumina 
+      <lb ed="#P" n="76"/>tionis sicut patet de actibus bonis Cornelii et 
+      Mar<lb ed="#P" n="77" break="no"/>tini adhuc cathecumini dando medium clamidis sue 
+      <lb ed="#P" n="78"/>et gentium vocatorum ad fidem christi prius viuentium secundum 
+      <lb ed="#P" n="79"/>rectam rationem naturalem. Tum quia 
+      philosophi<lb ed="#P" n="80" break="no"/>multi et infideles habuerunt virtutes politicas 
+      qua<lb ed="#P" n="81" break="no"/>rum actus non sunt peccata. Tum infidelis aliquis 
+      <lb ed="#P" n="82"/>potest conuenire in aliquo cum fideli in credendo circa 
+      <lb ed="#P" n="83"/>deum puta quod est vnus deus sicut et philosophi 
+      de<lb ed="#P" n="84" break="no"/>duxerunt licet non deuenerunt vsque ad noticiam 
+      tri<lb ed="#P" n="85" break="no"/>nitatis personarum et talis vniformiter cum 
+      fideli<lb ed="#P" n="86" break="no"/>potest referre aliquem actum suum in vnum deum 
+      <lb ed="#P" n="87"/>tanquam in finem vltimum cui conuenit esse finem: quia 
+      <lb ed="#P" n="88"/>deus non quia trinus nihil cogitando de trinitate nec 
+      <lb ed="#P" n="89"/>de opposito igitur in tali actu saltem non oportet quod 
+      <lb ed="#P" n="90"/>peccet. Similiter etiam peccator fidelis referre potesti 
+      <lb ed="#P" n="91"/>secundum directionem fidei aliquem actum suum in finem 
+      <lb ed="#P" n="92"/>vltimum et recte circumstantionare vt videtur. Et ita 
+      <lb ed="#P" n="93"/>non oportet quod peccet in omni actu: sed potest 
+      habere<lb ed="#P" n="94" break="no"/>aliquem actum bonum qui nullum est peccatum. 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e1016">
+               <lb ed="#P" n="95"/>¶ Dices quod immo quia peccator habet vnum finem 
+      <lb ed="#P" n="96"/>sibi praedilectum ipsi deo et summe amatum. Sed propter 
+      <lb ed="#P" n="97"/>finem summe sibi amatum oportet quod velit et faciat 
+      <lb ed="#P" n="98"/>omnes actus suos quia summe tale. puta amatum est 
+      <lb ed="#P" n="99"/>ratio aliorum puta accidentia alia. Dico quod non oportet 
+      <lb ed="#P" n="100"/>illud. Tum propter libertatem voluntatis que 
+      po<lb ed="#P" n="101" break="no"/>test amare quod placet et propter quem finem placet 
+      <lb ed="#P" n="102"/>sibiipsi prestituendo finem. Tum propter inconueniens 
+      <lb ed="#P" n="103"/>quod sequeretur: quia tunc omnis peccator peccaret 
+      <lb ed="#P" n="104"/>mortaliter in omni actu suo quicquid vellet vel 
+      face<lb ed="#P" n="105" break="no"/>ret: faceret propter malum finem talem actum / 
+      referen<lb ed="#P" n="106" break="no"/>do in ipsum et summe volendo ipsum quia frueretur 
+      vte<lb ed="#P" n="107" break="no"/>do. Tum quia etiam non magis necessario voluntas 
+      <lb ed="#P" n="108"/>vult quicquid vult propter finem aliquem in 
+      particu<lb ed="#P" n="109" break="no"/>lari predilectum quam propter finem in communi vel in 
+      vni<lb ed="#P" n="110" break="no"/>uersali et tamen non vult omnia propter illum actu 
+      re<lb ed="#P" n="111" break="no"/>ferendo in ipsum et volendo ipsum immo propter aliquid 
+      <lb ed="#P" n="112"/>velle non cogitando aliquid de fine in communi vel in 
+      <lb ed="#P" n="113"/>vniuersali. quare etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1061">
+      ¶ Sic igitur dico quod licet omnis 
+      <lb ed="#P" n="114"/>actus infidelium ex infidelitate procedens sicut 
+      de<lb ed="#P" n="115" break="no"/>spicere christum uel prosequi christianos vel adorare scul 
+      <lb ed="#P" n="116"/>ptile sit peccatum quia omne quod non est ex fide sed  
+      <lb ed="#P" n="117"/>potius ex infidelitate et tota vita infidelium secundum quod 
+      <lb ed="#P" n="118"/>huiusmodi peccatum est secundum Augustinum non tamen 
+      <lb ed="#P" n="119"/>omnis actus infidelis hominis est peccatum sicut 
+      <lb ed="#P" n="120"/>superius est probatum nec multofortius omnis actus 
+      <lb ed="#P" n="121"/>peccatoris fidelis tamen est peccatum nec 
+      morta<lb ed="#P" n="122" break="no"/>le nec veniale. 
+      <lb ed="#P" n="123"/>im Dico quod licet 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e1085">
+               <lb ed="#P" n="124"/>¶ Ad primum aliorum. s actus aliquis 
+      <lb ed="#P" n="125"/>hominis infidelis non sit relatus in finem vltimum 
+      <lb ed="#P" n="126"/>in particulari si sit infidelis in non credendo 
+      de<lb ed="#P" n="127" break="no"/>um tamen potest non ordinari in aliquem alium 
+      <lb ed="#P" n="128"/>malum finem sed in aliquem finem bonum 
+      pro<lb ed="#P" n="129" break="no"/>ximum sicut datio elemosine in relationem paupis 
+      <!--337.xml-->
+      <pb ed="#P" n="165-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et ideo non oportet quod sit malus licet non sit perfecte bonus 
+      <lb ed="#P" n="2"/>nec meritorius de condigno vite eterne sicut nec 
+      ali<lb ed="#P" n="3" break="no"/>quis actus hominis infidelis.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1114">
+      ¶ Ad secundum non 
+      opr<lb ed="#P" n="4" break="no"/>illud quod omnis actus talis infidelis habeat aliquem 
+      <lb ed="#P" n="5"/>finem indebitum a voluntate statutum vt probatum est 
+      <lb ed="#P" n="6"/>supra.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1123">
+      ¶ Ad tertium dico quod actus fidelis bonus est bo 
+      <lb ed="#P" n="7"/>litate meritoria quia directus per fidem secundum caritatem 
+      <lb ed="#P" n="8"/>in finem vltimum particulari qui est deus. Non 
+      au<lb ed="#P" n="9" break="no"/>tem oportet quod bonitate politica eoipso sit bonus sed quia 
+      <lb ed="#P" n="10"/>directus per prudentiam in finem proximum vel 
+      debi<lb ed="#P" n="11" break="no"/>tum possibilem ex naturalibus adquiri vel haberi 
+      <lb ed="#P" n="12"/>qui quidem finis proximus est ordinabilis vlterius 
+      <lb ed="#P" n="13"/>in finem vltimum licet actu non ordinetur per 
+      volun<lb ed="#P" n="14" break="no"/>tatem in ipsum.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1143">
+      ¶ Ad quartum dico quod infideles non 
+      <lb ed="#P" n="15"/>sunt debitores originalis iusticie in quolibet actu 
+      <lb ed="#P" n="16"/>sicut nec fideles etiam sunt debitores caritatis in quo 
+      <lb ed="#P" n="17"/>libet: sed pro aliquo tempore vel actu. Unde et 
+      pre<lb ed="#P" n="18" break="no"/>ceptum de caritate est affirmatiuum et non obligat 
+      <lb ed="#P" n="19"/>pro semper vel ad semper sed pro tempore et loco: et ita 
+      <lb ed="#P" n="20"/>non oportet quod homo carens caritate in omni actu suo 
+      pec<lb ed="#P" n="21" break="no"/>cet mortaliter vel etiam peccet. Hec de. 3. articulo. 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e1161">
+               <lb ed="#P" n="22"/>¶ Quantum ad quartum 
+      ar<lb ed="#P" n="23" break="no"/>ticulum Utrum scilicet omne peccatum actuale sit 
+      vo<lb ed="#P" n="24" break="no"/>untarium et pertineat ad voluntatem. Uidetur quod non 
+      <lb ed="#P" n="25"/>quia peccata venialia non sunt voluntaria quia non possu 
+      <lb ed="#P" n="26"/>mus ea vitare. Si dixerimus quod peccatum non haemus. 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e1175">
+               <lb ed="#P" n="27"/>¶ Secundo quia pectantum ex ignorantia non videtur 
+      volun<lb ed="#P" n="28" break="no"/>tarium quia non est cognitum.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1182">
+      ¶ Tertio quia peccatum 
+      <lb ed="#P" n="29"/>omissionis non videtur voluntarium quia non consistit in 
+      ali<lb ed="#P" n="30" break="no"/>quo actu qui sit in ptante voluntatis. quaere etc.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1189">
+      ¶ Sed 
+      <lb ed="#P" n="31"/>contra hoc dico primo quod omne peccatum actuale 
+      vo<lb ed="#P" n="32" break="no"/>luntarium est aliquo modo effectiue et vertualiter.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1196">
+      ¶ Se 
+      <lb ed="#P" n="33"/>cundo quod non omne pectantum est voluntarium subiectiue et 
+      <lb ed="#P" n="34"/>formaliter.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1203">
+      ¶ Tertio quod omne pectantum est solius 
+      volun<lb ed="#P" n="35" break="no"/>tatis imputabiliter et sibi soli imputatur et per consequens quod 
+      <lb ed="#P" n="36"/>ipsa sola pro quolibet pctio punitur.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1210">
+      ¶ Primum patet 
+      <lb ed="#P" n="37"/>quia omne pectantum actuale aliquo modo est in ptante peccam 
+      <lb ed="#P" n="38"/>tis. Sed hoc non est nisi per voluntatem que sola libera 
+      <lb ed="#P" n="39"/>est et in cuius ptante sunt omnes actus humani vel 
+      <lb ed="#P" n="40"/>negationes actuum et circumstantiarum prout sunt pctan¬ 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e1222">
+               <lb ed="#P" n="41"/>¶ Secundum patet quia actus deformes extrinsecarum 
+      poten<lb ed="#P" n="42" break="no"/>tiarum bene sunt pctam sicut dicam in quatione sequenti 
+      <lb ed="#P" n="43"/>et tamen non sunt in voluntate formaliter et 
+      subiecti<lb ed="#P" n="44" break="no"/>ue sicut etiam nec habitus viciosi generati ex ipsis 
+      li<lb ed="#P" n="45" break="no"/>cet a voluntate sint quoquoo.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1235">
+      ¶ Tertium patet quia soli 
+      <lb ed="#P" n="46"/>illi debet actus vel pctantum imputari peccanti secundum quod est in 
+      <lb ed="#P" n="47"/>ptante eius et liber est respectu eius. Sed hoc est 
+      volun<lb ed="#P" n="48" break="no"/>tas et ideo dico quod sola voluntas est culpabilis et sibi 
+      so<lb ed="#P" n="49" break="no"/>li actus imputabilis est et ex ipsa actus est laudabilis 
+      <lb ed="#P" n="50"/>et vituperatur. Et ideo dico consequenr quod ipsa sola inter 
+      poten<lb ed="#P" n="51" break="no"/>tias anime punietur quia omnia quae sustinebit homo erit in 
+      <lb ed="#P" n="52"/>uoluntarium ex voluntate et ad puniendum voluntatem 
+      <lb ed="#P" n="53"/>vel in seipsa vel in menbris sicut ipsa peccauit in se vel 
+      <lb ed="#P" n="54"/>in menbris secundum Anselmum quarto ca. de conceptu virgi 
+      <lb ed="#P" n="55"/>nali.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1259">
+      ¶ Ex praedictis apparet quare magis actus 
+      vo<lb ed="#P" n="56" break="no"/>luntatis culpetur et dicatur pctatum vt pectantum habet 
+      ra<lb ed="#P" n="57" break="no"/>tionem culpe quam actus aliarum potentiarum quia nec actus 
+      <lb ed="#P" n="58"/>sunt culpe nec culpabiles nisi ex ipsa voluntate. 
+      <lb ed="#P" n="59"/>rum de pctoto veniali¬ 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e1270">
+               <lb ed="#P" n="60"/>¶ Ad primum alio diteu vno mon quod in 
+      cumn<lb ed="#P" n="61" break="no"/>non poatest vitari quin homo aliquid incurrat quia voluntas 
+      <lb ed="#P" n="62"/>pominis est imperfecta et status vite praesentis sed in 
+      parti<lb ed="#P" n="63" break="no"/>culari quodlibet vitari potest et ita est voluntarium. 
+      <lb ed="#P" n="64"/>Aliter dicitur quod prieccatum veniale est voluntarium 
+      <!--337.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>voluntate non homins peccantis sed primi parentis qui 
+      de<lb ed="#P" n="66" break="no"/>stituit naturam a statu innocentie et quasi secundum diuinam 
+      <lb ed="#P" n="67"/>permissionem induxit necessitatem peccandi saltem 
+      veniali<lb ed="#P" n="68" break="no"/>ter sue posteritati. Sed istud non placet mihi quia non 
+      <lb ed="#P" n="69"/>aliter esset voluntarium quam originale. Aliter dicitur quod sunt 
+      <lb ed="#P" n="70"/>voluntaria libet non semper explicite tamen implicite quia 
+      oc<lb ed="#P" n="71" break="no"/>currunt temptationes ad ipsa etiam in bonis aliis 
+      ex<lb ed="#P" n="72" break="no"/>plicite volitis. Sicut eundo ad ecclesiam occurrit 
+      fre<lb ed="#P" n="73" break="no"/>quenter temptatio de pulchritudine mulieris.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1307">
+      ¶ Ad  
+      <lb ed="#P" n="74"/>aliud de peccato ex ignorantia. Dico quod ignorantia est 
+      <lb ed="#P" n="75"/>affectata et est aliquo modo voluntarium.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1314">
+      ¶ Ad tertium 
+      <lb ed="#P" n="76"/>de pctatio omissionis patuit supra qumo est voluntarium. 
+      </p>
+            <p xml:id="qrdBas-b1078z-d1e1320">
+               <lb ed="#P" n="77"/>¶ Ad primum principale 
+      di<lb ed="#P" n="78" break="no"/>co quod benen in actu ordinabili ad finem est bonitas aliqua 
+      <lb ed="#P" n="79"/>ex fine. Sed bonitas ex fine non sufficit ad hoc quod 
+      <lb ed="#P" n="80"/>actus: sit simpliciter bonus moraliter. Sed bonum est 
+      <lb ed="#P" n="81"/>ex integra causa et ex omnibus circumstantiis non solum 
+      ex<lb ed="#P" n="82" break="no"/>vna. Tu dicis actus est bonus ex intentione bona. 
+      In<lb ed="#P" n="83" break="no"/>tentio bona quae est boni finis. Dico quod non sufficit 
+      in<lb ed="#P" n="84" break="no"/>tentio boni finis nisi et quod intenditur ad finem sit bo 
+      <lb ed="#P" n="85"/>num et bono modo omnia sunt volita secundum omnes 
+      circumstan<lb ed="#P" n="86" break="no"/>tias et confirmatur ad rationem rectam.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1344">
+      ¶ Ad secundum 
+      di<lb ed="#P" n="87" break="no"/>co quod non sic omnino actus potest dici bonus moraliter ex 
+      <lb ed="#P" n="88"/>fine sicut conclusio ex principiis. Necessitatur enim intel 
+      <lb ed="#P" n="89"/>lectus ad veritatem conclusionis ex veritate vel 
+      eui<lb ed="#P" n="90" break="no"/>dentia principii. Non sit autem voluntas ex aliquo fine: et 
+      <lb ed="#P" n="91"/>sic requiruntur aliqua alia cum fine ad moralem boni 
+      <lb ed="#P" n="92"/>tatem.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1360">
+      ¶ Ad tertium dico quod non solum bonitas actus 
+      <lb ed="#P" n="93"/>moralis est ex vna causa sed ex multis.
+    </p>
+            <p xml:id="qrdBas-b1078z-d1e1365">
+      ¶ Ad quartum 
+      <lb ed="#P" n="94"/>dico quod licet actus sit malus ex malo fine tantum quia 
+      mali<lb ed="#P" n="95" break="no"/>cia finis sufficit ad maliciam actus non tamen bonitas 
+      <lb ed="#P" n="96"/>finis sufficit ad bonitatem quia bonum est ex 
+      integra<lb ed="#P" n="97" break="no"/>causa et plura requiruntur. etc.
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

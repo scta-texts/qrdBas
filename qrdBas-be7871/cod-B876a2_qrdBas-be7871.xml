@@ -1,0 +1,978 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="13-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-be7871"><!--l2d1q4 -->
+            <head xml:id="qrdBas-be7871-Hd1e99">Quaestio 4</head>
+            <p xml:id="qrdBas-be7871-d1e101">
+               <lb ed="#P" n="69"/>¶ Questio quarta.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e106">
+               <lb ed="#P" n="70"/>QUarto quero de 
+      <lb ed="#P" n="71"/>creatione ex parte rei create 
+    </p>
+            <p xml:id="qrdBas-be7871-d1e113">
+               <lb ed="#P" n="72"/>Et primo quero quantum ad hoc 
+      <lb ed="#P" n="73"/>Utrum creature antequam 
+      creen<lb ed="#P" n="74" break="no"/>tur habeant actu aliquod 
+      vo<lb ed="#P" n="75" break="no"/>rum esse reale distinctum ab et 
+      <lb ed="#P" n="76"/>se sue cause vel ab esse diuino
+    </p>
+            <p xml:id="qrdBas-be7871-d1e126">
+               <lb ed="#P" n="77"/>videtur primo quod sic. 
+      Creatu<lb ed="#P" n="78" break="no"/>ra antequam creetur est possibilis alias impossibile 
+      crea<lb ed="#P" n="79" break="no"/>retur. Sed omne possibile est ens verum quia potentia et 
+      <lb ed="#P" n="80"/>actus diuidunt ens verum reale quod est ens met 
+      ha<lb ed="#P" n="81" break="no"/>phisicum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e140">
+      ¶ Secundo sic. Si creatura 
+      puta<lb ed="#P" n="82" break="no"/>pomo nullum verum esse reale habet antequam creetur 
+      <lb ed="#P" n="83"/>sequitur quod sit ita nichil sicut figmenta vel 
+      impossibi<lb ed="#P" n="84" break="no"/>lia quia non plus habet de entitate. Sed illud quod est 
+      <lb ed="#P" n="85"/>ita nichil sicut figmentum non solum non est sed etiam 
+      re<lb ed="#P" n="86" break="no"/>pugnat sibi esse. Creature autem non repugnat esse et 
+      <lb ed="#P" n="87"/>go etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e156">
+      ¶ Tertio sic. Sicut se habet ens ad non ens 
+      <lb ed="#P" n="88"/>ita possibile ad impossibile quia vtrobique est 
+      contradi<lb ed="#P" n="89" break="no"/>ctio ergo per locum a transmutata proportione sicut 
+      <lb ed="#P" n="90"/>ens ad possibile. Ita non ens ad impossibile. Sed ens 
+      <lb ed="#P" n="91"/>est possibile igitur non ens est impossibile. Si igitur 
+      <lb ed="#P" n="92"/>creatura antequam creetur est non ens nec habet aliquod 
+      <lb ed="#P" n="93"/>verum esse reale sequitur quod sit impossibilis quod est 
+      fal<lb ed="#P" n="94" break="no"/>sum.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e174">
+      ¶ Quarto sic. Auicenna dicit. 8. metha. quod res 
+      <lb ed="#P" n="95"/>fluunt a deo non solum vt a creante sed vt 
+      intelligen<lb ed="#P" n="96" break="no"/>te eas igitur res non solum habet verum esse fluens 
+      <lb ed="#P" n="97"/>a deo per hoc quod creatur sed per hoc quod intelligitur. 
+      <lb ed="#P" n="98"/>Sed ab eterno et antequam creentur planum est quod res in 
+      <lb ed="#P" n="99"/>telligitur ergo etc. 
+      <lb ed="#P" n="100"/>Si creature antequam creentur et 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e190">
+               <lb ed="#P" n="101"/>¶ Contra. ab eterno habent aliquam veram 
+      <lb ed="#P" n="102"/>entitatem realem. Aut illa est entitas diuina et sic 
+      en<lb ed="#P" n="103" break="no"/>titas diuina est creabilis quod est impossibile. Aut est alia 
+      <lb ed="#P" n="104"/>entitas distincta ab entitate diuina et sic est aliquid 
+      <lb ed="#P" n="105"/>eternum preter quod est falsum ergo nullam talem 
+      enti<lb ed="#P" n="106" break="no"/>tatem habent. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e206">
+               <lb ed="#P" n="107"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="108" break="no"/>dam. Primo ponam vnam opinionem de questione et 
+      <lb ed="#P" n="109"/>motiua aliqua que adducuntur pro ea.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e215">
+      ¶ Secundo 
+      <lb ed="#P" n="110"/>arguam contra positionem illam ex dictis ipsius ponen 
+      <lb ed="#P" n="111"/>tis eam.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e223">
+      ¶ Tertio respondebo aliter ad questionem. 
+      <lb ed="#P" n="112"/>Et probabo responsionem. Et respondebo ad motiua alio 
+      <lb ed="#P" n="113"/>rum. Ultimo ad rationes principales. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e230">
+               <lb ed="#P" n="114"/>¶ Quantum ad primum est 
+      opi<lb ed="#P" n="115" break="no"/>nio cuiusdam doctoris quod res vnomodo dicitur a 
+      reor<lb ed="#P" n="116" break="no"/>reris. Alio modo dicitur a ratitudine et firmitate 
+      <lb ed="#P" n="117"/>rei. Primo modo conuenit nomen rei cuilibet 
+      opi<lb ed="#P" n="118" break="no"/>nabili. Unde etiam isto modo figmenta et 
+      impossibi<lb ed="#P" n="119" break="no"/>lia possunt res appellari. Secundo modo non 
+      conueo<lb ed="#P" n="120" break="no"/>nit res cuilibet opinabili sed aliquibus 
+      intelligibi<lb ed="#P" n="121" break="no"/>libus tantum. Res igitur vt dicitur a ratitudine 
+      di<lb ed="#P" n="122" break="no"/>stinguitur a re prout dicitur a reor reris et oportet 
+      <lb ed="#P" n="123"/>quod hoc sit per aliquam intentionem sibi intrinsecam. 
+      Inten<lb ed="#P" n="124" break="no"/>tio autem vel ratio ratitudinis que distinguit rem 
+      <lb ed="#P" n="125"/>Secundo modo dictam a re primo modo dicta est in 
+      <lb ed="#P" n="126"/>tentio vel ratio exemplati a deo et est prima ratio essen 
+      <!--33.xml-->
+      <pb ed="#P" n="13-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tie in ipsa re. Ita quod res vel creatura ex hoc 
+      forma<lb ed="#P" n="2" break="no"/>liter est rata et habens essentiam quia a deo 
+      exempla<lb ed="#P" n="3" break="no"/>ta. Sed ex hoc habet esse existentie quia a deo effecta 
+      <lb ed="#P" n="4"/>vel producta. Ita quod habitudo exemplati ad deum 
+      <lb ed="#P" n="5"/>est ratio essentie in creatura. Sed habitudo 
+      effecti<lb ed="#P" n="6" break="no"/>vel producti ad i psum est ratio existentie actualis. 
+      <lb ed="#P" n="7"/>Cum igitur res sit ab eterno exemplata a deo sicult 
+      <lb ed="#P" n="8"/>et intellecta et per hoc habeat in actu verum esse 
+      rea<lb ed="#P" n="9" break="no"/>le quod est esse quiditatiuum et esse essentie et de nouo 
+      <lb ed="#P" n="10"/>sit producta et in tempore quia secundum istum 
+      impossibi<lb ed="#P" n="11" break="no"/>le est aliquid creari ab eterno. Oportet quod res vel 
+      <lb ed="#P" n="12"/>creatura antequam creetur habeat aliquod verum esse 
+      <lb ed="#P" n="13"/>reale in actu distinctum ab esse diuino quia diuinum 
+      <lb ed="#P" n="14"/>esse non est exemplatum et tale esse habet ab 
+      eterno<lb ed="#P" n="15" break="no"/>Sed esse actualis existentie habet de nouo. Non quia 
+      <lb ed="#P" n="16"/>sit alia res ab esse essentie sed magis alia intentio in 
+      <lb ed="#P" n="17"/>creatura ipsa. Ulterius dicit quod ex istis est 
+      compositio<lb ed="#P" n="18" break="no"/>in omni creatura ex essentia et esse actualis 
+      existen<lb ed="#P" n="19" break="no"/>tie sicut ex eterno et temporali constituentibus vnum 
+      <lb ed="#P" n="20"/>quia vnum est in potentia ad reliquum scilicet essentia ad esse. 
+      <lb ed="#P" n="21"/>Et secundum illud esse actualis existentie conuenit rei 
+      crea<lb ed="#P" n="22" break="no"/>ri et de nouo. Non autem secundum esse quidditatiuum 
+      essen<lb ed="#P" n="23" break="no"/>tie quod est ab eterno quo distinguitur primo res a 
+      fig<lb ed="#P" n="24" break="no"/>mentis et impossibilibus que non sunt exemplata a deo 
+      <lb ed="#P" n="25"/>et tantum modo sunt res a reor reris. Quod autem 
+      crea<lb ed="#P" n="26" break="no"/>ture habeant tale verum esse reale et in actu antequam 
+      <lb ed="#P" n="27"/>creentur et ab eterno vel quod creature habent ab 
+      eter<lb ed="#P" n="28" break="no"/>non esse quidditatiuum ex quo cum existentia componi 
+      <lb ed="#P" n="29"/>tur quodlibet creatum.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e330">
+      ¶ Probatur primo sic. Res 
+      ani<lb ed="#P" n="30" break="no"/>tequam creentur habent verum esse difficile et diffinitum 
+      <lb ed="#P" n="31"/>in actu. Non enim diffinitio concernit in re 
+      actua<lb ed="#P" n="32" break="no"/>lem existentiam que conuenit ei per creationem. Sed  
+      <lb ed="#P" n="33"/>diffinitio indifferenter respicit rem siue sit siue non 
+      <lb ed="#P" n="34"/>sit. Non enim questio si est partium ad probleuma 
+      dif<lb ed="#P" n="35" break="no"/>finitionis sed questio quid est. Sed diffinitio dicit 
+      <lb ed="#P" n="36"/>verum esse quidditatiuum rei et in actu si est 
+      diffini<lb ed="#P" n="37" break="no"/>tum et diffinitio in actu. Patet primo thopi. et. 7. 
+      mon<lb ed="#P" n="38" break="no"/>ta. ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e352">
+      ¶ Secundo sic. Illud secundum quod 
+      conue<lb ed="#P" n="39" break="no"/>nit creature esse exemplatum a deo in actu et ab 
+      eter<lb ed="#P" n="40" break="no"/>no conuenit creature ab eterno et in actu. Sed hoc est 
+      <lb ed="#P" n="41"/>secundum quiditatem et essentiam suam vt patet 
+      er<lb ed="#P" n="42" break="no"/>go etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e363">
+      ¶ Tertio sic. Quod est vere in genere vel 
+      praedi<lb ed="#P" n="43" break="no"/>camento antequam creetur et in actu habet verum esse 
+      quid<lb ed="#P" n="44" break="no"/>ditatiuum in actu antequam creetur. Patet quia vnum 
+      <lb ed="#P" n="45"/>quodque per id quod est et per suam quidditatem 
+      repo<lb ed="#P" n="46" break="no"/>nitur per se in genere vel predicamento. Sed res 
+      an<lb ed="#P" n="47" break="no"/>tequam creetur vere et actu est in predicamento vel 
+      ge<lb ed="#P" n="48" break="no"/>nere. Non enim per esse actualis existentie est in 
+      ge<lb ed="#P" n="49" break="no"/>nere. Sed genus et tota coordinatio generis abstra 
+      <lb ed="#P" n="50"/>hit ab esse rei vel non esse genus enim in quid 
+      pre<lb ed="#P" n="51" break="no"/>dicatur non sic esse ergo etc. Et predicatio generis 
+      <lb ed="#P" n="52"/>de inferiori non est contingens sicut predicatio existem 
+      <lb ed="#P" n="53"/>tie. Non sic esse ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e389">
+      ¶ Quarto sic. Illud quod 
+      <lb ed="#P" n="54"/>realiter refertur ad aliud et in actu antequam creetur 
+      ha<lb ed="#P" n="55" break="no"/>bet aliquod verum esse reale et in actu quia nichil in actu 
+      <lb ed="#P" n="56"/>non refertur realiter in actu. Sed creatura antequam 
+      <lb ed="#P" n="57"/>creetur refertur realiter ad deum in actu sicut men 
+      <lb ed="#P" n="58"/>suratum ad mensuram et sicut extrinsecum actu inte 
+      <lb ed="#P" n="59"/>lectum ad diuinam intellectionem et sicut habens 
+      pro<lb ed="#P" n="60" break="no"/>portionem et conformitatem ad actum intelligendi 
+      di<lb ed="#P" n="61" break="no"/>uinum que requiritur inter intelligibile et intellectum. 
+      <lb ed="#P" n="62"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e412">
+      ¶ Quinto sic. Scientia realis eterna 
+      ne<lb ed="#P" n="63" break="no"/>cessario habet obiectum reale eternum quia de non 
+      en<lb ed="#P" n="64" break="no"/>te reali vel de nichilo non est scientia realis. deus ha¬ 
+      <!--33.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>buit scientiam realem verande creaturis antequam 
+      crea<lb ed="#P" n="66" break="no"/>rentur et ab eterno secundum quidditates ipsarum 
+      di<lb ed="#P" n="67" break="no"/>stinctas a seipso sicut et modo quia non aliter nouit 
+      <lb ed="#P" n="68"/>fienda quam facta secundum Augustinum. 17. de tri. c. 13. ergo 
+      <lb ed="#P" n="69"/>etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e434">
+      ¶ Sexto sic. Nihil quidditatiue non potest fieri 
+      <lb ed="#P" n="70"/>aliquid ergo possibile fieri aliquid est quidditatiue 
+      <lb ed="#P" n="71"/>aliquid et ens. Non enim vnum oppositorum 
+      contra<lb ed="#P" n="72" break="no"/>dictorie sit reliquum. Sed illud quod quidditatiue 
+      <lb ed="#P" n="73"/>est aliquid habet aliquam veram entitatem realem qua 
+      <lb ed="#P" n="74"/>est aliquid. Cum igitur creature sint possibiles 
+      fie<lb ed="#P" n="75" break="no"/>ri aliquid. Oportet quod habeant entitatem veram 
+      rea<lb ed="#P" n="76" break="no"/>lem.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e452">
+      ¶ Septimo per Augustinum de natura boni 
+      vbi<lb ed="#P" n="77" break="no"/>dicit quod no nullum bonum est possibilitas ad forma 
+      <lb ed="#P" n="78"/>vel ad esse pari ratione. ergo creatura antequam 
+      creetl<lb ed="#P" n="79" break="no"/>est aliquod bonum et aliquod ens reale.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e461">
+      ¶ 
+      Octaue<lb ed="#P" n="80" break="no"/>per Augustinum super Io. Homelia. 18. Easdem 
+      lit<lb ed="#P" n="81" break="no"/>teras format cor et manus sed aliter et aliter. Cum 
+      <lb ed="#P" n="82"/>igitur littera formata manum sit eadem cum littera 
+      for<lb ed="#P" n="83" break="no"/>mata a corde aliter tamen videtur quod illa sit ens 
+      rea<lb ed="#P" n="84" break="no"/>liter sicut ista et similiter creatura intellecta et exem 
+      <lb ed="#P" n="85"/>plata vt videtur.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e477">
+      ¶ Hec est positio quod creature 
+      an<lb ed="#P" n="86" break="no"/>tequam creentur habent aliquod verum esse reale quod est 
+      <lb ed="#P" n="87"/>esse quidditatiuum et in actu extra esse diuinum et 
+      distin<lb ed="#P" n="88" break="no"/>ctum ab ipso realiter. Non tamen esse actualis exi 
+      <lb ed="#P" n="89"/>stentie quia secundum tale esse solus deus est eternus et 
+      <lb ed="#P" n="90"/>nihil aliud.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e490">
+      ¶ Nota hic quod idem et diuersum sunt 
+      pas<lb ed="#P" n="91" break="no"/>siones entis quia igitur res ante creationem et post 
+      <lb ed="#P" n="92"/>est sibi eadem vtrobique etiam est ens quia extra est 
+      diuer<lb ed="#P" n="93" break="no"/>sa realiter a suo exemplari vel ydea quare etc. Hoc 
+      <lb ed="#P" n="94"/>de primo articulo sufficiat ad presens et sequitur 
+      <lb ed="#P" n="95"/>secundus. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e504">
+               <lb ed="#P" n="96"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="97" break="no"/>ticulum arguo contra istam positionem ex dictis 
+      po<lb ed="#P" n="98" break="no"/>nentis. Ipse ponit quod esse et essentia sunt eedem 
+      rea<lb ed="#P" n="99" break="no"/>creature. Sed impossibile est et implicat 
+      contradi<lb ed="#P" n="100" break="no"/>ctionem quod eade m res sit noua et eterna et per consequens non 
+      <lb ed="#P" n="101"/>noua ergo impossibile est quod essentia sit eterna et esse 
+      <lb ed="#P" n="102"/>actualis existentie sit nouum sicut ipse dicit. Quod enim est 
+      <lb ed="#P" n="103"/>eternum semper fuit. Quod est nouum non semper fuit sed 
+      ali<lb ed="#P" n="104" break="no"/>quando non fuit et ista plane contradicunt.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e526">
+      ¶ 
+      Secun<lb ed="#P" n="105" break="no"/>do sic. Ipse ponit quod respectus est eadem res cum suo 
+      <lb ed="#P" n="106"/>fundamento et per consequens quod esse actualis 
+      existen<lb ed="#P" n="107" break="no"/>tie est eadem res cum essentia quia non est nisi respect 
+      <lb ed="#P" n="108"/>fundatus in essentia. Sed impossibile est sicut prius 
+      <lb ed="#P" n="109"/>quod eadem res sit noua et non noua ergo impossibile est hoc 
+      <lb ed="#P" n="110"/>de esse et essentia.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e542">
+      ¶ Tertio ipse dicit quod in deo 
+      nulla<lb ed="#P" n="111" break="no"/>est relatio rationis noua ad creaturam. Sed eadem est 
+      <lb ed="#P" n="112"/>relatio aptitudinalis et actualis diuersimode nomi 
+      <lb ed="#P" n="113"/>nata. ergo similiter in proposito eadem res est 
+      pos<lb ed="#P" n="114" break="no"/>sibilis et actualis secundum essentiam vcet et existentiam 
+      <lb ed="#P" n="115"/>ergo secundum essentiam non erit eterna et secundum 
+      existen<lb ed="#P" n="116" break="no"/>tiam noua.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e558">
+      ¶ Quarto extremis respectus 
+      intrin<lb ed="#P" n="117" break="no"/>seci existentibus necessario est respectus: precipue / si 
+      <lb ed="#P" n="118"/>fundamentum sit eternum vel necessarium et terminus 
+      <lb ed="#P" n="119"/>immutabilis. Sed esse actualis existentie non est 
+      ni<lb ed="#P" n="120" break="no"/>si respectus essentie eterne ad deum producentem 
+      <lb ed="#P" n="121"/>qui est terminus immutabilis. igitur iste respectus 
+      <lb ed="#P" n="122"/>est ab eterno et sic existentia rei est ab eterno. 
+      Ma<lb ed="#P" n="123" break="no"/>ior patet praecipue secundum ipsum: quia respectus est 
+      <lb ed="#P" n="124"/>eadem res cum fundamento.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e578">
+      ¶ Quinto sic. Ipse 
+      di<lb ed="#P" n="125" break="no"/>cit quod creatio non potest esse ab eterno. Sed 
+      produ<lb ed="#P" n="126" break="no"/>ctio alicuius vere entitatis in actu non de aliquo et 
+      <lb ed="#P" n="127"/>in esse reali est creatio. Est enim productio totalis 
+      <!--34.xml-->
+      <pb ed="#P" n="14-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>creature. Cum igitur productio essentie rei sit pro 
+      <lb ed="#P" n="2"/>ductio in esse vero reali non de aliquo: quia non de 
+      <lb ed="#P" n="3"/>deo et sit productio totalis eius videtur quod creatio 
+      <lb ed="#P" n="4"/>sit ab eterno. Non enim essentia creature minus est 
+      <lb ed="#P" n="5"/>creatura quam suum esse existentie.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e604">
+      ¶ Sexto sic ipse 
+      fa<lb ed="#P" n="6" break="no"/>cit istud argumentum contra eternitatem mundi. 
+      Om<lb ed="#P" n="7" break="no"/>ne quod est quando est necesse est esse. Sed omne 
+      eter<lb ed="#P" n="8" break="no"/>num semper fuit vel est ergo semper necesse est ipsum 
+      es<lb ed="#P" n="9" break="no"/>se igitur pro nullo instanti possibile est vel fuit ipsum 
+      <lb ed="#P" n="10"/>non esse. et sic est necesse esse. Hoc autem est inconueniens 
+      <lb ed="#P" n="11"/>ergo etc. Idem argumentum potest fieri contra ipsum 
+      <lb ed="#P" n="12"/>de essentiis quod sunt necesse esse in esse vero reali: quia 
+      <lb ed="#P" n="13"/>eterne sunt. Sed hoc est impossibile. Tum quia est 
+      <lb ed="#P" n="14"/>esse et essentia. et tamen esse est possibile. Tum quia 
+      dato<lb ed="#P" n="15" break="no"/>quod non essent idem concurrunt tamen in eodem ente ad 
+      <lb ed="#P" n="16"/>constitutionem eius et faciunt vnum per se. Tum etiam. 
+      <lb ed="#P" n="17"/>quia nihil est necesse esse in aliquo vero esse reali 
+      ex<lb ed="#P" n="18" break="no"/>tra deum ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e636">
+      ¶ Septimo sic. Ipse ponit quod esset 
+      <lb ed="#P" n="19"/>tie creature vere est ab eterno quia est ab eterno intel 
+      <lb ed="#P" n="20"/>lecta a deo et etiam exemplata. Sed nom minus 
+      exi<lb ed="#P" n="21" break="no"/>stentia exemplata et intellecta ergo existentia 
+      creatu<lb ed="#P" n="22" break="no"/>ra est ab eterno sicut essentia si suum motiuum est bo 
+      <lb ed="#P" n="23"/>num.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e649">
+      ¶ Octauo sic. Ipse ponit quod essentia et esse 
+      faci<lb ed="#P" n="24" break="no"/>unt compositionem quia essentia est in potentia ad esse 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e654">
+               <lb ed="#P" n="25"/>¶ Contra. Idem non est in potentia ad seipsum 
+      ni<lb ed="#P" n="26" break="no"/>si in potentia obiectiua nec per consequens facit 
+      compo<lb ed="#P" n="27" break="no"/>sitionem cum seipso. Sed essentia et esse sunt idem re 
+      s<lb ed="#P" n="28" break="no"/>cut dicit. ergo non est in potentia vnum ad aliud nisi 
+      <lb ed="#P" n="29"/>tantum obiectiue: et per consequens non faciunt 
+      compos<lb ed="#P" n="30" break="no"/>tionem quia potentia obiectiua non manet cum actu 
+      <lb ed="#P" n="31"/>suo sicut manet potentia subiectiua.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e672">
+      ¶ Ad istas 
+      ra<lb ed="#P" n="32" break="no"/>tiones respondetur ad tres primas vnico verbo quod 
+      <lb ed="#P" n="33"/>essentia et esse licet sint eadem tres tamen differunt 
+      <lb ed="#P" n="34"/>intentione et ita vnum potest esse nouum et aliud 
+      eter<lb ed="#P" n="35" break="no"/>num.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e683">
+      ¶ Ad quartum diceretur quod respectus potest esse 
+      <lb ed="#P" n="36"/>nouus inter terminos eternos ex nouitate 
+      causali<lb ed="#P" n="37" break="no"/>tatis alicuius cause de nouo causantis sicut est 
+      es<lb ed="#P" n="38" break="no"/>se actu alis existentie quia licet sit idem re cum essentia 
+      <lb ed="#P" n="39"/>differt tamen intentione.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e694">
+      ¶ Ad quintum dicitur quod 
+      <lb ed="#P" n="40"/>productio alicuius de nichilo in esse actualis 
+      existen<lb ed="#P" n="41" break="no"/>tie est creatio quia rei proprie conuenit creari secundum 
+      <lb ed="#P" n="42"/>esse actualis existentie non autem secundum esse essentie 
+      <lb ed="#P" n="43"/>sed tantum exemplar.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e706">
+      ¶ Ad sextum est necesse esse 
+      <lb ed="#P" n="44"/>per idem. Nichil enim aliud a deo est necesse esse sio 
+      <lb ed="#P" n="45"/>quod in suo conceptu quidditatiue includit actualiter 
+      <lb ed="#P" n="46"/>existere vel sic quod necessario existat. Sed in esse essen 
+      <lb ed="#P" n="47"/>tie aliquid bene est necesse esse sicut necessario est 
+      ex<lb ed="#P" n="48" break="no"/>emplatum et intellectum. Ille autem tres probatio. 
+      <lb ed="#P" n="49"/>nes contra hoc non concludunt. Prima quia licet 
+      essen<lb ed="#P" n="50" break="no"/>tia et esse sint idem re differunt tamen intentione. 
+      Se<lb ed="#P" n="51" break="no"/>cunda non valet nisi de necesse esse secundum actualem 
+      ex<lb ed="#P" n="52" break="no"/>stentiam. Nec tertia similiter.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e728">
+      ¶ Ad septimum 
+      responde<lb ed="#P" n="53" break="no"/>tur quod existentia proprie non est exemplata secundum quod 
+      hu<lb ed="#P" n="54" break="no"/>iusmodi nec secundum ipsam proprie conuenit creature ex 
+      <lb ed="#P" n="55"/>emplari sed tantum produci sicut secundum essentiam non 
+      com<lb ed="#P" n="56" break="no"/>uenit sibi produci sed exemplari. Et ita non oportet 
+      <lb ed="#P" n="57"/>quod existentia sit ab eterno in esse reali sicut essentia sed 
+      <lb ed="#P" n="58"/>tantum in esse intellecto.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e744">
+      ¶ Ad vltimum dicit quod idem 
+      re<lb ed="#P" n="59" break="no"/>distinctum tamen intentione facit bene compositionem. 
+      <lb ed="#P" n="60"/>cum seipso et est in potentia ad seipsum sicut animal et 
+      <lb ed="#P" n="61"/>rationale faciunt compositionem in homine et sic 
+      predi<lb ed="#P" n="62" break="no"/>cte rationes concludere non videntur. Sed dico quod 
+      pri<lb ed="#P" n="63" break="no"/>ma solutio primarum trium rationum nichil valet. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e757">
+               <lb ed="#P" n="64"/>¶ Primo quia quecumque sic se habent quod vnum est in 
+      <!--34.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>actu et in re sine alio et ambo sunt positiua non solum 
+      <lb ed="#P" n="66"/>intentionaliter immo realiter et quod plus est essentia 
+      <lb ed="#P" n="67"/>tialiter distinguntur: quia ipsorum sunt diuersa esse et 
+      <lb ed="#P" n="68"/>per consequens diuerse essentie essentialiter etiam secundum 
+      <lb ed="#P" n="69"/>istos qui ponunt quod esse et essentie sunt idem realiter. 
+      <lb ed="#P" n="70"/>Sed essentia et esse sic se habent secundum istos ergo etc. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e779">
+               <lb ed="#P" n="71"/>¶ Secundo quia per hoc probauit philosophus 
+      ma<lb ed="#P" n="72" break="no"/>teriam differre realiter a forma et locatum a loco quia 
+      <lb ed="#P" n="73"/>vnum potest esse sine alio in re.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e788">
+      ¶ Tertio quia secundum 
+      <lb ed="#P" n="74"/>istam responsionem sequeretur quod animal cui 
+      conue<lb ed="#P" n="75" break="no"/>nit vel natum est conuenire ipsum rationale cum 
+      diffe<lb ed="#P" n="76" break="no"/>rant intentione secundum eos possent esse sine inuicem sal 
+      <lb ed="#P" n="77"/>tem animal sine rationali sicut essentia sine esse. Et 
+      <lb ed="#P" n="78"/>sic etiam animal cui conuenit irrationale et sic in 
+      rees<lb ed="#P" n="79" break="no"/>set dare animalia que nec essent rationalia nec 
+      irra<lb ed="#P" n="80" break="no"/>tionalia que sunt inconuenientia. Et ideo dico quod est 
+      <lb ed="#P" n="81"/>implicatio contradictionis dicere quod aliqua sint 
+      ea<lb ed="#P" n="82" break="no"/>dem res vel realitas et vnum potest esse in actu et in 
+      re<lb ed="#P" n="83" break="no"/>sine alio.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e813">
+      ¶ Solutio ad quartum per idem improbatur 
+      <lb ed="#P" n="84"/>Cum enim respectus intrinsecus sit eadem res 
+      fun<lb ed="#P" n="85" break="no"/>damento secundum eos a quacumque causa fieri non potest quod 
+      <lb ed="#P" n="86"/>fundamentum et terminus sint eterna et non sit 
+      respe<lb ed="#P" n="87" break="no"/>ctus eternus sicut nec a quacumque causa potest fieri 
+      <lb ed="#P" n="88"/>illud quod implicat contradictionem.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e826">
+      ¶ Contra 
+      solu<lb ed="#P" n="89" break="no"/>tionem quinti patet quod non est nisi fuga. Dico enimquod 
+      <lb ed="#P" n="90"/>rei non solum conuenit creari et effici secundum existentiam 
+      <lb ed="#P" n="91"/>sed etiam secundum essentiam et naturam. Primo quia 
+      om<lb ed="#P" n="92" break="no"/>ne illud quod est aliquid positiuum vere ens extra 
+      <lb ed="#P" n="93"/>intellectum et non est causatum est deus. vt videtur et 
+      <lb ed="#P" n="94"/>ens simpliciter independens et necesse esse. Sed ista 
+      <lb ed="#P" n="95"/>non conueniunt essentie create vt patet. ergo ipsa est 
+      <lb ed="#P" n="96"/>creata et ita bene sicut esse.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e846">
+      ¶ Secundo quia essentia 
+      <lb ed="#P" n="97"/>creature talis quam tu ponis vel est creator vel 
+      crea<lb ed="#P" n="98" break="no"/>tura. Non est creator quia ponis quod habet esse vere 
+      <lb ed="#P" n="99"/>distinctum a creatore ergo est creatura. et tunc 
+      impli<lb ed="#P" n="100" break="no"/>cat contradictionem quod non creetur vel quod secundum ipsum 
+      <lb ed="#P" n="101"/>non conueniat creature creari. Id enim totum quod est 
+      <lb ed="#P" n="102"/>creatura et includitur intrinsece in ipsa creabile et 
+      <lb ed="#P" n="103"/>causabile est sicut ipsa. Similiter etiam hoc pate 
+      ri<lb ed="#P" n="104" break="no"/>sanctos. Augustinus contra felicianum dicit quod 
+      crea<lb ed="#P" n="105" break="no"/>tura est ex dei voluntate facta substantia et 
+      accipit<lb ed="#P" n="106" break="no"/>substantiam pro natura et planum quod natura et 
+      quid<lb ed="#P" n="107" break="no"/>ditas vel essentia idem sunt. ergo essentia est 
+      effectu<lb ed="#P" n="108" break="no"/>ue facta.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e875">
+      ¶ Prima Anselmus monologi. 24. ca. 
+      <lb ed="#P" n="109"/>Eternitas illi soli substantie conuenit que sola non 
+      <lb ed="#P" n="110"/>facta sed factrix inuenta est. Ex quo habetur quod 
+      sola<lb ed="#P" n="111" break="no"/>la diuina essentia eterna est et omnis alia facta est que 
+      <lb ed="#P" n="112"/>ambo sunt contra ipsos.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e886">
+      ¶ Contra solutionem sexti 
+      <lb ed="#P" n="113"/>quod concludit essentiam esse necesse esse sicut et esse 
+      <lb ed="#P" n="114"/>per rationem eorum contra eternitatem mundi. 
+      Pa<lb ed="#P" n="115" break="no"/>tet quod non valet illa solutio. Non enim apparet 
+      ratio<lb ed="#P" n="116" break="no"/>quare essentia vel aliquid secundum esse essentie plus sit 
+      ne<lb ed="#P" n="117" break="no"/>cessarium quam secundum esse existentie precipue cum vtrumquam 
+      <lb ed="#P" n="118"/>sit creabile sicut dictum est supra vel probatum. Et 
+      <lb ed="#P" n="119"/>ita sicut argumentum illud concludit de vno puta de 
+      <lb ed="#P" n="120"/>essentia. Ita de esse vel econuerso. Et sicut non 
+      con<lb ed="#P" n="121" break="no"/>cludit deessentia ita nec de esse et sicut concludit 
+      in<lb ed="#P" n="122" break="no"/>conueniens de esse ita de essentia.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e910">
+      ¶ Prima sicut 
+      di<lb ed="#P" n="123" break="no"/>ctum est in primo. Res primo cumstituitur in esse 
+      pos<lb ed="#P" n="124" break="no"/>sibili per intellectum diuinum. igitur quia exemplata vel 
+      <lb ed="#P" n="125"/>intellecta non habet esse nisi possibile. Non autem es 
+      <lb ed="#P" n="126"/>se necessarium reale et vnum in actu. Similiter etiam 
+      <lb ed="#P" n="127"/>si poneretur necesseria ista essentia hoc non esset nisi quia 
+      <lb ed="#P" n="128"/>itellectio diuina vel exemplar necessario coexigeret 
+      <!--35.xml-->
+      <pb ed="#P" n="14-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ipsam. Sed hoc est falsum quia magis necessarium 
+      <lb ed="#P" n="2"/>nunquam de necessitate coexigit aliud quod non potest 
+      <lb ed="#P" n="3"/>esse ita necessarium in esse vero reali. De 
+      probationi<lb ed="#P" n="4" break="no"/>bus etiam illis tribus patet quod non sunt solute. Si enim 
+      <lb ed="#P" n="5"/>essentia et esse sunt idem re si vnum est necesse esse: et 
+      re<lb ed="#P" n="6" break="no"/>liquum. Nec valet differentia intentionis sicut nec 
+      <lb ed="#P" n="7"/>prius valebat ad ponendum nouitatem in vno et 
+      eter<lb ed="#P" n="8" break="no"/>nitatem in alio.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e950">
+      ¶ Secunda instantia etiam patet quod 
+      <lb ed="#P" n="9"/>non est soluta nec tertia. quia non est ratio quare 
+      ma<lb ed="#P" n="10" break="no"/>gis concurrat in vno vel eodem ente per se necesse esse 
+      <lb ed="#P" n="11"/>per essentiam et possibili esse secundum existentiam quam ambe 
+      <lb ed="#P" n="12"/>secundum essentiam vel existentiam et similiter quare 
+      pos<lb ed="#P" n="13" break="no"/>sit aliquid esse eternum et necesse extra deum secundum 
+      <lb ed="#P" n="14"/>essentiam quam secundum existentiam. Unde enim accipiatur 
+      <lb ed="#P" n="15"/>istud priuilegium essentie plusquam existentie non 
+      appa<lb ed="#P" n="16" break="no"/>ret. Precipue cum vtrumque sit eque causabile sicut pro 
+      <lb ed="#P" n="17"/>batum est supra sicut est eque annichilabile secudum 
+      <lb ed="#P" n="18"/>August. 8. super Genesim ad litteram vbi dicit quod s 
+      <lb ed="#P" n="19"/>virtus dei ab eis que creata sunt regendis cessaret 
+      <lb ed="#P" n="20"/>simul et illorum cessaret species omnisque natura 
+      coin<lb ed="#P" n="21" break="no"/>cideret. Sed planum est quod natura species et essentia 
+      <lb ed="#P" n="22"/>idem. Unde iudicio meo isti negant ad nichilationem 
+      <lb ed="#P" n="23"/>possibilem.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e985">
+      ¶ Contra solutionem quinti patet quod 
+      exi<lb ed="#P" n="24" break="no"/>stentia ita est exemplata sicut essentia. Omne enim 
+      <lb ed="#P" n="25"/>productum ab agente per intellectum et sicut artificia 
+      <lb ed="#P" n="26"/>tum est exemplatum vt videtur.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e994">
+      ¶ Secundo etiam quia 
+      <lb ed="#P" n="27"/>sicut dictum est supra et probatu. Essentia est ita 
+      pro<lb ed="#P" n="28" break="no"/>ducibilis sicut existentia. ergo existentia est ita 
+      exem<lb ed="#P" n="29" break="no"/>plabilis sicut essentia.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1003">
+      ¶ Contra solutionem vltimi 
+      <lb ed="#P" n="30"/>argumenti quod idem re est in potentia ad seipsum et 
+      fa<lb ed="#P" n="31" break="no"/>cit compositionem cum seipso distincto intentione 
+      si<lb ed="#P" n="32" break="no"/>cut esse cum essentia. Non respondet ad argumentum 
+      <lb ed="#P" n="33"/>quia quero quomodo essentia est in potentia ad esse 
+      <lb ed="#P" n="34"/>Aut in potentia subiectiua et tunc impossibile est quod sit 
+      <lb ed="#P" n="35"/>eadem res cum esse. quia eadem res non est in potentia 
+      <lb ed="#P" n="36"/>subiectiua ad seipsam nec subiectum sui ipsius. Aut 
+      <lb ed="#P" n="37"/>in potentia obiectiua. et tunc non manet sicut nec act 
+      <lb ed="#P" n="38"/>et potentia cum sint differentie entis maxime 
+      repugnan<lb ed="#P" n="39" break="no"/>tes manent simul. et ita non faciunt compositionem quod 
+      <lb ed="#P" n="40"/>dicit de animali et rationali.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1029">
+      ¶ Dico sicut dixi in pri 
+      <lb ed="#P" n="41"/>mo quod animalitas et rationalitas dicunt plures 
+      rea<lb ed="#P" n="42" break="no"/>litates. Non sic autem essentia et esse secundum te. Et hoc 
+      <lb ed="#P" n="43"/>de secundo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e1038">
+               <lb ed="#P" n="44"/>¶ Adduco autem quantum ad 
+      ter<lb ed="#P" n="45" break="no"/>tium articulum alias rationes contra positionem 
+      pre<lb ed="#P" n="46" break="no"/>dictam. Prima est ista. Illud cuius essentia 
+      praesup<lb ed="#P" n="47" break="no"/>ponitur sue productioni per illam productionem non 
+      crea<lb ed="#P" n="48" break="no"/>tur. Sed secundum istam positionem essentia creature sue 
+      <lb ed="#P" n="49"/>creationi vel productioni presupponitur. ergo non 
+      <lb ed="#P" n="50"/>creatur. Maior patet.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1057">
+      ¶ Primo. quia sicut illud cuius 
+      ma<lb ed="#P" n="51" break="no"/>teria intrinseca et ex qua presupponitur non creatur 
+      <lb ed="#P" n="52"/>Sic multo fortius nec illud cuius essentia 
+      presup<lb ed="#P" n="53" break="no"/>ponitur.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1066">
+      ¶ Secundo quia tale quid non fit de nichili 
+      <lb ed="#P" n="54"/>vel non de aliquo. Oportet enim essentiam illam que 
+      <lb ed="#P" n="55"/>presupponitur aliquomodo se habere ad creationem 
+      <lb ed="#P" n="56"/>Aut igitur sicut subiectum aut sicut terminum. Non 
+      <lb ed="#P" n="57"/>sicut subiectum. quia tunc excluditur creatio non 
+      mi<lb ed="#P" n="58" break="no"/>nus quam per materiam. Nec sicut terminum quia essentia 
+      <lb ed="#P" n="59"/>non fit ipsum esse sed manet in tota creatione et sul 
+      <lb ed="#P" n="60"/>termino creationis quare etc. Minor patet secundum 
+      <lb ed="#P" n="61"/>illam positionem quare etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1086">
+      ¶ Secunda ratio est ista 
+      <lb ed="#P" n="62"/>Creatio est productio totalis ipsius rei in esse 
+      reali<lb ed="#P" n="63" break="no"/>Hoc patet per differentiam ipsius ab aliis produ¬ 
+      <!--35.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>ctionibus. Puta a mutatione et motu que aliquid 
+      <lb ed="#P" n="65"/>presupponunt. licet primo terminentur ad totum. Sed  
+      <lb ed="#P" n="66"/>si res prius haberet esse essentie verum quam crearetur 
+      <lb ed="#P" n="67"/>creatio non esset productio totalis. Plus enim 
+      praesup<lb ed="#P" n="68" break="no"/>poneretur vel saltem non minus creationi quam motui 
+      <lb ed="#P" n="69"/>velmutationi seu generationi cui non presupponitur 
+      <lb ed="#P" n="70"/>nisi materia ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1112">
+      ¶ Tertio sic. Si essentia 
+      pre<lb ed="#P" n="71" break="no"/>supponitur creationi pari ratione derelinquitur 
+      pos<lb ed="#P" n="72" break="no"/>adnichilationem. Sed hoc est impossibile quia illud  
+      <lb ed="#P" n="73"/>cuius essentia relinquitur in esse vero reali non 
+      adni<lb ed="#P" n="74" break="no"/>chilatur sicut nec illud cuius materia relinquitur 
+      <lb ed="#P" n="75"/>multofortius. ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1125">
+      ¶ Quarta ratio est ista. 
+      <lb ed="#P" n="76"/>Causa exemplaris nichil causat in esse vero reali: 
+      <lb ed="#P" n="77"/>nisi efficiendo probatio. quia causa efficiens et 
+      exen<lb ed="#P" n="78" break="no"/>plaris sunt eadem causa in quo concurrunt sicut cau 
+      <lb ed="#P" n="79"/>sa naturalis effectiua est vna et eadem causa. Patet 
+      <lb ed="#P" n="80"/>per diffinitionem cause a proposito et a natura. 
+      Que<lb ed="#P" n="81" break="no"/>ro enim a te cuius causa sit causa exemplaris. Non 
+      <lb ed="#P" n="82"/>finalis secundum quod huiusmodi. Nec materialis vel forma 
+      <lb ed="#P" n="83"/>lis quia iste sunt intrinsece causato igitur efficiens 
+      <lb ed="#P" n="84"/>vel ponens quintum genus cause igitur causa 
+      exempla<lb ed="#P" n="85" break="no"/>ris nichil est nisi quoddam genus cause efflcientis 
+      <lb ed="#P" n="86"/>Puta per intellectum et artem exemplantem. Sed 
+      pla<lb ed="#P" n="87" break="no"/>num est quod efficiens nichil causat nisi largiendo sibi 
+      est<lb ed="#P" n="88" break="no"/>se actualis existentie. Cum ergo ab eterno non sint 
+      <lb ed="#P" n="89"/>res causate secundum esse actualis existentie. igitur nec 
+      cau<lb ed="#P" n="90" break="no"/>sate secundum aliquod exemplans quod sit causa realis ipsa 
+      <lb ed="#P" n="91"/>rum.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1162">
+      ¶ Quinto sic et est ex dictis eorum. Si 
+      essen<lb ed="#P" n="92" break="no"/>tia rei presupponitur creationi et nihil habetur per 
+      <lb ed="#P" n="93"/>creationem nisi eius existentia vel res ipsa inquantum 
+      exi<lb ed="#P" n="94" break="no"/>stens sequitur quod creatio non terminetur ad aliquid 
+      <lb ed="#P" n="95"/>absolutum sicut ad per se terminum formalem quia non 
+      <lb ed="#P" n="96"/>terminatur nisi ad existentiam que non dicit nisi 
+      re<lb ed="#P" n="97" break="no"/>spectum ad efficiens vt dicunt. Sed hoc est 
+      impossibi<lb ed="#P" n="98" break="no"/>le et falsum quia de aliis productionibus minus 
+      per<lb ed="#P" n="99" break="no"/>fectis conceditur et concedunt quod terminantur ad 
+      ali<lb ed="#P" n="100" break="no"/>quid absolutum sicut mutatio vel motus ergo etc. Non 
+      <lb ed="#P" n="101"/>enim creatio terminaretur ad esse simpliciter alicu 
+      <lb ed="#P" n="102"/>ius multo minus quam alteratio vel augmentatio que 
+      <lb ed="#P" n="103"/>terminantur ad aliquid absolutum quod est falsum 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e1192">
+               <lb ed="#P" n="104"/>¶ Sexto sic. Res secundum esse quidditatiuum est 
+      crea<lb ed="#P" n="105" break="no"/>tura quia non est deus. Sed omnis creatura est de 
+      <lb ed="#P" n="106"/>nichilo facta sic quod non esse eius duratione 
+      precessi<lb ed="#P" n="107" break="no"/>esse sicut tenemus fide. Nullum autem tale est eternum 
+      <lb ed="#P" n="108"/>Quod patet. quia tunc simul duratione existeret et 
+      <lb ed="#P" n="109"/>non existeret esset et non esset. Tum quia etiam 
+      eter<lb ed="#P" n="110" break="no"/>nitas non est mensura nisi durationis vel 
+      existentie<lb ed="#P" n="111" break="no"/>et ita quod non existit semper realiter eternum non est. 
+      <lb ed="#P" n="112"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1214">
+      ¶ Septimo sic. Si essentia rei create est ab 
+      <lb ed="#P" n="113"/>eterno sequitur quod pro quocumque signo verum fuit 
+      di<lb ed="#P" n="114" break="no"/>cere quod ipsa est. Sicut enim quod est album est sic quod 
+      <lb ed="#P" n="115"/>est eternum est. quia eternum non est distrahens / nec 
+      <lb ed="#P" n="116"/>est aliquid inclusum quidditatiue vel etiam propria 
+      <lb ed="#P" n="117"/>passio sequens rem secundum quodcumque esse. Sed 
+      es<lb ed="#P" n="118" break="no"/>sentia rei create non sic est: sed solus deus. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e1230">
+               <lb ed="#P" n="119"/>¶ Dices quod ista ratio nichil valet quia non sequitur. 
+      <lb ed="#P" n="120"/>Homo est animal vel risibilis ergo est. Similiter 
+      <lb ed="#P" n="121"/>non sequitur. Essentia rei create est eterna: ergo est. 
+      <lb ed="#P" n="122"/>Dico quod non valet: quia esse eternum non est 
+      predi<lb ed="#P" n="123" break="no"/>catum per se. primomodo nec. secundo modo 
+      <lb ed="#P" n="124"/>de creatura: nec distrahens de creatura: sed est 
+      pre<lb ed="#P" n="125" break="no"/>dicatum quasi accidentale et predicatum reale non 
+      <lb ed="#P" n="126"/>distrahens: et ideo sicut sequitur homo est albus 
+      er<lb ed="#P" n="127" break="no"/>go est. ita sequitur essentia creature est. ergo crea¬ 
+      <!--36.xml-->
+      <pb ed="#P" n="15-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tura est.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1261">
+      ¶ Octauo sic materia et forma lapidis 
+      es<lb ed="#P" n="2" break="no"/>sentialiter et intrinsece pertinent ad quidditatem et 
+      es<lb ed="#P" n="3" break="no"/>sentiam lapidis: vt patet septimo metaphi. et planum 
+      <lb ed="#P" n="4"/>quod non constituunt essentiam lapidis nec vnite simul 
+      <lb ed="#P" n="5"/>si ergo essentia lapidis est ab eterno. sequitur quod 
+      ma<lb ed="#P" n="6" break="no"/>teria et forma lapidis sint vnite ab eterno sed non 
+      <lb ed="#P" n="7"/>vniuntur nec ab aliquo efficiente quia omne composi 
+      <lb ed="#P" n="8"/>tum ex materia et forma habet componens et efficiens 
+      <lb ed="#P" n="9"/>vt patet. et sic anima et corpus ab eterno viuuntur: 
+      <lb ed="#P" n="10"/>et sortes ab eterno est viuus et viuet in eternum. et 
+      si<lb ed="#P" n="11" break="no"/>militer potest argui de quolibet subiecto et 
+      acciden<lb ed="#P" n="12" break="no"/>te vel vnione vel vnionibus ipsarum et quibuscunque 
+      <lb ed="#P" n="13"/>respectibus et sequuntur infinita inconuenientia 
+      <lb ed="#P" n="14"/>volenti cogitare vt patet. ergo lapis habet 
+      effici<lb ed="#P" n="15" break="no"/>ens ab eterno et per consequens existit ab eterno: 
+      <lb ed="#P" n="16"/>sed hoc est falsum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1296">
+      ¶ Nono sic per 
+      Augu<lb ed="#P" n="17" break="no"/>tinum super Genesim versus finem vbi dicit quod res 
+      <lb ed="#P" n="18"/>antequam fierent erant et non erant. erant quidem in dei 
+      <lb ed="#P" n="19"/>scientia: sed non erant in natur a propria vbi patet 
+      <lb ed="#P" n="20"/>quod destruitur et conclusio positionis praedicte et ratio eius 
+      <lb ed="#P" n="21"/>conclusio destruitur per hoc quod Augustinus dicit quod 
+      <lb ed="#P" n="22"/>res non erant in ipsa natura nec per consequens in 
+      pro<lb ed="#P" n="23" break="no"/>pria essentia: quia essentia et natura sunt idem. ratio vel 
+      <lb ed="#P" n="24"/>ro destruitur per hoc quod Augustinus dicit quod erant 
+      <lb ed="#P" n="25"/>tantum in diuina scientia sicut cognita modo. non 
+      sequi<lb ed="#P" n="26" break="no"/>tur istud est cognitum. ergo est realiter in propria 
+      na<lb ed="#P" n="27" break="no"/>tura sicut dicit Augustinus et patet quia esse 
+      cogni<lb ed="#P" n="28" break="no"/>tum nichil ponit realiter extra cognoscens vel ipsam 
+      <lb ed="#P" n="29"/>cognitionem.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1327">
+      ¶ Decimo sic secundum Augustinum ad 
+      <lb ed="#P" n="30"/>marcellanum deus solus est qui exordium non habet: 
+      <lb ed="#P" n="31"/>sed quidditas creati non est deus. igitur exordium 
+      <lb ed="#P" n="32"/>habet et non est eterna. Potest etiam secundum Augusti 
+      <lb ed="#P" n="33"/>num differentiam questionum questione. 49. ydee sunt 
+      <lb ed="#P" n="34"/>principales forme que nec interentur nec oriuntur se 
+      <lb ed="#P" n="35"/>cundum tantum ipsas formatur quidquid oriri et in 
+      ter<lb ed="#P" n="36" break="no"/>ire potest si essentie creaturarum non sunt idee 
+      secun<lb ed="#P" n="37" break="no"/>dum illos de predicta positione: sed magis ydeate. et 
+      <lb ed="#P" n="38"/>go interire et oriri possunt: sed nullum tale est 
+      neces<lb ed="#P" n="39" break="no"/>sarium eternum ergo etc.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1352">
+      ¶ Undecimo sic. Aut res 
+      <lb ed="#P" n="40"/>secundum esse essentie quod ponunt est terminus divine 
+      co<lb ed="#P" n="41" break="no"/>gnitionis quam habet de ipsa aut secundum esse cognitum 
+      <lb ed="#P" n="42"/>tantum si secundum esse cognitum frustra ponuntur essen 
+      <lb ed="#P" n="43"/>tie in esse reali. si secundum esse reale quod est esse essen 
+      <lb ed="#P" n="44"/>tie. tunc necessario ad diuinam introductionem 
+      coexi<lb ed="#P" n="45" break="no"/>gitur creatam secundum aliquod vestrum esse reale: et sic 
+      <lb ed="#P" n="46"/>magis necessarium et innumerabile coexigit 
+      necessa<lb ed="#P" n="47" break="no"/>rio secum minus necessarium quod est impossibile: et se 
+      <lb ed="#P" n="48"/>quitur idem de existentia sicut de essentia quare etc 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e1374">
+               <lb ed="#P" n="49"/>¶ Ultimo sic causa naturaliter et necessario agens non 
+      <lb ed="#P" n="50"/>minus constituit effectum immediatum in esse 
+      reali<lb ed="#P" n="51" break="no"/>quam effectum remotum et mediatum. vt videtur sed in 
+      <lb ed="#P" n="52"/>telligentia diuina est talis causa. Respondetur idearum 
+      <lb ed="#P" n="53"/>et quidditatum creaturarum ideatarum. immediate enim 
+      <lb ed="#P" n="54"/>creat et distinguit ydeas saltem secundum illos de praedicta 
+      <lb ed="#P" n="55"/>positione qua ponunt quod ydee formaliter sunt 
+      respe<lb ed="#P" n="56" break="no"/>ctus rationis: et tamen non constituit ydeas in aliquo 
+      <lb ed="#P" n="57"/>esse reali: sed rationis tantum igitur nec quidditates 
+      con<lb ed="#P" n="58" break="no"/>stituit in aliquo esse reali: sed rationis tantum. Dico igi 
+      <lb ed="#P" n="59"/>tur secundum istas rationes quod creature antequamncreentur 
+      <lb ed="#P" n="60"/>nullum habent esse reale in actu nec essentie nec 
+      exi<lb ed="#P" n="61" break="no"/>stentie: sed tantum esse conquisitum a diuina scientia. Ex quo 
+      <lb ed="#P" n="62"/>concludo quod potentiale obiectum quod a creetione 
+      pre<lb ed="#P" n="63" break="no"/>supponitur vel etiam potentia obiectiua nichil est 
+      rea<lb ed="#P" n="64" break="no"/>le in actu extra intrinsecum. Aut enim esset potentia ani¬ 
+      <!--36.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>te actum essendi opposita actui. et tunc oportet quod sio 
+      <lb ed="#P" n="66"/>incompositum cum actu et non manebit adueniente actu 
+      <lb ed="#P" n="67"/>sed corrumpetur et annichilabitur. et tunc per 
+      conse<lb ed="#P" n="68" break="no"/>quens exist ebat ante actum essendi vel existendi quod 
+      <lb ed="#P" n="69"/>est contradictio. Aut est potentia subiectiua et 
+      su<lb ed="#P" n="70" break="no"/>sceptiua actus. et tunc de necessitate suscipiendo de 
+      <lb ed="#P" n="71"/>nouo actum existendi mutatur de priuatione ad formam 
+      <lb ed="#P" n="72"/>et creatio vere est mutatio presupponens subiectum 
+      <lb ed="#P" n="73"/>quod est falsum. igitur potentiale obiectiuum nichil est in 
+      <lb ed="#P" n="74"/>actu reali extra intrinsecum nec etiam potentia obiecti 
+      <lb ed="#P" n="75"/>ua: sed ista potentia in logica et est idem quod non 
+      repu<lb ed="#P" n="76" break="no"/>gnantia terminorum. Illud enim dicitur potentiale 
+      crea<lb ed="#P" n="77" break="no"/>ri cui non repugnat posse creari. Unde dicimus quod 
+      <lb ed="#P" n="78"/>hominem creari in ptante et quod homo est possibilis 
+      crea<lb ed="#P" n="79" break="no"/>ri. quia isti termini. homo et creari sibi non repugnant 
+      <lb ed="#P" n="80"/>talis autem potentia nichil ponit in re sicut nec 
+      poten<lb ed="#P" n="81" break="no"/>tia qua dicimus quod hec est potentia nichil in nichil 
+      <lb ed="#P" n="82"/>vel chimeram esse chimeram est possibile. non enim 
+      chi<lb ed="#P" n="83" break="no"/>mera repugnat sibi ipsi in conceptu et hec de 
+      que<lb ed="#P" n="84" break="no"/>stione.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1459">
+      ¶ Ad rationes aliorum.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1461">
+      ¶ Ad primam ratio 
+      <lb ed="#P" n="85"/>nem dico quod diffinire vel diffinitio quasi actiue sum 
+      <lb ed="#P" n="86"/>pta pro actu diffiniendi vel diffinitio est actus 
+      in<lb ed="#P" n="87" break="no"/>trinsecus sicut patet tertio de anima et secundo posteriorum 
+      <lb ed="#P" n="88"/>et septimo metha. et ideo dico quod esse diffinitum 
+      preci<lb ed="#P" n="89" break="no"/>se sic acceptum non est nec esse conquisitum vel intrinsecum. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e1474">
+               <lb ed="#P" n="90"/>¶ Quando igitur dicis quod creature habent antequam 
+      <lb ed="#P" n="91"/>creentur esse diffinibile vel diffinitum dico quod habent 
+      <lb ed="#P" n="92"/>esse diffinitum: quia esse denominatum ab actu diffiniem 
+      <lb ed="#P" n="93"/>di siue esse intrinsecum: sed dico quod verum esse reale non 
+      <lb ed="#P" n="94"/>habent nec in potentia nec esse essentie nec existentie. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e1487">
+               <lb ed="#P" n="95"/>¶ Quando dicis quod diffinitio concernit existentiam 
+      <lb ed="#P" n="96"/>rei dico quod verum est capiendo diffinitionem pro actu 
+      dif<lb ed="#P" n="97" break="no"/>finiendi sed capiendo pro re diffinita dico quod res 
+      dif<lb ed="#P" n="98" break="no"/>finita sic concernit existentiam quod nunquam habet essen 
+      <lb ed="#P" n="99"/>tiam sine existentia quia sunt essentialiter idem.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1501">
+      ¶ Ad 
+      se<lb ed="#P" n="100" break="no"/>cundum dico quod esse extractum potest accipi dupliciter 
+      <lb ed="#P" n="101"/>vno modo pro esse intrinseco ab habente 
+      exemplar<lb ed="#P" n="102" break="no"/>secundum illud exemplar et sic dico quod maior est falsa 
+      <lb ed="#P" n="103"/>non enim oportet quod illud secundum quod obiectiue 
+      con<lb ed="#P" n="104" break="no"/>uenit creature exemplari sit in aliquo esse reali ab 
+      eter<lb ed="#P" n="105" break="no"/>no sicut nec de esse intrinseco: et ita oportet quod 
+      essen<lb ed="#P" n="106" break="no"/>tia sit eterna realiter sed tantum cognita sicut nec 
+      opor<lb ed="#P" n="107" break="no"/>tet de existentia. Aliomodo potest capi esse 
+      exempla<lb ed="#P" n="108" break="no"/>tum pro esse producto realiter ab habente 
+      exemplar<lb ed="#P" n="109" break="no"/>vel ab exemplante eo modo quo exemplans capitur pro 
+      <lb ed="#P" n="110"/>efficiente et sic creatura ab eterno non non est 
+      exem<lb ed="#P" n="111" break="no"/>plata sicut nec effecta vel creata vt patet.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1530">
+      ¶ Ad 
+      ter<lb ed="#P" n="112" break="no"/>tiam rationem dico quod si praedicamentum est coordinatio actua 
+      <lb ed="#P" n="113"/>lis rerum in actu reali vero extra intrinsecum quod res 
+      an<lb ed="#P" n="114" break="no"/>tequam creentur non sint actu in praedicamento sicut nec habent 
+      <lb ed="#P" n="115"/>aliquam veram entitatem vel realitatem in actu sed tantum 
+      <lb ed="#P" n="116"/>in potentia sunt in praedicamento. Si autem praedicamentum dicat 
+      <lb ed="#P" n="117"/>coordinatione rerum potentialium factam per intrinse 
+      <lb ed="#P" n="118"/>cum et rationem. tunc dico quod res ab eterno et antequam 
+      <lb ed="#P" n="119"/>creentur coordinantur in praedicamento sicut etiam 
+      intelligun<lb ed="#P" n="120" break="no"/>tur. Sed ex hoc non sequitur quod habeant aliquam vel 
+      <lb ed="#P" n="121"/>ram entitatem vel realitatem in actu sed sufficit quod eis 
+      <lb ed="#P" n="122"/>non repugnet habere talem entitatem.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1556">
+      ¶ Ad 
+      quar<lb ed="#P" n="123" break="no"/>tum dico quod creatura antequam creetur non refertur ad  
+      <lb ed="#P" n="124"/>deum realiter secundum aliquam relationem quande 
+      <lb ed="#P" n="125"/>dicis quod immo sicut mensuratum ad mensuram dico quod 
+      <lb ed="#P" n="126"/>non est mensurata realiter sed tantum secundum rationem. 
+      <lb ed="#P" n="127"/>sicut nec ens quando dicis de obiecto extrinseco quod 
+      <lb ed="#P" n="128"/>refertur realiter ad diuinam intentionem dico quod non 
+      <!--37.xml-->
+      <pb ed="#P" n="15-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Oportet ex hoc precise quod intrinsecum sicut nec 
+      opor<lb ed="#P" n="2" break="no"/>tet quod sit ens realiter nec per consequens oportet quod 
+      ali<lb ed="#P" n="3" break="no"/>quam proportionem que sit relatio realis habeat ad 
+      in<lb ed="#P" n="4" break="no"/>trinsecum intelligentem sed sufficit quod sit per se 
+      represen<lb ed="#P" n="5" break="no"/>tabile ab obiecto primario: quod est diuina essentia quae 
+      <lb ed="#P" n="6"/>summe est suo intentione proportionata.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1591">
+      ¶ Ad qui 
+      <lb ed="#P" n="7"/>tum dico quod scientia realis eterna non oportet quod teneat 
+      <lb ed="#P" n="8"/>obiectum reale eternum nec scitum est sed suffict. quod obiet 
+      <lb ed="#P" n="9"/>ctum suum licet non sit res in actu sibi tamen non 
+      repu<lb ed="#P" n="10" break="no"/>gnat esse rem in actu et precipue non oportet hoc deus 
+      <lb ed="#P" n="11"/>obiecto secundario diuine scientie ad cuius 
+      realita<lb ed="#P" n="12" break="no"/>tem sufficit realitas obiecti primarii quod est diuina 
+      <lb ed="#P" n="13"/>scientia preterea etiam dici potest quod deus ab 
+      eterno<lb ed="#P" n="14" break="no"/>non sciuit res habere verum esse in actu essentie et ab 
+      <lb ed="#P" n="15"/>eterno. tunc enim sciuisset falsum sed sciuit eas aliquand 
+      <lb ed="#P" n="16"/>habituras tale esse puta quando crearentur. licet enim 
+      <lb ed="#P" n="17"/>ab eterno nouiter quidditates non tamen nouit eas 
+      <lb ed="#P" n="18"/>esse realiter ab eterno.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1620">
+      ¶ Ad sextum quando dicitur 
+      <lb ed="#P" n="19"/>quod quidditatiue nichil non potest fieri aliquid dicitur 
+      <lb ed="#P" n="20"/>vno modo quod verum est. quia tunc nichilitas fieret 
+      ali<lb ed="#P" n="21" break="no"/>qua entitas quod est impossibile. Sed ad minorem 
+      di<lb ed="#P" n="22" break="no"/>citur quod creatura licet sit nichil antequam creetur. non 
+      <lb ed="#P" n="23"/>tamen est quidditatiue intrinsece sed denominatiue 
+      <lb ed="#P" n="24"/>humanitas enim non est quidditatiue: non 
+      humani<lb ed="#P" n="25" break="no"/>tas siue antequam creetur siue post. licet enim entitatem 
+      <lb ed="#P" n="26"/>creature in actu et creationem eius precedat negatio. 
+      <lb ed="#P" n="27"/>et sue existentie et sue essentie. non tamen debet dici 
+      <lb ed="#P" n="28"/>quod creatura siue antequam creetur siue post sit illa nega 
+      <lb ed="#P" n="29"/>tio vel quidditatiue negata per illam: sed 
+      denomina<lb ed="#P" n="30" break="no"/>tiue sicut affirmatio denominatur negata ab ipsa 
+      <lb ed="#P" n="31"/>negatione.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1651">
+      ¶ Aliter dicitur quod licet quidditatiue 
+      <lb ed="#P" n="32"/>nihil non fit aliquid permutationem sicut de nichilo nihil 
+      <lb ed="#P" n="33"/>fit sed bene per creationem.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1659">
+      ¶ Ad septimum dico quod 
+      <lb ed="#P" n="34"/>Augustinus loquitur de potentia vel possibilitate 
+      <lb ed="#P" n="35"/>subiectiua vel receptiua cuius est materia vel 
+      sub<lb ed="#P" n="36" break="no"/>iectum ad actu existens. Non autem loquitur de 
+      pos<lb ed="#P" n="37" break="no"/>siblitate vel potentia obiectiua quam comitatur nega 
+      <lb ed="#P" n="38"/>tio totalis esse rei possibilis sicut est in creatione. 
+      </p>
+            <p xml:id="qrdBas-be7871-d1e1672">
+               <lb ed="#P" n="39"/>¶ Ad vltimum dico quod creatura antequam creetur et post 
+      <lb ed="#P" n="40"/>no est realiter eadem sibi ipsi licet etiam non sit 
+      reali<lb ed="#P" n="41" break="no"/>ter alia a seipsa quia antequam creetur non est aliquid 
+      <lb ed="#P" n="42"/>realiter sed nichil. Inter nichil autem et aliquid non 
+      <lb ed="#P" n="43"/>est identitas realis nec alietas. vnde quando 
+      dici<lb ed="#P" n="44" break="no"/>tur quod idem ratio que erat in potentia et intellectus 
+      <lb ed="#P" n="45"/>erat antequam crearetur et similiter eadem littera 
+      conci<lb ed="#P" n="46" break="no"/>pitur et nunc est in actu et producitur et pro tanto 
+      di<lb ed="#P" n="47" break="no"/>citur quod est alius homo vel alia littera que 
+      concipi<lb ed="#P" n="48" break="no"/>tur vel producitur sed eadem non realiter sed secundum 
+      <lb ed="#P" n="49"/>rationem et ita patet quod auctoritas Augustini non 
+      <lb ed="#P" n="50"/>est ad propositum.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1701">
+      ¶ Similiter etiam dico quod 
+      creatu<lb ed="#P" n="51" break="no"/>ra antequam crearetur: nec erat eadem dictio realiter 
+      <lb ed="#P" n="52"/>nec diuersa ab ipso realiter nec etiam ab alia 
+      creatu<lb ed="#P" n="53" break="no"/>ra: quia non erat realiter et in actu: sed tantum possibiliter 
+      <lb ed="#P" n="54"/>quare etc. Ad alia argumenta.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1712">
+      ¶ Ad primum 
+      princi<lb ed="#P" n="55" break="no"/>pale dico quod potentia obiectiua et actus sibi 
+      opposi<lb ed="#P" n="56" break="no"/>tus eo modo quo dicit commentator et primo de 
+      ani<lb ed="#P" n="57" break="no"/>ma quod sunt differentie valde opposite et diuidunt ens 
+      <lb ed="#P" n="58"/>sicut viuum et mortuum diuidunt hominem. vnde sicut 
+      <lb ed="#P" n="59"/>pomo mortuus non est homo simpliciter ita nec 
+      ho<lb ed="#P" n="60" break="no"/>mo in potentia obiectiua et ita non sequitur quod licet 
+      crea<lb ed="#P" n="61" break="no"/>ture ab eterno sint possibiles quod sint vere entes. 
+      im<lb ed="#P" n="62" break="no"/>mo magis quod non entes. Ad secundum dico quod creatura 
+      an<lb ed="#P" n="63" break="no"/>tequam creetur non plus habet de entitate vera reali in 
+      <lb ed="#P" n="64"/>actu quam chimera verum est tamen quod sibi non repugnat ha¬ 
+      <!--37.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>bere entitatem sicut nec produci hoc autem repugnat 
+      <lb ed="#P" n="66"/>figmentis et impossibilibus propter implicationem 
+      com<lb ed="#P" n="67" break="no"/>tradictionis sicut dictum est in primo.
+    </p>
+            <p xml:id="qrdBas-be7871-d1e1747">
+      ¶ Ad tertium 
+      <lb ed="#P" n="68"/>dico quod illa proportio commutata non valet: nec etiam est 
+      <lb ed="#P" n="69"/>eadem multiplicitas vel sub multiplicitas primi se 
+      <lb ed="#P" n="70"/>cundi tertii et quarti. In contradictoriis autem nunquam 
+      va<lb ed="#P" n="71" break="no"/>let verbi gratia si dicatur sic. Sicut se habet homo 
+      <lb ed="#P" n="72"/>ad non hominem sic animal ad non animal quia vtrobique est 
+      <lb ed="#P" n="73"/>contradictio ergo a transmutata proportione sicut 
+      <lb ed="#P" n="74"/>se habet homo ad animal sic non homo ad non 
+      ani<lb ed="#P" n="75" break="no"/>mal sed omnis homo est animal ergo omne non hoc 
+      <lb ed="#P" n="76"/>mo est non animal ergo asinus est non animal planum 
+      <lb ed="#P" n="77"/>est quod non valet: quia non est idem ambitus primi 
+      secun<lb ed="#P" n="78" break="no"/>di tertii et quarti: sed iam plus est animal quam homo 
+      <lb ed="#P" n="79"/>et non homo quam non animal. et ideo si in talibus debet 
+      <lb ed="#P" n="80"/>valere debet connumerari proportio comparando 
+      pri<lb ed="#P" n="81" break="no"/>mum ad tertium et quartum ad secundum faciendo de 
+      quan<lb ed="#P" n="82" break="no"/>to subiectum et de secundo predicatum sic dicendo 
+      si<lb ed="#P" n="83" break="no"/>cut homo ad non hominem si c animal ad non animal 
+      er<lb ed="#P" n="84" break="no"/>go sicut homo ad animal sic non animal ad non 
+      homi<lb ed="#P" n="85" break="no"/>nem: sed omnis homo est animal: ergo omne non 
+      ani<lb ed="#P" n="86" break="no"/>mal est non homo. et tunc euitatur fallacia 
+      consequen<lb ed="#P" n="87" break="no"/>tis. In proposito dico quod non valet commutatio: quia 
+      <lb ed="#P" n="88"/>non est eadem multiplicitas vel ambitus terminorum 
+      <lb ed="#P" n="89"/>quando enim dicitur quod sicut ens ad non ens ita 
+      possi<lb ed="#P" n="90" break="no"/>bile ad impossibile conceditur sed quando dicitur 
+      vl<lb ed="#P" n="91" break="no"/>tra sicut ens ad possibile: ita non ens ad impossibile 
+      <lb ed="#P" n="92"/>non sequitur sed econuerso impossibile ad non ens et 
+      <lb ed="#P" n="93"/>ideo debet concludi quod sicut ens est possibile ita 
+      impossi<lb ed="#P" n="94" break="no"/>bile est non ens: non tamen econuerso. sed ita vt ista 
+      <lb ed="#P" n="95"/>duo simul quod sit non ens et cum hoc quod sit possibile. 
+      <lb ed="#P" n="96"/>Ad Auicennam dico quod per illud dictum non 
+      inten<lb ed="#P" n="97" break="no"/>dit quod creature sint vere entes realiter ab eterno 
+      se<lb ed="#P" n="98" break="no"/>cundum aliquod esse reale: sed secundum esse intrinsecum  
+      <lb ed="#P" n="99"/>et cognitum et intelligibile artis quia vtrumque simul ha 
+      <lb ed="#P" n="100"/>bent res ab intellectu diuino per suam intellectionem 
+      <lb ed="#P" n="101"/>sicut dictum est in primo. Sic ad istud etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

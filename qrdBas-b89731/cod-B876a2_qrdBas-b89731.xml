@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="136-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b89731"><!--l2d26-28q1 -->
+            <head xml:id="qrdBas-b89731-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b89731-d1e101">
+               <lb ed="#P" n="53"/>¶ Distinctionum. xx vi. xx vii. et. xx viii. 
+      <lb ed="#P" n="54"/>¶ Questio Unica. 
+    </p>
+            <p xml:id="qrdBas-b89731-d1e108">
+               <lb ed="#P" n="55"/>CIrca istas 
+      distin<lb ed="#P" n="56" break="no"/>ctiones quero de gratia vnam 
+      <lb ed="#P" n="57"/>questionem scilicet Utrum gratia 
+      gra<lb ed="#P" n="58" break="no"/>tum faciens sit in essentia 
+      ani<lb ed="#P" n="59" break="no"/>me vel in potentia sicut in 
+      sub<lb ed="#P" n="60" break="no"/>iecto per se in mediato. 
+    </p>
+            <p xml:id="qrdBas-b89731-d1e124">
+      Uide 
+      <lb ed="#P" n="61"/>tur quod in essentia primo et 
+      im<lb ed="#P" n="62" break="no"/>mediate.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e131">
+      ¶ Primo sic. quia secundum 
+      <lb ed="#P" n="63"/>Augustinum de gratia et libero arbitrio gratia pre¬ 
+      <!--278.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>uenit bonam voluntatem et sperat eam. Sed si gratia non 
+      <lb ed="#P" n="65"/>esses in essentia anime sicut in subiecto non 
+      preueni<lb ed="#P" n="66" break="no"/>ret voluntatem: sed magis sequeretur ipsam sicut ac 
+      <lb ed="#P" n="67"/>cidens suum subiectum. Si autem ponatur in essentia 
+      <lb ed="#P" n="68"/>anime: tunc preuenit ipsam voluntatem et est prior 
+      si<lb ed="#P" n="69" break="no"/>cut essentia prior est quam potentia: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e154">
+      ¶ 
+      Secnn<lb ed="#P" n="70" break="no"/>do sit. Habitus gratuitus non videtur necessarius 
+      <lb ed="#P" n="71"/>nisi propter distinctionem illius in quo ponitur ad 
+      ta<lb ed="#P" n="72" break="no"/>lem actum. Sed essentia est maxime 
+      indetermina<lb ed="#P" n="73" break="no"/>ta et indigens determinatione: ergo gratia ponenda 
+      <lb ed="#P" n="74"/>est in ea.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e167">
+      ¶ Tertio sic. Gratia dat esse supernatura 
+      <lb ed="#P" n="75"/>le. Esse autem primo et immediate respicit essentiam 
+      <lb ed="#P" n="76"/>Primo enimdatur rei esse et postea forme actiue et 
+      <lb ed="#P" n="77"/>operatiue. Sic videtur esse de gratia et virtutibus 
+      <lb ed="#P" n="78"/>in proposito.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e178">
+      ¶ Quarto sic. Actus gratie non est 
+      <lb ed="#P" n="79"/>aliqua operatio vel actus elicitus: sed tantum esse 
+      gra<lb ed="#P" n="80" break="no"/>tuitum vel gratum actus scilicet formalis. Sed actus 
+      po<lb ed="#P" n="81" break="no"/>tentie est operatio et actus elicitus. non autem essentie 
+      <lb ed="#P" n="82"/>ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e189">
+               <lb ed="#P" n="83"/>¶ Contra onratia et caritas 
+      <lb ed="#P" n="84"/>sunt eadem forma realiter sicut dicetur infra. Sed 
+      <lb ed="#P" n="85"/>caritas primo et immediate est in potentia puta in 
+      <lb ed="#P" n="86"/>voluntate. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e200">
+               <lb ed="#P" n="87"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="88" break="no"/>dam.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e207">
+      ¶ Primo inquiram vtrum gratia gratum 
+      fa<lb ed="#P" n="89" break="no"/>ciens sit aliquid absolutum positiuum in grato 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e213">
+               <lb ed="#P" n="90"/>¶ Secundo vtrum illud positiuum absolutum sit 
+      <lb ed="#P" n="91"/>idem cum caritate et an sint eademforma essentiali 
+      <lb ed="#P" n="92"/>ter.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e222">
+      ¶ Tertio de questione vtrum gratia sit in 
+      essen<lb ed="#P" n="93" break="no"/>tia anime vel in potentia immediate sicut in subiecto. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e227">
+               <lb ed="#P" n="94"/>¶ Quarto vtrum sit principium merendi vitam de 
+      <lb ed="#P" n="95"/>condigno. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e234">
+               <lb ed="#P" n="96"/>¶ Quantum ad primum 
+      articu<lb ed="#P" n="97" break="no"/>lum videtur aliquibus posse dici quod gratia gratum 
+      <lb ed="#P" n="98"/>faciens non est aliquid absolutum in grato: sed tantum 
+      <lb ed="#P" n="99"/>aliquid respectiuum.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e245">
+      ¶ Hoc probatur primo quia 
+      <lb ed="#P" n="100"/>ecundum ipsos hominem esse gratum non dicit nisi 
+      denomi<lb ed="#P" n="101" break="no"/>nationem extrinsecam a diuino beneplacito quo 
+      con<lb ed="#P" n="102" break="no"/>placet sibi in isto et diligit eum ad premium vite 
+      eter<lb ed="#P" n="103" break="no"/>ne.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e256">
+      ¶ Unde et persona dicitur grata quam deus 
+      ac<lb ed="#P" n="104" break="no"/>ceptat ad vitam eternam. Sed hoc non dicitur aliquid 
+      <lb ed="#P" n="105"/>positiuum absolutum in grato vt patet sicut nec sanum 
+      <lb ed="#P" n="106"/>in vrina: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e266">
+      ¶ Secundo sic. Aliquis de non 
+      gra<lb ed="#P" n="107" break="no"/>to alicui fit sibi gratus sine aliqua mutatiane facta 
+      <lb ed="#P" n="108"/>in ipso per solam voluntatem et acceptationem illius 
+      <lb ed="#P" n="109"/>cui sit gratus. ergo similiter de non grato fit aliquis 
+      <lb ed="#P" n="110"/>gratus deo sine aliqua mutatione facta in ipso. Sed  
+      <lb ed="#P" n="111"/>hoc non esset si gratia diceret aliquid absolutum: 
+      er<lb ed="#P" n="112" break="no"/>go etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e282">
+      ¶ Tertio sic. Gratia dans esse gratum ex 
+      pas<lb ed="#P" n="113" break="no"/>te grati non videtur dicere nisi acceptationem 
+      passi<lb ed="#P" n="114" break="no"/>uam alicuius ab ipso deo actiue acceptante. Sed  
+      <lb ed="#P" n="115"/>hoc non dicit aliquid positiuum absolutum super 
+      acce<lb ed="#P" n="116" break="no"/>ptatum: immo solum respectum: ergo etc. Maior 
+      pa<lb ed="#P" n="117" break="no"/>tet: quia posita acceptatione passiua hominis ad vi 
+      <lb ed="#P" n="118"/>tam eternam ponitur homo esse gratus quocumque alio 
+      <lb ed="#P" n="119"/>circumscripto.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e300">
+      ¶ Quarto sic. Deus acceptat 
+      homi<lb ed="#P" n="120" break="no"/>nem ad consequendum gratiam de congruo sine omni 
+      <lb ed="#P" n="121"/>positiuo absolutosuperaddito illi: vt patet quia 
+      alio<lb ed="#P" n="122" break="no"/>qui esset processus in infinitum in gratiis: ergo 
+      simili<lb ed="#P" n="123" break="no"/>ter videtur quod acceptet aliquem ad consequendum 
+      <lb ed="#P" n="124"/>gloriam de condigno sine aliquo absoluto 
+      suparad<lb ed="#P" n="125" break="no"/>dito. Sed hoc non est nisi facere talem gratum: ergo gra¬ 
+      <!--279.xml-->
+      <pb ed="#P" n="136-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tia non dicit aliquid absolutum. Frustra enim 
+      ponere<lb ed="#P" n="2" break="no"/>tur dicere aliquid absolutum ex quo totum potest fieri 
+      <lb ed="#P" n="3"/>per respectum. Gratia enim non videtur nisi quedam 
+      <lb ed="#P" n="4"/>rectitudo anime supernaturalis. Rectitudo autem non 
+      di<lb ed="#P" n="5" break="no"/>cit aliquid absolutum quare etc. Sed dico et teneo quod 
+      <lb ed="#P" n="6"/>licet non possit efficaciter ostendi quod gratia sit aliquid 
+      <lb ed="#P" n="7"/>positiuum absolutum in grato quod nichilominus sicut 
+      <lb ed="#P" n="8"/>tenent communiter doctores et sancti quod gratia dicit 
+      <lb ed="#P" n="9"/>aliquem habitum positiuum absolutum de praedicam 
+      <lb ed="#P" n="10"/>to qualitatis. Ad hoc adduco aliquas persuasiones 
+      <lb ed="#P" n="11"/>tales.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e346">
+      ¶ Primo sic. Econtrario se habet 
+      accepta<lb ed="#P" n="12" break="no"/>tio diuina ad nos et acceptatio nostra ad alios. 
+      Se<lb ed="#P" n="13" break="no"/>quando aliquem acceptamus vel aliquid illud 
+      acce<lb ed="#P" n="14" break="no"/>ptatum per modum obiecti causat in nobis actum 
+      <lb ed="#P" n="15"/>acceptandi vel amandi ipsum qui est aliquid positiuum 
+      <lb ed="#P" n="16"/>absolutum: ergo econtrario quando deus acceptat nos 
+      <lb ed="#P" n="17"/>primo ad gloriam ipse causat in nobis aliquid 
+      posi<lb ed="#P" n="18" break="no"/>tiuum absolutum infusum: et hoc non est nisi causand 
+      <lb ed="#P" n="19"/>in nobis gratiam vt videtur.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e366">
+      ¶ Secundo sic. Illud quod 
+      <lb ed="#P" n="20"/>est simpliciter nobilius in grato quam sit fides et 
+      sper<lb ed="#P" n="21" break="no"/>est aliquid positiuum absolutum. Patet quia illa sunt 
+      <lb ed="#P" n="22"/>aliqua positiua absoluta in nobis. Sed gratia est 
+      ali<lb ed="#P" n="23" break="no"/>quid simpliciter nobilius quam fides et spes vt patet: erg 
+      <lb ed="#P" n="24"/>etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e379">
+      ¶ Tertio sic. A contradictorio in 
+      contradicto<lb ed="#P" n="25" break="no"/>rium non est transitus nisi per mutationem patet. 6. 
+      phi<lb ed="#P" n="26" break="no"/>sico. Sed in gratificationem impii est transitus a 
+      com<lb ed="#P" n="27" break="no"/>tradictorium a non esse gratum ad esse gratum: ergo est 
+      <lb ed="#P" n="28"/>ibi aliqua mutatio sed illa mutatio non videtur 
+      ter<lb ed="#P" n="29" break="no"/>minari nisi ad aliquid absolutum et illud non est nisi 
+      gra<lb ed="#P" n="30" break="no"/>tia: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e396">
+      ¶ Quarto sic. Impossibile videtur quod per 
+      <lb ed="#P" n="31"/>aliquid respectiuum sit aliquis condignus vt 
+      conse<lb ed="#P" n="32" break="no"/>quatur aliquid absolutum. Sed gloria est aliquid al 
+      <lb ed="#P" n="33"/>solutum et per gratiam fit aliquis dignus gloria vt 
+      vi<lb ed="#P" n="34" break="no"/>detur saltem secundum ordinationem diuinam et licet non ex 
+      na<lb ed="#P" n="35" break="no"/>tura rei: ergo etc. Dico igitur quod gratia gratum faciens 
+      <lb ed="#P" n="36"/>vel dans esse gratum quomodocumque intelligatur istud 
+      <lb ed="#P" n="37"/>est aliquid positiuum absolutum. Sed hoc teneo 
+      ma<lb ed="#P" n="38" break="no"/>gis ex communi doctrina sanctorum qui hoc videntur 
+      <lb ed="#P" n="39"/>sentire et omnes doctores quam propter predictas 
+      ratio<lb ed="#P" n="40" break="no"/>nes de quibus non credo quod efficaciter concludant 
+      <lb ed="#P" n="41"/>Tamen soluo ad rationes aliorum: quia nec 
+      neces<lb ed="#P" n="42" break="no"/>sario etiam concludunt oppositum.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e425">
+      ¶ Quando dicit 
+      <lb ed="#P" n="43"/>in prima quod gratia non dicit nisi denominationem 
+      ex<lb ed="#P" n="44" break="no"/>trinsecam ab acceptatione diuina actiua
+    </p>
+            <p xml:id="qrdBas-b89731-d1e432">
+      ¶ Dico quod 
+      <lb ed="#P" n="45"/>non est verum: sed dicit aliquid absolutum positiuu 
+      <lb ed="#P" n="46"/>causatum ab ipso acceptante in mente acceptati.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e439">
+      ¶ Ad 
+      <lb ed="#P" n="47"/>secundum diceretur quod aliquis non fit de non grato 
+      <lb ed="#P" n="48"/>gratus nisi per aliquam mutationem factam in aliquo 
+      <lb ed="#P" n="49"/>quodcumque sit illud vel in acceptante vel in 
+      acceptato<lb ed="#P" n="50" break="no"/>vel in aliquo alio. Unde et aliqua mutatio fit in ad 
+      <lb ed="#P" n="51"/>ceptante modo qui prius non acceptabat. Modo 
+      di<lb ed="#P" n="52" break="no"/>co quod in acceptante deo non potest fieri mutatio. igitur 
+      <lb ed="#P" n="53"/>oportet quod in acceptato qui fit de non grato gratus 
+      <lb ed="#P" n="54"/>vel in aliquo alio sed non est ita probabile quod in alio 
+      <lb ed="#P" n="55"/>sicut in acceptato fit: ergo aliqua mutatio in ipso 
+      <lb ed="#P" n="56"/>probabilius videtur quod terminetur ad aliquid abso 
+      <lb ed="#P" n="57"/>lutum quam ad respectiuum. Ideo dico quod probabilius 
+      <lb ed="#P" n="58"/>est dicere gratiam aliquid absolutum.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e468">
+      ¶ Ad tertium 
+      <lb ed="#P" n="59"/>dico quod maior est falsa. Non enim secundum ordinationemdei 
+      <lb ed="#P" n="60"/>positam quem cognoscimus ex sententia doctorum et 
+      <lb ed="#P" n="61"/>se gratiam tantum modo dicit ecce acceptum deo 
+      passi<lb ed="#P" n="62" break="no"/>ue vel obiectiue licet absolute sit hoc possibile: sed 
+      <lb ed="#P" n="63"/>hoc includit esse subiectum gratie alicuius habitus 
+      <lb ed="#P" n="64"/>posiitui absoluti.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e484">
+      ¶ Ad quartum dicitur quod licet 
+      ab<lb ed="#P" n="65" break="no"/>solute loquendo deus possit acceptare sic ad gloriam 
+      <!--279.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>non infundendo aliquid positiuum absolutum tamen 
+      <lb ed="#P" n="67"/>de facto non fit ita et rationabiliter: quia acceptatio ad 
+      <lb ed="#P" n="68"/>gloriam est ad aliquid perfectius quam acceptatio ad 
+      pri<lb ed="#P" n="69" break="no"/>mam gratiam de congruo et ideo rationabile est quod sit 
+      <lb ed="#P" n="70"/>secundum aliquid absolutum. Non sic autem illa.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e505">
+      ¶ Preterea 
+      <lb ed="#P" n="71"/>etiam deus acceptat bene ad gratiam de congruo 
+      me<lb ed="#P" n="72" break="no"/>diante aliquo positiuo absoluto vt mediante actu 
+      na<lb ed="#P" n="73" break="no"/>turali disponentis se ad gratiam consequendam.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e514">
+      ¶ Ad  
+      <lb ed="#P" n="74"/>vltimum quod tangit quod gratia non est nisi rectitudo super 
+      <lb ed="#P" n="75"/>naturalis vel pulchritudo vel sanitas anime et ista 
+      <lb ed="#P" n="76"/>non dicunt nisi respectus. Dico quod licet ista super 
+      for<lb ed="#P" n="77" break="no"/>mas naturales absolutas in quibus consistunt forte 
+      <lb ed="#P" n="78"/>nichil dicant absolutum in corporibus tamen gratia 
+      di<lb ed="#P" n="79" break="no"/>cit aliquid absolutum: quia dat esse supernaturale 
+      <lb ed="#P" n="80"/>tale quod non videtur dicere nisi aliquid absolutum 
+      po<lb ed="#P" n="81" break="no"/>sitiuum preter animam consequentem in qua est sicut 
+      <lb ed="#P" n="82"/>in subiecto.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e536">
+      ¶ Preterea etiam istud est argumentum 
+      <lb ed="#P" n="83"/>parabolicum vel metaphoricum quod nichil concludit 
+      <lb ed="#P" n="84"/>Sic etiam gratia dicitur talia predicta sicut chrisius 
+      <lb ed="#P" n="85"/>dicitur leo vel lapis angularis secundum aliquam similitur 
+      <lb ed="#P" n="86"/>dinem. Ex quo patet quod non potest concludi quod christus 
+      <lb ed="#P" n="87"/>sit vnum brutum sicut leo nec aliquid insensibile sicut 
+      <lb ed="#P" n="88"/>lapis. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e552">
+               <lb ed="#P" n="89"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="90" break="no"/>ticulum est opinio aliquorum que reputatur 
+      commu<lb ed="#P" n="91" break="no"/>nis quod gratia et caritas non sunt eadem forma 
+      essen<lb ed="#P" n="92" break="no"/>tialiter sed due forme absolute essentialiter 
+      distin<lb ed="#P" n="93" break="no"/>cte quarum vna est in substantia mentis sicut in 
+      sub<lb ed="#P" n="94" break="no"/>iecto et alia in potentia voluntatis. Nihil vnum et 
+      <lb ed="#P" n="95"/>idem est prius naturaliter et posterius seipso. 
+      Pa<lb ed="#P" n="96" break="no"/>tet. Sed gratia est naturaliter prior caritate.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e572">
+      ¶ 
+      Pri<lb ed="#P" n="97" break="no"/>mo quia caritas est quedam virtus: virtus autem est 
+      <lb ed="#P" n="98"/>dispositio perfecti secundum naturam scilicet existentiam 
+      natu<lb ed="#P" n="99" break="no"/>ralem secundum Aristotelem. Cum ergo caritas sit virtus 
+      <lb ed="#P" n="100"/>mentis ipsa presupponit animam vel mentem in esse per 
+      <lb ed="#P" n="101"/>fecto. Sed mens non est perfecta nisi per gratiam: et 
+      <lb ed="#P" n="102"/>go etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e588">
+      ¶ Secundo sic. Sicut se habet forma 
+      natu<lb ed="#P" n="103" break="no"/>ralis dans esse naturale ad virtutem naturalem dans 
+      <lb ed="#P" n="104"/>operari naturaliter ita forma supernaturalis dans et 
+      <lb ed="#P" n="105"/>se supernaturale ad virtutem supernaturalem. Sed 
+      il<lb ed="#P" n="106" break="no"/>le differunt realiter et essentialiter sicut forma a 
+      for<lb ed="#P" n="107" break="no"/>ma sicut in igne differunt sua forma substantialis et 
+      <lb ed="#P" n="108"/>sua vis actiua qua operatur vel calefacit puta calor 
+      <lb ed="#P" n="109"/>ergo sic etiam in proposito. Cum ergo gratia sit 
+      for<lb ed="#P" n="110" break="no"/>ma dans esse supernaturale et caritas sit virtus dans 
+      <lb ed="#P" n="111"/>operari meritorie et supernaturaliter videtur quod 
+      reali<lb ed="#P" n="112" break="no"/>ter distinguantur.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e613">
+      ¶ Tertio sic. Dilectio ad alterum 
+      <lb ed="#P" n="113"/>necessario presupponit aliquam similitudinem 
+      diligen<lb ed="#P" n="114" break="no"/>tis ad dilectum: quia fundatur super ipsam. Sed 
+      ca<lb ed="#P" n="115" break="no"/>ritas est dilectio habitualis ad deum: ergo 
+      presuppo<lb ed="#P" n="116" break="no"/>nit in diligente ad ipsum deum. Sed illa similitudo non 
+      <lb ed="#P" n="117"/>est nisi per gratiam. ergo caritas presupponit gratiam 
+      <lb ed="#P" n="118"/>Sed nichil presupponit seipsum: ergo caritas non est 
+      <lb ed="#P" n="119"/>gratia.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e631">
+      ¶ Quarto sic. Sicut essentia ad potentiam sic 
+      <lb ed="#P" n="120"/>caritas ad gratiam: quia sicut ex essentia aie fluunt 
+      poten<lb ed="#P" n="121" break="no"/>tie: ita ex gratia fluunt virtutes. Sed essentia et potentia 
+      <lb ed="#P" n="122"/>aime realiter et essentialiter distinguntur sicut subiectum et ad 
+      <lb ed="#P" n="123"/>cidens: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e642">
+      ¶ Quinto quia inclinatio sequens 
+      ali<lb ed="#P" n="124" break="no"/>quam formam realiter differt ab ipsa. Sed caritas non 
+      <lb ed="#P" n="125"/>est nisi quedam inclinatio consequens gratiam in anima: igitur etc. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e649">
+               <lb ed="#P" n="126"/>¶ Item sicut virtus et caritas respicit potentiam sicut 
+      <lb ed="#P" n="127"/>subiectum ita gratia respicit essentiam vt videtur. Sed 
+      po<lb ed="#P" n="128" break="no"/>tentia et essentia non sunt idem que sunt subiecta: ergo nec 
+      <lb ed="#P" n="129"/>caritas et gratia.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e660">
+      ¶ Sed contra istud michi videtur dicendum 
+      <!--280.xml-->
+      <pb ed="#P" n="137-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod gratia et caritas sunt idem habitus et eadem 
+      for<lb ed="#P" n="2" break="no"/>ma essentialiter et eadem forma simplex.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e673">
+      ¶ Ad hoc 
+      <lb ed="#P" n="3"/>adduco primam rationem. Qundocumque sunt due forme 
+      ab<lb ed="#P" n="4" break="no"/>solute essentialiter distincte quarum neutra includit 
+      <lb ed="#P" n="5"/>alteram deus potest facere vnam sine altera 
+      indifferen<lb ed="#P" n="6" break="no"/>ter quia hoc nullam implicat contradictionem. Sed deus 
+      <lb ed="#P" n="7"/>non potest facere caritatem sine gratia nec econuerso. tunc 
+      <lb ed="#P" n="8"/>enim posset facere quod aliquis simul esset dignus 
+      vi<lb ed="#P" n="9" break="no"/>ta eterna et indignus vita eterna: quia si faceret gratiam 
+      <lb ed="#P" n="10"/>sine caritate per gratiam esset dignus quia acceptus 
+      <lb ed="#P" n="11"/>ad vitam eternam et propter defectum caritatis esset 
+      in<lb ed="#P" n="12" break="no"/>dignus et reus pene eterne et per consequens simpliciter non 
+      <lb ed="#P" n="13"/>dignus quia sola caritas diuidit inter filios regni et 
+      fi<lb ed="#P" n="14" break="no"/>lios perditionis. 19 de trinitate. ergo simul esset 
+      di<lb ed="#P" n="15" break="no"/>gnus et non dignus quod est contradictio.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e705">
+      ¶ Secunda 
+      <lb ed="#P" n="16"/>ratio. Caritas secundum Augustinum est donum dei 
+      ex<lb ed="#P" n="17" break="no"/>tellentissimum. 17. de trinita. Tunc arguo. Illud quod 
+      <lb ed="#P" n="18"/>est donum sufficientissimum dei et excellentissimum in 
+      <lb ed="#P" n="19"/>mente est idem cum caritate. Sed gratia est 
+      huiusmo<lb ed="#P" n="20" break="no"/>di propter quod dictum est paulo. Sufficit tibi 
+      gra<lb ed="#P" n="21" break="no"/>tia mea. Sed qumo sufficeret gratia nisi esset donum 
+      <lb ed="#P" n="22"/>perfectissimum et excellentissimum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e723">
+      ¶ Ter 
+      <lb ed="#P" n="23"/>tia ratio est ista. Illi habitus quorum est idem actus 
+      <lb ed="#P" n="24"/>primus vel dare idem esse et idem actus secundus. 
+      puta<lb ed="#P" n="25" break="no"/>idem operari sunt vna forma essentialiter. Sed sio 
+      <lb ed="#P" n="26"/>est de caritate et gratia. Nam esse carum et esse gratum idem 
+      <lb ed="#P" n="27"/>sunt. Caris enim grece idem est quod gratia latine. et sic 
+      <lb ed="#P" n="28"/>etiam esse carum et esse gratum. Similiter de actu secundo 
+      <lb ed="#P" n="29"/>qui est operatio. Dico quod actus vtriusque est diligere 
+      <lb ed="#P" n="30"/>deum meritorie. Gratia enim per se respicit meritum 
+      <lb ed="#P" n="31"/>et confertur ad merendum secundum Magistrum in 
+      presen<lb ed="#P" n="32" break="no"/>ti distinctione. Et planum est quod actus iste est primo 
+      <lb ed="#P" n="33"/>meritorius inter omnes actus et est actus caritatis. 
+      <lb ed="#P" n="34"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e752">
+      ¶ Quarta ratio est ista frustra fit per 
+      plura<lb ed="#P" n="35" break="no"/>quod potest fieri per pauciora. Sed omnia que dicum 
+      <lb ed="#P" n="36"/>tur de gratia et caritate possunt saluari per vnam 
+      for<lb ed="#P" n="37" break="no"/>mam simplicem sicut patebit soluendo ad rationes 
+      <lb ed="#P" n="38"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e763">
+      ¶ Dico igitur quod gratia et caritas sunt vnus 
+      <lb ed="#P" n="39"/>habitus essentialiter sic dupliciter nominatus. 
+      Gra<lb ed="#P" n="40" break="no"/>tia enim est illud quod summe placet deo in homine quia 
+      <lb ed="#P" n="41"/>est illud per quod acceptat ipsum qumocumque intelligatur 
+      <lb ed="#P" n="42"/>Et similiter caritas est illud quod summe diligitur a deo 
+      <lb ed="#P" n="43"/>et placet sibi in homine et amatur quia est redamatio 
+      <lb ed="#P" n="44"/>quedam ipsius dei. Dicitur autem iste habitus vnicus 
+      <lb ed="#P" n="45"/>gratia inquantum dat esse gratum: sed dicitur caritas pro 
+      <lb ed="#P" n="46"/>quanto inclinat vel disponit ad actum secundum qui est 
+      di<lb ed="#P" n="47" break="no"/>ligere deum ex caritate.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e785">
+      ¶ Ad primum aliorum. dico quod 
+      <lb ed="#P" n="48"/>caritas non presupponit gratiam nisi secundum rationem pro 
+      tan<lb ed="#P" n="49" break="no"/>to quia prius forma dat actum primum quam actum secundum 
+      ve<lb ed="#P" n="50" break="no"/>ad ipsum inclinet. Tu dicis caritas est virtus concedo 
+      <lb ed="#P" n="51"/>Ita dico de gratia. Quando dicis vltra quod virtus pre 
+      <lb ed="#P" n="52"/>supponit subiectum perfectum. Uerum est secundum naturam 
+      <lb ed="#P" n="53"/>non secundum aliquem habitum: quia tunc in qualibet potentia 
+      <lb ed="#P" n="54"/>esset habitus ante habitum in infinitum vel saltem aliquis 
+      <lb ed="#P" n="55"/>habitus ante actum virtutis.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e805">
+      ¶ Ad secundum 
+      di<lb ed="#P" n="56" break="no"/>co quod eadem forma naturalis dat esse naturaliter secundum 
+      <lb ed="#P" n="57"/>modum suum et operari sicut idem calor dat esse 
+      ca<lb ed="#P" n="58" break="no"/>lidum et est principium calefaciendi et eadem forma 
+      <lb ed="#P" n="59"/>substantialis ignis dat esse ignem et generatiuum ignis 
+      <lb ed="#P" n="60"/>sic in proposito eadem forma dat voluntati esse carum 
+      <lb ed="#P" n="61"/>vel gratum et experari ex caritate.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e822">
+      ¶ Ad tertium non 
+      opr<lb ed="#P" n="62" break="no"/>quod dilectio dei habitualis secundum caritatem 
+      presuppo<lb ed="#P" n="63" break="no"/>nat similitudinem mentis ad deum secundum aliquam aliam 
+      for<lb ed="#P" n="64" break="no"/>mam a caritate sed bene praesupponit dilectio actua 
+      <lb ed="#P" n="65"/>lis meritoriam aliquam similitudinem mentis ad 
+      <!--280.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>deum secundum habitum caritatis quae est idem cum 
+      gra<lb ed="#P" n="67" break="no"/>tia et tunc dico bene quod caritas et actus diligendi 
+      me<lb ed="#P" n="68" break="no"/>ritorius essentialiter distinguitur sed non gratia et 
+      ca<lb ed="#P" n="69" break="no"/>ritas.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e846">
+      ¶ Ad quartum dico quod illud dictum est nullum quod 
+      <lb ed="#P" n="70"/>ex gratia fluant virtutes quia gratia ipsa est 
+      excellentis<lb ed="#P" n="71" break="no"/>sima virtus que est caritas. Nec etiam ex anima fluunt 
+      <lb ed="#P" n="72"/>potentie immo ipsa anima est substantialiter idem cum 
+      po<lb ed="#P" n="73" break="no"/>tentiis ipsis pertinentibus ad propositum.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e857">
+      ¶ Nota hic 
+      <lb ed="#P" n="74"/>quia nihil est dictu virtutes fluere ex gratia quia non 
+      <lb ed="#P" n="75"/>potest intelligi nisi de effectiuo principio. Et planum est 
+      <lb ed="#P" n="76"/>quod vertutes infuse non fluunt sic a gratia primo quia habentur 
+      <lb ed="#P" n="77"/>per creationem.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e868">
+      ¶ Secundo quia summa illarum virtu 
+      <lb ed="#P" n="78"/>tum puta caritas est ipsa gratia.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e873">
+      ¶ Tertio quia cum ille 
+      <lb ed="#P" n="79"/>fluxus esset naturalis et necessarius fides et spes num 
+      <lb ed="#P" n="80"/>quam essent sine gratia sicut sine principio ex quo siue 
+      <lb ed="#P" n="81"/>rent.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e882">
+      ¶ Per istam rationem potest probari idem de 
+      vir<lb ed="#P" n="82" break="no"/>tutibus adquisitis.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e888">
+      ¶ Secundo quia tunc nulla virtus 
+      pos<lb ed="#P" n="83" break="no"/>set adquiri a baptisato quandiu esset in gratia. 
+      Simi<lb ed="#P" n="84" break="no"/>liter etiam de potentiis. Dico quod nihil est dictum quod 
+      flu<lb ed="#P" n="85" break="no"/>ant ex essentia: quia sicut dixi in primo. Potentie superio 
+      <lb ed="#P" n="86"/>res sunt anime consubstantiales nec habentur etiam 
+      ni<lb ed="#P" n="87" break="no"/>si per creationem virtutes. ergo licet formentur per 
+      gra<lb ed="#P" n="88" break="no"/>tiam concomitantem non tamen fluunt ex ipsa. quare etc. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e904">
+               <lb ed="#P" n="89"/>¶ Ad quintum dico quod est parabolicum dictum quod caritas 
+      <lb ed="#P" n="90"/>sit inclinatio nisi sicut forma habitualis potest dici 
+      im<lb ed="#P" n="91" break="no"/>clinatio et dato quod sic sit inclinatio non tamen sequitur 
+      gra<lb ed="#P" n="92" break="no"/>tiam sed est ipsamet gratia. Unde non video etiam quod 
+      <lb ed="#P" n="93"/>inclinatio in aliis dicat aliquid reale praeter formam 
+      in<lb ed="#P" n="94" break="no"/>clinantem qua intelligitur sequi secundum rationem.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e920">
+      ¶ Ad 
+      <lb ed="#P" n="95"/>vltimum dico quod Si sic se haberent gratia ad virtutes 
+      <lb ed="#P" n="96"/>sicut essentia ad potentias tunc virtutes puta fides 
+      <lb ed="#P" n="97"/>non possent esse sine gratia nec sine se inuicem sicut 
+      <lb ed="#P" n="98"/>nec potentie sine anima nec anima sine potentiis nec ipse 
+      <lb ed="#P" n="99"/>sine seminuicem et ideo dico quod non est 
+      similitudo<lb ed="#P" n="100" break="no"/>nec comparatio conueniens et maior est falsa quia gratia est 
+      <lb ed="#P" n="101"/>aliqua virtus scilicet caritas indistincta re et ratione ab ipsa. 
+      <lb ed="#P" n="102"/>extra intellectum: dico non sic anima cum aliqua potentia est 
+      <lb ed="#P" n="103"/>eadem. Preterea quando dicitur in minori quod anima et 
+      poten<lb ed="#P" n="104" break="no"/>tie differunt essentialiter sicut subiectum et accidens. 
+      <lb ed="#P" n="105"/>Dico quod falsum est et dato quod esset verum deberet 
+      con<lb ed="#P" n="106" break="no"/>cludi quod gratia est substantia sicut anima. Et hec de 
+      se<lb ed="#P" n="107" break="no"/>cundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e951">
+               <lb ed="#P" n="108"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="109" break="no"/>culum. Est vna opinio quod gratia est in essentia anime 
+      <lb ed="#P" n="110"/>sicut in subiecto.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e960">
+      ¶ Hoc probant. Tum quia gratia 
+      <lb ed="#P" n="111"/>ponitur ad reformandum ymaginem trinitatis 
+      princi<lb ed="#P" n="112" break="no"/>palius consistit in vnitate essentia quam in potentiis 
+      <lb ed="#P" n="113"/>ipsis. Tum quia essentia est prius accepta quam 
+      poten<lb ed="#P" n="114" break="no"/>tia vel opera potentiarum. Genesis quarto. 
+      Respe<lb ed="#P" n="115" break="no"/>xit deus ad Abel et ad munera eius. Hoc autem non 
+      <lb ed="#P" n="116"/>est nisi per gratiam.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e976">
+      ¶ Tum quia per gratiam 
+      iusti<lb ed="#P" n="117" break="no"/>ficatur et etiam reducitur mens in deum et per consequens 
+      <lb ed="#P" n="118"/>primo illud quod primo egreditur vel principiatur 
+      <lb ed="#P" n="119"/>a deo essentia autem est huiusmodi non potentia.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e986">
+      ¶ Tum 
+      <lb ed="#P" n="120"/>quia gratia semper est in actu suo non autem 
+      poten<lb ed="#P" n="121" break="no"/>tia igitur non est in potentia sed in essentia.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e993">
+      ¶ Tum 
+      <lb ed="#P" n="122"/>quia agens principale magis debet perfeci 
+      respectu<lb ed="#P" n="123" break="no"/>actionis quam instrumentale. Essentia autem est principa. 
+      <lb ed="#P" n="124"/>lis potentia vero instrumentalis in agendo. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e1002">
+               <lb ed="#P" n="125"/>¶ Ista opinio est falsa et arguo contra eam. Tum quia gratia 
+      <lb ed="#P" n="126"/>et caritas sunt idem habitus et eadem forma. Sed caritas est in 
+      <lb ed="#P" n="127"/>voluntate primo et immediate etiam secundum ipsos ergo etc 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e1011">
+               <lb ed="#P" n="128"/>¶ Tum quia si gratia esset primo in essentia tunc actus 
+      <lb ed="#P" n="129"/>mediatior essentie et propinquior esset primo meritorius 
+      <!--281.xml-->
+      <pb ed="#P" n="137-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et sic actus intellectus esset primo acceptus per 
+      gra<lb ed="#P" n="2" break="no"/>tiam et meritorius per consequens quam actus 
+      volunta<lb ed="#P" n="3" break="no"/>tis quod est falsum.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1031">
+      ¶ Tum quia si sic esset 
+      primo<lb ed="#P" n="4" break="no"/>in essentia tunc indifferenter respiceret actum cuius 
+      <lb ed="#P" n="5"/>libet potentie sicut et essentia communiter respicit quem 
+      <lb ed="#P" n="6"/>libet actum. Sed hoc est falsum tunc enim sequere 
+      <lb ed="#P" n="7"/>tur quod quocumque potentia posset habere actum etiam 
+      <lb ed="#P" n="8"/>circumscripta voluntate et actu eius posset habere actum 
+      <lb ed="#P" n="9"/>meritorium quod est omnino falsum tunc enim si 
+      no<lb ed="#P" n="10" break="no"/>esset liberum arbitrium in actu nihil minus actus 
+      <lb ed="#P" n="11"/>intellectus vel potentie sensitiue esset meritorius. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e1051">
+               <lb ed="#P" n="12"/>¶ Tum quia gratia et gloria vel sunt idem vel 
+      gra<lb ed="#P" n="13" break="no"/>tia est dispositio ad gloriam et per consequens ad idem 
+      <lb ed="#P" n="14"/>subiectum primum pertinent. Sed gloria cum si 
+      <lb ed="#P" n="15"/>habet pro immediato subiecto potentiam. ergo gratia 
+      <lb ed="#P" n="16"/>quare etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1065">
+      ¶ Tum quia habitus qui ponitur ad 
+      deter<lb ed="#P" n="17" break="no"/>minante operandum non potest poni immediate nisi 
+      <lb ed="#P" n="18"/>in potentia non autem in essentia. Nam potentia 
+      im<lb ed="#P" n="19" break="no"/>mediate respicit operationem et determinante non 
+      <lb ed="#P" n="20"/>autem essentia. Unde essentia ipsius vt sic nullo modo 
+      <lb ed="#P" n="21"/>est operari nec aliquis habitus: habitus enim est quo 
+      <lb ed="#P" n="22"/>quis operatur cum vult secundum Commentatorem tertio 
+      <lb ed="#P" n="23"/>de anima. Sed gratia in genere habituum ponitur 
+      <lb ed="#P" n="24"/>ad determinatum actum merendi et proficiendi ad vi 
+      <lb ed="#P" n="25"/>tam eternam secundum Magistrum in littera ergo est im 
+      <lb ed="#P" n="26"/>mediate in potentia et non in essentia. quaere etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1089">
+      ¶ Tum 
+      <lb ed="#P" n="27"/>quia gratia expellit peccatum de potentia que est 
+      vo<lb ed="#P" n="28" break="no"/>luntas. ergo est in ipsa.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1096">
+      ¶ Sexto quia gratia 
+      expel<lb ed="#P" n="29" break="no"/>lit peccatum de potentia que est voluntas. ergo est 
+      <lb ed="#P" n="30"/>in ipsa. Iste rationes concludunt secundum illaque 
+      tene<lb ed="#P" n="31" break="no"/>mus non de actu meritorio quod primus est actus 
+      vo<lb ed="#P" n="32" break="no"/>luntatis et quod gratia directe et per se ponitur ad actum 
+      <lb ed="#P" n="33"/>merendi necessaria secundum ordinationem diuinam que 
+      <lb ed="#P" n="34"/>nunc et precipue supposito quod gratia let caritas sint 
+      <lb ed="#P" n="35"/>idem sicut supra est ostensum. quare etc. licet forte 
+      <lb ed="#P" n="36"/>possent solui stante vel posita alia ordinatione 
+      di<lb ed="#P" n="37" break="no"/>uina de actu merendi. Nam posito quod gratia esset in 
+      <lb ed="#P" n="38"/>essentia et nulla esset caritas vel si esset poneretur in 
+      <lb ed="#P" n="39"/>essentia anime cum gratia quia non video quod de 
+      ne<lb ed="#P" n="40" break="no"/>cessitate sit ponendus aliquis habitus ad merendum 
+      <lb ed="#P" n="41"/>nec ad actum beatificum nec in essentia nec in 
+      po<lb ed="#P" n="42" break="no"/>tentia ex natura rei sed tantum ex ordinatione 
+      diui<lb ed="#P" n="43" break="no"/>na et ita etiam potest poni habitus vbicumque placet 
+      <lb ed="#P" n="44"/>deo vel in essentia vel in potentia. Et tunc si in essentia 
+      <lb ed="#P" n="45"/>poneretur diceretur adhuc quod primus actus 
+      meren<lb ed="#P" n="46" break="no"/>di esset actus voluntatis elicitus ab habente 
+      gra<lb ed="#P" n="47" break="no"/>tiam in anima et deinde alii actus imperati. Et 
+      ex<lb ed="#P" n="48" break="no"/>istis patet quod omnia argumenta absolute non 
+      conclu<lb ed="#P" n="49" break="no"/>dunt.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1144">
+      ¶ Ad primum aliorum de ymaginatione 
+      di<lb ed="#P" n="50" break="no"/>co quod non est ponere quartum habitum qui est 
+      perfe<lb ed="#P" n="51" break="no"/>ctio essentie secundum vnitatem suam licet pertineat ad 
+      <lb ed="#P" n="52"/>ymaginationem quia essentia vt essentia non operatur et ideo 
+      <lb ed="#P" n="53"/>non oportet ponere in ipsa habitum sed sufficit quod 
+      <lb ed="#P" n="54"/>in potentiis. Nec oret ponere similitudinem per omnis 
+      <lb ed="#P" n="55"/>alioquin multa sequerentur etiam contra eos sicut 
+      <lb ed="#P" n="56"/>contra me. Ad secundum dico quod potentia prius est 
+      <lb ed="#P" n="57"/>accepta quam essentia et essentia non nisi mediante poten 
+      <lb ed="#P" n="58"/>tia.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1166">
+      ¶ Ad probationem de Abel. Dico quod deus 
+      re<lb ed="#P" n="59" break="no"/>spexit ad Abel quia ad suam potentiam volitiuam 
+      <lb ed="#P" n="60"/>ad bonum actum eius interiorem et postea ad mune 
+      <lb ed="#P" n="61"/>ra eius exteriora Non sic ad Chaym. Et ita patet 
+      <lb ed="#P" n="62"/>quod non est ad propositum quia si aspexisset ad Abel pro 
+      <lb ed="#P" n="63"/>pter essentam anime cum essentie vt sicut non sic ben 
+      ope<lb ed="#P" n="64" break="no"/>rari pari ratione posset aspexisse ad Chaym. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e1182">
+               <lb ed="#P" n="65"/>¶ Ad tertium dico quod non est necessarium quod illud 
+      <!--281.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>quod immediatius exit a deo secundum esse nature 
+      imme<lb ed="#P" n="67" break="no"/>diatius reducatur in deum in esse gratie quia 
+      crea<lb ed="#P" n="68" break="no"/>tura rationalis nata est cooperari per suas 
+      poten<lb ed="#P" n="69" break="no"/>tias reductioni eius in deum et ideo immediatius 
+      re<lb ed="#P" n="70" break="no"/>ducuntur potentie quam essentie.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1203">
+      ¶ Ad quartum 
+      di<lb ed="#P" n="71" break="no"/>co quod gratia non semper est in actu suo. Secundo 
+      si<lb ed="#P" n="72" break="no"/>cut nec potentia vel caritas ipsa cum qua est idem 
+      <lb ed="#P" n="73"/>bene tamen semper est in actu primo dandi esse 
+      gra<lb ed="#P" n="74" break="no"/>tum vel carum.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1214">
+      ¶ Ad quintum dico quod essentia vnde 
+      <lb ed="#P" n="75"/>essentia nullo modo est actiua in ratione 
+      principi<lb ed="#P" n="76" break="no"/>quo sed prima actiuitas conuenit sibi per potentiam 
+      <lb ed="#P" n="77"/>ipsam et ideo currit ex falsa ymaginatione. scilicet 
+      <lb ed="#P" n="78"/>quod essentia sit principale et potentia secundarium 
+      a<lb ed="#P" n="79" break="no"/>gens. Hec de tertio articulo. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e1227">
+               <lb ed="#P" n="80"/>¶ Quantum ad quartum 
+      ar<lb ed="#P" n="81" break="no"/>ticulum. Inquiro vtrum habens gratiam possit me 
+      <lb ed="#P" n="82"/>reri vitam eternam de condigno. Et de hoc dicit vnum 
+      <lb ed="#P" n="83"/>doctor quod duplex est hic opinio vna dicentium quod 
+      no<lb ed="#P" n="84" break="no"/>Alia est aliorum dicentium quod immo. Ratio primorum 
+      <lb ed="#P" n="85"/>est quia condignitas premii ad meritum. et 
+      econuerso<lb ed="#P" n="86" break="no"/>attenditur penes equalitatem valoris secundum rectam 
+      <lb ed="#P" n="87"/>estimationem. Hoc autem nullo modo est in 
+      prope<lb ed="#P" n="88" break="no"/>sito quia tale premium solummodo traditur secundum 
+      libe<lb ed="#P" n="89" break="no"/>tatem dantis. ergo etc. Ipse autem doctor tenet cum 
+      <lb ed="#P" n="90"/>vtrisque quod in aliquo verum dicunt tamen verius dicunt 
+      <lb ed="#P" n="91"/>illi qui dicunt quod homo potest mereri per gratiam et 
+      <lb ed="#P" n="92"/>condigno.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1258">
+      ¶ Quod primi verum dicant probat: quia 
+      <lb ed="#P" n="93"/>equalitas sicut dicit duplex est. vna quantitatis et alia 
+      <lb ed="#P" n="94"/>proportionis loquendo de equalitate: quantitatis 
+      im<lb ed="#P" n="95" break="no"/>possibile est quod actus nostri meritorii qui sunt 
+      fini<lb ed="#P" n="96" break="no"/>ti equantur primo beatitudinis quae estaliquo modo 
+      infi<lb ed="#P" n="97" break="no"/>nita saltem ratione obiecti diuini. Et isto modo verum 
+      <lb ed="#P" n="98"/>dicunt primi quod ex condigno non potest habens 
+      gra<lb ed="#P" n="99" break="no"/>tiam mereri gloriam de condigno.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1276">
+      ¶ Secundum pro 
+      <lb ed="#P" n="100"/>batur quod alii verius dicant et melius: quia meritum 
+      <lb ed="#P" n="101"/>et premium nunquam debent equari secundum equalitatem 
+      <lb ed="#P" n="102"/>quantitatis: semper enim premium debet esse maius 
+      <lb ed="#P" n="103"/>bonum merito. Debet ergo esse inter ipsa 
+      equali<lb ed="#P" n="104" break="no"/>tas proportionis que attenditur in iusticia 
+      distri<lb ed="#P" n="105" break="no"/>butiua secundum philosophum quinto ethicorum. 
+      Equa<lb ed="#P" n="106" break="no"/>litas enim proportionis geometrice in ea 
+      reserua<lb ed="#P" n="107" break="no"/>tur non autem arismetice. Modo ita est quod inter 
+      prae<lb ed="#P" n="108" break="no"/>mium glorie et meritum gratie vel ex gratia 
+      ali<lb ed="#P" n="109" break="no"/>qua proportio est et equalitas proportionis. Nam 
+      <lb ed="#P" n="110"/>sicut virtute nostra naturali et actu meremur aliquod 
+      <lb ed="#P" n="111"/>praemium excedens meritum in valore et praemium tparale quod tamen 
+      <lb ed="#P" n="112"/>non excedit facultatem nostram. Ita videtur quod secundum gratiam 
+      <lb ed="#P" n="113"/>que est donum supernaturale et opera formata per 
+      <lb ed="#P" n="114"/>ipsam possumus mereri premium glorie 
+      supernatu<lb ed="#P" n="115" break="no"/>rale excedens simpliciter facultatem nostram et deus 
+      <lb ed="#P" n="116"/>condigno.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1315">
+      ¶ Confirmatur hoc per apostolum 
+      se<lb ed="#P" n="117" break="no"/>cundo ad Thymotheum quarto. Reposita est 
+      mi<lb ed="#P" n="118" break="no"/>chi corona iusticie. etc. Sed dico sicut dixi 
+      Distin<lb ed="#P" n="119" break="no"/>ctione decimeseptime. quod nulla condignitas est me 
+      <lb ed="#P" n="120"/>riti ad premium ex natura rei nec equalitas 
+      quan<lb ed="#P" n="121" break="no"/>titatis nec proportionis Quod non condignitas 
+      equa<lb ed="#P" n="122" break="no"/>litatis. Patet quia secundum omnes meritum 
+      no<lb ed="#P" n="123" break="no"/>strum equare non potest in valore premio vite 
+      eter<lb ed="#P" n="124" break="no"/>ne.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1336">
+      ¶ Quod non proportionis etiam hoc probo. 
+      Pri<lb ed="#P" n="125" break="no"/>mo sic. Apostolus ad Romanos octauo. Dicit quod  
+      <lb ed="#P" n="126"/>non sunt condigne passiones temporis ad futuramo 
+      <lb ed="#P" n="127"/>gloriam que reuelabitur in nobis intelligens hoc a 
+      <lb ed="#P" n="128"/>de actibus meritoriis secundum gratiam. Nam immediate  
+      <!--282.xml-->
+      <pb ed="#P" n="138-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dicit de existentibus in gratia quod si filii dei et 
+      here<lb ed="#P" n="2" break="no"/>des. Heredes quidem dei coheredes autem christi 
+      <lb ed="#P" n="3"/>Et statim sequitur illud quod allegatum est supra. 
+      <lb ed="#P" n="4"/>Sed planum est quod non intelligit apostolus de 
+      con<lb ed="#P" n="5" break="no"/>dignitate que est secundum equalitatem 
+      quantita<lb ed="#P" n="6" break="no"/>tis quia etiam isto modo meritum temporale non est 
+      <lb ed="#P" n="7"/>condignum premio temporali quia premium 
+      sem<lb ed="#P" n="8" break="no"/>per est maius. Nullus enim meretur nisi intendens 
+      <lb ed="#P" n="9"/>maius. Unde non dicimus quod commutantes res 
+      su<lb ed="#P" n="10" break="no"/>as mereantur ipsa quia accipiunt tantum pro 
+      tan<lb ed="#P" n="11" break="no"/>to. ergo intelligit de equalitate proportionis 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e1378">
+               <lb ed="#P" n="12"/>¶ Secundo sic omnis qualitas quae est meriti ad 
+      pre<lb ed="#P" n="13" break="no"/>mium est proportionis et non quantitatis. Sed 
+      com<lb ed="#P" n="14" break="no"/>dignitas negatur ab apostolo: ergo et talis c. 
+      Ni<lb ed="#P" n="15" break="no"/>gnitas.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1389">
+      ¶ Tertio sic. Si esset equalitas etiam pro 
+      <lb ed="#P" n="16"/>portionis ex natura rei deus constitueretur 
+      debi<lb ed="#P" n="17" break="no"/>tor tanti ex necessitate alicuius doni creati. Sed 
+      <lb ed="#P" n="18"/>hoc est falsum ergo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1398">
+      ¶ Quarto sic. quia quicquid 
+      <lb ed="#P" n="19"/>faciat homo totum est debitum. ergo secundum 
+      ta<lb ed="#P" n="20" break="no"/>lem condignitatem nihil amplius meretur. 
+      Pro<lb ed="#P" n="21" break="no"/>batio antecedentis. Cum feceritis omnia que 
+      prece<lb ed="#P" n="22" break="no"/>pta sunt vobis dicite serui inutiles sumus quod de 
+      <lb ed="#P" n="23"/>buimus facere fecimus.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1411">
+      ¶ Ultimo sic. Caritas vel 
+      <lb ed="#P" n="24"/>gratia ex natura rei nichil faciunt ad meritum 
+      si<lb ed="#P" n="25" break="no"/>cut dixi in primo: nec ad ipsum necessario 
+      requi<lb ed="#P" n="26" break="no"/>runtur. Sed tale quid non potest facere 
+      condigni<lb ed="#P" n="27" break="no"/>tatem meriti ex natura rei. ideo et cetera. Dico 
+      er<lb ed="#P" n="28" break="no"/>go quod condignitas meriti ad premium nulla est 
+      ex<lb ed="#P" n="29" break="no"/>natura rei et ex vi gratie vel actus sed ex sola 
+      volun<lb ed="#P" n="30" break="no"/>tate diuina sic ordinante et promittente tale premium 
+      <lb ed="#P" n="31"/>pro tali merito sicut alicui promitteretur regnum 
+      <lb ed="#P" n="32"/>bro leuando festucam si leuaret festucam deberetur 
+      <lb ed="#P" n="33"/>sibi regnum non ex condignitate actus leuandi 
+      fe<lb ed="#P" n="34" break="no"/>stucam sed ex promissione promittentis. Ad 
+      apo<lb ed="#P" n="35" break="no"/>stolum ergo respondeo quod corona erat sibi debita 
+      ex<lb ed="#P" n="36" break="no"/>condignitate promissionis diuine non ex 
+      necessita<lb ed="#P" n="37" break="no"/>te gratie vel actuum suorum que esset in eis ex 
+      na<lb ed="#P" n="38" break="no"/>tura rei: sed tantum ex auctoritate promittentis. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e1446">
+               <lb ed="#P" n="39"/>¶ Ad primum principale 
+      di<lb ed="#P" n="40" break="no"/>co quod gratia preuenit bonam voluntatem et 
+      prepa<lb ed="#P" n="41" break="no"/>rat que scilicet est actus bonus meritorius: quia 
+      <lb ed="#P" n="42"/>prior est actu meritorio de condigno. Non autem 
+      <lb ed="#P" n="43"/>est prior voluntate pro tanto quia sit in priori 
+      sub<lb ed="#P" n="44" break="no"/>iecto vel si forte accipiatur gratia pro beneplacite 
+      <lb ed="#P" n="45"/>dei gratuito. Tunc planum est quod est prior 
+      volun<lb ed="#P" n="46" break="no"/>tate et preparat ipsam effectiue ad bene volendum 
+      <lb ed="#P" n="47"/>infundendo sibi gratiam gratum facientem. 
+      </p>
+            <p xml:id="qrdBas-b89731-d1e1469">
+               <lb ed="#P" n="48"/>¶ Ad secundum. Dico quod licet essentia sit 
+      indiui<lb ed="#P" n="49" break="no"/>uata plusquam potentia non tamen est diuiduabilis 
+      <lb ed="#P" n="50"/>ad operationem eliciendam sed magis potentia ipsa. 
+      <lb ed="#P" n="51"/>Et ideo dico quod non est ponenda gratia in ipsa vel 
+      <lb ed="#P" n="52"/>aliquis habitus: sed solum in potentia ipsa.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1482">
+      ¶ Ad tertium 
+      <lb ed="#P" n="53"/>Dico quod gratia dat esse supernaturale ad 
+      operan<lb ed="#P" n="54" break="no"/>dum. Et tale esse non respicit essentia sed 
+      poten<lb ed="#P" n="55" break="no"/>tia ipsa. ideo etc.
+    </p>
+            <p xml:id="qrdBas-b89731-d1e1491">
+      ¶ Ad quartum dico quod gratia non 
+      <lb ed="#P" n="56"/>semper est in actu suo secundo sicut nec caritas cum 
+      <lb ed="#P" n="57"/>qua est idem licet semper sit in actu primo dandi esse 
+      <lb ed="#P" n="58"/>gratum sicut et caritas dandi esse carum aliquo 
+      mo<lb ed="#P" n="59" break="no"/>do quandiu inest subiecto: et ita gratia pertinet ad 
+      <lb ed="#P" n="60"/>potentiam sicut et caritas non autem ad essentiam 
+      <lb ed="#P" n="61"/>sicut nec caritas. etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

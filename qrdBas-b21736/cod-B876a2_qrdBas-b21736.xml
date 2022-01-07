@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="34-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b21736"><!--l2d3q1 -->
+            <head xml:id="qrdBas-b21736-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b21736-d1e101">
+               <lb ed="#P" n="43"/>¶ Distinctionis tertie. 
+      <lb ed="#P" n="44"/>¶ Questio prima. 
+    </p>
+            <p xml:id="qrdBas-b21736-d1e108">
+               <lb ed="#P" n="45"/>CIrca distinctionem 
+      <lb ed="#P" n="46"/>tertiam quero. Utrum in eadem 
+      <lb ed="#P" n="47"/>specie possint esse plures 
+      ange<lb ed="#P" n="48" break="no"/>li numeraliter distincti.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e119">
+      ¶ Ui<lb ed="#P" n="49" break="no"/>detur quod non. Omnis 
+      substan<lb ed="#P" n="50" break="no"/>tia separata a materia habet 
+      <lb ed="#P" n="51"/>perfectionem totam sue 
+      speciei<lb ed="#P" n="52" break="no"/>Asicut albedo separata et 
+      subsi<lb ed="#P" n="53" break="no"/>stens habet in se totam perfectionem speciei sue et 
+      <lb ed="#P" n="54"/>si esset separata non esset nisi vna. Sed angelus est 
+      <lb ed="#P" n="55"/>substantia separata a materia ergo etc. igitur in 
+      vna<lb ed="#P" n="56" break="no"/>specie non potest esse nisi vnus angelus.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e139">
+      ¶ 
+      Secun<lb ed="#P" n="57" break="no"/>do sic. Aristoteles probat. 12. metha. quod primum 
+      mo<lb ed="#P" n="58" break="no"/>uens est vnum et non plura: quia si esset plura haberet 
+      <lb ed="#P" n="59"/>materiam. igitur species aliqua substantie non est 
+      <lb ed="#P" n="60"/>plurificabilis nisi per materiam. Sed in angelis non 
+      <lb ed="#P" n="61"/>est materia. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e153">
+      ¶ Tertio sic. In specie non est ne¬ 
+      <!--74.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="62"/>cessaria pluralitas indiuiduorum nisi quia natura 
+      <lb ed="#P" n="63"/>non potest in vnico indiuiduo conseruari sicut 
+      ap<lb ed="#P" n="64" break="no"/>paret in istis corruptibilibus. Ita quod alias 
+      plurali<lb ed="#P" n="65" break="no"/>tas indiuiduorum est frustra. Sed natura angelica 
+      <lb ed="#P" n="66"/>potest conseruari in vnico indiuiduo vt patet ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b21736-d1e171">
+               <lb ed="#P" n="67"/>¶ Quarto sic. In illis in quibus idem est quod 
+      quid<lb ed="#P" n="68" break="no"/>est et cuius est quod quid est impossibile est indiuidua 
+      <lb ed="#P" n="69"/>multiplicari nisi et quod quid multiplicetur. Sed 
+      <lb ed="#P" n="70"/>in separatis a materia puta in angelis idem est quod 
+      <lb ed="#P" n="71"/>quid est vel quidditas et illud cuius est sicut dicitur 
+      <lb ed="#P" n="72"/>7. metha. et tertio de anima. igitur impossibile est 
+      <lb ed="#P" n="73"/>in ipsis multiplicari indiuiduum sicut et speciem. 
+      <lb ed="#P" n="74"/>Species est que predicatur vel 
+      </p>
+            <p xml:id="qrdBas-b21736-d1e191">
+               <lb ed="#P" n="75"/>¶ Contra. est predicabilis numero in eo 
+      <lb ed="#P" n="76"/>quod quid. Sed angelica est species aliqua substantie 
+      <lb ed="#P" n="77"/>ergo est predicabilis de pluribus indiuiduis inquid 
+      <lb ed="#P" n="78"/>ergo sub eadem specie possunt esse plura indiuidua. 
+      </p>
+            <p xml:id="qrdBas-b21736-d1e202">
+               <lb ed="#P" n="79"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="80" break="no"/>dam.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e209">
+      ¶ Primo ponam opinionem quorundam de 
+      <lb ed="#P" n="81"/>ista questione.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e214">
+      ¶ Secundo arguam contra eam 
+      po<lb ed="#P" n="82" break="no"/>nendo aliam.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e220">
+      ¶ Tertio respondebo ad motiua alio 
+      <lb ed="#P" n="83"/>rum vel eorum.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e225">
+      ¶ Ultimo ad rationes principales. 
+      </p>
+            <p xml:id="qrdBas-b21736-d1e227">
+               <lb ed="#P" n="84"/>¶ Quantum ad primum 
+      articu<lb ed="#P" n="85" break="no"/>lum. Est vna opinio quod in vna specie specialissima 
+      <lb ed="#P" n="86"/>angelica non possunt esse plura indiuidua vel 
+      plu<lb ed="#P" n="87" break="no"/>res angeli indiuidualiter distincti. Hoc autem 
+      <lb ed="#P" n="88"/>probant multipliciter.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e240">
+      ¶ Primo sic. Impossibile 
+      <lb ed="#P" n="89"/>est indiuidualiter multiplicari sine materia 
+      diuisi<lb ed="#P" n="90" break="no"/>bili et partibili. Sed in angelis non est materia 
+      ta<lb ed="#P" n="91" break="no"/>is. ergo etc. Maior est manifesta: quia materia est 
+      <lb ed="#P" n="92"/>principium multiplicationis aliquorum sub eadem 
+      <lb ed="#P" n="93"/>specie. Non enim multiplicantur nisi per materiam 
+      <lb ed="#P" n="94"/>diuisibilem sub quantitate. Quantitas enim est illud cui 
+      <lb ed="#P" n="95"/>primo conuenit diuidi in partes eiusdem rationis: vt 
+      vide<lb ed="#P" n="96" break="no"/>tur. ergo cuilibet alteri conuenit per ipsam. 
+      Mul<lb ed="#P" n="97" break="no"/>ciplicatio autem indiuiduorum sub eadem specie non 
+      <lb ed="#P" n="98"/>est nisi quedam diuisio speciei in partes eiusdem 
+      ra<lb ed="#P" n="99" break="no"/>tionis. Minor patet de se. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e266">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="100"/>Si due intelligentie vel duo angeli distinguantur 
+      <lb ed="#P" n="101"/>sub eadem specie: quero quo distinguantur vel qui 
+      <lb ed="#P" n="102"/>bus. Aut enim sua natura differrent et 
+      distingueren<lb ed="#P" n="103" break="no"/>tur. Aut suis accidentibus non potest dici quod sua 
+      na<lb ed="#P" n="104" break="no"/>tura specifica et substantiali angelica quilibet 
+      di<lb ed="#P" n="105" break="no"/>stinguatur ab alio: quia in illa natura conueniunt. 
+      <lb ed="#P" n="106"/>Nec quod suis accidentibus: quia illa presupponunt 
+      <lb ed="#P" n="107"/>distincta ipsa quorum sunt ergo nullo modo.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e286">
+      ¶ Ter 
+      <lb ed="#P" n="108"/>tio sic. Pluralitas numeralis sub eadem specie est 
+      <lb ed="#P" n="109"/>pluralitas infinita secundum se et indeterminata et 
+      per<lb ed="#P" n="110" break="no"/>consequens non est per se intenta a natura. Sed in 
+      <lb ed="#P" n="111"/>angelis et intelligentiis non est ponendum aliquid 
+      <lb ed="#P" n="112"/>quod non est per se intentum a natura.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e300">
+      ¶ Quarto sic. 
+      <lb ed="#P" n="113"/>Perfectior est angelus in vnico indiuiduo quam caelum 
+      <lb ed="#P" n="114"/>Sed celum est ita perfectum quod sufficit vnicum 
+      indi<lb ed="#P" n="115" break="no"/>uiduum sue speciei ad perfectionem vniuersi: nec 
+      pos<lb ed="#P" n="116" break="no"/>sunt esse plures celi eiusdem speciei. ergo etc. Sic 
+      er<lb ed="#P" n="117" break="no"/>go dicunt isti quod non solum non sunt plures 
+      angeli<lb ed="#P" n="118" break="no"/>in eadem specie specialissima: sed nec possunt esse 
+      plu<lb ed="#P" n="119" break="no"/>res virtute quacumquam. hoc de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b21736-d1e318">
+               <lb ed="#P" n="120"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="121" break="no"/>ticulum arguo. Primo contra istam opinionem per rati 
+      <lb ed="#P" n="122"/>nes. Secundo per auctoritates. Tertio per articulos pa 
+      <lb ed="#P" n="123"/>risiensis.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e329">
+      ¶ Primo per rationem istam. Ominis naturaquae non 
+      <!--75.xml-->
+      <pb ed="#P" n="34-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>potest habere nisi vnicum indiuiduum quacumque 
+      vir<lb ed="#P" n="2" break="no"/>tute et qumocumque est ex se hec et sibi repugnat 
+      vniuer<lb ed="#P" n="3" break="no"/>salitas quacumque quia omne vniuersale est indifferens ad 
+      plura<lb ed="#P" n="4" break="no"/>et ex se non est hoc vel illud sicut dictum est in primo. Et 
+      <lb ed="#P" n="5"/>patet per descriptionem vniuersalis quia vniuersale est 
+      <lb ed="#P" n="6"/>quod est aptum natum esse in pluribus sicut 
+      predicabi<lb ed="#P" n="7" break="no"/>le quod natum est esse in pluribus. Hoc patet 
+      discur<lb ed="#P" n="8" break="no"/>rendo per quinque vniuersalia. Sed nature angeli non 
+      <lb ed="#P" n="9"/>repugnat vniuersalitas speciei specialissime sicut 
+      <lb ed="#P" n="10"/>patet et omnes concedunt: et per consequens non est 
+      <lb ed="#P" n="11"/>de se. hec igitur non est natura que non possit 
+      habe<lb ed="#P" n="12" break="no"/>re nisi vnicum indiuiduum vel singulare: sed potest 
+      ha<lb ed="#P" n="13" break="no"/>bere multam.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e366">
+      ¶ Secundo sic. Et probatur quod 
+      natu<lb ed="#P" n="14" break="no"/>re spirituali non repugnat multiplicari sub eadem 
+      <lb ed="#P" n="15"/>specie specialissima sine materia planum est quod idem 
+      an<lb ed="#P" n="16" break="no"/>gelus in eodem intellectu suo saltem successiue 
+      po<lb ed="#P" n="17" break="no"/>test habere plures intellectiones numero eiusdem ob 
+      <lb ed="#P" n="18"/>iecti: et secundum eandem rationem et eiusdem modi et per 
+      <lb ed="#P" n="19"/>consequens eiusdem speciei specialissime secundum 
+      princi<lb ed="#P" n="20" break="no"/>pia eorum alibi et sunt diuerse numero nisi 
+      dicatu<lb ed="#P" n="21" break="no"/>quod idem numero reparatur per naturam quod non 
+      di<lb ed="#P" n="22" break="no"/>cerent. Tunc quero de istis duabus vel pluribus in 
+      <lb ed="#P" n="23"/>tellectionibus quae sunt eiusdem rationis quibus 
+      distin<lb ed="#P" n="24" break="no"/>guntur non per materiam: quia materiam non 
+      ha<lb ed="#P" n="25" break="no"/>bent nec per quantitatem. Similiter nec per subiectum 
+      <lb ed="#P" n="26"/>quia idem est subiectum. igitur per nichil tale 
+      distin<lb ed="#P" n="27" break="no"/>guntur sed magis per seipsas vel aliqua secundum quae non 
+      <lb ed="#P" n="28"/>sunt materia nec partes materie. ergo similiter sub 
+      spe<lb ed="#P" n="29" break="no"/>cie vna angelica poterit esse distinctio angelorum si 
+      <lb ed="#P" n="30"/>ne omni materia vel quantitate.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e405">
+      ¶ Tertio sic. 
+      Impossib<lb ed="#P" n="31" break="no"/>le est quod genus immediate descendat in aliquod 
+      ind<lb ed="#P" n="32" break="no"/>uiduum: sed necessario mediante specie descendit in 
+      <lb ed="#P" n="33"/>indiuiduum: quia hic est ordo essentialis predicam 
+      <lb ed="#P" n="34"/>ti. Sed si species angeli exse est hec et sibi repugnat 
+      <lb ed="#P" n="35"/>multitudo indiuiduorum siue simul siue successiui 
+      <lb ed="#P" n="36"/>sequitur quod genus immediate descendat in 
+      indiui<lb ed="#P" n="37" break="no"/>duum sicut et in speciem ergo etc.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e423">
+      ¶ Quarto sic. 
+      Ani<lb ed="#P" n="38" break="no"/>me separate sunt plures eiusdem rationis non per 
+      <lb ed="#P" n="39"/>materiam nec per quantitatem vt patet: quia nec 
+      ha<lb ed="#P" n="40" break="no"/>bent materiam partem sui et ex qua nec habent 
+      ma<lb ed="#P" n="41" break="no"/>teriam in qua quia separate sunt nec habent 
+      quantita<lb ed="#P" n="42" break="no"/>tem aliquam. ergo similiter possibile est esse plures 
+      an<lb ed="#P" n="43" break="no"/>gelos eiusdem rationis sine omni materia vel 
+      quan<lb ed="#P" n="44" break="no"/>titate dicitur quod anime plurificantur per plures 
+      ha<lb ed="#P" n="45" break="no"/>bitudines ad plura corpora que nate sunt informa 
+      <lb ed="#P" n="46"/>re.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e446">
+      ¶ Contra quia sicut habitudo ista cum sit 
+      rela<lb ed="#P" n="47" break="no"/>tio est posterior suo fundamento ita hec aptitudo hoc 
+      <lb ed="#P" n="48"/>fundamento. igitur hec habitudo presupponit 
+      hanc<lb ed="#P" n="49" break="no"/>animam. ergo per habitudinem talem anima non et 
+      <lb ed="#P" n="50"/>hec.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e457">
+      ¶ Preterea etiam illa habitudo nichil est 
+      extri<lb ed="#P" n="51" break="no"/>intellectum quia est ad non ens in actu quia corruptum 
+      <lb ed="#P" n="52"/>est et non ens. Ad non ens autem in actu nulla est 
+      re<lb ed="#P" n="53" break="no"/>latio actualis in actu. ergo per ipsam potest anim 
+      <lb ed="#P" n="54"/>esse hec in actu reali.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e468">
+      ¶ Quinto sic. Sicut impossi 
+      <lb ed="#P" n="55"/>bile est quod genus artetur et determinetur ad vnam 
+      spe<lb ed="#P" n="56" break="no"/>ciem sic quod repugnet sibi habere plures species sicut 
+      <lb ed="#P" n="57"/>repugnat speciei cuiuscumque specialissime artari ad 
+      <lb ed="#P" n="58"/>vnicum indiuiduum sic quod sibi repugnet pluralitas 
+      <lb ed="#P" n="59"/>indiuiduorum. Nam sicut genus est quod potest 
+      pre<lb ed="#P" n="60" break="no"/>dicari de pluribus differentibus specie inquid. Ita 
+      <lb ed="#P" n="61"/>etiam species. Sed generi repugnat illud 
+      simplici<lb ed="#P" n="62" break="no"/>ter. ergo speciei cuicumque repugnat. Ita quod est contra 
+      <lb ed="#P" n="63"/>dictio plana et ignorantia nature speciei ponere 
+      ali<lb ed="#P" n="64" break="no"/>quam naturam specificam cui repugnet pluralitas 
+      <lb ed="#P" n="65"/>indiuiduorum.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e494">
+      ¶ Sexto sic. et est contra hominem 
+      <!--75.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>deus potest adnichilare vnum angelum: et potest 
+      spe<lb ed="#P" n="67" break="no"/>ciem eius in aliquo eiusdem speciei reparare: quia 
+      si<lb ed="#P" n="68" break="no"/>cut primo potuit producere speciem cum non esse 
+      <lb ed="#P" n="69"/>in aliquo indiuiduo suo. Ita nunc potest eam 
+      repa<lb ed="#P" n="70" break="no"/>rare in aliquo indiuiduo suo: sed secundum istum in 
+      quar<lb ed="#P" n="71" break="no"/>to suo deus non potest idem numero reparare quoc 
+      <lb ed="#P" n="72"/>totaliter corruptum est. Unde dicit quod homo 
+      pro<lb ed="#P" n="73" break="no"/>pter hoc potest idem numero reparari: quia manent 
+      <lb ed="#P" n="74"/>materia eius et formam sicut incorruptibilia scilicet 
+      <lb ed="#P" n="75"/>materia et anima rationalis et si esset in homine 
+      ali<lb ed="#P" n="76" break="no"/>qua forma que corrumperetur et cederet in 
+      poten<lb ed="#P" n="77" break="no"/>tiam materie non posset idem homo numero 
+      repa<lb ed="#P" n="78" break="no"/>rari: quia nec illa forma posset eadem reparari. 
+      er<lb ed="#P" n="79" break="no"/>go ista species repararetur in alio indiuiduo. ergo 
+      <lb ed="#P" n="80"/>tali speciei non repugnat habere plura indiuidua: 
+      <lb ed="#P" n="81"/>saltem successiue. Sic per rationes 
+      </p>
+            <p xml:id="qrdBas-b21736-d1e536">
+               <lb ed="#P" n="82"/>¶ Per auctoritates vel 
+      aucto<lb ed="#P" n="83" break="no"/>ritatem arguo illa est Damasceni in suo elementario 
+      <lb ed="#P" n="84"/>ca. 3. quod secundum vnamquam quod speciem angelicarum virtuti 
+      <lb ed="#P" n="85"/>deus differentes ypostases condidit: et est 
+      expressa<lb ed="#P" n="86" break="no"/>auctoritas quod cuiuslibet speciei angelice non solum 
+      <lb ed="#P" n="87"/>possunt esse plura supposita: sed etiam sunt in actu 
+      <lb ed="#P" n="88"/>et de facto. 
+      </p>
+            <p xml:id="qrdBas-b21736-d1e554">
+               <lb ed="#P" n="89"/>¶ Tunc arguo per articulos 
+      <lb ed="#P" n="90"/>Parisiensis vnus est articulus octuagesimus 
+      pri<lb ed="#P" n="91" break="no"/>mus qui dicit sic quod quia angeli non habent 
+      mate<lb ed="#P" n="92" break="no"/>riam deus non posset facere plures eiusdem 
+      speciei<lb ed="#P" n="93" break="no"/>error. Sed ad hoc respondetur quod causa damnationis 
+      <lb ed="#P" n="94"/>illius articuli soluit articulum.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e571">
+      ¶ Dicitur enim quod 
+      <lb ed="#P" n="95"/>tunc Parisius fuit opinio aliquorum quod vna anima 
+      <lb ed="#P" n="96"/>intellectiua est in omnibus hominibus quia anima 
+      <lb ed="#P" n="97"/>cum non habeat materiam partem sui non potest 
+      nu<lb ed="#P" n="98" break="no"/>mero plurificari. Contra hoc ergo est articulus quia 
+      <lb ed="#P" n="99"/>anima eoipso quod habet materiam in qua plurificari 
+      <lb ed="#P" n="100"/>potest licet non habeat materiam ex qua.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e587">
+      ¶ 
+      Con<lb ed="#P" n="101" break="no"/>tra istam solutionem argutum est supra quod ipsa est 
+      <lb ed="#P" n="102"/>falsa. Preterea etiam non est ad mentem articulim 
+      <lb ed="#P" n="103"/>quia ecce statim alius articulus communius qui 
+      di<lb ed="#P" n="104" break="no"/>cit sic quod forme non recipiunt diuisionem nisi per 
+      ma<lb ed="#P" n="105" break="no"/>teriam error nisi intelligatur de formis eductis de 
+      <lb ed="#P" n="106"/>potentia materie. Sed angeli non sunt forme 
+      edu<lb ed="#P" n="107" break="no"/>cte de potentia materie. ergo etc. Nec etiam anime 
+      in<lb ed="#P" n="108" break="no"/>tellectiue. ergo dicere quod ista non possunt 
+      multipli<lb ed="#P" n="109" break="no"/>cari nisi per materiam est error.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e609">
+      ¶ Nec valet 
+      dice<lb ed="#P" n="110" break="no"/>re quod error est dicere quod non multiplicentur nisi per 
+      ma<lb ed="#P" n="111" break="no"/>teriam partem sui: quia tunc etiam esset damnatum 
+      <lb ed="#P" n="112"/>de formis eductis que ita parum habent materiam 
+      <lb ed="#P" n="113"/>partem sui sicut angeli vel anime rationales 
+      </p>
+            <p xml:id="qrdBas-b21736-d1e620">
+               <lb ed="#P" n="114"/>¶ Tertius articulus est ad idem qui dicit sic 
+      sim<lb ed="#P" n="115" break="no"/>pliciter et absolute error est dicere quod deus non 
+      po<lb ed="#P" n="116" break="no"/>test multiplicare indiuidua in vna specie sine 
+      mate<lb ed="#P" n="117" break="no"/>ria quare etc.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e631">
+      ¶ Dico igitur posito quod in angelis non 
+      <lb ed="#P" n="118"/>sit materia: quod tamen sub specie possunt multiplica 
+      <lb ed="#P" n="119"/>ri et indiuidua et puta quod sunt actu plura in 
+      quali<lb ed="#P" n="120" break="no"/>bet specie: quia non est verisimile quod species nobilii 
+      <lb ed="#P" n="121"/>sima vniuersi cuiusmodi fuit species luciferi: sic 
+      te<lb ed="#P" n="122" break="no"/>ta damnata et carens fine suo quae est beatitudo: 
+      mul<lb ed="#P" n="123" break="no"/>tominus quam de infima specie: beatificabili quae est 
+      ho<lb ed="#P" n="124" break="no"/>mo: esset tamen tota damnata et non haberet nisi vni 
+      <lb ed="#P" n="125"/>cum indiuiduum nec habere posset sicut dictum l isti 
+      <lb ed="#P" n="126"/>hoc de secundo articulo. 
+      <!--76.xml-->
+      <pb ed="#P" n="35-r"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-b21736-d1e660">
+               <lb ed="#P" n="1"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="2" break="no"/>ticulum. Soluo ad motiua aliorum. Ad primum 
+      ne<lb ed="#P" n="3" break="no"/>go maiorem. Ad probationem dico quod principium 
+      for<lb ed="#P" n="4" break="no"/>male nec indiuiduationis nec multiplicationis est 
+      <lb ed="#P" n="5"/>materia nec sub quantitate nec cum quantitate nec 
+      qumo<lb ed="#P" n="6" break="no"/>cumque vis plusquam forma quia nec materia nec quantitas 
+      <lb ed="#P" n="7"/>plus est de se hoc quam aliquid aliud. Sed illud idem 
+      <lb ed="#P" n="8"/>quod est ex se hoc idem substantialiter et essentialiter 
+      <lb ed="#P" n="9"/>cum re ipsa. Dico quod est principium indiuiduationis 
+      <lb ed="#P" n="10"/>formale. Et dico quod plura talia sunt principia forma 
+      <lb ed="#P" n="11"/>lia plurium indiuiduorum cuiusmodi sunt 
+      differen<lb ed="#P" n="12" break="no"/>tie indiuiduales sicut dicam infra: et ita dico quod 
+      acci<lb ed="#P" n="13" break="no"/>pitur falsum. Ad probationem vero cum dicis quod 
+      quan<lb ed="#P" n="14" break="no"/>titati vel materie sub quantitate. Primo conuenit 
+      diu<lb ed="#P" n="15" break="no"/>di in plura vel plures partes eiusdem rationis. 
+      Di<lb ed="#P" n="16" break="no"/>co quod verum est in plures partes quantitatiuas vel 
+      in<lb ed="#P" n="17" break="no"/>tegrales que possunt concurrere vel aliquando 
+      con<lb ed="#P" n="18" break="no"/>currunt ad constitutionem vnius quanti numero sed non 
+      <lb ed="#P" n="19"/>est talis diuisio vniuersalis in partes suas subiect 
+      <lb ed="#P" n="20"/>uas qualis est ista: vt patet nec speciei in indiuidua 
+      <lb ed="#P" n="21"/>et ideo nichil valet.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e709">
+      ¶ Ad secundum dico quod due 
+      in<lb ed="#P" n="22" break="no"/>telligentie eiusdem rationis distinguntur per suas 
+      dif<lb ed="#P" n="23" break="no"/>ferentias indiuiduales que sunt essentialiter eedem 
+      <lb ed="#P" n="24"/>cum substantiis earum et non per aliqua accidentia: sicut 
+      <lb ed="#P" n="25"/>tu diceres de duabus partibus quantitatis vel 
+      mate<lb ed="#P" n="26" break="no"/>rie quod non distincte per aliqua extrinseca. Quando 
+      <lb ed="#P" n="27"/>dicis quod in natura vel substantia conueniunt. Dico 
+      <lb ed="#P" n="28"/>quod verum est secundum rationem specificam: sed non secundum 
+      diffe<lb ed="#P" n="29" break="no"/>rentias indiuiduales quia ille se totis primo 
+      distin<lb ed="#P" n="30" break="no"/>guntur. Dices quod ille differentie indiuiduales sunt 
+      <lb ed="#P" n="31"/>forme vel formales. Sed differentia formalis est 
+      dif<lb ed="#P" n="32" break="no"/>ferentia specifica. ergo differunt specifice. Dico quod 
+      diffe<lb ed="#P" n="33" break="no"/>rentia formalis vel aliquid vel aliqua que sunt de 
+      con<lb ed="#P" n="34" break="no"/>ceptu quidditatiuo rei sicut est differentia specifica 
+      <lb ed="#P" n="35"/>rei vel etiam per formas alterius et alterius rationis 
+      <lb ed="#P" n="36"/>est differentia specifica. Sed differentia formalis per 
+      <lb ed="#P" n="37"/>aliqua que licet sint essentialiter idem cum forma vel 
+      <lb ed="#P" n="38"/>formis. non tamen pertinent ad conceptum quidditatiuum 
+      <lb ed="#P" n="39"/>sed tenent se infra conceptum speciei non oportet quod sit 
+      <lb ed="#P" n="40"/>differentia specifica. Modo dico quod iste differentie 
+      in<lb ed="#P" n="41" break="no"/>diuiduales non pertinent ad conceptum quidditatiuum 
+      <lb ed="#P" n="42"/>et ideo dicuntur differentie materiales vel quasi 
+      ma<lb ed="#P" n="43" break="no"/>teriales contrahentes naturam ad indiuidum quod 
+      <lb ed="#P" n="44"/>frequenter ab Aristotele dicitur materia sicut 
+      dixi<lb ed="#P" n="45" break="no"/>in primo. Aliter dicitur quod differentia formalis licet 
+      <lb ed="#P" n="46"/>sit differentia specifica quia est per differentiam forma 
+      <lb ed="#P" n="47"/>lem in conceptu quidditatiuo rei eo modo quo 
+      phi<lb ed="#P" n="48" break="no"/>losophus comparat species numeris. 8. meta. tamen 
+      <lb ed="#P" n="49"/>non oportet quod differentia formarum sit specifica. 
+      Re<lb ed="#P" n="50" break="no"/>fert enim dicere differentiam formalem et formarum 
+      <lb ed="#P" n="51"/>sed non est vis. Ad tertium dico quod pluralitas 
+      nu<lb ed="#P" n="52" break="no"/>meralis aliquorum sub eadem specie est pluralitas in 
+      <lb ed="#P" n="53"/>finita saltem in potentia. Tu dicis talis non inten 
+      <lb ed="#P" n="54"/>ditur a natura. Dico quod falsum est sicut secundum te etiam 
+      <lb ed="#P" n="55"/>pluralitas numerorum est infinita saltem in potentia 
+      <lb ed="#P" n="56"/>et tamen intenditur a natura sicut et species quia 
+      distin<lb ed="#P" n="57" break="no"/>cti numeri sunt distincti species secundum se. Unde non 
+      vi<lb ed="#P" n="58" break="no"/>ydeo quare natura per se non intendat indiuiduum 
+      si<lb ed="#P" n="59" break="no"/>cut et species quia per se et primo agit et operatur 
+      cir<lb ed="#P" n="60" break="no"/>ca indiuidua. Unde prima substantia non minus est 
+      <lb ed="#P" n="61"/>de intentione nature quam secunda. Si dicas quod 
+      indiui<lb ed="#P" n="62" break="no"/>dua sunt infinita. Dico quod verum est in potentia non 
+      <lb ed="#P" n="63"/>in actu sed sunt finita.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e803">
+      ¶ Ad quartum dico quod 
+      abso<lb ed="#P" n="64" break="no"/>lute loquendo possunt esse plures celi eiusdem ratio¬ 
+      <!--76.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>nis. Dices quod non quia celum est ex tota materia sua 
+      <lb ed="#P" n="66"/>sicut dicitur primo de celo. Dico quod si in celo 
+      intelli<lb ed="#P" n="67" break="no"/>gatur materia: vt pars ista propositio est falsa: quia 
+      <lb ed="#P" n="68"/>in ipso vt puto non est materia. Si accipiatur 
+      mate<lb ed="#P" n="69" break="no"/>ria pro differentia indiuiduali. Dico quod habet suam 
+      <lb ed="#P" n="70"/>differentiam indiuidualem per quam. est hoc: et tunc 
+      ip<lb ed="#P" n="71" break="no"/>sum vt sic non potest esse plures: sed quin possit esse 
+      <lb ed="#P" n="72"/>vnum aliud non probat. Dico tamen quod forte in actu 
+      <lb ed="#P" n="73"/>non est nisi vnum celum. eiusdem rationis: non quia hoc 
+      <lb ed="#P" n="74"/>sit impossibile: sed quia deus noluit et sufficit ad 
+      per<lb ed="#P" n="75" break="no"/>fectionem quam deus noluit conferre vniuerso. hec 
+      <lb ed="#P" n="76"/>de tertio articulo. 
+      <lb ed="#P" n="77"/>Ad primum principale dico 
+      <lb ed="#P" n="78"/>quod non est vera maior nisi sub isto sensu quod scilicet 
+      separa<lb ed="#P" n="79" break="no"/>tum a materia habet totam perfectionem nature sue 
+      <lb ed="#P" n="80"/>Dico quod verum est quantum ad perfectionem 
+      quidditati<lb ed="#P" n="81" break="no"/>uam. Includit em in se conceptuum quidditatiuum 
+      <lb ed="#P" n="82"/>nature sue: sed dico quod plus de perfectione est in 
+      plu<lb ed="#P" n="83" break="no"/>ribus quam in vno. Nec oportet quod isto modo 
+      intensiue<lb ed="#P" n="84" break="no"/>vel extensiue totam perfectionem nature sue contineat 
+      <lb ed="#P" n="85"/>nec de albedine nec de alio separato. Et dico quod si 
+      <lb ed="#P" n="86"/>albedo esset separata vel etiam subsistens ita posset 
+      <lb ed="#P" n="87"/>plurificari sicut modo supposito quod sit creatura et est 
+      <lb ed="#P" n="88"/>set nec in deo. Unde habeant probabilitatem talia 
+      di<lb ed="#P" n="89" break="no"/>cta nullam nisi ex consuetudine loquendi hominum 
+      <lb ed="#P" n="90"/>qui vt in paucioribus intelligunt.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e868">
+      ¶ Ad secundum 
+      <lb ed="#P" n="91"/>dico quod si Aristoteles intellexit quod oportet ad hoc quod 
+      <lb ed="#P" n="92"/>aliqua natura sit multiplicabilis quod habeat 
+      mate<lb ed="#P" n="93" break="no"/>riam partem sui falsum intellexit et est negandus: quia 
+      <lb ed="#P" n="94"/>tunc materia non esset multiplicabilis nec aliqua 
+      for<lb ed="#P" n="95" break="no"/>ma breuiter. Sed nescio si fuerit ita rudis et ita 
+      ma<lb ed="#P" n="96" break="no"/>terialis homo et ideo expono ipsum sicut alias 
+      expo<lb ed="#P" n="97" break="no"/>sui quod si primum mouens multiplicaretur haberet 
+      ma<lb ed="#P" n="98" break="no"/>teriam I naturam potentialem et contrahibilem per 
+      <lb ed="#P" n="99"/>differentiam indiuidualem et non esset purus: et tun 
+      <lb ed="#P" n="100"/>dico de angelo quod isto modo habet materiam.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e892">
+      ¶ Ad  
+      <lb ed="#P" n="101"/>tertium dico quod licet absolute loquendo non sit 
+      ne<lb ed="#P" n="102" break="no"/>cessitas plurium indiuiduorum sub eadem specie. 
+      im<lb ed="#P" n="103" break="no"/>mo etiam nec vnici sicut etiam nec indiuiduorum cor 
+      <lb ed="#P" n="104"/>ruptibilium nec propter conseruationem speciei quin 
+      <lb ed="#P" n="105"/>naturaliter posset conseruari natura in vnico 
+      indiui<lb ed="#P" n="106" break="no"/>duo incorruptibili. Tamen possunt esse plura et pro 
+      <lb ed="#P" n="107"/>babile est quod sint propter causas predictas.
+    </p>
+            <p xml:id="qrdBas-b21736-d1e910">
+      ¶ Ad 
+      <lb ed="#P" n="108"/>quartum dico quod in separatis a materia I in illis quo 
+      <lb ed="#P" n="109"/>non habent naturam potentialem et contrahibilem per 
+      <lb ed="#P" n="110"/>differentiam indiuidualem idem est quod quid est et id 
+      <lb ed="#P" n="111"/>cuius puta in omnibus diuinis et talia non possunt 
+      <lb ed="#P" n="112"/>multiplicari eiusdem rationis existentia sicut dictum 
+      <lb ed="#P" n="113"/>est in primo. Sed nulla creatura est talis. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

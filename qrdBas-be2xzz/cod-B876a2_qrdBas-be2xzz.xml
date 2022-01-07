@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Prologus</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Prologus</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="1-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-be2xzz"><!--l2-prol -->
+            <head xml:id="qrdBas-be2xzz-Hd1e99">Prologus</head>
+            <p xml:id="qrdBas-be2xzz-d1e101">
+      <!--8.xml-->
+               <pb ed="#P" n="1-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>In 
+      Princi<lb ed="#P" n="2" break="no"/>pio creauit deus celum et 
+      ter<lb ed="#P" n="3" break="no"/>ram. Genesis primo capitulo. 
+      <lb ed="#P" n="4"/>Moyses ille sanctissimuus a 
+      <lb ed="#P" n="5"/>deo patre minarum et luminum in sortem 
+      <lb ed="#P" n="6"/>filiorum dei specialiter adoptatus a 
+      <lb ed="#P" n="7"/>verbo dei filio tanquam seruus 
+      le<lb ed="#P" n="8" break="no"/>gislator singulariter illustratus et a spiritu sancto 
+      pe<lb ed="#P" n="9" break="no"/>culiariter et suauiter inspiratus sicut ille cum quo 
+      lo<lb ed="#P" n="10" break="no"/>quebatur deus facie ad faciem sicut solet homo 
+      lo<lb ed="#P" n="11" break="no"/>qui ad amicum suum in omni domo sua fidelissimum et 
+      <lb ed="#P" n="12"/>super omnes habitantes in terra mitissimum. Unde 
+      Augu<lb ed="#P" n="13" break="no"/>stinus. xi. de ciuitate dei. Ubi dicit sic. Sapientia dei 
+      <lb ed="#P" n="14"/>per quam facta sunt omnia in animas sanctas se 
+      trans<lb ed="#P" n="15" break="no"/>fert vel dei amicos et prophetas constituit eisque opera 
+      <lb ed="#P" n="16"/>sua sine strepitu intus enarrat. Loquunturque ei 
+      ange<lb ed="#P" n="17" break="no"/>li dei qui semper faciem patris vident: voluntatemque eius 
+      <lb ed="#P" n="18"/>quibus oportet anunciant. Ex hiis erat iste propheta qui 
+      <lb ed="#P" n="19"/>dixit et scripsit. In principio creauit vel fecit deus 
+      <lb ed="#P" n="20"/>celum et terram qui tam ydoneus testis est per quem deo 
+      <lb ed="#P" n="21"/>credendum sit vt eodem spiritu dei quo hec sibi 
+      reuela<lb ed="#P" n="22" break="no"/>ta cognouit etiam ipsam fidem nostram futuram tanto ante 
+      prae<lb ed="#P" n="23" break="no"/>dixerit. Qui deum palam et non per enigmata et figuras 
+      <lb ed="#P" n="24"/>videbat / quod pertinet ad secretarium dilectissimum / 
+      nu<lb ed="#P" n="25" break="no"/>meri duodecimo.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e164">
+      ¶ In verbis praemissis describit huius 
+      <lb ed="#P" n="26"/>secundi libri materiam quae dicitur opus creationis vel 
+      crea<lb ed="#P" n="27" break="no"/>tura ipsa vt accipiens esse per diuinam creationem. 
+      Ex<lb ed="#P" n="28" break="no"/>primens nihilominus deum inquantum relucet eius potentia 
+      <lb ed="#P" n="29"/>in opere creationis et hoc ad ostendendum veritatem et 
+      <lb ed="#P" n="30"/>ad repellendum falsitatem quando dicit In principio creauit 
+      <lb ed="#P" n="31"/>deus. De quo est iste secundus liber quantum ad inicium 
+      du<lb ed="#P" n="32" break="no"/>ratiuum seu quantum ad inicii nouitatem quia in principio. 
+      </p>
+            <p xml:id="qrdBas-be2xzz-d1e182">
+               <lb ed="#P" n="33"/>¶ 2o quantum ad principium productiuum seu principii 
+      cla<lb ed="#P" n="34" break="no"/>ritatem vel dignitatem creauit deus.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e189">
+      ¶ 3o quantum ad 
+      fa<lb ed="#P" n="35" break="no"/>stigii perfectionem quia celum.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e195">
+      ¶ 4o quantum ad vestigii 
+      <lb ed="#P" n="36"/>depressionem vel impressionem quia terram. Describit ergo 
+      <lb ed="#P" n="37"/>primo sue durationis inicium in principio 2o sue 
+      produ<lb ed="#P" n="38" break="no"/>ctionis principium creauit deus. 3o sue perfectionis fastigium 
+      <lb ed="#P" n="39"/>quia celum.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e206">
+      ¶ 4o sue depressionis vel impressionis 
+      ve<lb ed="#P" n="40" break="no"/>stigium quia terram. Describit primo creaturam quantum 
+      <lb ed="#P" n="41"/>ad nouitatem durationis ad eludendum errorem 
+      phi<lb ed="#P" n="42" break="no"/>losophorum qui mundum ab eterno posuerunt et sine 
+      <lb ed="#P" n="43"/>principio durationis sed in principio dicit Moyses 
+      <lb ed="#P" n="44"/>In principio. inquam nouitatis ne creatura suo principio 
+      <lb ed="#P" n="45"/>equaretur necessaria putaretur de nihilo probaretur 
+      <lb ed="#P" n="46"/>et in nihilum verteretur. De hoc dicitur ad Hebre. primo. 
+      <lb ed="#P" n="47"/>Et tu in principio domine terram fundasti et opera manuum 
+      <lb ed="#P" n="48"/>tuarum sunt celi Ipsi peribunt tu autem permanebis 
+      <lb ed="#P" n="49"/>et omnes vt vestimentu veterascent. etc.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e230">
+      ¶ Ubi 
+      no<lb ed="#P" n="50" break="no"/>tantur quattuor que arguunt probabiliter in 
+      crea<lb ed="#P" n="51" break="no"/>tura nouitatem excludendo ab ipsa durandi 
+      eternita<lb ed="#P" n="52" break="no"/>tem.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e239">
+      ¶ Primum est sue debilitatis fulcimentum. Et 
+      <lb ed="#P" n="53"/>tu in principio domine terram fundasti. Creatura enim ita 
+      <lb ed="#P" n="54"/>habet esse debile quod nisi fundaretur a deo statim corrueret 
+      <lb ed="#P" n="55"/>sicut artificium edificii non fundatum. Necessario 
+      <lb ed="#P" n="56"/>igitur requirit diuinum fundamentum / fundasti terram 
+      <lb ed="#P" n="57"/>et permanet. Qui fundasti terram super stabilitatem 
+      <lb ed="#P" n="58"/>suam etc. Tui sunt celi et tua est terra orbem terre et 
+      <lb ed="#P" n="59"/>plenitudinem eius tu fundasti. etc.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e257">
+      ¶ 3m est sue 
+      nihi<lb ed="#P" n="60" break="no"/>leitatis argumentum. Et opera manuum tuarum sunt 
+      <lb ed="#P" n="61"/>celi. Deus enim aliter operatur quam alii sicut dicit 
+      Ma<lb ed="#P" n="62" break="no"/>gister in principio huius secundi / quia sicut creator faciendo aliquid 
+      <!--8.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>de nihilo / et ideo suum operatum dicitur de nihilo 
+      ali<lb ed="#P" n="64" break="no"/>quid factum Per hoc ergo quod dicitur. Opera manuum 
+      <lb ed="#P" n="65"/>tuarum sunt celi / ostenditur creature nihileitas. 
+      Ui<lb ed="#P" n="66" break="no"/>debo celos tuos opera digitorum tuorum etc. Tu enim 
+      do<lb ed="#P" n="67" break="no"/>minem fecisti caelum et terram et quicquid celi ambitu 
+      con<lb ed="#P" n="68" break="no"/>tinetur Hester. xiii.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e283">
+      ¶ 3m sue mobilitatis argumen 
+      <lb ed="#P" n="69"/>tum. Ipsi peribunt tu autem permanebis. Creatura 
+      <lb ed="#P" n="70"/>enim qualibet alicui motui vel mutationi subiecta est 
+      <lb ed="#P" n="71"/>et solus deus immutabilis est et idem permanet Istud 
+      au<lb ed="#P" n="72" break="no"/>tem mutari quoddam perire est / quia mutatio arguit 
+      ali<lb ed="#P" n="73" break="no"/>quid non esse. Celum igitur et terra transibunt Tu 
+      <lb ed="#P" n="74"/>autem domine in eternum permanes et memoriale tuum 
+      <lb ed="#P" n="75"/>in generatione et generationem.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e302">
+      ¶ 4m sue 
+      finalita<lb ed="#P" n="76" break="no"/>tis et mortalitatis detrimentum. Et omnes sicut 
+      ve<lb ed="#P" n="77" break="no"/>stimentum veterascent. Creatura enim quantum est ex se 
+      <lb ed="#P" n="78"/>tendit ad non esse continue. Unde et aliquomodo 
+      vete<lb ed="#P" n="79" break="no"/>rascit ad modum vestimenti propter quod etiam solus deus 
+      <lb ed="#P" n="80"/>secundum apostolum prime ad Thimo. vi. Immortalitatem habet / 
+      <lb ed="#P" n="81"/>propter quod statim sequitur. Uelut amictum mutabis 
+      <lb ed="#P" n="82"/>eos et mutabuntur. etc. Et in Iob. dicitur precipue 
+      <lb ed="#P" n="83"/>quantum ad creaturas corruptibiles. Quasi putredo 
+      <lb ed="#P" n="84"/>consumendus sum et quasi vestimentum quod 
+      commedi<lb ed="#P" n="85" break="no"/>tur a tinea / propter quod et de natura angelica de qua 
+      <lb ed="#P" n="86"/>minus videtur in mutabilibus. Natura angelica eo 
+      <lb ed="#P" n="87"/>ipso quo creatura est vicissitudinem mutabilitatis  
+      <lb ed="#P" n="88"/>habet. Mutari autem ex alio in aliud ire est in et 
+      semet<lb ed="#P" n="89" break="no"/>ipsa stabilem non esse. Unaqueque enim res quasi tot 
+      <lb ed="#P" n="90"/>passibus ad aliud tendit quot mutabilitatis sue 
+      mo<lb ed="#P" n="91" break="no"/>tibus subiacet. Sola autem natura incomprehensibilis a 
+      <lb ed="#P" n="92"/>statu suo nescit moueri que ab eo quod semper idem 
+      <lb ed="#P" n="93"/>est nescit immutari. propter quod etiam damascenus. 2o 
+      <lb ed="#P" n="94"/>li. dicit. Quod omne quod incipit a versione incipit 
+      in<lb ed="#P" n="95" break="no"/>versionem tendit et econuerso igitur competenter nouitas 
+      <lb ed="#P" n="96"/>creature et sue durationis tangitur cum dicitur In 
+      <lb ed="#P" n="97"/>principio et hoc de primo principali.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e352">
+      ¶ 2o dico quod 
+      de<lb ed="#P" n="98" break="no"/>scribit creaturam quantum primum effectu sue 
+      productio<lb ed="#P" n="99" break="no"/>nis / creauit deus. Opus namque creationis est ita 
+      ar<lb ed="#P" n="100" break="no"/>dum quod non potest attingi nisi a deo sicut inferius 
+      ap<lb ed="#P" n="101" break="no"/>parebit. hic est enim deus cuius verbo cuncta sunt 
+      ef<lb ed="#P" n="102" break="no"/>fecta. Cuius dono cuncta sunt protecta. Cuius 
+      thro<lb ed="#P" n="103" break="no"/>no alta sunt subiecta cuius septro mala sunt 
+      corre<lb ed="#P" n="104" break="no"/>cta. Ista quattuor tractat magister in hoc secundo 
+      <lb ed="#P" n="105"/>Primo loquens de creatione. Secundo de 
+      conser<lb ed="#P" n="106" break="no"/>uatione. Tertio de angelorum ministrantium 
+      mul<lb ed="#P" n="107" break="no"/>titudine. Quarto de vocati primi hominis 
+      ma<lb ed="#P" n="108" break="no"/>gnitudine vel propter claritatem vel primitatem 
+      pro<lb ed="#P" n="109" break="no"/>pter quod dicitur Apo. 4o. ca. Dignus es domine deus 
+      <lb ed="#P" n="110"/>noster accipere gloriam et honorem et virtutem quia tu 
+      <lb ed="#P" n="111"/>creasti omnia et propter voluntatem tuam erant et 
+      crea<lb ed="#P" n="112" break="no"/>ta sunt vbi describitur principium productiuum 
+      crea<lb ed="#P" n="113" break="no"/>ture propter quod est deus.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e389">
+      ¶ Quantum ad claritatem 
+      sa<lb ed="#P" n="114" break="no"/>pientie dignus es domine deus noster vel quantum ad 
+      cla<lb ed="#P" n="115" break="no"/>ritatem sanctimonie dignus est enim deus et propter 
+      <lb ed="#P" n="116"/>sapientiam / propter quod ibidem ca. 5o. dicitur. Dignus es 
+      <lb ed="#P" n="117"/>domine deus noster accipere librum et soluere signacula 
+      <lb ed="#P" n="118"/>eius. Nullus enim potest librum sapientie aperire nec 
+      sol<lb ed="#P" n="119" break="no"/>uere signacula eius nisi deus quia omnis sapientia a 
+      do<lb ed="#P" n="120" break="no"/>mino deo est et cum illo fuit semper et est ante euum. 
+      </p>
+            <p xml:id="qrdBas-be2xzz-d1e407">
+               <lb ed="#P" n="121"/>¶ Secundo describit deum creatorem quantum ad 
+      primita<lb ed="#P" n="122" break="no"/>tem excellentie. Accipe gloriam et honorem et virtutem 
+      <lb ed="#P" n="123"/>Sic enim tanquam regi seculorum immortali et 
+      inuincibi<lb ed="#P" n="124" break="no"/>li et soli deo honor et gloria in secula seculorum amen. 
+      <lb ed="#P" n="125"/>Propter quod eadem capitulo dicit quod dignus est 
+      acci<lb ed="#P" n="126" break="no"/>pere virtutem et honorem et gloriam et benedictio¬ 
+      <!--9.xml-->
+      <pb ed="#P" n="1-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nem et omnem creaturam.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e431">
+      ¶ Tertio quantum ad ptantem 
+      <lb ed="#P" n="2"/>efficientie quia tu creasti omnia. Creauit eim deus vt essent 
+      <lb ed="#P" n="3"/>omnia. Unus etiam est altissimus creator omnium 
+      om<lb ed="#P" n="4" break="no"/>nipotens Rex potens et metuendus nimis etc. vnus est 
+      <lb ed="#P" n="5"/>et secundum non habet. Creauit enim deus omnia visibilia 
+      <lb ed="#P" n="6"/>et inuisibilia corporalia et spiritualia. Ex quo 
+      conclu<lb ed="#P" n="7" break="no"/>ditur sua incomprehensibilis et insuparabilis potentia. 
+      </p>
+            <p xml:id="qrdBas-be2xzz-d1e447">
+               <lb ed="#P" n="8"/>¶ Quarto quantum ad libertatem complacentie vel 
+      ami<lb ed="#P" n="9" break="no"/>citie et propter voluntatem tuam erant et creata sunt 
+      <lb ed="#P" n="10"/>Non em deus de necessitate creature producit 
+      crea<lb ed="#P" n="11" break="no"/>turam vel aliquid aliud a se / sicut dixerunt aliqui 
+      philosophi<lb ed="#P" n="12" break="no"/>errantes nec etiam aliqua necessitate sed mere 
+      libe<lb ed="#P" n="13" break="no"/>re et contingenter per liberam voluntatem qua 
+      spon<lb ed="#P" n="14" break="no"/>te dilexit creaturam et determinauit seu imperauit 
+      crea<lb ed="#P" n="15" break="no"/>turam fieri / et hoc tangitur cum dicitur propter voluntatem 
+      <lb ed="#P" n="16"/>tuam etc. Propter quod dicebat illa imparatrix 
+      Ho<lb ed="#P" n="17" break="no"/>ster. Domine rex omnipotens in voluntate tua cuncta sunt 
+      <lb ed="#P" n="18"/>posita. etc. Et in psalmo dicitur. Omnia quecumque 
+      vo<lb ed="#P" n="19" break="no"/>luit dominus fecit in celo et in terra in mari et in omnibus 
+      <lb ed="#P" n="20"/>abissis: De isto principio productiuo creature quod est 
+      <lb ed="#P" n="21"/>deus admiratur Hilarius de trinitate exponens 
+      il<lb ed="#P" n="22" break="no"/>lud. Omnia per ipsum facta sunt quis est ( inquit) ille 
+      <lb ed="#P" n="23"/>per quem omnia facta sunt. Infinitum est ( inquit ) 
+      pri<lb ed="#P" n="24" break="no"/>quod fit omne quod factum est. Unde voluntarie 
+      ge<lb ed="#P" n="25" break="no"/>nuit nos verbo voluntatis sue vt simus initium 
+      ali<lb ed="#P" n="26" break="no"/>quod creature eius Iacobi 1. et hoc de 2o. 
+      princi<lb ed="#P" n="27" break="no"/>pali.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e494">
+      ¶ Sequitur 3mn in quo creatura describitur 
+      <lb ed="#P" n="28"/>quantum ad fastigium perfectionis et hoc quantum ad 
+      crea<lb ed="#P" n="29" break="no"/>turas spirituales et intelligibiles que recte per caelum 
+      in<lb ed="#P" n="30" break="no"/>telliguntur. Est enim quelibet talis celum limpidum 
+      <lb ed="#P" n="31"/>celum stellatum celum incorruptibile et celum 
+      vir<lb ed="#P" n="32" break="no"/>tuale igitur caelum creauit deus. Uerbo domini 
+      celifirma<lb ed="#P" n="33" break="no"/>ti sunt et spiritu oris eius omnis virtus eorum vbi 
+      descri<lb ed="#P" n="34" break="no"/>bitur quadruplex conditio huius creature spiritualis 
+      <lb ed="#P" n="35"/>Sunt enim creature spirituales intelligibiles ad 
+      expri<lb ed="#P" n="36" break="no"/>mendum verbo domini. Sunt enim separate a materia 
+      <lb ed="#P" n="37"/>et conditionibus materialibus et a quantitate et ideo 
+      ma<lb ed="#P" n="38" break="no"/>xime intelligibiles / ita quod praecipue cadunt sub verbo 
+      di<lb ed="#P" n="39" break="no"/>uino earum expressiuo de quo dictum est iohannis 
+      prime<lb ed="#P" n="40" break="no"/>quod in principio erat verbum et omnia per ipsum facta sunt 
+      <lb ed="#P" n="41"/>Ron quia sunt incorruptibiles ad permanendum licet enim 
+      <lb ed="#P" n="42"/>sint anichilabiles non tamen corruptibiles et ideo dicuntur 
+      <lb ed="#P" n="43"/>celi firmati quia a corruptione segregati etc. Sicut 
+      cuo<lb ed="#P" n="44" break="no"/>lum inter alia corpara omnia. Et ideo genesis primo. 
+      Uo<lb ed="#P" n="45" break="no"/>cauit dominus firmamentum celum quia spiritualem 
+      crea<lb ed="#P" n="46" break="no"/>turam. Uocauit caelum et firmamentum / quia 
+      incorrupi<lb ed="#P" n="47" break="no"/>bilis ad permanendum.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e540">
+      ¶ 3o quia sunt indiuisibiles et 
+      <lb ed="#P" n="48"/>insensibiles ad extendendum. Non sunt enim quante nec 
+      <lb ed="#P" n="49"/>corporee nec diuisibiles nec per consequens sensibiles vel 
+      <lb ed="#P" n="50"/>palpabiles quia sunt spiritus oris dei spirituales enim sunt 
+      <lb ed="#P" n="51"/>Est enim talis creatura de qua dicitur Io. 3o. Quod 
+      <lb ed="#P" n="52"/>natum est ex spiritu / spiritus est palpate et videte quaniam 
+      spiri<lb ed="#P" n="53" break="no"/>tus carnem et ossa non habet.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e556">
+      ¶ 4o dico quod sunt 
+      infati<lb ed="#P" n="54" break="no"/>gabiles ad exequendum vel exercendum quia omnis virtus 
+      <lb ed="#P" n="55"/>eorum vertus namque non alligata corpori / sed a corpare separa 
+      <lb ed="#P" n="56"/>ta est infatigabilis. Unde et creature spirituales vertutes 
+      <lb ed="#P" n="57"/>appellantur Laudate eum omnes angeli eius laudate eum 
+      <lb ed="#P" n="58"/>oes virtutes eius. De istis spiritualibus creaturis deter 
+      <lb ed="#P" n="59"/>minat magister in principio 2e dist. vsque ad principium 
+      <lb ed="#P" n="60"/>32e. dist. sicut patet discurrendo hoc est. igitur celu de quo 
+      <lb ed="#P" n="61"/>dicitur Caelum sedes mea est. hoc est caelum de quo dictum 
+      <lb ed="#P" n="62"/>est quod species celi in visione glorie etc. Species celi 
+      glo<lb ed="#P" n="63" break="no"/>ria stellarum quantum ad angelos bonos. Est enim celum 
+      <lb ed="#P" n="64"/>eristallinum per splendorem veritatis. Celum empi¬ 
+      <!--9.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>reum per ardorem caritatis. Celum sydereum per 
+      de<lb ed="#P" n="66" break="no"/>corem puritatis. Sed de multis angelis dicitur in Iob. 
+      <lb ed="#P" n="67"/>17 quod celi non sunt mundi in conspectu eius sicut est 
+      <lb ed="#P" n="68"/>et Magister exprimit determinando de eorum auersione 
+      <lb ed="#P" n="69"/>de obstinatione et punitione. de hoc 3o principali. 
+      </p>
+            <p xml:id="qrdBas-be2xzz-d1e597">
+               <lb ed="#P" n="70"/>¶ Sequitur 4m vbi describitur creatura corparali 
+      <lb ed="#P" n="71"/>quantum ad vestigium conditionis vel subiectionis 
+      seu<lb ed="#P" n="72" break="no"/>depressionis / terram inquit. Recte tantum per terram 
+      creatu<lb ed="#P" n="73" break="no"/>ra corporalis intelligitur qua maxima materialis et cor 
+      <lb ed="#P" n="74"/>porea inter alias inuenitur. Unde nec aliquis eam 
+      po<lb ed="#P" n="75" break="no"/>suit primum principium / sicut patet ex aliis etc. Terram igitur 
+      <lb ed="#P" n="76"/>deus creauit I creaturam corpoream. de qua dicitur Gene. 
+      <lb ed="#P" n="77"/>primo. Terra autem erat inanis et vacua et tenebre 
+      <lb ed="#P" n="78"/>erant super faciem abissi. Ubi notandum quod terra habe 
+      <lb ed="#P" n="79"/>quantum est ex se infimitatem situs deformitatem / visus 
+      <lb ed="#P" n="80"/>quantum ad visum. 3o habet sterilitatem fructus. 4o habet 
+      <lb ed="#P" n="81"/>profunditatem et abissum sinus / propter primum dicitur 
+      ter<lb ed="#P" n="82" break="no"/>ra / propter 3m dicitur tenebrosa / propter 3m inanis et 
+      <lb ed="#P" n="83"/>vacua / propter qua m dicitur abissus et profunda. Sic 
+      crea<lb ed="#P" n="84" break="no"/>tura corporalis quantum ex se habet in vniuerso 
+      infimita<lb ed="#P" n="85" break="no"/>tem quantum ad situm / vacuitatem velsterilitatem. quantum 
+      <lb ed="#P" n="86"/>ad fructum / deformitatem quantum ad visum / et 
+      profundi<lb ed="#P" n="87" break="no"/>tatem quantum ad sinum. Primum quia terra quia caelum sut 
+      <lb ed="#P" n="88"/>sum et trra deorsum. Primus eim gradus et summus in vniuerso est 
+      <lb ed="#P" n="89"/>gradus summe trinitatis. Secundus est gradus 
+      creatu<lb ed="#P" n="90" break="no"/>re spiritualis Tertius est creature corparalis et est infimus. igitur 
+      <lb ed="#P" n="91"/>terra scabellum pedum meorum.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e647">
+      ¶ 3m habet quia quantum 
+      <lb ed="#P" n="92"/>est ex se est inanis et vacua / homo enim qui est nobilior 
+      <lb ed="#P" n="93"/>inter corporeas creaturas quantum est ex se est inanis 
+      <lb ed="#P" n="94"/>et vacuus / non potens per seipsum proficereset deficere 
+      Ha<lb ed="#P" n="95" break="no"/>bet ergo fructus sterilitatem Et ideo populi meditati sunt ina 
+      <lb ed="#P" n="96"/>nia. Extendit enim deus aquilonem vitam humanam 
+      <lb ed="#P" n="97"/>que assimilatur vento. Iob. 25o. capitulo et 
+      appre<lb ed="#P" n="98" break="no"/>hendit terram super nihili aspexi terram et ecce vacua 
+      <lb ed="#P" n="99"/>erat et nihil Iere. 4o. ca.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e667">
+      ¶ 3m habet quia tenebro 
+      <lb ed="#P" n="100"/>sa est corporalis inepta ad cognitionem quia vel 
+      co<lb ed="#P" n="101" break="no"/>gnitionem non habet vel obscuram et imperfectam 
+      co<lb ed="#P" n="102" break="no"/>gnitionem habet. Et ideo tenebre facte sunt super 
+      vni<lb ed="#P" n="103" break="no"/>uersam terram.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e679">
+      ¶ 4m habet quia abissus super 
+      fa<lb ed="#P" n="104" break="no"/>ciem inquit abissi. Abissus est enim creatura 
+      corpo<lb ed="#P" n="105" break="no"/>ralis propter situs capacitatem et profunditatem quia 
+      <lb ed="#P" n="106"/>licet sit inferioris gradus tamen continet in sinu sud 
+      <lb ed="#P" n="107"/>omnem aliam creaturam tanquam locus vel quasi locus 
+      <lb ed="#P" n="108"/>etiam omnium dei et angelorum. Unde extra celum 
+      ni<lb ed="#P" n="109" break="no"/>chil est sicut abissus capit omnem aquam super 
+      fa<lb ed="#P" n="110" break="no"/>ciem abissi ergo sicut dicitur ecclesistici primo. 
+      Altitu<lb ed="#P" n="111" break="no"/>dinem celi et latitudinem terre et profundum abissi quis 
+      <lb ed="#P" n="112"/>dimensus est.
+    </p>
+            <p xml:id="qrdBas-be2xzz-d1e701">
+      ¶ De istis vero creaturis 
+      corporali<lb ed="#P" n="113" break="no"/>bus Magister determinat principaliter duodecima 
+      <lb ed="#P" n="114"/>distinctione vsque in finem. igitur perfecti sunt celi et 
+      <lb ed="#P" n="115"/>terra et omnis ornatus eorum quia et quantum ad 
+      creatu<lb ed="#P" n="116" break="no"/>ras spirituales et quantum ad creaturas corporales / 
+      <lb ed="#P" n="117"/>quia in principio creauit deus celum et terram sicut 
+      <lb ed="#P" n="118"/>a principio dicebatur. Ipse est enim deus Iacob 
+      <lb ed="#P" n="119"/>qui fecit celum et terram mare et omnia que in eis 
+      <lb ed="#P" n="120"/>sunt qui est benedictus in secula seculorum 
+      Amen<lb ed="#P" n="121" break="no"/>Explicit prologus. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

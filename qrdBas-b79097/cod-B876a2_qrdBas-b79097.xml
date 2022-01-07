@@ -1,0 +1,608 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="119-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b79097"><!--l2d21-22q1 -->
+            <head xml:id="qrdBas-b79097-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b79097-d1e101">
+               <lb ed="#P" n="124"/>¶ Distinctionum. xxi. et. xxii. 
+      <lb ed="#P" n="125"/>¶ Questio Unica. 
+    </p>
+            <p xml:id="qrdBas-b79097-d1e108">
+      <!--246.xml-->
+               <pb ed="#P" n="120-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>CIrca istas duas 
+      <lb ed="#P" n="2"/>distinctiones quero vnam 
+      quaestio<lb ed="#P" n="3" break="no"/>nem scilicet vtrum peccatum 
+      homi<lb ed="#P" n="4" break="no"/>nis puta Ade potuit esse venia 
+      <lb ed="#P" n="5"/>le.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e128">
+      ¶ Uidetur quod non. Primo 
+      <lb ed="#P" n="6"/>sic. a statu summe rectitudinis 
+      <lb ed="#P" n="7"/>non potest aliquis cadere nisi 
+      <lb ed="#P" n="8"/>lper peccatum mortale et 
+      pecca<lb ed="#P" n="9" break="no"/>tum graue. Sed status innocentie erat summe 
+      recti<lb ed="#P" n="10" break="no"/>tudinis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e141">
+      ¶ Secundo sic. Peccatum ex malicia non 
+      <lb ed="#P" n="11"/>potest esse nisi mortale. Sed primus homo primo 
+      pec<lb ed="#P" n="12" break="no"/>care non potuit: nisi etiam certa electione et malicia quia 
+      <lb ed="#P" n="13"/>non ex passione nec ex ignorantia quia ista sunt 
+      pena<lb ed="#P" n="14" break="no"/>lia nec precesserunt culpam: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e153">
+      ¶ Tertio sic. Aut 
+      <lb ed="#P" n="15"/>primum peccatum corrumpisset originalem iusticiam: 
+      <lb ed="#P" n="16"/>aut non. Si sic necessario fuit mortale. Si non tunc 
+      ali<lb ed="#P" n="17" break="no"/>ter in statu innocentie fuisset debita pena: quia 
+      om<lb ed="#P" n="18" break="no"/>ni peccato debetur aliqua pena. Sed hoc est 
+      impos<lb ed="#P" n="19" break="no"/>sibile: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e166">
+      ¶ Quarto sic. Primum peccatum homi 
+      <lb ed="#P" n="20"/>nis necessario fuit grauissimum. Probatio quia fuit 
+      <lb ed="#P" n="21"/>obligatiuum omnium posteriorum ad reatum. Sed 
+      ta<lb ed="#P" n="22" break="no"/>le peccatum non est veniale nec etiam potest vel 
+      po<lb ed="#P" n="23" break="no"/>tuit: ergo etc. 
+      <lb ed="#P" n="24"/>in cuius potestate est peccare in 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e179">
+               <lb ed="#P" n="25"/>¶ Cont . I eius potestate est sic vel sic 
+      pec<lb ed="#P" n="26" break="no"/>care. Sed in potestate hois erat peccare. ergo sic vel sic 
+      <lb ed="#P" n="27"/>puta venialiter vel mortaliter 
+      <lb ed="#P" n="28"/>In ista questione sic 
+      proce<lb ed="#P" n="29" break="no"/>dam.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e192">
+      ¶ Primo inquiram vtrum primum peccatum 
+      <lb ed="#P" n="30"/>pominis vel mulieris potuit esse veniale.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e197">
+      ¶ 
+      Secun<lb ed="#P" n="31" break="no"/>do vtrum peccatum Ade fuerit grauissimum.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e202">
+      ¶ 
+      Ter<lb ed="#P" n="32" break="no"/>tio vtrum fuerit ex ignorantia vel certa electione. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e208">
+               <lb ed="#P" n="33"/>¶ Quantum ad primum est 
+      <lb ed="#P" n="34"/>ma opinio que dicit quod homo vel mulier Adam vel 
+      <lb ed="#P" n="35"/>Eua non potuit primo peccare venialiter: sed 
+      opor<lb ed="#P" n="36" break="no"/>tuit quod primum peccatum hominis esset mortale 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e219">
+               <lb ed="#P" n="37"/>¶ Ad hoc adducuntur alique rationes posite in 
+      prin<lb ed="#P" n="38" break="no"/>cipio questionis et alique alie adducuntur.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e226">
+      ¶ 
+      Pri<lb ed="#P" n="39" break="no"/>ma est ista per primum peccatum hominis vires 
+      infe<lb ed="#P" n="40" break="no"/>riores necessario fuerunt deordinate sed hoc non 
+      po<lb ed="#P" n="41" break="no"/>tuit esse nisi per deordinationem virium superiorum 
+      <lb ed="#P" n="42"/>a deo. Hoc autem est necessario peccatum mortale 
+      <lb ed="#P" n="43"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e239">
+      ¶ Secunda est ista. In hoc est differentia 
+      <lb ed="#P" n="44"/>peccati venialis et peccati mortalis: quia peccatum 
+      <lb ed="#P" n="45"/>mortale est deordinatio circa finem puta circa deum 
+      <lb ed="#P" n="46"/>Sed veniale circa ea que sunt ad finem. Sed primus 
+      <lb ed="#P" n="47"/>homo non potuit primo deordinari circa ea que sunt 
+      <lb ed="#P" n="48"/>ad finem nisi prius circa finem: vt videtur: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e252">
+      ¶ 
+      Ter<lb ed="#P" n="49" break="no"/>tia ratio. Primum peccatum hominis non potuit esse 
+      <lb ed="#P" n="50"/>nisi a temptatione hostis vt patet: quia aliunde non 
+      <lb ed="#P" n="51"/>potuit temptari nec a carne nec ab alio. Sed 
+      tempta<lb ed="#P" n="52" break="no"/>tio hostis non est nisi ad mortale: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e263">
+      ¶ Dicunt 
+      er<lb ed="#P" n="53" break="no"/>go isti quod sicut de facto primum peccatum hominis fuit 
+      <lb ed="#P" n="54"/>mortale: ita non potuit nisi mortale nec potuit esse 
+      <lb ed="#P" n="55"/>veniale. Et confirmatur hoc de primo peccato 
+      ange<lb ed="#P" n="56" break="no"/>li quod non potuit esse nisi mortale. Sic etiam vt 
+      vide<lb ed="#P" n="57" break="no"/>tur peccatum primi hominis cum esset preditus men 
+      <lb ed="#P" n="58"/>te non habens impulsiuum ad peccatum nisi ex 
+      ele<lb ed="#P" n="59" break="no"/>ctione non potuit esse veniale. 
+      <lb ed="#P" n="60"/>Sed istis non obstantibus 
+      <lb ed="#P" n="61"/>dico quod homo potuit primo peccare venialiter nec 
+      <!--246.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="62"/>oportuit quod primum peccatum suum esset mortale. Quod 
+      <lb ed="#P" n="63"/>probo.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e295">
+      ¶ Primo sic. Non perfectius coniungebat 
+      <lb ed="#P" n="64"/>originalis iusticia cum deo in statu innocentie quam 
+      mo<lb ed="#P" n="65" break="no"/>do gratia gratum faciens vt patet: quia illa non erat 
+      <lb ed="#P" n="66"/>quis dignus vita eterna sicut ista. Sed cum gratia 
+      <lb ed="#P" n="67"/>gratum faciente stat peccatum veniale. 1. Io. Si dixe 
+      <lb ed="#P" n="68"/>rimus quod peccatum non habemus ipsi nos seducimus 
+      <lb ed="#P" n="69"/>etc. ergo et cum orginali iusticia potuisset stetisse 
+      pec<lb ed="#P" n="70" break="no"/>catum veniale: et ita primus homo potuit primo 
+      ve<lb ed="#P" n="71" break="no"/>nialiter peccare.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e315">
+      ¶ Secunda ratio. Suppono quod 
+      ali<lb ed="#P" n="72" break="no"/>quis actus ex genere suo est peccatum veniale nec 
+      <lb ed="#P" n="73"/>tale fit mortale nisi ex circumstantia aliqua trahente 
+      <lb ed="#P" n="74"/>ad mortale varietur secundum talem actum aliquem potuit 
+      <lb ed="#P" n="75"/>primo primus homo exercere: ergo etc. Potuit 
+      di<lb ed="#P" n="76" break="no"/>cere mendacium iocosum vel facere aliquam dissolum 
+      <lb ed="#P" n="77"/>tionem leuem gloriam vanam sicut frequenter 
+      contingi<lb ed="#P" n="78" break="no"/>in aliquibus actibus etiam multum meritoriis vt 
+      pre<lb ed="#P" n="79" break="no"/>dicatione vel lectione vel cantu et sic de talibus: er 
+      <lb ed="#P" n="80"/>go etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e337">
+      ¶ Tertium sic. Peccatum veniale in hoc 
+      di<lb ed="#P" n="81" break="no"/>stinguitur a mortali. Non quia vnum sit circa finem 
+      <lb ed="#P" n="82"/>et aliud circa ea que sunt ad finem. circa vtrumque enim 
+      <lb ed="#P" n="83"/>potest esse peccatum mortale vel veniale. Sed quia 
+      <lb ed="#P" n="84"/>vnum deordinatio vel inordinatio contra preceptum 
+      <lb ed="#P" n="85"/>aliud vero non contra preceptum nec ad salutem 
+      ne<lb ed="#P" n="86" break="no"/>cessarium: sed vel contra consilium vel circa non 
+      ne<lb ed="#P" n="87" break="no"/>cessarium ad salutem sed non est verisimile nec proba 
+      <lb ed="#P" n="88"/>bile: quia omnem ordinationem expedientem primi 
+      pa<lb ed="#P" n="89" break="no"/>rentes habuerunt sub precepto et per consequens 
+      <lb ed="#P" n="90"/>quin primo potuerunt facere contra aliquam ordina 
+      <lb ed="#P" n="91"/>tionem consilii vel etiam consilio: ergo potuerunt primo 
+      <lb ed="#P" n="92"/>peccare venialiter. Alioquin nimis fuissent 
+      omissi<lb ed="#P" n="93" break="no"/>preceptis: quare etc. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e368">
+               <lb ed="#P" n="94"/>¶ Dices igitur quod cum lex ori 
+      <lb ed="#P" n="95"/>ginalis iusticie non esset altior nec perfectior 
+      simpli<lb ed="#P" n="96" break="no"/>citer quam lex caritatis et gratie quod potuit secun pati vel 
+      <lb ed="#P" n="97"/>niale peccatum et non oportuit quod peccatum primum 
+      <lb ed="#P" n="98"/>hominis esset mortale.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e381">
+      ¶ Dico tamen quod de facto primum 
+      <lb ed="#P" n="99"/>peccatum homins fuit mortale. Quod probatur.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e386">
+      ¶ 
+      Pri<lb ed="#P" n="100" break="no"/>mo quia per ipsum fuit spoliatus originali iusticia 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e392">
+               <lb ed="#P" n="101"/>¶ Secundo quia per ipsum fuit perpetuo priuatus vt 
+      <lb ed="#P" n="102"/>sione et fruitione diuina quantum erat ex parte sui. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e399">
+               <lb ed="#P" n="103"/>¶ Tertio quia propter peccatum hominis 
+      expian<lb ed="#P" n="104" break="no"/>dum oportuit mori innocentem christum.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e406">
+      ¶ Quarto 
+      <lb ed="#P" n="105"/>quia in primo peccato fecit contra diuinum 
+      prece<lb ed="#P" n="106" break="no"/>ptum vel saltem in peccato concomitante cuius 
+      pri<lb ed="#P" n="107" break="no"/>mum fuit causa puta contra preceptum de non 
+      eden<lb ed="#P" n="108" break="no"/>do de fructu ligni scientie boni et mali: quare etc. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e417">
+               <lb ed="#P" n="109"/>¶ Ad primum aliorum dico quod 
+      <lb ed="#P" n="110"/>dato quod vires superiores primo fuissent deordinate 
+      <lb ed="#P" n="111"/>non tamen quelibet deordinatio a deo vel circa deum est 
+      <lb ed="#P" n="112"/>peccatum mortale sicut patet de motu surreptiuo 
+      <lb ed="#P" n="113"/>infidelitatis et consimilibus: quare etc. Solum enim 
+      <lb ed="#P" n="114"/>deordinatio contra preceptum est peccatum mortale 
+      <lb ed="#P" n="115"/>si sit deliberatiua.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e435">
+      ¶ Ad secundum patet per idem quod non 
+      <lb ed="#P" n="116"/>quecumque deordinatio circa finem est peccatum 
+      morta<lb ed="#P" n="117" break="no"/>le et dato quod sit non oportuit ipsum deordinari primo 
+      <lb ed="#P" n="118"/>circa finem: sed potuit circa illud quod est ad finem 
+      deor<lb ed="#P" n="119" break="no"/>dinari primo: ideo etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e446">
+      ¶ Ad tertium cum dicitur de 
+      <lb ed="#P" n="120"/>temptatione hostis quod est quedam temptatio hostis ab 
+      <lb ed="#P" n="121"/>hoste et per seipsum et ista temptatione peccauit Eua 
+      <lb ed="#P" n="122"/>et mortaliter peccauit. Non tamen oportuit ipsam 
+      pec<lb ed="#P" n="123" break="no"/>care mortaliter: sed potuit non consentire vel 
+      surre<lb ed="#P" n="124" break="no"/>ptiue tantum consentire et non pecccasset mortaliter 
+      <!--247.xml-->
+      <pb ed="#P" n="120-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dato quod temptatio illa non sit nec esse possit nisi ad 
+      mor<lb ed="#P" n="2" break="no"/>tale secundum intentionem temptantis. Alia est temptatio hoc 
+      <lb ed="#P" n="3"/>stis per alium: et sic fuit temptatus Adam mediante 
+      <lb ed="#P" n="4"/>muliere et licet ista temptatio fuerit ad mortale tamen 
+      <lb ed="#P" n="5"/>aliter potuit venialiter peccare sicut dictum est 
+      su<lb ed="#P" n="6" break="no"/>pra nec oportuit ipsum sic temptari primo. hec de 
+      <lb ed="#P" n="7"/>primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e482">
+               <lb ed="#P" n="8"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="9" break="no"/>ticulum videndum est primo quod fuit primum peccati 
+      <lb ed="#P" n="10"/>Ade. Secundo an fuerit grauius peccato Eue. 
+      Ter<lb ed="#P" n="11" break="no"/>tio an fuerit grauissimum.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e493">
+      ¶ Quantum ad primum 
+      di<lb ed="#P" n="12" break="no"/>cit vnus doctor quod primum peccatum Ade fuit 
+      pecca<lb ed="#P" n="13" break="no"/>tum commissionis non autem omissionis. Peccatum 
+      auta<lb ed="#P" n="14" break="no"/>commissionis potest consistere in duplici actu 
+      volun<lb ed="#P" n="15" break="no"/>tatis scilicet vel in velle vel in nolle. Modo dicit quod 
+      pri<lb ed="#P" n="16" break="no"/>mum peccatum consistere non potest in nolle. Non enim 
+      <lb ed="#P" n="17"/>habet aliquis actum nolendi nisi quia prius 
+      habe<lb ed="#P" n="18" break="no"/>actum volendi de opposito. Unde aliquis non 
+      po<lb ed="#P" n="19" break="no"/>test nolle aliquid nisi quia primo vult oppositum eius 
+      <lb ed="#P" n="20"/>Primus ergo actus peccandi Ade non fuit in nolle: 
+      <lb ed="#P" n="21"/>sed in velle.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e517">
+      ¶ Uelle autem est duplex sicut amor. 
+      <lb ed="#P" n="22"/>Unum est amicitie quo diligitur aliquid in se et 
+      pro<lb ed="#P" n="23" break="no"/>pter se. Aliud est quo diligitur aliquid propter 
+      al<lb ed="#P" n="24" break="no"/>terum vel alteri: et est amor concupiscentie et primus 
+      <lb ed="#P" n="25"/>actus scilicet amicitie est maior vel perfectior seu 
+      inten<lb ed="#P" n="26" break="no"/>sior secundo secundum Aristotelem primo posteriorum. Nam 
+      pro<lb ed="#P" n="27" break="no"/>pter vnumquodque tale et illud magis. Modo dicit 
+      <lb ed="#P" n="28"/>iste doctor quod licet in angelo probabile sit dicere quod 
+      <lb ed="#P" n="29"/>primum peccatum suum fuerit inordinatus amor sui 
+      <lb ed="#P" n="30"/>et amor amicitie nimis quia primo intelligebat seipsum 
+      <lb ed="#P" n="31"/>vel saltem non posterius aliis tamen in homine potest dici 
+      <lb ed="#P" n="32"/>in Adam scilicet qui non primo cognoscebat seipsum quod 
+      <lb ed="#P" n="33"/>primum peccatum suum non fuit inordinatus amor sui: 
+      <lb ed="#P" n="34"/>sed magis alicuius alterius. Puta mulieris sue quam 
+      <lb ed="#P" n="35"/>diligebat amore concupiscentie sibiipsi ad societatem 
+      <lb ed="#P" n="36"/>et solacium et ita primum peccatum Ade fuit inordinatus 
+      <lb ed="#P" n="37"/>amor concupiscentie vxoris sue non concupiscentie 
+      ca<lb ed="#P" n="38" break="no"/>nalis et immundicie: sed societatis et solacii. 
+      Puta<lb ed="#P" n="39" break="no"/>uit enim eam offendere et turbari nisi de pomo cum 
+      <lb ed="#P" n="40"/>ipsa comedisset et ita consequenter ad amorem inord 
+      <lb ed="#P" n="41"/>natum sue vxoris tanquam ad primum peccatum 
+      sequu<lb ed="#P" n="42" break="no"/>tum est peccatum aliud inobedientie ad preceptum 
+      di<lb ed="#P" n="43" break="no"/>uinum per esum ligni vetiti. Unde inobedientia non 
+      <lb ed="#P" n="44"/>fuit primum peccatum Ade: sed inordinatus amor 
+      con<lb ed="#P" n="45" break="no"/>cupiscentie vxoris sue. Hec videtur fuisse intentio 
+      Au<lb ed="#P" n="46" break="no"/>gustini. 12. super Genesim vbi dicit quod Adam 
+      pec<lb ed="#P" n="47" break="no"/>cauit ex quadam familiari et nimia condescensione a 
+      <lb ed="#P" n="48"/>vxorem suam et amicitia mala ad creaturam qua 
+      frequen<lb ed="#P" n="49" break="no"/>ter deus offenditur ne creatura offendatur. 
+      <lb ed="#P" n="50"/>
+            </p>
+            <p xml:id="qrdBas-b79097-d1e582">
+               <lb ed="#P" n="51"/>¶ In isto modo dicendi sunt 
+      <lb ed="#P" n="52"/>aliqua dubia.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e589">
+      ¶ Primo quantum ad hoc quod dicitur quod 
+      <lb ed="#P" n="53"/>primus actus peccandi non potest consistere in nolle 
+      <lb ed="#P" n="54"/>sicut dixerat supra iste doctor de peccato primi 
+      an<lb ed="#P" n="55" break="no"/>geli licet hic non dicat non video hoc esse verum. Non 
+      <lb ed="#P" n="56"/>enim video quare voluntas non possit poni aliquid 
+      <lb ed="#P" n="57"/>omittere sicut committere. Unde sicut dicetur infra 
+      <lb ed="#P" n="58"/>Puto quod peccatum omissionis esse potest sine omn 
+      <lb ed="#P" n="59"/>peccato commissionis.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e607">
+      ¶ Secundo quia in potestate 
+      volun<lb ed="#P" n="60" break="no"/>tatis est velle et ita committere vel omittere eque 
+      pri<lb ed="#P" n="61" break="no"/>mo sicut et velle et non velle eque primo: quare etc. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e615">
+               <lb ed="#P" n="62"/>¶ Postea contra illud quod ipse dicit hic quod primum 
+      <lb ed="#P" n="63"/>peccatum hominis non potuit esse in actu nolendi 
+      posi<lb ed="#P" n="64" break="no"/>tiuo. Dico quod immo. Potuit enim primo nolle aliquid 
+      <!--247.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>vel detestari aliquid quo quid nolle peccasset 
+      commit<lb ed="#P" n="66" break="no"/>siue nec video: quare non. Si enim non posset aliquis 
+      <lb ed="#P" n="67"/>molle inordinate nisi prius volendo inordinate 
+      opor<lb ed="#P" n="68" break="no"/>teret quod omne peccatum actuale precedens in actu 
+      vo<lb ed="#P" n="69" break="no"/>lendi quod non videtur verum. Etiam quia in 
+      potesta<lb ed="#P" n="70" break="no"/>te voluntatis est velle vel nolle aliquid: et ita nolle 
+      <lb ed="#P" n="71"/>sicut velle: igitur sicut primo potest velle ita et 
+      nol<lb ed="#P" n="72" break="no"/>le et econuerso. Unde suum motiuum non valet.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e646">
+      ¶ 
+      Di<lb ed="#P" n="73" break="no"/>ces quod nolle non est nisi mali. Nolle autem malum non 
+      <lb ed="#P" n="74"/>est malum nec peccatum et ita homo non potuit pecca 
+      <lb ed="#P" n="75"/>re in actu nollendi. Dico quod nolle potest esse boni 
+      si<lb ed="#P" n="76" break="no"/>cut et odire. Unde planum est quod damnati odiunt deum 
+      <lb ed="#P" n="77"/>et est grauissimum peccatum odium dei et qua ratione 
+      <lb ed="#P" n="78"/>aliquis potest velle oppositum eius quod est iudicatum 
+      <lb ed="#P" n="79"/>bonum et est malum pari ratione dico quod potest nolle 
+      <lb ed="#P" n="80"/>vel odire bonum 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e666">
+               <lb ed="#P" n="81"/>¶ Quantum ad conclusionem 
+      <lb ed="#P" n="82"/>conuenio cum ipso quod homo sic peccauit primo 
+      pec<lb ed="#P" n="83" break="no"/>cato commissionis sicut ipse dicit et quantum ad hoc 
+      ni<lb ed="#P" n="84" break="no"/>chil dico contra eum. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e677">
+               <lb ed="#P" n="85"/>¶ De secundo membro 
+      dici<lb ed="#P" n="86" break="no"/>idem doctor et bene sicut et Magister quod simplicite 
+      <lb ed="#P" n="87"/>loquendo primum peccatum Ade fuit minus 
+      graue<lb ed="#P" n="88" break="no"/>quam primum peccatum Eue. Nam primum peccatum 
+      Eu<lb ed="#P" n="89" break="no"/>fuit appetitus divine equalitatis quam pretendit si 
+      <lb ed="#P" n="90"/>bi dyabolus in temptando: et ideo fuit seducta: quia 
+      <lb ed="#P" n="91"/>appetiuit simpliciter aliquid impossibile sibi ac si 
+      fuis<lb ed="#P" n="92" break="no"/>set possibile. Non quod reputaret hoc possibile: sed quia 
+      <lb ed="#P" n="93"/>hoc appetiuit quasi prius fuisset seducta et putasset 
+      <lb ed="#P" n="94"/>hoc possibile quod tamen non putauit: quia tunc error qui 
+      <lb ed="#P" n="95"/>est pena precessisset culpam quod est falsum.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e703">
+      ¶ 
+      Pri<lb ed="#P" n="96" break="no"/>mum vero peccatum viri fuit inordinatus amor 
+      concu<lb ed="#P" n="97" break="no"/>piscentie sue vxoris vel mulieris vt dictum est supra et 
+      <lb ed="#P" n="98"/>hoc peccatum simpliciter loquendo non fuit tantum nec 
+      <lb ed="#P" n="99"/>ita graue sicut illud vt patet. Uide de hoc. 14. de 
+      ci<lb ed="#P" n="100" break="no"/>ca. II. propter quod etiam dicit Apostolus ad Thyme 
+      <lb ed="#P" n="101"/>teum. 2. quod mulier seducta est: non autem vir ipse est 
+      <lb ed="#P" n="102"/>seductus. Peccauit ergo grauius Eua quam Adam 
+      <lb ed="#P" n="103"/>quia Eua primo peccauit appetendo diuinam 
+      equali<lb ed="#P" n="104" break="no"/>tatem saltem interpretatiue peccando peccato superbie 
+      <lb ed="#P" n="105"/>appetendo propriam celsitudinem non autem Adam. 
+      <lb ed="#P" n="106"/>Tamen videtur dicere Hieronymus super illud. praes. Que 
+      <lb ed="#P" n="107"/>non rapui tunc exsoluebam quod Adam et Eua 
+      volue<lb ed="#P" n="108" break="no"/>runt rapere diuinam equalitatem: et ideo amiserunt 
+      fe<lb ed="#P" n="109" break="no"/>licitatem. Quicquid dicatur hic. Augustinus tamen. 13. 
+      <lb ed="#P" n="110"/>de ci. c. 13. videtur dicere quod peccatum eorum fuit superbia 
+      <lb ed="#P" n="111"/>vel nimia placentia sui et ita inordinatus amor sui. 
+      <lb ed="#P" n="112"/>Et istud potest exponi quod ambo aliquo modo 
+      appe<lb ed="#P" n="113" break="no"/>tierunt: sed Eua grauius et magis directe 
+      appeter<lb ed="#P" n="114" break="no"/>do propriam celsitudinem vel forte etiam ita directe 
+      <lb ed="#P" n="115"/>sicut potest fieri diuinam equalitatem. Adam autem 
+      <lb ed="#P" n="116"/>minus directe et magis interpretatiue peccando 
+      pec<lb ed="#P" n="117" break="no"/>cato minori quam sit alterum predictorum. quia peccato 
+      <lb ed="#P" n="118"/>nimii amoris concupiscentie respectu muleris. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e755">
+               <lb ed="#P" n="119"/>¶ Tamen licet peccatum Ade simpliciter et in se non 
+      <lb ed="#P" n="120"/>fuerit ita graue aliquo modo: tamen secundum quid fuit 
+      gra<lb ed="#P" n="121" break="no"/>uius. Primo quia Adam non habuit tantum 
+      impul<lb ed="#P" n="122" break="no"/>siuum temptationis sicut Eua que fuit immediate 
+      ten<lb ed="#P" n="123" break="no"/>ptata ab hoste. Secundo quia Adam debuit esse 
+      sti<lb ed="#P" n="124" break="no"/>bilior et firmior sicut vir est in apice discretionis 
+      plus<lb ed="#P" n="125" break="no"/>quam mulier. Tertio quia per peccatum Ade fuit infectum 
+      to<lb ed="#P" n="126" break="no"/>tum genus humanum et priuatum originali iusticia. 
+      <lb ed="#P" n="127"/>Nam ipsam acceperat pro tota posteritate sua sicut 
+      <!--248.xml-->
+      <pb ed="#P" n="121-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>perfectior et dignior: non autem ipsa Eua. Unde et 
+      <lb ed="#P" n="2"/>i Adam stetisset et Eua peccasset genus humanum 
+      <lb ed="#P" n="3"/>infecrum non fuisset: ergo etc. 
+      <lb ed="#P" n="4"/>scilicet an peccatum 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e793">
+               <lb ed="#P" n="5"/>¶ De tertio menbro Adefuit 
+      grauis<lb ed="#P" n="6" break="no"/>imum. Dico quod grauitas peccati vno modo potest 
+      at<lb ed="#P" n="7" break="no"/>tendi vel penes speciem peccati in se secundum quod vnum 
+      pec<lb ed="#P" n="8" break="no"/>catum secundum speciem totam est grauius alio. Sicut 
+      adul<lb ed="#P" n="9" break="no"/>terium est grauius simplici fornicatione vel potest 
+      <lb ed="#P" n="10"/>attendi secundum modos et conditiones peccati quantumcumque 
+      <lb ed="#P" n="11"/>non variantes speciem. Sunt enim multe circumstantie quae 
+      <lb ed="#P" n="12"/>speciem peccati non mutant: tamen peccatum aggrauant si 
+      <lb ed="#P" n="13"/>cut est pctantum furari centum libras maius quam vnum dena 
+      <lb ed="#P" n="14"/>rium.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e817">
+      ¶ Primo modo loquendo de grauitate pctin. 
+      <lb ed="#P" n="15"/>Dico quod pectantum Ade non fuit grauissimum: sed 
+      multa<lb ed="#P" n="16" break="no"/>grauiora fiunt modo et pctantum Eue primum fuit 
+      simpli<lb ed="#P" n="17" break="no"/>titer grauius quam peccatum primum Ade et multa alia 
+      <lb ed="#P" n="18"/>fiunt grauiora simpliciter modo quam fuerit illud. 
+      Si<lb ed="#P" n="19" break="no"/>militer etiam si loquamur de peccato secundo quod fuit 
+      <lb ed="#P" n="20"/>comedere de ligno vetito et inobedientia seu 
+      trans<lb ed="#P" n="21" break="no"/>gressio precepti patet quod non fuit grauissimum in se. 
+      <lb ed="#P" n="22"/>Nam actus ille non erat illicitus nec malus de se 
+      pu<lb ed="#P" n="23" break="no"/>ta comedere de illo ligno vetito sed tantum erat malum 
+      <lb ed="#P" n="24"/>quia prohibitum. Unde et bene poterat sieri: sed mul 
+      <lb ed="#P" n="25"/>ti sunt actus peccatorum que fiunt qui sunt de se 
+      ma<lb ed="#P" n="26" break="no"/>li nec possunt bene fieri: sed semper fiunt damnabiliter 
+      <lb ed="#P" n="27"/>sicut odium dei vel blasphemia et omnes actus contra 
+      <lb ed="#P" n="28"/>legem nature quorum opposita cadunt sub preceptis 
+      <lb ed="#P" n="29"/>vel ipsamet sub prohibitionibus que etiam mala 
+      es<lb ed="#P" n="30" break="no"/>sent si non essent prohibita. Et patet per Aristotelem 
+      <lb ed="#P" n="31"/>tertio ethicorum quod sunt quedam de se mala et malicie 
+      <lb ed="#P" n="32"/>conuoluta que non possunt bene fieri. Et Augustinus 
+      <lb ed="#P" n="33"/>dicit hoc idem contra mendacium et talia pctam sunt 
+      gra<lb ed="#P" n="34" break="no"/>uiora quare etc.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e863">
+      ¶ Sed loquendo de grauitate ex 
+      mo<lb ed="#P" n="35" break="no"/>do peccandi vel circumstantia sicut superius dicebatur 
+      <lb ed="#P" n="36"/>peccatum Ade fuit grauissimum et propter grauitatem 
+      <lb ed="#P" n="37"/>persone et propter facilitatem vitandi si voluisset et 
+      <lb ed="#P" n="38"/>propter casum nature humane qui inde processit nec 
+      <lb ed="#P" n="39"/>hoc arguit maiorem grauitatem peccati in se: quia si 
+      mi<lb ed="#P" n="40" break="no"/>nori peccato peccasset nichilominus genus 
+      huma<lb ed="#P" n="41" break="no"/>num corruisset et grauius forte si pctantum fuit grauius 
+      <lb ed="#P" n="42"/>sicut potuisset fuisse vel esse nec ista fuit grauissima 
+      <lb ed="#P" n="43"/>pena nisi extensiue non intensiue sicut exheredatio 
+      ali<lb ed="#P" n="44" break="no"/>cuius non est grauissima pena que sibi posset infligi: 
+      <lb ed="#P" n="45"/>licet extendat se ad totam posteritatem suam. Hec deu 
+      <lb ed="#P" n="46"/>secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e892">
+               <lb ed="#P" n="47"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="48" break="no"/>tulum. And scilicet pectantum primorum parentum fuit ex ignoram 
+      <lb ed="#P" n="49"/>tia.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e901">
+      ¶ Dicit vnus doctor quod ignorantia contingit in 
+      <lb ed="#P" n="50"/>peccante tripliciter. Uno modo est ignorantia aliquand 
+      <lb ed="#P" n="51"/>ante peccatum et sic est causa aliquo modo peccati et 
+      <lb ed="#P" n="52"/>dispositio ad ipsum et precedit pctantum sic quod 
+      frequen<lb ed="#P" n="53" break="no"/>ter peccans non peccaret si sciret et nisi ignoraret. 
+      Se<lb ed="#P" n="54" break="no"/>cundo modo ignorantia concomitatur petantum: licet 
+      ali<lb ed="#P" n="55" break="no"/>quando non precedat sicut dicimus quod omnis peccans est 
+      <lb ed="#P" n="56"/>ignorans. Nam ex malicia voluntatis peruertitur 
+      re<lb ed="#P" n="57" break="no"/>ctum iudicium practicum rationis. Unde et qualis est 
+      <lb ed="#P" n="58"/>vnusquisque talis finis sibi videtur secundum communiter 
+      lo<lb ed="#P" n="59" break="no"/>quentes. Tertio potest sequi ignorantia pctantum ipsum 
+      <lb ed="#P" n="60"/>quasi pena eius.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e927">
+      ¶ Item ignorantia potest 
+      accipi<lb ed="#P" n="61" break="no"/>dupliciter. Uno modo pro nescientia simplici. Alio 
+      <lb ed="#P" n="62"/>modo pro noticia erronea vel opinione et talis 
+      igno<lb ed="#P" n="63" break="no"/>rantia dicitur error. Ignorantia etiam potest esse vel 
+      <lb ed="#P" n="64"/>facti in se vel quantum ad aliquas eius circumstantias 
+      <!--248.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>vel aliquam.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e946">
+      ¶ Modo ad propositum dicit quod peccatum 
+      <lb ed="#P" n="66"/>primorum parentum non fuit ex ignorantia que esset 
+      er<lb ed="#P" n="67" break="no"/>ror praecedens peccatum: quia secundum Augustinum. 3. de libero 
+      <lb ed="#P" n="68"/>arbitrio error est pena damnati hominis. 
+      Approba<lb ed="#P" n="69" break="no"/>re enim falsa pro veris et reprobare vera pro falsis est 
+      <lb ed="#P" n="70"/>pena hominis pro peccato. Sed ante peccatum non 
+      <lb ed="#P" n="71"/>fuit pena: ergo etc. Et hoc est verum tam de ignoran 
+      <lb ed="#P" n="72"/>tia facti quam circumstantiarum: quia in aliquo ante pectantum 
+      <lb ed="#P" n="73"/>non errauir et sciuit esse contra preceptum diuinum 
+      come<lb ed="#P" n="74" break="no"/>dere de ligno vetito nec estimauit aliquod bonum 
+      per<lb ed="#P" n="75" break="no"/>se prouenire. Ita quod si fuit in eis aliquis error vel com 
+      <lb ed="#P" n="76"/>comitabatur vel sequebatur primum peccatum.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e972">
+      ¶ 
+      De<lb ed="#P" n="77" break="no"/>alia autem ignorantia nichil dicit sed puto etiam quod nec 
+      <lb ed="#P" n="78"/>peccauerunt ex aliqua nescientia per se: sed ex 
+      ele<lb ed="#P" n="79" break="no"/>ctione peccauerunt. 
+      </p>
+            <p xml:id="qrdBas-b79097-d1e981">
+               <lb ed="#P" n="80"/>¶ Tamen contra primumdictum 
+      <lb ed="#P" n="81"/>ipse instat: quia si Ade vel voluntati sue presentabatur 
+      <lb ed="#P" n="82"/>per intellectum bonum simpliciter tunc in eligendo non 
+      <lb ed="#P" n="83"/>peccauit. Si bonum apparens et non existens tunc erra 
+      <lb ed="#P" n="84"/>uit: ergo vel non peccauit.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e994">
+      ¶ Ad hoc autem respondet 
+      <lb ed="#P" n="85"/>quod simpliciter bonum offerebatur et presentabatur 
+      vo<lb ed="#P" n="86" break="no"/>luntati Ade per intellectum. Puta diligere vxorem 
+      <lb ed="#P" n="87"/>suam moderate et rationabiliter tamen non voluit nec est 
+      <lb ed="#P" n="88"/>ysus sicut apprehendit. Sciuit enim melius esse deo 
+      <lb ed="#P" n="89"/>placere quam vxori: et tamen vno reiecto elegit aliud scilicet 
+      pla<lb ed="#P" n="90" break="no"/>cere vxori et non ex errore.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e1010">
+      ¶ Unde breuiter prius 
+      <lb ed="#P" n="91"/>peccauit quam errauit. Et hoc probat: quia si ante 
+      pecca<lb ed="#P" n="92" break="no"/>tum errauit: igitur malum apparuit bonum: et tunc aut 
+      <lb ed="#P" n="93"/>ex se apparuit: et tunc circa principium potuit esse 
+      en<lb ed="#P" n="94" break="no"/>ror quod est falsum. Aut ex aliquo alio deductum et hoc 
+      <lb ed="#P" n="95"/>per sillogismum peccantem in materia vel per peccantem 
+      <lb ed="#P" n="96"/>in forma. Si per peccantem in forma videtur quod talis sil 
+      <lb ed="#P" n="97"/>logismus non necessario conclusisset ei. Putatur enim quod 
+      <lb ed="#P" n="98"/>habebat scientiam elenchorum et soluendi argumenta 
+      pec<lb ed="#P" n="99" break="no"/>causatia in forma. Aut per sillogismum peccantem in 
+      ma<lb ed="#P" n="100" break="no"/>teria: et tunc de propositione illa falsa queritur quia 
+      aut<lb ed="#P" n="101" break="no"/>ex se apparet vera: et sic neminem fallit sicut nec primum 
+      <lb ed="#P" n="102"/>principium quod ex se apparet verum vel circa primum 
+      prin<lb ed="#P" n="103" break="no"/>cipium potest esse error. Aut ex alio apparet falsa: 
+      <lb ed="#P" n="104"/>et tunc per sillogismum peccantem in materia vel in 
+      <lb ed="#P" n="105"/>forma sicut prius: et sequitur processus in infinitum 
+      <lb ed="#P" n="106"/>vel est deuenire ad aliquid quod de se apparet falsum 
+      <lb ed="#P" n="107"/>et neminem fallit: quare etc 
+      <lb ed="#P" n="108"/>Quantum ad primum 
+      principa<lb ed="#P" n="109" break="no"/>le dico quod a statu summe rectitudinis potest aliquis 
+      <lb ed="#P" n="110"/>cadere per peccatum veniale aliqualiter licet non 
+      to<lb ed="#P" n="111" break="no"/>taliter et vniuersaliter. Sed dico quod primus homo 
+      <lb ed="#P" n="112"/>a statu innocentie non cecidisset per peccatum veniale: 
+      <lb ed="#P" n="113"/>nec perdidisset originalem iusticiam. Non enim erat ori 
+      <lb ed="#P" n="114"/>ginalis iusticia ita summa rectitudo quin bene 
+      con<lb ed="#P" n="115" break="no"/>pateretur secum peccatum veniale sicut dictum est 
+      <lb ed="#P" n="116"/>supra.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e1069">
+      ¶ Ad secundum dieo quod peccatum ex 
+      certa<lb ed="#P" n="117" break="no"/>scientia et electione potest aliquando esse veniale: 
+      <lb ed="#P" n="118"/>sicut ex certa scientia et electione dicere verbum io 
+      <lb ed="#P" n="119"/>cosum etiam mendacium et sic de talibus.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e1079">
+      ¶ Ad 
+      ter<lb ed="#P" n="120" break="no"/>tium dico quod peccatum veniale non corrumpisset ori 
+      <lb ed="#P" n="121"/>ginalem iusticiam in Adam. Quando dicis: 
+      er<lb ed="#P" n="122" break="no"/>go stante originali iusticia et statu innocentie non 
+      po<lb ed="#P" n="123" break="no"/>tuit esse debitor pene concedo de pena 
+      corresponden<lb ed="#P" n="124" break="no"/>te mortali. Uel dic quod non sequitur. Nam aliter 
+      po<lb ed="#P" n="125" break="no"/>tuisset satisfecisse pro peccato veniali eliciendo 
+      in<lb ed="#P" n="126" break="no"/>tensiorem actum caritatis. Sic enim possunt deleri 
+      <!--249.xml-->
+      <pb ed="#P" n="121-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>venialia: et ita non fuisset debitor alicuius pene: nisi 
+      <lb ed="#P" n="2"/>pro tanto quia fuisset debitor intensioris actus caritatis 
+      <lb ed="#P" n="3"/>qui proprie non est dicendus pena nec penalis cum sit 
+      <lb ed="#P" n="4"/>summe liber et voluntarius.
+    </p>
+            <p xml:id="qrdBas-b79097-d1e1112">
+      ¶ Ad quartum iam 
+      respon<lb ed="#P" n="5" break="no"/>sum est supra quomodo sequela pene ad posteros non 
+      <lb ed="#P" n="6"/>arguit maiorem per se grauitatem peccati Ade: sed  
+      <lb ed="#P" n="7"/>bene arguit quod Adam acceperat originalem iusticiam 
+      <lb ed="#P" n="8"/>pro tota posteritate etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

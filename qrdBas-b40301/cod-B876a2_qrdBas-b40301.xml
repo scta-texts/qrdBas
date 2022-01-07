@@ -1,0 +1,1000 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="61-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b40301"><!--l2d11q1 -->
+            <head xml:id="qrdBas-b40301-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b40301-d1e101">
+               <lb ed="#P" n="107"/>¶ Distinctionis vndecime. 
+      <lb ed="#P" n="108"/>¶ Questio vnica. 
+    </p>
+            <p xml:id="qrdBas-b40301-d1e108">
+               <lb ed="#P" n="109"/>CIrca distinctionem 
+      <lb ed="#P" n="110"/>vndecimam de custodia 
+      angelo<lb ed="#P" n="111" break="no"/>rum respectu hominum quero 
+      <lb ed="#P" n="112"/>vnam questionem scilicet. Utrum 
+      an<lb ed="#P" n="113" break="no"/>gelus deputatus ad custodiam 
+      <lb ed="#P" n="114"/>pominis possit cognoscere 
+      co<lb ed="#P" n="115" break="no"/>aigitationes vel volitiones 
+      oc<lb ed="#P" n="116" break="no"/>scultas hominis et aliquid 
+      cau<lb ed="#P" n="117" break="no"/>sare in ipso vel in mente eius.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e130">
+      Uidetur quod non possit 
+      <lb ed="#P" n="118"/>cognosc ere cogitationes eius. Quod est proprium dei 
+      <lb ed="#P" n="119"/>non potest angelo conuenire. Sed noscere corda 
+      ho<lb ed="#P" n="120" break="no"/>minum et cogitationes cordis hominum vel mentis est 
+      <lb ed="#P" n="121"/>proprium dei. Dicitur enim sibi. Tu solus nosti 
+      cor<lb ed="#P" n="122" break="no"/>da hominum. Et Hieremie. 17. Prauum est cor 
+      ho<lb ed="#P" n="123" break="no"/>minis et inscrutabile quis cognoscet illud. Et 
+      sequi<lb ed="#P" n="124" break="no"/>tur ibidem. Ego deus scrutans corda et renes: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e148">
+               <lb ed="#P" n="125"/>¶ Secundo sic. Apostolus ad Corinthios. Quis  
+      <lb ed="#P" n="126"/>scit que sunt hominis nisi spiritus hominis qui est 
+      <lb ed="#P" n="127"/>in ipso: sed angelus homins non est spiritus homins qui est 
+      <!--130.xml-->
+      <pb ed="#P" n="62-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>in ipso. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e167">
+      ¶ Tertio arguo quod angelus nichil 
+      <lb ed="#P" n="2"/>potest causare in mente hominis custoditi: quia 
+      il<lb ed="#P" n="3" break="no"/>lud quod habet aliquod agens sibi adequatum non 
+      po<lb ed="#P" n="4" break="no"/>test aliquid recipere ab alio. Sed intellectus 
+      possi<lb ed="#P" n="5" break="no"/>bilis hominis habet intellectum proprium agentem 
+      <lb ed="#P" n="6"/>et fantasma pro agente adequato vel agentibus. 
+      er<lb ed="#P" n="7" break="no"/>go etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e183">
+      ¶ Quarto sic. Si intellectus hominis 
+      pos<lb ed="#P" n="8" break="no"/>set recipere aliquid ab angelo pari ratione 
+      volun<lb ed="#P" n="9" break="no"/>tas eius vt videtur. Sed voluntas nichil potest 
+      re<lb ed="#P" n="10" break="no"/>cipere ab angelo: quia hoc esset contra sui 
+      liberta<lb ed="#P" n="11" break="no"/>tem. Ipsa enim soli deo subiecta est. ergo etc. 
+      <lb ed="#P" n="12"/>Contra primum de 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e196">
+               <lb ed="#P" n="13"/>¶ Contra utruum. mones possunt 
+      no<lb ed="#P" n="14" break="no"/>stras cogitationes occultas cognoscere: quia de 
+      ip<lb ed="#P" n="15" break="no"/>sis habent nos accusare in iudicio. ergo et boni 
+      angeli<lb ed="#P" n="16" break="no"/>custodientes hoc possunt.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e207">
+      ¶ Contra secundum quia si 
+      an<lb ed="#P" n="17" break="no"/>gelus non posset aliquid causare in mente hominis 
+      <lb ed="#P" n="18"/>custoditi frustra custodiret ipsum: quia nichil 
+      pos<lb ed="#P" n="19" break="no"/>set facere in eo inquantum rationalis est. Sed hoc est 
+      <lb ed="#P" n="20"/>inconueniens. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e218">
+               <lb ed="#P" n="21"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="22" break="no"/>dam.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e225">
+      ¶ Primo inquiram vtrum cuilibet homini de 
+      <lb ed="#P" n="23"/>putetur bonus angelus ad custodiam sui.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e231">
+      ¶ 
+      Secun<lb ed="#P" n="24" break="no"/>do vtrum bonus angelus vel malus possit 
+      naturali<lb ed="#P" n="25" break="no"/>ter cognoscere cogitationes et volitiones hominis 
+      <lb ed="#P" n="26"/>custoditi ab angelo bono.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e240">
+      ¶ Tertio vtrum 
+      ange<lb ed="#P" n="27" break="no"/>lus bonus custodiens hominem potest aliquid 
+      cau<lb ed="#P" n="28" break="no"/>sare in mente eius. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e247">
+               <lb ed="#P" n="29"/>¶ Quantum ad primum vide 
+      <lb ed="#P" n="30"/>retur forte alicui quod non. Tum quia ad custodiam ho 
+      <lb ed="#P" n="31"/>minis sufficit ipse deus qui est custodiens et custos 
+      <lb ed="#P" n="32"/>sufficiens et gratia eius. Sufficit tibi gratia mea 
+      di<lb ed="#P" n="33" break="no"/>citur secunda ad Corinthios. 12. Tum quia de 
+      antichri<lb ed="#P" n="34" break="no"/>sto videtur quod non sit habiturus angelum bonum ad 
+      <lb ed="#P" n="35"/>custodiam: quia dicitur de ipso secunda ad Thessal. 2. quod 
+      <lb ed="#P" n="36"/>omnes actus eius erunt secundum operationem sathane. Tum 
+      <lb ed="#P" n="37"/>quia de christo videtur quod non habuit angelum ad 
+      cu<lb ed="#P" n="38" break="no"/>stodiam: quia tali custodia non indigebat. poterat 
+      <lb ed="#P" n="39"/>enim seipsum custodire valde bene nec poterat 
+      pec<lb ed="#P" n="40" break="no"/>care quare etc. Tum quia de Adam videtur quod non 
+      ha<lb ed="#P" n="41" break="no"/>buit in statu innocentie angelum custodem: quia cu 
+      <lb ed="#P" n="42"/>stodia illa sibi non potuisset prodesse et similiter de 
+      <lb ed="#P" n="43"/>homine existente in ventre ante puerperium. 
+      Uide<lb ed="#P" n="44" break="no"/>tur enim quod non habeat proprium angelum: sed quod 
+      suffi<lb ed="#P" n="45" break="no"/>ciat angelus custodiens matrem. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e286">
+               <lb ed="#P" n="46"/>¶ Sed non obstantibus istis 
+      <lb ed="#P" n="47"/>dico quod quilibet homo in statu vie habet angelum 
+      <lb ed="#P" n="48"/>bonum sibi ad custodiam deputatum. Hoc non potest 
+      <lb ed="#P" n="49"/>probari ratione sed auctoritate magis. Et patet 
+      pri<lb ed="#P" n="50" break="no"/>mo per illam auctoritatem. Mat. 18. Angeli eorum 
+      <lb ed="#P" n="51"/>semper vident faciem patris mei qui in celis est. Et 
+      <lb ed="#P" n="52"/>enim circa vnumquemque credentem in christo angelorum 
+      <lb ed="#P" n="53"/>magna gratia est. Et glosa super illud dicit sicut 
+      ha<lb ed="#P" n="54" break="no"/>betur in littera Magistri in primo capitulo. De 
+      chri<lb ed="#P" n="55" break="no"/>sto patet hoc specialiter. Luce. 22. quia cum esset in 
+      <lb ed="#P" n="56"/>Agonia apparuit ei angelus domini confortans eum 
+      <lb ed="#P" n="57"/>et intelligitur de proprio angelo ad sui custodiam 
+      <lb ed="#P" n="58"/>deputato. Et per illud psal. Angelus suis 
+      manda<lb ed="#P" n="59" break="no"/>uit de te etc. Et reperitur Math. 4. Hoc apparet 
+      <lb ed="#P" n="60"/>dua bus persuasionibus. Nam sicut prouidit deus 
+      <lb ed="#P" n="61"/>homini viatori de fratre. Ita videtur quod debuerit 
+      <lb ed="#P" n="62"/>prouidere sibi de oportunis et congruis auxiliis ad 
+      <!--130.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>consequendum finem. hoc autem adiutorium videtur 
+      cu<lb ed="#P" n="64" break="no"/>stodia bonorum angelorum inuitantium ad bonum et 
+      <lb ed="#P" n="65"/>retrahentium a malo: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e336">
+      ¶ Secunda persuasio 
+      <lb ed="#P" n="66"/>est quia deus pronior est ad miserendum homini quam ad 
+      <lb ed="#P" n="67"/>exercendum. Sed deus ad exercitium hominum et im 
+      <lb ed="#P" n="68"/>pugnationem permisit angelos malos in aere caligi 
+      <lb ed="#P" n="69"/>noso et proprie nos igitur et deputauit ex misericor 
+      <lb ed="#P" n="70"/>dia angelos bonos custodientes contra talem 
+      pu<lb ed="#P" n="71" break="no"/>gnam. Minor patet per Apostolum ad ephesios. 6. 
+      <lb ed="#P" n="72"/>Non est nobis colluctatio aduersus carnem et san 
+      <lb ed="#P" n="73"/>guinem: sed aduersus principes et potestates 
+      aduer<lb ed="#P" n="74" break="no"/>sus mundi rectores tenebrarum harum contra spiritua 
+      <lb ed="#P" n="75"/>lia nequicie in celestibus hec est congruentia 
+      Hie<lb ed="#P" n="76" break="no"/>ronymi vbi supra quando dicit quod humana fragilitas 
+      <lb ed="#P" n="77"/>non esset secura inter tot et tantas hostis illius insidias 
+      <lb ed="#P" n="78"/>nisi sanctorum angelorum muniretur auxilio. ergo dico 
+      <lb ed="#P" n="79"/>quod quilibet homo pro statu vie siue fidelis siue 
+      infi<lb ed="#P" n="80" break="no"/>delis habet angelum bonum ad sui custodiam 
+      depu<lb ed="#P" n="81" break="no"/>tatum qui gaudetde salute eius non tamen tristatur de 
+      <lb ed="#P" n="82"/>peccatis eius vel de damnatione eius: licet sibi 
+      displi<lb ed="#P" n="83" break="no"/>ceant peccata eius.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e378">
+      ¶ Tertia congruentia quia non 
+      <lb ed="#P" n="84"/>est minus hominem in finem proprium reducere quam 
+      ce<lb ed="#P" n="85" break="no"/>lum mouere. Sed caelum mouetur ab intelligentia 
+      ap<lb ed="#P" n="86" break="no"/>propriata licet deus posset immediate mouere. 
+      er<lb ed="#P" n="87" break="no"/>go etc. Similiter etiam propter connexionem 
+      vniuer<lb ed="#P" n="88" break="no"/>si secundum actionem et passionem partium: quia inferid 
+      <lb ed="#P" n="89"/>ra reguntur a superioribus. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e395">
+               <lb ed="#P" n="90"/>¶ Ad primum in oppositum 
+      di<lb ed="#P" n="91" break="no"/>co quod deus sufficiens est sicut generalis custos 
+      om<lb ed="#P" n="92" break="no"/>nium: sed cum hoc ex summa bonitate communicauit 
+      <lb ed="#P" n="93"/>officium custodiendi ipsis angelis sicut custodibus 
+      <lb ed="#P" n="94"/>specialibus. De gratia vero dei. dico quod sufficit si cu 
+      <lb ed="#P" n="95"/>stodiatur sed ad hoc bene facit angelus. Sicut etiam 
+      <lb ed="#P" n="96"/>non solum angelos sed homines ad custodiam 
+      popu<lb ed="#P" n="97" break="no"/>li deputauit ad conseruationem gratie in mente sicut 
+      <lb ed="#P" n="98"/>dicetur infra et ad recuperationem vel adeptionem 
+      <lb ed="#P" n="99"/>gratie.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e419">
+      ¶ Ad secundum de antichristo dico quod 
+      habe<lb ed="#P" n="100" break="no"/>bit angelum ad custodiam sui qui quantum in se erit 
+      <lb ed="#P" n="101"/>retrahet ipsum a malo et incitabit ad bonum cui 
+      ta<lb ed="#P" n="102" break="no"/>men non adquiescet antichristus ex peruersitate 
+      vo<lb ed="#P" n="103" break="no"/>luntatis sue. Angelus enim siue bonus siue malus non 
+      <lb ed="#P" n="104"/>potest compellere liberum arbitrium ad bonum vel ad 
+      ma<lb ed="#P" n="105" break="no"/>lum.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e435">
+      ¶ Ad aliud de christo dico quod habuit angelum 
+      <lb ed="#P" n="106"/>ad custodiam sui inquantum homo nec vt sic erat 
+      suf<lb ed="#P" n="107" break="no"/>ficiens custos sui: sed inquantum deus sicut etiam deus 
+      <lb ed="#P" n="108"/>custos est aliorum hominum generalis et cum hoc stat cum 
+      <lb ed="#P" n="109"/>stodia angeli specialis.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e446">
+      ¶ Ad aliud de Adam dico 
+      <lb ed="#P" n="110"/>quod in statu innocentie habuit angelum custodem: quia 
+      <lb ed="#P" n="111"/>et si liber fuit in statu innocentie liber fuit a peccato 
+      <lb ed="#P" n="112"/>et periculo: tamen status ille non erat in eo confirmatus 
+      <lb ed="#P" n="113"/>quia sicut de facto apparuit / cecidit: et ideo ad 
+      con<lb ed="#P" n="114" break="no"/>seruandum statum illum bono angelo indigebat.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e459">
+      ¶ Ad 
+      <lb ed="#P" n="115"/>illud de paruulis in ventre. dico quod habent angelos 
+      <lb ed="#P" n="116"/>alios ab angelis matrum ad praeparandum ipsos et 
+      dispo<lb ed="#P" n="117" break="no"/>nendum vel conseruandum ad gratiam et ad 
+      mouen<lb ed="#P" n="118" break="no"/>dum impedimenta vite eorum. Unde et forte ab 
+      ange<lb ed="#P" n="119" break="no"/>lis malis in ventre extinguerentur: nisi esset custodia 
+      <lb ed="#P" n="120"/>bonorum angelorum et habet proprium angelum 
+      qui<lb ed="#P" n="121" break="no"/>libet vt remaneat post natiuitatem et exitum ventris. 
+      <lb ed="#P" n="122"/>Unde ab infusione anime vsque ad mortem semper 
+      ha<lb ed="#P" n="123" break="no"/>bent et simul anima infunditur et eis ad custodiam 
+      ane<lb ed="#P" n="124" break="no"/>gelus deputatur. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e483">
+               <lb ed="#P" n="125"/>¶ Quantum ad secundum ar¬ 
+      <!--131.xml-->
+      <pb ed="#P" n="62-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ticulum idem est omnino iudicium de angelo bono 
+      <lb ed="#P" n="2"/>et malo. Et primo videndum est de cogitationibus 
+      <lb ed="#P" n="3"/>vel intellectionibus. Secundo de volitionibus vtrum 
+      <lb ed="#P" n="4"/>possint eas naturaliter cognoscere. De 
+      cogitatio<lb ed="#P" n="5" break="no"/>nibus vel intellectionibus est vna opinio quod non 
+      pos<lb ed="#P" n="6" break="no"/>sunt eas demones nec angeli boni directe et per se 
+      <lb ed="#P" n="7"/>et certitudinaliter cognoscere. Hoc probatur 
+      mul<lb ed="#P" n="8" break="no"/>tis rationibus.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e513">
+      ¶ Prima est ista. Sicut se habet 
+      vi<lb ed="#P" n="9" break="no"/>sio ad visionem sic intellectio ad intellectionem. Sed per 
+      <lb ed="#P" n="10"/>se et directe visio non potest videri. Patet. ergo nec 
+      in<lb ed="#P" n="11" break="no"/>tellectio vel cogitatio intelligi.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e522">
+      ¶ Secundo sic. Si 
+      <lb ed="#P" n="12"/>angelus cognosceret cogitationem. illa cogitatio 
+      <lb ed="#P" n="13"/>causaret speciem sui in intelligentia angeli vel in 
+      memo<lb ed="#P" n="14" break="no"/>ria. Sed hoc est falsum: quia intellectio aliquam 
+      spe<lb ed="#P" n="15" break="no"/>ciem habere non potest nec causare in memoria alte 
+      <lb ed="#P" n="16"/>rius. Probatio quia nec in memoria sibi 
+      coniuncta<lb ed="#P" n="17" break="no"/>Similiter etiam tunc esset species speciei: et sic 
+      pro<lb ed="#P" n="18" break="no"/>cessus in infinitum ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e540">
+      ¶ Tertio sic. Illud quod non 
+      <lb ed="#P" n="19"/>potest anime vel intellectui illabi et intimari non 
+      po<lb ed="#P" n="20" break="no"/>test cogitationes anime cognoscere propter hoc enim 
+      <lb ed="#P" n="21"/>dicimus quod deus potest eas cognoscere: quia illabi 
+      <lb ed="#P" n="22"/>tur et intimabitur anime. Sed angelus quicumque non 
+      <lb ed="#P" n="23"/>potest illabi et intimari anime vt patet: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e553">
+               <lb ed="#P" n="24"/>¶ Quarto sic. Sicut se habet res ad esse. Ita ad 
+      in<lb ed="#P" n="25" break="no"/>telligi. Sed intelligi est aliquid indiminutum in 
+      es<lb ed="#P" n="26" break="no"/>se. Intellectiones enim et talia non sunt entia 
+      simplici<lb ed="#P" n="27" break="no"/>ter: sed intentionalia vel intentiones obiectorum: vt 
+      <lb ed="#P" n="28"/>videtur. Non sunt ergo simpliciter entes et per 
+      con<lb ed="#P" n="29" break="no"/>sequens non sunt intelligibiles: licet cognoscibiles 
+      <lb ed="#P" n="30"/>vt videtur a quocumque quare etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e571">
+      ¶ Ad hoc 
+      adduci<lb ed="#P" n="31" break="no"/>tur auctoritas de ecclesiasticis dogmatibus. 
+      Inter<lb ed="#P" n="32" break="no"/>nas cogitationes nostras dyabolum non videre 
+      cer<lb ed="#P" n="33" break="no"/>ti sumus. hic est vnus modus dicendi. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e580">
+               <lb ed="#P" n="34"/>¶ Alius est modus dicendi qui 
+      <lb ed="#P" n="35"/>dicit quod in nobis est quedam intellectio simplex quae 
+      per<lb ed="#P" n="36" break="no"/>tinet ad primam operationem intellectus. Alia est 
+      ope<lb ed="#P" n="37" break="no"/>ratio compositiua et diuisiua secundum affirmationem et nega 
+      <lb ed="#P" n="38"/>tionem. Tunc dicit quod angelus naturaliter potest 
+      co<lb ed="#P" n="39" break="no"/>gnoscere cogitationes simplices incomplexas: sed 
+      com<lb ed="#P" n="40" break="no"/>plexas cognoscere non potest.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e599">
+      ¶ Primum probatur 
+      <lb ed="#P" n="41"/>quia cognita causa necessaria et totali alicuius effe 
+      <lb ed="#P" n="42"/>ctus potest naturaliter ex tali causa cognosci 
+      effe<lb ed="#P" n="43" break="no"/>ctus. Sed talis cogitatio simplex de obiecto est 
+      ef<lb ed="#P" n="44" break="no"/>fectus naturaliter causatus in intellectu a 
+      fantas<lb ed="#P" n="45" break="no"/>mate angelus naturaliter potest cognoscere tale vel 
+      <lb ed="#P" n="46"/>illud fantasma et videre ipsum in particulari in 
+      fan<lb ed="#P" n="47" break="no"/>tasia: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e617">
+      ¶ Secundum probatur premittendo istam 
+      <lb ed="#P" n="48"/>propositionem quod omnes intellectiones nostre sunt 
+      <lb ed="#P" n="49"/>eiusdem rationis: quia quelibet operatio propria vel 
+      <lb ed="#P" n="50"/>specifica eiusdem speciei videtur esse eiusdem 
+      ratio<lb ed="#P" n="51" break="no"/>nis cum alia eiusdem speciei. Intellectio autem est 
+      ta<lb ed="#P" n="52" break="no"/>lis operatio nature humane vel hominis. Tunc sic 
+      <lb ed="#P" n="53"/>Angelus non potest cognoscere intellectiones 
+      affir<lb ed="#P" n="54" break="no"/>natiuas vel negatiuas nisi vel ex parte potentie vel 
+      <lb ed="#P" n="55"/>intellectus cogitantis vel ex parte alicuius 
+      represen<lb ed="#P" n="56" break="no"/>tantis vel ex parte ipsius cogitationis vel 
+      cogita<lb ed="#P" n="57" break="no"/>tionum: sed ex parte intellectus non potest: quia intel 
+      <lb ed="#P" n="58"/>lectio semper est idem siue complexio sit affirmatiua si 
+      <lb ed="#P" n="59"/>ue negatiua. Nec ex parte obiecti quia obiectum vel 
+      <lb ed="#P" n="60"/>fantasma est idem etiam. Similiter nec ex parte 
+      ali<lb ed="#P" n="61" break="no"/>cuius representatiui: quia eedem sunt species 
+      affir<lb ed="#P" n="62" break="no"/>mationis et negationis eorumdem terminorum: quia 
+      <lb ed="#P" n="63"/>species non sunt nisi terminorum. Nec ex parte ipsarum 
+      <lb ed="#P" n="64"/>cogitationum: quia complexio affirmatiua et negatiua 
+      <!--131.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>sunt eiusdem rationis: et ita non possunt cognosci 
+      di<lb ed="#P" n="66" break="no"/>stincte nisi differant secundum intensum et remissum. Sed hoc 
+      <lb ed="#P" n="67"/>non sufficit: quia eadem cogitatio affirmatiua potest 
+      es<lb ed="#P" n="68" break="no"/>se intensa et remissa: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e669">
+      ¶ De volitionibus et satis 
+      <lb ed="#P" n="69"/>de cogitationibus dicit vnus doctor quod angeli postesnt 
+      <lb ed="#P" n="70"/>eas naturaliter cognoscere quantum ad substantiam actus 
+      <lb ed="#P" n="71"/>quia sunt obiecta proportionata intellectui 
+      angeli<lb ed="#P" n="72" break="no"/>et possunt sufficienter presentari intellectui 
+      angeli<lb ed="#P" n="73" break="no"/>et per consequens ab eodem naturaliter cognosci si 
+      <lb ed="#P" n="74"/>ad hoc se conuertat.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e685">
+      ¶ Secundo dicit quod ordinem 
+      im<lb ed="#P" n="75" break="no"/>fine qui vocatur autem non potest angelus 
+      naturali<lb ed="#P" n="76" break="no"/>ter cognoscere.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e692">
+      ¶ Primo quia iste ordo volitionis 
+      <lb ed="#P" n="77"/>vel cogitationis in finem dependet ex intrinseca liber 
+      <lb ed="#P" n="78"/>tate voluntatis que soli deo nota est et indifferens 
+      <lb ed="#P" n="79"/>ad istum ordinem vel oppositum. Tum quia talis 
+      re<lb ed="#P" n="80" break="no"/>spectus vel ordo ex se est infinitus et 
+      indetermina<lb ed="#P" n="81" break="no"/>tus. Unde indifferenter potest ordinari 
+      intellectio<lb ed="#P" n="82" break="no"/>vel volitio ad quemcunque finem. Tum quia etiam istud  
+      <lb ed="#P" n="83"/>patet in exemplo quod aliquid potest distincte 
+      cogno<lb ed="#P" n="84" break="no"/>sci non cognoscendo distincte et in particulari 
+      respe<lb ed="#P" n="85" break="no"/>ctus suos sicut possum cognoscere non cognoscendo 
+      <lb ed="#P" n="86"/>cuius filius sit vel cuius pater sit: sic in proposito. 
+      <lb ed="#P" n="87"/>Similiter etiam quia sustantia actus est indifferens ad 
+      <lb ed="#P" n="88"/>talem respectum et non est determinata ad ipsum: ideo 
+      <lb ed="#P" n="89"/>non surgit ex natura actus: sed ab extrinseco. 
+      qua<lb ed="#P" n="90" break="no"/>re et cetera. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e725">
+               <lb ed="#P" n="91"/>¶ Sed contra predictas 
+      opi<lb ed="#P" n="92" break="no"/>niones arguendo simul et respondendo dico ad 
+      que<lb ed="#P" n="93" break="no"/>stionem quod angelus suis naturalibus relictus 
+      poten<lb ed="#P" n="94" break="no"/>tia propinqua potest intuitiue et certitudinaliter 
+      co<lb ed="#P" n="95" break="no"/>gnoscere cogitationes et volitiones nostras et 
+      ordi<lb ed="#P" n="96" break="no"/>nem quemlibet ipsarum actualem ad finem postquam ista 
+      <lb ed="#P" n="97"/>sunt posita in re et in effectu nec video rationem 
+      ali<lb ed="#P" n="98" break="no"/>quam quare non. Ad hoc adduco aliquas rationes 
+      con<lb ed="#P" n="99" break="no"/>tra primam opinionem.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e748">
+      ¶ Prima ratio est ista. 
+      Po<lb ed="#P" n="100" break="no"/>tentia non impedita et disposita naturaliter potest 
+      exi<lb ed="#P" n="101" break="no"/>re in actum circa quodlibet obiectum sibisconuenienter 
+      <lb ed="#P" n="102"/>approximatum et positiuum. Sed omnia ista sunt ob 
+      <lb ed="#P" n="103"/>iecta proportionata intellectui angelico: quia sunt 
+      <lb ed="#P" n="104"/>entia realia in actu et limitata vel creata. Possunt 
+      <lb ed="#P" n="105"/>etiam sufsicienter angelo approximari sicut etiam 
+      an<lb ed="#P" n="106" break="no"/>gelus angelo igitur potentia intellectiua angeli 
+      si<lb ed="#P" n="107" break="no"/>bi relicta et non impedita potest omnia ista intuitiue 
+      <lb ed="#P" n="108"/>cognoscere.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e770">
+      ¶ Secundo sic confirmatur. Sicut se 
+      ha<lb ed="#P" n="109" break="no"/>bet visus ad noticiam coloris intuitiuam sic intellectus 
+      <lb ed="#P" n="110"/>ad rem in actu existentem. Sed visus non impeditus 
+      <lb ed="#P" n="111"/>et dispositus potest colorem sibi praesentem intuitiue 
+      co<lb ed="#P" n="112" break="no"/>gnoscere: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e781">
+      ¶ Tertio sic. Angelus potest intui 
+      <lb ed="#P" n="113"/>tiue cognoscere substantiam anime nostre. Sed 
+      co<lb ed="#P" n="114" break="no"/>gitatio anime vel volitio posita in actu non est 
+      ani<lb ed="#P" n="115" break="no"/>me intimior nec secretior quam sua substantia vel 
+      poten<lb ed="#P" n="116" break="no"/>tia: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e792">
+      ¶ Quarto sic. Quicquid positum in actu 
+      <lb ed="#P" n="117"/>potest intellectus noster naturaliter cognoscere et 
+      <lb ed="#P" n="118"/>intellectus angelicus vt videtur multo fortius suis 
+      <lb ed="#P" n="119"/>naturalibus relictus. Sed intellectus noster potest 
+      <lb ed="#P" n="120"/>suam cogitationem vel volitionem cognoscere licet non 
+      <lb ed="#P" n="121"/>intuitiue pro statu presentis coniunctionis et 
+      separa<lb ed="#P" n="122" break="no"/>tus intuitiue potest. ergo et intellectus angelicus 
+      sepa<lb ed="#P" n="123" break="no"/>ratus intuitiue hoc potest. Similiter etiam non 
+      appa<lb ed="#P" n="124" break="no"/>ret ratio quare angelus non possit naturaliter 
+      cogno<lb ed="#P" n="125" break="no"/>scere cogitationes sicut et fantasmata in fantasia / qua 
+      <lb ed="#P" n="126"/>re etc. Et signum huius est in demoniacis qui 
+      frequen<lb ed="#P" n="127" break="no"/>ter annunciant cogitationes et volitiones appropin 
+      <lb ed="#P" n="128"/>quantium quando permittuntur a deo. Unde videtur quod 
+      <!--132.xml-->
+      <pb ed="#P" n="63-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sibiipsis relicti possint eas cognoscere. 
+      Abstracti<lb ed="#P" n="2" break="no"/>ue etiam dico quod possunt eas cognoscere per 
+      species<lb ed="#P" n="3" break="no"/>receptas et causatas in intellectu eorum ab istis 
+      cogi<lb ed="#P" n="4" break="no"/>tationibus vel volitionibus sicut ab obiectis. Nec 
+      <lb ed="#P" n="5"/>est inconueniens quod speciei sic actus intelligendi sit alis 
+      <lb ed="#P" n="6"/>species in extrinseco intellectum sicut species in 
+      vne<lb ed="#P" n="7" break="no"/>speculo bene est alterius speciei in alio speculo: 
+      li<lb ed="#P" n="8" break="no"/>cet non in eodem loco vniformiter disposito. Sic etiam. 
+      <lb ed="#P" n="9"/>nec in eodem intellectu speciei est alia species licet 
+      <lb ed="#P" n="10"/>bene in intellectu extrinseco quare autem sic est nescio 
+      <lb ed="#P" n="11"/>nisi quia sic exigit natura rei. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e851">
+               <lb ed="#P" n="12"/>¶ Sed contra predicta est 
+      ona<lb ed="#P" n="13" break="no"/>difficultas que adducitur ab aliquibus tenentibus 
+      <lb ed="#P" n="14"/>quod demon vel angelus bonus naturaliter non potest 
+      <lb ed="#P" n="15"/>cognoscere cogitationes nostras nisi voluntas 
+      no<lb ed="#P" n="16" break="no"/>stra velit saltem ipsa nolente non potest. hoc autem 
+      pro<lb ed="#P" n="17" break="no"/>bant sic. Eodem modo subest intellectio vel 
+      volitio<lb ed="#P" n="18" break="no"/>posita in actu ad mouendum vel non mouendum per 
+      <lb ed="#P" n="19"/>modum obiecti siue ad speciem vel actualem 
+      intelli<lb ed="#P" n="20" break="no"/>gentiam extrinsecam imperio voluntatis sicut 
+      spe<lb ed="#P" n="21" break="no"/>cies in memoria ad mouendum vel non mouendum 
+      in<lb ed="#P" n="22" break="no"/>tellectum intrinsecum ad actum. Non enim videtur 
+      ha<lb ed="#P" n="23" break="no"/>bere maiorem potestatem vel maius dominium 
+      volun<lb ed="#P" n="24" break="no"/>tatis super speciem in memoria vt moueat 
+      intelligen<lb ed="#P" n="25" break="no"/>tiam propriam ad actum vel non moueat quam super 
+      in<lb ed="#P" n="26" break="no"/>tellectionem vel volitionem vt moueat vel non moueat 
+      <lb ed="#P" n="27"/>intellectum extrinsecum ad speciem vel actum. Sed 
+      <lb ed="#P" n="28"/>species in memoria non potest causare actum in 
+      pro<lb ed="#P" n="29" break="no"/>prio intellectu nolente voluntate: quia voluntas 
+      ne<lb ed="#P" n="30" break="no"/>cessario habet copulare potentiam cum obiecto vel 
+      <lb ed="#P" n="31"/>in se vel in specie ad hoc vt possit esse actus 
+      intelli<lb ed="#P" n="32" break="no"/>gendi. Unde et potest conuertere vel auertere intel 
+      <lb ed="#P" n="33"/>lectum: vt intelligat vel non intelligat secundum aliquam 
+      spe<lb ed="#P" n="34" break="no"/>ciem. Patet per Augustinum. 9. de trinitate saltem 
+      di<lb ed="#P" n="35" break="no"/>omnibus actibus post primum alias non essent in 
+      pote<lb ed="#P" n="36" break="no"/>state nostra sicut nec primus: quia non est in potesta 
+      <lb ed="#P" n="37"/>te nostra quibus visis tangamur. Sed alii actus / 
+      <lb ed="#P" n="38"/>primis sunt in potestate nostra: quia intelligimus 
+      <lb ed="#P" n="39"/>cum volumus. 3. de anima. ergo similiter intellectio vel 
+      <lb ed="#P" n="40"/>cogitatio nostra non potest mouere intellectum 
+      angi<lb ed="#P" n="41" break="no"/>li extrinsecum nisi ex imperio voluntatis nostre vel 
+      sa<lb ed="#P" n="42" break="no"/>tem nolente voluntate nostra. Hoc videtur confirma 
+      <lb ed="#P" n="43"/>ri per illos qui ponunt oppositum quia ipsimet ponunt 
+      <lb ed="#P" n="44"/>quod angelus loquens alteri libere et ex imperio 
+      volun<lb ed="#P" n="45" break="no"/>tatis causat in ipso speciem vel actum intelligendi de 
+      <lb ed="#P" n="46"/>obiecto et non nisi libere: ergo similiter in 
+      proposito<lb ed="#P" n="47" break="no"/>vt videtur.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e932">
+      ¶ Sed videtur quod ista instantia 
+      intendi<lb ed="#P" n="48" break="no"/>vitare illud in quod incidit. Intendit enim vitare quod an 
+      <lb ed="#P" n="49"/>gelus naturaliter cognoscat vel possit 
+      cognoscere<lb ed="#P" n="50" break="no"/>cogitationes hominum vel volitiones. Et dico quod 
+      <lb ed="#P" n="51"/>hoc cogitur concedere. probatio / quia illud potest 
+      na<lb ed="#P" n="52" break="no"/>turaliter fieri ad quod non oportet concurrere nisi 
+      cau<lb ed="#P" n="53" break="no"/>sas naturales et influentiam generalem prime 
+      cau<lb ed="#P" n="54" break="no"/>se. Sed ad hoc vt angelus cognoscat nostras 
+      cog<lb ed="#P" n="55" break="no"/>tationes nichil aliud a predictis requiritur secundum eos. 
+      <lb ed="#P" n="56"/>Probatio / quia sicut species in memoria ex im 
+      <lb ed="#P" n="57"/>perio voluntatis vel non impediente voluntate 
+      po<lb ed="#P" n="58" break="no"/>test naturaliter causare actum intelligendi in propria 
+      <lb ed="#P" n="59"/>intelligentia sicut cogitatio vel volitio nostra in 
+      in<lb ed="#P" n="60" break="no"/>telligentia extrinseca ipsius angeli sicut est etiam 
+      in<lb ed="#P" n="61" break="no"/>locutione angelorum quem modum loquendi ipsi 
+      te<lb ed="#P" n="62" break="no"/>nent et approbant. ergo naturaliter angelus poterit 
+      co<lb ed="#P" n="63" break="no"/>gnoscere ista sicut etiam anima ex imperio 
+      volunta<lb ed="#P" n="64" break="no"/>tis potest naturaliter intelligere aliud per speciem 
+      <!--132.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>suam et reflectitur super se et actum suum.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e979">
+      ¶ Preterea 
+      <lb ed="#P" n="66"/>Non apparet alia applicatio necessaria actiui ad 
+      <lb ed="#P" n="67"/>passiuum quod presentia eorum ad inuicem vel approxi 
+      <lb ed="#P" n="68"/>matio sufficiens: igitur non oportet quod per 
+      volunta<lb ed="#P" n="69" break="no"/>tem fiat talis applicatio obiecti ad intelligentiam 
+      <lb ed="#P" n="70"/>extrinsecam precipue que non est in potestate eius: 
+      <lb ed="#P" n="71"/>sed sufficit quod angelus sit presens cogitationi actu 
+      <lb ed="#P" n="72"/>existenti vt videtur. Presentia autem angeli ad 
+      volu<lb ed="#P" n="73" break="no"/>tatem nostram vel volitionem non est in potestate 
+      vo<lb ed="#P" n="74" break="no"/>luntatis nostre. Sed angelus potest se facere praesen 
+      <lb ed="#P" n="75"/>tem sibi velit nolit et sic suas cogitationes 
+      natura<lb ed="#P" n="76" break="no"/>liter cognoscere velit nolit et intuitiue et 
+      abstracti<lb ed="#P" n="77" break="no"/>ue sicut dictum est supra.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1008">
+      ¶ Ad instantiam ergo 
+      respon<lb ed="#P" n="78" break="no"/>deo quod maior non est vera magis enim substantie 
+      spe<lb ed="#P" n="79" break="no"/>cies ad causandum vel non causandum actum 
+      intelligen<lb ed="#P" n="80" break="no"/>di in intelligentia intrinseca quam in extrinseca: et hoc 
+      <lb ed="#P" n="81"/>est rationabile quod intellectiones nostre magis sint in 
+      <lb ed="#P" n="82"/>potestate nostra quam intellectiones extrinsece aliorum. 
+      <lb ed="#P" n="83"/>Unde dico quod licet illud intelligere sit in potestate 
+      <lb ed="#P" n="84"/>voluntatis non tamen intellectio angeli quam potest 
+      habe<lb ed="#P" n="85" break="no"/>re de cogitatione nostra nec cogitatio nostra actu 
+      <lb ed="#P" n="86"/>posita inquantum causatiua est per modum obiecti cum 
+      <lb ed="#P" n="87"/>intellectum angeli et voluntate ipsius copulante vtrumque 
+      <lb ed="#P" n="88"/>simul.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1034">
+      ¶ Ad secundum quod confirmatio de modo 
+      lo<lb ed="#P" n="89" break="no"/>quendi angelorum.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1039">
+      ¶ Dico quod ille doctor bene dicit 
+      <lb ed="#P" n="90"/>quod vnus potest loqui alteri causando libere ex 
+      impo<lb ed="#P" n="91" break="no"/>rio voluntatis intellectionem vel speciem obiecti 
+      im<lb ed="#P" n="92" break="no"/>intellectu alterius: sed nunquam quin vnus angelus 
+      po<lb ed="#P" n="93" break="no"/>test cognoscere naturaliter intellectionem alterius 
+      <lb ed="#P" n="94"/>positam in actu velit nolit alius angelus: et tunc in 
+      <lb ed="#P" n="95"/>tellectio illa sola ex parte angeli in qua cogitur 
+      age<lb ed="#P" n="96" break="no"/>ret per modum obiecti et cause partialis 
+      cognitio<lb ed="#P" n="97" break="no"/>nem sui in alio angelo coagente intellectu suo: et tunc 
+      <lb ed="#P" n="98"/>angelus non loqueretur angelo sicut patet ex dictis 
+      <lb ed="#P" n="99"/>eius et intentione in illa questione vbi dicit quod ad 
+      lo<lb ed="#P" n="100" break="no"/>quutionem vnius cum alio requiritur quod tam actiuitas 
+      <lb ed="#P" n="101"/>intellectus quam obiecti si qua sit in obiecto se teneat 
+      <lb ed="#P" n="102"/>ex parte angeli loquentis. Et sic etiam dico in 
+      pro<lb ed="#P" n="103" break="no"/>posito. Non valet etiam quod adducunt Gregorium in 
+      mo<lb ed="#P" n="104" break="no"/>ralibus quod duplex est obstaculum ne possit 
+      cognosci<lb ed="#P" n="105" break="no"/>cogitatio nostra. Unum est moles corporis et non 
+      ha<lb ed="#P" n="106" break="no"/>bet locum respectu angeli. Aliud est voluntas et de 
+      <lb ed="#P" n="107"/>ista dicunt quod habet locum respectu angeli.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1081">
+      ¶ Dico 
+      <lb ed="#P" n="108"/>enim quod neutrum habet locum respectu angeli: sed 
+      respe<lb ed="#P" n="109" break="no"/>ctu hominis cui loquimur ex imperio voluntatis et 
+      <lb ed="#P" n="110"/>que aliter non potest cognoscere voluntatem nostram 
+      <lb ed="#P" n="111"/>nisi loquamur sibi vel significemus. Sic non est de 
+      <lb ed="#P" n="112"/>angelo qui potest eas cognoscere veliti nolit 
+      volun<lb ed="#P" n="113" break="no"/>tas nostra et si non cognoscat aliquando 
+      sufficien<lb ed="#P" n="114" break="no"/>ter approximatus et volens cognoscere. Dico quod hoc 
+      <lb ed="#P" n="115"/>est propter substractionem influentie generalis quia 
+      <lb ed="#P" n="116"/>deus non vult influere suo intellectui ad 
+      cognoscen<lb ed="#P" n="117" break="no"/>dum vel obiecto ad mouendum secundum leges sue sapien 
+      <lb ed="#P" n="118"/>tie quas ordinauit. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1107">
+               <lb ed="#P" n="119"/>¶ Contra secundam opinio. 
+      <lb ed="#P" n="120"/>nem arguendo videtur.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1115">
+      ¶ Primo quod dicat falsum: qui 
+      <lb ed="#P" n="121"/>omnes intellectiones nostre sunt eiusdem 
+      speciei<lb ed="#P" n="122" break="no"/>quia si actus omnes intelligendi sunt eiusdem 
+      speciei<lb ed="#P" n="123" break="no"/>consequenter et habitus generati per ipsos. Sed hoc 
+      <lb ed="#P" n="124"/>est falsum manifestum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1126">
+      ¶ Similiter secundum 
+      philo<lb ed="#P" n="125" break="no"/>sophum. Actus distinguntur per obiecta sicut 
+      poten<lb ed="#P" n="126" break="no"/>tie per actus et obiecta: ergo non sunt eiusdem rationis si 
+      <lb ed="#P" n="127"/>cut nec obiecta nec etiam species obiectorum 
+      median<lb ed="#P" n="128" break="no"/>tibus quibus fit intellectio.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1137">
+      ¶ Tertio quia videtur 
+      <!--133.xml-->
+      <pb ed="#P" n="63-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod cognito obiecto et potentia quae sunt cause sufficien 
+      <lb ed="#P" n="2"/>tes actus complexi cognoscantur actus vel possit 
+      co<lb ed="#P" n="3" break="no"/>gnosci si sua prima ratio valet de actu simplici¬ 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1153">
+               <lb ed="#P" n="4"/>¶ Dices quod obiectum nec intellectus sunt causa 
+      suf<lb ed="#P" n="5" break="no"/>ficiens complexionis affirmatiue vel negatiue: quia 
+      <lb ed="#P" n="6"/>sunt eadem respectu amborum. Tunc quero a te quid 
+      <lb ed="#P" n="7"/>aliud non potes ponere nisi voluntatem. Sed 
+      volun<lb ed="#P" n="8" break="no"/>tas etiam est eadem respectu amborum. Similiter etiam 
+      <lb ed="#P" n="9"/>voluntas non mouetur nisi secundum iudicium rationis: tunc 
+      <lb ed="#P" n="10"/>quero quid mouebit intellectum ad tale iudicium et 
+      ni<lb ed="#P" n="11" break="no"/>chil apparet.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1173">
+      ¶ Quarto quia si intellectiones 
+      om<lb ed="#P" n="12" break="no"/>nes sunt eiusdem speciei: quia sunt operationes 
+      spe<lb ed="#P" n="13" break="no"/>ciei humane pari ratione et intellectio et volitio: quia 
+      <lb ed="#P" n="14"/>ambe sunt humane speciei.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1182">
+      ¶ Preterea etiam tunc 
+      <lb ed="#P" n="15"/>intellectio simplex et complexa sunt eiusdem rationis et 
+      <lb ed="#P" n="16"/>tunc vna potest cognosci naturaliter sicut alia. 
+      Si<lb ed="#P" n="17" break="no"/>militer de recta et reflexa. Similiter etiam non video 
+      <lb ed="#P" n="18"/>quare due forme eiusdem rationis non possint 
+      distin<lb ed="#P" n="19" break="no"/>cte cognosci per seipsas. Dato quod sint equales sicut 
+      <lb ed="#P" n="20"/>etiam intensio illa vel remissio cognosceretur. 
+      Si<lb ed="#P" n="21" break="no"/>militer etiam dico de affirmatione et negatione quam 
+      <lb ed="#P" n="22"/>do ponuntur. Unde quasi totum est fictum. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1203">
+               <lb ed="#P" n="23"/>¶ Contra tertiam opinionem 
+      <lb ed="#P" n="24"/>arguitur multipliciter.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1210">
+      ¶ Primo quantum ad hoc quod 
+      <lb ed="#P" n="25"/>videtur dicere quod intensio sit respectus. Hoc enim non 
+      <lb ed="#P" n="26"/>videtur verum quia intensio est actus voluntatis 
+      si<lb ed="#P" n="27" break="no"/>cut intendere sicut dicetur infra in isto secundo. Actus 
+      <lb ed="#P" n="28"/>autem voluntatis non est respectus. Similiter etiam quia 
+      <lb ed="#P" n="29"/>in intensione consistit meritum et demeritum non autem 
+      <lb ed="#P" n="30"/>in respectu: quare etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1226">
+      ¶ Quantum ad aliud dato quod 
+      <lb ed="#P" n="31"/>sit respectus quare non possit cognosci secundum seipsum 
+      <lb ed="#P" n="32"/>postquam positus est in actu et est aliquid non video: quia 
+      <lb ed="#P" n="33"/>ex tunc determinatus est nec indeterminate vel 
+      in<lb ed="#P" n="34" break="no"/>definite se habens licet surgat ex libertate 
+      volunta<lb ed="#P" n="35" break="no"/>tis sicut etiam et substantia actus.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1239">
+      ¶ Similiter secundum eum 
+      <lb ed="#P" n="36"/>cum respectus cognoscatur per extrema per funda 
+      <lb ed="#P" n="37"/>mentum et terminum et angelus potest naturaliter 
+      co<lb ed="#P" n="38" break="no"/>gnoscete et actum vel finem vel obiectum videtur quod 
+      <lb ed="#P" n="39"/>istum respectum.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1250">
+      ¶ Preterea vltimo quod ita sit 
+      an<lb ed="#P" n="40" break="no"/>gelus cognoscere istum respectum qui est 
+      circumstan<lb ed="#P" n="41" break="no"/>tia finis sicut alias circumstantias morales 
+      intrinse<lb ed="#P" n="42" break="no"/>cas actui et ita non videtur valere iste modus. 
+      Sid<lb ed="#P" n="43" break="no"/>igitur teneo modum alium supradictum. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1261">
+               <lb ed="#P" n="44"/>¶ Ad primum prime opinionis 
+      <lb ed="#P" n="45"/>dico quod non est simile de visione corporali respectu vi 
+      <lb ed="#P" n="46"/>sionis corporalis et de intellectione respectu 
+      intel<lb ed="#P" n="47" break="no"/>lectionis: quia visio artatur ad certum genus entis. 
+      <lb ed="#P" n="48"/>Puta ad colorem vel lucem. Sed intellectio vel 
+      in<lb ed="#P" n="49" break="no"/>tellectus versatur circa totum ens: et ideo licet 
+      vi<lb ed="#P" n="50" break="no"/>sio non potest videri tamen intellectio potest intelligi. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1280">
+               <lb ed="#P" n="51"/>¶ Ad secundum dico quod species vel actus in vno 
+      intel<lb ed="#P" n="52" break="no"/>lectu possunt causare speciem sui in alio intellectu 
+      li<lb ed="#P" n="53" break="no"/>cet non in eodem sicut dictum est supra de specie in 
+      spe<lb ed="#P" n="54" break="no"/>culo.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1291">
+      ¶ Ad tertium dico quod ad hoc non requiritur il 
+      <lb ed="#P" n="55"/>lapsus vel illabi anime nostre sicut deus: sed 
+      suffi<lb ed="#P" n="56" break="no"/>cit esse presens vel sufsicienter approximatum sibi et 
+      <lb ed="#P" n="57"/>hoc potest facere angelus.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1300">
+      ¶ Ad quartum dico quod 
+      <lb ed="#P" n="58"/>cogitatio vel volitio in actu sunt entia vere realia 
+      <lb ed="#P" n="59"/>licet sint intentiones quedam obiectorum et 
+      similitudi<lb ed="#P" n="60" break="no"/>nes. Et licet obiecta non sint ita veraciter in eis nec 
+      <lb ed="#P" n="61"/>realiter sicut in seipsis.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1311">
+      ¶ Ad rationes aliarum 
+      opi<lb ed="#P" n="62" break="no"/>nionum pro quanto sunt contra dicta. Patet quod non 
+      va<lb ed="#P" n="63" break="no"/>dent ex improbationibus earum. Exemplum vltimum 
+      <!--133.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>non est ad propositum: quia dico quod angelus potest 
+      na<lb ed="#P" n="65" break="no"/>turaliter et distincte cognoscere filiationem huius 
+      si<lb ed="#P" n="66" break="no"/>cut et ipsum vel paternitatem eius et similiter dico 
+      con<lb ed="#P" n="67" break="no"/>gitationem vel volitionem et ordinem illum et habebit 
+      <lb ed="#P" n="68"/>talem noticiam ex ipsa cogitatione vel volitione si 
+      <lb ed="#P" n="69"/>cut ex obiecto vt dictum est supra 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1335">
+               <lb ed="#P" n="70"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="71" break="no"/>culum vtrum scilicet angelus vel intelligentia possit 
+      ali<lb ed="#P" n="72" break="no"/>quid causare in intellectum homins fuit opinio 
+      Auicen<lb ed="#P" n="73" break="no"/>ne. 6 naturalium parte. 6. ca. 6. Quod intelligentia 
+      <lb ed="#P" n="74"/>separata creata influit in intellectum nostrum species 
+      <lb ed="#P" n="75"/>intelligibiles sicut totalis causa que quidem species 
+      <lb ed="#P" n="76"/>intelligibiles non manent in intellectum nostro post 
+      <lb ed="#P" n="77"/>actum intelligendi: ita quod per conuersionem ad illa 
+      in<lb ed="#P" n="78" break="no"/>telligentiam noster intellectus intelligit. Et puto quod 
+      <lb ed="#P" n="79"/>llam intelligentiam dicit esse intellectum agentem: 
+      <lb ed="#P" n="80"/>licet tamen ille species non manent tamen in intellectum per fre 
+      <lb ed="#P" n="81"/>quentationem actuum circa idem obiectum 
+      genera<lb ed="#P" n="82" break="no"/>tur aliquis habitus scientialis inclinatiuus ad actum 
+      <lb ed="#P" n="83"/>circa tale obiectum per conuersionem ad ipsam 
+      intel<lb ed="#P" n="84" break="no"/>ligentiam agentem.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1370">
+      ¶ Sed contra Auicennam arguit 
+      <lb ed="#P" n="85"/>vnus doctor prima parte summe sue quod secundum 
+      positio<lb ed="#P" n="86" break="no"/>nem Uuicenne anima frustra vniretur corpori: quia non 
+      <lb ed="#P" n="87"/>vnitur ei propter corporis perfectionem. Forma enim 
+      <lb ed="#P" n="88"/>non est propter materiam: sed econuerso materia pro 
+      <lb ed="#P" n="89"/>pter formam. Nec etiam vniretur corpori propter 
+      perfe<lb ed="#P" n="90" break="no"/>ctionem sue operationis: quia separata existens 
+      pos<lb ed="#P" n="91" break="no"/>set eque bene vel melius recipere species 
+      intelligi<lb ed="#P" n="92" break="no"/>biles ab intelligentia nec comniuncta existens reciperet 
+      <lb ed="#P" n="93"/>species mediante corpore vel fantasmate: sed 
+      imme<lb ed="#P" n="94" break="no"/>diate ab intelligentia: ergo frustra vniretur.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1395">
+      ¶ Sed ista 
+      ra<lb ed="#P" n="95" break="no"/>tio parum valet contra Auicen. quia per eam si valeret 
+      ali<lb ed="#P" n="96" break="no"/>quid sequeretur quod in resurrectione beata anima 
+      fru<lb ed="#P" n="97" break="no"/>stra vniretur corpori: quia non intelliget mediante 
+      <lb ed="#P" n="98"/>corpore vel fantasmate: sed sicut angeli in celo et ideo 
+      <lb ed="#P" n="99"/>diceret Auicenna quod non frustra vniretur corpori vel 
+      <lb ed="#P" n="100"/>vnitur quia non vnitur propter perfectionem totius 
+      <lb ed="#P" n="101"/>compositi quod est constitutum ex corpore et anima sicut 
+      <lb ed="#P" n="102"/>ex causis intrinsecis sicut etiam in resurrectione 
+      vnie<lb ed="#P" n="103" break="no"/>tur.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1417">
+      ¶ Et ideo arguo contra Auicennam primor 
+      <lb ed="#P" n="104"/>quia secundum Aristotelem. Omnis nostra intellectiua 
+      co<lb ed="#P" n="105" break="no"/>gnitio quam habemus hic fit ex preexistenti 
+      cognitio<lb ed="#P" n="106" break="no"/>ne fantastica vel sensitiua. Hinc est quod qui caret 
+      ali<lb ed="#P" n="107" break="no"/>quo sensu impossibile est quod habeat scientiam 
+      sensibi<lb ed="#P" n="108" break="no"/>lis secundum illum sensum. 2. posteriorum. Impossibile est 
+      <lb ed="#P" n="109"/>enim quod cecus naturaliter habeat scientiam de 
+      colori<lb ed="#P" n="110" break="no"/>bus. Sed si positio Auicen. staret non esset istud verum 
+      <lb ed="#P" n="111"/>quia immediate posset accipi scientia vel noticia ab 
+      <lb ed="#P" n="112"/>intelligentia sine sensu mediante ergo etc.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1439">
+      ¶ Secundo 
+      <lb ed="#P" n="113"/>quia si esset vera opinio Auicenne. Sequeretur quod in 
+      <lb ed="#P" n="114"/>tellectus semper cessante actu intelligendi esset in 
+      po<lb ed="#P" n="115" break="no"/>tentia essentiali et remota ad actum intelligendi quia 
+      ca<lb ed="#P" n="116" break="no"/>reret specie et representatiuo obiecti sicut ante actum 
+      <lb ed="#P" n="117"/>quod est falsum: et contra Aristotelem. 3. de anima quia 
+      re<lb ed="#P" n="118" break="no"/>cepta specie intelligimus cum volumus postea sicut 
+      <lb ed="#P" n="119"/>dicit. ergo etc. Dices non valet: quia habitus manet. 
+      <lb ed="#P" n="120"/>Dico quod ille habitus non est representatiuus sed 
+      in<lb ed="#P" n="121" break="no"/>clinatiuus vel facilitatiuus.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1461">
+      ¶ Tertio quia intelligentem 
+      <lb ed="#P" n="122"/>per statu prasentis coniunctionis necesse est fantasmata 
+      spe<lb ed="#P" n="123" break="no"/>culari: sed hoc non esset necesse.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1468">
+      ¶ Dico igitur contra 
+      Auicen<lb ed="#P" n="124" break="no"/>nam quod nec angelus nec intelligentia aliqua creata 
+      extrinse<lb ed="#P" n="125" break="no"/>ca potest aliquid influere in intellectum nostrum 
+      imme<lb ed="#P" n="126" break="no"/>diate nec speciem nec actum intelligendi. Intellectus 
+      <lb ed="#P" n="127"/>enim noster pro statu presentis coniunctionis siue 
+      <!--134.xml-->
+      <pb ed="#P" n="64-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>exordine potentiarum: siue propter penam inflictam 
+      pro<lb ed="#P" n="2" break="no"/>peccato sicut videtur sentire. Augustinus non 
+      po<lb ed="#P" n="3" break="no"/>test aliquid intelligere naturaliter nec aliquam 
+      noti<lb ed="#P" n="4" break="no"/>ciamsiue habitualem siue actualem nisi mediante 
+      fan<lb ed="#P" n="5" break="no"/>tasmate.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1497">
+      ¶ Ex quo concludo quod nec angelus nec 
+      in<lb ed="#P" n="6" break="no"/>telligentia aliqua creata. Nec etiam noster intellect 
+      <lb ed="#P" n="7"/>agens potest rapere intellectum nostrum ad aliquam vt 
+      <lb ed="#P" n="8"/>sionem mere spiritualem vel ad meram intellectionem sui 
+      <lb ed="#P" n="9"/>sicut nec potest imprimere sibi speciem sui immo nec 
+      <lb ed="#P" n="10"/>aliquam speciem imprimere possunt sibi nisi 
+      coager<lb ed="#P" n="11" break="no"/>te fantasmate et si aliqua aliter imprimeretur ab 
+      an<lb ed="#P" n="12" break="no"/>gelo sicut a totali causa illa non esset intellectui 
+      no<lb ed="#P" n="13" break="no"/>stro ratio intelligendi aliquid propter predictas 
+      ra<lb ed="#P" n="14" break="no"/>tiones 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1520">
+               <lb ed="#P" n="15"/>¶ Et tunc dicitur ad istum 
+      arti<lb ed="#P" n="16" break="no"/>culum aliter et primo de intellectione. Secundo de 
+      vo<lb ed="#P" n="17" break="no"/>litione. Quod angelus potest causare intellectionem 
+      in<lb ed="#P" n="18" break="no"/>nobis aliquo modo. Patet per Dyonisium de 
+      di<lb ed="#P" n="19" break="no"/>uinis nomibus vbi dicit expresse quod divine reuelatio 
+      <lb ed="#P" n="20"/>nes veniunt ad homines per angelos: quare etc. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1536">
+               <lb ed="#P" n="21"/>¶ De intellectione vero quomodo causatur ab 
+      ani<lb ed="#P" n="22" break="no"/>gelo in intellectu nostro multi sunt modi dicendi 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1543">
+               <lb ed="#P" n="23"/>¶ Primus modus est quod angelus cum sit simpler 
+      <lb ed="#P" n="24"/>et spiritualis facit se presentem in organo fantasie 
+      <lb ed="#P" n="25"/>vel cum ipso et sic opponit seipsum intellectui 
+      nostro<lb ed="#P" n="26" break="no"/>per modum obiecti et causatur in nobis aliqua intel 
+      <lb ed="#P" n="27"/>lectio sicut quando speculum opponitur speculo. Sed 
+      <lb ed="#P" n="28"/>iste modus per idem reprobatur cum modo dicendi 
+      <lb ed="#P" n="29"/>Auicenne: quia iste modus ponit quod intellectus noste 
+      <lb ed="#P" n="30"/>immediate potest ferri in obiectum spirituale non 
+      fan<lb ed="#P" n="31" break="no"/>tasiatum et moueri ab ipso quod est falsum.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1565">
+      ¶ Alius est 
+      <lb ed="#P" n="32"/>modus dicendi quod angelus vnit lumen suum 
+      intelle<lb ed="#P" n="33" break="no"/>ctuale cum lumine intellectus nostri agentis et sic 
+      for<lb ed="#P" n="34" break="no"/>tificat ipsum: vt possit aliquid intelligere quod prius 
+      <lb ed="#P" n="35"/>non poterat. Sed iste etiam modus est falsus: quia lumen 
+      <lb ed="#P" n="36"/>intellectus nostri agentis cum sit lumen habitum per 
+      <lb ed="#P" n="37"/>creationem: quia consubstantiale anime nostre non 
+      po<lb ed="#P" n="38" break="no"/>test fortificari nisi per creationem ad quod creatura 
+      ati<lb ed="#P" n="39" break="no"/>tingere non potest.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1585">
+      ¶ Tertius modus dicendi est est 
+      <lb ed="#P" n="40"/>angelus potest transferre humorem vnius informatim 
+      <lb ed="#P" n="41"/>specie aliqua fantastica ad organum alterius et sic 
+      <lb ed="#P" n="42"/>mediante illo fantasmate translato causare 
+      intellectio<lb ed="#P" n="43" break="no"/>nem indirecte in ipso. Sed aliis non videtur istud verum 
+      <lb ed="#P" n="44"/>quia dato quod sic transferret talem humorem cum 
+      fantas<lb ed="#P" n="45" break="no"/>mate tamen illud non esset principium vel ratio 
+      intelli<lb ed="#P" n="46" break="no"/>gendi in illo ad quod esset translatum: quia non haberet 
+      <lb ed="#P" n="47"/>ordinem ad sensum mediante quo haustum est nec ad 
+      in<lb ed="#P" n="48" break="no"/>tellectum agentem cum quo natum est immutare: quia 
+      <lb ed="#P" n="49"/>sicut fantasia non est nata moueri nisi a proprio 
+      sens<lb ed="#P" n="50" break="no"/>su: ita nec est nata vti fantasmate nisi generato a 
+      sens<lb ed="#P" n="51" break="no"/>bili mouente proprium sensum. Secundo etiam quia fantat 
+      <lb ed="#P" n="52"/>ma in illo humore non maneret: quia non manent talia 
+      <lb ed="#P" n="53"/>nisi ad praesentiam cause sue et manente eodem ordine 
+      <lb ed="#P" n="54"/>sui ad sensum.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1620">
+      ¶ Sed ad ista posset solui quod primum 
+      <lb ed="#P" n="55"/>non valet: quia fantasia potest vti valde bene 
+      specie<lb ed="#P" n="56" break="no"/>sibi impressa a deo. Sicut si deus infunderet ceco 
+      <lb ed="#P" n="57"/>fantasmata colorum posset intelligere colores. Simi 
+      <lb ed="#P" n="58"/>liter etiam secundum non valet: quia sensibile vel 
+      sen<lb ed="#P" n="59" break="no"/>tire non est nisi causa in fieri respectu fantasmatis 
+      <lb ed="#P" n="60"/>non in esse: et ideo potest manere non habendo eundem 
+      <lb ed="#P" n="61"/>ordinem ad sensibile vel ad sensum. Contra istum tamen 
+      <lb ed="#P" n="62"/>modum videtur: quia fantasia causa est 
+      fantasma<lb ed="#P" n="63" break="no"/>tis sicut sol radii et visus visionis: et ideo in 
+      absen<lb ed="#P" n="64" break="no"/>tia fantasie illius qui causauit ipsum videtur quod non possit 
+      <!--134.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>manere sicut nec lumen in absentia solis naturaliter. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1652">
+               <lb ed="#P" n="66"/>¶ Quartus modus dicendi est quod angelus indirecte 
+      <lb ed="#P" n="67"/>potest causare intellectionem amouendo impedimen 
+      <lb ed="#P" n="68"/>tum si est aliquod sicut cedando humores vel fantas 
+      <lb ed="#P" n="69"/>mata per consequens si fuerint turbata. Similiter 
+      di<lb ed="#P" n="70" break="no"/>uidendo humores vel segregando: et per consequens 
+      <lb ed="#P" n="71"/>fantasmata coextensa et aliter ordinando et 
+      congru<lb ed="#P" n="72" break="no"/>disponendo ad intelligendum ordinate.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1670">
+      ¶ Sed contra 
+      <lb ed="#P" n="73"/>hoc arguunt alii quantum ad secundum dictum quia dictum 
+      <lb ed="#P" n="74"/>satis est certum: quia talis diuisio vel etiam 
+      transmuta<lb ed="#P" n="75" break="no"/>tio fantasmatum nichil videtur immutare circa 
+      fan<lb ed="#P" n="76" break="no"/>tasmata nisi vel secundum ordinem vel secundum multitudinem. 
+      <lb ed="#P" n="77"/>Sed ordo non mutatur nisi per comparationem ad 
+      in<lb ed="#P" n="78" break="no"/>tellectum: quia quomodocumque transponantur semper 
+      <lb ed="#P" n="79"/>intellectus equaliter presens est et habent eundem 
+      ore<lb ed="#P" n="80" break="no"/>dinem ad intellectum. De multitudine planum est quod non 
+      <lb ed="#P" n="81"/>est ad propositum et quod frustra ponitur quia ponit 
+      plu<lb ed="#P" n="82" break="no"/>ra fantasmata eiusdem rationis per diuisionem in eo 
+      <lb ed="#P" n="83"/>dem organo sine necessitate.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1696">
+      ¶ Quintus modus est 
+      <lb ed="#P" n="84"/>quod angelus indirecte potest causare intellectionem 
+      <lb ed="#P" n="85"/>aliquam in nobis proponendo signa sensibilia nostris 
+      <lb ed="#P" n="86"/>sensibus ex quibus possunt hauriri fantasmata et im 
+      <lb ed="#P" n="87"/>mutari intellectus et hoc possunt facere vel in 
+      cor<lb ed="#P" n="88" break="no"/>poribus assumptis vel sine corporibus assumptis 
+      <lb ed="#P" n="89"/>vtendo signis sensibilibus multo fortius quam homines 
+      <lb ed="#P" n="90"/>docendo possint. Sed vtrum angelus potest velocius 
+      <lb ed="#P" n="91"/>vti signis naturalibus ad docendum homines quam 
+      ip<lb ed="#P" n="92" break="no"/>se homo ad docendum vtatur signis ad placitum. 
+      Di<lb ed="#P" n="93" break="no"/>citur hic quod mirum videtur si potest proponere 
+      sen<lb ed="#P" n="94" break="no"/>sui tot sensibilia a quibus abstraherentur tot species 
+      <lb ed="#P" n="95"/>necesse ad vnam magnam argumentationem ita cito 
+      si<lb ed="#P" n="96" break="no"/>cut homo posset vti signis ad placitum institutis 
+      re<lb ed="#P" n="97" break="no"/>presentantibus illa obiecta scilicet verbis.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1729">
+      ¶ Ul 
+      <lb ed="#P" n="98"/>timus modus est qui dicit quod angelus virtute sui 
+      in<lb ed="#P" n="99" break="no"/>tellectus agentis concurrentis cum intellectum 
+      nostre<lb ed="#P" n="100" break="no"/>agente per modum cause partialis potest causare 
+      in<lb ed="#P" n="101" break="no"/>tellectionem in nobis vel speciem concurrente etiam ad 
+      <lb ed="#P" n="102"/>hoc fantasmate et in hoc distinguitur ab Auicenna quod non 
+      <lb ed="#P" n="103"/>est causa totalis quod etiam concurrente fantasmate et 
+      <lb ed="#P" n="104"/>possunt facere isti duo intellectus perfectiorem 
+      effe<lb ed="#P" n="105" break="no"/>ctum quam alter tantum sicut duo calida perfectiorem 
+      calo<lb ed="#P" n="106" break="no"/>rem quam alterum tantum. Nec obstat vt videtur quod potentia 
+      <lb ed="#P" n="107"/>materialis non potest pati ab immateriali: quia hoc 
+      <lb ed="#P" n="108"/>non est verum multo fortius quam nobilior ab 
+      innobilio<lb ed="#P" n="109" break="no"/>ri sicut intellectus a fantasmate. Nescio si iste 
+      mo<lb ed="#P" n="110" break="no"/>dus est possibilis: tamen est probabilis.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1760">
+      ¶ De 
+      volitio<lb ed="#P" n="111" break="no"/>ne dicitur communiter quod angelus non potest causar 
+      <lb ed="#P" n="112"/>directe et per se sicut causa totalis aliquam volitionem 
+      <lb ed="#P" n="113"/>in voluntate nostra propter suam ingenitam libertati 
+      <lb ed="#P" n="114"/>sed bene indirecte et occasionaliter potest esse 
+      cau<lb ed="#P" n="115" break="no"/>sa alicuius nostre volitionis consequenter ad 
+      intelle<lb ed="#P" n="116" break="no"/>ctionem quam causat si voluntans velit conformiter 
+      age<lb ed="#P" n="117" break="no"/>re ad talem intellectionem. Si autem non velit angelus 
+      <lb ed="#P" n="118"/>nichil plus potest. Non video etiam magnum 
+      incon<lb ed="#P" n="119" break="no"/>ueniens nec multum esse contra libertatem: si poneretur 
+      <lb ed="#P" n="120"/>quod actiuum voluntatis angelice coageret actiuo 
+      vo<lb ed="#P" n="121" break="no"/>luntatis nostre ad aliquem perfectiorem actum per 
+      mo<lb ed="#P" n="122" break="no"/>dum cause partialis sicut etiam obiectum suo modo 
+      <lb ed="#P" n="123"/>ecundum aliquos coagit voluntati non obstante libertate 
+      ip<lb ed="#P" n="124" break="no"/>sius et hoc ex ordinatione diuina et per istum modum 
+      an<lb ed="#P" n="125" break="no"/>gelus potest hominem inflammare faciendo in ipso 
+      inten<lb ed="#P" n="126" break="no"/>siorem et perfectiorem actum voluntatis tamen si istud est 
+      <lb ed="#P" n="127"/>verum nescio: hec de tertio articulo. 
+      </p>
+            <p xml:id="qrdBas-b40301-d1e1799">
+               <lb ed="#P" n="128"/>¶ Ad primum principale di¬ 
+      <!--135.xml-->
+      <pb ed="#P" n="64-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>co quod noscere omnes cogitationes hominum et corda 
+      <lb ed="#P" n="2"/>necessario et presentes et futuras et preteritas et in 
+      <lb ed="#P" n="3"/>actu et ex seipso est proprium solius dei non sic 
+      ange<lb ed="#P" n="4" break="no"/>li licet possit aliquas positas in actu cognoscere 
+      na<lb ed="#P" n="5" break="no"/>turaliter.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1822">
+      ¶ Ad secundum dico quod loquitur Apstolus 
+      <lb ed="#P" n="6"/>de homine respectu hominis non respectu angeli vel 
+      <lb ed="#P" n="7"/>spiritus qui potest se facere presentem et intimum ipsi 
+      <lb ed="#P" n="8"/>homini vel loquitur de facto quod communiter demones 
+      <lb ed="#P" n="9"/>vel angeli non cognoscunt: licet possent naturaliter 
+      <lb ed="#P" n="10"/>cognoscere.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1835">
+      ¶ Ad tertium de intellectum agente 
+      <lb ed="#P" n="11"/>adequato intellectui possibili diceretur quod 
+      intelle<lb ed="#P" n="12" break="no"/>ctus agens non est totaliter adequatus extensiue in 
+      <lb ed="#P" n="13"/>tellectui possibili quin potest pati ab alio: licet sit ade 
+      <lb ed="#P" n="14"/>quatus intensiue: quia magis perfectum actum potest 
+      <lb ed="#P" n="15"/>causare in ipso per se acceptus quam aliquis alius per 
+      <lb ed="#P" n="16"/>se acceptus: licet ambo concurrentes possint facere. 
+      <lb ed="#P" n="17"/>perfectiorem actum.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1853">
+      ¶ Aliter dicitur quod per se et 
+      di<lb ed="#P" n="18" break="no"/>recte intellectus noster coniunctus non potest 
+      pati<lb ed="#P" n="19" break="no"/>ab alio intellectum agente quam a suo concurrente semper 
+      <lb ed="#P" n="20"/>fantasmate quo quomodo qui non vellet tenere illum 
+      <lb ed="#P" n="21"/>sextum modum.
+    </p>
+            <p xml:id="qrdBas-b40301-d1e1864">
+      ¶ Ad vltimum de voluntate quomodo 
+      <lb ed="#P" n="22"/>potest ab angelo recipere patet quid sit dicendum. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

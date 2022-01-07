@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="148-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b98054"><!--l2d33q1 -->
+            <head xml:id="qrdBas-b98054-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b98054-d1e101">
+               <lb ed="#P" n="111"/>¶ Distin. xxxiii. Questio vnica. 
+      <lb ed="#P" n="112"/>Irca istam distinctionem 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e108">
+               <lb ed="#P" n="113"/>¶ Quero. vtrum paruuli decendentes 
+      in<lb ed="#P" n="114" break="no"/>loriginali peccato sint puniendi pena 
+      sen<lb ed="#P" n="115" break="no"/>Asus vel tantum pena damni.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e117">
+      ¶ Uidetur 
+      <lb ed="#P" n="116"/>quod pena sensus. Primo sic. Corpora pruerorum sic 
+      de<lb ed="#P" n="117" break="no"/>cedentium non erunt impassibilia sicut corpora bes 
+      <lb ed="#P" n="118"/>torum ergo poterunt pati a calore vel frigore 
+      ni<lb ed="#P" n="119" break="no"/>mio et sic ab aliis nociuis et aliquando habebunt pe 
+      <lb ed="#P" n="120"/>mam sensus.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e130">
+      ¶ Secundo sic. Magis punitur pecca. 
+      <lb ed="#P" n="121"/>tum quodcumque post hanc vitam quam in hac vita. Sed 
+      <lb ed="#P" n="122"/>in hac vita punitur peccatum originale in paruulis 
+      <lb ed="#P" n="123"/>pena sensus. Nam omnes miserie et defectus penales 
+      <lb ed="#P" n="124"/>quos sustinent in hac vitainsunt eis in punitionem 
+      <lb ed="#P" n="125"/>peccati originalis et infliguntur vt videtur. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e144">
+               <lb ed="#P" n="126"/>¶ Tertio sic. Maior pena debetur peccato origi 
+      <!--305.xml-->
+      <pb ed="#P" n="148-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nali quam veniali. Sed veniali debetur pena sensus post 
+      <lb ed="#P" n="2"/>hanc vitam in purgatorio. ergo etc. Maior patet: 
+      <lb ed="#P" n="3"/>quia peccatum originale est maius quam mortale. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e162">
+               <lb ed="#P" n="4"/>¶ Quarto sic. Augustinus de fide ad petrum dicit 
+      <lb ed="#P" n="5"/>sic. Firmissime tene et nullatenus dubites paruulos 
+      <lb ed="#P" n="6"/>qui vel in vtero matris viuere ceperunt et sic morium 
+      <lb ed="#P" n="7"/>tur vel de matribus nati sunt sine sacramento 
+      baptis<lb ed="#P" n="8" break="no"/>mi de hoc seculo transierunt eterno supplicio praemen 
+      <lb ed="#P" n="9"/>dos. Sed eternum supplicium videtur esse. pena sensus ergo etc. 
+      <lb ed="#P" n="10"/>Augustinus in enchiridion Mi¬ 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e180">
+               <lb ed="#P" n="11"/>¶ Contra tissima sane pena eorum quae praeter 
+      <lb ed="#P" n="12"/>peccatum quod contraxerunt nullum insuper addiderunt 
+      <lb ed="#P" n="13"/>Sed si sustinerent penam sensus non esset pena 
+      mitii<lb ed="#P" n="14" break="no"/>sima. igitur etc.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e191">
+      ¶ Preterea etiam quia pena sensus 
+      cor<lb ed="#P" n="15" break="no"/>respondet delectationi in peccato. Iuxta illud 
+      apo<lb ed="#P" n="16" break="no"/>stolis. Quantum glorificauit se et in deliciis fuit tan 
+      <lb ed="#P" n="17"/>tum Date illi tormentum et luctum. Sed in origina 
+      <lb ed="#P" n="18"/>li nulla est delectatio. igitur. etc. 
+      <lb ed="#P" n="19"/>In ista questione sic procedam 
+      <lb ed="#P" n="20"/>Primo inquiram ad euidentiam questionis.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e207">
+      ¶ Utrum 
+      <lb ed="#P" n="21"/>pena sensus sit tantum in potentia appetitiua vel etiam 
+      <lb ed="#P" n="22"/>cum hoc in apprehensiua.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e214">
+      ¶ Secundo inquiram Utrum 
+      <lb ed="#P" n="23"/>paruuli decedentes in originali punientur pena 
+      sen<lb ed="#P" n="24" break="no"/>sus spirituali vel mentali et potentiam circa hoc 
+      ali<lb ed="#P" n="25" break="no"/>quas opiniones.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e224">
+      ¶ Tertio dicam de pena sensus 
+      <lb ed="#P" n="26"/>corparali quid mihi videtur vltimo ad rationes principales 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e229">
+               <lb ed="#P" n="27"/>¶ Quantum ad primum 
+      articu<lb ed="#P" n="28" break="no"/>lum Distinguo primo de pena. Est enim in genere 
+      <lb ed="#P" n="29"/>duplex pena. Una quae dicitur pena damni que est 
+      caren<lb ed="#P" n="30" break="no"/>tia alicuius boni quando debet inesse et pro quando 
+      <lb ed="#P" n="31"/>debet ipsum habere demerita per peccatum. Et isto 
+      <lb ed="#P" n="32"/>modo carentia diuine visionis in illis qui sunt extra 
+      <lb ed="#P" n="33"/>viam est pena. Est enim damnum eis care diuina 
+      vi<lb ed="#P" n="34" break="no"/>sione et fruitione beata.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e249">
+      ¶ Alia est pena que dicitur 
+      <lb ed="#P" n="35"/>pena sensus et accipitur communiter pro omni 
+      dolo<lb ed="#P" n="36" break="no"/>re afflictiuo siue sit spiritualis siue corparalis. 
+      Dolo<lb ed="#P" n="37" break="no"/>re dico demerito per aliquod peccatum sicut est 
+      po<lb ed="#P" n="38" break="no"/>na damnatorum et peccatorum in inferno qui damnati 
+      <lb ed="#P" n="39"/>sunt propter demerita et peccata sua actualia susti 
+      <lb ed="#P" n="40"/>nentes dolorem afflictiuum terribilem non solum 
+      ca<lb ed="#P" n="41" break="no"/>rentiam visionis diuine. Exemplum de prima 
+      pene<lb ed="#P" n="42" break="no"/>est quando alicui propter mala sua aufertur hereditas 
+      <lb ed="#P" n="43"/>propria. Exemplum secunde est quando propter demerita 
+      <lb ed="#P" n="44"/>sua suspenditur vel decollatur. Ad propositum et 
+      <lb ed="#P" n="45"/>go primi artuli est dubium Utrum dolor sensibilis 
+      <lb ed="#P" n="46"/>vel tristicia que dicitur pena sensus sit in sensu vel 
+      <lb ed="#P" n="47"/>in appetitu sensitiuo. Et similiter de dolore 
+      spiri<lb ed="#P" n="48" break="no"/>tuali. Utrum sit in vi apprehensiua puta in intellectu 
+      <lb ed="#P" n="49"/>vel in appetitiua puta in voluntate. De hoc auten 
+      <lb ed="#P" n="50"/>est vna opinio quod dolor sensibilis est in sensu sicut in 
+      <lb ed="#P" n="51"/>subiecto proximo et immediato non autem in 
+      appetitu<lb ed="#P" n="52" break="no"/>sensitiuo.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e291">
+      ¶ Ad hoc adducuntur rationes. Prima est 
+      <lb ed="#P" n="53"/>ista. Dolor est immediatus effectus coniunctionis 
+      dis<lb ed="#P" n="54" break="no"/>conuenientis cum conuenienti. Sed planum est quod ista 
+      con<lb ed="#P" n="55" break="no"/>iunctio disconuenientis fit immediate ad sensum et 
+      no<lb ed="#P" n="56" break="no"/>ad appetitum quia disconueniens non coniungitur appet 
+      <lb ed="#P" n="57"/>tui nisi quia primo sensui. quare etc.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e304">
+      ¶ Secunda 
+      <lb ed="#P" n="58"/>ratio. In illa potentia est primo et immediate 
+      tri<lb ed="#P" n="59" break="no"/>sticia in qua primo et immediate. est complacentia et 
+      <lb ed="#P" n="60"/>delectatio. Sed hoc est in sensu Primo enim visui 
+      compla<lb ed="#P" n="61" break="no"/>cet in pulchro viso et prius delectatur videndo pulchrum 
+      <lb ed="#P" n="62"/>quam deueniat ad appetitum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e317">
+      ¶ Tertia ratio et 
+      <lb ed="#P" n="63"/>In illa potentia est primo et immediate tristicia sine cu¬ 
+      <!--305.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>ius actu impossibile est esse tristiciam immo cuius actu 
+      imma<lb ed="#P" n="65" break="no"/>nens complet rationem tristicie. Sed hoc est potentie 
+      cogni<lb ed="#P" n="66" break="no"/>tiue. Nam perceptio coniunctionis disconuenientium complacet 
+      <lb ed="#P" n="67"/>ritionem tristicie. Est enim perceptio coniunctionis 
+      discon<lb ed="#P" n="68" break="no"/>uenientium sicut etiam delectatio est coniunctio 
+      conue<lb ed="#P" n="69" break="no"/>nientis cum conuenienti cum perceptione eiusdem. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e340">
+               <lb ed="#P" n="70"/>¶ 4o quia circumscriptio appetitu per possibile vel 
+      impos<lb ed="#P" n="71" break="no"/>sibile adhuc sensus delectaretur in obiecto conuenienti sicut 
+      <lb ed="#P" n="72"/>visus in pulchro et offenderetur in obiecto disconuenitur 
+      <lb ed="#P" n="73"/>ti et tamen circumscripto sensu numquam appetitus delectaretur 
+      i<lb ed="#P" n="74" break="no"/>obiecto conuenienti nec tristaretur in obiecto disconueniem 
+      <lb ed="#P" n="75"/>ti. igitur et c. Sed videtur mihi quod ista positio sit falsa. Dico 
+      <lb ed="#P" n="76"/>enim quod dolor vel tristicia sensibilis non est nisi in 
+      appe<lb ed="#P" n="77" break="no"/>titu sensitiuo formaliter et non in sensu sicut in subiecto. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e360">
+               <lb ed="#P" n="78"/>¶ Secundo dico quod in sensu sicut in cognoscente et sicut 
+      <lb ed="#P" n="79"/>obiectum cognitum quemadmodum dicam infra.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e367">
+      ¶ Primum 
+      <lb ed="#P" n="80"/>probo sic. In eodem subiecto sunt formaliter timor et 
+      <lb ed="#P" n="81"/>dolor quia ambo sunt circa idem subiectum. Sed vnum cir 
+      <lb ed="#P" n="82"/>ca illud absens et futurum puta timor. Aliud vero 
+      cir<lb ed="#P" n="83" break="no"/>ca ipsum praesens puta dolor. Sed timor pertinet ad 
+      appeti<lb ed="#P" n="84" break="no"/>tum et non ad sensum vt patet. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e380">
+      ¶ Secunda ratio. Obiectum 
+      <lb ed="#P" n="85"/>doloris sensibilis est malum sensibile sicut obiectum 
+      dle<lb ed="#P" n="86" break="no"/>ctationis est bonum sensibile. Sed malumad appetitum 
+      <lb ed="#P" n="87"/>pertinet magis propie vt obiectum quam sensum. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e389">
+               <lb ed="#P" n="88"/>¶ Tertia rtio ad potentiam que est immediatum principium 
+      <lb ed="#P" n="89"/>fuge pertinet dolor quia dolor etiam est aliquomodo principium 
+      <lb ed="#P" n="90"/>fuge et effectus fugibilis. Sed hoc est appetitus. ergo etc 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e398">
+               <lb ed="#P" n="91"/>¶ Quarta ad eandem potentiam pertinet dolor sicut et 
+      <lb ed="#P" n="92"/>gaudium vel delectatio. Sed gaudium et delectatio non 
+      <lb ed="#P" n="93"/>pertinent nisi ad appetitum sicut nec concupiscibile vt patet 
+      <lb ed="#P" n="94"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e410">
+      ¶ Dico igitur primo quod dolor vel tristicia est 
+      so<lb ed="#P" n="95" break="no"/>lum in appetitu sicut in subiecto et nulloo est 
+      subie<lb ed="#P" n="96" break="no"/>ctiue in sensu vel intellectum sicut nec fruitio vt dictum 
+      <lb ed="#P" n="97"/>est in primo.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e419">
+      ¶ Secundo dico quod licet non sit in sensu vel in 
+      in<lb ed="#P" n="98" break="no"/>tellectum subiectiue tamen obiectiue est in eis. De 
+      intelli<lb ed="#P" n="99" break="no"/>ctu autem patet quod potest cognoscere valde bean dolorem 
+      vel<lb ed="#P" n="100" break="no"/>tristiciam. Sed de sensu magis est dubium. Utrum 
+      appre<lb ed="#P" n="101" break="no"/>hendat tristiciam quae est in appetitu sensitiuo. Et 
+      vide<lb ed="#P" n="102" break="no"/>tur aliqui dicere quod non primo quia non videtur posse immutare sen 
+      <lb ed="#P" n="103"/>sum: quia nec per sui paesentiam quia est in extrinseca potentia. 
+      <lb ed="#P" n="104"/>Nec per speciem quia non videtur haberespem. Secundo quia non percipitur 
+      <lb ed="#P" n="105"/>a sensu particulari vt patet. Nec a sensu communi quia non 
+      ha<lb ed="#P" n="106" break="no"/>bet alia obiecta ab obiectis sensuum particularium vel 
+      <lb ed="#P" n="107"/>actibus eorum. quaere etc. Tertio quia dolor sequitur apprehensio 
+      <lb ed="#P" n="108"/>nem sensitiuam non ergo praecedit nec est immutatiuus ad noti 
+      <lb ed="#P" n="109"/>ciam sensitiuam aliquam vt videtur.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e448">
+      ¶ Dicunt ergo quod 
+      dolor<lb ed="#P" n="110" break="no"/>non apprehenditur ab aliqua potentia sensitiua bruta 
+      er<lb ed="#P" n="111" break="no"/>go licet doleant vel dolorem habeant non tamen sentiunt 
+      <lb ed="#P" n="112"/>dolorem suum vel apprehendunt. Sed non videtur mihi hoc. 
+      Di<lb ed="#P" n="113" break="no"/>co enim quod sensus communis saltem vel ymaginatio seu 
+      fanta<lb ed="#P" n="114" break="no"/>sia potest cognoscere dolorem in appetitu sensitiuo. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e461">
+               <lb ed="#P" n="115"/>¶ Primo quia non videtur probabile quod bruta non percipiunt 
+      <lb ed="#P" n="116"/>dolorem suum et quin sentiant et apprehendant dolorem in 
+      cor<lb ed="#P" n="117" break="no"/>pore suo. Unde et videmus quod apponunt remedia partibus 
+      <lb ed="#P" n="118"/>suis lesis ad effugandum dolorem.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e472">
+      ¶ Secundo quia dolor 
+      <lb ed="#P" n="119"/>iste videtur quod sit sufficienter praesens sensui ad immutandum 
+      tan<lb ed="#P" n="120" break="no"/>quam aliquid sensibile sensu qui saltem nec plus videtur sibi 
+      repu<lb ed="#P" n="121" break="no"/>gnare quod sit sensibilis vel ymaginabils quam actionibus 
+      <lb ed="#P" n="122"/>sensuum particularium siue per speciem siue alio modo. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e483">
+               <lb ed="#P" n="123"/>¶ Tertio quia sensus potest apprehendere conueniens vel 
+      dis<lb ed="#P" n="124" break="no"/>coueniens non solum sibi sed etiam appetitui 
+      sensitiuo<lb ed="#P" n="125" break="no"/>cognoscit enim sibi et appetitui sensitiuo sicut appetitus 
+      <lb ed="#P" n="126"/>appetit sibi et cognitiue. Sed dolor est aliquid summe 
+      <lb ed="#P" n="127"/>disconueniens appetitui sensitiuo ergo etc. Unde sicut 
+      appe<lb ed="#P" n="128" break="no"/>titus refugit dolorem: ita et sensus cognoscit vt videtur et yma¬ 
+      <!--306.xml-->
+      <pb ed="#P" n="149-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ginatio.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e508">
+      ¶ Unde puto quod in ymaginationibus animalium 
+      <lb ed="#P" n="2"/>remanent species doloris quibus cessantibus 
+      do<lb ed="#P" n="3" break="no"/>loribus ymaginantur frequenter dolores ipsos quas 
+      <lb ed="#P" n="4"/>habuerunt.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e517">
+      ¶ Ad primum aliorum dico quod 
+      potes<lb ed="#P" n="5" break="no"/>immutare sensum communem saltem et fantasiam 
+      <lb ed="#P" n="6"/>sicut et actiones sensuum particularium per 
+      specien<lb ed="#P" n="7" break="no"/>suam. Nec video in hoc repugnantiam.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e526">
+      ¶ Ad 
+      secun<lb ed="#P" n="8" break="no"/>dum dico quod potest immutaresensum communem. 
+      <lb ed="#P" n="9"/>Et dico quod potest habere aliquod obiectum quod nec 
+      <lb ed="#P" n="10"/>est obiectum sensus particularis nec actus eius cu 
+      <lb ed="#P" n="11"/>iusmodi est dolor appetitus sensitiui.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e537">
+      ¶ Ad tertium 
+      <lb ed="#P" n="12"/>dico quod non quicumque dolor sequitur apprehensionem 
+      <lb ed="#P" n="13"/>quancumque: sed bene aliquam sequitur et aliquando 
+      <lb ed="#P" n="14"/>precedit ad quam pertinet immutare et mouere 
+      sen<lb ed="#P" n="15" break="no"/>sum communem vel fantasiam.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e548">
+      ¶ Dico ergo quod 
+      pe<lb ed="#P" n="16" break="no"/>na sensus pertinet ad appetitum subiectiue tamen 
+      <lb ed="#P" n="17"/>cognoscitur vel cognoscipotest a sensu vel 
+      intelle<lb ed="#P" n="18" break="no"/>ctu licet ad ipsum non pertineat subiectiue. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e557">
+               <lb ed="#P" n="19"/>¶ Ad primum aliorum contra hoc. Dico quod 
+      discin<lb ed="#P" n="20" break="no"/>ueniens immediatius coniungitur sensui quam 
+      appeti<lb ed="#P" n="21" break="no"/>tui. Sed hoc non est nisi ad causandum notitiam et 
+      <lb ed="#P" n="22"/>tunc causata noticia in sensu causat tristitiam in ar 
+      <lb ed="#P" n="23"/>petitu.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e571">
+      ¶ Ad secundum dico quod nulla potentia 
+      co<lb ed="#P" n="24" break="no"/>gnitiua complacet in obiecto vel delectatur actu el 
+      <lb ed="#P" n="25"/>cito: sed tantum voluntas vel appetitus.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e578">
+      ¶ Ad 
+      ter<lb ed="#P" n="26" break="no"/>tium dico quod licet sine actu sensus aliquo appetitus 
+      <lb ed="#P" n="27"/>non delectetur vel tristetur quia necessaria est 
+      pre<lb ed="#P" n="28" break="no"/>sentatio obiecti per sensum aliquomodo: non tamen 
+      <lb ed="#P" n="29"/>propter hoc sensus delectatur vel tristatur. Nec 
+      i<lb ed="#P" n="30" break="no"/>la cognitio que ponitur in descriptione 
+      delectatio<lb ed="#P" n="31" break="no"/>nis pertinet ad ipsam intrinsece: sed sicut aliquid pri 
+      <lb ed="#P" n="32"/>mum necessario requisitum sicut intelligere ad vel 
+      <lb ed="#P" n="33"/>le vel nolle vel ad fruitionem et non est propter hoc 
+      <lb ed="#P" n="34"/>fruitio.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e600">
+      ¶ Ad quartum dico quod circumscripto 
+      appe<lb ed="#P" n="35" break="no"/>titu nunquam esset aliqua delectatio vel tristicia nec 
+      de<lb ed="#P" n="36" break="no"/>lectaretur sentiens in sensatione conuenientis nec 
+      <lb ed="#P" n="37"/>tristaretur in sensatione disconuenientis. Hec de 
+      <lb ed="#P" n="38"/>primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e611">
+               <lb ed="#P" n="39"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="40" break="no"/>ticulum sunt multi modi dicendi. Primus modus 
+      <lb ed="#P" n="41"/>est quod pueri seu anime puerorum post decessum 
+      nul<lb ed="#P" n="42" break="no"/>lum habent dolorem afflictiuum spiritualem vel 
+      mon<lb ed="#P" n="43" break="no"/>talem: et hoc propter obumbrationem mentis quia su 
+      <lb ed="#P" n="44"/>um statum non percipiunt. Licet enim careat 
+      diui<lb ed="#P" n="45" break="no"/>na visione et fruitione non tamen sciunt se carere: 
+      <lb ed="#P" n="46"/>quia rationem obumbratam habent et obscuratan 
+      <lb ed="#P" n="47"/>et ideo non dolent super hoc vllomodo. Alius est 
+      <lb ed="#P" n="48"/>modus dicendi quod licet anime puerorum vel 
+      pueri<lb ed="#P" n="49" break="no"/>bene cognoscant vel intelligant se carere diuina 
+      be<lb ed="#P" n="50" break="no"/>atitudine ad quam sunt apti nec sint ita obscurati 
+      <lb ed="#P" n="51"/>vel ebetati quin bene cogitant istud vel sciant tamen 
+      nul<lb ed="#P" n="52" break="no"/>lum dolorem habent super hoc nec affliguntur 
+      me<lb ed="#P" n="53" break="no"/>taliter quia sciunt se amisisse gloriam non per 
+      propri<lb ed="#P" n="54" break="no"/>um actum sed per actum alienum puta per actum pri 
+      <lb ed="#P" n="55"/>morum parentum ex quibus contraxerunt origin 
+      <lb ed="#P" n="56"/>le. Similiter etiam sciunt quod nunquam fuerunt 
+      propo<lb ed="#P" n="57" break="no"/>siti vt per actus proprios se disponerent de congruo 
+      <lb ed="#P" n="58"/>ad gratiam et tandem consequerentur gloriam et ita 
+      <lb ed="#P" n="59"/>non dolent quia hoc non fecerunt ita et quod quasi rationab 
+      <lb ed="#P" n="60"/>les non tristantur super hoc quod deus non proposui 
+      <lb ed="#P" n="61"/>eis facere istam gratiam specialem quam non 
+      tene<lb ed="#P" n="62" break="no"/>tur alicui facere nisi velit scilicet quod vel actibus propriis 
+      <lb ed="#P" n="63"/>essent saluati sicut adulti: nec essent gratia 
+      preuen<lb ed="#P" n="64" break="no"/>ti ante actus proprios sicut baptisati consequentes 
+      <!--306.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>gratiam ante vsum liberi arbitrii.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e676">
+      ¶ Alii dicunt quod 
+      <lb ed="#P" n="66"/>non possunt videre quin aliquem dolorem habeant 
+      <lb ed="#P" n="67"/>supposito quod cognoscant statum suum nisi alia 
+      cau<lb ed="#P" n="68" break="no"/>sa assignetur. Primo quia carere illo quod aliquis 
+      <lb ed="#P" n="69"/>vellet habere et scienter carere non potest esse sine 
+      <lb ed="#P" n="70"/>aliqua tristicia sicut adipisci illud quod aliquis de 
+      <lb ed="#P" n="71"/>siderat non potest esse sine gaudio. Nam desiderium 
+      <lb ed="#P" n="72"/>quod differtur vel frustratur affligit animam. Sed 
+      <lb ed="#P" n="73"/>paruli vellent se consecutos fuisse beatitudinem et 
+      <lb ed="#P" n="74"/>sciunt seipsos carere illa: ergo etc. Nec obstat quod per 
+      <lb ed="#P" n="75"/>proprium actum non perdiderunt immo magis vi 
+      <lb ed="#P" n="76"/>detur augere dolorem. Nam immunitas culpe 
+      au<lb ed="#P" n="77" break="no"/>get dolorem pene vt videtur. Unde non minus 
+      do<lb ed="#P" n="78" break="no"/>let aliquis quando scit se exheredatum propter cul 
+      <lb ed="#P" n="79"/>pam parentum quam si esset exheredatus per actum pro 
+      <lb ed="#P" n="80"/>prium.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e711">
+      ¶ Preterea sicut nunc damnatus per actum 
+      <lb ed="#P" n="81"/>proprium dolet de peccato proprio per quod 
+      damna<lb ed="#P" n="82" break="no"/>tus. Ita videtur quod paruuli doleant de peccato 
+      pri<lb ed="#P" n="83" break="no"/>morum parentum per quod sunt damnati. Sed planum 
+      <lb ed="#P" n="84"/>est quod nunc damnati propter actum proprium dolent 
+      <lb ed="#P" n="85"/>polore mentali de peccato proprio quod amiserunt 
+      <lb ed="#P" n="86"/>propter quod sunt damnati iuxta illud dicentes 
+      intra<lb ed="#P" n="87" break="no"/>se penitentiam agentes et pre angustia spiritus 
+      ge<lb ed="#P" n="88" break="no"/>mentes etc. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e732">
+      ¶ Preterea quia non est 
+      gra<lb ed="#P" n="89" break="no"/>tia specialis vel preuilegium speciale quod paruulus 
+      <lb ed="#P" n="90"/>saluetur per baptismum: sed magis lex communis 
+      <lb ed="#P" n="91"/>et ad omnes paruulos iam natos se extendens 
+      nis<lb ed="#P" n="92" break="no"/>esset incuria vel negligentia adultorum vel 
+      infide<lb ed="#P" n="93" break="no"/>litas parentum: quare etc.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e745">
+      ¶ Dicunt ergo quod aliquam 
+      <lb ed="#P" n="94"/>penam sensus mentalem vel spiritualem habent: sed 
+      <lb ed="#P" n="95"/>illa mitigatur in ipsis aliquomodo: et est mitior in 
+      <lb ed="#P" n="96"/>ipsis quam in quocumque damnato per actum proprium 
+      co<lb ed="#P" n="97" break="no"/>gnoscunt enim deum naturaliter: et cognoscunt se 
+      es<lb ed="#P" n="98" break="no"/>se capaces dei et priuari beatitudine diuina: et ideo 
+      <lb ed="#P" n="99"/>tristantur. Uidetur tamen mihi dicendum quod non 
+      <lb ed="#P" n="100"/>tristantur: quia siue cognoscant se carere diuina visio 
+      <lb ed="#P" n="101"/>ne beatifica siue non: de quo dubium quia non puto quod 
+      <lb ed="#P" n="102"/>aliquid naturaliter hoc potest cognoscere de seipso 
+      <lb ed="#P" n="103"/>sicut nec beatitudo illa supernaturalis naturaliter 
+      <lb ed="#P" n="104"/>cognosci potest. Unde philosophi nec ad ipsam 
+      at<lb ed="#P" n="105" break="no"/>tigerunt nec ad ipsam attingere potuerunt: et ideo 
+      <lb ed="#P" n="106"/>si hoc sciunt hoc est per reuelationem specialem. 
+      Ta<lb ed="#P" n="107" break="no"/>men dato quod sciant non tristantur quia deus non in 
+      <lb ed="#P" n="108"/>fluit ad aliquem actum tristicie in ipsis: et sic non sor 
+      <lb ed="#P" n="109"/>tiuntur nec habent aliquam mentalem tristiciam da 
+      <lb ed="#P" n="110"/>to quod considerent obiectum tristabile: vnde et licet 
+      co<lb ed="#P" n="111" break="no"/>gnoscant peccatum Ade et displiceat ipsis 
+      inquan<lb ed="#P" n="112" break="no"/>tum fuit ostensiuum dei et consequenter inquantum 
+      <lb ed="#P" n="113"/>fuit occasio damnationis eorum: non tamen dolent 
+      <lb ed="#P" n="114"/>potest enim esse displicentia de aliquo sine tristicia 
+      <lb ed="#P" n="115"/>vel dolore sicut patet in angelis bonis quibus displicen 
+      <lb ed="#P" n="116"/>peccata nostra non tamen tristantur de ipsis: quia sunt 
+      <lb ed="#P" n="117"/>beati: et per consequens deus aufert vel suspendit 
+      <lb ed="#P" n="118"/>omnem tristiciam et dolorem a mentibus eorum: et 
+      <lb ed="#P" n="119"/>hoc est possibile sicut patet. Potest enim deus 
+      sue<lb ed="#P" n="120" break="no"/>spendere actionem cuiuslibet agentis secundi: et ita 
+      <lb ed="#P" n="121"/>licet presentetur obiectum tristabile: non tamen 
+      cau<lb ed="#P" n="122" break="no"/>satur tristicia in mentibus eorum licet stante 
+      gene<lb ed="#P" n="123" break="no"/>rali influentia si permitterentur sicut exigentia 
+      re<lb ed="#P" n="124" break="no"/>rum et cursus naturalis se habet si cognoscerent si 
+      <lb ed="#P" n="125"/>um statum possent dolere et habere materiam dolem 
+      <lb ed="#P" n="126"/>di.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e819">
+      ¶ Sed posito quod sic relinquerentur a deo esset 
+      noe<lb ed="#P" n="127" break="no"/>dolor ille penalis in ipsis vel pena peccati origina 
+      <lb ed="#P" n="128"/>lis. Dico quod non quia non esset demerita talis tristi 
+      <lb ed="#P" n="129"/>tia per peccatum originale. Tristicia autem vel do¬ 
+      <!--307.xml-->
+      <pb ed="#P" n="149-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>lor positiuus qui vocatur pena sensus non potest es 
+      <lb ed="#P" n="2"/>se pena nisi demeritialicuius per actum proprium 
+      <lb ed="#P" n="3"/>illius cui conuenit pena: igitur etc. Similiter etiam 
+      <lb ed="#P" n="4"/>talis dolor vel tristicia non esset eis in voluntaria quia 
+      <lb ed="#P" n="5"/>absolute loquendo possent talem dolorem vel 
+      tristi<lb ed="#P" n="6" break="no"/>tiam suspendere et possent non dolere.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e848">
+      ¶ Sic igitur 
+      <lb ed="#P" n="7"/>dico breuiter quad anime paruulorum vel cognoscntt 
+      <lb ed="#P" n="8"/>se carere diuina visione ad quam sunt apte et 
+      cogno<lb ed="#P" n="9" break="no"/>scunt se esse vel fuisse aptas ad hoc: et sic dico quod 
+      pe<lb ed="#P" n="10" break="no"/>naliter non tristantur: immo nec tristantur: nec 
+      vn<lb ed="#P" n="11" break="no"/>quam tristabuntur. Deoipsis assistente et ab ipsis 
+      om<lb ed="#P" n="12" break="no"/>nem tristiciam cohibente vel suum statum non 
+      co<lb ed="#P" n="13" break="no"/>gnoscunt: et sic adhuc planum est quod de ipso non 
+      tri<lb ed="#P" n="14" break="no"/>stantur: et sic nullam habent tristiciam mentalem si 
+      <lb ed="#P" n="15"/>ne pena sensus. talem vt videtur. Alioqui enim non 
+      <lb ed="#P" n="16"/>esset pena eorum mitissima quod est contra 
+      Augu<lb ed="#P" n="17" break="no"/>stinum in enchiridion sicut superius est allegatum 
+      <lb ed="#P" n="18"/>Dicitur enim pena mitissima inter penas 
+      damnato<lb ed="#P" n="19" break="no"/>rum quia licet pena carentie et damni eorum sit 
+      mul<lb ed="#P" n="20" break="no"/>to grauior quam aliqua pena sensus per se accepta 
+      ta<lb ed="#P" n="21" break="no"/>men alii damnati duplici pena puniuntur carentie scilicet 
+      <lb ed="#P" n="22"/>et sensus et isti sola pena carentie: et ideo mitissima 
+      <lb ed="#P" n="23"/>hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e887">
+               <lb ed="#P" n="24"/>¶ Quantum ad tercium 
+      arti<lb ed="#P" n="25" break="no"/>culum de dolore sensibili et corporali in appetitu sen 
+      <lb ed="#P" n="26"/>sitiuo est dubium. Utrum post resumptionem 
+      cor<lb ed="#P" n="27" break="no"/>porum babebunt aliquem talem dolorem vel talem 
+      <lb ed="#P" n="28"/>penam sensus. Et videtur aliquibus difficile 
+      vita<lb ed="#P" n="29" break="no"/>re quin aliquem talem dolorem sint habituri aliquando 
+      <lb ed="#P" n="30"/>Tum quia corpora eorum non essent impassibilia per 
+      <lb ed="#P" n="31"/>dotem glorie: et per consequens videtur quod 
+      occurren<lb ed="#P" n="32" break="no"/>tibus actiuis nocentibus sint passuri ab ipsis. Tum 
+      <lb ed="#P" n="33"/>quia non est dare locum in mundo in quo reponan 
+      <lb ed="#P" n="34"/>tur ita temperatum quin aliquando patiantur ex 
+      qua<lb ed="#P" n="35" break="no"/>litate loci vt videtur. Excepto terrestri paradiso piae 
+      <lb ed="#P" n="36"/>quo non erunt cum culpa originali. Tum etiam quia 
+      <lb ed="#P" n="37"/>multomagis poterunt pati quam adam in statu 
+      inno<lb ed="#P" n="38" break="no"/>centie potuit mori: et tamen potuit mori sicut dictum 
+      <lb ed="#P" n="39"/>est supra.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e924">
+      ¶ Sed dico quod nullum dolorem penalem 
+      <lb ed="#P" n="40"/>propter peccatum originale patientur sicut 
+      magi<lb ed="#P" n="41" break="no"/>ster etiam dicit in littera. Licet enim corpora eorum 
+      <lb ed="#P" n="42"/>non sint futura impassibilia per dotem glorie: nec 
+      sim<lb ed="#P" n="43" break="no"/>pliciter immortalia per aliquam dotem quicquid sit 
+      <lb ed="#P" n="44"/>de corporibus beatorum de quibus non est sermo.¬ 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e938">
+               <lb ed="#P" n="45"/>¶ Dico tamen quod diuina prouidentia eis 
+      familia<lb ed="#P" n="46" break="no"/>riter assistente et suspendente omnem dolorem ab 
+      ip<lb ed="#P" n="47" break="no"/>qis non solum mentalem sed etiam corporalem 
+      nu<lb ed="#P" n="48" break="no"/>lam molestiam / nullam penuriam corporalem / 
+      nul<lb ed="#P" n="49" break="no"/>lam tristiciam sustinebunt. Sed gaudebunt in illo 
+      <lb ed="#P" n="50"/>statu suo de multis naturalibus bonis: et de nullo 
+      <lb ed="#P" n="51"/>tristabuntur.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e956">
+      ¶ Et ad hoc alique congruentie 
+      assi<lb ed="#P" n="52" break="no"/>gnantur: quia sicut carebunt dolore mentali ita 
+      ratio<lb ed="#P" n="53" break="no"/>nabile est quod dolore corporali.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e963">
+      ¶ Secundo quia 
+      do<lb ed="#P" n="54" break="no"/>lor vel tristicia sensibilis in penam correspondet deus 
+      <lb ed="#P" n="55"/>lectationi et complacentie vel spontaneitati proprie 
+      <lb ed="#P" n="56"/>voluntatis in peccato qui nunquam quidam habuerunt 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e972">
+               <lb ed="#P" n="57"/>¶ Tertio quia in peccato eorum originali non 
+      fu<lb ed="#P" n="58" break="no"/>it actualis conuersio ad aliquod bonum temporale 
+      <lb ed="#P" n="59"/>et ideo non affligentur per aliquod malum 
+      tempo<lb ed="#P" n="60" break="no"/>rale vel corporale.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e983">
+      ¶ Sed de loco vbi habitabunt 
+      <lb ed="#P" n="61"/>ipsi nescio. Dicunt quidam quod in superficie terre 
+      in<lb ed="#P" n="62" break="no"/>locis amenis cum societate mutua et iocunda et 
+      mul<lb ed="#P" n="63" break="no"/>to pulchriori et iocundiori quam aliqui peccatores 
+      in<lb ed="#P" n="64" break="no"/>hoc mundo qui tamen in hoc mundo non multum tristan¬ 
+      <!--307.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>tur sed gaudent in bonis istis corporalibus et nun 
+      <lb ed="#P" n="66"/>quam vellent alium statum expectare. Uerum est quod 
+      ve<lb ed="#P" n="67" break="no"/>tule dicunt quod in loco qui dicitur campus floridus 
+      <lb ed="#P" n="68"/>habitabunt nescio vbi est ille campus.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e1007">
+      ¶ Ad 
+      ratio<lb ed="#P" n="69" break="no"/>nes aliorum dico bene quod licet absolute loquendo 
+      stan<lb ed="#P" n="70" break="no"/>te influentia generali possunt paruuli dolere 
+      sensi<lb ed="#P" n="71" break="no"/>biliter etiam corporibus resumptis post 
+      resurrecti<lb ed="#P" n="72" break="no"/>onem: non tamen erit hoc deo suspendente omnem. 
+      <lb ed="#P" n="73"/>dolorem ab ipsis etiam quantumcumque presentaretur 
+      <lb ed="#P" n="74"/>obiectum tristabile sicut fecit de pueris in 
+      camino<lb ed="#P" n="75" break="no"/>babylonis.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e1026">
+      ¶ Dico igitur sicut patet ex predictis 
+      <lb ed="#P" n="76"/>quod peccato originali non correspondet pena sensus 
+      <lb ed="#P" n="77"/>eterna que habeat locum post statum resurrectionis 
+      <lb ed="#P" n="78"/>immo nec temporalis proprie loquendo sicut 
+      dice<lb ed="#P" n="79" break="no"/>tur in solutione vnius argumenti. Unde patet quod per 
+      <lb ed="#P" n="80"/>baptismum secundum quod per ipsum remittitur peccatum 
+      <lb ed="#P" n="81"/>priginale tantum in paruulis non remittitur 
+      aliqua<lb ed="#P" n="82" break="no"/>pena sensus: sed tantum pena damni. 
+      </p>
+            <p xml:id="qrdBas-b98054-d1e1044">
+               <lb ed="#P" n="83"/>¶ Ad primum principale 
+      Quan<lb ed="#P" n="84" break="no"/>do dicitur quod corpora pruerorum non erunt 
+      impassi<lb ed="#P" n="85" break="no"/>vilia. patet quid dicendum.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e1053">
+      ¶ Ad secundum dico 
+      <lb ed="#P" n="86"/>quod defectus illi quos sustinent paruuli non sunt 
+      pro<lb ed="#P" n="87" break="no"/>prie penales quia secundum legem et modum nature 
+      conue<lb ed="#P" n="88" break="no"/>nirent paruulis in puris naturalibus. Uerum est tamen 
+      <lb ed="#P" n="89"/>quod non conuenissent nisi fuisset peccatum: et ita sicut 
+      <lb ed="#P" n="90"/>mors conuenisset Adam sine omni peccato nisi 
+      fu<lb ed="#P" n="91" break="no"/>isset ante translatus ad alium statum. Ita ista 
+      con<lb ed="#P" n="92" break="no"/>uenirent paruulis non in penam proprie 
+      accipien<lb ed="#P" n="93" break="no"/>do. Uel dici potest quod magis per ista punitur pecca 
+      <lb ed="#P" n="94"/>tum Ade in sua posteritate quam originale paruulorum 
+      <lb ed="#P" n="95"/>Sed pena talis non est eterna nec debet esse sicut 
+      <lb ed="#P" n="96"/>nec eternaliter puniuntur filii pena sensus propter 
+      <lb ed="#P" n="97"/>peccata parentum.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e1082">
+      ¶ Ad tertium dico quod 
+      origi<lb ed="#P" n="98" break="no"/>nali non debetur pena sensus licet veniali actuali: 
+      <lb ed="#P" n="99"/>quia sicut dictum est supra veniale ex complacentia 
+      <lb ed="#P" n="100"/>et spontaneitate non sit originale.
+    </p>
+            <p xml:id="qrdBas-b98054-d1e1091">
+      ¶ Ad quartum 
+      <lb ed="#P" n="101"/>dico quod augustinus accipit supplicium eternum 
+      pro<lb ed="#P" n="102" break="no"/>pena damni non pro pena sensus etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

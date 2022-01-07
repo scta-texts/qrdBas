@@ -1,0 +1,688 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="125-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b82644"><!--l2d24q2 -->
+            <head xml:id="qrdBas-b82644-Hd1e99">Quaestio 2</head>
+            <p xml:id="qrdBas-b82644-d1e101">
+               <lb ed="#P" n="87"/>¶ Distin. Uigesimequarte. Quod secunda. 
+      <lb ed="#P" n="88"/>Ecundo quero. 
+      <lb ed="#P" n="89"/>Utrum portio superior et in 
+      <lb ed="#P" n="90"/>ferior in creatura rationali vel 
+      <lb ed="#P" n="91"/>intellectuali sint distincte 
+      po<lb ed="#P" n="92" break="no"/>tentie ab inuicem.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e117">
+      ¶ Uide 
+      <lb ed="#P" n="93"/>tur quod sic quia potentie 
+      distin<lb ed="#P" n="94" break="no"/>guuntur per actus / et actus 
+      <lb ed="#P" n="95"/>per obiecta. Sed portio 
+      su<lb ed="#P" n="96" break="no"/>perior et inferior versantur 
+      <lb ed="#P" n="97"/>circa diuersa obiecta: quia vna scilicet superior circa 
+      <lb ed="#P" n="98"/>eterna et superiora vel necessaria. Alia vero scilicemt 
+      <lb ed="#P" n="99"/>inferior circa agibilia ista inferiora secundum Augustinum 
+      <lb ed="#P" n="100"/>duocecimo de trinitate. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e137">
+      ¶ Secundo sic. ratio 
+      <lb ed="#P" n="101"/>cinatiuum et scientificum sunt diuerse potentie vel 
+      prin<lb ed="#P" n="102" break="no"/>cipia in anima vel diuerse partes secundum philosophum 
+      sex<lb ed="#P" n="103" break="no"/>to ethicorum et rationem ponit ibi quia necessarium quod 
+      <lb ed="#P" n="104"/>pertinet ad scientificum et contingens vel agibile quod 
+      <lb ed="#P" n="105"/>respicit ratiocinationem sunt diuersa genere. Sed 
+      <lb ed="#P" n="106"/>secundum Magistrum et Augustinum. Idem habet pro 
+      ob<lb ed="#P" n="107" break="no"/>iecto scientificum et portio superior. Portio enim 
+      su<lb ed="#P" n="108" break="no"/>perior respicit necessaria et eterna. Portio vero 
+      im<lb ed="#P" n="109" break="no"/>terior respicit agibilia et contingentia et sic habet idem 
+      <lb ed="#P" n="110"/>obiectum cum ratiocinatiuo ergo sunt diuerse 
+      poten<lb ed="#P" n="111" break="no"/>tie.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e163">
+      ¶ Tertio sic. Potentia regulans et superior non 
+      <lb ed="#P" n="112"/>est eadem cum potentia regulata et inferiori vt 
+      vi<lb ed="#P" n="113" break="no"/>detur quia cum ista non oporteat distingui in anima 
+      <lb ed="#P" n="114"/>secundum subiectum distinguntur saltem secundum maiorem vel 
+      <lb ed="#P" n="115"/>minorem perfectionem vel nobilitatem. Sed 
+      portio<lb ed="#P" n="116" break="no"/>superior planum est quod est regulans inferiorem. ergo 
+      <lb ed="#P" n="117"/>etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e180">
+      ¶ Quarto sic. Istud in quo consistit imago 
+      trini<lb ed="#P" n="118" break="no"/>tatis in anima est alia potentia et pars anime ab illo / in 
+      <lb ed="#P" n="119"/>quo non consistit imago trinitatis. Sed in portione 
+      <lb ed="#P" n="120"/>superiori consistit imago trinitatis et non in inferiori 
+      <lb ed="#P" n="121"/>secundum Augustinum. 12. de trinitate. ergo etc. 
+      <lb ed="#P" n="122"/>per Magistrum in littera. Et 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e193">
+               <lb ed="#P" n="123"/>¶ Conti. q per Augustinum qui ponunt quod 
+      <lb ed="#P" n="124"/>non sunt distincte vel diuerse potentie. Sed tantum habent 
+      <lb ed="#P" n="125"/>distincta vel diuersa officia circa distincta obiecta. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e202">
+               <lb ed="#P" n="126"/>¶ In ista questione sic proce¬ 
+      <!--257.xml-->
+      <pb ed="#P" n="125-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dam.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e215">
+      ¶ Primo inquiram. Utrum portio superior et 
+      infe<lb ed="#P" n="2" break="no"/>rior ab inuicem distinguantur sicut distincte potentie. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e220">
+               <lb ed="#P" n="3"/>¶ Secundo. Utrum in portione superiori vel inferior 
+      <lb ed="#P" n="4"/>intellectus agens et possibibilis sicut diuerse 
+      poten<lb ed="#P" n="5" break="no"/>tie distinguantur.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e229">
+      ¶ Tertio. Utrum intellectus et 
+      volu<lb ed="#P" n="6" break="no"/>luntas sicut diuerse potentie distinguantur.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e235">
+      ¶ 
+      Quan<lb ed="#P" n="7" break="no"/>to Utrum concupiscibile et irascibile in appetitu 
+      pr<lb ed="#P" n="8" break="no"/>ta in voluntate sint diuerse poe.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e242">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e244">
+               <lb ed="#P" n="9"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="10" break="no"/>culum. Licet vt dicetur in sequentibus articulis 
+      po<lb ed="#P" n="11" break="no"/>tio superior includat plures potentias et similiter 
+      por<lb ed="#P" n="12" break="no"/>tio inferior. Tamen dicitur coniter et tenetur quod non 
+      <lb ed="#P" n="13"/>sunt diuerse potentie adinuicem comparate. Licem enim 
+      <lb ed="#P" n="14"/>portio superior et inferior contineant intellectum et 
+      vo<lb ed="#P" n="15" break="no"/>luntatem que sunt diuerse potentie tamen eadem est 
+      <lb ed="#P" n="16"/>potentia intellectiua pertinens ad superiorem 
+      por<lb ed="#P" n="17" break="no"/>tionem et inferiorem. Similiter eadem voluntas 
+      hin<lb ed="#P" n="18" break="no"/>et inde. Et ita portio superior easdem dicit potentias 
+      <lb ed="#P" n="19"/>sicut inferior et etiam econuerso nec distinguntur ab in 
+      <lb ed="#P" n="20"/>uicem sicut diuerse potentie. Ad hoc predicandum 
+      <lb ed="#P" n="21"/>adduco aliquas rationes.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e275">
+      ¶ Prima est ista. Ad 
+      ea<lb ed="#P" n="22" break="no"/>dem potentiam per se pertinet cognoscere principium 
+      <lb ed="#P" n="23"/>et continuationem. Cuius ratio est quia potentia cognoscens 
+      <lb ed="#P" n="24"/>scientifice conclusionem cognoscit eam sequi ex primo et 
+      <lb ed="#P" n="25"/>deducit eam ex principio. Sed portio inferior 
+      co<lb ed="#P" n="26" break="no"/>gnoscit inferiorem et agibilem ex regulis eternis secundum 
+      <lb ed="#P" n="27"/>Augustinum. 12. de trinitate. tanquam ex principio vel 
+      <lb ed="#P" n="28"/>principiis / ergo portio inferior cognoscit regulas 
+      <lb ed="#P" n="29"/>eternas tanquam principia agibilium vel operabilium 
+      <lb ed="#P" n="30"/>Sed omnis potentia cognoscens regulas eternas est 
+      <lb ed="#P" n="31"/>portio superior secundum Augustinum ibidem igitur eadem 
+      <lb ed="#P" n="32"/>est potentia intellectiua pertinens ad vtramque et 
+      par<lb ed="#P" n="33" break="no"/>ratione eadem est voluntas pertinens ad vtramque 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e304">
+               <lb ed="#P" n="34"/>¶ Secunda ratio est ista. Nam intelligentia portionis 
+      su<lb ed="#P" n="35" break="no"/>perioris et inferioris possunt simul et semel habere 
+      <lb ed="#P" n="36"/>vnum et eundem actum. Sed hoc non esset si essent 
+      di<lb ed="#P" n="37" break="no"/>stincte potentie et diuerse. ergo etc. Probatio 
+      maio<lb ed="#P" n="38" break="no"/>ris quia actus visionis vel fruitionis beatifice non est 
+      <lb ed="#P" n="39"/>nisi vnus in eodem et eiusdem rationis. Sed actus 
+      bea<lb ed="#P" n="40" break="no"/>tificus non est solum in intelligentia portionis 
+      supe<lb ed="#P" n="41" break="no"/>rioris sed etiam inferioris quia vtraque est beatificabi 
+      <lb ed="#P" n="42"/>lis. Ominis enim potentia intellectiua quae potest 
+      intellige<lb ed="#P" n="43" break="no"/>re est beatificabilis et erit beata vel damnata. Et 
+      <lb ed="#P" n="44"/>planum est quod intelligentia inferioris non erit damnata 
+      <lb ed="#P" n="45"/>stante visione in intelligentia superioris portionis. 
+      <lb ed="#P" n="46"/>ergo etc. Et similiter potest argui de fruitione et voluntate 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e335">
+               <lb ed="#P" n="47"/>¶ Tertia ratio est ista. In voluntate portionis 
+      su<lb ed="#P" n="48" break="no"/>perioris et inferionis est vnica tantum nunero caritas quod 
+      <lb ed="#P" n="49"/>suppono quod in vno beato et iusto non est nisi vnus 
+      ha<lb ed="#P" n="50" break="no"/>bitus caritatis et idem numero. Ita quod eadem est 
+      ni<lb ed="#P" n="51" break="no"/>mero caritas in voluntate superioris portionis ad 
+      <lb ed="#P" n="52"/>deum et eadem ad proximum in voluntate portionis 
+      <lb ed="#P" n="53"/>inferioris. Sed hoc non esset nisi essent eadem 
+      po<lb ed="#P" n="54" break="no"/>tentia quia in distinctis et diuersis potentiis non est id 
+      <lb ed="#P" n="55"/>numero habitus sicut nec vnus et idem nunero act 
+      <lb ed="#P" n="56"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e360">
+      ¶ Quarta ratio est ista. Non magis 
+      distin<lb ed="#P" n="57" break="no"/>guntur intelligentia superioris portionis et 
+      inferio<lb ed="#P" n="58" break="no"/>ris quam intellectus practicus et speculatiuus vt videtur 
+      <lb ed="#P" n="59"/>Sed intellectus practicus speculatiuus sunt eadem 
+      <lb ed="#P" n="60"/>potentia sicut dictum est in prologo primi in illa 
+      quo<lb ed="#P" n="61" break="no"/>ne Utrum theologia sit practica vel speclentiatima. ergo etc. 
+      <lb ed="#P" n="62"/>quod portio inferior et superior 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e376">
+               <lb ed="#P" n="63"/>¶ Dico ergo licet includant diuersas 
+      po<lb ed="#P" n="64" break="no"/>tentias tamen eedem potentie numero in vtraque inclu¬ 
+      <!--257.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>duntur. Ita quod eadem est potentia intellectiua per 
+      <lb ed="#P" n="66"/>tinens ad vtramque et eadem volitiua numero pertinens 
+      <lb ed="#P" n="67"/>ad vtramque: et ratio etiam pertinens ad vtramque aliquando ergo 
+      <lb ed="#P" n="68"/>speculatiua aliquando est practica. Ita quod 
+      distinguuntu<lb ed="#P" n="69" break="no"/>penes officia circa diuersa obiecta. Una circa 
+      ne<lb ed="#P" n="70" break="no"/>cessaria et eterna et alia circa temporalia et agibilia 
+      <lb ed="#P" n="71"/>eadem tamen potentia circa vtraque. hoc de prio articulo. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e402">
+               <lb ed="#P" n="72"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="73" break="no"/>ticulum Inquirendum est. Utrum intellectiua 
+      poten<lb ed="#P" n="74" break="no"/>tia quantum ad totum quod includit scilicet intellectum 
+      pos<lb ed="#P" n="75" break="no"/>sibilem et agentem sit distincta potentia a voluntate 
+      <lb ed="#P" n="76"/>et econuerso. Et tenent omnes absque vllo dubio quod sic. 
+      <lb ed="#P" n="77"/>Et probatur primo de intellectum possibili quod 
+      distin<lb ed="#P" n="78" break="no"/>guatur a voluntate. Secundo de intellectum agente. 
+      Te<lb ed="#P" n="79" break="no"/>tio de vtroque simul.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e422">
+      ¶ Primo sic. Potentia 
+      cognu<lb ed="#P" n="80" break="no"/>tiua et non cognitiua sed appetitiua sunt diuerse et 
+      <lb ed="#P" n="81"/>alterius rationis quia nec cognitiua / appetere potest 
+      ne<lb ed="#P" n="82" break="no"/>appetitiua cognoscere. Sed intellectus possibilis 
+      <lb ed="#P" n="83"/>et voluntas sunt huiusmodi vt patet. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e433">
+      ¶ 
+      Secun<lb ed="#P" n="84" break="no"/>do sic. Potentia qua est omnia fieri intelligibiliter 
+      <lb ed="#P" n="85"/>est alia a voluntate: quia voluntati non conuenit hoc 
+      <lb ed="#P" n="86"/>Sed intellectus est huiusmodi. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e442">
+      ¶ Tertio 
+      <lb ed="#P" n="87"/>sic. Ille potentie sunt alterius rationis que non pastesnt 
+      <lb ed="#P" n="88"/>perfici per habitum eiusdem rationis. Sed intellectus 
+      <lb ed="#P" n="89"/>et voluntas nunquam pasent perfici per habitum eiusdem 
+      ra<lb ed="#P" n="90" break="no"/>tionis. ergo etc. Minor patet discurrendo per omnes 
+      <lb ed="#P" n="91"/>habitus siue sint theologici siue naturaliter adqui 
+      <lb ed="#P" n="92"/>sitiue infusi. 
+      <lb ed="#P" n="93"/>Secundo idem probo 
+      dein<lb ed="#P" n="94" break="no"/>tellectum agente respectu voluntatis potentia non 
+      hoa<lb ed="#P" n="95" break="no"/>bens aliquem actum elicitum immanentem sibi non est eadem 
+      <lb ed="#P" n="96"/>cum potentia habente actum elicitum sibi immanetem et 
+      <lb ed="#P" n="97"/>operationem. Sed intellectus agens non habet 
+      ope<lb ed="#P" n="98" break="no"/>rationem aliquam sibi immanentem quia illa nec est 
+      ab<lb ed="#P" n="99" break="no"/>strahere nec intelligere. Non enim est intellectio 
+      in<lb ed="#P" n="100" break="no"/>ipso formaliter sed in intellectum possibili ergo nec in 
+      <lb ed="#P" n="101"/>ipso est species abstracta sed in intellectum possibili. 
+      <lb ed="#P" n="102"/>ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e480">
+      ¶ Secundo sic. Non minus distinguitur 
+      inte<lb ed="#P" n="103" break="no"/>lectus agens a voluntate quod sensus agens si 
+      pone<lb ed="#P" n="104" break="no"/>retur secundum Commentatorem ab appetitu sensitiuo. Sed 
+      <lb ed="#P" n="105"/>planum est quod essent distincte potentie. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e489">
+      ¶ 
+      Te<lb ed="#P" n="106" break="no"/>tio sic. Potentia non habitualis per aliquem 
+      habi<lb ed="#P" n="107" break="no"/>tum est altera simpliciter a potentia habituali per 
+      ha<lb ed="#P" n="108" break="no"/>bitum. Sed intellectus agens non est habitualis 
+      per<lb ed="#P" n="109" break="no"/>aliquem habitum vt patet. Uoluntas autem habitua 
+      <lb ed="#P" n="110"/>bilis est. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e502">
+      ¶ Quarto sic. Licet potentie que 
+      <lb ed="#P" n="111"/>habent idem obiectum primum possint esse diuerse 
+      sim<lb ed="#P" n="112" break="no"/>pliciter tamen potentie que habent diuersa obiecta 
+      pri<lb ed="#P" n="113" break="no"/>ma simpliciter non passent esse eadem potentia vt 
+      vide<lb ed="#P" n="114" break="no"/>tur. Sed voluntas et intellectus agens sunt 
+      huiu<lb ed="#P" n="115" break="no"/>modi: quia intellectus agens habet pro obiecto 
+      adequa<lb ed="#P" n="116" break="no"/>to vel ipsum fantasma vel speciem quam efficit 
+      vel<lb ed="#P" n="117" break="no"/>actum intelligendi et hoc coniunctim vel diuisim. Ud 
+      <lb ed="#P" n="118"/>luntas autem nullo modo habet aliquod istorum pro ob 
+      <lb ed="#P" n="119"/>iecto adquato nec ista coniunctim ergo. Patet quia 
+      <lb ed="#P" n="120"/>nulla alia potest velle. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e526">
+      ¶ Alia ratio. 
+      Po<lb ed="#P" n="121" break="no"/>tentia qua est omnia facere in actu intelligibili est 
+      <lb ed="#P" n="122"/>alia a voluntate. Sed intellectus agens est 
+      huiusmodi<lb ed="#P" n="123" break="no"/>De vtroque simul scilice 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e535">
+               <lb ed="#P" n="124"/>¶ Probo secundo de intelectum agente et 
+      pos<lb ed="#P" n="125" break="no"/>sibili quod vterque distinguitur a voluntate in genere 
+      <lb ed="#P" n="126"/>potentie.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e544">
+      ¶ Et hoc probo. primo sic. Potentia non  
+      <lb ed="#P" n="127"/>libera per essentiam et ex sua ratione est simpliciter alia 
+      <!--258.xml-->
+      <pb ed="#P" n="126-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>potentia ab ipsa voluntate. Plana est ista. sed nec 
+      <lb ed="#P" n="2"/>ter intellectus est liber. Uoluntas est libera 
+      primo<lb ed="#P" n="3" break="no"/>et essentialiter. Quod probo modo vna probatione per 
+      <lb ed="#P" n="4"/>Aristotelem. 9. metaphi. Ubi dicit expresse quod 
+      po<lb ed="#P" n="5" break="no"/>tentia intellectiua non potest se determinare ad 
+      al<lb ed="#P" n="6" break="no"/>terum oppositorum et ideo necessario requiritur 
+      prohe<lb ed="#P" n="7" break="no"/>resis et appetitus determinans sicut ipse dicit ibidem 
+      <lb ed="#P" n="8"/>et commentator suus dicit quod apppetitus vere est dominus 
+      <lb ed="#P" n="9"/>quia determinans et ibidem dicit quod si intellectus 
+      dete<lb ed="#P" n="10" break="no"/>minaret se qua ratione ad vnum eadem ratione ad 
+      oppo<lb ed="#P" n="11" break="no"/>situm. Sed planum est quod si esset liber posset 
+      deter<lb ed="#P" n="12" break="no"/>minare ad alterum. Nec oporteret quod ad ambo 
+      de<lb ed="#P" n="13" break="no"/>terminaret se ergo cum eque naturaliter et pari 
+      neces<lb ed="#P" n="14" break="no"/>sitate agat intellectus agens sicut et intellectus 
+      pos<lb ed="#P" n="15" break="no"/>sibilis neuter est liber sed sola voluntas. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e589">
+               <lb ed="#P" n="16"/>¶ Secundo sic. Illa potentia cuius omnis actus natura 
+      <lb ed="#P" n="17"/>lis presupponit actum alium dependentem ab aliis 
+      po<lb ed="#P" n="18" break="no"/>tentiis est alia necessario ab illis vt patet de se. Sed 
+      <lb ed="#P" n="19"/>voluntas in omni actu suo naturali praesupponit actum 
+      <lb ed="#P" n="20"/>aliquem dependentem ab hiis duobus. sciliet 
+      intelle<lb ed="#P" n="21" break="no"/>ctu agente et possibili quia intellectionem aliquam 
+      pre<lb ed="#P" n="22" break="no"/>supponit que dependet per se ab vtroque sicut proba 
+      <lb ed="#P" n="23"/>ui alias. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e609">
+      ¶ Tertio sic. Potentie priores 
+      <lb ed="#P" n="24"/>ordine generationis sunt alie a potentia posteriore 
+      <lb ed="#P" n="25"/>secundum eundem ordinem. Sed intellectus vterque est 
+      prior<lb ed="#P" n="26" break="no"/>generatione respectu voluntatis. ergo etc. Alia rati 
+      <lb ed="#P" n="27"/>quia non sunt eiusdem generis proximi intellectiua que 
+      <lb ed="#P" n="28"/>cunque et volitiua. quare etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e622">
+      ¶ Sic igitur dico quod 
+      in<lb ed="#P" n="29" break="no"/>tellectus quicumque a voluntate distinguitur sicut 
+      po<lb ed="#P" n="30" break="no"/>tentia alterius rationis: Hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e629">
+               <lb ed="#P" n="31"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="32" break="no"/>culum de intellectu agente et possibili videtur esse 
+      <lb ed="#P" n="33"/>dicendum secundum intentionem Aristotelis quod siint 
+      distincte<lb ed="#P" n="34" break="no"/>potentie et alterius rationis.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e640">
+      ¶ Prima ratio est ista. 
+      Ea<lb ed="#P" n="35" break="no"/>dem potentia non est simpliciter nobilior seipsa. Sed intelle 
+      <lb ed="#P" n="36"/>ctus agens est simpliciter nobilior intellectu 
+      possi<lb ed="#P" n="37" break="no"/>bili secundum ipsum in tertio de anima quia agens est prestanti 
+      <lb ed="#P" n="38"/>patiente ergo non sunt eadem potentia sed due alteri 
+      <lb ed="#P" n="39"/>et alterius rationis.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e653">
+      ¶ Secunda ratio est ista. 
+      Po<lb ed="#P" n="40" break="no"/>tentia reductiua alterius ad actum primum et essentiale 
+      <lb ed="#P" n="41"/>de potentia essentiali non est eadem sibi. Patet. 8. 
+      phi<lb ed="#P" n="42" break="no"/>icorum. Nihil enim reducit speciem de potentia 
+      essen<lb ed="#P" n="43" break="no"/>tiali ad actum. Sed intellectus agens reducit 
+      possib<lb ed="#P" n="44" break="no"/>lem de potentia essentiali ad actum intellectiuitatis  
+      <lb ed="#P" n="45"/>quia causat in ipso speciem intelligibilem per quam intellectus 
+      <lb ed="#P" n="46"/>possibilis est actu intellectiuus secundum aliquos. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e672">
+               <lb ed="#P" n="47"/>¶ Tertia ratio est ista. Sicut argutum est supra quia 
+      <lb ed="#P" n="48"/>potentia que in actu suo naturali presupponit 
+      actio<lb ed="#P" n="49" break="no"/>nem naturalem alterius non potest esse eadem 
+      poten<lb ed="#P" n="50" break="no"/>tia illi quia nulla potentia in omni actu suo praesupponitur 
+      <lb ed="#P" n="51"/>ationem propriam. Tunc enim esset processus in 
+      infini<lb ed="#P" n="52" break="no"/>tum vt videtur. Sed intellectus possibilis secundum 
+      Ari<lb ed="#P" n="53" break="no"/>stotelem in omni actu suo intelligendi naturali pre 
+      <lb ed="#P" n="54"/>supponit actionem intellectus agentis quia abstractio 
+      <lb ed="#P" n="55"/>nem a fantasmatibus. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e694">
+      ¶ Item quia agens 
+      <lb ed="#P" n="56"/>non habet aliquem actum immanentem sicut 
+      possibi<lb ed="#P" n="57" break="no"/>lis. Quicquid sit de conclusione quia dubia est et aliqui 
+      di<lb ed="#P" n="58" break="no"/>cunt huic inde tamen coniter tenetur ista conclusio 
+      <lb ed="#P" n="59"/>i quod rationes non demon¬ 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e705">
+               <lb ed="#P" n="60"/>¶ Didetur mihi strant licet nescirem ad  
+      <lb ed="#P" n="61"/>ducere meliores.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e712">
+      ¶ Quod autem non concludant Do viam 
+      co<lb ed="#P" n="62" break="no"/>gitandi qui a peripsas equaliter concluderetur quod 
+      vo<lb ed="#P" n="63" break="no"/>luntas vt actiua et passiua sunt due potentie alteri 
+      <lb ed="#P" n="64"/>rationis cuius oppositum dicam infra. 
+      <!--258.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>aliquibus quod non est ali¬ 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e728">
+               <lb ed="#P" n="66"/>¶ Didetur erguqua necesitas ponen 
+      <lb ed="#P" n="67"/>di intellectum possibilem esse distinctam potentiam 
+      <lb ed="#P" n="68"/>ab intellectu agente: sed eadem potentia vt actiua 
+      si<lb ed="#P" n="69" break="no"/>ue ad speciem siue ad intellectiouem potest dici 
+      intelle<lb ed="#P" n="70" break="no"/>ctus agens. Sed vt receptiua et passiua potest dici 
+      <lb ed="#P" n="71"/>ntellectus possibilis.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e744">
+      ¶ Nec obstat quod intellectus 
+      <lb ed="#P" n="72"/>agens causat speciem reducendo ipsum possibilem de 
+      po<lb ed="#P" n="73" break="no"/>tentia essentiali ad actum primum sicut nec de 
+      volun<lb ed="#P" n="74" break="no"/>tate obstat quin sit vnica potentia dato quod reducat se 
+      <lb ed="#P" n="75"/>ipsam de potentia essentiali ad habitum moralem 
+      <lb ed="#P" n="76"/>ad actum primum casndo in se talem habitum ad quem 
+      <lb ed="#P" n="77"/>voluntas erit primo in potentia essentiali et etiam 
+      in<lb ed="#P" n="78" break="no"/>tellectus possibilis seipm ad habitum scientialem 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e763">
+               <lb ed="#P" n="79"/>¶ Nec etiam obstat quod arguitur quia Commentator 
+      <lb ed="#P" n="80"/>dicit tertio de anima quod si quiditates rerum essent actu 
+      <lb ed="#P" n="81"/>intelligibiles et abstracte sicut posuit Plato non 
+      im<lb ed="#P" n="82" break="no"/>digeremus intellectu agente. Sed si esset eadem 
+      po<lb ed="#P" n="83" break="no"/>tentia cum intellectu possibili indigeremus adhuc 
+      <lb ed="#P" n="84"/>ipso. igitur etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e779">
+      ¶ Similiter etiam si intellectus 
+      in<lb ed="#P" n="85" break="no"/>quantum passiuus diceretur possibilis et inquantum 
+      <lb ed="#P" n="86"/>agens diceretur actiuus pari ratione in voluntate de 
+      <lb ed="#P" n="87"/>beret poni voluntas agens et possibilis. Sed hoc est 
+      <lb ed="#P" n="88"/>inconueniens. quare etc.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e790">
+      ¶ Diceretur enim ad 
+      prin<lb ed="#P" n="89" break="no"/>cipium quod Commentator vel potest exponi vel ipse 
+      <lb ed="#P" n="90"/>dicit falsum. Potest exponi: quia tunc non indigeremus 
+      <lb ed="#P" n="91"/>intellectum agente sicut abstrahente: sed bene sicut 
+      eli<lb ed="#P" n="92" break="no"/>ciente vel causante actum intelligendi.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e801">
+      ¶ Aliter potest 
+      <lb ed="#P" n="93"/>dici quod Commentator dicit falsum: quia dato quod sic essent 
+      <lb ed="#P" n="94"/>quiditates separate sicut posuit Plato adhuc non 
+      <lb ed="#P" n="95"/>intelligerentur a nobis nisi recurredo ad fantasma 
+      <lb ed="#P" n="96"/>et abstrahendo sicut nec alia naturalia aliter 
+      intelli<lb ed="#P" n="97" break="no"/>gimus modo vt patet. 
+      <lb ed="#P" n="98"/>t pauciora ponenda sunt et non 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e817">
+               <lb ed="#P" n="99"/>¶ Quod igitia et plura sine necessitate non 
+      vi<lb ed="#P" n="100" break="no"/>deo qumo possit efficaciter altera pars conclusionis 
+      <lb ed="#P" n="101"/>ostendi et nescio breuiter si sunt due potentie alterius 
+      <lb ed="#P" n="102"/>rationis.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e828">
+      ¶ Tamen ad argumentum quod fiebat deus 
+      <lb ed="#P" n="103"/>voluntate agente et possibili: diceretur quod non 
+      opor<lb ed="#P" n="104" break="no"/>tet ponere voluntatem agentem et possibilem quia in 
+      <lb ed="#P" n="105"/>tellectus agens sic denominatur non inquantum agit ad 
+      <lb ed="#P" n="106"/>actum intelligendi: sed secundum quod agit ad speciem actui 
+      <lb ed="#P" n="107"/>preuiam. In voluntate autem non est sic: quia voluntas 
+      li<lb ed="#P" n="108" break="no"/>cet sit actiua ad actum non tamen ad aliquid actui 
+      pre<lb ed="#P" n="109" break="no"/>uium quia in voluntate nihil praecedit actum simpliciter. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e847">
+               <lb ed="#P" n="110"/>¶ Similiter etiam diceretur quod non esset magnum 
+      inceom<lb ed="#P" n="111" break="no"/>ueniens ponere isto modo voluntatem agentem et 
+      possibi<lb ed="#P" n="112" break="no"/>lem id est actiuam et passiuam: quia actiuam et passiuam 
+      <lb ed="#P" n="113"/>oportet eam ponere sicut probabo in sequenti 
+      questio<lb ed="#P" n="114" break="no"/>ne.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e860">
+      ¶ Quecumque ergo teneatur dici prtet intellectus agens 
+      <lb ed="#P" n="115"/>pertinere ad imaginem in ratione parentis et gignentis 
+      <lb ed="#P" n="116"/>verbum seu actualem intelligentiam et ad memoriam 
+      <lb ed="#P" n="117"/>pertinet et non potest dicere aliquam potentiam nisi 
+      <lb ed="#P" n="118"/>intellectum possibilem vel agentem vel vtrumque. Et 
+      <lb ed="#P" n="119"/>quecumque ergo teneatur dicatur consequenter. Hec 
+      <lb ed="#P" n="120"/>de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e876">
+               <lb ed="#P" n="121"/>¶ Quantum ad quartum 
+      ar<lb ed="#P" n="122" break="no"/>ticulum. Est vna opinio cuiusdam doctoris parte 
+      pri<lb ed="#P" n="123" break="no"/>ma questione. 82. arti. vltimo quod concupiscibile et irasci 
+      <lb ed="#P" n="124"/>bile non distinguntur in voluntate sicut diuerse potentie 
+      <lb ed="#P" n="125"/>Quod etiam voluntas non distinguitur in ista duo sicut 
+      <lb ed="#P" n="126"/>in diuersas potentias quia potentia que ordinatur ad  
+      <lb ed="#P" n="127"/>aliquod obiectum secundum communem rationem non 
+      dinersificatu<lb ed="#P" n="128" break="no"/>in se per differentias formales illius obiecti conten¬ 
+      <!--259.xml-->
+      <pb ed="#P" n="126-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tas sub ipso. Patet de visu respectu coloris que est 
+      <lb ed="#P" n="2"/>vna potentia respectu omnium colorrum quia visius non 
+      res<lb ed="#P" n="3" break="no"/>picit album inquantum album nec nigrum inquantum 
+      ni<lb ed="#P" n="4" break="no"/>grum sed inquantum sunt colores. Appetitus autem 
+      <lb ed="#P" n="5"/>intellectiuus vel voluntas respicit bonum sub ratione 
+      <lb ed="#P" n="6"/>communi et in communi et in ipsa non diuersificantur per irascibile 
+      <lb ed="#P" n="7"/>et conccupiscibile sicut ex parte appetitus sensitiu 
+      <lb ed="#P" n="8"/>qui respicit bonum sub ratione particulari. 
+      Pu<lb ed="#P" n="9" break="no"/>ta bonum vt nunc. Nam concupiscibile 
+      respicitbo<lb ed="#P" n="10" break="no"/>num inquantum delectabile sed irascibile respicit 
+      <lb ed="#P" n="11"/>bonum secundum quod est repulsiuum eius quod infert nocumentum. etc. 
+      <lb ed="#P" n="12"/>istam opinionem arguo tripliciter 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e928">
+               <lb ed="#P" n="13"/>¶ Contra vel quadrupliciter.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e933">
+      ¶ Prime 
+      <lb ed="#P" n="14"/>quia pariritione sequitur quod appetitus intellectiuus et sensitiuus 
+      <lb ed="#P" n="15"/>non essent distincte potentie. Probatio appetitus 
+      intelli<lb ed="#P" n="16" break="no"/>ctiuus respicit bonum simpliciter I sub communi rationem 
+      <lb ed="#P" n="17"/>et vniuersali quia non potest dici quod bonum simpliciter 
+      <lb ed="#P" n="18"/>tantum prout distinguitur contra apparens. Patet 
+      <lb ed="#P" n="19"/>de se. Sed sub ratione boni simpliciter continetur 
+      <lb ed="#P" n="20"/>bonum vt nunc et ipsum respicit appetitus intellecti 
+      <lb ed="#P" n="21"/>uus alias nunquam prosequeretur ipsum in electione que 
+      <lb ed="#P" n="22"/>est circa particulare: ergo sunt eadem potentia: quia 
+      <lb ed="#P" n="23"/>non plus videtur diuersificare pontentia duo obie 
+      <lb ed="#P" n="24"/>cta quorum vnum continetur sub alio quam duo disparata 
+      <lb ed="#P" n="25"/>quorum neutrum sub altero sed ambo sub tertio qua 
+      <lb ed="#P" n="26"/>re etc. solueretur satis faciliter.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e964">
+      ¶ Secundo sic per istam 
+      <lb ed="#P" n="27"/>rationem requitur oppositum dicti sui de irascibili et 
+      <lb ed="#P" n="28"/>concupiscibili in appetitu sensitiuo probabo quia 
+      appe<lb ed="#P" n="29" break="no"/>titus sensitiuus respicit secundum te pro primo per se 
+      obie<lb ed="#P" n="30" break="no"/>cto et adequato bonum vt nunc. Sed bonum 
+      delectabi<lb ed="#P" n="31" break="no"/>le et bonum amotiuum impertinenti continentur sub 
+      <lb ed="#P" n="32"/>bono vt nunc sicut album et nigrum sub colore in 
+      com<lb ed="#P" n="33" break="no"/>muni. ergo appetitus sensitiuus non diuersificatur 
+      <lb ed="#P" n="34"/>secundum illa.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e985">
+      ¶ Tertio sic. In illud idem bonum in quo 
+      <lb ed="#P" n="35"/>mouetur concupiscibilis vt in eo delectetur et 
+      quie<lb ed="#P" n="36" break="no"/>scat in idem vel ad idem mouetur irascibilis vt ipsum 
+      <lb ed="#P" n="37"/>tueatur et defendat: ergo idem est obiectum vtriusque 
+      <lb ed="#P" n="38"/>et non distinguntur sicut dicis. Ratio eius videtur sut 
+      <lb ed="#P" n="39"/>ponere et supponit quod potentie non distinguantur nisi 
+      <lb ed="#P" n="40"/>secundum rationes formales obiectorum quia pro tanto im 
+      <lb ed="#P" n="41"/>voluntate non distinguntur irascibile et cocupiscibile 
+      <lb ed="#P" n="42"/>quia habent idem obiectum voluntatis in communi quod est 
+      <lb ed="#P" n="43"/>bonum simpliciter. Sed ista suppositio est 
+      simplici<lb ed="#P" n="44" break="no"/>ter falsa. Nam in potentiis illimitatis cuiusmodi sunt 
+      <lb ed="#P" n="45"/>intellectus et voluntas quia non arctantur ad certum 
+      ge<lb ed="#P" n="46" break="no"/>nus entis obiectiue oportet necessario quod sit 
+      amba<lb ed="#P" n="47" break="no"/>rum idem obiectum secundum eandem formalem rationem 
+      <lb ed="#P" n="48"/>Alioquin numquam per se et directe voluntas posset in 
+      <lb ed="#P" n="49"/>omnem intellectum. Sed solum in bonum vel rationem bea 
+      <lb ed="#P" n="50"/>ni et per accidens tantum in omnem aliam rationem et tunc non 
+      <lb ed="#P" n="51"/>plus vellet alia secundum proprias rationes quam visus videat 
+      <lb ed="#P" n="52"/>dulce videndo album quod nihil est dictu. Puto etiam 
+      <lb ed="#P" n="53"/>sicut probaui in primo de eodem obiecto sub eadem 
+      <lb ed="#P" n="54"/>ratione formali possunt haberi in eadem potentia 
+      di<lb ed="#P" n="55" break="no"/>stincti actus et habitus specie sicut actus intuitiuus: 
+      <lb ed="#P" n="56"/>et abstractiuus et habitus practicus et speculatiu 
+      <lb ed="#P" n="57"/>ergo circa idem obiectum formale adequatum patent 
+      ver<lb ed="#P" n="58" break="no"/>sari et esse diuerse potentie. Puto etiam si ratio 
+      concli<lb ed="#P" n="59" break="no"/>deret esset contra ipsum de appetitu sensitiuo quia non 
+      <lb ed="#P" n="60"/>deberet distingui in irascibilem et concupiscibilen 
+      <lb ed="#P" n="61"/>sicut nec intellectus 
+      <lb ed="#P" n="62"/>ergo rationis dico ad maio¬ 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e1048">
+               <lb ed="#P" n="63"/>¶ Ad formant rem quod quando aliqua potentia 
+      <lb ed="#P" n="64"/>respicit aliquod commne obiectum sibi adequatum non 
+      <lb ed="#P" n="65"/>variatur infra se secundum differentias talis obiecti licet 
+      <!--259.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>aliunde possit specifice variari sicut visus non 
+      diuer<lb ed="#P" n="67" break="no"/>sificatur specie secundum differentias colorum licet forte 
+      <lb ed="#P" n="68"/>diuersificetur secundum species videntium.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e1068">
+      ¶ Ad 
+      maio<lb ed="#P" n="69" break="no"/>rem dico quod appetitus sensitiuus respicit bonum vt 
+      <lb ed="#P" n="70"/>nunc vel sensibile in communi sicut appetitus intellectiuus 
+      <lb ed="#P" n="71"/>bonum simpliciter et absolute in communi. Et tunc dico 
+      <lb ed="#P" n="72"/>quod sicut secundum te appetitus intellectiuus non variatur 
+      <lb ed="#P" n="73"/>secundum speciem per irascibile et concupiscibile secundum deteras 
+      <lb ed="#P" n="74"/>boni simpliciter: et ita est secundum rei veritatem. Ita nec 
+      <lb ed="#P" n="75"/>appetitus sensitiuus infra se secundum speciem variatur 
+      <lb ed="#P" n="76"/>secundum differentias boni vt nunc sed maneret indistinctus 
+      <lb ed="#P" n="77"/>in ratione potentie sicut et ille. Nec in ipso distingun 
+      <lb ed="#P" n="78"/>tur irascibile et concupiscibile ex ista ratione sicut 
+      <lb ed="#P" n="79"/>nec in intellectiuo tamen non sequitur quod aliunde non 
+      <lb ed="#P" n="80"/>possit variari sed vt est fallatia consequentis. 
+      <lb ed="#P" n="81"/>alius doctor quod in vtroque ap¬ 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e1099">
+               <lb ed="#P" n="82"/>¶ Dicit ergo petitu distinguntur irasci 
+      <lb ed="#P" n="83"/>bile et concupiscibile sed non sicut diuerse potentie sed 
+      <lb ed="#P" n="84"/>tantum secundum rationem. Nam eadem potentia 
+      inquan<lb ed="#P" n="85" break="no"/>tum tendit in bonum vt in eo delectetur et quiescat: 
+      <lb ed="#P" n="86"/>dicitur concupiseibilis non distinguendo modo 
+      concupi<lb ed="#P" n="87" break="no"/>scentiam ab amicitia quia ad concupiscibilem in 
+      appe<lb ed="#P" n="88" break="no"/>titu intellectiuo potest pertinere vterque amor sed 
+      ea<lb ed="#P" n="89" break="no"/>dem potentia vt tendens in idem bonum vt ipsum tuea 
+      <lb ed="#P" n="90"/>tur et defendat dicitur irascibilis et potest dici quod 
+      vbi<lb ed="#P" n="91" break="no"/>que sunt eadem potentia in eodem quia vbique habent 
+      eum<lb ed="#P" n="92" break="no"/>dem modum tendendi in obiectum et hoc libere vel 
+      <lb ed="#P" n="93"/>non libere. Appetitus autem liber cuiusmodi est 
+      vo<lb ed="#P" n="94" break="no"/>luntas vbique est videtur esse vnus nunero et ita 
+      eius<lb ed="#P" n="95" break="no"/>dem rationis et libere tendere in quodcumque obiectum 
+      <lb ed="#P" n="96"/>et etiam appetitus sensitiuus in quocunque videtur 
+      <lb ed="#P" n="97"/>esse vnus nec apparet necessitas ponendi plura vel 
+      <lb ed="#P" n="98"/>plures vt videtur et hoc ad presens teneatur. Hec 
+      <lb ed="#P" n="99"/>de quarto articulo. 
+      </p>
+            <p xml:id="qrdBas-b82644-d1e1141">
+               <lb ed="#P" n="100"/>¶ Ad primum principale 
+      di<lb ed="#P" n="101" break="no"/>cis quod potentie distinguntur ex obiectis. Dico quod si 
+      <lb ed="#P" n="102"/>sunt alique potentie quae habeant diuersa obiecta 
+      sim<lb ed="#P" n="103" break="no"/>pliciter sibi adequata sic quod neutrum contineatur sub 
+      alte<lb ed="#P" n="104" break="no"/>ro vel in altero nec ambo sub tertio illorum obiecto 
+      <lb ed="#P" n="105"/>rum quod sequitur ex primo tales potentie 
+      distin<lb ed="#P" n="106" break="no"/>guntur sicut est de sensibus particularibus adinui 
+      <lb ed="#P" n="107"/>cem de quibus Aristoteles intendit suam 
+      propositio<lb ed="#P" n="108" break="no"/>nem in secundo de anima et non de aliis. Isto modo 
+      distin<lb ed="#P" n="109" break="no"/>guntur visus et auditus et non aliter. Non tamen oport 
+      <lb ed="#P" n="110"/>etiam dato quod obiectum tale sit vnum quod potentia sit 
+      <lb ed="#P" n="111"/>vna. Bene enim ad diuersitatem sequitur diuersitas 
+      <lb ed="#P" n="112"/>sed non ad vnitatem vnitas visus enim asini et equi 
+      v<lb ed="#P" n="113" break="no"/>visio sunt alterius rationis quantumcunque obiectum sit idem 
+      <lb ed="#P" n="114"/>Ad propositum quando dicis in minori quod portio superior 
+      <lb ed="#P" n="115"/>et inferior habent diuersa obiecta talia. Falsum est 
+      <lb ed="#P" n="116"/>quia ambo continentur sub vno per se obiecto vtrius 
+      <lb ed="#P" n="117"/>que potentie scilicet tam intellectus quam voluntatis: et ita 
+      <lb ed="#P" n="118"/>dico quod sunt eadem potentia licet versentur circa 
+      di<lb ed="#P" n="119" break="no"/>uersa obiecta non prima nec adequata et rationabi 
+      <lb ed="#P" n="120"/>le est hoc. Nam quanto potentia perfectior est et 
+      al<lb ed="#P" n="121" break="no"/>tior tanto potest in plura vt videtur manens 
+      vna<lb ed="#P" n="122" break="no"/>Unde dico quod portio superior et inferior non 
+      distin<lb ed="#P" n="123" break="no"/>guntur per obiecta que arguant diuersitatem 
+      poten<lb ed="#P" n="124" break="no"/>tiarum immo nec intellectus et voluntas.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e1198">
+      ¶ Ad 
+      secun<lb ed="#P" n="125" break="no"/>dum de ratincinatiuo et scientifico per idem quod non sunt 
+      <lb ed="#P" n="126"/>diuerse potentie sed differunt ratione nisi forte 
+      ra<lb ed="#P" n="127" break="no"/>tiocinatiuum acciperet Aristoteles pro ratione 
+      pas<lb ed="#P" n="128" break="no"/>ticulari que non est potentia intellectiua sed 
+      ali<lb ed="#P" n="129" break="no"/>qua sensitiua non curo modo: vel aliter quod Aristote¬ 
+      <!--260.xml-->
+      <pb ed="#P" n="127-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>les distinguit ista duo non ratione potentiarum sed 
+      ha<lb ed="#P" n="2" break="no"/>bituum circa talia vel talia obiecta.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e1223">
+      ¶ Ad tertium 
+      <lb ed="#P" n="3"/>dico quod licet portio superior sit regula inferioris 
+      ra<lb ed="#P" n="4" break="no"/>tione obiecti sui que sunt regule eterne quibus 
+      re<lb ed="#P" n="5" break="no"/>gulantur ista inferiora agibilia non tamen propter hoc 
+      <lb ed="#P" n="6"/>est distincta potentia a seipsa sicut etiam intellect 
+      <lb ed="#P" n="7"/>vt habens habitum principii si tamen sit ponendus 
+      ha<lb ed="#P" n="8" break="no"/>bitus respectu principii vel etiam vt habens actum 
+      <lb ed="#P" n="9"/>ntelligendi principii est regula sui intelligendi 
+      conclu<lb ed="#P" n="10" break="no"/>sionem. Nec oportet propter hoc quod sint due potentie 
+      <lb ed="#P" n="11"/>sed ad eandem potentiam pertinet cognoscere 
+      princi<lb ed="#P" n="12" break="no"/>pium et deducere conclusionem ex principio vt patet 
+      <lb ed="#P" n="13"/>Sic in proposito. Nec sequeretur etiam si aliquando 
+      versa<lb ed="#P" n="14" break="no"/>tur aliqua potentia circa obiectum superius vel 
+      no<lb ed="#P" n="15" break="no"/>bilius et secundum hoc dicatur portio superior et 
+      aliquan<lb ed="#P" n="16" break="no"/>do circa minus nobile et propter hoc dicitur 
+      portio<lb ed="#P" n="17" break="no"/>inferior quod sint diuerse potentie Eadem enim potentia 
+      <lb ed="#P" n="18"/>potest hoc scilicet versari a liquando circa obiectum 
+      no<lb ed="#P" n="19" break="no"/>bilius vel innobilius.
+    </p>
+            <p xml:id="qrdBas-b82644-d1e1262">
+      ¶ Ad quartum dico quod in 
+      vtra<lb ed="#P" n="20" break="no"/>que portione saluatur ymago trinitatis secundum tres 
+      po<lb ed="#P" n="21" break="no"/>tentias memoriam intelligentiam et voluntatem sed 
+      <lb ed="#P" n="22"/>pro tanto Augustinus reponit imaginem in 
+      portio<lb ed="#P" n="23" break="no"/>ne superiore non in inferiore quia ille tres potentie eo 
+      <lb ed="#P" n="24"/>modo quo tres possunt dici magis representant et 
+      <lb ed="#P" n="25"/>perfectius trinitatem diuinarum potentiarum vt 
+      <lb ed="#P" n="26"/>versantur circa obiecta eterna quam vt versantur 
+      cir<lb ed="#P" n="27" break="no"/>ca temporalia et agibilia. Nec Augustinus negat 
+      <lb ed="#P" n="28"/>ymaginem saluari in vtraque licet reponat eam in 
+      por<lb ed="#P" n="29" break="no"/>tione superiore non autem in inferiore. Aliud est 
+      au<lb ed="#P" n="30" break="no"/>tem hoc non dicere et aliud est negare sicut patet. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

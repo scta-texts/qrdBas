@@ -1,0 +1,2003 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="67-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b44312"><!--l2d12q2 -->
+            <head xml:id="qrdBas-b44312-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-b44312-d1e101">
+               <lb ed="#P" n="94"/>¶ Distinctionis Duodecime. 
+      <lb ed="#P" n="95"/>¶ Questio Secunda. 
+    </p>
+            <p xml:id="qrdBas-b44312-d1e108">
+               <lb ed="#P" n="96"/>SEcundo quaero utrum 
+      <lb ed="#P" n="97"/>materia sit causa intrinseca 
+      <lb ed="#P" n="98"/>alicuius quod addat aliquid super 
+      <lb ed="#P" n="99"/>materiam et formam: et est idem 
+      qua<lb ed="#P" n="100" break="no"/>rere ac si queratur. Utrum 
+      compo<lb ed="#P" n="101" break="no"/>situm ex materia et forma ad  
+      <lb ed="#P" n="102"/>dat aliquid reale absolutum 
+      <lb ed="#P" n="103"/>super materiam et formam.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e128">
+      ¶ Ul 
+      <lb ed="#P" n="104"/>detur quod non. Illud quod addit 
+      ali<lb ed="#P" n="105" break="no"/>quid reale positiuum aliquibus est aliud ab ipsis: sed  
+      <lb ed="#P" n="106"/>totum per se vnum non est aliud a partibus: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e137">
+      ¶ 
+      Se<lb ed="#P" n="107" break="no"/>cundo sic. Si totum est aliquid reale absolutum super 
+      par<lb ed="#P" n="108" break="no"/>tes. Oportet dicere quod illud reale additum sit in toto 
+      <lb ed="#P" n="109"/>Tunc arguo sic. Omne illud quod est in aliquo sicut 
+      in<lb ed="#P" n="110" break="no"/>distinctum subiecto ab ipso est in eo vel sicut pars in 
+      <lb ed="#P" n="111"/>toto vel sicut accidens in subiecto. Patet: quia sic est in 
+      <lb ed="#P" n="112"/>eo quod est essentialiter vel accidentaliter in ipso siue est 
+      <lb ed="#P" n="113"/>in eo tanquam essentiale vel accidentale. Sed istud super 
+      <lb ed="#P" n="114"/>additum non est in toto sicut pars secundum proponentes illud 
+      <lb ed="#P" n="115"/>suparadditum. Nec sicut accidens in subiecto: planum est 
+      <lb ed="#P" n="116"/>ergo quod nullo modo addit aliquid vel aliter non est ibi si 
+      <lb ed="#P" n="117"/>cut accidens per eos: ergo sicut pars quod ipsi negant.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e164">
+      ¶ 
+      Ter<lb ed="#P" n="118" break="no"/>tio sic. Totum nichil addit super suam perfectionem 
+      essen<lb ed="#P" n="119" break="no"/>tialem et perfectibile per illam. Sed forma substantialis 
+      si<lb ed="#P" n="120" break="no"/>cut anima est perfectio totius et materia est perfectibile: ergo 
+      <lb ed="#P" n="121"/>etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e175">
+      ¶ Quarto sic. Non est alia ratio querenda qua 
+      <lb ed="#P" n="122"/>re ex materia et forma fit vnum nisi quia materia est in 
+      <lb ed="#P" n="123"/>potentia et forma est actus. Sed si compositum 
+      adde<lb ed="#P" n="124" break="no"/>ret aliquid absolutum super materiam et formam 
+      <lb ed="#P" n="125"/>esset alia ratio querenda: ergo etc. Minor patet: quia 
+      <lb ed="#P" n="126"/>ratio illa esset realitas superaddita 
+      <!--142.xml-->
+      <pb ed="#P" n="68-r"/>
+               <cb ed="#P" n="a"/>
+            </p>
+            <p xml:id="qrdBas-b44312-d1e195">
+               <lb ed="#P" n="1"/>¶ Contra. Philosophus 
+      di<lb ed="#P" n="2" break="no"/>stinguit substantiam. 2. de anima in materiam et 
+      for<lb ed="#P" n="3" break="no"/>mam et compositum. Et Boetius super predicamenta 
+      <lb ed="#P" n="4"/>distinguit substantiam in materiam et formam et 
+      compo<lb ed="#P" n="5" break="no"/>situm et dicit quod relictis extremis scilicet materia et forma 
+      <lb ed="#P" n="6"/>egit Aristoteles de media: scilicet de composita: igitur 
+      <lb ed="#P" n="7"/>Aristoteles et Boetius dixerunt compositum esse 
+      ter<lb ed="#P" n="8" break="no"/>tiam substantiam super illas duas et tertiam naturam 
+      <lb ed="#P" n="9"/>sed tertium vltra duo addit aliquid: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e217">
+               <lb ed="#P" n="10"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e222">
+               <lb ed="#P" n="11"/>¶ Primo ponam vnam opinionem de questione cum suis 
+      <lb ed="#P" n="12"/>motiuis et suis fundamentis adductis ab aliquibus 
+      <lb ed="#P" n="13"/>volentibus tenere eam.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e231">
+      ¶ Secundo ponam aliam quam 
+      <lb ed="#P" n="14"/>volo tenere adducendo aliquas pro ea.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e237">
+      ¶ Tertio 
+      <lb ed="#P" n="15"/>ponam solutiones aliquorum ad predictas rationes et 
+      <lb ed="#P" n="16"/>ostendam quod penitus nichil valent.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e244">
+      ¶ Quarto soluam 
+      <lb ed="#P" n="17"/>ad rationes aliorum et vltimo ad rationes principales. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e249">
+               <lb ed="#P" n="18"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="19" break="no"/>culum. Est vna opinio que reputatur communis quod 
+      con<lb ed="#P" n="20" break="no"/>positum per se vnum ex materia et forma non addit 
+      ali<lb ed="#P" n="21" break="no"/>quid reale super partes. Puta super materiam et 
+      for<lb ed="#P" n="22" break="no"/>mam. Sed compositum substantiale nichil aliud est quam 
+      <lb ed="#P" n="23"/>partes sue scilicet materia et forma simul sumpte. Ad 
+      <lb ed="#P" n="24"/>hoc adducuntur alique rationes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e267">
+      ¶ Prima quod 
+      hu<lb ed="#P" n="25" break="no"/>manitas non addig aliquid super partes. Primo sic ad  
+      <lb ed="#P" n="26"/>ditum aliquibus no includit illa quibus superadditur 
+      <lb ed="#P" n="27"/>Idem enim contra seipsum non numeratur nec sibiit 
+      <lb ed="#P" n="28"/>si superadditur. Sed humanitas per se includit 
+      ma<lb ed="#P" n="29" break="no"/>teriam et formam sicut et totum ipsum: ergo non addit 
+      <lb ed="#P" n="30"/>aliquid super materiam et formam.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e283">
+      ¶ Secunda ratio. 
+      <lb ed="#P" n="31"/>Si humanitas vel totum addit aliquid super materiam 
+      <lb ed="#P" n="32"/>et formam illud additum est terminus per se 
+      genera<lb ed="#P" n="33" break="no"/>tionis secundum alios hoc ponentes. Sed humanitas non 
+      <lb ed="#P" n="34"/>est per se terminus generationis quia quidditas non 
+      <lb ed="#P" n="35"/>generatur. 7. metha. ergo nichil addit.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e296">
+      ¶ Tertia 
+      <lb ed="#P" n="36"/>ratio. Illud quod addit aliquid super partes est precise 
+      <lb ed="#P" n="37"/>secundum illud additum aliquid vltra partes et plusquam 
+      par<lb ed="#P" n="38" break="no"/>tes. Alioquin non esset illud additum vltra partes. 
+      <lb ed="#P" n="39"/>Sed humanitas vel totum non est aliquid vltra 
+      pas<lb ed="#P" n="40" break="no"/>tes nec plusquam partes: quid enim esset illud plus non 
+      <lb ed="#P" n="41"/>est dare ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e313">
+      ¶ Quarta ratio. Illud superadditum 
+      <lb ed="#P" n="42"/>partibus: vel est materia vel forma vel totum 
+      compos<lb ed="#P" n="43" break="no"/>tum ex quo est substantia vel aliquid absolutum. Sed  
+      <lb ed="#P" n="44"/>non est materia nec forma. Patet: quia addit super 
+      <lb ed="#P" n="45"/>vtrumque. Nec est compositum: quia tunc compositi esset 
+      <lb ed="#P" n="46"/>compositum quod est inconueniens et ponere processum 
+      <lb ed="#P" n="47"/>in infinitum: ergo nichil.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e329">
+      ¶ Quinta ratio. 
+      Diffini<lb ed="#P" n="48" break="no"/>tum nichil est praeter diffinitionem. Sed partes sunt 
+      dif<lb ed="#P" n="49" break="no"/>finitio totius compositi patet de materia et forma. 7. 
+      <lb ed="#P" n="50"/>metha. Anima enim et corpus sunt partes diffinitio 
+      <lb ed="#P" n="51"/>nis hominis: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e340">
+      ¶ Sexta ratio. Si totum adde 
+      <lb ed="#P" n="52"/>ret aliquid vltra partes hoc maxime videretur de 
+      <lb ed="#P" n="53"/>vnione. Sed vnio partium nichil est preter vnita vel 
+      <lb ed="#P" n="54"/>totum: nec etiam respectus: ergo totum nichil 
+      addi<lb ed="#P" n="55" break="no"/>Quod autem vnio partium non sit respectus nec aliquid 
+      <lb ed="#P" n="56"/>aliud a predictis per consequens probatur.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e353">
+      ¶ 
+      Pri<lb ed="#P" n="57" break="no"/>mo sic. Omnis relatio aut est fundata super vnum vel 
+      <lb ed="#P" n="58"/>idem vel numerum. Aut super actionem et passionem. 
+      <lb ed="#P" n="59"/>Aut super mensuratum vel mensuram. Sed ista 
+      vnio<lb ed="#P" n="60" break="no"/>super nullum istorum fundatur vt patet discurrendo 
+      <lb ed="#P" n="61"/>ergo non est relatio.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e366">
+      ¶ Secundo sic. Unius per se 
+      ge<lb ed="#P" n="62" break="no"/>nerationis est vnus per se terminus. Sed compositum 
+      <!--142.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>et natura vel essentia et vnio est per se terminus 
+      ge<lb ed="#P" n="64" break="no"/>nerationis. igitur sunt idem igitur vnio non est 
+      rela<lb ed="#P" n="65" break="no"/>tio nec aliquid preter compositum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e382">
+      ¶ Tertio sic. 
+      Con<lb ed="#P" n="66" break="no"/>positum in genere substantie non est accidens nec vnum 
+      <lb ed="#P" n="67"/>per accidens. Sed si vnio esset relatio compositum 
+      es<lb ed="#P" n="68" break="no"/>set accidens: quia compositum est vnum per vnionem 
+      <lb ed="#P" n="69"/>ergo etc. vel saltem esset accidentale sicut relatio est ac 
+      <lb ed="#P" n="70"/>cidens.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e396">
+      ¶ Quarto quia illa quorum vnio est ordo vel 
+      <lb ed="#P" n="71"/>relatio non sunt simpliciter vnum. Sed materia et 
+      for<lb ed="#P" n="72" break="no"/>ma faciunt vnum simpliciter: ergo vnio ipsorum non est 
+      <lb ed="#P" n="73"/>relatio nec ordo.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e405">
+      ¶ Ultimo quia vnio que non est 
+      <lb ed="#P" n="74"/>actio vel passio non est aliud a composito nec per 
+      con<lb ed="#P" n="75" break="no"/>sequens est relatio. Sed vnio ista partium non est 
+      <lb ed="#P" n="76"/>actio vel passio: quia manet cessante actione vel 
+      pas<lb ed="#P" n="77" break="no"/>sione: ergo etc. 
+      <lb ed="#P" n="78"/>I 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e418">
+               <lb ed="#P" n="79"/>¶ Isto modo arguit vnus 
+      ali<lb ed="#P" n="80" break="no"/>qui non valt etiam tenere ipsam positionem arguit sic 
+      <lb ed="#P" n="81"/>probando quod humanitas vel homo nichil addit 
+      posi<lb ed="#P" n="82" break="no"/>tiuum absolutum super partes: quia licet in aliis ab 
+      <lb ed="#P" n="83"/>homine aliquid absolutum corrumpatur puta forma 
+      <lb ed="#P" n="84"/>In homine tamen nichil corrumpitur sed tantum fit 
+      separa<lb ed="#P" n="85" break="no"/>tio partium: ergo ad saluandum corruptionem 
+      homi<lb ed="#P" n="86" break="no"/>nis nichil debet poni positiuum absolutum preten 
+      <lb ed="#P" n="87"/>partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e440">
+      ¶ Quod autem in corruptione hominis nichil 
+      <lb ed="#P" n="88"/>absolutum corrumpatur: sed tantum fiat separatio 
+      par<lb ed="#P" n="89" break="no"/>tium. Probatur per Augustinum contra Felicianum 
+      <lb ed="#P" n="90"/>vbi dicit sic: hec hominis mors est que non vnita 
+      con<lb ed="#P" n="91" break="no"/>sumit: sed ea tantum distinguit. Item dionysius de 
+      ce<lb ed="#P" n="92" break="no"/>lesti Hierarchia hoc idem dicit.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e453">
+      ¶ Secundo sic. Si 
+      <lb ed="#P" n="93"/>totum adderet aliquid super partes vel aliquam 
+      for<lb ed="#P" n="94" break="no"/>mam que esset forma totius et haberet rationem 
+      for<lb ed="#P" n="95" break="no"/>malis respectu suppositi et suppositum rationem 
+      ma<lb ed="#P" n="96" break="no"/>terialis sicut dicunt alii propter hoc quod partes possunt 
+      <lb ed="#P" n="97"/>intelligi siue diuisim siue conunctim non intelligendo 
+      <lb ed="#P" n="98"/>totum sicut a et b non intelligendo ab: sequitur quod est 
+      <lb ed="#P" n="99"/>processus in infinitum: quia pari ratione 
+      supposi<lb ed="#P" n="100" break="no"/>tum vel compositum et forma ipsa totius quorum vnum est si 
+      <lb ed="#P" n="101"/>cut materiale et reliquum sicut formale poterunt 
+      <lb ed="#P" n="102"/>intelligi non intelligendo totum constitutum ex ipsis: 
+      <lb ed="#P" n="103"/>et sic illud totum addet aliquid super suppositum et 
+      for<lb ed="#P" n="104" break="no"/>mam totius et sic in infinitum quare etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e482">
+      ¶ Tertio quia 
+      <lb ed="#P" n="105"/>cum vltima forma est specifica: sequeretur quod 
+      ani<lb ed="#P" n="106" break="no"/>ma in homine non esset forma specifica. Sed illa alia 
+      <lb ed="#P" n="107"/>forma totius quam ipsi ponunt: quia posterior est: hoc 
+      <lb ed="#P" n="108"/>autem est falsum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e494">
+      ¶ Quarto sic. Si propter 
+      ar<lb ed="#P" n="109" break="no"/>gumentum philosophi de a et b debet aliquis 
+      mo<lb ed="#P" n="110" break="no"/>ueri ad ponendum quod totum addat aliquid super 
+      par<lb ed="#P" n="111" break="no"/>tes: quia possunt intelligi non intelligendo totum 
+      par<lb ed="#P" n="112" break="no"/>ratione et compositum vnum per accidens adderet 
+      ali<lb ed="#P" n="113" break="no"/>quid absolutum super partes sicut album vel homo 
+      <lb ed="#P" n="114"/>albus: quia partes puta homo et albedo possunt in 
+      <lb ed="#P" n="115"/>telligi siue coniunctim siue diuisim non intelligendo 
+      ho<lb ed="#P" n="116" break="no"/>minem album: consequens est falsum ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e514">
+               <lb ed="#P" n="117"/>¶ Dltimo adducuntur 
+      aucto<lb ed="#P" n="118" break="no"/>ritates. Prima est Augustini. 7. de trini. homo 
+      ni<lb ed="#P" n="119" break="no"/>chil aliud est quam anima et corpus simul sumpta supple¬ 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e523">
+               <lb ed="#P" n="120"/>¶ Secunda auctoritas est Damasce. lib. 3. quod verbum 
+      <lb ed="#P" n="121"/>nunquam dimisit illud quod assumpsit. Sed illam humani 
+      <lb ed="#P" n="122"/>tatem quae addit secundum te aliquid vltra partes dimisisset per te quia 
+      <lb ed="#P" n="123"/>fuit corrupta in morte.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e534">
+      ¶ Tertia est Aristo. 4. 
+      phisi<lb ed="#P" n="124" break="no"/>Totum nichil aliud est quam partes simul sumpte.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e539">
+      ¶ Quarta 
+      <lb ed="#P" n="125"/>em commentatoris. 7. meta. commento. 28. et hoc idem dicit I 
+      <lb ed="#P" n="126"/>phisi. Unaqueque peartium est aliud a toto per se sumpta debet 
+      <!--143.xml-->
+      <pb ed="#P" n="68-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>intelligi. Sed omnes simul sumpte nihil aliud sunt 
+      <lb ed="#P" n="2"/>a toto. hec est igitur positio quod totum substantiale 
+      con<lb ed="#P" n="3" break="no"/>positum ex materia et forma non addit aliquid 
+      rea<lb ed="#P" n="4" break="no"/>le absolutum super partes nec aliquam formam siue 
+      par<lb ed="#P" n="5" break="no"/>tialem siue formam totius. Sed nichil aliud est totum 
+      <lb ed="#P" n="6"/>quam partes simul sumpte. hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e565">
+               <lb ed="#P" n="7"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="8" break="no"/>ticulum. Dico breuiter expediendo me quod illa 
+      posi<lb ed="#P" n="9" break="no"/>tio est simpliciter falsa et impossibilis. Et probo quod 
+      <lb ed="#P" n="10"/>compositum substantie dicit aliquam entitatem realem 
+      <lb ed="#P" n="11"/>positiuam absolutam addentem aliquid super 
+      mate<lb ed="#P" n="12" break="no"/>riam et formam. Ita quod nec compositum est ipse partes 
+      <lb ed="#P" n="13"/>diuise nec simul sumpte vel accepte vt sic precise¬ 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e584">
+               <lb ed="#P" n="14"/>¶ Secundo declarabo per quem modum et quid est 
+      il<lb ed="#P" n="15" break="no"/>lud quod addit.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e591">
+      ¶ Ad hoc adduco rationis vnius 
+      do<lb ed="#P" n="16" break="no"/>ctoris que non sunt solute et primo vnam quam non 
+      addu<lb ed="#P" n="17" break="no"/>cit ille doctor que est talis. Illud quod est per se in 
+      ge<lb ed="#P" n="18" break="no"/>nere et in puncto methaphisico substantie dicit aliquid 
+      <lb ed="#P" n="19"/>positiuum absolutum preter materiam et formam et ista 
+      <lb ed="#P" n="20"/>simul sumpta. Quod probo / quia materia nec est 
+      per<lb ed="#P" n="21" break="no"/>se in praedicamento nec forma nec ista duo simul 
+      sum<lb ed="#P" n="22" break="no"/>pta vel vnita simul: quia ista simultas vel vnio 
+      di<lb ed="#P" n="23" break="no"/>cit respectum vel nichil super partes vnitas sicut 
+      di<lb ed="#P" n="24" break="no"/>cunt / per respectum autem vel per nichil non est aliquid 
+      <lb ed="#P" n="25"/>per se in predicamento positiuo absoluto et ita ista 
+      <lb ed="#P" n="26"/>simul sumpta non plus sunt in genere quam diuisim et 
+      per<lb ed="#P" n="27" break="no"/>se accepta. Sed compositum substantie per se est in 
+      pre<lb ed="#P" n="28" break="no"/>dicamento positiuo absoluto substantie vt patet secundum 
+      <lb ed="#P" n="29"/>omnem philosophiam et theologiam.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e624">
+      ¶ Secunda ratio est 
+      <lb ed="#P" n="30"/>ista / generatio per se primo terminatur ad aliquid 
+      <lb ed="#P" n="31"/>absolutum super vel preter materiam et formam et ista 
+      <lb ed="#P" n="32"/>simul accepta: probatio / quia nec materia per se 
+      pri<lb ed="#P" n="33" break="no"/>mo est terminus generationis nec forma. 
+      Proba<lb ed="#P" n="34" break="no"/>tio / illud non est per se primus terminus 
+      generatio<lb ed="#P" n="35" break="no"/>nis quod non per se primo et principaliter intenditur 
+      <lb ed="#P" n="36"/>a generante vt generans est. Sed forma per se 
+      primo<lb ed="#P" n="37" break="no"/>et principaliter non intenditur a generante: sed magis 
+      <lb ed="#P" n="38"/>compositum et ens perfectum cui per se primo conuenit 
+      <lb ed="#P" n="39"/>esse nec ista duo simul vt sic probatur sicut prius. Sed 
+      <lb ed="#P" n="40"/>compositum sicut iam probatum est: est primus 
+      termi<lb ed="#P" n="41" break="no"/>nus generationis quod terminat generationem et 
+      for<lb ed="#P" n="42" break="no"/>ma id quo / sicut compositum est id quod est et cui 
+      con<lb ed="#P" n="43" break="no"/>uenit esse et forma est quo sibi conuenit terminare 
+      ge<lb ed="#P" n="44" break="no"/>nerationem et esse: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e659">
+      ¶ Nota hic quod siue forma sit 
+      <lb ed="#P" n="45"/>terminus quo tantum siue terminus quod et quo 
+      gene<lb ed="#P" n="46" break="no"/>rationis quod quomodocumque addat compositum est 
+      <lb ed="#P" n="47"/>primus terminus primitate perfectionis: licet forte 
+      <lb ed="#P" n="48"/>forma prior prioritate originis et semper habetur 
+      pro<lb ed="#P" n="49" break="no"/>positum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e672">
+      ¶ Tertia ratio est ista. Illud quod per se 
+      cor<lb ed="#P" n="50" break="no"/>rumpitur dicit aliquam vnam entitatem realem absolutam 
+      <lb ed="#P" n="51"/>que non est materia nec forma nec ista duo simul per 
+      <lb ed="#P" n="52"/>eandem rationem qua probatum est prius et patet de 
+      <lb ed="#P" n="53"/>materia. De forma etiam patet. Idem per se primo 
+      <lb ed="#P" n="54"/>generatur et corrumpitur. Compositum autem per se 
+      <lb ed="#P" n="55"/>primo generatur non forma sicut probatum supra. Sed  
+      <lb ed="#P" n="56"/>compositum per se primo corrumpitur non materia nec 
+      <lb ed="#P" n="57"/>forma. Patet in anima rationali que est vnica 
+      for<lb ed="#P" n="58" break="no"/>ma in homine secundum alios que nec corrumpitur per se nec 
+      <lb ed="#P" n="59"/>per accidens. Nec ista simul sic precise accepta quia 
+      <lb ed="#P" n="60"/>tunc simul non essent nec corruptio est aliqua 
+      actio<lb ed="#P" n="61" break="no"/>adquisitiua simultatis igitur non corrumpitur. 
+      Simi<lb ed="#P" n="62" break="no"/>liter nec diuisim: quia tunc non essent in se sicut 
+      cor<lb ed="#P" n="63" break="no"/>ruptum in se non est: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e705">
+      ¶ Quarta ratio est ista 
+      <lb ed="#P" n="64"/>Causatum per se a causis intrinsecis dicit aliquid 
+      <!--143.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>preter causas vel cum ipsis causis: quia nichil est 
+      cau<lb ed="#P" n="66" break="no"/>sa sui nec intrinseca nec extrinseca: quia causa in 
+      com<lb ed="#P" n="67" break="no"/>muni accipiendo est cuius esse sequitur aliud. Sed  
+      <lb ed="#P" n="68"/>compositum est aliquid per se vnum creatum a 
+      mate<lb ed="#P" n="69" break="no"/>ria et forma sicut a causis intrinsecis. Patet. 2. 
+      phi<lb ed="#P" n="70" break="no"/>sicorum et. 7. metha. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e728">
+      ¶ Quinta ratio est ista 
+      <lb ed="#P" n="71"/>Illud absolutum sicut per se est aliqua passio que non 
+      <lb ed="#P" n="72"/>est partium dicit aliquid positiuum absolutum plusquam 
+      <lb ed="#P" n="73"/>partes: quia oportet quod per se subiectum sit aliquid. 
+      <lb ed="#P" n="74"/>Sed compositum est aliquid absolutum sicut 
+      conce<lb ed="#P" n="75" break="no"/>dunt et ipsius est aliqua passio propria que non est 
+      pas<lb ed="#P" n="76" break="no"/>sio materie nec forme nec istorum simultas: quia ista 
+      <lb ed="#P" n="77"/>simultas vel vnio vel nichil dicit super ista sicut 
+      di<lb ed="#P" n="78" break="no"/>cunt vel dicit respectum sicut alios: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e748">
+      ¶ Sexta 
+      <lb ed="#P" n="79"/>ratio est ista. Compositum per se vnum in genere 
+      sub<lb ed="#P" n="80" break="no"/>stantie est magis vnum quam compositum per accidens: 
+      <lb ed="#P" n="81"/>quia istud est vnum per se et illud per accidens. Sed si 
+      <lb ed="#P" n="82"/>entitas composita non esset alia ab entitate materie 
+      <lb ed="#P" n="83"/>et forme non esset plus vnum tale compositum. 
+      Pro<lb ed="#P" n="84" break="no"/>batio / quia materia et forma ita sunt plura entia 
+      si<lb ed="#P" n="85" break="no"/>cut substantia et accidens. Uerum est quod vnum per se est 
+      <lb ed="#P" n="86"/>in potentia ad alterum. Sed hoc dato et stante non plus 
+      <lb ed="#P" n="87"/>sunt vnum ens nec minus distincta entia quam 
+      substan<lb ed="#P" n="88" break="no"/>tia et accidens: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e772">
+      ¶ Septima ratio est ista. 
+      Uer<lb ed="#P" n="89" break="no"/>bum assumpsit per se primo naturam humanam: quia 
+      <lb ed="#P" n="90"/>per se primo fuit humanatus et factus est homo: sed 
+      <lb ed="#P" n="91"/>non accepit per se primo corpus nec animam tunc per 
+      <lb ed="#P" n="92"/>se primo fuisset corporatus vel animatus nec 
+      vnio<lb ed="#P" n="93" break="no"/>nem: quia vel est relatio vel nichil super ista: ergo 
+      hu<lb ed="#P" n="94" break="no"/>manitas dicit aliquid positiuum absolutum super ista 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e788">
+               <lb ed="#P" n="95"/>¶ Ad hoc sunt auctoritates Aristotelis. 7. meta. 
+      <lb ed="#P" n="96"/>Prima vbi inquiens de toto per se substantiali 
+      di<lb ed="#P" n="97" break="no"/>cit quod sine contradictione possunt partes intelligi 
+      si<lb ed="#P" n="98" break="no"/>ne toto siue coniunctim siue diuisim. Ponit 
+      exem<lb ed="#P" n="99" break="no"/>plum de a et b quod possunt intelligi non intelligendo 
+      il<lb ed="#P" n="100" break="no"/>lam syllabam ab: et ideo concludit ibi quod partes non 
+      <lb ed="#P" n="101"/>sunt totum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e806">
+      ¶ Ad hoc est commentator. 3. de anima 
+      di<lb ed="#P" n="102" break="no"/>cens quod ex intelligente et intellecto non fit vnum sicut ex 
+      <lb ed="#P" n="103"/>materia et forma resultat aliquod tertium addens 
+      ali<lb ed="#P" n="104" break="no"/>quid super partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e815">
+      ¶ Similiter. 5. methaphi. dicit 
+      <lb ed="#P" n="105"/>Aristoteles expresse quod bis tria non sunt sex. et 
+      pla<lb ed="#P" n="106" break="no"/>num est quod tria bis accepta coniunctim et simul 
+      ac<lb ed="#P" n="107" break="no"/>cipiuntur.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e825">
+      ¶ Unde et hoc allegat Auicenna 
+      secun<lb ed="#P" n="108" break="no"/>do methaphisice dicens sic. Si denarius 
+      congre<lb ed="#P" n="109" break="no"/>gatur ex nouem et vno vnitis prouenit aliquid aliud 
+      <lb ed="#P" n="110"/>ab vno et nouem quod est decem. Ideo dicit ipse 
+      <lb ed="#P" n="111"/>egregius philosophus Aristoteles quod bis et tria non 
+      <lb ed="#P" n="112"/>sunt sex: sed semel sex sunt sex: vel sex non esse bis 
+      <lb ed="#P" n="113"/>tria: sed vnum sex: et intelligende sunt 
+      auctorita<lb ed="#P" n="114" break="no"/>tes iste omnes de composito per se vno ex actu et 
+      <lb ed="#P" n="115"/>potentia sicut dicit philosophus de numero et 
+      ve<lb ed="#P" n="116" break="no"/>tum est si sit aliquid per se vnum compositum. Sic 
+      <lb ed="#P" n="117"/>igitur dico quod compositum addit super partes 
+      ali<lb ed="#P" n="118" break="no"/>quam entitatem vnam realem positiuam 
+      absolu<lb ed="#P" n="119" break="no"/>tam que non est entitas alterius partis nec 
+      ambo<lb ed="#P" n="120" break="no"/>rum siue simul siue diuisim acceptarum sicut probant 
+      <lb ed="#P" n="121"/>premisse rationes. Si dicas contra predicta quod si compositum 
+      <lb ed="#P" n="122"/>addat aliquid absolutum super partes essentialiter distinctum 
+      <lb ed="#P" n="123"/>ab eis quarum vnio naturaliter praecedat naturam compositam 
+      <lb ed="#P" n="124"/>sicut etiam dicetur infra sequitur quod partes possint 
+      <lb ed="#P" n="125"/>esse vnite et non erit humanitas seu natura 
+      substantia<lb ed="#P" n="126" break="no"/>lis composita que dicitur totum per se vnum in genere. 
+      <lb ed="#P" n="127"/>substantie. Sicut etiam omne prius natura essentiali 
+      <lb ed="#P" n="128"/>ter distinctum ab alio potest esse sine eo. Solutio 
+      Di<lb ed="#P" n="129" break="no"/>co quod verum concludit argumentum. Nec est aliquod incom¬ 
+      <!--144.xml-->
+      <pb ed="#P" n="69-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ueniens quod virtute diuina sit hoc possibile licet non 
+      vir<lb ed="#P" n="2" break="no"/>tute nature. Unde in aliis totis que super partes non 
+      <lb ed="#P" n="3"/>addunt nisi vnionem non prtet hoc esse nec virtute 
+      diui<lb ed="#P" n="4" break="no"/>na nec alia vt quod vniantur fundamentum paries et 
+      te<lb ed="#P" n="5" break="no"/>ctum secundum situs requisitos ad domum et non sit domus. 
+      <lb ed="#P" n="6"/>Et ratio est in promptu non sibi in proposito. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e895">
+               <lb ed="#P" n="7"/>¶ Quantum ad modum 
+      ponendi<lb ed="#P" n="8" break="no"/>istam conclusionem. Notandum est primo quod totum 
+      du<lb ed="#P" n="9" break="no"/>pliciter potest intelligi addere aliquam entitatem 
+      su<lb ed="#P" n="10" break="no"/>per partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e906">
+      ¶ Uno modo sicut pars superadditur 
+      <lb ed="#P" n="11"/>parti sicut tectum superadditur parieti et paries 
+      fun<lb ed="#P" n="12" break="no"/>damento et forma que est pars aduenit et superaddi 
+      <lb ed="#P" n="13"/>tur materie et isto modo nullus intelligens ponit quod 
+      to<lb ed="#P" n="14" break="no"/>tum superaddat omnibus partibus suis aliquam 
+      en<lb ed="#P" n="15" break="no"/>titatem positiuam absolutam: hoc enim implicat 
+      con<lb ed="#P" n="16" break="no"/>tradictionem manifestam et valde grossam. Sic enim 
+      <lb ed="#P" n="17"/>vltra omnes partes esset aliqua pars et esset processus 
+      <lb ed="#P" n="18"/>in infinitum quod est impossibile.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e926">
+      ¶ Alio modo 
+      in<lb ed="#P" n="19" break="no"/>telligitur addere aliquam entitatem super partes 
+      <lb ed="#P" n="20"/>vel vltra partes non sicut entitatem partis sed enti 
+      <lb ed="#P" n="21"/>tatem partem totius. Unde totum est sicut homo 
+      <lb ed="#P" n="22"/>super aniamam et corpus addit humanitatem vel 
+      di<lb ed="#P" n="23" break="no"/>cit magis proprio quam addit qua est entitas specifica per 
+      <lb ed="#P" n="24"/>fecta realis absoluta totius hominis. Nec est 
+      enti<lb ed="#P" n="25" break="no"/>tas materie nec forme diuisim: quia est entitas 
+      compo<lb ed="#P" n="26" break="no"/>sita istorum simul: sicutut frequenter dictum est supra. 
+      <lb ed="#P" n="27"/>Sed est entitas tertia causata ab ipsis vel ex ipsis sicut 
+      <lb ed="#P" n="28"/>ex causis per se intrinsecis.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e950">
+      ¶ Et si queras quid est 
+      <lb ed="#P" n="29"/>humanitas. Dico quod est humanitas cum Auiscen. 5o. 
+      <lb ed="#P" n="30"/>metaphi. et substantia quedam et natura vel essentia 
+      <lb ed="#P" n="31"/>specifica hominis per quam per se reponitur in 
+      ge<lb ed="#P" n="32" break="no"/>nere vel praedicamento. Ita potes quere ab 
+      Aristote<lb ed="#P" n="33" break="no"/>le quando distinxit naturam in materiam et formam 
+      <lb ed="#P" n="34"/>et compositum quinto metaphi. quid intellexit per 
+      con<lb ed="#P" n="35" break="no"/>positum. Non materiam nec formam. Nec ista 
+      simli<lb ed="#P" n="36" break="no"/>quia ista simltas precise sic accepta non facit tertiam 
+      <lb ed="#P" n="37"/>substantiam: quia non est nisi respectus nec vnio etiam 
+      <lb ed="#P" n="38"/>sicut probabo infra. Quid ergo respondeas pro 
+      Ari<lb ed="#P" n="39" break="no"/>stotele Diuisit ne naturam in materiam et formam 
+      <lb ed="#P" n="40"/>et nihil vel in materiam et formam et simultatem istorum 
+      <lb ed="#P" n="41"/>non / sed in compositionem: igitur compositum habet 
+      ra<lb ed="#P" n="42" break="no"/>tionem tertie substantie respectu istorum et nature qrgo 
+      <lb ed="#P" n="43"/>est substantia. Similiter in principio secundi de anima 
+      <lb ed="#P" n="44"/>Diuisit substantiam in materiam et formam et tertiam 
+      <lb ed="#P" n="45"/>que est composita.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e989">
+      ¶ Unde nota hic quod licet Arisi 
+      <lb ed="#P" n="46"/>secundo phisicorum non distinxerit naturam nisi in 
+      ma<lb ed="#P" n="47" break="no"/>teriam et formam et ibi negauerit compositum esse 
+      na<lb ed="#P" n="48" break="no"/>turam tamen in quinto metaphi. Dicit compositum esse 
+      <lb ed="#P" n="49"/>naturam. Ita quod non solum natura dicitur de 
+      mate<lb ed="#P" n="50" break="no"/>ria et forma: sed etiam de composito ex hiis. Unde et 
+      <lb ed="#P" n="51"/>hoc patet ex communi modo et vsu loquendi tam philoso 
+      <lb ed="#P" n="52"/>phorum quam aliorum dicitur humanitas esse natura 
+      <lb ed="#P" n="53"/>hominis. Et planum est quod humanitas non solum 
+      di<lb ed="#P" n="54" break="no"/>cit materiam nec formam partem distinctam essentia 
+      <lb ed="#P" n="55"/>liter contra materiam: sed dicit totum compositum. 
+      <lb ed="#P" n="56"/>Et forte posset hoc conuinci per descriptionem 
+      na<lb ed="#P" n="57" break="no"/>ture datam secundo phisicorum Ubi dicit quod natura est 
+      <lb ed="#P" n="58"/>principium motus. etc. Nam siue accipiatur 
+      prin<lb ed="#P" n="59" break="no"/>cipium subiectiuum siue principium effectiuum. Pla 
+      <lb ed="#P" n="60"/>num est quod toti composito conuenit esse principium tale et 
+      <lb ed="#P" n="61"/>perfectius et completius immo solis compositis 
+      quan<lb ed="#P" n="62" break="no"/>tum ad multa que non conueniunt nisi compositis ipsis et 
+      <lb ed="#P" n="63"/>non partibus saltem vt subiectis quare autem negaue 
+      <lb ed="#P" n="64"/>rit hoc in phisicis nescio cum sicut iam dixi descri¬ 
+      <!--144.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ptio eius hoc concludat si bene deducatur. Similiter 
+      <lb ed="#P" n="66"/>etiam Boetius quando distinxit in predicamentis 
+      sub<lb ed="#P" n="67" break="no"/>stantiam in materiam et formam vel compositum. 
+      Pla<lb ed="#P" n="68" break="no"/>num est autem quod tertia substantia aliquid addit 
+      vel<lb ed="#P" n="69" break="no"/>superaddit super duas et aliquid dicit plus quam 
+      due<lb ed="#P" n="70" break="no"/>aliquid positiuum reale quare. etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1051">
+      ¶ Dices ego non 
+      <lb ed="#P" n="71"/>possum intelligere. Dico quod ista est debilis 
+      instan<lb ed="#P" n="72" break="no"/>tia et dico quod multo minus possum intelligere illa qrgo 
+      <lb ed="#P" n="73"/>tu dicis. Et puto quod tumet multo minus intelligas 
+      <lb ed="#P" n="74"/>istud quo modo substantia compositi per se est in 
+      pre<lb ed="#P" n="75" break="no"/>dicamento substantie nec est nisi aliqua substantia / quo 
+      <lb ed="#P" n="76"/>modo. ergo potes capere quod non sit ibi alia substantia 
+      <lb ed="#P" n="77"/>a materia et forma siue diuisim siue siml quia si diuisim 
+      <lb ed="#P" n="78"/>accipiantur quelibet est vna substantia que per se non 
+      <lb ed="#P" n="79"/>est in genere. Si accipias eas simul non nisi due 
+      sub<lb ed="#P" n="80" break="no"/>stantie simplices et habentes respectus simultatis. 
+      <lb ed="#P" n="81"/>Et videas quid istarum est per se in genere. 
+      Puta<lb ed="#P" n="82" break="no"/>tu bene potes videre in toto per aggregationem. 
+      <lb ed="#P" n="83"/>Puta in domo quod in ipso est aliquid. Unde totum 
+      <lb ed="#P" n="84"/>est quod addit super partes et non est pars nec partes 
+      <lb ed="#P" n="85"/>puta ordo partium. Dicimus enim quod in domo sunt 
+      <lb ed="#P" n="86"/>tres partes fundamentum paries et tectum. Nec 
+      dici<lb ed="#P" n="87" break="no"/>mus quod ordo istam partium sit pars nec partes 
+      do<lb ed="#P" n="88" break="no"/>mus. Similiter etiam in toto per accidens 
+      inheren<lb ed="#P" n="89" break="no"/>tis partis ad partem vt albedinis ad hominem 
+      im<lb ed="#P" n="90" break="no"/>isto toto quod est homo albus. Et non potes 
+      yma<lb ed="#P" n="91" break="no"/>ginari quod in toto vno per se substantiali sit aliquid 
+      plul<lb ed="#P" n="92" break="no"/>quam partes vel partes vel entitas aliqua absoluta eo 
+      <lb ed="#P" n="93"/>ipso quod subam est. Nescio quare hoc non potest capi. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1103">
+               <lb ed="#P" n="94"/>¶ Secundo notandum est quod 
+      <lb ed="#P" n="95"/>licet totum dicat aliquid plusquam partes quia seipsum 
+      <lb ed="#P" n="96"/>dicit in propriam entitatem tamen de necessitate 
+      in<lb ed="#P" n="97" break="no"/>cludit partes. Nec potest accipi prescindendo a 
+      par<lb ed="#P" n="98" break="no"/>tibus sic quod sit aliquid quod non includat partes 
+      si<lb ed="#P" n="99" break="no"/>cut totum includit partes. Non dico quod non sit 
+      par<lb ed="#P" n="100" break="no"/>tes sed quod non includat et tamen distinguitur ab ipsis 
+      <lb ed="#P" n="101"/>sicut aliquid per se vnum includens distinguitur ab 
+      in<lb ed="#P" n="102" break="no"/>clusis. Secus esset si totum includeret vel diceretur 
+      <lb ed="#P" n="103"/>aliquid aliud sicut partem tunc enim illud additum 
+      <lb ed="#P" n="104"/>esset a partibus illis prescindi.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1129">
+      ¶ Si queras 
+      vn<lb ed="#P" n="105" break="no"/>de hoc quod in aliis superaddens quantum ad illud quod 
+      <lb ed="#P" n="106"/>superaddit potest prescindi ab illis quibus 
+      superad<lb ed="#P" n="107" break="no"/>dit et non in proposito. Similiter ego quero a te 
+      vnde<lb ed="#P" n="108" break="no"/>est hoc quod in proposito superaddens se habet ad 
+      illa<lb ed="#P" n="109" break="no"/>quibus superaddit sicut totum per se vnum ad 
+      pas<lb ed="#P" n="110" break="no"/>tes et non in aliis et non est alia ratio nisi hoc est hoc et 
+      <lb ed="#P" n="111"/>illud est illud: et alia sunt alia.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1147">
+      ¶ Ego quaero a te qua 
+      <lb ed="#P" n="112"/>re calidum calefacit et non est alia ratio nisi quia 
+      cali<lb ed="#P" n="113" break="no"/>dum est calidum habens talem virtutem et frigidi 
+      <lb ed="#P" n="114"/>non est frigidum nec habens talem virtutem sed est 
+      <lb ed="#P" n="115"/>frigidum. Unde dico quod in omnibus per se totis 
+      con<lb ed="#P" n="116" break="no"/>positis ex materia et forma tenet hoc quod superaddens 
+      <lb ed="#P" n="117"/>non potest prescindi nec illud quod superaddit a 
+      parti<lb ed="#P" n="118" break="no"/>bus quibus superaddit sicut nec totum a partibus 
+      <lb ed="#P" n="119"/>in aliis non habet locum 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1167">
+               <lb ed="#P" n="120"/>¶ Tertio notandum est quod 
+      en<lb ed="#P" n="121" break="no"/>titas et natura compositi in abstracto signata sicut 
+      <lb ed="#P" n="122"/>humanitas dicitur forma totius non autem forma 
+      <lb ed="#P" n="123"/>partis. Quod autem vocetur forma hoc est proprie 
+      di<lb ed="#P" n="124" break="no"/>ctum et secundum Aristotelem. Unde et frequenter 
+      Ari<lb ed="#P" n="125" break="no"/>stoteles quiditatem vocat formam: licet complecta 
+      <lb ed="#P" n="126"/>tur et materiam et formam et precipue in septimo 
+      me<lb ed="#P" n="127" break="no"/>taphi: Ita bene enim potest dici quod quiditas est for¬ 
+      <!--145.xml-->
+      <pb ed="#P" n="69-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ma sicut quod partes diffinitionis sunt forme.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1196">
+      ¶ 
+      Di<lb ed="#P" n="2" break="no"/>citur etiam forma quia est conceptus formalis 
+      quidita<lb ed="#P" n="3" break="no"/>tiuus rei. Sicut frequenter indiuiduum Aristoteles 
+      <lb ed="#P" n="4"/>vocat materiam quia est aliquid contrahens 
+      quidita<lb ed="#P" n="5" break="no"/>tem sicut materia formam suomodo.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1208">
+      ¶ Dicitur etiam 
+      <lb ed="#P" n="6"/>forma in abstracto et per modum forme significatur 
+      <lb ed="#P" n="7"/>respectu concreti habentis istam quiditatem. Sed 
+      <lb ed="#P" n="8"/>dicitur forma totalis totius quod potest dupliciter 
+      <lb ed="#P" n="9"/>ntelligi. Uno modo quod informet totum sicut materia 
+      <lb ed="#P" n="10"/>informatur a forma et sicut accidens informat totum 
+      <lb ed="#P" n="11"/>compositum quasi vna tunica superinduta: et hoc est 
+      <lb ed="#P" n="12"/>falsum. Non autem est forma inherens. Alio modo quod 
+      <lb ed="#P" n="13"/>pro tanto sit totius quia est natura formalis qua totum 
+      <lb ed="#P" n="14"/>primo est tale sicut humanitate per se homo est hoc 
+      <lb ed="#P" n="15"/>mo forma tamquam natura et quiditate sua formali. et sic 
+      <lb ed="#P" n="16"/>patet quod non est forma inherens alicui sicut materie vt 
+      <lb ed="#P" n="17"/>materie vel subiecti. Nec ista forma totius que est 
+      na<lb ed="#P" n="18" break="no"/>tura totalis rei vt sic abstractiue signata est 
+      termi<lb ed="#P" n="19" break="no"/>nus generationis sicut illud quod generatur: sed 
+      ma<lb ed="#P" n="20" break="no"/>gis totum ipsum habens talem quiditatem quod est 
+      <lb ed="#P" n="21"/>singulare tale quiditatis.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1245">
+      ¶ Et ideo dico quod talem 
+      <lb ed="#P" n="22"/>entitatem addit super partes que per se primo non 
+      <lb ed="#P" n="23"/>generantur nec diuisim nec coniunctim. Et si illam non 
+      <lb ed="#P" n="24"/>adderet Dico quod ita parum generaretur sicut vle. 
+      <lb ed="#P" n="25"/>Modis igitur predictis voca eam formam si vissi 
+      <lb ed="#P" n="26"/>non vis non curo. Uocetur .b. dum tamen habeams 
+      <lb ed="#P" n="27"/>realitatem. Hec de secundo articulo 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1261">
+               <lb ed="#P" n="28"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="29" break="no"/>ticulum. Restat ponere solutiones aliquorum ad 
+      ra<lb ed="#P" n="30" break="no"/>tiones positionis et ostendere quod ille solutiones 
+      nihi<lb ed="#P" n="31" break="no"/>valent.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1272">
+      ¶ Ad primam rationem de esse in genere 
+      pri<lb ed="#P" n="32" break="no"/>se nihil inuenio dictum. Tamen ipsi di cerent 
+      con<lb ed="#P" n="33" break="no"/>sequenter ad dicta sua quod nec materia per se nec 
+      for<lb ed="#P" n="34" break="no"/>ma per se sed ista duo simul sunt per se in predicamen 
+      <lb ed="#P" n="35"/>to.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1283">
+      ¶ Ad rationem secundam dicitur quod non 
+      genera<lb ed="#P" n="36" break="no"/>tur aliud nisi partes simul iuncte. Totum enim 
+      ge<lb ed="#P" n="37" break="no"/>neratur puta corpus animatum bene sed non est aliud 
+      <lb ed="#P" n="38"/>quam partes simul iuncte et neutra per se generatur. 
+      <lb ed="#P" n="39"/>Et additur vnum mirabile dictum quod licet 
+      compo<lb ed="#P" n="40" break="no"/>situm generetur tamen non est terminus generatio 
+      <lb ed="#P" n="41"/>nis sed magis ipsa forma que tamen non generatur 
+      <lb ed="#P" n="42"/>sed est terminus generationis.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1301">
+      ¶ Ad tertium de 
+      cor<lb ed="#P" n="43" break="no"/>ruptione per idem nisi quod dicitur quod non est ad propositum 
+      <lb ed="#P" n="44"/>argumentum secundum mentem philosophi: quia loquitur de 
+      <lb ed="#P" n="45"/>illis quae generantur ex elementis: quia ex illis resultat qua 
+      <lb ed="#P" n="46"/>dam forma. Unde bene concludit quod non remanet 
+      for<lb ed="#P" n="47" break="no"/>ma sed materia tantum. Non est autem simile de illis 
+      <lb ed="#P" n="48"/>quorum forma est incorruptibilis sicut anima. Illa 
+      <lb ed="#P" n="49"/>enim sic corrumpuntur quod aliqua pars non 
+      corrumpi<lb ed="#P" n="50" break="no"/>tur nec aliquid absolutum positiuum aliud ab ipsis. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1322">
+               <lb ed="#P" n="51"/>¶ Ad aliud de causato a causis i ntrinsecis. 
+      Dici<lb ed="#P" n="52" break="no"/>tur quod compositum non est aliud a materia et forma. Sed 
+      <lb ed="#P" n="53"/>dicitur quod materia est causa forme in recipiendo et 
+      <lb ed="#P" n="54"/>forma est causa materie in informando et perficiendo. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1333">
+               <lb ed="#P" n="55"/>¶ Ad quintum dicitur quod est aliqua propria passio non 
+      <lb ed="#P" n="56"/>puius partis vel illius sed ipsarum simul coniunctarum 
+      <lb ed="#P" n="57"/>et coniunctim non diuisim.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1342">
+      ¶ Ad sextum de 
+      maiori<lb ed="#P" n="58" break="no"/>vnitate totius per se vnius quam per accidens. Dicitur 
+      <lb ed="#P" n="59"/>quod argumentum est ad propositum quia eoipso quod est 
+      ma<lb ed="#P" n="60" break="no"/>gis. vnum minus addit quam illud quod est minus vnum. 
+      <lb ed="#P" n="61"/>Iste sunt solutiones illius primi. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1353">
+               <lb ed="#P" n="62"/>¶ Alius respondet aliter ad 
+      <lb ed="#P" n="63"/>illud de generatione dicit quod bene generatio terminatur 
+      <!--145.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>ad aliquid reale absolutum: sed illud est natura 
+      to<lb ed="#P" n="65" break="no"/>ta que non est aliud absolutum a materia et forma et 
+      <lb ed="#P" n="66"/>dicit quod non est compositum ipsum quod terminat 
+      ge<lb ed="#P" n="67" break="no"/>nerationem quia omne compositum de suo 
+      prima<lb ed="#P" n="68" break="no"/>rio intellectu includit compositionem et per consequens 
+      <lb ed="#P" n="69"/>aliquem respectum. Et quando dicitur quod materia non 
+      ge<lb ed="#P" n="70" break="no"/>neratur nec forma. ergo nec tota natura que non est 
+      <lb ed="#P" n="71"/>aliud ab ipsis. Dicit quod licet non sit aliud tamen alio 
+      <lb ed="#P" n="72"/>modo se habet ita quod est ista. alio modo se habentia: 
+      <lb ed="#P" n="73"/>ethoc sufficit sicut licet suppositum nihil reale 
+      abso<lb ed="#P" n="74" break="no"/>lutum addat super naturam tamen supposito 
+      conue<lb ed="#P" n="75" break="no"/>nit quod generet et non nature. Sic in proposito toti 
+      natu<lb ed="#P" n="76" break="no"/>re conuenit terminare generationem et non materie nec 
+      <lb ed="#P" n="77"/>forme.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1395">
+      ¶ Ad aliud de corruptione. Dicit vnus quod 
+      <lb ed="#P" n="78"/>quandoque proprie corruptione aliquid positiuum abso 
+      <lb ed="#P" n="79"/>lutum corrupitur non solum in aliis ab homine sed. etiam  
+      <lb ed="#P" n="80"/>in homine et sicut dixerat in secundo. In homine sunt  
+      <lb ed="#P" n="81"/>saltem quattuor forme / corporea / vegetatiua 
+      sensi<lb ed="#P" n="82" break="no"/>tiua / et intellectiua. Et quando homo moritur est in 
+      <lb ed="#P" n="83"/>eo desitio sensitiue et vegetatiue quae sunt forme 
+      abso<lb ed="#P" n="84" break="no"/>lute: tamen corporea no ita cito desinit esse et ideo 
+      di<lb ed="#P" n="85" break="no"/>cit quod non potest dici proprie corruptus licet mortuus 
+      <lb ed="#P" n="86"/>quandiu maneret illa forma corporea: quia nondum aliquid 
+      <lb ed="#P" n="87"/>est de nouo generatum. Corruptio autem vnius est 
+      <lb ed="#P" n="88"/>generatio alterius. In christo autem per miraculum 
+      <lb ed="#P" n="89"/>fuit conseruata quelibet forma eius. Unde et 
+      vegeta<lb ed="#P" n="90" break="no"/>tiua et sensitiua fuerunt separate cum anima 
+      rationali<lb ed="#P" n="91" break="no"/>et assumpte a verbo et vnite sibi. vnde in morte eius 
+      <lb ed="#P" n="92"/>non desiit esse aliqua forma eius.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1430">
+      ¶ Si dicatur quod 
+      <lb ed="#P" n="93"/>immo quia christus fuit vere mortuus ergo in eo desiuit esse 
+      <lb ed="#P" n="94"/>aliqua forma absoluta. Dicit quod mors et corruptio se 
+      <lb ed="#P" n="95"/>habent sicut superius et inferius. Nam mors in suo 
+      <lb ed="#P" n="96"/>per se intellectu non includit nisi partium separatio 
+      <lb ed="#P" n="97"/>nem. Sed corruptio super hoc addit alicuius abso 
+      <lb ed="#P" n="98"/>luti desitionem. Et ideo licet christus fuerit vere mor 
+      <lb ed="#P" n="99"/>tuus non tamen fuit corruptus. Iuxta illud Psal. 
+      <lb ed="#P" n="100"/>Non dabis sanctum tuum videre corruptionem 
+      Ex<lb ed="#P" n="101" break="no"/>christo etiam nihil aliud fuit generatum in morte et ideo 
+      <lb ed="#P" n="102"/>non fuit vere corruptus / licet vere fuit mortuus. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1455">
+               <lb ed="#P" n="103"/>¶ Confirmatur hoc ab aliis per Augustinum 
+      con<lb ed="#P" n="104" break="no"/>tra Felicianum dicentem quod sicut tenebrositas in 
+      ae<lb ed="#P" n="105" break="no"/>re non est nisi absentia lucis. Ita mors in homine 
+      <lb ed="#P" n="106"/>non est aliud quam absentia anime.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1466">
+      ¶ Item per 
+      Dio<lb ed="#P" n="107" break="no"/>nysium secundo ca. angesice ierarchie. Dicit enim quod 
+      <lb ed="#P" n="108"/>mors in nobis non est alicuius substantie abolitio 
+      <lb ed="#P" n="109"/>sicut aliis videtur sed vnitorum discretio et hoc 
+      di<lb ed="#P" n="110" break="no"/>cit ibidem Lynconiensis. etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1477">
+      ¶ Ad aliud de 
+      causa<lb ed="#P" n="111" break="no"/>litate causarum intrinsecarum respondet quod causa 
+      <lb ed="#P" n="112"/>tum a causis intrinseeis non est aliud absolutum ab 
+      <lb ed="#P" n="113"/>ipsis et illud quod causa est ad cuius esse sequitur aliud non 
+      <lb ed="#P" n="114"/>est intelligendum nisi de causis extrinsecis: quia nec 
+      cau<lb ed="#P" n="115" break="no"/>se extrinsece sunt vniuoce cause cum extrinsecis. 
+      <lb ed="#P" n="116"/>Dicit tamen quod licet ad istas causas intrinsecas non 
+      <lb ed="#P" n="117"/>sequatur aliquid absolutum positiuum / tamen aliud 
+      <lb ed="#P" n="118"/>id est alius modus se habendi sequitur.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1497">
+      ¶ Et cum 
+      <lb ed="#P" n="119"/>dicitur quod idem non causat se. verum est effectiue vel 
+      <lb ed="#P" n="120"/>eodem modo. Sed cause intrinsece bene causant idem 
+      <lb ed="#P" n="121"/>sibi diuerso modo se habendi. Et sic tota natura alio 
+      <lb ed="#P" n="122"/>modo se habet quam partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1508">
+      ¶ Ad aliud de 
+      assumptio<lb ed="#P" n="123" break="no"/>ne nature humane a verbo dicit quod tota natura 
+      hu<lb ed="#P" n="124" break="no"/>mana absoluta que non est aliud a partibus fuit 
+      pri<lb ed="#P" n="125" break="no"/>mo assumpta: et fundauit respectum vnionis ad 
+      ver<lb ed="#P" n="126" break="no"/>bum tamen istam naturam sic absolutam 
+      consequi<lb ed="#P" n="127" break="no"/>tur quedam vnio actualis partium vel 
+      concomita<lb ed="#P" n="128" break="no"/>tur que non est de per se primo intellectu huius nature 
+      <!--146.xml-->
+      <pb ed="#P" n="70-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nec mediat inter naturam assumptam et verbum sed 
+      <lb ed="#P" n="2"/>concomitatur.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1534">
+      ¶ Ad vnam vero instantiam iuxta 
+      <lb ed="#P" n="3"/>hoc quia nion totum non addit nisi vnionem super partes 
+      <lb ed="#P" n="4"/>et non aliquid absolutum sequeretur quod de per se 
+      intel<lb ed="#P" n="5" break="no"/>lectu cuiuslibet totius esset relatio.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1544">
+      ¶ Dicit quod non 
+      va<lb ed="#P" n="6" break="no"/>let quia totum non addi illam vnionem sicut de per se 
+      <lb ed="#P" n="7"/>intellectum suo sed sicut aliquid concomitans vel 
+      cons<lb ed="#P" n="8" break="no"/>quens necessario sicut risibile concomitatur hominem 
+      <lb ed="#P" n="9"/>nec est de per se primo intellectu eius.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1555">
+      ¶ Ad illud 
+      <lb ed="#P" n="10"/>de magis vno per se. Dicit quod non obstante hoc 
+      to<lb ed="#P" n="11" break="no"/>tum ex materia et forma est magis vnum quantotum 
+      pe<lb ed="#P" n="12" break="no"/>accidens. Primo quia partes sunt eiusdem generis 
+      <lb ed="#P" n="13"/>Et secundo quia vna habet per se ordinem essentia 
+      <lb ed="#P" n="14"/>lem ad aliam. In alio autem non nisi accidentalem. 
+      <lb ed="#P" n="15"/>ideo etc 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1571">
+               <lb ed="#P" n="16"/>¶ Ad auctoritatem 
+      Aristote<lb ed="#P" n="17" break="no"/>lis. Septimo metaphi. de a. et b. dicit quod 
+      extendende<lb ed="#P" n="18" break="no"/>hoc nomen aliud ad omne positiuum reale oportet 
+      <lb ed="#P" n="19"/>dicere et consequitur quod totum dicit aliud a partibus 
+      <lb ed="#P" n="20"/>quia dicit actualem vnionem partium que ipsam 
+      na<lb ed="#P" n="21" break="no"/>turam consequitur nec est de per se intellectu 
+      natu<lb ed="#P" n="22" break="no"/>re et ideo ab. sicut dicit addit aliquid super a et b. sed non 
+      <lb ed="#P" n="23"/>aliquid absolutum sed actualem partium vnionem 
+      <lb ed="#P" n="24"/>Ulterius ad habendum mentem philosophi. dicit quod 
+      <lb ed="#P" n="25"/>Aristoteles septimo metaphi. et quinto. Et Auicen.¬ 
+      <lb ed="#P" n="26"/>secundo metaphi. in auctoritatibus illis allegatis 
+      lo<lb ed="#P" n="27" break="no"/>quuntur de partibus materialibus. Bene enim verum 
+      <lb ed="#P" n="28"/>est quod totum est aliud a partibus materialibus: quia quando 
+      <lb ed="#P" n="29"/>ita est quod sunt plures partes materiales et vna 
+      eari<lb ed="#P" n="30" break="no"/>non potest esse actus et forma et per consequens ex ipsis 
+      <lb ed="#P" n="31"/>non potest aliquid vnum precise acceptis. Tunc oportet 
+      <lb ed="#P" n="32"/>ponere aliquid aliud sicut formam vel partem 
+      for<lb ed="#P" n="33" break="no"/>malem cum illis partibus materialibus. Et quod hoc sit 
+      <lb ed="#P" n="34"/>de mente philosophi septimo metaphi. patet. Nam a 
+      <lb ed="#P" n="35"/>et b. sunt partes materiales huius compositi ab quod 
+      <lb ed="#P" n="36"/>secundum eum 2o phisi. littere vel elementa sit 
+      mate<lb ed="#P" n="37" break="no"/>ria sillabe et sillaba dictionis. et sic etiam intelligen 
+      <lb ed="#P" n="38"/>dum est de sex respectu trium et dictum Auicen. et tunc 
+      <lb ed="#P" n="39"/>non habetur nisi quod tale totum addit formam que est 
+      <lb ed="#P" n="40"/>vere pars super partem materialem vel super 
+      ma<lb ed="#P" n="41" break="no"/>teriam et hoc bene conceditur. Sed sex sunt partes 
+      <lb ed="#P" n="42"/>quarum vna est perfectio formalis et actus alterius 
+      <lb ed="#P" n="43"/>non oportet ponere quod totum addat aliquid super 
+      <lb ed="#P" n="44"/>partes. Hoc autem est in composito ex materia et 
+      for<lb ed="#P" n="45" break="no"/>ma et hec est mens Aristotelis ibidem. Dicit enim quod 
+      <lb ed="#P" n="46"/>caro non est ignis nec terra. etc. Exemplificando de elo 
+      <lb ed="#P" n="47"/>mentis semper: sed aliquid aliud plus dicit 
+      simili<lb ed="#P" n="48" break="no"/>ter et sillaba. Unde ibidem dicit quod illud aliud nec est 
+      <lb ed="#P" n="49"/>elementum nec ex elementis et commentator etiam. 
+      Ex<lb ed="#P" n="50" break="no"/>quo patet quod illud tertium non est natura compositi sicut 
+      <lb ed="#P" n="51"/>volunt alii concludere sed est forma que est pars 
+      con<lb ed="#P" n="52" break="no"/>positi que necessario vltra materiam requiritur ad 
+      <lb ed="#P" n="53"/>hoc quod sit totum compositum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1656">
+      ¶ Ad vnam aliam 
+      ai<lb ed="#P" n="54" break="no"/>ctoritatem Commentatioris tertiode anima 
+      commen<lb ed="#P" n="55" break="no"/>to quinto vbi dicit quod aliud resultat ex materia et 
+      for<lb ed="#P" n="56" break="no"/>ma quam ex intellectum et intellectione intellecta. Ex istis 
+      <lb ed="#P" n="57"/>autem resultat vnum per accidens quod non est aliquid 
+      <lb ed="#P" n="58"/>absolutum vltra partes ergo ex illis vnum per se quia 
+      <lb ed="#P" n="59"/>est aliquid vltra partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1672">
+      ¶ Respondet quod commenta 
+      <lb ed="#P" n="60"/>tor vult dicere quod ex materia et forma resultat aliquid 
+      <lb ed="#P" n="61"/>quia vnum per se non autem ex intellectu et intellectione 
+      <lb ed="#P" n="62"/>intellecta sed vnum per accidens non autem vult 
+      di<lb ed="#P" n="63" break="no"/>cere quod illud aliud addat aliquid absolutum vltra 
+      <lb ed="#P" n="64"/>materiam et formam 
+      <!--146.xml-->
+      <cb ed="#P" n="b"/>
+            </p>
+            <p xml:id="qrdBas-b44312-d1e1690">
+               <lb ed="#P" n="65"/>¶ Contra istas solutiones 
+      ar<lb ed="#P" n="66" break="no"/>guo quod non euacuant predictas rationes et 
+      auctorita<lb ed="#P" n="67" break="no"/>tes. Contra primam de esse in genere per se et aliam de 
+      <lb ed="#P" n="68"/>propria passione et etiam contra illam de corrumpi 
+      per<lb ed="#P" n="69" break="no"/>se que omnia concurrunt per idem quod omnia ista 
+      con<lb ed="#P" n="70" break="no"/>ueniunt non partibus per se et diuisim sed simul 
+      con<lb ed="#P" n="71" break="no"/>lunctim.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1709">
+      ¶ Arguo sic partes accepte simul et communium 
+      <lb ed="#P" n="72"/>ctim precise sic non addunt super partes nisi 
+      simulta<lb ed="#P" n="73" break="no"/>tem vel coniunctionem vel vnionem. Sed ista simul 
+      <lb ed="#P" n="74"/>tas vel vnio vel coniunctio vel non est nisi respectus vel 
+      <lb ed="#P" n="75"/>omnino nihil est preter partes et ipsa vnita. Sed siue 
+      <lb ed="#P" n="76"/>sit respectus siue nihil Planum est quod partes 
+      acce<lb ed="#P" n="77" break="no"/>pte cum tali simultate ratione talis simultatis vel 
+      <lb ed="#P" n="78"/>coniunctionis non plus possunt habere ista quam si per 
+      <lb ed="#P" n="79"/>se et diuisim accipiantur. Non eim per respectum nec 
+      per<lb ed="#P" n="80" break="no"/>nihil est aliquid per se in genere positiuo absoluto 
+      <lb ed="#P" n="81"/>nec per se generatur nec per se corrumpitur nec per se 
+      <lb ed="#P" n="82"/>habet propriam passionem conuenientem alicui al 
+      <lb ed="#P" n="83"/>voluto. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1738">
+      ¶ praterea Partes accepte coniunctim et 
+      <lb ed="#P" n="84"/>simul. Aut sunt aliquid absolutum aliud ab amba 
+      <lb ed="#P" n="85"/>bus partibus. Aut nihil sed tantum in genere abso 
+      <lb ed="#P" n="86"/>lute et ratione sunt ista pars et ista pars: quia materia 
+      <lb ed="#P" n="87"/>est materia et forma est forma. Si sunt aliquid aliud 
+      <lb ed="#P" n="88"/>absolutum cui conueniunt ista habeo propositum quia 
+      <lb ed="#P" n="89"/>illud voco compositum. Si non sunt in genere absolu 
+      <lb ed="#P" n="90"/>ti nisi ista pars et ista tunc sicut ista pars non est per 
+      <lb ed="#P" n="91"/>se in predicamento absoluto nec ista et ista. ergo etc. 
+      <lb ed="#P" n="92"/>Hoc patet quia quicquid sunt in genere absoluti ista 
+      <lb ed="#P" n="93"/>pars et ista coniunctim accepte ex quo illud comiuncti 
+      <lb ed="#P" n="94"/>nihil absolutum addit super hanc partem. 
+      Puta<lb ed="#P" n="95" break="no"/>materiam et hanc puta formam. Ita quod non est ibi 
+      ali<lb ed="#P" n="96" break="no"/>quid aliud absolutum nisi materia et nisi forma: 
+      to<lb ed="#P" n="97" break="no"/>tum hoc sunt partes iste separate abinuicem et 
+      diui<lb ed="#P" n="98" break="no"/>se: quia sicut cum materia est forma ita etiam sine 
+      ma<lb ed="#P" n="99" break="no"/>teria et quicquid absolutum est materia cum forma 
+      <lb ed="#P" n="100"/>et econuerso totum illud sine forma et econuerso. ergo 
+      <lb ed="#P" n="101"/>cum esse per se in genere et generari et corrumpi et 
+      ha<lb ed="#P" n="102" break="no"/>bere propriam passionem conueniat per aliquid 
+      ab<lb ed="#P" n="103" break="no"/>solutum et alicui absoluto. ita bene conueniunt ista 
+      par<lb ed="#P" n="104" break="no"/>tibus diuisis sicut coniunctis.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1786">
+      ¶ Hoc contra illam 
+      <lb ed="#P" n="105"/>solutionem contra vnum dictum in secunda solutio 
+      <lb ed="#P" n="106"/>ne quod compositum generatur tamen non est terminus 
+      <lb ed="#P" n="107"/>generationis.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1795">
+      ¶ Arguo sic Illud quod per se 
+      pri<lb ed="#P" n="108" break="no"/>mo generatur aut comparatur ad generationem sicu 
+      <lb ed="#P" n="109"/>subiectum / aut sicut terminus a quo / aut sicut ad quem 
+      <lb ed="#P" n="110"/>vel in quem / aut sicut efficiens non est dare plura 
+      pe<lb ed="#P" n="111" break="no"/>se respicientia generationem vt videtur. Sed planum 
+      <lb ed="#P" n="112"/>est quod illud generatur puta compositum non 
+      compa<lb ed="#P" n="113" break="no"/>ratur ad generationem sicut materia vel subiectum 
+      <lb ed="#P" n="114"/>nec sicut generans vel agens quia nihil generat 
+      seip<lb ed="#P" n="115" break="no"/>sum. Nec sicut terminus a quo quia terminus a quo 
+      <lb ed="#P" n="116"/>prior est eo quodgeneratur etiam duratione 
+      <lb ed="#P" n="117"/>Nihil autem est prius seipso duratione ergo sicut 
+      <lb ed="#P" n="118"/>terminus ad quem et per se terminus eius.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1821">
+      ¶ 
+      Seci<lb ed="#P" n="119" break="no"/>do sic. Terminus per se primus generationis est esse 
+      <lb ed="#P" n="120"/>et ens quia sicut generatio habet pro termino a quo 
+      <lb ed="#P" n="121"/>non esse vel non ens. Ita pro termino ad quem habet 
+      <lb ed="#P" n="122"/>esse vel ens. Tunc sic illud est per se primus 
+      termi<lb ed="#P" n="123" break="no"/>nus generationis cui per se primo conuenit esse. Sed hoc 
+      <lb ed="#P" n="124"/>est compositum secundum omnem philosophiam et omnem 
+      <lb ed="#P" n="125"/>theologiam: Cum ergo compositum generetur. 
+      Pla<lb ed="#P" n="126" break="no"/>num est quod compositum est per se primus terminus 
+      ge<lb ed="#P" n="127" break="no"/>nerationis.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1843">
+      ¶ Tertio sic. Illud est per se terminus 
+      <lb ed="#P" n="128"/>generationis quo posito generatio terminatur et quo¬ 
+      <!--147.xml-->
+      <pb ed="#P" n="70-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>que circumscripto generatio non terminatur quocumque alio 
+      <lb ed="#P" n="2"/>posito per possibile vel impossibile. Sed posito composito s 
+      <lb ed="#P" n="3"/>generante generatio terminata est. Ipso autem circut 
+      <lb ed="#P" n="4"/>scripto non est terminata: quia compositum est per se 
+      fi<lb ed="#P" n="5" break="no"/>nis intentions agentis. Quid enim vult habere vel 
+      <lb ed="#P" n="6"/>intendit habere generans pro termino sue actionis 
+      <lb ed="#P" n="7"/>principaliter intento numquid compositum similes 
+      sibi<lb ed="#P" n="8" break="no"/>non autem materiam vel formam: sed simile sibi 
+      com<lb ed="#P" n="9" break="no"/>positum ergo. etc. Et ideo dico quod est contradictio 
+      ma<lb ed="#P" n="10" break="no"/>nifesta. dicere quod aliquid per se primo generatur non si 
+      <lb ed="#P" n="11"/>cut subiectum vel materia et quod illud non est 
+      termin<lb ed="#P" n="12" break="no"/>generationis. et ita illud dictum nihil valet.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1881">
+      ¶ Ul 
+      <lb ed="#P" n="13"/>de dico quod duplex est terminus generationis. Unus 
+      <lb ed="#P" n="14"/>est terminus tanquam illud quod generatur et fit ens in 
+      <lb ed="#P" n="15"/>actu et cui primo conuenit esse per se primo et 
+      princi<lb ed="#P" n="16" break="no"/>paliter a generante tanquam effectus eius et istud est 
+      c<lb ed="#P" n="17" break="no"/>positum et de tali dicitur Septimo metaphi. quod 
+      ma<lb ed="#P" n="18" break="no"/>teria non fit nec forma sed compositum nec es nec spe 
+      <lb ed="#P" n="19"/>ra sed spera enea. Alius est terminus quo qui est 
+      for<lb ed="#P" n="20" break="no"/>ma et est illud quo compositum est et quo sicut 
+      parte<lb ed="#P" n="21" break="no"/>formali compositum terminat generationem et est 
+      <lb ed="#P" n="22"/>per se terminus generationis non per accidens sicut 
+      <lb ed="#P" n="23"/>albedo et nigredo vel alia accidentia sicut albedo. 
+      v<lb ed="#P" n="24" break="no"/>album per accidens edificat non tamen est per se 
+      pri<lb ed="#P" n="25" break="no"/>mus et principalis terminus. Primus dico 
+      intentio<lb ed="#P" n="26" break="no"/>ne: licet forte sit prior origine sicut partes toto: sed 
+      <lb ed="#P" n="27"/>de hoc non curo. Et ideo dicitur forma generari 
+      per<lb ed="#P" n="28" break="no"/>accidens eo modo quo per accidens distinguitur 
+      con<lb ed="#P" n="29" break="no"/>tra primo non eo modo quo distinguitur contra 
+      prin<lb ed="#P" n="30" break="no"/>cipaliter vel contra per se.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1923">
+      ¶ Quarto Sicut se 
+      ha<lb ed="#P" n="31" break="no"/>bet creatio ad illud quod creatur tanquam ad terminum 
+      <lb ed="#P" n="32"/>sic generatio ad illud quod generatur. Sed illud quod 
+      <lb ed="#P" n="33"/>creatur est terminus creationis. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1932">
+               <lb ed="#P" n="34"/>¶ Contra aliud dictum ad 
+      ra<lb ed="#P" n="35" break="no"/>tionem de corruptione quod in corruptione 
+      corrumpi<lb ed="#P" n="36" break="no"/>tur aliquid absolutum. Puta compositum: et dicitur 
+      <lb ed="#P" n="37"/>quod ad mentem philosophi verum est in hiis quae 
+      gene<lb ed="#P" n="38" break="no"/>rantur ex elementis ex quorum compositione vel 
+      mix<lb ed="#P" n="39" break="no"/>tione resultat forma aliqua corporalis: non sic autem 
+      <lb ed="#P" n="40"/>quorum forma est incorruptibilis Puta anima. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e1950">
+               <lb ed="#P" n="41"/>¶ Dico primo quod ex hoc habeo propositum. scilicet quo 
+      <lb ed="#P" n="42"/>saltem in compositis quorum forma non est 
+      incorru<lb ed="#P" n="43" break="no"/>ptibilis compositum aliquid addit super materia 
+      <lb ed="#P" n="44"/>et super formam. Probatio quia idem corrumpitur et 
+      <lb ed="#P" n="45"/>generatur. hoc est planum. Sed compositum secundum 
+      ta<lb ed="#P" n="46" break="no"/>generatur et non forma licet sit terminus generatio 
+      <lb ed="#P" n="47"/>nis. ergo compositum corrumpitur. Sed aliquid 
+      al<lb ed="#P" n="48" break="no"/>solutum positiuum corrumpitur et non materia nec 
+      for<lb ed="#P" n="49" break="no"/>ma nec ista simul quia simul acciperent non esse et ita 
+      <lb ed="#P" n="50"/>post corruptionem non essent. ergo totum dicit 
+      ali<lb ed="#P" n="51" break="no"/>quid absolutum vltra partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e1976">
+      ¶ praterea Dico quod ad men 
+      <lb ed="#P" n="52"/>tem Aristotelis est quod in omni corruptione aliquid 
+      <lb ed="#P" n="53"/>positiuum substantiale corrumpitur quodcumque sit illud 
+      <lb ed="#P" n="54"/>sicut in omni generatione aliquid positiuum 
+      abso<lb ed="#P" n="55" break="no"/>lutum adquiritur quod prius non erat saltem in 
+      ge<lb ed="#P" n="56" break="no"/>neratione creature secus est in generatione 
+      diuin<lb ed="#P" n="57" break="no"/>que est omnino alterius rationis: quia intentio 
+      Ar<lb ed="#P" n="58" break="no"/>stotelis est quod illud generatur est substantia et non 
+      prae<lb ed="#P" n="59" break="no"/>existens generationi: sed siue accipias partes. 
+      pu<lb ed="#P" n="60" break="no"/>ta materiam et formam coniunctim siue diuisim totum 
+      <lb ed="#P" n="61"/>quicquid habetur de substantia non est nisi 
+      mate<lb ed="#P" n="62" break="no"/>ria et forma quarum neutra nec simul cum alia 
+      ge<lb ed="#P" n="63" break="no"/>neratur nec diuisim: licet forma non preexisteret 
+      du<lb ed="#P" n="64" break="no"/>ratione. ergo etc. 
+      <!--147.xml-->
+      <cb ed="#P" n="b"/>
+            </p>
+            <p xml:id="qrdBas-b44312-d1e2011">
+               <lb ed="#P" n="65"/>¶ Contra solutionem de 
+      cau<lb ed="#P" n="66" break="no"/>sis intrinsecis et causato vel effectu earum. 
+      Quan<lb ed="#P" n="67" break="no"/>do dicitur quod compositum non est aliud a materia et 
+      <lb ed="#P" n="68"/>forma.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2023">
+      ¶ Dico quod non soluitur argumentum: quia argu 
+      <lb ed="#P" n="69"/>mentum probat oppositum. scilicet quod compositum quod 
+      <lb ed="#P" n="70"/>est effectus causarum intrinsecarum simul acceptarum 
+      <lb ed="#P" n="71"/>sit aliud ab ipsis etiam vt sic quia causa est ad cuius esse 
+      <lb ed="#P" n="72"/>sequitur aliud. Istud aliud non est nisi effectus. ergo. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2034">
+               <lb ed="#P" n="73"/>¶ praterea Quando dicitur quod materia est causa forme. 
+      <lb ed="#P" n="74"/>in recipiendo quero que causa vel intrinseca vel 
+      ex<lb ed="#P" n="75" break="no"/>trinseca. Non extrinseca: quia nec efficiens nec 
+      fi<lb ed="#P" n="76" break="no"/>nis. Planum est et si aliquod istorum tamen non est 
+      <lb ed="#P" n="77"/>ad propositum. Aut intrinseca Non forma planum est 
+      <lb ed="#P" n="78"/>Nec materia planum est: quia omne cuius materia est 
+      <lb ed="#P" n="79"/>causa intrinseca est compositum ex materia et forma. 
+      <lb ed="#P" n="80"/>Sed forma non est composita ex materia et forma vt 
+      <lb ed="#P" n="81"/>patet. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2056">
+      ¶ praterea Materia est ex qua res fit cum 
+      <lb ed="#P" n="82"/>insit. Sed materia nullo modo inest forme. ergo 
+      ma<lb ed="#P" n="83" break="no"/>teria non est causa forme.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2063">
+      ¶ praterea Quando dicitur quod 
+      <lb ed="#P" n="84"/>forma est causa materie: Probo quod non: quia causa 
+      <lb ed="#P" n="85"/>est ad cuius esse sequitur aliud. Sed ad esse forme non 
+      <lb ed="#P" n="86"/>sequitur materie. ergo forma non est causa materie quia 
+      <lb ed="#P" n="87"/>esse materie precedit et est prius origine vel 
+      gene<lb ed="#P" n="88" break="no"/>ratione non sic illud cuius forma est causa intrinseca 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2076">
+               <lb ed="#P" n="89"/>¶ Secundo quia vel est causa extrinseca vel 
+      intrinse<lb ed="#P" n="90" break="no"/>ca. Si extrinseca non est ad propositum: quia non 
+      lo<lb ed="#P" n="91" break="no"/>quitur hic de causis extrinsecis. Si intrinseca 
+      Omne<lb ed="#P" n="92" break="no"/>causatum a causa intrinseca est causatum a causa in 
+      <lb ed="#P" n="93"/>trinseca que est materia et est compositum ex 
+      mate<lb ed="#P" n="94" break="no"/>ria et forma. Sed materia non est compositum aliquid 
+      <lb ed="#P" n="95"/>ex materia et forma. ergo etc. Unde patet quod illud 
+      di<lb ed="#P" n="96" break="no"/>ctum nihil valet.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2096">
+      ¶ praterea Si materia est causa forme. 
+      <lb ed="#P" n="97"/>et econuerso sequitur quod idem est causa suiipsius et 
+      po<lb ed="#P" n="98" break="no"/>sterius seipso et per se circulus in causis et 
+      dependen<lb ed="#P" n="99" break="no"/>tiis.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2106">
+      ¶ praterea Impossibile est per quamcunque potentiam 
+      <lb ed="#P" n="100"/>effectum cause intrinsece esse in re et in effectu sine 
+      <lb ed="#P" n="101"/>causa intrinseca. Probatio. primo quia causa 
+      intrin<lb ed="#P" n="102" break="no"/>seca se habet ad effectum sicut pars ad totum. 
+      Im<lb ed="#P" n="103" break="no"/>possibile est autem quacumque virtute totum esse sine 
+      <lb ed="#P" n="104"/>parte.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2119">
+      ¶ Secundo quia alias deus posset supplere vi 
+      <lb ed="#P" n="105"/>cem intrinsece cause faciendo ipsum sine ipsa sicut 
+      vi<lb ed="#P" n="106" break="no"/>cem extrinsece cause quod est falsum. Sed materia 
+      <lb ed="#P" n="107"/>potest esse sine forma vt probaui supra. et econuerse 
+      <lb ed="#P" n="108"/>forma sine materia. Apparet de anima rationali: 
+      er<lb ed="#P" n="109" break="no"/>go nec forma est causa intrinseca materie nec 
+      econ<lb ed="#P" n="110" break="no"/>uerso.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2135">
+      ¶ praterea Idem effectus est qui est a causis 
+      intrin<lb ed="#P" n="111" break="no"/>secis et a causis extrinsecis. Sed materia non est 
+      cau<lb ed="#P" n="112" break="no"/>sa extrinseca naturali sed solum a deo per creatio 
+      <lb ed="#P" n="113"/>nem: ergo nec causatur a causis intrinsecis vt 
+      vide<lb ed="#P" n="114" break="no"/>tur. Nec habet causam aliquam intrinsecam. Unde 
+      <lb ed="#P" n="115"/>dico quod nihil est dictum quod vnum istorum sit causa 
+      intrin<lb ed="#P" n="116" break="no"/>seca alterius. Sed si forma aliquo modo est causa 
+      ma<lb ed="#P" n="117" break="no"/>terie est causa extrinseca puta finis sicut 
+      Aristote<lb ed="#P" n="118" break="no"/>les videtur dicere secundo de anima quod materia est 
+      pro<lb ed="#P" n="119" break="no"/>pter formam et corpus propter animam sicut propter 
+      <lb ed="#P" n="120"/>finem quo: licet etiam finis quo proprie non sit 
+      cau<lb ed="#P" n="121" break="no"/>sa eius quod est ad finem. etc. 
+      <lb ed="#P" n="122"/>Contra solutionem Ad 
+      ra<lb ed="#P" n="123" break="no"/>tionem de magis vno cuiusmodi est totum per se vnum 
+      <lb ed="#P" n="124"/>quam totum per accidens. Quando dicitur quod ratio est ad 
+      <lb ed="#P" n="125"/>oppositum: quia quanto magis vnum tanto minus 
+      ad<lb ed="#P" n="126" break="no"/>dit. Dico quod verum est quod tanto minus addit aliquid quod 
+      <lb ed="#P" n="127"/>impediat maiorem vnitatem et per se vnitatem: sed  
+      <!--148.xml-->
+      <pb ed="#P" n="71-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tanto magis addit aliquid cui conueniat per se 
+      vni<lb ed="#P" n="2" break="no"/>tas preter illa que licet vniantur per se quia vnum 
+      <lb ed="#P" n="3"/>est: per se in potentia ad aliud non tamen sunt vnum ab 
+      <lb ed="#P" n="4"/>solutum per se: sed illud quod resultat ex ipsis sicut 
+      <lb ed="#P" n="5"/>effectus. Unde aliud est vniri per se et causare vnum 
+      <lb ed="#P" n="6"/>per se sicut est de materia et forma.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2194">
+      ¶ Unde Nota 
+      <lb ed="#P" n="7"/>omateria et forma licet causent aliquid vnum per se 
+      <lb ed="#P" n="8"/>scilicet compositum non tamen sunt vnum per se sed sunt 
+      <lb ed="#P" n="9"/>puo entia ab inuicem distincta. Aliud est esse vnum 
+      <lb ed="#P" n="10"/>per se quia primum est distinctorum sicut et vnio. Se 
+      <lb ed="#P" n="11"/>cundum est alicuius in se indistincti et ab alio 
+      quo<lb ed="#P" n="12" break="no"/>cunque distincti et hoc est in proposito nostro ipsum 
+      <lb ed="#P" n="13"/>totum. Unde bene dico quod totum per se intrinsece non 
+      <lb ed="#P" n="14"/>includit accidens aliud a partibus absolutis sicut 
+      <lb ed="#P" n="15"/>totum per accidens quod vnionem includit quia 
+      impe<lb ed="#P" n="16" break="no"/>diret vnitatem per se: licet totum per se bene 
+      praesup<lb ed="#P" n="17" break="no"/>ponat vnionem partium suarum. Si enim totum 
+      sub<lb ed="#P" n="18" break="no"/>stantiale per se vnum non diceret nisi partes non 
+      di<lb ed="#P" n="19" break="no"/>ceret aliquid absolutum nisi materiam et formam et 
+      <lb ed="#P" n="20"/>quicquid de absoluto diceret totum dicerent partes 
+      <lb ed="#P" n="21"/>esse diuisiue sicut probatum est supra et ita totum non 
+      <lb ed="#P" n="22"/>plus haberet entitatem per se vnam absolutam quam 
+      <lb ed="#P" n="23"/>partes diuise quod est absurdum et falsum immo ex hoc 
+      <lb ed="#P" n="24"/>sequitur quod esset minus vnum quam totum per accidens 
+      <lb ed="#P" n="25"/>quod saltem cum partibus includit partium absolu 
+      <lb ed="#P" n="26"/>tarum vnionem et habet maiorem vnitatem quam 
+      pas<lb ed="#P" n="27" break="no"/>tes diuise. et sic patet quod solutiones ille parum valent. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2242">
+               <lb ed="#P" n="28"/>¶ Contra solutiones alterius 
+      <lb ed="#P" n="29"/>Ad illam rationem de generatione quantum ad id quod 
+      di<lb ed="#P" n="30" break="no"/>tit. Primo quod aliquid absolutum positiuum puta 
+      na<lb ed="#P" n="31" break="no"/>tura tota terminat generationem non tamen 
+      composi<lb ed="#P" n="32" break="no"/>tum ipsum quia compositum includit compositionem et per 
+      <lb ed="#P" n="33"/>consequens respectum ad quem generatio non potest 
+      <lb ed="#P" n="34"/>terminari.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2260">
+      ¶ Dico quod ista duo plane contradicunt quia 
+      <lb ed="#P" n="35"/>quero de natura illa tota Aut est simplex aut est 
+      co<lb ed="#P" n="36" break="no"/>posita. Non est simplex. patet etiam per ipsos quia tota in 
+      <lb ed="#P" n="37"/>cludens materiam et formam ergo est composita. et 
+      <lb ed="#P" n="38"/>go sicut natura terminat generationem ita et aliquid 
+      <lb ed="#P" n="39"/>compositum et si compositum non terminat nec natura. 
+      <lb ed="#P" n="40"/>Quando dicit quod compositum includit compositionem. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2277">
+               <lb ed="#P" n="41"/>¶ Dico quod compositum vno modo accipitur 
+      forma<lb ed="#P" n="42" break="no"/>liter et includit isto modo compositum sicut relatiuum 
+      <lb ed="#P" n="43"/>relationem. Alio modo materialiter pro toto cui 
+      con<lb ed="#P" n="44" break="no"/>uenit illa compositio vel partibus eius. Et isto modo 
+      <lb ed="#P" n="45"/>non includit intrinsece compositionem licet 
+      concomite<lb ed="#P" n="46" break="no"/>tur vel presupponatur et nihil includit nisi 
+      absolu<lb ed="#P" n="47" break="no"/>tum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2295">
+      ¶ praterea Contra ipsam quia natura vel quiditas non 
+      <lb ed="#P" n="48"/>generatur. 7. Methaphisice. Sed compositum vel 
+      sup<lb ed="#P" n="49" break="no"/>positum habens naturam. Quando dicit vltra quod 
+      to<lb ed="#P" n="50" break="no"/>ta natura absoluta non est aliud a materia et forma 
+      <lb ed="#P" n="51"/>absolutum tamen alio modo se habet et hoc sufficit 
+      <lb ed="#P" n="52"/>ad hoc quod natura terminet generationem et non 
+      mate<lb ed="#P" n="53" break="no"/>ria nec forma.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2311">
+      ¶ Quero de illo modo aut est 
+      ali<lb ed="#P" n="54" break="no"/>quid absolutum vel respectiuum ex quo est aliquid 
+      <lb ed="#P" n="55"/>reale. Si aliquid absolutum et illi addit natura 
+      su<lb ed="#P" n="56" break="no"/>per partes habeo propositum Si respectiuum. 
+      Con<lb ed="#P" n="57" break="no"/>tra propter hoc negas compositum terminare 
+      gene<lb ed="#P" n="58" break="no"/>rationem quia includit respectum. ergo similiter pro 
+      <lb ed="#P" n="59"/>pter hoc debes negare naturam terminare 
+      genera<lb ed="#P" n="60" break="no"/>tionem quia includit istum modum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2329">
+      ¶ praterea Planum est 
+      <lb ed="#P" n="61"/>quod aliquis respectus vel modus respectiuus nec est ter 
+      <lb ed="#P" n="62"/>minus generationis nec ratio terminandi generation 
+      <lb ed="#P" n="63"/>nem secundum omnes. Ideo de isto modo quero. aut est vnus 
+      <lb ed="#P" n="64"/>aut plures. Si vnus indistinctus simplex et indiuisi 
+      <!--148.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>bilis. Quero de subiecto eius. aut subiectum suum 
+      <lb ed="#P" n="66"/>est materia / aut est ipsa forma / aut aliquid alind. Non 
+      <lb ed="#P" n="67"/>materia quia tunc forma non pertinet ad terminum 
+      <lb ed="#P" n="68"/>generationis. Nec forma quia tunc materia non 
+      perti<lb ed="#P" n="69" break="no"/>net ad ipsum. ergo aliquid aliud quod dicit natura. 
+      <lb ed="#P" n="70"/>Illud ergo aliud aut est absolutum aut relatiuum 
+      <lb ed="#P" n="71"/>Non respectiuum per te: quia natura nihil dicit 
+      respecti<lb ed="#P" n="72" break="no"/>num ergo absolutum et sic habeo propositum et sic 
+      di<lb ed="#P" n="73" break="no"/>co quod illa solutio nihil valet de illo modo quia ille 
+      mo<lb ed="#P" n="74" break="no"/>dus alius a partibus aut est substantia aut accidens. 
+      <lb ed="#P" n="75"/>Si substantia habeo propositum. Si accidens ergo cum 
+      <lb ed="#P" n="76"/>natura dicat illum modum ad hoc vt possit termina 
+      <lb ed="#P" n="77"/>re generationem. sequitur quod natura per aliquod acci 
+      <lb ed="#P" n="78"/>dens terminat generationem quod est truffa. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2375">
+               <lb ed="#P" n="79"/>¶ Contra aliam solutionem 
+      <lb ed="#P" n="80"/>De corruptione quando dicitur quod per corruptionem 
+      <lb ed="#P" n="81"/>desinit esse aliquid absolutum. Concedit et dicit quod 
+      <lb ed="#P" n="82"/>hoc requiritur quod aliquid aliud ex corrupto genere. 
+      <lb ed="#P" n="83"/>tur non video secundum dictum esse verum quia quando 
+      <lb ed="#P" n="84"/>generatur vermis ex speciebus illis in sacramento. 
+      <lb ed="#P" n="85"/>Quero quid substantiale corrumpitur. Planum est quod 
+      <lb ed="#P" n="86"/>nihil quia non est ibi substantia aliqua. Et qua ratione 
+      <lb ed="#P" n="87"/>corruptio vnius est generatio alterius eadem 
+      ratio<lb ed="#P" n="88" break="no"/>ne econuerso. Et tamen econuerso non est. ergo nec 
+      il<lb ed="#P" n="89" break="no"/>lud. Similiter quando anima infunditur corpori 
+      im<lb ed="#P" n="90" break="no"/>vltimo instanti dispositionis quam facit agens 
+      natu<lb ed="#P" n="91" break="no"/>rale et tunc homo generatur quia tunc homo primo est 
+      <lb ed="#P" n="92"/>filius: quero a te quid corrumpitur ibi planum est 
+      <lb ed="#P" n="93"/>quod nihil precipue secundum te qui ponis gradus formarum 
+      <lb ed="#P" n="94"/>Sed omnes forme precedentes manent vel saltem 
+      <lb ed="#P" n="95"/>illa corporea que sola prefuit inter illas quattuor: 
+      <lb ed="#P" n="96"/>quas tu ponis.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2417">
+      ¶ Similiter etiam dico quod quando 
+      <lb ed="#P" n="97"/>pomo corrumpitur et desinit esse hominis substantia 
+      <lb ed="#P" n="98"/>le nihil generatur. et ideo dico quod illa solutio est 
+      fal<lb ed="#P" n="99" break="no"/>sa: quia dico quod est dare corruptionem sine 
+      generatio<lb ed="#P" n="100" break="no"/>ne. Unde et dico consequenter quod christus sicut fuit 
+      ve<lb ed="#P" n="101" break="no"/>re mortuus et desiit esset substantialiter homo. Ita 
+      <lb ed="#P" n="102"/>fuit vere corruptus loquendo de corruptione quae 
+      op<lb ed="#P" n="103" break="no"/>ponitur generationi licet non fuerit corruptus 
+      acci<lb ed="#P" n="104" break="no"/>piendo pro incineratione corruptionem. Et isto modo 
+      acci<lb ed="#P" n="105" break="no"/>pitur corruptio ab omnibus doctoribus in illa autctoritate. 
+      <lb ed="#P" n="106"/>Non dabis sanctum tuum videre corruptionem non 
+      <lb ed="#P" n="107"/>quod distinguantur inter mortem et corruptionem. Ita quod 
+      <lb ed="#P" n="108"/>sit aliqua mors et non sit corruptio.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2447">
+      ¶ Ad 
+      auctorita<lb ed="#P" n="109" break="no"/>tes vero additas pro eis de Augustino. et dionysio 
+      <lb ed="#P" n="110"/>Dico quod accipiunt ibi mortem precise pro priuatione 
+      <lb ed="#P" n="111"/>vel carentia anime siue vite in corpore quod natum 
+      <lb ed="#P" n="112"/>est recipere animam siue vitam et sic est verum dictum 
+      <lb ed="#P" n="113"/>eorum. Sed non accipiunt pro mutatione per se 
+      ter<lb ed="#P" n="114" break="no"/>minata ad non esse nature et totius compositi 
+      substan<lb ed="#P" n="115" break="no"/>tie que concomitatur mortem vel econuerso. Et 
+      illa<lb ed="#P" n="116" break="no"/>dicitur corruptio. Et dico quod per illam corrumpitur en 
+      <lb ed="#P" n="117"/>titas substantialis totius compositi. Ita quod 
+      corrupton<lb ed="#P" n="118" break="no"/>non solum consistit in diuisione sed in desitione 
+      sub<lb ed="#P" n="119" break="no"/>stantie et nature totalis absolute.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2473">
+      ¶ Aliter potest 
+      di<lb ed="#P" n="120" break="no"/>ci quod in morte hominis non corrumpitur nec desinit 
+      <lb ed="#P" n="121"/>esse aliqua substantialis natura partialis quia nec 
+      <lb ed="#P" n="122"/>anima nec corpus cuius oppositum senserunt aliqui et 
+      <lb ed="#P" n="123"/>habet locum in aliis quorum forme non omnes sunt 
+      <lb ed="#P" n="124"/>corporales et nulla incorruptibilis cuiusmodi est 
+      <lb ed="#P" n="125"/>anima nostra. quare etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2489">
+      ¶ Preterea contra illud quod in 
+      <lb ed="#P" n="126"/>corruptione aliquid absolutum positiuum corrum 
+      <lb ed="#P" n="127"/>pitur quero quid est illud. Non est materia nec 
+      for<lb ed="#P" n="128" break="no"/>ma quia idem generatur et corrumpitur. igitur tota 
+      <!--149.xml-->
+      <pb ed="#P" n="71-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>natura. ergo ipsa dicit aliquid positiuum absolutum 
+      <lb ed="#P" n="2"/>vltra ista quod est propositum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2509">
+      ¶ praterea quod sint in homine 
+      quat<lb ed="#P" n="3" break="no"/>tuor forme reputo impossibile et falsum stcut dicam 
+      <lb ed="#P" n="4"/>alias. Nec est impossibile quod tres forme vel 
+      substan<lb ed="#P" n="5" break="no"/>tie fuerint separate in morte. Sed vna substantia 
+      sim<lb ed="#P" n="6" break="no"/>plex anima retionalis. Illud etiam dictum quod mors 
+      <lb ed="#P" n="7"/>non dicat nisi separationem est nullum. Et ideo dico 
+      <lb ed="#P" n="8"/>quod in christo vere fuit corruptum aliquid absolutum 
+      posi<lb ed="#P" n="9" break="no"/>tiuum quod dicit ipsum totum vltra partes. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2527">
+               <lb ed="#P" n="10"/>¶ Contra aliam solutionem 
+      <lb ed="#P" n="11"/>Ad rationem de causis intrinsecis quando dicitur 
+      <lb ed="#P" n="12"/>Primo quod causatum a causis intrinsecis non est alquid 
+      <lb ed="#P" n="13"/>absolutum ab ipsis. Contra. Primo quod sit aliud 
+      Se<lb ed="#P" n="14" break="no"/>cundo quod absolutum. Effectus causatus ab 
+      aliqui<lb ed="#P" n="15" break="no"/>bus est alius a suis causis quia effectus quicumque et 
+      <lb ed="#P" n="16"/>cuiuscumque cause est posterior natura sua causa per se 
+      <lb ed="#P" n="17"/>dependens ab ipsa. Alias demonstratio per formam 
+      <lb ed="#P" n="18"/>non esset a priori. Similiter de materia nihil autem 
+      <lb ed="#P" n="19"/>idem est posterius natura seipso nec dependens a 
+      <lb ed="#P" n="20"/>seipso vel ex seipso. Sed omne causatum a causis 
+      intrin<lb ed="#P" n="21" break="no"/>secis est effectus earum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2556">
+      ¶ Secundo quod 
+      ab<lb ed="#P" n="22" break="no"/>solutum quia si est aliquid aliud. eo quod nichil causat 
+      seip<lb ed="#P" n="23" break="no"/>sum. Nec plura causant seipsa sicut nihil generat 
+      <lb ed="#P" n="24"/>seipsum. Aut illud aliud est absolutum aut 
+      respecti<lb ed="#P" n="25" break="no"/>uum. Non respectiuum. Causatum enim a causis 
+      intrin<lb ed="#P" n="26" break="no"/>secis et materia est et forma non est respectus sed 
+      substan<lb ed="#P" n="27" break="no"/>tia et natura: respectus enim non est compositus ex materia 
+      <lb ed="#P" n="28"/>et forma. ergo aliquid aliud absolutum. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2575">
+               <lb ed="#P" n="29"/>¶ Contra aliud quod dicit quod debet 
+      in<lb ed="#P" n="30" break="no"/>telligi illa descriptio 
+      <lb ed="#P" n="31"/>cause famosa de causis extrinsecis tantum. Dico quod non 
+      <lb ed="#P" n="32"/>est verum sicut iam probaui Et sicut patet par omnes 
+      po<lb ed="#P" n="33" break="no"/>nentes eam Sicut Boetius in Thopicis et in 
+      tra<lb ed="#P" n="34" break="no"/>ctatibus multis vbi premittunt eam sine 
+      distinctio<lb ed="#P" n="35" break="no"/>ne ad tractandum de omnibus causis. Quod dicit etiam 
+      <lb ed="#P" n="36"/>de illo modo consequente effectum non est propositum et 
+      <lb ed="#P" n="37"/>planum est quod in descriptione accipitur illud aliud pro 
+      <lb ed="#P" n="38"/>effectu.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2599">
+      ¶ Preterea satis argutum est supra contra 
+      <lb ed="#P" n="39"/>illum modum. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2604">
+               <lb ed="#P" n="40"/>¶ Contra solutionem Ad 
+      ra<lb ed="#P" n="41" break="no"/>tionem de assumptione nature a verbo bene dicit quod 
+      fu<lb ed="#P" n="42" break="no"/>it tota natura quae primo assumpta est et fundauit 
+      respe<lb ed="#P" n="43" break="no"/>ctum vnionis ad verbum ex hoc sic corpus non est 
+      pri<lb ed="#P" n="44" break="no"/>mo assumptum. Nec anima per te sed aliud vnum per se 
+      substan<lb ed="#P" n="45" break="no"/>tialiter quod est substantia et fundamentum 
+      immedia<lb ed="#P" n="46" break="no"/>tum talis vnionis vnice et simplicis quod non potest 
+      <lb ed="#P" n="47"/>esse nisi aliud vnum absolutum quod non est materia 
+      <lb ed="#P" n="48"/>et forma nec simul nec diuisim sicut pluries deductum 
+      <lb ed="#P" n="49"/>est supra ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2628">
+      ¶ Quod etiam vnio partium consequatur 
+      na<lb ed="#P" n="50" break="no"/>turam est imposibile quia si consequetur et est 
+      posteri<lb ed="#P" n="51" break="no"/>or tunc in illo priori partes non sunt vnite et sic est 
+      na<lb ed="#P" n="52" break="no"/>tura priusquam partes vniantur quod est absurdum: quia 
+      <lb ed="#P" n="53"/>tunc pari ratione partes diuise facerent et 
+      consti<lb ed="#P" n="54" break="no"/>tuerent naturam si concomitatur ergo non prius partes 
+      <lb ed="#P" n="55"/>vniuntur quam causant naturam quod etiam est falsum 
+      <lb ed="#P" n="56"/>vt patet Sit enim corpus distans ab anima 
+      opor<lb ed="#P" n="57" break="no"/>tet ea prius approximari et per consequens vniri 
+      <lb ed="#P" n="58"/>quare etc. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2650">
+               <lb ed="#P" n="59"/>¶ Contra solutiones 
+      auctori<lb ed="#P" n="60" break="no"/>tatum. Contra illam de .a. et b. quando dicitur quod 
+      extenden<lb ed="#P" n="61" break="no"/>do hoc nomen aliud oportet quod compositum dicat aliquid 
+      <lb ed="#P" n="62"/>aliud a partibus quia saltem dicit actualem vnionem 
+      <!--149.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>partium que consequitur naturam Nec est de 
+      conce<lb ed="#P" n="64" break="no"/>ptu eius non tamen aliquid absolutum. Hoc est 
+      pla<lb ed="#P" n="65" break="no"/>ne contra mentem Aristotelis primo quia in illo 
+      ca<lb ed="#P" n="66" break="no"/>pitulo vltimo reuertitur super quod quid est 
+      substan<lb ed="#P" n="67" break="no"/>tie vt ostendat quomodo est vnum. Ad cuius 
+      vni<lb ed="#P" n="68" break="no"/>tatem planum est quod non concurrit respectus sed 
+      enti<lb ed="#P" n="69" break="no"/>tatem eius vnam absoluta in accepit per / ab / sillabam 
+      <lb ed="#P" n="70"/>que distincta secundum ipsum a partibus .a. et .b. Et licet 
+      <lb ed="#P" n="71"/>ibi exemplificet de partibus materialibus quae sunt a. et .b. 
+      <lb ed="#P" n="72"/>respectu simile.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2687">
+      ¶ Ad intentionem tamen adducit hoc ad  
+      <lb ed="#P" n="73"/>probandum de quod quid est composito ex materia 
+      <lb ed="#P" n="74"/>et forma et partes materiales in exemplo posuit quia 
+      <lb ed="#P" n="75"/>magis erat manitur estum in tota quam materia et forma 
+      <lb ed="#P" n="76"/>que sunt partes essentiales. Ex quo patet quod non 
+      va<lb ed="#P" n="77" break="no"/>let euasio eius secunda quam ponit licet enim series 
+      <lb ed="#P" n="78"/>textus videatur concludere de forma que est pars 
+      <lb ed="#P" n="79"/>que nec est elementuum nec ex elementis. et que 
+      requi<lb ed="#P" n="80" break="no"/>ritur vltra materiam ad compositum et vltra 
+      par<lb ed="#P" n="81" break="no"/>tes materiales tamen non vltimate propter seipsam sed propter 
+      <lb ed="#P" n="82"/>formam totius qua formaliter et adequate totum 
+      <lb ed="#P" n="83"/>quod quid est vnum est et nunquam esset magis per se vnum 
+      <lb ed="#P" n="84"/>in genere vel predicamento quam ens per accidens 
+      ni<lb ed="#P" n="85" break="no"/>si adderet aliquid forma totius super materiam et 
+      for<lb ed="#P" n="86" break="no"/>mam. Modo predicto Et illud additum est ex 
+      ele<lb ed="#P" n="87" break="no"/>mentis quia totum hoc potest etiam confirmari quod 
+      <lb ed="#P" n="88"/>in constitutione sillabe secundum Priscianum consonans 
+      <lb ed="#P" n="89"/>est sicut materia et vocalis vt forma Nichilominus 
+      <lb ed="#P" n="90"/>aliquid tamen vltra ad sillabam requiritur. Sed de ista 
+      <lb ed="#P" n="91"/>confirmatione parum curo Accipio tantum quod sicut 
+      ari<lb ed="#P" n="92" break="no"/>stoteles arguit de .a. et .b. respectu sillabe ab vel ba. 
+      <lb ed="#P" n="93"/>Ita potest argui de materia et forma respectu 
+      com<lb ed="#P" n="94" break="no"/>positi substantialis quo est per se vnum et oportet 
+      <lb ed="#P" n="95"/>necessario quod addat aliquid absolutum quicquid sit 
+      il<lb ed="#P" n="96" break="no"/>lud siue Aristoteles hoc intendat ibi siue non. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2743">
+               <lb ed="#P" n="97"/>¶ Contra istam solutionem. 
+      <lb ed="#P" n="98"/>de auctoritate Auicenne Dico quod licet exemplificet: 
+      <lb ed="#P" n="99"/>et loquatur de partibus materialibus tamen dico quod hoc 
+      <lb ed="#P" n="100"/>ipsum intendit de partibus essentialibus scilicet quod 
+      to<lb ed="#P" n="101" break="no"/>tum addit aliquid super eas non tamen sicut partem: vt 
+      <lb ed="#P" n="102"/>ibi. Et Aristoteles idem in. 6. metha. sicut oportet 
+      <lb ed="#P" n="103"/>quod intendant per premissas rationes: et quod 
+      commenta<lb ed="#P" n="104" break="no"/>tor idem intendat. Unde nec Auicenna vnquam 
+      conce<lb ed="#P" n="105" break="no"/>deret istam quod humanitas sit anima et corpus. 
+      Eo<lb ed="#P" n="106" break="no"/>dem modo dico de commentatore in illa autctoritate 
+      <lb ed="#P" n="107"/>hec de tertio articulo. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2769">
+               <lb ed="#P" n="108"/>¶ Quantum ad quartum 
+      ar<lb ed="#P" n="109" break="no"/>ticulum restat soluere ad rationes et auctoritates  
+      <lb ed="#P" n="110"/>aliorum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2778">
+      ¶ Ad primam rationem primi dico ad 
+      ma<lb ed="#P" n="111" break="no"/>iorem quod alteri additum vel aliis sicut pars 
+      superad<lb ed="#P" n="112" break="no"/>ditur parti non includit illud vel illa quibus 
+      super<lb ed="#P" n="113" break="no"/>additur: sed dico quod superadens aliis sicut totum 
+      par<lb ed="#P" n="114" break="no"/>tibus bene includit illa sicut est in proposito. Tu 
+      di<lb ed="#P" n="115" break="no"/>cis. Idem non superadditur sibi ipsi nec numeratur 
+      con<lb ed="#P" n="116" break="no"/>tra seipsum. Dico quod verum est totaliter idem. Et ideo 
+      <lb ed="#P" n="117"/>dico quod totum non superaddit sibiipsi puta toti nec 
+      <lb ed="#P" n="118"/>pars sibiipsi. Sed totum partibus vel parti.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2798">
+      ¶ Ad  
+      <lb ed="#P" n="119"/>secundum dico quod totum compositum in concreto 
+      acce<lb ed="#P" n="120" break="no"/>ptum vt homo vel suppositum hominis habens 
+      huma<lb ed="#P" n="121" break="no"/>nitatem quod superaddit propriam entitatem totius 
+      <lb ed="#P" n="122"/>vt totum est super partes est per se primus terminus 
+      <lb ed="#P" n="123"/>generationis et illud quod generatur. non autem 
+      huma<lb ed="#P" n="124" break="no"/>nitas sic in abstracto. Sed dico quod vbi totum haberet 
+      <lb ed="#P" n="125"/>hanc entitatem per se vnam partibus superaddentem 
+      <!--150.xml-->
+      <pb ed="#P" n="72-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nunquam sic per se generaretur. Uand dicis vltra quod 
+      hu<lb ed="#P" n="2" break="no"/>manitas nongenera: / concedo. Nec est contra me licet 
+      hu<lb ed="#P" n="3" break="no"/>manitas aliquidaddat super partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2829">
+      ¶ Ad tertium 
+      <lb ed="#P" n="4"/>ad maiorem quando dicis quod est quod addit aliquid vltra 
+      pas<lb ed="#P" n="5" break="no"/>tes est precise secundum illud additum aliquid plus quam 
+      pas<lb ed="#P" n="6" break="no"/>tes quibus superaddit. Dico quod verum est quod addit 
+      <lb ed="#P" n="7"/>aliquid sicut aliam parteu vltra partes. Sed de 
+      il<lb ed="#P" n="8" break="no"/>lo quod addit aliquid sicut totum supra omnes partes 
+      <lb ed="#P" n="9"/>Dico quod licet aliquid vltra partes et plusquam partes 
+      <lb ed="#P" n="10"/>quia est totum non tamen prescindendo partes sic quod non 
+      in<lb ed="#P" n="11" break="no"/>cludat partes sicut dictum est supra. Si queras quid 
+      <lb ed="#P" n="12"/>sit illud plus. Dico quod est entitas specifica 
+      compo<lb ed="#P" n="13" break="no"/>siti vel ipsummet totum compositum secundum 
+      propri<lb ed="#P" n="14" break="no"/>am entitatem specificam formalem includentem 
+      pas<lb ed="#P" n="15" break="no"/>tes sicut pluries dictum est supra et est substantia 
+      <lb ed="#P" n="16"/>per se in genere non autem partes. Si dicatur hic quod 
+      con<lb ed="#P" n="17" break="no"/>positum si aliquid addit absolutum addit seipsum eft 
+      <lb ed="#P" n="18"/>non aliquid aliud sed ipsum intrinsece includit 
+      par<lb ed="#P" n="19" break="no"/>tes ergo addit partes super partes etc. in infinitum 
+      <lb ed="#P" n="20"/>et sunt ibi plures materie et plures forme in 
+      infini<lb ed="#P" n="21" break="no"/>tum Dico quod addit entitatem propriam causatam 
+      per<lb ed="#P" n="22" break="no"/>se vnam et a partibus aliam sed numquam prescindendo 
+      par<lb ed="#P" n="23" break="no"/>tes sic quod partes intelligantur ex vno latere et totum 
+      <lb ed="#P" n="24"/>super addens includens partes ex alio latere Sed sic sper 
+      <lb ed="#P" n="25"/>quod super addens intelligatur includere partes 
+      quib<lb ed="#P" n="26" break="no"/>superaddit et sic partes non habentur bis sed 
+      tan<lb ed="#P" n="27" break="no"/>tum semel. Nec adduntur partes partibus sicut 
+      yma<lb ed="#P" n="28" break="no"/>ginatur argumentum et sic sicut fieret si vnum 
+      adde<lb ed="#P" n="29" break="no"/>retur ad totum constitutum ex aliis partibus non 
+      inclu<lb ed="#P" n="30" break="no"/>dens primas partes Tunc enim partes adduntur 
+      <lb ed="#P" n="31"/>partibus sicut et totum alteri toto vel aliis partibus 
+      <lb ed="#P" n="32"/>a suis
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2894">
+      ¶ Ad quartum dico quod illud superadditum 
+      <lb ed="#P" n="33"/>nec est materia nec forma nec ista simul sed est 
+      com<lb ed="#P" n="34" break="no"/>positum ipsum. Et tu dicis tunc compositi esset 
+      <lb ed="#P" n="35"/>compositum. Dico quod non quia non dico quod 
+      com<lb ed="#P" n="36" break="no"/>positum addat super compositum sed dico quod super 
+      <lb ed="#P" n="37"/>partes et tunc non est compositi compositum sed 
+      par<lb ed="#P" n="38" break="no"/>tium est compositum Tamen dicis quod ymo quia partes sunt 
+      <lb ed="#P" n="39"/>ipsum compositum Tunc dico quod est falsum et 
+      petitio<lb ed="#P" n="40" break="no"/>manifesta propositi. Ad quintum dico quod diffinitum 
+      <lb ed="#P" n="41"/>nichil est extra intellectum vltra diffinitionem 
+      com<lb ed="#P" n="42" break="no"/>pletam et perfectam quecunque sit illa. Qundo dicis quod 
+      <lb ed="#P" n="43"/>corpus et anima materia et forma sunt difinitio 
+      to<lb ed="#P" n="44" break="no"/>tius compositi. Dico quod falsum est sed sunt partes 
+      diffi<lb ed="#P" n="45" break="no"/>nitionis sicut sunt partes diffiniti. Uund dicis de se 
+      <lb ed="#P" n="46"/>ptimo metaphi. Dico quod philosophus nunquam dixit 
+      <lb ed="#P" n="47"/>ibi quod essent diffinitio ipsa sed bene quod sunt partes 
+      dif<lb ed="#P" n="48" break="no"/>finitionis et ingrediuntur diffinitionem.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2932">
+      ¶ Si 
+      di<lb ed="#P" n="49" break="no"/>cas quod immo quia quando queritur quid est homo 
+      conue<lb ed="#P" n="50" break="no"/>nienter respondetur quod est corpus et anima. Dico quod 
+      <lb ed="#P" n="51"/>qui respondet hoc non respondet conuenienter quia nec 
+      <lb ed="#P" n="52"/>corpus nec anima et ita parum sicut diuisim predicam 
+      <lb ed="#P" n="53"/>tur per se primo de homine sicut de diffinito. Ita 
+      <lb ed="#P" n="54"/>quod valde improprie et incomplete et credo quod false 
+      re<lb ed="#P" n="55" break="no"/>spondet. Sed bene potest responderi dicendo quod 
+      ho<lb ed="#P" n="56" break="no"/>mo est substantia constituta ex anima et corpore. Un 
+      <lb ed="#P" n="57"/>de partes debent poni in obliquo non in recto et in 
+      <lb ed="#P" n="58"/>hoc distinguitur diffinitio data per materiam et 
+      for<lb ed="#P" n="59" break="no"/>mam a diffinitione data per genus et differentian 
+      <lb ed="#P" n="60"/>quia ibi quelibet pars ponitur in recto Et ratio huius 
+      <lb ed="#P" n="61"/>est quia quaelibet concretiue dicit totam essentiam 
+      diffini<lb ed="#P" n="62" break="no"/>ti licet vna secundum aliam formalem rationem quam alia et 
+      <lb ed="#P" n="63"/>predicatur quelibet per se primo modo de diffinito. 
+      <lb ed="#P" n="64"/>Unde bene dico quod super genus et differentiam 
+      diff<lb ed="#P" n="65" break="no"/>nitio homins nichil addit nec homo etiam. Secus autem 
+      <!--150.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>est de materia et forma que sunt partes essentialiter 
+      <lb ed="#P" n="67"/>distincte quarum neutra dicit totam essentiam sed partem 
+      <lb ed="#P" n="68"/>nec simul accepte dicunt essentiam sed partea eius 
+      <lb ed="#P" n="69"/>Unde dico etiam quod diffinitio homins data per partes non 
+      <lb ed="#P" n="70"/>est corpus et anima / sed substantia constituta ex 
+      cor<lb ed="#P" n="71" break="no"/>pore et anima
+    </p>
+            <p xml:id="qrdBas-b44312-d1e2989">
+      ¶ Ad sextum dico quod totum per se 
+      pu<lb ed="#P" n="72" break="no"/>ta homo non addit supra partes illam vnionem 
+      par<lb ed="#P" n="73" break="no"/>tium sicut aliquid extrincecum sibi vel de ratione sua 
+      <lb ed="#P" n="74"/>sed entitatem propriam absolutam sicut dictum est supra 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e2998">
+               <lb ed="#P" n="75"/>¶ Dico tamen quod illam vnionem partium necessario 
+      presup<lb ed="#P" n="76" break="no"/>ponit priorem natura et ratione intelligendi sicut 
+      ege<lb ed="#P" n="77" break="no"/>probaui supra: et ideo dico quod maior illius est falsa. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3007">
+               <lb ed="#P" n="78"/>¶ Ad minorem in qua dicitur quod illa vnio est 
+      respe<lb ed="#P" n="79" break="no"/>ctus: immo quod nichil preter partes. Dico primo quod 
+      <lb ed="#P" n="80"/>istud est contra te magis quam contra aliquem alium. 
+      Se<lb ed="#P" n="81" break="no"/>cundo dico quod est falsum: immo est respectus sicut 
+      di<lb ed="#P" n="82" break="no"/>cam infra:
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3020">
+      ¶ Primum probo: quia si vnio nichil est 
+      <lb ed="#P" n="83"/>preter vnita no aliter se habent adinuicem vnita quam 
+      <lb ed="#P" n="84"/>non vnita quia quod forma de non vnita fiat vnita et 
+      ni<lb ed="#P" n="85" break="no"/>chil adquiratur in ipsa: nec in materia non est in telligibile nec 
+      <lb ed="#P" n="86"/>plus faciunt vnum quam non vnita: hoc est contra te dictum in to 
+      <lb ed="#P" n="87"/>to: quia sper fugis ad ista simul accepta vel vnita. 
+      Pre<lb ed="#P" n="88" break="no"/>terea Si vnio nichil est per istam vnionem vel simultatem non 
+      <lb ed="#P" n="89"/>potest attribui partibus nec esse per se in genere nec per se 
+      genera<lb ed="#P" n="90" break="no"/>ri nec corrumpi nec propria passio aliqua positiua. et 
+      <lb ed="#P" n="91"/>tamen aliter non euadis omnia illa argumenta¬ 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3042">
+               <lb ed="#P" n="92"/>¶ Dices vnio non est nichil. Sed ipsum compositum 
+      com<lb ed="#P" n="93" break="no"/>tra compositum perte nichil includit vltra partes vel 
+      <lb ed="#P" n="94"/>vltra vnita et vnio nichil dicit vltra vnita. ergo idem 
+      <lb ed="#P" n="95"/>quod prius. Si dicas quod addit aliquid. Aut illud est ad 
+      <lb ed="#P" n="96"/>absolutum: et sic habeo propositum Aut respectiuum: et 
+      <lb ed="#P" n="97"/>sic non est nisi vnio. ergo vnio addit vel dicit aliquid 
+      <lb ed="#P" n="98"/>preter partes vnitas quod est contra te: et habeo quod 
+      con<lb ed="#P" n="99" break="no"/>positum substantie absolutum per se et intrinsece 
+      inclu<lb ed="#P" n="100" break="no"/>dit respectum quod est falsum et impossibile.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3065">
+      ¶ 
+      Secun<lb ed="#P" n="101" break="no"/>do probo quod vnio est respectus et per consequens quod 
+      il<lb ed="#P" n="102" break="no"/>lud dictum est falsum. Primo sic. Illud quod non 
+      po<lb ed="#P" n="103" break="no"/>test intelligi a quocumque intellectu et quantum est ex 
+      par<lb ed="#P" n="104" break="no"/>te sui non intelligendo aliud est essentialiter 
+      respect<lb ed="#P" n="105" break="no"/>vel aliquid respectiuum. Patet quia omne 
+      absolu<lb ed="#P" n="106" break="no"/>tum non includens aliud: vt sic quia est ad se non ad 
+      <lb ed="#P" n="107"/>aliud potest intelligi sine alio. Sed vnio partis ad 
+      <lb ed="#P" n="108"/>partem puta forme ad materiam non potest intelligi 
+      <lb ed="#P" n="109"/>a quocumque non intelligendo aliud ab ipsa vnione. quia 
+      <lb ed="#P" n="110"/>ipsa non potest intelligi non intelligendo materiam vt 
+      <lb ed="#P" n="111"/>patet. Quod enim intelligatur vnio forme ad materiam 
+      <lb ed="#P" n="112"/>non intelligendo materiam est contradictio: sic quod intel 
+      <lb ed="#P" n="113"/>ligatur paternitas non intelligendo filium. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3096">
+               <lb ed="#P" n="114"/>¶ Secundo sic forma quando actu vnitur materie 
+      ali<lb ed="#P" n="115" break="no"/>ter se habet ad ipsam materiam quam prius. Aut ergo 
+      <lb ed="#P" n="116"/>secundum aliquid absolutum. Aut secundum aliquid respectiuum 
+      <lb ed="#P" n="117"/>Non secundum aliquid absolutum: quia forma ex 
+      coniunctio<lb ed="#P" n="118" break="no"/>ne sui cum materia nichil adquirit absolutum: ergo 
+      <lb ed="#P" n="119"/>vel secundum nichil vel secundum aliquid respectiuum non 
+      secun<lb ed="#P" n="120" break="no"/>dum nichil ergo secundum aliquid respectiuum. Sed hoc 
+      <lb ed="#P" n="121"/>non est nisi secundum vnionem. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3116">
+      ¶ Tertio sic. Si 
+      <lb ed="#P" n="122"/>vnio forme ad materiam nichil adderet super formam 
+      <lb ed="#P" n="123"/>vnitam. Sequeretur quod forma aliqua manens eadem non 
+      <lb ed="#P" n="124"/>posset separari a materia: quia vnio est eadem 
+      essen<lb ed="#P" n="125" break="no"/>tialiter sibi. Sed hoc est falsum. Patet de anima 
+      ratio<lb ed="#P" n="126" break="no"/>mali ergo addit aliquid. Non absolutum ergo respectiuum. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3129">
+               <lb ed="#P" n="127"/>¶ Quarto sic. Unio accidentis absoluti ad 
+      subie<lb ed="#P" n="128" break="no"/>ctum est respectus quidam et aliquid aliud ab accidente: quia est 
+      <lb ed="#P" n="129"/>inherentia quedam sine qua accidens absolutum potest 
+      <lb ed="#P" n="130"/>poni et esse ergo similiter vt videtur vnio forme ad  
+      <!--151.xml-->
+      <pb ed="#P" n="72-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>materiam est aliquid aliud a forma et respectus qui 
+      <lb ed="#P" n="2"/>dam Non enim minus contingenter et separabili 
+      <lb ed="#P" n="3"/>ter inest forma materie quam accidens subiecto.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3153">
+      ¶ Qui 
+      <lb ed="#P" n="4"/>to sic.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3158">
+      ¶ Illud secundum quod aliquid refertur vel dicitur 
+      <lb ed="#P" n="5"/>ad alteru est respectiuum vel respectus. Sed hoc est 
+      <lb ed="#P" n="6"/>vnio quia forma dicitur vnita non ad se sed alterum 
+      pu<lb ed="#P" n="7" break="no"/>ta ad materiam et hoc secundum vnionem ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3168">
+      ¶ 
+      Di<lb ed="#P" n="8" break="no"/>co ergo quod ista vnio est respectus et aliquid preter 
+      <lb ed="#P" n="9"/>vnita et dico quod non est aliquis respectus de 
+      quar<lb ed="#P" n="10" break="no"/>to genere vel predicamento nec intrinsecus adueniens 
+      <lb ed="#P" n="11"/>sed extrinsecus adueniens sicut etiam accidentis ad subiectum 
+      <lb ed="#P" n="12"/>de quo plenius alias diceretur
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3181">
+      ¶ Sed vtrum respectus sit 
+      <lb ed="#P" n="13"/>mutuus inter materiam et forma. Ita quod sicut forma habet 
+      <lb ed="#P" n="14"/>respectu vnionis ad materiam. Ita econuerso: Non 
+      <lb ed="#P" n="15"/>puto quod hoc oporteat ponere sed sicut in 
+      acciden<lb ed="#P" n="16" break="no"/>te sola inherentia ex parte accidentis ad ipsum 
+      sub<lb ed="#P" n="17" break="no"/>iectum sufficit ad hoc quod accidens et subiectum sint 
+      <lb ed="#P" n="18"/>vnita Ita quod licet accidens referatur ad subiectum 
+      <lb ed="#P" n="19"/>non tamen econuerso. Ita in proposito potest dici quod sut 
+      <lb ed="#P" n="20"/>ficit respectus inherentie vel informationis ex 
+      pas<lb ed="#P" n="21" break="no"/>te forme ad materiam nec est necessarius aliquis 
+      econ<lb ed="#P" n="22" break="no"/>uerso habet enim materia rationem subiecti 
+      respe<lb ed="#P" n="23" break="no"/>ctu forme sicut patet.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3207">
+      ¶ Tunc ad rationes que pro 
+      <lb ed="#P" n="24"/>bant quod vnio non sit respectus quia non fundatur 
+      su<lb ed="#P" n="25" break="no"/>per vnum nec super numerum nec super actionem 
+      vel<lb ed="#P" n="26" break="no"/>passionem nec super mensuram vel mensuratum. 
+      <lb ed="#P" n="27"/>Dico quod si valet aliquid non concludit nisi quod non est 
+      <lb ed="#P" n="28"/>respectus intrinsecus adueniens de quarto genere 
+      <lb ed="#P" n="29"/>sed non concludit quin sit respectus extrinsecus ad 
+      <lb ed="#P" n="30"/>ueniens nec de tali respectu oportet quod fundetur su 
+      <lb ed="#P" n="31"/>per aliquod illorum patet de actione et passione 
+      situ<lb ed="#P" n="32" break="no"/>quando vbi et habitu de illis sex principiis et 
+      predica<lb ed="#P" n="33" break="no"/>mentis respectiuis que non fundantur super aliquod 
+      <lb ed="#P" n="34"/>istorum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3233">
+      ¶ Ad secundum dico quod vnio non est per se 
+      <lb ed="#P" n="35"/>terminus generationis nec terminus quod nec 
+      ter<lb ed="#P" n="36" break="no"/>minus quo sed ipsum compositum absolutum es term 
+      <lb ed="#P" n="37"/>nus quod et ipsa forma est terminus quo nec est idem 
+      <lb ed="#P" n="38"/>cum aliquo istorum licet presupponatur a 
+      composito<lb ed="#P" n="39" break="no"/>et sit posterior forma sicut respectus suo 
+      fundamen<lb ed="#P" n="40" break="no"/>to ideo non valet.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3249">
+      ¶ Ad tertium dico quod compositum 
+      <lb ed="#P" n="41"/>non est vnum per illam vnionem formaliter licet 
+      vni<lb ed="#P" n="42" break="no"/>tas eius sicut et entitas bene presupponat illam 
+      vni<lb ed="#P" n="43" break="no"/>nem sed per suam entitatem est vnum fundamenta 
+      <lb ed="#P" n="44"/>liter et per suam vnitatem formaliter que quidem 
+      <lb ed="#P" n="45"/>vnitas sicut dixi alias non dicit nisi negationem si 
+      <lb ed="#P" n="46"/>per entitatem sicut et Aristoteles dicit. Unde licet 
+      <lb ed="#P" n="47"/>per istam vnionem partes sint vnite non tamen totum 
+      <lb ed="#P" n="48"/>est vnum
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3269">
+      ¶ Dices ergo partes sunt vnite per 
+      acci<lb ed="#P" n="49" break="no"/>dens et non faciunt per se vnum. Dico quod partes esse 
+      <lb ed="#P" n="50"/>vnitas per accidens potest intelligi dupliciter 
+      vno<lb ed="#P" n="51" break="no"/>modo quod vnio earum sit accidens et sic dico quod non est 
+      <lb ed="#P" n="52"/>inconueniens et cum hoc stat quod faciunt vnum per 
+      <lb ed="#P" n="53"/>se quia cum hoc stat quod vna per se est in potentia 
+      respo<lb ed="#P" n="54" break="no"/>ctu alterius. Aliomodo potest intelligi partes 
+      vni<lb ed="#P" n="55" break="no"/>ri per accidens quia aliquod accidens 
+      superaddi<lb ed="#P" n="56" break="no"/>tum parti est ratio fundandi talem vnionem et sic 
+      <lb ed="#P" n="57"/>pars non est per se in potentia ad aliam nec 
+      potes<lb ed="#P" n="58" break="no"/>vniri alteri per se sed per vnum accidens 
+      mediun<lb ed="#P" n="59" break="no"/>inter partem que vnitur et vnionem et sic non 
+      vni<lb ed="#P" n="60" break="no"/>tur forma materie per accidens. Non enim 
+      requi<lb ed="#P" n="61" break="no"/>ritur forma in illa vnione immediate nec est 
+      ratio<lb ed="#P" n="62" break="no"/>recipiendi formam vnio talis: sed forma immediate 
+      <lb ed="#P" n="63"/>inest materie. Tunc enim facerent vnum per sicut 
+      <lb ed="#P" n="64"/>deducit argumentum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3307">
+      ¶ Ad quartum dico quod illa 
+      <lb ed="#P" n="65"/>quorum vnio est ordo vel relatio et vnum per se non est 
+      <!--151.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>in potentia ad alterum et alterum actus eius nou 
+      <lb ed="#P" n="67"/>faciunt vnum per se sicut est de partibus domus 
+      <lb ed="#P" n="68"/>vel de partibus totius per accidens. Sed sic non 
+      <lb ed="#P" n="69"/>est de materia et forma licet vnio ipsarum sit 
+      acci<lb ed="#P" n="70" break="no"/>dens.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3327">
+      ¶ Ad quintum dico quod talis vnio non est 
+      actio<lb ed="#P" n="71" break="no"/>vel passio sicut bene probatur nec tamen est idem cun 
+      <lb ed="#P" n="72"/>partibus nec cum composito sed est habitudo et 
+      re<lb ed="#P" n="73" break="no"/>latio realis partis ad partem vt dictum est que est 
+      ali<lb ed="#P" n="74" break="no"/>quid causatum per aliquam actionem alicuius agen 
+      <lb ed="#P" n="75"/>tis vnientis actiue formam cum materia. Sic ad istas 
+      <lb ed="#P" n="76"/>rs tiones. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3343">
+               <lb ed="#P" n="77"/>¶ Ad rationes alterius. Ad  
+      <lb ed="#P" n="78"/>primam cum dicitur quod in corruptione hominis non 
+      <lb ed="#P" n="79"/>est nisi separatio partis a parte.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3352">
+      ¶ Dico primo quod 
+      <lb ed="#P" n="80"/>contra dicit sibiipsi quia infra ipsemet dicit quod in 
+      cor<lb ed="#P" n="81" break="no"/>ruptione cuiuscunque aliquid positiuum 
+      corrumpi<lb ed="#P" n="82" break="no"/>tur siue in aliis abhomine siue in homine. Hoc est 
+      pri<lb ed="#P" n="83" break="no"/>mum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3363">
+      ¶ Secundo dico quod hoc est falsum Dico quod 
+      <lb ed="#P" n="84"/>morte vel corruptione hominis aliquid positiuum 
+      <lb ed="#P" n="85"/>absolutum corrumpitur quod est ipsum totum. Qundo 
+      d<lb ed="#P" n="86" break="no"/>cis quod non per augustinum. Dico quod augustinus 
+      bene<lb ed="#P" n="87" break="no"/>dicit quod in morte hominis est separatio partium quia 
+      <lb ed="#P" n="88"/>mors distinguit vnita scilicet partes: sed non dicit 
+      <lb ed="#P" n="89"/>propter hoc quod nichil absolutum positiuum 
+      corrumpa<lb ed="#P" n="90" break="no"/>tur et ideo imponis sibi illud quod non dicit: licet 
+      <lb ed="#P" n="91"/>enim mors non consumat vnita vel partes: 
+      consu<lb ed="#P" n="92" break="no"/>mit tamen totum et corrumpitur illud totum positiuum 
+      <lb ed="#P" n="93"/>absolutum et ita ad saluandum corruptionem 
+      substan<lb ed="#P" n="94" break="no"/>tialem oportet hoc ponere. Ad dionysium eodem 
+      <lb ed="#P" n="95"/>modo.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3392">
+      ¶ Ad secundam rationem de processu in 
+      infini<lb ed="#P" n="96" break="no"/>tum. Dico quod nullus sequitur processus in 
+      infini<lb ed="#P" n="97" break="no"/>tum licet quiditas illa formalis totius se habeat 
+      <lb ed="#P" n="98"/>sicut forma respectu suppositi et illud sicut materia 
+      <lb ed="#P" n="99"/>le: quia non se habet sicut forma partialis informans 
+      <lb ed="#P" n="100"/>ipsum suppositum sed magis substantians ipsum 
+      <lb ed="#P" n="101"/>et quiditas eius non sicut forma que est pars / ad 
+      ma<lb ed="#P" n="102" break="no"/>teriam que est pars. Uando dicit. Ita contingit intel 
+      <lb ed="#P" n="103"/>ligere suppositum et quiditatem non intelligendo to 
+      <lb ed="#P" n="104"/>tum compositum sicut materiam et formam falsum 
+      <lb ed="#P" n="105"/>est et patet prima fronte quod istud est nichil quia ipsum 
+      <lb ed="#P" n="106"/>suppositum est ipsum totum et ipsa etiam humanitas 
+      <lb ed="#P" n="107"/>vel quiditas abstractiue significatum et ideo 
+      isto<lb ed="#P" n="108" break="no"/>rum non est aliud totum sicut totum est aliud a 
+      ma<lb ed="#P" n="109" break="no"/>teria et forma: nec est aliquis processus in 
+      infini<lb ed="#P" n="110" break="no"/>tum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3428">
+      ¶ Ad tertium Dico quod non obstantibus pre 
+      <lb ed="#P" n="111"/>dictis anima rationalis est forma specifica 
+      homi<lb ed="#P" n="112" break="no"/>nis et vltima dans esse specificum per modum forme. e 
+      <lb ed="#P" n="113"/>partialis et nobilior partialis que sit in homine: qui 
+      <lb ed="#P" n="114"/>ditas autem forma totalis est vt dictum est supra que 
+      <lb ed="#P" n="115"/>est nobilior anima sicut totum est nobilius parte.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3441">
+      ¶ Ad  
+      <lb ed="#P" n="116"/>quartam Si propter rationem Aristotelis de .a. et 
+      <lb ed="#P" n="117"/>b. debet quis moueri quod totum substantiale per se vnum 
+      <lb ed="#P" n="118"/>addat aliquid positiuum absolutum super partes 
+      <lb ed="#P" n="119"/>eadem ratione sequitur de toto per accidens Dico 
+      <lb ed="#P" n="120"/>quod falsum est. Uundo dicis potest intelligi homo et 
+      al<lb ed="#P" n="121" break="no"/>bedo coniuncta vel vnita non intelligendo totum 
+      <lb ed="#P" n="122"/>per accidens Dico quod falsum est quia totum per 
+      acci<lb ed="#P" n="123" break="no"/>dens quod est homo albus non est nisi homo et 
+      al<lb ed="#P" n="124" break="no"/>bedo et vnio istorum vel ista vnita sicut etiam nec 
+      to<lb ed="#P" n="125" break="no"/>tum per aggregationem est nisi partes sue vnite et 
+      <lb ed="#P" n="126"/>ordinate. Nec currit aliqua ratio superius adducta 
+      <lb ed="#P" n="127"/>de istis sicut de toto substantiali per se vno sicut 
+      po<lb ed="#P" n="128" break="no"/>tet diligenter intuenti.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3472">
+      ¶ praterea Autem ratio Aristotelis 
+      <!--152.xml-->
+      <pb ed="#P" n="73-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>valet et sic concludit propositum meum sicut dictum / 
+      <lb ed="#P" n="2"/>est supra et per te licet non per me concludit quod totum 
+      <lb ed="#P" n="3"/>per accidens addit aliquid positiuum absolutum super 
+      <lb ed="#P" n="4"/>partes quod est contrate: quia ita negas illud sicut ego 
+      <lb ed="#P" n="5"/>Aut ratio Aristo. nihil valet et tunc frustra ab Aristo. 
+      <lb ed="#P" n="6"/>adducitur. Magis enim credo sibi in hoc quam tibi¬ 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3494">
+               <lb ed="#P" n="7"/>¶ Ad primam auctoritatem suam 
+      <lb ed="#P" n="8"/>quam allegat. 7. de trinitate quod homo nihil aliud ent 
+      <lb ed="#P" n="9"/>quam corpus et anima. Dico quod non est ita: sed est ibi sic ca. 
+      <lb ed="#P" n="10"/>4o. de magnis aperte meliore totum appellari 
+      pla<lb ed="#P" n="11" break="no"/>cet I ab anima: et corpus et animam quod est totus hoc. Et 
+      <lb ed="#P" n="12"/>potest dici quod istud vltimum quod est totus homo non refertur 
+      <lb ed="#P" n="13"/>ad corpus et animam: sed ad totum quod prius nominauerat 
+      <lb ed="#P" n="14"/>quando dixit totum appellari placet et tunc est sensus 
+      pla<lb ed="#P" n="15" break="no"/>cet appellari et nominari totum quod est totus ho et etiam 
+      <lb ed="#P" n="16"/>corpus et animam quae sunt partes supple ab anima quae est 
+      no<lb ed="#P" n="17" break="no"/>bilior pars et tunc nihil habetur contra me. Et quod hec sit 
+      <lb ed="#P" n="18"/>intentio Augustini. Patet per constructionem grammati 
+      <lb ed="#P" n="19"/>calem. Nam ly quod cum sit relatiuum neutri generis non 
+      refer<lb ed="#P" n="20" break="no"/>tur ad corpus et ad animam sed ad totum ipsum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3527">
+      ¶ praterea Si 
+      <lb ed="#P" n="21"/>forte dicat vel intendat dicere August. quod corpus et 
+      <lb ed="#P" n="22"/>anima sunt totus homo. Dico quod non est praedicatio forma / 
+      <lb ed="#P" n="23"/>lis eiusdem sed materialis eo modo quo partes 
+      comparan<lb ed="#P" n="24" break="no"/>tur ad totum sicut materiales et in potentia vel praedica 
+      <lb ed="#P" n="25"/>tio conuersa per continentiam et est sensus. Aima et corpus sunt 
+      <lb ed="#P" n="26"/>omnes partes essentiales homins contente ab ipso sicut a 
+      to<lb ed="#P" n="27" break="no"/>to. Non autem quod sit ipsum totum. Nec hoc intendit 
+      Au<lb ed="#P" n="28" break="no"/>gust. sed est vsitatus modus loquendi. Sicut etiam 
+      scri<lb ed="#P" n="29" break="no"/>ptura loquitur et dicit Septuagita homines Septua 
+      <lb ed="#P" n="30"/>ginta animas quae descenderunt cum Iacob in egiptum. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3551">
+               <lb ed="#P" n="31"/>¶ Ad Damascenum dico quod christus non dimisit 
+      natu<lb ed="#P" n="32" break="no"/>ram humanam vel totum quod assumpsit: quia illud dicitur 
+      <lb ed="#P" n="33"/>relinqui quod manet saluum et non est assumptum. Non autem 
+      <lb ed="#P" n="34"/>illud quod non manet nec per consequens est assumptum. quare etc. 
+      <lb ed="#P" n="35"/>Uel pro tanto non relinquit: quia aliquo modo causaliter non 
+      <lb ed="#P" n="36"/>amen formaliter in suis partibus mansit assumptum. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3568">
+               <lb ed="#P" n="37"/>¶ Ad rationem de quarto phisi. Quod totum nihil aliud est 
+      <lb ed="#P" n="38"/>quam partes. Dico quod illud non est in quarto phisi. et 
+      da<lb ed="#P" n="39" break="no"/>to quod alicubi esset hoc libro phisicorum quod non sic debet 
+      in<lb ed="#P" n="40" break="no"/>telligi quod totum sit ipse partes per praedicationem formalem 
+      si<lb ed="#P" n="41" break="no"/>cut praedicatur idem de se: sed per continentiam I totum non 
+      con<lb ed="#P" n="42" break="no"/>tinet nisi suas partes licet sit aliud. Non enim continet 
+      <lb ed="#P" n="43"/>vel includit nisi partes: licet sit aliud quam partes vel si sit 
+      <lb ed="#P" n="44"/>praedicatio formalis verum est de toto per accidens vel per 
+      <lb ed="#P" n="45"/>aggregationem. Non autem de toto per se composito ex 
+      ma<lb ed="#P" n="46" break="no"/>teria et forma.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3592">
+      ¶ Ad commentatorem dico quod partes 
+      si<lb ed="#P" n="47" break="no"/>mul sumpte non sunt ipsum totum nisi sicut dictum est 
+      <lb ed="#P" n="48"/>supra. Uel potest dici quod verum est non de toto per se 
+      con<lb ed="#P" n="49" break="no"/>posito: sed de aliis totis per accidens sicut dictum est 
+      <lb ed="#P" n="50"/>supra. Sic igitur dico quod ista non concludunt contra 
+      posi<lb ed="#P" n="51" break="no"/>tionem illam et quod totum addit aliud reale positiuum 
+      <lb ed="#P" n="52"/>vltra partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3608">
+      ¶ Sed contra hoc est vna instantia: quia 
+      <lb ed="#P" n="53"/>quando sunt aliqua absoluta essentialiter distincta sicut 
+      <lb ed="#P" n="54"/>vnum potest esse in re sine alio et reliquum saltem virtute 
+      di<lb ed="#P" n="55" break="no"/>uina. Sed si totum addit aliquid absolutum super partes 
+      <lb ed="#P" n="56"/>illud est essentialiter distinctum a partibus. Probatio 
+      <lb ed="#P" n="57"/>quia partes pastsesnt esse sine ipso vt patet in morte homins et non 
+      <lb ed="#P" n="58"/>potest negari in morte christi. ergo sicut partes passent esse 
+      <lb ed="#P" n="59"/>sine toto. Ita totum sine partibus sed hoc implicat contradi 
+      <lb ed="#P" n="60"/>ctionem sicut dictum est supra. ergo etc.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3628">
+      ¶ 
+      Dicere<lb ed="#P" n="61" break="no"/>tur ad hoc sicut posset dici primo quod totum non est 
+      essen<lb ed="#P" n="62" break="no"/>tialiter distinctum a partibus: licet econuerso partes a toto 
+      <lb ed="#P" n="63"/>quia totum cum includat partes non potest esse sine 
+      parti<lb ed="#P" n="64" break="no"/>bus: licet partes quia non includunt totum possint esse 
+      <!--152.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>sine toto et pertinent partes ad essentiam totius non 
+      econ<lb ed="#P" n="66" break="no"/>uerso. Ita quod distinctio essentialis non est mutua 
+      inter<lb ed="#P" n="67" break="no"/>totum et partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3650">
+      ¶ Alio modo potest dici quod maior est 
+      vera<lb ed="#P" n="68" break="no"/>de essentialiter distinctis quorum neutrum intrinsece 
+      <lb ed="#P" n="69"/>includit reliquum: et licet totum sit essentialiter distinctum 
+      <lb ed="#P" n="70"/>a partibus et econuerso: quia tamen distinctio ista non 
+      proue<lb ed="#P" n="71" break="no"/>nit ex partibus totius sed ex parte pertium partes poassent esse sine 
+      <lb ed="#P" n="72"/>toto non econuerso in aliis autem quorum neutrum includit 
+      <lb ed="#P" n="73"/>reliquum sicut in accidente et subiecto materia et forma et omnibus 
+      <lb ed="#P" n="74"/>talibus vnum prtet esse sine alio et econuerso. Sic ad quantionem. 
+      </p>
+            <p xml:id="qrdBas-b44312-d1e3668">
+               <lb ed="#P" n="75"/>¶ Ad primum principale 
+      Di<lb ed="#P" n="76" break="no"/>co quod totum est aliquid vltra partes et aliud ab ipsis non 
+      <lb ed="#P" n="77"/>tamen sic totaliter aliud sicut pars est alia a parte: sed 
+      <lb ed="#P" n="78"/>est aliud includens partes.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3680">
+      ¶ Ad secundum dico quod non 
+      <lb ed="#P" n="79"/>oportet dicere quod illud additum cum sit ipsum totum sit 
+      <lb ed="#P" n="80"/>toto sicut nec totum in seipso: sed bene partes sunt 
+      <lb ed="#P" n="81"/>in illo sicut in toto et ita illud nec est in toto sicut 
+      acci<lb ed="#P" n="82" break="no"/>dens in subiecto nec sicut partes in toto.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3691">
+      ¶ praterea Dico 
+      <lb ed="#P" n="83"/>quod illa maior plane est falsa quod illud quod est in alio 
+      <lb ed="#P" n="84"/>sicut indistinctum subiecto quod est in ipso sicut pars 
+      <lb ed="#P" n="85"/>in toto vel sicut accidens in subiecto. Patet de 
+      for<lb ed="#P" n="86" break="no"/>ma substantiali et de anima que in corpere subiecto 
+      indistin<lb ed="#P" n="87" break="no"/>cta ab ipso nec tamen sicut pars corperis nec sicut accidens 
+      <lb ed="#P" n="88"/>corperis. Uerum est tamen bene quod neutroo substantia prima est in alio 
+      <lb ed="#P" n="89"/>sicut ben dicit phuns sed nihil ad propositum.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3709">
+      ¶ Ad 3m 
+      di<lb ed="#P" n="90" break="no"/>co quod totum nihil addit super suam perrectionem totalem sicut 
+      <lb ed="#P" n="91"/>nec super seipsum. Sed dico quod super animam quae est sua 
+      perfectio<lb ed="#P" n="92" break="no"/>partialis et suum perfectibilequod est materia addit aliquid sicut 
+      <lb ed="#P" n="93"/>dictum est pluries. Si dicas adhuc quod compositum 
+      <lb ed="#P" n="94"/>non addit super componentia nisi compositionem quae non 
+      <lb ed="#P" n="95"/>est nisi respectus. Dico quod verum est accipiendo 
+      composi<lb ed="#P" n="96" break="no"/>tum formaliter. scilicet quantum ad respectum compositionis 
+      <lb ed="#P" n="97"/>et hoc modo pars quae componitur alteri magis dicitur 
+      con<lb ed="#P" n="98" break="no"/>posita quam totum. Sed accipiendo compositum pro 
+      con<lb ed="#P" n="99" break="no"/>stituto ex componentibus et aliquo per se vno causato ab eis. 
+      <lb ed="#P" n="100"/>Dico quod addit aliud absolutum super componentia sicut 
+      <lb ed="#P" n="101"/>supra.
+    </p>
+            <p xml:id="qrdBas-b44312-d1e3738">
+      ¶ Ad quartum Dico quod non est alia ratio 
+      cau<lb ed="#P" n="102" break="no"/>salis intriseca composito quare compositum sit vnum 
+      ni<lb ed="#P" n="103" break="no"/>si quia materia est potentia et forma est actus quae sunt 
+      cau<lb ed="#P" n="104" break="no"/>se et partes intrinsece compositi et non sunt alie cause 
+      in<lb ed="#P" n="105" break="no"/>trinsece nisi iste. Unde non est dare nisi medium 
+      inter<lb ed="#P" n="106" break="no"/>materiam et formam quod sit ratio vnionis ipsorum 
+      adin<lb ed="#P" n="107" break="no"/>uicem et pertinens intrinsece ad compositum ipsum 
+      <lb ed="#P" n="108"/>sicut Aristoteles intendit ibi. Sed quin entitas 
+      con<lb ed="#P" n="109" break="no"/>positi sit alia aliquo modo. et tertia respectu 
+      enti<lb ed="#P" n="110" break="no"/>tatum materie et forme hoc non intendit excludere 
+      <lb ed="#P" n="111"/>licet enim sit ibi dare talem tertiam entitatem et per 
+      con<lb ed="#P" n="112" break="no"/>sequens tertiam vnitatem aliam ab vnitatibus materie et 
+      <lb ed="#P" n="113"/>forme. Non tamen illa tertia entitas est ratio causalis quaere 
+      ex<lb ed="#P" n="114" break="no"/>materia et forma fiat vnum sed ipsa est ipsum vnum quod composi 
+      <lb ed="#P" n="115"/>tum est ex materia et forma vel saltem idem cum tali 
+      compo<lb ed="#P" n="116" break="no"/>sito non differens nisi sicut abstractum est a concreto. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

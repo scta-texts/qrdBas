@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a2">Paris, 1517, Vol. 2</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="110-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-b72974"><!--l2d17q3 -->
+            <head xml:id="qrdBas-b72974-Hd1e99">Quaestio 3</head>
+            <p xml:id="qrdBas-b72974-d1e101">
+               <lb ed="#P" n="52"/>¶ Distinctionis Decimeseptime. 
+      <lb ed="#P" n="53"/>¶ Questio Tertia.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e108">
+               <lb ed="#P" n="54"/>Tertio quero 
+      cir<lb ed="#P" n="55" break="no"/>ca presentem distinctionem vtrum 
+      <lb ed="#P" n="56"/>Paradisus terrestris sit 
+      lo<lb ed="#P" n="57" break="no"/>cus conueniens habitationi 
+      hu<lb ed="#P" n="58" break="no"/>mane.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e121">
+      ¶ Probatur quod non: quia 
+      <lb ed="#P" n="59"/>locus qui non est corporalis non 
+      <lb ed="#P" n="60"/>est conueniens habitationi 
+      hu<lb ed="#P" n="61" break="no"/>Imane. Sed sic est de 
+      paradi<lb ed="#P" n="62" break="no"/>so terrestri. Nam si esset locus corporalis verisimi¬ 
+      <!--227.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>le esset quod aliquis philosophorum huius mundi 
+      tra<lb ed="#P" n="64" break="no"/>ctantium de locis et partibus mundi fecisset aliquam 
+      <lb ed="#P" n="65"/>mentionem de ipso. Sed hoc est falsum. Patet in 
+      com<lb ed="#P" n="66" break="no"/>mographia Iulii cesaris in libris alfragani et 
+      Ptho<lb ed="#P" n="67" break="no"/>lomei qui omnia climata describunt etiam nec Pl 
+      <lb ed="#P" n="68"/>nius nec Solinus aliquam fecerunt de ipso 
+      mentio<lb ed="#P" n="69" break="no"/>nem: ergo etc.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e152">
+      ¶ Secundo sic. Dato quod sit locus 
+      corpo<lb ed="#P" n="70" break="no"/>ralis adhuc non videtur habitabilis: quia locus 
+      conue<lb ed="#P" n="71" break="no"/>niens habitationi humane est in confinio trium elemen 
+      <lb ed="#P" n="72"/>torum scilicet aque terre et aeris. Sed paradisus excedit 
+      <lb ed="#P" n="73"/>in altitudine regionem elementarem. Pertingit enim 
+      <lb ed="#P" n="74"/>vsque ad globum lunare secundum Magistrum in littera: et 
+      di<lb ed="#P" n="75" break="no"/>cit quidam doctor quod hoc est dictum Bede: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e169">
+               <lb ed="#P" n="76"/>¶ Tertio sic. Locus qui excedit summitatem altissi 
+      <lb ed="#P" n="77"/>morum montium non est locus conueniens 
+      habita<lb ed="#P" n="78" break="no"/>tioni humane. Nam de monte olympo dicit 
+      Mar<lb ed="#P" n="79" break="no"/>tianus quod est ita altus quod nec ibi vapor siccus qui est 
+      <lb ed="#P" n="80"/>materia venti. Nec vapor humidus qui est materia 
+      <lb ed="#P" n="81"/>impressionis humide et Solinus confirmat per hoc 
+      <lb ed="#P" n="82"/>quod illa que imponuntur are Iouis super illum 
+      mon<lb ed="#P" n="83" break="no"/>tem posite nec dissimilatur ventosis spiritibus vel 
+      <lb ed="#P" n="84"/>pluuiis diruuntur sed voluente anno cuius relicta 
+      <lb ed="#P" n="85"/>fuerunt nulla reperiuntur. Cum ergo secundum 
+      Aristote<lb ed="#P" n="86" break="no"/>lem I metherorum vapores ascendant vsque ad 
+      supe<lb ed="#P" n="87" break="no"/>riorem partem aeris et ibidem impressiones ignee 
+      ge<lb ed="#P" n="88" break="no"/>merentur et ille mons excedat superiorem partem aeris 
+      <lb ed="#P" n="89"/>et per consequens ille locus qui excedit summitatem 
+      <lb ed="#P" n="90"/>altissimorum montium. Patet quod talis locus non est 
+      <lb ed="#P" n="91"/>habitabilis. Sed paradisus terrestris est huiusmo 
+      <lb ed="#P" n="92"/>di. Nam aque diluuii ascenderunt. 19. cubitis super 
+      <lb ed="#P" n="93"/>altitudines montium: et tamen paradisum 
+      terrestren<lb ed="#P" n="94" break="no"/>non ascenderunt sicut haberetur. ca. 10. in littera 
+      in<lb ed="#P" n="95" break="no"/>fine. Et Damascenus dicit hoc plane lib. 2. c. I11. 
+      vbi<lb ed="#P" n="96" break="no"/>dicit de paradiso terrestri quod est situs in oriente 
+      omni<lb ed="#P" n="97" break="no"/>terra altior positus: quare etc.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e219">
+      ¶ Quarto sic: 
+      Pa<lb ed="#P" n="98" break="no"/>radisus communiter dicitur esse sub equinoctiali 
+      cin<lb ed="#P" n="99" break="no"/>culo. Sed locus ille vel plaga est inhabitabilis secundum 
+      <lb ed="#P" n="100"/>philosophum. 2. metherorum de ventis et patet per 
+      <lb ed="#P" n="101"/>rationem: quia causa inhabitationis vel non 
+      habi<lb ed="#P" n="102" break="no"/>tationis sub altero tropicorum est accessus solis ad  
+      <lb ed="#P" n="103"/>3enithe capitis eorum qui essent ibi. Et hoc fit bis in 
+      <lb ed="#P" n="104"/>anno sub equinoctiali ergo duplo est inhabitabilis 
+      <lb ed="#P" n="105"/>quare etc 
+      <lb ed="#P" n="106"/>Isidorus libro ethymologiarum 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e241">
+               <lb ed="#P" n="107"/>¶ Contra cap. primo dicit sic de paradiso 
+      <lb ed="#P" n="108"/>non est ibi frigus et estas: sed perpetua aeris 
+      tempe<lb ed="#P" n="109" break="no"/>ries: est etiam locus omni genere ligni consitus et 
+      po<lb ed="#P" n="110" break="no"/>miferarum arborum. Unde hebraice ganem id est 
+      or<lb ed="#P" n="111" break="no"/>tus deliciarum nuncupatur ergo est locus 
+      conue<lb ed="#P" n="112" break="no"/>niens habitationi humane.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e257">
+      ¶ Secundo quia hoc 
+      di<lb ed="#P" n="113" break="no"/>cit Damascenus lib. 2. c. II. sic. Hic est paradisus 
+      di<lb ed="#P" n="114" break="no"/>uinus manibus dei in eden plantatus gaudii et 
+      ex<lb ed="#P" n="115" break="no"/>ultationis vniuerse promptuarium. Edem enim 
+      vo<lb ed="#P" n="116" break="no"/>luptas interpretatur. Et sequitur in oriente qui 
+      om<lb ed="#P" n="117" break="no"/>ni terra celsior positus temperamento vero et 
+      tenuissi<lb ed="#P" n="118" break="no"/>mo et purissimo aere circum fulgens plantis et 
+      semper<lb ed="#P" n="119" break="no"/>floridis comatus et bono odore plenus: ergo vt 
+      vi<lb ed="#P" n="120" break="no"/>detur erat et est locus habitabilis. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e277">
+               <lb ed="#P" n="121"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="122" break="no"/>dam.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e284">
+      ¶ Primo ostendam quod paradisus terrestris 
+      <lb ed="#P" n="123"/>in quo positus fuit. Adam post plasmationem cuius 
+      <lb ed="#P" n="124"/>de limo terre in campo Damasceno fuit et est locus 
+      <lb ed="#P" n="125"/>corporalis.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e294">
+      ¶ Secundo inquiram de situ vel loco 
+      <lb ed="#P" n="126"/>eius.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e299">
+      ¶ Tertio inferam vtrum sit locus conueniens 
+      <!--228.xml-->
+      <pb ed="#P" n="111-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>habitationi humane vel non.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e310">
+      ¶ Ultimo ad 
+      ratio<lb ed="#P" n="2" break="no"/>nes principales. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e315">
+               <lb ed="#P" n="3"/>¶ Quantum ad primum dico 
+      <lb ed="#P" n="4"/>quod licet sermo scripture in Genesi loquentis de 
+      para<lb ed="#P" n="5" break="no"/>diso possit exponi spiritualiter de paradiso 
+      spiritua<lb ed="#P" n="6" break="no"/>li hominis circa deum et creaturas delectando 
+      spiri<lb ed="#P" n="7" break="no"/>tualiter in eis. Tamen sicut probat Augustinus. ergo 
+      <lb ed="#P" n="8"/>super Genesim dico quod fuit locus corporalis et est 
+      <lb ed="#P" n="9"/>quod probat Augustinus: quia hoc narrat Moyses 
+      <lb ed="#P" n="10"/>yystoriographus et ita debet ad litteram dictum suum 
+      <lb ed="#P" n="11"/>intelligi de paradiso tanquam de loco. Unde et ibidem 
+      <lb ed="#P" n="12"/>dicit quod aliter sunt accipienda verba christi in 
+      euan<lb ed="#P" n="13" break="no"/>gelio et aliter verba euangeliste. Nam narratio christi 
+      <lb ed="#P" n="14"/>frequenter debet accipi allegorice et non ad litteram 
+      <lb ed="#P" n="15"/>veram esse: et tunc accipitur secundum intentionem christi 
+      <lb ed="#P" n="16"/>proferentis. Sed narratio euangeliste quod christus hoc 
+      <lb ed="#P" n="17"/>narrauit vel dixit: debet semper accipi ad litteram vel 
+      <lb ed="#P" n="18"/>ra esse. Et similiter dico de narratione Moysi 
+      hy<lb ed="#P" n="19" break="no"/>storiographi diuini: quia ergo narrauit quod plantaue 
+      <lb ed="#P" n="20"/>rat dominus deus paradisum voluptatis a principio et 
+      <lb ed="#P" n="21"/>alia que ponuntur in Genesi de paradiso ad literam 
+      <lb ed="#P" n="22"/>debent ista intelligi tanquam de loco vere corporali¬ 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e361">
+               <lb ed="#P" n="23"/>¶ Et confirmatur hoc: quia alia vacillabit 
+      verita<lb ed="#P" n="24" break="no"/>scripture de his que narrantur ibi et pari ratione quam 
+      <lb ed="#P" n="25"/>do narratur christus mortuus fuisse et in 
+      sepulchro<lb ed="#P" n="26" break="no"/>quieuisse posset exponi spiritualiter tantum et non ad 
+      <lb ed="#P" n="27"/>litteram quod est hereticum.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e374">
+      ¶ Ad hoc est auctoritas 
+      <lb ed="#P" n="28"/>scripture ecclesiasticis. 20. dicitur quod Enoch 
+      trans<lb ed="#P" n="29" break="no"/>latus est in paradisum. Sed constat quod Enoch viuus 
+      <lb ed="#P" n="30"/>est in corpore et nunquam ipsum mortuum fuisse. Sed 
+      <lb ed="#P" n="31"/>in tempore antichristi occidendum: ergo non est 
+      transia<lb ed="#P" n="32" break="no"/>tus ad paradisum spiritualem qui modo in visione 
+      <lb ed="#P" n="33"/>dei et fruitione: quia hoc viatoribus permanenter non 
+      <lb ed="#P" n="34"/>conceditur: sed oportet quod prius debitum mortis 
+      sol<lb ed="#P" n="35" break="no"/>uatur: igitur paradisus ille est locus corporalis. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e395">
+               <lb ed="#P" n="36"/>¶ Hoc confirmatur per Damascenum lib. 2. cap. II. 
+      <lb ed="#P" n="37"/>vbi determinat hoc expresse: licet etiam 
+      exponatu<lb ed="#P" n="38" break="no"/>spiritualiter cum hoc: sed dicit quod fuit et est locus cor 
+      <lb ed="#P" n="39"/>poralis vbi dicit sic. Uerumtamen michi videtur quoniam 
+      <lb ed="#P" n="40"/>sicut homo sensibilis simul intelligibilis conditus 
+      <lb ed="#P" n="41"/>est: et sic huius sacratissimum templum sensibile simul 
+      <lb ed="#P" n="42"/>et intelligibile et duplicem habens occasionem. 
+      Cor<lb ed="#P" n="43" break="no"/>pore enim diuinissima regione et super pulchra 
+      si<lb ed="#P" n="44" break="no"/>cut hystorice dicimus commorans diuinitatus. Und 
+      <lb ed="#P" n="45"/>de ponit quod paradisus fuit locus corporalis Ade secundum 
+      <lb ed="#P" n="46"/>corpus. Hec de primo. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e421">
+               <lb ed="#P" n="47"/>¶ Quantum ad secundum 
+      de<lb ed="#P" n="48" break="no"/>situ paradisi terrestris sunt multe opiniones.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e428">
+      ¶ Pr 
+      <lb ed="#P" n="49"/>ma est quantum ad altitudinem quod est ita alte situatus quod 
+      <lb ed="#P" n="50"/>attingit vsque ad globum lune: et transcendit naturam 
+      <lb ed="#P" n="51"/>corruptibilem propter loci puritatem. Sed ista 
+      opi<lb ed="#P" n="52" break="no"/>nio est falsa: quia immediate sub globo lunari est 
+      spe<lb ed="#P" n="53" break="no"/>ra ignis: et tunc paradisus terrestris esset in igne 
+      ve<lb ed="#P" n="54" break="no"/>loco ignis quod est inconueniens. Ignis enim etiam 
+      in<lb ed="#P" n="55" break="no"/>propria materia calidus est non solum lucidus: et 
+      ip<lb ed="#P" n="56" break="no"/>sum consumeret vt videtur.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e448">
+      ¶ Alia est opinio quod si 
+      <lb ed="#P" n="57"/>tuatur quantum ad altitudinem supra medium 
+      intersti<lb ed="#P" n="58" break="no"/>cium aeris in superiori intersticio. Alii quod in 
+      medio<lb ed="#P" n="59" break="no"/>interstitio. Alii quod in infimo interstitio. Sed primum 
+      <lb ed="#P" n="60"/>non potest stare. Nam supremum interstitium aeris et 
+      <lb ed="#P" n="61"/>pars illa est quasi tota inflammata. Tum propter 
+      pro<lb ed="#P" n="62" break="no"/>pinquitatem ignis cui coniungitur. Tum 
+      propte<lb ed="#P" n="63" break="no"/>velocitatem motus corporum celestium causantium 
+      <!--228.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>ibi calorem. Similiter etiam secundum non stat vt 
+      vide<lb ed="#P" n="65" break="no"/>tur: quia in medio interstitio aeris est nimia frigidi 
+      <lb ed="#P" n="66"/>tas: quia radii solis in parte illa minime reflectuntu 
+      <lb ed="#P" n="67"/>et ita non est interstitium inconueniens. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e479">
+               <lb ed="#P" n="68"/>¶ Est ergo opinio communis 
+      <lb ed="#P" n="69"/>quod stat in infimo interstitio aeris sicut et alie 
+      habita<lb ed="#P" n="70" break="no"/>biles terre. Sed quantum ad hoc vna est opinio quod situs 
+      <lb ed="#P" n="71"/>paradisi potest intelligi duplex scilicet respectu orientis 
+      <lb ed="#P" n="72"/>et occidentis et metarum Herculis et Alexandri et si 
+      <lb ed="#P" n="73"/>tus iste dicitur longitudo vel potest intelligi 
+      respe<lb ed="#P" n="74" break="no"/>ctu meridiei et aquilonis vel septentrionis et 
+      dicitu<lb ed="#P" n="75" break="no"/>situs iste vel distantia latitudo magis.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e499">
+      ¶ Quantum 
+      <lb ed="#P" n="76"/>ad primum dicunt quod paradisus situatus in oriente: 
+      vn<lb ed="#P" n="77" break="no"/>de antiqua littera Genesis habet. Plantauerat 
+      do<lb ed="#P" n="78" break="no"/>minus deus paradisum ad orientem et causam 
+      ass<lb ed="#P" n="79" break="no"/>gnat quidam doctor quia oriens secundum Aristotelem. ergo 
+      <lb ed="#P" n="80"/>phisi. et. 2. celi et mundi est dextra pars celi et mundi 
+      <lb ed="#P" n="81"/>est dextra pars celi: et ideo locus nobilior in celo: et 
+      <lb ed="#P" n="82"/>per consequens iustum est quod nobilior locus terre 
+      pu<lb ed="#P" n="83" break="no"/>ta paradisus terrestris sibi supponatur quare etc 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e520">
+               <lb ed="#P" n="84"/>¶ Quantum vero ad situm eius respectu aquilonis 
+      <lb ed="#P" n="85"/>et austri vel merediei et septentrionis dicitur quod est in 
+      <lb ed="#P" n="86"/>medio inter vtrumque polum sub equinoctiali et hoc 
+      <lb ed="#P" n="87"/>quia ille locus quantum ad naturam influentie corporum 
+      <lb ed="#P" n="88"/>celestium est temperatissimus.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e533">
+      ¶ Hoc autem proba 
+      <lb ed="#P" n="89"/>tur sic a quodam. Quanto sol magis cito recedit a 
+      <lb ed="#P" n="90"/>locis habitatis super que mouetur tanto minus 
+      gene<lb ed="#P" n="91" break="no"/>rat calorem: quia mora agentis super patiens forti 
+      <lb ed="#P" n="92"/>ficat et intendit effectum potissime in illis que 
+      indu<lb ed="#P" n="93" break="no"/>cuntur successiue per motum sicut calor. Sed sol 
+      mul<lb ed="#P" n="94" break="no"/>to citius recedit ab habitatione eorum sub equino 
+      <lb ed="#P" n="95"/>ctiali quam ab aliis: quia cum sol mouetur super 
+      equi<lb ed="#P" n="96" break="no"/>noctiali describit maiorem circulum paralelum vtrique 
+      <lb ed="#P" n="97"/>tropico quam describat cum mouetur sub altero tropico 
+      <lb ed="#P" n="98"/>rum pro quanto equinoctialis est maior vtroque 
+      tropi<lb ed="#P" n="99" break="no"/>corum: quia diuidit speram per equalia tropicus non 
+      <lb ed="#P" n="100"/>Equali vero tempore pertransit sol sub equinoctiali 
+      <lb ed="#P" n="101"/>sicut ab altero tropicorum: quia vtrumque in vna 
+      die<lb ed="#P" n="102" break="no"/>naturali. Cum ergo mobile velocius moueatur su 
+      <lb ed="#P" n="103"/>per spacium maius quam super minus in equali 
+      tempo<lb ed="#P" n="104" break="no"/>re. 6. phisicorum sequitur quod sol velocius transit sub 
+      <lb ed="#P" n="105"/>equinoctiali et minus ibi moretur et per consequens 
+      <lb ed="#P" n="106"/>quod minus generet de calore quam sub altero tropicorum 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e575">
+               <lb ed="#P" n="107"/>¶ Istud confirmatur per Auicennam qui ponit 
+      ter<lb ed="#P" n="108" break="no"/>ram temperatissimam sub equinoctiali libro 
+      anima<lb ed="#P" n="109" break="no"/>lium et primo canon. senten. 2. summa. 3. doctrina 
+      pri<lb ed="#P" n="110" break="no"/>ma. ca. 8. et intitulatur de accidentalibus aeris 
+      im<lb ed="#P" n="111" break="no"/>pressionibus vbi dioit sic. Cumque regiones 
+      attende<lb ed="#P" n="112" break="no"/>rimus certificatum erit nobis quod si fuerit locus qui 
+      <lb ed="#P" n="113"/>inhabitetur sub equatione diei oportet esse propin 
+      <lb ed="#P" n="114"/>quiores equalitati dispositionis quaniam dispositiones 
+      <lb ed="#P" n="115"/>eorum erunt nobiliores ex eo quod videtur quod terra que 
+      <lb ed="#P" n="116"/>est sub circulo equationis diei est circa equalitatem 
+      <lb ed="#P" n="117"/>Unde et concludit ibi quod sub equinoctiali regiones 
+      <lb ed="#P" n="118"/>temperatissime et sub tropicis calidissime et postea 
+      <lb ed="#P" n="119"/>ille regiones que a tropicis elongantur quantitate. 19. 
+      <lb ed="#P" n="120"/>graduum versus polos.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e608">
+      ¶ Ratio autem Auicen. qua 
+      <lb ed="#P" n="121"/>re sub equinoctiali est locus temperatus est ista: quia scilicet 
+      <lb ed="#P" n="122"/>sol minus immoratur super genith capitis eorum 
+      <lb ed="#P" n="123"/>qui habitant ibi quam respectu habitantium sub 
+      tropice<lb ed="#P" n="124" break="no"/>et ita minus generat de calore. Mora enim agentis 
+      <lb ed="#P" n="125"/>super passum plus facit de effectu vel ad effectum 
+      lo<lb ed="#P" n="126" break="no"/>quendo de effectu qui successiue generatur sicut 
+      calor<lb ed="#P" n="127" break="no"/>vt patet. Si quis velociter transiret iuxta ignem fere 
+      <!--229.xml-->
+      <pb ed="#P" n="111-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>uentissimum vel maximum non sentiret tantam 
+      le<lb ed="#P" n="2" break="no"/>sionem nec fieret ita calidus sicut qui diu moraretur 
+      <lb ed="#P" n="3"/>et si magis distaret ab illo igne.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e639">
+      ¶ Quod autem 
+      So<lb ed="#P" n="4" break="no"/>minus immoretur. Probatur et bene quia in tempore 
+      <lb ed="#P" n="5"/>equali sol in duplo plus declinat ab equinoctiali cum 
+      <lb ed="#P" n="6"/>recedit ab ariete in taurum quam faciat cum magis 
+      ac<lb ed="#P" n="7" break="no"/>cedit ad tropicum tanto in equali tempore minus 
+      <lb ed="#P" n="8"/>declinat sicut patet in tabula declinationis 
+      secun<lb ed="#P" n="9" break="no"/>dum Ptolomeum vel Armacelem et causa huius est 
+      <lb ed="#P" n="10"/>obliquitas 3odiaci que maior est cum magis 
+      acce<lb ed="#P" n="11" break="no"/>dit ad equinoctialem Ita quod plus recedit sol et 
+      decli<lb ed="#P" n="12" break="no"/>nat ab equinoctiali in quinque diebus quam accedat ad 
+      <lb ed="#P" n="13"/>tropicum vel recedat ab eo in quadraginta diebus. 
+      <lb ed="#P" n="14"/>Sed contra istam opinionem 
+      <lb ed="#P" n="15"/>quantum ad illud quod dicunt alii primo. Primo de 
+      <lb ed="#P" n="16"/>situ paradisi in oriente Arguitur quod ratio eorum non 
+      <lb ed="#P" n="17"/>concludit. Nam in celo nulla pars ex natura rei est 
+      <lb ed="#P" n="18"/>magis oriens quam alia nec occidens quam alia: immo si 
+      <lb ed="#P" n="19"/>in celo sit determinatum oriens et occidens hoc non 
+      <lb ed="#P" n="20"/>potest dici nisi ex oriente vel occidente terre. 
+      Puta<lb ed="#P" n="21" break="no"/>vt signetur vltima pars habitabilis in terra cui 
+      pri<lb ed="#P" n="22" break="no"/>mo oritur sol et stelle et ponatur alia ex opposito 
+      in<lb ed="#P" n="23" break="no"/>parte alia in qua non est vlterior habitatio hominum 
+      <lb ed="#P" n="24"/>et illud vocetur occidens et in celo non est reperire oriens 
+      <lb ed="#P" n="25"/>vel occidens nisi respectu istorum sicut nec in 
+      colum<lb ed="#P" n="26" break="no"/>na dextrum vel sinistrum nisi respectu animalis 
+      quic<lb ed="#P" n="27" break="no"/>quid Aristoteles dicit qui videtur ponere celos 
+      anima<lb ed="#P" n="28" break="no"/>tos quoquomodo: igitur concludetur paradisum et 
+      <lb ed="#P" n="29"/>se in aliquo loco determinato terre propter orientem 
+      <lb ed="#P" n="30"/>celi non est concludere aliquid nisi sicut concludere 
+      <lb ed="#P" n="31"/>tur istam partem animalis esse dextram per hoc quod 
+      <lb ed="#P" n="32"/>est dextra respectu columne quod nichil est quia eodem 
+      <lb ed="#P" n="33"/>modo posset concludi esse sinistra quia columna potest 
+      <lb ed="#P" n="34"/>sibi sinistrari Unde per orientem similiter non 
+      ha<lb ed="#P" n="35" break="no"/>betur aliqua determinatio situs paradisi Nam qui 
+      <lb ed="#P" n="36"/>libet punctus in celo potest dici oriens et occidens 
+      <lb ed="#P" n="37"/>respectu diuersorum. Potest ergo dici paradisus 
+      <lb ed="#P" n="38"/>esse in oriente respectu aliquorum: sed ex hoc non 
+      ha<lb ed="#P" n="39" break="no"/>petur determinatio sui situs nec illa ratio videtur 
+      va<lb ed="#P" n="40" break="no"/>lere.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e722">
+      ¶ Contra aliam partem positionis de situ secundum 
+      lati<lb ed="#P" n="41" break="no"/>tudinem videtur aliquibus quod ratio assignata non 
+      va<lb ed="#P" n="42" break="no"/>leat. Tum quia concludit oppositum secundum multos. 
+      <lb ed="#P" n="43"/>Nam velocitas motus corporis calefacientis cum 
+      <lb ed="#P" n="44"/>iusmodi est motus solis sub equinoctiali potest 
+      ge<lb ed="#P" n="45" break="no"/>nerare maiorem calorem et generat vt videtur et per 
+      <lb ed="#P" n="46"/>consequens nisi aliud dicatur plaga illa sub equino 
+      <lb ed="#P" n="47"/>ctiali est minus habitabilis quam sub tropico et ita 
+      con<lb ed="#P" n="48" break="no"/>cludit oppositum magis quam propositum nisi diceretur 
+      <lb ed="#P" n="49"/>sustinendo rationem quod plus intendit calorem 
+      maior<lb ed="#P" n="50" break="no"/>mora solis super passum quam motus velocior ceteris 
+      <lb ed="#P" n="51"/>paribus. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e749">
+               <lb ed="#P" n="52"/>¶ Aliis didetur quod ratio nihil 
+      <lb ed="#P" n="53"/>valet in se: sed est falsigraphica procedens ex 
+      princi<lb ed="#P" n="54" break="no"/>piis geometrie false intellectis. Uerum est enim quod 
+      <lb ed="#P" n="55"/>equinoctialis circulus non est nisi circulus imagina 
+      <lb ed="#P" n="56"/>tus et tropici sunt sic ficti ab astrologis causa 
+      doctri<lb ed="#P" n="57" break="no"/>ne et equinoctialis maior est vtroque tropicorum. Sed  
+      <lb ed="#P" n="58"/>sol nunquam est in equinoctiali: sed indirecte sub eo quando 
+      <lb ed="#P" n="59"/>que et quandoque sub tropico: quia isti circuli sunt ficti vel 
+      <lb ed="#P" n="60"/>descripti in vltima spera celesti ad quam nunquam sol at 
+      <lb ed="#P" n="61"/>tingit. Modo circulus solis qui est directe sub 
+      ecli<lb ed="#P" n="62" break="no"/>ptica secundum vnam partem directe est sub vno tropico et 
+      <lb ed="#P" n="63"/>secundum alteram sub alio et secundum mediam partem sub equi¬ 
+      <!--229.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>noctiali et circulus quem describit sol in motu 
+      diurno<lb ed="#P" n="65" break="no"/>sub tropico potest esse ita magnus sicut circulus quem 
+      <lb ed="#P" n="66"/>describit sub equinoctiali licet equinoctialis sit 
+      ma<lb ed="#P" n="67" break="no"/>ior tropico: immo circulus quem describit sub 
+      tropi<lb ed="#P" n="68" break="no"/>co multo maior est ad litteram quam ille quem describit 
+      <lb ed="#P" n="69"/>sub equinoctiali: quia tunc sol est in auge sui 
+      circu<lb ed="#P" n="70" break="no"/>li excentrici precipue loquendo de tropico cancri: et 
+      <lb ed="#P" n="71"/>ideo ratio illa non videtur valere. Nec per ipsam 
+      con<lb ed="#P" n="72" break="no"/>cluditur temperies regionis vel plage sub equiuoctia 
+      <lb ed="#P" n="73"/>li: nec per consequens situatio paradisi. 
+      <lb ed="#P" n="74"/>CContra positionem Auicen¬¬ 
+      <lb ed="#P" n="75"/>ne etiam arguitur quod non sit regio temperata sub 
+      equi<lb ed="#P" n="76" break="no"/>noctiali.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e810">
+      ¶ Primo sic: quia Aristoteles 1 
+      methero<lb ed="#P" n="77" break="no"/>rum. ca. de ventis docet separare a quarta 
+      septentrio<lb ed="#P" n="78" break="no"/>nali duo spacia quorum vtrumque est inhabitabile secundum 
+      <lb ed="#P" n="79"/>ipsum vnum propter caliditatem scilicet inter tropicum et 
+      <lb ed="#P" n="80"/>equinoctialem et aliud inter polum septentrionalem et 
+      <lb ed="#P" n="81"/>polum 3odiaci et docet ducere lineam secundum ipsum a 
+      cen<lb ed="#P" n="82" break="no"/>tro terre ad hunc locum et concludunt intra se 
+      figi<lb ed="#P" n="83" break="no"/>ram tympanilem cuiusfigura est terra habitabilis 
+      <lb ed="#P" n="84"/>et basis huius piramidis secundum ipsum est in fine 
+      septi<lb ed="#P" n="85" break="no"/>mi climatis.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e832">
+      ¶ Preterea etiam Ptolomeus licet 
+      <lb ed="#P" n="86"/>concedt ibi terram habitabilem posse esse tamen non 
+      <lb ed="#P" n="87"/>concedit eam esse habitatam. Dicit enim distinc. 2.  
+      <lb ed="#P" n="88"/>almagesti ca. 6. sic. Nos autem huius scientiam non 
+      <lb ed="#P" n="89"/>comprehendimus: quia aliquis non peruenit ad eam 
+      <lb ed="#P" n="90"/>eorum qui sunt in nostris regionibus 
+      habitabilib<lb ed="#P" n="91" break="no"/>vsque ad diem hunc nostrum.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e848">
+      ¶ Preterea causa quare 
+      <lb ed="#P" n="92"/>sub tropico capricorni est locus inhabitabilis 
+      pre<lb ed="#P" n="93" break="no"/>calore est ecentricitas circuli solis. Nam cum est 
+      sub<lb ed="#P" n="94" break="no"/>capricorno est in opposito augis sui circuli et per 
+      con<lb ed="#P" n="95" break="no"/>sequens magis appropinquat terre quam existens in 
+      au<lb ed="#P" n="96" break="no"/>ge per duos gradus et dimidium et hoc est plus quam 
+      <lb ed="#P" n="97"/>per duo mille milia miliarium vel miliaria: ergo 
+      to<lb ed="#P" n="98" break="no"/>tam plagam illam sub illo comburit: ergo 
+      propor<lb ed="#P" n="99" break="no"/>tionaliter et multo fortius cum est sub equinoctiali 
+      <lb ed="#P" n="100"/>quia est in medio inter augen et oppositum augis cu 
+      <lb ed="#P" n="101"/>ius vicinitas ad terram causabit multo magis 
+      calo<lb ed="#P" n="102" break="no"/>rem et faciens regionem inhabitabilem quam sub 
+      altero<lb ed="#P" n="103" break="no"/>tropicorum. Plus enim approximatur sol regioni 
+      <lb ed="#P" n="104"/>sub equinoctiali bis in anno quam regioni sub aliquo 
+      <lb ed="#P" n="105"/>tropicorum semel in anno et bis in anno est ibi refle 
+      <lb ed="#P" n="106"/>xio radiorum solarium ad angulos et rectos et per 
+      <lb ed="#P" n="107"/>consequens maximus calor quod patet per ethiopes 
+      <lb ed="#P" n="108"/>quorum terra regioni illi sub equinoctialiproxima 
+      <lb ed="#P" n="109"/>est. Unde et ibi secundum aliquos bis in anno aer inflam: 
+      <lb ed="#P" n="110"/>matur et ignitur.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e892">
+      ¶ Ultimo contra Auicennam 
+      ac<lb ed="#P" n="111" break="no"/>cipiatur vna regio distans a tropico citra versus aqui 
+      <lb ed="#P" n="112"/>lonem quantum distat equinoctialis vltra tropicum. 
+      <lb ed="#P" n="113"/>Puta per. 23. gradus quando sol est in tropico 
+      respe<lb ed="#P" n="114" break="no"/>ctu illarum duarum regionum equaliter se habebit: 
+      <lb ed="#P" n="115"/>immo adhuc magis moraretur vltra tropicum quam 
+      ci<lb ed="#P" n="116" break="no"/>tra et tamen regio citra tropicum est inhabitabilis 
+      <lb ed="#P" n="117"/>i de difficili habitabilis: ergo multo magis sub 
+      equi<lb ed="#P" n="118" break="no"/>noctiali. Unde ratio ista probat quod cum sol est in 
+      tro<lb ed="#P" n="119" break="no"/>pico regio sub equinoctiali erit intemperata 
+      maxi<lb ed="#P" n="120" break="no"/>me quare etc. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e916">
+               <lb ed="#P" n="121"/>¶ Ex his videtur concludi quod 
+      <lb ed="#P" n="122"/>paradisus nullo modo est sub equinoctiali. Sed ista 
+      <lb ed="#P" n="123"/>videntur aliis solubilia sustinendo quod paradisus sit  
+      <lb ed="#P" n="124"/>sub equinoctiali et per consequens quod ibi sit regio temperata. 
+      <lb ed="#P" n="125"/>Aristotele di¬ 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e930">
+               <lb ed="#P" n="126"/>¶ Ad primum ergo de citur quod Aristo 
+      <!--230.xml-->
+      <pb ed="#P" n="112-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>teles intelligit quod plaga illa vltra tropicum est 
+      diffi<lb ed="#P" n="2" break="no"/>cilis habitationis vsque quo veniatur sub equinoctia 
+      <lb ed="#P" n="3"/>li et ex parte alia est inhabitabilis propter frigus 
+      <lb ed="#P" n="4"/>id est de difficili habitabilis vsque quo veniatur sub 
+      <lb ed="#P" n="5"/>polo: quia etiam ibi est locus temperatissimus secundum 
+      Mar<lb ed="#P" n="6" break="no"/>tianum in cosmographia vel mundi descriptione. Et 
+      <lb ed="#P" n="7"/>Solinus concordat de mirabilibus mundi et 
+      Pli<lb ed="#P" n="8" break="no"/>nius lib. 10. Unde isti dicunt quod ibi sunt montes yper 
+      <lb ed="#P" n="9"/>porei in quibus est gens beatissima que non vsquequi 
+      <lb ed="#P" n="10"/>appetat moritur et pre senectute vite precipitant se 
+      <lb ed="#P" n="11"/>in mari de saxo. Et dicit Solinus quod illud diu 
+      repu<lb ed="#P" n="12" break="no"/>tabatur fabulosum quousque actores et satis idonei 
+      <lb ed="#P" n="13"/>pares sententias de hoc fecerunt. Ex quo videtur quod 
+      <lb ed="#P" n="14"/>ibi est regio temperata et similiter sub equinoctiali 
+      <lb ed="#P" n="15"/>nec concludit hoc contra Auicennam 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e974">
+               <lb ed="#P" n="16"/>¶ Ad confirmationem de 
+      ptho<lb ed="#P" n="17" break="no"/>lomeo dico quod bene potuit latere ipsum ciuitas vel 
+      <lb ed="#P" n="18"/>habitatio sub equinoctiali tamen aliis nota fuit. 
+      vnde<lb ed="#P" n="19" break="no"/>et Arrachel in canonibus dicit quod arin ciuitas est 
+      ibi<lb ed="#P" n="20" break="no"/>hoc idem dicit Plinius lib. 6. ca. 19. Nam est mons 
+      <lb ed="#P" n="21"/>altus in india vbi bis in anno carent vmbra meridia 
+      <lb ed="#P" n="22"/>na et hec alternatio vmbre secundum ipsum durat per se 
+      se<lb ed="#P" n="23" break="no"/>nos menses: et hec est necessario sub equinoctiali nec 
+      <lb ed="#P" n="24"/>potest esse alibi et bene potuit in hoc Ptholomeus 
+      <lb ed="#P" n="25"/>errare qui non potuit hoc scire nisi per rumores 
+      iti<lb ed="#P" n="26" break="no"/>nerantium et potuit in hoc decipi sicut in rei 
+      veri<lb ed="#P" n="27" break="no"/>tate errauit de situali britannie maioris et minoris 
+      <lb ed="#P" n="28"/>Dicit enim britamniam minorem longe situatam vel 
+      <lb ed="#P" n="29"/>tra britamniam maiorem versus aquilonem sic patet li. 3. 
+      <lb ed="#P" n="30"/>ca. 6. et hoc est plane falsum.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e1009">
+      ¶ Ad tertium de 
+      ecen<lb ed="#P" n="31" break="no"/>tricitate circuli solis et approximatione solis etc 
+      <lb ed="#P" n="32"/>Dicitur quod approximatio solis vel eccentricitatis 
+      cin<lb ed="#P" n="33" break="no"/>culi solis nichil operatur ad maiorem calorem. Nam 
+      <lb ed="#P" n="34"/>sol non est calidus formaliter: sed effectiue vel virtus 
+      <lb ed="#P" n="35"/>liter et tunc dicitur quod approximatio nichil facit. Quod 
+      <lb ed="#P" n="36"/>patet: quia multo propinquior est nobis sol in 
+      hve<lb ed="#P" n="37" break="no"/>me quam in estate: quia in estate est in auge vel prope. 
+      In<lb ed="#P" n="38" break="no"/>hyeme vero est in opposito augis: tamen non facit 
+      <lb ed="#P" n="39"/>tantum calorem in hyeme sicut in estate. Unde 
+      cau<lb ed="#P" n="40" break="no"/>sa caloris est modus proiectionis radiorum et reflexio 
+      <lb ed="#P" n="41"/>nis eorumdem secundum diuersitatem angulorum. Quando 
+      <lb ed="#P" n="42"/>enim radii cadunt ad angulos equales tunc 
+      reflectun<lb ed="#P" n="43" break="no"/>tur in seipsos et causant maiorem calorem et hoc est 
+      <lb ed="#P" n="44"/>quando sol est supra menith capitis et cum hoc facit 
+      <lb ed="#P" n="45"/>ad hoc immoratio agentis supra passum. Preterea 
+      <lb ed="#P" n="46"/>etiam per experimentum itinerantium viatorum 
+      di<lb ed="#P" n="47" break="no"/>citur esse falsum illud quod assumitur de tropico 
+      ca<lb ed="#P" n="48" break="no"/>pricorni quia sub ipso est locus habitabilis sicut expresse 
+      <lb ed="#P" n="49"/>dicit libro secundo capitulo quinto Nam est in 
+      india<lb ed="#P" n="50" break="no"/>regio paschalis vbi est portus famosus in quo nun 
+      <lb ed="#P" n="51"/>quam sunt vmbre nisi ad austrum et hoc est impossibile 
+      <lb ed="#P" n="52"/>nisi sub tropico capricorni vel vltra.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e1059">
+      ¶ Unde ad 
+      il<lb ed="#P" n="53" break="no"/>lud quod adducitur quod bis in anno habent estatem 
+      <lb ed="#P" n="54"/>et reflectionem radiorumn solarium ad angulos 
+      re<lb ed="#P" n="55" break="no"/>ctos super 3enith capitis eorum et ita videtur quod 
+      pre<lb ed="#P" n="56" break="no"/>calore nimio regio illa non sit habitabilis sed 
+      infian<lb ed="#P" n="57" break="no"/>metur bis in annoEt probatur per ethiopes qui sunt 
+      <lb ed="#P" n="58"/>ibi proximi et toti nigri pre calore.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e1075">
+      ¶ Respondet 
+      <lb ed="#P" n="59"/>vnus doctor antiquus quod licet bis in anno habeant 
+      <lb ed="#P" n="60"/>solem in directo superet enith capitis eorum hel yas 
+      <lb ed="#P" n="61"/>et enoch habitantes in paradiso terrestri sub 
+      equi<lb ed="#P" n="62" break="no"/>noctiali tamen ibi est multiplex causa temperiei.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e1086">
+      ¶ Una est 
+      <lb ed="#P" n="63"/>equatio diei artificialis et noctis sicut etiam patet apud  
+      <lb ed="#P" n="64"/>nos in temporibus equinoctialibus. Alia est irriga 
+      <!--230.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>tio fluuiorum paradisi et etiam influentia marium secundum 
+      <lb ed="#P" n="66"/>alios. Nam secundum ipsos situatus est paradisus terrestris ad 
+      <lb ed="#P" n="67"/>orientem inter occeanum quod circuit omnem 
+      ter<lb ed="#P" n="68" break="no"/>ram et mare mediterraneum inter duo maria ergo 
+      <lb ed="#P" n="69"/>sub equinoctiali tamtum. Tertia causa est puritas 
+      <lb ed="#P" n="70"/>aeris qui non recipit ita fortam impressionem 
+      calo<lb ed="#P" n="71" break="no"/>ris sicut faceret aergrossus et inspissatus Unde istis 
+      <lb ed="#P" n="72"/>concurentibus non sic calor fit ibi quod aer inflammetur 
+      <lb ed="#P" n="73"/>nec tantum sol ibi immoratur quin sit locus 
+      tempera<lb ed="#P" n="74" break="no"/>tus ad habitandum. In ethiopa vero licet proxima 
+      <lb ed="#P" n="75"/>forte potest esse calor magnus: quia predicta non 
+      con<lb ed="#P" n="76" break="no"/>currunt 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e1124">
+               <lb ed="#P" n="77"/>¶ Ad vltimum quod magis 
+      vi<lb ed="#P" n="78" break="no"/>detur difficile dicitur quod illi qui sunt sub equinoctiali 
+      <lb ed="#P" n="79"/>habent vnam causam temperiei quando sol est sub 
+      tro<lb ed="#P" n="80" break="no"/>pico tantum quam causam non habent illi qui sunt citra 
+      <lb ed="#P" n="81"/>tropicum tantum quando equinoctialis est vltra ipsum: quia 
+      <lb ed="#P" n="82"/>licet mora super 3enith capitis sit vniformis vel 
+      ma<lb ed="#P" n="83" break="no"/>ior versus equinoctialem tamen sol non tantum moratur in 
+      <lb ed="#P" n="84"/>emisperio ipsorum qui sunt sub equinoctiali sicut in 
+      <lb ed="#P" n="85"/>emisperio aliorum: quia dies estiuus apud illos 
+      mul<lb ed="#P" n="86" break="no"/>to maior est quam apud equinoctiales et iterum nox et 
+      <lb ed="#P" n="87"/>dies ibidem semper sunt equales scilicet sub equinoctia 
+      <lb ed="#P" n="88"/>li et hoc multum iuuat. Nos enim videmus ad sensum 
+      <lb ed="#P" n="89"/>quod in fine hore octaue est maior estus quam in 
+      meridie<lb ed="#P" n="90" break="no"/>quod non est nisi peopter maiorem vel diuturniorem 
+      <lb ed="#P" n="91"/>moram. Cum ergo apud eos semper sit equalis 
+      mo<lb ed="#P" n="92" break="no"/>ra et equalis praentia cum absentia semper est apud eos 
+      <lb ed="#P" n="93"/>equaelis temperies. Sic igitur tenetur conueniens quod 
+      pa<lb ed="#P" n="94" break="no"/>radisus terrestris est sub equinoctiali et est locus sum 
+      <lb ed="#P" n="95"/>me ad habitandum temperatus. Ego nescio vbi et 
+      <lb ed="#P" n="96"/>situatus. Puto tamen quod ad orientem terre 
+      habita<lb ed="#P" n="97" break="no"/>bilis secundum Iosephum. Nec video quare non posset 
+      di<lb ed="#P" n="98" break="no"/>ci esse sub equinoctiali cum loquendo probabiliter 
+      <lb ed="#P" n="99"/>illa sit regio temperata sicut etiam multi et magni 
+      po<lb ed="#P" n="100" break="no"/>nunt. Dico tamen quicquid sit de hoc quod paradisus 
+      <lb ed="#P" n="101"/>terrestris est locus corporalis amenissimus et 
+      teme<lb ed="#P" n="102" break="no"/>peratissimus situatus vbicumque vel quomodocunque 
+      <lb ed="#P" n="103"/>deus omnipotens ipsum voluit situare: sed 
+      nescio<lb ed="#P" n="104" break="no"/>vbi determinate. et hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e1187">
+               <lb ed="#P" n="105"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="106" break="no"/>culum concludo ex predictis quod cum paradisus 
+      ter<lb ed="#P" n="107" break="no"/>restris sit locus temperatissimus et amenissimus quod 
+      <lb ed="#P" n="108"/>est locus conuenientissimus habitationi humane 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e1198">
+               <lb ed="#P" n="109"/>¶ Unde et conuenienter secundum scripturam et sanctos et 
+      <lb ed="#P" n="110"/>em Damascenum fuit ibi positus primus homo ad 
+      ha<lb ed="#P" n="111" break="no"/>bitandum pro statu innocentie tanquam in aula regia si 
+      <lb ed="#P" n="112"/>cut rex et dominus cuiuslibet creature quam 
+      subiece<lb ed="#P" n="113" break="no"/>rat ei deus. Et hec de tertio principali. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e1211">
+               <lb ed="#P" n="114"/>¶ Ad primum argumentum 
+      di<lb ed="#P" n="115" break="no"/>citur quod nullum est inconueniens si nullus 
+      philosopho<lb ed="#P" n="116" break="no"/>rum principium huius mundi vel hystoriographo 
+      <lb ed="#P" n="117"/>rum paradisum terrestrem agnouit: quia nec per 
+      seip<lb ed="#P" n="118" break="no"/>sos somniare potuerunt: nec per alios expertos de 
+      <lb ed="#P" n="119"/>ceri in auditu aliquorum qui fuissent ibi. Sed 
+      Moy<lb ed="#P" n="120" break="no"/>ses spiritu sancto afflatus et hystoriographi qui 
+      no<lb ed="#P" n="121" break="no"/>uerunt scripturam de ipso bene mentionem fecerunt. 
+      Ex<lb ed="#P" n="122" break="no"/>quorum traditione constat paradisum esse locum 
+      ter<lb ed="#P" n="123" break="no"/>restrem.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e1235">
+      ¶ Ad secundum dico quod secundum veritatem 
+      para<lb ed="#P" n="124" break="no"/>disus terrestris non attingit vsque ad globum 
+      luna<lb ed="#P" n="125" break="no"/>rem vel vsque ad lunam vel circulum lune sicut 
+      osten<lb ed="#P" n="126" break="no"/>sum est supra: sed sicut dicitur communiter sermo 
+      <!--231.xml-->
+      <pb ed="#P" n="112-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Magistri et Bede yperbolicus est: quia est in loco 
+      mu<lb ed="#P" n="2" break="no"/>tum alto et eminenti. Dicit tamen vnus aliter ad 
+      di<lb ed="#P" n="3" break="no"/>ctum Bede et Magistri quod globus lunaris 
+      intelli<lb ed="#P" n="4" break="no"/>gitur ab eis locus ille in quo terminantur humide 
+      <lb ed="#P" n="5"/>ex alationes qui est post istum aerem turbulentum qua 
+      <lb ed="#P" n="6"/>rum exalationum dominium attribuitur lune et est 
+      <lb ed="#P" n="7"/>locus ille post istum aerem turbulentum in aere 
+      sere<lb ed="#P" n="8" break="no"/>no et de hoc parum curo. Aliter dicit vnus quod non 
+      cre<lb ed="#P" n="9" break="no"/>dit illud dictum fuisse de mente Bede quia primo libro 
+      <lb ed="#P" n="10"/>de imagine mundi. ca. 3. vbi describit regiones et 
+      in<lb ed="#P" n="11" break="no"/>cipit a paradiso non facit de hoc aliquam mentionem 
+      <lb ed="#P" n="12"/>Dicit enim bene quod aque diluuii non ascenderunt illuc 
+      <lb ed="#P" n="13"/>sed non reddit causam istam: quia scilicet paradisus per 
+      <lb ed="#P" n="14"/>tingat vsque ad globum lunarem. Tamen istud dictum 
+      alle<lb ed="#P" n="15" break="no"/>gatur a Beda in glosa super illud Genesis. 2. 
+      plan<lb ed="#P" n="16" break="no"/>tauerat autem deus paradisum voluptatis a 
+      princi<lb ed="#P" n="17" break="no"/>pio et Strabo in etiam imponitur istud dictum.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e1287">
+      ¶ Ad 
+      ter<lb ed="#P" n="18" break="no"/>tium de aquis diluuii dicitur quod paradisus licet sit 
+      lo<lb ed="#P" n="19" break="no"/>cus corporalis habitabilis ad ipsum non 
+      pertinge<lb ed="#P" n="20" break="no"/>runt tamen aque diluuii et causa potuit esse 
+      miracu<lb ed="#P" n="21" break="no"/>losa voluntate diuina sicut etiam et diluuium fuit 
+      mi<lb ed="#P" n="22" break="no"/>raculosum: quia noluit deus attingere diluuium nisi 
+      <lb ed="#P" n="23"/>illam partem terre in qua abundabat peccatum: pre 
+      <lb ed="#P" n="24"/>terea potuit esse quod ante diluuium non fuerunt montes 
+      <lb ed="#P" n="25"/>ita alti versus celum sicut sunt modo. Sed istud 
+      im<lb ed="#P" n="26" break="no"/>pugnatur: quia aqua potuit facere valles 
+      humilio<lb ed="#P" n="27" break="no"/>res quam primo: sed non montes celsiores quam superficies 
+      <lb ed="#P" n="28"/>aque inuenerat.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e1314">
+      ¶ Ad Damascenum qui dicit quod est 
+      <lb ed="#P" n="29"/>omni terra celsior. Dicitur quod verum est omni terra 
+      <lb ed="#P" n="30"/>communiter habitabili non tamen oportet propter hoc quod 
+      <lb ed="#P" n="31"/>sit altior montibus omnibus altissimis.
+    </p>
+            <p xml:id="qrdBas-b72974-d1e1323">
+      ¶ Ad 
+      quan<lb ed="#P" n="32" break="no"/>tum patet responsio per Auicen. et ex predictis quod licet 
+      <lb ed="#P" n="33"/>illi qui sunt sub equinoctiali habeant bis in anno se 
+      <lb ed="#P" n="34"/>lem subtenith capitis eorum tamen regio eorum 
+      tempe<lb ed="#P" n="35" break="no"/>rata est et habitabilis sicut patuit ex causis pluribus 
+      <lb ed="#P" n="36"/>supradictis secundum illos qui volunt tenere quod paradisus 
+      <lb ed="#P" n="37"/>terrestris est sub equinoctiali. Noctes enim et dies 
+      <lb ed="#P" n="38"/>ibi equantur semper. Dies autem calida est et nox 
+      na<lb ed="#P" n="39" break="no"/>turaliter frigida. Similiter est irrigatio fluuiorum 
+      <lb ed="#P" n="40"/>de paradiso ipso fluentium. Similiter secundum Auicet 
+      <lb ed="#P" n="41"/>nam sol non tantum immoratur super illos sicut super 
+      il<lb ed="#P" n="42" break="no"/>los qui sunt sub tropico capricorni. Ultimo etiam 
+      <lb ed="#P" n="43"/>ibi est aer purus et rarus et non recipit intensum 
+      calo<lb ed="#P" n="44" break="no"/>rem sicut aer grossus et spissus sicut etiam patet quod 
+      fer<lb ed="#P" n="45" break="no"/>rum sit magis calidum quam aliquid rarum: ideo etc. 
+      </p>
+            <p xml:id="qrdBas-b72974-d1e1356">
+               <lb ed="#P" n="46"/>¶ De tropico tamen capricorni dictum est supra quod 
+      <lb ed="#P" n="47"/>sub ipso est habitatio et locus habitabilis. Et hoc 
+      <lb ed="#P" n="48"/>etiam confirmat Plinius lib. 8. et Solinus de 
+      mira<lb ed="#P" n="49" break="no"/>bilibus mundi non tamen hoc affirmo: quare etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
