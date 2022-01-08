@@ -1,0 +1,502 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="104-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c68945"><!--l3d40q1 -->
+            <head xml:id="qrdBas-c68945-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-c68945-d1e101">
+               <lb ed="#P" n="126"/>¶ Distinctionis Quadragesime. 
+      <lb ed="#P" n="127"/>Questio Unica.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e108">
+      <!--223.xml-->
+               <pb ed="#P" n="104-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>CIrca distinctionem 
+      <lb ed="#P" n="2"/>Quadragesimam quero. vtrum 
+      <lb ed="#P" n="3"/>lex noua in mente hominis 
+      sit<lb ed="#P" n="4" break="no"/>habitus vel actus vel obiectum 
+      <lb ed="#P" n="5"/>vel aliquid aliud.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e128">
+      ¶ Uidetur 
+      <lb ed="#P" n="6"/>quod non sit habitus: quia non est 
+      ha<lb ed="#P" n="7" break="no"/>bitus infusus. Patet. Non nim 
+      <lb ed="#P" n="8"/>est fides nec spes nec 
+      caritas<lb ed="#P" n="9" break="no"/>Nec adquisitus: quia tunc 
+      ma<lb ed="#P" n="10" break="no"/>xime videretur esse prudentia quod non est verum quia 
+      <lb ed="#P" n="11"/>ab infidelibus tenetur et adquiritur prudentia et 
+      no<lb ed="#P" n="12" break="no"/>lex euangelica: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e146">
+      ¶ Secundo videtur quod non 
+      <lb ed="#P" n="13"/>sit actus: quia actu quocunque transeunte lex manet in 
+      <lb ed="#P" n="14"/>mente vt patet. Sed vnum talium non est alterum: ergo etc 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e154">
+               <lb ed="#P" n="15"/>¶ Tertio quod non sit obiectum. Illud circa quod est 
+      ler<lb ed="#P" n="16" break="no"/>vel de quo non est lex ipsa sicut nec materia legis 
+      le<lb ed="#P" n="17" break="no"/>est. Sed obiectum agibile est materia legis: ergo etc 
+      <lb ed="#P" n="18"/>Lex est aliquid in mente. Sed 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e165">
+               <lb ed="#P" n="19"/>¶ Contra non est potentia: ergo est 
+      habi<lb ed="#P" n="20" break="no"/>tus vel actus vel obiectum dicatum 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e172">
+               <lb ed="#P" n="21"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e177">
+               <lb ed="#P" n="22"/>¶ Primo inquiram in generali que est ratio legis et 
+      <lb ed="#P" n="23"/>quid sit et ad quam potentiam pertineat et ex hoc appare 
+      <lb ed="#P" n="24"/>bit de lege noua.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e186">
+      ¶ Secundo inquiram vtrum lex noua 
+      in<lb ed="#P" n="25" break="no"/>cludatur in antiqua vel contineatur quantum ad 
+      omnia<lb ed="#P" n="26" break="no"/>ambe in lege eterna mentis divine.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e193">
+      ¶ Tertio vtrum 
+      <lb ed="#P" n="27"/>lex noua sit grauior ad obseruandum quam fuerit lex 
+      anti<lb ed="#P" n="28" break="no"/>qua vel econuerso.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e201">
+      ¶ Ultimo ad rationes principales. 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e203">
+               <lb ed="#P" n="29"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="30" break="no"/>culum dico quod non intelligo per legenm nisi dictamen 
+      pra<lb ed="#P" n="31" break="no"/>cticum de agibili aliquo vel fugibili agendo vel fugie 
+      <lb ed="#P" n="32"/>do secundum iudicium rationis recte et hoc vel tanquam de 
+      pri<lb ed="#P" n="33" break="no"/>cipio vel tanquam de conclusione deducta ex principio. 
+      <lb ed="#P" n="34"/>vel deducibili et ista descriptio se extendit ad omnem 
+      <lb ed="#P" n="35"/>legem iustam que simpliciter lex dicenda est quia lex 
+      iniu<lb ed="#P" n="36" break="no"/>sta non est proprie nec simpliciter lex dicenda. 
+      Exten<lb ed="#P" n="37" break="no"/>dit ergo se descriptio ista et ad legen diuinam eternam eso 
+      <lb ed="#P" n="38"/>est in mente diuina ab eterno et ad legen nature que 
+      <lb ed="#P" n="39"/>imprimitur menti creature rationalis vel 
+      intelle<lb ed="#P" n="40" break="no"/>ctualis quoquomodo et ad legen quamcunque positiuam 
+      <lb ed="#P" n="41"/>datam vel constitutam seu etiam possibilem rationabilite 
+      <lb ed="#P" n="42"/>constitui siue poni siue secundum rectam rationem simpliciter 
+      <lb ed="#P" n="43"/>siue apud aliquos specialiter: quia non eedem leges 
+      po<lb ed="#P" n="44" break="no"/>sitiue omnibus expedirent nec omnibus eedem vniuersali 
+      <lb ed="#P" n="45"/>ter debent dari secundum iudicium recte rationis sed diuer 
+      <lb ed="#P" n="46"/>se diuersis frequenter sicut patet.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e245">
+      ¶ Ex praedictis 
+      pa<lb ed="#P" n="47" break="no"/>tet quod sicut dictamen practicum et directiuum ad intel 
+      <lb ed="#P" n="48"/>iectum pertinet et non ad voluntatem. Ita etiam lex pertine 
+      <lb ed="#P" n="49"/>ad intellectum practicum et non ad voluntatem.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e254">
+      ¶ 
+      Nota<lb ed="#P" n="50" break="no"/>hic quod accipitur dictamen practicum large scilicet omne 
+      di<lb ed="#P" n="51" break="no"/>ctamen de agibili dicitur practicum: licet in 
+      intellectu<lb ed="#P" n="52" break="no"/>diuino non sit proprie dictamen practicum ex 
+      primo<lb ed="#P" n="53" break="no"/>Sed quia diectamen practicum quod dictum est esse de 
+      ratio<lb ed="#P" n="54" break="no"/>ne legis aliquando dicitur habitus dictatiuus et sic est 
+      <lb ed="#P" n="55"/>dictamen habituale. Aliquando dicitur actus ipse dictan 
+      <lb ed="#P" n="56"/>di. Aliquando vero dicitur ipsum obiectum dictatum.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e272">
+      ¶ Ideo 
+      <lb ed="#P" n="57"/>dubium est. An lex debeat dici actus vel habitus vel 
+      <lb ed="#P" n="58"/>obiectum dictatum.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e279">
+      ¶ Et de hoc dicunt aliqui quod nec est 
+      <lb ed="#P" n="59"/>habitus nec actus nec obiectum sed magis aliquid 
+      consti<lb ed="#P" n="60" break="no"/>tutum per actum intellectus. Imaginantur enim quod per actum 
+      <lb ed="#P" n="61"/>intellectus causetur et constituatur vel derelinquatur in 
+      in<lb ed="#P" n="62" break="no"/>tellectum aliquid quod est lex ipsa scilicet propositio quedan 
+      <!--223.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>practica de agibili. Ita quod sicut propositio est aliquid 
+      <lb ed="#P" n="64"/>complexum et constitutum per actum intellectus moti ab 
+      ob<lb ed="#P" n="65" break="no"/>iecto nec est actus intelligendi nec obiectum ita et 
+      le<lb ed="#P" n="66" break="no"/>in mente nostra vt videtur et talis propositio vel talis lex 
+      <lb ed="#P" n="67"/>quandoque habetur potentialiter tantum in intellectu. 
+      Puta<lb ed="#P" n="68" break="no"/>ante omnem actum intelligendi. Quandoque actualiter in 
+      <lb ed="#P" n="69"/>actu considerandi ipsam quando actu consideratur et intelligi 
+      <lb ed="#P" n="70"/>tur talis propositio. Aliquando habitualiter quando habitur 
+      <lb ed="#P" n="71"/>iam generatus est in mente ex actibus considerandi ipsam 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e315">
+               <lb ed="#P" n="72"/>¶ Contra istud licet videatur subtiliter dictum arguumt 
+      <lb ed="#P" n="73"/>alii. Primo sic. Nichil constituitur reale in 
+      intelle<lb ed="#P" n="74" break="no"/>ctu per actum intelligendi aliud ab ipso. Probatto quia 
+      <lb ed="#P" n="75"/>intelligere et velle et tales operationes immanentes 
+      <lb ed="#P" n="76"/>primo ethicorum non sic edificatio. Sed lex est aliquid 
+      <lb ed="#P" n="77"/>reale in mente: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e331">
+      ¶ Item sicut per actum visionis 
+      <lb ed="#P" n="78"/>nichil aliud constituitur vel derelinquitur in visu. Ita 
+      <lb ed="#P" n="79"/>videtur quod nec per actum intellectus in intellectum nichil 
+      <lb ed="#P" n="80"/>reale. Lex ergo cum sit aliquid reale positiuum in mente non 
+      <lb ed="#P" n="81"/>est aliquid constitutum in intellectum sicut dicunt. Si 
+      di<lb ed="#P" n="82" break="no"/>cas quod immo per actum diligendi frequentatum 
+      dereline<lb ed="#P" n="83" break="no"/>quitur et constintuitur habitus in mente. Istud non iuuat 
+      te<lb ed="#P" n="84" break="no"/>quia legen non ponis habitum sed aliquid aliud. 
+      Pre<lb ed="#P" n="85" break="no"/>terea etiam quia intellectio non est actio causatiua habi 
+      <lb ed="#P" n="86"/>tus sicut domificatio dicitur actio causatiua domus. Est 
+      <lb ed="#P" n="87"/>enim intellectio aliquid absolutum de genere 
+      qualita<lb ed="#P" n="88" break="no"/>tis non autem est actio de genere actionis.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e357">
+      ¶ Tertio 
+      <lb ed="#P" n="89"/>sic. Illud constitutum puta illa propositio complexa 
+      quam<lb ed="#P" n="90" break="no"/>ponis legen cum ipsa intelligatur per actum intelligendi 
+      <lb ed="#P" n="91"/>legen. Alioquin lex intelligeretur quod non videtur verum 
+      <lb ed="#P" n="92"/>oportet quod sit obiectum aliquod intelligibile 
+      respectu<lb ed="#P" n="93" break="no"/>intelligentis legen sed hoc est contra eos: quia dicunt quod 
+      lex<lb ed="#P" n="94" break="no"/>non est obiectum: igitur sibiipsis contradicunt.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e373">
+      ¶ Quarto 
+      <lb ed="#P" n="95"/>arguunt sic aliquiOperatio per quam constituitur 
+      ali<lb ed="#P" n="96" break="no"/>quis terminus non stat cum illo termino sed habito 
+      te<lb ed="#P" n="97" break="no"/>mino cessat sicut motus et via cessant habitis termi 
+      <lb ed="#P" n="98"/>nis et patet. Edificatio enim cessat habita domo. Sed 
+      <lb ed="#P" n="99"/>intellectio actualis potest stare cum quocumque constitu 
+      <lb ed="#P" n="100"/>to quod possunt ponere in intellectu: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e389">
+      ¶ Quinto 
+      <lb ed="#P" n="101"/>sic: quia illud constitutum aut est eiusdem rationis cum 
+      intel<lb ed="#P" n="102" break="no"/>lectione actuali et sic lex est actus. Aut alterius 
+      ra<lb ed="#P" n="103" break="no"/>tionis et sic est causa equiuoca ipse actus intelligen 
+      <lb ed="#P" n="104"/>di respectu illius et sic aliquid perfectius est et 
+      nobili<lb ed="#P" n="105" break="no"/>sicut causa equiuoca respectu sui effectus: et 
+      econuer<lb ed="#P" n="106" break="no"/>so: quia illud constitutum se haberet ad actum intelligendi 
+      <lb ed="#P" n="107"/>sicut finis et terminus sicut domus respectu 
+      domi<lb ed="#P" n="108" break="no"/>ficationis: et sic per consequens idem esset seipso 
+      no<lb ed="#P" n="109" break="no"/>bilius et innobilius perfectius et imperfectius.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e411">
+      ¶ Sex 
+      <lb ed="#P" n="110"/>to sic. Quidditas rei in intellectu non est nisi 
+      diffin<lb ed="#P" n="111" break="no"/>tio et actus diffiniendi: quia non est nisi cognitio 
+      quid<lb ed="#P" n="112" break="no"/>ditatiua eius sicut nec color in visu non est aliquic 
+      <lb ed="#P" n="113"/>aliud a visione coloris que est noticia intuitiua et 
+      <lb ed="#P" n="114"/>Excepta specie que est prima actui que nichil facit 
+      <lb ed="#P" n="115"/>ad propositum: ergo similiter in intellectum nichil est 
+      <lb ed="#P" n="116"/>aliud constitutum per actum intelligendi.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e430">
+      ¶ Alique ista 
+      <lb ed="#P" n="117"/>rum rationum sunt solubiles precipue quarta et 
+      quin<lb ed="#P" n="118" break="no"/>ta. Nam et actio per quam constituitur aliquid sicut 
+      <lb ed="#P" n="119"/>per actionem vel passionem de genere actionuis 
+      bene<lb ed="#P" n="120" break="no"/>manet aliquando cum termino sicut illuminatio cum 
+      <lb ed="#P" n="121"/>lumine et actio productiua intellectionis cum 
+      intelle<lb ed="#P" n="122" break="no"/>ctione licet non sit ita in omnibus.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e446">
+      ¶ Similiter etiam 
+      <lb ed="#P" n="123"/>non oportet quantum ad quintam quod quelibet causa 
+      equi<lb ed="#P" n="124" break="no"/>uoca sit simpliciter nobilior suo effectu nisi esset 
+      cau<lb ed="#P" n="125" break="no"/>sa totalis: quia de partiali non oportet vel etiam 
+      il<lb ed="#P" n="126" break="no"/>lud constitutum non esset per se finis eo modo quo 
+      fi<lb ed="#P" n="127" break="no"/>nis habet rationem cause et prioris et nobilioris sed  
+      <!--224.xml-->
+      <pb ed="#P" n="105-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>magis haberet rationem effectus et vltimi quare etc. 
+      <lb ed="#P" n="2"/>Similiter etiam ad alias rationes posset aliquid 
+      di<lb ed="#P" n="3" break="no"/>ci sicut via satis in sequentibus apparebit. 
+      <lb ed="#P" n="4"/>ir quantum ad istum articulus 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e474">
+               <lb ed="#P" n="5"/>¶ Dico auteut quod dictamen sicut dictum 
+      <lb ed="#P" n="6"/>est supra aliquando accipitur pro habitu aliquando 
+      pro<lb ed="#P" n="7" break="no"/>actu aliquando pro obiecto. Et dico quod in descriptio 
+      <lb ed="#P" n="8"/>ne legis non accipitur dictamen pro habitu nec 
+      pro<lb ed="#P" n="9" break="no"/>actu sed magis pro obiecto complexo boni agibilis 
+      <lb ed="#P" n="10"/>vel mali fugiendi secundum rectam rationem. Unde lex 
+      pro<lb ed="#P" n="11" break="no"/>prie est tale obiectum dictatum ab intellectum 
+      practi<lb ed="#P" n="12" break="no"/>co dicente hoc est faciendum illud est dimittendum et 
+      <lb ed="#P" n="13"/>actus intelligendi legen vel habitus generatus ex 
+      ip<lb ed="#P" n="14" break="no"/>sis non potest dici lex proprie et formaliter. Ita quod 
+      lex<lb ed="#P" n="15" break="no"/>est verum agibile complexum se habens per modum 
+      obie<lb ed="#P" n="16" break="no"/>cti ad ipsum intellectum et patet tam de principio legis 
+      <lb ed="#P" n="17"/>quam de conclusione legis quod sunt obiecta complexa actus 
+      <lb ed="#P" n="18"/>intelligendi vel habitus generali ex tali actu et sicut 
+      <lb ed="#P" n="19"/>obiectum complexum est aliquid vel non est aliquid 
+      <lb ed="#P" n="20"/>extra actum vel habitum respectu legis eius sic lex 
+      ip<lb ed="#P" n="21" break="no"/>sa potest dici esse aliquid vel non esse aliquid extra 
+      <lb ed="#P" n="22"/>actum vel habitum intelligendi legem sicut etiam 
+      prin<lb ed="#P" n="23" break="no"/>cipium vel conclusio potest dici aliquid se tenens 
+      ex<lb ed="#P" n="24" break="no"/>parte obiecti suo modo extra actum vel habitum 
+      si<lb ed="#P" n="25" break="no"/>bi correspondentem ex parte intellectus vel saltem non 
+      <lb ed="#P" n="26"/>idem cum actu vel habitu ipso vt patet. Nec oportet 
+      <lb ed="#P" n="27"/>quod sit aliquid in re extra intellectum sicut etiam nec 
+      opor<lb ed="#P" n="28" break="no"/>tet quod obiectum intellectionis simplicis sit aliquid 
+      ex<lb ed="#P" n="29" break="no"/>tra intellectum in re licet non sit ipsa intellectio: sed 
+      <lb ed="#P" n="30"/>obiectum eius.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e533">
+      ¶ Sic dico in proposito de lege ergo 
+      <lb ed="#P" n="31"/>est obiectum complexum actus intelligendi ipsam 
+      <lb ed="#P" n="32"/>est actus pertinens ad secundam operationem intel 
+      <lb ed="#P" n="33"/>lectus quando apprehenditur secundum se aliqua 
+      prope<lb ed="#P" n="34" break="no"/>sitio legis vel est etiam actus pertinens ad tertiam 
+      <lb ed="#P" n="35"/>operationem quando est actus deductiuus conclusio 
+      <lb ed="#P" n="36"/>nis legis ex principio legis.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e549">
+      ¶ Ex his concludo quod 
+      <lb ed="#P" n="37"/>non oportet legem id quod est formaliter esse aliquid 
+      <lb ed="#P" n="38"/>reale positiuum inherens menti hominis vel existens 
+      <lb ed="#P" n="39"/>in mente habentis legem vel scientis ipsam sicut nec 
+      <lb ed="#P" n="40"/>propositionem ipsam sed potius si est aliquid est ens 
+      <lb ed="#P" n="41"/>rationis et propositio complexa est ens rationis et 
+      <lb ed="#P" n="42"/>cetera talia licet actus vel habitus intelligendi 
+      le<lb ed="#P" n="43" break="no"/>gem bene sit aliquid reale sicut in deo sapientia 
+      di<lb ed="#P" n="44" break="no"/>uina vel prudentia et actus suus intelligendi et in 
+      crea<lb ed="#P" n="45" break="no"/>tura habitus vel actus qui dicunt in mente aliqua 
+      <lb ed="#P" n="46"/>accidentia positiua absoluta.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e573">
+      ¶ Ex quo patet quod 
+      ar<lb ed="#P" n="47" break="no"/>gumenta aliorum primum et secundum non concludum: 
+      <lb ed="#P" n="48"/>contra primos sed tertium bene concludit quantum ad 
+      <lb ed="#P" n="49"/>hoc quod oportet legem tenere se ex parte obiecti. Ul 
+      <lb ed="#P" n="50"/>timum vero argumentum eodem modo potest euadi 
+      s<lb ed="#P" n="51" break="no"/>cut primum et secundum.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e587">
+      ¶ Sic ergo apparet 
+      quic<lb ed="#P" n="52" break="no"/>est lex et quod se tenet ex parte intellectus et per quem 
+      <lb ed="#P" n="53"/>modum quia per modum obiecti non per modum 
+      ha<lb ed="#P" n="54" break="no"/>bitus vel actus vel potentie: et hec de primo 
+      arti<lb ed="#P" n="55" break="no"/>culo principali 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e598">
+               <lb ed="#P" n="56"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="57" break="no"/>ticulum. Lex mosayca que dicitur lex antiqua et 
+      ler<lb ed="#P" n="58" break="no"/>christi que dicitur lex noua.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e607">
+      ¶ Uno modo possunt 
+      <lb ed="#P" n="59"/>accipi secundum esse quod habent et habuerunt in mente 
+      le<lb ed="#P" n="60" break="no"/>gislatoris eterni scilicet dei et sic nulla earum est noue 
+      <lb ed="#P" n="61"/>vel antiqua proprie accipiendo sed vtraque eterna est 
+      <lb ed="#P" n="62"/>tanquam partialiter vel quasi contenta in lege 
+      eterna<lb ed="#P" n="63" break="no"/>dei que omne agibile vel fugibile secundum rectam 
+      ratio<lb ed="#P" n="64" break="no"/>nem comprehendit: ideo etiam lex nature partialite 
+      <!--224.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>in lege diuina continetur sicut dictum est supra et 
+      quan<lb ed="#P" n="66" break="no"/>tum ad tale esse est eterna sicut et obiectum a deo 
+      im<lb ed="#P" n="67" break="no"/>tellectum est ab eterno.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e633">
+      ¶ Secundo modo possant 
+      <lb ed="#P" n="68"/>accipi iste leges vt tradite sunt in scripto vel in 
+      ver<lb ed="#P" n="69" break="no"/>bo primo et primis recipientibus ipsas et sic iam que 
+      <lb ed="#P" n="70"/>libet earum antiqua dici potest. Multa enim fluxerunt 
+      <lb ed="#P" n="71"/>tempora a traditione utriusque licet mosa yca multo sit 
+      <lb ed="#P" n="72"/>antiquior: et ideo in comparatione ad mosa ycam 
+      po<lb ed="#P" n="73" break="no"/>test dici noua et quelibet in sua prima traditione 
+      po<lb ed="#P" n="74" break="no"/>terat dici noua: lex tamen christi noua dicitur 
+      spe<lb ed="#P" n="75" break="no"/>cialiter quia post ipsam non succedet alia nec aliqua 
+      <lb ed="#P" n="76"/>in qua sit salus successit post eam. Et sic lex mosatri 
+      <lb ed="#P" n="77"/>ce non potest dici noua: vt patet.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e657">
+      ¶ Similiter etiam 
+      <lb ed="#P" n="78"/>lex nature quantum ad esse quod habet in mente 
+      creatu<lb ed="#P" n="79" break="no"/>re rationalis vel intellectualis potuit dici noua 
+      in<lb ed="#P" n="80" break="no"/>principio creature et modo bene antiqua potest 
+      di<lb ed="#P" n="81" break="no"/>ci licet quotidie innouetur in creaturis rationalibus 
+      <lb ed="#P" n="82"/>vel intellectualibus que quotidie in generationibus 
+      <lb ed="#P" n="83"/>hominum de nouo creantur cuiusmodi sunt anime 
+      hu<lb ed="#P" n="84" break="no"/>mane et sic etiam quotidie innouatur lex antiqua 
+      moy<lb ed="#P" n="85" break="no"/>si et lex christi in cordibus suscipientium eas de 
+      no<lb ed="#P" n="86" break="no"/>uo sicut patet.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e679">
+      ¶ Hoc premisso dico quod lex antiqua 
+      <lb ed="#P" n="87"/>moysi totalis dicitur omnia obiecta preceptorum et 
+      <lb ed="#P" n="88"/>aliorum scriptorum in libris moysi que per se 
+      parti<lb ed="#P" n="89" break="no"/>nent ad agibilia et quorum noticia directiua est 
+      vo<lb ed="#P" n="90" break="no"/>luntatis in agendo aliquo vel fugiendo secundum 
+      praecepta<lb ed="#P" n="91" break="no"/>moralia iudicialia et cerimonialia illius legis. 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e693">
+               <lb ed="#P" n="92"/>¶ Lex vero christi dicitur omnia illa talia quae in 
+      euan<lb ed="#P" n="93" break="no"/>gelio continentur siue vt precepta siue vt consilia et 
+      <lb ed="#P" n="94"/>omnia quecumque erant moralia illius antique legis 
+      <lb ed="#P" n="95"/>et si qua non in propria forma forte explicentur et 
+      si<lb ed="#P" n="96" break="no"/>militer omnia que ex traditis in euangelio et illis qui 
+      <lb ed="#P" n="97"/>bus ex euangelio quod modo cadant sub lege saluando 
+      <lb ed="#P" n="98"/>rum cuiusmodi sunt sacramenta et huiusmodi. Et 
+      <lb ed="#P" n="99"/>tunc dicitur quod lex noua tota in veteri lege 
+      contine<lb ed="#P" n="100" break="no"/>batur sed non implicite sicut tradita est a 
+      Christo<lb ed="#P" n="101" break="no"/>et apostolis diuulgata sed magis implicite saltem 
+      <lb ed="#P" n="102"/>quantum ad multa in figuris et verbis obscuris licet 
+      <lb ed="#P" n="103"/>multa explicarentur in ea. Ita quod lex noua ab 
+      anti<lb ed="#P" n="104" break="no"/>qua non distinguitur nisi sicut explicita ab 
+      implici<lb ed="#P" n="105" break="no"/>ta et perfecta ab imperfecta secundum Augustinum 
+      con<lb ed="#P" n="106" break="no"/>tra aduersarium legis et prophetarum et hoc quantum 
+      <lb ed="#P" n="107"/>ad moralia. Cerimonialia enim illius antique 
+      le<lb ed="#P" n="108" break="no"/>gis cessauerunt in noua et iudicialia quantum ad 
+      mul<lb ed="#P" n="109" break="no"/>ta sed moralia remanserunt modificata amplius et 
+      <lb ed="#P" n="110"/>determinata per christum. Potest dici tamen quod omnis 
+      <lb ed="#P" n="111"/>illa euacuata veteris legis aliquid perfectionis 
+      si<lb ed="#P" n="112" break="no"/>gnificabant futurum in lege noua et sic illa 
+      aduenien<lb ed="#P" n="113" break="no"/>te debuerunt cessare: quia lex noua in illis non 
+      con<lb ed="#P" n="114" break="no"/>tinebatur nisi sicut significatum in signo et figuratum 
+      <lb ed="#P" n="115"/>in figura et lux in vmbra. De ambabus vero tam 
+      mo<lb ed="#P" n="116" break="no"/>sayca quam euangelica. Dico quod continentur quasi 
+      par<lb ed="#P" n="117" break="no"/>tialiter in lege eterna mentis diuine que omnia 
+      agibi<lb ed="#P" n="118" break="no"/>lia comprehendit et ad omnia se extendit tanquam 
+      lex<lb ed="#P" n="119" break="no"/>vniuersalis et iste tanquam leges particulares ad 
+      que<lb ed="#P" n="120" break="no"/>dam et non ad omnia se extendentes et ipsam 
+      diui<lb ed="#P" n="121" break="no"/>nam legem non adequantes. Similiter dico de 
+      le<lb ed="#P" n="122" break="no"/>ge nature mentis create. Hec de secundo articulo 
+      <lb ed="#P" n="123"/>principali 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e765">
+               <lb ed="#P" n="124"/>¶ Quantum ad tertum 
+      arti<lb ed="#P" n="125" break="no"/>culum. An scilicet lex noua sit grauior ad obseruam 
+      <lb ed="#P" n="126"/>dum quam lex antiqua dico absolute quod non. Tum quiae 
+      <lb ed="#P" n="127"/>pauciora sine comparatione habet precepta. 
+      Intel<lb ed="#P" n="128" break="no"/>lige de lege noua secundum quod inuenitur tradita a christe 
+      <!--225.xml-->
+      <pb ed="#P" n="105-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Nam multa precepta valde addita sunt a rectoribus 
+      <lb ed="#P" n="2"/>populi christiani ad que illi qui viuunt sub lege 
+      no<lb ed="#P" n="3" break="no"/>ua obligantur. Unde illa fuit onus importabile pro 
+      <lb ed="#P" n="4"/>pter multitudinem preceptorum. Onus inquit 
+      pe<lb ed="#P" n="5" break="no"/>trus quod nec nos nec patres nostri portare potuimus 
+      <lb ed="#P" n="6"/>Tum quia motiuum obseruationis noue legis est 
+      <lb ed="#P" n="7"/>amor. Motiuum vero antique legis obseruationis 
+      <lb ed="#P" n="8"/>fuit timor quasi seruilis amissionis scilicet bonorum 
+      <lb ed="#P" n="9"/>temporalium. Facilius autem fit quod fit ex 
+      amo<lb ed="#P" n="10" break="no"/>re licet secundum se et ex parte sui sit difficilius et perfectius 
+      <lb ed="#P" n="11"/>vel magis arduum quam illud quod ex timore. Unde 
+      <lb ed="#P" n="12"/>secundum Augustinum breuis distinctio legis et 
+      euange<lb ed="#P" n="13" break="no"/>lii timor et amor. Unde licet aliqua sint contenta ex 
+      <lb ed="#P" n="14"/>plicite in lege noua difficiliora vt credere trinitatem 
+      <lb ed="#P" n="15"/>et diligere inimicum et huiusmodi quam in lege antiqua 
+      <lb ed="#P" n="16"/>tamen ista facilior est. Tum quia etiam lex noua 
+      ha<lb ed="#P" n="17" break="no"/>bet multo perfectiora auxilia et remedia quam 
+      antiqua<lb ed="#P" n="18" break="no"/>habet enim perfectiorem gratiam et perfectiora 
+      sa<lb ed="#P" n="19" break="no"/>cramenta que ipsam efficiunt ex opere operato non 
+      <lb ed="#P" n="20"/>ex opere operantis solum sicut sacramenta veteris 
+      <lb ed="#P" n="21"/>legis quare etc. Et quantum ad omnia ista dicit 
+      Chri<lb ed="#P" n="22" break="no"/>stus. Iugum enim meum suaue est et onus meum 
+      le<lb ed="#P" n="23" break="no"/>ue. Hec de tertio articulo principali. 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e835">
+               <lb ed="#P" n="24"/>¶ Ad primum principale con¬ 
+      <!--225.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="25"/>cedo quod lex formaliter accipiendo ipsam non est 
+      ha<lb ed="#P" n="26" break="no"/>bitus sed magis aliquod obiectum complexum 
+      si<lb ed="#P" n="27" break="no"/>cut ostensum est supra. Utrum autem habitus 
+      co<lb ed="#P" n="28" break="no"/>gnitiuus talis obiecti sit fides respectu legis 
+      diui<lb ed="#P" n="29" break="no"/>ne siue fides adquisita siue infusa et respectu legis 
+      <lb ed="#P" n="30"/>nature vel etiam talis habitus sit prudentia non 
+      in<lb ed="#P" n="31" break="no"/>tromitto me modo. Probabiliter tamen posset 
+      di<lb ed="#P" n="32" break="no"/>ci esse fides adquisita vel etiam prudentia quoquo 
+      <lb ed="#P" n="33"/>modo.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e864">
+      ¶ Ad secundum concedo quod non est actus: 
+      <lb ed="#P" n="34"/>quia actu transeunte lex potest manere 
+      habituali<lb ed="#P" n="35" break="no"/>ter in mente sicut etiam propositio aliqua.
+    </p>
+            <p xml:id="qrdBas-c68945-d1e871">
+      ¶ Ad 
+      ter<lb ed="#P" n="36" break="no"/>tium dico quod lex non est obiectum legis sed magis 
+      ha<lb ed="#P" n="37" break="no"/>bitus vel actus cognitiuus legis. Et dico quod lex 
+      ob<lb ed="#P" n="38" break="no"/>iectum complexum est ad modum propositionis quod 
+      <lb ed="#P" n="39"/>quidem formatur de bono vel malo sicut 
+      propositio<lb ed="#P" n="40" break="no"/>aliqua formatus de subiecto enunciando seu 
+      affir<lb ed="#P" n="41" break="no"/>mando vel negando praedicatum de ipso sicut de deo 
+      <lb ed="#P" n="42"/>simplici termino formatur vna lex quod deus est 
+      colen<lb ed="#P" n="43" break="no"/>dus a creatura et vere colendus: quia sicut tractatur 
+      <lb ed="#P" n="44"/>in hoc tertio. Ipse est deus et dominus Iesus 
+      chri<lb ed="#P" n="45" break="no"/>stus mediator dei et hominum et humani generis 
+      fe<lb ed="#P" n="46" break="no"/>parator secundum diuitias gratie sue secundum quam 
+      obserua<lb ed="#P" n="47" break="no"/>ri possunt meritorie precepta et consilia legis sue. 
+      <lb ed="#P" n="48"/>Qui cum deo patre et spiritu sancto viuit et regnat 
+      <lb ed="#P" n="49"/>deus benedictus in secula seculorum. Amen¬ 
+      </p>
+            <p xml:id="qrdBas-c68945-d1e904">
+        <!--225.xml-->
+               <pb ed="#P" n="105-v"/>
+               <cb ed="#P" n="c"/>
+               <lb ed="#P" n="50"/>¶ Dic finem eccipiunt ingeniosissime Questiones . Ioan 
+      <lb ed="#P" n="51"/>nis de Bassolis minorite: Theologi profundissimi super Tertium 
+      <lb ed="#P" n="52"/>sententiarum: Huper vigilanti cura uet intuenti: ac intelligenti videre 
+      <lb ed="#P" n="53"/>est castigate: egt pristine integritati restitute. Pparhisius sed nus 
+      <lb ed="#P" n="54"/>quae antea: impresse: Arte quidem et solertia NHicolai de pratis 
+      <lb ed="#P" n="55"/>fidelissimi calcographi. Sumptibus autem honestorum 
+      Bi<lb ed="#P" n="56" break="no"/>bliopolarum francisci Regnault: et Ioannis frellon. Amno 
+      <lb ed="#P" n="57"/>christi omnium redemptoris. Hillesimo quingentesimo decimo 
+      <lb ed="#P" n="58"/>sexto: idibus Ianuarii Sole aquarii gradum secundum cum 
+      <lb ed="#P" n="59"/>parte. xxxbiii. tertii occupante. 
+      <lb ed="#P" n="60"/>Laus Iesu. 
+      <lb ed="#P" n="61"/>Narcescit sine aduersario virtus. 
+      <lb ed="#P" n="62"/>finis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

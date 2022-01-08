@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="103-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c67929"><!--l3d39q1 -->
+            <head xml:id="qrdBas-c67929-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-c67929-d1e101">
+               <lb ed="#P" n="10"/>¶ Distinctionis Trigesimenone. 
+      <lb ed="#P" n="11"/>Questio Prima.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e108">
+               <lb ed="#P" n="12"/>CIrca distinctionem 
+      <lb ed="#P" n="13"/>trigesimamnonam quero. Utrum 
+      <lb ed="#P" n="14"/>licitum sit iurare.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e117">
+      ¶ Uidetur 
+      <lb ed="#P" n="15"/>quod non quia quod est prohibiturm 
+      <lb ed="#P" n="16"/>non est licitum. Sed iurare est 
+      <lb ed="#P" n="17"/>prohibitum Mathei. 71. <quote xml:id="qrdBas-c67929-Qd1e125">Ego
+      <lb ed="#P" n="18"/>dico vobis non iur are omnino</quote>
+               <lb ed="#P" n="19"/>Et Iacobi quinto. <quote xml:id="qrdBas-c67929-Qd1e133">Ante omnia 
+      <lb ed="#P" n="20"/>fratres mei nolite iurare</quote>. ergo. etc.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e139">
+      ¶ Secundo sic 
+      <lb ed="#P" n="21"/>Illud quod est malum et a malo non est licitum: quia 
+      <lb ed="#P" n="22"/>est ad malum facienti. Sed iurare est a malo 
+      Ma<lb ed="#P" n="23" break="no"/>thei. 5. Sit sermo vester. est. est. non. non. quod 
+      ampli<lb ed="#P" n="24" break="no"/>est a malo est. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e151">
+      ¶ Tertio sic. Si licitum esset 
+      <lb ed="#P" n="25"/>iurare hoc maxime videretur per deum quia iuramen: 
+      <lb ed="#P" n="26"/>tum fit ad attestationem et confirmationem. Sed deus 
+      <lb ed="#P" n="27"/>non aliter confirmat dictum iurantis post 
+      iuramen<lb ed="#P" n="28" break="no"/>tum quanante. ergo etc. 
+      <lb ed="#P" n="29"/>Deutero. 6. Dominum deum 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e164">
+               <lb ed="#P" n="30"/>¶ Contra. tuum timebis et illi soli seruies 
+      <lb ed="#P" n="31"/>ac per nomen illius iurabis. 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e171">
+               <lb ed="#P" n="32"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e176">
+               <lb ed="#P" n="33"/>¶ Primo ostendam an licitum sit iurare et quo modo 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e181">
+               <lb ed="#P" n="34"/>¶ Secundo per quid sit iurandum.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e186">
+      ¶ Tertio. vtrum 
+      <lb ed="#P" n="35"/>omne iuramentum promissorium obliget ad 
+      imple<lb ed="#P" n="36" break="no"/>dum.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e194">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e196">
+               <lb ed="#P" n="37"/>¶ Quantum ad primum 
+      Di<lb ed="#P" n="38" break="no"/>co breuiter quod iurare vel actus iurandi est actus quo 
+      <lb ed="#P" n="39"/>iurans dictum suum confirmat adducendo deum 
+      in<lb ed="#P" n="40" break="no"/>testem vel aliquid aliud pretendendo cuiusmodi est 
+      <lb ed="#P" n="41"/>creatura aliqua siue sit spiritualis siue corporalis. 
+      <lb ed="#P" n="42"/>Iste autem actus non est de se malus nec habet deus si 
+      <lb ed="#P" n="43"/>aliquid repugnans rationi recte nec transit necessario 
+      <lb ed="#P" n="44"/>super obiectum disconueniens. Similiter etiam non est 
+      <lb ed="#P" n="45"/>necessario bonus de se nec bonitate generis nec bo 
+      <lb ed="#P" n="46"/>nitate moris. Potest enim transire super obiectum 
+      <lb ed="#P" n="47"/>disconueniens puta super falsum vel dato quod super o 
+      <lb ed="#P" n="48"/>iectum conueniens non tamen secundum omnes circumstantias 
+      <lb ed="#P" n="49"/>rationis recte: et ideo potest et bene et male fieri. 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e227">
+               <lb ed="#P" n="50"/>¶ Ex quo patet quod non est appetendus talis actus nec 
+      <lb ed="#P" n="51"/>exercendus nisi secundum rationem rectam. Tunc auten 
+      <lb ed="#P" n="52"/>est secundum rationem rectam quando habet tres comites 
+      sibi<lb ed="#P" n="53" break="no"/>necessarios. Oportet enim quod fiat in veritate ita quod 
+      veru<lb ed="#P" n="54" break="no"/>sit omne illud quad iuratur. Unde et omne iuramen 
+      <lb ed="#P" n="55"/>tum transiens super falsum obiectum peccatum est. 
+      <lb ed="#P" n="56"/>Oportet etiam quod in iusticia quia pro iusta causa vel 
+      <lb ed="#P" n="57"/>ex causa legitima vtendi muocatione dei per quem 
+      <lb ed="#P" n="58"/>iuratur vel adducendi seu opignerandi aliquid 
+      ips<lb ed="#P" n="59" break="no"/>deo quia non ex quacunque causa leuiter debet homo 
+      <lb ed="#P" n="60"/>iurare. Debet nihilominus iurare in iudicio id est cum 
+      <lb ed="#P" n="61"/>discretione et deliberatione et pondere vel 
+      maturita<lb ed="#P" n="62" break="no"/>te et caute per quod excludit in cautela iurandi: et si 
+      <!--220.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>fiat iuramentum cum istis tribus comitibus tunc est 
+      <lb ed="#P" n="64"/>licitum et honestum et potest esse meritorium et est 
+      sim<lb ed="#P" n="65" break="no"/>pliciter appetendum sic circumstantionatum. Qui enim 
+      <lb ed="#P" n="66"/>sic iurat per deum vel aliquid aliud in relatione ad  
+      <lb ed="#P" n="67"/>deum exhibet deo reuerentiam debitam secundum actum 
+      <lb ed="#P" n="68"/>latrie et inuocat ipsum vt scientem omnem veritatem et 
+      <lb ed="#P" n="69"/>ipsam veritatem diligentem et volentem inter homines 
+      <lb ed="#P" n="70"/>obseruari. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e279">
+               <lb ed="#P" n="71"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="72" break="no"/>ticulum. Dico primo quod per deum potest homo 
+      iura<lb ed="#P" n="73" break="no"/>re cum predictis circunstantiis adhibitis inuocan 
+      <lb ed="#P" n="74"/>do eum testem veritatis.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e290">
+      ¶ Secundo dico quod per fal 
+      <lb ed="#P" n="75"/>sos deos non debet homo iurare: sed tale iuramentum 
+      <lb ed="#P" n="76"/>ex parte iurantis et credulitate factum peccatum est 
+      <lb ed="#P" n="77"/>et contra diuinum preceptum. Divine prime 
+      tabu<lb ed="#P" n="78" break="no"/>le. Non habebis deos alienos. Ex parte tamen 
+      re<lb ed="#P" n="79" break="no"/>cipientis non est peccatum: dum tamen communicet 
+      sibi<lb ed="#P" n="80" break="no"/>in incredulitate falsorum deorum sed tantum velit 
+      <lb ed="#P" n="81"/>experiri et habere rectitudinem quam intendit 
+      ali<lb ed="#P" n="82" break="no"/>confirmare: et ita credit confirmari infidelis et se 
+      te<lb ed="#P" n="83" break="no"/>neri iurando per falsos deos sicut fidelis per verum 
+      <lb ed="#P" n="84"/>deum.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e314">
+      ¶ Tertio dico quod potest iuramentum fieri per 
+      <lb ed="#P" n="85"/>creaturam non inquantum creatura et absolute sed in 
+      <lb ed="#P" n="86"/>relatione ad deum pro quanto aliquid participa. 
+      <lb ed="#P" n="87"/>de ipso vel habet aliquam relationem vel habitudi 
+      <lb ed="#P" n="88"/>nem ad ipsum sicut per euangelia vel per sanctos vel 
+      <lb ed="#P" n="89"/>per aliquos maiores ipso iurante vel etiam per 
+      seip<lb ed="#P" n="90" break="no"/>sum vel filios suos et huiusmodi oppignerando 
+      ta<lb ed="#P" n="91" break="no"/>lia ipsi deo vt veniat super ea a deo iuramentum siue 
+      <lb ed="#P" n="92"/>bonum fuerit siue malum. Unde christus si alicubi 
+      pro<lb ed="#P" n="93" break="no"/>hibuit iurare per creaturam non prohibuit hoc nisi 
+      <lb ed="#P" n="94"/>stando in creatura attribuendo sibi honorem latrie 
+      <lb ed="#P" n="95"/>in iurando quasi infallibiliter cognoscenti puram 
+      ve<lb ed="#P" n="96" break="no"/>ritatem sicut deus: sed non prohibuit hoc referendo in 
+      <lb ed="#P" n="97"/>deum. Unde dico quod potest per creaturas iurari et 
+      <lb ed="#P" n="98"/>conuenientius est iurare per creaturas sanctas: et per 
+      <lb ed="#P" n="99"/>creaturas inaimatas / sicut per euangelia vel altare 
+      <lb ed="#P" n="100"/>et reliquias et huiusmodi multa. Hec de secundo 
+      <lb ed="#P" n="101"/>articulo principali. 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e354">
+               <lb ed="#P" n="102"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="103" break="no"/>culum. Dico primo quod de numero iuramentorum 
+      pro<lb ed="#P" n="104" break="no"/>missoriorum quoddam est dolosum quoddam 
+      incau<lb ed="#P" n="105" break="no"/>tum et quodam coactum. Iuramentum dolosum 
+      vo<lb ed="#P" n="106" break="no"/>catur quod in dolo iurantis quando iurat aliquid 
+      <lb ed="#P" n="107"/>facere et non intendit illud facere quantuncumque sit 
+      li<lb ed="#P" n="108" break="no"/>citum quod iuratur et dicitur de iuramento tali quod in 
+      <lb ed="#P" n="109"/>foro exteriori tale iuramentum si probetur quod 
+      fa<lb ed="#P" n="110" break="no"/>ctum est exterius obligat: quia in tali foro iudicam 
+      <lb ed="#P" n="111"/>tur de exterioribus: sed qunantum ad forum 
+      conscien<lb ed="#P" n="112" break="no"/>tie dicitur vno modo quod iste peccat mortaliter sic 
+      iu<lb ed="#P" n="113" break="no"/>rando dolose quia iurat falsum secundum proposi 
+      <lb ed="#P" n="114"/>tum suum. Nam iurat se facturum quod non 
+      pro<lb ed="#P" n="115" break="no"/>ponit facere.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e387">
+      ¶ Secundo dicitur quod ex vi iuramen 
+      <lb ed="#P" n="116"/>ti non tenetur implere quod iurat: quia ex quo non 
+      <lb ed="#P" n="117"/>intendit se obligare non est obligatus quantumcunque 
+      <lb ed="#P" n="118"/>ill e cui iurat reputet eum obligatum.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e396">
+      ¶ Tertio 
+      <lb ed="#P" n="119"/>dicitur quod nihilominus tenetur et est obligatus ad 
+      <lb ed="#P" n="120"/>cauendum indemnitati proximi cui iurat. Non 
+      <lb ed="#P" n="121"/>quod ad hoc obligetur ex iuramento: sed ex 
+      precepto<lb ed="#P" n="122" break="no"/>caritatis proximi cuius indemnitati debet cauere 
+      <lb ed="#P" n="123"/>ex praecepto diuino: et ista opinio pulchra est emultum pro 
+      <lb ed="#P" n="124"/>babilis.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e412">
+      ¶ Scotus hic videtur dicere quod ad iuramentum 
+      <lb ed="#P" n="125"/>dolosum implendum non obligatur iurans ipse cum non intendat 
+      <!--221.xml-->
+      <pb ed="#P" n="103-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>obligare ad quod tamen obligaretur si iuraret non 
+      <lb ed="#P" n="2"/>dolose. Nec sequitur ex hoc quod ex dolo suo reportet 
+      <lb ed="#P" n="3"/>commodum quia reportaret magnum incommodum scilice 
+      <lb ed="#P" n="4"/>peccatum mortale quod est maius quam obligari ad 
+      ali<lb ed="#P" n="5" break="no"/>quid quantumcunque penale per iuramentum non dolosum. 
+      <lb ed="#P" n="6"/>Aliter dicitur quod talis sic iurando peccat sicut dice 
+      <lb ed="#P" n="7"/>bant primi.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e438">
+      ¶ Secundo quia licet non intendat se 
+      obli<lb ed="#P" n="8" break="no"/>gare sed potius non obligare per iuramentum et hoc 
+      <lb ed="#P" n="9"/>explicite implicite tamen obligat se inquantum iurat et 
+      <lb ed="#P" n="10"/>de facto promittit se facturum quod iurat. ita quod non 
+      <lb ed="#P" n="11"/>solum ex precepto caritatis tenetur ad cauendum 
+      in<lb ed="#P" n="12" break="no"/>dignitati proximi: sed etiam ex vi precepti licet hoc 
+      <lb ed="#P" n="13"/>explicite non intendat. Et pro ista opinione essent 
+      <lb ed="#P" n="14"/>plures auctoritates et iura quam pro alia. Si dicas que 
+      <lb ed="#P" n="15"/>modo obligatur et quis obligat ipsum ex quo intendit 
+      <lb ed="#P" n="16"/>correlarium. Dico quod ex iure diuino de seruando 
+      iu<lb ed="#P" n="17" break="no"/>ramento obligatur et ipse seipsum obligat 
+      implici<lb ed="#P" n="18" break="no"/>te eoipso quo iurat et voluntarie sic iurat aliquid 
+      li<lb ed="#P" n="19" break="no"/>citum obseruandum.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e467">
+      ¶ De iuramento incauto 
+      di<lb ed="#P" n="20" break="no"/>co quod iuramentum potest dici et esse incautum vel 
+      ex<lb ed="#P" n="21" break="no"/>parte modi iurandi vel ex parte rei iurate et eius qui 
+      <lb ed="#P" n="22"/>iuratur. Primo modo dicitur incautum 
+      iuramen<lb ed="#P" n="23" break="no"/>tum quia inconsideratum et non ex deliberatione 
+      fa<lb ed="#P" n="24" break="no"/>ctum / et isto modo dico quod iuramentum incautum etiam 
+      <lb ed="#P" n="25"/>de re licita non obligat de necessitate precepti ad 
+      te<lb ed="#P" n="26" break="no"/>nendum peccat tamen qui sic iurat venialiter saltem. 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e486">
+               <lb ed="#P" n="27"/>¶ Alio modo potest dici iuramentum incautum ex 
+      <lb ed="#P" n="28"/>parte rei iurate vel eius quod iuratur quia 
+      videli<lb ed="#P" n="29" break="no"/>cet non est licitum vel bonum quod iuratur et sic 
+      di<lb ed="#P" n="30" break="no"/>co quod nullum iuramentum quantumcunque deliberatiue 
+      fa<lb ed="#P" n="31" break="no"/>ctum et quantum ad materiam et quantum ad iuramentum 
+      <lb ed="#P" n="32"/>vel quantum ad iuramentum solum obligat ad seruam 
+      <lb ed="#P" n="33"/>dum. Peccat tamen qui sic iurat et moraliter peccat 
+      <lb ed="#P" n="34"/>in actu iurandi. Dico autem quod tunc res iurata non est 
+      <lb ed="#P" n="35"/>licita quando quisquis iurat aliquid contra caritatem 
+      <lb ed="#P" n="36"/>et precepta diuina vel etiam contra diuina consilia. 
+      <lb ed="#P" n="37"/>Et vt breuiter dicam quando quis iurat se facturum 
+      <lb ed="#P" n="38"/>aliquid quod melius esset non facere et econuerso non 
+      fa<lb ed="#P" n="39" break="no"/>cturum quod melius esset facere et ipso facto 
+      pec<lb ed="#P" n="40" break="no"/>cat nec tenetur implere. In aliquibus tamen 
+      tene<lb ed="#P" n="41" break="no"/>ad superiorem recurrere qui ipsum a tali iuramente 
+      <lb ed="#P" n="42"/>absoluat vel declaret ad tale iuramentum non 
+      tene<lb ed="#P" n="43" break="no"/>ri.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e525">
+      ¶ Quod autem ad implendum talia iuramenta non 
+      <lb ed="#P" n="44"/>teneantur iurantes. Patet. 22. q. 4. vbi dicitur 
+      <lb ed="#P" n="45"/>In malis promissis rescinde finem et in turpi 
+      vote<lb ed="#P" n="46" break="no"/>muta decretum. Et in eadem questione dicitur. Si 
+      <lb ed="#P" n="47"/>aliquid forte incautius nos iurare contingerit quod 
+      <lb ed="#P" n="48"/>seruatum peiorem vergat in exitum illud 
+      salubrio<lb ed="#P" n="49" break="no"/>ri mutandum esse consilio nouerimus.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e541">
+      ¶ De iurami 
+      <lb ed="#P" n="50"/>to coacto. Dico quod quantum ad forum exterioris iudicii 
+      <lb ed="#P" n="51"/>quod si compertum sit a iudice quod iurauerit coactus 
+      pr<lb ed="#P" n="52" break="no"/>metum cadentem in constantem virum. Iudex dei 
+      <lb ed="#P" n="53"/>bet tale iuramentum relaxare vel in toto vel in 
+      pa<lb ed="#P" n="54" break="no"/>te. Nec debet ipsum compellere ad seruandum iuramen 
+      <lb ed="#P" n="55"/>mentum coactum quantumcunque illud quod iuratur sit 
+      li<lb ed="#P" n="56" break="no"/>citum. Si autem fuerit iuramentum coactum non 
+      <lb ed="#P" n="57"/>simpliciter: sed metu leui non cadente in 
+      constan<lb ed="#P" n="58" break="no"/>tem virum sic. Dico quod si res iurata sit licita debet in 
+      <lb ed="#P" n="59"/>dex iurantem compellere ad seruandum 
+      iuramen<lb ed="#P" n="60" break="no"/>tum. Exceptis aliquibus casibus in quibus nullem 
+      <lb ed="#P" n="61"/>est obligatio ipso iure vt in contractu matrimoniius 
+      <lb ed="#P" n="62"/>aliquibus aliis casibus quos non oportet enumera 
+      <lb ed="#P" n="63"/>re modo.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e574">
+      ¶ Sic igitur dico quod omne iuramentum deus 
+      <lb ed="#P" n="64"/>re licita deliberatiue factum a persona iuris sui 
+      obli<lb ed="#P" n="65" break="no"/>gat ad seruandum et tenendum facultate habita et 
+      <!--221.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>loco et tempore. Nullum autem iuramentum non 
+      <lb ed="#P" n="67"/>deliberatiue factum vel licet deliberatiue factum non 
+      <lb ed="#P" n="68"/>tamen de re bona eo modo quo dictum est supra 
+      obli<lb ed="#P" n="69" break="no"/>gat ad seruandum: sed ipso facto peccat iurans et in 
+      <lb ed="#P" n="70"/>primo venialiter faltem in secundo vero grauiter. 
+      <lb ed="#P" n="71"/>hec de tertio articulo 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e598">
+               <lb ed="#P" n="72"/>¶ Ad primum principale 
+      Di<lb ed="#P" n="73" break="no"/>co quod non prohibet christus omne iuramentum quacum 
+      <lb ed="#P" n="74"/>que ex causa secundum Augustinum contra mendacium 
+      <lb ed="#P" n="75"/>Sed illud ideo dictum est ne frequenter iurando 
+      <lb ed="#P" n="76"/>ad facilitatem iurandi et periculum periurandi vel 
+      <lb ed="#P" n="77"/>niatur. Et similiter ad auctoritatem beati Iacobi 
+      </p>
+            <p xml:id="qrdBas-c67929-d1e614">
+               <lb ed="#P" n="78"/>¶ Ad secundum sicut dicit Magiter in litera. 
+      Di<lb ed="#P" n="79" break="no"/>co quod iurare modo supradicto licito non est a malo 
+      <lb ed="#P" n="80"/>iurantis nec ad malum suum sed magis a malo et 
+      <lb ed="#P" n="81"/>qui recipit iuramentum vel exigit qui ex 
+      infirmita<lb ed="#P" n="82" break="no"/>tete sua vel ex culpa sua aliter non crederet 
+      loquen<lb ed="#P" n="83" break="no"/>ti nisi adhibeat iuramentum.
+    </p>
+            <p xml:id="qrdBas-c67929-d1e631">
+      ¶ Ad tertium dico 
+      <lb ed="#P" n="84"/>quod licet et per deum et per creaturas iurare 
+      aliquan<lb ed="#P" n="85" break="no"/>do pro tempore et loco et causa. Quando dicis quid 
+      <lb ed="#P" n="86"/>non quia deus frequenter non declarat veritatem 
+      <lb ed="#P" n="87"/>iurantis. Dico quod si non declaret per aliquod signum 
+      <lb ed="#P" n="88"/>vel prodigium seu miraculum: tamen audiens vel 
+      <lb ed="#P" n="89"/>recipiens iuramentum ex ipso confirmatur credens 
+      <lb ed="#P" n="90"/>quod iurans non adhiberet iuramentum nisi illud quod 
+      <lb ed="#P" n="91"/>iurat esset verum. etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

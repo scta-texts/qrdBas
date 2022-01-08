@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="69-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c45939"><!--l3d21q1 -->
+            <head xml:id="qrdBas-c45939-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-c45939-d1e101">
+               <lb ed="#P" n="91"/>¶ Distinctionis. xxi
+      <lb ed="#P" n="92"/>Questio vnica.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e108">
+               <lb ed="#P" n="93"/>CIrca distinctionem 
+      <lb ed="#P" n="94"/>vigesimam primam quero Utrum 
+      <lb ed="#P" n="95"/>corpus christi fuerit idem 
+      nuero<lb ed="#P" n="96" break="no"/>mortuum quod ante fuerat viuum 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e119">
+               <lb ed="#P" n="97"/>¶ Uidetur quod non. Illud non 
+      <lb ed="#P" n="98"/>est idem numero quod non 
+      ha<lb ed="#P" n="99" break="no"/>betidem esse substantiale quod 
+      <lb ed="#P" n="100"/>prius. Sed corpus mortuum 
+      <lb ed="#P" n="101"/>non habet idem esse substantia 
+      <lb ed="#P" n="102"/>le primum quod prius habuii viuum quia viuere 
+      viuen<lb ed="#P" n="103" break="no"/>tibus est esse secundo de anima. Modo planum est quod 
+      <lb ed="#P" n="104"/>non habet idem viuere mortuum quod prius habuit 
+      <lb ed="#P" n="105"/>viuum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e141">
+      ¶ Secundo sic. Si corpus christi fuit 
+      <lb ed="#P" n="106"/>idem numero viuum / et mortuum hoc fuit per 
+      aliquam<lb ed="#P" n="107" break="no"/>formam substantialem manentem in ipso mortuo que 
+      <lb ed="#P" n="108"/>prius etiam fuerat in corpore viuo. Sed hoc est im 
+      <lb ed="#P" n="109"/>possibile quia tunc sequitur quod in christo homine dum 
+      <lb ed="#P" n="110"/>viueret fuissent plures forme substantiales et sic 
+      cor<lb ed="#P" n="111" break="no"/>ruptio substantialis non esset resolutio vsque ad 
+      mate<lb ed="#P" n="112" break="no"/>riam primam quod est falsum. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e160">
+      ¶ Tertio sic. 
+      <lb ed="#P" n="113"/>Si corpus christi fuisset nunero mortuum sicut viuum non 
+      <lb ed="#P" n="114"/>potuisset putrefieri non accelerata resurrectione 
+      ex<lb ed="#P" n="115" break="no"/>stens mortuum sicut nec viuum potest putrefieri. Sed 
+      <lb ed="#P" n="116"/>hoc est falsum quia sicut christus assumpsit assumptiones 
+      <lb ed="#P" n="117"/>corporis viui ita et mortui vt videtur. quare etc. 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e173">
+               <lb ed="#P" n="118"/>¶ Quarto sic. quia si fuisset idem corpus mortuume 
+      <lb ed="#P" n="119"/>viuum eadem vnione vniebatur ad verbum mortuum 
+      <lb ed="#P" n="120"/>existens et viuum vt videtur. Sed hoc est falsum quia 
+      <lb ed="#P" n="121"/>uiuum non vniebatur nisi vnione totius nature que 
+      <lb ed="#P" n="122"/>corrupta fuit in morte ad corruptionem nature ergo etc 
+      <lb ed="#P" n="123"/>In psal. Non dabis sanctu tuum 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e189">
+               <lb ed="#P" n="124"/>¶ Contra videre corruptionem. Super ille 
+      <lb ed="#P" n="125"/>dicit sic glosa. Caro mea requiescit in spe 
+      resurre<lb ed="#P" n="126" break="no"/>ctionis igitur caro et corpus quod requieuit mortuum 
+      <lb ed="#P" n="127"/>in sepulchro fuit caro christi vera et corpus christi verum 
+      <lb ed="#P" n="128"/>secundum etiam quod dicit totum euangelium. ergo fuit idem 
+      <!--150.xml-->
+      <pb ed="#P" n="70-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>corpus sicut corpus Christi viuum. Idem ergo cor 
+      <lb ed="#P" n="2"/>pus mortuum et viuum 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e213">
+               <lb ed="#P" n="3"/>¶ In ista questione sic esset 
+      pro<lb ed="#P" n="4" break="no"/>cedendum.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e220">
+      ¶ Primo esset ostendendum quid est 
+      illi<lb ed="#P" n="5" break="no"/>quo formaliter aliquid est indiuiduum et hoc et vnum 
+      <lb ed="#P" n="6"/>numero.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e227">
+      ¶ Secundo esset inquirendum an corpus christi 
+      <lb ed="#P" n="7"/>fuerit idem numero viuum et mortuum et non 
+      accipu<lb ed="#P" n="8" break="no"/>vnum numero pro vnitate suppositi quia sic que sunt 
+      <lb ed="#P" n="9"/>in christo sunt vnum numero / et anima etiam separata in 
+      tri<lb ed="#P" n="10" break="no"/>duo a corpore et corpus ipsum erant vnum numero cum 
+      <lb ed="#P" n="11"/>verbo.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e241">
+      ¶ Ex quo patet quod responsio aliquorum 
+      di<lb ed="#P" n="12" break="no"/>ista questione dicentium quod corpus fuit idem 
+      numero<lb ed="#P" n="13" break="no"/>viuum et mortuum quia idem supposito nulla est nec est ad 
+      <lb ed="#P" n="14"/>propositum quia de hoc non queritur. Sed intelligo 
+      per<lb ed="#P" n="15" break="no"/>vnum numero vel idem loquendo de vnitate 
+      numera<lb ed="#P" n="16" break="no"/>li et indiuiduali qua aliquid est hoc indiuidualiter in 
+      <lb ed="#P" n="17"/>se indiuisum numeraliter et ab alio diuisum et 
+      singu<lb ed="#P" n="18" break="no"/>lare.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e259">
+      ¶ Tertio esset inquirendum An supposito quod 
+      <lb ed="#P" n="19"/>sic corpus christi esset idem numero mortuum et 
+      viuu<lb ed="#P" n="20" break="no"/>Utrum fuisset putrefactum si resurrectio non fuisset 
+      <lb ed="#P" n="21"/>accelerata Uel an fuisset sine omni nouo miraculo. 
+      <lb ed="#P" n="22"/>preseruatum.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e270">
+      ¶ Ultimo ad rationes. Sed quia 
+      pri<lb ed="#P" n="23" break="no"/>mus articulus sufficienter habetur in secundo 
+      disti<lb ed="#P" n="24" break="no"/>ctione. 12. in illa questione prolixa. Utrum materia 
+      <lb ed="#P" n="25"/>sit principium indiuiduationis. ideo nihil modo. 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e279">
+               <lb ed="#P" n="26"/>¶ Tarticulo quia suffi¬ 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e284">
+               <lb ed="#P" n="27"/>¶ De secundo ei in cienter patet ex his 
+      <lb ed="#P" n="28"/>que dicta sunt in secundo. distinctione. 17. in illa 
+      quastione<lb ed="#P" n="29" break="no"/>Utrum in homine sit aliqua forma substantialis alia 
+      <lb ed="#P" n="30"/>ab anima intellectiua. Ideo hoc dimitto. Nisi quod 
+      ad<lb ed="#P" n="31" break="no"/>duco aliquas auctoritates probantes quod corpus christi 
+      <lb ed="#P" n="32"/>fuit dem numero viuum et mortuum quas ibi non ad 
+      <lb ed="#P" n="33"/>duxi accipiendo idem numero eodem modo quo 
+      ego<lb ed="#P" n="34" break="no"/>dixi supra / et per consequens quod in ipso remansit 
+      vera<lb ed="#P" n="35" break="no"/>forma substantialis corporis vel carnis eadem que 
+      <lb ed="#P" n="36"/>prius in corpore viuo.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e308">
+      ¶ Prima est auctoritas christ 
+      <lb ed="#P" n="37"/>Io. xx. Ubi volens probare veritatem resurrectionis 
+      <lb ed="#P" n="38"/>ipsi Thome qui dixerat. Nisi videro in manibus ei 
+      <lb ed="#P" n="39"/>fixuram clauorum et mittam digitum meum in 
+      lo<lb ed="#P" n="40" break="no"/>cum clauorum et mittam manum meam in latus et 
+      <lb ed="#P" n="41"/>non credam. Dixit christus ipsi Thome. Aufer 
+      mo<lb ed="#P" n="42" break="no"/>num tuam in latus meum et noli esse incredulus sed  
+      <lb ed="#P" n="43"/>fidelis. Quero ergo de illo vulnere lateri. An fuit 
+      <lb ed="#P" n="44"/>idem vulnus quod fuit ibi inflictum cum in 
+      cruce<lb ed="#P" n="45" break="no"/>lam esset mortuus sicut dicitur Io. xix. Aut non 
+      fuis<lb ed="#P" n="46" break="no"/>illud vulnus. Si fuit idem vulnus nunero. ergo et idem 
+      <lb ed="#P" n="47"/>corpus vulneratum et ita corpus christi viuum et 
+      mor<lb ed="#P" n="48" break="no"/>tuum idem est. Si non fuit idem vulnus sed aliud 
+      <lb ed="#P" n="49"/>numero simile. Tunc probatio christi fuit sophistica nec 
+      <lb ed="#P" n="50"/>certificauit Thomam de eo quod querebat: sed 
+      fuis<lb ed="#P" n="51" break="no"/>Thomas deceptus quia querebat et volebat mittere 
+      <lb ed="#P" n="52"/>manum suam in latus et vulnus laterale quod fuerat 
+      <lb ed="#P" n="53"/>inflictum corpori christi iam mortui in cruce. Et 
+      simi<lb ed="#P" n="54" break="no"/>liter potest argui de aliis vulneribus inflictis christo 
+      <lb ed="#P" n="55"/>in vita: licet non ita manifeste. Et patet hoc per Au 
+      <lb ed="#P" n="56"/>gustinum ad deo gratias. vbi dicit sic. False ille 
+      cica<lb ed="#P" n="57" break="no"/>trices fuissent si nulla vulnera precessissent et tamen 
+      <lb ed="#P" n="58"/>nec ipse essent si eas esse noluisset. Uoluit autem 
+      cer<lb ed="#P" n="59" break="no"/>te dispensationis cnra vel gratia vt eis quos 
+      edif<lb ed="#P" n="60" break="no"/>cabat in fide non ficta non ad illud pro alio sed hoc 
+      <lb ed="#P" n="61"/>quod infixum viderant resurrexisse modo scirent. 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e366">
+               <lb ed="#P" n="62"/>¶ Secunda auctoritas est Augustini super 
+      Iohan<lb ed="#P" n="63" break="no"/>nem. Claui euim manus fixerant / lancea latus aperue 
+      <lb ed="#P" n="64"/>rat christi / et ad dubitantium corda sananda sunt vulne 
+      <!--150.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>rum seruata vestigia. quare etc.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e382">
+      ¶ Tertia 
+      autctor<lb ed="#P" n="66" break="no"/>tas principalis est Augustini ad felicianum. Illam 
+      <lb ed="#P" n="67"/>carnem in sepulchro non deseruit quam in vtero vit 
+      <lb ed="#P" n="68"/>ginis assumpsit. ergo eadem caro idem corpus fuit 
+      <lb ed="#P" n="69"/>viuum et in vtero virginis assumptum et in 
+      sepulchro<lb ed="#P" n="70" break="no"/>conditum et mortuum.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e395">
+      ¶ Quarta est Augustini de 
+      <lb ed="#P" n="71"/>fide ad petrum. De matre idem homo factus. etc. 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e400">
+               <lb ed="#P" n="72"/>¶ Quinta est eiusdem in sermone quodam de 
+      ascen<lb ed="#P" n="73" break="no"/>sione qui incipit. Omenia charissimi. etc. Dicit sic. Su 
+      <lb ed="#P" n="74"/>per excelsa. ergo celi terrenum corpus imponitur 
+      <lb ed="#P" n="75"/>ossa inter sepulchri angustias pauloante conclusa 
+      <lb ed="#P" n="76"/>angelorum cetibus inferuntur in gremio 
+      immortali<lb ed="#P" n="77" break="no"/>tatis mortalis natura transfunditur.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e416">
+      ¶ Nota hic 
+      <lb ed="#P" n="78"/>auctoritatem eiusdem August. super illud praes. Deus 
+      <lb ed="#P" n="79"/>deorum dominus loquutus est vbi dicit sic. 
+      Discipu<lb ed="#P" n="80" break="no"/>li primo non crediderunt donec tangerent atque 
+      pas<lb ed="#P" n="81" break="no"/>parent si caro resurrexerat quia caro mortua erat. 
+      Di<lb ed="#P" n="82" break="no"/>uinitas que mori non poterat adhuc in carne resur 
+      <lb ed="#P" n="83"/>gentis latebat. Ostendebat tamen dominus eandem 
+      <lb ed="#P" n="84"/>formam eandemque carnem quam in cruce videran 
+      <lb ed="#P" n="85"/>que in sepultura posita erat vt quos crucifixus 
+      fece<lb ed="#P" n="86" break="no"/>rat titubantes resurgens fecerat fortes. Ecce 
+      per<lb ed="#P" n="87" break="no"/>Augustinum quod eadem caro crucifixa fuit et 
+      sepulta<lb ed="#P" n="88" break="no"/>et resurrexit / et per consequens fuit eadem caro viua et 
+      mor<lb ed="#P" n="89" break="no"/>tua et idem corpus vt videtur.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e445">
+      ¶ Sexta est 
+      Ambro<lb ed="#P" n="90" break="no"/>sii de consecratione distinctione secunda. preter illas que 
+      <lb ed="#P" n="91"/>adducte sunt in questione de pluralitate formarum 
+      <lb ed="#P" n="92"/>Ubi dicit sic. Liquet quod preter nature ordinem 
+      vir<lb ed="#P" n="93" break="no"/>go generauit et hoc quod conficimus corpus est 
+      ex<lb ed="#P" n="94" break="no"/>virgine. quid ergo queris nature ordinem in christi cor 
+      <lb ed="#P" n="95"/>pore cum pater naturam sit ipse partus ex virgine 
+      <lb ed="#P" n="96"/>Nam vera vtique christi caro est que crucifixa est et que 
+      <lb ed="#P" n="97"/>sepulta est.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e466">
+      ¶ Septima est Hieronimi super Ionam. 
+      <lb ed="#P" n="98"/>Tu subleuaberis de corruptione Dicit ibi. Dicimus 
+      <lb ed="#P" n="99"/>inquit idem corpus et eandem carnem resurregere qua 
+      <lb ed="#P" n="100"/>sepulta est et in humo condita mutare gloriam non 
+      <lb ed="#P" n="101"/>naturam.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e477">
+      ¶ Octaua est Gregorii in Omelia super 
+      <lb ed="#P" n="102"/>illud Io. Maria stabat. etc. Dicit sic. De torrente 
+      <lb ed="#P" n="103"/>in via dominus bibit quia mortem in transitu gustauit / atque ide 
+      <lb ed="#P" n="104"/>exaltauit caput: quia hoc quod moriendo in 
+      sepulchro<lb ed="#P" n="105" break="no"/>posuit surgendo super angelos eleuauit.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e488">
+      ¶ Nona 
+      <lb ed="#P" n="106"/>est Damasceni libro tertio. ca. 3. Ipsa est caro que 
+      <lb ed="#P" n="107"/>passa est et resurrexit. Et. 4. libro dicit quod resurecti / 
+      <lb ed="#P" n="108"/>pomini incorrupti corporis et anime vnio erat.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e497">
+      ¶ De 
+      <lb ed="#P" n="109"/>cima est Leonis pape in sermone de ascensione qui 
+      <lb ed="#P" n="110"/>incipit. Post beatam. etc. Ubi dicit sic. Ad sanandam 
+      <lb ed="#P" n="111"/>infidelium cordium / vulnera clauorum / et lancee erant 
+      <lb ed="#P" n="112"/>seruata vestigia vt nedum dubia fide: sed constantissi 
+      <lb ed="#P" n="113"/>ma scientia teneretur eandem naturam in dei patris 
+      <lb ed="#P" n="114"/>consessuram throno que iacuerat in sepulchro. Et 
+      no<lb ed="#P" n="115" break="no"/>ta quod dicit eandem naturam non idem suppositum 
+      <lb ed="#P" n="116"/>nec eandem materiam 
+      <lb ed="#P" n="117"/>dico omnino secundum praemissas 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e519">
+               <lb ed="#P" n="118"/>¶ Sic igitua auctoritates quod idem 
+      corpu<lb ed="#P" n="119" break="no"/>singulariter et naturaliter fuit ipsius christi viuum et 
+      mor<lb ed="#P" n="120" break="no"/>tuum. Nec valet quod dicitur ab aliis quod verum est vnum 
+      <lb ed="#P" n="121"/>supposito: contra hoc enim argutum est in prefata 
+      quadtione<lb ed="#P" n="122" break="no"/>Nec quod alii dicunt quod verum est pro tanto quia vna 
+      ma<lb ed="#P" n="123" break="no"/>teria cum affectione quadam derelicta in materia 
+      <lb ed="#P" n="124"/>ex quantitate vel cum quantitate. Nec quod addunt quod 
+      <lb ed="#P" n="125"/>aduenit noua forma in eadem materia et materia 
+      ma<lb ed="#P" n="126" break="no"/>net assumpta nec dicitur verbum aliquid de nouo 
+      assu<lb ed="#P" n="127" break="no"/>mere.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e543">
+      ¶ Contra omnia enim ibi est argutum et omnia 
+      <lb ed="#P" n="128"/>vnico verbo possunt infringi quia per aliquod 
+      predi<lb ed="#P" n="129" break="no"/>ctorum non potest saluari eadem caro sicut patet quod 
+      <!--151.xml-->
+      <pb ed="#P" n="70-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tamen sancti omnes nituntur saluare. Non enim vnio 
+      <lb ed="#P" n="2"/>ad verbum dat esse carnem nec per consequens eandem 
+      car<lb ed="#P" n="3" break="no"/>nem. Nec materia cum quantitate est caro. Nec 
+      ma<lb ed="#P" n="4" break="no"/>teria cum alia forma cadaueris est caro ita caro christ 
+      <lb ed="#P" n="5"/>non quieuisset in sepulchro sed materia christi vel quam 
+      <lb ed="#P" n="6"/>titas quod est nullum dictum et contra sanctos et 
+      scrip<lb ed="#P" n="7" break="no"/>turam et euangelium.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e573">
+      ¶ Secundo dico quod non solum 
+      <lb ed="#P" n="8"/>corpus christi fuit idem viuum et mottuum sed etiam 
+      in<lb ed="#P" n="9" break="no"/>aliis idem manet corpus mortuum quod ante viuum 
+      fue<lb ed="#P" n="10" break="no"/>rat sicut apparentia probare possunt. Uerum est 
+      ta<lb ed="#P" n="11" break="no"/>men quod corpus aliorum statim tendit ad 
+      corruptio<lb ed="#P" n="12" break="no"/>nem et incinerationem per desiccationem et 
+      exhala<lb ed="#P" n="13" break="no"/>tionem humidi continentis partes a calido statim 
+      posi<lb ed="#P" n="14" break="no"/>separationem anime quod tamen non fuit factum in christo ex 
+      <lb ed="#P" n="15"/>miraculo speciali vt dicetur infra.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e593">
+      ¶ Ex hiis 
+      con<lb ed="#P" n="16" break="no"/>cludo quod quia non est caro nisi per aliquam formam 
+      sub<lb ed="#P" n="17" break="no"/>stantialem quia caro dicit substantiam compositam et 
+      <lb ed="#P" n="18"/>mixtam quod necessario in corpore mortuo manet illa 
+      <lb ed="#P" n="19"/>forma substantialis carnis que prius fuit in 
+      viuo<lb ed="#P" n="20" break="no"/>sicut manet idem corpus et eadem caro. Sicut enim 
+      <lb ed="#P" n="21"/>impossibile est manere idemspecie cum aliquo 
+      ha<lb ed="#P" n="22" break="no"/>bente formam nisi maneat eadem forma specie. Ita 
+      <lb ed="#P" n="23"/>impossibile est manere idem numero nisi maneat ea. 
+      <lb ed="#P" n="24"/>dem forma substantialis numero igitur manet in 
+      cor<lb ed="#P" n="25" break="no"/>pore hominis mortui eadem forma substantialis 
+      ca<lb ed="#P" n="26" break="no"/>nis que prius per quam est corpus et caro quousque 
+      tan<lb ed="#P" n="27" break="no"/>dem corpus ipsum corrumpatur et putrefiat et aliud ex 
+      <lb ed="#P" n="28"/>ipso generetur.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e624">
+      ¶ Sic igitur dico quod christus fuit idem 
+      <lb ed="#P" n="29"/>numero viuum et mortuum. Hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e629">
+               <lb ed="#P" n="30"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="31" break="no"/>ticulum tenetur communiter quod licet corpus christi esse 
+      <lb ed="#P" n="32"/>putrefactibile et incinerabile sicut corpora aliorum 
+      <lb ed="#P" n="33"/>hominum nondum gloriosa et sicut etiam in vita erat 
+      <lb ed="#P" n="34"/>Passibile tamen de facto non fuisset putrefactum 
+      <lb ed="#P" n="35"/>nec incineratum etiam si resurrectio non fuisset 
+      acce<lb ed="#P" n="36" break="no"/>lerata. Hoc enim non decuisset quia ad nichil valuisset 
+      <lb ed="#P" n="37"/>nec ad opus nostre redemptionis nec ad aliquid 
+      alii<lb ed="#P" n="38" break="no"/>sed indignum fuisset vt ita nobile corpus vnitum 
+      <lb ed="#P" n="39"/>verbo putrefieret. De facto autem planum est quod non 
+      <lb ed="#P" n="40"/>fuit putrefactum Iuxta illud dictum prsaes. Non dabis 
+      <lb ed="#P" n="41"/>sanctum tuum videre corruptionem. quod exponens 
+      <lb ed="#P" n="42"/>Augustinus dicit. Non dabis sanctum tuum. id: est 
+      <lb ed="#P" n="43"/>corpus meum a te sanctificatum videre 
+      corruptio<lb ed="#P" n="44" break="no"/>nem. id est putrefactionem vel incinerationem 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e664">
+               <lb ed="#P" n="45"/>¶ Etiam dico quod nec corpus illud tenebat in 
+      cor<lb ed="#P" n="46" break="no"/>ruptionem marcescendo et deficiendo paulatiue secundum 
+      <lb ed="#P" n="47"/>dispositiones ad corruptionem vel incinerationem 
+      <lb ed="#P" n="48"/>sicut corpora aliorum tendunt statim anima separata 
+      <lb ed="#P" n="49"/>ad corruptionem. sed de virtute et modo vel 
+      miracu<lb ed="#P" n="50" break="no"/>lo qualiter hoc fiebat est dubitatio. 
+      <lb ed="#P" n="51"/>di quod hoc fuit virtu¬ 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e682">
+               <lb ed="#P" n="52"/>¶ Et dicunt aliqui tenature scilicet 
+      <lb ed="#P" n="53"/>quod corpus christi sic fuit praeseruatum et hoc vel quia 
+      resur<lb ed="#P" n="54" break="no"/>rectio sic fuit accelerata et corpus non putrefit 
+      vel<lb ed="#P" n="55" break="no"/>corrumpitur ita cito sicut in tribus diebus: sed 
+      hac<lb ed="#P" n="56" break="no"/>bet certam pervodum vltra triduum in qua incipit 
+      pu<lb ed="#P" n="57" break="no"/>trefieri. Uel quia circa corpus christi fuerunt apposita 
+      re<lb ed="#P" n="58" break="no"/>media praeseruantia a corruptione mirra scilicet et aloe in 
+      <lb ed="#P" n="59"/>copia et sic preseruauerunt corpus a putrefactione 
+      <lb ed="#P" n="60"/>sine aliquo miraculo vsque ad resurrectionem quae 
+      fuis<lb ed="#P" n="61" break="no"/>accelerata. Sed si resurrectio non fuisset accelerata 
+      <lb ed="#P" n="62"/>sed multum tardata dicunt quod corpus christi fuisset pre 
+      <lb ed="#P" n="63"/>seruatum per miraculum. Sed non per miraculum 
+      no<lb ed="#P" n="64" break="no"/>uum sed miraculum anti quum quia eodem miraculo 
+      <!--151.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>quo corpus fuit primo vnitum verbo eodem fuisset 
+      <lb ed="#P" n="66"/>a putrefactione praeseruatum etiam si resurrectio non 
+      <lb ed="#P" n="67"/>fuisset accelerata nec sunt ponenda miracula 
+      plu<lb ed="#P" n="68" break="no"/>ra sine necessitate vt videtur.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e727">
+      ¶ Pro primo dicto 
+      <lb ed="#P" n="69"/>eorum scilicet quod resurrectione accelerata corpus christ 
+      <lb ed="#P" n="70"/>fuit preseruatum per naturam. Uidetur esse 
+      Augu<lb ed="#P" n="71" break="no"/>stinus de presentia dei. Ubi dicit quod christus ita cito 
+      re<lb ed="#P" n="72" break="no"/>surrexit quod corpus eius putrefieri non potuit.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e738">
+      ¶ Ui 
+      <lb ed="#P" n="73"/>detur etiam ratio pro eis quia quando aliquid potest 
+      <lb ed="#P" n="74"/>fieri per naturam non est recurrendum potest fieri per 
+      <lb ed="#P" n="75"/>naturam non est recurredum ad miraculum. 
+      Po<lb ed="#P" n="76" break="no"/>tuit autem fieri per naturam quod corpus christi in tridud 
+      <lb ed="#P" n="77"/>non putrefieret. Tum propter frigiditatem loci 
+      la<lb ed="#P" n="78" break="no"/>pidei in quo fuit positum et aliqua citius putrescunt 
+      <lb ed="#P" n="79"/>in locis calidis quam in frigidis secundum Augustinum 
+      ter<lb ed="#P" n="80" break="no"/>tio de trinitate. Et patet hoc ad sensum. Tum pro 
+      <lb ed="#P" n="81"/>pter breuitatem temporis. Tum propter remedia 
+      ap<lb ed="#P" n="82" break="no"/>posita. Tum propter siccitatem corporis quia in 
+      corpo<lb ed="#P" n="83" break="no"/>re christi pauci remanserant humores quia christus maxio 
+      <lb ed="#P" n="84"/>mam copiam sanguinis emiserat quare etc.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e767">
+      ¶ Sed 
+      <lb ed="#P" n="85"/>quia diufuisset preseruatum si resurrectio non fuisset 
+      <lb ed="#P" n="86"/>accelerata hoc fuisset per miraculum quia ad diutinam 
+      <lb ed="#P" n="87"/>conseruationem vltra per vodum determinatam non 
+      va<lb ed="#P" n="88" break="no"/>lent remedia naturalia. Nec per hoc natura quia non 
+      <lb ed="#P" n="89"/>potest perpetuo conseruare aliquid corruptibile sicut 
+      <lb ed="#P" n="90"/>patet. Oportet ergo recurrere ad miraculum sed non 
+      <lb ed="#P" n="91"/>ad nouum miraculum sicut dictum est supra secunmeos 
+      <lb ed="#P" n="92"/>et nulla est necessitas. Nam verbum assumpsit 
+      sibi<lb ed="#P" n="93" break="no"/>corpus humanum indissolubiliter secundum 
+      Da<lb ed="#P" n="94" break="no"/>mascenum libro tertio capitulo tertio 
+      <lb ed="#P" n="95"/>sitionem sunt aliqua 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e793">
+               <lb ed="#P" n="96"/>¶ Contra istam pooubia. Primo quatum 
+      <lb ed="#P" n="97"/>ad hoc quod dicunt quod corpus christi fuit praeseruatum per 
+      na<lb ed="#P" n="98" break="no"/>turam quia non videtur hoc consonare scripture. Non 
+      <lb ed="#P" n="99"/>dabis sanctum tuum videre corruptionem. Uidetur 
+      <lb ed="#P" n="100"/>enim quod miraculose fuerit hoc factum multofortius 
+      <lb ed="#P" n="101"/>quam de corpore beate virginis et Iohannis 
+      euangeli<lb ed="#P" n="102" break="no"/>ste de quibus creditur quod corpora eorum non fuerunt 
+      <lb ed="#P" n="103"/>putrefacta sed resurrectio eorum accelerata.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e813">
+      ¶ Sed 
+      <lb ed="#P" n="104"/>cundo etiam contra illud quod corpus habet eertam 
+      <lb ed="#P" n="105"/>pervodum quando incipit putrefieri. Dico quod corpus 
+      <lb ed="#P" n="106"/>humanum sicut patet per experientiam statim anima se 
+      <lb ed="#P" n="107"/>parata incipit marcescere et disponi ad 
+      corruptio<lb ed="#P" n="108" break="no"/>nem et hoc naturaliter. Unde et statim fetere incipit 
+      <lb ed="#P" n="109"/>nec potest totaliter ab aliquo remedio ab hoc praeset 
+      <lb ed="#P" n="110"/>uari. Unde licet mirra illa et aloealiquid fecissent et 
+      <lb ed="#P" n="111"/>aliqualiter preseruassent et locus frigidus et alia que 
+      <lb ed="#P" n="112"/>adducuntur ab aliis nunquam tamen totaliter praeseruassent. 
+      <lb ed="#P" n="113"/>mihi quod christi corpus fuis¬ 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e837">
+               <lb ed="#P" n="114"/>¶ Didetur ergo miraculose preserua 
+      <lb ed="#P" n="115"/>tum a tendentia et dispositione ad corruptionem 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e845">
+               <lb ed="#P" n="116"/>¶ Ad Augustinum dico quod ita cito surrexit quod 
+      cor<lb ed="#P" n="117" break="no"/>rumpi vel putrefieri non potuit. Uerum est quantum 
+      <lb ed="#P" n="118"/>corruptionis ipsius corporis quia non ita cito 
+      simplici<lb ed="#P" n="119" break="no"/>ter corrumpitur ipsum corpus et aliud generatur ex ipso 
+      <lb ed="#P" n="120"/>sed bene quantum ad dispositionem et tendentiam in 
+      <lb ed="#P" n="121"/>corruptionem potuisset non obstante acceleratione 
+      <lb ed="#P" n="122"/>resurrectionis nisi preseruatum fuisset miraculose 
+      <lb ed="#P" n="123"/>Et dico quod non miraculose fuerit hoc factum sicu 
+      <lb ed="#P" n="124"/>ostendetur statim in alio menbro.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e867">
+      ¶ Quantum ad 
+      alit<lb ed="#P" n="125" break="no"/>quod dicunt quod si resurrectio fuisset tardata corpus 
+      <lb ed="#P" n="126"/>christi fuisset preseruatum a corruptione non nouo 
+      mi<lb ed="#P" n="127" break="no"/>raculo: sed antiquo. Non videtur mihi hoc verum 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e876">
+               <lb ed="#P" n="128"/>¶ Uidetur enim mihi quod corpus christi de facto fuit 
+      <lb ed="#P" n="129"/>preseruatum ab illa tendentia et dispositione ad cor¬ 
+      <!--152.xml-->
+      <pb ed="#P" n="71-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ruptionem vel incinerationem et si resurrectio non 
+      <lb ed="#P" n="2"/>fuisset accelerata adhuc fuisset nouo miraculo 
+      pre<lb ed="#P" n="3" break="no"/>seruatum a corruptione ipsa.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e896">
+      ¶ Hoc probo primo sic 
+      <lb ed="#P" n="4"/>Passiuum naturaliter dispositum et approximatum 
+      <lb ed="#P" n="5"/>actiuo naturaliter non impedito per causam 
+      superna<lb ed="#P" n="6" break="no"/>turalem vel aliam naturaliter si non patitur. Hoc est 
+      <lb ed="#P" n="7"/>miraculosum quia per causam supernaturalem 
+      impe<lb ed="#P" n="8" break="no"/>ditur. Patuit de tribus pueris in camino 
+      babilo<lb ed="#P" n="9" break="no"/>nis et igne. Sed corpus Christi mortuum cum non 
+      <lb ed="#P" n="10"/>esset gloriosum et esset mixtum ex contrariis erat 
+      <lb ed="#P" n="11"/>passiuum dispositum sufficienter approximatum 
+      <lb ed="#P" n="12"/>actiuo naturalibus corruptiuis siue ab extrinseco 
+      <lb ed="#P" n="13"/>siue ab intrinseco igitur quod non corrumperetur vel 
+      <lb ed="#P" n="14"/>ad corruptionem non disponeretur miraculum 
+      de<lb ed="#P" n="15" break="no"/>bet dici.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e925">
+      ¶ Dices quod verum est miraculosum 
+      fuis<lb ed="#P" n="16" break="no"/>sed non fuit nouum miraculum sed eodem 
+      miracu<lb ed="#P" n="17" break="no"/>lo quo corpus vniebatur verbo sicut praeseruabatur. 
+      <lb ed="#P" n="18"/>Contra. Probo quod nouo miraculo verbum assumens 
+      <lb ed="#P" n="19"/>corpus non impedit quin agentia extrinseca violenter 
+      <lb ed="#P" n="20"/>agerent in corpus viuum non obstante vnione ipsius ad  
+      <lb ed="#P" n="21"/>verbum sicut non impediuit quin clauus penetraret 
+      <lb ed="#P" n="22"/>manum vel extraheret sanguinem et si impediuisset 
+      <lb ed="#P" n="23"/>fuisset miraculum stante passibilitate corporis sicut 
+      <lb ed="#P" n="24"/>patet sicut etiam si impediuisset quod non esurisset 
+      vel<lb ed="#P" n="25" break="no"/>sitisset. ergo similiter in proposito si prohibuisset corpus 
+      <lb ed="#P" n="26"/>mortuum corrumpi vel ad corruptonem disponi.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e951">
+      ¶ Se 
+      <lb ed="#P" n="27"/>cundo sic. Sicut in generatione est processus natura 
+      <lb ed="#P" n="28"/>lis qui si impediretur positis omnibus suis natura 
+      <lb ed="#P" n="29"/>libus esset miraculum. Ita in resolutione est 
+      proces<lb ed="#P" n="30" break="no"/>sus naturalis a perfecto ad imperfectum et continuus 
+      <lb ed="#P" n="31"/>processus vsque ad vltimatam resolutionem qui si 
+      im<lb ed="#P" n="32" break="no"/>pediretur omnibus tamen suis causis naturalibus 
+      po<lb ed="#P" n="33" break="no"/>sitis miraculose impediretur vt si verbum primo 
+      as<lb ed="#P" n="34" break="no"/>sumpsisset sanguinem et processisset secundum processum 
+      ge<lb ed="#P" n="35" break="no"/>nerationis naturalis sicut alii positis omnibus 
+      cau<lb ed="#P" n="36" break="no"/>sis naturalibus illius processus si aliquando stetisset 
+      <lb ed="#P" n="37"/>ante vltimatam generationem nouum miraculum 
+      <lb ed="#P" n="38"/>fuisset. Sic etiam potest dici de processu augmentatio 
+      <lb ed="#P" n="39"/>nis cum ergo ita fuerit in processu ad corruptionem 
+      <lb ed="#P" n="40"/>vel incinerationem corporis quod positis omnibus 
+      cau<lb ed="#P" n="41" break="no"/>sis nanturalibus impeditus fuit vt nec corpus christ 
+      <lb ed="#P" n="42"/>corrumperetur nec ad corruptionem vel 
+      incinera<lb ed="#P" n="43" break="no"/>tionem disponeretur. Uidetur quod nouo miraculo 
+      fue<lb ed="#P" n="44" break="no"/>rit factum istud.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e994">
+      ¶ Tertio sic et est quasi tactum in cor 
+      <lb ed="#P" n="45"/>pore christi viuo non obstante vnione ad verbum 
+      fuis<lb ed="#P" n="46" break="no"/>augmentatio et fluxus partium et refluxus et si 
+      fuis<lb ed="#P" n="47" break="no"/>set prohibitus hoc fuisset nouo miraculo. ergo 
+      simi<lb ed="#P" n="48" break="no"/>liter in proposito vt videtur.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e1005">
+      ¶ Dico quod licet eodem 
+      <lb ed="#P" n="49"/>miraculo fieri potuit forte quod corpus christi fuisset 
+      vni<lb ed="#P" n="50" break="no"/>tum verbo et gloriosum effectum et per consequens 
+      im<lb ed="#P" n="51" break="no"/>passibile et incorruptibile tamen quia de facto videmus 
+      <lb ed="#P" n="52"/>quod corpus christi viuum non obstante quod fuerit vnitum 
+      vel<lb ed="#P" n="53" break="no"/>bo fuit tamen passibile et corruptibile non 
+      glorio<lb ed="#P" n="54" break="no"/>sum et multofortius mortuum existens cum non esset 
+      con<lb ed="#P" n="55" break="no"/>iunctum anime gloriose non esset gloriosum sine vllo 
+      <lb ed="#P" n="56"/>miraculo. Potest argui quod sicut fuisset nouum 
+      mi<lb ed="#P" n="57" break="no"/>raculum preseruando corpus christi viuum a passione et 
+      le<lb ed="#P" n="58" break="no"/>sione. Ita fuit nouum miraculum preseruando ipsum 
+      <lb ed="#P" n="59"/>a dispositione et tendentia ad corruptionem et fuisset 
+      <lb ed="#P" n="60"/>etiam nouum miraculum preseruando ipsum a 
+      corru<lb ed="#P" n="61" break="no"/>ptione et incineratione si resurrectio non fuisset 
+      acce<lb ed="#P" n="62" break="no"/>lerata. quare etc. Ex hoc apparet necessitas ponen 
+      <lb ed="#P" n="63"/>di nouum miraculum vt videtur.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e1040">
+      ¶ Ad illud 
+      vero<lb ed="#P" n="64" break="no"/>quod adducunt de Damas. Dico quod non est pro eis 
+      <lb ed="#P" n="65"/>Nam pro tanto dicit quod verbum assumpsit corpus 
+      <!--152.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>indissolubiliter quia nunquam corpus fuit a verbo 
+      sepa<lb ed="#P" n="67" break="no"/>ratum non quia non obstante quod non potuerit 
+      corrumpi<lb ed="#P" n="68" break="no"/>vel disponi ad corruptionem vel quia eodem 
+      miracu<lb ed="#P" n="69" break="no"/>lo fuerit verbo vnitum et a corruptione praeseruatum. 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e1060">
+               <lb ed="#P" n="70"/>¶ Uel aliter et melius quod Damas. dicit ibi loquens 
+      <lb ed="#P" n="71"/>de natura humana quod verbum assumpsit eam 
+      mira<lb ed="#P" n="72" break="no"/>biliter et inalterabiliter et non potuit ibi 
+      indissolubi<lb ed="#P" n="73" break="no"/>liter et pro tanto dicit hoc quia neutra potuit verti in 
+      <lb ed="#P" n="74"/>aliam nec ambe in tertiam. Non autem dicit indissolu 
+      <lb ed="#P" n="75"/>biliter quod natura humana non potuerit dissolui. Tunc 
+      <lb ed="#P" n="76"/>enim nunquam christus potuisset mori nec fuisset mortuus 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e1078">
+               <lb ed="#P" n="77"/>¶ Hec de tertio articulo In quo patet quod si 
+      resur<lb ed="#P" n="78" break="no"/>rectio christi non fuisset accelerata vel ipse fuisset senio 
+      <lb ed="#P" n="79"/>vel etiam violenter sicut mortuus est corpus suum 
+      fuis<lb ed="#P" n="80" break="no"/>set praeseruatum a corruptione et nouo miraculo alio 
+      <lb ed="#P" n="81"/>a miraculo vnionis voluntate diuina circa nouum 
+      <lb ed="#P" n="82"/>obiectum volitum nec volitum consequenter ad vnionem 
+      <lb ed="#P" n="83"/>vel ratione vnionis. Puta circa suspensionem 
+      actio<lb ed="#P" n="84" break="no"/>num causarum naturalium ne agerent vel egissent 
+      <lb ed="#P" n="85"/>ad corruptionem corporis. Et similiter dico de 
+      fa<lb ed="#P" n="86" break="no"/>cto ne agerent ad dispositionem corporis christi ad cor 
+      <lb ed="#P" n="87"/>ruptionem in illo triduo. 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e1104">
+               <lb ed="#P" n="88"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="89"/>quod corpus christi mortuum habuit primum esse substatia 
+      <lb ed="#P" n="90"/>le corporis et carnis et illud idem quod habuit viuum 
+      <lb ed="#P" n="91"/>sed non fuit vita informatum et ita non habuit esse 
+      <lb ed="#P" n="92"/>viuum. Nec etiam tale esse conuenit corpori christi 
+      intrin<lb ed="#P" n="93" break="no"/>sece inquantum corpus siue sit viuum siue non: sed 
+      tan<lb ed="#P" n="94" break="no"/>tum pertinet ad ipsum inquantum vnitum anime et viuum 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e1123">
+               <lb ed="#P" n="95"/>¶ Ad secundum dico quod in secundo viuo fuerunt et sunt 
+      <lb ed="#P" n="96"/>plures forme substantiales: et ita oportet ponere non 
+      <lb ed="#P" n="97"/>solum ad saluandum fidem christi sed etiam aliud ad 
+      <lb ed="#P" n="98"/>saluandum apparentiam et non solum in christo sed etiam. 
+      <lb ed="#P" n="99"/>in aliis hominibus pari ratione sicut dictum est in 
+      se<lb ed="#P" n="100" break="no"/>cundo. Et dico quod vna illarum remansit et remanet 
+      <lb ed="#P" n="101"/>naturaliter in corpore mortuo. Nec prima 
+      corruptio<lb ed="#P" n="102" break="no"/>hominis est resolutio vsque ad materiam primam 
+      si<lb ed="#P" n="103" break="no"/>cut dictum est in secundo: licet bene ita sit de genera 
+      <lb ed="#P" n="104"/>tione conuersiua electorum. Et hoc patet per 
+      Dama<lb ed="#P" n="105" break="no"/>scenum in logica sua vbi dicit sic. Unaqueque 
+      homi<lb ed="#P" n="106" break="no"/>num ypostasis ex duabus constituta est naruris / ex anima 
+      <lb ed="#P" n="107"/>dico et corpore et inconfusas has in seipsa conseruat 
+      <lb ed="#P" n="108"/>testis est que ex morte facta est diuisio. igitur secundum 
+      <lb ed="#P" n="109"/>Damas. Facta diuisione anime et corporis per mor 
+      <lb ed="#P" n="110"/>tem manet eadem natura corporis que prius erat 
+      <lb ed="#P" n="111"/>in supposito viuente etiam in quolibet homine nec 
+      <lb ed="#P" n="112"/>est statim resolutio ad materiam primam. Nec potes 
+      <lb ed="#P" n="113"/>dicere quod verum est quia manet eadem materia quia 
+      pari<lb ed="#P" n="114" break="no"/>ratione quantum ad hoc quodlibet aliud esset 
+      composi<lb ed="#P" n="115" break="no"/>tum ex duabus naturis quia manet eadem materia 
+      in<lb ed="#P" n="116" break="no"/>generato et corrupto.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e1173">
+      ¶ Similiter etiam quantum ad 
+      <lb ed="#P" n="117"/>generationem quod habeatur vltima hominis forma 
+      <lb ed="#P" n="118"/>cum alia precedente sine corruptione illius. Ita quod 
+      <lb ed="#P" n="119"/>stent simul due forme. Patet per actorem illum in 
+      <lb ed="#P" n="120"/>ecclesiasticis dogmatibus. vbi dicit sic. Et 
+      aliqui<lb ed="#P" n="121" break="no"/>imponunt librum illum Gennadio / alii Augustino 
+      <lb ed="#P" n="122"/>Dicimus inquit corpus tantum per comiugii copulam 
+      <lb ed="#P" n="123"/>seminari creationem vero anime solum creatorem 
+      <lb ed="#P" n="124"/>nosce corpus vero coagulari in vulua et compingi ac 
+      <lb ed="#P" n="125"/>formari atque formato iam corpore animam creari et in 
+      <lb ed="#P" n="126"/>fundi vt viuat in vtero homo ex ipsa constans et cor 
+      <lb ed="#P" n="127"/>pore et egrediatur viuus ex vtero plenus 
+      humana<lb ed="#P" n="128" break="no"/>substantia.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e1202">
+      ¶ Ad tertium dico quod licet corpus idem 
+      <lb ed="#P" n="129"/>fuerit Christi viuum et mortuum et etiam aliorum 
+      <!--153.xml-->
+      <pb ed="#P" n="71-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>hominum: tamen mortuum potest putrefieri non autem 
+      <lb ed="#P" n="2"/>manens viuum. Uita enim vel anima corpus continet 
+      <lb ed="#P" n="3"/>quandiu manet ne dissoluatur vel putrefiat. Non sicut 
+      <lb ed="#P" n="4"/>autem est corpus dispositum vel contentum ab anima 
+      <lb ed="#P" n="5"/>quando est mortuum sicut patet. vel si anima non continet 
+      <lb ed="#P" n="6"/>corpus tamen non compatitur secum corruptionem. 
+      </p>
+            <p xml:id="qrdBas-c45939-d1e1226">
+               <lb ed="#P" n="7"/>¶ Ad quartum Dicit vnus quod corpus christi mortuum 
+      <lb ed="#P" n="8"/>remansit vnitum verbo eadem vnione qua prius vnie 
+      <lb ed="#P" n="9"/>batur viuum. Dicit enim quod illa vnio totalis totius 
+      na<lb ed="#P" n="10" break="no"/>ture ad verbum ad separationem anime et corporis per 
+      <lb ed="#P" n="11"/>mortem christi fuit diuisa in duas vniones partiales: 
+      <lb ed="#P" n="12"/>quarum vna anima vniebatur et corpus alia. Et iste 
+      <lb ed="#P" n="13"/>due partiales prius erant vna vnio numero quando 
+      <lb ed="#P" n="14"/>tota natura erat vnita et ipsa tota natura tota vnione 
+      <lb ed="#P" n="15"/>vniebatur et pars parte coniuncta tamen alteri et 
+      con<lb ed="#P" n="16" break="no"/>stituente vnam totalem vnionem cum alia. Sed quam 
+      <lb ed="#P" n="17"/>do partes fuerunt separate tunc quelibet pars. 
+      Pu<lb ed="#P" n="18" break="no"/>ta corpus et anima sua partiali vnione vniebatur 
+      diui<lb ed="#P" n="19" break="no"/>sa ab alia in actu. Ponitur exemplum Totum album 
+      <lb ed="#P" n="20"/>est simile alteri toti albo tota albedine sua 
+      funda<lb ed="#P" n="21" break="no"/>mentaliter et tota similitudine formaliter. Si autem 
+      <lb ed="#P" n="22"/>diuidatur totum album diuiditur albedo et 
+      similitu<lb ed="#P" n="23" break="no"/>do consequenter. ita quod pars albi refertur parte 
+      albe<lb ed="#P" n="24" break="no"/>dinis et eadem albedine qua prius et parte 
+      similitu<lb ed="#P" n="25" break="no"/>dinis et eadem parte qua prius nisi quod modo est 
+      diui<lb ed="#P" n="26" break="no"/>sa ab alia parte que prius erat coniuncta.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e1272">
+      ¶ Ista 
+      <lb ed="#P" n="27"/>responsio nihil valet primo quia supponit quod vnio 
+      fun<lb ed="#P" n="28" break="no"/>data immediate super totam naturam et illa que 
+      fun<lb ed="#P" n="29" break="no"/>datur super corpus et alia etiam super animam ad ips 
+      <lb ed="#P" n="30"/>verbum sint etusdem rationis. ita quod prima 
+      consti<lb ed="#P" n="31" break="no"/>tuatur ex duabus aliis sicut totum quoddam homo 
+      <lb ed="#P" n="32"/>geneum ex partibus eiusdem rationis: et patet in 
+      exen<lb ed="#P" n="33" break="no"/>ploeorum de albo siue alteri albo: eiusdem enim 
+      ratio<lb ed="#P" n="34" break="no"/>nis est tota similitudo totius albi cum partiali 
+      simili<lb ed="#P" n="35" break="no"/>tudine partis ipsius albi. Sicut eiusdem rationis 
+      <lb ed="#P" n="36"/>est tota albedo et pars albedinis. Hoc autem falsum 
+      <lb ed="#P" n="37"/>est et impossibile in proposito. Nam tota natura hunc 
+      <lb ed="#P" n="38"/>na super quam immediate fundatur prima vnio est 
+      en<lb ed="#P" n="39" break="no"/>titas alterius rationis ab entitate corporis vel anime 
+      <lb ed="#P" n="40"/>super que immediate fundantur alie due et per 
+      conse<lb ed="#P" n="41" break="no"/>quens oportet relationes vel vniones tales 
+      necessa<lb ed="#P" n="42" break="no"/>rio esse alterius rationis et speciei sicut et fundamenta 
+      <lb ed="#P" n="43"/>immediata et proxima ipsarum. et per consequens etiam 
+      simpli<lb ed="#P" n="44" break="no"/>citer est impossibile quod vnquam concurrant ad 
+      constitu<lb ed="#P" n="45" break="no"/>tionem alicuius per se vnius. Puta illius vnionis 
+      <lb ed="#P" n="46"/>totalis. Preterea ex hac positione sequitur quod eque 
+      <lb ed="#P" n="47"/>primo sint partes vnite sicut totum.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e1320">
+      ¶ Dico ergo 
+      <lb ed="#P" n="48"/>aliter ad argumentum. Quod dato quod corpus fuerit id 
+      <lb ed="#P" n="49"/>viuum et mortuum non tamen quod eadem vnione 
+      vnie<lb ed="#P" n="50" break="no"/>batur verbo viuum et mortuum sicut potest dici se 
+      <lb ed="#P" n="51"/>cundum vnum modum vnum quia existens vniebatur ver 
+      <lb ed="#P" n="52"/>bo vnione illa qua tota natura primo vniebatur et 
+      <lb ed="#P" n="53"/>secundario corpus et anima quia partes in actu totius 
+      na<lb ed="#P" n="54" break="no"/>ture. Sed illa vnio fuit corrupta in morte sicut et 
+      na<lb ed="#P" n="55" break="no"/>tura tota. Et tunc dico quod in eodem instanti fuit causa 
+      <lb ed="#P" n="56"/>ta a deo in corpore vna vnio noua et alterius 
+      ratio<lb ed="#P" n="57" break="no"/>nis a prima et similiter in anima vna alia quibus corpus 
+      <lb ed="#P" n="58"/>et anima fuerunt vnita verbo in triduo. Nec ex hoc 
+      <lb ed="#P" n="59"/>sequitur quod de nouo assumpserit corpus et animam 
+      <lb ed="#P" n="60"/>quia prius assumpserat ista alia tamen 
+      assumptio<lb ed="#P" n="61" break="no"/>ne vel vnione.
+    </p>
+            <p xml:id="qrdBas-c45939-d1e1354">
+      ¶ Aliter diceretur quod corpus mor 
+      <lb ed="#P" n="62"/>tuum mansit vnitum eadem vnione qua prius quia 
+      <lb ed="#P" n="63"/>cum vnione totius nature erat in corpore viuente 
+      <lb ed="#P" n="64"/>propria vnio preter illam vnionem totius nature et 
+      <lb ed="#P" n="65"/>illa remansit in corpore mortuo. Sed non video ne¬ 
+      <!--153.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>cessitatem ponendi in corpore viuo aliam vnionem 
+      <lb ed="#P" n="67"/>ab vnione totius nature. Et ideo teneo me cum 
+      pre<lb ed="#P" n="68" break="no"/>cedenti solutione 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,392 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="102-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c67298"><!--l3d38q1 -->
+            <head xml:id="qrdBas-c67298-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-c67298-d1e101">
+               <lb ed="#P" n="26"/>¶ Distinctionis. xxx viii 
+      <lb ed="#P" n="27"/>Questio Unica. 
+    </p>
+            <p xml:id="qrdBas-c67298-d1e108">
+               <lb ed="#P" n="28"/>CIrca distinctionem 
+      <lb ed="#P" n="29"/>trigesimamoctauam quero. Utrum 
+      <lb ed="#P" n="30"/>omne mendacium sit mortale 
+      <lb ed="#P" n="31"/>peccatum.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e119">
+      ¶ Uidetur quod sic 
+      <lb ed="#P" n="32"/>Illud quod ex se est malum nec 
+      <lb ed="#P" n="33"/>potest bene fieri: ita quod statim 
+      <lb ed="#P" n="34"/>nominatum conuolutum est 
+      mo<lb ed="#P" n="35" break="no"/>lo est peccatum mortale vt 
+      vi<lb ed="#P" n="36" break="no"/>detur. Sed omne mendacium est huiusmodi. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e132">
+               <lb ed="#P" n="37"/>¶ Secundo sic. Illud quod directe opponitur vir 
+      <lb ed="#P" n="38"/>tuti est peccatum mortale quia corrumpit virtutem. 
+      <lb ed="#P" n="39"/>Sed omne mendacium est huiusmodi. Opponitur 
+      <lb ed="#P" n="40"/>enim virtuti que est veritas et est pars iusticie. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e144">
+               <lb ed="#P" n="41"/>¶ Tertio sic. Omne illud propter quod homo 
+      incur<lb ed="#P" n="42" break="no"/>rit perditionem est peccatum mortale. Sed 
+      menda<lb ed="#P" n="43" break="no"/>cium omne est huiusmodi in prses. Perdes omnes 
+      <lb ed="#P" n="44"/>loquuntur medacium. ergo etc. 
+      <lb ed="#P" n="45"/>Multi sancti mentiti sunt in 
+      scri<lb ed="#P" n="46" break="no"/>Contra. ptura sicut Iacob. dicendo. ego 
+      <lb ed="#P" n="47"/>sum filius tuus Esau. Et Iosephfratribus suis ad 
+      <lb ed="#P" n="48"/>considerandum infirma terre venistis. Explorato 
+      <lb ed="#P" n="49"/>res estis et obstetrices saluantes pueros hebreorum 
+      <lb ed="#P" n="50"/>et sic de multis aliis. Sed non videtur quod talia 
+      menda<lb ed="#P" n="51" break="no"/>cia fuerint in ipsis peccata mortalia sicut nec in 
+      Hie<lb ed="#P" n="52" break="no"/>re. quando dicit. Sacrificium nihil est Baal: vt Baal 
+      de<lb ed="#P" n="53" break="no"/>strueret et omnes eius sacerdotes occideret. Nec in 
+      Iu<lb ed="#P" n="54" break="no"/>dich que mentita est Holoferni vt suum populum 
+      <lb ed="#P" n="55"/>liberaret et ipsum occideret. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e179">
+               <lb ed="#P" n="56"/>¶ In ista questione sic procedam. 
+      <lb ed="#P" n="57"/>Primo inquiram vtrum omne mendacium sit pctantum. 
+      <lb ed="#P" n="58"/>Secundo. Utru omne mendacium sit mortale pctantum. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e188">
+               <lb ed="#P" n="59"/>¶ Tertio. Utrum habitus mendacii viciosus opposit 
+      <lb ed="#P" n="60"/>virtuti veritatis pertineat ad intellectum vel 
+      vo<lb ed="#P" n="61" break="no"/>luntatem.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e197">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e199">
+               <lb ed="#P" n="62"/>¶ Quantum ad primum Di¬ 
+      <!--218.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>co breuiter quod omne mendacium est pctantum. Hoc probo / 
+      <lb ed="#P" n="64"/>per rationes et auctoritates.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e212">
+      ¶ Primo sic. Ominis actus 
+      <lb ed="#P" n="65"/>humanus vel actus creature carens circumstantia de e 
+      <lb ed="#P" n="66"/>bita est malus et pctantum. Sed omne mendacium siue 
+      ioco<lb ed="#P" n="67" break="no"/>sum siue officiosum siue perniciosum est actus aliquis carens 
+      <lb ed="#P" n="68"/>circumstantia debita quia caret conformitate ad illud quod 
+      <lb ed="#P" n="69"/>est in mente mentientis. Nam aliddicit et aliud sentit. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e226">
+               <lb ed="#P" n="70"/>¶ Secundo sic. Ominis abusus vocis vel sermonis est 
+      <lb ed="#P" n="71"/>pctantum. Sed omne mendacium est abusus vocis vel set 
+      <lb ed="#P" n="72"/>monis. Nam ad hoc est nobis datus sermo vt 
+      presto<lb ed="#P" n="73" break="no"/>fiant mutue voluntatis iudicia secundum platonem. Et secundum 
+      <lb ed="#P" n="74"/>Aristotelem voces sunt note eatum passionum quae sunt in 
+      <lb ed="#P" n="75"/>anima et tunc patet quod mentiens abutitur sermone et 
+      voce<lb ed="#P" n="76" break="no"/>sua quia per ipsam non exprimit illud quod est in mente quod 
+      <lb ed="#P" n="77"/>intendit sed aliud. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e246">
+      ¶ Tertio sic. Omne illud 
+      <lb ed="#P" n="78"/>pctantum est quod opponitur vertuti. Sed omne mendacitu 
+      <lb ed="#P" n="79"/>est actus oppositus actui virtutis qui est veritas et 
+      dif<lb ed="#P" n="80" break="no"/>cordans a ratione recta. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e255">
+      ¶ Quarto sic. Omene 
+      <lb ed="#P" n="81"/>illud est pectantum quod quantum est de se est alterius deceptiuum. 
+      <lb ed="#P" n="82"/>Sed omne mendacium quantum est de se deceptiuum est 
+      <lb ed="#P" n="83"/>audientis. Nam secundum Augustinum contra mendacium 
+      Men<lb ed="#P" n="84" break="no"/>dacium est falsa sigintio vocis cum intentione fallend 
+      <lb ed="#P" n="85"/>Et intelligendum est quantum est ex natura mendacii 
+      <lb ed="#P" n="86"/>licet non semper ex parte mentientis. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e271">
+      ¶ Ad hoc 
+      <lb ed="#P" n="87"/>sunt auctoritates multe. Eccle. 17. Noli mentir 
+      <lb ed="#P" n="88"/>omne mendacium. Et in praes. Filii hominum vsquequo 
+      gra<lb ed="#P" n="89" break="no"/>ui corde vt quid diligitis veritatem et queritis mendi 
+      <lb ed="#P" n="90"/>cium. Et August. contra mendacium dicit. 
+      Menda<lb ed="#P" n="91" break="no"/>ciorum genera multa sunt qua quidem omnia vieliter odisse de 
+      <lb ed="#P" n="92"/>bemus. Nullum enim mendacium est quod non sit contrarium 
+      <lb ed="#P" n="93"/>veritati. Et ponit exemplum. Sicut lux et tenebra 
+      com<lb ed="#P" n="94" break="no"/>trariantur. Est enim mendacium iocosum quod nulli 
+      al<lb ed="#P" n="95" break="no"/>teri a dicente abest sed prodest alicui ad solacium 
+      men<lb ed="#P" n="96" break="no"/>dacium ociosum quod nec dicenti nec alteri prodest nec al 
+      <lb ed="#P" n="97"/>teri a dicente obest. Mendacium officiosum quod 
+      alte<lb ed="#P" n="98" break="no"/>ri a dicente vel dicendi prodest ad aliquem effectum 
+      perni<lb ed="#P" n="99" break="no"/>ciosum quod alicui obest et nulli prodest et omnia sunt 
+      pec<lb ed="#P" n="100" break="no"/>cata quae omnia ista breuiter obsunt dicentibus. Hec de 
+      <lb ed="#P" n="101"/>primo articulo 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e306">
+               <lb ed="#P" n="102"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="103" break="no"/>ticulum dicitur communiter quod non omne mendacium 
+      <lb ed="#P" n="104"/>est mortale peccatum simpliciter et quibuscumque perse 
+      <lb ed="#P" n="105"/>nis: sed solum mendacium perniciosum. Unde men 
+      <lb ed="#P" n="106"/>dacium iocosum vel ociosum seu officiosum non est 
+      <lb ed="#P" n="107"/>peccatum viris vel personis imperfectis quia non 
+      <lb ed="#P" n="108"/>sunt caritatem dei nec proximi nec tollunt 
+      carita<lb ed="#P" n="109" break="no"/>tem ab habente ipsam: sed solum mendacium 
+      per<lb ed="#P" n="110" break="no"/>niciosum quod est contra caritatem directe vt 
+      sa<lb ed="#P" n="111" break="no"/>tis patet. Sed in viris perfectis cuiusmodi sunt 
+      vi<lb ed="#P" n="112" break="no"/>ri religiosi vel prelati vel doctores legis divine 
+      di<lb ed="#P" n="113" break="no"/>cunt aliqui quod omne mendacium est peccatum 
+      mor<lb ed="#P" n="114" break="no"/>tale non solum perniciosum quod fit ex malignitate 
+      <lb ed="#P" n="115"/>et voluntate nocendi proximo sed etiam iocosum 
+      <lb ed="#P" n="116"/>officiosum vel ociosum. Et ratio huius est: quia 
+      <lb ed="#P" n="117"/>omnibus istis commissa est veritas specialiter de 
+      <lb ed="#P" n="118"/>fendenda et tuenda. Et ita nullo modo nisi cum 
+      gra<lb ed="#P" n="119" break="no"/>ui offensa possunt mentiri.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e348">
+      ¶ Secundo quia mens 
+      <lb ed="#P" n="120"/>virorum perfectorum superne veritati debet 
+      adhe<lb ed="#P" n="121" break="no"/>rere et adheret quod non possunt dicere contra 
+      verita<lb ed="#P" n="122" break="no"/>tem nisi ex conceptu. Sed hoc est peccatum morta 
+      <lb ed="#P" n="123"/>le. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e360">
+      ¶ Confirmatur per glosam super illud 
+      <lb ed="#P" n="124"/>ipsus. Perdes omnes qui loquuntur mendacium. 
+      <lb ed="#P" n="125"/>Dicit ibi quod mendacium perfectis non conuenit nec 
+      <lb ed="#P" n="126"/>etiam pro temporali alicuius vita seruanda. 
+      <!--219.xml-->
+      <pb ed="#P" n="102-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>videtur mihi sine 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e378">
+               <lb ed="#P" n="2"/>¶ Sed ista opinio ratione esse et etiam 
+      <lb ed="#P" n="3"/>nimis dura: et vellem quod qui ponunt tales opinio. 
+      <lb ed="#P" n="4"/>nes ita duras sine efficaci ratione vel cogente 
+      au<lb ed="#P" n="5" break="no"/>toritate quod ipsi vltra alios obligarentur ad obseruat 
+      <lb ed="#P" n="6"/>dum eas.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e391">
+      ¶ Dico enim quod mendacium non omne 
+      <lb ed="#P" n="7"/>est mortale peccatum viris perfectis sine ratione 
+      <lb ed="#P" n="8"/>vite assumpte sine ratione doctrine veritatis pre 
+      <lb ed="#P" n="9"/>dicande vel docende siue ratione prelationis 
+      exercem<lb ed="#P" n="10" break="no"/>de nisi illud mendacium fieret in scandalum 
+      audien<lb ed="#P" n="11" break="no"/>tium vel in preiudicium veritatis in actu iudicii vel 
+      <lb ed="#P" n="12"/>in actu docendi vel huiusmodi. Cum enim alia men 
+      <lb ed="#P" n="13"/>dacia a pernicioso sint aliis venialia cicumstantia per 
+      <lb ed="#P" n="14"/>sone non trahit ea ad mortale sicut nec aliquod alid 
+      <lb ed="#P" n="15"/>peccatum nisi forte alicuius annexi. Puta voti de 
+      <lb ed="#P" n="16"/>opposito vel alicuius talis quod non habet locum 
+      in<lb ed="#P" n="17" break="no"/>proposito. Unde istis non sic committitur veritas custo 
+      <lb ed="#P" n="18"/>dienda quod in omni actu eorum necessario 
+      aduerten<lb ed="#P" n="19" break="no"/>dum mortale peccatum debeat veritas obseruari: 
+      <lb ed="#P" n="20"/>sed bene in actibus supradictis pertinentibus ad 
+      <lb ed="#P" n="21"/>perfectionem. Puta in actu docendi et iudicandi et 
+      vi<lb ed="#P" n="22" break="no"/>scandalum vitetur sed non semper nec in communi actu 
+      <lb ed="#P" n="23"/>eorum.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e430">
+      ¶ Si enim ratio ipsorum esset bona quod 
+      omne<lb ed="#P" n="24" break="no"/>mendacium mortale est religiosis et doctoribus vel 
+      <lb ed="#P" n="25"/>prelatis quia alias veritas que ipsis commissa est 
+      spe<lb ed="#P" n="26" break="no"/>cialiter periclitaretur pari ratione cum non minus 
+      com<lb ed="#P" n="27" break="no"/>missa sit perfectio vite quam veritas doctrine omne 
+      pecca<lb ed="#P" n="28" break="no"/>tum esset eis mortale et nullum veniale quod est 
+      co<lb ed="#P" n="29" break="no"/>tra beatum Iohannem in canonica sua quie erat 
+      prela<lb ed="#P" n="30" break="no"/>tus et perfectus et tamen dicebat. Si dixerimus quia 
+      <lb ed="#P" n="31"/>peccatum non habebus ipsinos seducimus et 
+      veri<lb ed="#P" n="32" break="no"/>tas in nobis non est. Et planum est quod de peccato 
+      ve<lb ed="#P" n="33" break="no"/>niali non mortali intendebat. Unde patet quod ratio eorum 
+      <lb ed="#P" n="34"/>non valet.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e456">
+      ¶ Ad auctoritatem glose dico quod mentiri 
+      <lb ed="#P" n="35"/>perfectis viris non conuenit inquantum perfecti sunt 
+      <lb ed="#P" n="36"/>sed imperfectionis est mentiri non tamen 
+      imperfe<lb ed="#P" n="37" break="no"/>ctionis mortalis sed frequenter venialis. Hec de se 
+      <lb ed="#P" n="38"/>cundo articulo. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e467">
+               <lb ed="#P" n="39"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="40" break="no"/>ticulum. Notandum est quod ex assiduitate vel 
+      freque<lb ed="#P" n="41" break="no"/>tia mentiendi generatur in mente aliquis habitus 
+      <lb ed="#P" n="42"/>viciosus facilitans ad actum mendacii sicut ex 
+      acti<lb ed="#P" n="43" break="no"/>bus frequentibus verum dicendi generatus est 
+      habi<lb ed="#P" n="44" break="no"/>tus virtuosus qui dicitur habitus veritatis qui est 
+      <lb ed="#P" n="45"/>virtus vel pars virtutis qua eligit aliquis 
+      prompte<lb ed="#P" n="46" break="no"/>et faciliter manifestare alteri veritatem quam habet 
+      in<lb ed="#P" n="47" break="no"/>mente propter bonum finem et sicut oportet et quando et vbi 
+      <lb ed="#P" n="48"/>oportet secundum iudicium recte rationis.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e492">
+      ¶ De isto 
+      er<lb ed="#P" n="49" break="no"/>go habitu mendacii dubium est ad quam potentiam 
+      <lb ed="#P" n="50"/>formaliter pertineat vel in qua generetur. Et dicunt 
+      <lb ed="#P" n="51"/>aliqui quod ad intellectum pertinet et non ad voluntatem 
+      <lb ed="#P" n="52"/>Primo quia ad intellectum pertinet loqui et verbum 
+      <lb ed="#P" n="53"/>mentale et non ad voluntatem. Secundo quia ad intel 
+      <lb ed="#P" n="54"/>lectum pertinet verum et falsum. Unde verum et fal 
+      <lb ed="#P" n="55"/>sum sunt in intellectu et bonum et malum sunt in 
+      re<lb ed="#P" n="56" break="no"/>Unde verum et falsum ad intellectum pertinent sicut 
+      <lb ed="#P" n="57"/>obiecta et per consequens dicere verum vel falsum et  
+      <lb ed="#P" n="58"/>consequens mentiri. Tertio quia ad intellectum 
+      peri<lb ed="#P" n="59" break="no"/>net decipi vel errare. ergo similiter ad ipsum pertinet 
+      <lb ed="#P" n="60"/>decipere et mentiri. Dicunt ergo quod ad intellectum per 
+      <lb ed="#P" n="61"/>tinet formaliter habitus viciosus mendacium et non 
+      <lb ed="#P" n="62"/>ad voluntatem. 
+      <lb ed="#P" n="63"/>istam opinionem dico quod 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e527">
+               <lb ed="#P" n="64"/>¶ Sed contra habitus viciosus men¬ 
+      <!--219.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>dacii pertinet formaliter ad voluntatem et ipsa 
+      ge<lb ed="#P" n="66" break="no"/>neratur et non pertinet formaliter ad intellectum / 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e540">
+               <lb ed="#P" n="67"/>¶ Hoc probo sic. Ad eandem potentiam pertinet 
+      <lb ed="#P" n="68"/>virtus veritatis et habitus mendacii vel vicium 
+      falsi<lb ed="#P" n="69" break="no"/>tatis. Sed ad voluntatem pertinet virtus veritatis quia 
+      <lb ed="#P" n="70"/>ipsa est pars iusticie secundum omnes Iusticia vero ad 
+      volun<lb ed="#P" n="71" break="no"/>tatem pertinet. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e553">
+      ¶ Secundo sic. Habitus 
+      el<lb ed="#P" n="72" break="no"/>ctiuus manifestandi alteri quod habet loquens in 
+      men<lb ed="#P" n="73" break="no"/>te secundum iudicium rationis recte ad voluntatem perti 
+      <lb ed="#P" n="74"/>net. ergo similiter habitus electiuus pretendendi 
+      <lb ed="#P" n="75"/>vel loquendi alteri quod non sentit pertinet ad 
+      volun<lb ed="#P" n="76" break="no"/>tatem. Sed talis est habitus mendacii viciosus. ergo 
+      <lb ed="#P" n="77"/>etc.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e569">
+      ¶ Tertio sic. Ad illam potentiam ad quam perti 
+      <lb ed="#P" n="78"/>net mouere potentiam locutiuam exteriorem et lin 
+      <lb ed="#P" n="79"/>guam ad verbum mendacii pertinet principaliter 
+      <lb ed="#P" n="80"/>habitus viciosus mendacii. Sed hoc est ad 
+      volun<lb ed="#P" n="81" break="no"/>tatem non ad intellectum patet. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e580">
+      ¶ Quarto sic. 
+      <lb ed="#P" n="82"/>Aut ille habitus pertinet ad intellectuu aut ad 
+      vo<lb ed="#P" n="83" break="no"/>luntatem aut ad potentiam exteriorem exsecutiuan. 
+      <lb ed="#P" n="84"/>Sed ad potentiam exteriorem non pertinet habit 
+      <lb ed="#P" n="85"/>alicuius vicii sicut nec vertutis. Nec ad intellectum quia 
+      <lb ed="#P" n="86"/>nec veritas vertus ad intellectum pertinet quia non 
+      <lb ed="#P" n="87"/>est virtus intellectualis. Patet. 6. ethi. Similiter 
+      <lb ed="#P" n="88"/>etiam quia intellectus quantumcunque homo mentiatur non 
+      <lb ed="#P" n="89"/>necessario mentitur nec iudicat falsum: sed potest 
+      iu<lb ed="#P" n="90" break="no"/>dicare et dicere verum tantum homo ex imperio 
+      vo<lb ed="#P" n="91" break="no"/>luntatis et motione dicit aliud a vero quod intellect 
+      <lb ed="#P" n="92"/>iudicat eat sentit. ergo etc.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e607">
+      ¶ Dico igitur quod habitus  
+      <lb ed="#P" n="93"/>mendacii viciosus pertinet ad voluntatem et 
+      gene<lb ed="#P" n="94" break="no"/>ratur in ipsa sicut in subiecto. 
+      <lb ed="#P" n="95"/>aliorum. Dico quod licet ad  
+      </p>
+            <p xml:id="qrdBas-c67298-d1e616">
+               <lb ed="#P" n="96"/>¶ Ad primum intelectum pertincat 
+      mi<lb ed="#P" n="97" break="no"/>taliter loqui et verbum cognoscando verum vel 
+      fal<lb ed="#P" n="98" break="no"/>sum ad ipsum tamen non pertinet loqui mendacium. Si 
+      <lb ed="#P" n="99"/>ad linguam exteriorem motam ab ipsa voluntate 
+      quan<lb ed="#P" n="100" break="no"/>tumcunque intellectus verum iudicet et stet cum 
+      verita<lb ed="#P" n="101" break="no"/>te que est obiectum intellectus non que est vertus quia 
+      <lb ed="#P" n="102"/>illa pertinet ad voluntatem sicut dictum est supra 
+      <lb ed="#P" n="103"/>et ideo ad ipsam etiam pertinet habitus falsitatis si 
+      <lb ed="#P" n="104"/>bi oppositus. Unde et proprie loquendo vicium 
+      falsi<lb ed="#P" n="105" break="no"/>tatis quod opponitur vertuti morali ipsius veritatis  
+      <lb ed="#P" n="106"/>non pertinet ad potentiam ad quam pertinet loqui elt 
+      <lb ed="#P" n="107"/>cite sed magis ad potentiam ad quam pertinet impere 
+      <lb ed="#P" n="108"/>tiue et motiue cuiusmodi est voluntas.
+    </p>
+            <p xml:id="qrdBas-c67298-d1e647">
+      ¶ Ad 
+      secun<lb ed="#P" n="109" break="no"/>dum et tertium per idem quod dictum est vltimo est 
+      <lb ed="#P" n="110"/>dicendum quod scilicet ad potentiam ad quam pertinet 
+      ve<lb ed="#P" n="111" break="no"/>rum vel falsum per modum obiecti saltem immediate r 
+      <lb ed="#P" n="112"/>et ad illam ad quam formaliter pertinet decipi vel 
+      er<lb ed="#P" n="113" break="no"/>rare non pertinet formaliter veritas virtus vel fal 
+      <lb ed="#P" n="114"/>sitas vicium / sed magis ad voluntatem quia isti non 
+      <lb ed="#P" n="115"/>sunt habitus cognitiui sed electiui vt dictum est supra. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e665">
+               <lb ed="#P" n="116"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="117"/>quod actus ex le malus qui non potest bene fieri et transit 
+      <lb ed="#P" n="118"/>super obiectum disconueniens: et ita non est bonus  
+      <lb ed="#P" n="119"/>ex genere sicut est actus mendacii qui transit super 
+      <lb ed="#P" n="120"/>obiectum cuius oppositum concipitur et sentitur a 
+      <lb ed="#P" n="121"/>dicente non est necessario peccatum mortale sed 
+      al<lb ed="#P" n="122" break="no"/>quid plus requiritur scilicet quod sit contra caritatem 
+      <lb ed="#P" n="123"/>sed dico bene quod est peccatum veniale saltem. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e685">
+               <lb ed="#P" n="124"/>¶ Ad secundum per idem dico quod non omnis actus 
+      <lb ed="#P" n="125"/>oppositus actui cuiuscunque virtutis est peccatum 
+      <lb ed="#P" n="126"/>mortale: licet bene sit saltem veniale sicut de actu 
+      <lb ed="#P" n="127"/>bibendi aliquantulum excessiue contra actum tem 
+      <lb ed="#P" n="128"/>perantie vel sobrietatis. 
+      </p>
+            <p xml:id="qrdBas-c67298-d1e698">
+        <!--220.xml-->
+               <pb ed="#P" n="103-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Ad tertium dico quod illud verbum debet accipi de 
+      <lb ed="#P" n="2"/>mendacio pernicioso. Ad illud in oppositum dico quod 
+      <lb ed="#P" n="3"/>non est inconueniens illas personas veteris testame 
+      <lb ed="#P" n="4"/>ti venialiter fuisse meritas. Non enim fuerunt 
+      perfe<lb ed="#P" n="5" break="no"/>ctioris status vel gratie quam persone perfecte noui 
+      te<lb ed="#P" n="6" break="no"/>stamenti. De Iacob tamen dicitur quod non fuit men 
+      <lb ed="#P" n="7"/>titus quia et si non erat Esau in persona / erat tamen 
+      <lb ed="#P" n="8"/>in benedictione recipienda tanquam ille cui 
+      vendide<lb ed="#P" n="9" break="no"/>rat Esau primogenita et per consequens ius primogeniture. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,910 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="30-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c19481"><!--l3d4q1 -->
+            <head xml:id="qrdBas-c19481-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-c19481-d1e101">
+               <lb ed="#P" n="115"/>¶ Distinctionis Quarte libri Tertum 
+      <lb ed="#P" n="116"/>Sententiarum. Questio Unica.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e108">
+               <lb ed="#P" n="117"/>CIrca distinctionem 
+      <lb ed="#P" n="118"/>quartam queritur vtrum beata 
+      <lb ed="#P" n="119"/>virgo fuerit vera mater 
+      Chri<lb ed="#P" n="120" break="no"/>sti et naturalis mater.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e119">
+      ¶ 
+      Ui<lb ed="#P" n="121" break="no"/>detur quod non: quia secundum opinionem 
+      <lb ed="#P" n="122"/>Galeni quam recitat Auicenna 
+      <lb ed="#P" n="123"/>primo canonis. Mater est 
+      pri<lb ed="#P" n="124" break="no"/>cipium non solum passiuum: si 
+      <lb ed="#P" n="125"/>etiam actiuum in productione 
+      fi<lb ed="#P" n="126" break="no"/>lii. Sed beata virgo nichil cooperata est actiue ad 
+      <lb ed="#P" n="127"/>generationem Christi: quia illa fuit in instanti 
+      virtu<lb ed="#P" n="128" break="no"/>te spiritus sancti non mediante motu vel alteratione 
+      <lb ed="#P" n="129"/>facta que est sufficientissima virtus: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e141">
+      ¶ Secundo 
+      <!--69.xml-->
+      <pb ed="#P" n="30-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sic. Mater habet rationem principii respectu illius 
+      <lb ed="#P" n="2"/>cuius dicitur mater: vt respectu suppositi 
+      producti<lb ed="#P" n="3" break="no"/>quia generatio terminatur ad suppositum. Sed 
+      sup<lb ed="#P" n="4" break="no"/>positum Christi non est principiatum a virgine: quia est 
+      <lb ed="#P" n="5"/>a solo deo patre per generationem eternam: quia non est 
+      <lb ed="#P" n="6"/>ibi aliud suppositum quam verbum eternum dei filius: 
+      er<lb ed="#P" n="7" break="no"/>go etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e166">
+      ¶ Tertio sic. Spiritus sanctus non potest 
+      di<lb ed="#P" n="8" break="no"/>ci pater Christi sicut nec christus filius spiritus san 
+      <lb ed="#P" n="9"/>cti secundum Magistrum in litera et secundum Augustinum. 2. de 
+      <lb ed="#P" n="10"/>trinitate: ergo nec beata virgo potest dici mater 
+      eius<lb ed="#P" n="11" break="no"/>quia multominus principiauit istam generationem 
+      <lb ed="#P" n="12"/>Christi quam spiritus sanctus 
+      <lb ed="#P" n="13"/>Luce I. Ecce concipies et paries 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e182">
+               <lb ed="#P" n="14"/>¶ Contra filium. Et Mathei I dicitur. 
+      C<lb ed="#P" n="15" break="no"/>esset desponsata mater iesu maria ioseph etc. et 
+      mul<lb ed="#P" n="16" break="no"/>ta alia: quare etc 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e191">
+               <lb ed="#P" n="17"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e196">
+               <lb ed="#P" n="18"/>¶ Primo inquiram an beata virgo fuerit 
+      coope<lb ed="#P" n="19" break="no"/>rata actiue ad generationem Christi temporalem. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e203">
+               <lb ed="#P" n="20"/>¶ Secundo ostendam an sit vera mater naturalis 
+      <lb ed="#P" n="21"/>ipsius Christi et quomodo.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e210">
+      ¶ Tertio an meruerit 
+      <lb ed="#P" n="22"/>esse mater Christi.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e216">
+      ¶ Ultimo ad rationes 
+      <lb ed="#P" n="23"/>est vna opinie 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e221">
+               <lb ed="#P" n="24"/>¶ Quantum ad primum quod nec beata 
+      din<lb ed="#P" n="25" break="no"/>go nec aliqua mater alia facit aliquid effectiue nec 
+      <lb ed="#P" n="26"/>cooperatur actiue ad generationem filii vel fetus: 
+      <lb ed="#P" n="27"/>sed solum habet rationem principii passiui vel 
+      rece<lb ed="#P" n="28" break="no"/>ptiui prestando vas nec aliquid etiam se tenens ex 
+      per<lb ed="#P" n="29" break="no"/>te matris se habet actiue sed solum pater vel illud 
+      <lb ed="#P" n="30"/>quod se tenet ex parte patris puta semen viri vel 
+      spe<lb ed="#P" n="31" break="no"/>ma. Non autem menstruum mulieris nec mulier 
+      ip<lb ed="#P" n="32" break="no"/>sa.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e243">
+      ¶ Ad hoc adducuntur rationes et auctoritates  
+      </p>
+            <p xml:id="qrdBas-c19481-d1e245">
+               <lb ed="#P" n="33"/>¶ Prima ratio est ista. Si mulier esset principium 
+      <lb ed="#P" n="34"/>actiuum generationis: tunc posset per seipsam 
+      ge<lb ed="#P" n="35" break="no"/>nerare et masculus superflueret. Probatio: quia 
+      di<lb ed="#P" n="36" break="no"/>cit philosophus. 2. de anima quod cum sensus sit passiuus si 
+      <lb ed="#P" n="37"/>cum hoc esset actiuus posset sentire per seipsum si 
+      <lb ed="#P" n="38"/>ne obiecto. Sicut etiam lignum si esset calidum 
+      com<lb ed="#P" n="39" break="no"/>bureret seipsum. Ita dico de muliere que est 
+      passi<lb ed="#P" n="40" break="no"/>ua in generatione. Sed hoc est inconueniens et fal 
+      <lb ed="#P" n="41"/>sum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e267">
+      ¶ Secunda ratio. Nichil agit in 
+      instan<lb ed="#P" n="42" break="no"/>ti in quo corrumpitur nec ad corruptionem suiipsius 
+      <lb ed="#P" n="43"/>quia non est. Sed semen mulieris in instanti 
+      genera<lb ed="#P" n="44" break="no"/>tionis corrumpitur vt ex ipso fetus formetur per 
+      cor<lb ed="#P" n="45" break="no"/>ruptionem ipsius: quia generatio vnius est 
+      corru<lb ed="#P" n="46" break="no"/>ptio alterius: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e280">
+      ¶ Tertia ratio. 
+      Impossibi<lb ed="#P" n="47" break="no"/>le est duo agentia vniuoca concurrere simul et eodem 
+      <lb ed="#P" n="48"/>ordine ad eundem effectum. Probatio: quia vnum 
+      ta<lb ed="#P" n="49" break="no"/>ium sufficit ad perfectionem totalem effectus 
+      vniuo<lb ed="#P" n="50" break="no"/>ci producendam: quia est tante perfectionis quante et 
+      <lb ed="#P" n="51"/>effectus et ita alterum superfluit. Sed pater et 
+      ma<lb ed="#P" n="52" break="no"/>ter sunt cause vniuoce respectu fetus geniti vt 
+      pa<lb ed="#P" n="53" break="no"/>tet et pater est causa actiua secundum omnes non igitur 
+      ma<lb ed="#P" n="54" break="no"/>ter vt videtur.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e301">
+      ¶ Quarta ratio. Impossibile est et im 
+      <lb ed="#P" n="55"/>plicat contradictionem idem esse actiuum et passiuum 
+      <lb ed="#P" n="56"/>respectu eiusdem. Sed mulier vel semen se tenens 
+      ex<lb ed="#P" n="57" break="no"/>parte mulieris est passiuum principium 
+      generatio<lb ed="#P" n="58" break="no"/>nis non ergo actiuum per se loquendo. 
+      <lb ed="#P" n="59"/>adducitur auctoritas Augustum 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e314">
+               <lb ed="#P" n="60"/>¶ Ad hoi ni in proposito de beata virgine 
+      <lb ed="#P" n="61"/>quod nichil fuerit ibi cooperata actiue. Prima est. 4 
+      <lb ed="#P" n="62"/>super Genesim vbi dicit quod Christus non venit secundum 
+      <lb ed="#P" n="63"/>rationem seminalem I secundum aliquam vim actiuam 
+      semi<lb ed="#P" n="64" break="no"/>nis: quia semen prout ad ipsum pertinet ratio semi¬ 
+      <!--69.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>nalis reducit Philosophus in. 2. phisicorum ad 
+      prin<lb ed="#P" n="66" break="no"/>cipium actiuum: igitur videtur quod beata virgo non 
+      <lb ed="#P" n="67"/>fuerit ibi cooperata actiue. Et hoc idem videtur 
+      Au<lb ed="#P" n="68" break="no"/>gustinus dicere. 9. super Genesim et. 4. Nam alias 
+      <lb ed="#P" n="69"/>fuisset Christus decunatus in lumbis abrahe eodem 
+      <lb ed="#P" n="70"/>modo quo et leui cuius oppositum ipse dicit et 
+      Magi<lb ed="#P" n="71" break="no"/>ster etiam in litera.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e347">
+      ¶ Confirmatur ista opinio per 
+      <lb ed="#P" n="72"/>philosophum. 19. de animalibus vbi ponit hoc 
+      expres<lb ed="#P" n="73" break="no"/>se. Unde comparat ibi semen viri ad semen mulieris 
+      <lb ed="#P" n="74"/>in generatione sicut artificem ad materiam et sicut 
+      <lb ed="#P" n="75"/>coagulum ad lac et ista se habent pure passiue per se 
+      <lb ed="#P" n="76"/>loquendo respectu illorum.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e360">
+      ¶ Adducit etiam ibidem 
+      <lb ed="#P" n="77"/>Philosophus aliqua signa ad hoc. Unum est de ouis 
+      <lb ed="#P" n="78"/>venti ex quibus generatur aliquid si semen 
+      mascu<lb ed="#P" n="79" break="no"/>li superinfundatur. Secundum est de ouis pisciun 
+      <lb ed="#P" n="80"/>proiectis a matre ex quibus generantur pisces si 
+      se<lb ed="#P" n="81" break="no"/>men maris superinfundatur. Tertium signum est de 
+      <lb ed="#P" n="82"/>coagulo et lacte quod se habet pure passiue 
+      respectu<lb ed="#P" n="83" break="no"/>coaguli sic semen mulieris respectu virilis. Quartum 
+      <lb ed="#P" n="84"/>signum: quia mulier secundum Aristotelem potest 
+      concurre<lb ed="#P" n="85" break="no"/>re dato quod non spermatimet: quare etc. 
+      <lb ed="#P" n="86"/>isti quod alie matres a vit 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e384">
+               <lb ed="#P" n="87"/>¶ Dicunt ergo gine nichil cooperantu 
+      <lb ed="#P" n="88"/>ad generationem actiue nisi forte per accidens: quia 
+      se<lb ed="#P" n="89" break="no"/>mina aliquo modo contrariantur et sic semen viria 
+      <lb ed="#P" n="90"/>semine mulieris aliquo modo per accidens repatitur 
+      <lb ed="#P" n="91"/>Sed beata virgo nichil per accidens cooperabatur 
+      <lb ed="#P" n="92"/>vllo modo: quia semen suum vel materia 
+      ministra<lb ed="#P" n="93" break="no"/>ta non resistebat spiritui sancto vllo modo. hec est 
+      <lb ed="#P" n="94"/>prima opinio. 
+      <lb ed="#P" n="95"/>si de hoc quae dicit quod bea¬ 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e406">
+               <lb ed="#P" n="96"/>¶ Alia opinio elt ta virgo coperati 
+      <lb ed="#P" n="97"/>fuit actiue ad generationem Christi per vnam virtutem 
+      <lb ed="#P" n="98"/>supernaturalem collatam sibi a spiritu sancto tandue 
+      <lb ed="#P" n="99"/>agenti minus principali a principali agente. Unde 
+      <lb ed="#P" n="100"/>non est ibi cooperata per aliquam virtutem naturale 
+      <lb ed="#P" n="101"/>sicut nec alie mulieres. Quod probant: quia sicut 
+      di<lb ed="#P" n="102" break="no"/>ctum est in secundo semen viri non est actiuum per se at 
+      <lb ed="#P" n="103"/>tingendo ad aliquam formam substantialem fetus nec 
+      <lb ed="#P" n="104"/>vir ipse: ergo multo fortius nec mulier ipsa nec 
+      se<lb ed="#P" n="105" break="no"/>men eius.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e431">
+      ¶ Quod autem cooperata fuerit tali virtute 
+      <lb ed="#P" n="106"/>supernaturali data sibi vel collata a spiritu 
+      sancto<lb ed="#P" n="107" break="no"/>Probant auctoritate Damasce. lib. 2. vbi dicit quod 
+      <lb ed="#P" n="108"/>post consensum virginis superuenit spiritus sanctus 
+      <lb ed="#P" n="109"/>tribuens ei virtutem susceptiuam verbi simul et 
+      gene<lb ed="#P" n="110" break="no"/>ratiuam: igitur cooperata est actiue tali dono super 
+      <lb ed="#P" n="111"/>naturali diuinitus sibi dato propter quod et bene 
+      dic<lb ed="#P" n="112" break="no"/>tur sibi. Luce 1. Spiritus sanctus superueniet in 
+      te<lb ed="#P" n="113" break="no"/>et virtus altissimi obumbrabit tibi. hec est 
+      secun<lb ed="#P" n="114" break="no"/>da opinio. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e453">
+               <lb ed="#P" n="115"/>¶ Contra primam opinionem 
+      <lb ed="#P" n="116"/>Arguitur primo per rationes. Secundo per 
+      auctorita<lb ed="#P" n="117" break="no"/>tes et contra secundam similiter pro quanto conuenit cum 
+      <lb ed="#P" n="118"/>prima.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e464">
+      ¶ Primo sic. Forme eiusdem rationis pre 
+      <lb ed="#P" n="119"/>cipue secundum ponentes potentias esse consubstantiales 
+      il<lb ed="#P" n="120" break="no"/>lis formis. Sed forme masculi et femine puta 
+      ani<lb ed="#P" n="121" break="no"/>me sunt eiusdem rationis: quia non differunt nisi pe 
+      <lb ed="#P" n="122"/>materiam vel conditiones materiales. 4. metha. 
+      <lb ed="#P" n="123"/>ergo et potentie eorum puta potentia generatiua 
+      in<lb ed="#P" n="124" break="no"/>vtroque. Sed in viro vel masculo potentia 
+      generati<lb ed="#P" n="125" break="no"/>ua est actiua: ergo et in femina vel muliere.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e482">
+      ¶ 
+      Secun<lb ed="#P" n="126" break="no"/>da ratio. Unusquisque diligit opus suum quod agii 
+      <lb ed="#P" n="127"/>sicut dicitur. 4. ethicorum sicut poete poemata sua. 
+      <lb ed="#P" n="128"/>Sed matres communiter plus diligunt pueros quam pa¬ 
+      <!--70.xml-->
+      <pb ed="#P" n="31-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tres: ergo magis agunt ad generationem vel saltem si 
+      <lb ed="#P" n="2"/>cut et patres et magis amant: quia cum hoc quod agunt 
+      <lb ed="#P" n="3"/>etiam materiam administrant. Dicis quod magis 
+      patium<lb ed="#P" n="4" break="no"/>tur pro ipsis: ideo magis amant: ideo videtur ista e 
+      <lb ed="#P" n="5"/>se bona solutio ad Aristotelem. Non enim dicit quod 
+      di<lb ed="#P" n="6" break="no"/>ligant homines suas passiones vel illa pro quibus 
+      <lb ed="#P" n="7"/>patiuntur sed opera sua que agunt.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e513">
+      ¶ Tertia 
+      ra<lb ed="#P" n="8" break="no"/>tio. Agens in agendo assimilat sibi passum vel 
+      effe<lb ed="#P" n="9" break="no"/>ctum: licet frequenter magis assimilatur matri quam 
+      pa<lb ed="#P" n="10" break="no"/>tri: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e522">
+      ¶ Quarta ratio. Si mater tantum prestat 
+      ma<lb ed="#P" n="11" break="no"/>teriam et ministrat vas se habendo pure passiue 
+      re<lb ed="#P" n="12" break="no"/>spectu fetus videtur quod pari ratione si generaretur 
+      <lb ed="#P" n="13"/>buffo in ventre eius sicut in ventribus aliquarum 
+      sa<lb ed="#P" n="14" break="no"/>maritanarum posset dici mater buffonis. Sed hoc 
+      <lb ed="#P" n="15"/>est falsum: ergo etc. Dices quod non: quia buffo non est 
+      eius<lb ed="#P" n="16" break="no"/>dem nature cum muliere: et ideo non diceretur filius 
+      <lb ed="#P" n="17"/>eius. Istud non videtur valere: quia mulus est alterius 
+      <lb ed="#P" n="18"/>nature quam asina. Et tamen dicitur filius asine et illa 
+      di<lb ed="#P" n="19" break="no"/>citur mater eius: quare etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e545">
+      ¶ Confirmatur ista 
+      opi<lb ed="#P" n="20" break="no"/>nio per Galenum qui fuit huius opinionis sicut 
+      re<lb ed="#P" n="21" break="no"/>citat Auicenna primo canonis et sibi magis est 
+      cre<lb ed="#P" n="22" break="no"/>dendum in hoc quam philosopho: quia istud propositum 
+      <lb ed="#P" n="23"/>est de particularibus nature que magis spectant ad 
+      <lb ed="#P" n="24"/>medicos quam ad philosophum naturalem: ideo etc. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e558">
+               <lb ed="#P" n="25"/>¶ Confirmatur etiam secundo per Commentatorem 
+      <lb ed="#P" n="26"/>secundo de anima vbi dicit quod omnes potentie vegetatiue 
+      <lb ed="#P" n="27"/>sunt actiue nec distinguitur ibi de viro de muliere 
+      <lb ed="#P" n="28"/>igitur potentia generatiua mulieris actiua est et 
+      ma<lb ed="#P" n="29" break="no"/>ter aliquid cooperatur ad generationem substantie 
+      fe<lb ed="#P" n="30" break="no"/>tus. Similiter etiam quia filius refertur ad matrem 
+      <lb ed="#P" n="31"/>relatione de secundo modo que non est nisi effectus ad 
+      <lb ed="#P" n="32"/>causam actiuam et principium actiuum: vt patet. 7. 
+      <lb ed="#P" n="33"/>metaphisice. 
+      <lb ed="#P" n="34"/>opinionem prou¬ 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e582">
+               <lb ed="#P" n="35"/>¶ Contra secudda habetaliquid 
+      pro<lb ed="#P" n="36" break="no"/>prium scilicet quod beate virgini collata est virtus 
+      superna<lb ed="#P" n="37" break="no"/>turalis ad generandum. Arguo sic primo quia 
+      reputo<lb ed="#P" n="38" break="no"/>falsam quero de illa virtute aut est substantia aut a 
+      <lb ed="#P" n="39"/>cidens. Non potest dici substantia aliqua noua 
+      pa<lb ed="#P" n="40" break="no"/>tet. Nec gradus aliquis perfectior prioris 
+      substan<lb ed="#P" n="41" break="no"/>tie: quia substantia non suscipit magis et minus 
+      secund<lb ed="#P" n="42" break="no"/>tales gradus nec in eodem indiuiduo nec in pluribus 
+      <lb ed="#P" n="43"/>sicut dixi in. 2. Nec est accidens: quia accidens non 
+      po<lb ed="#P" n="44" break="no"/>test esse principium vel ratio generandi substantiam 
+      <lb ed="#P" n="45"/>sicut etiam probatum est in primo et in secundo.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e608">
+      ¶ Si 
+      <lb ed="#P" n="46"/>cundo sic. Illa virtus aut est aliquid spirituale 
+      au<lb ed="#P" n="47" break="no"/>corporale. Non potest dici aliquid spirituale vt 
+      vi<lb ed="#P" n="48" break="no"/>detur: quia dona spiritualia non dantur nisi 
+      spirituali<lb ed="#P" n="49" break="no"/>bus potentiis: vt intellectui vel voluntati. Nec cor 
+      <lb ed="#P" n="50"/>poralis vt videtur: quia virtus corporalis ad 
+      gene<lb ed="#P" n="51" break="no"/>randum non videtur nisi potentia generatiua vtens 
+      or<lb ed="#P" n="52" break="no"/>gano que non fuit de nouo data virgini quia non 
+      era<lb ed="#P" n="53" break="no"/>prius sterilis: patet ergo etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e628">
+      ¶ Tertio quia per illud 
+      <lb ed="#P" n="54"/>non saluant maternitatem in virgine respectu 
+      Chri<lb ed="#P" n="55" break="no"/>sti: quia oportet ad maternitatem quod vi nature 
+      princi<lb ed="#P" n="56" break="no"/>pietur filius: non autem dono aliquo 
+      supernaturali<lb ed="#P" n="57" break="no"/>quare etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e639">
+      ¶ Quarto. Productio qua christus 
+      ge<lb ed="#P" n="58" break="no"/>neratus est a matre fuit vniuoca sicut patet: et est 
+      <lb ed="#P" n="59"/>in aliis matribus et filiis. Sed si per illud donum si 
+      <lb ed="#P" n="60"/>pernaturale genuisset non fuisset productio 
+      vniuo<lb ed="#P" n="61" break="no"/>ca sicut patet: ergo etc. 
+      <lb ed="#P" n="62"/>quicquid sit de prima opi¬ 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e653">
+               <lb ed="#P" n="63"/>¶ Dico ergu nione quod ista non est vera¬ 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e658">
+               <lb ed="#P" n="64"/>¶ Ad Damascenum dico quod non est intentionis sue 
+      <lb ed="#P" n="65"/>quod spiritus sanctus dederat beate virgini aliquam vim 
+      <!--70.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>supernaturalem generatiuam in habitum: sed pro tan 
+      <lb ed="#P" n="67"/>to: quia vis generatiua virginis quam prius non 
+      habe<lb ed="#P" n="68" break="no"/>bat exiit in actum superueniente et cooperante 
+      spi<lb ed="#P" n="69" break="no"/>ritu sancto. Unde tribuit sibi vim generatiuam 
+      pre<lb ed="#P" n="70" break="no"/>tanto: quia cooperando sibi tanquam principale agens 
+      <lb ed="#P" n="71"/>fecit quod ipsa generaret Christum 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e682">
+               <lb ed="#P" n="72"/>¶ Quantum ad istum 
+      articu<lb ed="#P" n="73" break="no"/>lum primum questionis dicam aliqua et postea 
+      respos<lb ed="#P" n="74" break="no"/>debo ad motiua precedentium opinionum pro 
+      quanto<lb ed="#P" n="75" break="no"/>erunt contra me.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e693">
+      ¶ Dico igitur primo quod non 
+      vide<lb ed="#P" n="76" break="no"/>quod ad generationem que est vera mutatio substantia 
+      <lb ed="#P" n="77"/>lis terminata ad esse substantiale fetus per se et 
+      di<lb ed="#P" n="78" break="no"/>recte faciat aliquid vel cooperetur effectiue nec 
+      se<lb ed="#P" n="79" break="no"/>men viri nec semen mulieris sicut probatum est in 
+      se<lb ed="#P" n="80" break="no"/>cundo de semine viri quod ipsum nec in virtute propria 
+      <lb ed="#P" n="81"/>nec in virtute generantis potest ad hoc attingere cum 
+      <lb ed="#P" n="82"/>sit ens simpliciter imperfectius cum quacunque virtute 
+      <lb ed="#P" n="83"/>ibilposita quam fetus et ideo non potest esse causa 
+      tota<lb ed="#P" n="84" break="no"/>lis equiuoca ipsius fetus effectiua vel generatiua 
+      <lb ed="#P" n="85"/>Nec valet quod in virtute generantis: quia generans vel 
+      <lb ed="#P" n="86"/>vir frequenter non est in rerum natura quando fetus 
+      <lb ed="#P" n="87"/>generatur vel si est in rerum natura accidit quod sit 
+      pre<lb ed="#P" n="88" break="no"/>sens in loco generationis sicut dictum est supra. Et 
+      <lb ed="#P" n="89"/>dato quod esset presens et per se esset hoc necessarium 
+      <lb ed="#P" n="90"/>adhuc non posset hoc conuenire semini per ipsum: quiam 
+      <lb ed="#P" n="91"/>nec in virtute propria nec in virtute aliqua 
+      recepta<lb ed="#P" n="92" break="no"/>ab ipso. Et si ita est de semine viri quod non potest esse 
+      <lb ed="#P" n="93"/>causa effectiua generationis multo fortius videtur 
+      <lb ed="#P" n="94"/>hoc de semine mulieris.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e737">
+      ¶ Secundo dico quod non 
+      ob<lb ed="#P" n="95" break="no"/>stante hoc mulier est principium effectiuum 
+      genera<lb ed="#P" n="96" break="no"/>tionis et non ipse vir vel oportet omnino 
+      recurrere<lb ed="#P" n="97" break="no"/>ad deum: vt ad causam efficientem ipsius generatio 
+      <lb ed="#P" n="98"/>nis quod tamen non videtur necessarium. Quod auten 
+      <lb ed="#P" n="99"/>vir non sit causa effectiua generationis. Patet: quia 
+      <lb ed="#P" n="100"/>sicut dictum est supra accidit quod sit quando 
+      genera<lb ed="#P" n="101" break="no"/>tur fetus. Nec potest dici quod mediante semine vt 
+      di<lb ed="#P" n="102" break="no"/>ctum est supra: et ideo dictum est in secundo quod 
+      opor<lb ed="#P" n="103" break="no"/>tet recurrere quantum est ex parte viri ad deum: vt 
+      for<lb ed="#P" n="104" break="no"/>mantem fetum et efficientem generationem fetus. Quod 
+      <lb ed="#P" n="105"/>autem mulier possit cooperari ad generationem 
+      fe<lb ed="#P" n="106" break="no"/>tus nullum impedimentum currit sicut de viro. 
+      Mu<lb ed="#P" n="107" break="no"/>lier enim presens est et per se quando generatio est 
+      <lb ed="#P" n="108"/>et habet vim actiuam generatiuam fetus 
+      vmbilici<lb ed="#P" n="109" break="no"/>sibi scilicet masculi vel femine et habet materiam 
+      <lb ed="#P" n="110"/>dispositam presentem semen suum vel menstruum 
+      <lb ed="#P" n="111"/>decisum ad cuius corruptionem potest agere: vt 
+      ge<lb ed="#P" n="112" break="no"/>neretur ex ea fetus et inducatur forma 
+      substantia<lb ed="#P" n="113" break="no"/>lis educta de potentia illius materie: ita quod median 
+      <lb ed="#P" n="114"/>te semine generat non sicut instrumento vel medio 
+      <lb ed="#P" n="115"/>actiuo sed principio passiuo per cuius 
+      corruptio<lb ed="#P" n="116" break="no"/>nem ex materia eius generaretur fetus secundum 
+      determi<lb ed="#P" n="117" break="no"/>natum modum nature quo non quodlibet sic 
+      genera<lb ed="#P" n="118" break="no"/>tur ex quolibet: sed determinatum ex 
+      determina<lb ed="#P" n="119" break="no"/>to. Unde nec semen reducitur ad causam efficient 
+      <lb ed="#P" n="120"/>tem in generando sed in alterando aliquo modo 
+      pre<lb ed="#P" n="121" break="no"/>uio generationi quo semina mutuo agunt et patiun 
+      <lb ed="#P" n="122"/>tur alterando seinuicem vt tandem semen mulieris 
+      <lb ed="#P" n="123"/>corrumpatur et fetus generetur.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e802">
+      ¶ Tertio dico quod 
+      pro<lb ed="#P" n="124" break="no"/>babile est dicere secunuistum modum quod seminis decisio 
+      <lb ed="#P" n="125"/>et fetus generatio sint duo effectus ipsius matris 
+      or<lb ed="#P" n="126" break="no"/>dinate ab ipsa procedentes secundum modum et processun 
+      <lb ed="#P" n="127"/>nature: quorum prior est ipsins seminis decisio tat 
+      <lb ed="#P" n="128"/>quam materialis principii et secundus vel posterior est 
+      <lb ed="#P" n="129"/>ipsius fetus generatio.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e819">
+      ¶ Quarto dico quod cum sicut 
+      <!--71.xml-->
+      <pb ed="#P" n="31-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tactum est supra in vna questione quatuor fuerint 
+      <lb ed="#P" n="2"/>in processu generationis Christi scilicet materie 
+      deci<lb ed="#P" n="3" break="no"/>sio et missio ad locum generationis corporis formatio 
+      <lb ed="#P" n="4"/>vel eductio forme substantialis corporee de materia 
+      <lb ed="#P" n="5"/>illa corporis animatio vel anime infusio et totius 
+      <lb ed="#P" n="6"/>coniuncti vnio ad personam verbi et in primo non 
+      po<lb ed="#P" n="7" break="no"/>tuerit virgo cooperari: quia factum est in instanti per 
+      <lb ed="#P" n="8"/>simplicem mutationem qua solus deus potest facere 
+      <lb ed="#P" n="9"/>illa que ab agente naturali sunt factibilia per motum 
+      <lb ed="#P" n="10"/>et in tempore cuiusmodi est ista decisio et missio 
+      ma<lb ed="#P" n="11" break="no"/>terie ad locum generationis. Non potuit etiam 
+      coopo<lb ed="#P" n="12" break="no"/>rari ad infusionem anime nec ad vnionem cum verbo 
+      se<lb ed="#P" n="13" break="no"/>quitur quod eductionem forme substantialis corporee et 
+      <lb ed="#P" n="14"/>sic ad generationem. Et quod sit rationabile hoc pone 
+      <lb ed="#P" n="15"/>re patet quia habuit virtutem actiuam generatiuam non 
+      <lb ed="#P" n="16"/>impeditam: quia non fuit sterilis nec preuentam a 
+      spi<lb ed="#P" n="17" break="no"/>ritu sancto quantum ad hoc: sed probabile est quod licet 
+      <lb ed="#P" n="18"/>spiritus sanctus disponeret materiam in instanti non 
+      <lb ed="#P" n="19"/>cooperante virgine sicut alie cooperantur quia media 
+      <lb ed="#P" n="20"/>necessaria non sunt simpliciter necessaria virtuti 
+      di<lb ed="#P" n="21" break="no"/>uine eo modo quo nature tamen materia disposita 
+      di<lb ed="#P" n="22" break="no"/>mitteret eam cooperari ad generationem ipsam quae 
+      na<lb ed="#P" n="23" break="no"/>ta est fieri in instanti etiam secundum naturam ita quod spiritus 
+      <lb ed="#P" n="24"/>sanctus tantummodo in generatione fecerit illud quod 
+      <lb ed="#P" n="25"/>pomo fecisset vel deus loco hominis si virili 
+      semi<lb ed="#P" n="26" break="no"/>ne Christus conceptus fuisset. Ita videtur probabi 
+      <lb ed="#P" n="27"/>liter posse 
+      dici<lb ed="#P" n="28" break="no"/>concludo quedam corre¬ 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e889">
+               <lb ed="#P" n="29"/>¶ Ex predictis laria.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e894">
+      ¶ Primum est quod 
+      <lb ed="#P" n="30"/>mater multomagis directe et per se facit ad 
+      genera<lb ed="#P" n="31" break="no"/>tionem quam pater: quia pater non facit nisi decindet 
+      <lb ed="#P" n="32"/>do semen suum et reponendo in loco conuenienti ad 
+      ge<lb ed="#P" n="33" break="no"/>nerationem in matrice mulieris vel vase. Mater vel 
+      <lb ed="#P" n="34"/>ro agit directe efficiendo substantiam fetus 
+      attingen<lb ed="#P" n="35" break="no"/>do ad generationem eliciendo actum generationis. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e910">
+               <lb ed="#P" n="36"/>¶ Secundum est quod beata virgo non fuit 
+      cooperata<lb ed="#P" n="37" break="no"/>ad decisionem seminis sui et missionem ad locum 
+      gene<lb ed="#P" n="38" break="no"/>rationis sicut alie mulieres: sed bene ad ipsam 
+      ge<lb ed="#P" n="39" break="no"/>nerationem et mutationem instantaneam et hoc sufficit 
+      <lb ed="#P" n="40"/>ad veram maternitatem cum hoc quod est ministrare 
+      ma<lb ed="#P" n="41" break="no"/>teriam sicut quod materia sumatur de ipsa puta de 
+      su<lb ed="#P" n="42" break="no"/>perfluo alimenti tertie digestionis sicut fuit factum 
+      <lb ed="#P" n="43"/>in virgine a spiritu sancto: ita quod materia corporis 
+      <lb ed="#P" n="44"/>christi fuit purissimus sanguis virginis tertia 
+      di<lb ed="#P" n="45" break="no"/>gestione digestus secundum Dama. lib. 3. Uerum est etiam quod 
+      <lb ed="#P" n="46"/>beata virgo post conceptionem Christi ipsum aluit et 
+      <lb ed="#P" n="47"/>nutriuit in vtero suo sicut alie matres suos fetus. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e939">
+               <lb ed="#P" n="48"/>¶ Tertium est quod pater non est causa filii effectiua 
+      <lb ed="#P" n="49"/>nisi sicut inducens dispositionem necessitantem ad 
+      gene<lb ed="#P" n="50" break="no"/>rationem puta semen sicut inducens motum inducit 
+      <lb ed="#P" n="51"/>calorem et hoc sufficit ad hoc: vt fetus referatur ad 
+      ip<lb ed="#P" n="52" break="no"/>sum sicut ad causam per se efficientem tum multo 
+      ve<lb ed="#P" n="53" break="no"/>rius et perfectius refertur fetus ad matrem sicut ad 
+      <lb ed="#P" n="54"/>causam directe effectiuam et elicitiuam actus 
+      gene<lb ed="#P" n="55" break="no"/>rationis.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e959">
+      ¶ Quartum est quod nichil de semine viri 
+      <lb ed="#P" n="56"/>vel masculi intrat substantiam fetus quia hoc patet 
+      <lb ed="#P" n="57"/>in beata virgine ex qua fuit sumpta sufficiens 
+      ma<lb ed="#P" n="58" break="no"/>teria fetus: et tamen non fuit ibi aliquid de virili 
+      semi<lb ed="#P" n="59" break="no"/>ne. Ex quo videtur etiam in aliis matribus quod illud  
+      <lb ed="#P" n="60"/>quod accipitur ex parte mulieris sufficit pro 
+      mate<lb ed="#P" n="61" break="no"/>ria fetus 
+      <lb ed="#P" n="62"/>videtur dubia. Tum quia 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e978">
+               <lb ed="#P" n="63"/>¶ Ista positio seud eam potentia genera 
+      <lb ed="#P" n="64"/>tiua hominis est innobilior et imperfectior quam 
+      gene<lb ed="#P" n="65" break="no"/>ratiua mulieris. Tum quia mulier que est innobi¬ 
+      <!--71.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>lior et imperfectio viro esset causa totalis 
+      generati<lb ed="#P" n="67" break="no"/>ua viri. Tum quia non plus videtur posse mulier in 
+      ge<lb ed="#P" n="68" break="no"/>nerationem per se et directe quam in organimationem in 
+      <lb ed="#P" n="69"/>quam non potest vt videtur: quia agit vi naturali 
+      vni<lb ed="#P" n="70" break="no"/>formiter agente et ita non potest in tantam 
+      difformi<lb ed="#P" n="71" break="no"/>tatem organorum sicut nec semen. Et ideo virtutis 
+      <lb ed="#P" n="72"/>formatiue sunt virtutes divine sicut dictum est in 
+      se<lb ed="#P" n="73" break="no"/>cundo.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1009">
+      ¶ Et ideo si non teneatur dici potest quod nec 
+      <lb ed="#P" n="74"/>semen patris nec matris nec pater et mater directeo 
+      <lb ed="#P" n="75"/>et per se attingunt ad generationem sed dispositiue 
+      <lb ed="#P" n="76"/>tantum preparando et alterando vel disponendo 
+      mate<lb ed="#P" n="77" break="no"/>riam et deus educit formam substantialem corpoream 
+      <lb ed="#P" n="78"/>et tunc beata virgo fuit mater: quia materiam 
+      pre<lb ed="#P" n="79" break="no"/>parauit et ministrauit et ipsum aluit et peperit non si 
+      <lb ed="#P" n="80"/>cut dicitur in ista positione 
+      <lb ed="#P" n="81"/>precedentium opinionum 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1029">
+               <lb ed="#P" n="82"/>¶ Ad motiua quantum ad illa que sunt 
+      com<lb ed="#P" n="83" break="no"/>tra me.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1036">
+      ¶ Ad primum prime opinionis dico quod non 
+      <lb ed="#P" n="84"/>oportet quod mulier possit per seipsam concipere vel 
+      gene<lb ed="#P" n="85" break="no"/>rare et quod masculus superfluat quia necessario ante 
+      <lb ed="#P" n="86"/>generationem requiritur dispositio materie et altere 
+      <lb ed="#P" n="87"/>tio preuia secundum processum nature ad quam facit semen 
+      <lb ed="#P" n="88"/>viri sicut dictum est supra alterando semen mulieris 
+      <lb ed="#P" n="89"/>Similiter etiam quia non est agens vel generans 
+      tota<lb ed="#P" n="90" break="no"/>le sed aliquo modo partiale: et ideo nunquam virtus eius 
+      <lb ed="#P" n="91"/>quantumcumque aucta sufficeret per seipsam sicut secundum 
+      <lb ed="#P" n="92"/>ponentes obiectum esse causam partialem actus 
+      ali<lb ed="#P" n="93" break="no"/>cuius potentie cum potentia ipsa nunquam altera tantum 
+      <lb ed="#P" n="94"/>virtus sufficeret.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1062">
+      ¶ Et tunc ad dictum Aristotelis 
+      <lb ed="#P" n="95"/>dicitur quod si sensus esset actiuus sicut causa totalis 
+      <lb ed="#P" n="96"/>sen sationis sentiret vtique vel sentire posset sine ex 
+      <lb ed="#P" n="97"/>trinseco obiecto. Sed non teneo me cum ista 
+      solu<lb ed="#P" n="98" break="no"/>tione secunda sed cum prima.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1073">
+      ¶ Ad illud vero de 
+      li<lb ed="#P" n="99" break="no"/>gno dicitur quod si lignum esset calidum et cum hoc 
+      ca<lb ed="#P" n="100" break="no"/>lefactibile non posset seipsum calefacere: quia 
+      cale<lb ed="#P" n="101" break="no"/>factio est actio transiens. Sed si esset immanens 
+      pos<lb ed="#P" n="102" break="no"/>set vtique seipsum calefacere sicut intellectus seipsum 
+      <lb ed="#P" n="103"/>intelligere.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1087">
+      ¶ Aliterdicitur ad ista quod Aristoteles 
+      <lb ed="#P" n="104"/>ibi de. 2. anima intendit ostendere sensum esse passiuum 
+      <lb ed="#P" n="105"/>non autem actiuum eo modo quo ponebant illi qui 
+      po<lb ed="#P" n="106" break="no"/>nebant ipsum esse compositum ex omnibus sensibili 
+      <lb ed="#P" n="107"/>bus realiter ad hoc vt sentiret omnia. Si euim opinio 
+      <lb ed="#P" n="108"/>eorum esset vera sequeretur quod sensus sentiret absque sen 
+      <lb ed="#P" n="109"/>sibili extrinseco: et per consequens moueretur a 
+      seip<lb ed="#P" n="110" break="no"/>so sicut si calefactibile calefieret et non ab extrinseco 
+      <lb ed="#P" n="111"/>calefieret a seipso. Sed ex hoc nichil ad propositum 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1107">
+               <lb ed="#P" n="112"/>¶ Ad secundum dico quod concludit bene quod semen mulis 
+      <lb ed="#P" n="113"/>ris per se et directe non agit ad generationem: quia pro 
+      <lb ed="#P" n="114"/>instanti generationis corrumpitur sed non concludit 
+      <lb ed="#P" n="115"/>de muliere.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1118">
+      ¶ Ad tertium de duobus agentibus 
+      <lb ed="#P" n="116"/>vniuocis etc. Licet non sit contra predicta: et ideo 
+      <lb ed="#P" n="117"/>posset concedi tamen qui vellet sustinere quod vir per se et 
+      <lb ed="#P" n="118"/>directe ageret ad generationem posset dicere quod 
+      immo<lb ed="#P" n="119" break="no"/>Unde ad eundem terminum vel effectum 
+      producen<lb ed="#P" n="120" break="no"/>dum bene requiruntur duo agentia vniuoca talia quod 
+      <lb ed="#P" n="121"/>vnum subordinetur quasi alteri tanquam cause magis 
+      <lb ed="#P" n="122"/>principali. Sicut duo ignes quorum vnus est 
+      ma<lb ed="#P" n="123" break="no"/>ior bene concurrunt ad eundem calorem causandum 
+      <lb ed="#P" n="124"/>in eodem ligno vel eadem parte ligni. Quando dicis 
+      <lb ed="#P" n="125"/>quod quelibet talium causarum continet sufficienter per 
+      <lb ed="#P" n="126"/>fectionem effectus vniuoci. Dico quod non oportet 
+      quan<lb ed="#P" n="127" break="no"/>tum ad modum producendi sic vel sic. Tamen sic dicentio 
+      <lb ed="#P" n="128"/>bus occurrit difficultas et ideo teneo me cum 
+      prima<lb ed="#P" n="129" break="no"/>solutione predictis concordante.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1151">
+      ¶ Ad quartum dico 
+      <lb ed="#P" n="130"/>quod in generatione substantiali mater non est principium 
+      <!--72.xml-->
+      <pb ed="#P" n="32-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>passiuum proprie loquendo quia non est materia seminis 
+      <lb ed="#P" n="2"/>receptiua forme ipsius fetus licet materia ab ipsa 
+      <lb ed="#P" n="3"/>ministretur et ideo imprope dicitur principium passi 
+      <lb ed="#P" n="4"/>uum. Non sequitur ergo quod in generatione substantiali idem sit 
+      <lb ed="#P" n="5"/>principium passiuum et actiuum. Hoc enim est 
+      imposs<lb ed="#P" n="6" break="no"/>bile quicquid sit de mutatione accidentali quia de aliqua 
+      <lb ed="#P" n="7"/>tali non implicat contradictionem sicut dictum est in 
+      secun<lb ed="#P" n="8" break="no"/>do.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1180">
+      ¶ Ad Augustinum. Dico quod ipse intendit quod christus 
+      <lb ed="#P" n="9"/>non venit secundum rationem seminalem se tenentem ex parte vi 
+      <lb ed="#P" n="10"/>ri quia non mediante virili semine et nihil plus 
+      habetu<lb ed="#P" n="11" break="no"/>de hoc et ita nihil contra propositum.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1189">
+      ¶ Ad philoso 
+      <lb ed="#P" n="12"/>phum Dico quod ipse negatur et rationabiliter a 
+      me<lb ed="#P" n="13" break="no"/>dicis qui ponunt quod mulier vel femela in generatione est 
+      <lb ed="#P" n="14"/>actiua. Et dico vltra medicos quod nec vir nec semen 
+      <lb ed="#P" n="15"/>viri est actiuum ad generationem per se eo modo quo 
+      di<lb ed="#P" n="16" break="no"/>ctum est supra. Et tunc nego omnia signa pro 
+      quanto<lb ed="#P" n="17" break="no"/>videntur hoc concludere nisi forte dicatur pro 
+      reueren<lb ed="#P" n="18" break="no"/>tia Aristotelis quod quantum ad alterationem praeuiam 
+      ge<lb ed="#P" n="19" break="no"/>nerationi intelligit hoc Aristoteles et pro tanto 
+      di<lb ed="#P" n="20" break="no"/>cit hoc quod licet semen mulieris aliquo modo sit actiuum 
+      <lb ed="#P" n="21"/>adalterationem vel dispositionem illam tamen semen 
+      vi<lb ed="#P" n="22" break="no"/>ri principalius tanquam actualius et perfectius. Unde 
+      <lb ed="#P" n="23"/>nec semen mulieris agit ad eam nisi per accidens 
+      reagen<lb ed="#P" n="24" break="no"/>do in semen viri a quo ipsum patitur et alteratur. 
+      <lb ed="#P" n="25"/> alterius opinionis quod pro¬ 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1223">
+               <lb ed="#P" n="26"/>¶ Ad primumi bat quod mulier non agit 
+      na<lb ed="#P" n="27" break="no"/>turaliter ad generationem fetus: quia nec vir de quo 
+      <lb ed="#P" n="28"/>magis videtur de viro sicut dictum est supra: ideo 
+      <lb ed="#P" n="29"/>non valet.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1234">
+      ¶ Ad illa que sunt adducta contra primam 
+      <lb ed="#P" n="30"/>opinionem quod mulier agit ad generationem licet 
+      gra<lb ed="#P" n="31" break="no"/>tia conclusionis essent concedenda: tamen quia primum ita 
+      <lb ed="#P" n="32"/>concludit de viro sicut de muliere quod est supra 
+      ne<lb ed="#P" n="33" break="no"/>gatum de viro respondendum est quod licet potentie 
+      ge<lb ed="#P" n="34" break="no"/>neratiue scilicet viri et mulieris sint eiusdem rationis quam 
+      <lb ed="#P" n="35"/>tum se tenent ex parte forme et anime cui sunt 
+      consubstan<lb ed="#P" n="36" break="no"/>tiales: habent tamen alia et alia organa in viro et 
+      mulie<lb ed="#P" n="37" break="no"/>re et requiritur alia et alia presentia ad materiam 
+      vi<lb ed="#P" n="38" break="no"/>ri et mulieris: et ideo licet ambe sint actiue: non tamen eo 
+      <lb ed="#P" n="39"/>dem modo nec respectu eiusdem per se effectus: sed 
+      <lb ed="#P" n="40"/>sicut dictum est supra.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1260">
+      ¶ Alia vero tria argumenta 
+      <lb ed="#P" n="41"/>concedantur: quia sunt bona eo modo quo concludunt 
+      <lb ed="#P" n="42"/>et etiam deducuntur. Hoc de primo articulo 
+      princi<lb ed="#P" n="43" break="no"/>pali istius questionis. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1269">
+               <lb ed="#P" n="44"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="45" break="no"/>culum questionis omnes volunt saluare quod beatam 
+      vir<lb ed="#P" n="46" break="no"/>go sit et fuerit vera mater naturalis christi. Sed 
+      diuet<lb ed="#P" n="47" break="no"/>simode saluatur hoc a diuersis. Nam illi de prima 
+      opi<lb ed="#P" n="48" break="no"/>nione praecedentis articuli dicunt quod licet nichil 
+      coope<lb ed="#P" n="49" break="no"/>rata fuerit actiue et per se ad generationem: sed totum 
+      <lb ed="#P" n="50"/>fecerit spiritus sanctus tamen ministrauit materiam: et 
+      <lb ed="#P" n="51"/>ipsum aluit in vtero suo benedicto et mutauit et 
+      pe<lb ed="#P" n="52" break="no"/>perit sicut alie matres et hoc sufficit ad hoc quod sit 
+      ve<lb ed="#P" n="53" break="no"/>ra mater naturalis.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1293">
+      ¶ Alii de secunda opinione 
+      di<lb ed="#P" n="54" break="no"/>cunt quod fuit vera mater naturalis: quia non solum 
+      ma<lb ed="#P" n="55" break="no"/>teriam ministrauit et ipsum aluit et peperit. Sed cum 
+      <lb ed="#P" n="56"/>hoc ipsum genuit et cooperando effectiue et per se ad  
+      <lb ed="#P" n="57"/>generationem ipsius ipsi spiritui sancto per illud do 
+      <lb ed="#P" n="58"/>num supernaturale quod licet conferretur sibi superna 
+      <lb ed="#P" n="59"/>turaliter erat tamen sibi principium operandi naturaliter 
+      <lb ed="#P" n="60"/>opiniones non teneo sicut nec 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1311">
+               <lb ed="#P" n="61"/>¶ Sed istas tenu illas in primo 
+      articu<lb ed="#P" n="62" break="no"/>lo questionis: et ideo dico aliter. Postea instabom 
+      <lb ed="#P" n="63"/>me et soluam. Primo dico quod ipsa fuit vera mater: 
+      <lb ed="#P" n="64"/>quia non solum materiam ministrauit: sed quia ipsum 
+      <!--72.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>Christum genuit actiue cooperans spiritui sancto 
+      <lb ed="#P" n="66"/>et per se et directe ad generationem Christi secundum 
+      natu<lb ed="#P" n="67" break="no"/>ram assumptam precipue quantum ad eductionem 
+      for<lb ed="#P" n="68" break="no"/>me substantialis corporeede materia illa 
+      ministra<lb ed="#P" n="69" break="no"/>ta sicut dictum est supra. Ipsum etiam aluitin vtero et 
+      <lb ed="#P" n="70"/>nutriuit 
+      <lb ed="#P" n="71"/>de partu quomodo ipsum peperit est 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1343">
+               <lb ed="#P" n="72"/>¶ Sed difficile. Et videtur quod non peperit 
+      pri<lb ed="#P" n="73" break="no"/>mo quia virgo. Impossibile est autem quod virgo pariat 
+      <lb ed="#P" n="74"/>manens virgo vt videtur: quia virginitas et maternitas 
+      <lb ed="#P" n="75"/>contrarie opponuntur nec possunt eidem inesse vt 
+      vi<lb ed="#P" n="76" break="no"/>detur.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1356">
+      ¶ Secundo quia partus expellitur a matre 
+      in<lb ed="#P" n="77" break="no"/>pariendo.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1361">
+      ¶ Sed beata virgo non potuit habere 
+      <lb ed="#P" n="78"/>vim expulsiuam respectu huius partus: quia cum iste 
+      par<lb ed="#P" n="79" break="no"/>tus exi erit clauso vtero et claustris clausis oportuit 
+      <lb ed="#P" n="80"/>quod essent duo corpora simul puta corpus Christi et 
+      <lb ed="#P" n="81"/>pars illa vel vterus virginis. Hoc autem non subest 
+      <lb ed="#P" n="82"/>nec subiacet viriuti naturali agentis sed solius dei 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1374">
+               <lb ed="#P" n="83"/>¶ Tertio quia pater et mater relatiue opponuntur 
+      si<lb ed="#P" n="84" break="no"/>cut actiuum et passiuum. Cum igitur Christus secundum 
+      <lb ed="#P" n="85"/>carnem et naturam non habuerit patrem videtur quod nec 
+      <lb ed="#P" n="86"/>matrem.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1385">
+      ¶ Quarto quia illa non parit naturaliter que 
+      <lb ed="#P" n="87"/>parit modo mirabili et miraculoso: et per consequens 
+      <lb ed="#P" n="88"/>non est mater naturalis. Sed beata virgo 
+      natura<lb ed="#P" n="89" break="no"/>li modo non peperit: sed miraculose quia virgo 
+      ma<lb ed="#P" n="90" break="no"/>nens: etc. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1396">
+               <lb ed="#P" n="91"/>¶ Sed istis non obstantibus 
+      <lb ed="#P" n="92"/>dico quod beata virgo veraciter peperit Christum 
+      <lb ed="#P" n="93"/>et hoc statim patet si ponatur quod mater in 
+      parien<lb ed="#P" n="94" break="no"/>do non habeat vim impulsiuam vel expulsiuam 
+      fe<lb ed="#P" n="95" break="no"/>tus: sed fetus cadat quasi maturus fructus ab 
+      ar<lb ed="#P" n="96" break="no"/>bore qui non expellitur ab arbore sed isponte cadit: 
+      <lb ed="#P" n="97"/>et tunc beata virgo fuit terminus a quo illius 
+      mo<lb ed="#P" n="98" break="no"/>tus vel egressus Christi ab vtero sicut sponsi de 
+      tha<lb ed="#P" n="99" break="no"/>lamo suo et totus ille motus fuit a spiritu sancto non 
+      <lb ed="#P" n="100"/>cooperante virgine effectiue sicut nec alie matres 
+      ia<lb ed="#P" n="101" break="no"/>hoc effectiue operantur.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1423">
+      ¶ Sed si mater habeat vim 
+      <lb ed="#P" n="102"/>expulsiuam in pariendo: tunc difficilius est videre 
+      pro<lb ed="#P" n="103" break="no"/>positum. Et dicit vnus quod istud expellere non est de 
+      <lb ed="#P" n="104"/>necessitate matris ita quod licet alie expellant: non tamen 
+      <lb ed="#P" n="105"/>beata virgo: quia agens naturale non potest facere 
+      duo<lb ed="#P" n="106" break="no"/>corpora non gloriosa in eodem loco nec potest 
+      ali<lb ed="#P" n="107" break="no"/>quod corpus expellere de loco nisi subintret aliud 
+      <lb ed="#P" n="108"/>corpus et planum est quod aliud corpus non subintrauit 
+      <lb ed="#P" n="109"/>corpus vel vterum virginis. Ideo dicit quod spiritur 
+      <lb ed="#P" n="110"/>sanctus fuit totalis causa expulsionis supplendo 
+      <lb ed="#P" n="111"/>causalitatem virginis et ipsa virgo fuit terminus a 
+      <lb ed="#P" n="112"/>quo tantum.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1449">
+      ¶ Sed aliter sicut videtur michi potest dici 
+      <lb ed="#P" n="113"/>scilicet quod virgo fuerit principium actiuum illius expul 
+      <lb ed="#P" n="114"/>ionis per istum modum: quia planum est quod expellere 
+      <lb ed="#P" n="115"/>corpus et aliud implere sunt due actiones et 
+      muta<lb ed="#P" n="116" break="no"/>tiones ita quod expulsio vnius et subintratio alterius 
+      <lb ed="#P" n="117"/>separabiles sunt: et ideo deus potuit beate virgini 
+      <lb ed="#P" n="118"/>influere et cooperari ad expulsionem quod non influeret 
+      <lb ed="#P" n="119"/>ad subintrationem alterius corporis vel etiam ad 
+      fra<lb ed="#P" n="120" break="no"/>ctionem vel apertionem vteri. Ita quod virtute diuina 
+      <lb ed="#P" n="121"/>erat quod duo corpora simul essent: sed virtute creata 
+      <lb ed="#P" n="122"/>virginis erat quod alterum moueretur et expelleretur. Si 
+      <lb ed="#P" n="123"/>cut si duo animalia essent in eodem loco virtute 
+      diui<lb ed="#P" n="124" break="no"/>na non minus quodlibet eorum posset se mouere in 
+      il<lb ed="#P" n="125" break="no"/>lo loco quam si alterum tantum esset ibi: et sic de 
+      consi<lb ed="#P" n="126" break="no"/>milibus. Sic in proposito potest dici 
+      <lb ed="#P" n="127"/>contra partum dico quod ma¬ 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1484">
+               <lb ed="#P" n="128"/>¶ Ad primum ter et virgo non opponun 
+      <!--73.xml-->
+      <pb ed="#P" n="32-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tur formaliter nec repugnant maternitas et virgini 
+      <lb ed="#P" n="2"/>tas simpliciter et absolute sed vertute diuina possunt 
+      <lb ed="#P" n="3"/>simul stare licet non virtute nature.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1502">
+      ¶ Ad secundum 
+      <lb ed="#P" n="4"/>iam patet ex dictis de expulsione parius.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1507">
+      ¶ Ad 
+      ter<lb ed="#P" n="5" break="no"/>tium dico quod pater et mater non opponuntur relatiue 
+      <lb ed="#P" n="6"/>dato etiam quod se habeant sicut actiuum et passiuum: quia 
+      <lb ed="#P" n="7"/>actio et passio sunt diuersorum predicamentorum: sed 
+      <lb ed="#P" n="8"/>bene pater et filius vel mater et filius sensibilia: et 
+      <lb ed="#P" n="9"/>ideo pater non potest esse sine filio nec econuerso 
+      lo<lb ed="#P" n="10" break="no"/>quendo de filio secundum filiationem que est relatio ad pa 
+      <lb ed="#P" n="11"/>trem: sed bene potest loquendo secundum filiationem que est 
+      <lb ed="#P" n="12"/>relatio ad matrem sicut in proposito: quare etc. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1527">
+               <lb ed="#P" n="13"/>¶ Ad quartum dico quod beata virgo potest dici 
+      ma<lb ed="#P" n="14" break="no"/>ter naturalis ex principio pariendi et generandi: quia 
+      <lb ed="#P" n="15"/>principium tale habuit in sua natura: tamen ex 
+      modo<lb ed="#P" n="16" break="no"/>pariendi. Puta quod virgo pareret non dicitur 
+      natura<lb ed="#P" n="17" break="no"/>lis: quia miraculosum fuit quod virgo pareret licet 
+      na<lb ed="#P" n="18" break="no"/>turale fuerit quod ipsa pareret.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1544">
+      ¶ Hec de secundo 
+      ar<lb ed="#P" n="19" break="no"/>ticulo principali 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1549">
+               <lb ed="#P" n="20"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="21" break="no"/>culum. An scilicet beata virgo meruerit esse mater dei 
+      <lb ed="#P" n="22"/>vel Christi. Dicitur quod incarnatio dei potest 
+      acci<lb ed="#P" n="23" break="no"/>pi dupliciter. Uno modo quantum ad substantiam 
+      fa<lb ed="#P" n="24" break="no"/>cti et vt in diuino supposito quo ab eterno 
+      preordi<lb ed="#P" n="25" break="no"/>nauit eam fiendam et exhibendam et isto modo nec 
+      bea<lb ed="#P" n="26" break="no"/>ta vergo nec aliquis hominum vnquam potuit mereri 
+      in<lb ed="#P" n="27" break="no"/>carnationem Christi vel dei nec per consequens 
+      bea<lb ed="#P" n="28" break="no"/>ta virgo potuit mereri esse mater dei nec merito con 
+      <lb ed="#P" n="29"/>grui nec merito condigni. Tum quia nichil extrinsecum 
+      <lb ed="#P" n="30"/>deo est sibi ratio volendi vel ordinandi aliquid extra 
+      <lb ed="#P" n="31"/>se. Tum quia incarnatio est fundamentum est radix omnis 
+      <lb ed="#P" n="32"/>meriti siue condigni siue congrui. Tum quia 
+      incarna<lb ed="#P" n="33" break="no"/>tio est ratio reconciliandi totum genus humanum et 
+      sa<lb ed="#P" n="34" break="no"/>tisfaciendi saltem initialiter et per consequens non 
+      po<lb ed="#P" n="35" break="no"/>test eam mereri singularis persona pura de genere hoc 
+      <lb ed="#P" n="36"/>minis. Tum quia meritum hominis ad hoc non se 
+      exten<lb ed="#P" n="37" break="no"/>dit: vt deus debeat fieri homo sed ad gratificari vel 
+      <lb ed="#P" n="38"/>beatificari ad perfectionem formalem propriam 
+      gra<lb ed="#P" n="39" break="no"/>tie vel glorie: ideo etc.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1595">
+      ¶ Alio modo potest 
+      accip<lb ed="#P" n="40" break="no"/>incarnatio quantum ad tempus vel circumstantiam vel 
+      <lb ed="#P" n="41"/>modum ipsa incarnatione presupposita simplicite 
+      <lb ed="#P" n="42"/>fienda et hoc modo consideratur vt tali tempore vel 
+      ta<lb ed="#P" n="43" break="no"/>li fienda et isto modo dicitur quod beata virgo et 
+      sancti<lb ed="#P" n="44" break="no"/>patres aliquomodo meruerunt eam in effectu 
+      poni<lb ed="#P" n="45" break="no"/>tali tempore aliquo modo et de condigno tanquam amici 
+      <lb ed="#P" n="46"/>dei et persone deo grate et desiderantes feruenter 
+      acce<lb ed="#P" n="47" break="no"/>lerari aduentum dei licet istud excedat simpliciter 
+      om<lb ed="#P" n="48" break="no"/>ne meritum in excellentia et bonitate et beata 
+      virgo<lb ed="#P" n="49" break="no"/>precipue inter omnes hoc meruit quantum ad circum 
+      <lb ed="#P" n="50"/>stantiam persone: quia purissima et sanctissima fuit et 
+      <lb ed="#P" n="51"/>decuit vt supposito quod deus deberet habere matrem 
+      <lb ed="#P" n="52"/>quod de matre purissimafieret que tanta puritate nite 
+      <lb ed="#P" n="53"/>ret qua sub deo nequit maior intelligi. Nec 
+      obsta<lb ed="#P" n="54" break="no"/>quod bonum incarnationis excedat quodcumque meritum 
+      <lb ed="#P" n="55"/>quia etiam bonum premiationis eterne excedit 
+      quasi<lb ed="#P" n="56" break="no"/>pro portionabiliter meritum temporale secundum 
+      Aposto<lb ed="#P" n="57" break="no"/>lum ad Ro. Non sunt condigne passiones huius 
+      te<lb ed="#P" n="58" break="no"/>poris etc. Tamen aliquis potest mereri de condigno vt 
+      <lb ed="#P" n="59"/>tam eternam eo tamen modo quo dictum est superius in 
+      <lb ed="#P" n="60"/>secundo. Hoc sufficiat de isto tertio articulo. 
+      </p>
+            <p xml:id="qrdBas-c19481-d1e1643">
+               <lb ed="#P" n="61"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="62"/>quod beata virgo potuit cooperari ad eductionem 
+      for<lb ed="#P" n="63" break="no"/>me substantialis corporee de materia corporis christi: 
+      <!--73.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>quia etiam illa fit naturaliter iln instanti ab aliis 
+      matri<lb ed="#P" n="65" break="no"/>bus sed non ad translationem vel dispositionem 
+      instan<lb ed="#P" n="66" break="no"/>taneam materie sicut dictum est supra.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1663">
+      ¶ Ad 
+      secun<lb ed="#P" n="67" break="no"/>dum dico quod christus comparatur ad virginem sicut 
+      sup<lb ed="#P" n="68" break="no"/>positum productum ab ipsa vi nature non secundum naturam 
+      <lb ed="#P" n="69"/>diuinam: sed secundum naturam humanam in qua subsistit cum 
+      <lb ed="#P" n="70"/>ius nature materiam ministrauit et hoc sufficit ad 
+      <lb ed="#P" n="71"/>maternitatem.
+    </p>
+            <p xml:id="qrdBas-c19481-d1e1676">
+      ¶ Ad tertium de spiritum sancto dico 
+      <lb ed="#P" n="72"/>quod proprie loquendo eo modo quo loquendum est im 
+      <lb ed="#P" n="73"/>proposito incarnationis spiritus sanctus non potest 
+      <lb ed="#P" n="74"/>dici pater christi ratione incarnationis secundum 
+      Augu<lb ed="#P" n="75" break="no"/>stinum et Magistrum in litera: quia non est conceptus 
+      <lb ed="#P" n="76"/>de spiritu sancto sicut de patre vi generatiua 
+      natu<lb ed="#P" n="77" break="no"/>rali. Non enim conuenit cum virgine sicut vir cum 
+      mu<lb ed="#P" n="78" break="no"/>liere faciens naturaliter ad generationem mediante 
+      <lb ed="#P" n="79"/>semine quomodocumque ad hoc faciat vir sed magis 
+      <lb ed="#P" n="80"/>vt artifex et agens voluntarium et non de sua 
+      substan<lb ed="#P" n="81" break="no"/>tia sed in aliena substantia et alterius rativnis. Sed  
+      <lb ed="#P" n="82"/>beata virgo vi sua generatiua ad hoc egit et 
+      mate<lb ed="#P" n="83" break="no"/>riam ministrauit sicut dictum est supra: ideo etc. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

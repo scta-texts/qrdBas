@@ -1,0 +1,686 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="45-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c29740"><!--l3d11q1 -->
+            <head xml:id="qrdBas-c29740-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-c29740-d1e101">
+               <lb ed="#P" n="49"/>¶ Distinctionis Undecime. 
+      <lb ed="#P" n="50"/>Questio Unica.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e108">
+               <lb ed="#P" n="51"/>CIrca distinctione 
+      <lb ed="#P" n="52"/>vndecimam quero vtrum ista 
+      <lb ed="#P" n="53"/>propositio sit vera vel 
+      conce<lb ed="#P" n="54" break="no"/>denda. Christus est creatura. 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e119">
+               <lb ed="#P" n="55"/>¶ Uidetur quod sic quia christus 
+      ra<lb ed="#P" n="56" break="no"/>tione nature divine dicitur et 
+      <lb ed="#P" n="57"/>conceditur creator: ergo 
+      ratione<lb ed="#P" n="58" break="no"/>nature humane potest. 
+      concedi<lb ed="#P" n="59" break="no"/>creatura: quia ratione illius non 
+      <lb ed="#P" n="60"/>est creator: igitur creatura.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e135">
+      ¶ Secundo sic. De quo 
+      <lb ed="#P" n="61"/>cuuque predicatur inferius et superius. Sed 
+      creatu<lb ed="#P" n="62" break="no"/>ra est superius ad hominem et christus est homo: ergo est 
+      <!--99.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>creatura.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e149">
+      ¶ Tertio sic. Ista est vera christus est home 
+      <lb ed="#P" n="64"/>Aut ergo homo praedicat aliquid creatum. Aut aliquid 
+      <lb ed="#P" n="65"/>increatum. Non aliquid increatum: quia tunc predica 
+      <lb ed="#P" n="66"/>ret deum: et tunc ista esset vera. Pater est homo vel 
+      <lb ed="#P" n="67"/>spiritus sanctus est homo quod est falsum: ergo aliquid 
+      <lb ed="#P" n="68"/>creatum ergo Christus est creatura. Non est enim ho 
+      <lb ed="#P" n="69"/>mo increatus: quia tunc esset homo eternus: ergo est 
+      ho<lb ed="#P" n="70" break="no"/>mo creatus: et per consequens est creatura.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e167">
+      ¶ Contra 
+      <lb ed="#P" n="71"/>per Magistrum et Ambrosium in litera. 
+      <lb ed="#P" n="72"/>In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e174">
+               <lb ed="#P" n="73"/>¶ Primo inquiram an christus sit creatura.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e179">
+      ¶ 
+      Se<lb ed="#P" n="74" break="no"/>cundo an christus secundum quod homo sit creatura.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e184">
+      ¶ 
+      Ter<lb ed="#P" n="75" break="no"/>tio an christus inceperit esse etc. 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e189">
+               <lb ed="#P" n="76"/>¶ Quantum ad primum. Est 
+      <lb ed="#P" n="77"/>vna opinio quod licet a Magistro et sanctis negetur 
+      <lb ed="#P" n="78"/>christus esse creatura propter hereticos vt caueat 
+      <lb ed="#P" n="79"/>error Arrii qui posuit filium dei creaturam: tamen non 
+      <lb ed="#P" n="80"/>est intentio eorum quod ista propositio sit simpliciter falsa 
+      <lb ed="#P" n="81"/>Christus est creatura sed simpliciter loquendo 
+      con<lb ed="#P" n="82" break="no"/>cedi potest.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e208">
+      ¶ Prima ratio est: quia si ista negatur 
+      <lb ed="#P" n="83"/>hoc non videtur nisi quia illa que pertinent ad vnionem. 
+      <lb ed="#P" n="84"/>eorum ydiomata non communicantur sicut deus non 
+      di<lb ed="#P" n="85" break="no"/>citur vnitus deo licet natura humana dicatur vni 
+      <lb ed="#P" n="86"/>ta deo vel quia conditio creature repugnat deo vel 
+      <lb ed="#P" n="87"/>christo supposito verbi quia creatura dicit esse post 
+      <lb ed="#P" n="88"/>non esse.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e224">
+      ¶ Sed ista non obstant quia videtur esse tan 
+      <lb ed="#P" n="89"/>ta repugnantia deo non esse post esse sicut esse post non 
+      <lb ed="#P" n="90"/>esse: et tamen deus dicitur vel dicebatur in triduo non 
+      es<lb ed="#P" n="91" break="no"/>se post esse. Unde et filius dei vel christus dicebatu 
+      <lb ed="#P" n="92"/>mortuus igitur. Etiam potest dici esse post non esse 
+      <lb ed="#P" n="93"/>et sic potest dici creatus.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e237">
+      ¶ Secunda ratio. 
+      Tan<lb ed="#P" n="94" break="no"/>tam impossibilitatem habent circa idem passibile et 
+      <lb ed="#P" n="95"/>impassibile mortale et immortale sicut creatum et 
+      in<lb ed="#P" n="96" break="no"/>creatum. Sed prima duo se compatiuntur circa 
+      Chri<lb ed="#P" n="97" break="no"/>stum: quia Christus secundum naturam diuinam est 
+      impassi<lb ed="#P" n="98" break="no"/>bilis et immortalis secundum vero humanam fuit passibilis 
+      <lb ed="#P" n="99"/>et mortalis: ergo similiter creatum et increatu. Potest 
+      <lb ed="#P" n="100"/>ergo concedi quod christus est creatura sicut quod 
+      Chri<lb ed="#P" n="101" break="no"/>stus erat mortalis vel passibilis.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e257">
+      ¶ Tertia ratio. 
+      <lb ed="#P" n="102"/>quia esse creaturam non est conditio pertinens ad 
+      vnio<lb ed="#P" n="103" break="no"/>nem: sed ad vnitum magis: licet ergo pertinentia ad 
+      <lb ed="#P" n="104"/>vnionem non sit communicatio ydiomatum tamen bene 
+      in<lb ed="#P" n="105" break="no"/>hoc potest esse: vt dicatur Christus vel creatura 
+      <lb ed="#P" n="106"/>Si dicatur quod non: quia proprietas negatiue non 
+      fa<lb ed="#P" n="107" break="no"/>ciunt communicationem ydiomatum creatura vero 
+      di<lb ed="#P" n="108" break="no"/>cit ordinem ad non esse precedens et ita dicit 
+      nege<lb ed="#P" n="109" break="no"/>tionem esse precedentis.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e277">
+      ¶ Contra: quia proprieta 
+      <lb ed="#P" n="110"/>tes negatiue et ydiomata ipsarum verificabantur de 
+      <lb ed="#P" n="111"/>christo homine. Nam ipse poterat dici immortalis 
+      <lb ed="#P" n="112"/>et impassibilis secundum Damasce. lib. 3. quare etc.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e286">
+      ¶ Si 
+      <lb ed="#P" n="113"/>dicatur etiam quod non potest dici christus creatura: quia 
+      <lb ed="#P" n="114"/>creatura importat dependentiam ad naturam 
+      diui<lb ed="#P" n="115" break="no"/>nam dependentiam scilicet nature humane et secundum 
+      ta<lb ed="#P" n="116" break="no"/>lia que important dependentiam nature ad naturam 
+      <lb ed="#P" n="117"/>non est communicatio ydiomatum.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e300">
+      ¶ Contra quia 
+      cen<lb ed="#P" n="118" break="no"/>ceditur absolute quod Christus erat minor patre et 
+      ip<lb ed="#P" n="119" break="no"/>semet dicit. Pater maior me est. Sed hoc non erat 
+      <lb ed="#P" n="120"/>nisi secundum naturam humanam dependentem a patre: qua 
+      <lb ed="#P" n="121"/>re etc. Preterea etiam quia creator videtur habere 
+      de<lb ed="#P" n="122" break="no"/>pendentiam vel habitudinem ad creaturam et tamen dici 
+      <lb ed="#P" n="123"/>tur Christus creator ergo pari ratione dicitur vel 
+      <lb ed="#P" n="124"/>potest dici creatura:
+    </p>
+            <p xml:id="qrdBas-c29740-d1e318">
+      ¶ Confirmatur hoc 
+      auctori<lb ed="#P" n="125" break="no"/>tatibus sanctorum et doctorum. Dicit enim Damasce 
+      <!--100.xml-->
+      <pb ed="#P" n="46-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>nus in sententiis ca. 5. quod Christus est creatus et 
+      in<lb ed="#P" n="2" break="no"/>creatus passibilis et impassibilis. Item ca. 72. 
+      di<lb ed="#P" n="3" break="no"/>cit quod Christus propter vnionem homo fieri voluit et 
+      <lb ed="#P" n="4"/>creatura dici et extremus vocari. Tertio quia hoc 
+      di<lb ed="#P" n="5" break="no"/>cit Augustinus in quodam sermone de natiuitate 
+      <lb ed="#P" n="6"/>domini quod creator mundi voluit esse creatura. Quarto: 
+      <lb ed="#P" n="7"/>quia Hieronymus super illud apostoli. Nos factu 
+      <lb ed="#P" n="8"/>ra eius dicit quod multi timent ne cogantur Christum 
+      di<lb ed="#P" n="9" break="no"/>cere creaturam. Nos autem proclamamus Christum 
+      <lb ed="#P" n="10"/>creaturam esse: sic igitur videtur eis posse 
+      concedi<lb ed="#P" n="11" break="no"/>Christum esse creaturam. 
+      <lb ed="#P" n="12"/>iteur detur quod de virtute 
+      <lb ed="#P" n="13"/>Aliis autem ba sermonis ista est 
+      fal<lb ed="#P" n="14" break="no"/>sa Christus est creatura et nullo modo debet 
+      conce<lb ed="#P" n="15" break="no"/>di. Ad cuius euidentiam dicunt quod illud dicitur proprie 
+      <lb ed="#P" n="16"/>creatura vel creari quod accipit ab agente primo 
+      imme<lb ed="#P" n="17" break="no"/>diate suum totale esse et per consequens suum esse 
+      simplici<lb ed="#P" n="18" break="no"/>ter primum non de aliquo.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e368">
+      ¶ Ex hoc formatur ratio 
+      <lb ed="#P" n="19"/>Sicut illud non est creatura quod non sic accipit suum 
+      <lb ed="#P" n="20"/>esse simpliciter primum non de aliquo ab agente 
+      sim<lb ed="#P" n="21" break="no"/>pliciter primo. Sed Christus non accipit sic suum 
+      es<lb ed="#P" n="22" break="no"/>se simpliciter primum a deo. Accepit enim ipsum de 
+      sub<lb ed="#P" n="23" break="no"/>stantia dei: quia suum esse simpliciter primum est esse 
+      <lb ed="#P" n="24"/>verbi et illud accipit de aliquo vt patet: ergo 
+      chri<lb ed="#P" n="25" break="no"/>stus non est creatura. Similiter etiam corpus eius fuit 
+      <lb ed="#P" n="26"/>formatum de aliquo. Puta de purissimis inguinibus 
+      <lb ed="#P" n="27"/>virginis secundum Damascenum ad cuius formationem 
+      co<lb ed="#P" n="28" break="no"/>operata est beata virgo vt dictum est supra et ita non 
+      <lb ed="#P" n="29"/>accepit aliquod suum esse simpliciter a deo 
+      imme<lb ed="#P" n="30" break="no"/>diate non de aliquo. Ista autemduo requiruntur ad hoc 
+      <lb ed="#P" n="31"/>vt aliquid creetur. Unde ignis genitus ab igne non 
+      <lb ed="#P" n="32"/>dicitur creari. Non enim fit immediate a deo sed me 
+      <lb ed="#P" n="33"/>diante igne qui non potest ad creationem 
+      concurrere<lb ed="#P" n="34" break="no"/>Similiter etiam quia non accipit suum esse 
+      simplici<lb ed="#P" n="35" break="no"/>ter primum non de aliquo sed de aliquo puta de 
+      ma<lb ed="#P" n="36" break="no"/>teria de ente in potentia: quare etc.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e410">
+      ¶ Si dicas 
+      con<lb ed="#P" n="37" break="no"/>tra istam rationem quod terminus quilibet generationis 
+      <lb ed="#P" n="38"/>potest esse terminus creationis: quia creatio est 
+      prior<lb ed="#P" n="39" break="no"/>omnibus mutationibus. Sed Christus est 
+      termi<lb ed="#P" n="40" break="no"/>nus generationis: quia est vere genitus a matre secundum 
+      <lb ed="#P" n="41"/>corpus que est pars minus principalis: ergo saltem 
+      <lb ed="#P" n="42"/>etiam secundum animam que est principalior poterit dici 
+      crea<lb ed="#P" n="43" break="no"/>tus et creatura.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e428">
+      ¶ Respondetur quod licet in 
+      genera<lb ed="#P" n="44" break="no"/>li vocabulo quiequid potest esse terminus 
+      genera<lb ed="#P" n="45" break="no"/>tionis et creationis: non tamen in proposito valet. 
+      Chri<lb ed="#P" n="46" break="no"/>stus enim potest esse terminus generationis: quia ad 
+      <lb ed="#P" n="47"/>generationem non requiritur quod genitum accipiat suum 
+      <lb ed="#P" n="48"/>esse simpliciter non de aliquo sed sufficit quod accipiat 
+      <lb ed="#P" n="49"/>esse aliquod substantiale de aliquo et aliquid presur 
+      <lb ed="#P" n="50"/>ponendo et hoc non repugnat Christo sicut primum 
+      si<lb ed="#P" n="51" break="no"/>bi repugnat. Unde licet christus possit dici 
+      simpli<lb ed="#P" n="52" break="no"/>citer genitus: non tamen creatus non obstante quod anima 
+      <lb ed="#P" n="53"/>vel natura humana que est in ipso posset dici 
+      crea<lb ed="#P" n="54" break="no"/>ta si deus primo creasset naturam immediate et statim 
+      <lb ed="#P" n="55"/>assumpsisset eam. Conceditur etiam Christus esse 
+      cor<lb ed="#P" n="56" break="no"/>ruptus vel mortuus in triduo non tamen conceditur ad 
+      <lb ed="#P" n="57"/>nichilatus. Ita dicitur quod licet christus concedatur 
+      <lb ed="#P" n="58"/>genitus non tamen creatus. Mori enim vel corrumpi 
+      op<lb ed="#P" n="59" break="no"/>ponuntur viuere et generari sed anichilari opponitur 
+      <lb ed="#P" n="60"/>creari. Et sicut non oportet quod semper per generatio 
+      <lb ed="#P" n="61"/>nem adquiratur simpliciter primum esse rei. Ita non 
+      <lb ed="#P" n="62"/>oportet quod per corruptionem amittatur illud esse sed 
+      <lb ed="#P" n="63"/>vtrumque oportet de adnichilari et creari.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e474">
+      ¶ Secunda 
+      <lb ed="#P" n="64"/>ratio est ista. Quando aliquid denominat aliud vel 
+      <lb ed="#P" n="65"/>natum est denominare secundum totum illud non denominat 
+      <!--100.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>totum per partem. Uerbi gratia. Risibile denominat 
+      <lb ed="#P" n="67"/>totum hominem et secundum totum. Et planum est quod non de 
+      <lb ed="#P" n="68"/>nominat hominem per aliquam partem eius. 
+      Simili<lb ed="#P" n="69" break="no"/>ter vnitas denominat totum ens ratione totius et non 
+      <lb ed="#P" n="70"/>ratione partis sicut patet. Non enim dicitur homo vnus 
+      <lb ed="#P" n="71"/>quia caput eius est vnum vel quia manus eius est 
+      vna<lb ed="#P" n="72" break="no"/>Sed creatura nata est denominare ens aliquod se 
+      <lb ed="#P" n="73"/>cundum totum quod est in ipso vt totum et secundum totum dicatur 
+      <lb ed="#P" n="74"/>creatura vel creatum: ergo denominabit aliquod 
+      to<lb ed="#P" n="75" break="no"/>tum quasi per partem. Sed christus est quasi totum et 
+      <lb ed="#P" n="76"/>natura humana in ipso vel anima ipsa est quasi pars 
+      <lb ed="#P" n="77"/>ergo christus non potest dici creatura vel creatum: quia 
+      <lb ed="#P" n="78"/>nec secundum totum nec secundum partem
+    </p>
+            <p xml:id="qrdBas-c29740-d1e514">
+      ¶ Tertia ratio. Si christus 
+      <lb ed="#P" n="79"/>est creatus vel creatura et filius dei est Christus se 
+      <lb ed="#P" n="80"/>quitur quod filius dei est creatura: quia medium est hoc 
+      <lb ed="#P" n="81"/>aliquid: igitur est bona consequentia: sed conclusio est 
+      <lb ed="#P" n="82"/>alsa et est error Arrii.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e525">
+      ¶ Quarta ratio. Si 
+      Chri<lb ed="#P" n="83" break="no"/>stus est creatura sequitur quod creatura est christus et 
+      <lb ed="#P" n="84"/>christus est verbum et filius dei: ergo creatura est 
+      ver<lb ed="#P" n="85" break="no"/>dum dei et econuerso. Uerbum dei est creatura: et per 
+      con<lb ed="#P" n="86" break="no"/>sequens factum et sic non omnia per ipsum facta sunt 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e536">
+               <lb ed="#P" n="87"/>¶ Quinta ratio. Christus non est natura 
+      humana<lb ed="#P" n="88" break="no"/>sed illud solum quod est creatura in ipso est natura 
+      hu<lb ed="#P" n="89" break="no"/>mana vel aliquid ex parte eius. igitur Christus non 
+      <lb ed="#P" n="90"/>est creatura 
+      <lb ed="#P" n="91"/>quod ista neganda est de vit 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e549">
+               <lb ed="#P" n="92"/>¶ Dicunt ergo tute sermonis et non 
+      so<lb ed="#P" n="93" break="no"/>lum propter hereticos: quia tunc cessante heresi 
+      de<lb ed="#P" n="94" break="no"/>beret concedi: et tamen non negatur per Magistrum. 
+      No<lb ed="#P" n="95" break="no"/>ta hic quod non solum dicitur aliquid creatum vel 
+      crea<lb ed="#P" n="96" break="no"/>ri seu creatura quod accipit suum totale esse a causa 
+      <lb ed="#P" n="97"/>prima immediate non de aliquo sicut angelus vel 
+      <lb ed="#P" n="98"/>anima vel gratia. Sed etiam dicitur aliquid 
+      creatu<lb ed="#P" n="99" break="no"/>ra respectu dei vel creatura dei quod ab eo recipit 
+      <lb ed="#P" n="100"/>suum esse simpliciter primum dato quod de aliquo et me 
+      <lb ed="#P" n="101"/>diante causa secunda esse autem simpliciter vel dicitur 
+      <lb ed="#P" n="102"/>esse totale quo adequata est talis creatura vel esse 
+      <lb ed="#P" n="103"/>prime partis in ea vt corporis organici in homine 
+      <lb ed="#P" n="104"/>quod est prius esse totale hominis non solum natura 
+      <lb ed="#P" n="105"/>sed etiam duratione secundum me et secundum veritatem. Unde et 
+      <lb ed="#P" n="106"/>homo genitus ab homine et asinus ab asino: vel etiam. 
+      <lb ed="#P" n="107"/>calor productus ab igne dicuntur creature dei licet 
+      <lb ed="#P" n="108"/>non dicantur creature secundorum agentium a quibus 
+      <lb ed="#P" n="109"/>producuntur sed magis effectus eorum. Modo dicunt 
+      <lb ed="#P" n="110"/>quod nec etiam isto modo accipiendo creaturam christus dici 
+      <lb ed="#P" n="111"/>potest creatura. Patet: quia suum esse simpliciter primum. 4. 
+      <lb ed="#P" n="112"/>partis in ipso non sic accipit a deo non de aliquo siue 
+      <lb ed="#P" n="113"/>de non aliquo: quia illud est esse verbi quod accipit a deo 
+      <lb ed="#P" n="114"/>patre de sua substantia nec etiam esse aliquod totale 
+      <lb ed="#P" n="115"/>quo adequate sit constitutum ex esse verbi et esse 
+      na<lb ed="#P" n="116" break="no"/>ture humane superuenientis quia nullum tale esse est 
+      <lb ed="#P" n="117"/>in christo. Nullum enim esse tertium constituitur ex 
+      <lb ed="#P" n="118"/>eis: quare etc. Christus igitur nec potest dici 
+      crea<lb ed="#P" n="119" break="no"/>tura primo modo nec secundo modo: et ita nullo modo 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e612">
+               <lb ed="#P" n="120"/>¶ Ad primum aliorum dicendum 
+      <lb ed="#P" n="121"/>est quod non est causa: quare creatura non predicetur de 
+      <lb ed="#P" n="122"/>Christo: quia creatura ad vnionem pertineat: quia 
+      ma<lb ed="#P" n="123" break="no"/>tis pertinet ad vnitum et per hoc soluitur ad tertium 
+      <lb ed="#P" n="124"/>ipsorum. Sed causa est repugnantia creature ad 
+      di<lb ed="#P" n="125" break="no"/>uinum suppositum propter causas predictas. Quam 
+      <lb ed="#P" n="126"/>do dicis quod non: quia ita repugnat deo esse mortalem: si 
+      <lb ed="#P" n="127"/>cut esse creaturam. Diceretur quod non sicut dictum est 
+      <lb ed="#P" n="128"/>supra quod non sic repugnat diuino supposito esse 
+      ge<lb ed="#P" n="129" break="no"/>nitum temporaliter sicut etiam creatum et causa dicte 
+      <!--101.xml-->
+      <pb ed="#P" n="46-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>est quia diuino supposto repugnat per 
+      contradictio<lb ed="#P" n="2" break="no"/>nem accipere suum totale esse vel simpliciter primum 
+      <lb ed="#P" n="3"/>non de aliquo et ideo contradictio est quod ponatur 
+      creatu<lb ed="#P" n="4" break="no"/>ra vel creatum sibi autem non repugnat accipere 
+      ali<lb ed="#P" n="5" break="no"/>quod esse substantiale per generationem: vt dictum est 
+      <lb ed="#P" n="6"/>supra. Et ideo nec sibi repugnat esse passibile vel 
+      <lb ed="#P" n="7"/>mortale. Nec est aliqua contradictio quod sit impassibi 
+      <lb ed="#P" n="8"/>le et immortale secundum naturam diuinam et sit passibile et 
+      <lb ed="#P" n="9"/>nortale secundum humanam.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e662">
+      ¶ Ad secundum quando dicis ita 
+      re<lb ed="#P" n="10" break="no"/>pugnat diuino supposito non esse post esse sicut esse 
+      <lb ed="#P" n="11"/>post non esse. Diceretur quod accipiendo vniformiter 
+      <lb ed="#P" n="12"/>ita repugnat sibi non esse quod est terminus adnichila 
+      <lb ed="#P" n="13"/>tionis post esse sicut esse quod est terminus creationis 
+      <lb ed="#P" n="14"/>post non esse. Et diceretur quod neutrum potest sibi 
+      con<lb ed="#P" n="15" break="no"/>uenire sicut dictum est supra. Tunc vltra diceretur quod 
+      <lb ed="#P" n="16"/>ita potest conuenire diuino supposito esse post non et 
+      <lb ed="#P" n="17"/>se per generationem sicut non esse post esse per 
+      cor<lb ed="#P" n="18" break="no"/>ruptionem et ita dico quod neutrum sibi repugnat nec 
+      ge<lb ed="#P" n="19" break="no"/>nerari nec concipi nec mori vt dictum est.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e687">
+      ¶ Ad 
+      ter<lb ed="#P" n="20" break="no"/>tium patet per predicta.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e692">
+      ¶ Ad quartum diceretur quod 
+      crea<lb ed="#P" n="21" break="no"/>tura quia dicit esse acceptum non de aliquo quod est 
+      fim<lb ed="#P" n="22" break="no"/>pliciter esse primum accipientis non potest verifica 
+      <lb ed="#P" n="23"/>ri de Christo. Quando dicis quod immo: quia proprieta 
+      <lb ed="#P" n="24"/>tes negatiue communicant ydiomata. Diceretur quod 
+      <lb ed="#P" n="25"/>verum est ille que non ponunt vel arguunt repugnantiam 
+      <lb ed="#P" n="26"/>sicut sunt ille que adducuntur in argumento. Non 
+      au<lb ed="#P" n="27" break="no"/>tem ista: quia ponit necessario repugnantiam ad 
+      di<lb ed="#P" n="28" break="no"/>uinum suppositum.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e712">
+      ¶ Ad quintum diceretur quod creatura 
+      <lb ed="#P" n="29"/>importat dependentiam creati vel creature ad 
+      crean<lb ed="#P" n="30" break="no"/>tem: vt producti non de aliquo in esse simpliciter 
+      pri<lb ed="#P" n="31" break="no"/>mo et talis repugnat diuino supposito licet non 
+      re<lb ed="#P" n="32" break="no"/>pugnet nature assumpte: et ideo licet natura assum 
+      <lb ed="#P" n="33"/>pta possit dici creatura non tamen christus. Quando 
+      <lb ed="#P" n="34"/>dicis quod christus est minor patre. Diceretur quod 
+      mino<lb ed="#P" n="35" break="no"/>ritas non dicit talem dependentiam in esse simpliciter 
+      <lb ed="#P" n="36"/>primo sed in esse secundo secundum naturam assumptam: 
+      <lb ed="#P" n="37"/>ideo etc.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e734">
+      ¶ Ad vltimum diceretur quod nulla est 
+      depen<lb ed="#P" n="38" break="no"/>dentia creatoris ad creaturam: licet econuerso. Et 
+      <lb ed="#P" n="39"/>ita non repugnat Christo dici creatorem sicut 
+      repu<lb ed="#P" n="40" break="no"/>gnat sibi dici vel esse creaturam. 
+      <lb ed="#P" n="41"/>omnes respondent 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e745">
+               <lb ed="#P" n="42"/>¶ Ad auctoritates quod non est intentio 
+      <lb ed="#P" n="43"/>sanctorum verificare istam. Christus est creatura 
+      <lb ed="#P" n="44"/>vel factus est creatura. Sed sancti ad excitandum 
+      de<lb ed="#P" n="45" break="no"/>uotionem fidelium excessiue sunt locuti dicendo 
+      <lb ed="#P" n="46"/>verbum dei esse vel fieri creaturam: quia tantum se 
+      <lb ed="#P" n="47"/>humiliauit pro nobis in natura assumpta ac si 
+      fuis<lb ed="#P" n="48" break="no"/>set pura creatura. 
+      <lb ed="#P" n="49"/>videtur esse dicendum 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e765">
+               <lb ed="#P" n="50"/>¶ Aliis vltiimo quod s creatura 
+      acipiai<lb ed="#P" n="51" break="no"/>aliquid productum non de aliquo secundum totale esse quod 
+      <lb ed="#P" n="52"/>est in ipso sic Christus non potest dici creatura: sed  
+      <lb ed="#P" n="53"/>est ista. Christus est creatura sicut dicit praemissa 
+      opi<lb ed="#P" n="54" break="no"/>nio. Si vero accipiatur creatura pro omni eo quod 
+      per<lb ed="#P" n="55" break="no"/>productionem aliquam nouam accipit aliquod verum 
+      <lb ed="#P" n="56"/>esse nouum siue de aliquo siue non de aliquo. Sic christus 
+      <lb ed="#P" n="57"/>potest dici creatura quia accepit nouum esse hominis 
+      <lb ed="#P" n="58"/>per productionem nouam temporalem a spiritus 
+      sancto<lb ed="#P" n="59" break="no"/>et matre virgine licet de aliquo licet illud esse non sit 
+      <lb ed="#P" n="60"/>suum esse simpliciter et sic potest intelligi prima 
+      opi<lb ed="#P" n="61" break="no"/>nio.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e795">
+      ¶ Ista positio satis posset sustineri et magis 
+      vi<lb ed="#P" n="62" break="no"/>detur saluare auctoritates adductas pro prima 
+      opi<lb ed="#P" n="63" break="no"/>nione. Non enim videtur quod sancti debuerint 
+      dicere<lb ed="#P" n="64" break="no"/>falsitatem ad excitandum deuotionem. Nec est bo 
+      <lb ed="#P" n="65"/>na deuotio que concipitur de falso vel etiam circa 
+      <!--101.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>falsum. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e813">
+               <lb ed="#P" n="67"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="68" break="no"/>ticulum. An scilicet ista sit vera. Christus secundum quod hoc 
+      <lb ed="#P" n="69"/>mo est creatura. Concedunt primi de prima opinie 
+      <lb ed="#P" n="70"/>ne primi articuli quod est vera et ad hoc adducuntur 
+      due<lb ed="#P" n="71" break="no"/>rationes vel tres.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e826">
+      ¶ Prima est ista. Christus secundum 
+      <lb ed="#P" n="72"/>quod ho vel est creator vel creatura. Sed non est 
+      crea<lb ed="#P" n="73" break="no"/>tor vt patet secundum quod deus: ergo est creatura secundum quod deus: 
+      <lb ed="#P" n="74"/>et tunc etiam pater et spiritus sanctus essent homines 
+      <lb ed="#P" n="75"/>vel homo.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e837">
+      ¶ Secundo est aliquid creatum: ergo 
+      creatu<lb ed="#P" n="76" break="no"/>ra.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e842">
+      ¶ Tertio sic. Philosophus. 5. phisicorum dicit.  
+      <lb ed="#P" n="77"/>Quod illud quod conuenit parti conuenit toti per partem 
+      <lb ed="#P" n="78"/>sicut moueri sicut etiam et sanari. Unde si torax 
+      sa<lb ed="#P" n="79" break="no"/>natur homo sanatur. Sed esse creaturam conuenit 
+      <lb ed="#P" n="80"/>humanitati christi: ergo toti christo conuenit secundum istam 
+      <lb ed="#P" n="81"/>partem. Igitur ista est vera christus secundum quod homo est 
+      crea<lb ed="#P" n="82" break="no"/>tura.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e858">
+      ¶ Preterea. Quando aliquid determinat 
+      si<lb ed="#P" n="83" break="no"/>bi partem totum potest dici tale: quia pars illa talis 
+      <lb ed="#P" n="84"/>Sicut crispus dicitur homo simpliciter si caput est 
+      <lb ed="#P" n="85"/>crispum. Sed creaturam esse determinat sibi partem 
+      <lb ed="#P" n="86"/>Christi: puta humanitatem: ergo totus Christus 
+      <lb ed="#P" n="87"/>saltem secundum quod homo potest dici creatura vel 
+      <lb ed="#P" n="88"/>creatus 
+      <lb ed="#P" n="89"/> de secunda opinione dicunt quod ista non 
+      <lb ed="#P" n="90"/>Ali solum est impropria et exponenda sicut 
+      <lb ed="#P" n="91"/>dicit Magister in litera: sed est simpliciter falsa et 
+      <lb ed="#P" n="92"/>neganda. Ratio est: quia quando aliquod predica 
+      <lb ed="#P" n="93"/>tum repugnat alicui subiecto non potest predicari 
+      <lb ed="#P" n="94"/>vel verificari de ipso cum quacunque modificatione 
+      <lb ed="#P" n="95"/>vel determinatione nisi modificatio vel 
+      determina<lb ed="#P" n="96" break="no"/>tio tollat repugnantiam illam. Hoc est planum. 
+      Sor<lb ed="#P" n="97" break="no"/>ti enim repugnat esse minorem seipso vel maiorem. 
+      <lb ed="#P" n="98"/>Et ideo sicut ista est absolute falsa. Sortes est 
+      mi<lb ed="#P" n="99" break="no"/>nor seipso: ita et ista. Sortes inquantum habens manum 
+      <lb ed="#P" n="100"/>vel caput est minor seipso: quia habere manum vel 
+      <lb ed="#P" n="101"/>caput non tollit repugnantiam predicati ad subiectum 
+      <lb ed="#P" n="102"/>Sed istud praedicatum creatura simpliciter repugnat 
+      <lb ed="#P" n="103"/>Christo sicut dictum est supra per ipsos et ista 
+      mo<lb ed="#P" n="104" break="no"/>dificatio vel determinatio seu reduplicatio secundum quod 
+      <lb ed="#P" n="105"/>homo non tollit repugnantiam istam quia non 
+      distra<lb ed="#P" n="106" break="no"/>hit Christum sed ipsum in natura sua relinquit: en 
+      <lb ed="#P" n="107"/>go etc.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e916">
+      ¶ Dicunt tamen quod ista est vera. Christus est 
+      <lb ed="#P" n="108"/>creatura secundum quod homo sicut licet ista non sit 
+      vera<lb ed="#P" n="109" break="no"/>Ethiops secundum dentes est albus tamen hec est 
+      vera<lb ed="#P" n="110" break="no"/>Ethiops est albus secundum dentes 
+      <lb ed="#P" n="111"/>de tertia opinione dicunt quod si creatu¬ 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e927">
+               <lb ed="#P" n="112"/>¶ Alii ra accipiatur primo modo sicut dictum 
+      <lb ed="#P" n="113"/>est in illa opinione tertia quod Christus secundum quod homo 
+      <lb ed="#P" n="114"/>est creatura vel dici potest. Ita quod non solum est 
+      crea<lb ed="#P" n="115" break="no"/>tura secundo modo accipiendo creaturam sed etiam 
+      <lb ed="#P" n="116"/>primo modo. Nam Christus per istam 
+      modifica<lb ed="#P" n="117" break="no"/>tionem seu determinationem secundum quod homo licet non 
+      <lb ed="#P" n="118"/>distrahatur tamen modificatur et determinatur et 
+      <lb ed="#P" n="119"/>contrahitur ad hoc vt precise accipiatur pro 
+      natu<lb ed="#P" n="120" break="no"/>ra humana et quia natura humana est simpliciter 
+      <lb ed="#P" n="121"/>creatura primo modo: quia totale suum esse habet 
+      <lb ed="#P" n="122"/>post non esse non solum natura sed duratione. Ideo 
+      <lb ed="#P" n="123"/>etiam Christus secundum quod homo potest dici creatura 
+      <lb ed="#P" n="124"/>vtroque modo: et ita concedunt rationes adductas 
+      <lb ed="#P" n="125"/>bro prima opinione.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e960">
+      ¶ Alii tamen de media 
+      opi<lb ed="#P" n="126" break="no"/>nione soluunt eas 
+      <lb ed="#P" n="127"/> dicunt quod esse creatorem vel 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e967">
+               <lb ed="#P" n="128"/>¶ Ad prima creaturam vel creatum et in 
+      <lb ed="#P" n="129"/>creatum non diuidunt omne ens quocunque modo ac  
+      <!--102.xml-->
+      <pb ed="#P" n="47-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ceptum licet simpliciter accipiendo diuidant omne 
+      <lb ed="#P" n="2"/>ens simpliciter vnum in se. Ita quod licet secundum quod homo sit 
+      <lb ed="#P" n="3"/>aliquid non tamen oportet quod vel increatum vel 
+      crea<lb ed="#P" n="4" break="no"/>tum vel creator vel creatura. Sed bene oporteret 
+      <lb ed="#P" n="5"/>hoc de puro homine vel de deo et sic patet ad primum 
+      <lb ed="#P" n="6"/>et ad tertium quia licet creator et creatura 
+      simplici<lb ed="#P" n="7" break="no"/>ter diuidant quodlibet ens. Unde et simpliciter christo 
+      <lb ed="#P" n="8"/>potest dici creator non tamen cum reduplicatione sicut 
+      <lb ed="#P" n="9"/>etiam potest haberi exemplum: quia licet ista sit 
+      ve<lb ed="#P" n="10" break="no"/>ra. Sortes currit vel non currit: non tamen ista Sortes 
+      <lb ed="#P" n="11"/>secundum quod homo currit vel non currit. Concedunt tamen 
+      <lb ed="#P" n="12"/>quod ista est vera. Christus est creatura secundum quod homo 
+      li<lb ed="#P" n="13" break="no"/>cet negent primam: quia prima est de simpliciter et alia 
+      <lb ed="#P" n="14"/>de secundum quid. Per hoc patet ad secundum.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e1011">
+      ¶ Ad 
+      ter<lb ed="#P" n="15" break="no"/>tium dicunt quod non semper illud quod conuenit parti de 
+      <lb ed="#P" n="16"/>nominat totum sicut albedo si conuenit medietati 
+      scu<lb ed="#P" n="17" break="no"/>ti et nigredo alteri neutrum denominat scutum. Tumd 
+      <lb ed="#P" n="18"/>enim scutum diceretur album et nigrum: sed bene verum 
+      <lb ed="#P" n="19"/>est quando illud quod conuenit parti determinat sibi eam 
+      <lb ed="#P" n="20"/>sicut de crispo vel si pro parte principali conueniat 
+      <lb ed="#P" n="21"/>tunc valet denominatio.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e1029">
+      ¶ Ad philosophum dici 
+      <lb ed="#P" n="22"/>tur quod ipse non curauit multum de proprietate verbo 
+      <lb ed="#P" n="23"/>rum sed sufficit sibi quod aliquo modo per accidens 
+      mo<lb ed="#P" n="24" break="no"/>ta parte mouetur totum. Modo sic est quod esse 
+      creatu<lb ed="#P" n="25" break="no"/>ram non determinat sibi precise naturam creatam sed 
+      <lb ed="#P" n="26"/>etiam supposito creato potest conuenire: et ideo si 
+      com<lb ed="#P" n="27" break="no"/>ueniat nature create in aliquo et suppositum non sit 
+      <lb ed="#P" n="28"/>creatum non denominat suppositum simpliciter: sed 
+      <lb ed="#P" n="29"/>secundum quid sicut in proposito concedunt quod ista est 
+      ve<lb ed="#P" n="30" break="no"/>ra Christus est creatura secundum quod homo quia hoc 
+      di<lb ed="#P" n="31" break="no"/>strahit predicatum ne accipiatur simpliciter dictum 
+      <lb ed="#P" n="32"/>de subiecto. Sed ego non video quare non possit ita 
+      <lb ed="#P" n="33"/>modificare subiectum quando ponitur a parte 
+      sub<lb ed="#P" n="34" break="no"/>iecti vt tantum accipiatur secundum naturam humanam 
+      <lb ed="#P" n="35"/>hec de secundo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e1063">
+               <lb ed="#P" n="36"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="37" break="no"/>culum. Dicunt illi qui tenent quod in Christo non est 
+      <lb ed="#P" n="38"/>nisi vnicum esse quod ista est simpliciter falsa et 
+      negan<lb ed="#P" n="39" break="no"/>da Christus incepit esse: quia totum esse Christi est 
+      <lb ed="#P" n="40"/>esse diuini suppositi quod est eternum et non incepit 
+      e<lb ed="#P" n="41" break="no"/>se.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e1079">
+      ¶ Confirmatur per exemplum dato quod Sortes 
+      <lb ed="#P" n="42"/>hodie inciperet esse albus: non tamen propter hoc 
+      <lb ed="#P" n="43"/>inciperet esse. Similiter dato quod Christus incepit 
+      <lb ed="#P" n="44"/>esse homo non tamen incepit esse.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e1088">
+      ¶ Ad hoc est ar 
+      <lb ed="#P" n="45"/>ctoritas christi. Ioan. 8. Antequam Abraham fieretur 
+      <lb ed="#P" n="46"/>ego sum. Similiter Damascenus dicit quod iste 
+      puer<lb ed="#P" n="47" break="no"/>est eternus et creauit stellas: ergo non incepit esse 
+      <lb ed="#P" n="48"/>ipse Christus. 
+      <lb ed="#P" n="49"/>fquod est simpliciter conceden¬ 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e1101">
+               <lb ed="#P" n="50"/>¶ Alii dicunt da et vera. Primo quia irista 
+      <lb ed="#P" n="51"/>de nouo genitus est a matre. Generatio vero 
+      termi<lb ed="#P" n="52" break="no"/>natur ad esse substantiale quod est esse simpliciter 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e1110">
+               <lb ed="#P" n="53"/>¶ Secundo quia. Christus nominat suppositum 
+      <lb ed="#P" n="54"/>duarum naturarum secundum Damascenum. Sed 
+      supposi<lb ed="#P" n="55" break="no"/>um duarum naturarum non semper fuit et modo 
+      <lb ed="#P" n="56"/>est: ergo Christus incepit esse.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e1121">
+      ¶ Confirmatur per 
+      <lb ed="#P" n="57"/>Augustinum super Io. Et ponitur in litera. Ubi 
+      <lb ed="#P" n="58"/>dicit quod antequam mundus fieret non erat ipse 
+      Chri<lb ed="#P" n="59" break="no"/>stus nec nos igitur incepit esse ita quod ista 
+      propositio<lb ed="#P" n="60" break="no"/>videtur posse verificari tam ex parte subiecti quod 
+      <lb ed="#P" n="61"/>est Christus quam etiam ex parte predicati quod est et 
+      <lb ed="#P" n="62"/>se. Et sicut in rationibus tactum est. Et isti ponum 
+      <lb ed="#P" n="63"/>in Christo plura esse sicut et positum est supra. Un 
+      <lb ed="#P" n="64"/>de et prima opinio fundatur super falsum licet ali¬ 
+      <!--102.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>quo modo possit conclusio eius sustineri. 
+      <lb ed="#P" n="66"/>quod quando dicitur Christus  
+      </p>
+            <p xml:id="qrdBas-c29740-d1e1151">
+               <lb ed="#P" n="67"/>¶ Dico ergo incepit esse. Aut 
+      intelligi<lb ed="#P" n="68" break="no"/>tur de eterno diuini suppositi: et sic est falsa 
+      secun<lb ed="#P" n="69" break="no"/>dum primam opinionem. Aut intelligitur de esse 
+      <lb ed="#P" n="70"/>substantiali nouo per naturam humanam 
+      assum<lb ed="#P" n="71" break="no"/>ptam et sic est verum quod incepit esse sicut et in morte 
+      <lb ed="#P" n="72"/>desiit esse et resurrectione resumpsit esse et sic proba 
+      <lb ed="#P" n="73"/>tiones procedunt suis viis. Hec de tertio articulo 
+      <lb ed="#P" n="74"/>principali 
+      <lb ed="#P" n="75"/>Ad primum principale soluunt 
+      <lb ed="#P" n="76"/>illi de prima opinione et de vltima quod ista est vera. 
+      <lb ed="#P" n="77"/>Christus est creatura eo modo quo dictum est 
+      su<lb ed="#P" n="78" break="no"/>pra per eos. Et similiter ad alia duo consequenter 
+      <lb ed="#P" n="79"/>illi de media opinione qui negant istam. Christus 
+      <lb ed="#P" n="80"/>est creatura. Dicunt ad primum quod licet secundum 
+      <lb ed="#P" n="81"/>naturam diuinam Christus possitdici creator non 
+      <lb ed="#P" n="82"/>tamen secundum naturam humanam potest dici 
+      crea<lb ed="#P" n="83" break="no"/>tura. Et ratio huius est. Nam licet sit communica 
+      <lb ed="#P" n="84"/>tio ydiomatum in his que pertinent ad naturas vel 
+      <lb ed="#P" n="85"/>naturam respectu quorum natura dicitur quo non 
+      <lb ed="#P" n="86"/>tamen respectu quorum dicitur quod. Uerbi 
+      gra<lb ed="#P" n="87" break="no"/>tia viuificare formaliter denominat animam sicut 
+      <lb ed="#P" n="88"/>quod: quia anima est illud quod viuificat et planum 
+      <lb ed="#P" n="89"/>istud. Nec denominat totum compositum ex anima 
+      <lb ed="#P" n="90"/>et corpore. Nec etiam ipsum corpus sed repugnat 
+      <lb ed="#P" n="91"/>eis. Sic in proposito creatura denominat naturam 
+      <lb ed="#P" n="92"/>humanam vt quod quia ipsa est illud quod est creatum 
+      <lb ed="#P" n="93"/>vel creatura: et ideo non denominat hoc totum 
+      chri<lb ed="#P" n="94" break="no"/>stum sed sibi repugnat. Nec est communicatio 
+      ydio<lb ed="#P" n="95" break="no"/>matum in hoc sicut nec esset hic si verbum 
+      assume<lb ed="#P" n="96" break="no"/>ret animam viuificantem formaliter ista esset falsa 
+      <lb ed="#P" n="97"/>verbum vel Christus viuificat formaliter. Aliter 
+      <lb ed="#P" n="98"/>dicitur et melius quod creatio actiua est nata 
+      denomi<lb ed="#P" n="99" break="no"/>nare suppositum ratione nature diuine: et ideo 
+      ra<lb ed="#P" n="100" break="no"/>tione illius dicitur Christus creator. Sed 
+      creatu<lb ed="#P" n="101" break="no"/>ra non denominat aliquid nisi ratione suiipsius: et 
+      <lb ed="#P" n="102"/>ideo licet dicatur de natura humana Christi non 
+      ta<lb ed="#P" n="103" break="no"/>men de Christo ratione nature humane. Uel 
+      ali<lb ed="#P" n="104" break="no"/>ter quod esse creatorem non repugnat Christo: quia ab 
+      <lb ed="#P" n="105"/>ipso est totale esse primum et simpliciter creature: 
+      <lb ed="#P" n="106"/>sed sibi repugnat esse creaturaim pro causa 
+      supra<lb ed="#P" n="107" break="no"/>dicta: et ideo non est communicatio ydiomatum in 
+      <lb ed="#P" n="108"/>hoc inter suppositum et naturam humanam sicut 
+      <lb ed="#P" n="109"/>de creatore inter Christum et naturam diuinam. 
+      </p>
+            <p xml:id="qrdBas-c29740-d1e1247">
+               <lb ed="#P" n="110"/>¶ Ad secundum dicunt quod creatura est aliquod 
+      <lb ed="#P" n="111"/>dicatum generale de omnibus per se contentis in 
+      <lb ed="#P" n="112"/>aliquo predicamento et constituto per naturam illius 
+      <lb ed="#P" n="113"/>et de natura etiam. Sed Christus non est aliquid 
+      <lb ed="#P" n="114"/>per se in predicamento nec constituitur per 
+      natu<lb ed="#P" n="115" break="no"/>ram predicamentalem sicut Sortes vel homo: et ideo 
+      <lb ed="#P" n="116"/>de ipso non predicatur homo sicut de Sorte: nec per 
+      <lb ed="#P" n="117"/>consequens sicut superius suum vel inferius ad 
+      crea<lb ed="#P" n="118" break="no"/>turam.
+    </p>
+            <p xml:id="qrdBas-c29740-d1e1269">
+      ¶ Ad tertium dicitur quod Christus est 
+      ho<lb ed="#P" n="119" break="no"/>mo creatus: non tamen sequitur propter hoc quod sit 
+      <lb ed="#P" n="120"/>creatura vel creatus simpliciter sed est fallatia 
+      se<lb ed="#P" n="121" break="no"/>cundum quid ad simpliciter. Sicut etiam dictum est 
+      su<lb ed="#P" n="122" break="no"/>pra quod non sequitur. Deus est factus homo: ergo est 
+      <lb ed="#P" n="123"/>factus. Quando enim dicitur C hristus est homo 
+      <lb ed="#P" n="124"/>creatus contrahitur creatum et refertur ad naturam 
+      <lb ed="#P" n="125"/>humanam solum. Sed cum dicitur Christus est creatus 
+      <lb ed="#P" n="126"/>vel creatura sumitur simpliciter et denominatur quod 
+      <lb ed="#P" n="127"/>totum esse Christi et suum esse simpliciter habeatur 
+      <lb ed="#P" n="128"/>per creationem quod est falsum: ideo etc
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

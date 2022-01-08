@@ -1,0 +1,730 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="48-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c31414"><!--l3d13q1 -->
+            <head xml:id="qrdBas-c31414-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-c31414-d1e101">
+               <lb ed="#P" n="39"/>¶ Distinctionis Decimetertie. 
+      <lb ed="#P" n="40"/>Questio Unica.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e108">
+               <lb ed="#P" n="41"/>CIrca distinctionem 
+      <lb ed="#P" n="42"/>Decimamtertiam quero. Utrum 
+      <lb ed="#P" n="43"/>in anima Christi sit vel fuerit 
+      ali<lb ed="#P" n="44" break="no"/>qua gratia habitualis creata 
+      <lb ed="#P" n="45"/>informans ipsum.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e121">
+      ¶ Uidetur 
+      <lb ed="#P" n="46"/>quod non. In christo non est 
+      ponen<lb ed="#P" n="47" break="no"/>dum aliquid frustra. Sed illa 
+      <lb ed="#P" n="48"/>¬ 
+      <lb ed="#P" n="49"/>gratia fuisset frustra. Nam deus 
+      <lb ed="#P" n="50"/>non indiget tali gratia ad hoc vt sit gratus. christus 
+      <lb ed="#P" n="51"/>autem erat deus: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e137">
+      ¶ Secundo sic. Si in 
+      Chri<lb ed="#P" n="52" break="no"/>sto poneretur aliqua talis gratia illa esset summa 
+      <lb ed="#P" n="53"/>que posset poni in creatura. Sed hoc est falsum et 
+      <lb ed="#P" n="54"/>impossibile: quia anima Christi non est summum gratifi 
+      <lb ed="#P" n="55"/>cabile. Angelus nobilioris est nature: et per 
+      conse<lb ed="#P" n="56" break="no"/>quens maioris capacitatis vt videtur: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e151">
+      ¶ Ter 
+      <lb ed="#P" n="57"/>tio sic. Si in Christo esset talis gratia sequitur quod ipse 
+      <lb ed="#P" n="58"/>gratificaret seipsum causando illam gratiam in 
+      ani<lb ed="#P" n="59" break="no"/>ma sua. Sed hoc est impossibile: quia non est idem 
+      mon<lb ed="#P" n="60" break="no"/>uens et motum. Unde nichil idem supposito vel sub 
+      <lb ed="#P" n="61"/>iecto mouet seipsum: ergo etc. 
+      <lb ed="#P" n="62"/>Io I. Uidimus eum plenum gra¬ 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e167">
+               <lb ed="#P" n="63"/>¶ Contra tie et veritatis. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e172">
+        <!--104.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e181">
+               <lb ed="#P" n="65"/>¶ Primo inquiram. An in anima Christi fuerit 
+      gra<lb ed="#P" n="66" break="no"/>tia predicta habitualis.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e188">
+      ¶ Secundo inquiram. An 
+      <lb ed="#P" n="67"/>illa fuerit summa gratia possibilis: et per consequens 
+      <lb ed="#P" n="68"/>an finita vel infinita.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e195">
+      ¶ Tertio. An sine illa gratia 
+      <lb ed="#P" n="69"/>potuerit habere anima Christi summum actum fruitionis 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e201">
+               <lb ed="#P" n="70"/>¶ Quarto. An illa gratia sit gratia capitis.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e206">
+      ¶ 
+      Ul<lb ed="#P" n="71" break="no"/>timo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e211">
+               <lb ed="#P" n="72"/>¶ Quantum ad primum fuit 
+      <lb ed="#P" n="73"/>antiqua opinio quod in anima Christi non fuit nec est 
+      <lb ed="#P" n="74"/>aliqua gratia habitualis creata sibi inherens et 
+      ip<lb ed="#P" n="75" break="no"/>sam grati ficans sed diuinitas existens per vnionem 
+      ip<lb ed="#P" n="76" break="no"/>sius anime ad verbum supplebat quicquid ponitur 
+      fa<lb ed="#P" n="77" break="no"/>cere gratia in aliis. Ita quod frustra fuisset ibi gratia 
+      <lb ed="#P" n="78"/>aliqua talis habitualis qualis ponitur in aliis 
+      san<lb ed="#P" n="79" break="no"/>ctis creatis.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e231">
+      ¶ Ad hoc sunt alique rationes. 
+      Pri<lb ed="#P" n="80" break="no"/>ma est. Gratia ponitur in anima ad hoc vt deus 
+      inha<lb ed="#P" n="81" break="no"/>bitet ipsam et sit templum eius. Sed per vnionem ad 
+      <lb ed="#P" n="82"/>verbum deus perfectissime et intime inhabitabat 
+      ani<lb ed="#P" n="83" break="no"/>mam Christi: ergo non erat ibi gratia necessaria 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e242">
+               <lb ed="#P" n="84"/>¶ Secunda ratio. Gratia ponitur ad hoc vt 
+      perso<lb ed="#P" n="85" break="no"/>na sit in gratia et acceptetur a deo. Sed per gratiam 
+      <lb ed="#P" n="86"/>vnionis Christus erat deo amantissimus et 
+      accceptis<lb ed="#P" n="87" break="no"/>simus tanquam filius hic est inquit filius meus dilectus 
+      <lb ed="#P" n="88"/>etiam circumscripta tali gratia habituali: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e255">
+      ¶ 
+      Ter<lb ed="#P" n="89" break="no"/>tia ratio. Christus ratione vnionis nature 
+      huma<lb ed="#P" n="90" break="no"/>ne ad verbum erat in bono confirmatus et beatus 
+      ex<lb ed="#P" n="91" break="no"/>vi talis vnionis. Sed talis non indiget aliqua alia 
+      <lb ed="#P" n="92"/>habituali gratia vt videtur: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e267">
+      ¶ Quarta ratio. 
+      <lb ed="#P" n="93"/>Nichil vnum et idem supposito est virtualiter tale et 
+      <lb ed="#P" n="94"/>formaliter tale: quia tunc haberet vnum et idem bis et 
+      <lb ed="#P" n="95"/>nobiliori modo et innobiliori. Sed Christus virtua 
+      <lb ed="#P" n="96"/>liter habuit gratiam potens effectiue causare ipsam. 
+      <lb ed="#P" n="97"/>per modum cause equiuoce: ergo non habuit eam 
+      <lb ed="#P" n="98"/>formaliter vt videtur.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e283">
+      ¶ Ista opinio modo pro 
+      nul<lb ed="#P" n="99" break="no"/>la et tanquam erronea refutatur. 
+      <lb ed="#P" n="100"/>cum omnibus modernis 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e290">
+               <lb ed="#P" n="101"/>¶ Dico igitur quod in anima Christi 
+      fui<lb ed="#P" n="102" break="no"/>gratia habitualis predicta sicut ponitur etiam in aliis 
+      <lb ed="#P" n="103"/>animabus vel sanctis creaturis informans ipsam animam et 
+      <lb ed="#P" n="104"/>sibi inherens tanquam aliquid positiuum reale 
+      absolu<lb ed="#P" n="105" break="no"/>tum.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e303">
+      ¶ Ad hoc adduco rationes.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e305">
+      ¶ Prima est. S 
+      <lb ed="#P" n="106"/>vnio ad gratiam increatam que est deus tolleret 
+      gra<lb ed="#P" n="107" break="no"/>tiam habitualem creatam pari ratione vnio ad sapien 
+      <lb ed="#P" n="108"/>tiam increatam tolleret a christo et excluderet sapien 
+      <lb ed="#P" n="109"/>tiam creatam. Sed hoc est falsum. Habuit enim 
+      ani<lb ed="#P" n="110" break="no"/>ma Christi noticiam et sapientiam creatam 
+      multipli<lb ed="#P" n="111" break="no"/>cem sicut patebit infra: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e321">
+      ¶ Secunda 
+      ratio<lb ed="#P" n="112" break="no"/>In illo qui meruit vel meretur aliquid de 
+      condigno<lb ed="#P" n="113" break="no"/>oportet ponere gratiam secundum statutum divine pruden 
+      <lb ed="#P" n="114"/>tie: licet non sit hoc necessarium absolute sicut dictum 
+      <lb ed="#P" n="115"/>est in primo de caritate que est eadem cum gratia ip 
+      <lb ed="#P" n="116"/>sa sicut etiam dictum est ibi. Sed Christus meruit 
+      ali<lb ed="#P" n="117" break="no"/>quid et meritum eius fuit summum: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e338">
+      ¶ Tertia 
+      <lb ed="#P" n="118"/>ratio. Si in Christo non ponitur gratia habitualis 
+      <lb ed="#P" n="119"/>hoc non est nisi propter presentiam diuinitatis 
+      ex<lb ed="#P" n="120" break="no"/>vnione anime ad verbum. Sed planum est quod presentia 
+      <lb ed="#P" n="121"/>cause non tollit nec excludit effectum: immo magis 
+      <lb ed="#P" n="122"/>fortificat et perficit: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e351">
+      ¶ Quarta ratio. Quia 
+      <lb ed="#P" n="123"/>anima Christi fuit beata ab instanti conceptionis 
+      <lb ed="#P" n="124"/>sue et beatitudine eiusdem rationis. Sed beatitudo 
+      <lb ed="#P" n="125"/>aliorum non est sine gratia habituali: ergo nec in 
+      Chri<lb ed="#P" n="126" break="no"/>sto fuit beatitudo creata sine tali gratia. Si dicas 
+      <!--105.xml-->
+      <pb ed="#P" n="48-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quod immo: quia gratia increata supplebat. Ita dice 
+      <lb ed="#P" n="2"/>tur tibi de beatitudine creata quod non fuit in anima 
+      <lb ed="#P" n="3"/>Christi: quia beatitudo increata supplebat: et hoc 
+      <lb ed="#P" n="4"/>est nichil dictu. 
+      <lb ed="#P" n="5"/>quod in anima christi fuit et est gratia 
+      il<lb ed="#P" n="6" break="no"/>Dico ergo la habitualis creata gratum fe 
+      <lb ed="#P" n="7"/>ciens sicut ponitur in aliis et eiusdem rationis.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e384">
+      ¶ Ad 
+      <lb ed="#P" n="8"/>primum aliorum dico quod licet deus inhabitaret christum 
+      <lb ed="#P" n="9"/>per vnionem tamen requirebatur et erat conueniens alia 
+      <lb ed="#P" n="10"/>inhabitatio per gratiam sicut probatum est. Sicut 
+      <lb ed="#P" n="11"/>etiam suo modo licet deus inhabitet animam per 
+      essen<lb ed="#P" n="12" break="no"/>tiam presentiam et potentiam tamen alio modo 
+      per<lb ed="#P" n="13" break="no"/>gratiam.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e400">
+      ¶ Ad secundum dico quod Christus erat ad 
+      <lb ed="#P" n="14"/>ceptus et amabilis deo per vnum modum per gratio 
+      <lb ed="#P" n="15"/>vnionis vel vnionem ipsam. Sed dico quod illa non 
+      suf<lb ed="#P" n="16" break="no"/>ficiebat ad premium vite eterne vel meritum aliquod 
+      <lb ed="#P" n="17"/>de condigno sine gratia habituali et hoc secundum legen 
+      di<lb ed="#P" n="18" break="no"/>vine sapientie circa hoc institutam.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e413">
+      ¶ Ad tertium 
+      <lb ed="#P" n="19"/>dico quod licet Christus fuerit beatus et impeccabilis 
+      <lb ed="#P" n="20"/>modo predicto ab instanti sue conceptionis prius tamen 
+      <lb ed="#P" n="21"/>secundum rationem vel naturam habuit gratiam quam gloriam 
+      <lb ed="#P" n="22"/>sicut et alii et eisdem de causis ponenda est in ipso 
+      si<lb ed="#P" n="23" break="no"/>cut in aliis beatis vt videtur.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e426">
+      ¶ Ad vltimum dico 
+      <lb ed="#P" n="24"/>quod si illud argumentum est bonum sequitur quod Chrisi 
+      <lb ed="#P" n="25"/>non habuerit in se aliquid creatum formaliter nec 
+      hu<lb ed="#P" n="26" break="no"/>manitatem nec aliquid aliud sicut patet deducenti et 
+      <lb ed="#P" n="27"/>ideo dico quod maior propositio falsa est simpliciter 
+      <lb ed="#P" n="28"/>Aliquid enim idem et secundum idem potest esse virtualiter 
+      <lb ed="#P" n="29"/>tale et formaliter tale. Tamen in proposito patet quod 
+      <lb ed="#P" n="30"/>Christus non secundum idem habuit gratiam virtualiter et 
+      <lb ed="#P" n="31"/>formaliter. Sed secundum diuinitatem habuit virtualiter 
+      <lb ed="#P" n="32"/>et secundum humanitatem formaliter. Hec de 
+      pri<lb ed="#P" n="33" break="no"/>mo articulo 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e451">
+               <lb ed="#P" n="34"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="35" break="no"/>culum. Est vna opinio que ponit quod summa 
+      grati<lb ed="#P" n="36" break="no"/>possibilis inesse alicui creature potuit dari: et per 
+      con<lb ed="#P" n="37" break="no"/>sequens data est anime christi. Nam licet anima 
+      chr<lb ed="#P" n="38" break="no"/>sti secundum se non sit nobilior nec capacior aliquo 
+      angelo<lb ed="#P" n="39" break="no"/>tamen ratione vnionis ad verbum excedit supremum 
+      ani<lb ed="#P" n="40" break="no"/>gelum et in nobilitate et in capacitate gratie: et ideo 
+      <lb ed="#P" n="41"/>capax est summe gratie.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e471">
+      ¶ Et dicunt vltra quod ista 
+      <lb ed="#P" n="42"/>gratia aliquo modo est infinita et hoc dupliciter 
+      po<lb ed="#P" n="43" break="no"/>nitur. Uno modo secundum aliquos pro tanto quia habet 
+      in<lb ed="#P" n="44" break="no"/>finitos gradus gratie eiusdem rationis in aia 
+      Chr<lb ed="#P" n="45" break="no"/>sti actu infinita existens intensiue. Nam secundum istos 
+      gra<lb ed="#P" n="46" break="no"/>tie non repugnat augeri in infinitum: quia est participa 
+      <lb ed="#P" n="47"/>tio quedam diuine nature: et tunc quia in summo reperit 
+      <lb ed="#P" n="48"/>in Christo oportet quod sit ibi infinita capacitas etiam 
+      <lb ed="#P" n="49"/>anime Christi est infinita. Capit enim verbum ipsum 
+      <lb ed="#P" n="50"/>quod est actu infinitum: quare etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e493">
+      ¶ Aliter saluatur quod 
+      <lb ed="#P" n="51"/>aliquo modo sit infinita quia licet in se sit infinita est 
+      <lb ed="#P" n="52"/>tamen in tanto gradu quod nunquam posset attingi a gratia 
+      <lb ed="#P" n="53"/>alicuius creature etiam si augeretur semper et semper et 
+      <lb ed="#P" n="54"/>in infinitum sicut nec caritas viatoris vnquam posset 
+      au<lb ed="#P" n="55" break="no"/>geri caritati comprehensoris non obstante quod vtraque sit 
+      <lb ed="#P" n="56"/>finita et eiusdem rationis. Et quod caritas christi sit 
+      ali<lb ed="#P" n="57" break="no"/>quo modo infinita. Probant per illud Io. 3. quia non 
+      <lb ed="#P" n="58"/>est ei datus spiritus ad mensuram gratia: ergo sua non est 
+      <lb ed="#P" n="59"/>mensurata sed infinita vt videtur. 
+      <lb ed="#P" n="60"/>simpliciter est impossi 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e517">
+               <lb ed="#P" n="61"/>¶ Alii ponunt quod bile gratiam ese 
+      actu<lb ed="#P" n="62" break="no"/>infinitam vel augeri posse in infinitum. Et dicunt 
+      vl<lb ed="#P" n="63" break="no"/>tra quod gratia anime Christi finita est simpliciter: 
+      <lb ed="#P" n="64"/>et tamen summa est pro tanto: quia non potest esse aliqua 
+      <!--105.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>maior vllo modo licet possit esse aliqua equalis. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e535">
+               <lb ed="#P" n="66"/>¶ Quod autem anima Christi sit capax summe gratio 
+      <lb ed="#P" n="67"/>Hoc probatur primo. Subiectum non determinans 
+      <lb ed="#P" n="68"/>sibi aliquem gradum alicuius accidentis sibi conuenien 
+      <lb ed="#P" n="69"/>tis potest illud accidens recipere in quocumque 
+      gradu<lb ed="#P" n="70" break="no"/>quantum est ex parte sua. Patet per oppositum. Nam 
+      <lb ed="#P" n="71"/>ideo aliquod subiectum non potest recipere aliquod 
+      <lb ed="#P" n="72"/>accidens in quocumque gradu vel quia accidens non est 
+      con<lb ed="#P" n="73" break="no"/>ueniens sed disconueniens sicut calor ipsi aque vel quia 
+      <lb ed="#P" n="74"/>sub determinato gradu sibi determinat ipsum sicut 
+      <lb ed="#P" n="75"/>aer calorem. Sed anima est huiusmodi respectu gratie 
+      <lb ed="#P" n="76"/>Gratia enim est accidens sibi conueniens et cum sit in 
+      <lb ed="#P" n="77"/>potentia neutra nullum gradum sibi determinat nec 
+      <lb ed="#P" n="78"/>aliquis sibi repugnat. Non enim est accidens inexit 
+      <lb ed="#P" n="79"/>stens ex propriis principiis anime vel voluntatis: 
+      <lb ed="#P" n="80"/>sed est accidens ab extrinseco: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e570">
+      ¶ Secunda 
+      ra<lb ed="#P" n="81" break="no"/>tio. Quando est aliqua proportio inter aliqua 
+      con<lb ed="#P" n="82" break="no"/>munia est etiam inter quecumque habentia rationem illo 
+      <lb ed="#P" n="83"/>rum communium. Ubicumque enim sunt extrema 
+      commu<lb ed="#P" n="84" break="no"/>nia alicuius proportionis ibidem et alia 
+      proportio<lb ed="#P" n="85" break="no"/>inuenitur inter illa sicut inter agens et patiens 
+      inter<lb ed="#P" n="86" break="no"/>duplum et dimidium. et huiusmodi. Sed gratia in 
+      com<lb ed="#P" n="87" break="no"/>muni et voluntas creata in communi sunt proportionata 
+      <lb ed="#P" n="88"/>ad inuicem sicut perfectum et perfectibile: ergo quecumque 
+      <lb ed="#P" n="89"/>gratia et quecumque voluntas creata sunt 
+      proportiona<lb ed="#P" n="90" break="no"/>te ad inuicem. Ita quod quecumque gratia et quentumcumque 
+      re<lb ed="#P" n="91" break="no"/>cipi potest in qualibet voluntate vt videtur: igitur in 
+      <lb ed="#P" n="92"/>anima christi vel sua voluntate potest recipi maxi 
+      <lb ed="#P" n="93"/>ma gratia. Exemplum est ad hoc de superficie et 
+      al<lb ed="#P" n="94" break="no"/>bedine quia superficies quantum est ex se et vnde 
+      super<lb ed="#P" n="95" break="no"/>ficies potest recipere albedinem in quocunque 
+      gradu<lb ed="#P" n="96" break="no"/>licet non vnde superficies talis corporis vel talis 
+      na<lb ed="#P" n="97" break="no"/>ture.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e610">
+      ¶ Tertia ratio. Quando duo receptiua 
+      com<lb ed="#P" n="98" break="no"/>parantur secundum eandem rationem ad aliquam formam vnius 
+      <lb ed="#P" n="99"/>rationis secundum quem gradum potest illa forma inesse 
+      vni<lb ed="#P" n="100" break="no"/>et alteri vt patet. Sed equus et lapis secundum eandem 
+      ra<lb ed="#P" n="101" break="no"/>tionem sunt susceptiua albedinis. Albedo potest in 
+      <lb ed="#P" n="102"/>esse vtrique secundum equalem gradum. Sed omnes 
+      volun<lb ed="#P" n="103" break="no"/>tates create comparantur ad gratiam secundum vnam 
+      ratio<lb ed="#P" n="104" break="no"/>nem receptiuam. Puta secundum quod sunt appetitus 
+      intelle<lb ed="#P" n="105" break="no"/>ctuales creati in communi non secundum quod tales vel tales 
+      <lb ed="#P" n="106"/>in speciali: quia tunc non posset eis inesse gratia vnius 
+      <lb ed="#P" n="107"/>rationis nec se habere in ratione excedentis et 
+      exces<lb ed="#P" n="108" break="no"/>si in gratia: ergo cum voluntas angeli sit capax 
+      sum<lb ed="#P" n="109" break="no"/>me gratie. Alioquin summa gratia creabilis non 
+      es<lb ed="#P" n="110" break="no"/>set receptibilis in subiecto. Uidetur etiam quod 
+      ani<lb ed="#P" n="111" break="no"/>ma Christi. 
+      <lb ed="#P" n="112"/>aliqua gratia qua 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e645">
+               <lb ed="#P" n="113"/>¶ Dicunt ergo quod non potest ese 
+      ali<lb ed="#P" n="114" break="no"/>qua maior quia gratia non potest crescere in 
+      infini<lb ed="#P" n="115" break="no"/>tum. Potuit conferri anime Christi et de facto 
+      pre<lb ed="#P" n="116" break="no"/>babile est dicere quod collata fuit et sibi tantum licet 
+      aliqui<lb ed="#P" n="117" break="no"/>bus aliis: immo breuiter cuilibet voluntati create 
+      <lb ed="#P" n="118"/>potuerit tanta gratia conferri. Non enim fuit decens 
+      <lb ed="#P" n="119"/>quod alii creature tanta gratia conferretur nec fuit hoc 
+      <lb ed="#P" n="120"/>possibile secundum potentiam dei ordinatam licet secundum 
+      po<lb ed="#P" n="121" break="no"/>tentiam dei absolutam. 
+      <lb ed="#P" n="122"/>omnes istas opiniones habeo ali¬ 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e669">
+               <lb ed="#P" n="123"/>¶ Conti. q qua. Contra primam quantum ad 
+      <lb ed="#P" n="124"/>primum dictum suum videtur michi falsa. Aima enim 
+      <lb ed="#P" n="125"/>Christi cum sit ex suis naturalibus vel substantia et 
+      <lb ed="#P" n="126"/>ratione sua imperfectior quam angelus. Quod patet ex 
+      <lb ed="#P" n="127"/>ordine entium et quidditatum vniuersi non potest et 
+      <lb ed="#P" n="128"/>se nobilior in entitate quam angelus sicut patet. Nec 
+      <lb ed="#P" n="129"/>valet quod ex vnione habet illam nobilitatem: quia illa vnio¬ 
+      <!--106.xml-->
+      <pb ed="#P" n="49-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non est nisi aliquis respectus accidentalis qui non 
+      po<lb ed="#P" n="2" break="no"/>test esse sibi ratio tante nobilitatis patet. Nichil enim 
+      <lb ed="#P" n="3"/>adquiritur absolutum anime Christi intrinsecum 
+      <lb ed="#P" n="4"/>formaliter ex ista vnione.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e702">
+      ¶ Preterea etiam 
+      ani<lb ed="#P" n="5" break="no"/>ma Christi quantumcunque vnita est eiusdem rationis 
+      <lb ed="#P" n="6"/>substantialis cum animabus aliorum hominum. Alio 
+      <lb ed="#P" n="7"/>quin Christus non fuisset vniuoce homo cum aliis 
+      <lb ed="#P" n="8"/>hominibus sed sicut dictum est in secundo. Substantia 
+      <lb ed="#P" n="9"/>eiusdem rationis non suscipit magis et minus nec 
+      in<lb ed="#P" n="10" break="no"/>eodem nec in diuersis. Cum ergo anime aliorum non 
+      <lb ed="#P" n="11"/>sint nobiliores angelis nec etiam anima Christi. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e720">
+               <lb ed="#P" n="12"/>¶ Preterea etiam quia species cuiuslibet 
+      angeli<lb ed="#P" n="13" break="no"/>est simpliciter nobilior specie humana ergo 
+      quodli<lb ed="#P" n="14" break="no"/>bet indiuiduum angelicum simpliciter est nobilius 
+      <lb ed="#P" n="15"/>qualibet natura humana: et per consequens 
+      quali<lb ed="#P" n="16" break="no"/>bet anima. Hoc patet per psalmistam vbi dicit de christo 
+      <lb ed="#P" n="17"/>Minuisti eum paulominus ab angelis. Sicut 
+      ex<lb ed="#P" n="18" break="no"/>ponit etiam apostolus de Christo ad hebreos. Et 
+      <lb ed="#P" n="19"/>planum est quod hoc fiat secundum naturam assumptam que 
+      <lb ed="#P" n="20"/>est simpliciter innobilior in sua substantia quam 
+      ange<lb ed="#P" n="21" break="no"/>lica natura que facta est prope deum secundum 
+      Augusti<lb ed="#P" n="22" break="no"/>num. 11 de ciuitate dei. 7. et secundum Gregorium. 19. 
+      mo<lb ed="#P" n="23" break="no"/>ralium.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e749">
+      ¶ Contra aliud dictum de capacitate quod 
+      ip<lb ed="#P" n="24" break="no"/>sa ampliatur ratione vnionis ad verbum vel per vnum 
+      <lb ed="#P" n="25"/>habitum supernaturalem infusum sicut dicunt alii 
+      <lb ed="#P" n="26"/>Patet falsum: quia capacitas gratie in anima 
+      Chri<lb ed="#P" n="27" break="no"/>sti non est nisi sua voluntas gratie receptiua et planum 
+      <lb ed="#P" n="28"/>est quod sua voluntas per talem vnionem vel habitum non 
+      <lb ed="#P" n="29"/>augetur. Item eadem est capacitas ad talem 
+      habi<lb ed="#P" n="30" break="no"/>tum et ad gratiam: ita quod presupponit totam 
+      capa<lb ed="#P" n="31" break="no"/>citatem sicut et gratia.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e770">
+      ¶ Iterum etiam istud dictum 
+      <lb ed="#P" n="32"/>destruit seipsum: quia cum maior sit capacitas 
+      natu<lb ed="#P" n="33" break="no"/>ralis angeli et angelus possit assumi a verbo sicut 
+      <lb ed="#P" n="34"/>anima Christi est assumpta vel habitus 
+      supernatu<lb ed="#P" n="35" break="no"/>ralis sibi infundi de facto videtur quod angelo possit 
+      <lb ed="#P" n="36"/>conferri maior gratia quam anime christi: quare etc 
+      <lb ed="#P" n="37"/>primum modum ponendi gratiam 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e786">
+               <lb ed="#P" n="38"/>¶ Conti a christi infinitam scilicet ifinitam in actu 
+      <lb ed="#P" n="39"/>ntensiue. Arguo. Capacitas anime christi est 
+      simpli<lb ed="#P" n="40" break="no"/>citer infinita: quia creata est finita secundum se et non 
+      au<lb ed="#P" n="41" break="no"/>getur per aliquid superueniens et concedis hoc. Se 
+      <lb ed="#P" n="42"/>impossibile est quod capacitas perfectibilis finite sit 
+      <lb ed="#P" n="43"/>perfectio actu infinita: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e802">
+      ¶ Secundo sic. 
+      Om<lb ed="#P" n="44" break="no"/>nis perfectionis habitualis potest esse aliquis actus 
+      <lb ed="#P" n="45"/>sibi adequatus vt videtur. Si igitur anima christi 
+      <lb ed="#P" n="46"/>habet gratiam vel caritatem actu infinitam 
+      inten<lb ed="#P" n="47" break="no"/>siue sequitur quod potest habere actum vnicum intensi 
+      <lb ed="#P" n="48"/>ue infinitum et cum ipsa possit esse causatiua illius 
+      <lb ed="#P" n="49"/>actus sequitur quod sit voluntas infinita intensiue 
+      in<lb ed="#P" n="50" break="no"/>actu.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e820">
+      ¶ Preterea inter perfectionem et 
+      perfectibi<lb ed="#P" n="51" break="no"/>le est proportio. Sed finiti ad infinitum nulla est 
+      pro<lb ed="#P" n="52" break="no"/>portio: igitur impossibile est voluntatem esse finitam 
+      <lb ed="#P" n="53"/>sicut oportet ponere et gratiam infinitam.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e829">
+      ¶ 
+      Con<lb ed="#P" n="54" break="no"/>tra alium modum ponendi infinitatem pro tanto: 
+      <lb ed="#P" n="55"/>quia licet sit in se finita: tamen non potest 
+      attingi<lb ed="#P" n="56" break="no"/>ab aliqua quantumcunque augeretur in infinitum. 
+      Pri<lb ed="#P" n="57" break="no"/>mo sic. Impossibile est procedere in infinitum secundum 
+      <lb ed="#P" n="58"/>partes eiusdem quantitatis attingendum aliquid 
+      fi<lb ed="#P" n="59" break="no"/>nitum. Sed caritas vel gratia in aliis posset 
+      auge<lb ed="#P" n="60" break="no"/>ri secundum partes eiusdem quantitatis: igitur aliquam 
+      <lb ed="#P" n="61"/>do attingeret gratiam Christi si esset finita.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e849">
+      ¶ 
+      Pre<lb ed="#P" n="62" break="no"/>terea sicut in perfectionibus alterius rationis 
+      nun<lb ed="#P" n="63" break="no"/>quam poneretur processus in infinitum nisi respectu 
+      ali<lb ed="#P" n="64" break="no"/>cuius infiniti vt in creaturis respectu dei. Ita in 
+      <lb ed="#P" n="65"/>partibus eiusdem rationis et quantitatis vel secundum 
+      <!--106.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>eas nunquam ponendus est processus in infinitum nisi 
+      <lb ed="#P" n="67"/>respectu infiniti vt videtur.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e870">
+      ¶ Preterea. 
+      Quan<lb ed="#P" n="68" break="no"/>tum est dare de potentia in tali processu tantum est 
+      <lb ed="#P" n="69"/>dare in actu: et sic infinitum in actu: ergo aliquid 
+      exce<lb ed="#P" n="70" break="no"/>dens non solum attingens. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e879">
+               <lb ed="#P" n="71"/>¶ Contra vltimam opinionem 
+      <lb ed="#P" n="72"/>videtur michi primo quod gratia in seipsa potest 
+      au<lb ed="#P" n="73" break="no"/>geri in infinitum et esse actu infinita. Non tamen 
+      in<lb ed="#P" n="74" break="no"/>aliquo subiecto et hoc probaui in primo de 
+      carita<lb ed="#P" n="75" break="no"/>te que est idem cum gratia secundum me. Dico 
+      ta<lb ed="#P" n="76" break="no"/>men quod in aliquo subiecto non potest esse infinita 
+      in<lb ed="#P" n="77" break="no"/>tensiue sicut etiam dictum est ibidem. Et ideo dico 
+      <lb ed="#P" n="78"/>quod anima Christi cum sit finite capacitatis non est 
+      <lb ed="#P" n="79"/>capax summe gratie possibilis fieri vel creari abso 
+      <lb ed="#P" n="80"/>lute loquendo. Sed bene dico quod est capax summe 
+      <lb ed="#P" n="81"/>gratie possibilis inesse alicui subiecto vel volunta 
+      <lb ed="#P" n="82"/>ti create et quantum ad hoc concludunt rationes illius 
+      <lb ed="#P" n="83"/>opinionis et non concludunt de gratia infinita sicut 
+      pa<lb ed="#P" n="84" break="no"/>tet per singulas discurrendo. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e912">
+               <lb ed="#P" n="85"/>¶ Dico igitur aliter quantum ad 
+      <lb ed="#P" n="86"/>istum articulum quod summa gratia possibilis in esse 
+      <lb ed="#P" n="87"/>alicui subiecto potuit conferri et collata est de facto 
+      <lb ed="#P" n="88"/>voluntati vel anime Christi. Nam ipsa anima 
+      Chri<lb ed="#P" n="89" break="no"/>sti capax est ex natura sua tante gratie eoipso quod est 
+      <lb ed="#P" n="90"/>nature intellectualis et esse capax gratie sibi et aliis 
+      <lb ed="#P" n="91"/>conuenit per istam rationem communem sicut dictum 
+      <lb ed="#P" n="92"/>est alias.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e932">
+      ¶ Dico secundo quod summa gratia 
+      possibi<lb ed="#P" n="93" break="no"/>lis in se non potuit communicari nec dari anime christi 
+      <lb ed="#P" n="94"/>nec alicui creature vnice demonstrate quia talis 
+      po<lb ed="#P" n="95" break="no"/>test esse infinita in actu intensiue et subiectum aliquod 
+      <lb ed="#P" n="96"/>vel voluntas creata non potest esse infinita: et ideo 
+      <lb ed="#P" n="97"/>non est tante gratie receptiua nec est sibi 
+      proportio<lb ed="#P" n="98" break="no"/>nata.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e948">
+      ¶ Tertio dico quod de facto summa gratia 
+      pos<lb ed="#P" n="99" break="no"/>sibilis inesse subiecto communicata est et data anime 
+      <lb ed="#P" n="100"/>Christi: ita quod impossibile est et implicat 
+      contradictio<lb ed="#P" n="101" break="no"/>nem quod possit esse maior vel perfectior in creatura. Et 
+      <lb ed="#P" n="102"/>quod ita sit patet. Tum quia hoc decuit quod scilicet 
+      vni<lb ed="#P" n="103" break="no"/>genitus dei haberet summam gratiam. Tum quia 
+      <lb ed="#P" n="104"/>etiam hoc dicit Magister in litera. Et confirmatur 
+      <lb ed="#P" n="105"/>per Io. euangelistam. Uldimus inquit gloriam eu 
+      <lb ed="#P" n="106"/>quasi vnigeniti a patre plenum gratie et veritatis. 
+      <lb ed="#P" n="107"/>Et Io. 3. Datus est ei spiritus non ad mensuram 
+      <lb ed="#P" n="108"/>id est quantum potuit perfectius dari.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e972">
+      ¶ Dico vltimo 
+      <lb ed="#P" n="109"/>quod non est sibi data gratia infinita sed finita et quod 
+      nul<lb ed="#P" n="110" break="no"/>lum inconueniens est quod alicui alteri possit etiam tan 
+      <lb ed="#P" n="111"/>ta dari siue anime alteri assumpte sicut posset 
+      lassu<lb ed="#P" n="112" break="no"/>mi siue etiam non assumpte. Tamen congruum fuit 
+      <lb ed="#P" n="113"/>quod nulli alteri tanta conferretur gratia sicut 
+      christo<lb ed="#P" n="114" break="no"/>tanquam dei filio vnigenito. Unde dico nulla 
+      creatu<lb ed="#P" n="115" break="no"/>ra alia ab anima christi habet tantam gratiam 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e991">
+               <lb ed="#P" n="116"/>¶ Contra hoc tamen sunt 
+      ali<lb ed="#P" n="117" break="no"/>que instantie.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e998">
+      ¶ Prima est ista. Si angelus capax 
+      <lb ed="#P" n="118"/>est tante gratie quante etiam anima Christi et 
+      simili<lb ed="#P" n="119" break="no"/>ter quelibet anima et creatura beatificabilis sequitur 
+      <lb ed="#P" n="120"/>quod nulla creatura est beata nisi habeat tantam gratiam 
+      <lb ed="#P" n="121"/>Probatio: quia alioquin capacitas creature 
+      beatifi<lb ed="#P" n="122" break="no"/>cabilis non est repleta nec terminata quia nondum habet suam 
+      <lb ed="#P" n="123"/>perfectionem supremam sibi possibilem et conuenientem. Sed  
+      <lb ed="#P" n="124"/>planum est quod multe sunt creature beate praeter animam christ 
+      <lb ed="#P" n="125"/>igitur multe sunt gratie et glorie tante quanta est sua. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1018">
+               <lb ed="#P" n="126"/>¶ Secundo sic. Aliqua creatura non beatificatur nisi 
+      <lb ed="#P" n="127"/>perfecte quietetur in fine sicut sigraue esset beatificabile 
+      <!--107.xml-->
+      <pb ed="#P" n="49-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non beatificaretur nisi perfecte quietaretur in 
+      cen<lb ed="#P" n="2" break="no"/>tro. Sed hoc non potest esse sine summa gratia et 
+      <lb ed="#P" n="3"/>et gloria: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e1038">
+      ¶ Tertio sic. Suprema 
+      creatu<lb ed="#P" n="4" break="no"/>ra beatificabilis non est facta nec creata quia 
+      conue<lb ed="#P" n="5" break="no"/>nit procedere sursum in infinitum in 
+      perfectioni<lb ed="#P" n="6" break="no"/>bus creaturarum sicut dictum est in primo. Sed 
+      gra<lb ed="#P" n="7" break="no"/>tia et creatura rationalis vel intellectualis sibi 
+      mu<lb ed="#P" n="8" break="no"/>tuo correspondent et proportionantur sicut perfectio. 
+      <lb ed="#P" n="9"/>et perfectibile: igitur summa gratia non est factaetiam 
+      <lb ed="#P" n="10"/>loquendo de gratia finita possibili inesse subiecto. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1056">
+               <lb ed="#P" n="11"/>¶ Quarto quia angelus potest velle recte habere 
+      tan<lb ed="#P" n="12" break="no"/>tam gratiam quante est capax conformiter volendo actu 
+      <lb ed="#P" n="13"/>licito ad appetitum naturalem respectu gratie Sed 
+      <lb ed="#P" n="14"/>eundum August. 13. de trinitate. Beatus est qui habet 
+      <lb ed="#P" n="15"/>quicquid vult et nichil male vult: ergo angelus beatus 
+      <lb ed="#P" n="16"/>habet tantam gratiam quante est capax et sic equalem 
+      <lb ed="#P" n="17"/>gratiam cum anima christi 
+      <lb ed="#P" n="18"/>istorum dico quod angelus et 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1076">
+               <lb ed="#P" n="19"/>¶ Ad primum alie creature beate non 
+      ha<lb ed="#P" n="20" break="no"/>bent tantam gratiam sicut anima Christi et dico quod 
+      <lb ed="#P" n="21"/>capacitates earum quietantur et terminantur et 
+      re<lb ed="#P" n="22" break="no"/>plentur sed non ita perfecte sicut anima christi. Poten 
+      <lb ed="#P" n="23"/>tia enim vel capacitas gratie receptiua licet sit 
+      natu<lb ed="#P" n="24" break="no"/>ralis per comparationem ad talem vel talem gradum 
+      <lb ed="#P" n="25"/>gratie et sufficit sibi quilibet gradus sicut etiam 
+      super<lb ed="#P" n="26" break="no"/>ficies est in potentia neutra ad tantum vel tantum 
+      gra<lb ed="#P" n="27" break="no"/>dum albedinis nec determinat sibi tantum gradum 
+      <lb ed="#P" n="28"/>sicut ignis determinat sibi tantum gradum caloris. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1101">
+               <lb ed="#P" n="29"/>¶ Ad secundum dico per idem. Non oportet quod 
+      creatu<lb ed="#P" n="30" break="no"/>ra ad hoc quod beatificetur summe et perfectissime 
+      quie<lb ed="#P" n="31" break="no"/>tetur sed sufficit quod sic quietetur quod in nullo 
+      inquie<lb ed="#P" n="32" break="no"/>tetur et dico quod hoc stat cum minori gratia vel 
+      maio<lb ed="#P" n="33" break="no"/>ri ratione praedicta in solutione precedenti.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e1114">
+      ¶ Ad 
+      ter<lb ed="#P" n="34" break="no"/>tium patet quod non est exemplum ad propositum deus 
+      <lb ed="#P" n="35"/>graui quod determinat sibi certum terminum et locum im 
+      <lb ed="#P" n="36"/>vniuerso. Puta centrum et ita non potest perfecte 
+      <lb ed="#P" n="37"/>quietari nisi in centro. Non sic autem de summa 
+      gra<lb ed="#P" n="38" break="no"/>tia in proposito. Uel dic quod sicut lapis non quietatur 
+      <lb ed="#P" n="39"/>perfecte seu vltimate nisi in centro ita nec creatura 
+      <lb ed="#P" n="40"/>deatificabilis nisi in deo qui est quasi centrum 
+      om<lb ed="#P" n="41" break="no"/>nium spirituum in quem tendunt et in quo quietan 
+      <lb ed="#P" n="42"/>tur et in hoc est simile.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e1136">
+      ¶ Ad quartum dico quod 
+      ange<lb ed="#P" n="43" break="no"/>lus non potest recte velle actu elicito maiorem 
+      gra<lb ed="#P" n="44" break="no"/>tiam vel gloriam quam habeat et quam deus velit ipsum 
+      <lb ed="#P" n="45"/>habere: tunc enim voluntas sua difformis esset 
+      di<lb ed="#P" n="46" break="no"/>uine voluntati. Est igitur beatus quia gloriam quam 
+      <lb ed="#P" n="47"/>vult habere et bene vel et rite ipsam habet et ita licet 
+      <lb ed="#P" n="48"/>sit capax maioris: non tamen rite potest velle habere 
+      ma<lb ed="#P" n="49" break="no"/>iorem quam habeat ipsam non habet ex natura sed 
+      ex<lb ed="#P" n="50" break="no"/>meritis. Tu dicis appetitus naturalis est respectus 
+      <lb ed="#P" n="51"/>quia est a deo. Dico quod licet appetitus sit naturalis 
+      <lb ed="#P" n="52"/>ad gratiam vel gloriam tamen neuter est ad tantum vel 
+      <lb ed="#P" n="53"/>tantum gradum et ita simpliciter et absolute non est 
+      <lb ed="#P" n="54"/>ad summum gradum et dato quod ad summum gradum 
+      <lb ed="#P" n="55"/>tamen non oportet quod voluntas actu elicito possit 
+      <lb ed="#P" n="56"/>rite sequi ipsum: quia subest legi diuine que non vult 
+      <lb ed="#P" n="57"/>ipsam appetere summam gloriam sed secundum merita et 
+      be<lb ed="#P" n="58" break="no"/>neplacitum diuine voluntatis  
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1173">
+               <lb ed="#P" n="59"/>¶ Nota hic quod appetitus 
+      ele<lb ed="#P" n="60" break="no"/>tiuus sequens naturalem no semper est respectus 
+      <lb ed="#P" n="61"/>Nam aliquando deus vult ipsum esse difformen a 
+      na<lb ed="#P" n="62" break="no"/>turali appetitu sicut patet: quia deus voluit 
+      marti<lb ed="#P" n="63" break="no"/>res eligere mori in penis martiriorum et tamen 
+      appeti<lb ed="#P" n="64" break="no"/>tus naturalis appetebat contrarium et refugiebat 
+      <!--107.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>illud. Sic in proposito suo modo potest dici quod non 
+      <lb ed="#P" n="66"/>oportet appetitum beatitudinis electiuum 
+      confor<lb ed="#P" n="67" break="no"/>mari appetitui naturali: immo si conformaretur in 
+      <lb ed="#P" n="68"/>aliis a christo non esset respectus supposito quod 
+      appe<lb ed="#P" n="69" break="no"/>titus naturalis feratur in quolibet ad perfectissimum 
+      <lb ed="#P" n="70"/>gradum beatitudinis possibilem haberi ab ipso. Hec 
+      <lb ed="#P" n="71"/>de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1208">
+               <lb ed="#P" n="72"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="73" break="no"/>culum. An scilicet anime Christi possit conuenire 
+      <lb ed="#P" n="74"/>summa fruitio siue summa gratia nichil dico: quia 
+      <lb ed="#P" n="75"/>dicam de hoc infra in sequenti distinctione vbi 
+      lo<lb ed="#P" n="76" break="no"/>quar de visione an ad ipsam sit necessarius habitus 
+      <lb ed="#P" n="77"/>aliquis et est idem de fruitione. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1224">
+               <lb ed="#P" n="78"/>¶ De quarto igitur articulo 
+      <lb ed="#P" n="79"/>An scilicet christo conueniat gratia capitis. Dico 
+      <lb ed="#P" n="80"/>quod sic. Christus enim est caput ecclesie secundum apostolum 
+      <lb ed="#P" n="81"/>ad Colocenses I et secundum Augustinum super Io. Est 
+      <lb ed="#P" n="82"/>enim caput ecclesie uosque menbra eius mediator dei 
+      <lb ed="#P" n="83"/>et hominum homo christus iesus. Et hoc patet si 
+      at<lb ed="#P" n="84" break="no"/>tendamus aliquas proprietates capitis.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e1243">
+      ¶ Prima 
+      <lb ed="#P" n="85"/>est quod caput ceteris membris eminet: et est dignius 
+      <lb ed="#P" n="86"/>Sic etiam Christus menbris ecclesie preeminet secundum 
+      <lb ed="#P" n="87"/>gratiam et gloriam etiam angelis.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e1252">
+      ¶ Secunda 
+      con<lb ed="#P" n="88" break="no"/>ditio est quod est eiusdem nature cum membris: et sic 
+      <lb ed="#P" n="89"/>etiam Christus est eiusdem nature cum aliis 
+      homi<lb ed="#P" n="90" break="no"/>nibus qui sunt menbra eius vel corporis eius quod 
+      <lb ed="#P" n="91"/>est ecclesia.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e1263">
+      ¶ Tertia conditio est quod in capite sunt 
+      <lb ed="#P" n="92"/>omnes sensus cognitionis et sic etiam in Christo est 
+      <lb ed="#P" n="93"/>omnis sensus cognitionis et veritatis qua est plenus 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1270">
+               <lb ed="#P" n="94"/>¶ Quarta conditio est quod a capite diriuantur 
+      sen<lb ed="#P" n="95" break="no"/>sus et motus in membra et fluunt a capite: quia secundum 
+      <lb ed="#P" n="96"/>medicos omnes nerui radicantur in capite et 
+      exin<lb ed="#P" n="97" break="no"/>de ad membra. Et sic dico quod a Christo capite 
+      diri<lb ed="#P" n="98" break="no"/>uantur sensus et motus in membra corporis 
+      eccle<lb ed="#P" n="99" break="no"/>sie sensus inquam fidei et motus caritatiue dilectionis 
+      <lb ed="#P" n="100"/>et hec precipue sibi conuenit ratione qua deus. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1288">
+               <lb ed="#P" n="101"/>¶ Quinta conditio est quod caput dirigit alia 
+      mem<lb ed="#P" n="102" break="no"/>bra et regit in suos fines et in suas operationes. Sic 
+      <lb ed="#P" n="103"/>etiam Christus homines qui sunt menbra corporis 
+      <lb ed="#P" n="104"/>equat. christus ergo caput est et habet gratiam 
+      ha<lb ed="#P" n="105" break="no"/>bitualem summam que est gratia capitis que quidem 
+      <lb ed="#P" n="106"/>non est eadem cum gratia vnionis vel cum vnione ipsa. 
+      <lb ed="#P" n="107"/>nature humane ad verbum in ipso sicut nec absolu 
+      <lb ed="#P" n="108"/>tum et respectus: sed bene concurrunt in ipso iste due 
+      <lb ed="#P" n="109"/>gratie. Sic etiam quod gratia vnionis prior est secundum 
+      ra<lb ed="#P" n="110" break="no"/>tionem sicut dictum est supra. Hec de quarto articulo. 
+      </p>
+            <p xml:id="qrdBas-c31414-d1e1312">
+               <lb ed="#P" n="111"/>¶ Ad primum principale dico 
+      <lb ed="#P" n="112"/>quod Christus secundum quod deus non indiguit illa gratia 
+      ha<lb ed="#P" n="113" break="no"/>bituali sed bene secundum quod homo sicut probatum 
+      <lb ed="#P" n="114"/>est supra.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e1324">
+      ¶ Ad secundum dico quod habet summam 
+      <lb ed="#P" n="115"/>gratiam et habuit ab instanti sue conceptionis. 
+      Un<lb ed="#P" n="116" break="no"/>de in illa non proficiebat nisi apparenter secundum 
+      <lb ed="#P" n="117"/>ostensianem exteriorem ad homines. Tu dicis 
+      ani<lb ed="#P" n="118" break="no"/>ma Christi non fuit summum gratificabile. Dico 
+      <lb ed="#P" n="119"/>quod verum est tamen fuit summe gratificabilis sicut 
+      <lb ed="#P" n="120"/>ostensum est supra.
+    </p>
+            <p xml:id="qrdBas-c31414-d1e1340">
+      ¶ Ad tertium dico quod illa 
+      pro<lb ed="#P" n="121" break="no"/>positio est falsa. Non enim est inconueniens quod 
+      chri<lb ed="#P" n="122" break="no"/>tus secundum quod deus gratificet seipsum inquantum 
+      <lb ed="#P" n="123"/>pomo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

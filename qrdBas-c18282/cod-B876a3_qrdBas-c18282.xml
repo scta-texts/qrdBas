@@ -1,0 +1,681 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="28-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c18282"><!--l3d3q2 -->
+            <head xml:id="qrdBas-c18282-Hd1e99">Quaestio 2</head>
+            <p xml:id="qrdBas-c18282-d1e101">
+               <lb ed="#P" n="33"/>¶ Distinctionis tertie. 
+      <lb ed="#P" n="34"/>Questio Secunda
+    </p>
+            <p xml:id="qrdBas-c18282-d1e108">
+               <lb ed="#P" n="35" break="no"/>SEcundo quero 
+      <lb ed="#P" n="36"/>Utrum beata virgo potuit 
+      <lb ed="#P" n="37"/>esse in peccato originali so 
+      <lb ed="#P" n="38"/>lum per instans vnum. Ita quod 
+      <lb ed="#P" n="39"/>in tempore habito ad illud 
+      in<lb ed="#P" n="40" break="no"/>stans sue conceptionis 
+      potue<lb ed="#P" n="41" break="no"/>rit esse purgata.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e126">
+      ¶ Uidetur 
+      <lb ed="#P" n="42"/>quod non. Illud quod est sub aliquo 
+      <lb ed="#P" n="43"/>vno instanti tantum non est nisi 
+      in<lb ed="#P" n="44" break="no"/>potentia in illo octauo phisicorum. Mobile enim dum 
+      <lb ed="#P" n="45"/>mouetur est in spacio sibi equali solum per instans et est in 
+      <lb ed="#P" n="46"/>potentia tantum secundum Arist. Sed beatam vergo si fuisset in 
+      pecteo<lb ed="#P" n="47" break="no"/>originali in primo instanti sui esse non fuisset in pecto vel 
+      <lb ed="#P" n="48"/>sub pctto originali in potentia tantum sed in actu. ergo etc 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e144">
+               <lb ed="#P" n="49"/>¶ Secundo sic. Sicut culpa originalis non contrahitur 
+      <lb ed="#P" n="50"/>nisi in instanti ita non expellitur vel remittitur nisi 
+      in<lb ed="#P" n="51" break="no"/>instanti in quo gratia infunditur vt patet. Sed in primo 
+      instan<lb ed="#P" n="52" break="no"/>ti si fuisset in originali non potuisset pectantum illud 
+      expel<lb ed="#P" n="53" break="no"/>li vel remitti quia tunc in eodem instanti fuisset sub culpa 
+      <lb ed="#P" n="54"/>et gratia. ergo in alio instanti sequente igitur cum inter qualibet 
+      <lb ed="#P" n="55"/>duo instantia sit tempus medium sequitur quod non solum per in 
+      <lb ed="#P" n="56"/>stans sed per tempus fuisset sub culpa originali si contraxi 
+      <lb ed="#P" n="57"/>set illud ergo etc.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e167">
+      ¶ Tertio sic. In hoc distinguntur 
+      <lb ed="#P" n="58"/>forme permanentes a successiuis quod aliquid idem de forma 
+      <lb ed="#P" n="59"/>permanente vel ipsamet forma potest manere et manet 
+      plu<lb ed="#P" n="60" break="no"/>ribus instantibus et per consequens per tempus quia inter qualibet duo 
+      in<lb ed="#P" n="61" break="no"/>stantia est tempus medium. Sed aliter de successiuis quia 
+      nui<lb ed="#P" n="62" break="no"/>chil idem de successiuis manet plibus instantibus. Sed 
+      <lb ed="#P" n="63"/>pctantum originale non est de nunmero successiuorum sed 
+      perma<lb ed="#P" n="64" break="no"/>mentium sicut est gratia igitur non solum mansisset in vergine per 
+      <!--65.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>instans sed per tempus vt videtur 
+      <lb ed="#P" n="66"/>Agens naturale potest incipere age¬ 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e193">
+               <lb ed="#P" n="67"/>¶ Contra rei instanti ita quod in illo instanti erit 
+      <lb ed="#P" n="68"/>in esse quieto sub vno contrario et in tpare habito erit sub 
+      for<lb ed="#P" n="69" break="no"/>ma contraria in fieri et quandocumque potest agere agens nanle deus 
+      <lb ed="#P" n="70"/>potest agere igitur potest in tpaore habito alicui instanti 
+      causare<lb ed="#P" n="71" break="no"/>gratiam. ergo vergo Maria potuit esse praecise per instans 
+      in<lb ed="#P" n="72" break="no"/>pcton originali. ergo etc 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e209">
+               <lb ed="#P" n="73"/>¶ In ista questione sic 
+      proce<lb ed="#P" n="74" break="no"/>dam. Primo ponam vnam opinionem de quandione cum suis 
+      <lb ed="#P" n="75"/>motiuis.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e218">
+      ¶ Secundo arguam contra eam et soluam ad 
+      moti<lb ed="#P" n="76" break="no"/>uaeius.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e223">
+      ¶ Tertio ponam aliam quam intendo tenere et 
+      <lb ed="#P" n="77"/>obiiciam contra eam et soluam obiectiones.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e228">
+      ¶ Ultimo 
+      rel<lb ed="#P" n="78" break="no"/>pondebo ad rationes principales. 
+      <lb ed="#P" n="79"/>nina Est vna opi¬ 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e236">
+               <lb ed="#P" n="80"/>¶ Quantum ad priniui nio quae dicit quod 
+      <lb ed="#P" n="81"/>quia probabile est quod deus ita cito purgauit materem suam 
+      <lb ed="#P" n="82"/>ab originali sicut potuit quod omnino dcunum est beatam 
+      vir<lb ed="#P" n="83" break="no"/>ginem non fuisse sub pctto originali per solum instans et in 
+      <lb ed="#P" n="84"/>hoc male dicunt isti.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e249">
+      ¶ Secundo dicunt quod in illo eodem 
+      in<lb ed="#P" n="85" break="no"/>stanti potuit a pcto purgari et purgata fuit non in 
+      ten<lb ed="#P" n="86" break="no"/>pore habito nec in alio instanti per istum modum quia sicut 
+      <lb ed="#P" n="87"/>dicunt in illo instanti durationis est accipere tria signe 
+      <lb ed="#P" n="88"/>nature et ipsum sic diuidunt. In primo signo nature illius 
+      <lb ed="#P" n="89"/>instantis dicunt quod vergo fuit sub culpa originali in 
+      quis<lb ed="#P" n="90" break="no"/>to esse et permanenti. In secundo signo vel instanti nature 
+      <lb ed="#P" n="91"/>fuit sub culpa transeunte tamen et in fluxum quia tunc expelle 
+      <lb ed="#P" n="92"/>batur a gratia subintrante et tunc etiam in eodem signo vel 
+      <lb ed="#P" n="93"/>instanti nature fuit sub gratia transeunte et insiuxu quia 
+      gratia<lb ed="#P" n="94" break="no"/>subintrabat. In tertio vero signo vel instanti fuit 
+      vir<lb ed="#P" n="95" break="no"/>go sub gratia permanenter et in quiete. Et dicunt quod ista sunt 
+      <lb ed="#P" n="96"/>possibilia nec implicant contradictionem aliquam. Patet de secundo 
+      <lb ed="#P" n="97"/>signo vel instanti nature. Possibile est enim simul 
+      sta<lb ed="#P" n="98" break="no"/>re contraria et formaliter opposita in transitu et in fluxu si 
+      <lb ed="#P" n="99"/>cut patet de contrariis in motu quae sunt simul in subiecto 
+      <lb ed="#P" n="100"/>motus quia motus est a contrario in contrarium et coruptio 
+      <lb ed="#P" n="101"/>vnius est generatio alterius sunt tamen simul transeuntur et in 
+      flu<lb ed="#P" n="102" break="no"/>xu. Et similiter dicunt in proposito de culpa et gratia in 
+      <lb ed="#P" n="103"/>illo instanti secundo nature.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e293">
+      ¶ Ex quo patet etiam quod non 
+      re<lb ed="#P" n="104" break="no"/>pugnat nec aliqua contradictio implicatur quod in primo 
+      in<lb ed="#P" n="105" break="no"/>stanti nature sit in culpa permanenter et quasi in quiete et 
+      <lb ed="#P" n="106"/>in tertio sit in gratia etiam permanenter et in quiete.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e302">
+      ¶ Quod 
+      <lb ed="#P" n="107"/>autem vergo purgata fuerit in illo instanti duratiois 
+      pro<lb ed="#P" n="108" break="no"/>bant Primo sic. Si virgo beata non fuit purgata in 
+      <lb ed="#P" n="109"/>primo instanti sequitur quod vel in tpare sequenti vel in 
+      alie<lb ed="#P" n="110" break="no"/>instanti. Non in tpore quia purgatio culpe non fit in tpare 
+      <lb ed="#P" n="111"/>sicut nec culpa originalis contrahitur in tpare ergo in 
+      <lb ed="#P" n="112"/>alio instanti. Sed inter qualibet duo instantia est tempus 
+      <lb ed="#P" n="113"/>medium et in quolibet tpore infinita instantia ergo non fuit ita 
+      <lb ed="#P" n="114"/>cito purgata sicut potuit purgari quia in illis instanti 
+      <lb ed="#P" n="115"/>bus mediis potuit purgari immo etiam alii citius 
+      potue<lb ed="#P" n="116" break="no"/>runt purgari quam ipsa fuerit purgata. Hoc autem est 
+      fal<lb ed="#P" n="117" break="no"/>sum quaere etc.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e328">
+      ¶ Secundo sic Aut in illo primo instanti 
+      fui<lb ed="#P" n="118" break="no"/>purgata et purgabatur aut in tpare habito: aut in alio 
+      <lb ed="#P" n="119"/>instanti. Non in tpore habito quia cum tempus habitum ad illud 
+      <lb ed="#P" n="120"/>instans fuerit totum tempus vite sue vnitum et continuum 
+      <lb ed="#P" n="121"/>sequitur quod in tota vita sua purgabatur ab 
+      originali<lb ed="#P" n="122" break="no"/>et per consequens quod in tota vita sua hunit orginale. Non enim 
+      <lb ed="#P" n="123"/>dicitur aliquis purgari ab eo quod non habet nec dicitur 
+      expelli<lb ed="#P" n="124" break="no"/>quod non est sed quod est ergo in alio instanti ergo non fuit ita 
+      <lb ed="#P" n="125"/>cito purgata sicut potuit purgari sicut deductum est 
+      <lb ed="#P" n="126"/>prius.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e350">
+      ¶ Tertio si non fuit purgata in primo 
+      instan<lb ed="#P" n="127" break="no"/>ti sequitur quod potuerit damnari quia in illo instanti 
+      po<lb ed="#P" n="128" break="no"/>tuit mori cum originali. Sed hoc est falsum ergo etc. 
+      <!--66.xml-->
+      <pb ed="#P" n="29-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Hec est igitur opinio cum suis motiuis et modo 
+      di<lb ed="#P" n="2" break="no"/>scendi. Et hec de primo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e369">
+               <lb ed="#P" n="3"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="4" break="no"/>ticulum. Dico quod ista opinio videtur michi falsa et 
+      ar<lb ed="#P" n="5" break="no"/>guo contra eam.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e378">
+      ¶ Primo sic. Impossibile est in 
+      eo<lb ed="#P" n="6" break="no"/>dem instanti temporis idem simul esse et non esse: quia 
+      <lb ed="#P" n="7"/>hec est prima contradictio. Sed per te pro istanti 
+      il<lb ed="#P" n="8" break="no"/>lo temporis quo virgo contraxit peccatum / peccatum 
+      <lb ed="#P" n="9"/>habet esse in anima et pro eodem instanti purgatur si 
+      <lb ed="#P" n="10"/>cut tu dicis: et per consequens peccatum habet non est 
+      <lb ed="#P" n="11"/>se alioquin anima non purgatur ergo impossibile est 
+      <lb ed="#P" n="12"/>quod in eodem instanti peccatum contrahatur et 
+      purge<lb ed="#P" n="13" break="no"/>tur sicut quod idem simul sit et non sit.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e398">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="14"/>Peccatum originale saltem secundum eos est formaliter 
+      ne<lb ed="#P" n="15" break="no"/>gatio gratie vel iusticie que nobilius habetur in 
+      gra<lb ed="#P" n="16" break="no"/>tia ipsa. Tunc sic. Impossibile est quod eidem subiecto 
+      <lb ed="#P" n="17"/>pro eodem instanti temporis insint affirmatio et 
+      nega<lb ed="#P" n="18" break="no"/>tio. Sed in illo instanti ponitur anima per te contra 
+      <lb ed="#P" n="19"/>here petatum: et per consequens quod in ipsa est negatio 
+      gra<lb ed="#P" n="20" break="no"/>tie et ponitur purgari et per consequens ponitur 
+      gra<lb ed="#P" n="21" break="no"/>tia: ergo impossibile est quod in eodem instanti temporis 
+      <lb ed="#P" n="22"/>anima contrahat et purgatur.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e420">
+      ¶ Tertio contra illam 
+      <lb ed="#P" n="23"/>distinctionem signorum nature. Aut enim sunt aliqua 
+      <lb ed="#P" n="24"/>ndiuisibilia durationis distincta realiter extra 
+      in<lb ed="#P" n="25" break="no"/>tellectum quorum vnum est prius et aliud posterius. 
+      <lb ed="#P" n="26"/>Aut non distinguntur nisi secundum intellectum et 
+      ymagi<lb ed="#P" n="27" break="no"/>nationem. Si primo modo cum non possint esse 
+      indi<lb ed="#P" n="28" break="no"/>uisibilia alicuius durationis nisi temporis 
+      sequitu<lb ed="#P" n="29" break="no"/>quod sunt indiuisibilia temporis et sunt tria instantia et 
+      <lb ed="#P" n="30"/>sic instans quod ponitur ab omnibus indiuisibile tem 
+      <lb ed="#P" n="31"/>poris diuiditur in tria indiuisibilia temporis quod est 
+      com<lb ed="#P" n="32" break="no"/>tradictio et sequitur processus in infinitum in diuisio 
+      <lb ed="#P" n="33"/>ne indiuisibilium: quia pari ratione quodlibet 
+      illo<lb ed="#P" n="34" break="no"/>rum diuidetur in tria alia. Si autem non 
+      distingan<lb ed="#P" n="35" break="no"/>tur ista instantia nature in illo instanti temporis nisi 
+      <lb ed="#P" n="36"/>ecundum ymaginationem et intellectum: tunc in nullo 
+      impe<lb ed="#P" n="37" break="no"/>dit eorum distinctio: quin simul extra intellectum 
+      po<lb ed="#P" n="38" break="no"/>nantur contradictoria et nichil facit ad propositus 
+      <lb ed="#P" n="39"/>de contrahendo vel purgando peccatum quare etc. 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e459">
+               <lb ed="#P" n="40"/>¶ Quarto sic. Contra illud quod dicunt quod culpa est 
+      <lb ed="#P" n="41"/>cum expellitur quia hoc est falsum: quia culpam 
+      expelli<lb ed="#P" n="42" break="no"/>est ipsam accipere non esse sicut formam 
+      vnamexpelli<lb ed="#P" n="43" break="no"/>de materia est ipsam accipere non esse: quia tunc non est quam 
+      <lb ed="#P" n="44"/>do accipit non esse sicut tunc aliquid est quando 
+      acci<lb ed="#P" n="45" break="no"/>pit esse: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e475">
+      ¶ Quinto sic. Licet sit verum illud quod 
+      <lb ed="#P" n="46"/>dicunt de contrariis quod simul possunt inesse et per 
+      na<lb ed="#P" n="47" break="no"/>turam secundum gradus remissos saltem tamen non valet ad 
+      <lb ed="#P" n="48"/>propositum de originali culpa et iusticia vel gratia 
+      <lb ed="#P" n="49"/>debita: quia illa non se habent sicut affirmatio et 
+      ne<lb ed="#P" n="50" break="no"/>gatio sicut ista: et ita non obstante quod illa possint 
+      si<lb ed="#P" n="51" break="no"/>mul stare non tamen ista. Dico igitur quod ista 
+      positio<lb ed="#P" n="52" break="no"/>non est vera. 
+      <lb ed="#P" n="53"/>I suum. Dico 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e496">
+               <lb ed="#P" n="54"/>¶ Ad primum motiumit quod progo 
+      fuit<lb ed="#P" n="55" break="no"/>purgata in tempore habito post primum instans: tamen 
+      po<lb ed="#P" n="56" break="no"/>tuit purgari. Quando dicis quod quia purgatio a 
+      pcto<lb ed="#P" n="57" break="no"/>non est nisi in instanti. Dico quod verum est de communi 
+      le<lb ed="#P" n="58" break="no"/>ge. Sed diuina virtute potest esse in tempore sicut 
+      <lb ed="#P" n="59"/>magis in sequenti articulo respondetur.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e512">
+      ¶ Ad 
+      secun<lb ed="#P" n="60" break="no"/>dum hoc admisso quod illa opinio presupponit / quod est 
+      <lb ed="#P" n="61"/>tamen falsum. Dico quod non debet dici purgari pro toto 
+      <lb ed="#P" n="62"/>tempore vite sue sed pro parte illius temporis 
+      habi<lb ed="#P" n="63" break="no"/>ta ad primum instans. Nec oportet vltra quod illud 
+      in<lb ed="#P" n="64" break="no"/>sit a quo aliquis purgatur quando purgatur immo¬ 
+      <!--66.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>magis quod non insit sicut dictum est supra.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e532">
+      ¶ Ad 
+      ter<lb ed="#P" n="66" break="no"/>tium illo supposito vt prius. Dico quod absolute 
+      loquen<lb ed="#P" n="67" break="no"/>do potuit beata virgo damnari quia nunquam a 
+      pecca<lb ed="#P" n="68" break="no"/>to purgari quod contraxit in instanti sue conceptionis 
+      <lb ed="#P" n="69"/>licet deus ordinauerit quod saluaretur. Et preterea 
+      da<lb ed="#P" n="70" break="no"/>to quod nonfuerit purgata in illo instanti non sequitur 
+      <lb ed="#P" n="71"/>propter hoc quod potuerit damnari ex probatione quae ad  
+      <lb ed="#P" n="72"/>ducitur quia pro illo instanti non potuit mori in 
+      sensu<lb ed="#P" n="73" break="no"/>composito: tunc enim simul vel potuisset esse et non 
+      es<lb ed="#P" n="74" break="no"/>se quod est inconueniens: et ideo impossibile est in 
+      in<lb ed="#P" n="75" break="no"/>stanti in quo concipitur et per consequens habet esse 
+      <lb ed="#P" n="76"/>habeat non esse vel moriatur. Hec de secundo 
+      ar<lb ed="#P" n="77" break="no"/>ticulo. 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e561">
+               <lb ed="#P" n="78"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="79" break="no"/>culum. Uidetur michi dicendum quod beata virgo 
+      pun<lb ed="#P" n="80" break="no"/>gari potuit adeo sic quod solum potuit esse per instans 
+      <lb ed="#P" n="81"/>in peccato originali. Quod autem hoc fuerit 
+      possibi<lb ed="#P" n="82" break="no"/>le declaratur.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e574">
+      ¶ Primo sic. Pro quacunque 
+      mensu<lb ed="#P" n="83" break="no"/>ra vel quocumque signo mensure natum est vnum 
+      incom<lb ed="#P" n="84" break="no"/>possibilium inesse alicui susceptiuo vtriusque et alterum 
+      <lb ed="#P" n="85"/>Patet de se. Sed negatio iusticie vel gratie nata est 
+      <lb ed="#P" n="86"/>inesse subiecto pro tempore vel pro instanti. Patet 
+      <lb ed="#P" n="87"/>etiam ergo et iusticia vel gratia nata est in fieri vel in 
+      <lb ed="#P" n="88"/>esse subiecto pro tempore vel pro instanti: et sic post in 
+      <lb ed="#P" n="89"/>stans culpe deus immediate potest infundere vel in 
+      <lb ed="#P" n="90"/>fluere gratiam in tempore sequente. Non enim 
+      repu<lb ed="#P" n="91" break="no"/>gnantia videtur quod sicut toto tempore vni instanti 
+      con<lb ed="#P" n="92" break="no"/>tinuato potest inesse priuatio gratie alicui 
+      subiecto<lb ed="#P" n="93" break="no"/>deo non influente ad gratiam ita etiam toto tempore 
+      <lb ed="#P" n="94"/>continuato vni instanti potest infieri vel inesse 
+      gra<lb ed="#P" n="95" break="no"/>tiam post culpam influente deo ad gratiam ipsam. 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e605">
+               <lb ed="#P" n="96"/>¶ Secundo sic. Non est negandum deo esse 
+      possibi<lb ed="#P" n="97" break="no"/>le quod est possibile per naturam. Sed per naturam est 
+      <lb ed="#P" n="98"/>possibile quod aliquid quiescens in toto tempore in 
+      vlti<lb ed="#P" n="99" break="no"/>mo illius temporis non moueatur et in sequenti toto 
+      <lb ed="#P" n="100"/>tempore moueatur ita quod ibi esset dare vltimum 
+      pas<lb ed="#P" n="101" break="no"/>sionis precedentis et non primum posterioris: quia 
+      mo<lb ed="#P" n="102" break="no"/>tus non habet primum: ergo etiam possibile est deo quod 
+      <lb ed="#P" n="103"/>per instans aliquid sit sub culpa et tempore 
+      sequen<lb ed="#P" n="104" break="no"/>ti immediate moueatur vel mutetur ad gratiam et 
+      <lb ed="#P" n="105"/>infundatur 
+      sibi<lb ed="#P" n="106" break="no"/>tertio declaratur in exemplo¬ 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e632">
+               <lb ed="#P" n="107"/>¶ oc idem de faba proiecta contra 
+      mola<lb ed="#P" n="108" break="no"/>rem descendentem deorsum. Est enim accipere instans 
+      <lb ed="#P" n="109"/>occursus fabe ad lapidem quo prior motus et 
+      ascen<lb ed="#P" n="110" break="no"/>sus fabe terminatur et lapis est in loco sibi equali 
+      in<lb ed="#P" n="111" break="no"/>actu: et tamen toto tempore sequenti lapis mouetur 
+      deore<lb ed="#P" n="112" break="no"/>sum motu contrario: ita quod est dare vltimum prioris 
+      <lb ed="#P" n="113"/>motus et non primum sequentis: ergo nullum videtur 
+      <lb ed="#P" n="114"/>inconueniens quod sit dare instans culpe et sequens 
+      tem<lb ed="#P" n="115" break="no"/>pus purgantis gratie. Unde illo exemplo de faba 
+      <lb ed="#P" n="116"/>et molari falluntur aliqui qui dicunt quod in illo 
+      instanti<lb ed="#P" n="117" break="no"/>contactus fabe ad molarem lapis mouetur sursum et 
+      <lb ed="#P" n="118"/>incipit moueri deorsum et sunt illi de precedenti 
+      opi<lb ed="#P" n="119" break="no"/>nione. Hoc enim est impossibile saltem naturaliter: 
+      <lb ed="#P" n="120"/>immo etiam nec aliquo modo quia in instanti aliquo 
+      mo<lb ed="#P" n="121" break="no"/>ueri non potest sicut dictum est supra. Sed in illo 
+      instan<lb ed="#P" n="122" break="no"/>ti mediante inter duos motus est in loco sibi 
+      equa<lb ed="#P" n="123" break="no"/>li nec mouetur proprie nec quiescit nisi vocetur 
+      quiesce<lb ed="#P" n="124" break="no"/>re esse in loco sibi equali in actu sicut est predictum 
+      <lb ed="#P" n="125"/>quare etc. Unde in isto exemplo de faba decipiuntur 
+      <lb ed="#P" n="126"/>illi de prima opinione qui dicunt quod in illo instanti 
+      con<lb ed="#P" n="127" break="no"/>tactus fabe ad molarem faba mouetur et quiescit 
+      mon<lb ed="#P" n="128" break="no"/>uetur quidem ad motum molaris deorsum et quiescit 
+      <!--67.xml-->
+      <pb ed="#P" n="29-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quia inter quoslibet duos motus contrarios est quies 
+      <lb ed="#P" n="2"/>media. 8. phisicorum.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e693">
+      ¶ Dico enim quod in illo instanti 
+      <lb ed="#P" n="3"/>nec mouetur nec quiescit sed est sub vno mutato et 
+      <lb ed="#P" n="4"/>se in actu quo habet locum sibi equalem in actu in 
+      <lb ed="#P" n="5"/>quo quiesceret forte si sibi relinqueretur sicut etiam 
+      <lb ed="#P" n="6"/>in mutatis esse que sunt in motu continuo in 
+      poten<lb ed="#P" n="7" break="no"/>tia est in loco sibi equali in potentia et non mouetur 
+      <lb ed="#P" n="8"/>nec quiescit. Non ergo quiescit.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e709">
+      ¶ Quando dicis 
+      <lb ed="#P" n="9"/>quod inter duos motus contrarios etc. Dico quod est dare 
+      <lb ed="#P" n="10"/>quietem mediam si sint totaliter et simpliciter 
+      discon<lb ed="#P" n="11" break="no"/>tinuati. Sed sic non est in proposito: quia instans illud 
+      <lb ed="#P" n="12"/>signatum in actu non discontinuat motum fabe 
+      sim<lb ed="#P" n="13" break="no"/>pliciter sicut etiam nec punctus angularis 
+      disconti<lb ed="#P" n="14" break="no"/>nuat simpliciter lineas concurrentes in ipso. Sunt 
+      <lb ed="#P" n="15"/>enim ille linee continue quia partes earum copulantur 
+      ad<lb ed="#P" n="16" break="no"/>terminum communem qui est punctus: licet ille 
+      pun<lb ed="#P" n="17" break="no"/>ctus sit in actu: non tamen ita continue sicut vna linea 
+      <lb ed="#P" n="18"/>recta est continua in qua non est dare punctum in actu 
+      <lb ed="#P" n="19"/>continuans partes eius sed tantum in potentia. Ista 
+      ap<lb ed="#P" n="20" break="no"/>parent. 5. metha. vbi dicitur quod motus vnus et 
+      conti<lb ed="#P" n="21" break="no"/>muus est super lineam habentem reflexionem non tamen sic 
+      <lb ed="#P" n="22"/>est vnus perfecte vel continuus sicut super lineam 
+      re<lb ed="#P" n="23" break="no"/>ctam non habens reflexionem vel fractionem in 
+      an<lb ed="#P" n="24" break="no"/>gulo. Unde dicitur ibi quod continuum est cuius motus 
+      <lb ed="#P" n="25"/>est vnus et dicit quod que sunt continua sunt vnum: licet 
+      <lb ed="#P" n="26"/>habeant reflexionem magis tamen ea que non habent 
+      re<lb ed="#P" n="27" break="no"/>flexionem vt tybia quam succlos quia conuenit non vnum 
+      <lb ed="#P" n="28"/>motum esse succli non sic tybie vel cruris: et ideo sud 
+      <lb ed="#P" n="29"/>clos est vnum et non vnum aliquo modo: quia conuenit 
+      <lb ed="#P" n="30"/>eius motum esse vnum vel non vnum: et sic non est 
+      <lb ed="#P" n="31"/>ita perfecte vnum sicut tybia vel crus cuius motus 
+      <lb ed="#P" n="32"/>semper est vnus 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e764">
+               <lb ed="#P" n="33"/>¶ Sic igitur ad propositum 
+      no<lb ed="#P" n="34" break="no"/>strum dico quod de isto exemplo sicut non est 
+      impossibi<lb ed="#P" n="35" break="no"/>le quod in illo instanti contactus fabe ad molarem faba 
+      <lb ed="#P" n="36"/>sit in loco sibi equali in actu secundum mutatum esse in actu 
+      <lb ed="#P" n="37"/>et in toto sequenti tempore moueatur ad motum 
+      mola<lb ed="#P" n="38" break="no"/>ris sic nullum est impossibile quod per instans anima 
+      vir<lb ed="#P" n="39" break="no"/>ginis potuerit esse in peccato originali in actu et in 
+      <lb ed="#P" n="40"/>tempore habito infunderetur sibi gratia et purgaretur. 
+      <lb ed="#P" n="41"/>ponunt aliqui quod 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e786">
+               <lb ed="#P" n="42"/>¶ Aliud exemplum slocus ille quo 
+      <lb ed="#P" n="43"/>attigit vltima superficies fabe esset luminosus et 
+      to<lb ed="#P" n="44" break="no"/>tus locus inferior esset tenebrosus vel econuerso 
+      in<lb ed="#P" n="45" break="no"/>instanti contactus fieret superficies fabe 
+      tenebrosa<lb ed="#P" n="46" break="no"/>vel luminosa et in tempore habito oppositum.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e799">
+      ¶ Ultio 
+      <lb ed="#P" n="47"/>mo ostenditur possibilitas huius quia si corpus aliquod 
+      <lb ed="#P" n="48"/>sit illuminatum in toto tempore preterito et debeat 
+      il<lb ed="#P" n="49" break="no"/>luminare in toto tempore in instanti medio poterit 
+      <lb ed="#P" n="50"/>virtute diuina poni obstaculum quo obscurabitur 
+      <lb ed="#P" n="51"/>corpus et sic nec illuminabitur nec illuminabit: et ita 
+      <lb ed="#P" n="52"/>non erit vltimum prioris passionis nec primum 
+      poste<lb ed="#P" n="53" break="no"/>rioris: igitur in proposito non videtur impossibile 
+      <lb ed="#P" n="54"/>quod in illo instanti conceptionis potuerit non illumina 
+      <lb ed="#P" n="55"/>ri virgo sed fuerit sub culpa et in tempore sequenti 
+      <lb ed="#P" n="56"/>illuminetur quare etc. 
+      <lb ed="#P" n="57"/>concludo quod si aliter in¬ 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e826">
+               <lb ed="#P" n="58"/>¶ Ex predictis tellexit vnus doctor silice 
+      <lb ed="#P" n="59"/>Henricus quam predictum sit male intellexit. si autem 
+      <lb ed="#P" n="60"/>sic intellexit bene intellexit. Et hoc de possibilitate 
+      <lb ed="#P" n="61"/>et non de facto circa virginem dignissimam quia 
+      loquen<lb ed="#P" n="62" break="no"/>do de facto errauit: tamen videntur verba sua sonare 
+      ali<lb ed="#P" n="63" break="no"/>quando hinc et inde.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e842">
+      ¶ Dicit enim aliquando quod virgo 
+      <lb ed="#P" n="64"/>per instans fuit sub peccato originali et quod peccatum 
+      <!--67.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>et gratia opponuntur et sunt formaliter 
+      incompossibi<lb ed="#P" n="66" break="no"/>lia et toto tempore sequenti fuit in gratia. Aliquando 
+      <lb ed="#P" n="67"/>dicit quod idem fuit instans culpe et gratie sicut idem 
+      <lb ed="#P" n="68"/>est instans preteriti temporis et futuri copulatiuum 
+      <lb ed="#P" n="69"/>vtriusque.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e862">
+      ¶ Et alii adducunt exemplum. Sicut est 
+      <lb ed="#P" n="70"/>idem instans generationis et corruptionis 
+      expulsio<lb ed="#P" n="71" break="no"/>nis forme prioris et inductionis noue. Dico tamen 
+      <lb ed="#P" n="72"/>quod omnino impossibile est quod idem instans sit culpe et 
+      <lb ed="#P" n="73"/>gratie ita quod eodem instanti sit ibi culpa et gratia sicut 
+      <lb ed="#P" n="74"/>ostensum est supra. Nec valet exemplum de eodem in 
+      <lb ed="#P" n="75"/>stanti preteriti et futuri et futurum et preteritum non 
+      <lb ed="#P" n="76"/>ponuntur simul stare in illo instanti sicut culpa et 
+      gra<lb ed="#P" n="77" break="no"/>tia. Similiter etiam exemplum generationis et 
+      corru<lb ed="#P" n="78" break="no"/>ptionis: quia generatio vnius et corruptio alterius 
+      <lb ed="#P" n="79"/>non opponuntur sicut culpa et gratia vel iusticia debi 
+      <lb ed="#P" n="80"/>ta. Similiter etiam bene concedo quod eadem mensura 
+      <lb ed="#P" n="81"/>cel duratio vtriusque vel etiam expulsionis et 
+      indu<lb ed="#P" n="82" break="no"/>ctionis sicut simul est esse vnius forme et non esse 
+      al<lb ed="#P" n="83" break="no"/>terius. Sed non simul esse vtriusque. Sic etiam dico 
+      <lb ed="#P" n="84"/>quod simul est esse gratie et non esse culpe non autem 
+      es<lb ed="#P" n="85" break="no"/>se vtriusque sicut ponunt isti. 
+      <lb ed="#P" n="86"/>quod potuit fieri quod virgo 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e901">
+               <lb ed="#P" n="87"/>¶ Sic igitur dico solum eset in 
+      origina<lb ed="#P" n="88" break="no"/>li per instans et in tempore habito per gratiam 
+      pur<lb ed="#P" n="89" break="no"/>garetur immediate post illud instans. 
+      <lb ed="#P" n="90"/>predicta sunt obiectiones 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e912">
+               <lb ed="#P" n="91"/>¶ Sed conta li difficiles.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e917">
+      ¶ Prima est 
+      <lb ed="#P" n="92"/>ista. Impossibile est quod in subiecto indiuisibili forma 
+      <lb ed="#P" n="93"/>indiuisibilis inducatur in tempore ab agente virtutis 
+      <lb ed="#P" n="94"/>infinite quia et agens tale agit in instanti et non est 
+      <lb ed="#P" n="95"/>aliqua ratio successionis ex parte forme nec ex 
+      pa<lb ed="#P" n="96" break="no"/>te subiecti nec est aliquid resistens respectu virtuta 
+      <lb ed="#P" n="97"/>infinite: sed deus est agens virtutis infinite gratia 
+      <lb ed="#P" n="98"/>enim simplex est et indiuisibilis et subiectum eius 
+      puta<lb ed="#P" n="99" break="no"/>anima: ergo impossibile est quod potuerit induci in 
+      ten<lb ed="#P" n="100" break="no"/>pore sed in alio instanti: et tunc cadet tempus medium 
+      <lb ed="#P" n="101"/>cuius oppositum dictum est supra.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e942">
+      ¶ Secundo sic. Aut 
+      <lb ed="#P" n="102"/>gratia inducitur per motum aut per mutationem aut per 
+      <lb ed="#P" n="103"/>creationem. Sed non inducitur per motum planum est: 
+      <lb ed="#P" n="104"/>ergo per mutationem vel creationem. Sed impossibile est quod ista 
+      <lb ed="#P" n="105"/>sint nisi in instanti et impossibile est eas esse in tempore 
+      si<lb ed="#P" n="106" break="no"/>cut impossibile est motum esse in instanti: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e955">
+               <lb ed="#P" n="107"/>¶ Tertio sic. Philosophus. 8. phisicorum docet quod 
+      <lb ed="#P" n="108"/>quando aliquid mutatur ab aliquo in aliud vt ab 
+      albe<lb ed="#P" n="109" break="no"/>dine in nigredinem licet sit dare primum posterioris 
+      <lb ed="#P" n="110"/>passionis: non tamen vltimum prioris. Ita quod instans 
+      gene<lb ed="#P" n="111" break="no"/>rationis et corruptionis est posterioris passionis. 
+      <lb ed="#P" n="112"/>Si ergo anima virginis mutata fuisset a culpa in 
+      gra<lb ed="#P" n="113" break="no"/>tiam ita oportuisset in esse. Sed hoc est impossibile secundum 
+      <lb ed="#P" n="114"/>predicta: quia fuisset vltimum vel instans prioris 
+      pas<lb ed="#P" n="115" break="no"/>sionis puta culpe et non fuisset primum gratie et 
+      poste<lb ed="#P" n="116" break="no"/>rioris passionis sicut nec temporis.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e979">
+      ¶ Quarto sic 
+      <lb ed="#P" n="117"/>Quod nichil est vel non est pro toto tempore non 
+      acci<lb ed="#P" n="118" break="no"/>pit non esse in ipso tempore quia oportet illud quod ad 
+      <lb ed="#P" n="119"/>cipit non esse in tempre sit in tempore vel habeat esse: 
+      <lb ed="#P" n="120"/>Similis enim mensura videtur ipsius esse rei et non es 
+      <lb ed="#P" n="121"/>se. Sed peccatum originale non fuisset in toto tem 
+      <lb ed="#P" n="122"/>pore secundum predicta: sed solo instanti: ergo accepisset 
+      <lb ed="#P" n="123"/>non esse in toto tempore: quare etc. 
+      <lb ed="#P" n="124"/>Ad primum di¬ 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e999">
+               <lb ed="#P" n="125"/>¶ Ad ista respondeo. citur quod deus 
+      i<lb ed="#P" n="126" break="no"/>cet sit agens virtutis infinite non tamen est agens 
+      natu<lb ed="#P" n="127" break="no"/>raliter et de necessitate sed contingenter et libere secundum 
+      <lb ed="#P" n="128"/>illud psal. Deus vltionum libere egit et ideo potest 
+      mo<lb ed="#P" n="129" break="no"/>dificare actionem suam sicut placet agendo in tempore¬ 
+      <!--68.xml-->
+      <pb ed="#P" n="30-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>vel in instanti immediate per seipsum sicut etiam quandoqoe 
+      <lb ed="#P" n="2"/>mediantibus creaturis: et ideo non obstante quod gratia 
+      <lb ed="#P" n="3"/>sit indiuisibilis et subiectum eius et nichil resistat si 
+      <lb ed="#P" n="4"/>bi nec medium nec aliquid aliud potest tamen 
+      infun<lb ed="#P" n="5" break="no"/>dere gratiam in tempore vel etiam in instanti sicut 
+      pla<lb ed="#P" n="6" break="no"/>cet sibi. Alia autem agentia non possunt sic 
+      modifi<lb ed="#P" n="7" break="no"/>care suas actiones. Sed illud quod secundum se natum est fier 
+      <lb ed="#P" n="8"/>in instanti oportet quod faciant in instanti nec possunt 
+      <lb ed="#P" n="9"/>facere in tempore. Sic etiam de his que nata sunt 
+      fie<lb ed="#P" n="10" break="no"/>ri in tempore suo modo.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e1040">
+      ¶ Sed contra istam solutionem 
+      v<lb ed="#P" n="11" break="no"/>detur esse: quia deus non potest facere illud quod 
+      re<lb ed="#P" n="12" break="no"/>pugnat rei factibili quantumcumque sit agens voluntari 
+      <lb ed="#P" n="13"/>gratie vt videtur quantum ad suam primam infusionem 
+      <lb ed="#P" n="14"/>repugnat fieri vel infundi in tempore vel successiue: sicu 
+      <lb ed="#P" n="15"/>etiam motui repugnat fieri in instanti nec potest fieri in insta 
+      <lb ed="#P" n="16"/>ti etiamla deo sicut dictum est supra sicut nec generatio alicuiur 
+      <lb ed="#P" n="17"/>substantie potest esse successiua et in tempore: ergo etc 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e1058">
+               <lb ed="#P" n="18"/>¶ Ideo videtur aliter dicendum quod infusio gratio 
+      <lb ed="#P" n="19"/>puta non potest esse per se primo mensurata tempore si 
+      <lb ed="#P" n="20"/>cut nec potest esse successiua ita parum sicut 
+      gene<lb ed="#P" n="21" break="no"/>ratio substantie potest tamen primo mensurari 
+      men<lb ed="#P" n="22" break="no"/>sura coexistente tempori puta euo et non 
+      coexisten<lb ed="#P" n="23" break="no"/>te instanti precedenti et ita in proposito: quia 
+      gra<lb ed="#P" n="24" break="no"/>tia est aliquid permanens et etiam infusio vel causa 
+      <lb ed="#P" n="25"/>tio eius potest fieri in tempore non per se primo sed 
+      <lb ed="#P" n="26"/>coexistenter. Euum enim natum coexistere 
+      tempo<lb ed="#P" n="27" break="no"/>ri est mensura permanentium modo deus potest sio 
+      <lb ed="#P" n="28"/>facere sic tale euum non coexistens instanti coexistens 
+      <lb ed="#P" n="29"/>tempori: et sic beata vrigo potuit purgari in 
+      tempo<lb ed="#P" n="30" break="no"/>re et in instanti priori esse sub culpa.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e1090">
+      ¶ Ad secundum 
+      <lb ed="#P" n="31"/>per idem dico quod gratia puta sui infusione in 
+      prope<lb ed="#P" n="32" break="no"/>sito nostro non infunditur per motum nec per 
+      mu<lb ed="#P" n="33" break="no"/>tationem que sit terminus motus sicut est 
+      genera<lb ed="#P" n="34" break="no"/>tio sed per multationem alterius rationis et euiter 
+      <lb ed="#P" n="35"/>nam que habet similitudinem cum motu quia 
+      coexi<lb ed="#P" n="36" break="no"/>stit tempori et habet similitudinem cum mutatione 
+      <lb ed="#P" n="37"/>que determinat sibi instans: quia est tota simul 
+      si<lb ed="#P" n="38" break="no"/>cut illa: et ita etiam non concludit: quia nec est 
+      mo<lb ed="#P" n="39" break="no"/>tus nec mutatio que mensuretur instanti fluente 
+      si<lb ed="#P" n="40" break="no"/>cut generatio vel aliqua huiusmodi: sed 
+      mensura<lb ed="#P" n="41" break="no"/>tur primo instanti manente vel euo: et ideo potest 
+      <lb ed="#P" n="42"/>coexistere tempori vel instanti temporis secundum 
+      <lb ed="#P" n="43"/>voluntatem agentis quod est deus: et posset 
+      coexi<lb ed="#P" n="44" break="no"/>stere instanti et non coexistere tempori vel 
+      econue<lb ed="#P" n="45" break="no"/>so.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e1125">
+      ¶ Ad tertium dico quod regula Aristotelis non 
+      te<lb ed="#P" n="46" break="no"/>net in his que non insunt subiecto nisi per instans 
+      <lb ed="#P" n="47"/>sic quod ipsum subiectum mutatur immediate ad 
+      ali<lb ed="#P" n="48" break="no"/>quid aliud: talia enim possunt habere instans ex 
+      pan<lb ed="#P" n="49" break="no"/>te sui et posterior passio ad quam subiectum 
+      muta<lb ed="#P" n="50" break="no"/>tur habet tempus sicut patet si aliquid illuminatur 
+      <lb ed="#P" n="51"/>in instanti illuminatur et si in tempore habito 
+      obsci<lb ed="#P" n="52" break="no"/>retur sicut est possibile planum est quod instans non est 
+      <lb ed="#P" n="53"/>posterioris passionis: sed ita quod quando passio 
+      po<lb ed="#P" n="54" break="no"/>sterior accipit esse per mutationem que mensuratur 
+      <lb ed="#P" n="55"/>instanti fluente sicut per generationem instans 
+      il<lb ed="#P" n="56" break="no"/>lud dicitur posterioris passionis quantum ad suam 
+      ge<lb ed="#P" n="57" break="no"/>nerationem. licet etiam sit prioris quantum ad suam 
+      <lb ed="#P" n="58"/>corruptionem: quia magis debetur mensurari 
+      en<lb ed="#P" n="59" break="no"/>ti quam non enti et natura principalius intendit esse quam 
+      <lb ed="#P" n="60"/>non esse. Unde nec corruptionem intendit nec 
+      ge<lb ed="#P" n="61" break="no"/>nerationem modo sicut dictum est supra gratia non 
+      <lb ed="#P" n="62"/>accipit esse per mutationem mensuratam instant 
+      <lb ed="#P" n="63"/>transeunte: sed instanti permanente vel euo. Et ide 
+      <lb ed="#P" n="64"/>instans temporis transiens potest esse prioris passio 
+      <lb ed="#P" n="65"/>nis vel culpe et tempus immediate sequens potest ef 
+      <!--68.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>se gratie. Nec oportet dare ibi aliquam durationem 
+      <lb ed="#P" n="67"/>qua subiectum nec sit in culpa nec in gratia sicut 
+      <lb ed="#P" n="68"/>vult etiam Aristoteles vitare quod non est dare 
+      tem<lb ed="#P" n="69" break="no"/>pus vel durationem aliquam qua materia nec sit 
+      sub<lb ed="#P" n="70" break="no"/>forma priore nec sub posteriore. Quod tamen 
+      con<lb ed="#P" n="71" break="no"/>tingeret si esset dare instans vltimum fluens esse 
+      ip<lb ed="#P" n="72" break="no"/>sius forme precedentis et primum sequentis forme: 
+      <lb ed="#P" n="73"/>quia caderet tempus medium necessario sicut et 
+      ca<lb ed="#P" n="74" break="no"/>dit inter quelibet duo instantia.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e1195">
+      ¶ Ad quartum 
+      di<lb ed="#P" n="75" break="no"/>co quod licet culpa non fuisset in toto tempore 
+      accepii<lb ed="#P" n="76" break="no"/>set: tamen non esse in toto tempore et sufficit quod 
+      po<lb ed="#P" n="77" break="no"/>tuit esse solum in instanti precedente: quare etc. hec 
+      <lb ed="#P" n="78"/>de quarto articulo. 
+      <lb ed="#P" n="79"/>rusvn¬ 
+      </p>
+            <p xml:id="qrdBas-c18282-d1e1208">
+               <lb ed="#P" n="80"/>¶ d psmum principale dico 
+      <lb ed="#P" n="81"/>quod illud quod non est in aliquo vel sub aliquo nisi per 
+      <lb ed="#P" n="82"/>instans in fluxum motus est in ipso in potentia tantum 
+      <lb ed="#P" n="83"/>quia incomplete et imperfecte est in eo vel sub ipso 
+      <lb ed="#P" n="84"/>et cum tendentia vlteriori ad aliud vel ad ipsum est 
+      <lb ed="#P" n="85"/>perfectius et vltimate habendum non quia sit in 
+      po<lb ed="#P" n="86" break="no"/>tentia eo modo quo forma dicitur esse in potentia 
+      <lb ed="#P" n="87"/>agentis vel materie antequam sit extra intellectum sed 
+      <lb ed="#P" n="88"/>illud quod est sub aliquo in instanti: non tamen se 
+      <lb ed="#P" n="89"/>cundum fluxum vel in fluxum motus non sicut in eo 
+      <lb ed="#P" n="90"/>vel sub eo in potentia. Sicut cum illuminatur alii 
+      <lb ed="#P" n="91"/>quid in instanti non est lucidum in potentia: sed in 
+      <lb ed="#P" n="92"/>actu completo et perfecto sic in proposito de 
+      culpa<lb ed="#P" n="93" break="no"/>priginali.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e1241">
+      ¶ Ad secundum dico quod culpa origina 
+      <lb ed="#P" n="94"/>lis contrahitur in instanti permanente quod potest 
+      <lb ed="#P" n="95"/>coexistere et instanti fluente tantum et tempori. Et 
+      <lb ed="#P" n="96"/>ita dico quod purgatur et purgari potest in instanti per 
+      <lb ed="#P" n="97"/>manente infusionis gratie quod potest 
+      coexistere<lb ed="#P" n="98" break="no"/>tempori non coexistendo instanti precedenti sicut 
+      <lb ed="#P" n="99"/>instans contractionis poterat coexistere 
+      instanti<lb ed="#P" n="100" break="no"/>priori non coexistendo tempori sequenti: et ita 
+      pa<lb ed="#P" n="101" break="no"/>tet quod non oportet dare tempus medium inter 
+      cul<lb ed="#P" n="102" break="no"/>pam contractam et purgationem eius.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e1263">
+      ¶ Ad 
+      ter<lb ed="#P" n="103" break="no"/>tium dico quod permanentia non distinguntur a 
+      suc<lb ed="#P" n="104" break="no"/>cessiuis in hoc quod stent actualiter et vniformiter in 
+      <lb ed="#P" n="105"/>pluribus instantibus sed magis in hoc quod possunt sic 
+      <lb ed="#P" n="106"/>vniformiter et eadem manere vel stare in pluribus in 
+      <lb ed="#P" n="107"/>stantibus et in tempore coexistendo pluribus 
+      instanti<lb ed="#P" n="108" break="no"/>bus vel tempori: non sic autem successiua possunt. 
+      Mo<lb ed="#P" n="109" break="no"/>do dico de culpa originali quod potest coexistere 
+      tempo<lb ed="#P" n="110" break="no"/>ri et potuit in beata virgine quia permanens erat: qua 
+      <lb ed="#P" n="111"/>re etc.
+    </p>
+            <p xml:id="qrdBas-c18282-d1e1286">
+      ¶ Et he due precedentes questiones 
+      diligen<lb ed="#P" n="112" break="no"/>ter per correctorem huius et aliquos doctores 
+      scien<lb ed="#P" n="113" break="no"/>tificos examinate et pure integritati conformate ex 
+      <lb ed="#P" n="114"/>titerunt 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="63-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c41709"><!--l3d17q1 -->
+            <head xml:id="qrdBas-c41709-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-c41709-d1e101">
+               <lb ed="#P" n="33"/>¶ Distinctionis Decimesaptime. 
+      <lb ed="#P" n="34"/>Questio Unica 
+      <lb ed="#P" n="35"/>
+               <!-- line coord error -->
+            </p>
+            <p xml:id="qrdBas-c41709-d1e112">
+               <lb ed="#P" n="36" break="no"/>CIrca distinctionem 
+      <lb ed="#P" n="37"/>Decimamseptimam quero vtrum 
+      <lb ed="#P" n="38"/>in Christo sint vel fuerint due 
+      <lb ed="#P" n="39"/>voluntates.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e123">
+      ¶ Uidetur quod non 
+      <lb ed="#P" n="40"/>quia si sic quelibet illarum 
+      libe<lb ed="#P" n="41" break="no"/>ra est et voluntas quelibet 
+      po<lb ed="#P" n="42" break="no"/>test velle oppositum eius quod 
+      <lb ed="#P" n="43"/> vult alia vel velle quod non vult 
+      <lb ed="#P" n="44"/>alia: igitur voluntas humana si fuit in christo potuit 
+      <lb ed="#P" n="45"/>esse difformis voluntati divine et ita christus potuit 
+      pec<lb ed="#P" n="46" break="no"/>care quod est falsum.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e141">
+      ¶ Secundo sic. In vno supposi 
+      <lb ed="#P" n="47"/>to non est nisi vnum principium motiuum omnium aliarum 
+      <lb ed="#P" n="48"/>potentiarum illius suppositi vt videtur. Sed voluntas 
+      <lb ed="#P" n="49"/>est principium motiuum omnium potentiarum illius super 
+      <lb ed="#P" n="50"/>positi cuius est: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e153">
+      ¶ Tertio sic. Si in christo est 
+      vo<lb ed="#P" n="51" break="no"/>luntas humana distincta a diuina oportet quod illa 
+      mo<lb ed="#P" n="52" break="no"/>ueatur et regatur a diuina: quia non potest fieri 
+      econuer<lb ed="#P" n="53" break="no"/>so. Sed hoc est contra naturam voluntatis et sue 
+      in<lb ed="#P" n="54" break="no"/>genite libertatis. Est enim instrumentum seipsum 
+      mo<lb ed="#P" n="55" break="no"/>uens secundum Anselmum: ergo etc. 
+      <lb ed="#P" n="56"/>Damascenus capitulo sexto et 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e169">
+               <lb ed="#P" n="57"/>¶ Contra Magister in litera. 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e174">
+               <lb ed="#P" n="58"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e179">
+               <lb ed="#P" n="59"/>¶ Primo ostendam quod in christo sint due 
+      volunta<lb ed="#P" n="60" break="no"/>tes quarum quelibet est appetitus liber in ratione 
+      <lb ed="#P" n="61"/>et intellectus arguendo contra vnam opinionem 
+      he<lb ed="#P" n="62" break="no"/>reticam que non ponit in Christo nisi vnam volunta¬ 
+      <!--137.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>tem scilicet diuinam et ostendam quod non sint ibi plures quam 
+      <lb ed="#P" n="64"/>due.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e199">
+      ¶ Secundo inquiram. An in christo sint vel 
+      fue<lb ed="#P" n="65" break="no"/>rint plures appetitus sensitiui.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e204">
+      ¶ Tertio an omnis 
+      <lb ed="#P" n="66"/>Christi voluntas semper fuerit impleta et omnis 
+      ora<lb ed="#P" n="67" break="no"/>tio exaudita.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e212">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e214">
+               <lb ed="#P" n="68"/>¶ Quantum ad primum 
+      ar<lb ed="#P" n="69" break="no"/>ticulum. Expedio me breuiter quod in christo sunt plures 
+      <lb ed="#P" n="70"/>voluntates.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e223">
+      ¶ Et hoc probo primo sic. In quocumque 
+      <lb ed="#P" n="71"/>sunt plures nature in eodem sunt plures proprietates  
+      <lb ed="#P" n="72"/>illarum naturarum precipue de proprietatibus 
+      con<lb ed="#P" n="73" break="no"/>substantialibus illis naturis. Sed in christo sunt 
+      plu<lb ed="#P" n="74" break="no"/>res nature intellectuales scilicet diuina et humana vel 
+      <lb ed="#P" n="75"/>anima ipsa: ergo et plures voluntates que sunt 
+      proprie<lb ed="#P" n="76" break="no"/>tates plurium naturarum. Ex hac ratione patet quod si 
+      <lb ed="#P" n="77"/>voluntas humana esset vnum accidens absolutum 
+      <lb ed="#P" n="78"/>psius anime sicut ponunt aliqui non oportuit quod 
+      ver<lb ed="#P" n="79" break="no"/>dum assumeret humanam uoluntatem. Potuit enim 
+      ip<lb ed="#P" n="80" break="no"/>sam separare ab anima et econuerso: et sic animam 
+      as<lb ed="#P" n="81" break="no"/>sumere sine voluntate: licet etiam ab illis concedatur 
+      <lb ed="#P" n="82"/>sicut a me quod assumpsit vtrumque.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e252">
+      ¶ Secundo sic. Imn 
+      <lb ed="#P" n="83"/>christo est voluntas diuina secundum omnes. Sed in 
+      Chri<lb ed="#P" n="84" break="no"/>sto etiam est voluntas creata quia in Christo est 
+      gra<lb ed="#P" n="85" break="no"/>tia creata gratum faciens et fruitio que non ponitur 
+      <lb ed="#P" n="86"/>nisi in voluntate sicut in subiecto sicut et caritas cum 
+      <lb ed="#P" n="87"/>qua est eadem vt dictum est in primo: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e265">
+      ¶ Tet 
+      <lb ed="#P" n="88"/>tio sic. In Christo est intellectus duplex scilicet 
+      diui<lb ed="#P" n="89" break="no"/>nus et creatus humanus quia in ipso est duplex 
+      scien<lb ed="#P" n="90" break="no"/>tia scilicet diuina et creata et multiplex quia vna que est 
+      <lb ed="#P" n="91"/>verbi et aliorum in verbo alia que est rei in 
+      proprio<lb ed="#P" n="92" break="no"/>genere: ergo etc.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e278">
+      ¶ Quarto sic. Illud est ponendum in 
+      <lb ed="#P" n="93"/>christo esse assumptum a verbo secundum quod homo maxime 
+      in<lb ed="#P" n="94" break="no"/>digebat curatione sicut patet per Dama. Sed hoc 
+      <lb ed="#P" n="95"/>est voluntas: quia in voluntate formaliter consistit 
+      pec<lb ed="#P" n="96" break="no"/>catum et morbus hominis curandi: ergo in 
+      Christo<lb ed="#P" n="97" break="no"/>est voluntas humana a verbo assumpta et hec est 
+      mo<lb ed="#P" n="98" break="no"/>do conclusio certa et fidelibus determinata et opinio 
+      <lb ed="#P" n="99"/>illa antiqua quod in christo non est nisi vna voluntas tan 
+      <lb ed="#P" n="100"/>quam heretica repudiatur et falsa. Hoc est primum 
+      hu<lb ed="#P" n="101" break="no"/>ius articuli. 
+      <lb ed="#P" n="102"/>quod in Christo non sunt 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e303">
+               <lb ed="#P" n="103"/>¶ Secundo dico nisi due voluntates  
+      <lb ed="#P" n="104"/>et non plures. Uoco autem voluntatempotentiam 
+      libe<lb ed="#P" n="105" break="no"/>ram appetitiuam potentem habere vel habentem actum 
+      <lb ed="#P" n="106"/>secundum elicitum vel quasi elicitum distinctum ex natura 
+      <lb ed="#P" n="107"/>rei ab ea que est ipsum velle. Et tunc dico quod nullus 
+      <lb ed="#P" n="108"/>appetitus naturalis quicumque nec cuiuscunque 
+      poten<lb ed="#P" n="109" break="no"/>tie secundum quod huiusmodi debet dici voluntas nisi 
+      ipse<lb ed="#P" n="110" break="no"/>met qui est voluntas vel voluntatis in ordine ad 
+      ta<lb ed="#P" n="111" break="no"/>lem actum et est omnino eadem potentia cum voluntate 
+      <lb ed="#P" n="112"/>ipsa. Cum igitur in christo non sint nisi duo tales 
+      ap<lb ed="#P" n="113" break="no"/>petitus secundum duas naturas diuinam scilicet et humanam. 
+      <lb ed="#P" n="114"/>Patet quod non sunt nisi due voluntates: licet enim 
+      in<lb ed="#P" n="115" break="no"/>tellectus appetat naturaliter suam perfectionem non 
+      <lb ed="#P" n="116"/>tamen ille appetitus voluntas est: quia non potest 
+      habe<lb ed="#P" n="117" break="no"/>re actum volendi elicitum. Similiter etiam licet 
+      vo<lb ed="#P" n="118" break="no"/>luntas naturaliter appetat suam perfectionem vel actum 
+      <lb ed="#P" n="119"/>uem ipsa potest recipere vel elicere non tamen est 
+      due<lb ed="#P" n="120" break="no"/>potentie vel due voluntates inquantum naturalis et 
+      li<lb ed="#P" n="121" break="no"/>bera sed eadem potentia et voluntas est omnino que 
+      <lb ed="#P" n="122"/>naturaliter appetit actum vt suam perfectionem et 
+      li<lb ed="#P" n="123" break="no"/>bere elicit ipsum. Sicut est idem visus qui natura 
+      <lb ed="#P" n="124"/>liter appetit actum videndi et naturaliter elicit ipsum. 
+      <lb ed="#P" n="125"/>vet quod nihil est dictu in christo 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e355">
+               <lb ed="#P" n="126"/>¶ Ex quo patu. ese plures voluntates  
+      <!--138.xml-->
+      <pb ed="#P" n="64-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quam duas quia in ipso est voluntas creata naturalis 
+      <lb ed="#P" n="2"/>et libera. Non enim sunt iste due voluntates sed 
+      vna<lb ed="#P" n="3" break="no"/>sicut in ipso non est nisi vnus intellectus possibilis 
+      <lb ed="#P" n="4"/>creatus vt iam est declaratum.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e375">
+      ¶ Si dicas sicut 
+      di<lb ed="#P" n="5" break="no"/>cunt aliqui quod multiplicantur appetitus sicut et 
+      po<lb ed="#P" n="6" break="no"/>tentie cognitiue sensitiue sicut etiam multiplicatur 
+      ap<lb ed="#P" n="7" break="no"/>petitus intellectiuus vel est vnus sicut et ipsa 
+      poten<lb ed="#P" n="8" break="no"/>tia intellectiua.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e386">
+      ¶ Similiter etiam appetitus 
+      natu<lb ed="#P" n="9" break="no"/>ralis sicut et forma naturalis impressa: ergo et 
+      appeti<lb ed="#P" n="10" break="no"/>tus sensitiuus sicut et forma apprehensa vel potius 
+      <lb ed="#P" n="11"/>apprehensiua. Et hoc etiam dicit Auicenna. 6. 
+      natu<lb ed="#P" n="12" break="no"/>ralium quod vnicuique virtuti apprehendenti appropria 
+      <lb ed="#P" n="13"/>tur proprium delectamentum quod non pertinet nisi 
+      <lb ed="#P" n="14"/>ad appetitum.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e402">
+      ¶ Potest responderi ad ista quod non est 
+      <lb ed="#P" n="15"/>necessarium ponere tot appetitus: nec Aristoteles 
+      <lb ed="#P" n="16"/>videtur posuisse. Unde sicut in eodem non est nisi vnus 
+      <lb ed="#P" n="17"/>intellectus ita nec nisi vna voluntas et si essent in 
+      ali<lb ed="#P" n="18" break="no"/>quo plures intellectus particulares sicut sensus 
+      par<lb ed="#P" n="19" break="no"/>ticulares non oporteret ponere nisi vnum appetitum 
+      <lb ed="#P" n="20"/>ex quo ille posset versari circa omnia. Sic dicitur 
+      in<lb ed="#P" n="21" break="no"/>proposito de appetitu sensitiuo.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e420">
+      ¶ Ad secundum non 
+      <lb ed="#P" n="22"/>oportet nec concludit: quia non sic appetitus sensitiuus 
+      <lb ed="#P" n="23"/>est idem cum forma vel potentia apprehensiua sicut 
+      <lb ed="#P" n="24"/>naturalis cum forma impressa nec oportet ipsum per 
+      <lb ed="#P" n="25"/>consequens sic connumerari.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e432">
+      ¶ Ad Auicennam dice 
+      <lb ed="#P" n="26"/>retur quod non concludit nisi de actu appetitus qui 
+      be<lb ed="#P" n="27" break="no"/>ne variatur secundum diuersas apprehensiones non sic 
+      au<lb ed="#P" n="28" break="no"/>tem de potentia. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e441">
+               <lb ed="#P" n="29"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="30" break="no"/>culum dicit vnus quod in christo sunt plures appetitus 
+      <lb ed="#P" n="31"/>sensitiui sicut et plures sensus. Cuilibet enim sensui 
+      <lb ed="#P" n="32"/>correspondet suus appetitus sensitiuus et propria 
+      <lb ed="#P" n="33"/>inclinatio in actum et obiectum: licet communiter loquam 
+      <lb ed="#P" n="34"/>tur sancti et doctores de vno appetitu sensitiuo tantum 
+      <lb ed="#P" n="35"/>quia loquuntur de appetitu sensitiuo sequente 
+      imagi<lb ed="#P" n="36" break="no"/>nationem qui est superior ad istos perticulares alios 
+      <lb ed="#P" n="37"/>appetitus.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e463">
+      ¶ Istud non videtur michi necessarium 
+      <lb ed="#P" n="38"/>ponere. Uoco enim appetitum sensitiuum potentiam 
+      <lb ed="#P" n="39"/>appetitiuam organieam scilicet que potest habere actum 
+      <lb ed="#P" n="40"/>ecundum elicitum qui est ipsum appetere. Unde licet 
+      quali<lb ed="#P" n="41" break="no"/>bet potentia naturaliter appetat actum et obiectum 
+      <lb ed="#P" n="42"/>sibi conueniens non tamen quelibet dicitur nec est 
+      ap<lb ed="#P" n="43" break="no"/>petitiua proprie sed solum illa potentia appetitiua 
+      <lb ed="#P" n="44"/>potest dici que habet actum secundum elicitum qui est 
+      appe<lb ed="#P" n="45" break="no"/>tere ipsum et hoc nulli appetitui conuenit nisi 
+      volun<lb ed="#P" n="46" break="no"/>tati vel appetitui sensitiuo qui videtur michi vnus 
+      <lb ed="#P" n="47"/>deseruiens omnibus potentiis sensitiuis: quia non 
+      vi<lb ed="#P" n="48" break="no"/>deo aliquam necessitatem ponendi plures.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e489">
+      ¶ Ex 
+      qui<lb ed="#P" n="49" break="no"/>bus patet quod licet sit inclinatio naturalis alia ipsius 
+      <lb ed="#P" n="50"/>visus ad actum videndi et alia gustus ad actum gustam 
+      <lb ed="#P" n="51"/>di et sic de aliis: tamen non oportet sic appetitus sensiti 
+      <lb ed="#P" n="52"/>uos distingui sed omnium potest esse vnus appetitus 
+      <lb ed="#P" n="53"/>sensitiuus prout appetitiua potentia distinguitur 
+      con<lb ed="#P" n="54" break="no"/>tra cognitiuam nec concurrit in eandem potentiam cum 
+      <lb ed="#P" n="55"/>ipsa licet bene multiplicetur appetitus naturalis. 
+      <lb ed="#P" n="56"/>Nam talis appetitus non distinguitur in ratione 
+      po<lb ed="#P" n="57" break="no"/>tentie contra cognitiuam vel etiam appetitiuam sed  
+      <lb ed="#P" n="58"/>in appetitiua puta in voluntate vel appetitu 
+      sensi<lb ed="#P" n="59" break="no"/>tiuo est eadem potentia cum ipsa et incognita puta in 
+      <lb ed="#P" n="60"/>visu vel intellectum est eadem cum ipsa. Hec de 
+      secun<lb ed="#P" n="61" break="no"/>do articulo. 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e520">
+               <lb ed="#P" n="62"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="63" break="no"/>culum. Dico quod accipiendo voluntatem stricte et pro 
+      <!--138.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>prie sicut accepi supra pro potentia libera que 
+      vno<lb ed="#P" n="65" break="no"/>modo dicitur naturalis secundum inclinationem naturalem ad 
+      <lb ed="#P" n="66"/>actum et alio modo libera inquantum libere potest 
+      eli<lb ed="#P" n="67" break="no"/>cere talem actum et non est differentia nisi secundum rationem 
+      <lb ed="#P" n="68"/>quia eadem est omnino potentia secundum rem tamen vt 
+      natu<lb ed="#P" n="69" break="no"/>ralis prior est omni actu elicito nec vt sic habet 
+      ali<lb ed="#P" n="70" break="no"/>quem talem actum omnis voluntas christi secundum quemcunque 
+      <lb ed="#P" n="71"/>actum elicitum et deliberatiue elicitum quo 
+      simplici<lb ed="#P" n="72" break="no"/>ter aliquid voluit conformiter ad diuinam voluntatem 
+      <lb ed="#P" n="73"/>consequentem fuit efficax et impleta et oratio 
+      exau<lb ed="#P" n="74" break="no"/>dita qua fuit conformis voluntati dei in volito. Uo 
+      <lb ed="#P" n="75"/>luntas autem diuina efficax de volito semper impletur 
+      <lb ed="#P" n="76"/>et ideo simpliciter vel efficaciter voluit quicquid 
+      si<lb ed="#P" n="77" break="no"/>bi secundum diuinam voluntatem euenit et mortem et omnia 
+      <lb ed="#P" n="78"/>licet noluerit mortem secundum quid puta si placeret deo 
+      <lb ed="#P" n="79"/>aliter redimere genus humanum.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e566">
+      ¶ Ex quo patet 
+      <lb ed="#P" n="80"/>quod licet in illa oratione. Pater si possibile est transeat 
+      <lb ed="#P" n="81"/>a me calix iste non fuerit exauditus tamen non fuit factum 
+      <lb ed="#P" n="82"/>aliquid contra suam petitionem: quia non erat 
+      possibi<lb ed="#P" n="83" break="no"/>le secundum potentiam dei ordinatam quod transferretur 
+      ca<lb ed="#P" n="84" break="no"/>lix mortis ab ipso et ideo efficaciter et simpliciter non 
+      <lb ed="#P" n="85"/>detebat vt transferretur sed conditionate si possibile 
+      <lb ed="#P" n="86"/>esset. In omnibus autem que simpliciter et efficaciter 
+      <lb ed="#P" n="87"/>voluit et orauit exauditus est vt videtur loquendo 
+      au<lb ed="#P" n="88" break="no"/>tem de voluntate vt naturaliter inclinatur in bonum 
+      <lb ed="#P" n="89"/>persone et de voluntate large accepta pro 
+      appetitu<lb ed="#P" n="90" break="no"/>sensitiuo dico quod voluntas sua non semper fuit efficax 
+      <lb ed="#P" n="91"/>nec impleta. Naturaliter enim appetebat viuere et 
+      <lb ed="#P" n="92"/>conseruari et refugiebat mori secundum appetitum sensitiuum 
+      <lb ed="#P" n="93"/>et tamen oportuit ipsam mori et pati: uuare etc. 
+      </p>
+            <p xml:id="qrdBas-c41709-d1e600">
+               <lb ed="#P" n="94"/>¶ Ad primum principale 
+      di<lb ed="#P" n="95" break="no"/>co quod absolute loquendo voluntas humana in 
+      Chri<lb ed="#P" n="96" break="no"/>sto fuit libera libertate peccabili et potuit esse 
+      dif<lb ed="#P" n="97" break="no"/>formis diuine voluntati et peccare sicut voluntas mea 
+      <lb ed="#P" n="98"/>vel tua sicut etiam dictum est supra quod christus absolute 
+      lo<lb ed="#P" n="99" break="no"/>quendo potuit peccare: non tamen stante ordinatione 
+      di<lb ed="#P" n="100" break="no"/>uina circa ipsum et de ipso sicut est de beatis.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e618">
+      ¶ Ad  
+      <lb ed="#P" n="101"/>secundum dico quod in vno supposito christi secundum vnam naturam 
+      <lb ed="#P" n="102"/>non est nisi vnum principium motiuum omnium potentiarum 
+      il<lb ed="#P" n="103" break="no"/>lius nature. Unde in ipso non est nisi vna voluntas 
+      <lb ed="#P" n="104"/>creata tamen secundum naturam diuinam in ipso est aliud 
+      princi<lb ed="#P" n="105" break="no"/>pium motiuum omnium potentiarum mobilium ipsius 
+      sup<lb ed="#P" n="106" break="no"/>positi et hec est voluntas diuina. Nec est hoc 
+      impossi<lb ed="#P" n="107" break="no"/>bile sicut non est impossibile quod christus sit suppositum 
+      <lb ed="#P" n="108"/>puarum naturarum.
+    </p>
+            <p xml:id="qrdBas-c41709-d1e638">
+      ¶ Ad tertium dico quod idem iudicium 
+      <lb ed="#P" n="109"/>est de voluntate christi creata qumo stante libertate 
+      re<lb ed="#P" n="110" break="no"/>gitur et mouetur a diuina voluntate sua sicut de 
+      mea<lb ed="#P" n="111" break="no"/>vel tua voluntate. Et satis dictum est de hoc in 
+      pri<lb ed="#P" n="112" break="no"/>mo et secundo. 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,541 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Collatio</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Collatio</title>
+               <date when="2022-01-07">January 07, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a3">Paris, 1517, Vol. 3</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-07" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="1-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-c1e3cc"><!--l3-collatio -->
+            <head xml:id="qrdBas-c1e3cc-Hd1e99">Collatio</head>
+            <p xml:id="qrdBas-c1e3cc-d1e101">
+      <!--10.xml-->
+               <pb ed="#P" n="1-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ fratris Ioannis 
+      <lb ed="#P" n="2"/>de Bassolis Minorite: 
+      <lb ed="#P" n="3"/>Sacre Theologie 
+      pro<lb ed="#P" n="4" break="no"/>fessoris plani: et 
+      ex<lb ed="#P" n="5" break="no"/>ploratoris 
+      profundis<lb ed="#P" n="6" break="no"/>simi. In Tertium 
+      <lb ed="#P" n="7"/>Sententiarum. 
+      <lb ed="#P" n="8"/>Collatio. 
+      <lb ed="#P" n="9"/>pse est caput 
+      cor<lb ed="#P" n="10" break="no"/>poris ecclesie qui est principi 
+      <lb ed="#P" n="11"/>um primogenitus ex mortuis 
+      <lb ed="#P" n="12"/>ad Collocenses primo 
+      capi<lb ed="#P" n="13" break="no"/>tulo. Dicebatur in principio 
+      <lb ed="#P" n="14"/>ententiarum prosequendo 
+      il<lb ed="#P" n="15" break="no"/>lud thema principium verbo 
+      <lb ed="#P" n="16"/>qrum tuorum veritas quod 
+      veri<lb ed="#P" n="17" break="no"/>tas theologica que quasi 
+      to<lb ed="#P" n="18" break="no"/>ta conflatur in quattuor libris sententiarnm circa 
+      <lb ed="#P" n="19"/>quattuor versatur principaliter que in libris 
+      predi<lb ed="#P" n="20" break="no"/>ctis pertratantur. Primum namque est dignitas 
+      di<lb ed="#P" n="21" break="no"/>uini generis. Secundum est nouitas diuini operis 
+      <lb ed="#P" n="22"/>Tertium caritas diuini federis. Quartum est 
+      bo<lb ed="#P" n="23" break="no"/>nitas diuini muneris. Prima duo pertinent ad 
+      pri<lb ed="#P" n="24" break="no"/>mum et secundum. Alia vero duo ad tertium et 
+      <lb ed="#P" n="25"/>quartum. 
+      <lb ed="#P" n="26"/>duo¬ 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e166">
+               <lb ed="#P" n="27"/>¶ Expeditis igitur primis budi 
+      <lb ed="#P" n="28"/>primo et secundo. Restat dicendum de tertio in hoc 
+      <lb ed="#P" n="29"/>tertio libro puta de nouitate diuini federis quod 
+      ha<lb ed="#P" n="30" break="no"/>buit ad genus humanum in sua incarnatione 
+      bene<lb ed="#P" n="31" break="no"/>dicta. 
+      <lb ed="#P" n="32"/>fedus diuine miserationis 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e182">
+               <lb ed="#P" n="33"/>¶ Hoc autem expremit Apostolus in 
+      ver<lb ed="#P" n="34" break="no"/>bis preassumptis quando dicit de christo verbo in 
+      <lb ed="#P" n="35"/>carnato dei filio quod ipse est caput corporis ecclesiem 
+      <lb ed="#P" n="36"/>qui est principium primogenitus ex mortuis. Nam 
+      <lb ed="#P" n="37"/>secundum hoc dicit istud verbum quod est caput 
+      eccle<lb ed="#P" n="38" break="no"/>sie nosque membra eius mediator dei et hominum 
+      ho<lb ed="#P" n="39" break="no"/>mo christus iesus.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e200">
+      ¶ In verbis ergo predictis 
+      di<lb ed="#P" n="40" break="no"/>co quod Apostolus describit christum verbum dei 
+      pro<lb ed="#P" n="41" break="no"/>nobis incarnatum. Primo quantum ad gradum 
+      emi<lb ed="#P" n="42" break="no"/>mentie principalis cum dicitur. Ipse est caput. 
+      Se<lb ed="#P" n="43" break="no"/>cundo quantum ad nexum amicitie fraternalis vel 
+      li<lb ed="#P" n="44" break="no"/>peralis cum dicitur corporis ecclesie. Tertio 
+      quan<lb ed="#P" n="45" break="no"/>tum ad actum vel modum influentie virtualis quia 
+      <lb ed="#P" n="46"/>est principium. Quarto quantum ad fructum patien 
+      <lb ed="#P" n="47"/>tie triumphalis: quia primogenitus ex mortuis. 
+      <lb ed="#P" n="48"/>v primo suam presidem 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e223">
+               <lb ed="#P" n="49"/>¶ Describit eruo tiam principale 
+      sc<lb ed="#P" n="50" break="no"/>cundo suam liberalem et fraternalem amicitiam. 
+      ter<lb ed="#P" n="51" break="no"/>tio suam virtualem influentiam et quarto suam 
+      trium<lb ed="#P" n="52" break="no"/>phalem patientiam. Primum probat capitis 
+      digni<lb ed="#P" n="53" break="no"/>tas. Secundum corporis vnitas. Tertium virtus 
+      <!--10.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="54"/>principii. Quartum fructus supplicii mortalis 
+      sup<lb ed="#P" n="55" break="no"/>ple: quia primogenitus ex mortuis 
+      <lb ed="#P" n="56"/>quod christus iesus 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e247">
+               <lb ed="#P" n="57"/>¶ Dico ergo primo mediator dei et 
+      <lb ed="#P" n="58"/>hominum in hoc verbo describitur quantum ad 
+      emi<lb ed="#P" n="59" break="no"/>nentiam principalem. Nam ipse est caput. Sicut enim 
+      <lb ed="#P" n="60"/>caput ceteris membris preeminet et superius situa 
+      <lb ed="#P" n="61"/>tur. Sic christus omni creature supereminet et ipsi 
+      <lb ed="#P" n="62"/>principatur. Ipse est enim caput aureum multotor 
+      <lb ed="#P" n="63"/>tius quam ille Nabugodonosor. Ipse est illud 
+      caput<lb ed="#P" n="64" break="no"/>de quo scriptum est. Lapidem quem reprobauerunt 
+      <lb ed="#P" n="65"/>edificantes hic factus est in caput anguli. A 
+      domi<lb ed="#P" n="66" break="no"/>no factum est istud et est mirabile in oculis nostris. 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e271">
+               <lb ed="#P" n="67"/>¶ Ubi notantur quattuor que probant ipsius 
+      chri<lb ed="#P" n="68" break="no"/>sti principalem eminentiam. Primum est misterium 
+      <lb ed="#P" n="69"/>expressiuum vel signatiuum. Secundum est officium 
+      <lb ed="#P" n="70"/>excessiuum. Tertium subsidium promotiuum. Et 
+      <lb ed="#P" n="71"/>quartum prodigium instructiuum.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e284">
+      ¶ Ostenditur 
+      <lb ed="#P" n="72"/>ergo christi preeminentia ex misterio probatiuo: quia 
+      <lb ed="#P" n="73"/>dicitur. Lapis quem reprobauerunt edificantes. 
+      <lb ed="#P" n="74"/>Secundo ex officio excessiuo: quia factus est in 
+      ca<lb ed="#P" n="75" break="no"/>put anguli. Tertio ex subsidio promotiuo: quia a 
+      do<lb ed="#P" n="76" break="no"/>mino factum est istud. Quarto ex prodigio 
+      digna<lb ed="#P" n="77" break="no"/>tiuo quia est mirabile in oculis nostris.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e300">
+      ¶ Dicitur 
+      <lb ed="#P" n="78"/>ergo primo lapis non quicunque lapis sed ipse est 
+      la<lb ed="#P" n="79" break="no"/>dis ille de quo dictum est quod abscisus est lapis de modo 
+      <lb ed="#P" n="80"/>te trinitatis sine manibus humane virtutis vel 
+      po<lb ed="#P" n="81" break="no"/>testatis qui confregit statuam etc. Ipse est lapis 
+      il<lb ed="#P" n="82" break="no"/>le de quo dicitur. Ecce ponam in syon lapidem 
+      ele<lb ed="#P" n="83" break="no"/>ctum preciosum et omnis qui crediderit in eum non 
+      <lb ed="#P" n="84"/>confundetur. Ipse est lapis ille quem erexit Iacob 
+      <lb ed="#P" n="85"/>in titulum fundens oleum desuper. Lapis etiam et 
+      <lb ed="#P" n="86"/>ille super caput cherubin de quodicitur quod super 
+      ca<lb ed="#P" n="87" break="no"/>put cherubin est lapis saphirus. Iste est ille lapis 
+      <lb ed="#P" n="88"/>primarius eductus a deo de vtero virginali. 
+      Edu<lb ed="#P" n="89" break="no"/>cet inquit lapidem primarium et exequabit gratiam 
+      <lb ed="#P" n="90"/>gratie eius.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e331">
+      ¶ Sed istum lapidem misterialem 
+      ne<lb ed="#P" n="91" break="no"/>scientes virtutem eius reprobauerunt edificantes 
+      <lb ed="#P" n="92"/>synagage principes et doctores qui eum edificare 
+      <lb ed="#P" n="93"/>debuerunt et sic ab edificio corporis ecclesie 
+      defece<lb ed="#P" n="94" break="no"/>runt tanquam illi qui erant per istum lapidem 
+      conquas<lb ed="#P" n="95" break="no"/>sandi cadendo super eos et qui fuit eis lapis 
+      offen<lb ed="#P" n="96" break="no"/>sionis et petra scandali. propter quod etiam 
+      dice<lb ed="#P" n="97" break="no"/>bat eis predictum verbum etc. De hoc lapide nos 
+      <lb ed="#P" n="98"/>idmonet Apostolus petrus. Ad quem inquit 
+      acce<lb ed="#P" n="99" break="no"/>dentes lapidem viuum ab hominibus quidem 
+      re<lb ed="#P" n="100" break="no"/>probatum a deo christo electum et honorificatum: 
+      <lb ed="#P" n="101"/>etc. Lapis namque viuus est iste. Nam iste est lapis 
+      <lb ed="#P" n="102"/>quo deiectus est gigas ille Golias princeps 
+      mor<lb ed="#P" n="103" break="no"/>tis quo infixo in fronte eius cecidit mortuus super 
+      <lb ed="#P" n="104"/>terram est lapis electus et a deo honorificatus quia 
+      <lb ed="#P" n="105"/>est lapis solidus lapis politus et lapis insculptus: 
+      <lb ed="#P" n="106"/>piuinitas enim in ipso sculpta est in materia 
+      nostre<lb ed="#P" n="107" break="no"/>pumanitatis.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e371">
+      ¶ Secundo probatur eius presiden 
+      <lb ed="#P" n="108"/>tia vel preeminentia ex officio excessiuo: quia 
+      con<lb ed="#P" n="109" break="no"/>titutus est in caput anguli. Ecclesia namque quasi 
+      <lb ed="#P" n="110"/>quidam angulus in quo secundum duas lineas 
+      re<lb ed="#P" n="111" break="no"/>ctas concurrerunt a principio iudei et gentiles ad 
+      <lb ed="#P" n="112"/>christum conuersi. In caput ergo huius anguli 
+      fa<lb ed="#P" n="113" break="no"/>ctus est christus tanquam pastor et princeps ecclesie in 
+      <lb ed="#P" n="114"/>quo iudei et gentiles quasi ediuerso parietes vnirem 
+      <lb ed="#P" n="115"/>tur. Unde lapis angularis discrete nominatur 
+      si<lb ed="#P" n="116" break="no"/>cut de ipso canit ecclesia. Angularis 
+      fundamen<lb ed="#P" n="117" break="no"/>tum lapis Christus missus est qui compage 
+      pa<lb ed="#P" n="118" break="no"/>rietis in vtroque nectitur et cetera. Et ipso summo 
+      <!--11.xml-->
+      <pb ed="#P" n="1-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>angulari lapide christo iesu et cetera propter quod 
+      <lb ed="#P" n="2"/>sibi dicitur. Constituet te dominus deus tuus in 
+      c<lb ed="#P" n="3" break="no"/>put et non in caudam et eris supra et non subter 
+      et<lb ed="#P" n="4" break="no"/>ipsemet de seipso dicit. Constituet me inquit in 
+      ca<lb ed="#P" n="5" break="no"/>put gentium. Factus est ergo in caput sed in 
+      ca<lb ed="#P" n="6" break="no"/>put anguli: quia ex ipso angulus et ex ipso 
+      paxil<lb ed="#P" n="7" break="no"/>lus et ex ipso arcus prelii. Ex ipso angulus 
+      secre<lb ed="#P" n="8" break="no"/>torum ex ipso paxillus infirmorum: et ex ipso 
+      ar<lb ed="#P" n="9" break="no"/>cus prelii robustorum. Iste est angulus legis 
+      chri<lb ed="#P" n="10" break="no"/>stiane cuius misteria abscondita sunt ab oculis 
+      <lb ed="#P" n="11"/>aliorum de quo dictum est quod melius est sedere 
+      il<lb ed="#P" n="12" break="no"/>angulo dogmatis quam cum muliere litigiosa cum 
+      qua<lb ed="#P" n="13" break="no"/>cunque alia secta vel doctrina et in domo communi 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e432">
+               <lb ed="#P" n="14"/>¶ Tertio probatur eius preeminentia ex subsidio 
+      <lb ed="#P" n="15"/>promotiuo a quo promotus est christus in tantam 
+      di<lb ed="#P" n="16" break="no"/>gnitatem. A domino factum est istud. A quo enim 
+      po<lb ed="#P" n="17" break="no"/>tuisset hoc fieri nisi a domino a deo patre et beata 
+      trin<lb ed="#P" n="18" break="no"/>tate: a nullo propter quod dicit dominus pater domino meo filio 
+      <lb ed="#P" n="19"/>suo. Sede a dextris meis etc. Sicut Apostolus ad 
+      <lb ed="#P" n="20"/>Ephesios 1 Operatus est in christo suscitans 
+      eu<lb ed="#P" n="21" break="no"/>a mortuis et constituens ad dexteram suam in celestibus 
+      su<lb ed="#P" n="22" break="no"/>pra omnem principatum et potestatem et dominationem et 
+      <lb ed="#P" n="23"/>virtutem et omne quod nominatur non solum in hoc seculo 
+      <lb ed="#P" n="24"/>sed etiam in futuro. A domino ergo summe scientie sum 
+      <lb ed="#P" n="25"/>me potentie summe iusticie summe clementie: hoc est 
+      <lb ed="#P" n="26"/>bonum subsidium. Uideamus hoc verbum quod factum est 
+      <lb ed="#P" n="27"/>quod fecit dominus et ostendit nobis.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e465">
+      ¶ Quarto ostenditur 
+      <lb ed="#P" n="28"/>eius preeminentia ex prodigio: quia mirabile in oculis 
+      <lb ed="#P" n="29"/>nostris. Nonne in christo sunt mirabilia in oculis 
+      fi<lb ed="#P" n="30" break="no"/>delium: Nonne ipse est totus mirabilis et facies eius 
+      <lb ed="#P" n="31"/>plena est gratiarum: Quis sufficit cogitare ista 
+      mi<lb ed="#P" n="32" break="no"/>rabilia quis ea valeat explicare: Nonne mirabile 
+      <lb ed="#P" n="33"/>est quod de isto facto conuenerunt et deus et homo 
+      ma<lb ed="#P" n="34" break="no"/>ter et virgo quod de ipso conuenerunt fides et ratio: quod 
+      su<lb ed="#P" n="35" break="no"/>premum vniatur infimo immensum minimo: quod eternum 
+      <lb ed="#P" n="36"/>vltimo vt sit simul christus alpha et o. Istud est 
+      mi<lb ed="#P" n="37" break="no"/>rabile excedens facultatem ingenii philosophorun 
+      <lb ed="#P" n="38"/>immo et omnium theologorum mirabile quod multi non 
+      pos<lb ed="#P" n="39" break="no"/>sunt credere cum narratur eis et tamen mirabile est in ocu 
+      <lb ed="#P" n="40"/>lis nostris qui fideles sumus. Reuela ergo deus ocu 
+      <lb ed="#P" n="41"/>los meos et considerabo mirabilia tu es enim qui faci 
+      <lb ed="#P" n="42"/>mirabilia solus. propter quod optime dicebat ille 
+      ce<lb ed="#P" n="43" break="no"/>cus illuminatus de christo. In hoc mirabile est: quia 
+      <lb ed="#P" n="44"/>nescitis vnde sit et aperuit michi oculos. Mirabile 
+      <lb ed="#P" n="45"/>est quod ignorant iudei et alii infideles christum mirabilen 
+      <lb ed="#P" n="46"/>qui aperit et promptus est aperire oculos cuiuslibet 
+      <lb ed="#P" n="47"/>conuersi ad ipsum tanquam caput regitiuum oculorum 
+      <lb ed="#P" n="48"/>mentis nostre.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e513">
+      ¶ Dicitur ergo primo ipse est caput. 
+      Ca<lb ed="#P" n="49" break="no"/>put inquam tyara pontificali decoratum. Pones tvaram 
+      <lb ed="#P" n="50"/>in capite aaron caput corona imperiali venustatum 
+      <lb ed="#P" n="51"/>Posuisti in capite eius coronam de lapide precioso 
+      <lb ed="#P" n="52"/>In capite eius corona stellarum duodecim. 
+      Capun<lb ed="#P" n="53" break="no"/>gratia spirituali impinguatum et consecratum: quia 
+      bene<lb ed="#P" n="54" break="no"/>dictio eius qui apparuit in rubo super caput vel vel 
+      <lb ed="#P" n="55"/>ticem namarei eius: vel impinguasti in oleo caput meum. 
+      <lb ed="#P" n="56"/>Caput etiam de torrente hoc mundiali subleuatum et 
+      ele<lb ed="#P" n="57" break="no"/>uatum. De torrente in via bibit propterea exaltauit 
+      <lb ed="#P" n="58"/>caput. Hec de primo 
+      principali<lb ed="#P" n="59" break="no"/>secundum principale in quo christus 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e539">
+               <lb ed="#P" n="60"/>¶ Sequitui describitur quantum ad 
+      nexun<lb ed="#P" n="61" break="no"/>amicitie fraternalis vel specialis cum dicitur corporis 
+      <lb ed="#P" n="62"/>ecclesie. Est enim nexus huius corporis. Nam sicut in 
+      ca<lb ed="#P" n="63" break="no"/>pite connectuntur menbra et ab ipso continetur corpus 
+      <lb ed="#P" n="64"/>sic recte corpus ecclesie in christo et a christo propter quod 
+      <lb ed="#P" n="65"/>de ipso dicit apostolus ad Ephesios 1 quod deus de¬ 
+      <!--11.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>dit ipsum caput super omnem ecclesiam que est corpus eius 
+      <lb ed="#P" n="67"/>Et ad Collocenses. 2. subdit. Ex quo totum corpus 
+      <lb ed="#P" n="68"/>per nexus et coniunctiones subministratum et 
+      constru<lb ed="#P" n="69" break="no"/>ctum crescit in augmentum dei.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e568">
+      ¶ Ubi tanguntur 
+      <lb ed="#P" n="70"/>quatuor que ostendunt vel probant nexum sue 
+      ami<lb ed="#P" n="71" break="no"/>citie fraternalis liberalis quam habet ad nos 
+      ex<lb ed="#P" n="72" break="no"/>sua incarnatione: habet enim ad nos amicitiam et 
+      <lb ed="#P" n="73"/>in nobis complacentiam tanquam noster superior: quia 
+      <lb ed="#P" n="74"/>ipsum dedit deus caput supra omnem ecclesiam: quia 
+      <lb ed="#P" n="75"/>nobis proximior cognatione quia ecclesia est corpus 
+      <lb ed="#P" n="76"/>eius quia nobis intimior affectione ex quo totum 
+      <lb ed="#P" n="77"/>corpus per nexus et iuncturas et coniunctiones 
+      sub<lb ed="#P" n="78" break="no"/>ministratum et constructum crescit in augmentum 
+      <lb ed="#P" n="79"/>dei etc. Quarto quia nobis fecundior donatione: 
+      <lb ed="#P" n="80"/>quia ecclesia crescit in ipso in augmentum dei. Est 
+      <lb ed="#P" n="81"/>ergo nobis prelatione superior et non prelatus 
+      equi<lb ed="#P" n="82" break="no"/>uocus vel analogus sicut prius ante suam 
+      incarna<lb ed="#P" n="83" break="no"/>tionem sed prelatus vniuocus de gente nostra et de 
+      <lb ed="#P" n="84"/>fratribus nostris suscitatus vniuoce homo nobiscum 
+      <lb ed="#P" n="85"/>non tantum deus et communis prelatus supra omnem 
+      <lb ed="#P" n="86"/>ecclesiam id est supra totam ecclesiam fidelium suo 
+      <lb ed="#P" n="87"/>rum quorumcunque. Caput te constitui in tribubus israel 
+      <lb ed="#P" n="88"/>in tribubus israel factus es de quibus dicitur quod 
+      Sa<lb ed="#P" n="89" break="no"/>lomon benedixit omni ecclesie israel et significat 
+      <lb ed="#P" n="90"/>christum vere pacificum qui toti ecclesie israel fide 
+      <lb ed="#P" n="91"/>lium tanquam prelatus benedicit.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e619">
+      ¶ Secundo dico quod 
+      <lb ed="#P" n="92"/>probatur eius amicitia quia est nobis cognatione 
+      <lb ed="#P" n="93"/>proximior: quia nos sumus corpus eius et vnum 
+      cor<lb ed="#P" n="94" break="no"/>pus in ipso prius enim non attinebat nobis 
+      corpo<lb ed="#P" n="95" break="no"/>raliter sed in ista incarnatione benedicta factus est 
+      <lb ed="#P" n="96"/>de cognatione nostra. Caro enim et frater noster est. 
+      <lb ed="#P" n="97"/>Est ergo ecclesia corpus eius: quia corpus 
+      constitu<lb ed="#P" n="98" break="no"/>tum ex membris eius fidelibus suis corpus inquam ab 
+      <lb ed="#P" n="99"/>ipso vegetatum augmentatum ab ipso / gubernatum 
+      <lb ed="#P" n="100"/>ab ipso: et ab ipso congregatum de quo corpore 
+      di<lb ed="#P" n="101" break="no"/>cebat apostolus. Adimpleo ea que desunt passionum 
+      <lb ed="#P" n="102"/>christi in carne mea procorpore eius quod est ecclesia 
+      <lb ed="#P" n="103"/>ad Ephe. 5. Menbra sumus corporis eius de 
+      carne<lb ed="#P" n="104" break="no"/>eius et de ossibus eius.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e650">
+      ¶ Tertio probatur eius 
+      ami<lb ed="#P" n="105" break="no"/>citia quia nobis intimior affectione quia corpus istud  
+      <lb ed="#P" n="106"/>ab ipso vel per ipsum per nexus et coniunctiones 
+      <lb ed="#P" n="107"/>subministratur. Ipse enim intimus nexus huius cor 
+      <lb ed="#P" n="108"/>poris: quia in funiculis Adam et in vinculis 
+      carita<lb ed="#P" n="109" break="no"/>tis traxit et trahit et vnit membra huius corporis. 
+      <lb ed="#P" n="110"/>propter nimiam caritatem suam qua dilexit nos deus 
+      <lb ed="#P" n="111"/>Datus est ergo nobis membrum huius corporis im 
+      <lb ed="#P" n="112"/>vinculum inglutiuum et in nodulum amoris 
+      indis<lb ed="#P" n="113" break="no"/>solubilem. propter quod dicit Apostolus ad 
+      Ephe<lb ed="#P" n="114" break="no"/>sios quarto. Ueritatem facientes crescamus in 
+      il<lb ed="#P" n="115" break="no"/>lo per omnia qui est caput christus ex quo totum cor 
+      <lb ed="#P" n="116"/>pus comparatum et connexum per omnem 
+      iunctu<lb ed="#P" n="117" break="no"/>ram subministrationis secundum operationem in 
+      mensu<lb ed="#P" n="118" break="no"/>ram vniuscuiusque membri augmentum facit in 
+      edi<lb ed="#P" n="119" break="no"/>ficationem sui in caritate.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e685">
+      ¶ Quarto probatur eius 
+      <lb ed="#P" n="120"/>complacentia et amicitia ad nos: quia nobis 
+      fecun<lb ed="#P" n="121" break="no"/>dior donatione crescimus enim in augmentum dei 
+      <lb ed="#P" n="122"/>Nam ante incarnationem non habundabant 
+      dona<lb ed="#P" n="123" break="no"/>virtutum et etiam gratiarum sicut post. Erant enim 
+      <lb ed="#P" n="124"/>ante incarnationem dona ista modica et rara: sed 
+      mo<lb ed="#P" n="125" break="no"/>do sunt augmentata et intensiue et extensiue: quia 
+      <lb ed="#P" n="126"/>magna et multa. Unde datus est nobis in cumulum 
+      <lb ed="#P" n="127"/>et vasculum et loculum omnium gratiarum in aus 
+      <lb ed="#P" n="128"/>mentum dei et ad hoc potest accipi medietas vltima 
+      <lb ed="#P" n="129"/>auctoritatis premisse resecando eam a tertio mem 
+      <lb ed="#P" n="130"/>bro. Ipse est enim in quo omnis edificatio constructa 
+      <!--12.xml-->
+      <pb ed="#P" n="2-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>crescit in templum sanctum in domo: quia dictum est quod 
+      da<lb ed="#P" n="2" break="no"/>bit capiti tuo augmenta gratiarum. 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e722">
+               <lb ed="#P" n="3"/>¶ Sequitur tertium 
+      principa<lb ed="#P" n="4" break="no"/>le in quo christus filius dei pro nobis incarnatus 
+      <lb ed="#P" n="5"/>describitur quantum ad actum influentie virtualis. quia est 
+      <lb ed="#P" n="6"/>principium. Principium enim reale et causale 
+      habe<lb ed="#P" n="7" break="no"/>influere suo principiamento sicut christus. aut verbum 
+      <lb ed="#P" n="8"/>dei incarnatum est principium reale et causale nostrum 
+      <lb ed="#P" n="9"/>et corporis ecclesie quantum ad totale esse et fabrica 
+      <lb ed="#P" n="10"/>eius et non solum ecclesie sed totius creature propter 
+      <lb ed="#P" n="11"/>quod dicebat sibi pater in psal. Tecum principium in 
+      die<lb ed="#P" n="12" break="no"/>virtutis tue in splendoribus sanctorum ex vtero 
+      ante<lb ed="#P" n="13" break="no"/>luciferum genui te.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e748">
+      ¶ Ubi tanguntur quatuor communia qugo 
+      <lb ed="#P" n="14"/>habet cum patre eterno ratione quorum potest nobis 
+      in<lb ed="#P" n="15" break="no"/>fluere virtualiter sicut et ipse pater et sicut caput in 
+      <lb ed="#P" n="16"/>fluit menbris. habet enim cum patre eandem potestatem. 
+      <lb ed="#P" n="17"/>Tecum principium in dievirtutis tue ad influendum 
+      no<lb ed="#P" n="18" break="no"/>bis efficaciam in exercendo.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e761">
+      ¶ Secundo habet cum 
+      pa<lb ed="#P" n="19" break="no"/>tre eandem claritatem et veritatem. In splendoribus. 
+      <lb ed="#P" n="20"/>sanctorum ad influendum refulgentiam vel sapientiam in 
+      <lb ed="#P" n="21"/>sentiendo.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e771">
+      ¶ Tertio habet cum patre eandem 
+      quiddi<lb ed="#P" n="22" break="no"/>tatem vel entitatem. Ex vtero genui te id est de mea 
+      <lb ed="#P" n="23"/>substantia ad influendum permanentiam in subsistendo 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e778">
+               <lb ed="#P" n="24"/>¶ Quarto habet cum patre eandem primitatem / ante 
+      <lb ed="#P" n="25"/>luciferum ad influendum confidentiam de consequendo 
+      <lb ed="#P" n="26"/>vel excellentiam in extollendo.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e787">
+      ¶ De primo nota quod 
+      <lb ed="#P" n="27"/>bene dicit. Tecum principium quia pater et filius 
+      simu<lb ed="#P" n="28" break="no"/>sunt vnum et idem principium et respectu spiritus san 
+      <lb ed="#P" n="29"/>cti et respectu creature sed in die virtutis tue: quia ea 
+      <lb ed="#P" n="30"/>dem est virtus vtriusque et ita sicut pater in die 
+      virtu<lb ed="#P" n="31" break="no"/>tis sue: quia in sua eternitate genuit filium ita in die vit 
+      <lb ed="#P" n="32"/>tutis filii. Ipse enim christus est dei patris virtus. 
+      <lb ed="#P" n="33"/>Nos predicamus christum dei virtutem propter quod 
+      sib<lb ed="#P" n="34" break="no"/>conuenit esse principium sicut ipse dicit. Io. 8. Si non 
+      <lb ed="#P" n="35"/>credideritis quia ego sum moriemini in peccato 
+      vestro<lb ed="#P" n="36" break="no"/>dicebant ergo ei tu quis es. Dicit eis Iesus principiu 
+      <lb ed="#P" n="37"/>qui et loquor eis principium christe principium.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e813">
+      ¶ 
+      De<lb ed="#P" n="38" break="no"/>secundo dico quod habet cum patre eandem claritatem que 
+      qui<lb ed="#P" n="39" break="no"/>dem claritas est splendor et gloria sanctorum in quo 
+      <lb ed="#P" n="40"/>splendere vident omnia et ipsum sicuti est. Unde et 
+      di<lb ed="#P" n="41" break="no"/>vine tres persone sunt quasi tres radii vel splendores 
+      <lb ed="#P" n="42"/>vel potius splendor triplex propter quod de christo 
+      di<lb ed="#P" n="43" break="no"/>cit quod est splendor glorie et figura substantie dei. Un 
+      <lb ed="#P" n="44"/>de et sibi dictum est quod ambulabunt gentes in lumine 
+      <lb ed="#P" n="45"/>tuo et reges in splendore ortus tui.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e833">
+      ¶ De tertio 
+      di<lb ed="#P" n="46" break="no"/>co quod habet cum patre eandem entitatem vel essentiam: quod 
+      <lb ed="#P" n="47"/>de sua substantia impartita indiuisa et vnica genuit 
+      <lb ed="#P" n="48"/>eum deus pater sicut dictum est in primo: sed eundem 
+      ge<lb ed="#P" n="49" break="no"/>nuit mater ex vtero suo propter quod dicit patur. Si 
+      ego<lb ed="#P" n="50" break="no"/>qui generationem ceteris tribuo ipse sterilis ero qua 
+      <lb ed="#P" n="51"/>si diceret non: sed sicut dicit scriptura. Ex vtero tuo 
+      <lb ed="#P" n="52"/>ipsum habebis heredem. Ideo ergo in te confirmatus 
+      <lb ed="#P" n="53"/>sum ex vtero potest dicere quilibet nostrum: quia ipse dat 
+      <lb ed="#P" n="54"/>nobis permanentiam essendi.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e855">
+      ¶ De quarto dico quod 
+      <lb ed="#P" n="55"/>habet cum patre eandem primitatem: quia ante luciferum et 
+      <lb ed="#P" n="56"/>primogenita ante omnem creaturam quia antequam quicquam 
+      <lb ed="#P" n="57"/>faceret a principio etc. Unde et lucifero improperat. 
+      <lb ed="#P" n="58"/>Quomodo cecidisti de celo lucifer qui mane orie 
+      <lb ed="#P" n="59"/>baris. Non sic sperantes in christo cadent / non. sed cum 
+      <lb ed="#P" n="60"/>se consumptos putauerint orientur vt lucifer. 
+      Nun<lb ed="#P" n="61" break="no"/>quid ergo dicit christus. Producis luciferum in tempore 
+      <lb ed="#P" n="62"/>suo: quasi diceret non: sed ego producam: et ideo 
+      opor<lb ed="#P" n="63" break="no"/>tet quod sint ante luciferum.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e878">
+      ¶ Hec de tertio in quo 
+      no<lb ed="#P" n="64" break="no"/>tatur eius influentia virtualis cum dicitur quod est princi¬ 
+      <!--12.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>pium et vere est principium logicum in dirigendo principium 
+      <lb ed="#P" n="66"/>phisicum in producendo principium practicum in 
+      operan<lb ed="#P" n="67" break="no"/>do principium speculatiuum in illustrando etc. propter 
+      <lb ed="#P" n="68"/>quod tangitur sua influentia virtualis. 
+      <lb ed="#P" n="69"/>vbi describit 
+      </p>
+            <p xml:id="qrdBas-c1e3cc-d1e898">
+               <lb ed="#P" n="70"/>¶ Sequitur quartum quantum ad 
+      fru<lb ed="#P" n="71" break="no"/>ctum sue patientie triumphalis quam habuit pro nobis 
+      <lb ed="#P" n="72"/>substinens patienter mortem pro nobis in cruce propter 
+      <lb ed="#P" n="73"/>quod recte dicitur primogenitus ex mortuis. 
+      Primogen<lb ed="#P" n="74" break="no"/>tus ex mortuis vocatur recte christus: quia ipse est cuius 
+      <lb ed="#P" n="75"/>merito alii ex mortuis suscitantur. Propter quod 
+      deu<lb ed="#P" n="76" break="no"/>ipso dicit Apostolus Io. Apo I. ca. Qui est testis 
+      <lb ed="#P" n="77"/>fidelis primogenitus mortuorum et princeps regun 
+      <lb ed="#P" n="78"/>terre qui dilexit nos et lauit nos a peccatis nostris 
+      <lb ed="#P" n="79"/>in sangvine suo et fecit nos regnum et sacerdotes deo 
+      <lb ed="#P" n="80"/>et patri.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e924">
+      ¶ Ubi describitur quadruplex fructus 
+      pa<lb ed="#P" n="81" break="no"/>tientie triumphalis christi propter quam dicitur 
+      primo<lb ed="#P" n="82" break="no"/>genitus ex mortuis.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e931">
+      ¶ Primus fructus est 
+      confir<lb ed="#P" n="83" break="no"/>matio credendorum: quia ipse est testis fidelis eorum quae 
+      <lb ed="#P" n="84"/>debemus tenere per fidem. Unde et fidelitas sui testi 
+      <lb ed="#P" n="85"/>monii patuit quia ad confirmandum testimonium noue 
+      le<lb ed="#P" n="86" break="no"/>gir mortuus est et passus. Testimonium ergo domini fidele 
+      <lb ed="#P" n="87"/>sapientiam prestans paruulis. Testimonia ergo tua 
+      do<lb ed="#P" n="88" break="no"/>mine iesu christe credibilia facta nimis: quia fuerunt 
+      <lb ed="#P" n="89"/>testimonia figurarum signaculis designata 
+      propheta<lb ed="#P" n="90" break="no"/>rum oraculis nunciata et proclamata gratiarum 
+      mira<lb ed="#P" n="91" break="no"/>culis comprobata.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e953">
+      ¶ Tertius fructus est 
+      suscita<lb ed="#P" n="92" break="no"/>tio defunctorum: quia per mortem suam conuiuificauit nos 
+      <lb ed="#P" n="93"/>deo: sed non curo modo sed accipio alium qui fuit / sub 
+      <lb ed="#P" n="94"/>iugatio omni mundanorum et principium terrenorum 
+      <lb ed="#P" n="95"/>Princeps regum terre. Per mortem enim suam meruit 
+      <lb ed="#P" n="96"/>christus sibi mundanum imperium et omne terrenum 
+      <lb ed="#P" n="97"/>dominium subiugari et ecclesie christi sicut ad litteram 
+      <lb ed="#P" n="98"/>fuit factum tempore Siluestri pape et ideo terribilis 
+      <lb ed="#P" n="99"/>est qui aufert spiritum principum terribilis apud 
+      re<lb ed="#P" n="100" break="no"/>ges terre.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e975">
+      ¶ Tertius fructus fuit et est expiatio de 
+      <lb ed="#P" n="101"/>lictorum et peccatorum. Qui dilexit nos et lauit nos 
+      <lb ed="#P" n="102"/>a pctins nostris in sangvine suo. O quale lauachrum 
+      <lb ed="#P" n="103"/>in lixiuio sanguinis christi quem effundit in nos habun 
+      <lb ed="#P" n="104"/>de dilexit nos. Non enim taliter fecit omni nationi: 
+      <lb ed="#P" n="105"/>quia nationi angelorum non fecit sic. Noluit eos 
+      redi<lb ed="#P" n="106" break="no"/>mere sangvine suo precioso. Hec fuit probatica 
+      pi<lb ed="#P" n="107" break="no"/>scina extra hierusalem in quam quicunque ingrederetur 
+      <lb ed="#P" n="108"/>saluus fieret a quacumque detineretur infirmitate 
+      ha<lb ed="#P" n="109" break="no"/>bens quinque porticus quinque vulnerum christi notabi 
+      <lb ed="#P" n="110"/>lium quibus effluxit ille sanguis christi benedictus 
+      <lb ed="#P" n="111"/>Unde et omnes christiani lauarunt stolas suas et deatu 
+      <lb ed="#P" n="112"/>bauerunt eas in sanguine agni. Agni inquam 
+      inconta<lb ed="#P" n="113" break="no"/>minati et immaculati christi iesu.
+    </p>
+            <p xml:id="qrdBas-c1e3cc-d1e1007">
+      ¶ Quartus 
+      fru<lb ed="#P" n="114" break="no"/>ctus est consequutio eternorum vel premiorum et fecit nos 
+      <lb ed="#P" n="115"/>regnum et sacerdotes. Sicut enim christus est rex et 
+      sa<lb ed="#P" n="116" break="no"/>cerdos sic merito sue triumphalis patientie facit 
+      fi<lb ed="#P" n="117" break="no"/>deles suos reges in celesti regno et sacerdotes in 
+      ce<lb ed="#P" n="118" break="no"/>lesti templo ipsis dicitur. Uos estis genus electum non abie 
+      <lb ed="#P" n="119"/>ctum regale sacerdotium non seruile gens sancta non fe 
+      <lb ed="#P" n="120"/>da populus adquisitionis non perditionis sicut 
+      ante<lb ed="#P" n="121" break="no"/>passionem christi. Ut virtutes annuncietis eius qui de 
+      <lb ed="#P" n="122"/>tenebris peccatorum vocauit vos in admirabile 
+      lu<lb ed="#P" n="123" break="no"/>men eternorum scilicet gaudiorum et premiorum. Ideo in 
+      fi<lb ed="#P" n="124" break="no"/>ne illius auctoritatis Apocalipsis I subiungitur 
+      ips<lb ed="#P" n="125" break="no"/>gloria et imperium in secula seculorum. Amen¬ 
+    </p>
+         </div>
+      </body>
+   </text>
+</TEI>
