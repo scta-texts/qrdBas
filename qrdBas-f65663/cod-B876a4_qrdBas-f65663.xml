@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="109-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f65663"><!--l4d27-29q1 -->
+            <head xml:id="qrdBas-f65663-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f65663-d1e101">
+               <lb ed="#P" n="108"/>¶ Distin. xx vii. xx viii. et. xxix. 
+      <lb ed="#P" n="109"/>Questio Unica.
+    </p>
+            <p xml:id="qrdBas-f65663-d1e108">
+               <lb ed="#P" n="110"/>CIrca distinctiones 
+      <lb ed="#P" n="111"/>ex vii. xx viii. et. xxix. scilibet 
+      que<lb ed="#P" n="112" break="no"/>to Utrum consensus 
+      expres<lb ed="#P" n="113" break="no"/>sus per verba de presenti non 
+      <lb ed="#P" n="114"/>coactus et sequens 
+      apprehen<lb ed="#P" n="115" break="no"/>tionem veram non 
+      errone<lb ed="#P" n="116" break="no"/>am causet matrimonium 
+      inter<lb ed="#P" n="117" break="no"/>personas legitimas.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e128">
+      ¶ Uide 
+      <lb ed="#P" n="118"/>tur quod non requiratur verus 
+      con<lb ed="#P" n="119" break="no"/>sensus mutuus expressus per verba de 
+      presenti<lb ed="#P" n="120" break="no"/>Primo quod non requiratur consensus. 
+      contrahen<lb ed="#P" n="121" break="no"/>tium. quia parentes possunt contrahere pro filiis 
+      <lb ed="#P" n="122"/>etiam absentibus. Similiter quod non oporteat 
+      con<lb ed="#P" n="123" break="no"/>ensum exprimi per verba de praesenti. quia consensus 
+      <!--215.xml-->
+      <pb ed="#P" n="109-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>expressus per verba de futuro cum carnali 
+      copu<lb ed="#P" n="2" break="no"/>la sequente sufficiunt ad matrimonium: et matrimo 
+      <lb ed="#P" n="3"/>nium per talem copulam consummatur: nec possunt 
+      <lb ed="#P" n="4"/>separari. etc.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e159">
+      ¶ Secundo videtur quod consensus coactus 
+      <lb ed="#P" n="5"/>metu cadente in constantem virum causet matrimonium: 
+      <lb ed="#P" n="6"/>nec oporteat consensum esse liberum. quia vbi constans 
+      <lb ed="#P" n="7"/>qui inducitur vel cogitur per metum ad dicendum 
+      <lb ed="#P" n="8"/>verba: accipio te in meam: aut dicit verum. et sic vel 
+      <lb ed="#P" n="9"/>re consentit sicut dicit et in verum matrimonium. 
+      Au<lb ed="#P" n="10" break="no"/>non consentit: sicut dicit. et tunc mentitur et 
+      perni<lb ed="#P" n="11" break="no"/>ciose mentitur. et sic grauiter peccat. et per cosequens 
+      <lb ed="#P" n="12"/>non est vir constans. pauet enim non secundum quod 
+      <lb ed="#P" n="13"/>pauendum est. ergo etc. Et confirmatur. quia aliquia 
+      <lb ed="#P" n="14"/>potest vere suscipere baptismum inductus per me 
+      <lb ed="#P" n="15"/>tum timore penarum. Extra de baptismo et eius 
+      <lb ed="#P" n="16"/>effectu maiores. Et similiter digestis de dispensa 
+      <lb ed="#P" n="17"/>tione impuberum dicitur quod pater potest cogere 
+      fi<lb ed="#P" n="18" break="no"/>lium quantumcunque inuitum ad matrimonium: et filius 
+      <lb ed="#P" n="19"/>tenetur sibi obedire ad seruandum pomissum patris 
+      <lb ed="#P" n="20"/>si prius contraxerit pro eo.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e197">
+      ¶ Tertio videtur quod con 
+      <lb ed="#P" n="21"/>sensus erroneus impediat: sed sufficiat ad 
+      matri<lb ed="#P" n="22" break="no"/>monium. Tum quia inter Iacob et lyam fuit verum 
+      <lb ed="#P" n="23"/>matrimonium. et tamen lya fuit ei supposita eo igno 
+      <lb ed="#P" n="24"/>rante. Et confirmatur quia errans circa personam 
+      <lb ed="#P" n="25"/>baptisatam siue sit seruus siue sit liber vere bapti 
+      <lb ed="#P" n="26"/>sat. ergo similiter aliquis errans circa personam vere contrahit 
+      <lb ed="#P" n="27"/>primum magister in littera dicit: quod 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e215">
+               <lb ed="#P" n="28"/>¶ Contra requiritur consensus expressus 
+      <lb ed="#P" n="29"/>per verba de praesenti.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e222">
+      ¶ Contra secundum etiam est 
+      magi<lb ed="#P" n="30" break="no"/>ster in littera qui ponit: quod consensus coactus 
+      impe<lb ed="#P" n="31" break="no"/>dit matrmonium. et adducit multas auctoritates  
+      </p>
+            <p xml:id="qrdBas-f65663-d1e229">
+               <lb ed="#P" n="32"/>¶ Contra tertium etiam est magister in littera et 
+      ha<lb ed="#P" n="33" break="no"/>betur in canone. xxix. q. secunda. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e236">
+               <lb ed="#P" n="34"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e241">
+               <lb ed="#P" n="35"/>¶ Primo inquiram vtrum ad contractum matrimonum 
+      <lb ed="#P" n="36"/>vel ad matrimonium requiraturmutuus 
+      consens<lb ed="#P" n="37" break="no"/>expressus per verba de praesenti tanquam causa.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e251">
+      ¶ 
+      Secun<lb ed="#P" n="38" break="no"/>do vtrum requiratur consensus liber non coactus 
+      <lb ed="#P" n="39"/>et an coactio impediat.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e258">
+      ¶ Tertio an requiratur 
+      <lb ed="#P" n="40"/>consensus non erroneus sed sequens apprehensionem 
+      <lb ed="#P" n="41"/>veram et quomodo error impediat. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e265">
+               <lb ed="#P" n="42"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="43" break="no"/>culum dico quod aliud est loqui de contractu matrimo 
+      <lb ed="#P" n="44"/>nii: aliud est loqui de sacramento matrimonii. loquen 
+      <lb ed="#P" n="45"/>do de contractu matrimonii dico: quod requiritur 
+      mu<lb ed="#P" n="46" break="no"/>tuus consensus expressus per aliqua signa certa: qui 
+      <lb ed="#P" n="47"/>bus constet de consensu interiori mentis eo modo 
+      <lb ed="#P" n="48"/>quo constare potest de mente hominis per signa 
+      ex<lb ed="#P" n="49" break="no"/>teriora. et signa dico de praesenti consensu: non 
+      signa<lb ed="#P" n="50" break="no"/>pronostica de futuro vel recordatiua de praeterito. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e287">
+               <lb ed="#P" n="51"/>¶ Quod autem requiratur consus et de praesenti: patet 
+      <lb ed="#P" n="52"/>quia contractus matrimonii: sicut dictum est in que 
+      <lb ed="#P" n="53"/>stione praecedenti: est donatio quedam vel tranflatio 
+      <lb ed="#P" n="54"/>voluntaria potestatis corporis sui in alium vel 
+      ali<lb ed="#P" n="55" break="no"/>am personam. non autem transfertur talis potestas 
+      <lb ed="#P" n="56"/>in alium: nec fit talis donatio: nisi consentiat ipse 
+      <lb ed="#P" n="57"/>donans: et praesentialiter consentiat. Aliud enim est 
+      <lb ed="#P" n="58"/>promittere de futuro: et aliud dare: nec vnum 
+      po<lb ed="#P" n="59" break="no"/>test esse aliud. dare enim est de presenti.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e309">
+      ¶ Sed quod 
+      <lb ed="#P" n="60"/>requiratur mutuus consensus. patet. quia 
+      contrahe<lb ed="#P" n="61" break="no"/>re matrimonium est contrahere obligationem et 
+      res<lb ed="#P" n="62" break="no"/>pectum equiparantie in vtroque extremo. Matrimo 
+      <lb ed="#P" n="63"/>nium enim claudicare non potest. et sicut requiri¬ 
+      <!--215.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>tur consensus in vno coniugum: vt in alium 
+      trans<lb ed="#P" n="65" break="no"/>ferat potestatem corporis sui: ita et in alio 
+      econuer<lb ed="#P" n="66" break="no"/>so.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e331">
+      ¶ Sed quod sit consensus expressus per signa aliqua 
+      <lb ed="#P" n="67"/>et de presenti: oportet quia alioquin non potest 
+      fie<lb ed="#P" n="68" break="no"/>ri contratus sicut patet etiam in aliis contractibus 
+      <lb ed="#P" n="69"/>Non enim solus consensus sufficit ad contractum 
+      <lb ed="#P" n="70"/>inter homines: quod sit interius latens. sed oportet quod 
+      <lb ed="#P" n="71"/>in signo aliquo sensibili fiat exterius patens. quia hoc 
+      <lb ed="#P" n="72"/>mo videt ea que patent. deus autem intuetur cor. 
+      <lb ed="#P" n="73"/>dicitur primo regum.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e350">
+      ¶ Sed vltimo quantum ad 
+      <lb ed="#P" n="74"/>hoc dico quod non oportet quod talia signa sint verbam 
+      <lb ed="#P" n="75"/>ned possunt esse alia quecuque signa exprimentia sut 
+      <lb ed="#P" n="76"/>ficienter consensum talem mutuum ipsarum 
+      per<lb ed="#P" n="77" break="no"/>sonarum. Unde potest matrimonium 
+      contra<lb ed="#P" n="78" break="no"/>hi per litteras vel per alia signa inter mutuos. 
+      <lb ed="#P" n="79"/>vnde et in aliis contractibus videmus: quod firmius 
+      <lb ed="#P" n="80"/>fiunt per alia signa multa quam per verba sola et nuda. 
+      <lb ed="#P" n="81"/>Puto etiam quod ad contractum matrimonii non 
+      opor<lb ed="#P" n="82" break="no"/>teat verba ipsa exprimi vel signa dari vel fieri a 
+      cem<lb ed="#P" n="83" break="no"/>tractibus: sed possunt per alios exhiberi: qui in hoc 
+      <lb ed="#P" n="84"/>possunt esse ministri contractus talis: 
+      consentien<lb ed="#P" n="85" break="no"/>tibus tamen vel non contradicentibus ipsis contra 
+      <lb ed="#P" n="86"/>pentibus. hoc patet extra de sponsalibus: vbi dicit 
+      <lb ed="#P" n="87"/>glosa: quod si parentes contrahant pro filiis 
+      tacenti<lb ed="#P" n="88" break="no"/>bus et psentibus: sufficit expressio consensus 
+      pa<lb ed="#P" n="89" break="no"/>rentum.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e387">
+      ¶ Loquendo autem de sacramento matrimo 
+      <lb ed="#P" n="90"/>nii dico quod ad ipsum preexigitur vel requiritur verus 
+      <lb ed="#P" n="91"/>consensus mutuus sicut et contractus. quia non est 
+      <lb ed="#P" n="92"/>sine contractu.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e396">
+      ¶ Secundo dico sicut probabiliter 
+      <lb ed="#P" n="93"/>dicendum: quod oportet illum consensum exprimi per 
+      <lb ed="#P" n="94"/>verba de presenti. et non sufficit: nec pertinet ad 
+      sa<lb ed="#P" n="95" break="no"/>cramentum. quod per alia signa quecunque sint illa sine 
+      <lb ed="#P" n="96"/>verbis: quia sacramentum quodlibet noue legis in 
+      <lb ed="#P" n="97"/>suo fieri in aliquibus verbis consistit sicut 
+      videre<lb ed="#P" n="98" break="no"/>tur. et in talibus verbis exprimentibus consensun 
+      <lb ed="#P" n="99"/>de presenti consistit forma sacramenti. Persone 
+      au<lb ed="#P" n="100" break="no"/>tem contrahentes sunt materia. Si autem dicatur 
+      <lb ed="#P" n="101"/>quod in hoc sacramento non requiruntur verba: sed  
+      <lb ed="#P" n="102"/>sufficiunt alia signa efficacia de presenti tunc 
+      lati<lb ed="#P" n="103" break="no"/>tudinem magnam habet forma huius sacramenti 
+      <lb ed="#P" n="104"/>ad verba vel alia signa equipolentia exprimentia 
+      <lb ed="#P" n="105"/>consensum et translationem vel donationem mutuan 
+      <lb ed="#P" n="106"/>corporum de presenti. primum tamen videtur 
+      mi<lb ed="#P" n="107" break="no"/>hi probabilius.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e431">
+      ¶ Tertio dico: quod sicut videtur 
+      mi<lb ed="#P" n="108" break="no"/>hi probabilius: oportet quod illorum verborum de 
+      pre<lb ed="#P" n="109" break="no"/>senti ministri et prolatores sint ipsi contrahentes et 
+      <lb ed="#P" n="110"/>non alii a contrahentibus. Eiusdem enim quantum 
+      <lb ed="#P" n="111"/>ad rationem sacramentiest consentire et consensui 
+      <lb ed="#P" n="112"/>per verbum exprimere. quod patet ex ipsis verbis quae 
+      <lb ed="#P" n="113"/>comuniter in matrimoniis assumuntur accipio 
+      to<lb ed="#P" n="114" break="no"/>in meam accipio te in meum. que non possunt sic 
+      ab<lb ed="#P" n="115" break="no"/>solute proferri ab aliquo alio: sed solum a 
+      contra<lb ed="#P" n="116" break="no"/>hentibus. Unde et ipsi soli contrahentes sunt 
+      mini<lb ed="#P" n="117" break="no"/>stri. Ex quo etiam patet quod muti non possunt 
+      habe<lb ed="#P" n="118" break="no"/>re vel percipere sacramentum materimonii: sicut nec 
+      mini<lb ed="#P" n="119" break="no"/>strare supposito quod in verbis consistat forma: et quod a contrahenti 
+      <lb ed="#P" n="120"/>bus debent dici. patsest tamen contrahere per alia 
+      si<lb ed="#P" n="121" break="no"/>signa: sicut dictum est supra. Si autem forma non tan 
+      <lb ed="#P" n="122"/>tum sit in verbis: vel dato quod tantum in verbis: 
+      ta<lb ed="#P" n="123" break="no"/>nen non oportet quod illa verba dicantur a 
+      contrahen<lb ed="#P" n="124" break="no"/>tibus sicut nec de signis quod ab ipsis exhibeantur 
+      <lb ed="#P" n="125"/>sed sufficit: quod ab aliis: tunc alii possunt esse 
+      ministri<lb ed="#P" n="126" break="no"/>vel in proferendo verba pro contrahentibus: vel in 
+      ex<lb ed="#P" n="127" break="no"/>hibendo signa et muti etiam in exhibendo signa pro 
+      <lb ed="#P" n="128"/>seipsis. Nichil affirmo de hoc. dicatur sicut sanius est 
+      <!--216.xml-->
+      <pb ed="#P" n="109-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dicendum.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e488">
+      ¶ Quod etiam requirantur ad sacramentum 
+      <lb ed="#P" n="2"/>matrimonii verba vel signa de presenti: hoc patet 
+      <lb ed="#P" n="3"/>quia et ista requiruntur ad contractum sine quo non 
+      <lb ed="#P" n="4"/>est sacramentum. Et vide: quod consensus predictus sio 
+      <lb ed="#P" n="5"/>expressus aliquo modo dici potest causa 
+      matrimo<lb ed="#P" n="6" break="no"/>nii I. illius obligationis quia eo modo quo contra 
+      <lb ed="#P" n="7"/>ctus mutuus est causa obligationis mute inter 
+      con<lb ed="#P" n="8" break="no"/>trahentes quia ille consensus mutuus sic expressus 
+      <lb ed="#P" n="9"/>vel cum sua expressione est ipse contractus et potest 
+      <lb ed="#P" n="10"/>dici predictus consensus esse causa sacra menti quo 
+      <lb ed="#P" n="11"/>quo modo. quia consensus interior preexigitur ad  
+      <lb ed="#P" n="12"/>sacramentum vel necessario concomitatur ita quod sine 
+      ip<lb ed="#P" n="13" break="no"/>so non est sacramentum. ipsa autem expressio vocalis 
+      <lb ed="#P" n="14"/>ipsius consensus vel ipsa verba expressiua de 
+      praesen<lb ed="#P" n="15" break="no"/>ti sunt forma ipsius sacramenti: vt dictum est supra 
+      <lb ed="#P" n="16"/>verum est tamen: quod formatio actiua verborum est 
+      cau<lb ed="#P" n="17" break="no"/>sa actiua vel quasi verborum: et per consequens talis forme et 
+      <lb ed="#P" n="18"/>ipsius sacramenti. et ipsa magis pertinet ad contractum 
+      <lb ed="#P" n="19"/>forte quam ad sacramentum vel si ad sacramentum 
+      perti<lb ed="#P" n="20" break="no"/>neat: tunc ad vtrumque videtur pertinere: nec est 
+      incon<lb ed="#P" n="21" break="no"/>ueniens. Aliquid tamen pertinet ad contractum: quod non 
+      <lb ed="#P" n="22"/>ad sacramentum puta consensus interior. et aliquid 
+      econ<lb ed="#P" n="23" break="no"/>uerso ad sacramentum: quod non ad contractum et in 
+      ta<lb ed="#P" n="24" break="no"/>libus contractus matrimonum et sacramentum 
+      matri<lb ed="#P" n="25" break="no"/>monii distinguntur. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e543">
+               <lb ed="#P" n="26"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="27" break="no"/>ticulum est vna opinio que dicit: quod voluntas 
+      simpli<lb ed="#P" n="28" break="no"/>citer cogi non potest: nec aliquis quantum ad consensum 
+      <lb ed="#P" n="29"/>voluntatis et actum interiorem: sed potest cogi secundum quid quam 
+      <lb ed="#P" n="30"/>tum ad aliquem actum exteriorem per minas vel penas 
+      <lb ed="#P" n="31"/>vel per metum praecipue cadentem in constantem virum 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e560">
+               <lb ed="#P" n="32"/>¶ Et ideo dicit: quod ad consensum interiorem cogi non 
+      <lb ed="#P" n="33"/>potest: sed ad verba exterius dicenda vt euadat 
+      pe<lb ed="#P" n="34" break="no"/>nam vel penas sibi intentatas inducitur et cogitur ex me 
+      <lb ed="#P" n="35"/>tu. Et ideo aut dicendo verba illa habet consensum 
+      <lb ed="#P" n="36"/>interiorem: secundum quam cogi non potest. et tunc vere consentit 
+      <lb ed="#P" n="37"/>et contrahit secundum conscientiam licet non secundum iudicium ec 
+      <lb ed="#P" n="38"/>clesie. Aut non consentit nisi tamen in verba dicenda: vt 
+      <lb ed="#P" n="39"/>euadat malum et penam sibi intentatam: quia hec verba 
+      <lb ed="#P" n="40"/>sunt sufficienter euasiua penarum: et tunc nullum est 
+      <lb ed="#P" n="41"/>matrimonium nec secundum conscientiam nec secundum ecclesiam 
+      <lb ed="#P" n="42"/>videtur simpliciter 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e586">
+               <lb ed="#P" n="43"/>¶ Sed ista opinio irationabilis et 
+      <lb ed="#P" n="44"/>ontradicens sibi ipsi. Primo contradicit sibi ipsi. quia 
+      <lb ed="#P" n="45"/>quicumque cogitur ad aliquem actum: qui non potest 
+      exer<lb ed="#P" n="46" break="no"/>ceri nisi voluntate imperante et consentiente: potest 
+      co<lb ed="#P" n="47" break="no"/>gi ad consensum interiorem voluntatis. sed secundum istos 
+      <lb ed="#P" n="48"/>aliquis potest cogi ad actum exteriorem loquendi et 
+      di<lb ed="#P" n="49" break="no"/>cendi verba: qui non potest exerceri nisi consentientee 
+      <lb ed="#P" n="50"/>imperante voluntate loquentis: quantumcunque 
+      mouea<lb ed="#P" n="51" break="no"/>tur lingua ab aliquo extrinseco: vt patet. ergo etc. 
+      <lb ed="#P" n="52"/>Similiter etiam patet secundum eos. quia dicunt quod talis 
+      con<lb ed="#P" n="53" break="no"/>sentit in verba dicenda. igitur contradictio est dice 
+      <lb ed="#P" n="54"/>re primo: quod voluntas cogi non potest simpliciter quam: 
+      <lb ed="#P" n="55"/>tum ad actum interiorem: et cum hoc dicendo postea: quod 
+      <lb ed="#P" n="56"/>potest cogi quantum ad actum exteriorem loquendi: qui non 
+      <lb ed="#P" n="57"/>exercetur sine consensu interiori.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e621">
+      ¶ Secundo dico quod 
+      <lb ed="#P" n="58"/>est irrationabilis. Primo quia timor cadens in virum 
+      <lb ed="#P" n="59"/>constantem nunquam induxit ipsum ad malum aliquod: nisi 
+      <lb ed="#P" n="60"/>vt vitet maius malum. nec vnquam inducit eum in malum 
+      <lb ed="#P" n="61"/>culpe mortalis ad vitandum illud: quod non est 
+      pecca<lb ed="#P" n="62" break="no"/>tum. tunc enim non esset constans sed pauidus vltra quod 
+      <lb ed="#P" n="63"/>sit pauendum et inconstans: sed si cogeretur ad dicendum 
+      <lb ed="#P" n="64"/>verba illa sine consensu interiori cogeretur ad mentien 
+      <!--216.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>dum mendacio pernicioso et deceptiuo proximi quod 
+      <lb ed="#P" n="66"/>est pctantum mortale et maius malum: quam consentire et 
+      nul<lb ed="#P" n="67" break="no"/>bere vel quam quodcumque malum pene sibi intentatum/ 
+      <lb ed="#P" n="68"/>et cum nubere non sit malum sed bonum: tunc idem 
+      sequi<lb ed="#P" n="69" break="no"/>tur sicut prius ergo nunquam inducitur vir constans per men 
+      <lb ed="#P" n="70"/>tum alicuius pene ad dicendum talia verba sine 
+      con<lb ed="#P" n="71" break="no"/>sensu interiori. quem verba pretendunt. Et patet 
+      ma<lb ed="#P" n="72" break="no"/>nifeste per illud argumentum adductum in principio quae 
+      <lb ed="#P" n="73"/>stionis quod potest adduci contra eos. quia aut dicendo 
+      <lb ed="#P" n="74"/>verba illa ad que cogitur secundum te: consentit sicut verba 
+      <lb ed="#P" n="75"/>significant: et praetendunt: et sic secundum eos est verum 
+      ma<lb ed="#P" n="76" break="no"/>trimonium secundum conscientiam aut non consentit: et tunc 
+      <lb ed="#P" n="77"/>mentitur nec est constans. Si dicas: quod non oportet 
+      ip<lb ed="#P" n="78" break="no"/>sum consentire nec mentiri. quia dicit verba et 
+      intendit<lb ed="#P" n="79" break="no"/>dicere materialiter tantum ad euadendum penas. 
+      Con<lb ed="#P" n="80" break="no"/>tra: quia dicit eas formaliter et significatiue secundum 
+      for<lb ed="#P" n="81" break="no"/>mam et modum proferendi: quicquid intendat. quia 
+      di<lb ed="#P" n="82" break="no"/>cit ea absolute sic. accipio te in meam. et ita decipit 
+      <lb ed="#P" n="83"/>proximum et perniciose mentitur sicut prius secus enim 
+      <lb ed="#P" n="84"/>esset: si diceret: ego non consentio in te: sed 
+      consentio<lb ed="#P" n="85" break="no"/>in ista verba dicenda accipio te in meam. quod 
+      nichil<lb ed="#P" n="86" break="no"/>valeret ad propositum cogentium vel cogentis: qua 
+      <lb ed="#P" n="87"/>re etc.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e693">
+      ¶ Tertio sic. planum est quod aliquis dicens vel 
+      <lb ed="#P" n="88"/>ba professionis alicuius religionis et non consentiens 
+      <lb ed="#P" n="89"/>interius decipit religionem. et peccat mortaliter. Nec 
+      <lb ed="#P" n="90"/>ad hoc debet induci vtens ratione recta per quancumque 
+      <lb ed="#P" n="91"/>penam vel metum cuicumque pene: sicut nec ad 
+      morta<lb ed="#P" n="92" break="no"/>le ergo similiter in proposito. Similiter etiam patet: quod 
+      <lb ed="#P" n="93"/>pari ratione qua vir constans posset cogi ad illa vel 
+      <lb ed="#P" n="94"/>ba dicenda: posset etiam cogi postea ad iurandum quod 
+      <lb ed="#P" n="95"/>vere consentit: vel tunc consensiit: sicut verba 
+      sona<lb ed="#P" n="96" break="no"/>bant. vel etiam ad cognoscendum eam sicut suam. sed  
+      <lb ed="#P" n="97"/>planum est hoc esse falsum. quia tunc ad periurius 
+      <lb ed="#P" n="98"/>et manifeste peccatum mortale congeretur nec esset 
+      com<lb ed="#P" n="99" break="no"/>stans: sicut patet. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e722">
+      ¶ Quarto contra eos. quia me 
+      <lb ed="#P" n="100"/>tus non solum inducit ad actum exteriorem 
+      huma<lb ed="#P" n="101" break="no"/>num: sed etiam necessario ad actum interiorem 
+      volunta<lb ed="#P" n="102" break="no"/>tis. patet de timente periculum submersionis in 
+      ma<lb ed="#P" n="103" break="no"/>ri: quod non solum ex metu vel timore inducitur ad  
+      <lb ed="#P" n="104"/>proiiciendum merces: sed etiam ad velle proiicere 
+      li<lb ed="#P" n="105" break="no"/>cet non sit hoc voluntarium simpliciter omnino 
+      ab<lb ed="#P" n="106" break="no"/>solute. Si enim nunquam vellet proiicere: nunquam proiice 
+      <lb ed="#P" n="107"/>ret: sed permitteret seipsum submergi cum mercibus 
+      <lb ed="#P" n="108"/>suis. Sic in proposito suo modo est dicendum: qua 
+      <lb ed="#P" n="109"/>re et cetera. 
+      <lb ed="#P" n="110"/>igitur aliter quantum ad praesentem arti qo¬ 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e748">
+               <lb ed="#P" n="111"/>¶ Dico culum. Primo quod nullus ad aliquenm 
+      <lb ed="#P" n="112"/>actum qui proprie sit humanus: potest cogi ab 
+      ali<lb ed="#P" n="113" break="no"/>quo agente creato. Quod non ad actum interiorem 
+      volun<lb ed="#P" n="114" break="no"/>tatis patet ex libertate voluntatis ingenita: que non 
+      <lb ed="#P" n="115"/>subest alicui agenti: nisi illi qui creauit eam. et cum 
+      nul<lb ed="#P" n="116" break="no"/>lus actus sit humanus nisi in potestate voluntatis 
+      <lb ed="#P" n="117"/>elicitiue vel imperatiue: patet: quod ad nullum actum 
+      <lb ed="#P" n="118"/>humanum potest cogi siue interiorem siue exteriorem 
+      <lb ed="#P" n="119"/>siue ad loqui siue ad quemcunque alium.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e771">
+      ¶ Secundo 
+      di<lb ed="#P" n="120" break="no"/>co quod aliquis cum vehementer inducitur. per metum 
+      <lb ed="#P" n="121"/>pene vel alio quouismodo tollente simpliciter 
+      volun<lb ed="#P" n="122" break="no"/>tariam: tamen inducente voluntarium secundum 
+      <lb ed="#P" n="123"/>quid ad aliquem actum humanum: puta ad 
+      dicen<lb ed="#P" n="124" break="no"/>dum verba matrimonialia in proposito: quia aut 
+      <lb ed="#P" n="125"/>consentit: sicut dicit se consentire. Aut non 
+      consen<lb ed="#P" n="126" break="no"/>tit. si non consentit tunc mendax est et inconstans. 
+      <lb ed="#P" n="127"/>Nec cadit talis timor inducens ad peccatum mor 
+      <lb ed="#P" n="128"/>tale in virum constatem: et nullum est matrimonium. 
+      <lb ed="#P" n="129"/>patet ex predictis. quia non est ibi consensus necet 
+      <!--217.xml-->
+      <pb ed="#P" n="110-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sario ad matrimonium requisitus. vnde nec secundum 
+      com<lb ed="#P" n="2" break="no"/>scientiam nec etiam secundum ecclesiam est ibi matrimonium. 
+      <lb ed="#P" n="3"/>Si autem consentit: et licet sibi consentire: quod 
+      di<lb ed="#P" n="4" break="no"/>co propter illos quibus non licet consentire: sicut 
+      <lb ed="#P" n="5"/>sunt religiosi et alii: quibus non licet nubere. Si 
+      con<lb ed="#P" n="6" break="no"/>sentit dico inductus timore vel metu pene seu 
+      mali<lb ed="#P" n="7" break="no"/>maioris imminentis: quam sit consentire in 
+      matrimo<lb ed="#P" n="8" break="no"/>nium contra voluntatem suam simpliciter et 
+      abso<lb ed="#P" n="9" break="no"/>lutam: qua nolle nubere: ita quod illud malum proba 
+      <lb ed="#P" n="10"/>biliter sibi immineat non ex coniectura leui ipsum 
+      ti<lb ed="#P" n="11" break="no"/>meat. Dico quod dato quod consentiat secundum quid sicut 
+      di<lb ed="#P" n="12" break="no"/>cit exprimendo verba: et sit ibi voluntarium mixtum: 
+      <lb ed="#P" n="13"/>sicut proiiciendo merces in mari: talis consensus non 
+      <lb ed="#P" n="14"/>causat matrimonium: nec sufficit ad ipsum: 
+      immo<lb ed="#P" n="15" break="no"/>impedit ipsum.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e834">
+      ¶ Hoc probatur primo per 
+      ratio<lb ed="#P" n="16" break="no"/>nem sic. contractus matrimonii formaliter est 
+      dona<lb ed="#P" n="17" break="no"/>tio mutua vel translatio libera mutua potestatis 
+      <lb ed="#P" n="18"/>corporum: sicut est dictum supra: sed talis consensus 
+      <lb ed="#P" n="19"/>non est simpliciter liber licet secundum quid. Est enim 
+      vo<lb ed="#P" n="20" break="no"/>luntarium mixtum. vnde non potest esse vera 
+      dona<lb ed="#P" n="21" break="no"/>tio. ergo etc. Secundo sic. Nam matrimonium non de 
+      <lb ed="#P" n="22"/>bet contrahi ex illo consensu: qui si causaret 
+      matri<lb ed="#P" n="23" break="no"/>monium: esset in preiudicium mutue societatis et 
+      <lb ed="#P" n="24"/>amoris inter coniuges et occasio solutionis. sed 
+      ta<lb ed="#P" n="25" break="no"/>lis consensus est huiusmodi: vt patet. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e858">
+      ¶ Ter 
+      <lb ed="#P" n="26"/>tio sic. Consensus nullus potest causare 
+      matrimo<lb ed="#P" n="27" break="no"/>nium contra ordinationem et voluntatem 
+      superio<lb ed="#P" n="28" break="no"/>ris vel legislatoris instituentis matrimonium. 
+      pa<lb ed="#P" n="29" break="no"/>tet. quia matrimonium siue quantum ad contractum si 
+      <lb ed="#P" n="30"/>ne quantum ad vinculum siue quantum ad sacramentum 
+      <lb ed="#P" n="31"/>nullam efficaciam habet nisi ab instituente legisia 
+      <lb ed="#P" n="32"/>tore. sed legislator deus institutor matrimonii 
+      vo<lb ed="#P" n="33" break="no"/>luit: quod contrahens simpliciter et liberaliter 
+      consen<lb ed="#P" n="34" break="no"/>tiret: et non ex metu vel coactione per metum 
+      caden<lb ed="#P" n="35" break="no"/>tem in constantem virum. quod significatur. vnde 
+      Ge<lb ed="#P" n="36" break="no"/>ne. Ii quando dicit per os ade: propter hoc relinquet 
+      <lb ed="#P" n="37"/>homo patrem et matrem: et adherebit vxori. 
+      adhere<lb ed="#P" n="38" break="no"/>re autem sic importat amorem liberalem. Et idem 
+      re<lb ed="#P" n="39" break="no"/>petit christus Mathei. xix. ergo etc. Hoc confirmatur 
+      <lb ed="#P" n="40"/>auctoritate ecclesie non quidem instituentis sed 
+      pro<lb ed="#P" n="41" break="no"/>mulgantis statutum christi vel dei extra 
+      desponsal<lb ed="#P" n="42" break="no"/>bus: cum locum. Et per auctoritates magistri in 
+      lite<lb ed="#P" n="43" break="no"/>ra.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e900">
+      ¶ Si dicas quod aliquis potest cogi per 
+      obedien<lb ed="#P" n="44" break="no"/>tiam superioris ad matrimonium corporale: sicut ad 
+      <lb ed="#P" n="45"/>matrimonium spirituale: cum aliqua ecclesia suscipi 
+      <lb ed="#P" n="46"/>endo episcopatum aliquem ex mandato Pape. 
+      Simi<lb ed="#P" n="47" break="no"/>liter etiam patet hoc de facto. nam aliquis vel 
+      ali<lb ed="#P" n="48" break="no"/>qua in casu tenetur contrahere etiam cum 
+      determi<lb ed="#P" n="49" break="no"/>nata persona ex precepto Pape: licet non vt 
+      commu<lb ed="#P" n="50" break="no"/>niter sicut dictum est supra et potest eam vel eum 
+      co<lb ed="#P" n="51" break="no"/>gere ad matrimonium. et si contrahit quantumcunque ex 
+      metu<lb ed="#P" n="52" break="no"/>pctim mortalis ne incurrat: vere contrahit. Similiter 
+      <lb ed="#P" n="53"/>etiam non solum ex metu de ipso sed etiam de alio: 
+      <lb ed="#P" n="54"/>ne incurrat peccatum mortale: vere contrahit. sicut 
+      <lb ed="#P" n="55"/>si alius vel alia vult se occidere: nisi iste contrahat. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e929">
+               <lb ed="#P" n="56"/>¶ Dico ad omnia ista: quod si in omnibus praedictis 
+      ca<lb ed="#P" n="57" break="no"/>sibus contrahat et siue ex obedientia et metu pecca 
+      <lb ed="#P" n="58"/>ti mortalis fugiendi siue in se siue in alio: vere 
+      con<lb ed="#P" n="59" break="no"/>trahit. et dico quod liberaliter. quia ex affectione iusti 
+      <lb ed="#P" n="60"/>cie vel charitatis: quarum affectiones sunt vere 
+      ani<lb ed="#P" n="61" break="no"/>mi libertates. sed non sic est in proposito: sicut 
+      pa<lb ed="#P" n="62" break="no"/>tet. Nec proprie dicendum est: quod ex metu: sed ex 
+      affectio<lb ed="#P" n="63" break="no"/>ne iusta et charitatiua. quare etc. Si dicas: quod sic est 
+      <lb ed="#P" n="64"/>in proposito. quia iste eligit dicere verba: et 
+      consen<lb ed="#P" n="65" break="no"/>tire per consequens: ne mentiatur et vt vitet peccatum 
+      <!--217.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>mortale. ergo etc. Dico quod illa sunt priuilegiata: et istud 
+      <lb ed="#P" n="67"/>non. Et potest esse ratio. quantumcunque iste 
+      consen<lb ed="#P" n="68" break="no"/>tiat: non sufficit talis consensus: licet sequatur ad vel 
+      <lb ed="#P" n="69"/>ba ne iste mentiatur. nam ad dicendum verba non 
+      ha<lb ed="#P" n="70" break="no"/>puit tale motiuum ita spirituale: sicut illa. Non est 
+      <lb ed="#P" n="71"/>enim simile de timore vel metu peccati et metum 
+      pene<lb ed="#P" n="72" break="no"/>si enim ex metu peccati diceret verba: et consentiret 
+      <lb ed="#P" n="73"/>valeret matrimonium. sic de metu pene. Et ita si ista 
+      <lb ed="#P" n="74"/>ratio non placet: recurre ad institutionem 
+      legislato<lb ed="#P" n="75" break="no"/>ris. de qua certum est: quod talis est. et per consequens quod 
+      <lb ed="#P" n="76"/>iste quantumcunque sentiat: non tamen transfert. nec sua 
+      vo<lb ed="#P" n="77" break="no"/>litio sufficit sine voluntate dei vel domini superioris 
+      <lb ed="#P" n="78"/>seu contra institutionem eius. Hec de secundo 
+      ar<lb ed="#P" n="79" break="no"/>ticulo principali. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e988">
+               <lb ed="#P" n="80"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="81" break="no"/>culum dico quod error vel ignorantia vel facit inuolum 
+      <lb ed="#P" n="82"/>tarium simpliciter secundum philosophum. 3. ethicorum. 
+      con<lb ed="#P" n="83" break="no"/>tractus autem matrimonialis vel matrimonium 
+      de<lb ed="#P" n="84" break="no"/>bet esse quid voluntarium simpliciter. Et ideo 
+      di<lb ed="#P" n="85" break="no"/>co: quod consensus sequens apprehesionem erroneam vel 
+      <lb ed="#P" n="86"/>ignorantiam de aliquo per se vel de necessitate 
+      requi<lb ed="#P" n="87" break="no"/>sito ad matrimonium: dico quod non causat matrimo 
+      <lb ed="#P" n="88"/>nium: sed magis error talis vel ignorantia 
+      impedit<lb ed="#P" n="89" break="no"/>matrimonium.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e1013">
+      ¶ Sunt autem tria: quorum 
+      ignoram<lb ed="#P" n="90" break="no"/>tia vel error circa ipsa tollit matrimonium. vnum est 
+      <lb ed="#P" n="91"/>persona ipsa. Error enim vel ignorantia persone 
+      de<lb ed="#P" n="92" break="no"/>terminate: cui debet nubere: tollit matrimonium. 
+      <lb ed="#P" n="93"/>Non enim intendit nubens tradere corpus suum nisi 
+      <lb ed="#P" n="94"/>certe et determinate persone isti vel isti: et ideo si erret 
+      <lb ed="#P" n="95"/>circa personam putans contrahere cum vna et contra 
+      <lb ed="#P" n="96"/>hit cum alia: nichil fit: nec matrimonium valet. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e1031">
+               <lb ed="#P" n="97"/>¶ Secundum est conditio seruilis persone: vel quecum 
+      <lb ed="#P" n="98"/>que conditio impediens ne persona possit 
+      transferre<lb ed="#P" n="99" break="no"/>potestatem corporis sui in alium sicut econuerso. Et 
+      <lb ed="#P" n="100"/>ratio est. quia nubens non intendit tradere 
+      potesta<lb ed="#P" n="101" break="no"/>tem corporis sui: nisi illi qui econuerso potest 
+      dare<lb ed="#P" n="102" break="no"/>potestatem corporis suin. Nam matrimonium in 
+      mu<lb ed="#P" n="103" break="no"/>tua obligatione et translatione consistit. Non est enim 
+      <lb ed="#P" n="104"/>datio mere liberalis: sed redditionem expectans: do: 
+      <lb ed="#P" n="105"/>si des. Et obligatio matrimonialis est relatio 
+      equi<lb ed="#P" n="106" break="no"/>parantie. et ita matrimonium claudicare non potest 
+      <lb ed="#P" n="107"/>Seruus autem non habet potestatem corpus transfe 
+      <lb ed="#P" n="108"/>rendi suum: nisi de voluntate domini. quare etc. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e1060">
+               <lb ed="#P" n="109"/>¶ Tertium est fraus vel dolus alterius 
+      contrahen<lb ed="#P" n="110" break="no"/>tis: vt si alter non contrahat affectu maritali sed  
+      <lb ed="#P" n="111"/>affectu libidinis et fornicationis explende. tunc enim 
+      <lb ed="#P" n="112"/>non valet matrimonium. Et si constaret hoc perso 
+      <lb ed="#P" n="113"/>ne contrahet i in bona simplicitate: nullo modo de 
+      <lb ed="#P" n="114"/>beret petere vel reddere. Similiter etiam si ad 
+      di<lb ed="#P" n="115" break="no"/>ctum alterius contrahentis dolose formet sibi 
+      con<lb ed="#P" n="116" break="no"/>scientiam de hoc: sed durante ignorantia excusatur 
+      <lb ed="#P" n="117"/>a fornicatione petendo et reddendo nec ad dictum 
+      al<lb ed="#P" n="118" break="no"/>terius dolose contrahentis debet sibi conformare 
+      con<lb ed="#P" n="119" break="no"/>scientiam: sed potius debet putare et iudicare: quod 
+      pri<lb ed="#P" n="120" break="no"/>mo vere consensit sicut debuit: et modo postea men 
+      <lb ed="#P" n="121"/>titur quando dicit se non consensisse. vnde dico: quod 
+      po<lb ed="#P" n="122" break="no"/>test et petere et reddere. Dolosus vero tenetur nec 
+      pe<lb ed="#P" n="123" break="no"/>tere nec reddere. quia vtroque modo fornicaretur sed tenetur 
+      <lb ed="#P" n="124"/>ad consentiendum in alium vel aliam quam duxit 
+      no<lb ed="#P" n="125" break="no"/>uo consensu vt in suam: et consensu ad matrimonium 
+      <lb ed="#P" n="126"/>requisito. et tali consensu superueniente consensui 
+      <lb ed="#P" n="127"/>illius qui in bona simplicitate contraxit: ratificatur 
+      <lb ed="#P" n="128"/>matrimonium.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e1106">
+      ¶ Ex predictis sequuntur aliqua. 
+      <lb ed="#P" n="129"/>Primo quod ignorantia vel error circa aliquid acci¬ 
+      <!--218.xml-->
+      <pb ed="#P" n="110-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dentaliter se habens ad matrimonium et non per se nec 
+      <lb ed="#P" n="2"/>necessario requisitum non tollit matrimonium: vt si 
+      <lb ed="#P" n="3"/>pulchra vel turpis vel diues vel pauper vel 
+      bona<lb ed="#P" n="4" break="no"/>vel mala in moribus. Secundo sequitur quod ignoram 
+      <lb ed="#P" n="5"/>tia melioris conditionis non tollit matrimonium: li 
+      <lb ed="#P" n="6"/>cet ignorantia peioris vt seruitutis tollat matrime 
+      <lb ed="#P" n="7"/>ium: quare etc.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e1132">
+      ¶ Ex his patet quod ad matrimonium 
+      <lb ed="#P" n="8"/>contrahendum requiritur consensus verus expressus 
+      <lb ed="#P" n="9"/>per verba vel signa consensus. de praesenti no 
+      coacti<lb ed="#P" n="10" break="no"/>et sequens apprehensionem veram non erroneam vel 
+      <lb ed="#P" n="11"/>ignorantiam. Hec de tertio articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f65663-d1e1143">
+               <lb ed="#P" n="12"/>¶ Ad primum principale 
+      quan<lb ed="#P" n="13" break="no"/>tum ad illud quod dicitur patres vel parentes 
+      pos<lb ed="#P" n="14" break="no"/>se contrahere pro filiis: dico quod non possunt 
+      contrahe<lb ed="#P" n="15" break="no"/>re pro filiis dissentientibus: sed si sint presentes et 
+      <lb ed="#P" n="16"/>tacentes presumit ecclesia: quod consentiant: et iudicat 
+      <lb ed="#P" n="17"/>contractum verum: licet in rei veritate non sit contra 
+      <lb ed="#P" n="18"/>ctus nec obligatio inter filios: nisi consentiant. Si 
+      <lb ed="#P" n="19"/>gna enim parentum cum consensibus tacitis filiorum 
+      <lb ed="#P" n="20"/>sufficiunt ad contractum: sed vtrum ad sacramentum 
+      <lb ed="#P" n="21"/>dictum est supra. Ad illud quod ibidem additur: quod 
+      <lb ed="#P" n="22"/>non requiritur expressio consensus per verba de praesen 
+      <lb ed="#P" n="23"/>ti: sed sufficiunt verba de futuro cum carnali 
+      copu<lb ed="#P" n="24" break="no"/>la sequente. Dico quod non est verum: nisi superueniat 
+      no<lb ed="#P" n="25" break="no"/>uus consensus de presenti. vnde non video: quod illa 
+      can<lb ed="#P" n="26" break="no"/>malis copula sequens causet matrimonium 
+      veraci<lb ed="#P" n="27" break="no"/>ter: licet presumat ecclesia quod sit verum matrimonium 
+      <lb ed="#P" n="28"/>quia presumit meliorem partem de sic copulatis: scilice 
+      <lb ed="#P" n="29"/>quod copulentur affectu maritali: et per consequens quod 
+      con<lb ed="#P" n="30" break="no"/>sentiant de presenti et rationabiliter. hoc 
+      praesuppo<lb ed="#P" n="31" break="no"/>nit ecclesia. quia licent non sit hoc necessarium: sed possit 
+      <lb ed="#P" n="32"/>esse illa copula ex affectu fornicario: et per consequens 
+      <lb ed="#P" n="33"/>matrimonium nullum: tamen quia de occultis iudicare 
+      <lb ed="#P" n="34"/>non debet nisi deus: et vnusquisque supponendus est bo 
+      <lb ed="#P" n="35"/>nus: donec probetur esse malus: rationabiliter 
+      sup<lb ed="#P" n="36" break="no"/>ponit: quod isti non velint peccare mortaliter: nec 
+      forni<lb ed="#P" n="37" break="no"/>cari. Et per consequens cum affectu maritali se 
+      cogno<lb ed="#P" n="38" break="no"/>scunt: et in seinuicem consentiunt: et fit matrimonium 
+      <lb ed="#P" n="39"/>verum. Ita dicunt aliqui. sed non video: quod per illam 
+      <lb ed="#P" n="40"/>copulam vel ex vi illius fiat matrimonium: nec quod 
+      <lb ed="#P" n="41"/>sit etiam licita: nisiprecesserit consensus mutuus de 
+      <lb ed="#P" n="42"/>presenti expressus per verba vel signa certa. Et dico 
+      <lb ed="#P" n="43"/>quod talem consensum sic expressum presupponit 
+      eccie<lb ed="#P" n="44" break="no"/>sia precessisse: et rationabiliter presumendo bonum de 
+      <lb ed="#P" n="45"/>quibus non est probatum malum. et ideo iudicat 
+      ma<lb ed="#P" n="46" break="no"/>trimonium consummatum: licet frequenter non sit ita 
+      <lb ed="#P" n="47"/>in rei veritate.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e1225">
+      ¶ Ad secundum patet primo quantum ad 
+      <lb ed="#P" n="48"/>illud quod dicitur primo de viro constante. dico quod sicut 
+      <lb ed="#P" n="49"/>dicit: ita consentit: sed dico. quod talis consensus non sut 
+      <lb ed="#P" n="50"/>ficit immo impedit matrimonium. quare etc. Ad 
+      i<lb ed="#P" n="51" break="no"/>lud de baptisato ex metu dico: quod baptisatus ex 
+      me<lb ed="#P" n="52" break="no"/>tu: dum tamen non esset fictus: sed intenderet suscipere: 
+      <lb ed="#P" n="53"/>quod intendit conferre ecclesia: est vere baptisatus. 
+      <lb ed="#P" n="54"/>Et non est simile de matrimonio. quia conditio bapti 
+      <lb ed="#P" n="55"/>sati sit melior. Nec requiritur aliquis contractus 
+      <lb ed="#P" n="56"/>vel mutuus consensus. quare etc. Ad illud de 
+      dige<lb ed="#P" n="57" break="no"/>stis dico quod iura canonica non approbant illud nec 
+      <lb ed="#P" n="58"/>tenetur filius obedire patri nisi de bono et 
+      econuer<lb ed="#P" n="59" break="no"/>so: nec fit aliquis contractus vel obligatio filii: nisi 
+      <lb ed="#P" n="60"/>consentiat.
+      </p>
+            <p xml:id="qrdBas-f65663-d1e1256">
+      ¶ Ad tertium de Iacob et lya dico 
+      si<lb ed="#P" n="61" break="no"/>ue iacob excusetur pro prima nocte siue non: de quo 
+      <lb ed="#P" n="62"/>non curo: quia non fuit confirmatus: quin potuerit 
+      pec<lb ed="#P" n="63" break="no"/>care: quod lya fuit facta sua postea ipso iacob sciente 
+      <lb ed="#P" n="64"/>et consentiente de praesenti: et consensum suum per aliquod 
+      <!--218.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>signum exprimente. Ad illud de baptisato ignoran 
+      <lb ed="#P" n="66"/>ter diceretur: quod si baptisans intenderet determinate 
+      <lb ed="#P" n="67"/>psonam aliquam baptisare: et praesentaretur sibi alia ad 
+      <lb ed="#P" n="68"/>baptisandum: de qua non intenderet: quod non esset verus 
+      <lb ed="#P" n="69"/>baptismus. quia deficeret intentio ministri. sed si 
+      in<lb ed="#P" n="70" break="no"/>tenderet baptisare non determinate hunc vel illum 
+      <lb ed="#P" n="71"/>sed qui presentatur sibi: licet forte putaret ipsum 
+      <lb ed="#P" n="72"/>esse vnum alium quam sit: vere esset baptismus. Et in 
+      <lb ed="#P" n="73"/>hoc est dissimile de matrimonio. quia in baptismo 
+      <lb ed="#P" n="74"/>non requiritur aliquis contractus vel mutuus 
+      consen<lb ed="#P" n="75" break="no"/>sus et baptisatus etiam fit melioris conditionis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,712 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="97-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f58645"><!--l4d20-21q1 -->
+            <head xml:id="qrdBas-f58645-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f58645-d1e101">
+               <lb ed="#P" n="69"/>¶ Distinctionum. xx. et. xxi. 
+      <lb ed="#P" n="70"/>Questio Prima. 
+    </p>
+            <p xml:id="qrdBas-f58645-d1e108">
+               <lb ed="#P" n="71"/>CIrca distinctiones 
+      <lb ed="#P" n="72"/>stas quero primo. Utrum 
+      ali<lb ed="#P" n="73" break="no"/>quod pectantum remittatur in 
+      termino<lb ed="#P" n="74" break="no"/>vite per penitentiam in extremis: 
+      <lb ed="#P" n="75"/>et etiam post vitam presentem 
+      pos<lb ed="#P" n="76" break="no"/>sit aliquod peccatum dimitti¬ 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e124">
+               <lb ed="#P" n="77"/>¶ Uidetur de primo quod non. quia 
+      pe<lb ed="#P" n="78" break="no"/>nitentia in extremis non valet. 
+      <lb ed="#P" n="79"/>Tum quia de tali penitente dicit Augustinus in 
+      quo<lb ed="#P" n="80" break="no"/>dam sermone: quod non presumimus quod hinc bene exeat 
+      <lb ed="#P" n="81"/>et in sermodoe de innocentibus dicit: quod hac animaduer 
+      <lb ed="#P" n="82"/>sone percutitur pctor vt moriens obliuiscatur sui. qui dum 
+      <lb ed="#P" n="83"/>viueret: oblitus est dei. Et idem de penitentia 
+      distin<lb ed="#P" n="84" break="no"/>ctione septima. et ponitur in littera periculosum est et inte 
+      <lb ed="#P" n="85"/>ritui vicinum vsque ad mortem procrastinare penitentie 
+      <lb ed="#P" n="86"/>remedium. Et similiter super illud ecclesiastici. xx vii. 
+      vi<lb ed="#P" n="87" break="no"/>uus et sanus confiteberis domino: dicit idem Augustinus: 
+      <lb ed="#P" n="88"/>age penitentiam: dum sanus es. si sic egisti: egisti peni 
+      <lb ed="#P" n="89"/>tentiam dum peccare potuisti. si vis penitere: quando 
+      pec<lb ed="#P" n="90" break="no"/>care non potes: peccata te dimiserunt: non tu illa. ex 
+      <lb ed="#P" n="91"/>his videtur: quod penitentia in extremis sit nulla et 
+      peri<lb ed="#P" n="92" break="no"/>culosa et inuoluntaria. sed pctam in extremis non 
+      dimit<lb ed="#P" n="93" break="no"/>tuntur nisi per penitentiam. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e163">
+      ¶ Secundo sic. nihil ordi 
+      <lb ed="#P" n="94"/>nandum est a legislatore: quod sit occasio transgrediendi 
+      le<lb ed="#P" n="95" break="no"/>gem. sed peccata dimitti in extremis siue per penitem 
+      <lb ed="#P" n="96"/>tiam siue alio modo est occasio peccandi et 
+      trans<lb ed="#P" n="97" break="no"/>grediendi legem dei vsque in finem. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e175">
+      ¶ Tertio 
+      <lb ed="#P" n="98"/>arguitur quod post mortem vel post vitam presentem 
+      nul<lb ed="#P" n="99" break="no"/>lum pectantum possit dimitti. quia nullius moriens iustus potest 
+      <lb ed="#P" n="100"/>postea peccare. igitur nec aliquis moriens pectotor potest a 
+      <lb ed="#P" n="101"/>peccato resurgere.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e186">
+      ¶ Et confirmatur. quia secundum 
+      dama<lb ed="#P" n="102" break="no"/>scenum quod est angelis casus hoc est hominibus mors. ita 
+      <lb ed="#P" n="103"/>quod sicut angelus post casum est immutabilis ad bonum: 
+      <lb ed="#P" n="104"/>nec potest a pctato resurgere: ita etiam pector post mortem. 
+      <lb ed="#P" n="105"/>primum Ezech. xviii. quacumque hoc 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e197">
+               <lb ed="#P" n="106"/>¶ Contra ra ingemuert pectoer etc. et 
+      Au<lb ed="#P" n="107" break="no"/>gustinus de vera et falsa penitentia et est in littera. penitem 
+      <lb ed="#P" n="108"/>tia si in extremo vite hiatu aduenerit sanat: et 
+      libe<lb ed="#P" n="109" break="no"/>rat. quod probat statim subdens. multum fuit sera 
+      latro<lb ed="#P" n="110" break="no"/>nis penitentia: sed non fuit sera eius indulgentia.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e210">
+      ¶ 
+      Con<lb ed="#P" n="111" break="no"/>tra secundum videtur esse magister distinctione sequenti ex 
+      <lb ed="#P" n="112"/>illo verbo christi: qui peccauerit in spiritum sanctum non 
+      <lb ed="#P" n="113"/>remittetur ei neque in hoc seculo neque in alio dicit enim 
+      <lb ed="#P" n="114"/>quod ex hoc datur intelligi: sicut sancti doctores 
+      tra<lb ed="#P" n="115" break="no"/>lunt: quod quedam peccata in futuro dimitterentur. 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e223">
+               <lb ed="#P" n="116"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e228">
+               <lb ed="#P" n="117"/>¶ Primo ostendam quod pctam aliquando dimitiuntur per pnimnam 
+      <lb ed="#P" n="118"/>in extremis: et quod ipsa est vtilis: liecet talis sit rara et 
+      dif<lb ed="#P" n="119" break="no"/>ficilis.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e238">
+      ¶ Secundo inquiram vtrum aliquod pctantum post hanc 
+      vi<lb ed="#P" n="120" break="no"/>tam dimittatur: vel possit dimitti secundum potentiam dei ordi 
+      <lb ed="#P" n="121"/>natam. quia de potentia absoluta non est dubium.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e245">
+      ¶ Tertio 
+      <lb ed="#P" n="122"/>inquiram: vtrum pena debita pctoto veniali non dimisso sed 
+      <lb ed="#P" n="123"/>pcomintante mortali sit perpetua vel non.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e252">
+      ¶ Ultimo ad rationes 
+      <lb ed="#P" n="124"/>articulum di¬ 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e257">
+               <lb ed="#P" n="125"/>¶ Quantum ad primum co primo quod 
+      <lb ed="#P" n="126"/>penitentia in extremis debite circumstantionata 
+      morali<lb ed="#P" n="127" break="no"/>ter cum susceptione sactri quod est necessarium: si non sit 
+      suffi<lb ed="#P" n="128" break="no"/>cienter intensa ad hoc vt sit meritum de congruo remis¬ 
+      <!--194.xml-->
+      <pb ed="#P" n="98-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sionis pcti. vel etiam sine susceptione sacramenti. si 
+      <lb ed="#P" n="2"/>cut fuit penitentia latronis sufficienter intensa ad 
+      de<lb ed="#P" n="3" break="no"/>letionem culpe: dum tamen non contemnatur sacstrum: sed in 
+      <lb ed="#P" n="4"/>voto habeatur et in facto etiam si haberi potest: talis 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e283">
+               <lb ed="#P" n="5"/>¶ inquam ) penitentia vtilis est: et per ipsam delentur 
+      pctan<lb ed="#P" n="6" break="no"/>siue mortalia siue venialia.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e290">
+      ¶ Hoc patet primo ex 
+      di<lb ed="#P" n="7" break="no"/>uina mina: que non deserit penitentem in casu 
+      necessita<lb ed="#P" n="8" break="no"/>tis. tunc enim maxime est tempus mine.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e298">
+      ¶ Secundo patet 
+      ex<lb ed="#P" n="9" break="no"/>efficacia talis penitentie sacramenti vel contritionis 
+      si<lb ed="#P" n="10" break="no"/>ne sacramento. quia ex quo habentur a viatore non 
+      ficto<lb ed="#P" n="11" break="no"/>sunt sufficientia remedia. igitur etc.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e307">
+      ¶ Tertio etiam 
+      <lb ed="#P" n="12"/>patet. quia sicut eucharistia vel baptismus vel extrema 
+      <lb ed="#P" n="13"/>vnctio habent suos effectus: et sunt sufficientes 
+      dispo<lb ed="#P" n="14" break="no"/>sitiones ad gratiam in suscipientibus non fictis: ita etiam 
+      <lb ed="#P" n="15"/>penitentia: vt videtur: hoc patet: et potest confirmari ex 
+      scri<lb ed="#P" n="16" break="no"/>ptura et dictis sanctorum multis. Et est conclusio 
+      cer<lb ed="#P" n="17" break="no"/>ta apud fideles.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e323">
+      ¶ Secundo tamen dico: quod talis penitentio 
+      <lb ed="#P" n="18"/>recte circunstantionata: quam voco actum penitendi 
+      <lb ed="#P" n="19"/>rara est et difficilis.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e330">
+      ¶ Quod probatur primo. quia in 
+      <lb ed="#P" n="20"/>extremis multum impeditur vsus liberi arbitrii 
+      ex<lb ed="#P" n="21" break="no"/>lassionibus doloris et timoris in existentibus: quam 
+      <lb ed="#P" n="22"/>do quis in extremis infirmatur: vel periclitatur quando 
+      <lb ed="#P" n="23"/>submergitur vel suspenditur de communi lege. passio 
+      <lb ed="#P" n="24"/>nes enim causate vel illate a tristantibus vel ledenti 
+      <lb ed="#P" n="25"/>bus magis mouent quandoque: et vehementius 
+      impediun<lb ed="#P" n="26" break="no"/>rationem: quam passiones causate a delectabilibus. 
+      immo<lb ed="#P" n="27" break="no"/>sicut ipse dicit Augustinus de ci. dei. aliquando 
+      impedium<lb ed="#P" n="28" break="no"/>totaliter vel fere totaliter vsum rationis. Actus autem 
+      pe<lb ed="#P" n="29" break="no"/>nitentie sufficiens siue per modum meriti ad 
+      deletio<lb ed="#P" n="30" break="no"/>nem culpe siue tanquam dispositio ad susceptionem 
+      sa<lb ed="#P" n="31" break="no"/>cramenti necessario requirit vsum liberi arbitrii. 
+      quae<lb ed="#P" n="32" break="no"/>re etc. Hanc rationem tangit August. in litera. tantus 
+      <lb ed="#P" n="33"/>finquit ) aliquando cruciatus ligat mebra et dolor sensum 
+      <lb ed="#P" n="34"/>opprimit: vt vix homo aliquid cognoscere valeat 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e365">
+               <lb ed="#P" n="35"/>¶ Secundo sic. ad hoc vt penitentia valeat: oportet 
+      ne<lb ed="#P" n="36" break="no"/>cessario quod sit debite circumstantionata et maxime 
+      cir<lb ed="#P" n="37" break="no"/>cunstantia finis: quod sit propter deum: et similiter quod sit 
+      li<lb ed="#P" n="38" break="no"/>bera et voluntaria. sed difficile est tunc habere actu 
+      <lb ed="#P" n="39"/>sic circunstantionatum. Tum quia cum vsque tunc 
+      distuli<lb ed="#P" n="40" break="no"/>rit penitentiam: non videtur a seipso extorquere actum 
+      <lb ed="#P" n="41"/>istum penitentie propter deum: de quo nec prius 
+      cura<lb ed="#P" n="42" break="no"/>uit: sed magis videtur hoc facere ad vitandum 
+      pe<lb ed="#P" n="43" break="no"/>nam pro peccato infligendam. Similiter etiam 
+      inuo<lb ed="#P" n="44" break="no"/>luntarie. quia ex presuppositione alicuius 
+      inuolunta<lb ed="#P" n="45" break="no"/>rii. scilicet mortis imminentis et pene pro pcciatio sustinet 
+      <lb ed="#P" n="46"/>de. Et ita videtur quod vel impossibile sit: vel nimis 
+      <lb ed="#P" n="47"/>difficile sic circumstantionare. quare etc. Hanc rationem 
+      <lb ed="#P" n="48"/>tangit Augustinus in litera. oportet non solum timere 
+      <lb ed="#P" n="49"/>mortem: sed diligere. arbitrii eim libertatem querit deus 
+      <lb ed="#P" n="50"/>vt delere possit commissa: non necessitatem: non timorem. 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e402">
+               <lb ed="#P" n="51"/>¶ Tertio sic. habitus malus in penitente 
+      continua<lb ed="#P" n="52" break="no"/>tus vsque tunc multum retrahit ab actu penitentie. et 
+      <lb ed="#P" n="53"/>per consequens difficilis est talis actus. Hanc rationem 
+      ali<lb ed="#P" n="54" break="no"/>qualiter tangit Augustinus in litera. Cum filii quos 
+      <lb ed="#P" n="55"/>illicite dilexit sint presentes vxor et mundus ad 
+      se<lb ed="#P" n="56" break="no"/>vocet multos solet penitentia serotina detinere. vb 
+      <lb ed="#P" n="57"/>tangit: quod ex habitu malo peccandi et inordinate 
+      di<lb ed="#P" n="58" break="no"/>ligendi ista inferiora retrahitur quis a penitentia. 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e423">
+               <lb ed="#P" n="59"/>¶ Quarto sic. quia quanto aliquis est minus dominus sui act 
+      <lb ed="#P" n="60"/>tanto difficilius habet actum perfectum sibi 
+      necessa<lb ed="#P" n="61" break="no"/>rium: et tanto oportet esse maiorem conatum ad talem 
+      <lb ed="#P" n="62"/>actum. cum igitur in extremis propter impedimenta 
+      cir<lb ed="#P" n="63" break="no"/>cunstantia peccator minus sit dominus sui actus ad actum 
+      su<lb ed="#P" n="64" break="no"/>ficientem penitentie: oportet quod habeat maiorem 
+      cona<lb ed="#P" n="65" break="no"/>tum et per consequens penitere fructuose sibi est multum 
+      <!--194.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>difficile propter quod dicit Augustinus: quod magnum  
+      <lb ed="#P" n="67"/>est: cum deus tunc inspirat alicui veram penitentiam si qui 
+      <lb ed="#P" n="68"/>est talis. quia vel non est aliquis: vel vix est aliquis talis 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e452">
+               <lb ed="#P" n="69"/>¶ Ex predicto concludo duo correlaria. Primum:  
+      <lb ed="#P" n="70"/>quod peccatori sano et forti persuadendum est: vt 
+      pe<lb ed="#P" n="71" break="no"/>niteat proponendo sibi particulas que sunt in 
+      expe<lb ed="#P" n="72" break="no"/>ctando serotinam penitentiam: et quantum difficulter 
+      ha<lb ed="#P" n="73" break="no"/>beatur uera penitentia in extremis.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e465">
+      ¶ Secundum 
+      corre<lb ed="#P" n="74" break="no"/>larium: quod infirmo peccatori iam ad articulum in 
+      extre<lb ed="#P" n="75" break="no"/>mis deducto suadendum est: vt secundum possibilitatem suam 
+      <lb ed="#P" n="76"/>laboret ad penitentiam ordinatam modis praedictis. et 
+      ne<lb ed="#P" n="77" break="no"/>in desperationem mittatur proponenda est sibi diuina 
+      <lb ed="#P" n="78"/>mina et extollenda. sicut patuit de latrone illo: cuius 
+      <lb ed="#P" n="79"/>fuit sera penitentia: sed non sera indulgentia secundum 
+      <lb ed="#P" n="80"/>Augustinum. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e483">
+               <lb ed="#P" n="81"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="82" break="no"/>culum dico primo: quod post hanc vitam nullum 
+      morta<lb ed="#P" n="83" break="no"/>le pctantum dimittitur nec dimitti potest secundum potentiam de 
+      <lb ed="#P" n="84"/>ordinatam de lege communi saltem. Et de hoc non est 
+      du<lb ed="#P" n="85" break="no"/>bium apud catholicos. quantum enim ad pctantum 
+      morta<lb ed="#P" n="86" break="no"/>le quod est angelis casus hoc est hominibus mors 
+      <lb ed="#P" n="87"/>Ita quod sicut angelis post casum non remittitur 
+      pctnui<lb ed="#P" n="88" break="no"/>mortale: ita etiam nec hominibus post mortem. sed 
+      ob<lb ed="#P" n="89" break="no"/>stinantur simpliciter: et in tali statu firmantur numquam ad 
+      <lb ed="#P" n="90"/>gratiam reuersuri.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e507">
+      ¶ Sed de peccato veniali dicitur quod 
+      <lb ed="#P" n="91"/>remittitur. et potest aliquando remitti post vitam istam. et hoc 
+      <lb ed="#P" n="92"/>vel in instanti mortis: in quo anima est iam separa 
+      <lb ed="#P" n="93"/>ta primo a corpore vel etiam in tpare sequenti.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e516">
+      ¶ Et 
+      <lb ed="#P" n="94"/>assignantur duo modi: Unus est iste. pctantum veniale 
+      <lb ed="#P" n="95"/>remitti nihil aliud est quam penam ipsius vel pro ipso de 
+      <lb ed="#P" n="96"/>bitam exsolui vel expleri. quia de peccato post actum 
+      <lb ed="#P" n="97"/>pctim nihil manet: nisi reatus et obligatio ad penan 
+      <lb ed="#P" n="98"/>que tollitur vel soluitur per solutionem pene: sed 
+      pos<lb ed="#P" n="99" break="no"/>hanc vitam potest pena pctim venialis perfecte solui et 
+      ex<lb ed="#P" n="100" break="no"/>pleri per aliquod tempus finitum. quia non sibi 
+      correspon<lb ed="#P" n="101" break="no"/>det pena perpetua nec per se nec pec accidens: sicut 
+      di<lb ed="#P" n="102" break="no"/>cetur in sequenti articulo. ergo pctantum veniale potest remit 
+      <lb ed="#P" n="103"/>ti post hanc vitam. sic non est de peccato mortali. quod 
+      <lb ed="#P" n="104"/>pctantum mortale habet penam perpetuam sibi 
+      correspon<lb ed="#P" n="105" break="no"/>dentem. et ideo non potest exsolui nec compleri. quare etc 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e546">
+               <lb ed="#P" n="106"/>¶ Sed iste modus non videtur valere. Primo quia 
+      <lb ed="#P" n="107"/>aliud est remittere pctantum quantum ad culpam: et aliud 
+      <lb ed="#P" n="108"/>quantum ad penam et quantum ad reatum: sicut dictum est supra. 
+      <lb ed="#P" n="109"/>Et ita illa solutio pene non est remissio culpe.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e557">
+      ¶ 
+      Se<lb ed="#P" n="110" break="no"/>cundo. quia exigere penam totalem culpe debitam non est 
+      re<lb ed="#P" n="111" break="no"/>mittere cuipam: nec etiam penam. exigere enim non est 
+      re<lb ed="#P" n="112" break="no"/>mittere: et ita non remittitur culpa per hoc: quod soluitur 
+      <lb ed="#P" n="113"/>pena: sed potius pena pro culpa ipsa exigitur. 
+      pa<lb ed="#P" n="114" break="no"/>tet in exemplo de pctato mortali. non enim remittitur 
+      <lb ed="#P" n="115"/>nec in toto nec in parte: dato quod pena pro ipso solua 
+      <lb ed="#P" n="116"/>tur vel saltem pars ipsa pene.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e575">
+      ¶ Tertio etiam. quia ex 
+      di<lb ed="#P" n="117" break="no"/>ctis illis seque retur: quod peccatum mortale esset 
+      simpli<lb ed="#P" n="118" break="no"/>citer irremissibile: si tamen sibi correspondeat pena 
+      perpe<lb ed="#P" n="119" break="no"/>tua. quia pena perpetua non potest exsolui nec compleri siue 
+      <lb ed="#P" n="120"/>in vita ista siue in alia. quare etc.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e586">
+      ¶ Est ergo alius 
+      mo<lb ed="#P" n="121" break="no"/>dus: qui non vadit ad solutionem pene. Dicit enim quod 
+      <lb ed="#P" n="122"/>aliquando in morte vel in instanti mortis quod est post 
+      ten<lb ed="#P" n="123" break="no"/>pus huius vite merita bona morientis in charitate 
+      <lb ed="#P" n="124"/>precedentia in habente pctanm veniale cum quibus 
+      mo<lb ed="#P" n="125" break="no"/>ritur: acceptantur a deo ad remissionem peccati venia 
+      <lb ed="#P" n="126"/>lis: quod non fuit dimissum in vita propter aliquod 
+      impedi<lb ed="#P" n="127" break="no"/>mentum: puta propter actum continuandi tale peccatum vel 
+      <lb ed="#P" n="128"/>niale. quod quidem impedimentum obest: ne talia 
+      me<lb ed="#P" n="129" break="no"/>rita sortiantur suum effectum in vita scilicet remissionem pec¬ 
+      <!--195.xml-->
+      <pb ed="#P" n="99-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cati venialis: sed statim in instanti mortis cessante 
+      <lb ed="#P" n="2"/>predicto impedimento habetur talis effectus: et ad 
+      <lb ed="#P" n="3"/>talem effectum consequendum manent ipsa merita praecedentia 
+      in<lb ed="#P" n="4" break="no"/>acceptatione diuina: et pro tunc. quia pro tunc cessat in 
+      <lb ed="#P" n="5"/>eo actus continuandi peccatum veniale.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e625">
+      ¶ Ex quo 
+      <lb ed="#P" n="6"/>sequuntur duo correlaria. Primum est: quod in 
+      instan<lb ed="#P" n="7" break="no"/>ti mortis remittuntur venialia quantum ad culpam. Ut 
+      <lb ed="#P" n="8"/>nialia dico: que vsque tunc manent remittenda. quia tunc 
+      <lb ed="#P" n="9"/>primo cessat impedimentum remissionis. scilicet actus 
+      comn<lb ed="#P" n="10" break="no"/>tinuandi veniale.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e638">
+      ¶ Secundum correlarium est: quod 
+      <lb ed="#P" n="11"/>pecedenti in charitate omnia venialia remittuntur 
+      <lb ed="#P" n="12"/>in vita et ante mortem vel instans mortis: nisi continuet 
+      <lb ed="#P" n="13"/>actum peccati venialis vsque ad instans mortis. quia 
+      <lb ed="#P" n="14"/>cessante actu cessat impedimentum remissionis siue 
+      <lb ed="#P" n="15"/>in vita siue in morte. Nisi dicatur deum ordinasse: quod 
+      <lb ed="#P" n="16"/>pona eius non acceptentur ad remissionem venialis: 
+      <lb ed="#P" n="17"/>nisi pro instanti mortis et non pro tempore vie. Sicut 
+      po<lb ed="#P" n="18" break="no"/>nitur exemplum. quod meritum quodcunque vel opus me 
+      <lb ed="#P" n="19"/>ritorium ex charitate quantuncumque remissum et imperfe 
+      <lb ed="#P" n="20"/>ctum meretur augmentum gratiae: sicut et aliquem gradum 
+      <lb ed="#P" n="21"/>determinatum glorie: cui correspondet vt 
+      dispositio<lb ed="#P" n="22" break="no"/>preuia aliquis gradus gratiae. et cum deus non semper 
+      <lb ed="#P" n="23"/>immediate ad quemcumque actum meritorium auget 
+      gra<lb ed="#P" n="24" break="no"/>tiam: proportionaliter videtur: quod augmentum gratie 
+      debi<lb ed="#P" n="25" break="no"/>tum meritis remissis deus reseruet vsque ad instans 
+      <lb ed="#P" n="26"/>mortis: et eodem modo de ista deletione venialium 
+      <lb ed="#P" n="27"/>que est quoddam premium precedentium meritorum 
+      mo<lb ed="#P" n="28" break="no"/>rientis in charitate: non quidem meritum principale nec 
+      <lb ed="#P" n="29"/>essentiale sed secundarium et accidentale.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e683">
+      ¶ Licet 
+      au<lb ed="#P" n="30" break="no"/>tem iste modus sit probabilis: et quantum ad multa possit 
+      <lb ed="#P" n="31"/>sustineri: videntur tamen aliqua dubia in eo 
+      conti<lb ed="#P" n="32" break="no"/>neri.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e692">
+      ¶ Primo quantum ad hoc finale: quod dicitur in fine: 
+      <lb ed="#P" n="33"/>quod deus expectat remittere venialia vsque ad instans 
+      <lb ed="#P" n="34"/>mortis: dato quod non continuetur impedimentum actus 
+      <lb ed="#P" n="35"/>venialis. Non enim videtur rationabile: quin praemiun 
+      <lb ed="#P" n="36"/>compossibile viatori statim detur sibi in via: dum tamen 
+      <lb ed="#P" n="37"/>non habeat aliquid repugnans vel incompossibile tal 
+      <lb ed="#P" n="38"/>premio id est pro tunc quando est sibi compossibile. sed 
+      cese<lb ed="#P" n="39" break="no"/>lante actu pctim venialis continuatio premium remissio 
+      <lb ed="#P" n="40"/>nis est compossibile habenti charitatem et debitum ex 
+      pre<lb ed="#P" n="41" break="no"/>cedentibus meritis: igitur pro tunc datur sibi. Sic etiam 
+      <lb ed="#P" n="42"/>statim ad susceptionem sacramenti extreme vnctionis 
+      <lb ed="#P" n="43"/>merito passionis christi sequitur remissio pecti venia 
+      <lb ed="#P" n="44"/>lis: quod inuenit remittendum cessante actu peccati 
+      <lb ed="#P" n="45"/>venialis in suscipiente: nec expectatur talis 
+      remis<lb ed="#P" n="46" break="no"/>sio vsque ad instans mortis.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e725">
+      ¶ Secundo etiam idem 
+      <lb ed="#P" n="47"/>videtur de merito et gratia: quod si merito cuilibet 
+      de<lb ed="#P" n="48" break="no"/>condigno quantumcumque remissio correspondet pro 
+      pre<lb ed="#P" n="49" break="no"/>mio augmentum gratrie: quod tamen non communiter 
+      te<lb ed="#P" n="50" break="no"/>netur: cum tale meritum sit compossibile merenti 
+      pro<lb ed="#P" n="51" break="no"/>statu vie: nec appareat ratio dilationis: statim 
+      con<lb ed="#P" n="52" break="no"/>fertur sibi: nec expectatur vsque ad instans mortis 
+      <lb ed="#P" n="53"/>secus est de premio glorie: quod non est compossibile 
+      <lb ed="#P" n="54"/>viatori.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e745">
+      ¶ Similiter etiam iste qui ponit hunc 
+      mo<lb ed="#P" n="55" break="no"/>dum dicit: quod habenti aliquando minus de de 
+      gra<lb ed="#P" n="56" break="no"/>tia correspondet maior gloria secundum plura merita que 
+      <lb ed="#P" n="57"/>habet vel habere potest: quam ille qui habet maiorem 
+      glo<lb ed="#P" n="58" break="no"/>riam. igitur non oportet: quod meritum quantumcumque remissum lice 
+      <lb ed="#P" n="59"/>mereatur aliquem gradum glorie. quod mereatur etiam 
+      au<lb ed="#P" n="60" break="no"/>gmentum gratie vt dispositionis ad gloriam. quia habens 
+      <lb ed="#P" n="61"/>minorem gratiam et plura merita. dispositus est ad 
+      ma<lb ed="#P" n="62" break="no"/>lorem gloriam: quam habens maiorem gratiam et pauciora me 
+      <lb ed="#P" n="63"/>rita secundum ipsum.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e767">
+      ¶ Preterea etiam. quia non intelligo: quod 
+      <lb ed="#P" n="64"/>sit aliquod premium compossibile viatori debitum sibi: et 
+      <lb ed="#P" n="65"/>nunquam habeatur ab eo: nec habendum sit. sed sic esset 
+      <!--195.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>in proposito. contingit enim quod aliquis damnandus 
+      fi<lb ed="#P" n="67" break="no"/>naliter in instanti mortis habet in vita sua aliqua me 
+      <lb ed="#P" n="68"/>rita de condigno remissa: quibus secundum te meretur au 
+      <lb ed="#P" n="69"/>gmentum gratie: quod est sibi compossibile. et tamen cum 
+      <lb ed="#P" n="70"/>expectetur istud premium: et differatur vsque ad 
+      in<lb ed="#P" n="71" break="no"/>stans mortis: cum in illo instanti mortis damnetur 
+      <lb ed="#P" n="72"/>nunquam tale premium consequetur.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e793">
+      ¶ Si dicas: quod non 
+      <lb ed="#P" n="73"/>est inconueniens sicut nec de gloria quam non 
+      consequi<lb ed="#P" n="74" break="no"/>tur propter impedimentum peccati mortalis: in quo 
+      <lb ed="#P" n="75"/>noritur. Dico quod non est simile. quia gloria non fuit 
+      sibi<lb ed="#P" n="76" break="no"/>compossibilis pro statu vie: sicut augmentum gratie 
+      <lb ed="#P" n="77"/>pro quando merebatur. nec apparet aliquod impedimen 
+      <lb ed="#P" n="78"/>tum quare differri debeat vsque ad instans mortis: 
+      <lb ed="#P" n="79"/>sicut de gloria: nec per consequens quare pro tunc 
+      impedi<lb ed="#P" n="80" break="no"/>tur: sicut gloria impeditur. quantum ad alia potest 
+      mo<lb ed="#P" n="81" break="no"/>dus predictus dicendi sustineri.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e816">
+      ¶ Tertius modus 
+      <lb ed="#P" n="82"/>videtur possibilis. scilicet quod peccatum veniale post hanc 
+      vi<lb ed="#P" n="83" break="no"/>tam remittatur decedenti in charitate per aliquen 
+      <lb ed="#P" n="84"/>actum bonum conuersionis anime ad deum vel 
+      displi<lb ed="#P" n="85" break="no"/>scentie de tali pctato non obstante: quod sit extra viam. 
+      po<lb ed="#P" n="86" break="no"/>test similiter mereri talem remissionem culpe 
+      venia<lb ed="#P" n="87" break="no"/>lis: licet non possit peccare: nec aliquid amplius me 
+      <lb ed="#P" n="88"/>reri de premio essentiali: nec de augmento gratie 
+      <lb ed="#P" n="89"/>Sicut de angelis beatis dicitur: quod quottidie 
+      ministran<lb ed="#P" n="90" break="no"/>do hominibus et custodiendo eos: merentur aliquid de 
+      <lb ed="#P" n="91"/>premio accidentali. ita quod si moriens in charitate 
+      con<lb ed="#P" n="92" break="no"/>tinuet pctantum veniale vsque ad instans mortis illud vel 
+      <lb ed="#P" n="93"/>niale potest hoc modo deleri: et forte aliquando dele 
+      <lb ed="#P" n="94"/>tur. nescio tamen: nec volo affirmare. quo fiat hoc 
+      <lb ed="#P" n="95"/>deus nouit. Hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e849">
+               <lb ed="#P" n="96"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="97" break="no"/>culum dicunt aliqui quod pctato veniali per se et secundum se 
+      <lb ed="#P" n="98"/>correspondet tantum pena temporalis et non 
+      pens<lb ed="#P" n="99" break="no"/>erpetua: sed magis ipsi peccato mortali. Istud pro 
+      <lb ed="#P" n="100"/>batur: quia pctantum veniale stat cum gratia vel 
+      charita<lb ed="#P" n="101" break="no"/>te: per quam aliquis est dignus vita eterna et per 
+      con<lb ed="#P" n="102" break="no"/>sequens non potest esse simul pena eterna pro 
+      pecca<lb ed="#P" n="103" break="no"/>to veniali: et sic peccato veniali correspodet per se 
+      <lb ed="#P" n="104"/>pena tparalis. per accidens autem quando pectantum mortale 
+      con<lb ed="#P" n="105" break="no"/>comitatur pctantum veniale: et in illo mortali moriatur 
+      <lb ed="#P" n="106"/>peccator.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e875">
+      ¶ Et similiter in veniali. dicunt quod 
+      pecteo<lb ed="#P" n="107" break="no"/>veniali correspondet pena eterna et pro vtroque 
+      per<lb ed="#P" n="108" break="no"/>petuo punietur. Hoc probatur primo. quia pctantum 
+      ve<lb ed="#P" n="109" break="no"/>niale in tali perpetuo manebit quantum ad culpam: nec 
+      <lb ed="#P" n="110"/>vnquam remittetur. et per consequens perpetuo etiam manebit quantum 
+      <lb ed="#P" n="111"/>ad penam. Secundo quia alias in inferno esset peccati 
+      al<lb ed="#P" n="112" break="no"/>cuius redemptio puta pcti venialis: si pena tmparali et 
+      ali<lb ed="#P" n="113" break="no"/>quando finibili puniretur. hoc autem est falsum. quare etc 
+      <lb ed="#P" n="114"/>primum dictum non arguo. quia est 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e895">
+               <lb ed="#P" n="115"/>¶ Contra verum. Sed contra secundum 
+      probo<lb ed="#P" n="116" break="no"/>quod peccato veniali nullo modo debetur pena 
+      perpetus<lb ed="#P" n="117" break="no"/>etiam per accidens.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e904">
+      ¶ Primo sic pctato veniali non 
+      co<lb ed="#P" n="118" break="no"/>respondet pena grauior intensiue: quantumcumque 
+      concomite<lb ed="#P" n="119" break="no"/>tur pctantum mortale: quam conueniat sibi ipsi per se. hoc patet 
+      <lb ed="#P" n="120"/>quia si sic: tunc eque grauis pena corresponderet pcto 
+      ve<lb ed="#P" n="121" break="no"/>niali intensiue: sicut pctto mortali: sed hoc est falsum 
+      <lb ed="#P" n="122"/>igitur vera est illa assumpta. igitur pari ratione non correspondei 
+      <lb ed="#P" n="123"/>pcton veni ali graouior pena extensiue: quam correspondeat 
+      sibi<lb ed="#P" n="124" break="no"/>per se. cum igitur per se non correspondeat sibi nisi pena tparalis 
+      <lb ed="#P" n="125"/>videtur quod nec ratione pctim mortalis concomitantis.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e924">
+      ¶ Se 
+      <lb ed="#P" n="126"/>cundo sic. deus non punit bis in idipsum: sicut nec iudicat 
+      <lb ed="#P" n="127"/>vt dicitur in naum. sed sequeretur quod deus bis puniret in idipsum 
+      <lb ed="#P" n="128"/>Probatio nam secundum istam positionem habens pecca. 
+      <lb ed="#P" n="129"/>tum mortale et veniale punitur duplici pena eter¬ 
+      <!--196.xml-->
+      <pb ed="#P" n="99-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>na. Tunc quero de altera istarum ratione cuius 
+      pec<lb ed="#P" n="2" break="no"/>cati vel venialis vel mortalis punitur iste per illam 
+      <lb ed="#P" n="3"/>penam: que est secunda. Non potest dici quod ratione venia 
+      <lb ed="#P" n="4"/>lis. quia tunc pctoto veniali per se corresponderet pens 
+      <lb ed="#P" n="5"/>eterna. quod est contra eos et contra veritatem igitur ratione 
+      pcti<lb ed="#P" n="6" break="no"/>mortalis punitur illa pena eterna secunda. et ita bis 
+      pu<lb ed="#P" n="7" break="no"/>nitur in idipsum. hoc autem est falsum. Si dicas: quod 
+      <lb ed="#P" n="8"/>punitur ratione pecti venialis. non secundum se sed vt 
+      conco<lb ed="#P" n="9" break="no"/>mitantis pctantum mortale. Contra quia ista concomitantia 
+      <lb ed="#P" n="10"/>non aggrauat peccatum veniale vsque ad mortale: sed 
+      <lb ed="#P" n="11"/>semper manet veniale. igitur non aggrauat penam 
+      <lb ed="#P" n="12"/>quin semper maneat tparalis: ac si solum esset pctantum 
+      <lb ed="#P" n="13"/>veniale sine mortali.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e971">
+      ¶ Tertio sic. pctantum veniale quam 
+      <lb ed="#P" n="14"/>tumcumque concomitetur mortale improportionabiliter 
+      <lb ed="#P" n="15"/>se habet ad mortale in offensa. Unde et si essent qua 
+      <lb ed="#P" n="16"/>si infinita immo infinita venialia: non equipollerent 
+      <lb ed="#P" n="17"/>vni mortali in offensa. ergo pctantum veniale 
+      quantumcun<lb ed="#P" n="18" break="no"/>que concomitetur mortale improportionabiliter se 
+      ha<lb ed="#P" n="19" break="no"/>bet in pena. Sed ista improportionabilitas non 
+      po<lb ed="#P" n="20" break="no"/>test attendi secundum intentionem pene. quia pena nulla est 
+      <lb ed="#P" n="21"/>infinita intensiue. ergo debet intelligi secundum extensionem. 
+      <lb ed="#P" n="22"/>et per consequens vna pena est perpetua. scilicet illa que debet 
+      <lb ed="#P" n="23"/>tur pctto mortali. et alia tparalis: que debetur 
+      pcto<lb ed="#P" n="24" break="no"/>veniali: quantumcumque concomitetur mortale.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e997">
+      ¶ 
+      Quar<lb ed="#P" n="25" break="no"/>to sic. aliquis in via habens pctantum mortale et venia 
+      <lb ed="#P" n="26"/>le simul non obligatur nisi semel ad penam perpetuam 
+      <lb ed="#P" n="27"/>scilicet ratione peccati mortalis. vnde et si confiteatur non 
+      <lb ed="#P" n="28"/>est nisi vna mutatio pene eterne in temporalem. 
+      Alio<lb ed="#P" n="29" break="no"/>quin enim necessario aliquis teneretur confiteri de 
+      <lb ed="#P" n="30"/>venialibus: sicut et de mortalibus: licet per accidens 
+      <lb ed="#P" n="31"/>ratione mortalium. sed decedens in mortali cum 
+      ve<lb ed="#P" n="32" break="no"/>niali non soluit nec solum penam: nisi ad quam 
+      obli<lb ed="#P" n="33" break="no"/>gatus est: vel erat dum viueret. ergo etc. 
+      <lb ed="#P" n="34"/>breuiter: quod nullo modo 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1021">
+               <lb ed="#P" n="35"/>¶ Dico igituc peccato veniali 
+      correspon<lb ed="#P" n="36" break="no"/>det pena perpetua vel eterna: quia deus nunquam punit 
+      <lb ed="#P" n="37"/>vltra condignum culpe: quicquid aliud concomitetur 
+      <lb ed="#P" n="38"/>sed semper citra dignum. Et ideo dico: quod pro 
+      pcto<lb ed="#P" n="39" break="no"/>veniali nunquam punit nisi pena temporali. Et ideo 
+      di<lb ed="#P" n="40" break="no"/>co vltra: quod in inferno non punietur aliquis 
+      perpetuo<lb ed="#P" n="41" break="no"/>bro pcto veniali: sed aliquando pena cuiuslibet talis 
+      pec<lb ed="#P" n="42" break="no"/>cati finietur. Non enim magis videtur pena 
+      venia<lb ed="#P" n="43" break="no"/>is peccati esse perpetuo exquirenda vel soluendam 
+      <lb ed="#P" n="44"/>quam pena mortalis peccati prius remissi superueniente 
+      <lb ed="#P" n="45"/>nouo peccato moriali: in quo decedat ille: qui 
+      ha<lb ed="#P" n="46" break="no"/>bet soluere penam istam. et planum est: quod iste non 
+      <lb ed="#P" n="47"/>punietur pena eterna pro pctato mortali prius remisso: 
+      <lb ed="#P" n="48"/>sed solum pena tmparali: in quam commutata fuit pena eter 
+      <lb ed="#P" n="49"/>na illius peccati: de quo penituit. Sed bene punie 
+      <lb ed="#P" n="50"/>tur pena eterna pro nouo pctato quod incurrit: et in quo 
+      <lb ed="#P" n="51"/>decessit. ergo multominus pro pctio veniali punietur 
+      <lb ed="#P" n="52"/>quis vnquam pena eterna. sed tantum 
+      temporali<lb ed="#P" n="53" break="no"/>aliorum pro secundo dicto 
+      vi<lb ed="#P" n="54" break="no"/>Ad primum dentur aliqui dicere: quod 
+      pec<lb ed="#P" n="55" break="no"/>latum veniale in purgatorio eoipso dimittitur: quod pens 
+      <lb ed="#P" n="56"/>ro eo persoluitur. Et ita videretur dicere 
+      conse<lb ed="#P" n="57" break="no"/>quenter: quod pectantum veniale quantum ad culpam in 
+      infer<lb ed="#P" n="58" break="no"/>no remittitur. quia et pena sua ibidem persoluitur. Non 
+      <lb ed="#P" n="59"/>quod idem sit penam solui et pctantum remitti: sed 
+      concomi<lb ed="#P" n="60" break="no"/>tanter. Aliter diceretur quod pecim vel culpa 
+      perpetuo<lb ed="#P" n="61" break="no"/>manet in inferno vel pectantum quantum ad culpam. sed non 
+      <lb ed="#P" n="62"/>oportet propter hoc: quod pena sit perpetua. quia licet 
+      <lb ed="#P" n="63"/>non remittatur culpa: sed semper displiceat ipse 
+      <lb ed="#P" n="64"/>peccator deo non solum propter culpam mortalem sed 
+      <lb ed="#P" n="65"/>etiam propter venialem: non tamen amplius vult punirer 
+      <!--196.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>quando iam sufficienter punitus est pena tparali 
+      correspon<lb ed="#P" n="67" break="no"/>dente pcto veniali. secus est de mortali cui 
+      corre<lb ed="#P" n="68" break="no"/>spondet pena eterna.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1102">
+      ¶ Ad secundum diceretur a 
+      <lb ed="#P" n="69"/>in inferno de communi lege nulla est redemptio quia 
+      <lb ed="#P" n="70"/>nullus liberatur ab ipso nec in eo expiatur pctantum 
+      <lb ed="#P" n="71"/>mortale: in quo damnatus moritur nec quantum ad 
+      <lb ed="#P" n="72"/>tulpam nec quantum ad penam. quia nullum istorum 
+      termina<lb ed="#P" n="73" break="no"/>tur. sed de pcto veniali non orm. sed de eo dici prtet: sicut 
+      <lb ed="#P" n="74"/>superius dicebatur Hec de tertio articulo principali 
+      <lb ed="#P" n="75"/>tr principale argumentum di¬ 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1120">
+               <lb ed="#P" n="76"/>¶ Ad primum i corquod penitentia in 
+      extre<lb ed="#P" n="77" break="no"/>mis debite circunstantionata vtilis est: et per ipsam 
+      <lb ed="#P" n="78"/>remittuntur pctam.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1129">
+      ¶ Ad primam auctoritatem 
+      Augu<lb ed="#P" n="79" break="no"/>stini dico: quod presumptio illa probabilis est secundum 
+      com<lb ed="#P" n="80" break="no"/>tingentia vt in pluribus. quia penitentia 
+      circumstantiona<lb ed="#P" n="81" break="no"/>ta debite difficilis est in extremis. et ideo vt in 
+      pau<lb ed="#P" n="82" break="no"/>cioribus penitentia extrema est vtilis. sed 
+      praesumptio<lb ed="#P" n="83" break="no"/>non concludit necessario et vniuersaliter. in aliquibus enim 
+      <lb ed="#P" n="84"/>icet raro vtilis est.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1146">
+      ¶ Ad secundam auctoritatem dico 
+      <lb ed="#P" n="85"/>quod pector moriens vt in pluribus obliuiscitur sui: quia non 
+      <lb ed="#P" n="86"/>habet penitentiam efficacem: licet aliquando et vt in paucioribus 
+      <lb ed="#P" n="87"/>contingat oppositum.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1155">
+      ¶ Ad aliam auctoritatem dico: quod 
+      <lb ed="#P" n="88"/>periculosum est et perniciosum se exponere periculo. 
+      <lb ed="#P" n="89"/>scienter et aduertenter et ex deliberbtione expectando 
+      <lb ed="#P" n="90"/>penitentiam extremam: volendo numquam penitere nisi in 
+      ex<lb ed="#P" n="91" break="no"/>tremis. sed ipsa penitentia in extremis non est 
+      pericu<lb ed="#P" n="92" break="no"/>losa in extremis immo liberat: et saluat etiam a 
+      pcto<lb ed="#P" n="93" break="no"/>illo quo expectabatur et volebat aliquis numquam penite 
+      <lb ed="#P" n="94"/>re donec in extremis.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1173">
+      ¶ Ad aliam auctoritatem 
+      di<lb ed="#P" n="95" break="no"/>co: quod quandiu homo habet vsum liberi arbitrii: potest 
+      <lb ed="#P" n="96"/>peccare etiam in extremis saltem actu interiori vel per 
+      <lb ed="#P" n="97"/>complacentiam in pctatum. licet non possit aliquando actu 
+      ex<lb ed="#P" n="98" break="no"/>teriori. et ita potest pctantum dimittere et digne penite 
+      <lb ed="#P" n="99"/>re. et pectantum dimittere non solum: quod pctantum ipsum dimittat 
+      <lb ed="#P" n="100"/>licet in actu exteriori pectantum dimittat eum. Qnde dicit 
+      au<lb ed="#P" n="101" break="no"/>gust. pctam te dimittunt: non tu illa. dicitur quod verum est de 
+      <lb ed="#P" n="102"/>actu vel quantum ad actum exteriorem.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1193">
+      ¶ Ad secundum 
+      <lb ed="#P" n="103"/>dico quod legislator non debet omitterelilla: que decent 
+      <lb ed="#P" n="104"/>ipsum statuere et legem suam: et quod est maioris 
+      bo<lb ed="#P" n="105" break="no"/>ni quam malum possit inde assumi: dato quod aliquis 
+      assu<lb ed="#P" n="106" break="no"/>mat occasionem mali. Modo dico: quod finalem 
+      peniten<lb ed="#P" n="107" break="no"/>tiam ordinari decet deum et legen clementie: et est ad 
+      ma<lb ed="#P" n="108" break="no"/>ius bonum directe puta salutem tardorum quam 
+      assuma<lb ed="#P" n="109" break="no"/>tur inde malum. et ita non debuit pretermittere 
+      ordi<lb ed="#P" n="110" break="no"/>nationem de finali penitentia. licet aliqui 
+      infirmi<lb ed="#P" n="111" break="no"/>vel mali assumant inde occasionem peccandi. est enim 
+      <lb ed="#P" n="112"/>occasio assumpta et non data. magis enim ex hoc 
+      <lb ed="#P" n="113"/>deberent abstinere a peccato videntes bonitatem et 
+      <lb ed="#P" n="114"/>llementiam domini. Alioquin enim nunquam debuisset deus 
+      in<lb ed="#P" n="115" break="no"/>stituisse hominibus penitentiam sicut nec angelis. quia 
+      <lb ed="#P" n="116"/>multi homines accipiunt inde occasionem peccandi 
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1226">
+               <lb ed="#P" n="117"/>¶ Ad tertium quod erat pro alio de remissione scilicet 
+      ve<lb ed="#P" n="118" break="no"/>nialium post vitam. Dico quod secundum intensionem 
+      magistri<lb ed="#P" n="119" break="no"/>et doctorum: quod pctantum veniale aliquando dimittitur et potest 
+      <lb ed="#P" n="120"/>dimitti post vitam. Undo dicis quod non: quia iustus 
+      mo<lb ed="#P" n="121" break="no"/>riens post vitam non potest peccare. igitur nec aliquis 
+      <lb ed="#P" n="122"/>a pcto resurgere. Dico quod non sequitur: et hoc ex 
+      mina<lb ed="#P" n="123" break="no"/>diuina sic ordinante et vt preseruet iustum a pctoto et 
+      <lb ed="#P" n="124"/>nihilominus liberet mortuum a veniali pctato et hoc 
+      <lb ed="#P" n="125"/>aliquo modorum predictorum.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1248">
+      ¶ Si dicas quod mors est 
+      <lb ed="#P" n="126"/>pena susticiens pro veniali pcto: et ita non debetur 
+      am<lb ed="#P" n="127" break="no"/>plius pena: nec manet culpa. Dico quod mors si esset 
+      <lb ed="#P" n="128"/>voluntarie acceptata a moriente in remissionem pectorum 
+      <lb ed="#P" n="129"/>suorum posset esse pena sufficiens suorum venialium: et 
+      <lb ed="#P" n="130"/>forte magne partis pene debite pro mortalibus 
+      <!--197.xml-->
+      <pb ed="#P" n="100-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>remissis. Sed frequenter non sic est acceptata et 
+      ma<lb ed="#P" n="2" break="no"/>net pena soluenda.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1273">
+      ¶ Si dicas: quod resurgere est 
+      dif<lb ed="#P" n="3" break="no"/>ficilius: quam cadere in pectatum: quia habet rationem 
+      ali<lb ed="#P" n="4" break="no"/>cuius meriti. et tamen post vitam non potest quis 
+      cade<lb ed="#P" n="5" break="no"/>in peccatum: nec demereri. igitur nec resurgere a 
+      <lb ed="#P" n="6"/>peccato vel mereri. Dico quod quantum est ex natura 
+      rei<lb ed="#P" n="7" break="no"/>imiliter et absolute loquendo: nisi deus preseruaret: 
+      <lb ed="#P" n="8"/>ita posset aliquis post vitam cadere vel facilius quam 
+      re<lb ed="#P" n="9" break="no"/>surgere a pcton per actum proprium. sed deus 
+      pre<lb ed="#P" n="10" break="no"/>seruat iustum post vitam: ne possit cadere: et dat 
+      pec<lb ed="#P" n="11" break="no"/>catori virtutem vt a pctoto veniali possit resurgere. et 
+      <lb ed="#P" n="12"/>hoc ex sua mina.
+      </p>
+            <p xml:id="qrdBas-f58645-d1e1297">
+      ¶ Si dicas quare non sic facit de 
+      <lb ed="#P" n="13"/>mortali: Dico quod non placet sibi nec ita decet: quod 
+      iu<lb ed="#P" n="14" break="no"/>uet inimicum post vitam sicut amicum. qui decedit in 
+      ve<lb ed="#P" n="15" break="no"/>niali. Preterea etiam non oportet dicere: si teneatur 
+      <lb ed="#P" n="16"/>secundus modus secundi articuli: quod post vitam istam 
+      <lb ed="#P" n="17"/>remittatur alicui veniale per actum aliquem elicitum et 
+      <lb ed="#P" n="18"/>meritorium talis remissionis que habeat tunc: sed 
+      ma<lb ed="#P" n="19" break="no"/>gis virtute meritorum precedentium: vt manent in 
+      ac<lb ed="#P" n="20" break="no"/>ceptatione diuina ad talem effectum remissionis 
+      ve<lb ed="#P" n="21" break="no"/>nialium pro instanti mortis. Et sic cum resurgere a 
+      <lb ed="#P" n="22"/>pcton veniali non sit agere: similiter etiam nec primos 
+      <lb ed="#P" n="23"/>modo est penam soluere: et sic pati et non agere: et 
+      ca<lb ed="#P" n="24" break="no"/>dere in pectantum commissionis saltem sit agere: quod non est 
+      <lb ed="#P" n="25"/>difficilius a peccato resurgere isto modo. quam 
+      cade<lb ed="#P" n="26" break="no"/>re sed econuerso: non curo multum de hoc. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

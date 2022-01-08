@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 4</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 4</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="74-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f43826"><!--l4d12q4 -->
+            <head xml:id="qrdBas-f43826-Hd1e99">Quaestio 4</head>
+            <p xml:id="qrdBas-f43826-d1e101">
+               <lb ed="#P" n="33"/>¶ Distinctionis duodecime. 
+      <lb ed="#P" n="34"/>Questio quarta
+    </p>
+            <p xml:id="qrdBas-f43826-d1e108">
+               <lb ed="#P" n="35"/>QUarto quaero 
+      utru<lb ed="#P" n="36" break="no"/>ex speciebus 
+      sacramentalib<lb ed="#P" n="37" break="no"/>quando corrumpuntur 
+      euchar<lb ed="#P" n="38" break="no"/>stia non manente: possit 
+      ali<lb ed="#P" n="39" break="no"/>quid generari.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e121">
+      ¶ Uidetur quod 
+      <lb ed="#P" n="40"/>non. generatio non fit nec 
+      fi<lb ed="#P" n="41" break="no"/>ri potest nisi ex materia: patet 
+      <lb ed="#P" n="42"/>sed ibi nulla est materia quia 
+      <lb ed="#P" n="43"/>nulla est substantia. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e132">
+      ¶ Secundo sic. si esset 
+      ib<lb ed="#P" n="44" break="no"/>aliqua generatio possibilis: illam concomitaretur 
+      corru<lb ed="#P" n="45" break="no"/>ptio aliqua. quia generatio vnius est corruptio alterius 
+      <lb ed="#P" n="46"/>et econuerso. sed ibi nulla est corruptio substantialis: 
+      <lb ed="#P" n="47"/>quia ibi non est materia. vnde nec ipsa quantitas etiam 
+      <lb ed="#P" n="48"/>ibi potest corrumpi etiam accidentaliter: vt videtur: sed 
+      <lb ed="#P" n="49"/>tantum adnihilari. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e149">
+      ¶ Tertio sic. si aliquid 
+      pos<lb ed="#P" n="50" break="no"/>sibile est generari substantialiter: quando iste species 
+      de<lb ed="#P" n="51" break="no"/>struuntur: et non manet eucharistia: aut illud est idem 
+      <lb ed="#P" n="52"/>quod fuisset generatum per corruptionem subiecti 
+      <lb ed="#P" n="53"/>predictarum specierum prius conuersi: aut aliud  
+      <lb ed="#P" n="54"/>Non potest dici quod idem quia non reuertitur eadem 
+      ma<lb ed="#P" n="55" break="no"/>teria que prius fuit conuersa. Non enim potest 
+      reuer<lb ed="#P" n="56" break="no"/>ti eadem nisi per conuersionem materie corperis 
+      chr<lb ed="#P" n="57" break="no"/>sti in ipsam. nec aliquid aliud. quia multominus vide 
+      <lb ed="#P" n="58"/>tur aliqua alia materia reuerti. ergo etc. 
+      <lb ed="#P" n="59"/>per sumptionem istarum specie¬ 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e173">
+               <lb ed="#P" n="60"/>¶ Contia rum homo nutritur. patet ad 
+      sen<lb ed="#P" n="61" break="no"/>sum. Et Apostolus dicit prime ad Corinthios. xi 
+      <lb ed="#P" n="62"/>Alius quidem esurit: alius vero ebrius est. sed hoc 
+      <lb ed="#P" n="63"/>non est nisi aggeneraretur caro: et restauraretur dei 
+      <!--147.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>sditum. ergo aliquid ad corruptionem istarum 
+      spe<lb ed="#P" n="65" break="no"/>cierum generatur. Et similiter etiam expertum est: 
+      <lb ed="#P" n="66"/>quod per putrefactionem earum generantur vermes 
+      <lb ed="#P" n="67"/>vel huiusmodi sicut recte fieret: si substantia panis 
+      <lb ed="#P" n="68"/>vel vini maneret. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e199">
+               <lb ed="#P" n="69"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e204">
+               <lb ed="#P" n="70"/>¶ Primo ponam aliquas opiniones et modos 
+      di<lb ed="#P" n="71" break="no"/>scendi de ipsa.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e211">
+      ¶ Secundo arguam contra eas. 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e213">
+               <lb ed="#P" n="72"/>¶ Tertio respondebo aliter ad questionem. 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e219">
+               <lb ed="#P" n="73"/>¶ Ultimo ad rationes principales. 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e224">
+               <lb ed="#P" n="74"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="75" break="no"/>culum est vna opinio domini Innocentii de officio 
+      <lb ed="#P" n="76"/>misse tertia parte capitulo de fractione: quod desinen 
+      <lb ed="#P" n="77"/>te corpore christi esse sub speciebus quando scilice 
+      <lb ed="#P" n="78"/>iam non habent rationem conuenientis nutrimen 
+      <lb ed="#P" n="79"/>ti corporalis: nec substantia panis etiam si esset 
+      ibi<lb ed="#P" n="80" break="no"/>esset conueniens nutrimentum corporale: et ita 
+      con<lb ed="#P" n="81" break="no"/>sequenter corpus christi tanquam nutrimentum spiritua 
+      <lb ed="#P" n="82"/>le desinit ibi esse: redit substantia panis eadem 
+      nu<lb ed="#P" n="83" break="no"/>mero: que prius fuerat conuersa: licet manentibus 
+      <lb ed="#P" n="84"/>aliquibus accidentibus eucharistie: que tamen tunc 
+      <lb ed="#P" n="85"/>desinit esse: et substantia panis eadem sic habita: potest vel 
+      <lb ed="#P" n="86"/>terius ex ipsa aliquid generari: et naturaliter ab agente 
+      natu<lb ed="#P" n="87" break="no"/>rali sicut si semper fuisset ibi: per vlteriorem alterationem et 
+      <lb ed="#P" n="88"/>corruptionem sui: quam concomitatur: vel potest 
+      concomita<lb ed="#P" n="89" break="no"/>ri generatio alterius. desinente autem eucharistia: redit 
+      sub<lb ed="#P" n="90" break="no"/>stantia panis: et informatur illis accidentibus: que 
+      <lb ed="#P" n="91"/>inuenit ibi: secundum que sic disposita non est conueniens 
+      <lb ed="#P" n="92"/>ad nutrimentum corporale. Nec est nouum 
+      mira<lb ed="#P" n="93" break="no"/>culum: quod desinente eucharistia redeat panis substantia 
+      <lb ed="#P" n="94"/>Nam eadem voluntate ordinatum est hoc: qua 
+      or<lb ed="#P" n="95" break="no"/>dinatum est a deo eucharistiam esse: et accidentia 
+      ma<lb ed="#P" n="96" break="no"/>nere sine subiecto: quandiu manet eucharistia. 
+      ordi<lb ed="#P" n="97" break="no"/>nauit accidentia nunquam esse vel nusquam sine subiecto: 
+      <lb ed="#P" n="98"/>nisi in eucharistia 
+      <lb ed="#P" n="99"/>opinio est: quod facta alteratione 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e283">
+               <lb ed="#P" n="100"/>¶ Secunda vel variatione specierum: cum qua 
+      <lb ed="#P" n="101"/>non maneret substantia panis: si non fuisset 
+      conuer<lb ed="#P" n="102" break="no"/>sa: desinit esse corpus christi: et desinit esse eucharistiam 
+      <lb ed="#P" n="103"/>et incipit ibi esse aliqua materia substantialis de 
+      no<lb ed="#P" n="104" break="no"/>uo: non tamen illa materia panis prius conuersi. quia 
+      <lb ed="#P" n="105"/>vel fuit anihilata: et sic non potest redire: quia anihila 
+      <lb ed="#P" n="106"/>tum redire non potest idem numero: vel si non fuit 
+      <lb ed="#P" n="107"/>adnihilata: non potest redire nisi per conuersionem 
+      <lb ed="#P" n="108"/>corporis christi vel materie eius in ipsam. Et planum 
+      <lb ed="#P" n="109"/>est quod non sic reuertitur: nec habetur ibi materia. 
+      <lb ed="#P" n="110"/>habetur igitur materia vna alia et noua: que nun 
+      <lb ed="#P" n="111"/>quam prefuerat: et hoc a deo immediate. qua quidem 
+      ma<lb ed="#P" n="112" break="no"/>teria habita per vlteriorem alterationem perficiem 
+      <lb ed="#P" n="113"/>tem priorem quasi expulsiuam corporis christi 
+      po<lb ed="#P" n="114" break="no"/>test aliquid generari et virtute agentis naturalis: 
+      <lb ed="#P" n="115"/>licet illud non sit idem numero. quia fuisset 
+      genera<lb ed="#P" n="116" break="no"/>tum de substantia prius conuersa si mansisset. quia 
+      <lb ed="#P" n="117"/>non habet eandem materiam: potest tamen illi esse 
+      <lb ed="#P" n="118"/>simile.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e327">
+      ¶ Similiter patet secundum istos: quod ibi ergo 
+      <lb ed="#P" n="119"/>generatio sine corruptione. vnde nulla substantia 
+      <lb ed="#P" n="120"/>ibi corrumpitur: et tamen aliqua generatur. Nec esgo 
+      <lb ed="#P" n="121"/>nouum miraculum talem materiam ibi poni: et eam 
+      <lb ed="#P" n="122"/>illis accidentibus que inuenit sicut dictum est de 
+      sub<lb ed="#P" n="123" break="no"/>stantia panis in opinione praecedenti. sed fuit hoc 
+      ordina<lb ed="#P" n="124" break="no"/>tum eadem voluntate qua eucharistia ne fides de 
+      eucha<lb ed="#P" n="125" break="no"/>ristia perderet meritum et difficultatem credendi et non 
+      eut<lb ed="#P" n="126" break="no"/>dentiam vel apparentiam crediti: ac sic omnis transmu¬ 
+      <!--148.xml-->
+      <pb ed="#P" n="75-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tatio possibilis si substantia panis maneret: sic hic 
+      <lb ed="#P" n="2"/>possibilis et vertute etiam agentis nanmlis sicut tanc vel sal 
+      <lb ed="#P" n="3"/>tem transmutatio simillis. Et similiter secundo nec per conuersio 
+      <lb ed="#P" n="4"/>nem substantie corporee in corpus christi natura 
+      cor<lb ed="#P" n="5" break="no"/>porea imminueretur: nec per reuersionem augeretur 
+      <lb ed="#P" n="6"/>oportet redire vel creari de nouo ibi tantum de 
+      ma<lb ed="#P" n="7" break="no"/>teria quantum fuerat prius conuersa. et congruum est 
+      <lb ed="#P" n="8"/>omnino quod sit noua. Hec est positio secunda. 
+      <lb ed="#P" n="9"/>est quod in instati conuer¬ 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e373">
+               <lb ed="#P" n="10"/>¶ Tertia opinio sio panis in corpus 
+      chri<lb ed="#P" n="11" break="no"/>sti et vini in sanguinem concreatur ipsis accidentibus vnum 
+      <lb ed="#P" n="12"/>ens inferioris entitatis quam sit materia: quod non est 
+      <lb ed="#P" n="13"/>subiectum accidentium: nec esse potest. et illud 
+      vo<lb ed="#P" n="14" break="no"/>catur purum possibile quod est naturaliter transmu 
+      <lb ed="#P" n="15"/>tabile ad formam vel in formam: et non solum in 
+      <lb ed="#P" n="16"/>formam: sed etiam in materiam. et tunc variatione ad 
+      <lb ed="#P" n="17"/>cidentium vel alteratione facta conuertitur et 
+      trans<lb ed="#P" n="18" break="no"/>mutatur ab agente etiam naturali transmutante illud 
+      <lb ed="#P" n="19"/>purum possibile in materiam aliquam quae fit ibi: ex qua 
+      <lb ed="#P" n="20"/>vlterius potest aliquid naturaliter generari: sicut 
+      ver<lb ed="#P" n="21" break="no"/>mis vel huiuismodi.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e402">
+      ¶ Et hec opinio conuenit cum 
+      <lb ed="#P" n="22"/>secunda quae ponit ibi de nouo adesse aliquam materiam 
+      <lb ed="#P" n="23"/>non eandem quam prius. sed differt ab ea. quia ponit 
+      <lb ed="#P" n="24"/>quod hoc est virtute naturalis agentis. illa vero 
+      secun<lb ed="#P" n="25" break="no"/>da ponit: quod hoc est virtute solius dei creantis licet 
+      <lb ed="#P" n="26"/>bene ponat ista. illud purum possibile a deo 
+      concrea<lb ed="#P" n="27" break="no"/>ri accidentibus. ipsis. 
+      <lb ed="#P" n="28"/>opinio est: que dicit primo: quod 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e421">
+               <lb ed="#P" n="29"/>¶ Quarta en commentatorem primo 
+      phi<lb ed="#P" n="30" break="no"/>sicorum et in de substantia orbis: oportet ponere 
+      in<lb ed="#P" n="31" break="no"/>materia ante aduentum forme substantialis 
+      dimen<lb ed="#P" n="32" break="no"/>siones interminatas. Alioquin non est assignare 
+      mo<lb ed="#P" n="33" break="no"/>dum: per quem forma recipiatur in materia 
+      determi<lb ed="#P" n="34" break="no"/>nata: et diuerse forme in diuersis materiis: 
+      Mate<lb ed="#P" n="35" break="no"/>ria enim non est diuisa nec partita: nisi per 
+      quantita<lb ed="#P" n="36" break="no"/>tem huiusmodi autem dimensiones per formam aduenientem 
+      ac<lb ed="#P" n="37" break="no"/>cipiunt esse terminatum et completum.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e443">
+      ¶ Secundo dicunt 
+      <lb ed="#P" n="38"/>quod quicquid preintelligitur esse in materia ante ad 
+      <lb ed="#P" n="39"/>uentum forme: oportet manere idem numero 
+      inge<lb ed="#P" n="40" break="no"/>nerato et corrupto: nec aliquid talium corrumpitur ad 
+      <lb ed="#P" n="41"/>corruptionem forme quia remoto posteriori vel 
+      cor<lb ed="#P" n="42" break="no"/>rupto non oportet corrumpi vel remoueri id quod ergo 
+      <lb ed="#P" n="43"/>prius. sicut amota forma non oportet corrumpi 
+      mate<lb ed="#P" n="44" break="no"/>riam.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e461">
+      ¶ Tertio dicunt: quod sicut mediantibus talibus 
+      <lb ed="#P" n="45"/>dimensionibus interminatis materia panis 
+      recipe<lb ed="#P" n="46" break="no"/>ret formam eius quod ex pane generaretur pane non com 
+      <lb ed="#P" n="47"/>uerso prius: sed manente: ita modo cum datum sit ipsis 
+      di<lb ed="#P" n="48" break="no"/>mensionibus vel quantitati: vt subsistat et habeat 
+      mo<lb ed="#P" n="49" break="no"/>dum essendi materie quante: et esse simile prioris 
+      sub<lb ed="#P" n="50" break="no"/>stantie: ita datur dimensioni: quod possit subeem forme 
+      na<lb ed="#P" n="51" break="no"/>turali substantiali et ad ipsam transmutari. et hoc 
+      ha<lb ed="#P" n="52" break="no"/>bent non ex natura sua. quia de natura sua tantum possunt 
+      <lb ed="#P" n="53"/>subenem alicui forme accidentali: sed hoc habent ex 
+      na<lb ed="#P" n="54" break="no"/>tura substantiali: cuius fuerunt. et tunc ratione talis 
+      trans<lb ed="#P" n="55" break="no"/>mutationis vel generationis non est necessarium 
+      re<lb ed="#P" n="56" break="no"/>dire aliquam materiam. sed si redit aliqua materia 
+      <lb ed="#P" n="57"/>hoc est vel propter concomitantiam materie ad formam 
+      <lb ed="#P" n="58"/>vel potius forme ad materiam vel vt ipsi 
+      dimensione<lb ed="#P" n="59" break="no"/>virtute diuina detur natura materie propter propino 
+      <lb ed="#P" n="60"/>tatem ad ipsam. vt illud generatum sit compositum 
+      <lb ed="#P" n="61"/>ex materia et forma. licet vt videtur posse dici secundum 
+      <lb ed="#P" n="62"/>positionem istorum: non sit necessarium redire 
+      mate<lb ed="#P" n="63" break="no"/>nam: sed posset haberi aliquid generatum ex dimen 
+      <lb ed="#P" n="64"/>sione et forma substantiali constitutum. Hec de 
+      primo<lb ed="#P" n="65" break="no"/>articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e509">
+        <!--148.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="67" break="no"/>ticulum arguitur contra praedictas opiniones.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e520">
+      ¶ Primo 
+      <lb ed="#P" n="68"/>contra primam sic. quia coniter tenetur quod tandiu 
+      ma<lb ed="#P" n="69" break="no"/>net eucharistia et corpus christi per consequens sub 
+      spie<lb ed="#P" n="70" break="no"/>bus: quandiu maneret substantia panis si esset ibi: et non 
+      <lb ed="#P" n="71"/>fuisset conuersa. Et hoc rationabiliter. quia ad 
+      con<lb ed="#P" n="72" break="no"/>uersionem substantie panis sub ipsis accidentibus 
+      pa<lb ed="#P" n="73" break="no"/>ni. sequitur ex ordinatione diuina praesentia 
+      corpo<lb ed="#P" n="74" break="no"/>ris christi. sed planum est quod substantia panis maneret 
+      <lb ed="#P" n="75"/>non solum quandiu esset coueniens nutrimentum: sed 
+      ad<lb ed="#P" n="76" break="no"/>huc postea quam esset alteratus. vt a modo non esset 
+      <lb ed="#P" n="77"/>conueniens nutrimentum: puta quia nimis desiccatus 
+      <lb ed="#P" n="78"/>vel etiam factus amarus: et huiusmodi. ergo tandiu etiam 
+      <lb ed="#P" n="79"/>manet ibi corpus christi et non redit substantia panis 
+      <lb ed="#P" n="80"/>nisi velis dicere quod simul stant substantia panis et cor 
+      <lb ed="#P" n="81"/>pus christi sub illis speciebus: quod tamen negas. qua 
+      <lb ed="#P" n="82"/>re etc.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e555">
+      ¶ Secundo quia licet possitredire substantia 
+      pa<lb ed="#P" n="83" break="no"/>nis: frustra tamen videtur poni redire per tantum 
+      <lb ed="#P" n="84"/>tempus: antequam ex ipsa aliquid generetur. Sicut eim 
+      <lb ed="#P" n="85"/>agens naturale potest sic alterare illas species: vt 
+      <lb ed="#P" n="86"/>amplius non sint species conuenientis nutrimenti: 
+      <lb ed="#P" n="87"/>ita etiam adhuc amplius dato quod non reuertatur 
+      sub<lb ed="#P" n="88" break="no"/>stantia panis. quia non plus repugnat quantitati 
+      <lb ed="#P" n="89"/>vel dimensioni illa alteratio amplior vel posterior 
+      <lb ed="#P" n="90"/>quam prior: quandiu quantitas ipsa vel dimensio manet. sicut 
+      <lb ed="#P" n="91"/>mobili non plus repugnat vna pars motus quam alia 
+      <lb ed="#P" n="92"/>et sic dum manet talis alteratio vel ad vlteriorem 
+      <lb ed="#P" n="93"/>alterationem non est necessarium aliquam 
+      substan<lb ed="#P" n="94" break="no"/>tiam redire: sed frustra ponitur redire tanto 
+      tempo<lb ed="#P" n="95" break="no"/>re ante nouam generationem: vt videtur. igitur non 
+      <lb ed="#P" n="96"/>est ponendum. 
+      <lb ed="#P" n="97"/>secundam opinionem de mate¬ 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e591">
+               <lb ed="#P" n="98"/>¶ Contra ria de nouo concreata ibi argui 
+      <lb ed="#P" n="99"/>tur primo sic. Quero quando materia illa creatur 
+      <lb ed="#P" n="100"/>ibi: aut enim ante siustans generationis eius quod 
+      <lb ed="#P" n="101"/>generatur ex ea: aut in illo instanti. Non videtur quod 
+      <lb ed="#P" n="102"/>ante. quia toto tempore illud instans manet sub 
+      spe<lb ed="#P" n="103" break="no"/>ciebus corpus christi sicut et maneret substantia panis: 
+      <lb ed="#P" n="104"/>et per consequens accidentia sine subiecto substantia 
+      <lb ed="#P" n="105"/>li. et ita non est ibi materia aliqua alia a materia 
+      <lb ed="#P" n="106"/>corporis christi. quia vt sit ab agente naturali: fit alte 
+      <lb ed="#P" n="107"/>ratione preuia disponente ad formam alteratio 
+      au<lb ed="#P" n="108" break="no"/>tem prior est duratione quam illa forma vel generatio. 
+      <lb ed="#P" n="109"/>Sicut prius est tempus instanti terminatiuo eius 
+      <lb ed="#P" n="110"/>Nec in instanti. vt videtur: quia tunc non 
+      videre<lb ed="#P" n="111" break="no"/>tur agens naturale agere ad talem generationem 
+      <lb ed="#P" n="112"/>Non enim videtur agens naturale agere ad 
+      gene<lb ed="#P" n="113" break="no"/>rationem naturalem: nisi presupponendo materiam 
+      <lb ed="#P" n="114"/>etiam secundum durationem. quia generatio 
+      muta<lb ed="#P" n="115" break="no"/>tio est: que praesupponit in subiecto negationem 
+      for<lb ed="#P" n="116" break="no"/>ne: vt videtur. quare etc. Similiter etiam tunc esset 
+      <lb ed="#P" n="117"/>de facto materia sine forma.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e637">
+      ¶ Secundo sic. ab 
+      agen<lb ed="#P" n="118" break="no"/>te naturali non generatio sine corruptione. quia 
+      res<lb ed="#P" n="119" break="no"/>pectu agentis naturalis generatio vnius vel est cor 
+      <lb ed="#P" n="120"/>suptio alterius vel inseparabiliter se 
+      concomitan<lb ed="#P" n="121" break="no"/>tu ed ibi nihil corrumperetur. ergo etiam nichil 
+      <lb ed="#P" n="122"/>generaretur ab agente naturali.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e650">
+      ¶ Tertio sic. 
+      con<lb ed="#P" n="123" break="no"/>ra illud quod dicunt quod creatur ibi noua materiam 
+      <lb ed="#P" n="124"/>et non potest reuerti materia panis prius conuersi: si 
+      <lb ed="#P" n="125"/>est adnihilata. Contra quia non plus implicat 
+      contra<lb ed="#P" n="126" break="no"/>dictionem quod aliquid accipiat esse postquam fuit non 
+      <lb ed="#P" n="127"/>esse interueniente: vel quod aliquid adnihilatum 
+      re<lb ed="#P" n="128" break="no"/>paretur quam quod accipiat esse: postquam nunquam fuit: 
+      <lb ed="#P" n="129"/>vt videtur. vel quam de nihilo creetur. sed secundum 
+      <!--149.xml-->
+      <pb ed="#P" n="76-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>non implicat contradictionem. ergo nec primum 
+      <lb ed="#P" n="2"/>Et confirmatur esse et non esse sunt vtrobique 
+      totali<lb ed="#P" n="3" break="no"/>ter idem esse cum esse et non esse: cum non esse. ergo dato quod 
+      <lb ed="#P" n="4"/>esset adnihilita adhuc posset redire eadem materia 
+      <lb ed="#P" n="5"/>panis. Similiter etiam dato quod non sit adnihilata sed 
+      <lb ed="#P" n="6"/>conuersa: adhuc posset reparari eadem numero que 
+      <lb ed="#P" n="7"/>prius stante corpore christi. quia de nihilo. Est enim 
+      <lb ed="#P" n="8"/>ita bene nihil et eadem nihilitate nihil: sicut si 
+      fuis<lb ed="#P" n="9" break="no"/>set adnihilata: sicut dictum est superius in quadam 
+      <lb ed="#P" n="10"/>qu estione.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e696">
+      ¶ Quarto quia non valent motiua illius 
+      <lb ed="#P" n="11"/>sed si ponatur redire materia: cum hoc sit possibile 
+      <lb ed="#P" n="12"/>et magis conueniens ad saluandum omnia et 
+      prec<lb ed="#P" n="13" break="no"/>pue identitatem generati ex speciebus sicut ex 
+      pa<lb ed="#P" n="14" break="no"/>ne: et saluatur ita bene meritum fidei et totalitas 
+      na<lb ed="#P" n="15" break="no"/>ture corporee: hoc magis deberet poni quam de noua 
+      <lb ed="#P" n="16"/>materia. Non enim videtur quod deus sic creet 
+      freque<lb ed="#P" n="17" break="no"/>ter nouam materiam: sed quod materiam totam 
+      aprin<lb ed="#P" n="18" break="no"/>cipio creauerit 
+      <lb ed="#P" n="19"/>opinionem de illo pu¬ 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e718">
+               <lb ed="#P" n="20"/>¶ Contra tertiuam ro posibili argutum 
+      <lb ed="#P" n="21"/>est in secundo. Tamen adhuc arguo contra eam. 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e725">
+               <lb ed="#P" n="22"/>¶ Primo sic. Illud purum possibile si ponatur 
+      <lb ed="#P" n="23"/>vel est accidens vel substantia si est aliquid. Non 
+      <lb ed="#P" n="24"/>potest dici quod sit accidens. quia ex accidente non 
+      fir<lb ed="#P" n="25" break="no"/>substantia per transmutationem. Nec alia quam cor 
+      <lb ed="#P" n="26"/>pus christi. Similiter etiam non est substantia: quia 
+      <lb ed="#P" n="27"/>non manet sub sacramento aliqua substantia formi 
+      <lb ed="#P" n="28"/>nec materia nec compositum. ergo nihil.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e744">
+      ¶ 
+      Secun<lb ed="#P" n="29" break="no"/>do sic. Materia est ingenerabilis et 
+      incorruptibi<lb ed="#P" n="30" break="no"/>lis primo phisicorum. sed si posset fieri per agens 
+      <lb ed="#P" n="31"/>naturale ex illo puro possibili: ipsa esset 
+      generabi<lb ed="#P" n="32" break="no"/>lis et corruptibilis. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e755">
+      ¶ Tertio sic. Illud 
+      <lb ed="#P" n="33"/>quod praesupponitur actioni naturalis agentis non 
+      <lb ed="#P" n="34"/>producitur ab eo: nec potest produci per illam 
+      actio<lb ed="#P" n="35" break="no"/>nem: sed materia presupponitur generationi 
+      natu<lb ed="#P" n="36" break="no"/>rali: sicut subiectum eius primo de generatione et primo 
+      <lb ed="#P" n="37"/>phisicorum.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e768">
+      ¶ Quarto quia non videtur quod tale 
+      pu<lb ed="#P" n="38" break="no"/>possibile si poneretur posset attingi ab agente 
+      natu<lb ed="#P" n="39" break="no"/>rali: quia no attingit nisi ens in actu aliqua 
+      actua<lb ed="#P" n="40" break="no"/>litate: vt videtur sed istud purum possibile non est 
+      <lb ed="#P" n="41"/>ens actu aliqua actualitate secundum istos. ergo etc. 
+      <lb ed="#P" n="42"/>quartam opinionem de dimen¬ 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e781">
+               <lb ed="#P" n="43"/>¶ Contra sionibus illis terminatis arguo 
+      <lb ed="#P" n="44"/>etiam. quia dato quod ponantur tales dimensiones in 
+      ma<lb ed="#P" n="45" break="no"/>teria ante aduentum forme: et maneant post formam 
+      <lb ed="#P" n="46"/>vel in absentia forme: sicut in proposito manet 
+      quan<lb ed="#P" n="47" break="no"/>titas sine materia et forma substantiali: tamen 
+      nihil<lb ed="#P" n="48" break="no"/>valet ad propositum. Et arguo contra dicta que 
+      di<lb ed="#P" n="49" break="no"/>cuntur in illa positione. Primo sic. dimensio 
+      sepa<lb ed="#P" n="50" break="no"/>rata nihil acquirit positiuum per talem separationem 
+      <lb ed="#P" n="51"/>sed de ipsa quando erat coniuncta: non poterat educi 
+      <lb ed="#P" n="52"/>aliqua forma substantialis: sed magis de materia 
+      <lb ed="#P" n="53"/>cui inerat dimensio. quia materia est determinatum 
+      <lb ed="#P" n="54"/>receptiuum et possibile: de quo potest educi aliqua 
+      <lb ed="#P" n="55"/>forma substantialis saltem prima: que habetur in 
+      <lb ed="#P" n="56"/>quolibet. Unde sicut impossibile est quod angelus 
+      re<lb ed="#P" n="57" break="no"/>cipiat quantitatem vel albedinem: ita quod quantitas 
+      re<lb ed="#P" n="58" break="no"/>cipat formam substantialem: nec habeat in hoc vicem 
+      <lb ed="#P" n="59"/>materie. quare etc.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e820">
+      ¶ Secundo sic. ex per se 
+      receptiuo<lb ed="#P" n="60" break="no"/>vel eo de quo potest educi forma substantialis fit 
+      ali<lb ed="#P" n="61" break="no"/>quid vnum per se cum ea: vt patet. sed impossibile est quod 
+      <lb ed="#P" n="62"/>ex dimensione et forma substantiali fiat aliquid vnum 
+      <lb ed="#P" n="63"/>per se. quia dimensio accidens est: vt patet ergo etc.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e831">
+      ¶ Tertio 
+      <lb ed="#P" n="64"/>sic. forma genere priori non educitur de potentia 
+      gene<lb ed="#P" n="65" break="no"/>ris posterioris. quia forma educta de potentia alicuius 
+      <!--149.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>presupponit ipsum origine saltem. sed forma 
+      substan<lb ed="#P" n="67" break="no"/>tialis est de genere substantie priori genere ipso 
+      quam<lb ed="#P" n="68" break="no"/>titatis. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e850">
+      ¶ Quarto sic. quia aut conueniret quam 
+      <lb ed="#P" n="69"/>titati in virtute propria: aut in virtute alicuius alterius 
+      <lb ed="#P" n="70"/>puta substantie cuius fuit vt dicunt. Non in virtute 
+      <lb ed="#P" n="71"/>ppria: nec in virtute substantie. Tum quia nihil est 
+      di<lb ed="#P" n="72" break="no"/>ctu de ista virtute: vt dictum est supra. Tum quia 
+      illa<lb ed="#P" n="73" break="no"/>substantia non est. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e863">
+      ¶ Quinto quia sequeretur 
+      <lb ed="#P" n="74"/>quod si ignis generaretur ex tali dimensione et hoc ab 
+      <lb ed="#P" n="75"/>gne: quod non esset generatio vniuoca sed equoca. 
+      Pr<lb ed="#P" n="76" break="no"/>quia vnus includeret materiam partem sui. Alter 
+      verone<lb ed="#P" n="77" break="no"/>sed dimensionem et esset ignis mathematicus secundum 
+      ma<lb ed="#P" n="78" break="no"/>teriam: et naturalis secundum formam. et ita ignis non 
+      vni<lb ed="#P" n="79" break="no"/>uoce ageret circa hostiam sicut circa lignum vel 
+      hu<lb ed="#P" n="80" break="no"/>iusmodi. Et similiter ex illo igne mathematico 
+      pro<lb ed="#P" n="81" break="no"/>terit generari aliquid aliud habens dimensionem talem 
+      <lb ed="#P" n="82"/>pro materia et ex illo aliquid aliud vsque in finem 
+      mun<lb ed="#P" n="83" break="no"/>di. Et poterit haberi aliquodaimal vel aliquis 
+      ho<lb ed="#P" n="84" break="no"/>mo generatus ex aliquo tali ente: qui non habebit 
+      <lb ed="#P" n="85"/>pro materia nisi dimensionem: et non aliquam materiam 
+      <lb ed="#P" n="86"/>substantialem.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e894">
+      ¶ Ultimo quia sacerdos vel aliquis alius 
+      <lb ed="#P" n="87"/>puta puer a iuuentute posset continue nutriri ex illis 
+      <lb ed="#P" n="88"/>speciebus: et ita partes carius aggenerarentur ex 
+      <lb ed="#P" n="89"/>dimensione: sicut ex principio materiali. Et tunc non 
+      <lb ed="#P" n="90"/>essent partes ille carius eiusdem rationis cum 
+      parti<lb ed="#P" n="91" break="no"/>bus prehabitis per generationem: et in vno 
+      magno<lb ed="#P" n="92" break="no"/>homine non esset plus de materia quam illud quod 
+      ha<lb ed="#P" n="93" break="no"/>puit puer: que sunt in conuenientia maxima. quia tuns 
+      <lb ed="#P" n="94"/>oporteret eum habere materiam valde raram. quia 
+      <lb ed="#P" n="95"/>modicam subiectam magne quantitati. Similiter 
+      <lb ed="#P" n="96"/>etiam ex hac positione sequitur quod quantitas vel 
+      di<lb ed="#P" n="97" break="no"/>mensio naturaliter sit non in subiecto. pars enim cui 
+      <lb ed="#P" n="98"/>inest forma substantialis alicuius totius: non est in 
+      <lb ed="#P" n="99"/>subiecto naturaliter: sicut nec totum per se 
+      composi<lb ed="#P" n="100" break="no"/>tum. ex forma substantiali et aliquo alio. Et 
+      multa<lb ed="#P" n="101" break="no"/>alia absurda sequuntur. Et ideo illa positio est 
+      om<lb ed="#P" n="102" break="no"/>nino relinquenda. Hec de secundo articulo principali 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e931">
+               <lb ed="#P" n="103"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="104" break="no"/>ticulum dico aliqua respondendo ad questionem 
+      pri<lb ed="#P" n="105" break="no"/>mum est quod facta variatione illa circa accidentia illa 
+      <lb ed="#P" n="106"/>vel species: cum qua non staret substantia panis 
+      na<lb ed="#P" n="107" break="no"/>turaliter: si remansisset: et non fuisset conuersa: sed cor 
+      <lb ed="#P" n="108"/>rumperetur a quocunque sit: vel fiat talis 
+      variatior<lb ed="#P" n="109" break="no"/>corpus christi amplius non manet ibi: sed cessat: et 
+      de<lb ed="#P" n="110" break="no"/>sinit esse eucharistia. sicut etiam desineret esse 
+      substan<lb ed="#P" n="111" break="no"/>tia panis vel vini. Que autem sit talis variatio 
+      cir<lb ed="#P" n="112" break="no"/>ca species siue quantum ad qualitates naturales pa 
+      <lb ed="#P" n="113"/>nis et vini: siue quantum ad quantitatem: cum quibus 
+      <lb ed="#P" n="114"/>stare non possint naturaliter panis et vinum: 
+      diffici<lb ed="#P" n="115" break="no"/>le est vniuersaliter assignare et punctaliter: tamen 
+      <lb ed="#P" n="116"/>potest hoc cognosci sicut et aliis substantiis suo 
+      mon<lb ed="#P" n="117" break="no"/>do.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e966">
+      ¶ Secundo dico quod posita tali variatione ex 
+      or<lb ed="#P" n="118" break="no"/>dinatione diuina in eodem instanti in quo desinit 
+      ibi<lb ed="#P" n="119" break="no"/>esse corpus christi vel sanguis: adest aliqua substantis 
+      <lb ed="#P" n="120"/>alia a corpore christi. Et ratio patet quia deus ordinauit 
+      <lb ed="#P" n="121"/>accidentia illa nuquam esse sine subiecto substantiali. 
+      ni<lb ed="#P" n="122" break="no"/>si manente eucharistia. et ideo ipsa non manente statim 
+      <lb ed="#P" n="123"/>adest alia substantia: cui insunt alia accidentia quae 
+      inue<lb ed="#P" n="124" break="no"/>niuntur ibi ab ea vt subiecto substantiali.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e984">
+      ¶ Terton 
+      <lb ed="#P" n="125"/>dico quod posita quacumque variatione circa accidentia 
+      <lb ed="#P" n="126"/>vel species cum qua posset stare naturaliter substantia 
+      <lb ed="#P" n="127"/>panis vel vini: non adest aliqua alia substan 
+      specie<lb ed="#P" n="128" break="no"/>bus quam corpus christi per oppositam rationem: sicut non est nec ibi 
+      <lb ed="#P" n="129"/>dem esset alia substatm a suba panis et vini si ista manerent 
+      <!--150.xml-->
+      <pb ed="#P" n="76-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et non conuerterentur.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1007">
+      ¶ Quarto dico quod illa 
+      sub<lb ed="#P" n="2" break="no"/>stantia que adest in illo instanti in quo desinit 
+      ibi<lb ed="#P" n="3" break="no"/>esse corpus christi: et corrumpetur panis: potest 
+      di<lb ed="#P" n="4" break="no"/>ci esse materia panis prius conuersi numero eadem 
+      <lb ed="#P" n="5"/>que prius: ex qua per eductionem forme substantia 
+      <lb ed="#P" n="6"/>lis illius entis succedentis quod de nouo generatur et 
+      <lb ed="#P" n="7"/>prducitur idem numero quod generaretur vel pro 
+      <lb ed="#P" n="8"/>duceretur ex pane: si remansisset et tunc 
+      corrumpere<lb ed="#P" n="9" break="no"/>tur. et illa materia vel totum ex ipsa generatum 
+      infor<lb ed="#P" n="10" break="no"/>matur illis accidentibus: que inueniuntur ibi a 
+      mate<lb ed="#P" n="11" break="no"/>tia redeunte. et illa materia a deo reparatur de 
+      ni<lb ed="#P" n="12" break="no"/>chilo non de corpore christi nec de materia eius 
+      in<lb ed="#P" n="13" break="no"/>quam conuersa fuit: sicut dictum est supra in 
+      quadam<lb ed="#P" n="14" break="no"/>alia questione quod hoc est impossibile. Unde et post 
+      <lb ed="#P" n="15"/>reparationem eius posset etiam anihilari 
+      simplici<lb ed="#P" n="16" break="no"/>ter per adnihilationem. licet simul cum hoc esset 
+      com<lb ed="#P" n="17" break="no"/>uersa in corpus christi.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1044">
+      ¶ Quinto dico quod illa 
+      substan<lb ed="#P" n="18" break="no"/>tia que adest et redit virtute diuina in illo istanti 
+      <lb ed="#P" n="19"/>quo desinit ibi esse corpus christi: et ex qua debet aliquid 
+      <lb ed="#P" n="20"/>generari: non potest dici probabiliter tota substantia 
+      pa<lb ed="#P" n="21" break="no"/>nis. quia planum est quod substantia panis non stat natura 
+      <lb ed="#P" n="22"/>liter cum tali variatione accidentium: sicut dictum est 
+      <lb ed="#P" n="23"/>supra. Et preterea cum in eodem instanti ad aliud 
+      <lb ed="#P" n="24"/>puta aliqua alia substantia conuertitur simul in eodem 
+      <lb ed="#P" n="25"/>instanti staret ibi panis et alia substantia 
+      generata<lb ed="#P" n="26" break="no"/>ex pane: et simul eet panis et non esset: que sunt 
+      impos<lb ed="#P" n="27" break="no"/>sibilia plana.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1068">
+      ¶ Sexto dico quod probabile est quod ad 
+      ta<lb ed="#P" n="28" break="no"/>lem generationem vel productionem cuiuscunque 
+      <lb ed="#P" n="29"/>substantie noue de materia panis non cooperetur ali 
+      <lb ed="#P" n="30"/>quidagens naturale quodcunque per se attingendo 
+      <lb ed="#P" n="31"/>ad eam. Ibi enim est productio et generatio noue sub 
+      <lb ed="#P" n="32"/>stantie composite sine aliqua corruptione: et in 
+      instan<lb ed="#P" n="33" break="no"/>ti illo eodem in quo materia virtute diuina 
+      reuer<lb ed="#P" n="34" break="no"/>titur non presupponens secundum durationem subiectum 
+      <lb ed="#P" n="35"/>dispositum talis autem productio vel generatio non 
+      <lb ed="#P" n="36"/>videtur agenti creato conuenire. Et ideo 
+      ponen<lb ed="#P" n="37" break="no"/>dum est quod a solo deo forma noue substantie 
+      generam<lb ed="#P" n="38" break="no"/>de de materia reducta educitur et tota substantia pro 
+      <lb ed="#P" n="39"/>ducitur. Nisi forte diceretur sicut dictum est in que 
+      <lb ed="#P" n="40"/>stione precedente de generatione accidentali seu 
+      al<lb ed="#P" n="41" break="no"/>teratione quod in proposito non oporteret praexistere 
+      ma<lb ed="#P" n="42" break="no"/>teriam generationi tempore: sicut nec ibi oportet 
+      <lb ed="#P" n="43"/>preexistere alterationi. Et sic etiam non oportet quod 
+      <lb ed="#P" n="44"/>generatio esset vere mutatio: nec quod ipsam 
+      concomi<lb ed="#P" n="45" break="no"/>taretur corruptio etiam respectu agentis naturalis 
+      <lb ed="#P" n="46"/>sicut ibi in generatione accidentali: licet communiter 
+      <lb ed="#P" n="47"/>in aliis propositis ita fiat.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1114">
+      ¶ Septimo dico quod illa 
+      <lb ed="#P" n="48"/>eductio forme vel productio substantie noue non 
+      <lb ed="#P" n="49"/>est proprie loquendo mutatio vel generatio: que sit 
+      mu<lb ed="#P" n="50" break="no"/>tatio pro tanto quia non praesupponit in materia ex qua 
+      <lb ed="#P" n="51"/>pducitur totum: vel educitur forma negationem 
+      il<lb ed="#P" n="52" break="no"/>lius forme: sed simul in eodem instanti materie est et 
+      for<lb ed="#P" n="53" break="no"/>ma educitur. et licet ordine nature materia sit prior. 
+      <lb ed="#P" n="54"/>Potest dici tamen illa productio generatio pro tanto: 
+      <lb ed="#P" n="55"/>quia est productio alicuius substantie de aliquo: puta de 
+      <lb ed="#P" n="56"/>materia illa.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1136">
+      ¶ Octauo dico quod qui teneret non esse 
+      <lb ed="#P" n="57"/>idem numero illud de nouo generatum cum eo quod 
+      ge<lb ed="#P" n="58" break="no"/>neraretur ex pane: si non fuisset conuersus: sed aliquid 
+      <lb ed="#P" n="59"/>simile: non haberet necessario dicere reuerti 
+      mate<lb ed="#P" n="60" break="no"/>riam panis: sed sufficeret vnam aliam similem 
+      virtu<lb ed="#P" n="61" break="no"/>te diuina ibidem haberi. Sed probabilius videtur 
+      <lb ed="#P" n="62"/>mihi dicere secundum primum modum.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1152">
+      ¶ Nono dico que 
+      <lb ed="#P" n="63"/>modo ex praedictis apparet modus secundum quem ex speciebus 
+      <lb ed="#P" n="64"/>illis aliquid generatur desinente corpore christi esse 
+      ibi<lb ed="#P" n="65" break="no"/>non sicut ex materia vel subiecto generationis: sed  
+      <!--150.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>ma teria reuertente virtute et ordinatione diuina 
+      fa<lb ed="#P" n="67" break="no"/>cta variatione tali circa species ipsas modo supradictor: 
+      <lb ed="#P" n="68"/>et quod necesse ad generationem alicuius substantie 
+      <lb ed="#P" n="69"/>vel productionem redire materiam. sicut patet. 
+      <lb ed="#P" n="70"/>hec de tertio articulo principali. 
+      <lb ed="#P" n="71"/>gumentum principa¬ 
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1179">
+               <lb ed="#P" n="72"/>¶ Ad primum ai le patet quod licet non 
+      <lb ed="#P" n="73"/>sit ibi materia ante instans generationis: ibi tamen 
+      <lb ed="#P" n="74"/>est in illo instanti.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1188">
+      ¶ Ad secundum dico: quod 
+      respectu<lb ed="#P" n="75" break="no"/>diuini agentis non oportet concomitari 
+      generatio<lb ed="#P" n="76" break="no"/>nem aliquam corruptionem: sicut dicum est suprar 
+      <lb ed="#P" n="77"/>quicquid sit respectu agentis creati.
+      </p>
+            <p xml:id="qrdBas-f43826-d1e1197">
+      ¶ Ad tertium 
+      <lb ed="#P" n="78"/>dico: quod reuertitur eadem materia: que prius et 
+      gene<lb ed="#P" n="79" break="no"/>ratur idem: quod generaretur ex pane: si mansisset 
+      <lb ed="#P" n="80"/>et non fuisset conuersus. Nec oportet: quod reuertatur 
+      <lb ed="#P" n="81"/>materia per conuersionem aliquam: sed per creationem 
+      <lb ed="#P" n="82"/>seu reparationem ex nihilo. Si dicas quod tunc 
+      seque<lb ed="#P" n="83" break="no"/>retur eandem materiam simul esse et non esse. quia 
+      <lb ed="#P" n="84"/>reparata est et conuersa. Dico quod non sequitur 
+      mate<lb ed="#P" n="85" break="no"/>riam simul esse et non esse: sed tantum materiam esse: 
+      <lb ed="#P" n="86"/>quando est reparata. Non enim est nihil et non ens 
+      <lb ed="#P" n="87"/>nisi in instanti conuersionis cum primo desinit esse: 
+      <lb ed="#P" n="88"/>vel quando tantum modo est conuersa. Si sit reparata 
+      <lb ed="#P" n="89"/>manente illo in quod prius conuertebatur. Dico quod est 
+      <lb ed="#P" n="90"/>ens: non obstante quod sit conuersa: et non potest dici 
+      <lb ed="#P" n="91"/>non ens vel nilhil. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

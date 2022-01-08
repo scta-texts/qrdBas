@@ -1,0 +1,744 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="95-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f57297"><!--l4d18-19q1 -->
+            <head xml:id="qrdBas-f57297-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f57297-d1e101">
+               <lb ed="#P" n="46"/>¶ Distinctionis. xviii. et. xix. 
+      <lb ed="#P" n="47"/>Questio Unica. 
+    </p>
+            <p xml:id="qrdBas-f57297-d1e108">
+               <lb ed="#P" n="48"/>Irca distinctiones 
+      <lb ed="#P" n="49"/>xviii. et. xix. quero. Utrum sacet 
+      <lb ed="#P" n="50"/>dotibus ecclesie tradite sint 
+      cla<lb ed="#P" n="51" break="no"/>ues regni celorum.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e119">
+      ¶ Uidetur 
+      <lb ed="#P" n="52"/>quod non. quia sacerdos eoipso non 
+      <lb ed="#P" n="53"/>habet ptantem iudicandi aliquem 
+      <lb ed="#P" n="54"/>in ecclesia nec sententiandi. qui 
+      <lb ed="#P" n="55"/>non habet iuriditionem super aliquem 
+      <lb ed="#P" n="56"/>vnde non confertur sibi ex sua 
+      or<lb ed="#P" n="57" break="no"/>dinatione aliqua iurisditio: sed clauis est ptans 
+      sen<lb ed="#P" n="58" break="no"/>tentiandi vel iudicandi. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e137">
+      ¶ Secundo sic. aliquis non 
+      <lb ed="#P" n="59"/>sacerdos habet claues. quia habet ptantem cognoscendi et 
+      iudi<lb ed="#P" n="60" break="no"/>candi de causa: sicut patet de archidiaconis: qui poastseunt 
+      exconi<lb ed="#P" n="61" break="no"/>care et reconsiliare dato quod non sint sacerdotes. ergo sacen 
+      <lb ed="#P" n="62"/>dotibus in sua ordinatione non conferuntur claues 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e149">
+               <lb ed="#P" n="63"/>¶ Tertio sic. vna clauis dicitur clauis scientie: sed 
+      sacer<lb ed="#P" n="64" break="no"/>dotibus in sua ordinatione non confertur scientia. patet. quia 
+      <!--189.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>non lateret illum: cui confertur talis scientia. ergo etc. 
+      <lb ed="#P" n="66"/>Mathei. x vi. promittitur petro et 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e165">
+               <lb ed="#P" n="67"/>¶ Contra aliis sacerdotibus in ipso tibi 
+      da<lb ed="#P" n="68" break="no"/>bo claues regni celorum.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e172">
+      ¶ Et Io. xx. 
+      completu<lb ed="#P" n="69" break="no"/>illud promissum: accipite spiritum sanctum: quorum 
+      re<lb ed="#P" n="70" break="no"/>miseritis peccata. etc. 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e179">
+               <lb ed="#P" n="71"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e184">
+               <lb ed="#P" n="72"/>¶ Primo ostendam quid vocetur vel dicatur et sit clauis: 
+      <lb ed="#P" n="73"/>et quod in ecclesia sunt plsophus claues collate ministris eo 
+      <lb ed="#P" n="74"/>clesie et quod congruum est eas fuisse collatas.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e193">
+      ¶ Secundo 
+      <lb ed="#P" n="75"/>ostendam ( quia clauis ptans dicitur ) quales ptantes sunt 
+      hu<lb ed="#P" n="76" break="no"/>iusmodi claues: et qualiter secundum eas habens ipsas praet exi 
+      <lb ed="#P" n="77"/>re in actum.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e203">
+      ¶ Tertio inquiram: vtrum ptans clauium sacer 
+      <lb ed="#P" n="78"/>dotalium absoluendi scilicet in foro confessionis se 
+      exten<lb ed="#P" n="79" break="no"/>dat ad deletionem culpe et remissionem seu 
+      commutatio<lb ed="#P" n="80" break="no"/>nem pene eterne vel tparalis tantum.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e212">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e214">
+               <lb ed="#P" n="81"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="82" break="no"/>culum dico primo. quod clauis est ptans apiendi vel 
+      clau<lb ed="#P" n="83" break="no"/>dendi regnum celorum vel ecclesiam ipsam alicui propter 
+      <lb ed="#P" n="84"/>merita vel demerita sua. vnde clauis nec est apriens / 
+      <lb ed="#P" n="85"/>nec apertio / nec causa apertionis vel clausionis: eo modo 
+      <lb ed="#P" n="86"/>quo merita vel demerita dicuntur cam. sed est ipsa 
+      pote<lb ed="#P" n="87" break="no"/>stas aperiendi vel claudendi vel cognoscendi de causa 
+      <lb ed="#P" n="88"/>quare aperitur vel clauditur. Sicut ipsa clauis 
+      mate<lb ed="#P" n="89" break="no"/>rialis est instrumentum ipsum aperiendi vel claudendi. 
+      <lb ed="#P" n="90"/>Nam omnes transferentes secundum aliquam similitudinem trant 
+      <lb ed="#P" n="91"/>ferunt.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e240">
+      ¶ Dico autem quod in ecclesia duplex forus 
+      inue<lb ed="#P" n="92" break="no"/>nitur. vnus publicus et communis. alius vero secretus et 
+      pri<lb ed="#P" n="93" break="no"/>uatus. Et vterque forus iudicialis est et 
+      sententiati<lb ed="#P" n="94" break="no"/>uus. Et per consequens quantum ad vtrumque forum est dare 
+      <lb ed="#P" n="95"/>ptantem in ecclesia cognoscendi de causa et sententiandi in 
+      <lb ed="#P" n="96"/>vtroque foro. Et cum clauis sit ptans claudendi vel 
+      <lb ed="#P" n="97"/>aperiendi per sententiam diffinitiuam vel etiam 
+      cognoscen<lb ed="#P" n="98" break="no"/>di de causa aprtionis vel clausionis: quia sine cognitione 
+      <lb ed="#P" n="99"/>de causa non potest iuste sententiari: nisi a casu: patet quod in 
+      ec<lb ed="#P" n="100" break="no"/>clesia quantum ad vtrumque forum sunt claues. Primo quidem 
+      <lb ed="#P" n="101"/>quantum ad forum publicum sunt claues due quarum vna est 
+      <lb ed="#P" n="102"/>principalis: quae est ptatns sententiandi in causa et 
+      negotio<lb ed="#P" n="103" break="no"/>publico claudendo ecclesiam vel aperiendo: sicut 
+      exconi<lb ed="#P" n="104" break="no"/>cando vel absoluendo et huiusmodi. Et alia sine qua 
+      recte<lb ed="#P" n="105" break="no"/>et iuste nisi a casu non potest ista habere actum suum. et est 
+      <lb ed="#P" n="106"/>illa alia ptans cognoscendi de causa clausionis vel 
+      apartio<lb ed="#P" n="107" break="no"/>nis ecclesie quae fit alicui in foro publico. Et dicitur 
+      <lb ed="#P" n="108"/>clauis ista: quia licet non sit ptans aperiendi vel claudendi: 
+      <lb ed="#P" n="109"/>est tamen necessaria claudenti vel aprienti quia non pratet 
+      rite<lb ed="#P" n="110" break="no"/>claudere vel aperire: cum habeat voluntatem 
+      obliga<lb ed="#P" n="111" break="no"/>bilem: sine tali ptante cognoscendi de causa: vel nisi 
+      co<lb ed="#P" n="112" break="no"/>gnoscat de causa. Similiter in ecclesia quantum ad forum se 
+      <lb ed="#P" n="113"/>cretum et priuatum qui est forus conscientie et confessio 
+      <lb ed="#P" n="114"/>nis est duplex clauis in ecclesia scilicet ptatns 
+      sententiam<lb ed="#P" n="115" break="no"/>di arbitrarie et ministerialiter regnum celorum 
+      pec<lb ed="#P" n="116" break="no"/>catori apiri vel claudi secundum merita vel demerita sua 
+      <lb ed="#P" n="117"/>Aperiri quidem secundum meritum digne penitentie. sed 
+      <lb ed="#P" n="118"/>claudi secundum demeritum penitentie et 
+      inobedien<lb ed="#P" n="119" break="no"/>tie ad ecclesiam et ad deum. Et similitter pateatns 
+      co<lb ed="#P" n="120" break="no"/>gnoscendi de causa sententie in tali foro puta de 
+      me<lb ed="#P" n="121" break="no"/>rito vel demerito illius cui sententiatur regnum 
+      ce<lb ed="#P" n="122" break="no"/>lorum aperiendum vel claudendum.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e310">
+      ¶ Secundo dico 
+      <lb ed="#P" n="123"/>quod poatetns sententiandi vel cognoscendi de causa sentem 
+      <lb ed="#P" n="124"/>tie. que dicitur clauis: tripliciter potest alicui 
+      conuenire<lb ed="#P" n="125" break="no"/>Uno modo summe et principaliter. Secundo modo non 
+      <lb ed="#P" n="126"/>summe principaliter tamen aliquo modo 
+      excelli<lb ed="#P" n="127" break="no"/>ter et subprincipaliter. Tertio modo non principa 
+      <!--190.xml-->
+      <pb ed="#P" n="96-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>liter nec excellenter sed ministraliter et particular 
+      <lb ed="#P" n="2"/>ter seu arbitrarie.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e334">
+      ¶ Primo modo conueniunt 
+      cla<lb ed="#P" n="3" break="no"/>ues predicte ipsi deo primo. quia cum iste claues ad 
+      iu<lb ed="#P" n="4" break="no"/>dicium pertineant: et ipsi deo primum iudicium et 
+      princi<lb ed="#P" n="5" break="no"/>paliter debeatur: et ad ipsum pertineat. quia ex seipso iustus 
+      <lb ed="#P" n="6"/>est immo iusticia ipsa oportet quod claues ad ipsum primo 
+      <lb ed="#P" n="7"/>et principaliter pertineant. Secundo quia iudicare est 
+      ptan<lb ed="#P" n="8" break="no"/>tis et auctoritatis super illum: qui iudicatur iuxta illud. 
+      <lb ed="#P" n="9"/>Ad romanos. Tu qui es / qui iudicas alienum serum 
+      <lb ed="#P" n="10"/>deus autem est primus praesidens oportet quod clauis iud 
+      <lb ed="#P" n="11"/>cii ad ipsum primo et principaliter et vniuersaliter 
+      parti<lb ed="#P" n="12" break="no"/>tineat.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e359">
+      ¶ Secundo iuodo conueniunt claues ipsi christo 
+      <lb ed="#P" n="13"/>capiti ecclesie. Clauis enim praeminens et excellens christo 
+      <lb ed="#P" n="14"/>conuenit. Et ista praeminentia vel excellentia potest in 
+      <lb ed="#P" n="15"/>telligi et quantum ad vniuersalitatem causarum iudicam 
+      <lb ed="#P" n="16"/>darum. quia christus nouit omnia merita vel demerita 
+      <lb ed="#P" n="17"/>iudicandorum: et de omnibus iudicat et sententiat: et 
+      <lb ed="#P" n="18"/>quantum ad firmitatem et equitatem sententie diffinitiue. 
+      <lb ed="#P" n="19"/>Sententia enim et iudicium christi infallibiliter recta sunt. 
+      <lb ed="#P" n="20"/>quia sua voluntas inseparabiliter et inuariabiliter 
+      con<lb ed="#P" n="21" break="no"/>formis est iusticie divine in iudicando.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e381">
+      ¶ Tertia 
+      cla<lb ed="#P" n="22" break="no"/>uis vel clauis tertio modo est in ecclesia militante 
+      in<lb ed="#P" n="23" break="no"/>ministris eius que est clauis particularis in 
+      quoliba<lb ed="#P" n="24" break="no"/>ministro. quia nec omnes causas iudicandorum 
+      cogno<lb ed="#P" n="25" break="no"/>scit nec de omnibus: sed de quibusdam sententiat. 
+      <lb ed="#P" n="26"/>Similiter etiam est ministerialis et arbitraria non 
+      <lb ed="#P" n="27"/>principalis. vnde nec ministri ecclesie militantis 
+      clau<lb ed="#P" n="28" break="no"/>dunt vel aperiunt nisi instrumentaliter quasi et 
+      mini<lb ed="#P" n="29" break="no"/>sterialiter seu arbitrarie ex commissione dei vel christi. 
+      <lb ed="#P" n="30"/>Similiter etiam sententia et iudicium ministrorum 
+      <lb ed="#P" n="31"/>ecclesie non semper firma est nec rata nec iusta. sed 
+      cla<lb ed="#P" n="32" break="no"/>uis eorum infirma est et errare potest: et esse 
+      diffor<lb ed="#P" n="33" break="no"/>mis sententie dei iudicantis. Et aliquando recte iudicare 
+      <lb ed="#P" n="34"/>et sententiare potest: quando scilicet iudicat et sententiat 
+      <lb ed="#P" n="35"/>conformiter legi diuine. Et tunc est firma et rata¬ 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e414">
+               <lb ed="#P" n="36"/>¶ Tertio dico: quod tales claues ministeriales et 
+      par<lb ed="#P" n="37" break="no"/>ticulares sententiandi et cognoscendi de causa in vtroque 
+      <lb ed="#P" n="38"/>foro date sunt de facto ministris ecclesie. primo 
+      qui<lb ed="#P" n="39" break="no"/>dem habentibus auctoritatem praelationis et iurisdi 
+      <lb ed="#P" n="40"/>tionis super alios: et praecipue ipsi pape et aliis secundum 
+      dis<lb ed="#P" n="41" break="no"/>pensationem eius. Alie vero due scilicet in foro 
+      interi<lb ed="#P" n="42" break="no"/>ri date sunt ipsis sacerdotibus et nullis aliis nisi se 
+      <lb ed="#P" n="43"/>cerdotibus: licet prime due frequenter habeantur a 
+      <lb ed="#P" n="44"/>non sacerdotibus.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e436">
+      ¶ Quod autem sic date fuerunt iste 
+      <lb ed="#P" n="45"/>claues. patet de primis duabus pertinentibus ad forum 
+      <lb ed="#P" n="46"/>exteriorem. Mathei. x viii. dicente domino ipsi Petro. 
+      <lb ed="#P" n="47"/>Si peccauerit in te frater tuus. etc. Et sequitur 
+      tan<lb ed="#P" n="48" break="no"/>dem: si ecclesia non audierit: sit tibi sicut ethnicus et 
+      <lb ed="#P" n="49"/>publicanus. Et sequitur amen dico vobis: quecun 
+      <lb ed="#P" n="50"/>que alligaueritis super terram: erunt ligata et in 
+      ce<lb ed="#P" n="51" break="no"/>lis. Et quecumque solueritis super terram: erunt soluta et 
+      <lb ed="#P" n="52"/>in celis. Hic date fuerunt claues ad sententiandum 
+      <lb ed="#P" n="53"/>in foro publico. quia deus approbat solutionem et 
+      li<lb ed="#P" n="54" break="no"/>gationem ecclesie factam in publico. quam qui 
+      conten<lb ed="#P" n="55" break="no"/>nit: habendus est sicut ethnicus et publicanus 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e462">
+               <lb ed="#P" n="56"/>¶ De collatione vero secundarum clauium in foro 
+      <lb ed="#P" n="57"/>conscientie vel confessionis secreto et priuato 
+      habe<lb ed="#P" n="58" break="no"/>tur Io. xx. Accipite spiritum sanctum quorum 
+      re<lb ed="#P" n="59" break="no"/>miseritis peccata. etc. Et dico quod licet explicite non 
+      <lb ed="#P" n="60"/>videatur ibi data nisi clauis potestatis vel potestas 
+      <lb ed="#P" n="61"/>sententiandi: tamen implicite etiam tradita est 
+      cla<lb ed="#P" n="62" break="no"/>uis que dicitur scientie. non quod sit aliqua scientia vel 
+      <lb ed="#P" n="63"/>noticia actualis vel habitualis: sicut videtur 
+      sen<lb ed="#P" n="64" break="no"/>tire magister: sed quia est potestas vel auctoritas 
+      <lb ed="#P" n="65"/>cognoscendi de causa iudicandi: sicut scientia habi 
+      <!--190.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>tualis suo modo est potestas quedam cognoscend 
+      <lb ed="#P" n="67"/>vel considerandi actualiter secundum talem habitum 
+      <lb ed="#P" n="68"/>Et multi habent clauem istam scientie: quil sunt igno 
+      <lb ed="#P" n="69"/>rantes et nescientes sicut patet. Et ista clauis 
+      prior<lb ed="#P" n="70" break="no"/>est quantum ad vsum et ordinatur ad illam vel ad vsum 
+      <lb ed="#P" n="71"/>alterius. Prius enim est cognoscere de causa: quam 
+      <lb ed="#P" n="72"/>sententiare de ipsa. decuit etiam quod claues iste 
+      eccle<lb ed="#P" n="73" break="no"/>sie traderentur ministris ecclesie sicut dispensato 
+      <lb ed="#P" n="74"/>ribus ministeriorum dei et ecclesie. et sic vt per eas 
+      <lb ed="#P" n="75"/>possent ligare et soluere et corpus ecclesie regere. 
+      <lb ed="#P" n="76"/>Et precipue de duabus secundis fori interioris dem 
+      <lb ed="#P" n="77"/>cuit: vt traderentur sacerdotibus quasi hierachiis 
+      <lb ed="#P" n="78"/>ecclesiasticis: vt reducerentur infima ad suprema per 
+      <lb ed="#P" n="79"/>media. et vt ipsi qui habent potestatem super corpus 
+      <lb ed="#P" n="80"/>christi verum conficiendo eucharistiam: haberent 
+      <lb ed="#P" n="81"/>etiam ptantem super corpus christi misticum mediantio 
+      <lb ed="#P" n="82"/>bus talibus clauibus.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e527">
+      ¶ Quarto dico: quod due prime 
+      <lb ed="#P" n="83"/>claues fori exterioris non sunt eedem cum aliis dua 
+      <lb ed="#P" n="84"/>bus fori interioris. quod probatur. quia ille ab istis 
+      <lb ed="#P" n="85"/>separantur et econuerso. Frequenter aliquis enim 
+      ha<lb ed="#P" n="86" break="no"/>bet duas primas sine secundis: vt archidiaconus vel 
+      <lb ed="#P" n="87"/>prelatus aliquis non sacerdos. Et aliqui habent 
+      <lb ed="#P" n="88"/>duas secundas sine primis: vt simplices sacerdotes 
+      <lb ed="#P" n="89"/>communiter et sacerdotes parrochiales: qui non 
+      ha<lb ed="#P" n="90" break="no"/>bent potestatem iudicandi nec cognoscendi de causa 
+      <lb ed="#P" n="91"/>in foro publico ecclesiastico: nec excommunicandi 
+      ni<lb ed="#P" n="92" break="no"/>si forte in quibusdam casibus concessis ipsis a 
+      iuren<lb ed="#P" n="93" break="no"/>vt in casu furti vel rapine: et huiusmodi. Similiter 
+      <lb ed="#P" n="94"/>etiam due prime ab inuicem distinguuntur. licet enim 
+      <lb ed="#P" n="95"/>communiter sese concomitentur: tamen possent ab 
+      inuicen<lb ed="#P" n="96" break="no"/>separari. posset enim dari alicui potestas 
+      cognscer<lb ed="#P" n="97" break="no"/>di de causa: dato quod non daretur potestas sententian 
+      <lb ed="#P" n="98"/>di: sed vt referret iudici examinationem cause. Et 
+      <lb ed="#P" n="99"/>hoc etiam fit frequenter tamen non habetur nec datur 
+      <lb ed="#P" n="100"/>aliquando de facto secunda sine prima cui enim datur 
+      <lb ed="#P" n="101"/>potestas sententiandi idem datur potestas 
+      cognoscen<lb ed="#P" n="102" break="no"/>di: licet etiam absolute posset sine illa: non tamen 
+      or<lb ed="#P" n="103" break="no"/>dinate daretur nisi forte habenti voluntatem 
+      impec<lb ed="#P" n="104" break="no"/>cabilem vel inobligabilem: et sic non indigentem 
+      no<lb ed="#P" n="105" break="no"/>ticia priuia vel examinatione cause ipsam 
+      dirigen<lb ed="#P" n="106" break="no"/>te. Nec intelligo: quod iste due claues vltra naturales 
+      <lb ed="#P" n="107"/>potentias iudicantis dicant aliquid reale positiuum: 
+      <lb ed="#P" n="108"/>sicut nec dominium vel praelatio secundum quod huiusmodi. Non 
+      <lb ed="#P" n="109"/>enim confertur in collatione ipsarum: puta quando 
+      al<lb ed="#P" n="110" break="no"/>quis fit archidiaconus vel abbas vel 
+      huiusmodi<lb ed="#P" n="111" break="no"/>aliquid reale positiuum: sicut nec quando aliquis 
+      <lb ed="#P" n="112"/>fit dominus vel princeps aliquorum sola voluntate 
+      <lb ed="#P" n="113"/>alicuius conferentis dominium: sed dicunt 
+      respect<lb ed="#P" n="114" break="no"/>rationis vel potentias ipsas naturales vt 
+      sequuntu<lb ed="#P" n="115" break="no"/>volitionem conferentis seu volentis quod iste vel ille 
+      ha<lb ed="#P" n="116" break="no"/>beat tale dominium vel talem potestatem super istos. 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e604">
+               <lb ed="#P" n="117"/>¶ Similiter due alie claues fori interioris 
+      distin<lb ed="#P" n="118" break="no"/>guntur ab inuicem et a caractere sacerdotali: licet 
+      <lb ed="#P" n="119"/>dicant aliqui oppositum de caractere. quod probo 
+      <lb ed="#P" n="120"/>de ipsis ad caracterem comparatis: quia separabi 
+      <lb ed="#P" n="121"/>les sunt a caractere sacerdotali: vel potius caracter 
+      <lb ed="#P" n="122"/>ab ipsis. et caracter est aliquando sine ipsis. Patet 
+      <lb ed="#P" n="123"/>quia Christus prius tempore fecit apostolos sacer 
+      <lb ed="#P" n="124"/>dotes quam daret eis istas claues. Nam in cena fecit 
+      <lb ed="#P" n="125"/>eos sacerdotes: quando post consecrationem 
+      cor<lb ed="#P" n="126" break="no"/>poris et sanguinis sui dicit eis. Hoc facite in meam 
+      <lb ed="#P" n="127"/>commemorationem. et tunc habuerunt caracterem 
+      <lb ed="#P" n="128"/>sacerdotalem: sed post resurrectionem. Iohan. xx 
+      <lb ed="#P" n="129"/>Dedit eis claues predictas quando dicit 
+      Accipi<lb ed="#P" n="130" break="no"/>te spiritum sanctum: quorum remiseritis pctam: re¬ 
+      <!--191.xml-->
+      <pb ed="#P" n="97-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>mituntur eis et quorum. etc. Similiter etiam fit quando 
+      <lb ed="#P" n="2"/>sacerdotes ordinantur prius enim recipiunt 
+      cara<lb ed="#P" n="3" break="no"/>cterem sacerdotalem in tradtione calicis: quando 
+      <lb ed="#P" n="4"/>dicitur eis: accipe potestatem conficiendi vel 
+      cele<lb ed="#P" n="5" break="no"/>prandi missam. etc. et postea etiam recipiunt istas 
+      cla<lb ed="#P" n="6" break="no"/>ues: quando dicitur eis: accipite spiritum. etc. Et im 
+      <lb ed="#P" n="7"/>ponuntur eis manus ab ordinante.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e659">
+      ¶ Similiter 
+      <lb ed="#P" n="8"/>dico: quod deus absolute potuisset vel posset 
+      conferre<lb ed="#P" n="9" break="no"/>claues tales sacerdotibus: sicut et duas primas: licet 
+      <lb ed="#P" n="10"/>de facto et secundum potentiam ordinatam non 
+      com<lb ed="#P" n="11" break="no"/>ferantur nisi sacerdotibus: et ita a caractere non se 
+      <lb ed="#P" n="12"/>parentur.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e672">
+      ¶ Similiter dico quod iste due claues non 
+      <lb ed="#P" n="13"/>solum a caractere verumetiam a seipsis et inter se 
+      di<lb ed="#P" n="14" break="no"/>stinguuntur: licet simul tempore conferantur in 
+      impo<lb ed="#P" n="15" break="no"/>sitione manus episcopi cum illis verbis. accipite spi 
+      <lb ed="#P" n="16"/>ritum sanctum. etc. Et in collatione vnius puta 
+      cla<lb ed="#P" n="17" break="no"/>uis sententiandi ligandi vel soluendi que ibi 
+      ex<lb ed="#P" n="18" break="no"/>primitur intelligitur conferri alia scilicet clauis 
+      scien<lb ed="#P" n="19" break="no"/>tie necessaria ad vsum clauis potestatis. Absolute 
+      <lb ed="#P" n="20"/>tamen dico: quod deus posset vnam ab alia separare: 
+      <lb ed="#P" n="21"/>sicut dictum est de aliis duabus supradictis. Et 
+      <lb ed="#P" n="22"/>sunt due claues vel potestates vna cognoscendi de 
+      <lb ed="#P" n="23"/>causa et alia sententiandi de causa. Nec etiam 
+      pu<lb ed="#P" n="24" break="no"/>to: quod secundum se dicant aliqua realia positiua. sed  
+      <lb ed="#P" n="25"/>sicut dictum est supra de aliis clauibus et dominio 
+      <lb ed="#P" n="26"/>siue principatu vel potestate seu iurisditione super 
+      <lb ed="#P" n="27"/>alios. Et puto: quod ambe claues ad voluntatem per 
+      <lb ed="#P" n="28"/>tineant. Similiter etiam et de duabus supradictis 
+      <lb ed="#P" n="29"/>Nam licet cognoscere de causa ad intellectum part 
+      <lb ed="#P" n="30"/>neat: et licet dictare sententiam per modum noticie ad 
+      <lb ed="#P" n="31"/>intellectum etiam pertineat: sicut actus ipsius 
+      elici<lb ed="#P" n="32" break="no"/>tus: tamen apud voluntatem residet auctoritas 
+      co<lb ed="#P" n="33" break="no"/>gnoscendi et sententiandi vel iudicandi. Ipsaenim 
+      <lb ed="#P" n="34"/>habet mouere intellectum ad cognoscendum de 
+      cau<lb ed="#P" n="35" break="no"/>sa et ad dictandum sententiam. Unde et voluntate 
+      <lb ed="#P" n="36"/>iudicis imperante de causa cognoscitur et sententia 
+      <lb ed="#P" n="37"/>confirmatur: sicut patet: et aliud soluitur vel ligatur. 
+      <lb ed="#P" n="38"/>hec de primo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e731">
+               <lb ed="#P" n="39"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="40" break="no"/>ticulum premitto: quod ad aliquem actum est 
+      aliquan<lb ed="#P" n="41" break="no"/>do dare potentiam proximam. Aliquando vero remo 
+      <lb ed="#P" n="42"/>tam. potentia proxima vocatur illa: quae includit omnia 
+      <lb ed="#P" n="43"/>requisita ad hoc: vt exeat in actum: vel exire possit 
+      <lb ed="#P" n="44"/>nec compatitur aliquod impedimentum ad talem actum 
+      <lb ed="#P" n="45"/>sed includit amotionem cuislibet impedimenti sicut 
+      <lb ed="#P" n="46"/>etiam Aristo. dicit. 1x. metha. Potentia vero remo 
+      <lb ed="#P" n="47"/>ca dicitur potentia non sufficiens nec disposita: vt exeat 
+      <lb ed="#P" n="48"/>in actum vel etiam potentia impedita.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e755">
+      ¶ Ad 
+      pro<lb ed="#P" n="49" break="no"/>positum dictum est supra quod claues ecclesie sunt 
+      po<lb ed="#P" n="50" break="no"/>testates vel potentie quedam aliquo modo. Et quantum 
+      <lb ed="#P" n="51"/>ad duas primas dici potest quod non sunt potestates  
+      <lb ed="#P" n="52"/>pxime: necsecundum ipsas habens eas est in 
+      poten<lb ed="#P" n="53" break="no"/>tia proxima: vt statim possit exire in actum vel in 
+      <lb ed="#P" n="54"/>actus earum. Nam sicut videretur alicui: iste 
+      poten<lb ed="#P" n="55" break="no"/>tie sunt impedibiles ab actibus suis vel per 
+      excon<lb ed="#P" n="56" break="no"/>municationem vel per suspensionem vel 
+      huiusmo<lb ed="#P" n="57" break="no"/>di. Aliquis enim potest manere archidyaconus vel 
+      <lb ed="#P" n="58"/>abbas vel episcopus aliquorum sibi subditorum. et 
+      <lb ed="#P" n="59"/>per consequens in eo due claues prime scilicem fori ex 
+      <lb ed="#P" n="60"/>terioris. et potest cum hoc esse excommunicatus. et 
+      <lb ed="#P" n="61"/>ita non potest exequi actum illarum clauium sed in 
+      <lb ed="#P" n="62"/>pediuntur ab actibus suis. vnde nec potest 
+      exciomni<lb ed="#P" n="63" break="no"/>care nec absoluere talis exconicatus: licet predicte 
+      <lb ed="#P" n="64"/>claues maneant penes ipsum. Et ita non sunt po¬ 
+      <!--191.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>testates proxime vel potentie ad tales actus: etiam 
+      <lb ed="#P" n="66"/>quantum est ex parte ipsarum et ex parte habentis. 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e801">
+               <lb ed="#P" n="67"/>¶ Aliis autem videtur posse dici: quod predicte 
+      cla<lb ed="#P" n="68" break="no"/>ues sunt potestates proxime: quantum est ex parte 
+      ip<lb ed="#P" n="69" break="no"/>sarum et habentis: et sunt inimpedibiles manenti 
+      <lb ed="#P" n="70"/>bus ipsis. Unde vel secundum eas habens 
+      immedia<lb ed="#P" n="71" break="no"/>te potest in actum quantum est ex parte sui. aut si non 
+      <lb ed="#P" n="72"/>potest: non manent tales claues in eo: sed 
+      substrahum<lb ed="#P" n="73" break="no"/>tur ab eo per excomunicationem vel huiusmodi 
+      impe<lb ed="#P" n="74" break="no"/>dimentum: quo posito non potest in actum talium 
+      cla<lb ed="#P" n="75" break="no"/>uium. Non curo quo modo dicatur. 
+      <lb ed="#P" n="76"/>uibus fori interioris 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e826">
+               <lb ed="#P" n="77"/>¶ De secundis clu voluerunt aliqui 
+      di<lb ed="#P" n="78" break="no"/>cere: quod sunt potestates proxime ligandi et soluendi 
+      <lb ed="#P" n="79"/>in foro conscientie. ita quod eoipso quod aliquis perfecte 
+      <lb ed="#P" n="80"/>est ordinatus in sacerdotem et recipit claues 
+      po<lb ed="#P" n="81" break="no"/>test immediate absoluere petentem. et habet in hoc 
+      ma<lb ed="#P" n="82" break="no"/>teriam sibi subiectam etiam prohibitus vel suspensus 
+      <lb ed="#P" n="83"/>vel exconicatus vel etiam depositus seu degradatis 
+      <lb ed="#P" n="84"/>et si absoluit de facto absoluit: licet mortaliter 
+      pec<lb ed="#P" n="85" break="no"/>cet sicut faciendo contra preceptum superioris. 
+      si<lb ed="#P" n="86" break="no"/>cut etiam ptans consecrandi vel conficiendi corpus 
+      <lb ed="#P" n="87"/>christi est proxima. et sacerdos habens materiam 
+      pa<lb ed="#P" n="88" break="no"/>nem triticeum quomodocumque prohibitus vel suspen 
+      <lb ed="#P" n="89"/>sus vel excommunicatus vel degradatus si profert 
+      ver<lb ed="#P" n="90" break="no"/>ba consecrationis cum debita intentione de facto 
+      con<lb ed="#P" n="91" break="no"/>ficit: licet mortaliter peccet facendo contra preceptum 
+      <lb ed="#P" n="92"/>seu inhibitionem superioris 
+      <lb ed="#P" n="93"/>quod ista opinio coniter et rationabi¬ 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e865">
+               <lb ed="#P" n="94"/>¶ Sed dico liter non tenetur. Non enim 
+      <lb ed="#P" n="95"/>tenetur quod aliquis eoipso quod ordinatus et habens 
+      cla<lb ed="#P" n="96" break="no"/>ues habeat materiam subiectam vel personam in quam 
+      <lb ed="#P" n="97"/>possit exercere actum absoluendi: sed oportet subditum 
+      sibi<lb ed="#P" n="98" break="no"/>pari vel assignari: ac per hoc. iurisditionem in ipsum: ad hoc 
+      <lb ed="#P" n="99"/>non solum vt rite et sine pcto absoluat: verumetiam vt 
+      <lb ed="#P" n="100"/>de facto absoluat. quia sententia a non suo iudice est 
+      nul<lb ed="#P" n="101" break="no"/>la.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e885">
+      ¶ Et consequenter dicitur quod potest superior 
+      sacer<lb ed="#P" n="102" break="no"/>dotis alicuius amouere subditum a ptante istius: vel 
+      <lb ed="#P" n="103"/>iurisditionem super istum ab ipso sacerdote per 
+      exconi<lb ed="#P" n="104" break="no"/>cationem vel suspensionem. vt sic nec rite absoluatm 
+      <lb ed="#P" n="105"/>nec veraciter etiam de facto absoluat. Et ita non est 
+      <lb ed="#P" n="106"/>simile de clauibus istis: et de potestate conficiendi. 
+      <lb ed="#P" n="107"/>quia illa quantum est ex se proxima est non impedibilis 
+      <lb ed="#P" n="108"/>per defectum alicuius iurisditionis: que requiratur 
+      <lb ed="#P" n="109"/>in sacerdotesuper materiam vel super panem. non enim 
+      <lb ed="#P" n="110"/>oportet: quod panis consecrabilis ab eo sit suus vel sue 
+      <lb ed="#P" n="111"/>iurisditionis vel passionis: sicut patet. Unde et 
+      ali<lb ed="#P" n="112" break="no"/>quis in sacerdotem ordinatus habens panem 
+      triti<lb ed="#P" n="113" break="no"/>ceum: et potens proferre verba consecrationis cum deus 
+      <lb ed="#P" n="114"/>bita intentione potest immediate conficere de facto 
+      <lb ed="#P" n="115"/>quantumcumque suspensus vel exconicatus vel hereticus. 
+      <lb ed="#P" n="116"/>Non sic autem quilibet ordinatus in sacerdotem: 
+      <lb ed="#P" n="117"/>qui accipit claues habens penitentem presentem 
+      po<lb ed="#P" n="118" break="no"/>test cognoscere de causa ipsius: nec absoluere ipsum: 
+      <lb ed="#P" n="119"/>nisi sit cum hoc iurisditionis sue et sibi subiectus. 
+      <lb ed="#P" n="120"/>Et si queras causam dico: quod sic est a deo institutums 
+      <lb ed="#P" n="121"/>ne sit confusio in corpore ecclesie multiplicato. 
+      si<lb ed="#P" n="122" break="no"/>cut esant si quilibet sacerdos potestatem immediatam 
+      <lb ed="#P" n="123"/>et propriam haberet super quemlibet penitentem. Clauis 
+      <lb ed="#P" n="124"/>igitur non est potentia propria: nec habens ipsam ha 
+      <lb ed="#P" n="125"/>bet potestatem propxima. sicut patet: sed est potentia 
+      re<lb ed="#P" n="126" break="no"/>mota ad hoc vero vt sit vel fiat proxima: requiritur 
+      <lb ed="#P" n="127"/>cum ea iurisditio.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e944">
+      ¶ Ex quo faciliter et euidenter 
+      pa<lb ed="#P" n="128" break="no"/>tet: quomodo superiores et precipue papa 
+      dispensa<lb ed="#P" n="129" break="no"/>re potest suis inferioribus iurisditionem artando 
+      <!--192.xml-->
+      <pb ed="#P" n="97-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et similiter alii. et per consequens quom possunt sibiipsis 
+      ca<lb ed="#P" n="2" break="no"/>sus et personas reseruare. et quo non quicunque 
+      sacen<lb ed="#P" n="3" break="no"/>dos potest etiam subditum suum de quocunque absol 
+      <lb ed="#P" n="4"/>uere que tenentur communiter ab ecclesia. que tamen 
+      <lb ed="#P" n="5"/>non essent vera nec possent saluari secundum primam viam 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e968">
+               <lb ed="#P" n="6"/>¶ Si dicatur contra predicta primo. quia cuilibet 
+      po<lb ed="#P" n="7" break="no"/>tentie actiue videtur correspondere potentia 
+      passi<lb ed="#P" n="8" break="no"/>ua non solum in moralibus sed etiam in 
+      sacramentali<lb ed="#P" n="9" break="no"/>bus. clauis autem est potentia actiua cognoscendi vel 
+      <lb ed="#P" n="10"/>absoluendi. igitur sibi secundum quod huiusmodi correspondet 
+      po<lb ed="#P" n="11" break="no"/>tentia passiua alicuius absolubilis. et per consequens 
+      ma<lb ed="#P" n="12" break="no"/>teria vel subiectus aliquis.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e986">
+      ¶ Secundo quia clauis 
+      <lb ed="#P" n="13"/>est potestas iudicandi. sed nullus habet potestatem 
+      <lb ed="#P" n="14"/>iudicandi nisi habens aliquem subiectum iudicabilem ab 
+      <lb ed="#P" n="15"/>ipso.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e996">
+      ¶ Dico ad primum: quod clauis est potentia 
+      acti<lb ed="#P" n="16" break="no"/>ua remota et ita sibi correspondet materia aliquo 
+      <lb ed="#P" n="17"/>modo a remotis puta peccator penitens. sed sibi non 
+      <lb ed="#P" n="18"/>correspondet materia vel potentia passiua proxima 
+      <lb ed="#P" n="19"/>nisi concurrente alia potentia actiua scilicet 
+      iurisdictio<lb ed="#P" n="20" break="no"/>nis et quod iste sit subiectus habenti. claues. Preterea 
+      <lb ed="#P" n="21"/>etiam non oportet: quod semper potentie actiue 
+      correspon<lb ed="#P" n="22" break="no"/>deat potentia passiua vel materia existens in aciu 
+      <lb ed="#P" n="23"/>alioquin res creabilis vel causabilis a deo fuisset 
+      <lb ed="#P" n="24"/>ab eterno. et ita non oportet quod habens claues 
+      ha<lb ed="#P" n="25" break="no"/>beat materiam in actu: sed sufficit. quod possit 
+      habere<lb ed="#P" n="26" break="no"/>quando materia sibi subiicitur. .
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1022">
+      ¶ Ad secundum dico: 
+      <lb ed="#P" n="27"/>quod istud argumentum potest adduci satis bene ad 
+      <lb ed="#P" n="28"/>probandum quod ex virtute collationis clauium in illo 
+      <lb ed="#P" n="29"/>verbo. Accipite spiritum sanctum etc. non fuit aliquis 
+      <lb ed="#P" n="30"/>subiectus actualiter et complete ipsis apostolis: 
+      <lb ed="#P" n="31"/>nec aliquis tenebatur eis confiteri quia ex hoc non 
+      <lb ed="#P" n="32"/>habuerunt nisi potentiam remotam iudicandi. quia 
+      <lb ed="#P" n="33"/>ex hoc precise non fuit eis data iurisdictio. potest 
+      ig<lb ed="#P" n="34" break="no"/>tur habere potestatem iudicandi remotam non habens 
+      <lb ed="#P" n="35"/>subditum in actu: nec in potentia proxima. et sic est in 
+      <lb ed="#P" n="36"/>proposito. Creditur tamen et bene: quod chrisius vel tunc 
+      <lb ed="#P" n="37"/>concomitanter saltem. vel alias dedit apostolis 
+      po<lb ed="#P" n="38" break="no"/>testatem iurisdictionis super absoluendos: vel saltem 
+      princi<lb ed="#P" n="39" break="no"/>bi aptolorum: qui eam aliis communicauit. vel si omnes apostoli 
+      <lb ed="#P" n="40"/>habuerunt eam immediate a christo: tamen principi apolorum 
+      <lb ed="#P" n="41"/>dedit pote statem artandi vel limitandi vel extendendi 
+      <lb ed="#P" n="42"/>vel amouendi ab eis. sicut potest facere papa ab episco 
+      <lb ed="#P" n="43"/>pis: qui sunt successores apostolorum et ab inferioribus 
+      <lb ed="#P" n="44"/>sacerdotibus: qui sunt successores discipulorum. Hec 
+      <lb ed="#P" n="45"/>de secundo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1066">
+               <lb ed="#P" n="46"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="47" break="no"/>culum. scilicet an potestas clauium sacerdotalium praedictarum 
+      <lb ed="#P" n="48"/>in foro conscientie vel penitentie se extendat in absoluem 
+      <lb ed="#P" n="49"/>do ad remissionem culpe et commutationem pene eterne 
+      <lb ed="#P" n="50"/>n tparalem et etiam diminutionem pene tmparalis debite pro 
+      <lb ed="#P" n="51"/>octo: videtur fuisse opinio magistri: quod non quantum ad 
+      <lb ed="#P" n="52"/>remissionem culpe et commutationem pene eterne in tmpara 
+      <lb ed="#P" n="53"/>em seu remissionem eiusdem pene eterne. Sed hoc ad 
+      <lb ed="#P" n="54"/>solum deum pertinet: sicut dicit. Et allegat ad hoc 
+      plu<lb ed="#P" n="55" break="no"/>res auctur. sicut patet dist. xviii. Et respondet ad 
+      pote<lb ed="#P" n="56" break="no"/>statem clauium: quae est potestas absoluendi pro tanto quia 
+      sa<lb ed="#P" n="57" break="no"/>cerdotes ecclesiastici ostendunt pctitores absolutos vel 
+      <lb ed="#P" n="58"/>ligatos secundum demerita vel merita eorum sibi ostensa si 
+      <lb ed="#P" n="59"/>cut sacerdotes legales non faciebant leprosos. nec 
+      cu<lb ed="#P" n="60" break="no"/>rabant eos a lepra: sed ostendebant eos esse leprosos vel 
+      <lb ed="#P" n="61"/>a lepra mundatos. Ex adduxit exemplum de lamaro. 
+      <lb ed="#P" n="62"/>quia primo fuit suscitatus et postea expositus 
+      discipu<lb ed="#P" n="63" break="no"/>lis: vt solueretur. Sic etiam pectotor primo absoluitur a deo: 
+      <lb ed="#P" n="64"/>et suscitatur quantum ad remissionem culpe: et per consequens quantum 
+      <!--192.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ad commutationem pene eterne in temporalem. et postea 
+      <lb ed="#P" n="66"/>soluendus dimittitur sacerdotibus. quia habent 
+      ostendere<lb ed="#P" n="67" break="no"/>ipsum solutum: et per iudicium eorum soluitur apud eeclesiam 
+      <lb ed="#P" n="68"/>Secundo etiam aliter habent ptantem ligandi et soluendi 
+      <lb ed="#P" n="69"/>sacerdotes ecclesiastici secundum eum. quia imponendo penitem 
+      <lb ed="#P" n="70"/>tibus satisfactionem ligant eos ad talem penam 
+      explen<lb ed="#P" n="71" break="no"/>dam: et soluunt remittendo eis de pena debita: 
+      agen<lb ed="#P" n="72" break="no"/>do secundum minam cum eis: et recipiendo eos ad sacramenta 
+      <lb ed="#P" n="73"/>ecclesie.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1134">
+      ¶ Sic ergo de intentione magistri est: quod 
+      po<lb ed="#P" n="74" break="no"/>testas clauium no se extendit ad remissionem culpe nec 
+      <lb ed="#P" n="75"/>ad commutationem pene eterne vel remissionem eius 
+      effe<lb ed="#P" n="76" break="no"/>ctiue vel causaliter quasi: sed tantum ostensiue: sicut de sa 
+      <lb ed="#P" n="77"/>cerdotibus legalibus dictum est supra secundum ipsum. 
+      Quan<lb ed="#P" n="78" break="no"/>tum vero ad penam tparalem dicit: quod extendit se potestas 
+      <lb ed="#P" n="79"/>clauium: dum tamen conformiter se habeat diuino 
+      iudi<lb ed="#P" n="80" break="no"/>cio. Ita quod praecise sic determinet et limitet penam 
+      tempo<lb ed="#P" n="81" break="no"/>ralem conformiter ad diuinum iudicium. 
+      alioquin<lb ed="#P" n="82" break="no"/>non ratificatur eius iudicium: nec valet apud deum 
+      <lb ed="#P" n="83"/>de pena temporali. 
+      <lb ed="#P" n="84"/> ista arguitur primo contra pri¬ 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1160">
+               <lb ed="#P" n="85"/>¶ Sed conti a mumn sic. penitentia vel ab  
+      <lb ed="#P" n="86"/>solutio est sacramentum noue legis. sed sacramentum 
+      no<lb ed="#P" n="87" break="no"/>ue legis nec ministrans ipsum solum ostendunt gratiam 
+      <lb ed="#P" n="88"/>preexistentem. sed sacramentum est signum efficax gratiae 
+      <lb ed="#P" n="89"/>non remenoratiuum nec praenosticum: sicut dictum est supra: 
+      <lb ed="#P" n="90"/>igitur sacramentum penitentie vel absolutio 
+      sacramenta<lb ed="#P" n="91" break="no"/>lis: quae fit virtute clauium: non tantum est ostensiua 
+      gra<lb ed="#P" n="92" break="no"/>tie et remissionis pcti et commutationis pene: verum 
+      <lb ed="#P" n="93"/>etiam eo modo quo alia sacramenta sunt: vel dicun 
+      <lb ed="#P" n="94"/>tur causa gratiae: eodem modo et istud: et per consequens 
+      remis<lb ed="#P" n="95" break="no"/>sionis culpe. quia gratia non stat cum pctto mortali defacto 
+      <lb ed="#P" n="96"/>et commutationis pene. quia obligatio ad penam 
+      eter<lb ed="#P" n="97" break="no"/>nam non stat cum gratia in aliquo. quare etc.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1191">
+      ¶ 
+      Secun<lb ed="#P" n="98" break="no"/>do sic. penitentia et absolutio sacramentalis vertute 
+      cla<lb ed="#P" n="99" break="no"/>uium est secunda tabula post naufragium. sed hoc non esset: si 
+      <lb ed="#P" n="100"/>tantum ostenderet gratiam et absolutionem a pecto. nam secundum 
+      <lb ed="#P" n="101"/>magistrum in principio huius quarti: sactum est 
+      inuisi<lb ed="#P" n="102" break="no"/>bilis gratie visibilis forma vt eius similitudinem gerat: 
+      <lb ed="#P" n="103"/>et causa existat. exponendo tamen causam eo modo quo 
+      di<lb ed="#P" n="104" break="no"/>ctum est in principio huius quarti. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1210">
+      ¶ Quantum 
+      <lb ed="#P" n="105"/>ad secundum arguitur contra magistrum. primo sic. nulli 
+      commit<lb ed="#P" n="106" break="no"/>titur arbitrium iudicandi: cuius arbitrium numquam erit ratum: 
+      <lb ed="#P" n="107"/>quantumcunque diligentiam apponat in arbitrando vel 
+      <lb ed="#P" n="108"/>ludicando sed si oporteret iudicium de pena 
+      tempo<lb ed="#P" n="109" break="no"/>rali confirmari simpliciter et praecise diuino iudicio ad 
+      <lb ed="#P" n="110"/>hoc vt clauis ad illam se extenderet: nunquam posset 
+      iu<lb ed="#P" n="111" break="no"/>dicium esse ratum nec firmum apud sacerdotem 
+      iudicam<lb ed="#P" n="112" break="no"/>lem: scilicet quod bene iudicaret. quia nunquam de communi 
+      lege<lb ed="#P" n="113" break="no"/>nisi per miraculum potest sibi constare de voluntate diuina 
+      <lb ed="#P" n="114"/>precisa circa istu in particulari. et ita solum vel a 
+      casu<lb ed="#P" n="115" break="no"/>vel per miraculum: si reuelaretur sibi diuina voluntas: 
+      <lb ed="#P" n="116"/>posset rite iudicare: nec sententiare de pena.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1239">
+      ¶ 
+      Se<lb ed="#P" n="117" break="no"/>cundo sic. nullus constituitur arbiter inter partes 
+      subl<lb ed="#P" n="118" break="no"/>hac conditione quod precise arbitretur secundum voluntatem 
+      <lb ed="#P" n="119"/>vnius partis precipue quando precise non potest nosse 
+      vo<lb ed="#P" n="120" break="no"/>luntatem eius. sed in iudicio arbitrario penitentie secundum 
+      <lb ed="#P" n="121"/>claues partes sunt deus et pector. sacerdos instituitur 
+      <lb ed="#P" n="122"/>iudex. cum igitur non possit sibi constare nisi per reuelationem 
+      <lb ed="#P" n="123"/>vel miraculum de precisa voluntate dei circa 
+      pec<lb ed="#P" n="124" break="no"/>catorem: non ligatur ad arbitrandum precise illam penam 
+      <lb ed="#P" n="125"/>quam deus imponeret alias preter istud sacramentum 
+      <lb ed="#P" n="126"/>Secundo quia si sacerdos imponeret penitenti aliquantulum 
+      <lb ed="#P" n="127"/>maiorem penam pro pcto: non est verisimile: quin teneret 
+      <lb ed="#P" n="128"/>igitur similiter etiam de minori aliquantulum iudicium est ratum: 
+      <lb ed="#P" n="129"/>et tenet. nec talis pena punctalis est: vt videtur 
+      <!--193.xml-->
+      <pb ed="#P" n="98-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>breuiter quantum ad primum: 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1278">
+               <lb ed="#P" n="2"/>¶ Dico igitur quod absolutio sacramenta 
+      <lb ed="#P" n="3"/>is vel sacramentum penitentie virtute clauium 
+      ex<lb ed="#P" n="4" break="no"/>tendit se ad remissionem culpe et commutationem 
+      pene<lb ed="#P" n="5" break="no"/>eterne in temporalem: quantum est ex se: nisi prius inue 
+      <lb ed="#P" n="6"/>niantur ista facta in penitente virtute contritionis. 
+      si<lb ed="#P" n="7" break="no"/>cut etiam de baptismo: quod quantum est ex se et per se de 
+      <lb ed="#P" n="8"/>let culpam originalem quam inuenit in baptimato: et 
+      <lb ed="#P" n="9"/>etiam simpliciter remittit penam. quantum est ex se 
+      di<lb ed="#P" n="10" break="no"/>co. quia licet aliquando inueniat culpam remissam in susci 
+      <lb ed="#P" n="11"/>piente baptismum ex motu bono liberi arbitrii susci 
+      <lb ed="#P" n="12"/>pientis praecedente: hoc tamen sibi accidit: et tunc etiam auget 
+      <lb ed="#P" n="13"/>gratiam. sic in proposito suo modo.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1307">
+      ¶ Et 
+      auctorita<lb ed="#P" n="14" break="no"/>tes magistri sunt affirmatiue: quod sacerdos ostendit: 
+      <lb ed="#P" n="15"/>sed non sunt negatiue: quod non absoluit. ideo etc. Non 
+      <lb ed="#P" n="16"/>ergo penitus est simile de sacerdotibus catholicis 
+      <lb ed="#P" n="17"/>et de sacerdotibus legalibus. Similiter illud de 
+      la<lb ed="#P" n="18" break="no"/>garo non cogit. quia bene oportet aliquo modo 
+      pcton<lb ed="#P" n="19" break="no"/>rem suscitari et solui a peccato saltem quantum ad 
+      displi<lb ed="#P" n="20" break="no"/>centiam peccati: et propositum non recidiuandi vel non 
+      <lb ed="#P" n="21"/>propositum recidiuandi quam a sacerdote absoluatur. 
+      <lb ed="#P" n="22"/>Sed nihil valet contra propositum sicut patet. 
+      Simi<lb ed="#P" n="23" break="no"/>liter etiam ex talibus parabolis seu sensibus parabo 
+      <lb ed="#P" n="24"/>licis non concludunt argumenta.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1333">
+      ¶ Quantum ad 
+      se<lb ed="#P" n="25" break="no"/>cundum de pena temporali dico: quod non ratificatur 
+      iud<lb ed="#P" n="26" break="no"/>dicium clauium nisi conformiter se habendo ad 
+      diui<lb ed="#P" n="27" break="no"/>nam voluntatem vel diuinum iudicium: isto modo 
+      <lb ed="#P" n="28"/>scilicet quod diuina voluntas approbet tale iudicium. 
+      <lb ed="#P" n="29"/>sed non oportet tale iudicium esse conforme 
+      diui<lb ed="#P" n="30" break="no"/>no iudicio vel diuine voluntati quantum ad hoc: quod 
+      <lb ed="#P" n="31"/>imponatur precise vel non imponatur tantum deus 
+      <lb ed="#P" n="32"/>pena: quantum diuina voluntas alias sine sacramen 
+      <lb ed="#P" n="33"/>to imponeret vel non imponeret sine tali sacramen 
+      <lb ed="#P" n="34"/>to vel quantum determinate et precise et punctaliter vult 
+      <lb ed="#P" n="35"/>isti de pena vel non vult seu vellet vel non vellet sine 
+      <lb ed="#P" n="36"/>tali sacramento. sed sicut in iusticia commutatiua non 
+      <lb ed="#P" n="37"/>est medium punctale obseruandum: sed habet 
+      aliquam<lb ed="#P" n="38" break="no"/>latitudinem: sicut dictum est supra. Ita etiam in 
+      proposi<lb ed="#P" n="39" break="no"/>to de impositione pene propter pctantum. est enim 
+      huiusmodi<lb ed="#P" n="40" break="no"/>quasi quedam iusticia commutatiua: sicut dictum est 
+      su<lb ed="#P" n="41" break="no"/>pra. Ita quod licet alias secundum diuinam iusticiam precisam 
+      <lb ed="#P" n="42"/>correspondet pctatio maior pena tamen suscipienti sacterm 
+      <lb ed="#P" n="43"/>communiori pena imposita ratificatur pena et 
+      iudi<lb ed="#P" n="44" break="no"/>cium sacerdotale secundum claues. nec oportet ita 
+      puncta<lb ed="#P" n="45" break="no"/>liter accipere: sicut dicunt.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1381">
+      ¶ Secundo videtur 
+      mihi<lb ed="#P" n="46" break="no"/>dicendum: quod quotiens iteratur rite et modo debito 
+      sa<lb ed="#P" n="47" break="no"/>cramentum penitentie: virtute clauium remittitur aliquid 
+      <lb ed="#P" n="48"/>de pena temporali explenda vel soluenda pro pctins. 
+      <lb ed="#P" n="49"/>de quibus penitens confitetur. et posset totienm 
+      confite<lb ed="#P" n="50" break="no"/>ri: quod illa tparalis pena totaliter solueretur et in 
+      vita<lb ed="#P" n="51" break="no"/>presenti expleretur. et ita bene virtute sacramenti sicut 
+      <lb ed="#P" n="52"/>et tota pena expleri potest virtute contritionis 
+      vehe<lb ed="#P" n="53" break="no"/>mentis habite de pcto vel de pctins.
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1402">
+      ¶ Unde non est 
+      <lb ed="#P" n="54"/>verum dictum vnius doctoris: qui dicit: quod prima 
+      vi<lb ed="#P" n="55" break="no"/>te absolutionis rite habita nihil valent sequentes 
+      <lb ed="#P" n="56"/>absolutiones Nec etiam quantum ad penam: eo quod 
+      pri<lb ed="#P" n="57" break="no"/>mum iudicium prime absolutionis ratificatur. non 
+      <lb ed="#P" n="58"/>enim sic ratificatur quod sequentes absolutiones non 
+      va<lb ed="#P" n="59" break="no"/>leant quantum ad augmentum gratie et diminutionem 
+      <lb ed="#P" n="60"/>pene. sed quia ipsum valet: et infunditur gratia vel 
+      <lb ed="#P" n="61"/>nugetur per ipsum: et commutatur pena eterna in 
+      ten<lb ed="#P" n="62" break="no"/>poralem: vel remittitur iparalis vel minuitur si 
+      inueni<lb ed="#P" n="63" break="no"/>tur soluenda in penitente. verum est tamen: quod quantum ad 
+      remi<lb ed="#P" n="64" break="no"/>sionem culpe non valet absolutio nisi semel. hec 
+      de<lb ed="#P" n="65" break="no"/>tertio articulo principali. 
+      <!--193.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>et secundum et tertium prin¬ 
+      </p>
+            <p xml:id="qrdBas-f57297-d1e1437">
+               <lb ed="#P" n="67"/>¶ Ad primum cipale patet ex dictis 
+      in<lb ed="#P" n="68" break="no"/>corpore questionis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

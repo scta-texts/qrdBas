@@ -1,0 +1,552 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="30-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f14468"><!--l4d7q1 -->
+            <head xml:id="qrdBas-f14468-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f14468-d1e101">
+               <lb ed="#P" n="112"/>¶ Distinctionis Septime. 
+      <lb ed="#P" n="113"/>Questio Unica 
+    </p>
+            <p xml:id="qrdBas-f14468-d1e108">
+               <lb ed="#P" n="114"/>CIrca septimam 
+      di<lb ed="#P" n="115" break="no"/>stinctionem quero vtrum 
+      con<lb ed="#P" n="116" break="no"/>firmatio sit sacramentum 
+      no<lb ed="#P" n="117" break="no"/>ue legis necessarium ad 
+      salu<lb ed="#P" n="118" break="no"/>tem et irreiterabile.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e121">
+      ¶ 
+      Uide<lb ed="#P" n="119" break="no"/>tur quod non sit sacramentum noue 
+      <lb ed="#P" n="120"/>legis. quia non confert gratiam. 
+      <lb ed="#P" n="121"/>Illa enim gratia aut esset ea 
+      <lb ed="#P" n="122"/>dem cum gratia baptismali. Et tunc bis eadem 
+      gra<lb ed="#P" n="123" break="no"/>tia conferretur semel per baptismum: et alio semel 
+      <lb ed="#P" n="124"/>per confirmationem. aut alia gratia: et tunc duo 
+      ac<lb ed="#P" n="125" break="no"/>cidentia eiusdem rationis essent simul in eodem 
+      subie<lb ed="#P" n="126" break="no"/>cto: quod est falsum. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e141">
+      ¶ Secundo videtur 
+      <lb ed="#P" n="127"/>quod non sit necessarium ad salutem. quia sine confirmatio¬ 
+      <!--57.xml-->
+      <pb ed="#P" n="30-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ne potest baptimatus saluari. nam baptismus aperit 
+      <lb ed="#P" n="2"/>ianuam: sicut patet. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e158">
+      ¶ Tertio videtur quod non 
+      <lb ed="#P" n="3"/>sit irreiterabile: sed iterabile. Eest enim data 
+      confir<lb ed="#P" n="4" break="no"/>matio contra pusillanimitatem: et ad robur in 
+      con<lb ed="#P" n="5" break="no"/>fitendo fidem christi: sed aliquis pluries indiget 
+      ro<lb ed="#P" n="6" break="no"/>bore vel roboratione: sicut pluries potest esse 
+      pu<lb ed="#P" n="7" break="no"/>sillanimis. ergo etc. 
+      <lb ed="#P" n="8"/>quantum ad primum magister in 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e174">
+               <lb ed="#P" n="9"/>¶ Contra littera. Contra secundum quia 
+      confes<lb ed="#P" n="10" break="no"/>sio fidei ad quam ordinatur hoc sacramentum est 
+      <lb ed="#P" n="11"/>necessaria ad salutem. quia corde creditur ad 
+      iusti<lb ed="#P" n="12" break="no"/>tiam. ore autem confessio fit ad salutem. Contra 
+      <lb ed="#P" n="13"/>tertium. quia imprimit caracterem. 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e187">
+               <lb ed="#P" n="14"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e192">
+               <lb ed="#P" n="15"/>¶ Primo supponendo quod confirmatio sit 
+      sacramen<lb ed="#P" n="16" break="no"/>tum noue legis: sicut noium est apud fideles ponam 
+      <lb ed="#P" n="17"/>desciptionem huius sacramenti: et que sit forma et 
+      mate<lb ed="#P" n="18" break="no"/>ria et minister eius.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e203">
+      ¶ Secundo inquiram an sit 
+      necesia<lb ed="#P" n="19" break="no"/>rium ad salutem. et nobilius sacramentum quam 
+      ba<lb ed="#P" n="20" break="no"/>ptismus.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e210">
+      ¶ Tertio an sit irreiterabile et imprimat 
+      <lb ed="#P" n="21"/>caracterem.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e216">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e218">
+               <lb ed="#P" n="22"/>¶ Quantum ad primum dico: 
+      <lb ed="#P" n="23"/>quod confirmatio suo modo posset sic desribi quantum ad 
+      <lb ed="#P" n="24"/>suum materiale: sicut magister supra deseripsit bac 
+      <lb ed="#P" n="25"/>ptismum scilicet quod confirmatio diceretur vnctio alicuius 
+      <lb ed="#P" n="26"/>cum criimate sancto sub forma verborum 
+      prescripta<lb ed="#P" n="27" break="no"/>Sed non curo.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e234">
+      ¶ Pono aliam descriptionem ex qua 
+      <lb ed="#P" n="28"/>apparebunt multa de isto sacramento. potest erge 
+      <lb ed="#P" n="29"/>dici quod confirmatio est sacramentum noue legis 
+      consi<lb ed="#P" n="30" break="no"/>stens in vnctione homins viatoris aliqualiter 
+      consen<lb ed="#P" n="31" break="no"/>tientis vel saltem non dissentientis facta in fronte in 
+      <lb ed="#P" n="32"/>figura crucis cum crismate sanctificato a minisi 
+      ro<lb ed="#P" n="33" break="no"/>doneo simul cum intentione debita inungente et 
+      cer<lb ed="#P" n="34" break="no"/>ta verba proferente: significans efficaciter ex institus 
+      <lb ed="#P" n="35"/>tione diuina vnctionem anime per gratiam roborantem ad 
+      <lb ed="#P" n="36"/>confitendum cum fiducia nomen christi vel fidem. 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e256">
+               <lb ed="#P" n="37"/>¶ In ista vero descriptione ponitur genus huius 
+      <lb ed="#P" n="38"/>sacra menti quando dicitur sacramentum noue legis. Et 
+      <lb ed="#P" n="39"/>habet istud genus septem species: sicut patet. secundo 
+      dic<lb ed="#P" n="40" break="no"/>tur quod consistit in vnctione ad differentiam baptismi 
+      <lb ed="#P" n="41"/>et aliorum sacrameniorum que in vnctione non consistunt 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e269">
+               <lb ed="#P" n="42"/>¶ Sed dicitur quod cum crismate sanctificato ab 
+      epi<lb ed="#P" n="43" break="no"/>copo vel alio si libi talis sctinficatio possit committi. 
+      <lb ed="#P" n="44"/>quia hec est materia propria cum qua debet fieri ista 
+      inun<lb ed="#P" n="45" break="no"/>ctio. Et debet esse istud crisma confectum ex oleo et 
+      <lb ed="#P" n="46"/>balsamo: et non quocumque oleo: sed oleo oliue. quia illud 
+      <lb ed="#P" n="47"/>anthonomatice dicitur oleum. Et illud sic instituit 
+      <lb ed="#P" n="48"/>christus.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e287">
+      ¶ Si autem dicatur quod apostoli confirmantes 
+      ta<lb ed="#P" n="49" break="no"/>li materia non vtebantur: nec inungebant: sed 
+      impone<lb ed="#P" n="50" break="no"/>bant manus. Similiter etiam in aliis sacramentis. 
+      <lb ed="#P" n="51"/>pluribus non requiritur materia sanctificata.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e297">
+      ¶ 
+      Di<lb ed="#P" n="52" break="no"/>co ad primum quod vel apostoli non ministrabant sacra 
+      <lb ed="#P" n="53"/>mentum confirmationis: nec confirmabant 
+      sacramen<lb ed="#P" n="54" break="no"/>taliter: sed equipollenter conferendo spiritum sanctum 
+      <lb ed="#P" n="55"/>per impositionem manuum vel quod dispensatiue a deo 
+      <lb ed="#P" n="56"/>habebant hoc pro ipare quod sufficiebat pro signo 
+      sensi<lb ed="#P" n="57" break="no"/>bili impositio manuum quia ad impositionem manuum se 
+      <lb ed="#P" n="58"/>quebantur aliqua signa sensibilia: vt descensus spiritus 
+      <lb ed="#P" n="59"/>ancti in aliquo signo sensibili: et huiusmodi: et donum 
+      lin<lb ed="#P" n="60" break="no"/>guarum. sed a tpare aplorum cessantibus talibus miraculis 
+      <lb ed="#P" n="61"/>necessarium fuit et ordinatum a deo et ab ipsis etiam apostolius 
+      <lb ed="#P" n="62"/>diuulgatum vt in tali materia ministri confirmaret. et 
+      <lb ed="#P" n="63"/>in tali forma que dicetur infra: licet non habeatur 
+      <!--57.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>hoc expresse in scriptura de aliis aliquibus 
+      sacra<lb ed="#P" n="65" break="no"/>mentis: quorum materia non sanctificatur. patet. quia christus 
+      <lb ed="#P" n="66"/>tactu sue carnis mundissime sanctificauit eam: vt de 
+      <lb ed="#P" n="67"/>materia baptismi: puta de aqua. Nec etiam oportet 
+      <lb ed="#P" n="68"/>aquam sanctificare quia baptismus est sacramentum 
+      ma<lb ed="#P" n="69" break="no"/>gne necessitatis: et excluderetur salus aliquorum 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e343">
+               <lb ed="#P" n="70"/>¶ Sequitur quod vnctio illa debet esse hominis viato 
+      <lb ed="#P" n="71"/>ris: sicut dictum est de baptismo vel ablutione 
+      ba<lb ed="#P" n="72" break="no"/>ptismali. Sed aliqualiter consentientis quantum ad 
+      adul<lb ed="#P" n="73" break="no"/>tos eo modo sicut dictum est in baptismo. Uel non 
+      <lb ed="#P" n="74"/>dissentientis: quantum ad paruulos vel perpetuo amen 
+      <lb ed="#P" n="75"/>tes seu furiosos vel priuatos vsu rationis.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e359">
+      ¶ Sed  
+      <lb ed="#P" n="76"/>dicitur vltra quod ista vnctio debet fieri in fronte 
+      confir<lb ed="#P" n="77" break="no"/>mati. et hoc rationabiliter. quia in fronte apparet 
+      prin<lb ed="#P" n="78" break="no"/>cipalier signum timoris vel audacie: et similiter 
+      si<lb ed="#P" n="79" break="no"/>gnum verecundie: sicut patet. Iiii. ethicorum. Ista autem 
+      <lb ed="#P" n="80"/>sunt duo impedimenta: que possunt impedite actum 
+      <lb ed="#P" n="81"/>confessionis fide scilicet timor vel verecundia. Sed in 
+      fi<lb ed="#P" n="82" break="no"/>gura crucis que correspondens est forme verborumm: 
+      <lb ed="#P" n="83"/>de qua dicetur infra. alioquin enim diceretur falsum. 
+      <lb ed="#P" n="84"/>Hoc etiam congruum est. quia illud confusibile quod 
+      vi<lb ed="#P" n="85" break="no"/>detur in fidelibus in fide christiana est crux et 
+      crucifi<lb ed="#P" n="86" break="no"/>xio christi: propter quod dicebat nos predicamus christum 
+      <lb ed="#P" n="87"/>crucifixum: iudeis quidem scandalum gentibus 
+      vero<lb ed="#P" n="88" break="no"/>siultitiam. Ideo ne confirmatus erubescat hoc 
+      confite<lb ed="#P" n="89" break="no"/>ri: signatur in modum crucis: que est vexillum christi sum 
+      <lb ed="#P" n="90"/>mi regis et christianomum: quod debet vehere miles 
+      con<lb ed="#P" n="91" break="no"/>firmatus.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e396">
+      ¶ Sed a minisiro idoneo dicitur. 
+      Mini<lb ed="#P" n="92" break="no"/>ster autem idoneus dicitur secundum aliquos solus 
+      epi<lb ed="#P" n="93" break="no"/>scopus ab ecclesia toleratus non precisus vel 
+      degra<lb ed="#P" n="94" break="no"/>datu. Episcopus dicitur quia secundum communem 
+      doctri<lb ed="#P" n="95" break="no"/>nam et modum obseruandi simplex sacerdos qui non 
+      <lb ed="#P" n="96"/>est episcopus non potest confirmare: salt est non 
+      confir<lb ed="#P" n="97" break="no"/>mant simplices sacerdotes diebus istis.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e412">
+      ¶ Quod 
+      <lb ed="#P" n="98"/>autem beatus Pregorius concessit simplicibus 
+      sa<lb ed="#P" n="99" break="no"/>cerdotibus confirmare scribens ad ianuarium sicut 
+      ha<lb ed="#P" n="100" break="no"/>petur distinctione. Exxxv. peruenit. et recitat 
+      magi<lb ed="#P" n="101" break="no"/>ter in littera presentis distinctionis dicunt 
+      aliqui<lb ed="#P" n="102" break="no"/>quod hoc fuit ad vitandum scandalum. Sed hoc non est 
+      <lb ed="#P" n="103"/>verum. quia si soli episcopi hoc possunt: tunc fuisset 
+      er<lb ed="#P" n="104" break="no"/>ror in doctrina. vtilius autem scandalum nasci permit 
+      <lb ed="#P" n="105"/>titur quam veritas relinquatur. non enim sunt facienda 
+      <lb ed="#P" n="106"/>mala: vt veniant bona. et ita non est dicendum quod hoc 
+      <lb ed="#P" n="107"/>fecerit beatus Gregorius.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e436">
+      ¶ Alii dicunt quod beatus 
+      <lb ed="#P" n="108"/>Gregorius non concessit sacerdotibus confirmare: sed 
+      <lb ed="#P" n="109"/>oleo vngere: quasi confirmarent: non tamen vere 
+      confir<lb ed="#P" n="110" break="no"/>mabant. Sed hoc est contra textum decretorum vbi 
+      su<lb ed="#P" n="111" break="no"/>pra. vbi dicitur quod concessit vt sacerdotes baptimatos 
+      <lb ed="#P" n="112"/>crismate in fronte vngerent. et similiter beatus 
+      Gre<lb ed="#P" n="113" break="no"/>gorius concessit illud: pro cuius substractione erant 
+      <lb ed="#P" n="114"/>aliqui scandalimati. et illud erat confirmatio vera. 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e455">
+               <lb ed="#P" n="115"/>¶ Alii dicunt quod beatus Gregorius concedendo 
+      il<lb ed="#P" n="116" break="no"/>lis sacerdotibus posse confirmare fecit eos 
+      episco<lb ed="#P" n="117" break="no"/>pos quantum ad isium actum. et hoc potuit facere sicut 
+      ha<lb ed="#P" n="118" break="no"/>bens plenitudinem potestatis super corpus christi 
+      mi<lb ed="#P" n="119" break="no"/>sticum. Et ita simplices sacerdotes hoc non possunt. 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e468">
+               <lb ed="#P" n="120"/>¶ Alii vero dicunt quod omnibus sacerdotibus licuit a 
+      prin<lb ed="#P" n="121" break="no"/>cipio confirmare: et omnes fuerunt pares: ita quod non erat 
+      <lb ed="#P" n="122"/>differentia inter sacerdotes et episcopos. Et hoc pro 
+      <lb ed="#P" n="123"/>batur primo per auctoritatem Hieronymi super 
+      epi<lb ed="#P" n="124" break="no"/>stolam ad titum. et ponitur in canone dinstinctione. 
+      <lb ed="#P" n="125"/>xcv. olim inquit idem presbyter qui et episcopus 
+      an<lb ed="#P" n="126" break="no"/>tequam diabolico instinctum scismata in religione 
+      fie<lb ed="#P" n="127" break="no"/>rent: et diceretur in populis ego sum pauli. ego 
+      ce<lb ed="#P" n="128" break="no"/>phe. ego autem apollo: communi presbyterorum consilio 
+      <!--58.xml-->
+      <pb ed="#P" n="30-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ecclesie regebantur. postquam autem vnusquisque eos quos 
+      <lb ed="#P" n="2"/>baptimauerat: suos putabat: non christi. In toto orbe 
+      <lb ed="#P" n="3"/>decretum est vt vnus de presbyteris 
+      superponere<lb ed="#P" n="4" break="no"/>tur: et scismatum semina tollerentur. Et parum post 
+      <lb ed="#P" n="5"/>sicut presbyteri sciunt se ex consuetudine ecclesie: et 
+      <lb ed="#P" n="6"/>qui sibi prepositus fuerit esse subiectos ita 
+      episco<lb ed="#P" n="7" break="no"/>pi nouerint se magis ex consuetudine quam 
+      dispensa<lb ed="#P" n="8" break="no"/>tionis dominice veritate presbyteris esse maioret 
+      <lb ed="#P" n="9"/>et in communi debere ecclesiam regere.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e516">
+      ¶ Secundo 
+      pro<lb ed="#P" n="10" break="no"/>batur hoc per eundem hieronimum ad euandrium 
+      pr<lb ed="#P" n="11" break="no"/>sbytermm. legimus inquit quod apostolus perspicue 
+      <lb ed="#P" n="12"/>doceat eosdem esse epsos: quos presbyteros. Et 
+      po<lb ed="#P" n="13" break="no"/>nitur distinctione. xciii. vnde et ibidem dicit 
+      hieroni<lb ed="#P" n="14" break="no"/>mus quod alexandrie presbyteri a marco euangelista 
+      <lb ed="#P" n="15"/>vsque ad dvonisium et aliquos alios epsos 
+      presbyte<lb ed="#P" n="16" break="no"/>ri eligebant ex seipsis vnum et in excellentiori 
+      gradu<lb ed="#P" n="17" break="no"/>collocabant quem vocabant episcopum: quomodo si 
+      <lb ed="#P" n="18"/>excercitus faciat imperatorem. dyaconi autem eligebant 
+      <lb ed="#P" n="19"/>vnum quem industrium nouerant: et archidiaconum 
+      <lb ed="#P" n="20"/>nuncupabant. similiter idem hiero. Et ponitur 
+      distin<lb ed="#P" n="21" break="no"/>ctione. xcv. et est super illud verbum pauli noli 
+      negli<lb ed="#P" n="22" break="no"/>gere gratiam que data est per impositionem manuum 
+      <lb ed="#P" n="23"/>presbyteri. Quoniam ait presbyteri epsi nominantur 
+      <lb ed="#P" n="24"/>secundum quod dictum est ad episcopum: noli 
+      neglige<lb ed="#P" n="25" break="no"/>re gratiam que data est tibi etc. sic ergo omnes 
+      sa<lb ed="#P" n="26" break="no"/>cerdotes a principio potuerunt confirmare. quia omnes 
+      <lb ed="#P" n="27"/>fuerunt pares episcopis in ptante ministrandi sacra 
+      <lb ed="#P" n="28"/>menta. tamen postea propter multitudinem sacerdo 
+      <lb ed="#P" n="29"/>tum constitutum est et ordinatum quod superiores 
+      consti<lb ed="#P" n="30" break="no"/>tuti inter presbyteros confirmarent: et non alii 
+      sacer<lb ed="#P" n="31" break="no"/>dotes: licet absolute loquendo hoc possent. Et tunt 
+      <lb ed="#P" n="32"/>beatus gregorius concedendo illis sacerdotibus 
+      <lb ed="#P" n="33"/>subiectis ianuario quod possent confirmare dispensauit 
+      <lb ed="#P" n="34"/>cum eis super illa ordinatione relaxando eam quantum 
+      <lb ed="#P" n="35"/>ad ipsos: vt licite possent hoc facere: quod alias licite 
+      <lb ed="#P" n="36"/>non poterant: licet absolute possent. Et in hoc non 
+      <lb ed="#P" n="37"/>concessit eis aliquam potestatem non conuenientem ipsis 
+      <lb ed="#P" n="38"/>sed prohibitionem positam super hoc reuocauit.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e581">
+      ¶ 
+      Quic<lb ed="#P" n="39" break="no"/>quid sit de isto modo vltimo dicendi: tenetur tamen 
+      <lb ed="#P" n="40"/>communius quod etiam a principio ecclesie fuit distinct 
+      <lb ed="#P" n="41"/>gradus episcopi et sacerdotis simplicis: saltem quam 
+      <lb ed="#P" n="42"/>tum ad ministrationem aliquorum sacramentorum: sicut 
+      <lb ed="#P" n="43"/>videtur in proposito de confirmatione et etiam de 
+      o<lb ed="#P" n="44" break="no"/>dine. Et quod fuerst distinctio talium graduum. proba 
+      <lb ed="#P" n="45"/>distinctione. xxi. in nono: vbi dicitur quod loco apostolo 
+      <lb ed="#P" n="46"/>rum surrexerunt episcopi. Sed loco septuaginta 
+      duo<lb ed="#P" n="47" break="no"/>rum surrexerunt presbyteri et ipsorum vicem gerunt: 
+      <lb ed="#P" n="48"/>licet bene inter illos fuerint aliqui dyaconi vt 
+      ste<lb ed="#P" n="49" break="no"/>phanus et aliqui ad apostolatum assumpti: sicut 
+      ma<lb ed="#P" n="50" break="no"/>thias saltem vnus. Et probatur etiam per hieronymum 
+      <lb ed="#P" n="51"/>vbi supra distinctione. xciii. Dicit enim quid enim 
+      <lb ed="#P" n="52"/>facit accepta ordinatione episcopus: quod presbyter 
+      <lb ed="#P" n="53"/>non facit. Et secundum glosam intelligitur. per 
+      conse<lb ed="#P" n="54" break="no"/>crationem intelligit alia que videntur praecipue aliqua 
+      <lb ed="#P" n="55"/>sacramenta. Tunc dicendum est quod episcopi possunt 
+      <lb ed="#P" n="56"/>hoc sacramentum ministrare: et non simplices 
+      sacer<lb ed="#P" n="57" break="no"/>dotes. Et tunc exponende sunt ille auctoritates 
+      hie<lb ed="#P" n="58" break="no"/>ronimi sicut gloia exponit quod forte a principio 
+      no<lb ed="#P" n="59" break="no"/>mina erant communia et quasi iynonima: et 
+      admin<lb ed="#P" n="60" break="no"/>stratio idest gubernatio ecclesie communis: sed non 
+      dispen<lb ed="#P" n="61" break="no"/>satio quorumcumque sacramentorum. Et tunc vlterius 
+      di<lb ed="#P" n="62" break="no"/>scendum est quod iuxta tertium modum dicendi: quande 
+      <lb ed="#P" n="63"/>beatus gregorius commisit vel concessit illis presbi 
+      <lb ed="#P" n="64"/>teris confirmare quod eos episcopos ordinauit 
+      quantu<lb ed="#P" n="65" break="no"/>ad istum actum: sicut et potuit facere habens pleni 
+      <!--58.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>iudinem potestatis. hoc tamen dubium est: cum non 
+      <lb ed="#P" n="67"/>inueniatur eos in sua praesentia ordinasse: sed tantum 
+      <lb ed="#P" n="68"/>in absentia commisisse. Et similiter si episcopatus im 
+      <lb ed="#P" n="69"/>primit caracterem: quomodo partitur potestas eius 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e655">
+               <lb ed="#P" n="70"/>¶ Episcopus ergo solus est idoneus minister et / 
+      <lb ed="#P" n="71"/>potest confirmare. Hoc patet extra de sacra vnctio 
+      ne<lb ed="#P" n="72" break="no"/>per frontis. Et de consecratione distinctione. iiii. 
+      <lb ed="#P" n="73"/>prebyteri etc.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e666">
+      ¶ Sed potest ne hoc episcopus de 
+      <lb ed="#P" n="74"/>gradatus: dicunt aliqui quod sic de facto: licet non de  
+      <lb ed="#P" n="75"/>iure. quia quantumcunque degradetur: tamen semper manet  
+      <lb ed="#P" n="76"/>episcopus.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e676">
+      ¶ Alii dicunt quod nec de facto nec de 
+      iu<lb ed="#P" n="77" break="no"/>re. quia non manet apud eum potestas super corpus 
+      <lb ed="#P" n="78"/>christi misticum: sed simpliciter tollitur ab eo 
+      auctori<lb ed="#P" n="79" break="no"/>tate pape. qui simpliciter in sua dispositione habet 
+      <lb ed="#P" n="80"/>talem potestatem et ita non potest crismare. quia 
+      simpli<lb ed="#P" n="81" break="no"/>citer priuatus est tali potestate. sicut etiam nec 
+      po<lb ed="#P" n="82" break="no"/>test aliquis absoluere aliquem de aliquo super quo 
+      <lb ed="#P" n="83"/>non habet potestatem: vel respectu cuius priuatus est 
+      <lb ed="#P" n="84"/>potestate.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e696">
+      ¶ Secus est autem de suspenso. Nam 
+      suspen<lb ed="#P" n="85" break="no"/>sus non priuatur potestate: sed sibi prohibetur ne sua 
+      <lb ed="#P" n="86"/>potestate vtatur. et hoc ad tempus. Et si facit: factum 
+      <lb ed="#P" n="87"/>est. tamen grauiter peccat. quia facit contra inhibitionem 
+      <lb ed="#P" n="88"/>suspendentis ipsum. Secus est etiam de sacerdote 
+      ve<lb ed="#P" n="89" break="no"/>episcopo degradato: qui semper potest de facto 
+      con<lb ed="#P" n="90" break="no"/>ficere corpus christi. nam talis potestas super corpus 
+      <lb ed="#P" n="91"/>christi verum consequitur caracterem indelebilem. et per 
+      <lb ed="#P" n="92"/>consequens semel collata auferri non potest: sed alia 
+      <lb ed="#P" n="93"/>bene super corpus christi misticum quare etc.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e718">
+      ¶ Ista 
+      <lb ed="#P" n="94"/>opinio multum est probabilis. Tamen quia quecumque 
+      <lb ed="#P" n="95"/>teneatur bene ponitur in descriptione 
+      sacramenti<lb ed="#P" n="96" break="no"/>quod ab idoneo ministro confirmandus inungatur. 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e727">
+               <lb ed="#P" n="97"/>¶ Sed dicitur vltra quod a ministro inungente simul 
+      <lb ed="#P" n="98"/>et proferente verba cunmdebita intentione. Et vniform 
+      <lb ed="#P" n="99"/>ter possunt declarari ista: sicut in baptismo 
+      diceba<lb ed="#P" n="100" break="no"/>tur.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e738">
+      ¶ Sed que sunt illa verba quia certa dicitur quod 
+      <lb ed="#P" n="101"/>hec est forma verborum sacramentalium in confirma 
+      <lb ed="#P" n="102"/>tione. signo te signo crucis: confirmo te crismate 
+      sa<lb ed="#P" n="103" break="no"/>lutis. In nomine patris et filii et spiritus sanctu 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e747">
+               <lb ed="#P" n="104"/>¶ Alii vtuntur hac forma conligno te signo crucis 
+      <lb ed="#P" n="105"/>confirmo te crismate sanctificationis. In nomine 
+      pa<lb ed="#P" n="106" break="no"/>tris et filii et spiritus sancti. Et tenenda est quelibet 
+      <lb ed="#P" n="107"/>istarum formarum in ecclesia in qua est consueta: et ab 
+      <lb ed="#P" n="108"/>ecclesia romana tollerata. Illa enim verba sic 
+      varia<lb ed="#P" n="109" break="no"/>ta non variant nec impediunt effectum sacramenti 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e764">
+               <lb ed="#P" n="110"/>¶ Sed vltra dicitur quod confirmatio ex institutione 
+      <lb ed="#P" n="111"/>diuina efficaciter significat: et in hoc tangitur relatio 
+      <lb ed="#P" n="112"/>signi efficacis instituti a diuina voluntate que 
+      con<lb ed="#P" n="113" break="no"/>uenit omni sacramento sicut dictum est supra. Sed 
+      <lb ed="#P" n="114"/>additur quod significat vnctionem anime per gretiam. 
+      ecce<lb ed="#P" n="115" break="no"/>correlarium huius signi scilicet gratia vngens.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e780">
+      ¶ Sed  
+      <lb ed="#P" n="116"/>vllimo additur quod per gratiam roborantem ad actum 
+      <lb ed="#P" n="117"/>confessionis fidei. quia ad istum actum specialiter 
+      di<lb ed="#P" n="118" break="no"/>citur hoc sacramentum roborare quomodocumque 
+      in<lb ed="#P" n="119" break="no"/>intelligatur. Hec de primo articulo principali 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e791">
+               <lb ed="#P" n="120"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="121" break="no"/>culum dico primo quod per se loquendo de his duobus 
+      <lb ed="#P" n="122"/>sacramentis accipiendo quodlibet ipsorum precise 
+      se<lb ed="#P" n="123" break="no"/>cundum illud quod pertinet ad ipsum: baptismus 
+      <lb ed="#P" n="124"/>est nobilius sacramentum. Tum quia confert maiorem 
+      <lb ed="#P" n="125"/>gratiam. Tum quia aperit ianuam. secundum quid tamen 
+      confir<lb ed="#P" n="126" break="no"/>matio est nobilius sacramentum. Tum quia sibi deter 
+      <lb ed="#P" n="127"/>minat nobiliorem ministrum. Tum quia etiam habet 
+      no<lb ed="#P" n="128" break="no"/>biliorem materiam. Tum quia etiam constituit in 
+      gradu<lb ed="#P" n="129" break="no"/>altiori in ecclesia: cum sit in statu militis: li non nisi 
+      <!--59.xml-->
+      <pb ed="#P" n="31-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>presupponendo baptismum.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e824">
+      ¶ Secundo dico quod 
+      sacra<lb ed="#P" n="2" break="no"/>mentum confirmationis non est necessarium ad 
+      salu<lb ed="#P" n="3" break="no"/>tem simpliciter loquendo: ita quod sine ipso non 
+      possu<lb ed="#P" n="4" break="no"/>aliquis saluari: sicut est baptismus: sed secundum 
+      quic<lb ed="#P" n="5" break="no"/>puta adulto ad non contennendum: et etiam ad 
+      susci<lb ed="#P" n="6" break="no"/>piendum ipare. et loco oportuno. quia alioquin 
+      contemne<lb ed="#P" n="7" break="no"/>re videretur. Et hoc est quod dicitur de 
+      consecra<lb ed="#P" n="8" break="no"/>tione distinctione. v. omnes fideles post baptismum 
+      per<lb ed="#P" n="9" break="no"/>manum episcoporum impositionem spiritum 
+      san<lb ed="#P" n="10" break="no"/>ctum suscipere debent vt pleni christiani inuenian 
+      <lb ed="#P" n="11"/>tur. quare etc. hec de secundo articulo: 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e848">
+               <lb ed="#P" n="12"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="13" break="no"/>culum dico primo quod confirmatio imprimit 
+      caracte<lb ed="#P" n="14" break="no"/>rem. et puto quod alterius rationis a caractere baptit 
+      <lb ed="#P" n="15"/>mali et ordinis. Ista autem tria sacramenta scilicet 
+      baptis<lb ed="#P" n="16" break="no"/>mus confirmatio et ordo conferre dicuntur 
+      caracte<lb ed="#P" n="17" break="no"/>rem. quia constituunt fideles in aliquo gradu determi 
+      <lb ed="#P" n="18"/>minato triplici in ecclesia militante. Sicut enim in 
+      po<lb ed="#P" n="19" break="no"/>licia temporali dicuntur aliqui habere gradum 
+      cer<lb ed="#P" n="20" break="no"/>tum: eoipso quod de populo assumuntur ad familiam 
+      <lb ed="#P" n="21"/>principis et vlteriorem gradum: quando promouentur ad 
+      <lb ed="#P" n="22"/>militiam: vt defendant rem publicam: et adhuc vlterio 
+      <lb ed="#P" n="23"/>rem: quando ad ducatum promouentur sub rege: ita quod 
+      ha<lb ed="#P" n="24" break="no"/>bent potestatem assumendi alios ad familiam 
+      princi<lb ed="#P" n="25" break="no"/>pis: vel etiam ad militiam quantum ad aliquos: et habent 
+      <lb ed="#P" n="26"/>alios regere vel gubernare et instruere non autem 
+      <lb ed="#P" n="27"/>habent aliqui certum gradum eoipso quod in curia 
+      prin<lb ed="#P" n="28" break="no"/>cipis comedunt vel bibunt: nec quia filios et filias pro 
+      <lb ed="#P" n="29"/>creant in terra principis: nec quia post offensam ad 
+      <lb ed="#P" n="30"/>gratiam reconciliantur siue quantum ad graues offensas 
+      <lb ed="#P" n="31"/>siue quantum ad leues: vt patet sic in proposito suo modo 
+      <lb ed="#P" n="32"/>Per hoc enim constituitur aliquis in certo gradu in 
+      <lb ed="#P" n="33"/>ecclesia militante in curia christi. quia per baptismum 
+      assu<lb ed="#P" n="34" break="no"/>mitur ad familiam christi eoipso est seruus et famulu 
+      <lb ed="#P" n="35"/>christi: sed in vlteriori constituitur quia per confirma 
+      <lb ed="#P" n="36"/>tionem. fit miles christi ad confitendum secure 
+      fide<lb ed="#P" n="37" break="no"/>christi et coanstanter tanquam bonus miles et 
+      defensa<lb ed="#P" n="38" break="no"/>tor fidei et reipublice christiane. sed vlterius 
+      adhud<lb ed="#P" n="39" break="no"/>in gradu vlteriori quando efficitur dux aliorum et habens 
+      <lb ed="#P" n="40"/>potestatem assumendi alios ad familiam christi vel 
+      <lb ed="#P" n="41"/>etiam faciendi milites. et hoc est per sacramentum 
+      <lb ed="#P" n="42"/>ordinis includendo episcopatum: etiam si 
+      episcopa<lb ed="#P" n="43" break="no"/>tus sit ordo: et conferatur in ipso caracter de quo vi 
+      <lb ed="#P" n="44"/>debitur infra: non autem constituitur in gradu 
+      specia<lb ed="#P" n="45" break="no"/>li per hoc quod suscipiendo sacramentum eucharistie 
+      <lb ed="#P" n="46"/>manducat et bibit: nec per sacramentum 
+      matrimo<lb ed="#P" n="47" break="no"/>nii: per quod deputatur ad procreationem prolis nec 
+      per<lb ed="#P" n="48" break="no"/>hoc quod per sacramentum penitentie reconciliatur 
+      ad<lb ed="#P" n="49" break="no"/>gratiam post graues offensas: vel per extremam 
+      <lb ed="#P" n="50"/>vnctionem de venialibus peccatis. et ideo tria 
+      pri<lb ed="#P" n="51" break="no"/>ma sacramenta imprimunt caracterem et signum 
+      <lb ed="#P" n="52"/>speciale datum a hierarchia I aprincipe in militia 
+      <lb ed="#P" n="53"/>christi ab episcopo vel sacerdote. Alia vero 
+      quat<lb ed="#P" n="54" break="no"/>tuor caracterem non imprimunt.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e944">
+      ¶ Ex quo patet 
+      <lb ed="#P" n="55"/>sicut dictum est supra de baptismo quod 
+      confirmatio<lb ed="#P" n="56" break="no"/>est sacramentum initerabile: sicut et alia similia 
+      ca<lb ed="#P" n="57" break="no"/>racterem imprimentia. Nec potest habere effectum 
+      <lb ed="#P" n="58"/>suum circa eundem suscipientem plusquam semel: non quia 
+      <lb ed="#P" n="59"/>sit hoc necessarium eoipso quod imprimit caracter est 
+      <lb ed="#P" n="60"/>sed quia christus sic instituit et ecclesia hoc 
+      diuulga<lb ed="#P" n="61" break="no"/>uit de consecratione distinctione. iiii. nobis visum est 
+      <lb ed="#P" n="62"/>confirmationem sicut et baptismum iterari minime 
+      <lb ed="#P" n="63"/>debere.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e967">
+      ¶ De pena vero iterantium hoc sacramen 
+      <lb ed="#P" n="64"/>tum dicit vnus doctor quod in iure non inuenitur irre¬ 
+      <!--59.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>gularitas inflicta iterantibus ipsum. et ideo non 
+      vi<lb ed="#P" n="66" break="no"/>detur sibi quod iterans confirmationem sit irregularis 
+      <lb ed="#P" n="67"/>siue ministrando: siue suscipiendo: secus est de 
+      ba<lb ed="#P" n="68" break="no"/>ptismo de quo inuenitur bene expressum quod iterans 
+      <lb ed="#P" n="69"/>baptismum scienter et aduertenter de facto quod scilicet iste 
+      <lb ed="#P" n="70"/>qui nunc baptisatur fuit alias baptisatus incurrit 
+      <lb ed="#P" n="71"/>irregularitatem ipso facto. Dicunt etiam canoniste 
+      <lb ed="#P" n="72"/>quod suscipiens iterato quantuncumque ignorans quod alias 
+      <lb ed="#P" n="73"/>fuerit baptisatus incurrit irregularitatem: non tamen 
+      <lb ed="#P" n="74"/>ministrans incurrit si habet ignorantiam facti. Sed  
+      <lb ed="#P" n="75"/>istis videtur quod sicut ignorantia excusat ministrantem 
+      <lb ed="#P" n="76"/>ita et suscipientem: nec aliquis eorum incurrit 
+      irregue<lb ed="#P" n="77" break="no"/>laritatem quando scilicet habent ignorantiam talem quod 
+      <lb ed="#P" n="78"/>nec sciunt: nec probabiliter presumere possunt istum 
+      <lb ed="#P" n="79"/>alias fuisse baptisatum. Hec de tertio articulo. 
+      <lb ed="#P" n="80"/>vim principale dico quod gratia 
+      </p>
+            <p xml:id="qrdBas-f14468-d1e1011">
+               <lb ed="#P" n="81"/>¶ Ad priimulit confirmationis adueniens  
+      <lb ed="#P" n="82"/>gratie baptismali cedit in vnam perfectiorem 
+      gra<lb ed="#P" n="83" break="no"/>tiam cum ipsa. et auget ipsam: et est eiusdem rationis 
+      <lb ed="#P" n="84"/>cum ipsa. vnde patet quod nec due gratie eiusdem rationis 
+      <lb ed="#P" n="85"/>omnino distincte sunt simul in anima: nec eadem 
+      gra<lb ed="#P" n="86" break="no"/>tia totaliter bis acquiritur.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e1027">
+      ¶ Ad secundum dico 
+      <lb ed="#P" n="87"/>quod non est simpliciter necessaria ad salutem: sed sicut 
+      <lb ed="#P" n="88"/>dictum est supra.
+      </p>
+            <p xml:id="qrdBas-f14468-d1e1034">
+      ¶ Ad tertium dico quod est 
+      initera<lb ed="#P" n="89" break="no"/>bilis hec medicina et morbus etiam secundum quod 
+      <lb ed="#P" n="90"/>contra ipsum est medicina: licet aliunde et aliis 
+      mo<lb ed="#P" n="91" break="no"/>dis possit iterari¬ 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

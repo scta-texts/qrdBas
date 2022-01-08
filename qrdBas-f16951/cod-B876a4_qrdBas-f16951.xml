@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 2</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 2</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="34-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f16951"><!--l4d8q2 -->
+            <head xml:id="qrdBas-f16951-Hd1e99">Quaestio 2</head>
+            <p xml:id="qrdBas-f16951-d1e101">
+               <lb ed="#P" n="51"/>¶ Distinctionis Octaue. 
+      <lb ed="#P" n="52"/>Questio Secunda
+    </p>
+            <p xml:id="qrdBas-f16951-d1e108">
+               <lb ed="#P" n="53"/>¶ SEcundo quaero utrum 
+      <lb ed="#P" n="54"/>ista oratio hoc est corpus meum 
+      <lb ed="#P" n="55"/>in consecrando vel conficiende 
+      <lb ed="#P" n="56"/>corpuis christi sit vera vel 
+      fal<lb ed="#P" n="57" break="no"/>sarm.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e121">
+      ¶ Uidetur quod sit falsa. quia 
+      <lb ed="#P" n="58"/>li hoc non demonstrat: nisi pro 
+      <lb ed="#P" n="59"/>instanti pro quo profertur: et 
+      ali<lb ed="#P" n="60" break="no"/>quid presens quando coniungitur 
+      verbo<lb ed="#P" n="61" break="no"/>praesentis tperis. sed pro illo non est presens corpus christi: vt 
+      <lb ed="#P" n="62"/>patet. ergo ortio est falsa.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e134">
+      ¶ Item aut li hoc demonstrat 
+      <lb ed="#P" n="63"/>corpus christi: aut demonstrat substantiam panis: aut acci¬ 
+      <!--64.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>dentia vel species. sed non demonstrat corpus quia tunc 
+      ni<lb ed="#P" n="65" break="no"/>chil aliud esset dictu. hoc est corpus meum: quam corpus 
+      <lb ed="#P" n="66"/>meum vel christi est corpus meum vel christi: et hoc est nihil dictum 
+      <lb ed="#P" n="67"/>ergo demonstrat substantiam vel accidentia. sed vtroque 
+      <lb ed="#P" n="68"/>modo est falsa. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e155">
+      ¶ Tertio sic oratio non est 
+      ve<lb ed="#P" n="69" break="no"/>ra significans aliquam rem esse antequam illa res sit. sed ista 
+      <lb ed="#P" n="70"/>ormo significat corpus christi esse presens: antequam corpus 
+      <lb ed="#P" n="71"/>christi sit presens: quia ista est forma sacramenti. oportet 
+      <lb ed="#P" n="72"/>quod sit effectiua presentie corporis christi: sicut effectus 
+      <lb ed="#P" n="73"/>sacramenti. sed prius saltem natura significatiua est 
+      <lb ed="#P" n="74"/>quam causet vel efficiat. vt patet. ergo etc 
+      <lb ed="#P" n="75"/>in sacramento veraciter oratio fal 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e173">
+               <lb ed="#P" n="76"/>¶ Contra sa non potest esse forma. sed ista 
+      <lb ed="#P" n="77"/>potest esse forma consecrationis in euncharistia: vt 
+      <lb ed="#P" n="78"/>dictum est supra. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e182">
+               <lb ed="#P" n="79"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e187">
+               <lb ed="#P" n="80"/>¶ Primo recitabo aliquas opiniones de ipsa. et 
+      <lb ed="#P" n="81"/>arguam contra eas.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e194">
+      ¶ Secundo ponam vnam aliam: quam 
+      <lb ed="#P" n="82"/>magis intelligo.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e199">
+      ¶ Tertio instabo contra eam: et 
+      <lb ed="#P" n="83"/>soluam.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e205">
+      ¶ Ultimo ad rationes principales. 
+      <lb ed="#P" n="84"/>articu¬ 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e210">
+               <lb ed="#P" n="85"/>¶ Quantum ad primum lum est 
+      <lb ed="#P" n="86"/>vna opinio dicentium: quod hec oratio. scilicet hoc est corpus 
+      <lb ed="#P" n="87"/>meum dicitur a sacerdote consecrante materialiter recitan 
+      <lb ed="#P" n="88"/>do dictum christi. et non dicit eam formaliter et significa 
+      <lb ed="#P" n="89"/>tiue. Hoc videntur pretendere verba. que precedunt 
+      <lb ed="#P" n="90"/>in canone. et ideo non oportet quod sit oratio vera vel 
+      <lb ed="#P" n="91"/>falsa: quando profertur. quia signisicatiue non profertur: sed 
+      <lb ed="#P" n="92"/>magis recitatiue et materialiter.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e230">
+      ¶ Secundo dicunt 
+      <lb ed="#P" n="93"/>quod christus per hec verba. seu per hac orationem non 
+      <lb ed="#P" n="94"/>consecrauit: vel confecit. sed tunc confecit: quando ante pro 
+      <lb ed="#P" n="95"/>lationem istorum verborum panem benedixit. sicut etiam 
+      <lb ed="#P" n="96"/>icitur in canone: et facta bendictione panis et 
+      confectio<lb ed="#P" n="97" break="no"/>ne corperis: tunc dixit discipulis: accipite: hoc est 
+      cor<lb ed="#P" n="98" break="no"/>pus meum et vera fuit oratio tunc formaliter. et significati  
+      <lb ed="#P" n="99"/>ue dicta a christo. quia tunc veraciter sub illis spciebus erat 
+      <lb ed="#P" n="100"/>corpus christi. Sed sic non dicitur a sacerdote per ipsam 
+      con<lb ed="#P" n="101" break="no"/>secrante. sicut patet ideo etc. Et hanc opinionem videtur 
+      <lb ed="#P" n="102"/>tenere innocentius de officio misse parte. iii. ca. vi. et. xiiii. 
+      <lb ed="#P" n="103"/>istam opinionem arguitur primo quia non 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e256">
+               <lb ed="#P" n="104"/>¶ Contra est verisimile: quod christus non 
+      confecerit<lb ed="#P" n="105" break="no"/>per ista verba. quia ipse constituit esse conficiendum ab aliis 
+      mi<lb ed="#P" n="106" break="no"/>nistris per ista verba. et non est verisimile: quod aliam 
+      for<lb ed="#P" n="107" break="no"/>mam ipse obseruauerit. vel quod consecratio corperis christi 
+      <lb ed="#P" n="108"/>habuerit duas formas: vnam quam christus consecrauit: et 
+      <lb ed="#P" n="109"/>aliam qua modo alii consecrant. Nec reperitur hoc in aliis 
+      <lb ed="#P" n="110"/>sacramentis: nec ad hoc habetur alia auctoritas 
+      co<lb ed="#P" n="111" break="no"/>gens: nec etiam verba aliqua in quibus consecrauerit. 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e276">
+               <lb ed="#P" n="112"/>¶ Secundo. quia si christus in his verbis consecrauit: sicut 
+      po<lb ed="#P" n="113" break="no"/>tuit facere: et probabile est quod fecerit: restat 
+      difficul<lb ed="#P" n="114" break="no"/>tas quaestionis an ni in ore christi fuit oratio vera vel 
+      fal<lb ed="#P" n="115" break="no"/>sa. quia dici non potest: quod ipsam dixerit materialiter vel 
+      <lb ed="#P" n="116"/>recitatiue: sicut dicunt de quolibet alio sacerdote: sed 
+      <lb ed="#P" n="117"/>dicit eam significatiue per hoc volens aliquid 
+      signi<lb ed="#P" n="118" break="no"/>ficare et exprimere apostolis: sicut patet ex verbis 
+      <lb ed="#P" n="119"/>et intentione euangelii. Et similiter christus si esset modo 
+      <lb ed="#P" n="120"/>viator: eisdem verbis posset conficere. et remanet ea 
+      <lb ed="#P" n="121"/>dem difficultas questionis insoluta.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e300">
+      ¶ Alie rationes 
+      <lb ed="#P" n="122"/>adducuntur contra predictam opinionem: de quibus 
+      <lb ed="#P" n="123"/>non video quod concludant. ideo dimittantur. 
+      <lb ed="#P" n="124"/>opinio est: quod hec oratio profertur 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e310">
+               <lb ed="#P" n="125"/>¶ Secundam materialiter et significatiue. 
+      <lb ed="#P" n="126"/>et est vera per hunc modum. Nam istud pronomen hoc ( quia 
+      <lb ed="#P" n="127"/>pronomen ponitur loco nomins: et significat meram substantiam )o 
+      <!--65.xml-->
+      <pb ed="#P" n="34-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>potest demonstrare aliquid pro quacumque differentia 
+      <lb ed="#P" n="2"/>temporis non solum pro parte presenti. nec ad hoc 
+      <lb ed="#P" n="3"/>etiam determinari potest vel restringi per verbum 
+      praesen<lb ed="#P" n="4" break="no"/>tis tparis oppisitum cum dicitur est. quia verbum significat per 
+      <lb ed="#P" n="5"/>modum distantis. non autem per modum adiacentis: sen 
+      <lb ed="#P" n="6"/>cut adiectiuum nomen: vel participium. vnde et 
+      adie<lb ed="#P" n="7" break="no"/>ctiuum vel participium bene restringitur et determinat 
+      <lb ed="#P" n="8"/>illud nomen cui additur. Sicut dicendo homo albus. 
+      <lb ed="#P" n="9"/>tenetur homo tantum pro homine albo: et dicendo hoc 
+      <lb ed="#P" n="10"/>mo legens vel presens et huiusmodi. Sed quando dicitur 
+      ho<lb ed="#P" n="11" break="no"/>mo est albus: non restringitur ibi homo aliquo 
+      mo<lb ed="#P" n="12" break="no"/>do per aliquid ex parte verbi vel appositi. quia 
+      quod<lb ed="#P" n="13" break="no"/>libet istorum distat ab ipso in oratione.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e354">
+      ¶ 
+      Secun<lb ed="#P" n="14" break="no"/>do dicunt isti: quod istud pronomen hoc potest 
+      demon<lb ed="#P" n="15" break="no"/>strare et demonstrat aliquid ad sensum: et aliquid ad 
+      <lb ed="#P" n="16"/>intellectum. Aliquid ad intellectum in recto. alio 
+      <lb ed="#P" n="17"/>quid ad sensum in obliquo. Et tunc est sensus 
+      ora<lb ed="#P" n="18" break="no"/>tionis: hoc id est. aliquid presens vel de proximo 
+      fu<lb ed="#P" n="19" break="no"/>turum sub his speciebus est corpus meum. et est 
+      disiun<lb ed="#P" n="20" break="no"/>ctiua vera pro altera parte tantum. quia scilicet aliquid 
+      <lb ed="#P" n="21"/>de proximo futurum sub speciebus quando proferuntur 
+      <lb ed="#P" n="22"/>verba est corpus christi. Hec est opinio. 
+      <lb ed="#P" n="23"/>istam opinionem etiam ar¬ 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e378">
+               <lb ed="#P" n="24"/>¶ Sed contra guo primo. quia secunduo istum 
+      <lb ed="#P" n="25"/>poctorem licet tota oratio non significet vsquequo 
+      per<lb ed="#P" n="26" break="no"/>fecta sit prolatio eius: tamen quelibet pars significat: 
+      <lb ed="#P" n="27"/>quando profertur. ergo istud pronomen hoc tunc 
+      signifi<lb ed="#P" n="28" break="no"/>cat et per consequens demonstrat aliquid quando profertur. sed 
+      <lb ed="#P" n="29"/>quando profertur non potest demonstrare corpus christi. 
+      <lb ed="#P" n="30"/>ia nondum est presens. ergo non demonstrat ipsum et per 
+      <lb ed="#P" n="31"/>comsuens aliquid aliud: quod non est corpus christi. et sic 
+      <lb ed="#P" n="32"/>pratio est falsa.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e400">
+      ¶ Et confirmatur. quia si dicitur quod 
+      <lb ed="#P" n="33"/>immo li hoc demonstrat corpus christi futurum: non 
+      <lb ed="#P" n="34"/>presens adhuc: et hoc est possibile: quia statim et des 
+      <lb ed="#P" n="35"/>proximo futurum: pari ratione potest dici vel posset 
+      <lb ed="#P" n="36"/>de aqua statim corrumpenda et conuertenda in ignem: 
+      <lb ed="#P" n="37"/>hoc est ignis. hoc autem est falsum. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e413">
+      ¶ Tertio quia 
+      <lb ed="#P" n="38"/>propositio disiunctiua non ponit alteram partem 
+      deter<lb ed="#P" n="39" break="no"/>minate. sed procedere ex ipsa ad alteram partem 
+      deter<lb ed="#P" n="40" break="no"/>minate est fallacia consequentis. igitur si hec est oratio 
+      dis<lb ed="#P" n="41" break="no"/>iunctiua de praesenti sub spierebus vel de proximo 
+      futu<lb ed="#P" n="42" break="no"/>ro non ponit determinate vnam partem subiecti 
+      respe<lb ed="#P" n="43" break="no"/>ctu ipsius predicati: sed indifferenter vtrumque. ergo cum 
+      <lb ed="#P" n="44"/>per istam orationem nihil efficiatur: nisi vt significatiua 
+      <lb ed="#P" n="45"/>est: etiam secundum ipsos: nihil determinate ponitur sub 
+      <lb ed="#P" n="46"/>speciebus. Nec plus illud quod futurum est statim 
+      sub<lb ed="#P" n="47" break="no"/>peciebus: est corpus christi: quam illud quod nunc est. 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e437">
+               <lb ed="#P" n="48"/>¶ Quarto. quia sicut argutum est de pronomine: ita 
+      <lb ed="#P" n="49"/>pot argui de copula vel de verbo presentis: quod tund 
+      <lb ed="#P" n="50"/>significat quando profertur: et ponit significatum suum 
+      pre<lb ed="#P" n="51" break="no"/>sentialiter copulando predicatum circa subiectum 
+      <lb ed="#P" n="52"/>vel quamlibet partem subiecti. igitur subiectum non 
+      <lb ed="#P" n="53"/>supponit pro aliquo futuro: sed tantum pro 
+      presen<lb ed="#P" n="54" break="no"/>ti. vel si pro futuro: oratio necessario est falsa vt 
+      vi<lb ed="#P" n="55" break="no"/>detur. Nec videtur conueniens: quod verba 
+      sacramen<lb ed="#P" n="56" break="no"/>talia que sunt signa certa et efficacia: sint verba sic 
+      <lb ed="#P" n="57"/>dubia sub tali disiunctione exponenda.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e462">
+      ¶ 
+      Quinto<lb ed="#P" n="58" break="no"/>quia li hoc vel supponit in ista oratione disunctiua pro 
+      <lb ed="#P" n="59"/>re presenti: et est falsa vel pro futura: et tunc cum res 
+      <lb ed="#P" n="60"/>illa non sit presens cum prolatione orationis: ex illa ortio 
+      <lb ed="#P" n="61"/>de presenti non potest dici vera.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e473">
+      ¶ Sexto. quia ista opino 
+      <lb ed="#P" n="62"/>est contra artem de suppositionibus. in qua dicitur quod 
+      <lb ed="#P" n="63"/>nomen quantumcunque significet sine tpare: tamen per verbum 
+      <lb ed="#P" n="64"/>presentis tparis bene restringitur ad supponendum 
+      <lb ed="#P" n="65"/>pro presentibus: nisi illud verbum ex se vel ex aliquo 
+      <!--65.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>adiuncto habeat virtutem ampliandi. vnde cum dico 
+      <lb ed="#P" n="67"/>ho currit ho solum tenetur pro suppositis presentibus 
+      <lb ed="#P" n="68"/>Sed cum dico homo potest currere: non oportet: quod pro pre 
+      <lb ed="#P" n="69"/>sentibus tantum. Non solum enim homo qui est: potest 
+      cur<lb ed="#P" n="70" break="no"/>rere: sed etiam homo qui potest esse. quare etc. 
+      <lb ed="#P" n="71"/>est opinio: que dicit: quod li hoc de¬ 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e502">
+               <lb ed="#P" n="72"/>¶ Terti al monstrat substantiam panis sub ad 
+      <lb ed="#P" n="73"/>cidentibus et quod propositio est vera: quando profertur 
+      sub<lb ed="#P" n="74" break="no"/>hoc sensu: hoc est corpus meum: verum est 
+      figurali<lb ed="#P" n="75" break="no"/>ter vel significatiue. quia est signum corporis mei. quod 
+      <lb ed="#P" n="76"/>est vere cibus: et per panem designatur. 
+      <lb ed="#P" n="77"/>positio non tenetur. quia ita posset 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e518">
+               <lb ed="#P" n="78"/>¶ Sed ista dici semper de quolibet 
+      pane<lb ed="#P" n="79" break="no"/>quod esset corpus chisti. nec isto modo significaretur 
+      <lb ed="#P" n="80"/>nesse corpus christi verum: nec poni: nec aliud in 
+      <lb ed="#P" n="81"/>ipsum transsubstantiari. et ita non essent verba ista 
+      sa<lb ed="#P" n="82" break="no"/>cramentalia nec efficacia sed figuralia vel methafo 
+      <lb ed="#P" n="83"/>rica. sicut etiam istud verbum christi. Ego sum 
+      vi<lb ed="#P" n="84" break="no"/>tis vera vel huiusmodi.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e536">
+      ¶ Secundo. quia ista positio vi 
+      <lb ed="#P" n="85"/>detur fouere illam: que posuit erronee corpus 
+      chri<lb ed="#P" n="86" break="no"/>ti non conuerti in isto sacramento veraciter et 
+      rea<lb ed="#P" n="87" break="no"/>liter: sed solum sicut in 
+      signo<lb ed="#P" n="88" break="no"/>opinio fuit: quod istud pronomen 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e547">
+               <lb ed="#P" n="89"/>¶ Quarta hoc demonstrat substantiam 
+      po<lb ed="#P" n="90" break="no"/>nis adhuc sub suis accidentibus existentem. sed demon 
+      <lb ed="#P" n="91"/>strat ipsam vt terminum a quo conuersionis sue in 
+      cor<lb ed="#P" n="92" break="no"/>pus christi. li est vero significat conuersionem ipsam 
+      <lb ed="#P" n="93"/>instantaneam. in qua simul est fieri et esse. Et corpus 
+      <lb ed="#P" n="94"/>meum significat terminum ad quem. conuersionis. 
+      <lb ed="#P" n="95"/>et tunc est sensus: hoc est corpus meum panis iste 
+      <lb ed="#P" n="96"/>fit corpus meum. et hoc est verum. 
+      <lb ed="#P" n="97"/>istam opinionem arguo primo. 
+      <lb ed="#P" n="98"/>Sed contra quod ista factio vel conuersio non 
+      <lb ed="#P" n="99"/>est: quando proferuntur. ergo oratio sic non potest esse vera. 
+      <lb ed="#P" n="100"/>quia demonstrat aliquid presens secundum eos. Similiter 
+      <lb ed="#P" n="101"/>si li hoc demonstrat substantiam panis aut demonstrat 
+      <lb ed="#P" n="102"/>eam ante conuersionem panis. et sic est falsa quando dicit: 
+      <lb ed="#P" n="103"/>quod iam fit vel conuertitur: aut demonstrat post 
+      conuer<lb ed="#P" n="104" break="no"/>sionem: et sic adhuc est falsa. et nihil demonstrat. quia 
+      <lb ed="#P" n="105"/>tunc panis non est. aut demonstrat in ipsa 
+      conuer<lb ed="#P" n="106" break="no"/>sione. sed hoc est falsum. quia conuersio nondum est: 
+      <lb ed="#P" n="107"/>quando profertur. sed in instanti terminatiuo 
+      prola<lb ed="#P" n="108" break="no"/>tionis verborum. igitur etc 
+      <lb ed="#P" n="109"/>opinio est: quod propositio est ve¬ 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e596">
+               <lb ed="#P" n="110"/>¶ Quinta ra quando sed non pro quando profertur. quia 
+      <lb ed="#P" n="111"/>tunc non habet suum significatum secum sub speciebus 
+      pre<lb ed="#P" n="112" break="no"/>sens puta corpus christi. sed est vera pro quando 
+      profer<lb ed="#P" n="113" break="no"/>tur scilicet pro instanti terminatiuo prolationis 
+      verbo<lb ed="#P" n="114" break="no"/>rum: pro quo non profertur: et pro quo significatum 
+      <lb ed="#P" n="115"/>presens est sub speciebus ita quod li hoc demonstrat 
+      ve<lb ed="#P" n="116" break="no"/>rum corpus christi: vt terminum habitum per 
+      prolatio<lb ed="#P" n="117" break="no"/>nem istorum verborum: quasi per viam vel motum quendam 
+      <lb ed="#P" n="118"/>non ex natura rei: sed ex voluntate et ordinatione 
+      <lb ed="#P" n="119"/>dei. Ponitur exemplum. quia ista propositio sor 
+      <lb ed="#P" n="120"/>tes curret cras vel cucurrit heri vera est: quando 
+      <lb ed="#P" n="121"/>profertur: sed non pro quando profertur. quia pro 
+      <lb ed="#P" n="122"/>illo tunc in quo profertur non est vnio extremorum 
+      <lb ed="#P" n="123"/>in re: sed fuit vel erit. Igitur possibile est etiam quod 
+      <lb ed="#P" n="124"/>oratio predicta sit vera non quando profertur vel 
+      <lb ed="#P" n="125"/>bro illo tunc quando profertur: sed pro alio pro quo 
+      <lb ed="#P" n="126"/>profertur modo predicto. 
+      <lb ed="#P" n="127"/>istam opinionem ( licet sit subtilis ) vi¬ 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e638">
+               <lb ed="#P" n="128"/>¶ Contra detur esie primo: quia nulla propoitio vide  
+      <lb ed="#P" n="129"/>tur esse vera de praesenti non habens suum significatum secun. 
+      <lb ed="#P" n="130"/>sed ista non habet suum significatum secum ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e647">
+        <!--66.xml-->
+               <pb ed="#P" n="34-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Secundo. quia nulla videtur propositio vera de 
+      pre<lb ed="#P" n="2" break="no"/>senti pro quando non est. licet sic esset de preterito vel 
+      fu<lb ed="#P" n="3" break="no"/>turo vt patet. Nec est simile de presenti sed pro ille 
+      <lb ed="#P" n="4"/>instanti non est. igitur pro illo non est vera.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e665">
+      ¶ 
+      Prete<lb ed="#P" n="5" break="no"/>rea etiam nec oratio vera est de preterito vel 
+      futu<lb ed="#P" n="6" break="no"/>ro: nisi quando est vel profertur. vnde ipsi 
+      assumun<lb ed="#P" n="7" break="no"/>et non oportet quod sit vera quando res est nec pro quando 
+      <lb ed="#P" n="8"/>in hoc enim differt ab oratione de presenti sicut 
+      ali<lb ed="#P" n="9" break="no"/>cui videretur. tamen oppositum eius dicitur infra in. iii 
+      <lb ed="#P" n="10"/>articulo. et ita non concludit hoc multum 
+      contre<lb ed="#P" n="11" break="no"/>eos.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e683">
+      ¶ Preterea ista opinio multum videtur de 
+      <lb ed="#P" n="12"/>clinare ad illam: que improbata est supra: que dicit 
+      <lb ed="#P" n="13"/>quod li hoc demonstrat aliquid futurum: vt patet 
+      in<lb ed="#P" n="14" break="no"/>tuenti. quia demonstrat aliquid futurum pro illo in 
+      <lb ed="#P" n="15"/>stanti futuro: pro quo verificatur.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e694">
+      ¶ Preterea etiam 
+      <lb ed="#P" n="16"/>potest argui contra eos: sicut arguunt contra alios: 
+      <lb ed="#P" n="17"/>quod sic posset quelibet propositio de aliquo futuro vel 
+      <lb ed="#P" n="18"/>rificari per verbum presentis temporis: et posset 
+      dici<lb ed="#P" n="19" break="no"/>quod ignis generandus de aqua est. et sic de consimil 
+      <lb ed="#P" n="20"/>bus.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e708">
+      ¶ Adhuc sunt multi alii modi dicendi: sed 
+      di<lb ed="#P" n="21" break="no"/>mitto gratia breuitatis. Ultimus tamen dictus est 
+      <lb ed="#P" n="22"/>bene probabilis. vnde et forte aliqua que sunt ad 
+      <lb ed="#P" n="23"/>ducta contra ipsum: inferius dissoluentur. Hec 
+      de<lb ed="#P" n="24" break="no"/>primo articulo. 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e719">
+               <lb ed="#P" n="25"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="26" break="no"/>culum est vna alia opinio que est talis. primo 
+      pre<lb ed="#P" n="27" break="no"/>mittit aliqua. postea propositum. Premittit 
+      primo<lb ed="#P" n="28" break="no"/>quod conceptus et sensus totius orationis non habetur 
+      <lb ed="#P" n="29"/>ante completionem et terminationem ipsius 
+      oratio<lb ed="#P" n="30" break="no"/>nis. hoc patet. quia nec habetur significatio omnium 
+      di<lb ed="#P" n="31" break="no"/>ctionum in ipsa positarum ante talem terminationem 
+      <lb ed="#P" n="32"/>vel completionem. et cum sensus orationis non 
+      pos<lb ed="#P" n="33" break="no"/>sit haberi ante significata omnium dictionum: patet pro 
+      <lb ed="#P" n="34"/>positum. Similiter etiam patet quia nec habetur 
+      signi<lb ed="#P" n="35" break="no"/>ficatio dictionis in prima syllaba vel in secunda: sed 
+      <lb ed="#P" n="36"/>expectatur completio et terminatio dictionis. sic 
+      vi<lb ed="#P" n="37" break="no"/>detur in proposito de tota oratione suo modo.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e750">
+      ¶ Sed 
+      <lb ed="#P" n="38"/>cundo premittit. quod licet quelibet dictio secundum se ac 
+      <lb ed="#P" n="39"/>cepta suum significatum exprimat ante 
+      terminatio<lb ed="#P" n="40" break="no"/>nem orationis vel completionem preter vltimam tamn 
+      <lb ed="#P" n="41"/>inquantum est pars orationis. non habet suum 
+      signifi<lb ed="#P" n="42" break="no"/>catum ante completionem vel terminationem orationis. quia 
+      <lb ed="#P" n="43"/>vt sic non habet esse nisi potentiale: vt pars in toto. 
+      no<lb ed="#P" n="44" break="no"/>autem esse actuale distinctum a tota oratione.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e768">
+      ¶ 
+      Tera<lb ed="#P" n="45" break="no"/>tio premittitur quod istud pronomen hoc demonstrat 
+      <lb ed="#P" n="46"/>particulare entis: et non aliquod particulare vel 
+      singi<lb ed="#P" n="47" break="no"/>lare alicuius vniuersalioris vel minus vniuersalis 
+      <lb ed="#P" n="48"/>sicut etiam rationabiliter queritur de multis 
+      quid<lb ed="#P" n="49" break="no"/>est hoc: et tamen non dubitatur quin sit ens. et hoc ens 
+      <lb ed="#P" n="50"/>puta singulare entis. sed dubitatur quale ens sit quam 
+      <lb ed="#P" n="51"/>tum ad genus speciem vel indiuidua ipsorum 
+      ha<lb ed="#P" n="52" break="no"/>bet enim quodlibet commune suum particulare vel sin 
+      <lb ed="#P" n="53"/>gulare correspondens sibi secundum propriam rationem. 
+      <lb ed="#P" n="54"/>sicut enim est dare hunc hominem et singulare vel 
+      par<lb ed="#P" n="55" break="no"/>ticulare speciei: ita hoc animal vel particulare vel 
+      <lb ed="#P" n="56"/>singulare generis. ita etiam hoc ens et particulare 
+      <lb ed="#P" n="57"/>entis. et sicut ens est prius animali et homine: et anima 
+      <lb ed="#P" n="58"/>est prius homine: ita suo modo correspondenter in 
+      <lb ed="#P" n="59"/>eodem ente prius est particulare entis quam animalis 
+      <lb ed="#P" n="60"/>et prius particulare animalis quam homins. prius enim aliquid 
+      <lb ed="#P" n="61"/>est hoc ens: quam hoc animal. et prius hoc animal: quam 
+      hu<lb ed="#P" n="62" break="no"/>homo.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e810">
+      ¶ Sed ista suppositio mihi est dubia. quia 
+      si<lb ed="#P" n="63" break="no"/>cut tenui in primo: ens non est vniuocum nec vnius 
+      ra<lb ed="#P" n="64" break="no"/>tionis realis in entibus. Et ita non sic videtur sibi¬ 
+      <!--66.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>correspondere proprium singulare vel particulare ex 
+      <lb ed="#P" n="66"/>natura rei distinctum et prius a particulari generis vel 
+      <lb ed="#P" n="67"/>speciei sicut genus a particulari vel singulari 
+      speciei<lb ed="#P" n="68" break="no"/>Et ideo conuenientius videretur posse dici quod li hoc 
+      <lb ed="#P" n="69"/>in ista propositione facit demonstrationem ad 
+      intelle<lb ed="#P" n="70" break="no"/>ctum oratione terminata vel completa. et demonstrat 
+      per<lb ed="#P" n="71" break="no"/>ticulare substantie: per reductionem saltem. et tunc est 
+      <lb ed="#P" n="72"/>sensus: hoc id est hec substantia vel hoc ens quod est 
+      sub<lb ed="#P" n="73" break="no"/>stantia.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e841">
+      ¶ His premissis ad propositum dicitur: quod ista 
+      <lb ed="#P" n="74"/>propositio vera est pro instanti terminatiuo prolatio. 
+      <lb ed="#P" n="75"/>nis sue. Et est sensus eius. hoc est corpus meum 
+      <lb ed="#P" n="76"/>id est hoc ens quod est substantia contenta sub his 
+      spe<lb ed="#P" n="77" break="no"/>ciebus est corpus meum et pro tunc significatum est in 
+      re<lb ed="#P" n="78" break="no"/>sub speciebus: sicut oratio ipsa significat pro illo 
+      in<lb ed="#P" n="79" break="no"/>stanti terminatiuo prolationis.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e858">
+      ¶ Secundo dicitur quod ista 
+      <lb ed="#P" n="80"/>oratio causatiua est sui signati suo modo: sicut et 
+      <lb ed="#P" n="81"/>quelibet forma sacramentalis debet esse causatiua 
+      <lb ed="#P" n="82"/>eomodo quo sacramentis conuenit causare. quia tali ora 
+      <lb ed="#P" n="83"/>tione prolata ex ordinatione diuina habetur: quod hoc 
+      com<lb ed="#P" n="84" break="no"/>tentum sub speciebus est corpus christi: et quod corpus 
+      chri<lb ed="#P" n="85" break="no"/>sti continetur sub speciebus. Unde li hoc non 
+      demon<lb ed="#P" n="86" break="no"/>strat indiuiduum signatum et certum alicuius speciei: sed  
+      <lb ed="#P" n="87"/>magis indiuiduum generis quasi vagum et 
+      indetermi<lb ed="#P" n="88" break="no"/>natum.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e880">
+      ¶ Tertio dicitur: quod ista oratio vt est causatiua 
+      ta<lb ed="#P" n="89" break="no"/>lis effectus vel presentie corporis christi sub 
+      spe<lb ed="#P" n="90" break="no"/>ciebus est prior naturaliter tali presentia: et per 
+      con<lb ed="#P" n="91" break="no"/>sequens suo significato inesse. quia causa prior est 
+      <lb ed="#P" n="92"/>naturaliter suo effectu. licet quandoque simul sit 
+      dura<lb ed="#P" n="93" break="no"/>tione sed in proposito non est etiam simul duratione. 
+      <lb ed="#P" n="94"/>nam oratio est dum profertur. profertur autem in tpare 
+      preceden<lb ed="#P" n="95" break="no"/>te illud instans: in quo signatum suum habetur scilicet corpus 
+      <lb ed="#P" n="96"/>christi presens. et planum est quod tempus non est simul cum 
+      <lb ed="#P" n="97"/>instanti terminante.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e902">
+      ¶ Quarto dicitur: quod non est 
+      causati<lb ed="#P" n="98" break="no"/>ua vt vera nec vt falsa sed non vt neutra. quod non vt 
+      <lb ed="#P" n="99"/>falsa: patet: nec vt vera etiam. quia prius natura est 
+      cau<lb ed="#P" n="100" break="no"/>satiua quam sit vera. non enim est vera nisi quia significa 
+      <lb ed="#P" n="101"/>tum vel signatum est presens. et planum est quod 
+      signa<lb ed="#P" n="102" break="no"/>tum esse presens presupponit orationem esse causa 
+      <lb ed="#P" n="103"/>tiuam: sicut effectus causam. Et quod oratio bene sit 
+      <lb ed="#P" n="104"/>prior natura sua veritate: patet. quia fundamentum 
+      <lb ed="#P" n="105"/>prius est relatione fundata in ipsa. oratio autem 
+      <lb ed="#P" n="106"/>est fundamentum veritatis sue quasi cuiusdam 
+      re<lb ed="#P" n="107" break="no"/>lationis ad obiectum et conformitatis etiam 
+      acci<lb ed="#P" n="108" break="no"/>dentalis. vnde et potest sibi non inesse talis 
+      confor<lb ed="#P" n="109" break="no"/>mitas. Eadem enim oratio potest esse falsa vel 
+      ve<lb ed="#P" n="110" break="no"/>ra si conformetur obiecto vel deformetur sibi.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e933">
+      ¶ Quin 
+      <lb ed="#P" n="111"/>to dicitur consequenter ad ista: quod ista oratio non est 
+      cau<lb ed="#P" n="112" break="no"/>satiua inquantum significatiua et vera illa veritate et 
+      <lb ed="#P" n="113"/>significatione. quam nata est habere ex significatis 
+      <lb ed="#P" n="114"/>dictionum. quia vt sic posterius vera est ad effectum 
+      <lb ed="#P" n="115"/>suum. sed magis est causatiua inquantum est signum 
+      <lb ed="#P" n="116"/>sensibile quoddam a deo sic institutum ad hoc 
+      effi<lb ed="#P" n="117" break="no"/>caciter significandum et causandum modo supra 
+      <lb ed="#P" n="118"/>dicto de sacramentis.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e953">
+      ¶ Ultimo dicunt aliqui 
+      vo<lb ed="#P" n="119" break="no"/>lentes hanc positionem sustinere: quod in illo 
+      instan<lb ed="#P" n="120" break="no"/>ti durationis: pro quo verificatut oratio predicta 
+      <lb ed="#P" n="121"/>imaginanda sunt tria signa nature. Primum in quo 
+      <lb ed="#P" n="122"/>vel pro quo propositio est neutra: puta nec vera nec 
+      <lb ed="#P" n="123"/>falsa. licet enim sit vera: tamen pro tali signo 
+      natu<lb ed="#P" n="124" break="no"/>re non conuenit sibi. Et pro illo signo est prior 
+      na<lb ed="#P" n="125" break="no"/>tura presentia corporis christi sub specie panis: 
+      si<lb ed="#P" n="126" break="no"/>cut causa prior est effectu. Secundum signum 
+      na<lb ed="#P" n="127" break="no"/>ture est ibi: pro quo est ibi presens corpus christi 
+      <lb ed="#P" n="128"/>sub specie tanquam effectus talis propositionis vel 
+      <lb ed="#P" n="129"/>orationis. Ultimo est ibi tertium signum. pro quo 
+      <!--67.xml-->
+      <pb ed="#P" n="35-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>est ista oratio primo vera. quia sua veritas ex 
+      pre<lb ed="#P" n="2" break="no"/>sentia corporis christi dependet et per consequens 
+      <lb ed="#P" n="3"/>est posterior natura. Sicut etiam dicunt illi de 
+      pri<lb ed="#P" n="4" break="no"/>ma opinione: quod duplex veritas inuenitur in ista 
+      <lb ed="#P" n="5"/>pratione. vna que est veritas disiunctiue: que 
+      supe<lb ed="#P" n="6" break="no"/>rius exposita est secundum eos. et est prior existentia 
+      cor<lb ed="#P" n="7" break="no"/>poris christi sub specie: sicut causa prior est effectum 
+      <lb ed="#P" n="8"/>et oratio causat secundum quod est vera tali veritate. Alia 
+      <lb ed="#P" n="9"/>vero inuenitur veritas in ea: que est veritas certio 
+      <lb ed="#P" n="10"/>tudinis determinate de corporis christi sub 
+      specie<lb ed="#P" n="11" break="no"/>bus determinate postquam habitum est. et illa veritas 
+      <lb ed="#P" n="12"/>posterior est presentia corporis christi. nec secundum 
+      il<lb ed="#P" n="13" break="no"/>lam veritatem propositio est causatiua.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1014">
+      ¶ Sed 
+      pri<lb ed="#P" n="14" break="no"/>mi ponentes opinionem huius secundi articuli 
+      di<lb ed="#P" n="15" break="no"/>cunt: quod ista distinctio non est ad propositum quantum 
+      <lb ed="#P" n="16"/>ad aliquid. quod propositio vel oratio non est causati 
+      <lb ed="#P" n="17"/>ua: nisi secundum quod est aliquid sensibile sic a deo 
+      im<lb ed="#P" n="18" break="no"/>stitutum. sed pro quocunque signo nature 
+      imagina<lb ed="#P" n="19" break="no"/>to in illo instanti durationis terminatio illius 
+      pro<lb ed="#P" n="20" break="no"/>lationis oratio non est aliquid sensibile. Nec est 
+      ni<lb ed="#P" n="21" break="no"/>si solum in conceptu spirituali: secundum quod non 
+      ha<lb ed="#P" n="22" break="no"/>bet esse sacramentale nec sensibile. quare etc.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1037">
+      ¶ Sic 
+      <lb ed="#P" n="23"/>gitur patet secundum istam viam breuiter 
+      recolligen<lb ed="#P" n="24" break="no"/>do: quod ista propositio hoc est corpus meum quando 
+      pro<lb ed="#P" n="25" break="no"/>fertur: et dum est in proferri: nondum dat 
+      intelligen<lb ed="#P" n="26" break="no"/>re suum significatum. et ita nec est vera nec falsa. sed 
+      <lb ed="#P" n="27"/>in instanti terminatiuo illius prolationis sue est 
+      vo<lb ed="#P" n="28" break="no"/>ra. non tamen est causatiua inquantum vera: vt dictum 
+      <lb ed="#P" n="29"/>est: sed prius naturaliter et etiam duratione causati 
+      <lb ed="#P" n="30"/>ua est quam vera. vel si non duratione saltem natura vt 
+      <lb ed="#P" n="31"/>neutra. quemadmodum declaratum est supra. Si 
+      pla<lb ed="#P" n="32" break="no"/>cet ista opinio teneatur. Hec de secundo articulo 
+      <lb ed="#P" n="33"/>principali. 
+      <lb ed="#P" n="34"/>iti articulum sunt 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1066">
+               <lb ed="#P" n="35"/>¶ Quantum ad tertium multe 
+      instan<lb ed="#P" n="36" break="no"/>tie difficiles contra istam positionem.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1073">
+      ¶ Primo quia 
+      <lb ed="#P" n="37"/>significare et verificari presupponunt esse 
+      propositio<lb ed="#P" n="38" break="no"/>nis vt patet. sed pro instanti terminatiuo prolatio 
+      <lb ed="#P" n="39"/>nis oratio non est. sicut nec tempus prolationis est 
+      <lb ed="#P" n="40"/>cum instanti. ergo tunc non verificatur nec est vera¬ 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1084">
+               <lb ed="#P" n="41"/>¶ Secundo per idem posset argui contra secundum 
+      sup<lb ed="#P" n="42" break="no"/>positum de dictione. Et confirmatur. quia idem 
+      ha<lb ed="#P" n="43" break="no"/>bet significatum et non aliud ipsa dictio in oratio. 
+      <lb ed="#P" n="44"/>ne et per se sed si per se diceretur: statim ipsa 
+      prola<lb ed="#P" n="45" break="no"/>ta haberetur significatum eius. ergo similiter in ora 
+      <lb ed="#P" n="46"/>tione quantumcunque alie nondum sint prolate.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1100">
+      ¶ 
+      Ter<lb ed="#P" n="47" break="no"/>tio sic contra tertium suppositum. quia illud indiuiduum 
+      <lb ed="#P" n="48"/>vel particulare entis vel substantie quod demonstratur 
+      pri<lb ed="#P" n="49" break="no"/>istud pronomen hoc: aut est totaliter idem ex natura 
+      <lb ed="#P" n="50"/>cum indiuiduo signato corporis christi. aut aliquid 
+      <lb ed="#P" n="51"/>distinctum ab ipso. Si primo modo: tunc idem est 
+      di<lb ed="#P" n="52" break="no"/>ctu: hoc est corpus meum. sicut corpus meum est corpus 
+      <lb ed="#P" n="53"/>meum. et tunc licet oratio sit vera: non tamen est forma 
+      con<lb ed="#P" n="54" break="no"/>ueniens alicuius sacramenti. quia nec est effectiua 
+      <lb ed="#P" n="55"/>Quia enim homo sit homo: nulla est causa. vii. 
+      mi<lb ed="#P" n="56" break="no"/>tha. Si ad distinctum ex natura rei: tunc habetur 
+      pri<lb ed="#P" n="57" break="no"/>mo in sacramento aliquod indiuiduum distinctum a corpere 
+      <lb ed="#P" n="58"/>christi. quod est falsum. similiter ibi essent plura 
+      indi<lb ed="#P" n="59" break="no"/>uidua simul. Et similiter in quolibet indiuiduo. 
+      vn<lb ed="#P" n="60" break="no"/>de non videtur genus habere aliquod indiuiduum antequae 
+      <lb ed="#P" n="61"/>descendat in speciem. et postquam descendit in speciem non 
+      <lb ed="#P" n="62"/>videtur habere aliam rationem vel differentiam 
+      indiui<lb ed="#P" n="63" break="no"/>dualem a differentia indiuiduali constitutiua indiuidui. 
+      <lb ed="#P" n="64"/>speciei.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1142">
+      ¶ Quarto contra primum dictum ad 
+      proposi<lb ed="#P" n="65" break="no"/>tum. quia propositio de presenti vera necessario habet secun¬ 
+      <!--67.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>suum signatum. Ab eo enim quod res est dicitur oratio vt 
+      <lb ed="#P" n="67"/>ra. sed sic non est in proposito. quia oratio illa non est pro 
+      <lb ed="#P" n="68"/>illo instanti nec in illo instanti. et sic non habet 
+      secum<lb ed="#P" n="69" break="no"/>suum signatum. et est de presenti. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1161">
+      ¶ 
+      Quin<lb ed="#P" n="70" break="no"/>to contra aliud dictum quod scilicet oratio est causatiua. quia 
+      <lb ed="#P" n="71"/>aut est causatiua quando est: et profertur: aut quando non est. 
+      <lb ed="#P" n="72"/>Non potest dici quando profertur: et est. quia tunc nihil est de 
+      <lb ed="#P" n="73"/>effectu. nec pari ratione quando non est. quia non minus 
+      re<lb ed="#P" n="74" break="no"/>quiritur quod causa sit quando causat: quam quod effectus quando 
+      cau<lb ed="#P" n="75" break="no"/>satur.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1177">
+      ¶ Sexto contra tertium dictum quia licet causa 
+      <lb ed="#P" n="76"/>id quod est sit prior natura effectu: tamen inquantum 
+      cau<lb ed="#P" n="77" break="no"/>sa est simul cum effectu. quia causa et effectus sunt simul 
+      <lb ed="#P" n="78"/>natura inquantum correlatiua. sicut et qualibet alia 
+      rela<lb ed="#P" n="79" break="no"/>tiua. Non ergo oratio illa inquantum causatiua est 
+      prior<lb ed="#P" n="80" break="no"/>natura presentia illa corporis christi.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1190">
+      ¶ Septimo 
+      <lb ed="#P" n="81"/>contra quartum dictum: quod oratio est causatiua vt 
+      vera<lb ed="#P" n="82" break="no"/>nec vt falsa. contra oratio est causatiua vt est signum: 
+      <lb ed="#P" n="83"/>sicut et sacramentum. sed vt signum est vera vel falsa. quia 
+      <lb ed="#P" n="84"/>ista priuatiue opponuntur circa signum et circa 
+      ora<lb ed="#P" n="85" break="no"/>tionem. vt videtur. ita quod non est neutra. Aut enim 
+      <lb ed="#P" n="86"/>conformiter enunciat ipsi rei: et sic vera. aut non 
+      confor<lb ed="#P" n="87" break="no"/>miter: et sic falsa. et inter contradictoria non est me 
+      <lb ed="#P" n="88"/>dium pro quocunque signo nature vel durationis. vi 
+      <lb ed="#P" n="89"/>videtur ergo etc.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1212">
+      ¶ Octauo contra quintum dictum. 
+      <lb ed="#P" n="90"/>quia vniformiter est ista oratio causatiua modo: si 
+      <lb ed="#P" n="91"/>cut et quando christus eam protulit conficiendo corpus 
+      <lb ed="#P" n="92"/>suum. sed tunc naturaliter prius fuit significatiua 
+      <lb ed="#P" n="93"/>ex propriis dictionibus quam causatiua talis effecius 
+      <lb ed="#P" n="94"/>vel saltem non posterius. et sic etiam vera: vt 
+      vide<lb ed="#P" n="95" break="no"/>tur. et causauit inquantum significatiua. sic 
+      alioquin<lb ed="#P" n="96" break="no"/>non asiumpsisset chrisius magis conuenienter hanc 
+      <lb ed="#P" n="97"/>orationem quam aliquam vocem non significatiuam. 
+      <lb ed="#P" n="98"/>quod non videtur verum ergo sacramentum et 
+      con<lb ed="#P" n="99" break="no"/>secratio sit eiusdem rationis modo sicut tunc: ita 
+      be<lb ed="#P" n="100" break="no"/>ne est causatiua vt significatiua. et per consequens vera 
+      <lb ed="#P" n="101"/>secundum significationem suam ex propriis dictionibus 
+      <lb ed="#P" n="102"/>non solum ex institutione christi: licet non nisi 
+      con<lb ed="#P" n="103" break="no"/>currente institutione: sicut et tunc. Et sic videtur hec 
+      <lb ed="#P" n="104"/>positio dubia in multis. 
+      <lb ed="#P" n="105"/>tamen istorum sustinendo eam 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1249">
+               <lb ed="#P" n="106"/>¶ Ad primum dici potest quod non cogit nam 
+      <lb ed="#P" n="107"/>ita concluderet: quod conceptus formatus per dictionem 
+      habe<lb ed="#P" n="108" break="no"/>retur ante terminationem dictionis vel prolationem 
+      <lb ed="#P" n="109"/>eius. Et tamen non habetur sicut patet. Dicitur ergo quod tunc 
+      ora<lb ed="#P" n="110" break="no"/>tio significat: et verificari potest: vel veriticatur: quando ipsa. 
+      <lb ed="#P" n="111"/>non est. scilicet pro illo instanti terminatiuo sue 
+      prolatio<lb ed="#P" n="112" break="no"/>nis. licet enim non sit oratio in re vel in prolatione: est 
+      <lb ed="#P" n="113"/>tamen in conceptu et in mente intelligentis eam quasi signum 
+      <lb ed="#P" n="114"/>rememoratiuum vel representatiuum talis vnionis ex 
+      <lb ed="#P" n="115"/>tremorum. vnde orationem esse veram magis est eam esse 
+      <lb ed="#P" n="116"/>in mente: quam in rem. Unde et ipsa veritas propositionis 
+      <lb ed="#P" n="117"/>non est nisi quidam respectus conformitatis secundum 
+      ra<lb ed="#P" n="118" break="no"/>tionem ad ipsam re. Et aliquis potest habere 
+      pro<lb ed="#P" n="119" break="no"/>positionem veram in mente dato quod non proferat eam 
+      <lb ed="#P" n="120"/>in re: sicut patet. Si dicas quod oratio vera causat 
+      con<lb ed="#P" n="121" break="no"/>ceptum verum in mente: quando est vera. sed non potest causa 
+      <lb ed="#P" n="122"/>re realiter: quando non est. ergo etc. Dico quod oratio in 
+      pro<lb ed="#P" n="123" break="no"/>latione non causat realiter conceptum de ipsa. quia non est 
+      <lb ed="#P" n="124"/>quando causatur concepius de ipsa. Sed dico quod mens cau 
+      <lb ed="#P" n="125"/>sat talem conceptum: prius in oratione prolata: quasi 
+      ali<lb ed="#P" n="126" break="no"/>quo prerequisito ad excitationem sensus per vocem 
+      <lb ed="#P" n="127"/>ensibilem et excitationem ipsius. quo facto intellect 
+      <lb ed="#P" n="128"/>apprehendens talem propositionem per discursum 
+      <lb ed="#P" n="129"/>rememorando: talis oratio significat hoc: 
+      compa<lb ed="#P" n="130" break="no"/>rat ipsam ad vnionem extremorum significamta 
+      <!--68.xml-->
+      <pb ed="#P" n="35-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et si est in re pro quando ipsam significat: iudicat eam 
+      ve<lb ed="#P" n="2" break="no"/>ram. si non: iudicat eam falsam.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1317">
+      ¶ Ad secundum similiter 
+      po<lb ed="#P" n="3" break="no"/>test dici de dictione: sicut suo modo dictum est de ora 
+      <lb ed="#P" n="4"/>tione. Ad illud quod additur contra secundum: dico: quod 
+      <lb ed="#P" n="5"/>dictio secundum se idem habet significatum siue per se 
+      si<lb ed="#P" n="6" break="no"/>ue in oratione. sed tamen aliter habet ipsum in ora 
+      <lb ed="#P" n="7"/>tione: et aliter distincte et per se accepta. sicut patet 
+      <lb ed="#P" n="8"/>quod licet pars eandem naturam habeat in toto et extra 
+      <lb ed="#P" n="9"/>totum: sicut lapis in domo vel extra domum: tamen 
+      <lb ed="#P" n="10"/>aliter hinc et inde. sic dictio hinc et inde. quia per 
+      <lb ed="#P" n="11"/>se acceptata habet suum significatum actu et 
+      distin<lb ed="#P" n="12" break="no"/>cte habitum in termino sue prolationis. sed inquantum 
+      <lb ed="#P" n="13"/>pars orationis habet ipsum in potentia quasi et 
+      or<lb ed="#P" n="14" break="no"/>dine quodam cum aliis dictionibus ad vltimum 
+      in<lb ed="#P" n="15" break="no"/>stans prolationis totius orationis: sicut et oratio 
+      <lb ed="#P" n="16"/>ipsa. quia in hoc sequitur legem sui totius. 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1351">
+               <lb ed="#P" n="17"/>¶ Ad tertium de illo indiuiduo generis dico: quod si 
+      <lb ed="#P" n="18"/>cut genus species et differentia et indiuiduum sunt 
+      <lb ed="#P" n="19"/>essentialiter idem: ita indiuiduum generis et 
+      speciei<lb ed="#P" n="20" break="no"/>sunt essentialiter idem puta hoc animal et hic homo. 
+      <lb ed="#P" n="21"/>Et sicut genus et species ex natura rei aliquo 
+      mo<lb ed="#P" n="22" break="no"/>do distinguuntur: sic etiam indiuiduum generis et 
+      <lb ed="#P" n="23"/>speciei: hoc animal et hic homo. Et sicut species 
+      im<lb ed="#P" n="24" break="no"/>cludit genus: sic indiuiduum speciei includit 
+      indi<lb ed="#P" n="25" break="no"/>uiduum generis. sicut hic homo includit hoc animal 
+      <lb ed="#P" n="26"/>vel hanc substantiam.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1375">
+      ¶ Ad illud quod subditur 
+      di<lb ed="#P" n="27" break="no"/>co quod habetur in sacramento substantia quae est in 
+      cor<lb ed="#P" n="28" break="no"/>pore chrisii non alia substantia nec aliud indiuiduum 
+      <lb ed="#P" n="29"/>essentialiter distinctum ab eo. Ad argumentum 
+      di<lb ed="#P" n="30" break="no"/>co: quod genus prius descendit in speciem quam habeat 
+      <lb ed="#P" n="31"/>indiuiduum. vnde dico: quod species prior est quam 
+      indiui<lb ed="#P" n="32" break="no"/>duum generis. tamen iudiuiduum generis prius est 
+      <lb ed="#P" n="33"/>quam indiuiduum speciei: sicut hoc animal quam hic 
+      ho<lb ed="#P" n="34" break="no"/>mo. Et quando dicis: quod genus post descensum in 
+      specien<lb ed="#P" n="35" break="no"/>non habet indiuiduum nisi indiuiduum speciei et 
+      in<lb ed="#P" n="36" break="no"/>cludens speciem dico quod non est verum. licet illud 
+      indi<lb ed="#P" n="37" break="no"/>uiduum bene sit essentialiter idem cum indiuiduo speciei: 
+      <lb ed="#P" n="38"/>sicut et genus cum specie. Uundo dicis vltra: quod tunc in 
+      <lb ed="#P" n="39"/>quolibet essent tot indiuidua quot sunt genera 
+      sub<lb ed="#P" n="40" break="no"/>alterna et genus generalissimum et species 
+      specia<lb ed="#P" n="41" break="no"/>lissima. dico quod non habeo pro inconuenienti: quod vnum 
+      <lb ed="#P" n="42"/>indiuiduum essentialiter sicut hic homo sit tot 
+      indi<lb ed="#P" n="43" break="no"/>uidua distincta aliquo modo ex natura rei: sicut suo 
+      <lb ed="#P" n="44"/>modo vnum indiuiduum compositum includit plura 
+      in<lb ed="#P" n="45" break="no"/>diuidua partialia. quia et indiuiduum materie hanc 
+      <lb ed="#P" n="46"/>materiam et indiuiduum forme scilicet hanc formam. 
+      Ali<lb ed="#P" n="47" break="no"/>ter dici potest. quod proprie loquendo non sunt plura 
+      in<lb ed="#P" n="48" break="no"/>diuidua. sicut dato quod sint plures scientie in eodem. 
+      <lb ed="#P" n="49"/>non est plures scientes. Aliter diceretur quod licet 
+      ge<lb ed="#P" n="50" break="no"/>nus species et differentia differant ex natura 
+      rei<lb ed="#P" n="51" break="no"/>non tamen indiuidum huius ab indiuiduo illius nisi 
+      <lb ed="#P" n="52"/>secundum rationem. et hoc sufficit secundum aliquos ad pro 
+      <lb ed="#P" n="53"/>positum. sed de hoc non curo. Quando ergo 
+      dici<lb ed="#P" n="54" break="no"/>tur hoc est corpus meum non est omnino idem dictum 
+      <lb ed="#P" n="55"/>sicut quod corpus meum est corpus meum: sed est 
+      dictu<lb ed="#P" n="56" break="no"/>hec substantia est corpus meum: nec ista oratio 
+      effecti<lb ed="#P" n="57" break="no"/>ua est huius scilicet quod hec substantia sit corpus christi: sed 
+      <lb ed="#P" n="58"/>est effectiua: quod hec substantia que est corpus christim 
+      <lb ed="#P" n="59"/>sit hic. vel quod substantia panis conuersa est in corpus 
+      <lb ed="#P" n="60"/>christi.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1451">
+      ¶ Ad quartum dicitur quod oratio quantumcunque 
+      <lb ed="#P" n="61"/>de presenti non habet necessario suum signatum vel 
+      <lb ed="#P" n="62"/>suum conceptum secum in suo proferri et esse. sed 
+      suffi<lb ed="#P" n="63" break="no"/>cit quod pro vltimo instanti sue prolationis. Nec est in 
+      <lb ed="#P" n="64"/>hoc differentia inter orationem de presenti et de 
+      prete<lb ed="#P" n="65" break="no"/>rito vel futuro: sed in hoc conueniunt. differunt autem 
+      <!--68.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>bene in veritatibus suis secundum diuersas partes vel 
+      <lb ed="#P" n="67"/>instantia temporis. in quibus ponitur vnio 
+      extre<lb ed="#P" n="68" break="no"/>morum in re significata per tales orationes. quare 
+      <lb ed="#P" n="69"/>etc.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1477">
+      ¶ Ad quintum potest dici illa oratio 
+      causati<lb ed="#P" n="70" break="no"/>ua: quando non est quia tunc ponitur signatum eius. 
+      <lb ed="#P" n="71"/>Sed non est dicendum: quod proprie et realiter sit 
+      causa<lb ed="#P" n="72" break="no"/>tiua: sicut bene concludit argumentum: et sicut supra 
+      <lb ed="#P" n="73"/>dictum est de sacramentis sed est causa vulgariter et 
+      <lb ed="#P" n="74"/>minus proprie loquendo pro tanto: quia ipsa prolata 
+      <lb ed="#P" n="75"/>ex ordinatione diuina et instanti terminatiuo sue 
+      <lb ed="#P" n="76"/>prolationis ponitur talis effectus a deo effectiue. 
+      <lb ed="#P" n="77"/>sicut alicui eunti romam confertur prebenda: quam 
+      <lb ed="#P" n="78"/>do venerit romam. Et solet dici: quod via illa dedit si 
+      <lb ed="#P" n="79"/>di illam prebendam vel fuit causa collationis 
+      preben<lb ed="#P" n="80" break="no"/>de. licet via iam non sit: sed preterita sit: quando 
+      sibi<lb ed="#P" n="81" break="no"/>confertur prebenda.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1506">
+      ¶ Ad sextum dico. quod licet 
+      cau<lb ed="#P" n="82" break="no"/>sa quantum ad respectum sit simul cum effectu etiam 
+      <lb ed="#P" n="83"/>quantum ad respectum: tamen quantum ad fundamentum 
+      <lb ed="#P" n="84"/>est prior natura quam effectus. Et sic in proposito 
+      po<lb ed="#P" n="85" break="no"/>test dici. Tamen dico: quod oratio illa signum sensibile 
+      <lb ed="#P" n="86"/>non est vere et realiter causa. nec habet realem 
+      ali<lb ed="#P" n="87" break="no"/>quem respectum ad effectum sacramenti. sed si 
+      ha<lb ed="#P" n="88" break="no"/>bet aliquem respectum ille est rationis ideo etc. 
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1524">
+               <lb ed="#P" n="89"/>¶ Ad septimum dico: quod oratio causatiua est inquam 
+      <lb ed="#P" n="90"/>tum sensibile signum a deo instituium ad hoc non 
+      <lb ed="#P" n="91"/>ex sua sensibilitate sed ex institutione. Quando 
+      di<lb ed="#P" n="92" break="no"/>cis: aut vt vera: aut vt falsa. dico quod nec vt vera nec 
+      <lb ed="#P" n="93"/>vt falsa. Tu dicis non vt neutra. quia non potest esse 
+      <lb ed="#P" n="94"/>neutra. dico quod in sua prolatione est neutra et in suo 
+      <lb ed="#P" n="95"/>esse sensibili. quia cum profertur: significationem suam. 
+      <lb ed="#P" n="96"/>vel conceptum suum non habet. sicut dictum est 
+      su<lb ed="#P" n="97" break="no"/>ra. Non tamen est causatiua vt neutra. quia hoc 
+      <lb ed="#P" n="98"/>non est sibi ratio causandi licet neutra existat. Tu 
+      <lb ed="#P" n="99"/>dicis: quod non potest esse neutra. dico quod immo. Ad  
+      <lb ed="#P" n="100"/>probationem dico: quod licet res sit vel non sit: quando 
+      <lb ed="#P" n="101"/>pratio profertur: nec sit dare medium: tamen non 
+      <lb ed="#P" n="102"/>oportet ipsam esse veram tunc vel falsam. ita quod 
+      ve<lb ed="#P" n="103" break="no"/>rum et falsum non opponuntur priuatiue circa ora 
+      <lb ed="#P" n="104"/>tionem pro omni tempore scilicet pro tempore sue 
+      <lb ed="#P" n="105"/>prolationis: sed magis pro instanti sue 
+      terminatio<lb ed="#P" n="106" break="no"/>nis secundum habitudinem conformitatis vel 
+      priuatio<lb ed="#P" n="107" break="no"/>nem seu difformitatem ad rem quo significatur 
+      per<lb ed="#P" n="108" break="no"/>orationem sicut videns et cecum circa canem non pro 
+      <lb ed="#P" n="109"/>quocumque tempore. sed pro determinato.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1573">
+      ¶ Ad octa 
+      <lb ed="#P" n="110"/>uum dico quod vniformiter ista oratio est causatiua: 
+      <lb ed="#P" n="111"/>modo sicut et fuit quando christus eam protulit 
+      conficien<lb ed="#P" n="112" break="no"/>do corpus suum. Est enim consecratio eiusdem 
+      ratio<lb ed="#P" n="113" break="no"/>nis: sicut tunc fuit. licet modo dicatur recitatiue a 
+      sa<lb ed="#P" n="114" break="no"/>cerdote. quod patet per verba precedentia. si enim non 
+      <lb ed="#P" n="115"/>dicerentur recitatiue: sequeretur quod in verbis 
+      sequen<lb ed="#P" n="116" break="no"/>tibus consecrationem sanguinis diceretur falsum: 
+      <lb ed="#P" n="117"/>cum dicitur: qui pro vobis et pro multis 
+      effunde<lb ed="#P" n="118" break="no"/>tur in remissionem peccatorum. planum est enim: 
+      <lb ed="#P" n="119"/>quod hoc amodo in futurum non fiet: quod sanguis 
+      chri<lb ed="#P" n="120" break="no"/>ti effundetur. Quando dicis vltra quod prius natura 
+      <lb ed="#P" n="121"/>quam teriinetur prolatio eius: et esset causatiua 
+      effe<lb ed="#P" n="122" break="no"/>ctus sacramenti: habuit suum significatum ex 
+      di<lb ed="#P" n="123" break="no"/>ctionibus propriis et suam veritatem: dico quod non 
+      <lb ed="#P" n="124"/>Quando dicis quod tunc frustra christus accepisset 
+      <lb ed="#P" n="125"/>talem orationem: sed debuisset assumpsisse vocem 
+      ali<lb ed="#P" n="126" break="no"/>quam non significatiuam: dico quod ita bene assumpsisset 
+      <lb ed="#P" n="127"/>si voluisset aliquam vocem non significatiuam: et in ipsa 
+      con<lb ed="#P" n="128" break="no"/>fecisset et conficiendum esset: si voluisset. sed hoc non 
+      <lb ed="#P" n="129"/>fecit: sed orationem et vocem significatiuam assumpsit 
+      <lb ed="#P" n="130"/>quasi magis congruam ad operandum et cogitandum 
+      <!--69.xml-->
+      <pb ed="#P" n="36-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et deuotionem ministri et aliorum inflammandum. 
+      <lb ed="#P" n="2"/>hec de tertio articulo principali. Uide tamen quod 
+      <lb ed="#P" n="3"/>secundum ista dicta in tertio articulo possent solui aliqua 
+      <lb ed="#P" n="4"/>argumenta prius facta contra primas opiniones 
+      <lb ed="#P" n="5"/>margumentum principali 
+      <lb ed="#P" n="6"/>Ad priimum t patet quid dicendum et 
+      <lb ed="#P" n="7"/>predictis scilicet quod li hoc inquantum sit dictio per se 
+      <lb ed="#P" n="8"/>accepta demonstret aliquid presens in termino sue 
+      <lb ed="#P" n="9"/>prolationis. Aliter tamen demonstrat: vt est pars 
+      <lb ed="#P" n="10"/>orationis quantumcumque coniunctum cum verbo 
+      presen<lb ed="#P" n="11" break="no"/>tis temporis sicut dictum est. tunc enim demonstrat 
+      <lb ed="#P" n="12"/>in instanti terminatiuo prolationis totius oratio 
+      <lb ed="#P" n="13"/>nis et cum est presens illud quod demonstrat: et oratio est 
+      <lb ed="#P" n="14"/>vera.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1658">
+      ¶ Ad secundum dico: quod li hoc demonstrat 
+      parti<lb ed="#P" n="15" break="no"/>culare entis: quod est substantia. vel particulare 
+      sub<lb ed="#P" n="16" break="no"/>stantie scilicet hanc substantiam. Et licet illa substantia 
+      <lb ed="#P" n="17"/>sit corpus christi: non tamen est idem dictum hoc est 
+      cor<lb ed="#P" n="18" break="no"/>pus meum: sicut corpus meum est corpus meum sicut 
+      <lb ed="#P" n="19"/>patuit ex predictis.
+      </p>
+            <p xml:id="qrdBas-f16951-d1e1671">
+      ¶ Ad tertium dico: quod licet ista 
+      <lb ed="#P" n="20"/>oratio sit causatiua per modum qui dictus est supra: 
+      <lb ed="#P" n="21"/>non tamen prius significat corpus christi esse 
+      pre<lb ed="#P" n="22" break="no"/>sens: quam sit presens: sed simul hoc significat: et 
+      corp<lb ed="#P" n="23" break="no"/>christi est presens. et ideo non est falsa. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

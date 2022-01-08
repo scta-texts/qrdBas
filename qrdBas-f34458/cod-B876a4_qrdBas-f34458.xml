@@ -1,0 +1,685 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 5</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 5</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="61-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f34458"><!--l4d11q5 -->
+            <head xml:id="qrdBas-f34458-Hd1e99">Quaestio 5</head>
+            <p xml:id="qrdBas-f34458-d1e101">
+               <lb ed="#P" n="22"/>¶ Distinctionis Undecime. 
+      <lb ed="#P" n="23"/>Questio Quinta 
+    </p>
+            <p xml:id="qrdBas-f34458-d1e108">
+               <lb ed="#P" n="24"/>QUinto quaero: utrum 
+      <lb ed="#P" n="25"/>per se precisus terminus ad 
+      <lb ed="#P" n="26"/>quem conuersionis panis sit 
+      cor<lb ed="#P" n="27" break="no"/>pus christi quod est pars 
+      essentia<lb ed="#P" n="28" break="no"/>lis humanitatis christi: ex quo 
+      <lb ed="#P" n="29"/>cum anima intellectiua componitur. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e124">
+               <lb ed="#P" n="30"/>¶ Uidetur quod non. In omni 
+      con<lb ed="#P" n="31" break="no"/>uersione vel mutatione qua 
+      ha<lb ed="#P" n="32" break="no"/>bet per se terminum a quo positiuum oportet quod per se 
+      ter<lb ed="#P" n="33" break="no"/>minus ad quem sit aliquid negatiuum. patet. quia omnis 
+      <lb ed="#P" n="34"/>mutatio vel quasi mutatio est transitus a 
+      contradi<lb ed="#P" n="35" break="no"/>ctorio in contradictorium per se. Ista autem se habent 
+      <lb ed="#P" n="36"/>sicut affirmatio et negatio. sed ista conuersio habet 
+      <lb ed="#P" n="37"/>pro per se termino a quo aliquid positiuum. puta 
+      pa<lb ed="#P" n="38" break="no"/>nem. non ergo pro per se termino ad quem. sed corpus 
+      <lb ed="#P" n="39"/>christi est aliquid positiuum. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e148">
+      ¶ Secundo sic. 
+      cor<lb ed="#P" n="40" break="no"/>pns christi vt sic accipitur non dicit: nisi vel materiam 
+      <lb ed="#P" n="41"/>solam vel materiam cum quantitate. quia non potest dicere 
+      <lb ed="#P" n="42"/>animam eo quod sic distinguitur contra animam. nec aliquam 
+      <lb ed="#P" n="43"/>vt aliam formam. quia in homine non sunt plures forme 
+      sub<lb ed="#P" n="44" break="no"/>stantiales. quia vnius rei vnum est esse simpliciter. sed in 
+      <lb ed="#P" n="45"/>materiam solam vel in materiam cum quantitate non 
+      fit<lb ed="#P" n="46" break="no"/>conuersio sed magis resolutio vel corruptio: ergo etc. 
+      <lb ed="#P" n="47"/>Similiter nec in materiam cum quantitate. quia quatitas 
+      <lb ed="#P" n="48"/>cum sit accidens: non potest esse terminus: nec includ 
+      <lb ed="#P" n="49"/>inper se termino conuersionis. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e173">
+      ¶ Tertio sic. Il 
+      <lb ed="#P" n="50"/>lud non est praecisius et per se terminus conuersionis: quod 
+      <lb ed="#P" n="51"/>vt sic per ipsam nullum accipit esse. probatio. quia conuersio 
+      <lb ed="#P" n="52"/>aut est positiua: aut destructiua tantum. non potest dici quod 
+      <lb ed="#P" n="53"/>pestructiua tantum. ergo positiua. et per consequens sicut est 
+      <lb ed="#P" n="54"/>noua: ita potest aliquid de nouo. et praecipue suum per 
+      <lb ed="#P" n="55"/>se terminum vt videtur sed corpus christi pars: vt 
+      pa<lb ed="#P" n="56" break="no"/>tet. non accipit esse per istam conuersionem. quia nec nouum 
+      <lb ed="#P" n="57"/>esse per istam conuersionem eo quod preexistebat. nec 
+      pre<lb ed="#P" n="58" break="no"/>cedens esse. quia tunc bis acciperet idem esse. ergo etc. 
+      <lb ed="#P" n="59"/>hoc est corpus meum dicitur. Luc. 22. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e197">
+               <lb ed="#P" n="60"/>¶ Contra et Math. 2. Et similiter de 
+      san<lb ed="#P" n="61" break="no"/>gvine suo modo. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e204">
+               <lb ed="#P" n="62"/>¶ In ista quaestione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e209">
+        <!--118.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>¶ Primo ponam aliquas opiniones de ista quaestione 
+      <lb ed="#P" n="64"/>cum motiuis aliquibus et modis dicendi earum.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e220">
+      ¶ Secundo 
+      <lb ed="#P" n="65"/>arguam contra eas: et soluam ad motiua earum.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e225">
+      ¶ Tertio 
+      di<lb ed="#P" n="66" break="no"/>cam aliter ad questionem.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e231">
+      ¶ Et vltimo ad rationes 
+      <lb ed="#P" n="67"/>principales. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e236">
+               <lb ed="#P" n="68"/>¶ Quantum ad primum articulum 
+      <lb ed="#P" n="69"/>praemittendum est quod ben concedunt ho omnes moderni quod panis 
+      <lb ed="#P" n="70"/>pouertatur in corpus christi: et quod corpus christi est per se terminus 
+      <lb ed="#P" n="71"/>ad quem huius conuersionis. sed de modo declarandi 
+      <lb ed="#P" n="72"/>hoc: et quale sit illud corpus sunt quatuor opiniones. 
+      <lb ed="#P" n="73"/>Et sunt tres illorum qui volunt vitare plles formas in homine. 
+      <lb ed="#P" n="74"/>est ista quod cum corpus non sit mam tantum quia 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e254">
+               <lb ed="#P" n="75"/>¶ Prima mam tantum non est nisi pura 
+      potentia<lb ed="#P" n="76" break="no"/>nec materia cum quantitate: quia substantia non includit ad 
+      <lb ed="#P" n="77"/>cidens nec materia cum aliqua alia forma substantiali 
+      <lb ed="#P" n="78"/>ab anima. quia maneret in homine cum anima. et sic in eodem per se 
+      <lb ed="#P" n="79"/>vno essent plures forme substantiales quod est 
+      impos<lb ed="#P" n="80" break="no"/>sibile et implicans contradictionem: sicut quod per se vnum 
+      <lb ed="#P" n="81"/>non sit per se vnum secundum eos oportet dicer e quod corpus 
+      il<lb ed="#P" n="82" break="no"/>lud quod est per se terminus transsubstantiationis: 
+      inclu<lb ed="#P" n="83" break="no"/>dat intrinsece materiam et animam rationalem que dat 
+      <lb ed="#P" n="84"/>esse corporeum subiectiuum et intellectiuum: sed non 
+      <lb ed="#P" n="85"/>inquantum dat esse sensitiuum et intellectiuum: sed in 
+      <lb ed="#P" n="86"/>quantum dat esse corporeum. corpus ergo est per fe terminus 
+      <lb ed="#P" n="87"/>isto modo vt dicunt. et ita oportet dicere secundum eos 
+      pro<lb ed="#P" n="88" break="no"/>pter rationem praedictam.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e287">
+      ¶ Ex hoc patet secundum eos quod 
+      <lb ed="#P" n="89"/>possibile est esse conuersionem in animam rationalem: non 
+      <lb ed="#P" n="90"/>inquantum dat esse corporeum. et hoc non est 
+      inconue<lb ed="#P" n="91" break="no"/>niens: sicut nec est conueniens quod corpus 
+      conuerta<lb ed="#P" n="92" break="no"/>tur in corpus. 
+      <lb ed="#P" n="93"/>opinio est quod corpus illud quod 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e300">
+               <lb ed="#P" n="94"/>¶ Secunda est per se primus terminus 
+      con<lb ed="#P" n="95" break="no"/>uersionis non includit aliquam formam substantialem. 
+      <lb ed="#P" n="96"/>quia nec animam rationalem. Nam si fuisset consecratum 
+      <lb ed="#P" n="97"/>in triduo sub specie panis fuisset corpus illud quod 
+      <lb ed="#P" n="98"/>est per se terminus conuersionis. et tamen non fuisset ibi 
+      in<lb ed="#P" n="99" break="no"/>anima que erat a corpore separata. Nec includit 
+      ali<lb ed="#P" n="100" break="no"/>quam aliam formam substantialem. quia nulla alia forma 
+      <lb ed="#P" n="101"/>substantialis alia ab anima ad essentiam humanitatis  
+      <lb ed="#P" n="102"/>christi pertinet. non est enim in homine nisi vna forma tantum. 
+      <lb ed="#P" n="103"/>nec includit aliquod accidens siue quantitatem siue 
+      ali<lb ed="#P" n="104" break="no"/>quod aliud. quia per se terminus est substantia: et aliquid 
+      <lb ed="#P" n="105"/>per se vnum.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e329">
+      ¶ Quidam ergo dicunt quod corpus illud 
+      di<lb ed="#P" n="106" break="no"/>cit materiam christi cum modo quodam quantitatiuo 
+      de<lb ed="#P" n="107" break="no"/>relicto in materia vel causato ex ipsa quantitate. qui quidem 
+      <lb ed="#P" n="108"/>modus non est quantitas: sed aliquid aliud ab ipsa. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e339">
+               <lb ed="#P" n="109"/>¶ Secundo dicunt quod modus ille quantitatiuus est 
+      sub<lb ed="#P" n="110" break="no"/>stantialis et essentialiter idem cum materia. quia accidens 
+      <lb ed="#P" n="111"/>esse non potest eo ipso quod includitur in per se termino 
+      con<lb ed="#P" n="112" break="no"/>uersionis.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e350">
+      ¶ Tertio dicunt quod materia per illum modum 
+      <lb ed="#P" n="113"/>formaliter in seipsa est extensa habens partem extra per 
+      <lb ed="#P" n="114"/>tem: et quod per illum potens / est suscipere quantitatem: et 
+      habere<lb ed="#P" n="115" break="no"/>partem aliam et aliam sub partibus quantitatis. 
+      Alioquin<lb ed="#P" n="116" break="no"/>enim non est intelligibile vt dicunt: qumo materia secundum se 
+      <lb ed="#P" n="117"/>sit simplex et indiuisibilis: posset suscipere quantitatem 
+      <lb ed="#P" n="118"/>et habere sub ipsa partem extra partem 
+      <lb ed="#P" n="119"/>opinio est qua dicit quod illud corpus 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e368">
+               <lb ed="#P" n="120"/>¶ Tertia per se non dicit nisi materiam: tamen 
+      con<lb ed="#P" n="121" break="no"/>notat quantitatem per quam formaliter illa materia est 
+      <lb ed="#P" n="122"/>quanta. et materia licet secundum se non sit corporea: tamen 
+      <lb ed="#P" n="123"/>vt substat quantitati et afficitur per eam: potest dici corpus: et 
+      <lb ed="#P" n="124"/>idem corpus christi christo mortuo quod fuit prius viuum. Tum 
+      <lb ed="#P" n="125"/>propter vnitatem materie et quantitatis. tum propter 
+      <lb ed="#P" n="126"/>vnitatem diuini suppositi sustentantis ita in morte 
+      <!--119.xml-->
+      <pb ed="#P" n="61-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>sicut in vita. et hoc siue illa materia informetur alia 
+      <lb ed="#P" n="2"/>forma non pertinente ad christum siue non. 
+      <lb ed="#P" n="3"/>opinio est quod corpus christi non 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e399">
+               <lb ed="#P" n="4"/>¶ Qual eil terminat illam conuersionem al 
+      <lb ed="#P" n="5"/>solute acceptum: vt substantia est: sed vt hic presens 
+      <lb ed="#P" n="6"/>est: puta sub specie praesens. et isti volunt quod ex vi 
+      con<lb ed="#P" n="7" break="no"/>uersionis per se habetur praesentia corporis christi sicut / 
+      <lb ed="#P" n="8"/>se terminus. Et ad hoc ducuntur precipue. quia nihil 
+      <lb ed="#P" n="9"/>aliud positiuum nouum vident: nisi istam praesentiam in 
+      <lb ed="#P" n="10"/>proposito. conuersionis autem noue videtur nouus 
+      <lb ed="#P" n="11"/>terminus aliquis positiuus: sicut deductum est su 
+      <lb ed="#P" n="12"/>pra in argumento principali.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e421">
+      ¶ De isto autem mode 
+      <lb ed="#P" n="13"/>patet quod vnus est contra pluritatem formarum in 
+      ho<lb ed="#P" n="14" break="no"/>mine quam alii. immo non videtur contrarius sicut tres 
+      <lb ed="#P" n="15"/>primi qui ad fugam plurium formarum ( vt estimo sine 
+      <lb ed="#P" n="16"/>preiudicio ) sunt ficti et etiam adinuenti. Quartus 
+      ve<lb ed="#P" n="17" break="no"/>ro iste non tangit aliquid de illa difficultate: sed 
+      in<lb ed="#P" n="18" break="no"/>differenter cum vtraque parte potest stare: vt patet in 
+      <lb ed="#P" n="19"/>tuenti. hec de primo articulo principali. 
+      <lb ed="#P" n="20"/>2opinionem et secundam 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e441">
+               <lb ed="#P" n="21"/>¶ Contra primia et tertiam pro 
+      quan<lb ed="#P" n="22" break="no"/>to innituntur illi fundamento: quod in homine non sunt 
+      <lb ed="#P" n="23"/>plures forme: et quod non est ibi alia forma 
+      substantia<lb ed="#P" n="24" break="no"/>lis ab anima intellectiua: dico quod illud fundamentum 
+      <lb ed="#P" n="25"/>est falsum et periculosum. nec possunt saluare 
+      vni<lb ed="#P" n="26" break="no"/>tatem vere carnis christi vel veri corporis christi viui et 
+      <lb ed="#P" n="27"/>mortui in sepulchro. nec per consequens veritatem 
+      <lb ed="#P" n="28"/>huius sacramenti: in quo per se continetur tanquam per se 
+      <lb ed="#P" n="29"/>terminus conuersionis vera caro christi et fuisset 
+      con<lb ed="#P" n="30" break="no"/>tenta in triduo: si quis consecrasset. Et quod in 
+      homi<lb ed="#P" n="31" break="no"/>ne necessarium sit dare plures formas: et fuerit 
+      ea<lb ed="#P" n="32" break="no"/>dem vera caro christi viui et mortui in sepulchro non 
+      <lb ed="#P" n="33"/>solum materia vel quantitas siue per seipsas: siue 
+      cu<lb ed="#P" n="34" break="no"/>alia forma de nouo adueniente non pertinente ad 
+      na<lb ed="#P" n="35" break="no"/>turam humanam christi. primum probaui in secunde 
+      <lb ed="#P" n="36"/>distinctione. xviii. et secundum in tertio: cum hoc quod 
+      di<lb ed="#P" n="37" break="no"/>ctum fuerat de ipsa in secundo satis diffuse. nec est modo 
+      <lb ed="#P" n="38"/>quantum ad praesentem articulum aliquod illorum repetendum 
+      <lb ed="#P" n="39"/>i igitur arguo contra primam 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e486">
+               <lb ed="#P" n="40"/>¶ In specidie opinionem primo sic si 
+      ali<lb ed="#P" n="41" break="no"/>quis consecrasset in triduo mortis christi secundum 
+      om<lb ed="#P" n="42" break="no"/>nes sub sacramento vel sub specie panis fuisset 
+      per<lb ed="#P" n="43" break="no"/>se terminus conuersionis presens vere et realiter. 
+      <lb ed="#P" n="44"/>sed planum est quod ibi non fuisset anima: nec 
+      mate<lb ed="#P" n="45" break="no"/>ria informata. Nam in triduo mortis christi 
+      ani<lb ed="#P" n="46" break="no"/>ma fuit separata a materia vel a corpore christi. vn 
+      <lb ed="#P" n="47"/>de et omnes doctores tenent quod anima modo de 
+      facto<lb ed="#P" n="48" break="no"/>non est praesens per se et ex vi sacramenti: sed 
+      conco<lb ed="#P" n="49" break="no"/>mitatiue. quia corpus informat vel materiam ipsam 
+      <lb ed="#P" n="50"/>igitur per se terminus conuersionis non est aliquid 
+      con<lb ed="#P" n="51" break="no"/>stitutum intrinsece per animam: nec includens ipsam 
+      <lb ed="#P" n="52"/>Nec valet quod dicunt: quod verum est inquantum anima 
+      da<lb ed="#P" n="53" break="no"/>esse sensitiuum vel animal vel esse intellectiuum seu 
+      ho<lb ed="#P" n="54" break="no"/>minem: sed inquantum dat esse corporeum. primo quia per se 
+      <lb ed="#P" n="55"/>terminus realis ipsius conuersionis debet esse 
+      ali<lb ed="#P" n="56" break="no"/>quid reale et constituens ipsum debet accipi secundum 
+      ra<lb ed="#P" n="57" break="no"/>tionem realem. sed anima vt dat esse corporeum 
+      vel<lb ed="#P" n="58" break="no"/>sensitiuum vel intellectiuum non distinguitur in se 
+      <lb ed="#P" n="59"/>ipsa formaliter ex natura rei: sed tantum secundum 
+      ratio<lb ed="#P" n="60" break="no"/>nem et intellectum secundum eos. igitur secundum quod dat omnia ista 
+      <lb ed="#P" n="61"/>esse: terminat conuersionem. quia ratio realis et forma 
+      <lb ed="#P" n="62"/>lis per quam dat omnia ista esse: est eadem et simplex 
+      <lb ed="#P" n="63"/>indistincta. Non enim corporeum vegetatiuum 
+      sen<lb ed="#P" n="64" break="no"/>sitiuum et intellectiuum continentur distincte forma 
+      <lb ed="#P" n="65"/>liter in anima: vt dicunt negando formalitates. sed 
+      <!--119.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>anima vnica simplex indistincta omnino re et 
+      ratio<lb ed="#P" n="67" break="no"/>ne reali virtualiter continet ista esse: et potest dare 
+      <lb ed="#P" n="68"/>ipsa. quare etc. Secundo non valet illud dictum quia 
+      dato<lb ed="#P" n="69" break="no"/>quod distinguerentur sic formaliter in anima. tamen essent idem 
+      <lb ed="#P" n="70"/>essentialiter et impossibile esset quod vnum esse secundum talem 
+      <lb ed="#P" n="71"/>formam poneretur vel daretur ab ipsa sine alio: vel 
+      <lb ed="#P" n="72"/>quod ipsa non esset praesens secundum alia esse. si ergo dat esse 
+      <lb ed="#P" n="73"/>corporeum dat esse sensitiuum et intellectiuum: et praesens 
+      <lb ed="#P" n="74"/>est secundum omnia ista esse. Et sic in triduo mortis sicut 
+      <lb ed="#P" n="75"/>fuit per se terminus conuersionis: ita fuit corpus vniens 
+      <lb ed="#P" n="76"/>et animal et homo: et ita christus in triduo non fuit mortuus 
+      <lb ed="#P" n="77"/>Et idem sequitur si solum distinguantur secundum rationem 
+      <lb ed="#P" n="78"/>isti gradus multofortius.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e577">
+      ¶ Secundo sic arguitur 
+      prin<lb ed="#P" n="79" break="no"/>cipaliter contra eos. si panis conuertitur in tale 
+      cor<lb ed="#P" n="80" break="no"/>pus constitutum sic ex materia et anima inquantum 
+      dat<lb ed="#P" n="81" break="no"/>esse corporeum. sequitur quod anima rationalis possit 
+      dare<lb ed="#P" n="82" break="no"/>esse corporeum: sed hoc est impossibile et falsum: quia 
+      <lb ed="#P" n="83"/>anima secundum suum esse totale est forma spiritualis 
+      sepa<lb ed="#P" n="84" break="no"/>rabilis non educta nec extendibilis siue per se siue per 
+      <lb ed="#P" n="85"/>accidens. omnis autem forma dans esse corpus partem est 
+      <lb ed="#P" n="86"/>corporalis educibilis et extensa per se vel per accidens 
+      <lb ed="#P" n="87"/>sicut dictum est in secundo ergo etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e599">
+      ¶ Tertio sic. 
+      pa<lb ed="#P" n="88" break="no"/>nis conuertitur sic in corpus quod totum in totum. 
+      mate<lb ed="#P" n="89" break="no"/>ria in materiam. et forma in formam: sicut patet. sed  
+      <lb ed="#P" n="90"/>secundum eos aliqua forma corporalis non potest 
+      conuer<lb ed="#P" n="91" break="no"/>ti in spiritualem. cum igitur forma panis sit corporalis. 
+      <lb ed="#P" n="92"/>et anima intellectiua secundum totum esse suum simplex sit 
+      for<lb ed="#P" n="93" break="no"/>ma spiritualis: forma panis non conuertitur in animam 
+      <lb ed="#P" n="94"/>ergo etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e617">
+      ¶ Quarto sic. vniformiter debet poni quod 
+      <lb ed="#P" n="95"/>est per se terminus conuersionis panis aliquid 
+      consti<lb ed="#P" n="96" break="no"/>tutum ex materia et aliqua forma substantiali: sicut 
+      <lb ed="#P" n="97"/>sanguis qui est per se terminus conuersionis vini: vt 
+      <lb ed="#P" n="98"/>videtur: sed planum est quod sanguis non est aliquid 
+      con<lb ed="#P" n="99" break="no"/>stitutum ex materia et anima: sed ex aliqua alia forma 
+      <lb ed="#P" n="100"/>substantiali: vt patet. siue sanguis contineatur in cor 
+      <lb ed="#P" n="101"/>pore siue effundatur. Non enim informatur ab anima 
+      <lb ed="#P" n="102"/>vt patet. igitur. Similiter corpus est aliquid 
+      con<lb ed="#P" n="103" break="no"/>stitutum per aliam formam quam per animam: precipue cum 
+      <lb ed="#P" n="104"/>in illo triduo in quo per se terminus fuisset habitus 
+      <lb ed="#P" n="105"/>non coniungeretur anima materie: nec corpus vel 
+      ca<lb ed="#P" n="106" break="no"/>ro esset materia pura plusquam sanguis: sed aliquid 
+      con<lb ed="#P" n="107" break="no"/>stitutum per consequens per aliquam formam 
+      substan<lb ed="#P" n="108" break="no"/>tialem aliam ab anima.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e650">
+      ¶ Sic igitur patet quod 
+      opi<lb ed="#P" n="109" break="no"/>nio praedicta est falsa. Ad motiuum suum cuius est 
+      <lb ed="#P" n="110"/>vis in hoc scilicet quod in homine non possunt poni plures 
+      <lb ed="#P" n="111"/>forme: patet quod nichil valet 
+      <lb ed="#P" n="112"/>opinionem de il 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e661">
+               <lb ed="#P" n="113"/>¶ Contra secundamio modo quanti  
+      <lb ed="#P" n="114"/>tatiuo que est ficta arguo primo sic quod modus ille 
+      <lb ed="#P" n="115"/>sit impossibilis. quia ille modus est derelictus a 
+      quam<lb ed="#P" n="116" break="no"/>titate sicut dicunt. sed impossibile est quod aquantitate 
+      <lb ed="#P" n="117"/>vel ab aliquo accidente derelinquatur aliquid 
+      con<lb ed="#P" n="118" break="no"/>substantiale subiecto. quia sicut subiectum prius est 
+      <lb ed="#P" n="119"/>accidente. ita et omni derelicto ex accidente. et sicut 
+      <lb ed="#P" n="120"/>omne accidens posterius est substantia subiecti et 
+      <lb ed="#P" n="121"/>quolibet consubstantiali: ita quodlibet derelictum 
+      ex<lb ed="#P" n="122" break="no"/>accidente est posterius quolibet consubstantiali 
+      ip<lb ed="#P" n="123" break="no"/>si subiecto. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e688">
+      ¶ Secundo sic. aut ille modus est 
+      <lb ed="#P" n="124"/>substantia: aut accidens. non potest dici accidens 
+      per<lb ed="#P" n="125" break="no"/>se. quia includitur in per se termino conuersionis. Si 
+      <lb ed="#P" n="126"/>militer etiam consubstantialis est materie. non sic 
+      ali<lb ed="#P" n="127" break="no"/>quod accidens. Non potest dici etiam substantia. quia vel est 
+      <lb ed="#P" n="128"/>materia vel forma vel compositum. non potest dici nouum 
+      <lb ed="#P" n="129"/>compositum substantiale patet. nec forma substantialis. quia 
+      <lb ed="#P" n="130"/>dicis quod nulla forma substantialis includitur in per se ter¬ 
+      <!--120.xml-->
+      <pb ed="#P" n="61-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>mino conuersionis. Similiter etiam quia tunc essent 
+      <lb ed="#P" n="2"/>plures forme substantiales in christo. Similiter etiam 
+      <lb ed="#P" n="3"/>quia non esset consubstantialis materie. quia nulla forma 
+      <lb ed="#P" n="4"/>substantialis est materie consubstantialis. nec 
+      mate<lb ed="#P" n="5" break="no"/>ria potest dici. quia non noua et alia materia tunc enim 
+      <lb ed="#P" n="6"/>quantitas crearet materiam derelinquendo ipsam. 
+      <lb ed="#P" n="7"/>nec precedens materiam in ratione subiecti: sicut proba 
+      <lb ed="#P" n="8"/>tum est supra. Similiter etiam si est ipsa materia: 
+      <lb ed="#P" n="9"/>ita fit conuersio tantum in materiam puram: quando 
+      <lb ed="#P" n="10"/>fit in modum illum: sicut sine modo illo: vel 
+      multipli<lb ed="#P" n="11" break="no"/>cantur verba sine fructu. Si dicas quod nec sit 
+      mate<lb ed="#P" n="12" break="no"/>ria nec forma: nec compositum: nec accidens. sequitur 
+      <lb ed="#P" n="13"/>quod est nihil.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e740">
+      ¶ Tertio sic. Sicut alie forme nihil de 
+      <lb ed="#P" n="14"/>relinquunt aliud a se in suis materiis: ita nec 
+      quan<lb ed="#P" n="15" break="no"/>titas vt videtur. sed alie non derelinquunt aliquid 
+      <lb ed="#P" n="16"/>tale: puta albedo modum quantitatiuum et huiusmodi. ergo 
+      <lb ed="#P" n="17"/>etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e751">
+      ¶ Quarto sic quero a te an ille modus sit forma 
+      <lb ed="#P" n="18"/>liter extensio ipsa habens partem extra partem: vel non 
+      <lb ed="#P" n="19"/>si non / tunc per ipsum nihil extenditur: nec habet pertem 
+      <lb ed="#P" n="20"/>extra partem: et ita non materia. si sic: sequitur quod est ad 
+      <lb ed="#P" n="21"/>cidens: et non nisi quantitas. igitur quantitas derelino 
+      <lb ed="#P" n="22"/>tur a quantitate in infinitum. Simliter etiam 
+      sequi<lb ed="#P" n="23" break="no"/>tur quod non includitur in per se termino conuersionis 
+      <lb ed="#P" n="24"/>contra te.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e769">
+      ¶ Quinto sic. Aut illud corpus quod 
+      po<lb ed="#P" n="25" break="no"/>nis per se terminum conuersionis est corpus 
+      mathema<lb ed="#P" n="26" break="no"/>ticum: aut naturale. si mathematicum: includit 
+      quan<lb ed="#P" n="27" break="no"/>tiiatem contra te. si naturale: includit aliquam formam 
+      <lb ed="#P" n="28"/>naturalem. Aut ergo substantialem: et cum illa non sit 
+      <lb ed="#P" n="29"/>anima: oportet quod sit alia forma substantialis. et habemus 
+      <lb ed="#P" n="30"/>propositum contra te. aut acccidentalem quod est contra 
+      <lb ed="#P" n="31"/>te. quia nullum accidens includitur in per se termino 
+      <lb ed="#P" n="32"/>conuersionis. Tunc enim esset transaccidentatio. et hoc 
+      <lb ed="#P" n="33"/>etiam tu ponis.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e791">
+      ¶ Sexto sic. Non minus sunt effi 
+      <lb ed="#P" n="34"/>cacia verba super corpus: quam super sanguinem. sed per 
+      <lb ed="#P" n="35"/>se terminus conuersionis vini est sanguis compositum 
+      <lb ed="#P" n="36"/>ex materia et forma substantiali. Nec habet ibi 
+      lo<lb ed="#P" n="37" break="no"/>cum nec apparentiam fictio talis modi: per quam 
+      ma<lb ed="#P" n="38" break="no"/>teria dicatur sanguis. igitur etiam sic de corpore. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e804">
+               <lb ed="#P" n="39"/>¶ Septimo sic. quando dicit christus: hoc est corpus. 
+      pla<lb ed="#P" n="40" break="no"/>num est quod corpus quod ponitur ibi: significat veram 
+      <lb ed="#P" n="41"/>carnem christi: sicut dicit ipse christus. Caro mea vere est 
+      <lb ed="#P" n="42"/>cibus: et sanguis meus vere est potus. Et de isto 
+      sa<lb ed="#P" n="43" break="no"/>cramento dicit Io. vi. Nisi manducaueritis 
+      carne<lb ed="#P" n="44" break="no"/>etc. sed fictio est dicere quod aliquid sit caro per vnum 
+      ta<lb ed="#P" n="45" break="no"/>lem modum quantitatiuum vt patet. sed ortet dicere quod per 
+      <lb ed="#P" n="46"/>aliquam veram formam. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e825">
+      ¶ Contra illum modum 
+      <lb ed="#P" n="47"/>etiam arguitur. quia si per ipsum ore materiam disponi et 
+      ex<lb ed="#P" n="48" break="no"/>tendi vel habere partem extra partem: sequitur quod 
+      <lb ed="#P" n="49"/>ille modus sit prior quantitate. et sic non derelinqui 
+      <lb ed="#P" n="50"/>tur ex quantitate.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e836">
+      ¶ Ulterius sequitur quod vt ille 
+      mo<lb ed="#P" n="51" break="no"/>dus est quantitas vel aliquid: puta materia 
+      extensa<lb ed="#P" n="52" break="no"/>seu habens partem extra partem: et non per quantitatem quod est 
+      <lb ed="#P" n="53"/>contradictio. Sicut quod aliquid sit album non per 
+      al<lb ed="#P" n="54" break="no"/>bedinem.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e847">
+      ¶ Ulterius quod oportet omne subiectum 
+      <lb ed="#P" n="55"/>pari ratione disponi per vnum talem modum ad quam 
+      <lb ed="#P" n="56"/>libet formam. vlterius quod duo corpora sunt in eodem 
+      <lb ed="#P" n="57"/>loco naturaliter. scilicet quantitas et ille modus vltra 
+      <lb ed="#P" n="58"/>quod ille modus distinguitur ex natura rei a materia 
+      <lb ed="#P" n="59"/>et tamen non estentialiter. et ita ponuntur 
+      formalita<lb ed="#P" n="60" break="no"/>tes contra illos qui deffendunt istum modum. Et 
+      <lb ed="#P" n="61"/>breuiter totum fictum hoc est contra illum modum. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e865">
+               <lb ed="#P" n="62"/>¶ Preterea etiam quero de materia sub illo modo 
+      <lb ed="#P" n="63"/>aut habet partem sub parte modi: aut non. si sic: pari 
+      <lb ed="#P" n="64"/>ratione sine illo modo sub quantitate potest habere¬ 
+      <!--120.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>partem sub parte: vel oportet ipsam disponi per vnum 
+      <lb ed="#P" n="66"/>alium modum et sic in infinitum. sed est tota simul 
+      <lb ed="#P" n="67"/>sub qualibet parte modi: tunc habes difficultatem 
+      <lb ed="#P" n="68"/>contra te sicut de materia sub quantitate immediate. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e887">
+               <lb ed="#P" n="69"/>¶ Ulterius ad istum modum sequitur quod materia 
+      si<lb ed="#P" n="70" break="no"/>mul et semel per naturam possit esse quanta et 
+      habere<lb ed="#P" n="71" break="no"/>partem extra partem quod est idem semel per modum 
+      <lb ed="#P" n="72"/>illum: et alio semel per quantitatem inherentem. Si 
+      <lb ed="#P" n="73"/>dicas quod modus ille non habet partem extra partem 
+      <lb ed="#P" n="74"/>nec dat hoc materie. Tunc materia illa cum illo 
+      mo<lb ed="#P" n="75" break="no"/>do est indiuisibilis: sicut per seipsam vel secundum seipsam 
+      <lb ed="#P" n="76"/>Dimitto ergo illum modum. 
+      <lb ed="#P" n="77"/>opinionem arguitur 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e909">
+               <lb ed="#P" n="78"/>¶ Contra tertiani in secundo et 
+      inter<lb ed="#P" n="79" break="no"/>tio. et iam prius tactum est quod vera caro christi per se 
+      con<lb ed="#P" n="80" break="no"/>tinetur sub sacramento tanquam per se terminus 
+      con<lb ed="#P" n="81" break="no"/>uersionis: et fuisset ibi si quis consecrasset in triduo. 
+      <lb ed="#P" n="82"/>sed caro christi et vere eadem non dicit materiam tantum 
+      <lb ed="#P" n="83"/>cum quantitate eadem. Non enim materia cum 
+      quam<lb ed="#P" n="84" break="no"/>titate tantum est caro. quia quantitas non dat sibi esse 
+      <lb ed="#P" n="85"/>carnem. nec vnio ad diuinum suppositum dat sibi esse 
+      <lb ed="#P" n="86"/>carnem vel eandem carnem. quia tunc esse vnitum 
+      diui<lb ed="#P" n="87" break="no"/>mo supposito esset caro. et sic anima esset caro vel 
+      alian<lb ed="#P" n="88" break="no"/>carnem. sed per aliquam formam substantialem est 
+      ca<lb ed="#P" n="89" break="no"/>ro. et quia eadem caro oportet quod eadem forma 
+      ma<lb ed="#P" n="90" break="no"/>nente in christo viuo et mortuo et hoc non per animam 
+      <lb ed="#P" n="91"/>patet igitur per aliam que vere includitur in per se 
+      <lb ed="#P" n="92"/>termino conuersionis sicut patet. Nec valet quod 
+      illa<lb ed="#P" n="93" break="no"/>materia vnitur eidem supposito verbi: cui prius. quia 
+      <lb ed="#P" n="94"/>pari ratione ( sicut dixi alias ) si de materia corperis christi 
+      <lb ed="#P" n="95"/>generaretur asinus et assumeretur a verbo: caro 
+      as<lb ed="#P" n="96" break="no"/>ni posset dici caro christi: et eadem caro quod est mani 
+      <lb ed="#P" n="97"/>festum falsum. et contra reuerentiam sacramenti et 
+      ve<lb ed="#P" n="98" break="no"/>ritatem. quare etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e958">
+      ¶ Secundo sic. aut quantitas 
+      inclu<lb ed="#P" n="99" break="no"/>ditur per se et intrinsece in per se termino conuersionis 
+      <lb ed="#P" n="100"/>aut no. si sic: sequitur quod conuersio est in accidens. et 
+      <lb ed="#P" n="101"/>ita non est trassubstantiatio tantum: sed transaccidenta 
+      <lb ed="#P" n="102"/>tio contra omnes si non igitur in materia tantum est 
+      con<lb ed="#P" n="103" break="no"/>uersio. et sic non in corpus. quare etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e971">
+      ¶ Tertio sic. qui 
+      <lb ed="#P" n="104"/>planum est quod materia cum quantitate non potest dici 
+      <lb ed="#P" n="105"/>sanguis sed oportet quod hoc sit per aliquam veram 
+      for<lb ed="#P" n="106" break="no"/>mam substantialem. ergo cum caro vel corpus non 
+      <lb ed="#P" n="107"/>minus sit aliquid perfectum ens. quia et in carnem 
+      com<lb ed="#P" n="108" break="no"/>uertibilis est ipse sanguis secundum viam perfectionis et 
+      <lb ed="#P" n="109"/>tendendo ad perfectionem vt patet. corpus christi et 
+      <lb ed="#P" n="110"/>caro que oportet per se esse terminum huius 
+      couer<lb ed="#P" n="111" break="no"/>sionis: non dicunt tantum materiam: nec tantum 
+      mate<lb ed="#P" n="112" break="no"/>riam et quantitatem. immo nec caro includit 
+      quantita<lb ed="#P" n="113" break="no"/>tem. Est enim substantia non includens accidens: vt patet 
+      <lb ed="#P" n="114"/>oportet quod includat aliquam formam substantialem: 
+      <lb ed="#P" n="115"/>que maneat eadem in materia christo mortuo et 
+      viuo<lb ed="#P" n="116" break="no"/>Et non valet aliquid contra hoc vnio ad verbum 
+      <lb ed="#P" n="117"/>sicut dictum est supra. sicut nec vnio asini vel 
+      alte<lb ed="#P" n="118" break="no"/>rius hominis ad verbum. quare etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1006">
+      ¶ Quarto sio 
+      <lb ed="#P" n="119"/>sicut materia non est substantia per quantitatem: ita 
+      <lb ed="#P" n="120"/>nec corpus pertinens ad genus substantie. nec sicut 
+      <lb ed="#P" n="121"/>totum nec sicut pars per quantitatem. patet. Nec 
+      per<lb ed="#P" n="122" break="no"/>vnionem ad aliquid extrinsecum. nec per aliquod ad 
+      <lb ed="#P" n="123"/>cidens. sed materia non est corpus pars per seipsam. 
+      <lb ed="#P" n="124"/>tunc enim esset caro per seipsam: et os christi: et sic des 
+      <lb ed="#P" n="125"/>aliis. quod est omnio falsum. oportet igitur ponere 
+      neces<lb ed="#P" n="126" break="no"/>sario quod terminus huius conuerfionis non solum 
+      inclu<lb ed="#P" n="127" break="no"/>dat vel dicat materiam: sed aliquam formam 
+      sub<lb ed="#P" n="128" break="no"/>stantialem. non animam. ergo aliam. Et dico quod ista 
+      <!--121.xml-->
+      <pb ed="#P" n="62-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>opinio tertia est simpliciter falsa. Et motiuum eius. 
+      <lb ed="#P" n="2"/>patet quod est nullum euacuatum. 
+      <lb ed="#P" n="3"/>TTopinionem etiam po¬ 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1043">
+               <lb ed="#P" n="4"/>¶ Contra quat ta test argui scilie quod 
+      <lb ed="#P" n="5"/>corpus vt hic non est terminus conuersionis per se 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1050">
+               <lb ed="#P" n="6"/>¶ Primo sic. per se terminus conuersionis non est 
+      <lb ed="#P" n="7"/>aliquod accidens. quia ista conuersio est 
+      transsubstantiatio<lb ed="#P" n="8" break="no"/>sed esse hic dicit presentiam corporis christi ad 
+      specien<lb ed="#P" n="9" break="no"/>sacramentalem et illa praesentia accidens est: sicut dictum / 
+      <lb ed="#P" n="10"/>est supra. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1063">
+      ¶ Secundo sic. Si corpus christi vt 
+      <lb ed="#P" n="11"/>hic pns esset per se terminus: sequeretur quod ex vi 
+      con<lb ed="#P" n="12" break="no"/>uersionis corpus christi esset hic praesens. sed hoc est falsum 
+      <lb ed="#P" n="13"/>sicut ostensum est supra. ergo etc. Item ista 
+      conuer<lb ed="#P" n="14" break="no"/>imo est per se vna. et per consequens habet terminum per 
+      <lb ed="#P" n="15"/>se vnum. sed corpus christi vt hic paesens non dicit aliquid 
+      <lb ed="#P" n="16"/>vnum per se. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1080">
+      ¶ Ultimo quia corpus christi 
+      pos<lb ed="#P" n="17" break="no"/>set esse hic praesens: dato quod non conuerteretur panis. 
+      <lb ed="#P" n="18"/>Sed de ista ratione parum curo.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1087">
+      ¶ Ad motiuum 
+      <lb ed="#P" n="19"/>vero huius opinionis superius est solutum quod non ortet 
+      <lb ed="#P" n="20"/>noue conuersionis esse terminum nouum: sed in hoc 
+      <lb ed="#P" n="21"/>differt conuersio ab actionibus vel quasi 
+      mutationi<lb ed="#P" n="22" break="no"/>bus productiuis: quod per se terminus eius potest 
+      preexi<lb ed="#P" n="23" break="no"/>stere. nec ipsa noua est necessario quantum ad illud  
+      <lb ed="#P" n="24"/>quod dicitur quando dicitur aliquid de nouo conuerti: 
+      <lb ed="#P" n="25"/>licet bene sit noua quantum ad illud quod comnotat pro 
+      <lb ed="#P" n="26"/>illo instanti scilicet pro desitione essendi termini 
+      con<lb ed="#P" n="27" break="no"/>uersi. Hec de secundo articulo. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1109">
+               <lb ed="#P" n="28"/>¶ Quantum ad tertium 
+      ar<lb ed="#P" n="29" break="no"/>ticulum igitur questionis dico primo sicut dixi 
+      im<lb ed="#P" n="30" break="no"/>secundo: quod corpus christi pars humanitatis eius 
+      distin<lb ed="#P" n="31" break="no"/>cta contra animam includit materiam et formam: et 
+      di<lb ed="#P" n="32" break="no"/>cit totum compositum ex materia et forma 
+      substan<lb ed="#P" n="33" break="no"/>tiali mixtionis: qua est aliquid formaliter caro etos 
+      <lb ed="#P" n="34"/>Et illud totum est immediatum perfectibile ab anima: 
+      <lb ed="#P" n="35"/>ita quod ex ipso corpore et anima constituitur tota 
+      huma<lb ed="#P" n="36" break="no"/>nitas vel totus homo vnus per se. Et sic in homine 
+      <lb ed="#P" n="37"/>quolibet sunt plures forme substantiales saltem due 
+      <lb ed="#P" n="38"/>immo etiam in quolibet viuo: Et ista probaui in 
+      secun<lb ed="#P" n="39" break="no"/>do et per rationes: et per Aristotelem: et per fidem 
+      <lb ed="#P" n="40"/>et auctoritates sanctorum.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1140">
+      ¶ Secundo dico quod anima 
+      <lb ed="#P" n="41"/>separata in morte christi et in illo triduo remansit idem 
+      <lb ed="#P" n="42"/>corpus suum compositum ex materia et illa forma 
+      <lb ed="#P" n="43"/>mixtionis: sicut et manet in quolibet homine idem 
+      <lb ed="#P" n="44"/>corpus verum numero: et eadem vera caro: et os que 
+      <lb ed="#P" n="45"/>prius. Sicut probaui de christo in secundo et in tertio scilice 
+      <lb ed="#P" n="46"/>quod corpus christi et vera caro sua fuit idem viuum et 
+      mor<lb ed="#P" n="47" break="no"/>tuum: caro viua et mortua in sepulchro per eandem 
+      <lb ed="#P" n="48"/>formam substantialem per quam et prius cum esset 
+      <lb ed="#P" n="49"/>viua per plures auctoritates.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1162">
+      ¶ Tertio dico quod si in 
+      <lb ed="#P" n="50"/>triduo fuisset eucharistia consecrata: ibi fuisset 
+      sub<lb ed="#P" n="51" break="no"/>specie sacramentali per se terminus conuersionis: 
+      <lb ed="#P" n="52"/>licet non ex vi conuersionis. Et verum corpus christi: 
+      <lb ed="#P" n="53"/>ecundum illud verbum christi: hoc est corpus meum. Et 
+      simi<lb ed="#P" n="54" break="no"/>liter sub specie vini verus sanguis christi. et tamen non 
+      <lb ed="#P" n="55"/>fuisset anima. quia erat separata a corpore. et non fuisset 
+      <lb ed="#P" n="56"/>ibi vera caro christi: nec verum corpus christi: nisi per ali 
+      <lb ed="#P" n="57"/>quam formam substantialem: sicut etiam de 
+      sangu<lb ed="#P" n="58" break="no"/>ne. nec eadem: nisi per eandem formam que prius et 
+      <lb ed="#P" n="59"/>nihil aliud fuisset ibi per se: nec accidens nec 
+      huiusmodi<lb ed="#P" n="60" break="no"/>sed per coucomitantiam. Sicut vsque hocie 
+      tenue<lb ed="#P" n="61" break="no"/>runt omnes doctores. Et ideo concludo quod per se 
+      <lb ed="#P" n="62"/>terminus conuersionis panis huius et precisus est 
+      sul<lb ed="#P" n="63" break="no"/>stantia corporis christi et conuersionis vini est sanguis 
+      <lb ed="#P" n="64"/>christi substantia sanguinis eius. Et corpus illud di¬ 
+      <!--121.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>cit per se compositum ex materia et forma 
+      mixtio<lb ed="#P" n="66" break="no"/>uis. Quod autem substantia corporis christi sit per se 
+      ter<lb ed="#P" n="67" break="no"/>minus talis conuersionis: patet satis ex predictis. quia 
+      <lb ed="#P" n="68"/>non potest esse aliquid aliud: nec aliquid aliud in ipso 
+      <lb ed="#P" n="69"/>includi. Per se enim terminus aut esset compositum 
+      <lb ed="#P" n="70"/>ex anima et corpore: quod est superius improbatumm: 
+      <lb ed="#P" n="71"/>aut anima tantum: quod est falsum. aut materia cum 
+      <lb ed="#P" n="72"/>illo modo siue cum aliquo accidente: siue forma 
+      ali<lb ed="#P" n="73" break="no"/>qua substantiali: vel cum aliqua noua forma substantia 
+      <lb ed="#P" n="74"/>li non pertinente ad christum quod est etiam improbatum 
+      to<lb ed="#P" n="75" break="no"/>tum. aut corpus christi vt hic quod est improbatum. 
+      <lb ed="#P" n="76"/>Et ita relinquitur quod solum corpus christi sic 
+      composi<lb ed="#P" n="77" break="no"/>tum ex materia et forma mixti pertinente intrinsece 
+      <lb ed="#P" n="78"/>ad christum: et alia ab anima sit per se precisus terminus 
+      ta<lb ed="#P" n="79" break="no"/>lis conuersionis panis sicut sanguis conuersionis vi 
+      <lb ed="#P" n="80"/>ni. hec de tertio articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1236">
+               <lb ed="#P" n="81"/>¶ Ad primum principale 
+      ar<lb ed="#P" n="82" break="no"/>gumentum dico quod non oportet noue conuersionis esse 
+      no<lb ed="#P" n="83" break="no"/>uum terminum: sicut apparet ex pdictis. Quando 
+      <lb ed="#P" n="84"/>dicis quod est transitus a contradictorio in contradicto 
+      <lb ed="#P" n="85"/>rium. dico quod per se non est verum: sed a positiuo in 
+      po<lb ed="#P" n="86" break="no"/>sitiuum vel etiam illud positiuum quod est terminus 
+      <lb ed="#P" n="87"/>ad quem: non oportet esse nouum. verum est tamen 
+      <lb ed="#P" n="88"/>quod oportet quod terminus a quo desinat esse de nouo: 
+      <lb ed="#P" n="89"/>sicut dictum est supra.
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1259">
+      ¶ Ad secundum dico quod cor 
+      <lb ed="#P" n="90"/>pus christi quod est terminus conuersionis vnius 
+      inclu<lb ed="#P" n="91" break="no"/>dit materiam et formam. que non est anima: sed 
+      alian<lb ed="#P" n="92" break="no"/>formam mixtionis sicut dictum est supra. et eandem 
+      <lb ed="#P" n="93"/>existentem simul cum anima in christo viuo vel 
+      vi<lb ed="#P" n="94" break="no"/>uente. Et dico quod in quolibet homine sunt plures 
+      <lb ed="#P" n="95"/>forme. Quando dicis: vnius rei vnicum est esse. dixi quod 
+      <lb ed="#P" n="96"/>verum est quod si est vna res per se vnum est esse eius per 
+      <lb ed="#P" n="97"/>se. Sed dico vltra sicut dixi in secundo: quod plures 
+      for<lb ed="#P" n="98" break="no"/>me possunt concurrere ad vnum esse per se: nec est 
+      ali<lb ed="#P" n="99" break="no"/>quod inconueniens de pluribus formis ordinatis: 
+      <lb ed="#P" n="100"/>quarum vna non est specifica: sed potest 
+      constitue<lb ed="#P" n="101" break="no"/>re vnum subiectum receptiuum alterius forme 
+      com<lb ed="#P" n="102" break="no"/>plete et per se in potentia ad ipsam que est specifica. 
+      </p>
+            <p xml:id="qrdBas-f34458-d1e1290">
+               <lb ed="#P" n="103"/>¶ Ad tertium dico quod non oportet quod terminus ad  
+      <lb ed="#P" n="104"/>uem accipiat nouum esse sicut dictum est in 
+      proba<lb ed="#P" n="105" break="no"/>tione ad primum argumentum quae debuit poni ad istud  
+      <lb ed="#P" n="106"/>et tunc dico quod etiam sicut tangebatur ibi: conuersio non 
+      <lb ed="#P" n="107"/>est propria mutatio. nec est transitus a contradictorio 
+      <lb ed="#P" n="108"/>in contradictorium: sed a positiuo in positiuum. ideo etc.
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

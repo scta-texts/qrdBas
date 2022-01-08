@@ -1,0 +1,942 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 3</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 3</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="151-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f93799"><!--l4d49q3 -->
+            <head xml:id="qrdBas-f93799-Hd1e99">Quaestio 3</head>
+            <p xml:id="qrdBas-f93799-d1e101">
+               <lb ed="#P" n="9"/>¶ Distinctionis. xlix. 
+      <lb ed="#P" n="10"/>Questio Tertia
+    </p>
+            <p xml:id="qrdBas-f93799-d1e108">
+               <lb ed="#P" n="11"/>Tertio quero. In 
+      <lb ed="#P" n="12"/>cuius potentie actu principa 
+      <lb ed="#P" n="13"/>lius consistat beatitudo.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e117">
+      ¶ 
+      Ui<lb ed="#P" n="14" break="no"/>detur quod in actu intellectus. 
+      <lb ed="#P" n="15"/>Primo sic. Intellectus est 
+      no<lb ed="#P" n="16" break="no"/>bilior potentia quam voluntas. quia 
+      <lb ed="#P" n="17"/>voluntas est finaliter propter 
+      <lb ed="#P" n="18"/>ipsum: sicut appetitus 
+      sensiti<lb ed="#P" n="19" break="no"/>uus propter sensum secundum commentatorem. sed in actu 
+      <lb ed="#P" n="20"/>nobilioris principalius consistit beatitudo: ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e135">
+               <lb ed="#P" n="21"/>¶ Secundo sic. In actu illius potentie consistit 
+      prin<lb ed="#P" n="22" break="no"/>cipalius beatitudo: que immediatius vnitur 
+      obie<lb ed="#P" n="23" break="no"/>cto beatifico: patet: sed intellectus vnitur immediatius ol 
+      <lb ed="#P" n="24"/>iecto beatifico: nec voluntas vnitur nisi mediante 
+      in<lb ed="#P" n="25" break="no"/>tellectu: ergo etc.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e149">
+      ¶ Tertio sic. In actu illius potentio 
+      <lb ed="#P" n="26"/>principalius consistit beatitudo per quam principa. 
+      <lb ed="#P" n="27"/>lius distinguitur creatura beatiticabilis a brutis 
+      <lb ed="#P" n="28"/>sed hoc est per intellectum non per voluntatem: que est 
+      <lb ed="#P" n="29"/>quidam appetitus. Appetitus autem inuenitur in 
+      <lb ed="#P" n="30"/>brutis: non sic intellectus: ergo etc. 
+      <lb ed="#P" n="31"/>Augusti. describit beatitudinem 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e165">
+               <lb ed="#P" n="32"/>¶ Contra per actum voluntatis. xiii de 
+      tre<lb ed="#P" n="33" break="no"/>ni. beatus est qui habet quicquid vult. ergo in actu 
+      vo<lb ed="#P" n="34" break="no"/>luntatis videtur consistere principalius 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e174">
+               <lb ed="#P" n="35"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e179">
+               <lb ed="#P" n="36"/>¶ Primo inquiram vtrum voluntas sit nooilior 
+      po<lb ed="#P" n="37" break="no"/>tentia quam intellectus vel econuerso.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e186">
+      ¶ Secundo 
+      inqu<lb ed="#P" n="38" break="no"/>ram in actu cuius potentie principalius consistit 
+      bea<lb ed="#P" n="39" break="no"/>titudo.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e193">
+      ¶ Tertio dato quod in aliquo actu voluntatis 
+      <lb ed="#P" n="40"/>inquiram quis sit ille actus.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e199">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e201">
+               <lb ed="#P" n="41"/>¶ Quantum ad primum 
+      ar<lb ed="#P" n="42" break="no"/>ticulum supposito quod iste potentie in creatura de qua 
+      <lb ed="#P" n="43"/>est sermo: distinguatur ex natura rei preter opus 
+      in<lb ed="#P" n="44" break="no"/>tellectus: et sint alterius rationis sunt due opiniones 
+      <lb ed="#P" n="45"/>immo tres in genere. Prima est quod neutra est 
+      simpli<lb ed="#P" n="46" break="no"/>citeri nobilior alia: sed ambe sunt equales in 
+      nobili<lb ed="#P" n="47" break="no"/>tate et perfectione et pari passu currunt.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e219">
+      ¶ Ad hoc 
+      ad<lb ed="#P" n="48" break="no"/>ducuntur alique rationes. prima est. illa quorum quod 
+      <lb ed="#P" n="49"/>licet ex suo conceptu quidditatiuo dicit perfectionem 
+      <lb ed="#P" n="50"/>simpliciter sunt equalia in perfectione et nobilitate 
+      <lb ed="#P" n="51"/>probatur ista et ratione et exemplo. Ratione sic. quia 
+      <lb ed="#P" n="52"/>cuilibet tali quantum est ex suo conceptu quidditatiuo 
+      <lb ed="#P" n="53"/>absolute et in communi accepto potest conuenire 
+      infi<lb ed="#P" n="54" break="no"/>nitas perfectionis: nec ei repugnat infinitas. 
+      Infini<lb ed="#P" n="55" break="no"/>to autem in perfectione nichil est vel esse potest 
+      ma<lb ed="#P" n="56" break="no"/>ius vel perfectius. et ideo ab aliquo excedi non 
+      po<lb ed="#P" n="57" break="no"/>test. Exemplo patet. dicimus quod omnia quecumque dicunt 
+      <lb ed="#P" n="58"/>in deo perfectionem simpliciter sunt equalia vel 
+      equa<lb ed="#P" n="59" break="no"/>lis perfectionis: sicut essentia iusticia sapientia et sic 
+      <lb ed="#P" n="60"/>de aliis: vnde et non est ibi aliquid maius alio: 
+      immo<lb ed="#P" n="61" break="no"/>vnum eorum tantum est in perfect ione intensiue loquen¬ 
+      <!--301.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="62"/>do: quantum omnia alia: sed intellectus et voluntas 
+      ex<lb ed="#P" n="63" break="no"/>uis conceptibus quidditatiuis dicunt perfectiones 
+      sim<lb ed="#P" n="64" break="no"/>pliciter. Nam vtrumque eorum melius est in quolibet 
+      ip<lb ed="#P" n="65" break="no"/>sum quam non ipsum vel quam incompossibile sibi. tale autem 
+      <lb ed="#P" n="66"/>dicit perfectionem simpliciter secundum Anselmum 
+      monolo<lb ed="#P" n="67" break="no"/>gion. xv. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e269">
+      ¶ Secunda ratio est ista. illa quae 
+      vni<lb ed="#P" n="68" break="no"/>uoce reperiuntur in deo et in creatura: et in deo 
+      neu<lb ed="#P" n="69" break="no"/>trum est simpliciter perfectius alio vel nobilius: nec 
+      <lb ed="#P" n="70"/>etiam similiter in creatura. Alioquin enim vniuoce non 
+      <lb ed="#P" n="71"/>inuenirentur hic et ibi. Nam ex quo ratio est eadem 
+      <lb ed="#P" n="72"/>hic et ibi: sicut ibi vna non est perfectio ita nec hic: sed  
+      <lb ed="#P" n="73"/>intellectus et voluntas vniuoce inueniuntur in 
+      crea<lb ed="#P" n="74" break="no"/>tura et in deo sicut ad praesens supponitur et potest 
+      pro<lb ed="#P" n="75" break="no"/>bari sicut de ente quod sit vniuocum: et in deo vna non est 
+      <lb ed="#P" n="76"/>nobilior altera: patet. quia quelibet infinita forma 
+      <lb ed="#P" n="77"/>liter. Similiter et producta earum scilicet verbum et 
+      spiritus<lb ed="#P" n="78" break="no"/>santus sunt eque nobilis perfectionis. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e295">
+      ¶ 
+      Ter<lb ed="#P" n="79" break="no"/>tia ratio. Illa que sunt eidem substantie rei simplicis 
+      <lb ed="#P" n="80"/>consubstantialia: licet sint alterius rationis non se 
+      ha<lb ed="#P" n="81" break="no"/>bent adinuicem sicut simpliciter nobilius et innobilius 
+      <lb ed="#P" n="82"/>sicut nec eadem substantia simplex est simpliciter 
+      no<lb ed="#P" n="83" break="no"/>bilior et innobilior seipsa. patet etiam de 
+      relationi<lb ed="#P" n="84" break="no"/>bus diuinis adinuicem realiter distinctis et 
+      consubstan<lb ed="#P" n="85" break="no"/>tialibus essentie: sed intellectus et voluntas 
+      creatu<lb ed="#P" n="86" break="no"/>re sunt consubstantialiter eedem cum substantia 
+      sim<lb ed="#P" n="87" break="no"/>plici et intellectuali vel rationali ipsius creature secundum 
+      <lb ed="#P" n="88"/>illos qui non ponunt quod sint accidentia: et secundum eos qui 
+      <lb ed="#P" n="89"/>ponunt quod sint accidentia saltem equaliter et equali 
+      ne<lb ed="#P" n="90" break="no"/>cessitate conueniunt ipsi substantie: ergo etc.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e324">
+      ¶ Quarta 
+      <lb ed="#P" n="91"/>ratio. nobilitas potentie maior vel minor videtur 
+      acci<lb ed="#P" n="92" break="no"/>pi vel ex fundamento seu subiecto vel ex obiecto. 
+      <lb ed="#P" n="93"/>Non primo ex actu: quia nobilitas actus maior vel 
+      <lb ed="#P" n="94"/>minor accipitur ex obiecto: obiecta enim priora sunt 
+      <lb ed="#P" n="95"/>actibus et potentiis: sed idem est obiectum per omnia 
+      im<lb ed="#P" n="96" break="no"/>tellectus et voluntatis: quia quicquid per se cadit 
+      sub<lb ed="#P" n="97" break="no"/>actu vnius potest per se cadere sub actu alterius. Et 
+      <lb ed="#P" n="98"/>quicquid intellectus potest intelligere voluntas potest 
+      <lb ed="#P" n="99"/>velle vel nolle et econuerso. Et voluntas etiam potest 
+      <lb ed="#P" n="100"/>tenere intellectum in consideratione cuiuscumque 
+      ratio<lb ed="#P" n="101" break="no"/>nis in obiecto: et per consequens velle considerare 
+      ta<lb ed="#P" n="102" break="no"/>lem rationem. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e354">
+      ¶ Ultimo confirmatur ista 
+      positio<lb ed="#P" n="103" break="no"/>quia in imaginato scilicet in deo cuius creatura 
+      intel<lb ed="#P" n="104" break="no"/>lectualis secundum istas potentias est imago: nulla est 
+      sim<lb ed="#P" n="105" break="no"/>pliciter perfectior alia. ergo nec in imagine. quare etc. 
+      <lb ed="#P" n="106"/>hec est prima opinio huius articuli. 
+      <lb ed="#P" n="107"/>est communior quod/ 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e367">
+               <lb ed="#P" n="108"/>¶ Secunda opinio intellectus 
+      sin<lb ed="#P" n="109" break="no"/>pliciter et absolute loquendo est nobilior quam voluntas 
+      <lb ed="#P" n="110"/>licet secundum quid voluntas respectu alicuius obiecti 
+      pos<lb ed="#P" n="111" break="no"/>sit dici nobilior.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e378">
+      ¶ Quod autem intellectus sit 
+      simplici<lb ed="#P" n="112" break="no"/>ter et absolute loquendo nobilior probatur 
+      multipli<lb ed="#P" n="113" break="no"/>citer. Primo sic ex parte obiectorum. potentia cuius 
+      <lb ed="#P" n="114"/>obiectum est simplicius abstractius et 
+      immateria<lb ed="#P" n="115" break="no"/>lius et per consequens nobilius est simpliciter nobilior 
+      <lb ed="#P" n="116"/>sed obiectum intellectus est huiusmodi. probatio. 
+      di<lb ed="#P" n="117" break="no"/>cit vnus doctor: quia obiectum intellectus est ratio bo 
+      <lb ed="#P" n="118"/>ni appetibilis: sed o biectum voluntatis est ipsum 
+      bo<lb ed="#P" n="119" break="no"/>num appetibile: cuius est illa ratio. Ratio autem 
+      rei<lb ed="#P" n="120" break="no"/>abstractior est et simplicior quam res ipsa et habens 
+      ra<lb ed="#P" n="121" break="no"/>tionem: sicut humanitas vel ratio hominis quam homo 
+      <lb ed="#P" n="122"/>Aliter probatur minor. quia obiectum intellectus est 
+      <lb ed="#P" n="123"/>verum. obiectum voluntatis est bonum: sed verum 
+      simpli<lb ed="#P" n="124" break="no"/>cius est et communius vel abstractius et prius quam 
+      bo<lb ed="#P" n="125" break="no"/>num. quia verum secundum rationem suam est propinquius 
+      en<lb ed="#P" n="126" break="no"/>ti. ergo etc. Aliter probatur illa minor: quia secundum aliquos 
+      <!--302.xml-->
+      <pb ed="#P" n="152-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ens est obiectum intellectus. sicut etiam dicit 
+      Auicen<lb ed="#P" n="2" break="no"/>na. bonum vero est obiectum voluntatis. Ens autem 
+      <lb ed="#P" n="3"/>pueniens et abstractius quam bonum et simplicius: quia 
+      <lb ed="#P" n="4"/>ponum se habet per additionem ad ens: ergo etc.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e428">
+      ¶ 
+      Secun<lb ed="#P" n="5" break="no"/>do arguitur ex parte habituum: potentia est nobilior: 
+      <lb ed="#P" n="6"/>cuius habitus perfectiuus est simpliciter nobilior: sed 
+      <lb ed="#P" n="7"/>habitus intellectus est huiusmodi puta sapientia: quae 
+      <lb ed="#P" n="8"/>est nobilissimus habitus et nobilissima virtus 
+      sim<lb ed="#P" n="9" break="no"/>pliciter secundum Aristo. iiii. ethic. et. vi. et I metha. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e441">
+               <lb ed="#P" n="10"/>¶ Tertio sic. ex parte actus intellectus est 
+      simpli<lb ed="#P" n="11" break="no"/>citer nobilior quam actus voluntatis. Tum quia actus in 
+      <lb ed="#P" n="12"/>tellectus non dependet ex actu voluntatis sed 
+      econuer<lb ed="#P" n="13" break="no"/>so. Tum quia actus intellectus est regula et mensura 
+      <lb ed="#P" n="14"/>actus voluntatis in sua bonitate. Unde nec actus 
+      vo<lb ed="#P" n="15" break="no"/>luntatis bonus est moraliter: nisi sit conformis 
+      ratio<lb ed="#P" n="16" break="no"/>ni recte. et ratio mouet voluntatem: et dat sibi formam 
+      <lb ed="#P" n="17"/>tum quia actus intellectus est spiritualior: et respicit 
+      <lb ed="#P" n="18"/>obiectum sub maiori spiritualitate: quia inquantum 
+      obie<lb ed="#P" n="19" break="no"/>ctum est in ipso intellectu et ita immaterialiter quam 
+      vo<lb ed="#P" n="20" break="no"/>untatis actus quae respicit vt est in re extra et in seipso 
+      <lb ed="#P" n="21"/>Nam intelligere est motus rei ad animam. velle est 
+      mo<lb ed="#P" n="22" break="no"/>tus animae ad rem. vnde et voluntas per actum circa obiectum 
+      <lb ed="#P" n="23"/>malum inficitur. non autem intellectus sicut patet. Tum 
+      <lb ed="#P" n="24"/>quia diligibilior et eligibilior est actus intellectus si 
+      <lb ed="#P" n="25"/>ne actu voluntatis quam econuerso. Nam sine actu 
+      intelle<lb ed="#P" n="26" break="no"/>ctus desiderans manet cecus: et ita gaudere non 
+      po<lb ed="#P" n="27" break="no"/>test. vnde et voluntas est potentia ceca: sed intellectis 
+      <lb ed="#P" n="28"/>est videns. ergo intellectus est nobilior.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e485">
+      ¶ Quarto 
+      con<lb ed="#P" n="29" break="no"/>firmatur hoc auctoritatibus Arist. Prima est. x. 
+      ethi<lb ed="#P" n="30" break="no"/>corum: quod intellectus est optima potetia.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e493">
+      ¶ Secunda est 
+      <lb ed="#P" n="31"/>primo politice: quod intellectus principatur appetitui 
+      <lb ed="#P" n="32"/>tanquam sciens et rationem habens: et qua ratione 
+      appeti<lb ed="#P" n="33" break="no"/>tui sensitiuo pari ratione et appetitui intellectiuo: 
+      <lb ed="#P" n="34"/>qui est voluntas. quia voluntas est non sciens nec 
+      ratio<lb ed="#P" n="35" break="no"/>nem habens sicut et appetitus sensitiuus. Intellectus 
+      <lb ed="#P" n="36"/>igitur est simpliciter nobilior vt videtur.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e509">
+      ¶ Dicit tamen et 
+      <lb ed="#P" n="37"/>declarat vnus doctor: quod voluntas secundum quid potest 
+      exce<lb ed="#P" n="38" break="no"/>dere intellectum respectu alicuius obiecti particula 
+      <lb ed="#P" n="39"/>ris: puta respectu dei: quia enim tale obiectum secundum quod 
+      in<lb ed="#P" n="40" break="no"/>ipsum tendit voluntas scilicet secundum quod est res vera in seipso 
+      <lb ed="#P" n="41"/>nobilius est et nobiliori modo habet esse quam secundum quod 
+      in<lb ed="#P" n="42" break="no"/>ipsum tendit intellectus: scilicet secundum quod habet esse apud 
+      in<lb ed="#P" n="43" break="no"/>tellectum. deus enim in seipso est aliquid nobilius quam 
+      <lb ed="#P" n="44"/>intellectus: nec aliquid aliud vt habet esse in 
+      intel<lb ed="#P" n="45" break="no"/>iectu vel apud intellectum. ideo voluntas in hoc 
+      secun<lb ed="#P" n="46" break="no"/>dum quid excedit intellectum: et actus voluntatis 
+      no<lb ed="#P" n="47" break="no"/>bilior est circa deum quam actus intellectus. Unde me 
+      <lb ed="#P" n="48"/>lius est diligere deum quam cognoscere ipsum. 
+      Econuer<lb ed="#P" n="49" break="no"/>so autem est respectu obiectorum inferiorum et minus 
+      no<lb ed="#P" n="50" break="no"/>bilium quam anima ipsa: quia enim talia secundum esse quod habent in 
+      <lb ed="#P" n="51"/>anima: prout in ipsa tendit intellectus habent nobilius 
+      <lb ed="#P" n="52"/>esse quam in re et in seipsis: prout in ipsa tendit voluntas 
+      <lb ed="#P" n="53"/>hinc est quod intellectus excedit voluntatem: et actus 
+      in<lb ed="#P" n="54" break="no"/>tellecius est nobilior circa talia quam actus 
+      volunta<lb ed="#P" n="55" break="no"/>tis. vnde melius est et nobilius cognoscere ista 
+      in<lb ed="#P" n="56" break="no"/>feriora et corporalia vel temporalia quam diligere ipsa. 
+      <lb ed="#P" n="57"/>hec est secunda opinio huius articuli. 
+      <lb ed="#P" n="58"/>est quam intendo tene¬ 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e559">
+               <lb ed="#P" n="59"/>¶ Tertia opinio re que dstruit anbas 
+      <lb ed="#P" n="60"/>simul predictas: ponendo quod voluntas creature 
+      sim<lb ed="#P" n="61" break="no"/>pliciter et absolute loquendo est nobilior potentia quam 
+      <lb ed="#P" n="62"/>intellectus eiusdem creature supposito sicut et que 
+      <lb ed="#P" n="63"/>stio praesupponit: quod ab inuicem ex natura rei distinguam 
+      <lb ed="#P" n="64"/>tur et quod non sint totaliter idem preter opus intellect 
+      <lb ed="#P" n="65"/>et si ista positio est vera: sequitur quod prima opinio que 
+      <!--302.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>ponit quod neutra est simpliciter nobilior alia: et 
+      simili<lb ed="#P" n="67" break="no"/>ter secunda que ponit quod intellectus est simpliciter 
+      <lb ed="#P" n="68"/>nobilior: sint false.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e588">
+      ¶ Quod autem voluntas sit nobilior 
+      <lb ed="#P" n="69"/>simpliciter quam intellectus probo primo per rationes: 
+      <lb ed="#P" n="70"/>que videntur simpliciter concludere et per auctoritates  
+      <lb ed="#P" n="71"/>secundo per rationes ad hominem ex dictis aliorum. 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e597">
+               <lb ed="#P" n="72"/>¶ Prima ratio est ista ex parte actuum. quia ex 
+      pas<lb ed="#P" n="73" break="no"/>te obiectorum probari non potest. Nam sicut 
+      repu<lb ed="#P" n="74" break="no"/>to verum: idem est obiectum per omnia intellectus et 
+      volun<lb ed="#P" n="75" break="no"/>tatis et secundum eandem penitus rationem ex parte rei et 
+      ob<lb ed="#P" n="76" break="no"/>iecti. Alioquin em potentie iste non eent equalis 
+      am<lb ed="#P" n="77" break="no"/>bitus per se: nec caperent se mutuo in actibus suis. quod 
+      <lb ed="#P" n="78"/>est contra Augusti. ix. de trini. Arguo igitur ex parte 
+      <lb ed="#P" n="79"/>actus. illa potentia est nobilior cuius actus est 
+      sim<lb ed="#P" n="80" break="no"/>pliciter nobilior. Actus dico secundus: qui est opera 
+      <lb ed="#P" n="81"/>tio ad excludendum potentiam materie: cuius actus 
+      <lb ed="#P" n="82"/>cum sit substantia: est nobilior: et tamen non est nobilior 
+      <lb ed="#P" n="83"/>potentia materie quam voluntas sed actus voluntatis  
+      <lb ed="#P" n="84"/>est huiusmodi. ergo etc. minor probatur.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e628">
+      ¶ Tum quia actus 
+      <lb ed="#P" n="85"/>voluntatis seu voluntas per suum actu est prima 
+      re<lb ed="#P" n="86" break="no"/>gula et mensura agibilium et omnium actuum humanorum 
+      <lb ed="#P" n="87"/>deu creature rationalis et intellectualis. patet per 
+      <lb ed="#P" n="88"/>philosophum. vi. ethicorum in principio: vbi inquirens 
+      <lb ed="#P" n="89"/>principia humanorum actuum dicit: quod ista sunt duor 
+      <lb ed="#P" n="90"/>scilicet appetitus finis et intelligentia practica habens 
+      <lb ed="#P" n="91"/>conformitatem ad appetitum rectum: qui est appetitus 
+      <lb ed="#P" n="92"/>finis debiti. talis enim appetitus est principium 
+      pri<lb ed="#P" n="93" break="no"/>mum rationis practice: sicut dicitur. iii de anima. Nec 
+      an<lb ed="#P" n="94" break="no"/>te talem appetitum est aliquid de practico in ratione 
+      <lb ed="#P" n="95"/>vel in intellectu: sicut dictum fuit in questionibus super 
+      <lb ed="#P" n="96"/>primum in prologo in penultima questione: licet 
+      ap<lb ed="#P" n="97" break="no"/>petitum finis praecedat ostensio eius que non est 
+      practi<lb ed="#P" n="98" break="no"/>ca sed mere speculatiua: vt ibidem dicebaus.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e662">
+      ¶ Tum 
+      <lb ed="#P" n="99"/>quia voluntas per actum suum vel mediante actu suo 
+      <lb ed="#P" n="100"/>peterminat intellectum ad alteram partem 
+      contradi<lb ed="#P" n="101" break="no"/>ctionis seu ad alterum contrariorum: nec intellectus 
+      <lb ed="#P" n="102"/>seipsum determinare potest: cum agat naturaliter. et 
+      <lb ed="#P" n="103"/>qua ratione se determinaret ad vnum eadem ratione 
+      <lb ed="#P" n="104"/>ad oppositum: sicut Aristo. dicit ix. metha. et 
+      commen<lb ed="#P" n="105" break="no"/>tator suus dicit quod appetitus determinans qui est 
+      <lb ed="#P" n="106"/>idem quod voluntas: est vere dominus et liber. et per consequens 
+      im<lb ed="#P" n="107" break="no"/>tellectus determinatus per ipsum est vere seruus: et 
+      <lb ed="#P" n="108"/>innobilior simpliciter per consequens.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e686">
+      ¶ Tum quia 
+      vo<lb ed="#P" n="109" break="no"/>luntas per actum suum seu actus voluntatis perfectius 
+      <lb ed="#P" n="110"/>et intimius attingit obiectum beatificum quam actus 
+      in<lb ed="#P" n="111" break="no"/>tellectus: sicut patet per Hugonem super illud de 
+      an<lb ed="#P" n="112" break="no"/>gelica hierarchia: acutum et feruidum etc. dicentem 
+      <lb ed="#P" n="113"/>quod dilectio preeminet scientie et vbi scientia foris stat 
+      <lb ed="#P" n="114"/>affectus penetrat amantis: non quia aliquid diligatur 
+      <lb ed="#P" n="115"/>quod non cognoscatur: sed quia perfectius diligitur quam 
+      <lb ed="#P" n="116"/>cognoscatur.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e706">
+      ¶ Tum quia actus voluntatis in via et 
+      <lb ed="#P" n="117"/>n patria videtur esse per se suus actus intellectus quam 
+      <lb ed="#P" n="118"/>tum ad hoc quod ille est: et appetitur propter istum. 
+      bene<lb ed="#P" n="119" break="no"/>enim intelligere appetitur propter bene velle vel 
+      di<lb ed="#P" n="120" break="no"/>igere: sicut expresse determinat Anselmus 
+      mono<lb ed="#P" n="121" break="no"/>o8. vbi dicit loquendo de cognitione et dilectione 
+      <lb ed="#P" n="122"/>boni. homo factus est finaliter: vt diligat et amet 
+      <lb ed="#P" n="123"/>summum bonum quod est deus. Et similiter dicit 
+      <lb ed="#P" n="124"/>ecundo libro: cur deus homo ca. primo. Et similiter 
+      <lb ed="#P" n="125"/>videre deum propter diligere et frui ipso non 
+      econ<lb ed="#P" n="126" break="no"/>uerso. Tunc enim esset amor concupiscentie et 
+      mer<lb ed="#P" n="127" break="no"/>scemnarius et ordo peruersus secundum Bernardum: et secundum 
+      <lb ed="#P" n="128"/>Augustinum de concordia prescientie et liberi 
+      arbi<lb ed="#P" n="129" break="no"/>trii vbi dicit expresse: quod bene intelligere datur 
+      ho<lb ed="#P" n="130" break="no"/>mini propter bene velle. ita quod abutitur ipso bene in¬ 
+      <!--303.xml-->
+      <pb ed="#P" n="153-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>telligere: nisi bene velit: et spiritus sanctus nullum 
+      ta<lb ed="#P" n="2" break="no"/>lem iudicat habere rectum cor. dicit: quare etc.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e750">
+      ¶ Tum 
+      <lb ed="#P" n="3"/>quia oppositum actus optimi voluntatis est peius 
+      <lb ed="#P" n="4"/>quam oppositum actus intellectus. sicut odire deum quam 
+      <lb ed="#P" n="5"/>ignorare vel errare circa ipsum. Similiter etiam 
+      po<lb ed="#P" n="6" break="no"/>ius est non diligere habitis omnibus que ad 
+      dilectio<lb ed="#P" n="7" break="no"/>nem requiruntur quam non cognoscere habitis omnibus 
+      <lb ed="#P" n="8"/>que ad cognitionem requiruntur.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e766">
+      ¶ Tum quia 
+      respe<lb ed="#P" n="9" break="no"/>ctu optimi obiecti simpliciter quod est deus. actus 
+      vo<lb ed="#P" n="10" break="no"/>luntatis optimus qui est actus amicitie ad deum est 
+      <lb ed="#P" n="11"/>simpliciter nobilior et melior quam actus intellectus: 
+      <lb ed="#P" n="12"/>sicut etiam alii concedunt. Nobilitas autem alicuius 
+      <lb ed="#P" n="13"/>debet sumi: quando comparatur ad alia ex optimo sui 
+      <lb ed="#P" n="14"/>vnde et si optimus homo est nobilior equo optimo 
+      <lb ed="#P" n="15"/>et nobilior: sequitur quod homo simpliciter sit nobilior 
+      <lb ed="#P" n="16"/>equo. vnde et in hoc videntur alii contradicere 
+      dicen<lb ed="#P" n="17" break="no"/>do quod voluntas est simpliciter innobilior. et tamen 
+      <lb ed="#P" n="18"/>habet actum simpliciter innobiliorrem optimo actu 
+      <lb ed="#P" n="19"/>intellectus circa optimum obiectum simpliciter quod 
+      <lb ed="#P" n="20"/>est deus.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e795">
+      ¶ Tum quia talis actus amicitie ad deum 
+      <lb ed="#P" n="21"/>non potest esse malus: nec potest esse nisi rectus. qui 
+      <lb ed="#P" n="22"/>libet autem actus intellectus ad quem potest 
+      mouere<lb ed="#P" n="23" break="no"/>voluntas: potest esse non rectus et inordinatus ex 
+      pri<lb ed="#P" n="24" break="no"/>uersitate actus voluntatis: vt videtur. Est igitur minor 
+      <lb ed="#P" n="25"/>probata: quod actus voluntatis est simpliciter 
+      nobilior<lb ed="#P" n="26" break="no"/>et sequitur conclusio prime rationis quod voluntas est 
+      sim<lb ed="#P" n="27" break="no"/>pliciter nobilior.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e814">
+      ¶ Ex parte habituum potest hoc 
+      <lb ed="#P" n="28"/>probari. habitus enim charitatis qui perficit 
+      volun<lb ed="#P" n="29" break="no"/>tatem: et est idem quod gratia: sicut alias est probatum 
+      <lb ed="#P" n="30"/>est simpliciter nobilior quam habitus quicumque 
+      intelle<lb ed="#P" n="31" break="no"/>ctus: sicut patet per apostolum prime ad Corinth. 
+      <lb ed="#P" n="32"/>xiii. et per August. xy. de trini. vbi dicit quod inter 
+      ce<lb ed="#P" n="33" break="no"/>tera dona ipsa est donum dei excellentissimum: 
+      vtpote<lb ed="#P" n="34" break="no"/>distinguens inter filios regni et perditionis. vnde nec 
+      <lb ed="#P" n="35"/>habitus sapientie: nec habitus luminis et glorie nec 
+      <lb ed="#P" n="36"/>quicquid vis est ita nobilis habitus nec condignus 
+      <lb ed="#P" n="37"/>vite eterne sicut habitus charitatis: praecipue si habi 
+      <lb ed="#P" n="38"/>tus charitatis ex vi habitus et natura sua faciat com 
+      <lb ed="#P" n="39"/>dignum vita eterna: quod saltem concederent alii. Sed 
+      <lb ed="#P" n="40"/>illa potentia est nobilior: cuius supremus habitus per 
+      <lb ed="#P" n="41"/>fectiuus nobilior est et perfectior. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e847">
+      ¶ Additur 
+      vna<lb ed="#P" n="42" break="no"/>ratio ex parte potentie. et potest deduci de actu in 
+      pro<lb ed="#P" n="43" break="no"/>cessu nature ab imperfecto ad perfectum. Illud quod 
+      <lb ed="#P" n="44"/>est prius generatione et imperfectius. et illud quod est 
+      <lb ed="#P" n="45"/>posterius est perfectius. patet in omnibus 
+      praecipue<lb ed="#P" n="46" break="no"/>in perfectionibus eiusdem generis. patet in 
+      processu<lb ed="#P" n="47" break="no"/>formarum substantialium tendente ad perfectionem 
+      <lb ed="#P" n="48"/>eiusdem suppositi vel entis: quod posterior generatione 
+      <lb ed="#P" n="49"/>est prior perfectione. secus autem est comparando 
+      for<lb ed="#P" n="50" break="no"/>mam substantialem et accidentalem: que non sunt vui 
+      <lb ed="#P" n="51"/>generis: sicut patet. sed processus in potentiis 
+      crea<lb ed="#P" n="52" break="no"/>ture ad perfectionem secundum actus talium potentiarum 
+      <lb ed="#P" n="53"/>talis est quod actus intellectus vel intellectus est 
+      prior<lb ed="#P" n="54" break="no"/>generatione et voluntas posterior: vt patet. igitur 
+      <lb ed="#P" n="55"/>voluntas est prior perfectione: sicut etiam in aliis 
+      <lb ed="#P" n="56"/>potentiis inuenitur quod scilicet sensus communis 
+      no<lb ed="#P" n="57" break="no"/>bilior est quam particularis: et imaginatio vel fantasia 
+      <lb ed="#P" n="58"/>quam sensus communis. et sic deinceps gradatim. ergo 
+      <lb ed="#P" n="59"/>et cetera.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e889">
+      ¶ Ad hoc sunt auctoritates Anselmi de 
+      <lb ed="#P" n="60"/>conceptu virginali. Richardi in illo libello qui in 
+      <lb ed="#P" n="61"/>cipit omne caput languidum: Bernardi de libero 
+      <lb ed="#P" n="62"/>arbitrio per totum quasi et ibi dicit expresse quod 
+      ratio<lb ed="#P" n="63" break="no"/>est pedissequa voluntatis et sibi subiecta: et per 
+      con<lb ed="#P" n="64" break="no"/>sequens simpliciter innobilior vt videtur.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e902">
+      ¶ Dico 
+      <lb ed="#P" n="65"/>igitur quod voluntas tanquam potentia per se et primo libera 
+      <!--303.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>et a qua procedit tota hominis libertas in actibus 
+      <lb ed="#P" n="67"/>suis secundum Augustinum in pluribus locis: et 
+      <lb ed="#P" n="68"/>precipue de libero arbitrio et de concordia 
+      presci<lb ed="#P" n="69" break="no"/>ente et liberi arbitrii. et secundum Aristotelem est 
+      <lb ed="#P" n="70"/>Commentatorem suum sicut allegatum est supra 
+      <lb ed="#P" n="71"/>decimo commento: est potentia simpliciter 
+      nobili<lb ed="#P" n="72" break="no"/>or quam intellectus. et determinat et regulat ipsum 
+      im<lb ed="#P" n="73" break="no"/>tellectum.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e928">
+      ¶ Si dicas quod pari ratione sequeretur 
+      <lb ed="#P" n="74"/>voluntatem diuinam esse simpliciter nobiliorem quam 
+      <lb ed="#P" n="75"/>intellectum ratione libertatis: quod tamen falsum 
+      <lb ed="#P" n="76"/>est. Dico quod pari ratione non sequitur. Nam et 
+      in<lb ed="#P" n="77" break="no"/>tellectus diuinus et voluntas diuina vtrunque dicit 
+      <lb ed="#P" n="78"/>perfectionem simpliciter et formaliter infinitam: 
+      <lb ed="#P" n="79"/>qua nihil est maius vel perfectius. et ideo nec 
+      liber<lb ed="#P" n="80" break="no"/>tas diuine voluntatis est eiusdem rationis cum 
+      li<lb ed="#P" n="81" break="no"/>bertate creata: nec intellectus et voluntas etiam hic 
+      <lb ed="#P" n="82"/>et ibi. sed in perfectionibus limitatis et realiter 
+      di<lb ed="#P" n="83" break="no"/>stinctis cuiusmodi sunt intellectus et voluntas in 
+      <lb ed="#P" n="84"/>creaturis: dico quod potentia vel perfectio libera 
+      sim<lb ed="#P" n="85" break="no"/>pliciter est nobilior quam non libera ceteris dico 
+      pari<lb ed="#P" n="86" break="no"/>pus. Et sic dico quod voluntas creata est nobilior quam 
+      <lb ed="#P" n="87"/>intellectus.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e961">
+      ¶ Ad hoc adduco aliquas rationes ex 
+      di<lb ed="#P" n="88" break="no"/>ctis aliorum: quae tamen secundum me simpliciter non concludunt 
+      <lb ed="#P" n="89"/>sed ad hominem tantum. prima est ex parte obiecti 
+      <lb ed="#P" n="90"/>obiectum enim voluntatis est nobilius simpliciter 
+      <lb ed="#P" n="91"/>ergo voluntas est nobilior. Antecedens probatur 
+      <lb ed="#P" n="92"/>ex dictis eorum.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e975">
+      ¶ Primo quia obiectum 
+      volun<lb ed="#P" n="93" break="no"/>tatis est bonum. obiectum intellectus est verum. sed 
+      <lb ed="#P" n="94"/>bonum nobilius est. plus enim habet de ratione 
+      fi<lb ed="#P" n="95" break="no"/>nis: et per consequens optimi quam verum. vnde finis 
+      <lb ed="#P" n="96"/>et bonum idem.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e986">
+      ¶ Secundo quia res vt habet esse 
+      <lb ed="#P" n="97"/>apud intellecctum aliquo modo est obiectum intel 
+      <lb ed="#P" n="98"/>ectus. vt autem in re et in seipsa: est obiectum 
+      vo<lb ed="#P" n="99" break="no"/>luntatis secundum illud methaphoricum dictum: 
+      <lb ed="#P" n="100"/>quod intelligere est motus rei ad animam etc. sed 
+      pla<lb ed="#P" n="101" break="no"/>num est quod res in intellectu habet esse diminutum et 
+      <lb ed="#P" n="102"/>secundum quid quod conuenit rei vel potest 
+      conue<lb ed="#P" n="103" break="no"/>nire: cum non est et antequam sit: vel postquam fuit 
+      simpli<lb ed="#P" n="104" break="no"/>citer loquendo. In re autem et in seipsa extra intel 
+      <lb ed="#P" n="105"/>lectum habet esse simpliciter nobilius precipue. pa 
+      <lb ed="#P" n="106"/>tet de optimo obiecto quod est deus. Rem autem 
+      <lb ed="#P" n="107"/>esse simpliciter prius est quam ipsum esse secundum quid: 
+      <lb ed="#P" n="108"/>vt patet: quare et cetera.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1015">
+      ¶ Secunda ratio est ex 
+      <lb ed="#P" n="109"/>parte actus et in isto negocio sibiipsis contradicunt 
+      <lb ed="#P" n="110"/>ipsi dicunt beatitudo vel totaliter vel 
+      principali<lb ed="#P" n="111" break="no"/>ter consistit in actu intellectus. et tamen dicunt ex 
+      <lb ed="#P" n="112"/>alio latere quod perfectior et nobilior est actus 
+      volun<lb ed="#P" n="113" break="no"/>tatis circa deum vel circa obiectum beatificum quam 
+      <lb ed="#P" n="114"/>actus intellectus. et per consequens in ipso 
+      princi<lb ed="#P" n="115" break="no"/>paliter consistit beatitudo. quia est nobilior 
+      simpli<lb ed="#P" n="116" break="no"/>citer. Et probo ex dictis eorum. Ille actus est 
+      per<lb ed="#P" n="117" break="no"/>fectior simpliciter: qui perfectius vnit obiecto 
+      bea<lb ed="#P" n="118" break="no"/>tifico et attingit ipsum. sed hoc est actus 
+      volunta<lb ed="#P" n="119" break="no"/>tis. quia vnit / obiectio vt res quedam est summe 
+      bo<lb ed="#P" n="120" break="no"/>na in seipso. et per consequens secundum 
+      nobilissi<lb ed="#P" n="121" break="no"/>mum modum essendi: vt patet: quia vt est apud 
+      in<lb ed="#P" n="122" break="no"/>tellec tum secundum quod in ipsum tendit: ipse 
+      intel<lb ed="#P" n="123" break="no"/>lectus non est nisi ens rationis et secundum quid. 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1050">
+               <lb ed="#P" n="124"/>¶ Tertio ex parte potentie. quia dicunt quod 
+      volun<lb ed="#P" n="125" break="no"/>tas est nobilior respectu dei ex hoc quod nobilius et 
+      men<lb ed="#P" n="126" break="no"/>lius respectu optimi et nobilissimi simpliciter: est 
+      <lb ed="#P" n="127"/>melius et nobilius simpliciter: sicut quod magis 
+      acce<lb ed="#P" n="128" break="no"/>dit ad primum in entitate: et participat entitatem 
+      <lb ed="#P" n="129"/>respectu eius: est magis ens simpliciter: sed 
+      volun<lb ed="#P" n="130" break="no"/>tas est huiusmodi vt dicunt. ergo et cetera. 
+      <!--304.xml-->
+      <pb ed="#P" n="153-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Unde nihil est dictu quod voluntas respectu optimi 
+      <lb ed="#P" n="2"/>obiecti: quod est deus sit nobilior. et quod isto modo sit 
+      no<lb ed="#P" n="3" break="no"/>bilior secundum quid sed simpliciter quia ex optimo rei des 
+      <lb ed="#P" n="4"/>bet accipi sua nobilitas simpliciter. ita quod si optimus 
+      <lb ed="#P" n="5"/>actus voluntatis circa obiectum optimum est 
+      melior<lb ed="#P" n="6" break="no"/>simpliciter et nobilior optimo actu intellectus: 
+      sequi<lb ed="#P" n="7" break="no"/>tur quod voluntas et actus eius sint nobiliores 
+      simpli<lb ed="#P" n="8" break="no"/>citer secundum considerationem Aristo. IIi. thopicorum. si 
+      opti<lb ed="#P" n="9" break="no"/>mum in vno genere est melius optimo in alio 
+      gene<lb ed="#P" n="10" break="no"/>re: quodlibet illius generis est melius quolibet 
+      al<lb ed="#P" n="11" break="no"/>terius secundum rationem generis. Dico hoc de positione: 
+      ni<lb ed="#P" n="12" break="no"/>si quod confirmatur istud dictum. quia planum est quod 
+      crei<lb ed="#P" n="13" break="no"/>tura intellectualis vel rationalis simpliciter 
+      nobilior<lb ed="#P" n="14" break="no"/>et melior est per hoc quod est capax dei et ad imaginem. 
+      <lb ed="#P" n="15"/>igitur inter partes imaginis voluntas etiam 
+      sim<lb ed="#P" n="16" break="no"/>pliciter nobilior. quia est capacior vel perfectiuus 
+      ca<lb ed="#P" n="17" break="no"/>pax: vt videtur: et non tantum nobilitate secundum quid¬ 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1111">
+               <lb ed="#P" n="18"/>¶ Ad rationes ergo aliorum. 
+      <lb ed="#P" n="19"/>Ad primam prime opinionis dico breuiter quod 
+      intelle<lb ed="#P" n="20" break="no"/>ctus et voluntas non dicunt in creatura perfectiones 
+      <lb ed="#P" n="21"/>simpliciter. Ad probationes dico quod intellectus 
+      crea<lb ed="#P" n="22" break="no"/>tus vel voluntas creata non est melius in quolibet 
+      <lb ed="#P" n="23"/>ipsum quam non ipsum: vel quam incompossibile sibi. sed satis 
+      <lb ed="#P" n="24"/>melius est in aliquo simpliciter non ipsum: id est 
+      ali<lb ed="#P" n="25" break="no"/>quid incompossibile intellectui creato vel voluntatim 
+      <lb ed="#P" n="26"/>quam esset intellectus vel voluntas creata: sicut in deo 
+      <lb ed="#P" n="27"/>patere potest. et melius esset habenti intellectum 
+      crea<lb ed="#P" n="28" break="no"/>tum quod haberet voluntatem increatam et intellectum si 
+      <lb ed="#P" n="29"/>militer quam quod habet intellectum vel voluntatem 
+      crea<lb ed="#P" n="30" break="no"/>tam: quae sunt incompossibiles illis secundum proprietatem 
+      na<lb ed="#P" n="31" break="no"/>ture in eodem supposito. Et ideo diceretur quod 
+      intelle<lb ed="#P" n="32" break="no"/>ctus diuinus et voluntas dicunt perfectiones 
+      sim<lb ed="#P" n="33" break="no"/>pliciter. non autem in creatura: nec aliquid quod sit in 
+      <lb ed="#P" n="34"/>ipsa breuiter. Aliter diceretur et melius 
+      ponende<lb ed="#P" n="35" break="no"/>quod dicerent perfectiones simpliciter quod licet ex suis 
+      <lb ed="#P" n="36"/>conceptibus quiditatiuis absolute sumptis in communi ad 
+      <lb ed="#P" n="37"/>istas perfectiones in deo et in creatura secundum quos 
+      conce<lb ed="#P" n="38" break="no"/>ptus dicunt perfectiones simpliciter non haberet vna esse 
+      <lb ed="#P" n="39"/>nobilior alia: tum ex suparadditis ratione qua talis 
+      volun<lb ed="#P" n="40" break="no"/>tas et talis intellectus posset dici vna nobilior alia 
+      si<lb ed="#P" n="41" break="no"/>cut etiam homo vnde animal non dicitur nobilior asino: sed 
+      <lb ed="#P" n="42"/>bene rationalis et tale animal.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1168">
+      ¶ Ad secundum dico primo 
+      <lb ed="#P" n="43"/>quod intellectus et voluntas non dicuntur vniuoce in deo et 
+      <lb ed="#P" n="44"/>in creatura: sicut dictum est in primo. et ideo non obstante 
+      <lb ed="#P" n="45"/>quod in deo vna potentia non sit nobilior alia: potest tamen hoc 
+      <lb ed="#P" n="46"/>esse in creatura. Aliter diceretur dato quod vniuoce 
+      in<lb ed="#P" n="47" break="no"/>uenirentur hic et ibi: quod ex eo quod est vniuocum non habent 
+      <lb ed="#P" n="48"/>hoc: scilicet quod vna sit nobilior alia: sed ex eo quod est super 
+      <lb ed="#P" n="49"/>additum in creatura: quod non conuenit ipsi deo.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1187">
+      ¶ Ad 
+      <lb ed="#P" n="50"/>tertium dico: quod intellectus et voluntas in creatura 
+      <lb ed="#P" n="51"/>sunt eedem essentialiter eidem essentie simplici creature 
+      <lb ed="#P" n="52"/>rationalis vel intellectualis non tamen realiter: sicut dictum 
+      <lb ed="#P" n="53"/>est in primo: sic etiam et adinuicem comparate. Et dico: quod 
+      <lb ed="#P" n="54"/>quia sic distinguuntur et sunt alterius rationis: et tales qua 
+      <lb ed="#P" n="55"/>les probatum est supra: possunt esse vna nobilior et 
+      <lb ed="#P" n="56"/>alia innobilior. Nec est simile de diuinis 
+      relationi<lb ed="#P" n="57" break="no"/>bus: quae nec dicunt perfectionem nec imperfectionem: sicut 
+      di<lb ed="#P" n="58" break="no"/>ctum est in primo: nec distinguuntur ab essentia 
+      diui<lb ed="#P" n="59" break="no"/>na realiter. i3et abinuicem realiter distinguantur. nec 
+      po<lb ed="#P" n="60" break="no"/>test dici: quod relationes dicant perfectiones secundum quid libet non 
+      <lb ed="#P" n="61"/>simpliciter. Nam omnis perfectio secundum quid limitata est et 
+      <lb ed="#P" n="62"/>finita. in deo non potest esse aliquid limitatum et finitum: sed 
+      <lb ed="#P" n="63"/>quicquid est in eo: et dicit perfectionem: ore necessario quod 
+      <lb ed="#P" n="64"/>dicat perfectionem simpliciter et infinitam. Et ita non potet 
+      <!--304.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>dici vna relatio perfectior alia. quia nullo modo dicit 
+      perfe<lb ed="#P" n="66" break="no"/>ctionem nec simpliciter: nec secundum quid. Intellectus autem et 
+      <lb ed="#P" n="67"/>voluntas in creatura licet non dicant perfectiones simpliciter 
+      <lb ed="#P" n="68"/>eo modo quo acceptum est supra. Dicunt tamen perfectiones 
+      ali<lb ed="#P" n="69" break="no"/>quas: quarum vna potest esse nobilior alia: sicut vnum ens 
+      <lb ed="#P" n="70"/>creatum: licet non sit perfectum simpliciter. dicitur tamen perfectius 
+      <lb ed="#P" n="71"/>alio simplicitur.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1242">
+      ¶ Ad quartum dico quod non solum accipitur 
+      <lb ed="#P" n="72"/>nobilitas potentie maipr vel minor ex obiecto nec sper 
+      <lb ed="#P" n="73"/>Similiter etiam nec ex natura vel fundamento insunt 
+      <lb ed="#P" n="74"/>sed ex modo tendendi in obientium: et sic in proposito. 
+      volun<lb ed="#P" n="75" break="no"/>tas enim et intellectus secundum men habent idem obiectum per omnia. et 
+      <lb ed="#P" n="76"/>ideo ex obiecto non potest accipi maior nobilitas vel 
+      <lb ed="#P" n="77"/>minor in potentiis nec in actibus. Similiter etiam nec 
+      <lb ed="#P" n="78"/>ex fundamento vel natura cui conueniunt iste potentie 
+      <lb ed="#P" n="79"/>sed ex modo tendendi alio et alio in obiectum: et 
+      ex<lb ed="#P" n="80" break="no"/>aliis quae adducta sunt ad probandum quod voluntas est 
+      <lb ed="#P" n="81"/>nobilior: potest argui et attendi maior vel minor 
+      nobi<lb ed="#P" n="82" break="no"/>litas earum.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1268">
+      ¶ Ad quintum dicendum quod sicut imago de 
+      <lb ed="#P" n="83"/>ficit ab imaginato in perfectione suarum potentiarum: 
+      <lb ed="#P" n="84"/>ita et in equalitate nobilitatis vel perfectionis 
+      ipsa<lb ed="#P" n="85" break="no"/>rum: sicut patet ex predictis. et non solum in hoc: sed 
+      <lb ed="#P" n="86"/>etiam in multis aliis deficit imago ab imaginate: itam 
+      <lb ed="#P" n="87"/>vt sit maior dissimilitudo quam similitudo. 
+      <lb ed="#P" n="88"/> alterius opiniouis quicquid 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1284">
+               <lb ed="#P" n="89"/>¶ Ad primuma sit de maiore: dico ad 
+      mi<lb ed="#P" n="90" break="no"/>norem quod ipsa non est vera. Nam idem est obiectum per omnia 
+      in<lb ed="#P" n="91" break="no"/>tellectus et voluntatis et secundum eandem omnino rationem. Qunde dicis 
+      <lb ed="#P" n="92"/>vltra quod obiectum voluntatis est bonum: dico quod non est 
+      plu<lb ed="#P" n="93" break="no"/>obiectum voluntatis quam intellectus. nec ratio boni plus 
+      ob<lb ed="#P" n="94" break="no"/>iectum intellectus quam voluntatis. et ita obiectum vnius non 
+      <lb ed="#P" n="95"/>est simplicius quam obiectum alterius. Ista ratio est contra 
+      <lb ed="#P" n="96"/>eos. quia si sunt vera dicta eorum: ratio boni est 
+      nobilior<lb ed="#P" n="97" break="no"/>quia per se ratio finis: vt dicunt: sequitur quod voluntas est 
+      no<lb ed="#P" n="98" break="no"/>bilior et architethonica. Preterea dato quod obiectum 
+      <lb ed="#P" n="99"/>vnius esset ratio boni: et obiectum alterius bonum 
+      <lb ed="#P" n="100"/>ipsum: quero a te: an ratio boni sit aliquod bonum. Et 
+      <lb ed="#P" n="101"/>constat quod sic. sicut etiam est aliquod ens. Et planum est tunc 
+      <lb ed="#P" n="102"/>quod ratio boni non est abstractior nisi secundum rationem et 
+      mo<lb ed="#P" n="103" break="no"/>dum significandi quam bonum ipsum. Hoc patet in ratione 
+      <lb ed="#P" n="104"/>summi boni: quod est deus. Non enim bonitas diuina 
+      <lb ed="#P" n="105"/>est simplicior vel abstractior vel immaterialior quam 
+      <lb ed="#P" n="106"/>deus. Preterea dico quod isti non seruant dicta sua. Nan 
+      <lb ed="#P" n="107"/>obiectum intellectus vt dicunt est ipsa res: vt aliquo 
+      <lb ed="#P" n="108"/>modo apud intellectum: sed voluntatis vt in re 
+      ex<lb ed="#P" n="109" break="no"/>istens et in seipsa magis. Planum est autem quod omnia 
+      <lb ed="#P" n="110"/>entia spiritualia simpliciter magis sunt simplicia 
+      <lb ed="#P" n="111"/>et abstracta: vt in seipsis existunt quam vt in nostro in 
+      <lb ed="#P" n="112"/>tellectu. patet de deo precipue et intelligentiis. igitur 
+      vo<lb ed="#P" n="113" break="no"/>luntas est nobilior per istud argumentum vt videtur 
+      ar<lb ed="#P" n="114" break="no"/>guendo ex potissimis obiectis istarum potentiarum. Ad 
+      <lb ed="#P" n="115"/>secundam probationem minoris dico quod non plus verum est 
+      <lb ed="#P" n="116"/>obiectum voluntatis quam bonum nec econuerso. Secundo 
+      <lb ed="#P" n="117"/>dico quod verum non est simplicius vel immaterialius vel ab 
+      <lb ed="#P" n="118"/>stractius quam bonum: sed omnia ista equaliter se habent per 
+      <lb ed="#P" n="119"/>omnia. patet in deo primo vero et bono. Et si 
+      inequali<lb ed="#P" n="120" break="no"/>ter se haberent: dico: quod bonum esset nobilius quia 
+      habe<lb ed="#P" n="121" break="no"/>ret rationem eligibilis per seipsum vel per essentiam. verum 
+      <lb ed="#P" n="122"/>autem magis per participationem. Ad tertiam probationem 
+      <lb ed="#P" n="123"/>dico: quod ens ita est obiectum voluntatis sicut et 
+      intelle<lb ed="#P" n="124" break="no"/>ctus. et si esset distinctio in obiectis: bonum esset 
+      nobi<lb ed="#P" n="125" break="no"/>lius licet ens communius commnitate praedicationis forte. Et si 
+      <lb ed="#P" n="126"/>hoc esset: nihil minus esset bonum magis nobile: licet 
+      mi<lb ed="#P" n="127" break="no"/>mus commune.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1371">
+      ¶ Ad secundam rationem ex parte habituum 
+      di<lb ed="#P" n="128" break="no"/>co: quod nobilior est habitus voluntatis: quiesm charitas: quam 
+      <lb ed="#P" n="129"/>sit habitus sapientie illius de qua arguitur per arist. immo quam sit 
+      <!--305.xml-->
+      <pb ed="#P" n="154-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>quicumque alius habitus. Bene tamen dico: quod Arist. 
+      igno<lb ed="#P" n="2" break="no"/>rauit habitum charitatis. Et ideo illi qui faciunt istdem 
+      <lb ed="#P" n="3"/>argumentum et innituntur tanquam ignorantes arguunt ex 
+      <lb ed="#P" n="4"/>ignorantia Arist. et innituntur ignorantie eius.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1393">
+      ¶ Ad 
+      <lb ed="#P" n="5"/>tertium dico breuiter: quod actus voluntatis in genere. 
+      <lb ed="#P" n="6"/>nature est simpliciter loquendo nobilior. Undo dicis: 
+      <lb ed="#P" n="7"/>quod intellectus per actum suum est prima regula 
+      hu<lb ed="#P" n="8" break="no"/>manorum actuum. falsum est. sicut dictum est supra. sed  
+      <lb ed="#P" n="9"/>magis voluntas ipsa per appetitum seu volitionem 
+      fi<lb ed="#P" n="10" break="no"/>nis est prima regula rationis practice: et consequenter actuum 
+      <lb ed="#P" n="11"/>voluntatis circa ea: quae sunt ad finem. ita quod totum 
+      princi<lb ed="#P" n="12" break="no"/>paliter dependet ex voluntate. QUuando dicis: quod in actu 
+      <lb ed="#P" n="13"/>voluntatis non est bonitas moralis: nisi conformetur 
+      <lb ed="#P" n="14"/>rationi. Dico quod hoc non est ex preeminentia rationis ad 
+      <lb ed="#P" n="15"/>voluntatem: sed magis reducendum est hoc ad 
+      appeti<lb ed="#P" n="16" break="no"/>tum finis: qui est principium etiam rationis practice 
+      <lb ed="#P" n="17"/>que quidem ratio practica subseruit vel deseruit voluntati 
+      <lb ed="#P" n="18"/>circa ea quae sunt ad finem tanquam conciliaria: cuius 
+      oppo<lb ed="#P" n="19" break="no"/>situm dictaminis potest voluntas eligere. et 
+      nihilomi<lb ed="#P" n="20" break="no"/>nus actus eius erit nobilior simpliciter quam actus 
+      intel<lb ed="#P" n="21" break="no"/>lectus: licet non sit bonus bonitate morali.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1433">
+      ¶ Ad proba 
+      <lb ed="#P" n="22"/>tionem aliam que fuit prima in arguendo: cum dicitur 
+      <lb ed="#P" n="23"/>quod actus intellectus non dependet ex actu voluntatis: sed 
+      <lb ed="#P" n="24"/>econuerso. dico quod siue actus voluntatis dependeat ex 
+      <lb ed="#P" n="25"/>actu intellectus siue non: ex hoc non sequitur maior 
+      no<lb ed="#P" n="26" break="no"/>bilitas actus intellectus. Aliquid enim nobilius ben 
+      de<lb ed="#P" n="27" break="no"/>pendet ex aliquo innobiliori: saltem sicut a causa 
+      pas<lb ed="#P" n="28" break="no"/>tiali. sicut compositum a materia vel a forma: vel etiam 
+      <lb ed="#P" n="29"/>de efficiente potest exemplificari: sicut actus voluntatis 
+      <lb ed="#P" n="30"/>secundum aliquos a fantasmate: vel etiam ab actu intellectus 
+      <lb ed="#P" n="31"/>Aliter diceretur quod in ratione cause et causati nullo modo 
+      <lb ed="#P" n="32"/>dependet actus voluntatis ab actu intellectus: licet sit 
+      <lb ed="#P" n="33"/>sibi primus ordine generationis vel originis propter 
+      <lb ed="#P" n="34"/>ordinem potentiarum. Preterea etiam nihil valet 
+      argu<lb ed="#P" n="35" break="no"/>mentum. Tunc enim sequeretur quod actus intellectus esset in 
+      <lb ed="#P" n="36"/>nobilior quam fantasma vel actus fantasie: sicut patet 
+      de<lb ed="#P" n="37" break="no"/>ducendo. Si enim intellectus est nobilior voluntate et 
+      re<lb ed="#P" n="38" break="no"/>gula eius: quia presentat sibi obiectum vel ostendit: 
+      pari<lb ed="#P" n="39" break="no"/>roione sequitur de fantasia respectu intellectus: vt 
+      vide<lb ed="#P" n="40" break="no"/>tur.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1477">
+      ¶ Ad tertiam probationem dico quod obiectum 
+      intelle<lb ed="#P" n="41" break="no"/>ctus non est immaterialius quam obiectum voluntatis: nec 
+      <lb ed="#P" n="42"/>econuerso. Uuande dicis quod obiectum intellectus non est 
+      <lb ed="#P" n="43"/>res in seipsa: sed aliquo modo apud intellectum. Dico 
+      <lb ed="#P" n="44"/>primo quod istud nihil valet in perfectissimo actu 
+      intel<lb ed="#P" n="45" break="no"/>lectus: qui est visio ipsa vel notitia intuitiua. Ita enim 
+      <lb ed="#P" n="46"/>intellectus intuetur rem et videt in seipsa: sicut 
+      volun<lb ed="#P" n="47" break="no"/>tas diligit eam. patet de obiecto diuino etiam secundum te. quia 
+      <lb ed="#P" n="48"/>dicis quod in visione beata non preexistit obiectum apud  
+      <lb ed="#P" n="49"/>intellectum per aliquam speciem vel similitudinem. Unde 
+      pa<lb ed="#P" n="50" break="no"/>rabolicum dictum et male intellectum est illud scilicet quod 
+      intel<lb ed="#P" n="51" break="no"/>ligere est motus rei ad animam: et velle motus anime ad rem. 
+      <lb ed="#P" n="52"/>Nec video rationem in hoc dicto: nisi quia magis sufficit 
+      <lb ed="#P" n="53"/>intellectui res apud seipsum per actum intelligendi quam 
+      <lb ed="#P" n="54"/>voluntati. quia voluntas cum hoc prosequitur eam in 
+      re<lb ed="#P" n="55" break="no"/>et in effectu: si non habet eam communiter. Non enim 
+      vi<lb ed="#P" n="56" break="no"/>deo in notitia intuitiua: saltem nec etiam in 
+      abstracti<lb ed="#P" n="57" break="no"/>ua: quo plus moueatur res ad animam quam in actu 
+      volen<lb ed="#P" n="58" break="no"/>di. Nisi forte quia in abstractiua notitia: prius fit praesens 
+      <lb ed="#P" n="59"/>intellectui in aliqua similitudine vel in aliquo 
+      repre<lb ed="#P" n="60" break="no"/>sentatiuo apud intellectum quam intelligatur. non sic in 
+      vo<lb ed="#P" n="61" break="no"/>luntate apud ipsam: sed sufficit presentatio apud 
+      in<lb ed="#P" n="62" break="no"/>tellectum. Ad illud quod additur quod voluntas per suum 
+      <lb ed="#P" n="63"/>actum malum inficitur: non autem intellectus. 
+      di<lb ed="#P" n="64" break="no"/>co quod hoc arguit libertatem et nobilitatem 
+      volunta<lb ed="#P" n="65" break="no"/>tis. quia potest secundum liberum arbitrium suum in actum bo 
+      <!--305.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>num vel malum moraliter laudabilem vel culpabilem. 
+      <lb ed="#P" n="67"/>semper tamen nobiliorem in natura quam sit actus intellectus 
+      <lb ed="#P" n="68"/>ceteris paribus. Non enim ex innobilitate vel 
+      imper<lb ed="#P" n="69" break="no"/>fectione in natura creata prouenit voluntati quod possit 
+      <lb ed="#P" n="70"/>deficere culpabiliter in actu suo: sed ex nobilitate 
+      <lb ed="#P" n="71"/>vel perfectione et libertate sua tali quali puta 
+      crea<lb ed="#P" n="72" break="no"/>ta. Preterea etiam intellectus bene potest in actu suo 
+      <lb ed="#P" n="73"/>deficere et errare: licet talis error non sit culpabilis 
+      <lb ed="#P" n="74"/>nisi ex voluntate. Nec sequitur: quod ignis sit nobilior quam 
+      <lb ed="#P" n="75"/>voluntas. quia non potest infici actu suo vel peccare. 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1560">
+               <lb ed="#P" n="76"/>¶ Ad quartam probationem dico: quod actus voluntatis 
+      <lb ed="#P" n="77"/>per se est eligibilior quam actus intellectus ceteris 
+      pa<lb ed="#P" n="78" break="no"/>ribus. Qande dicis: quod voluntas est ceca: dico: quod non est 
+      <lb ed="#P" n="79"/>verum: quia non est nata videre. Ita enim diceretur 
+      tibi<lb ed="#P" n="80" break="no"/>quod essentia anime vt condistincta contra potentiam: quae secundum 
+      <lb ed="#P" n="81"/>te est accidens: ceca est vel non videns. vel ergo est peior 
+      <lb ed="#P" n="82"/>quam potentia vel intellectus qui est videns.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1578">
+      ¶ Ad 
+      ari<lb ed="#P" n="83" break="no"/>stotelem quantum ad duas auctoritates dici potest: quod 
+      vel<lb ed="#P" n="84" break="no"/>accipit intellectum pro parte superiore non 
+      distinguen<lb ed="#P" n="85" break="no"/>do inter ipsum et voluntatem: que quidem pars sciens 
+      <lb ed="#P" n="86"/>est ratione alterius potentie et determinans vel 
+      im<lb ed="#P" n="87" break="no"/>perans ratione alterius puta voluntatis. vel si 
+      inten<lb ed="#P" n="88" break="no"/>dit omnino illud quod arguitur: omnino est negandus 
+      <lb ed="#P" n="89"/>sicut contradicens sibi ipsi hic et in. ix. metha. Si tamen 
+      <lb ed="#P" n="90"/>intelligat de appetitu intellectiuo primo politice: cum 
+      <lb ed="#P" n="91"/>nus oppositum dicunt mlti tenentes: quod solum intelligit de 
+      <lb ed="#P" n="92"/>appetitu sensitiuo. Sic de isto articulo principali 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1602">
+               <lb ed="#P" n="93"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="94" break="no"/>culum expedio me breuiter quia iam patet ex 
+      predi<lb ed="#P" n="95" break="no"/>ctis: quod licet sint de ipso diuerse opiniones secundum diuer 
+      <lb ed="#P" n="96"/>sitatem opinionum de preeminentia vel equalitate 
+      <lb ed="#P" n="97"/>potentiarum: quod in actu voluntatis principalius 
+      com<lb ed="#P" n="98" break="no"/>sistit beatitudo tanquam in actu illo qui est nobilior et 
+      <lb ed="#P" n="99"/>principalior et intimius et perfectius vnit obiecto 
+      <lb ed="#P" n="100"/>beatifico: et transformat creaturam in ipsum: vt sit 
+      <lb ed="#P" n="101"/>amica creatura cum deo perfecte quantum est possibile 
+      <lb ed="#P" n="102"/>per actum amicitie in deum transformetur et in ipso 
+      <lb ed="#P" n="103"/>deificetur. Hec de secundo articulo.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1628">
+      ¶ Pro 
+      con<lb ed="#P" n="104" break="no"/>clusione tamen huius secundi / articuli scilicet quod in actu 
+      volu<lb ed="#P" n="105" break="no"/>tatis principalius consistit beatitudo: adducuntur 
+      <lb ed="#P" n="106"/>adhuc alique rationes.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1638">
+      ¶ Prima tangitur supra. 
+      <lb ed="#P" n="107"/>quia voluntas est simpliciter nobilior potentia quod 
+      <lb ed="#P" n="108"/>intellectus.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1645">
+      ¶ Secunda ratio quia volitio vel velle est 
+      <lb ed="#P" n="109"/>simpliciter nobilior propinquius et immediatius 
+      <lb ed="#P" n="110"/>in ordine entium ipsi fini vltimo: qui est simpliciter 
+      <lb ed="#P" n="111"/>optimum quam intelligere: litcet vtrumque causetur et conserue 
+      <lb ed="#P" n="112"/>tur immediate in prima ab ipso deo: et per vtrumque 
+      imme<lb ed="#P" n="113" break="no"/>diateattingantur. quia sine medio interpositionis: 
+      li<lb ed="#P" n="114" break="no"/>cet non ordinis.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1661">
+      ¶ Tertia ratio quia voluntas vult 
+      <lb ed="#P" n="115"/>videre vel intelligere propter velle secundum ordinem rectum 
+      <lb ed="#P" n="116"/>volendi non econuerso secundum anselmum libro. II. Cur deus 
+      <lb ed="#P" n="117"/>pomo cap. II. ergo velle perfectius.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1670">
+      ¶ Quarta ratio. quia 
+      <lb ed="#P" n="118"/>voluntas volendo conformiter ad inclinationem 
+      natu<lb ed="#P" n="119" break="no"/>ralem et per consequens volendo recte plus vult et magis 
+      <lb ed="#P" n="120"/>diligit vel appetit velle siue frui suppositi cuius est: 
+      <lb ed="#P" n="121"/>quam intelligere vel videre. quia plus appetit 
+      perfectio<lb ed="#P" n="122" break="no"/>nem sui quam extrinsece potentie appetitu naturali: vt 
+      <lb ed="#P" n="123"/>patet. Ad ipsam vero voluntatem solam pertinet 
+      <lb ed="#P" n="124"/>appetere beatitudinem actu elicito et ad nullam 
+      po<lb ed="#P" n="125" break="no"/>tentiam aliam: sicut patet. quare etc. Augusti. xii. super 
+      ge<lb ed="#P" n="126" break="no"/>nesim bene vltra medium loquens de statu prime 
+      di<lb ed="#P" n="127" break="no"/>cit sic. vna ibi et tota virtus est amare: quod videas. et 
+      <lb ed="#P" n="128"/>summa felicitas habere quod amas.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1696">
+      ¶ Additur 
+      ad<lb ed="#P" n="129" break="no"/>hoc vna ratio tacta supra. quia actus voluntatis est de 
+      <!--306.xml-->
+      <pb ed="#P" n="154-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>lectabilissimus: et ad ipsum per se sequitur delectatio. 
+      <lb ed="#P" n="2"/>primo ethicorum. amanti equum equus est 
+      dele<lb ed="#P" n="3" break="no"/>ctabilis: et amanti spectaculum etc. 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1714">
+               <lb ed="#P" n="4"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="5" break="no"/>culum dico breuiter: quod in actu voluntatis qui est actus 
+      <lb ed="#P" n="6"/>amicitie sicut declaratum est supra principalius consistit 
+      <lb ed="#P" n="7"/>ptintudo quam in visione vel in quocumque alio. quia iste est 
+      <lb ed="#P" n="8"/>actus voluntatis simpliciter nobilior et deo acceptior 
+      <lb ed="#P" n="9"/>sicut actus totaliter et spontanee tendens in ipsum 
+      <lb ed="#P" n="10"/>et sistens in eo: sicut in optimo suo et fine simpliciter 
+      <lb ed="#P" n="11"/>vltimo propter seipsum. Hec de tertio articulo. 
+      <lb ed="#P" n="12"/>¬ principale argumentum di¬ 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1737">
+               <lb ed="#P" n="13"/>¶ Ad primum ti co quod voluntas nobilior est. 
+      <lb ed="#P" n="14"/>Nec est propter intellectum: sed magis econuerso. Qundo 
+      <lb ed="#P" n="15"/>dicis vltra quod appetitus sensitiuus est propter sensum. dicitur 
+      <lb ed="#P" n="16"/>vno modo quod verum est: sed non est simile de 
+      volunta<lb ed="#P" n="17" break="no"/>te et intellectu. Nam voluntas habet aliquem actum 
+      <lb ed="#P" n="18"/>amicicie circa obiectum secundum quam amat obiectum in se 
+      <lb ed="#P" n="19"/>ipso: non vt videatur vel huiusmodi. Et in hoc excedit 
+      ap<lb ed="#P" n="20" break="no"/>petitum sensitiuum: qui nullum actum habet nisi concupiscentie. 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1757">
+               <lb ed="#P" n="21"/>¶ Aliter dicitur quod appetitus sensitiuus vltimate et 
+      fina<lb ed="#P" n="22" break="no"/>liter non est propter sensum: nec appetit actum sensus 
+      <lb ed="#P" n="23"/>quicquid dicat commentator. xii. meih. sed magis actum 
+      <lb ed="#P" n="24"/>suum et delectationem consequentem scilicet vt delectetur in re visa 
+      <lb ed="#P" n="25"/>vel sensata. vnde appetit sensui sentire propter suim 
+      <lb ed="#P" n="26"/>delectari et quietari vel perfici in ipso bono sensibili 
+      si<lb ed="#P" n="27" break="no"/>cut etiam voluntas: licet appetat intellectum videre sed tandem 
+      <lb ed="#P" n="28"/>finaliter propter amare.
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1777">
+      ¶ Ad secundum dico: quod tam 
+      in<lb ed="#P" n="29" break="no"/>tellectus quam voluntas immediate vniuntur obiecto 
+      beatifi<lb ed="#P" n="30" break="no"/>co: liet intellectus prius origine et posterius perfectione. et 
+      <lb ed="#P" n="31"/>hoc arguit in voluntate maiorem perfectionem: vt superius 
+      <lb ed="#P" n="32"/>dicebatur. nec tollit immediationem vnionis a voluntate 
+      </p>
+            <p xml:id="qrdBas-f93799-d1e1788">
+               <lb ed="#P" n="33"/>¶ Ad tertium dico: quod non solum distinguitur creatura ratio 
+      <lb ed="#P" n="34"/>nalis vel intellectualis a brutis non beatificabilibus per 
+      <lb ed="#P" n="35"/>intellectum sed per voluntatem et principalius. licet enim brutis 
+      <lb ed="#P" n="36"/>conueniat appetitus in communi: non tamen talis appetitus in 
+      spci<lb ed="#P" n="37" break="no"/>ciali. sicut etiam licet conueniat eis potentia cognitiua: non 
+      <lb ed="#P" n="38"/>tamen talis: quae est intellectus. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,545 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="106-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f63594"><!--l4d25q1 -->
+            <head xml:id="qrdBas-f63594-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f63594-d1e101">
+               <lb ed="#P" n="63"/>¶ Distinctionis. xxv. 
+      <lb ed="#P" n="64"/>Questio Unica.
+    </p>
+            <p xml:id="qrdBas-f63594-d1e108">
+      <!--208.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>CIrca distinctionem 
+      <lb ed="#P" n="66"/>xv. quero vnam questionem. 
+      <lb ed="#P" n="67"/>scilicet vtrum pena canonica vel 
+      <lb ed="#P" n="68"/>etas puerilis vel sexus 
+      mulie<lb ed="#P" n="69" break="no"/>bris impediat ab executione 
+      <lb ed="#P" n="70"/>vel minstratione seu receptione 
+      <lb ed="#P" n="71"/>ordinum.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e130">
+      ¶ Uidetur quod non de 
+      <lb ed="#P" n="72"/>pena canonica. quia aliquis 
+      sa<lb ed="#P" n="73" break="no"/>cerdos excommunicatus vel 
+      ir<lb ed="#P" n="74" break="no"/>regularis vel suspensus si attemptet conficere vere 
+      con<lb ed="#P" n="75" break="no"/>ficit de facto. ergo similiter quacumque pena 
+      canoni<lb ed="#P" n="76" break="no"/>ca ligatus vere recipit vel confert de facto ordines 
+      <lb ed="#P" n="77"/>ipsos: vt videtur quantumcunque sit episcopus 
+      irre<lb ed="#P" n="78" break="no"/>gularis et suspensus vel excommunicatus vel 
+      degra<lb ed="#P" n="79" break="no"/>datus vere ordinat: et aliquis etiam vere recipit de 
+      <lb ed="#P" n="80"/>facto: sicut etiam irregularis si ordinetur de facto 
+      <lb ed="#P" n="81"/>vere ordinatur.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e154">
+      ¶ Secundo arguitur de etate 
+      pue<lb ed="#P" n="82" break="no"/>i. quia etas puerilis non prohibet aliorum sacrametorum 
+      <lb ed="#P" n="83"/>susceptionem. vt baptismi vel confirmationis et 
+      hu<lb ed="#P" n="84" break="no"/>iusmodi. ergo similiter nec ordinum susceptionem. 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e164">
+               <lb ed="#P" n="85"/>¶ Tertio de sexu multebri. quia sicut dicitur ad 
+      ga<lb ed="#P" n="86" break="no"/>latas. 5. in christo Iesu non est seruus neque liber neque 
+      <lb ed="#P" n="87"/>masculus neque femina. igitur possunt omnes 
+      indifferen<lb ed="#P" n="88" break="no"/>ter ordines christi Iesu recipere: femina sicut 
+      mascu<lb ed="#P" n="89" break="no"/>lus et seruus sicut liber.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e177">
+      ¶ Contra omnia ista aliquo 
+      <lb ed="#P" n="90"/>modo patet in littera. 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e182">
+               <lb ed="#P" n="91"/>¶ In ista questione sic procedam 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e187">
+               <lb ed="#P" n="92"/>¶ Primo ostendam quid vocatur pena canonica 
+      <lb ed="#P" n="93"/>in proposito: et quot sunt tales in genere: et qualiter in 
+      <lb ed="#P" n="94"/>curruntur et remittuntur.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e196">
+      ¶ Secundo ostendam quo 
+      <lb ed="#P" n="95"/>modo includunt vel impediunt ab ordinum 
+      susceptio<lb ed="#P" n="96" break="no"/>ne vel collatione.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e203">
+      ¶ Tertio de etate puerili et sexu 
+      <lb ed="#P" n="97"/>muliebri.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e209">
+      ¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e211">
+               <lb ed="#P" n="98"/>¶ Quantum ad primum 
+      arti<lb ed="#P" n="99" break="no"/>culum dico: quod pena canonica in proposito vocatur 
+      pe<lb ed="#P" n="100" break="no"/>na inflicta per canones vel secundum canones prohibens 
+      <lb ed="#P" n="101"/>vel arcens aliquem ab actu ecclesiastico: qui alias 
+      si<lb ed="#P" n="102" break="no"/>bi liceret.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e224">
+      ¶ Dicitur autem ibi pena inflicta per 
+      ca<lb ed="#P" n="103" break="no"/>nones quantum ad penam inflictam a iure. vel secundum 
+      ca<lb ed="#P" n="104" break="no"/>nones quantum ad penam inflicam aliudice: quasi 
+      ri<lb ed="#P" n="105" break="no"/>te et iuste infligatur debet infligi secundum canones vel 
+      <lb ed="#P" n="106"/>canonicas sanctiones. in quibus continetur modus et 
+      <lb ed="#P" n="107"/>processus iudicis infligendo talem penam. Secundo dici 
+      <lb ed="#P" n="108"/>tur ibi arcens vel prohibens punitum ab actu ecclesiasti 
+      <lb ed="#P" n="109"/>co. quia omnis pena canonica talis vel artat ab actu 
+      ec<lb ed="#P" n="110" break="no"/>clesiastico: sicut prohibitio illius actus tantum: vel si aliquo 
+      <lb ed="#P" n="111"/>alio modo tamen ille modus ad artationem vel ad arcere 
+      re<lb ed="#P" n="112" break="no"/>ducitur. Sed subiungitur quod ab actu qui alias 
+      lice<lb ed="#P" n="113" break="no"/>ret punito vel posset conuenire licite. quia si non liceret 
+      <lb ed="#P" n="114"/>nec conueniret sibi alias non esset sibi pena artari tali 
+      <lb ed="#P" n="115"/>actu sicut laico non esset pena: quod artaretur ab actu 
+      conse<lb ed="#P" n="116" break="no"/>crandi vel conficiendi corpus christi.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e257">
+      ¶ Dico autem: quod sunt 
+      sex<lb ed="#P" n="117" break="no"/>tales pene canonice in gne. scilicet dispon vel degndatio 
+      <lb ed="#P" n="118"/>infamia exconicatio irregularitas suspensio 
+      interdi<lb ed="#P" n="119" break="no"/>ctum. De positio est talis amotio a statu clericali et 
+      <lb ed="#P" n="120"/>ecclesiastico. Et si degndatio est idem quod depon: tunc etiam 
+      <lb ed="#P" n="121"/>est totalis amotio. si autem non sit idem quod depon: tunc non 
+      <lb ed="#P" n="122"/>est totalis amotio ab omni grandu ecclesiastico vel statum 
+      <lb ed="#P" n="123"/>sed est amotio ab aliquo gradu altero relicto. et tunc 
+      <lb ed="#P" n="124"/>depositio vel amotio partialis. et est partialis pena 
+      <lb ed="#P" n="125"/>respectu depositionis simpliciter. Dicitur autem 
+      ali<lb ed="#P" n="126" break="no"/>quis deponi vel degradari ab episcopatu vel sa¬ 
+      <!--209.xml-->
+      <pb ed="#P" n="106-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>cerdotio: et amoueri a tali gradu vel statu: non quia 
+      <lb ed="#P" n="2"/>aufferatur sibi caracter ordinis: vel ordo suscepti 
+      <lb ed="#P" n="3"/>sed quia auffertur sibi licentia exequendi actum cu 
+      <lb ed="#P" n="4"/>iuslibet ordinis: si sit depositus simpliciter et omne 
+      <lb ed="#P" n="5"/>priuilegium: qui competit ordinatis: et excluditur 
+      to<lb ed="#P" n="6" break="no"/>taliter a foro ecclesiasticarum personarum et 
+      liber<lb ed="#P" n="7" break="no"/>tate et tutela. vnde et traditur iusticie seculari. Ista 
+      <lb ed="#P" n="8"/>pena nunquam infligitur a iure sed a iudice: licet 
+      iudi<lb ed="#P" n="9" break="no"/>cetur: et dictetur infligenda in iure: infligitur autem 
+      <lb ed="#P" n="10"/>ppter peccata et crimina enormia et manifesta: vt hec 
+      <lb ed="#P" n="11"/>resis extra de hereticis. Ad abolendam vel propter 
+      <lb ed="#P" n="12"/>scisma etra de scismaticis. Ad abstinendos in. vi. lib 
+      <lb ed="#P" n="13"/>vel propter reuelationem confessionis <ref xml:id="qrdBas-f63594-Rd1e315" target="http://scta.info/resource/cice-l5t38-d1e286">exr de 
+      peniten<lb ed="#P" n="14" break="no"/>tiis et remissionibus <quote xml:id="qrdBas-f63594-Qd1e319" source="http://scta.info/resource/cice-l5t38-d1e286@5-7" type="incipit">omnis vtriusque sexus</quote>
+               </ref>. Et forma 
+      <lb ed="#P" n="15"/>secundum quam debet infligi tali pena habetur ex de penis 
+      <lb ed="#P" n="16"/>degradatio et est hodie in sexto libro. Remittitur autem 
+      <lb ed="#P" n="17"/>talis pena depositionis per restitutionem ab eo qui 
+      <lb ed="#P" n="18"/>potest depositum restituere in integrum qui 
+      poni<lb ed="#P" n="19" break="no"/>tur solus papa: licet non legatur quod legitime 
+      depo<lb ed="#P" n="20" break="no"/>situs postea fuerit restitutus.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e337">
+      ¶ Secunda pena est 
+      infa<lb ed="#P" n="21" break="no"/>nia: que est status lese dignitatis quantum ad vitam et 
+      <lb ed="#P" n="22"/>mores: sicut fama est status illese dignitatis quantum ad 
+      <lb ed="#P" n="23"/>vitam et mores. Hec autem lesio dignitatis 
+      diue<lb ed="#P" n="24" break="no"/>simode incurritur. Circa quod est aduertendum quod 
+      <lb ed="#P" n="25"/>non est idem esse infamen et esse infamatum. 
+      Infama<lb ed="#P" n="26" break="no"/>tus enim est qui de aliquo crimine in publico est ad 
+      <lb ed="#P" n="27"/>cusatus: sed nundum propter hoc est infamis: nec 
+      sub<lb ed="#P" n="28" break="no"/>ditur pene infamie: que dicitur pena canonica. sed  
+      <lb ed="#P" n="29"/>infamis est vel propter crimen publicum publice 
+      con<lb ed="#P" n="30" break="no"/>missum propter quod ius determinat aliquem fore 
+      in<lb ed="#P" n="31" break="no"/>famem: et infligit penam infamie: vel quia a iudice 
+      <lb ed="#P" n="32"/>infligitur talis pena. A iudice ( inquam ) coram quo pro 
+      <lb ed="#P" n="33"/>batur tale crimen propter quod infligitur sibi talis 
+      <lb ed="#P" n="34"/>pena: et iudicatur a iudice esse infamis puniendo 
+      <lb ed="#P" n="35"/>tale crimen pena infamie. Sed quandoque ille qui 
+      <lb ed="#P" n="36"/>commisit tale crimen non est conuictus de hoc coram. 
+      <lb ed="#P" n="37"/>ludice: et tunc est tantum infamis a iure. Aliquando 
+      au<lb ed="#P" n="38" break="no"/>tem cum hoc a iudice: puta quando est conuictus de 
+      <lb ed="#P" n="39"/>hoc coram iudice: et infligitur sibi pena ab eodem 
+      iu<lb ed="#P" n="40" break="no"/>dice: et sic dupliciter est infamis. Cause autem propter 
+      <lb ed="#P" n="41"/>quas incurritur a iure vel debet infligi a iudice 
+      ha<lb ed="#P" n="42" break="no"/>bentur in generali. vi. q. 1. vbi dicitur omnes infames 
+      <lb ed="#P" n="43"/>asse dicimus quos leges seculi infames appellant. 
+      <lb ed="#P" n="44"/>ita quod leges seculares punientes crimine infamie  
+      <lb ed="#P" n="45"/>canone approbantur et ille leges habentur de his 
+      <lb ed="#P" n="46"/>qui notantur per totum. Contra infamiam vero 
+      pe<lb ed="#P" n="47" break="no"/>mam praedictam non est remedium quo tollatur: nisi 
+      <lb ed="#P" n="48"/>restitutio in integrum ab eo qui sic potest restituere: 
+      <lb ed="#P" n="49"/>ex de testibus testimonium in glosa arcetur. Et ista 
+      <lb ed="#P" n="50"/>pena infamie grauior est quantum ad vitam 
+      ciui<lb ed="#P" n="51" break="no"/>lem quam depositio. Nisi forte depositio includat istam 
+      <lb ed="#P" n="52"/>quia talis infamia prohibet ab omni actu legitimo 
+      <lb ed="#P" n="53"/>etiam post paractam penitentiam. quia talis persona habetur et 
+      re<lb ed="#P" n="54" break="no"/>putatur vilis extra de regulis iuris: infamibus 
+      por<lb ed="#P" n="55" break="no"/>te dignitatis patere non debent.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e415">
+      ¶ Tertia pena est 
+      <lb ed="#P" n="56"/>excommunicatio maior que ad propositum maxime 
+      pri<lb ed="#P" n="57" break="no"/>tinet. Et debet dici excommunicatio simpliciter. nam 
+      <lb ed="#P" n="58"/>excommunicatio minor non est nisi excommunicatio secundum 
+      <lb ed="#P" n="59"/>quid puta quantum ad exclusionem communionis 
+      fi<lb ed="#P" n="60" break="no"/>delium in sacramentis tantum. sed excommunicatio 
+      maior<lb ed="#P" n="61" break="no"/>simpliciter et excludit a communione fidelium et 
+      <lb ed="#P" n="62"/>participatione ipsorum. Et ista excommunicatio 
+      ali<lb ed="#P" n="63" break="no"/>quando infligitur a iure: aliquando a iudice. A 
+      iure<lb ed="#P" n="64" break="no"/>quidem aliquando erat possibile diceretur numeri 
+      <lb ed="#P" n="65"/>casuum in quibus infligebatur sed modo sunt qua¬ 
+      <!--209.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>si innumerabiles casus: et quotidie variantur vel aus 
+      <lb ed="#P" n="67"/>mentatur numerus eorum sicut et motus capitum 
+      <lb ed="#P" n="68"/>variatur nec oportet super numero determinato 
+      <lb ed="#P" n="69"/>talium casuum implere quaternos. A iudice etiam 
+      <lb ed="#P" n="70"/>non possunt casus computari. hoc tamen dico quod nec 
+      <lb ed="#P" n="71"/>a iure nec a iudice debet infligi nisi pro pctoto mortali: nec 
+      <lb ed="#P" n="72"/>pro quocumque debet infligi: sed pro graui cui etiam 
+      anne<lb ed="#P" n="73" break="no"/>xa est contumacia. quia quandiu aliquis est paratus 
+      sa<lb ed="#P" n="74" break="no"/>tisfacere pro culpa et audit ecclesiam: non est 
+      excommuni<lb ed="#P" n="75" break="no"/>candus nec habendus sicut ethnicus et publicanus. 
+      Pe<lb ed="#P" n="76" break="no"/>na autem ista infligitur illi qui est contumax nec vult 
+      <lb ed="#P" n="77"/>audire ecclesiam. Et relaxatur ista pena per abso 
+      <lb ed="#P" n="78"/>lutionem eius qui tulit sententiam: vel per 
+      superio<lb ed="#P" n="79" break="no"/>rem eius: si est excommunicatio a iudice. Si veroa 
+      <lb ed="#P" n="80"/>iure: tollitur per absolutionem illius qui ius condidit 
+      <lb ed="#P" n="81"/>Nec hoc solum sicut dicunt aliqui: sed secundum eos per 
+      <lb ed="#P" n="82"/>absolutionem cuiuscumque sacerdotis quando condens 
+      <lb ed="#P" n="83"/>ius non reseruat sibi istam absolutionem quod probant per
+      <lb ed="#P" n="84"/>illud capitulum: extra de sententia 
+      excommunica<lb ed="#P" n="85" break="no"/>tionis nuper. Sed ista probatio parum cogit. quia 
+      <lb ed="#P" n="86"/>non sequitur: ille non reseruat absolutionem. ergo 
+      <lb ed="#P" n="87"/>concedit: loquendo de forma sententie etiam 
+      secun<lb ed="#P" n="88" break="no"/>dum iura. quia posse absoluere vel non absoluere 
+      <lb ed="#P" n="89"/>cadit sub illa regula: quod non est concessum 
+      vide<lb ed="#P" n="90" break="no"/>tur esse prohibitum. Non enim videtur alicui 
+      in<lb ed="#P" n="91" break="no"/>feriori absoluendum a sententia lata a superiore: 
+      ni<lb ed="#P" n="92" break="no"/>si sit sibi commissum.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e503">
+      ¶ Quarta pena est irregulari 
+      <lb ed="#P" n="93"/>tas. et ista est inhabilitas ad susceptionem et 
+      excu<lb ed="#P" n="94" break="no"/>tionem quorumcunque ordinum. Ista pena 
+      incurri<lb ed="#P" n="95" break="no"/>tur frequenter a iure. et quasi nunquam vel raro 
+      aiudi<lb ed="#P" n="96" break="no"/>ce: licet a iudice posset infligi. A iure autem incut 
+      <lb ed="#P" n="97"/>ritur ex aliquibus criminibus: et aliquando ex non 
+      <lb ed="#P" n="98"/>criminibus. Crimina specialiter sunt quattuor 
+      per<lb ed="#P" n="99" break="no"/>tinentia ad ordines vel actus eorum. Unum est 
+      sy<lb ed="#P" n="100" break="no"/>monia. aliud est furtum in ordine suscepto. Tertium 
+      <lb ed="#P" n="101"/>ministerium solemne in ordine non suscepto. 
+      Quan<lb ed="#P" n="102" break="no"/>tum contumacia in non seruando penas 
+      ecclesia<lb ed="#P" n="103" break="no"/>sticas vt cum aliquis ministrat in ordinibus vel 
+      su<lb ed="#P" n="104" break="no"/>scipit ordines excommunicatus maiori 
+      excommuni<lb ed="#P" n="105" break="no"/>catione: vel suspensus: vel interdictus: vel 
+      huiusmodi<lb ed="#P" n="106" break="no"/>Et omnes isti casus indigerent longa declarationem 
+      <lb ed="#P" n="107"/>quam pertranseo gratia breuitatis. Similiter ex 
+      tribi<lb ed="#P" n="108" break="no"/>non criminibus incurritur: puta ex illegitimitate: 
+      <lb ed="#P" n="109"/>extra de filiis presbyterorum non ordinandis ex 
+      serui<lb ed="#P" n="110" break="no"/>tute. dist. liiii. et extra de seruis non ordinandis: per 
+      to<lb ed="#P" n="111" break="no"/>tum. Similiter ex enormi vel turpi mutilatione vel 
+      <lb ed="#P" n="112"/>infirmitate: vt habetur extra de corpore vitiatis  
+      <lb ed="#P" n="113"/>non ordinandis. Contrahitur etiam aliquando ex 
+      aliqui<lb ed="#P" n="114" break="no"/>bus: que quandoque sunt crimina: quandoque non: sicut ex 
+      homi<lb ed="#P" n="115" break="no"/>cidio et bigamia. Et sub homicidio continetur 
+      mu<lb ed="#P" n="116" break="no"/>tilatio actiua enormis alterius vel suiipsius. Et 
+      in<lb ed="#P" n="117" break="no"/>tellige de homicidio voluntario precipue. Remit 
+      <lb ed="#P" n="118"/>titur autem pena talis scilicet irregularitas per dispensatio 
+      <lb ed="#P" n="119"/>nem aliquando a solo papa. aliquando ab eiristo secundum quod 
+      <lb ed="#P" n="120"/>irregularitates variantur et vbi dispensatio cadit 
+      <lb ed="#P" n="121"/>quia sicut dicunt quidam: non in omnibus cadit 
+      dispen<lb ed="#P" n="122" break="no"/>satio: sed irregularitas ex homicidio voluntario 
+      <lb ed="#P" n="123"/>solum remittitur per baptismum. sed de isto dicto 
+      <lb ed="#P" n="124"/>non curo. Non video irregularitatem in qua 
+      papa<lb ed="#P" n="125" break="no"/>non possit ex causa et in casu dispensare. quia ipse 
+      <lb ed="#P" n="126"/>est conditor iuris de irregularitate et superior 
+      ple<lb ed="#P" n="127" break="no"/>narius ad quemlibet alium iudicem qui posset eam 
+      <lb ed="#P" n="128"/>infligere. vnde non puto quod sint aliqui irregulares 
+      <lb ed="#P" n="129"/>ex natura rei. quia irregularitas pena est canonica 
+      <lb ed="#P" n="130"/>non naturalis. Est autem ista hena grauior exconi¬ 
+      <!--210.xml-->
+      <pb ed="#P" n="106-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>catione quantum ad hoc quod difficilius tollitur quam 
+      ex<lb ed="#P" n="2" break="no"/>communicatio. Et hoc est signum quod 
+      excommunicatio<lb ed="#P" n="3" break="no"/>simpliciter grauior est. sicut et verum est. quia 
+      excon<lb ed="#P" n="4" break="no"/>municatio excludit ab omni communione alias 
+      li<lb ed="#P" n="5" break="no"/>cita. Sed irregularitas tantum ab his que spectant 
+      <lb ed="#P" n="6"/>ad ordines. Similiter iste pene due scilicet 
+      excom<lb ed="#P" n="7" break="no"/>municatio et irregularitas possunt esse publice vel 
+      <lb ed="#P" n="8"/>priuate. Non sic autem due prime. scilicet 
+      dispositio<lb ed="#P" n="9" break="no"/>et infamia. semper enim sunt publice sicut patet ex 
+      prae<lb ed="#P" n="10" break="no"/>dictis.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e616">
+      ¶ Quinta pena est interdum que est 
+      arta<lb ed="#P" n="11" break="no"/>tio a quibusdam actibus ecclesiasticis exercendis: 
+      <lb ed="#P" n="12"/>vel ab assistendo quibusdam talibus actibus: et hoc 
+      <lb ed="#P" n="13"/>vel simpliciter vel in aliquo loco. Et ista pena licet 
+      <lb ed="#P" n="14"/>quandoque infligatur persone et non loco: quandoque 
+      <lb ed="#P" n="15"/>loco non persone quandoque persone et loco: tamen 
+      com<lb ed="#P" n="16" break="no"/>munius infligetur loco et non personis: nisi dum 
+      im<lb ed="#P" n="17" break="no"/>loco vti scilicet in tali loco non liceat solemniter 
+      celebra<lb ed="#P" n="18" break="no"/>re diuina nec alios interesse. Et contrahitur hec 
+      <lb ed="#P" n="19"/>pena interdicti quandoque a iure: quandoque a iudice. 
+      <lb ed="#P" n="20"/>A iure occurrit exemplum de receptantibus vsura 
+      <lb ed="#P" n="21"/>rios extraneos. A iudice ex causis innumeris: 
+      ta<lb ed="#P" n="22" break="no"/>nen communius propter inobedientiam interdicitur 
+      <lb ed="#P" n="23"/>populus siue locus. Relaxatur autem ista pena per 
+      <lb ed="#P" n="24"/>illum qui ponit interdictum. et quandoque a iure 
+      ex<lb ed="#P" n="25" break="no"/>casibus certis extra de sententiis 
+      excommunicatio<lb ed="#P" n="26" break="no"/>nis. Alma mater ecclesia.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e653">
+      ¶ Sexta pena est 
+      suspen<lb ed="#P" n="27" break="no"/>sio que est prohibitio ab aliquo alias conueniente. et 
+      <lb ed="#P" n="28"/>hoc ad tempus. Et in hoc specialiter distinguitur 
+      <lb ed="#P" n="29"/>hec pena contra aliquas alias. Hec autem 
+      multi<lb ed="#P" n="30" break="no"/>plex est quia quedam est a beneficio. quedam ab 
+      offi<lb ed="#P" n="31" break="no"/>cio. quedam ab ingressu ecclesie. Et quandoque 
+      incur<lb ed="#P" n="32" break="no"/>ritur ipso iure: vt patet extra de sententia et re 
+      iudica<lb ed="#P" n="33" break="no"/>ta: et extra de sententia excommunicationis: 
+      commedi<lb ed="#P" n="34" break="no"/>cinalis: et etiam in suscipiendo ordines ab 
+      episcopo<lb ed="#P" n="35" break="no"/>qui renunciauit loco et dignitati tali. quia talis 
+      ep<lb ed="#P" n="36" break="no"/>scopus executionem non habet: nec confert. et ideo 
+      <lb ed="#P" n="37"/>sic suscipiens suspensus est. patet prima. q. vii. 
+      dal<lb ed="#P" n="38" break="no"/>bertani: et extra. de ordinatis ab episcopo: qui 
+      re<lb ed="#P" n="39" break="no"/>nunciauit. Similiter et de ordinato symoniace: post 
+      <lb ed="#P" n="40"/>quam sibi constitit quod symoniace ordinatus est: quando 
+      <lb ed="#P" n="41"/>prius dum ordinaretur fuit ignorans simpliciter 
+      <lb ed="#P" n="42"/>ignorantia inuincibili: quod symoniace ordinaretur. 
+      <lb ed="#P" n="43"/>Tollitur autem ista pena per relaxationem talis 
+      suspen<lb ed="#P" n="44" break="no"/>sionis factam ab eo: qui tulit eam vel a suo superio 
+      <lb ed="#P" n="45"/>ri. hec de primo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e697">
+               <lb ed="#P" n="46"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="47" break="no"/>ticulum dico quod omnes pene praedicte arcent et 
+      impe<lb ed="#P" n="48" break="no"/>diunt a susceptione vel executione ordinum 
+      quorum<lb ed="#P" n="49" break="no"/>cumque de iure. quia omnibus talibus penis amouetur 
+      <lb ed="#P" n="50"/>ysus ordinum. et habilitas suscipiendi eos. Et 
+      bre<lb ed="#P" n="51" break="no"/>uiter quilibet recipiens ordinem aliquem vel 
+      exe<lb ed="#P" n="52" break="no"/>quens actum alicuius ordinis cum aliqua 
+      predi<lb ed="#P" n="53" break="no"/>ctarum penarum mortaliter peccat: et est inobediens 
+      <lb ed="#P" n="54"/>ecclesie.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e719">
+      ¶ Sicundo dico quod praedicte pene non 
+      impe<lb ed="#P" n="55" break="no"/>diunt: nec tollunt executionem vel susceptionem 
+      or<lb ed="#P" n="56" break="no"/>linum de facto. Si enim cum aliqua praedictarum 
+      po<lb ed="#P" n="57" break="no"/>narum aliquis exequitur ordinem quantum ad 
+      septen<lb ed="#P" n="58" break="no"/>ordines saltem circa eucharistiam: vel suscipit 
+      ordi<lb ed="#P" n="59" break="no"/>nem cum intentione faciendi vel suscipiendi: sicut in 
+      <lb ed="#P" n="60"/>tendit ecclesia: factum est quod facit: et receptum quod 
+      <lb ed="#P" n="61"/>suscipit vel suscipere intendit quantum saltem ad 
+      <lb ed="#P" n="62"/>actus principales ordinum. quod dico quia non est hoc 
+      <lb ed="#P" n="63"/>verum quantum ad actum absoluendi in ordine 
+      sacer<lb ed="#P" n="64" break="no"/>dotii. sicut dictum est supra.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e743">
+      ¶ Tertio dico quod quam¬ 
+      <!--210.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>tum ad primam penam que est degradationis vel 
+      <lb ed="#P" n="66"/>depositionis dubium est: an talis pena de facto 
+      im<lb ed="#P" n="67" break="no"/>pediat collationem ordinum vel de iure tantum. 
+      <lb ed="#P" n="68"/>Et est hoc dubium vtrum scilicet episcopus degrada 
+      <lb ed="#P" n="69"/>tus vel depositus vere ordinet de facto: si attemptet 
+      <lb ed="#P" n="70"/>ordinare. Et de hoc dicunt aliqui quod non. quia ad hoc 
+      <lb ed="#P" n="71"/>non sufficit gradus vel dignitas episcopalis manens 
+      <lb ed="#P" n="72"/>indelebilis: sed requiritur cum hoc iurisditio super 
+      <lb ed="#P" n="73"/>ordinandos. Sicut in foro penitentie requitur iurisa 
+      <lb ed="#P" n="74"/>ditio super absoluendos: et non sufficiunt ad 
+      absol<lb ed="#P" n="75" break="no"/>uendum etiam de facto claues sacerdotales. quia 
+      per<lb ed="#P" n="76" break="no"/>primam penam: puta depositionem vel 
+      degradatio<lb ed="#P" n="77" break="no"/>nem tollitur omnis iurisditio a deposito vel 
+      de<lb ed="#P" n="78" break="no"/>grato. ideo etc. 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e781">
+               <lb ed="#P" n="79"/>¶ eandem conclusionem: sed pro 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e786">
+               <lb ed="#P" n="80"/>¶ Alii dicut bant eam aliter. quia ecundum eos 
+      <lb ed="#P" n="81"/>episcopatus non est ordo: nec est aliquid indelebile / 
+      <lb ed="#P" n="82"/>et quod potest aufferri simpliciter loquendo: et 
+      auffer<lb ed="#P" n="83" break="no"/>tur per degradationem vel depositionem. quare. etc. 
+      <lb ed="#P" n="84"/>primam vlam videtur esse. quia 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e799">
+               <lb ed="#P" n="85"/>¶ Contra ordinatus ab episcopo qui 
+      resi<lb ed="#P" n="86" break="no"/>gnauit loco vel dignitati: et per consequens non habet 
+      <lb ed="#P" n="87"/>iurisditionem episcopalem: vere est ordinatus licet 
+      <lb ed="#P" n="88"/>ab executione ordinis suscepti sit suspensus sicut 
+      <lb ed="#P" n="89"/>dictum est in articulo precedenti et probatum per 
+      <lb ed="#P" n="90"/>quandam decretalem. igitur ad hoc vt de facto 
+      or<lb ed="#P" n="91" break="no"/>dinet aliquis episcopus: vel ordines conferat non 
+      <lb ed="#P" n="92"/>requiritur episcopalis iurisditio: sed sufficit 
+      gradi<lb ed="#P" n="93" break="no"/>et dignitas episcopalis: non quidem iurisditionis 
+      <lb ed="#P" n="94"/>sed ordinis: que manent in episcopo quantumcunque 
+      <lb ed="#P" n="95"/>pegradato vel deposito supposito quod episcopatus 
+      <lb ed="#P" n="96"/>sit ordo: sicut probabiliter superius dicebatur. 
+      un<lb ed="#P" n="97" break="no"/>de non requir itur iurisditio ordinantis super 
+      or<lb ed="#P" n="98" break="no"/>dinatum ad hoc vt ordinetur de facto ipso: sed 
+      ma<lb ed="#P" n="99" break="no"/>gis ad hoc: vt ordinetur de iure. Ex quo patet quod 
+      <lb ed="#P" n="100"/>non est simile de absolutione et ordinatione. 
+      <lb ed="#P" n="101"/>secundam viam 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e838">
+               <lb ed="#P" n="102"/>¶ Similiter contra est istud 
+      idemar<lb ed="#P" n="103" break="no"/>gumentum: et cum hoc vnum aliud. quia sicut dice 
+      <lb ed="#P" n="104"/>batur supra episcopatus ordo est aliquid 
+      perpe<lb ed="#P" n="105" break="no"/>tuo manens indelebile: nec est sola iurisditio 
+      vl<lb ed="#P" n="106" break="no"/>tra sacerdotium: que auferri potest. Patet quia 
+      ali<lb ed="#P" n="107" break="no"/>quis sacerdos existens et electus et confirmatus in 
+      <lb ed="#P" n="108"/>episcopum ac si iurisditionem episcopalem 
+      ha<lb ed="#P" n="109" break="no"/>bens super eos de diocesi nondum propter hoc est 
+      <lb ed="#P" n="110"/>episcopus: nec potest ordinare vel 
+      confirmare<lb ed="#P" n="111" break="no"/>1 michi dicendum quod 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e862">
+               <lb ed="#P" n="112"/>¶ Et ideo videtur prima pena non 
+      im<lb ed="#P" n="113" break="no"/>pedit simpliciter de facto collationem ordinum: sed 
+      <lb ed="#P" n="114"/>episcopus quantumcunque depositus vel degradatus 
+      <lb ed="#P" n="115"/>et etiam hereticus: dum tamen non sit in hoc 
+      here<lb ed="#P" n="116" break="no"/>ticus: sed intendat facere quod facit ecclesia: si 
+      ali<lb ed="#P" n="117" break="no"/>quid facit: dato quod quantumcunque non credat quod ec 
+      <lb ed="#P" n="118"/>clesia facit aliquid: vere ordinat et confert ordines 
+      <lb ed="#P" n="119"/>de facto: si ordinare attemptet. sicut sacerdos vere 
+      <lb ed="#P" n="120"/>consecrat: et conficit quantumcunque depositus vel 
+      <lb ed="#P" n="121"/>etiam degradatus: peccat tamen mortaliter 
+      ordi<lb ed="#P" n="122" break="no"/>nando vel ordines conferendo contra 
+      prohibitio<lb ed="#P" n="123" break="no"/>nem ecclesie velsuperioris ipsum degradantis vel 
+      <lb ed="#P" n="124"/>etiam deponentis vel prohibentis: ne attemptet. 
+      <lb ed="#P" n="125"/>hec de secundo articulo principali 
+      <lb ed="#P" n="126"/>articulum di¬ 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e897">
+               <lb ed="#P" n="127"/>¶ Quantum ad tertium co primo 
+      de<lb ed="#P" n="128" break="no"/>ctate puerili quod etas puerilis non impedit de facto 
+      <lb ed="#P" n="129"/>susceptionem alicuius ordinis etiam quantumcumque sacri¬ 
+      <!--211.xml-->
+      <pb ed="#P" n="107-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Si enim puer quocumque ordine ordinetur: factum est 
+      <lb ed="#P" n="2"/>de facto nec vnquam est reordinandus. Unde potentia 
+      <lb ed="#P" n="3"/>vel potestas ordinis potest precedere actum 
+      mul<lb ed="#P" n="4" break="no"/>ta duratione non solum natura.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e922">
+      ¶ Secundo dico 
+      <lb ed="#P" n="5"/>quod etas puerilis impedit susceptionem ordinis 
+      sa<lb ed="#P" n="6" break="no"/>cri de iure. Et ratio patet. quia in suscipiente talem 
+      <lb ed="#P" n="7"/>ordinem annectitur secundum ius ecclesie romane 
+      <lb ed="#P" n="8"/>votum continentie perpetue. quod quidem votum 
+      <lb ed="#P" n="9"/>requirit etatem discretionis. Et ideo contra 
+      pre<lb ed="#P" n="10" break="no"/>ceptum ecclesie ordinaretur puer in ordinibus 
+      sa<lb ed="#P" n="11" break="no"/>cris.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e940">
+      ¶ Tertio dico quod etas puerilis non 
+      impedi<lb ed="#P" n="12" break="no"/>de iure susceptionem ordinis non sacri. quia non 
+      ip<lb ed="#P" n="13" break="no"/>uenitur prohibitio iuris: ne prueri possint ordina 
+      <lb ed="#P" n="14"/>ri in minoribus ordinibus. Dico tamen quod non est 
+      <lb ed="#P" n="15"/>congruum: quod poueri sic ordinentur. eo quod non 
+      pos<lb ed="#P" n="16" break="no"/>sint recipere ordinis sacramentum cumreuerenti 
+      <lb ed="#P" n="17"/>et attentione debita seu deuotione. Nec sacramen 
+      <lb ed="#P" n="18"/>tum ordinis est sacramentum pruerorum sed 
+      adul<lb ed="#P" n="19" break="no"/>torum et ad antenos discretionis deductorum. 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e960">
+               <lb ed="#P" n="20"/>¶ Quarto dico de sexu muliebri quod simpliciter et 
+      <lb ed="#P" n="21"/>absolute et de facto et de iure excludit a 
+      susceptio<lb ed="#P" n="22" break="no"/>ne cuiuslibet ordinis. Et dico quod hoc est ex 
+      institu<lb ed="#P" n="23" break="no"/>tione christi. quia non est presumendum: quod 
+      ecclesia<lb ed="#P" n="24" break="no"/>priuauerit totum sexum muliebrem a tali dignit 
+      <lb ed="#P" n="25"/>te: nisi quia Christus sic instituit viros scilicet tantum 
+      <lb ed="#P" n="26"/>modo ordinari etiam de facto. Cuius signum est. quod 
+      <lb ed="#P" n="27"/>matrem suam que fuit mulier dignissima nunquam 
+      vo<lb ed="#P" n="28" break="no"/>luit ordinari: nec in ecclesia preferri. Huius autem 
+      <lb ed="#P" n="29"/>statuti apostolus fuit promulgator ad Thimoteum 
+      <lb ed="#P" n="30"/>scribens. mulierem ( inquit ) docere non 
+      permitto<lb ed="#P" n="31" break="no"/>doctrina ( inquam ) publica in ecclesia que pertinet 
+      <lb ed="#P" n="32"/>ad ordinatos. Et ad hoc est ratio: vt distat mulien 
+      <lb ed="#P" n="33"/>subiici iuxta imprecationem dei post lapsum 
+      mu<lb ed="#P" n="34" break="no"/>lieris et viri per ipsam Genesis secundo. sub viri 
+      p<lb ed="#P" n="35" break="no"/>testate eris. Ad hoc est auctoritas vicesima tertia 
+      <lb ed="#P" n="36"/>dist. Sacratas deo feminas vel monachas sacra 
+      <lb ed="#P" n="37"/>vasa vel sacratas pallas contingere incensum 
+      cir<lb ed="#P" n="38" break="no"/>ca altare ferre perlatum est ad apostolicam seden 
+      <lb ed="#P" n="39"/>que omnia reprehentione et vituperatione plens 
+      <lb ed="#P" n="40"/>esse nulli ratione vtenti vel sapienti dubium est. 
+      om<lb ed="#P" n="41" break="no"/>ne ministerium mulieris vituperio plenum est. qua 
+      <lb ed="#P" n="42"/>re. etc. hec de tertio articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f63594-d1e1012">
+               <lb ed="#P" n="43"/>¶ Ad primum principale 
+      ar<lb ed="#P" n="44" break="no"/>gumentum patet ex predictis: quo modo pene 
+      pre<lb ed="#P" n="45" break="no"/>dicte impediunt et quo modo non.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e1021">
+      ¶ Ad secundi 
+      <lb ed="#P" n="46"/>de etate puerili dico: quod non impedit susceptionem 
+      <lb ed="#P" n="47"/>minorum ordinum ex prohibitione iuris: et tamen 
+      <lb ed="#P" n="48"/>ex condecentia et reuerentia debita. Nec est simile 
+      <lb ed="#P" n="49"/>de aliis sacramentis: que sunt maioris necessitat 
+      <lb ed="#P" n="50"/>Nec requiritur attentio nec tanta reuerentia nec 
+      <lb ed="#P" n="51"/>votum continentie eis annexum: sicut et ordinibus 
+      <lb ed="#P" n="52"/>sacris.
+      </p>
+            <p xml:id="qrdBas-f63594-d1e1039">
+      ¶ Ad tertium de sexu muliebri dico: quod 
+      li<lb ed="#P" n="53" break="no"/>cet quantum ad gratiam concedendam et gloriam non 
+      <lb ed="#P" n="54"/>sit distinctio maris et femine serui et liberi: bene 
+      ta<lb ed="#P" n="55" break="no"/>mem quantum ad alia officia et ecclesiasticas 
+      digni<lb ed="#P" n="56" break="no"/>tates est distinctio: in tantum quod mulier nec de fact 
+      <lb ed="#P" n="57"/>nec de iure ordinari potest. seruus autem manens 
+      <lb ed="#P" n="58"/>licet de facto non tamen de iure. quia irregularia 
+      <lb ed="#P" n="59"/>est: eo modo quo magis de seruitute inferius 
+      ap<lb ed="#P" n="60" break="no"/>parebit 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

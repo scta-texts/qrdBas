@@ -1,0 +1,855 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="30-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f15415"><!--l4d8q1 -->
+            <head xml:id="qrdBas-f15415-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f15415-d1e101">
+               <lb ed="#P" n="92"/>¶ Distinctionis. Octaue. 
+      <lb ed="#P" n="93"/>Questio. Prima.
+    </p>
+            <p xml:id="qrdBas-f15415-d1e108">
+               <lb ed="#P" n="94"/>CIrca distinctionem 
+      <lb ed="#P" n="95"/>octauam quero primo vtrum 
+      <lb ed="#P" n="96"/>eucharistia sit sacramentum 
+      no<lb ed="#P" n="97" break="no"/>ue legis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e119">
+      ¶ Uidetur quod non 
+      <lb ed="#P" n="98"/>omne sacramentum noue legis 
+      <lb ed="#P" n="99"/>consistit in rebus et verbis quia 
+      <lb ed="#P" n="100"/>accedit verbum ad eiementum 
+      <lb ed="#P" n="101"/>et fit sacramentum sed 
+      eucha<lb ed="#P" n="102" break="no"/>ristia non consistit in rebus et verbis. manet enim 
+      <lb ed="#P" n="103"/>eucharistia sine verbis ut patet ergo etc.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e135">
+      ¶ Secunde 
+      <lb ed="#P" n="104"/>sic omne sacramentum noue legis: quantum est ex se 
+      cau<lb ed="#P" n="105" break="no"/>sat in aliquo gratiam gratum facientem. sed sic non 
+      <lb ed="#P" n="106"/>est in eucharistia. nam per consecrationem eucharistie 
+      <lb ed="#P" n="107"/>nulla habetur gratia a quocumque: sed tantum habetur 
+      <lb ed="#P" n="108"/>aliqua presentia corporis christi ergo etc.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e149">
+      ¶ 
+      Ter<lb ed="#P" n="109" break="no"/>tio sic. quod non est vnum sacramenium: non est 
+      sacramen<lb ed="#P" n="110" break="no"/>tum quarto methaphisice. sed eucharistia non est 
+      <lb ed="#P" n="111"/>vnum sacramentum patet. nam species panis est vnum 
+      <lb ed="#P" n="112"/>sacramentum distincium a specie vini. et priusquam 
+      com<lb ed="#P" n="113" break="no"/>secretur vinum adoratur christus sub speciebus pa 
+      <lb ed="#P" n="114"/>nis ergo etc. sunt enim illa diuersa signa: sicut et 
+      diuer<lb ed="#P" n="115" break="no"/>sa signata. quare etc 
+      <lb ed="#P" n="116"/>magister in hoc tractatu. Et de 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e169">
+               <lb ed="#P" n="117"/>¶ Contra consecratione distinctione 
+      secun<lb ed="#P" n="118" break="no"/>da in sacramentorum oblationibus. et loquitur de 
+      <lb ed="#P" n="119"/>eucharistia et ibidem non oportet in sacramento domini etc. 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e178">
+               <lb ed="#P" n="120"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e183">
+               <lb ed="#P" n="121"/>¶ Primo ponam rationem vel descriptionem 
+      eu<lb ed="#P" n="122" break="no"/>charistie. et ostendam quod conuenit alicui sacramen 
+      <lb ed="#P" n="123"/>to noue legis. et ponam aliquas conditiones huius 
+      <lb ed="#P" n="124"/>sacramenti in se et in comparatione ad alia 
+      sacra<lb ed="#P" n="125" break="no"/>menta.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e196">
+      ¶ Secundo inquiram de materia huius 
+      sa<lb ed="#P" n="126" break="no"/>cramenti.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e201">
+      ¶ Tertio de forma verborum consecra¬ 
+      <!--60.xml-->
+      <pb ed="#P" n="31-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tionis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e213">
+      ¶ Ultimo ad rationes principales 
+      <lb ed="#P" n="2"/>articulum 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e218">
+               <lb ed="#P" n="3"/>¶ Quantum ad primum dico quid 
+      <lb ed="#P" n="4"/>ucharistia quantum ad rationem nominis potest sio 
+      <lb ed="#P" n="5"/>describi. Eucharistia est signum sensibile vel sacra 
+      <lb ed="#P" n="6"/>mentum corporis christi et sanguinis veraciter 
+      con<lb ed="#P" n="7" break="no"/>tenti sub speciebus panis et vini per consecrationem 
+      <lb ed="#P" n="8"/>factam a sacerdote sub certis verbis cum debita 
+      in<lb ed="#P" n="9" break="no"/>tentione prolatis. ex institutione diuina veraciter si 
+      <lb ed="#P" n="10"/>gnificans corpus christi et sanguinem sub predictis 
+      <lb ed="#P" n="11"/>speciebus realiter et veraciter contineri.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e240">
+      ¶ Ista de 
+      <lb ed="#P" n="12"/>scriptio potest declarari sicut declarabatur 
+      descri<lb ed="#P" n="13" break="no"/>ptio baptismi: quantum ad aliquas conditiones que 
+      <lb ed="#P" n="14"/>ponuntur in ipsa similes cum aliis positis in 
+      descri<lb ed="#P" n="15" break="no"/>ptione baptismi. Et ideo declaro ipsam solum 
+      quan<lb ed="#P" n="16" break="no"/>tum ad conditiones speciales isti sacramento. 
+      Pri<lb ed="#P" n="17" break="no"/>ma est quod eucharistia est signum corporis et sanguinis 
+      <lb ed="#P" n="18"/>christi contenti sub speciebus panis et vini. Hic 
+      tan<lb ed="#P" n="19" break="no"/>gitur per se signatum huius signati vel sacramenti 
+      <lb ed="#P" n="20"/>quod est duplex vnum scilicet corpus christi verum includens 
+      <lb ed="#P" n="21"/>carnem et ossa et huiusmodi quod quidem corpus per 
+      <lb ed="#P" n="22"/>se primo continetur sub specie panis: et omnia alia 
+      chri<lb ed="#P" n="23" break="no"/>sto intrinseca per concomitantiam ad ipsum. Sanguis 
+      <lb ed="#P" n="24"/>autem ipsius per se primo continetur sub specie vini 
+      <lb ed="#P" n="25"/>tanquam per se primo signatum: et alia secundario 
+      ma<lb ed="#P" n="26" break="no"/>gis et per concomitantiam ad ipsum. sed dicitur quod 
+      sub<lb ed="#P" n="27" break="no"/>speciebus panis et vini non sub aliis. quia panis et 
+      v<lb ed="#P" n="28" break="no"/>num eo modo quo dicetur infra: sunt propria 
+      mate<lb ed="#P" n="29" break="no"/>ria consecrationis sacramenti huius Et istorum 
+      acci<lb ed="#P" n="30" break="no"/>dentia manent facta transubstantione panis et 
+      vini<lb ed="#P" n="31" break="no"/>in corpus et sanguinem christi. sub quibus accidenti 
+      <lb ed="#P" n="32"/>bus que hic species appellantur veraciter et 
+      reali<lb ed="#P" n="33" break="no"/>ter existit: et continetur corpus et sanguis christi ad 
+      <lb ed="#P" n="34"/>vnam perfectam spiritualem anime refectionem 
+      se<lb ed="#P" n="35" break="no"/>cundum rationem cibi et potus. Sed dicitur vltra quod 
+      <lb ed="#P" n="36"/>hoc est per consecrationem factam a sacerdote.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e297">
+      ¶ 
+      Ex<lb ed="#P" n="37" break="no"/>quo patet quod solus sacerdos potest boc sacramentum 
+      <lb ed="#P" n="38"/>conficere. et nullus non sacerdos hoc potest ex 
+      in<lb ed="#P" n="39" break="no"/>stitutione diuina.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e306">
+      ¶ Sed dicitur vltra sub certis 
+      <lb ed="#P" n="40"/>verbis de quibus verbis habebitur infra in tertio at 
+      <lb ed="#P" n="41"/>ticulo principali.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e313">
+      ¶ De istis autem verbis dicunt 
+      ali<lb ed="#P" n="42" break="no"/>qui quod non pertinent intrinsece ad essentiam huius 
+      sa<lb ed="#P" n="43" break="no"/>cramenti: quia sacrametum hoc manet et existit non 
+      ma<lb ed="#P" n="44" break="no"/>uentibus verbis: liet non haberetur sacramentum nisi 
+      <lb ed="#P" n="45"/>precedentibus verbis. Et in hoc differt hoc sacra 
+      <lb ed="#P" n="46"/>mentum ab aliis. quia nullum sic manet sine verbis vel 
+      <lb ed="#P" n="47"/>post verba. et ipsa verba in aliis sacramentis perti 
+      <lb ed="#P" n="48"/>nent ad essentiam sacramenti non sic autem in isto. Et 
+      <lb ed="#P" n="49"/>hoc est rationabile. quia cum hoc sacramentum sit 
+      ma<lb ed="#P" n="50" break="no"/>siuum: dicunt quod nihil successiuum cuiusmodi sunt 
+      <lb ed="#P" n="51"/>verba potest intrinsece pertinere ad ipsum. Alia 
+      ve<lb ed="#P" n="52" break="no"/>ro non sunt mansiua. vnde dicunt quod verba non sunt 
+      <lb ed="#P" n="53"/>forma huius sacramenti. sed magis sunt forma 
+      con<lb ed="#P" n="54" break="no"/>secrationis et confectionis sacramenti. vnde nec sic 
+      <lb ed="#P" n="55"/>sunt verba sacramentalia: sicut in aliis sacramentis 
+      <lb ed="#P" n="56"/>vtiam patet ex dictis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e349">
+      ¶ Si queratur ab eis quid est 
+      <lb ed="#P" n="57"/>forma in hoc sacramento. Dicunt quod species sunt 
+      for<lb ed="#P" n="58" break="no"/>ma ipsa. et non oportet ibi dare materiam eo modo quo 
+      <lb ed="#P" n="59"/>in aliis sacramentis materia distinguitur a forma 
+      <lb ed="#P" n="60"/>puta a verbis intrinsece pertinentibus ad alia 
+      sa<lb ed="#P" n="61" break="no"/>cramenta. quia verba ad essentiam huius sacramenti 
+      <lb ed="#P" n="62"/>pertinere non possunt: sicut probatum est supra. 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e365">
+               <lb ed="#P" n="63"/>¶ Aliter tamen dicitur ab aliis: quod cum verba sacramen 
+      <lb ed="#P" n="64"/>talia consecrationis huius sacramenti sint efficaci 
+      <lb ed="#P" n="65"/>ter significatiua effectus huius sacramenti suo mo¬ 
+      <!--60.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>do sicut verba aliorum sacramentorum: oportet 
+      di<lb ed="#P" n="67" break="no"/>cere quod intrinsece pertineant ad rationem et ad 
+      ma<lb ed="#P" n="68" break="no"/>teriale ipsius sacramenti. et in illo materiali potest 
+      <lb ed="#P" n="69"/>dici forma suo modo: sicut in aliis sacramentis. 
+      Perti<lb ed="#P" n="70" break="no"/>nent ergo ad sacramentum in suo fieri. saltem licet 
+      <lb ed="#P" n="71"/>non in suo esse et manere: sicut bene dicunt. Sed 
+      di<lb ed="#P" n="72" break="no"/>cerent isti quod non manet completa ratio sacramenti 
+      <lb ed="#P" n="73"/>purantibus et manentibus speciebus tantum 
+      posi<lb ed="#P" n="74" break="no"/>verba: sed quantum ad quid sacramenti: puta quantum 
+      <lb ed="#P" n="75"/>ad species que non habent completam rationem 
+      sa<lb ed="#P" n="76" break="no"/>cramenti. ratio enim sacramenti noue legis 
+      inclu<lb ed="#P" n="77" break="no"/>dit verba et rem vel res. Accedit enim verbum ad 
+      <lb ed="#P" n="78"/>elementum: et fit sacramentum: vnde et verba illa ad 
+      <lb ed="#P" n="79"/>sacramentum istud pertinent: sicut etiam verba in aliis 
+      <lb ed="#P" n="80"/>sacramentis suo modo. Alia vero que ponuntur in 
+      <lb ed="#P" n="81"/>descriptione satis patent. Sic igitur patet ratio 
+      no<lb ed="#P" n="82" break="no"/>minis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e415">
+      ¶ Secundo dico quantum ad hunc articulum 
+      <lb ed="#P" n="83"/>quod ista ratio nominis non est impossibilis nec in 
+      se<lb ed="#P" n="84" break="no"/>falsa includens contradictionem. sed omnia ista que 
+      di<lb ed="#P" n="85" break="no"/>cta sunt ibi vel posita sunt possibilia. Et ita dico 
+      <lb ed="#P" n="86"/>quod possibile fuit deo instituere tale sacramentum: et 
+      <lb ed="#P" n="87"/>ipsum de facto instituit: sicut habetur mathei. xxvl. 
+      <lb ed="#P" n="88"/>et luce. xxii. et in aliis euangelistis. vnde dico quod 
+      eu<lb ed="#P" n="89" break="no"/>charistia est sacramentum euangelicum: et per 
+      consi<lb ed="#P" n="90" break="no"/>quens noue legis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e435">
+      ¶ Quod autem congrue fuerit 
+      insti<lb ed="#P" n="91" break="no"/>tutum. patet tum quia congruum est christum esse cum 
+      <lb ed="#P" n="92"/>ecclesia militante sub tali siguo sensibili ad 
+      excitan<lb ed="#P" n="93" break="no"/>dum reuerentiam et deuotionem ad ipsum et 
+      exerci<lb ed="#P" n="94" break="no"/>tium circa ipsum. Quod patet de facto: quia tota deuo 
+      <lb ed="#P" n="95"/>tio ecclesie quasi versatur circa istud sacramentum 
+      <lb ed="#P" n="96"/>et ordinatur ad ipsum. Tum quia congruum fuit 
+      posi<lb ed="#P" n="97" break="no"/>sacramentum generationis baptismalis 
+      conferri<lb ed="#P" n="98" break="no"/>sacramentum nutrimenti et augmenti spiritualis: 
+      <lb ed="#P" n="99"/>sicut est istud sacramentum altissimum. et sub 
+      spec<lb ed="#P" n="100" break="no"/>ciebus nutrimenti corporalis: quod precipue consistit 
+      <lb ed="#P" n="101"/>in pane et vino sicut patet. fuit etiam congruum: vt 
+      <lb ed="#P" n="102"/>signum sensibile sub quo christus vult nobiscum esse 
+      <lb ed="#P" n="103"/>presens ordinem haberet ad aliqua verba et 
+      mini<lb ed="#P" n="104" break="no"/>strum idoneum: vt sciretur quando et per cuius 
+      ministe<lb ed="#P" n="105" break="no"/>rium esset christus sub tali siguo sensibili: ne peri 
+      <lb ed="#P" n="106"/>ret reuerentia ad ipsum sacramentum. Et decuit 
+      <lb ed="#P" n="107"/>quod minister huius sacramenti non esset infimi 
+      gra<lb ed="#P" n="108" break="no"/>dus in ecclesia: sed gradus magis excellentis: 
+      cu<lb ed="#P" n="109" break="no"/>iusmodi est gradus sacerdotis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e479">
+      ¶ Tertio quantum 
+      <lb ed="#P" n="110"/>ad hunc articulum dico quod sacramentum 
+      euchari<lb ed="#P" n="111" break="no"/>stie est nobilissimum sacramentum. quod patet quia 
+      conti<lb ed="#P" n="112" break="no"/>net gratiam per essentiam christum verum deum 
+      incar<lb ed="#P" n="113" break="no"/>natum. alia vero quodam modo gratiam habitualem 
+      <lb ed="#P" n="114"/>et accidentalem gratum facientem. vnde et gratis 
+      <lb ed="#P" n="115"/>inuisibilis cuius sacramentum eucharistie in suo 
+      <lb ed="#P" n="116"/>fieri est causa: non est gratia habitualis informans 
+      <lb ed="#P" n="117"/>data de nouo alicui: sicut in aliis sacramentis: sed 
+      <lb ed="#P" n="118"/>est donum dei gratis datum christus ipse 
+      veraci<lb ed="#P" n="119" break="no"/>ter et realiter existens sub speciebus illis: licet 
+      bene<lb ed="#P" n="120" break="no"/>etiam in susceptione sua hoc sacramentum conferat 
+      <lb ed="#P" n="121"/>gratiam suscipienti: sicut alia sacramenta suo 
+      mo<lb ed="#P" n="122" break="no"/>do. Sic istud sacramentum nunquam frustratur a sud 
+      <lb ed="#P" n="123"/>effectu principali: sed semper intallibiliter ad pro 
+      <lb ed="#P" n="124"/>lationem talium verborum cum debita intentione 
+      <lb ed="#P" n="125"/>super materiam debitam sit corpus christi presens 
+      <lb ed="#P" n="126"/>sub ipsis speciebus. Alia vero sacramenta 
+      frequen<lb ed="#P" n="127" break="no"/>ter frustrantur a suo effectu principali: puta a 
+      gra<lb ed="#P" n="128" break="no"/>tia in suscipientibus propter obicem qui in suscipien 
+      <lb ed="#P" n="129"/>tibus frequenter inuenitur. Similiter istud 
+      sacra<lb ed="#P" n="130" break="no"/>mentum manet quantum ad illas species post suum fia¬ 
+      <!--61.xml-->
+      <pb ed="#P" n="32-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ri et vsum: sicut patet. sed nullum aliud 
+      sacramen<lb ed="#P" n="2" break="no"/>tum sic manet. Non enim sic manet baptismus vel 
+      hu<lb ed="#P" n="3" break="no"/>iusmodi: sicut eucharistia: vt patet.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e540">
+      ¶ Similiter 
+      quan<lb ed="#P" n="4" break="no"/>to istud sacramentum in suo esse copleto tantam 
+      vni<lb ed="#P" n="5" break="no"/>tatem non habet: sicut alia sacramenta quantum ad 
+      <lb ed="#P" n="6"/>suum materiale: quia quodlibet aliud sacramentum sic 
+      <lb ed="#P" n="7"/>est vnum in suis sensibilibus et materialibus quod 
+      neu<lb ed="#P" n="8" break="no"/>trum ipsorum per se est sacramentum: nec pars sacra 
+      <lb ed="#P" n="9"/>menti: sed ambo concurrunt necessario ad hoc vt sit 
+      <lb ed="#P" n="10"/>sacramentum vel aliquid sacramenti. sic autem non 
+      <lb ed="#P" n="11"/>est hic. Nam quelibet species per seipsam etiam est 
+      sa<lb ed="#P" n="12" break="no"/>cramentum vel pars sacramenti potest esse sine alia 
+      <lb ed="#P" n="13"/>sicut patet. alioquin esset idolatria adorare hostiam 
+      <lb ed="#P" n="14"/>ante consecrationem sanguinis. Et patet quod vna potest 
+      <lb ed="#P" n="15"/>manere et esse sine alia.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e570">
+      ¶ Est igitur hoc sacramen 
+      <lb ed="#P" n="16"/>tum quantum ad materiale vnum vnitate ordinis 
+      ve<lb ed="#P" n="17" break="no"/>integritatis cuiusdam in significando perfecte et 
+      <lb ed="#P" n="18"/>distincte corpus et sanguinem christi: que pertinent ad 
+      <lb ed="#P" n="19"/>refectionem perfectam et integram anime 
+      suscipien<lb ed="#P" n="20" break="no"/>tis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e583">
+      ¶ Circa quod notandum quod corpus christi 
+      vno<lb ed="#P" n="21" break="no"/>modo potest accipi et significari potest prout est 
+      sub<lb ed="#P" n="22" break="no"/>stantia includens tantum partes animabiles vel 
+      ani<lb ed="#P" n="23" break="no"/>matas anima ipsius christi: et vt sic contra sangui 
+      <lb ed="#P" n="24"/>nem distinguitur. qui quidem sanguis non est 
+      ani<lb ed="#P" n="25" break="no"/>matus vel animabilis: nec est caro licet sit in 
+      proxi<lb ed="#P" n="26" break="no"/>ma dispositione ad carnem. Et sic per se primo 
+      si<lb ed="#P" n="27" break="no"/>gnificatur per species panis. et sanguis per species 
+      <lb ed="#P" n="28"/>vinirlibet totum contineatur de facto sub vtraque 
+      specie<lb ed="#P" n="29" break="no"/>per concomitantiam. vnde et si in trtduo mortis christ 
+      <lb ed="#P" n="30"/>fuisset confectum corpus christi et sanguis sub 
+      specieb<lb ed="#P" n="31" break="no"/>panis: ita fuisset corpus illo modo acceptum quod non 
+      <lb ed="#P" n="32"/>fuisset ibi sanguis. et ita sub speciebus vini fuisset 
+      <lb ed="#P" n="33"/>sanguis: quod non corpus: quia nec sanguis continebatur 
+      <lb ed="#P" n="34"/>tunc a corpeare. sed erat effusus extra corpus.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e616">
+      ¶ Alio 
+      <lb ed="#P" n="35"/>modo corpus christi vt dispositum ad animam et 
+      in<lb ed="#P" n="36" break="no"/>cludens omnia ad animam requisita pertinentia ad 
+      <lb ed="#P" n="37"/>ipsum siue sint partes organice animate vel anima 
+      <lb ed="#P" n="38"/>biles siue non siue aliqua in ipso contenta huiusme 
+      <lb ed="#P" n="39"/>di: vt sunt humores et talia. Et sic includit sanguit 
+      <lb ed="#P" n="40"/>nem: nec vt sic per se primo continetur sub speciebus 
+      <lb ed="#P" n="41"/>pani. licet viuente christo et corpore ipsius animato omnia 
+      <lb ed="#P" n="42"/>ibi contineantur.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e636">
+      ¶ Accipiendo ergo primo corpus 
+      <lb ed="#P" n="43"/>et sanguinem: patet quod sunt diuersa signata a diuersis 
+      <lb ed="#P" n="44"/>speciebus primo signata: et constituentia vnum 
+      to<lb ed="#P" n="45" break="no"/>tale signatum sicut partes integrales: quod est 
+      cor<lb ed="#P" n="46" break="no"/>pus secundo modo acceptum. et sic etiam suo modo ille 
+      <lb ed="#P" n="47"/>plures species panis scilicet et vini concurrunt ad vnum 
+      <lb ed="#P" n="48"/>totale et perfectum seu completum sacramentum tota 
+      <lb ed="#P" n="49"/>litate et vnitate integritatis cuiusdam vel ordinis 
+      <lb ed="#P" n="50"/>modo quo dictum est supra. sic quod licet quelibet species 
+      <lb ed="#P" n="51"/>sit aliquid sacramenti. neutra tamen per se est completum 
+      <lb ed="#P" n="52"/>et perfectum sacramentum. Hec de primo articulo. 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e660">
+               <lb ed="#P" n="53"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="54" break="no"/>scilicet de materia consecrationis huius sacramenti dico 
+      <lb ed="#P" n="55"/>uantum ad materiam consecrationis corporis: quod 
+      <lb ed="#P" n="56"/>est panis triticeus coagulatus de farina triticea et 
+      <lb ed="#P" n="57"/>aqua naturali elementari. Et ratio est precisa. quia sic 
+      <lb ed="#P" n="58"/>christus instituit: et in tali pane confecit. Per hoc quod 
+      <lb ed="#P" n="59"/>dicitur panis: patet quod nec in aliquo alio quam in pane: 
+      <lb ed="#P" n="60"/>nec in pasta cruda que nondum est panis potest 
+      com<lb ed="#P" n="61" break="no"/>fici: licet pasta et panis specie non differant. Per hoc 
+      <lb ed="#P" n="62"/>quod dicitur triticeus patet: quia in nullo pane qui non 
+      <lb ed="#P" n="63"/>est de tritico: potest confici. vnde nec in pane de 
+      or<lb ed="#P" n="64" break="no"/>deo: nec de aliquo grano alterius speciei potest com¬ 
+      <!--61.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>fici. vnde et si spelta sit alterius speciei a tritico: sicut 
+      <lb ed="#P" n="66"/>multum videtur probabile: in pane de spelta non 
+      po<lb ed="#P" n="67" break="no"/>test confici. Si autem est eiusdem speciei: sicut etiam 
+      pro<lb ed="#P" n="68" break="no"/>babiliter videtur aliquibus: potest in ipso 
+      confici<lb ed="#P" n="69" break="no"/>Ex hoc etiam quod dicitur coagulatus: patet quod in farina 
+      <lb ed="#P" n="70"/>quantumcunque triticea non potest confici. Et 
+      simili<lb ed="#P" n="71" break="no"/>ter etiam quia farina nondum coagulata non est panis. 
+      <lb ed="#P" n="72"/>Sed oportet vlterius quod ex aqua naturali. vnde si 
+      coagu<lb ed="#P" n="73" break="no"/>laretur farina vino vel aliquo liquore alterius 
+      spe<lb ed="#P" n="74" break="no"/>ciei: non posset in ipsa confici: nec in tali pane sic 
+      <lb ed="#P" n="75"/>coagulato 
+      <lb ed="#P" n="76"/>vtrum requiratur quod panis sit fermen 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e719">
+               <lb ed="#P" n="77"/>¶ Sedn tatus vel amimus dicunt greci quod 
+      ne<lb ed="#P" n="78" break="no"/>cessario oportet panem esse fermentatum. vnde et tenent 
+      <lb ed="#P" n="79"/>quod latini non conficiunt. quia in aimo conficere volunt 
+      <lb ed="#P" n="80"/>dicunt enim quod christus instituit sic: et ipsum sacramentum 
+      <lb ed="#P" n="81"/>confecit in fermentato. hoc autem probant per multas  
+      <lb ed="#P" n="82"/>auctoritates scripture. Nam christus secundum ipsos passus 
+      <lb ed="#P" n="83"/>est luna. xiiii. vt impleretur figura legis de agno 
+      pa<lb ed="#P" n="84" break="no"/>schali: qui immolabatur luna. xiiii. Planum est 
+      au<lb ed="#P" n="85" break="no"/>tem quod die precedente passionem suam ipse christus hoc 
+      sa<lb ed="#P" n="86" break="no"/>cramentum constituit. et ideo preuenit comedere agnum 
+      <lb ed="#P" n="87"/>paschalem luna. xiii. Tunc autem luna scilicet xiii. 
+      fermenta<lb ed="#P" n="88" break="no"/>tus panis apud iudeos erat in vsu. non autem 
+      ami<lb ed="#P" n="89" break="no"/>mus adhuc. et sic christus confecit in fermentato.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e751">
+      ¶ Hoc 
+      <lb ed="#P" n="90"/>probant primo per illud. Io. xviii. vbi dicitur quod 
+      iu<lb ed="#P" n="91" break="no"/>dei non introierunt in pretorium pilati: vt non 
+      conta<lb ed="#P" n="92" break="no"/>taminarentur sed manducarent pascha. pascha autem 
+      <lb ed="#P" n="93"/>hic acci pitur pro agno paschali: qui debebat 
+      mai<lb ed="#P" n="94" break="no"/>ducari luna. xiiii. ad vesperam diei. ergo luna. xiium 
+      <lb ed="#P" n="95"/>passus est christus: et traditus est pilato. et per consequens 
+      <lb ed="#P" n="96"/>luna. xiii. comedit agnum paschalem. et sic confecit in 
+      <lb ed="#P" n="97"/>fermentato.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e771">
+      ¶ Secundo per illud Ioam. xiii. vbi dicit quod 
+      <lb ed="#P" n="98"/>ante diem festum pasche etc. Et sequitur totum illud de 
+      <lb ed="#P" n="99"/>cena et institutione eucharistie. sed diem festum 
+      pasche<lb ed="#P" n="100" break="no"/>ibi accipit pro die in quo manducabatur agnus 
+      pac<lb ed="#P" n="101" break="no"/>schalis. Et sic fecit illa: que ibi dicuntur luna. xiii. 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e782">
+               <lb ed="#P" n="102"/>¶ Tertio per illud Mathei. xxvi. dicitur ibi quod 
+      iu<lb ed="#P" n="103" break="no"/>dei concordauerunt occidere christum dicentes. non in 
+      die<lb ed="#P" n="104" break="no"/>festo: qui dies festus principalis erat luna. xy. 
+      nu<lb ed="#P" n="105" break="no"/>merorum. xx viii. Dicitur enim ibi. xiiii. die mensis 
+      primi<lb ed="#P" n="106" break="no"/>phase celebrabitis. et. x7. die solemnias supple 
+      prin<lb ed="#P" n="107" break="no"/>cipalis. Sed sicut concordauerunt ita et perfecerunt. 
+      <lb ed="#P" n="108"/>igitur non occiderunt eum luna. xy. sed. xiiii. ergo etc. 
+      <lb ed="#P" n="109"/>grecorum falsa est. dico 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e802">
+               <lb ed="#P" n="110"/>¶ Sed opinio. enim primo contra eos quod 
+      <lb ed="#P" n="111"/>christus passus fuit luna. xy. et per consequens fecit cens 
+      <lb ed="#P" n="112"/>et instituit sacramentum luna. xiiii. hoc probatur ex 
+      <lb ed="#P" n="113"/>presse per illud Mathei. xx vi. vbi dicitur quod 
+      prima<lb ed="#P" n="114" break="no"/>die am imorum quesiuerunt discipuli: vbi vis paremus 
+      <lb ed="#P" n="115"/>tibi manducare vel comedere pascha. Et Marcim 
+      <lb ed="#P" n="116"/>xiiii. prima die amimorum quando pasca immolabant: 
+      dixe<lb ed="#P" n="117" break="no"/>runt. quo vis eamus: et paremus vt manduces 
+      pa<lb ed="#P" n="118" break="no"/>scha. Et luce. xxii. venit dies amimorum. in qua 
+      ne<lb ed="#P" n="119" break="no"/>cesse erat comedere vel occidi pascha. Et vbi 
+      dici<lb ed="#P" n="120" break="no"/>mus quod christus commisit discipulos dicens: euntes 
+      para<lb ed="#P" n="121" break="no"/>te nobis: vt manducemus pascha. et libi semper 
+      accipi<lb ed="#P" n="122" break="no"/>tur pascha pro agno paschali.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e833">
+      ¶ Ex quibus omni 
+      <lb ed="#P" n="123"/>bus patet. quod prima die amimorum scilibet luna. xiiii. 
+      come<lb ed="#P" n="124" break="no"/>dit christus agnum paschalem. Iuxta illud 
+      preallega<lb ed="#P" n="125" break="no"/>tum numerorum. xxviii. Et ita recte die et hora qua 
+      <lb ed="#P" n="126"/>debuit comedi agnus paschalis: comedit ipsum christus 
+      <lb ed="#P" n="127"/>scilicet luna. xiiii. ad vesperam diei et in crastino fuit occi 
+      <lb ed="#P" n="128"/>sus scilicet in. xy. luna in die solemnitatis paschalis que 
+      <lb ed="#P" n="129"/>dies erat prima solemnis integra.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e851">
+      ¶ Ex his appa¬ 
+      <!--62.xml-->
+      <pb ed="#P" n="32-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ret simpliciter: quod christus non confecit in fermentato. sed  
+      <lb ed="#P" n="2"/>probabilius dici potest quod in amimo. iudei enim tunc 
+      <lb ed="#P" n="3"/>amimis vtebantur.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e868">
+      ¶ Ex hoc dico tertio: quod non est 
+      <lb ed="#P" n="4"/>necessarium conficere in fermentato: sed 
+      rationabi<lb ed="#P" n="5" break="no"/>ius conficitur in am imo. potest tamen absolute loquendo 
+      <lb ed="#P" n="6"/>confici in amimo vel in fermentato. quia christus instituit. 
+      <lb ed="#P" n="7"/>ita quod de necessitate panis consecrabilis non est: quod sit 
+      <lb ed="#P" n="8"/>fermentatus: vel quod sit amimus. licet probabilius 
+      creda<lb ed="#P" n="9" break="no"/>tur: quod christus confecerit in azimo. sed in vtraque potest 
+      com<lb ed="#P" n="10" break="no"/>fici. Et azimus et fermentatum substantialiter et 
+      spe<lb ed="#P" n="11" break="no"/>cifice non differunt secundum Anselmum in libello suo de 
+      <lb ed="#P" n="12"/>amimo et fermentato. Et ideo non nego ipsos grecos 
+      <lb ed="#P" n="13"/>veraciter conficere. licet vnitas specifica non sit cogens 
+      <lb ed="#P" n="14"/>argumentum: sicut nec supna de pasta et pane: si tame 
+      <lb ed="#P" n="15"/>ista sunt eiusdem speciei. Quod patet etiam: quia tempore 
+      <lb ed="#P" n="16"/>leonis pape fuit constitutum: quod conficeretur in 
+      fermen<lb ed="#P" n="17" break="no"/>tato: sed hoc fuit ad tempus ad extinguendum heresim 
+      <lb ed="#P" n="18"/>hebyonitarum: qui dicebant: quod necessarium erat christia 
+      <lb ed="#P" n="19"/>nos iudaimare. et per consequens pascha suum in 
+      ami<lb ed="#P" n="20" break="no"/>mo conficere: sicut fecerunt iudei. Et ad extinctionem 
+      <lb ed="#P" n="21"/>huius heresis fuit ordinatum conficere in fermentato 
+      <lb ed="#P" n="22"/>Cessante vero illa heresi rediit ecclesia occidentalis 
+      <lb ed="#P" n="23"/>ad primam consuetudinem: que est conformis 
+      institutioni<lb ed="#P" n="24" break="no"/>christi et promulgationi facte per eius vicarium petrum. 
+      <lb ed="#P" n="25"/>Non est igitur de necessitate sacramenti conficere 
+      in<lb ed="#P" n="26" break="no"/>amimo. sed hoc est de necessitate ministri in ecclesia 
+      <lb ed="#P" n="27"/>latina. Et forte etiam grauiter peccant greci qui non 
+      <lb ed="#P" n="28"/>conformant se ecclesie petri: maxime cum hic habeatur 
+      <lb ed="#P" n="29"/>fundamentum solidum: quia sic christus iustituit hoc sacra 
+      <lb ed="#P" n="30"/>mentum celebiandum sicut superius est probatum. i 
+      <lb ed="#P" n="31"/>non sic necessario: quin aliter possit fieri: et in 
+      fermen<lb ed="#P" n="32" break="no"/>tato celebrari 
+      <lb ed="#P" n="33"/>auctoritates grecorum soluendas: notan¬ 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e936">
+               <lb ed="#P" n="34"/>¶ Alsdum: quod secundum innocentium de officio misse 
+      <lb ed="#P" n="35"/>parte. iii. cap. iiii. pascha multiciter accipitur. 
+      vne<lb ed="#P" n="36" break="no"/>modo pro solemnitate amimorum: que dies erat luna 
+      <lb ed="#P" n="37"/>xy. primi mensis. secundo pro die in cuius vespere 
+      come<lb ed="#P" n="38" break="no"/>debaturi ignus paschalis. qui erat luna. xiiii. 
+      ter<lb ed="#P" n="39" break="no"/>tio pro hora determinata immolationis agni: quae erat 
+      <lb ed="#P" n="40"/>pars illius diei. xiiii. lune. quarto pro ipso agno qu 
+      <lb ed="#P" n="41"/>comedebatur et immolabatur. quinto modo pro 
+      pa<lb ed="#P" n="42" break="no"/>nibus amimis: qui comedebantur per totum tempus 
+      <lb ed="#P" n="43"/>solemnitatis amimorum. Ad propositum dico ad primam 
+      <lb ed="#P" n="44"/>auctoritatem. Ioan. x viii. quod ibi accipitur pascha non 
+      <lb ed="#P" n="45"/>pro agno paschali: sed pro pane azimo quem 
+      come<lb ed="#P" n="46" break="no"/>dere debebant ipso die solemnitatis pasche que erat 
+      <lb ed="#P" n="47"/>luna. xy.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e969">
+      ¶ Ad secundam dico: quod non accipitur ibi 
+      pa<lb ed="#P" n="48" break="no"/>scha pro die in qua immolabatur agnus: sed pro 
+      die<lb ed="#P" n="49" break="no"/>solemnitatis luna. xy. et sic die precedente lunam. xv. scilic 
+      <lb ed="#P" n="50"/>lunam. xiiii fuerunt illa facta.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e978">
+      ¶ Ad tertiam que 
+      ma<lb ed="#P" n="51" break="no"/>gis videtur cogere dico: quod iudei non perfecerunt si 
+      <lb ed="#P" n="52"/>cut concordauerant quantum ad tempus vel dien: sed in 
+      die<lb ed="#P" n="53" break="no"/>festo luna. xy. quam putauerunt vitare: ne fieret tu 
+      <lb ed="#P" n="54"/>multus in populo christus mortuus est: et passus. et 
+      tu<lb ed="#P" n="55" break="no"/>multus magnus factus est in populo: sicut patet 
+      atte<lb ed="#P" n="56" break="no"/>denti.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e994">
+      ¶ Ad figuram vero de agno paschali: qui in 
+      <lb ed="#P" n="57"/>molabatur luna. xiiii. et figurabat christum dico: quod non 
+      <lb ed="#P" n="58"/>fuit figura mortis christi quantum ad tempus determinatum 
+      <lb ed="#P" n="59"/>occisionis agni litet bene quantum ad occisionem et agnum 
+      <lb ed="#P" n="60"/>vel forte magis ad propositum dico. quod illa fuit 
+      figu<lb ed="#P" n="61" break="no"/>ra immolationis christi in sacramento altaris: quod fuit 
+      <lb ed="#P" n="62"/>institutum luna. xiiii. sicut patet ex predictis. 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1010">
+               <lb ed="#P" n="63"/>¶ De materia confectionis ipsius sanguinis dico 
+      <lb ed="#P" n="64"/>quod est vinum de vite naturale de vua vel botro 
+      ex<lb ed="#P" n="65" break="no"/>pressum. quia pars nutritionis quantum ad potum prin¬ 
+      <!--62.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>cipaliter consistit in tali vino. vnde patet: quod aliud 
+      vi<lb ed="#P" n="67" break="no"/>num naturale puta vinum pomorum vel huiusmodi: nec 
+      <lb ed="#P" n="68"/>aliquod vinum artificiale: nec vinum etiam non 
+      expres<lb ed="#P" n="69" break="no"/>sum de vua non sunt materia huius sacramenti. 
+      quandiu<lb ed="#P" n="70" break="no"/>enim vinum est in vua: magis habet rationem 
+      comesti<lb ed="#P" n="71" break="no"/>bilis quam potabilis. Quare autem vinum tale predictum 
+      <lb ed="#P" n="72"/>est materia sacramenti hoc est ex institutione christi. 
+      <lb ed="#P" n="73"/>Aquam autem misceri non est de necessitate sacramen 
+      <lb ed="#P" n="74"/>ti: sed de necessitate ministri vel precepti ecclesie 
+      ro<lb ed="#P" n="75" break="no"/>mane. et christus etiam quando consecrauit: aquam vino miscuit 
+      <lb ed="#P" n="76"/>secundum Damas. lib. iiii. ca. v. christus ( inquit / calicem ex 
+      vi<lb ed="#P" n="77" break="no"/>no et aqua tradidit discipulis suis dicens. bibite ex 
+      <lb ed="#P" n="78"/>hoc omnes. hic est sanguis meus etc. Et congruentia 
+      <lb ed="#P" n="79"/>huius admixtionis potest dici significatio vnionis 
+      <lb ed="#P" n="80"/>populi christiani cum christo: vel potius in recordationem: 
+      <lb ed="#P" n="81"/>quod de latere christi fluxit ille sanguis cum aqua: sicut 
+      vi<lb ed="#P" n="82" break="no"/>detur etiam sentire innocentius. Quod autem aqua non sit 
+      <lb ed="#P" n="83"/>necessaria simpliciter. patet. quia nec fit consecratio: 
+      <lb ed="#P" n="84"/>do nec aqua fuerit in vinum conuersa. et ideo debet 
+      <lb ed="#P" n="85"/>apponi modicum de aqua. vt cito conuertatur. 
+      <lb ed="#P" n="86"/>hec de materia huius sacramenti: et per consequens 
+      <lb ed="#P" n="87"/>de secundo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1072">
+               <lb ed="#P" n="88"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="89" break="no"/>culum de forma verborum consecrationis corporis. 
+      <lb ed="#P" n="90"/>Primo dicendum: quod verba precisa consecrationis 
+      <lb ed="#P" n="91"/>panis quae sunt de necessitae sacramenti: sunt ista 
+      quat<lb ed="#P" n="92" break="no"/>tuor scilicet hoc est corpus meum. Et hec quattuor tantum 
+      <lb ed="#P" n="93"/>intrinsece ad formam consecrationis pertinemi. Unde 
+      <lb ed="#P" n="94"/>li enim quod interponitur non est de necessitate 
+      sacra<lb ed="#P" n="95" break="no"/>menti: licet sit de necessitate ministri vel precepti ab 
+      <lb ed="#P" n="96"/>ecclesia. Et hoc ( sicut dicit vnus doctor ) ad continua 
+      <lb ed="#P" n="97"/>tionem verborum: que ponuntur in canone. 
+      Accipite<lb ed="#P" n="98" break="no"/>et manducate etc. hoc est enim corpus meum. vel ad 
+      <lb ed="#P" n="99"/>ostendendum illa verba quattuor sine precedentibus 
+      <lb ed="#P" n="100"/>proferantur. sicut dicit vnus alius doctor. vel ad ostem 
+      <lb ed="#P" n="101"/>dendum efficaciam verborum.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1105">
+      ¶ Sed tunc est dubium: 
+      <lb ed="#P" n="102"/>vtrum sacerdos proferens intentione consecrandi 
+      illa<lb ed="#P" n="103" break="no"/>quattuor verba precise scilicet hoc est corpus meum: 
+      <lb ed="#P" n="104"/>non dicendo verba precedentia super materiam debitam: 
+      <lb ed="#P" n="105"/>consecraret vel conficeret corpus christi veraciter. Et 
+      <lb ed="#P" n="106"/>videntur aliqui dicere quod non. sed oportet: quod dicat verba 
+      <lb ed="#P" n="107"/>precedentia aliqua: et ab illo loco communicantes etc 
+      <lb ed="#P" n="108"/>vt videntur dicere. Tum quia ad hoc: quod sacramentalia 
+      <lb ed="#P" n="109"/>verba habeant efficaciam: oportet quod ex virtute sermonis 
+      <lb ed="#P" n="110"/>intelligantur esse dicta in persona christi: cuius est illud 
+      <lb ed="#P" n="111"/>corpus: de quo dicitur: hoc est corpus meum. 
+      Alioquin<lb ed="#P" n="112" break="no"/>enim falsa esset oratio de virtute sermonis in ore pro 
+      <lb ed="#P" n="113"/>ferentis: dicendo hoc est corpus meum. significare 
+      <lb ed="#P" n="114"/>tur enim: quod esset corpus dicentis. sed talis intellectus 
+      <lb ed="#P" n="115"/>de virtute sermonis haberi non potest: nisi dicantur 
+      <lb ed="#P" n="116"/>verba precedentia: vt patet intuenti. ergo etc. Tum quia 
+      <lb ed="#P" n="117"/>si dicatur quod intentio proferentis est dicere verba illa 
+      <lb ed="#P" n="118"/>in persona christi: hoc non valet. quia intentio ministri pro 
+      <lb ed="#P" n="119"/>entis libet esset talis: tamen omni audienti de virtute sei 
+      <lb ed="#P" n="120"/>monis oratio esset falsa. ideo etc. Tum quia oportet signum 
+      <lb ed="#P" n="121"/>sensibile cuiumslibet sacramenti esse clarum certum et 
+      <lb ed="#P" n="122"/>efficax respectu effectus sacramenti. illa autem 
+      verba<lb ed="#P" n="123" break="no"/>non sunt tale signum respectu corporis christi: nisi dicam 
+      <lb ed="#P" n="124"/>tur vel exprimantur verba precedentia. Tum quia hoc 
+      <lb ed="#P" n="125"/>videtur sentire ecclesia per appositionem huius 
+      di<lb ed="#P" n="126" break="no"/>ctionis enim. que est continuatiua verborum 
+      precipuo<lb ed="#P" n="127" break="no"/>rum cum precedentibus. Tum quia hoc videtur 
+      senti<lb ed="#P" n="128" break="no"/>re Ambrosius de consecratione di. secunda. panis in 
+      al<lb ed="#P" n="129" break="no"/>tari etc. Et sequitur. consecratio quibus verhis fir¬ 
+      <!--63.xml-->
+      <pb ed="#P" n="33-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>Attendite: que sunt verba. Accipite et edite ex hoc 
+      <lb ed="#P" n="2"/>omnes. hoc est corpus meum vbi videtur coniungere 
+      ver<lb ed="#P" n="3" break="no"/>ba illa scilicet. accipite etc. tanquam verba consecrationis. 
+      <lb ed="#P" n="4"/>quod non est sic intelligendum secundum istos quod sint essen 
+      <lb ed="#P" n="5"/>tialiter pertinentia ad necessitatem consecrationis: sed 
+      <lb ed="#P" n="6"/>tanquam necessario premittenda. et non solum illa. sed 
+      <lb ed="#P" n="7"/>etiam aliqua precedentia in canone. ex quibus de 
+      vir<lb ed="#P" n="8" break="no"/>tute sermonis nostri patet: quod ista: hoc est corpus meum 
+      <lb ed="#P" n="9"/>dicuntur in persona christi. Unde non sine causa 
+      eccle<lb ed="#P" n="10" break="no"/>sia connectit ita canonem misse ab illo loco communican 
+      <lb ed="#P" n="11"/>tes quod vsque ad illum locum. Supplices te rogamus 
+      <lb ed="#P" n="12"/>etc. non est aliqua oratio que non connectatur 
+      necessa<lb ed="#P" n="13" break="no"/>rio cum precedente per aliquem modum: vt patet intuenti. 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1203">
+               <lb ed="#P" n="14"/>¶ De forma vero consecrationis sanguinis dicunt 
+      <lb ed="#P" n="15"/>aliqui: quod sunt omnia verba illa: simili modo postea quam 
+      <lb ed="#P" n="16"/>scenatum est etc. vsque ad illa. Hec quotienscunque etc. 
+      <lb ed="#P" n="17"/>hoc facite in meam commemorationem exclusiue 
+      pertu<lb ed="#P" n="18" break="no"/>nent essentialiter ad formam consecrationis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1216">
+      ¶ Et 
+      ra<lb ed="#P" n="19" break="no"/>tio eorum est. quia omnia sunt de contextu vnius orationis: 
+      <lb ed="#P" n="20"/>sicut patet. Unde ista verba noui et eterni testament 
+      <lb ed="#P" n="21"/>qui pro vobis etc. ponuntur ibi: vt quedam specificatio 
+      <lb ed="#P" n="22"/>nes sanguinis. Et li qui tamnquam relatiuum pertinens ad 
+      <lb ed="#P" n="23"/>eandem orationem cum antecedente suo scilicet cum sanguine 
+      <lb ed="#P" n="24"/>et per consequens ad eandem formam consecrationis. 
+      <lb ed="#P" n="25"/>de istis formis dico aliter. primo de 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1234">
+               <lb ed="#P" n="26"/>¶ Sed forma consecrationis corporis: quod 
+      di<lb ed="#P" n="27" break="no"/>essentia et necessitate ipsius sacramenti simplicite: 
+      <lb ed="#P" n="28"/>sunt ista quattuor verba tantum. scilicet hoc est corpus 
+      <lb ed="#P" n="29"/>meum. ita quod sit sacerdos intentione conficiendi super 
+      <lb ed="#P" n="30"/>materiam debitam diceret: hoc est corpus meum ista 
+      <lb ed="#P" n="31"/>quattuor verba. vere consecraret: et adorandus esset 
+      <lb ed="#P" n="32"/>christus vere sub specie panis. Tum quia christus sic 
+      insti<lb ed="#P" n="33" break="no"/>tuit: et in his verbis consecrauit: vt in forma precisa: 
+      <lb ed="#P" n="34"/>et clare et euidenter significante effectum 
+      sacramenti<lb ed="#P" n="35" break="no"/>Tum quia verba illa precedentia. et precipue verbum 
+      <lb ed="#P" n="36"/>illud accipite etc. de quo precipue videretur: non signi 
+      <lb ed="#P" n="37"/>ficat in aliquo effectum sacramenti: sed magis vsum 
+      <lb ed="#P" n="38"/>vel esum. igitur non pertinet ad necessitatem forme. 
+      <lb ed="#P" n="39"/>Et hoc tenuit ecclesia et fideles doctores omnes vsque 
+      <lb ed="#P" n="40"/>modo.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1269">
+      ¶ Dico tamen secundo: quod de necessitate ministri et 
+      <lb ed="#P" n="41"/>precepti in ecclesia latina multa alia verba 
+      perti<lb ed="#P" n="42" break="no"/>nent ad hanc formam: sicut est hoc verbum enim 
+      inter<lb ed="#P" n="43" break="no"/>positum verbis forme: et etiam verba precedentia 
+      in<lb ed="#P" n="44" break="no"/>canone et precipue illa accipite etc. immo de omnibus 
+      <lb ed="#P" n="45"/>verbis canonis precedentibus vniuersaliter 
+      prece<lb ed="#P" n="46" break="no"/>ptum est. vt nullus celebret. quin dicat illa verba. 
+      <lb ed="#P" n="47"/>Et si omitteret dicere: et sic conficeret: grauiter 
+      pecca<lb ed="#P" n="48" break="no"/>ret. Unde et ipsimet dicunt quod li enim non est de 
+      neces<lb ed="#P" n="49" break="no"/>sitate sacramenti. sed ministri: et multominus de aliis 
+      <lb ed="#P" n="50"/>verbis videretur.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1294">
+      ¶ De forma vero sanguinis 
+      di<lb ed="#P" n="51" break="no"/>to primo: quod magis videretur dubia: an sit illa 
+      cer<lb ed="#P" n="52" break="no"/>ta forma: que habetur in canone misse quia ab aliquo 
+      <lb ed="#P" n="53"/>euangelista non inuenitur sic posita vel expressa. Sed 
+      <lb ed="#P" n="54"/>firmiter omnino tenendum est: quod certa et vera forma 
+      in<lb ed="#P" n="55" break="no"/>canone ponitur. Et ad hoc tenendum sufficit ago 
+      <lb ed="#P" n="56"/>ritas ecclesie: que hoc ponit. Multa enim accepitur ec 
+      <lb ed="#P" n="57"/>clesia sibi certa ab apostolis et successoribus ipsom 
+      <lb ed="#P" n="58"/>que non sunt scripta. Unde non cogit illud de 
+      euange<lb ed="#P" n="59" break="no"/>listis. quia euangeliste magis curabant texere hystoriam: 
+      <lb ed="#P" n="60"/>quam prefigere vel determinare formam huius 
+      sacra<lb ed="#P" n="61" break="no"/>menti. Uel etiam et verius dicendum: quod eam expresserunt 
+      <lb ed="#P" n="62"/>tuangeliste quantum ad illud quod est ibi de necessitate 
+      <lb ed="#P" n="63"/>sacramenti. Nec obstat etiam: quod greci vtuntur alia 
+      for<lb ed="#P" n="64" break="no"/>ma: et tamen vere consecrant. Utuntur enim hac forma: qui 
+      <lb ed="#P" n="65"/>est sauguis meus etc. Nam sicut puto illa quattuom 
+      <!--63.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>verba sunt de necessitate sacramenti vel 
+      consecratio<lb ed="#P" n="67" break="no"/>nis tantum.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1338">
+      ¶ Secundo dico: quod de necessitate sacramenti 
+      <lb ed="#P" n="68"/>vel consecrationis non sunt precedentia scilicet ab illo 
+      lo<lb ed="#P" n="69" break="no"/>co: simili modo etc. vsque ibi hic est etc. Et hoc pari 
+      <lb ed="#P" n="70"/>ratione sicut dictum est supra de verbis precedenti 
+      <lb ed="#P" n="71"/>bus ista verba sciliet. hoc est corpus meum.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1349">
+      ¶ Tertio 
+      <lb ed="#P" n="72"/>videtur mihi: quod precise et de necessitate consecratis  
+      <lb ed="#P" n="73"/>nis sunt quattuor verba scilicet ista hic est sanguis 
+      <lb ed="#P" n="74"/>meus. licet non sit necessarium: quod sic ponantur vel 
+      expri<lb ed="#P" n="75" break="no"/>mantur. sed aliter exprimuntur in forma nostrat hic 
+      <lb ed="#P" n="76"/>est enim calix sanguinis mei. Et dico quod li enim non est 
+      <lb ed="#P" n="77"/>de necessitate sacramenti: sicut dictum est supra 
+      im<lb ed="#P" n="78" break="no"/>consecratione corporis. similiter li calix absolute 
+      lo<lb ed="#P" n="79" break="no"/>quendo verum est tamen: quod ibi ponitur calix sanguinis 
+      <lb ed="#P" n="80"/>mei loco istorum duorum verborum sanguis meus. quia 
+      <lb ed="#P" n="81"/>ibi ponitur sanguis christi sub ratione vel forma 
+      po<lb ed="#P" n="82" break="no"/>tabilis ad refectionem spiritualem mentis. Sed 
+      ex<lb ed="#P" n="83" break="no"/>pressio calicis non est de necessitate verborum. Unde 
+      <lb ed="#P" n="84"/>nec exprimitur calix in forma grecorum tradita ipsis 
+      <lb ed="#P" n="85"/>ab apostolo paulo. Et quod illa verba quattuor sint 
+      <lb ed="#P" n="86"/>de necessitate consecrationis patet eodem modo: sicut 
+      <lb ed="#P" n="87"/>dictum est supra: quod in consecratione corporis 
+      necessa<lb ed="#P" n="88" break="no"/>nia sunt quattuor illa verba correspondentia 
+      quat<lb ed="#P" n="89" break="no"/>tuor predictis. Necessarium est tamen ministro in 
+      eccle<lb ed="#P" n="90" break="no"/>sia latina sic exprimere formam et verba precedentia et 
+      <lb ed="#P" n="91"/>aliqua sequentia sicut iacent in canione. Alioquin 
+      gra<lb ed="#P" n="92" break="no"/>uiter peccaret.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1397">
+      ¶ Quarto dico: quod verba sequentia 
+      <lb ed="#P" n="93"/>scilicet noui et eterni testamenti qui pro vobis et pro 
+      mul<lb ed="#P" n="94" break="no"/>tis effundetur etc. non sunt de necessitate forme vel 
+      <lb ed="#P" n="95"/>consecrationis: licet sint de necessitate precepti apud 
+      <lb ed="#P" n="96"/>ministrum: licet etiam sint determinationes quedam et 
+      <lb ed="#P" n="97"/>specificationes sanguinis: et pertineant ad eundem 
+      <lb ed="#P" n="98"/>ptextum orationis ex appositione et 
+      determinatio<lb ed="#P" n="99" break="no"/>ne ecclesie ad deuotionem excitandam. Sic enim posset 
+      <lb ed="#P" n="100"/>adhuc vel potuissent apponi multa alia etiam ad 
+      for<lb ed="#P" n="101" break="no"/>mam corporis. sicut si diceretur hoc est corpus meum 
+      <lb ed="#P" n="102"/>tractum de virgine passum pro vobis: vel huiusmodi: que 
+      <lb ed="#P" n="103"/>tamen non essent de necessitate sacramenti. Similiter 
+      <lb ed="#P" n="104"/>etiam verbum eterni et mysterium fidei in nullo 
+      euan<lb ed="#P" n="105" break="no"/>gelista inuenitur. et tamen puto quod quantum ad necessitatem 
+      <lb ed="#P" n="106"/>sacramenti ipsi expresserunt formam.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1430">
+      ¶ Ultimo dico: 
+      <lb ed="#P" n="107"/>quod nec illa verba: hoc facite etc. vel hec quotienscumque 
+      <lb ed="#P" n="108"/>etc. non pertinent ad formam sicut de necessitate sacra 
+      <lb ed="#P" n="109"/>menti. Tum quia non sunt de necessitate sacramenti im 
+      <lb ed="#P" n="110"/>consecratione corporis nec ponuntur ibi. Tum quia 
+      <lb ed="#P" n="111"/>etiam christus illo verbo dedit apostolis potestatem 
+      conficien<lb ed="#P" n="112" break="no"/>di: et fecit eos sacerdotes. Tum quia illud fuit 
+      prece<lb ed="#P" n="113" break="no"/>ptum de vsu consecrationis. igitur non pertinet ad 
+      <lb ed="#P" n="114"/>formam consecrationis essentialiter etc. 
+      <lb ed="#P" n="115"/>I aliorum qui probant: quod 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1452">
+               <lb ed="#P" n="116"/>¶ Ad primum i illa verba praecedentia. hoc 
+      <lb ed="#P" n="117"/>est corpus meum: sunt de necessitate sacramenti: ita 
+      <lb ed="#P" n="118"/>quod alias nihil fieret: dico quod verba illa sufficienter 
+      <lb ed="#P" n="119"/>possunt intelligi esse dicta in persona christi ab 
+      omni<lb ed="#P" n="120" break="no"/>fideli: qui nouit institutionem huius sacramenti factam 
+      <lb ed="#P" n="121"/>a christo: dato: quod non exprimantur verba illa preceden 
+      <lb ed="#P" n="122"/>tia: licet non ita expresse sicut cum verbis. Et preteres 
+      <lb ed="#P" n="123"/>non oportet: quod sic intelligantur esse dicta: sed sufficit: quod 
+      <lb ed="#P" n="124"/>cum intentione debita super materiam conuenientem vel 
+      <lb ed="#P" n="125"/>ba talia proferantur: que christus proferri instituit. et hoc 
+      <lb ed="#P" n="126"/>sufficit.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1479">
+      ¶ Ad secundum per idem.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1481">
+      ¶ Ad tertium dice 
+      <lb ed="#P" n="127"/>quod hoc non vult denotare ecclesia apponendo enim: sed 
+      <lb ed="#P" n="128"/>apponit enim causa illa: que dicta est supra.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1488">
+      ¶ Ad  
+      <lb ed="#P" n="129"/>quartum dico: quod ambrosius non vult verba illa esse 
+      <lb ed="#P" n="130"/>omnis de necessitate consecrationis. sed bene vult. quod 
+      <!--64.xml-->
+      <pb ed="#P" n="33-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>omnia sint dicenda de necessitate precepti.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1504">
+      ¶ Ad 
+      <lb ed="#P" n="2"/>motiuum aliorum de forma sanguinis patet: quod non 
+      <lb ed="#P" n="3"/>valet ex predictis. 
+      <lb ed="#P" n="4"/>Nautem aliqui qui dicunt: quod de pre¬ 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1513">
+               <lb ed="#P" n="5"/>¶ Sui i et cisa forma et necessaria ex parte sa 
+      <lb ed="#P" n="6"/>cramenti non est certum: nec omnino determinatum: per 
+      <lb ed="#P" n="7"/>aliquam viam a deo reuelatam sed omnia verba si 
+      <lb ed="#P" n="8"/>cut iacent in canone debent dici cum attentione et 
+      re<lb ed="#P" n="9" break="no"/>uerentia: et cum intentione proferendi verba illa: que 
+      <lb ed="#P" n="10"/>sunt necessaria ad necessitatem et que non sunt 
+      necessa<lb ed="#P" n="11" break="no"/>ria ad solennitatem.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1531">
+      ¶ Ex quo concludunt: quod si 
+      ali<lb ed="#P" n="12" break="no"/>quis tantum proferret illa quattuor verba super 
+      panen<lb ed="#P" n="13" break="no"/>non esset adoranda talis hostia: nisi sub conditione: 
+      <lb ed="#P" n="14"/>si est consecrata. Ex quo etiam concludunt secundum: 
+      fa<lb ed="#P" n="15" break="no"/>tuum esse et temerarium dictum aliquorum quod ministri eo 
+      <lb ed="#P" n="16"/>clesie debent esse certi de qualibet forma verborum cum 
+      <lb ed="#P" n="17"/>iuslibet sactamenti quid ad ipsam praecise pertineat: et quid 
+      <lb ed="#P" n="18"/>non. ad hoc vt minister conferat sacramentum. patet in 
+      <lb ed="#P" n="19"/>proposito similiter de forma absolutionis 
+      penitem<lb ed="#P" n="20" break="no"/>tialis nulli est certum: que sint verba precisa illius quam 
+      <lb ed="#P" n="21"/>tum ad necessitatem sacramenti. Et sic etiam de aliquibus 
+      <lb ed="#P" n="22"/>aliis. et ita nullus deberet vnquam talia sacramenta 
+      mi<lb ed="#P" n="23" break="no"/>nistrare.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1561">
+      ¶ Dicunt ergo quod in proposito temerarium est 
+      <lb ed="#P" n="24"/>hoc vel illud affirmare. quia dubium est hoc: et sine 
+      ali<lb ed="#P" n="25" break="no"/>quo periculo ignoratur.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1568">
+      ¶ Magis tamen videtur 
+      mi<lb ed="#P" n="26" break="no"/>chi probabilis secundus modus dicendi quantum ad 
+      propo<lb ed="#P" n="27" break="no"/>situm de eucharistia. Et satis hoc videtur constare 
+      per<lb ed="#P" n="28" break="no"/>illa que dicta sunt ibi. nihil volo tamen super hoc 
+      te<lb ed="#P" n="29" break="no"/>merarie affirmare. 
+      <lb ed="#P" n="30"/>principale argumentum di¬ 
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1581">
+               <lb ed="#P" n="31"/>¶ Ad primum co quod sacramentum 
+      cuchari<lb ed="#P" n="32" break="no"/>stie accipiendo complete et persectum consistit in rebus et 
+      <lb ed="#P" n="33"/>verbis: nec manet complete perfecte post verba 
+      <lb ed="#P" n="34"/>sicut dictum est supra. Aliter dicerent alii: quod non 
+      opor<lb ed="#P" n="35" break="no"/>tet sacramentum esse essentialiter consistere in rebus et 
+      <lb ed="#P" n="36"/>verbis: sed bene verum est quod verba necessario 
+      requi<lb ed="#P" n="37" break="no"/>runtur ad hoc vt habeatur sacramentum: ita quod sine ipsis 
+      <lb ed="#P" n="38"/>non posset haberi. tamen aliquod potest manere sine vet 
+      <lb ed="#P" n="39"/>bis.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1603">
+      ¶ Ad secundum dicendum: quod maior non est vera 
+      de<lb ed="#P" n="40" break="no"/>omni sacramento absolute accepto: sed bene vera est 
+      <lb ed="#P" n="41"/>de sacramento suscepto: vel in sua susceptione et sio 
+      <lb ed="#P" n="42"/>etiam eucharistia confert gratiam ipsi suscipienti. 
+      Ali<lb ed="#P" n="43" break="no"/>ter dicitur quod sacramentum eucharistie causat gratiam. non 
+      <lb ed="#P" n="44"/>habitualem gratum facientem sed donum aliquod dei 
+      gra<lb ed="#P" n="45" break="no"/>tis datum: puta presentiam corporis christi sub 
+      specie<lb ed="#P" n="46" break="no"/>bus: et transubstantiationem panis et vini in corpus et 
+      sat<lb ed="#P" n="47" break="no"/>guinem christi.
+      </p>
+            <p xml:id="qrdBas-f15415-d1e1623">
+      ¶ Ad tertium dico: quod sacramentum eu 
+      <lb ed="#P" n="48"/>charistie est vnum non vnitate indiuisibilitatis: sed 
+      <lb ed="#P" n="49"/>vnitate ordinis et significationis vnius 
+      complete<lb ed="#P" n="50" break="no"/>et perfecte refectionis sicut dictum est est supra. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

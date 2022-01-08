@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="102-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f61107"><!--l4d22q1 -->
+            <head xml:id="qrdBas-f61107-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f61107-d1e101">
+               <lb ed="#P" n="127"/>¶ Distinctionis Uigesimesecunde
+        <lb ed="#P" n="128"/>Questio Unica 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e108">
+      <!--201.xml-->
+               <pb ed="#P" n="102-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>CIrca distinctionem. 
+      <lb ed="#P" n="2"/>exii. quero vtrum peccata 
+      re<lb ed="#P" n="3" break="no"/>deant eadem numero que prius 
+      <lb ed="#P" n="4"/>in recidiuante et cadente a 
+      vera<lb ed="#P" n="5" break="no"/>penitentia.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e128">
+      ¶ Uidetur quod sic 
+      <lb ed="#P" n="6"/>per August. contra donatistas 
+      <lb ed="#P" n="7"/>lib I cap. v. redire dimissa 
+      pec<lb ed="#P" n="8" break="no"/>ucata vbi fraterna charitas non 
+      <lb ed="#P" n="9"/>est: apertissime dominus in euangelio in illo seruo docet 
+      <lb ed="#P" n="10"/>a quo vniuersum debitum dimissum repetit. quia ille cum 
+      <lb ed="#P" n="11"/>seruo suo debitum nollet dimittere. Mathei. x viiis 
+      <lb ed="#P" n="12"/>Et in hac auctoritate christi fundantur omnia dicta 
+      san<lb ed="#P" n="13" break="no"/>ctorum vel doctorum dicentium peccata redire. quorum 
+      <lb ed="#P" n="14"/>auctoritates magister ponit in litera.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e150">
+      ¶ Secundo 
+      <lb ed="#P" n="15"/>sic. ille qui cadit a vera penitentia: et recidiuat 
+      gra<lb ed="#P" n="16" break="no"/>uius peccat quam ille qui primo peccato peccat cadens 
+      <lb ed="#P" n="17"/>a sua innocentia. quanto enim pctotor adicit ad 
+      peccan<lb ed="#P" n="18" break="no"/>dum post plura sibi dimissa: tanto est magis 
+      ingra<lb ed="#P" n="19" break="no"/>tus. quia quanto plura sibi dimittuntur tanto magis 
+      <lb ed="#P" n="20"/>debet diligere: et tanto plus deo tenetur. iuxta dictum 
+      <lb ed="#P" n="21"/>symonis Luce quinto. estimo quod ille eum plus 
+      dili<lb ed="#P" n="22" break="no"/>git: cui plus donauit. et fuit approbatum a christo 
+      di<lb ed="#P" n="23" break="no"/>cente symoni: recte iudicasti i sed hoc non esset: nisi 
+      <lb ed="#P" n="24"/>peccata precedentia redirent. non enim vnum peccatum 
+      <lb ed="#P" n="25"/>sequens videretur sic esse graue. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e177">
+      ¶ Tertio 
+      <lb ed="#P" n="26"/>sic. ponatur quod aliquis sit contritus modo de pctato suo 
+      <lb ed="#P" n="27"/>et per consequens peccatum sit sibi dimissum. postea 
+      <lb ed="#P" n="28"/>nolit confiteri de illo sed contemnat. Tunc quero de 
+      <lb ed="#P" n="29"/>illo pctoto aut redit idem quod prius: et habeo 
+      proposi<lb ed="#P" n="30" break="no"/>tum aut non redit: et sic deletum est omnino sine 
+      dua<lb ed="#P" n="31" break="no"/>bus partibus penitentie. scilicet confessione et 
+      satiffactio<lb ed="#P" n="32" break="no"/>ne: quod non videtur conueniens.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e195">
+      ¶ Quarto sic. 
+      rece<lb ed="#P" n="33" break="no"/>dente forma a materia vel subiecto redit eadem 
+      pri<lb ed="#P" n="34" break="no"/>natio: que prius inerat subiecto ante aduentum 
+      for<lb ed="#P" n="35" break="no"/>me. patet. quia est eiusdem subiecti et respectu eiusdem 
+      <lb ed="#P" n="36"/>forme igitur recedente gratia in recidiuante: reuer 
+      <lb ed="#P" n="37"/>titur eadem priuatio gratie: que prius inerat 
+      ante<lb ed="#P" n="38" break="no"/>penitentiam et per consequens idem peccatum quod 
+      <lb ed="#P" n="39"/>est vel priuatio gratie vel concomitantur eam. 
+      <lb ed="#P" n="40"/>dicitur quod non iudicabit dominus bis 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e215">
+               <lb ed="#P" n="41"/>¶ Contra in idipsum: sed bis iudicaret pro 
+      <lb ed="#P" n="42"/>eodem peccato: si rediret. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e222">
+               <lb ed="#P" n="43"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e227">
+               <lb ed="#P" n="44"/>¶ Primo inquiram vtrum absolute loquendo sit 
+      <lb ed="#P" n="45"/>possibile quacunque virtute: quod redeat idem peccatum 
+      <lb ed="#P" n="46"/>numero quod prius.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e236">
+      ¶ Secundo inquiram vtrum sit 
+      <lb ed="#P" n="47"/>hoc impossibile secundum potentiam dei ordinatam: et vtrum 
+      <lb ed="#P" n="48"/>aliquando redeat defacto: et per quem modum.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e244">
+      ¶ Tertio 
+      <lb ed="#P" n="49"/>quia tangitur in quodam argumento: inquiram: 
+      <lb ed="#P" n="50"/>vtrum grauius peccet cadens a vera penitentia 
+      per<lb ed="#P" n="51" break="no"/>recidiuum: quam cadens ab innocentia per primum 
+      <lb ed="#P" n="52"/>peccatum.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e255">
+      ¶ Ultimo ad rationes.  
+      </p>
+            <p xml:id="qrdBas-f61107-d1e257">
+               <lb ed="#P" n="53"/>¶ Quantum ad primum 
+      ar<lb ed="#P" n="54" break="no"/>ticulum dicitur ab aliquibus quod impossibiie est qua 
+      <lb ed="#P" n="55"/>cunque virtute peccatum redire idem numero: quod 
+      <lb ed="#P" n="56"/>prius.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e268">
+      ¶ Ad hoc adducuntur alique rationes 
+      Pri<lb ed="#P" n="57" break="no"/>ma est ista. illud quod est nihil vel in nihilum 
+      redu<lb ed="#P" n="58" break="no"/>ctum non potest redire idem numero per quamcumque potentiam. 
+      <lb ed="#P" n="59"/>sed peccatum est nihil vel in nihilum reductum: postquam 
+      <lb ed="#P" n="60"/>transiit: vt videtur. ergo etc. Maior probatur. quia 
+      nul<lb ed="#P" n="61" break="no"/>la potentia se extendit super nihil.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e281">
+      ¶ Secunda 
+      ratio<lb ed="#P" n="62" break="no"/>illud quod transiit in esse successiuo et non permanen 
+      <!--201.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>ti: non potest idem numero reparari. si enim ens suent 
+      <lb ed="#P" n="64"/>cessiuum vt motus vel tempus et huiusmodi potest repara 
+      <lb ed="#P" n="65"/>ri: sequitur quod partes talis entis possint esse simul. 
+      <lb ed="#P" n="66"/>sequitur similiter: quod instans possit reparari et per 
+      con<lb ed="#P" n="67" break="no"/>sequens quod contradictoria possint verificari pro eo 
+      <lb ed="#P" n="68"/>dem instanti. quia vnum contradictorium pro instanti 
+      po<lb ed="#P" n="69" break="no"/>sito prima vice. et aliud pro instanti posito secunda vicetm 
+      <lb ed="#P" n="70"/>quod est contradictio. sed peccatum transiuit in esse 
+      <lb ed="#P" n="71"/>successiuo quia non est actus substractus nature 
+      perma<lb ed="#P" n="72" break="no"/>nentis. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e312">
+      ¶ Tertia ratio. non plus potest 
+      re<lb ed="#P" n="73" break="no"/>dire pectantum commissionis quam obmissionis. sed peccatum 
+      <lb ed="#P" n="74"/>obmissionis non potest redire. quia est mera priuatio. 
+      <lb ed="#P" n="75"/>et non dicit aliquid positiuum pro actu substracto: 
+      <lb ed="#P" n="76"/>sed nihil tale videtur esse in potentia alicuius. ergo 
+      <lb ed="#P" n="77"/>etc.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e326">
+      ¶ Quarta ratio. pectantum non potest redire idem 
+      <lb ed="#P" n="78"/>numero nisi virtute diuina. quia natura non potest 
+      re<lb ed="#P" n="79" break="no"/>parare aliquid idem numero. sed virtute diuina 
+      im<lb ed="#P" n="80" break="no"/>mediate non potest redire idem numero. quia deus 
+      <lb ed="#P" n="81"/>peccare non potest: nec omittendo nec committendo. 
+      <lb ed="#P" n="82"/>Et confirmatur. quia secundum Augusti. lxxxiii. q. deo 
+      aucto<lb ed="#P" n="83" break="no"/>re nullus fit deteriorisaltem quantum ad culpam. ergo etc. 
+      <lb ed="#P" n="84"/>est de hoc quod peccatum po¬ 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e344">
+               <lb ed="#P" n="85"/>¶ Alia opinio test idem numero redire eo 
+      <lb ed="#P" n="86"/>modo accipiendo ipsum: quo intelligitur manere post 
+      <lb ed="#P" n="87"/>actum peccati ante penitentiam. Intelligitur autem 
+      <lb ed="#P" n="88"/>manere non in se sed quantum ad obligationem 
+      pec<lb ed="#P" n="89" break="no"/>catoris ad penam eternam debitam pro pcto: sicut 
+      su<lb ed="#P" n="90" break="no"/>perius: per eos dicebatur. Et quantum ad talem 
+      obli<lb ed="#P" n="91" break="no"/>gationem in penam potest peccatum redire et idem 
+      nu<lb ed="#P" n="92" break="no"/>mero post penitentiam in recidiuante: vel etiam 
+      im<lb ed="#P" n="93" break="no"/>non recidiuante quod prius fuit. quia eadem obligatio 
+      <lb ed="#P" n="94"/>que prius et ad eandem numero penam ad quam et prius. 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e368">
+               <lb ed="#P" n="95"/>¶ Hoc probat primo sic. deus potest obligare istum 
+      <lb ed="#P" n="96"/>pro instanti. b eadem obligatione et ad eandem 
+      pe<lb ed="#P" n="97" break="no"/>nam ad quam potest ipsum obligare pro instanti .a. 
+      prio<lb ed="#P" n="98" break="no"/>ri. quia hoc nullam implicat contradictionem. et per 
+      con<lb ed="#P" n="99" break="no"/>sequens sic potest obligari iste. sed ex hoc sequitur 
+      <lb ed="#P" n="100"/>eandem obligationem que fuit in isto vel circa istum 
+      <lb ed="#P" n="101"/>pro tempore vel instanti a ante penitentiam posse 
+      repa<lb ed="#P" n="102" break="no"/>rari vel redire pro instanti vel tempore .b. post 
+      peniten<lb ed="#P" n="103" break="no"/>tiam in recidiuante.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e390">
+      ¶ Secundo sic. et concludit de non 
+      <lb ed="#P" n="104"/>recidiuante. siue prius peniteat siue non. Si iste non 
+      <lb ed="#P" n="105"/>peniteat de peccato suo deus potest continuare 
+      ean<lb ed="#P" n="106" break="no"/>dem obligationem ad eandem penam pro instantibus 
+      <lb ed="#P" n="107"/>vel temporibus. a .b. c. quibus manet iste continue 
+      <lb ed="#P" n="108"/>in peccato. igitur cum actus voluntatis diuine 
+      obli<lb ed="#P" n="109" break="no"/>gantis istum in nullo dependeat a peccato vel 
+      peni<lb ed="#P" n="110" break="no"/>tentia istius: nec ab aliquo extrinseco: videtur quod 
+      si<lb ed="#P" n="111" break="no"/>ue iste peniteat siue non: siue recidiuet siue non: deus 
+      <lb ed="#P" n="112"/>potest eandem numero obligationem facere pro 
+      di<lb ed="#P" n="113" break="no"/>uersis instantibus vel temporibus non continuatis pro 
+      <lb ed="#P" n="114"/>a scilicet et pro. c. Nam instans vel tempus inter medium 
+      <lb ed="#P" n="115"/>vel instans non est in hoc necessarium: eo quod nihil est 
+      <lb ed="#P" n="116"/>huius voliti.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e421">
+      ¶ Tertio declaratur hoc. quia quod potest 
+      <lb ed="#P" n="117"/>voluntas humana et iuste potest: multofortius 
+      vo<lb ed="#P" n="118" break="no"/>luntas diuina. sed voluntas humana pontobligare 
+      <lb ed="#P" n="119"/>aliquem ad eandem penam debitam alicui pcto et eadem 
+      <lb ed="#P" n="120"/>obligatione vel volitione: qua pro prima vice: eade 
+      <lb ed="#P" n="121"/>obligatione pro secunda vice sub conditione saltem: 
+      pu<lb ed="#P" n="122" break="no"/>ta si recidiuet. Et ponitur exemplum. xii. q. II. episco 
+      <lb ed="#P" n="123"/>pus. vbi dicitur: quod seruus manumissus propter 
+      ingra<lb ed="#P" n="124" break="no"/>titudinem iterum pene teruitutis iuste subditur. Et 
+      <lb ed="#P" n="125"/>videretur quod eidem pene numero vel si saltem in 
+      pro<lb ed="#P" n="126" break="no"/>posito plus potest deus quod eidem pene numero 
+      po<lb ed="#P" n="127" break="no"/>test obligare: vt videtur. quare etc. 
+      <!--202.xml-->
+      <pb ed="#P" n="102-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/> ad presentem arti¬ 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e456">
+               <lb ed="#P" n="2"/>¶ Sed quantum. culum videtur 
+      mihi<lb ed="#P" n="3" break="no"/>dicendum primo: quod non solum de potentia dei 
+      abso<lb ed="#P" n="4" break="no"/>luta potest idem numero peccatum redire modo 
+      pre<lb ed="#P" n="5" break="no"/>dicto quantum ad obligationem eandem ad eandem penam 
+      <lb ed="#P" n="6"/>pro diuersis instantibus vel tpeoribus possibilem conueni 
+      <lb ed="#P" n="7"/>re eidem subiecto vel pctonri a diuina voluntate 
+      obli<lb ed="#P" n="8" break="no"/>gante ipsum sicut dicit secunda opinio: sed dico quod 
+      ab<lb ed="#P" n="9" break="no"/>solute loquendo possibile est etiam virtute creature 
+      re<lb ed="#P" n="10" break="no"/>dire idem peccatum numero in seipso et eundem actum 
+      <lb ed="#P" n="11"/>deformem eadem deformitate numero: qua prius. nam 
+      <lb ed="#P" n="12"/>sicut virtus creata potuit primo talem actum 
+      causa<lb ed="#P" n="13" break="no"/>re ita et secundo iterum potest. Nec apparet ratio 
+      quare<lb ed="#P" n="14" break="no"/>non. sicut dicam infra in tractatu de resurrectione 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e488">
+               <lb ed="#P" n="15"/>¶ Secundo dico. quod virtute diuina immediate non 
+      coope<lb ed="#P" n="16" break="no"/>rante virtute creata ad talem actum deformen carenti 
+      <lb ed="#P" n="17"/>rectitudine morali posset reparari talis actus. sed 
+      <lb ed="#P" n="18"/>tunc non esset culpabilis habenti: nec imputaretur sibi 
+      <lb ed="#P" n="19"/>ad penam: licet peccatum esset et actus defectuosus. quia 
+      <lb ed="#P" n="20"/>ad illum actum se haberet pure passiue: nec esset in 
+      <lb ed="#P" n="21"/>potestate eius. plus enim dicit culpa quam peccatum: sicut 
+      <lb ed="#P" n="22"/>in secundo dicebatur. Similiter etiam non esset deo cul 
+      <lb ed="#P" n="23"/>pabilis. nec deus ex hoc posset dici pctor vel 
+      iniu<lb ed="#P" n="24" break="no"/>stus. quia non tenetur facere circa creaturam suam nisi qui 
+      <lb ed="#P" n="25"/>placet sibi.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e514">
+      ¶ Tertio de peccato omissionis dico: g 
+      <lb ed="#P" n="26"/>eodem modo sicut potuit primo inesse pctonri et a 
+      vo<lb ed="#P" n="27" break="no"/>luntate: non quidem cooperante sed omittente 
+      opera<lb ed="#P" n="28" break="no"/>ri. quia tale peccatum non consistit in actu sed magis 
+      <lb ed="#P" n="29"/>in priuatione actus debiti: que quidem dicitur esse 
+      ip<lb ed="#P" n="30" break="no"/>potestate voluntatis non effectiua sed defectiua: vel 
+      <lb ed="#P" n="31"/>pro tanto pro libito voluntatis talis priuatio potest 
+      <lb ed="#P" n="32"/>non inesse: si eliciat actum oppositum: qui est in sua 
+      <lb ed="#P" n="33"/>potestate. vel inesse: si non eliciat actum illum: quando de 
+      <lb ed="#P" n="34"/>bet elicere. Et non video quare per agens aturale 
+      no<lb ed="#P" n="35" break="no"/>possit redire aliqua eadem priuatio: sicut aliquid idem 
+      <lb ed="#P" n="36"/>positiuum: licet de facto non redeat.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e540">
+      ¶ Quarto dico 
+      <lb ed="#P" n="37"/>quantum ad deum quod virtute diuina posset redire talis 
+      <lb ed="#P" n="38"/>uegatio actus debiti eadem numero sicut etiam 
+      virtu<lb ed="#P" n="39" break="no"/>te creata. et sic rediret idem pectantum omissionis sed non 
+      <lb ed="#P" n="40"/>esset culpa: nec voluntati create cui inesset talis 
+      pri<lb ed="#P" n="41" break="no"/>uatio non a seipsa: sed a deo priuante actum. nec ipsi 
+      <lb ed="#P" n="42"/>deo qui super hoc culpari non posset. quia nullum actu 
+      <lb ed="#P" n="43"/>tenetur facere in creatura sua nisi placeat sibi: sicut 
+      <lb ed="#P" n="44"/>nec aliquam circunstantiam rectam sicut superius dice 
+      <lb ed="#P" n="45"/>batur de pctato commissionis.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e562">
+      ¶ Ultimo dico contra 
+      <lb ed="#P" n="46"/>secundam opinionem: quod licet sua conclusio sit ver a: tamen ex illa 
+      <lb ed="#P" n="47"/>obligatione manente post actum peccati non dicitur 
+      <lb ed="#P" n="48"/>quis peccator: nec debet illa obligatio dici 
+      pecca<lb ed="#P" n="49" break="no"/>tum: sicut superius dicebatur. Et de prima opinio 
+      <lb ed="#P" n="50"/>ne dico quod est simpliciter falsa 
+      <lb ed="#P" n="51"/>ergo ipsius dico ad 
+      pri<lb ed="#P" n="52" break="no"/>Ad rationes man quod actus peccat 
+      <lb ed="#P" n="53"/>quando cessat esse desinit esse: non adnihilatur: sed 
+      redigi<lb ed="#P" n="54" break="no"/>in potentiam subiecti: sicut quando producitur vel fit non 
+      <lb ed="#P" n="55"/>creatura voluntate vel potentia eliciente. et ita minor 
+      <lb ed="#P" n="56"/>est falsa. Siliter maior est falsa. dico enim quod adnihilati 
+      <lb ed="#P" n="57"/>simpliciter et omnino virtute diuina saltem potest rediro 
+      <lb ed="#P" n="58"/>idem numero: sicut dicetur infra de resurrectione: cum 
+      di<lb ed="#P" n="59" break="no"/>tis quod super nihil: non est potentia. dico quod de nihilo potest 
+      <lb ed="#P" n="60"/>aliquid fieri vel post nihil et eodem modo reparari: nec 
+      <lb ed="#P" n="61"/>video quare non.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e599">
+      ¶ Ad secundum dico quod entia 
+      successi<lb ed="#P" n="62" break="no"/>ua ita sunt reparabilia et possunt redire eadem: sicut 
+      <lb ed="#P" n="63"/>entia permanentia. Nec oportet quod partes eorum simul sint 
+      <lb ed="#P" n="64"/>manente vnitate entium talium: sicut enim primo fiunt 
+      <lb ed="#P" n="65"/>sic quod partes eorum non sunt simul: sed sibi inuicem sud 
+      <!--202.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>cedunt ita secundo possunt sic reparati. Et 
+      similite<lb ed="#P" n="67" break="no"/>de instanti dico quod potest reparari virtute diuina et si 
+      <lb ed="#P" n="68"/>militer virtute creata posset: sicut et motus et tempus. 
+      <lb ed="#P" n="69"/>Nec sequitur aliqua contradiciio. quia licet posset 
+      contra<lb ed="#P" n="70" break="no"/>dictoria verificari pro eodem instanti: non tamen 
+      semel<lb ed="#P" n="71" break="no"/>existente sed bis: et hoc non est contradictio: licet 
+      contra<lb ed="#P" n="72" break="no"/>dictio esset quod pro eodem instanti existente semel. Ad 
+      <lb ed="#P" n="73"/>minorem dico quod non quilibet actus peccati 
+      successi<lb ed="#P" n="74" break="no"/>uus est: sed actus sunt aliqui permanentes et euiterni 
+      <lb ed="#P" n="75"/>potentes coexistere siue tempore siue instanti tperis: 
+      <lb ed="#P" n="76"/>cuiusmodi sunt omnes actus peccati: qui sunt 
+      operac<lb ed="#P" n="77" break="no"/>nes elicite alicuius potentie appetitiue vel 
+      cogniti<lb ed="#P" n="78" break="no"/>ue. que dicuntur operationes immanentes: vt videre 
+      <lb ed="#P" n="79"/>intelligere vel velle et huiusmodi.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e645">
+      ¶ Ad tertium de 
+      pcto<lb ed="#P" n="80" break="no"/>omissionis dico: quod non est in potestate effectiua 
+      ali<lb ed="#P" n="81" break="no"/>cuius tamquam aliquid positiuum: sed in potestate defecti 
+      <lb ed="#P" n="82"/>ua vel non effectiua: sicut etiam anihilare est in 
+      pote<lb ed="#P" n="83" break="no"/>state dei.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e657">
+      ¶ Ad quarium dico: quod non solum virtute 
+      <lb ed="#P" n="84"/>diuina posset omne peccatum vel aliquod saltem 
+      redi<lb ed="#P" n="85" break="no"/>re idem numero sed etiam virtute creata: si permitteret 
+      <lb ed="#P" n="86"/>deus. Uando dicis: quod non virtute diuina. quia deo agente 
+      <lb ed="#P" n="87"/>non fit aliquis deterior. Dico: quod deo agente 
+      immedia<lb ed="#P" n="88" break="no"/>te saltem non fit defacto aliquis deterior 
+      deteriorita<lb ed="#P" n="89" break="no"/>te peccati vel culpe. licet bene deterioritate pene. Sed 
+      <lb ed="#P" n="90"/>dico: quia absolute loquendo deo sic agente immediate 
+      <lb ed="#P" n="91"/>aliquem actum non recte circunstantionatum vel etiam. 
+      <lb ed="#P" n="92"/>non agente sed priuante aliquem actum: qui debe 
+      <lb ed="#P" n="93"/>ret inesse: aliquis posset fieri deterior deterioritate 
+      <lb ed="#P" n="94"/>peccati. sed illud peccatum non haberet rationem 
+      <lb ed="#P" n="95"/>culpe: sicut dictum est supra. Hec de primo 
+      articu<lb ed="#P" n="96" break="no"/>lo principali¬ 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e688">
+               <lb ed="#P" n="97"/>¶ Quantum ad secundum 
+      art<lb ed="#P" n="98" break="no"/>culum dico breuiter: quod peccata prius dimissa 
+      defa<lb ed="#P" n="99" break="no"/>cto non redeunt eadem numero nec quantum ad culpam 
+      <lb ed="#P" n="100"/>pro eis debitam. secundum illud. Non iudicabit dominus bis in 
+      <lb ed="#P" n="101"/>idipsum. Et similiter probatur per illud de 
+      peniten<lb ed="#P" n="102" break="no"/>tia dist. iiii. diuina clementia dimissa pctam in vltinem 
+      <lb ed="#P" n="103"/>ultra redire non patitur.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e706">
+      ¶ Sic igitur dico: quod 
+      defacto<lb ed="#P" n="104" break="no"/>non redeunt quantumcunque pector recidiuet nec in seipsis 
+      <lb ed="#P" n="105"/>nec quantum ad obligationem ad penam. dicitur tamen quod 
+      aliquali<lb ed="#P" n="106" break="no"/>ter redeunt. quia peccatum sequens grauius est in recidi 
+      <lb ed="#P" n="107"/>uante: et grauius offendit ceteris paribus et quantum 
+      <lb ed="#P" n="108"/>ad aliquam causam maioris grauitatis. Tum quia iste 
+      cu<lb ed="#P" n="109" break="no"/>ius fuit remissum mortale pectantum a deo recipit 
+      bene<lb ed="#P" n="110" break="no"/>ficium magis indebitum: quam si non peccasset. quod 
+      quiden<lb ed="#P" n="111" break="no"/>beneficium fuit remissio peccati sui et per consequens 
+      <lb ed="#P" n="112"/>deo magis tenetur secundum legen gratitudinis ex hoc 
+      pre<lb ed="#P" n="113" break="no"/>cipue si gratia in remissione percepta non est minor: 
+      <lb ed="#P" n="114"/>quam illius qui non peccauit. et dato quod minor quia tamen 
+      ma<lb ed="#P" n="115" break="no"/>gis indebita: adhuc magis videretur teneri: et per 
+      conse<lb ed="#P" n="116" break="no"/>quens postea offendens eum per recidiuum quantum ad 
+      <lb ed="#P" n="117"/>hoc grauius peccat secundum ingratitudinem et magis est 
+      <lb ed="#P" n="118"/>ingratus. Tum quia quanto aliquis pluribus 
+      obligatio<lb ed="#P" n="119" break="no"/>nibus tenetur ad no peccandum: tanto grauius peccat 
+      <lb ed="#P" n="120"/>ceteris paribus. penitens autem pluribus obligationibus 
+      <lb ed="#P" n="121"/>tenetur ad non peccandum quam alius. quia ad hoc tenetur et 
+      <lb ed="#P" n="122"/>ex lege communi diuini precepti: et ex lege 
+      promissio<lb ed="#P" n="123" break="no"/>nis vel propositi. quia promisit vel proposuit ad honorem 
+      <lb ed="#P" n="124"/>dei amplius non peccare quando penituit. alioquin non 
+      va<lb ed="#P" n="125" break="no"/>luisset sua pnima: nisi hoc proposuisset saltem in habitu. ergo 
+      <lb ed="#P" n="126"/>iste penitens postea recidiuans grauius peccat. Et ita 
+      <lb ed="#P" n="127"/>pctam precedentia eadem reuertuntur aliquo modo. 
+      <lb ed="#P" n="128"/>contra ista: primo quia inno¬ 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e763">
+               <lb ed="#P" n="129"/>¶ Si dicatur cens prima vice peccando 
+      <!--203.xml-->
+      <pb ed="#P" n="103-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>grauius peccat quam penitens recidiuans: eo quod maius 
+      <lb ed="#P" n="2"/>est beneficium dei conseruari in innocentia quam resurgere 
+      <lb ed="#P" n="3"/>in penitentia.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e781">
+      ¶ Secundo quia si aliquis pluries recidiuat 
+      <lb ed="#P" n="4"/>quanto pluries: tanto grauius peccat secundum predictum 
+      mo<lb ed="#P" n="5" break="no"/>dum dicendi. Et ita si decies vel centies recidiuat: 
+      pec<lb ed="#P" n="6" break="no"/>catum decimum vel centesimum est grauius decies vel 
+      <lb ed="#P" n="7"/>centies quam primum.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e792">
+      ¶ Tertio quia innocens peccando 
+      pri<lb ed="#P" n="8" break="no"/>ma vice posset peccare ex maiori conatum voluntatis 
+      <lb ed="#P" n="9"/>consimili pcto: quam recidiuans aliquando peccaret decima vel 
+      <lb ed="#P" n="10"/>centesima vice. et per consequens grauius.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e802">
+      ¶ 
+      Quarto<lb ed="#P" n="11" break="no"/>quia recidiuum sic aggrauat et specialiter ratione ingrati 
+      <lb ed="#P" n="12"/>tudinis videtur circumstantia necessario confitenda et 
+      to<lb ed="#P" n="13" break="no"/>tiens quotiens. hoc autem videtur inconueniens. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e811">
+               <lb ed="#P" n="14"/>¶ Respondetur ad primum: sicut dicetur in sequenti 
+      arti<lb ed="#P" n="15" break="no"/>grauius simpliciter peccat cadens ab innocentia 
+      <lb ed="#P" n="16"/>quam cadens a penitentia per recidiuum. et maior est 
+      ingra<lb ed="#P" n="17" break="no"/>titudo in primo quam in secundo. quia maius est beneficium 
+      <lb ed="#P" n="18"/>conseruari in innocentia quam resurgere in penitentia. 
+      ve<lb ed="#P" n="19" break="no"/>rum est tamen quod quantum ad aliqua grauius peccat 
+      recidi<lb ed="#P" n="20" break="no"/>uans peccando et cadendo a penitentia: quam primo cadens 
+      <lb ed="#P" n="21"/>ab innocentia quia beneficium videtur sibi magis 
+      indebi<lb ed="#P" n="22" break="no"/>tum: quod percipit in remissione quam innocenti quod 
+      conser<lb ed="#P" n="23" break="no"/>uetur in sua gratia. quia innocens non est inimicus sicut 
+      <lb ed="#P" n="24"/>octonr. et similiter etiam pro alia causa supradicta. licet ergo 
+      <lb ed="#P" n="25"/>simpliciter pensando ex quantitate beneficii maius sit 
+      <lb ed="#P" n="26"/>primum pctantum quam recidiuum i tamen aliquo modo ex causis 
+      <lb ed="#P" n="27"/>predictis maius est secundum quam primum.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e844">
+      ¶ Ad secundum potest 
+      <lb ed="#P" n="28"/>concedi quantum ad predicta quanto pluries aliquis 
+      reci<lb ed="#P" n="29" break="no"/>diuat: tato grauius peccat: licet non oporteat quod 
+      simpli<lb ed="#P" n="30" break="no"/>citer quantum ad omnia.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e853">
+      ¶ Ad tertium per idem.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e855">
+      ¶ Ad 
+      <lb ed="#P" n="31"/>quartum potest dici quod cum in recidiuando peccans 
+      commu<lb ed="#P" n="32" break="no"/>niter non cogitet de ista gratitudine seruanda: nec 
+      <lb ed="#P" n="33"/>querat nisi voluptatem peccando: ita quod non habet 
+      spe<lb ed="#P" n="34" break="no"/>cialem contemptum dei in recidiuando: videretur quod non esset: 
+      <lb ed="#P" n="35"/>talis circunstantia recidiui necessario confitendi: sic in 
+      <lb ed="#P" n="36"/>speciali. vel in particulari: sed sufficeret dicere alias 
+      <lb ed="#P" n="37"/>peccaui tali pctatio semel vel pluries: et de 
+      recidiuo<lb ed="#P" n="38" break="no"/>confiteor. alioquin videtur nimis durum: si totiens quo 
+      <lb ed="#P" n="39"/>tiens et in particulari oporteat confiteri. nec requiritur 
+      <lb ed="#P" n="40"/>propter ingratitudinem. quia in omni pctto mortali est 
+      <lb ed="#P" n="41"/>ingratitudo annexa quo quomodo etiam in primo 
+      <lb ed="#P" n="42"/>peccato. hec de secundo articulo principalio 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e884">
+               <lb ed="#P" n="43"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="44" break="no"/>culum dico: quod simpliciter et ceteris paribus grauius peccati: 
+      <lb ed="#P" n="45"/>et maiori ingratitudine est ingratus: qui cadit ab 
+      in<lb ed="#P" n="46" break="no"/>pocentia: quam qui a penitentia. quia simpliciter maius ba 
+      <lb ed="#P" n="47"/>ficium dei est conseruari in innocentia: quam prius caderer: 
+      <lb ed="#P" n="48"/>ta et postea resurgere in penitentia. vnde et conseruari 
+      <lb ed="#P" n="49"/>in innocentia excellentibus personis est concessum: vt 
+      vir<lb ed="#P" n="50" break="no"/>gini gloriose. Et si qui alii sint inuenti. et gloria 
+      spe<lb ed="#P" n="51" break="no"/>cialis est in electis non cecidisse: nec vnquam inimicum 
+      <lb ed="#P" n="52"/>dei per culpam actualem fuisse. licet bene in casu et aliunde 
+      <lb ed="#P" n="53"/>possit excellere ille: qui cecidit illum: qui fuit 
+      preser<lb ed="#P" n="54" break="no"/>uatus in sua iunocentia. Ad argumentum vero quod 
+      <lb ed="#P" n="55"/>est contra hoc: inferius respondebitur. 
+      </p>
+            <p xml:id="qrdBas-f61107-d1e916">
+               <lb ed="#P" n="56"/>¶ Ad primum principale 
+      argu<lb ed="#P" n="57" break="no"/>mentum de Augustino et illa parabola christi dieo: quod non 
+      <lb ed="#P" n="58"/>intendunt redire eadem peccata nec quo ad culpam: nec 
+      <lb ed="#P" n="59"/>quo ad penam in eis debitam: sed hoc solum intendunt: quod 
+      <lb ed="#P" n="60"/>recidiuans pro pctato recidiui ita punietur eternaliter 
+      <lb ed="#P" n="61"/>pena gehenne: sicut si haberet pctam priora: non tamen sic 
+      <lb ed="#P" n="62"/>intensiue et ab eo exigetur vniuersum extensiue secundum 
+      du<lb ed="#P" n="63" break="no"/>rationem. quia pena eterna damnationis et carceris pu¬ 
+      <!--203.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>nietur. Et similiter loquendo de pena damni factus est 
+      <lb ed="#P" n="65"/>omium reus peccans in vno. Et similiter pena 
+      aggra<lb ed="#P" n="66" break="no"/>uatur sicut et culpa propter ingratitudinem de 
+      remissio<lb ed="#P" n="67" break="no"/>ne preteritorum.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e949">
+      ¶ Ad secundum dico: quod recidiuans quantum 
+      <lb ed="#P" n="68"/>ad aliquid grauius peccat. non quia preterita patestam 
+      re<lb ed="#P" n="69" break="no"/>deant: sed modo predicto.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e956">
+      ¶ Ad tertium dico: quod quantum est 
+      <lb ed="#P" n="70"/>ex donatione vel condonatione ille plus tenetur 
+      dili<lb ed="#P" n="71" break="no"/>gere: cui plus dominus donauit cui plura remisit. Non quia 
+      <lb ed="#P" n="72"/>maius sit resurgere per condonationem: quam conseruare in 
+      <lb ed="#P" n="73"/>nocentiam: sed econuerso. Et ideo dico: quod in eo cui 
+      ni<lb ed="#P" n="74" break="no"/>chil condonatur: sed in sua innocentia conseruatur 
+      maior<lb ed="#P" n="75" break="no"/>roio est dilectionis. quia et hoc est specialis beneficium 
+      <lb ed="#P" n="76"/>acceptum quam resurgere per condonationem. comparando 
+      igi<lb ed="#P" n="77" break="no"/>tur condemnationem. plurium ad condonationem paucorum 
+      <lb ed="#P" n="78"/>quantum est ex condonatione ipsa plurium: plus 
+      tene<lb ed="#P" n="79" break="no"/>tur condonanti: cui plura sunt dimissa vel 
+      condonata<lb ed="#P" n="80" break="no"/>sed ex alia parte simpliciter loquendo plus tenetur: qui 
+      <lb ed="#P" n="81"/>conseruatur in innocentia: cui nihil condonatur. et 
+      simili<lb ed="#P" n="82" break="no"/>ter donatur non ex condonatione paucorum. sed ex praeserua 
+      <lb ed="#P" n="83"/>tione a pluribus pctins quam etiam habet dono praeseruantis. vnd 
+      <lb ed="#P" n="84"/>simpliciter semper tenetur plus diligere cui vel nulla 
+      communi<lb ed="#P" n="85" break="no"/>donantur. quia in innocentia conseruatur. vel cui pauciora 
+      <lb ed="#P" n="86"/>condonantur. quia a pluribus praeseruatur. Non est ergo verum nec 
+      <lb ed="#P" n="87"/>veraciter probatum: quod simpliciter grauius sit pctantum 
+      cadere<lb ed="#P" n="88" break="no"/>a pentintia per recidiuum quam ab innocentia. Si dicas quod tunc 
+      <lb ed="#P" n="89"/>magis deberet confiteri de ingratitudine cadens ab 
+      <lb ed="#P" n="90"/>innocentia per primum pctantum: quam cadens ab innocentia 
+      per<lb ed="#P" n="91" break="no"/>recidiuum. quia maius est benficium innocentie quam pnime. et ita 
+      <lb ed="#P" n="92"/>maior ingratitudo illa quam ista. Dico quod forte neutram 
+      <lb ed="#P" n="93"/>ingratitudinem in speciali tenetur confiteri. si tamen 
+      aliquan<lb ed="#P" n="94" break="no"/>difficile videtur: quare non primam sicut secundam: nisi pro 
+      <lb ed="#P" n="95"/>tanto. quia licet secunda sit minor secundum se accepta: tamen quia 
+      connu<lb ed="#P" n="96" break="no"/>meratur prime: et cadere a penitentia est cadere ab 
+      in<lb ed="#P" n="97" break="no"/>nocentia restituta: ideo magis videretur confitenda quam 
+      <lb ed="#P" n="98"/>prima. ideo etc.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e1021">
+      ¶ Ad quartum argumentum de 
+      priua<lb ed="#P" n="99" break="no"/>tione dico quod libet possit reuerti eadem priuatio siue per 
+      <lb ed="#P" n="100"/>naturam: siue per virtutem diuinam: et similiter idem pctantum 
+      <lb ed="#P" n="101"/>numero: non tamen de facto reuertitur eadem priuatio 
+      nu<lb ed="#P" n="102" break="no"/>mero: licet similis: sicut nec eadem forma numero virtu 
+      <lb ed="#P" n="103"/>te nature. quando dicis quod immo. quia eiusdem subiecti et 
+      for<lb ed="#P" n="104" break="no"/>me. Dicitur quod non sufficit. quia eiusdem forme numero 
+      <lb ed="#P" n="105"/>in eodem subiecto possunt esse multe negationes 
+      nu<lb ed="#P" n="106" break="no"/>mero vel priuationes succedentes sibi inuicem. Ad  
+      <lb ed="#P" n="107"/>minorem dicendum quod pctantum non est formaliter 
+      priua<lb ed="#P" n="108" break="no"/>tio gratie. Si autem concomitetur non sequitur quod debeat 
+      <lb ed="#P" n="109"/>esse vnum: sicut gratia ipsa: cuius priuatio 
+      concomita<lb ed="#P" n="110" break="no"/>tur ipsum. Et declaratur quod prius dicebatur ad 
+      vni<lb ed="#P" n="111" break="no"/>tatem negationis vel priuationis non sufficere 
+      vnita<lb ed="#P" n="112" break="no"/>tem affirmationis vel habitus. quia non sortes quod est 
+      ne<lb ed="#P" n="113" break="no"/>gatio vnius affirmationis potest multiplicari siue 
+      in<lb ed="#P" n="114" break="no"/>multis substantiis: siue in eodem subiecto multis 
+      sub<lb ed="#P" n="115" break="no"/>stantiis patet. de eodem subiecto etiam patet secundum 
+      diuersita<lb ed="#P" n="116" break="no"/>tem illius subiecti si negationes sint simul: sicut 
+      quam<lb ed="#P" n="117" break="no"/>titas platonis est non sortes. et similiter albedo eius et 
+      <lb ed="#P" n="118"/>substantia. sed secundum idem etiam est possibile negationes 
+      <lb ed="#P" n="119"/>eiusdem multiplicari in eodem subiecto. et hoc si sint 
+      <lb ed="#P" n="120"/>succedentes et interruptio quedam sicut de habitu et 
+      <lb ed="#P" n="121"/>de sanitate dicitur quinto phisicorum.
+      </p>
+            <p xml:id="qrdBas-f61107-d1e1073">
+      ¶ Hec de 
+      sa<lb ed="#P" n="122" break="no"/>cramento penitentie dicta sufficiant. Multa enim alia 
+      <lb ed="#P" n="123"/>possent dici que modo pertranseo et gratia breuitatis  
+      <lb ed="#P" n="124"/>Et quia satis faciliter et seriose magis possunt in 
+      <lb ed="#P" n="125"/>scriptis communibus inueniri: et ibidem requirantur. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

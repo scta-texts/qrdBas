@@ -1,0 +1,592 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="114-v"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f69791"><!--l4d34-36q1 -->
+            <head xml:id="qrdBas-f69791-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f69791-d1e101">
+               <lb ed="#P" n="47"/>¶ Distinc. xxxiiii. xxxv. et. xxxvi. 
+      <lb ed="#P" n="48"/>Questio Unica.
+    </p>
+            <p xml:id="qrdBas-f69791-d1e108">
+               <lb ed="#P" n="49"/>CIrca distinctiones 
+      <lb ed="#P" n="50"/>xxxiiii. et. xxxv. e. xxx vi. quero 
+      <lb ed="#P" n="51"/>vtrum impotentia coeundi / vel ad 
+      <lb ed="#P" n="52"/>ulterium cum aliqua viuente 
+      vire<lb ed="#P" n="53" break="no"/>suo vel conditio seruilis 
+      ve<lb ed="#P" n="54" break="no"/>etas puerilis impediant materionium 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e124">
+               <lb ed="#P" n="55"/>¶ Uidetur quod non. Primo de 
+      im<lb ed="#P" n="56" break="no"/>potentia coeundi. quia aliquis praet 
+      con<lb ed="#P" n="57" break="no"/>trahere cum proposito statim in 
+      <lb ed="#P" n="58"/>trandi religionem: non excercendi talem actum similiter 
+      se<lb ed="#P" n="59" break="no"/>nes possunt contraherc: qui habent impotentiam talis actus. 
+      <lb ed="#P" n="60"/>Et similiter maleficiati non tamen maleficio perpetuo: ita 
+      <lb ed="#P" n="61"/>quod impotentia ad tempus non impedit. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e142">
+      ¶ Secundo vi 
+      <lb ed="#P" n="62"/>detur de adulterio cum vxore alicuius ipso viuente. quia 
+      <lb ed="#P" n="63"/>dauid contraxit cum bersabee: non obstante quod prius polluis¬ 
+      <!--227.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>set eam per adulterium marito eius viuente: et cum hoc 
+      oc<lb ed="#P" n="65" break="no"/>cidisset maritum suum vriam. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e159">
+      ¶ Tertio videtur quod 
+      <lb ed="#P" n="66"/>conditio seruilis non impediat. quia conditio seruilis non 
+      <lb ed="#P" n="67"/>impedit susceptionem aliorum sacforum plurium. et similiter 
+      <lb ed="#P" n="68"/>in christo neque seruus neque liber. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e168">
+      ¶ Quarto videtur 
+      <lb ed="#P" n="69"/>quod non etas puerilis quia etas puerilis non impedit 
+      sus<lb ed="#P" n="70" break="no"/>sceptionem sacri ordinis. Et confirmatur. quia puer potest 
+      <lb ed="#P" n="71"/>dare ptantem corperis sui: antequam habeat vsum. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e177">
+               <lb ed="#P" n="72"/>¶ Contra ista est magister in presentibus distinctu 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e182">
+               <lb ed="#P" n="73"/>¶ In ista questione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e187">
+               <lb ed="#P" n="74"/>¶ Primo inquiram de primo scilicet de impotentia coeum 
+      <lb ed="#P" n="75"/>di.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e194">
+      ¶ Secundo de adulterio cum vxore alterius et aliquibus 
+      <lb ed="#P" n="76"/>annexis.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e200">
+      ¶ Tetio de seruili conditione.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e202">
+      ¶ 
+      Quan<lb ed="#P" n="77" break="no"/>to de puerili etate 
+      <lb ed="#P" n="78"/> articulum di¬ 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e209">
+               <lb ed="#P" n="79"/>¶ Quantum ad primum co primo quod 
+      <lb ed="#P" n="80"/>im potentia coeundi duplex est in genere. vna naturalis 
+      <lb ed="#P" n="81"/>vt frigiditas in viro vel amotio seu carentia alicui 
+      <lb ed="#P" n="82"/>partis necessarie ad talem actum per mutilationem 
+      vel<lb ed="#P" n="83" break="no"/>alio quouismodo vel artatio in muliere. Alia 
+      impoten<lb ed="#P" n="84" break="no"/>tia est casualis: vt etiam maleficium. Et similiter 
+      casua<lb ed="#P" n="85" break="no"/>lis posset dici illa que ex mutilatione procedit magis 
+      <lb ed="#P" n="86"/>quam naturalis. Non est vis prima impotentia patet. secunda 
+      <lb ed="#P" n="87"/>impotentia declaratur. Nam dyabolus vel spiritus 
+      ma<lb ed="#P" n="88" break="no"/>ligni frequenter habent pactiones cum aliquibus 
+      homi<lb ed="#P" n="89" break="no"/>nibus vel mulieribus: vtpote cum magis conuenit. et 
+      <lb ed="#P" n="90"/>hoc in aliquibus signis. et talia pacta signis illis 
+      ad<lb ed="#P" n="91" break="no"/>hibitis libenter tenent: vt homines eos colani: et reueream 
+      <lb ed="#P" n="92"/>tur eos: et cum eis damnationem incurrant. si enim nulla 
+      pa<lb ed="#P" n="93" break="no"/>cta seruarent: nulli per talem modum eis seruirent. Deus 
+      au<lb ed="#P" n="94" break="no"/>tem permittit eis sic adimplere pacta circa aliquas 
+      per<lb ed="#P" n="95" break="no"/>sonas impediendo eas vel turbando. et hoc vel propter 
+      <lb ed="#P" n="96"/>pctam eorum vel aliorum: vel ad excercitationem earum vel 
+      <lb ed="#P" n="97"/>aliam causam occultam. Et hoc modo in proposito dico quod 
+      <lb ed="#P" n="98"/>magus vel maga habent pactum cum demone: adhibet 
+      <lb ed="#P" n="99"/>aliquod signum quo adhibito demon impedit aliquem 
+      <lb ed="#P" n="100"/>ab actu matrimoniali carnali: in quem alias posset: 
+      <lb ed="#P" n="101"/>ne possit exire in talem actum. Aliquando respectu vnius 
+      perso<lb ed="#P" n="102" break="no"/>sone determinate: aliquando non solum respectu vnius: sed 
+      <lb ed="#P" n="103"/>ettam plurium. aliquando respectu omnium. ita quod cum nulla potest 
+      <lb ed="#P" n="104"/>excercere talem actum aliquando cum aliqua potest: et cum alia non 
+      <lb ed="#P" n="105"/>Et hoc maleficium vocatur. vnde et persona sic 
+      impedi<lb ed="#P" n="106" break="no"/>ta dicitur maleficiata I maleficio impedita. Et dico quod 
+      <lb ed="#P" n="107"/>aliquando contra talia maleficia orationes sanctorum sunt 
+      <lb ed="#P" n="108"/>in remedium: quibus merentur sancti artationem 
+      demo<lb ed="#P" n="109" break="no"/>nis: ne amplius noceat maleficiato. Aliquando 
+      depositio<lb ed="#P" n="110" break="no"/>nes maleficiorum sunt in remedium. Et dico quod sunt li 
+      <lb ed="#P" n="111"/>cite: vt fractio talis signi: qui inueniret ipsum vel 
+      al<lb ed="#P" n="112" break="no"/>terius: dum tamen maleficiendo non deponatur maleficium: 
+      <lb ed="#P" n="113"/>nec deponatur ad malum sed ad bonum. immo sunt 
+      merito<lb ed="#P" n="114" break="no"/>rie: nec habent aliquid de infidelitate. Non eim deponens 
+      <lb ed="#P" n="115"/>maleficium: credit in demonem: sed credit demonem 
+      ar<lb ed="#P" n="116" break="no"/>tari virtute diuina: vel etiam sponte. quia seruat 
+      pa<lb ed="#P" n="117" break="no"/>ctum etiam quando desinit impedire maleficio 
+      deposito<lb ed="#P" n="118" break="no"/>ideo etc. Unde talis deponens maleficium 
+      intentio<lb ed="#P" n="119" break="no"/>ne curandi maleficiatum non consentit operibus malignis: 
+      <lb ed="#P" n="120"/>sed destruit opera maligna dyaboli: quem credit posse 
+      <lb ed="#P" n="121"/>et velle vexare vel impedire: vt coniter durante male 
+      <lb ed="#P" n="122"/>ficio et velle cessare deposito maleficio.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e307">
+      ¶ Secundo 
+      <lb ed="#P" n="123"/>dico breuiter quod omnis impotentia coeundi simpliciter et 
+      <lb ed="#P" n="124"/>perpetua cui non potest adhiberi remedium: nec per 
+      na<lb ed="#P" n="125" break="no"/>turam: nec per artem si praecedat contractum matrimonii: 
+      sim<lb ed="#P" n="126" break="no"/>pliciter impedit matrimonium contrahendum: et dirimit 
+      con<lb ed="#P" n="127" break="no"/>tractum. Respectu dico cuiuscumque est tale impedimen¬ 
+      <!--228.xml-->
+      <pb ed="#P" n="115-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tum. quod dico quia aliquis posset esse perpetuo 
+      ma<lb ed="#P" n="2" break="no"/>leficiatus respectu vnius et non respectu alterius. Et 
+      <lb ed="#P" n="3"/>similiter aliqua posset esse arta non simpliciter 
+      respe<lb ed="#P" n="4" break="no"/>ctu cuiuscunque viri: sed bene respectu alicuius: licet 
+      re<lb ed="#P" n="5" break="no"/>spectu alterius non esset arta. Ad hoc est ratio 
+      tri<lb ed="#P" n="6" break="no"/>plex. prima quia contractus matrimonii est datio 
+      pote<lb ed="#P" n="7" break="no"/>statis corporis ad actum carnalem: si petatur. Iste autem 
+      <lb ed="#P" n="8"/>non habet potestatem ad talem actum. et per consequens non potest 
+      <lb ed="#P" n="9"/>eam dare: nec contrahere. Secundo quia nullus potest 
+      obli<lb ed="#P" n="10" break="no"/>gare se ad impossibile. sed talis actus est 
+      impossibi<lb ed="#P" n="11" break="no"/>lis sibi. Tertio quia persona alia potens coire 
+      in<lb ed="#P" n="12" break="no"/>tendit commutare potestatem corporis sui ad talem actum 
+      <lb ed="#P" n="13"/>pro potestate corperis alterius persone: cum qua 
+      con<lb ed="#P" n="14" break="no"/>trahit. et per consequens credit alium posse commutare. sed 
+      con<lb ed="#P" n="15" break="no"/>mutare non potest quia potestatem non habet. ita quod hic est 
+      <lb ed="#P" n="16"/>error circa aliquid necessario requisitum ad 
+      matrimo<lb ed="#P" n="17" break="no"/>nium. et dato quod non esset error. sed bene sciret perso 
+      <lb ed="#P" n="18"/>na contrahens cum impotente ad talem actum adhuc 
+      nim<lb ed="#P" n="19" break="no"/>hil fieret.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e368">
+      ¶ Tertio dico quod si talis impotentia eue 
+      <lb ed="#P" n="20"/>niat post matrimonium consummatum. non dirimit 
+      ma<lb ed="#P" n="21" break="no"/>trimonium. quia prius iam fuit potestas tradita 
+      contra<lb ed="#P" n="22" break="no"/>hedo matrimonium. et ille cui fuit tradita missus 
+      im<lb ed="#P" n="23" break="no"/>possessionem consummando matrimonium.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e379">
+      ¶ Quarte 
+      <lb ed="#P" n="24"/>dico quod si talis impotentia sequatur matrimonium 
+      ra<lb ed="#P" n="25" break="no"/>tum: et praecedat matrimonium consummatum: ita quod 
+      inter<lb ed="#P" n="26" break="no"/>ueniat ista duo: quod non dirimit matrimonium. quia iam 
+      <lb ed="#P" n="27"/>matrimonio rato potestas fuit irreuocabiliter tra 
+      <lb ed="#P" n="28"/>dita: licet postea eueniat impedimentum actus. Uidet 
+      <lb ed="#P" n="29"/>tamen dicere oppositum capitulum primum. xxxiii. q 1. 
+      vbi<lb ed="#P" n="30" break="no"/>dicitur quod comniugium confirmatur officio: et cum antequam 
+      com<lb ed="#P" n="31" break="no"/>firmetur sequitur impedimentum officii: soluit vinculum. 
+      <lb ed="#P" n="32"/>Sed potest exponi de impedimento non quocumque sed 
+      for<lb ed="#P" n="33" break="no"/>te ingressus et professionis in religione.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e404">
+      ¶ Sic igitur est 
+      <lb ed="#P" n="34"/>simile de istis impotentiis naturali scilicet et casuali: si 
+      <lb ed="#P" n="35"/>sint perpetue et simpliciter: quod impediunt et dirimunt 
+      <lb ed="#P" n="36"/>modo praedicto. Sed dissimilia sunt aliqua post 
+      diuor<lb ed="#P" n="37" break="no"/>tium. Una differentia est inter ista impedimenta. quia habenti 
+      <lb ed="#P" n="38"/>impedimentum casuale maleficii licet contrahere aliquando 
+      <lb ed="#P" n="39"/>alteri. Et si post contractum cum altero copuletur 
+      car<lb ed="#P" n="40" break="no"/>naliter illi secundo: non debet restitui primo. quia aliquis potest 
+      <lb ed="#P" n="41"/>esse maleficiatus respectu vnius puta respectu 
+      primi<lb ed="#P" n="42" break="no"/>coniugis: et non respectu alterius puta respectu secundi. 
+      <lb ed="#P" n="43"/>Sed habens impedimentum naturale post diuortium 
+      <lb ed="#P" n="44"/>non potest contrahere: sed debet manere sine spe 
+      commuiu<lb ed="#P" n="45" break="no"/>gii. et tutum esset sibi intrare religionem. et in hoc esset 
+      <lb ed="#P" n="46"/>primum dissimile. Quod si alteri nubat de facto: et in 
+      <lb ed="#P" n="47"/>ueniatur cum eo exercere actum carnalem: debet 
+      resti<lb ed="#P" n="48" break="no"/>tui priori. et censendum est primum diuortium esse nullum: 
+      <lb ed="#P" n="49"/>nisi quantum ad impedimentum artitudinis naturalis 
+      <lb ed="#P" n="50"/>ipsius mulieris que posset esse arta respectu primi et 
+      <lb ed="#P" n="51"/>non respectu secundi. et ita non esset reddenda primo. 
+      <lb ed="#P" n="52"/>Quomodo autem possint talia impedimenta et per 
+      <lb ed="#P" n="53"/>petuitates eorum cognosci et inter quales debeat 
+      di<lb ed="#P" n="54" break="no"/>uortium celebrari: pretermitto. Hec de primo 
+      arti<lb ed="#P" n="55" break="no"/>culo principali. 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e454">
+               <lb ed="#P" n="56"/>¶ Quantum ad secundum 
+      arti<lb ed="#P" n="57" break="no"/>culum qui pertinet ad. xxxv. distinctionem: dico quod 
+      ad<lb ed="#P" n="58" break="no"/>ulterium non impedit nec dirimit matrimonium: qui 
+      <lb ed="#P" n="59"/>adulter ducit adulteram vtroque soluto vel commiugibus 
+      <lb ed="#P" n="60"/>eorum mortuis: si fuerint ambo comniugati: vel etiam 
+      con<lb ed="#P" n="61" break="no"/>luge alterius mortuo: si tantum alter fuit coniugatus 
+      <lb ed="#P" n="62"/>prius. Hoc patet de nuptiis et concupiscentia 
+      al<lb ed="#P" n="63" break="no"/>Augustino. et ponitur in litera. dicit enim: quod 
+      potes<lb ed="#P" n="64" break="no"/>fieri coniugium: cum qua precessit adulterium. 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e476">
+        <!--228.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>¶ Secundo dico quod adulterium cum fidei datione 
+      <lb ed="#P" n="66"/>de contrahendo cum adultera vel contractu defacto 
+      <lb ed="#P" n="67"/>cum ipsa viuente marito vel etiam cum 
+      promissio<lb ed="#P" n="68" break="no"/>ne iuramento firmata de contrahendo post mortem 
+      <lb ed="#P" n="69"/>mariti impedit et dirimit matrimonium.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e494">
+      ¶ 
+      Ter<lb ed="#P" n="70" break="no"/>tio dico: quod sola machinatio mutua precipue in mor 
+      <lb ed="#P" n="71"/>tem legitimi coniugis ad finem contrahendi cum 
+      <lb ed="#P" n="72"/>alio impedit: et dirimit contractum inter 
+      machinan<lb ed="#P" n="73" break="no"/>tes. Et debet intelligi de machinatione deducta 
+      <lb ed="#P" n="74"/>ad effectum. quia non sufficit ad hoc machinatio 
+      con<lb ed="#P" n="75" break="no"/>cepta vel in affectu tantum.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e510">
+      ¶ Quarto dico: quod ad  
+      <lb ed="#P" n="76"/>ulterium cum tali machinatione etiam impedit et 
+      di<lb ed="#P" n="77" break="no"/>rimit contractum.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e517">
+      ¶ Ex predictis patet: quod primum 
+      <lb ed="#P" n="78"/>istorum trium puta adulterium solum nec impedit 
+      <lb ed="#P" n="79"/>nec dirimit. Similiter de sola machinatione vel 
+      fi<lb ed="#P" n="80" break="no"/>dei datione videtur probabiliter posse dici: quod nec 
+      <lb ed="#P" n="81"/>impediunt nec dirimunt.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e529">
+      ¶ Secundum solum 
+      puta<lb ed="#P" n="82" break="no"/>machinatio in mortem legitimi coniugis ad contra 
+      <lb ed="#P" n="83"/>hendum cum alio. Et machinatio dico mutua sic 
+      <lb ed="#P" n="84"/>quod alius sit consentiens: et sit deducta ad effectum: 
+      <lb ed="#P" n="85"/>impedit et dirimit secundum opinionem aliquorum. 
+      Ma<lb ed="#P" n="86" break="no"/>chi natio vero non mutua sed altero inscio vel etiam 
+      <lb ed="#P" n="87"/>altero sciente non tamen ad effectum deducta: vel si 
+      <lb ed="#P" n="88"/>alter cum quo mulier postea contraheret iusto 
+      bel<lb ed="#P" n="89" break="no"/>lo vel alia de causa interficeret virum mulieris non 
+      <lb ed="#P" n="90"/>ad contrahendum cum ea: sed alia de causa: tunc non 
+      <lb ed="#P" n="91"/>impediret.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e553">
+      ¶ Tertium solum. scilicet fidei datio de 
+      <lb ed="#P" n="92"/>contrahendo vel contractus defacto vel promissio 
+      <lb ed="#P" n="93"/>cum iuramento: que tria pro eodem reputantur in 
+      <lb ed="#P" n="94"/>ista materia vel etiam mutua promissio que fidei 
+      <lb ed="#P" n="95"/>equipollet: licet impediant sciente vtroque alium esse 
+      <lb ed="#P" n="96"/>coniugatum: et dirimant secundum opinionem aliquorum: 
+      <lb ed="#P" n="97"/>tamen altero inscio non dirimunt: licet impediant. 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e569">
+               <lb ed="#P" n="98"/>¶ Quotienscunque autem duo istorum impedimento 
+      <lb ed="#P" n="99"/>rum adinuicem concurrunt quecunque sint illa: vt 
+      ad<lb ed="#P" n="100" break="no"/>alterium cum machinatione vel machinatio cum fidei 
+      <lb ed="#P" n="101"/>datione vel econuerso quomodocumque permutando: 
+      <lb ed="#P" n="102"/>vel adulterium cum fidei datione seu contractu de facto 
+      <lb ed="#P" n="103"/>vel promissione cum iuramento firmata modis supra 
+      <lb ed="#P" n="104"/>dictis impediunt matrimonium contrahendum. et 
+      diri<lb ed="#P" n="105" break="no"/>nunt contractum. Hec de secundo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e589">
+               <lb ed="#P" n="106"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="107" break="no"/>culum qui pertinet ad distinctionem. xxxvi. dico 
+      <lb ed="#P" n="108"/>primo de seruitute aliqua. postea ad propositum de 
+      <lb ed="#P" n="109"/>seruitute de qua loquimur in proposito: que 
+      dici<lb ed="#P" n="110" break="no"/>tur et est vilis. dico quod illa non est de lege nature. 
+      <lb ed="#P" n="111"/>sed secundum legem nature omnes nascuntur liberi 
+      li<lb ed="#P" n="112" break="no"/>bertate opposita tali seruituti. Non enim loquor 
+      <lb ed="#P" n="113"/>de seruitute improprie dicta: que est obedientia 
+      fi<lb ed="#P" n="114" break="no"/>lialis ad patrem. Illa enim bene est de lege 
+      natu<lb ed="#P" n="115" break="no"/>re vel secundum ius nature. Similiter non loquor de 
+      ser<lb ed="#P" n="116" break="no"/>uitute de qua dicit Philosophus primo politice: 
+      <lb ed="#P" n="117"/>quod pollens mente debet regere et presidere. pollens 
+      <lb ed="#P" n="118"/>viribus debet seruire: id est aliis ministrare et 
+      pro<lb ed="#P" n="119" break="no"/>aliis corporaliter laborare: que est seruitus 
+      politi<lb ed="#P" n="120" break="no"/>ca: qua inferior subordinatur superiori: et ad ipsum 
+      <lb ed="#P" n="121"/>disponitur sed loquor de seruitute extrema 
+      secun<lb ed="#P" n="122" break="no"/>dum quam dominus potest vendere seruum suum 
+      si<lb ed="#P" n="123" break="no"/>cut pecudem: de qua loquitur Philosophus primo 
+      <lb ed="#P" n="124"/>politice quod seruus non potest exercere opera virtus 
+      <lb ed="#P" n="125"/>tis pro eo quod oportet eum ad preceptum domini exercere 
+      <lb ed="#P" n="126"/>actus seruiles.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e637">
+      ¶ Dico igitur quod talis seruitus non est 
+      <lb ed="#P" n="127"/>iuste inducta nisi dupliciter vel in duobus casibus. 
+      vno<lb ed="#P" n="128" break="no"/>modo quia aliquis voluntarie se subiecit tali serui 
+      <!--229.xml-->
+      <pb ed="#P" n="116-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>tuti: et licet talis subiectio esset fatua et forte contra 
+      <lb ed="#P" n="2"/>legem libertatis naturalis: hoc tamen potuit 
+      face<lb ed="#P" n="3" break="no"/>re de facto: et renunciare iuri libertatis sue: et 
+      seip<lb ed="#P" n="4" break="no"/>sum sic subdere: et dominus potuit iuste acceptare: et de 
+      <lb ed="#P" n="5"/>puit subditus seruire implendo illud quod 
+      promi<lb ed="#P" n="6" break="no"/>sit domino. quia licet prius non teneretur facta tamen 
+      vo<lb ed="#P" n="7" break="no"/>luntaria subiectione et obligatione ad hoc tenetur 
+      <lb ed="#P" n="8"/>hoc implere de iure nature: sicut et seruare promissum. 
+      <lb ed="#P" n="9"/>Secundo modo potuit iuste induci a legislatore vel 
+      <lb ed="#P" n="10"/>communitate propter demerita alicuius pestilentis 
+      <lb ed="#P" n="11"/>in communitate vel abutentis sua libertate 
+      punien<lb ed="#P" n="12" break="no"/>do ipsum tali pena seruitutis. Si dicatur quod immo. 
+      <lb ed="#P" n="13"/>quia sunt multi alii serui: quorum seruitus non est sio 
+      <lb ed="#P" n="14"/>inducta iuste et possidentur etiam a viris 
+      conscientio<lb ed="#P" n="15" break="no"/>sis et ecclesiasticis. Similiter etiam captus in 
+      bello<lb ed="#P" n="16" break="no"/>iusto: qui statim posset occidi: iuste potest in seruitutem 
+      <lb ed="#P" n="17"/>redigi: et sic vita eius conseruari.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e687">
+      ¶ Dicitur de primo 
+      <lb ed="#P" n="18"/>quod non licet aliter primo occupare seruum: sed 
+      iure<lb ed="#P" n="19" break="no"/>prescriptionis possunt aliter possideri serui quam 
+      mo<lb ed="#P" n="20" break="no"/>dis predictis. Non video quod in aliis possint saluari 
+      <lb ed="#P" n="21"/>conditiones determinate a iure ad veram 
+      prescriptio<lb ed="#P" n="22" break="no"/>nem: puta quod iusto titulo acquirat prescribens 
+      rem<lb ed="#P" n="23" break="no"/>possessam: et sit bone fidei possessor: et quod sine 
+      interru<lb ed="#P" n="24" break="no"/>ptione temporis a lege determinata: et sine 
+      reclama<lb ed="#P" n="25" break="no"/>tione ad contrarium. Difficile enim est ibi laluare 
+      <lb ed="#P" n="26"/>primas conditiones. Et ideo respondeant ad hoc 
+      <lb ed="#P" n="27"/>qui tales seruos possident. quia difficile est saluare 
+      <lb ed="#P" n="28"/>quod iuste possideant.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e714">
+      ¶ De secundo diceretur quod aliquo 
+      <lb ed="#P" n="29"/>capto in bello iusto cessante pertinacia hostis sicut 
+      <lb ed="#P" n="30"/>iam cessat: quando captus est: et per consequens 
+      aduenien<lb ed="#P" n="31" break="no"/>te correctione et emendatione prompta non est 
+      ve<lb ed="#P" n="32" break="no"/>risimile quod debeat puniri morte vel seruitute que est 
+      <lb ed="#P" n="33"/>tanta pena contra libertatem nature. sed debet suffit 
+      <lb ed="#P" n="34"/>cienti correctione vel emendatione permitti 
+      bene<lb ed="#P" n="35" break="no"/>vti propria libertate. Si autem omnino manet per 
+      <lb ed="#P" n="36"/>tinacia hostis quantumcunque capti: ita quod presumitur 
+      <lb ed="#P" n="37"/>ipsum sua libertate in preiudicium eius qui habuit 
+      <lb ed="#P" n="38"/>pellum iustum contra eum qui acccepit eum: tunc 
+      ma<lb ed="#P" n="39" break="no"/>gis videretur rationabile ipsum in seruitutem 
+      redi<lb ed="#P" n="40" break="no"/>gi: vel perpetuo detineri. Quid autem super hoc sit 
+      <lb ed="#P" n="41"/>faciendum: relinquatur iudicio meliori.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e745">
+      ¶ Ad 
+      pro<lb ed="#P" n="42" break="no"/>positum de impedimento predicte seruitutis: dicitur quod 
+      <lb ed="#P" n="43"/>eruus cum ancilla vel cum libera sciente 
+      seruitu<lb ed="#P" n="44" break="no"/>tem eius potest contrahere de facto etiam inuito domino 
+      <lb ed="#P" n="45"/>et tenet matrimonium: non tamen cum libera ignorante 
+      <lb ed="#P" n="46"/>seruitutem eius. quia hic est impedimentum 
+      erro<lb ed="#P" n="47" break="no"/>ris peioris conditionis qui simpliciter impedit 
+      ma<lb ed="#P" n="48" break="no"/>trimonium contrahendum: et dirimit iam cotractum. 
+      <lb ed="#P" n="49"/>quia libera non intendit dare potestatem corporis 
+      <lb ed="#P" n="50"/>sui nisi pro potestate equiualente: quam non habet nec 
+      <lb ed="#P" n="51"/>potest seruus dare. Primum autem probant 
+      aliqui<lb ed="#P" n="52" break="no"/>it matrimonium est de lege nature. sed seruitus non: 
+      <lb ed="#P" n="53"/>sed magis de lege positiua. Illud autem quod est 
+      <lb ed="#P" n="54"/>de lege positiua: non preiudicat ei quod est de 
+      lege<lb ed="#P" n="55" break="no"/>nature. Secundo quia seruus non sic est domini: quin sit 
+      <lb ed="#P" n="56"/>sui iuris quantum ad aliquos actus naturales: 
+      vtpote<lb ed="#P" n="57" break="no"/>necessarios ad conseruationem indiuidui: et pari 
+      ra<lb ed="#P" n="58" break="no"/>tione de actu matrimoniali ad conseruationem 
+      spe<lb ed="#P" n="59" break="no"/>ciei.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e787">
+      ¶ Iste rationes non videntur aliis efficaces. 
+      pri<lb ed="#P" n="60" break="no"/>ma non. quia licet seruitus sit de iure naturali: tamen 
+      <lb ed="#P" n="61"/>ipsa presupposita et obligatione eius de iure 
+      natu<lb ed="#P" n="62" break="no"/>rali est eam reddere: et ita diceretur conquenter non obligare 
+      <lb ed="#P" n="63"/>ad se aliquid incompossibile actibus seruitutis cuiusmo 
+      <lb ed="#P" n="64"/>di est matrimonium. Secunda etiam non cogit: vt videtur. quia 
+      <lb ed="#P" n="65"/>non quicumque tenetur ad conseruationem indiuidui tenetur 
+      <!--229.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>etiam ad multiplicationem vel ad conseruationem 
+      speciei<lb ed="#P" n="67" break="no"/>per generationem. vt patet. et ita non est eadem 
+      ne<lb ed="#P" n="68" break="no"/>cessitas ad vtrosque actus: nisi forte poneretur casus 
+      <lb ed="#P" n="69"/>necessitatis: in quo ad conseruationem speciei oporte 
+      <lb ed="#P" n="70"/>ret propter paucitatem hominum: quod iste generaret. 
+      <lb ed="#P" n="71"/>tunc enim teneretur ad generandum: sicut ad 
+      conser<lb ed="#P" n="72" break="no"/>uationem indiuidui tenetur ad manducandum vel ad  
+      <lb ed="#P" n="73"/>bibendum suo modo. nec debet seruus obedire domino 
+      <lb ed="#P" n="74"/>contrarium precipienti in casu isto.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e826">
+      ¶ Dicitur igitur:  
+      <lb ed="#P" n="75"/>quod seruis ad inuicem licet contrahere de licentia domino  
+      <lb ed="#P" n="76"/>rum: et domini vel dominus licentiando eos implicite 
+      rela<lb ed="#P" n="77" break="no"/>xat eos ab operibus seruilibus impedientibus sal 
+      <lb ed="#P" n="78"/>tem iugiter et continue actum matrimonialem. vnde / et 
+      <lb ed="#P" n="79"/>si post talem licentiam et matrimonium contractum dominus 
+      <lb ed="#P" n="80"/>impediret seruum iugiter ab actu matrimoniali od 
+      <lb ed="#P" n="81"/>cupando eum in aliquibus seruitiis 
+      incompossibili<lb ed="#P" n="82" break="no"/>bus: sic quod non posset aliquando coniugem visitare: et hoc 
+      <lb ed="#P" n="83"/>esset publicum debet per ecclesiam corrigi. vel 
+      corripi<lb ed="#P" n="84" break="no"/>super hoc. Et hoc intelligendum est siue cum libera 
+      si<lb ed="#P" n="85" break="no"/>ue cum ancilla.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e852">
+      ¶ Secundo dicitur: quod potest contrahere siue 
+      <lb ed="#P" n="86"/>cum ancilla siue cum libera sciente seruitutem eius domino 
+      <lb ed="#P" n="87"/>nesciente: immo etiam ipso inuito et sciente pro quanto seruus 
+      <lb ed="#P" n="88"/>habet aliquid iuris in proprio corpare. Non enim priuatus 
+      <lb ed="#P" n="89"/>est quacumque libertate ad quoscumque actus pro quocum 
+      <lb ed="#P" n="90"/>que tpare: vt videtur: sed aliquantulum saltem modicum 
+      sibi<lb ed="#P" n="91" break="no"/>remanet ad aliquos actus pro aliquo tpare. et illud  
+      <lb ed="#P" n="92"/>modicum libertatis ad actum matrimonialem et potesta 
+      <lb ed="#P" n="93"/>tis potest dare alteri contento de illo modico per contractum 
+      <lb ed="#P" n="94"/>matrimonialem. et tunc matrimonio tali contracto 
+      te<lb ed="#P" n="95" break="no"/>nentur postea ad fidelitatem matrimonii secundum illud 
+      mo<lb ed="#P" n="96" break="no"/>dicum posse suum: et quantumlet eis.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e878">
+      ¶ Sed esto ln casu isto 
+      <lb ed="#P" n="97"/>quod dominus serui comperto quod contraxerit ipso ignorante vel 
+      <lb ed="#P" n="98"/>inuito si occuparet eum et perpetuo impediat ab actu 
+      <lb ed="#P" n="99"/>matrimoniali: nunquid peccat. puto quod non deberet 
+      <lb ed="#P" n="100"/>facere et quod peccat hoc faciendo appetitu vindicte: 
+      li<lb ed="#P" n="101" break="no"/>cet autem hoc non debeat facere de bono et equo: tamen 
+      <lb ed="#P" n="102"/>i faceret non appetitu vindicte: sed eodem 
+      appetitu<lb ed="#P" n="103" break="no"/>quo ante contractum matrimonii potuit eum 
+      impedire<lb ed="#P" n="104" break="no"/>endendo eum vel occupando perpetuo. Et non patet 
+      <lb ed="#P" n="105"/>quo hoc sit contra iusticiam. nam actus serui in 
+      contra<lb ed="#P" n="106" break="no"/>sendo inuito domino in nullo potest preiudicare potesta 
+      <lb ed="#P" n="107"/>ti et auctoritati domini super seruum. quare etc.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e905">
+      ¶ 
+      Po<lb ed="#P" n="108" break="no"/>test autem contrahere seruus cum ancilla vitroque 
+      nescien<lb ed="#P" n="109" break="no"/>te conditionem alterius. quia sunt equalis conditionis. sed 
+      <lb ed="#P" n="110"/>seruus non potest cum ipsa libera ipsa ignorante 
+      serui<lb ed="#P" n="111" break="no"/>tutem eius: sicut superius dicebatur de impedimento 
+      <lb ed="#P" n="112"/>erroris peioris conditionis. quia licet posset 
+      aliquali<lb ed="#P" n="113" break="no"/>ter dare vel transferre corpus suum: non tamen sic sicut 
+      <lb ed="#P" n="114"/>ibera intendit: quod transferat. quia non simpliciter 
+      pote<lb ed="#P" n="115" break="no"/>statem sicut patet. Sed cum libera sciente seruitutem eius 
+      potes<lb ed="#P" n="116" break="no"/>contrahere. quia tunc non est impedimentum erroris: sed  
+      <lb ed="#P" n="117"/>presumitur. Et patet si consentiat quod sufficit sibi illa 
+      mo<lb ed="#P" n="118" break="no"/>dica potestas quam seruus potest in ipsam 
+      transferre<lb ed="#P" n="119" break="no"/>Ista possunt probari per capitula de coniugio seruorum: et 
+      <lb ed="#P" n="120"/>pecialiter extra de seruorum ca. primo: quae dimitto 
+      gra<lb ed="#P" n="121" break="no"/>tia breuitatis. Hec de tertio articulo. 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e938">
+               <lb ed="#P" n="122"/>¶ Quantum ad quartum 
+      arti<lb ed="#P" n="123" break="no"/>culum pertinentem ad distinctionem. xxx vi. de etate 
+      pue<lb ed="#P" n="124" break="no"/>rili dico quod sicut dictum est in primo articulo 
+      impoten<lb ed="#P" n="125" break="no"/>tia coeundi simpliciter impedit matrimonium. In 
+      pue<lb ed="#P" n="126" break="no"/>ris autem licet non sit impotentia perpetua: tamen pro tpore quo sunt 
+      <lb ed="#P" n="127"/>pueri: in eis est impotentia. et per consequens non habent ptantem 
+      <lb ed="#P" n="128"/>coeundi. dico quod non passent eam dare contrahendo actualiter 
+      <lb ed="#P" n="129"/>materionium: sed quia potentia in eis expectatur: pos: int futu 
+      <!--230.xml-->
+      <pb ed="#P" n="116-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>ram illam promittere. et ideo possunt spotnsalia 
+      contrahe<lb ed="#P" n="2" break="no"/>re. Si queratur de tempore puericie. regulariter 
+      po<lb ed="#P" n="3" break="no"/>nitur expletum completis. xiiii. annis in masculo: et. xii. 
+      <lb ed="#P" n="4"/>infemina. Sed tamen aliquando malicia supplet etatem: et 
+      <lb ed="#P" n="5"/>complexio preuenit. et tunc ptantem possunt dare: 
+      <lb ed="#P" n="6"/>quando habent et consentire sufficienter: et signa 
+      adhibe<lb ed="#P" n="7" break="no"/>re: et sic contrahere.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e980">
+      ¶ Aliqui autem assignant rationem 
+      <lb ed="#P" n="8"/>aliam: quia pueri non possunt contrahere. quia ibi est 
+      defe<lb ed="#P" n="9" break="no"/>ctus intentionis sicut et discretionis. Sed non valet 
+      <lb ed="#P" n="10"/>ratio ad propositum. quia ante potest habere puer 
+      di<lb ed="#P" n="11" break="no"/>scretionem sufficientem ad intentionem debitam quam habe 
+      <lb ed="#P" n="12"/>bat potentiam quae debeat commutari in isto contractu. Et 
+      <lb ed="#P" n="13"/>ideo non est illa ratio vniuersalis de puero: et melior 
+      <lb ed="#P" n="14"/>est prima assignata. Hec de quarto articulo: nisi quod 
+      <lb ed="#P" n="15"/>expresse habetur extra de maleficiis: quod sedem: quod 
+      <lb ed="#P" n="16"/>puer qui non potest reddere debitum: non est aptus 
+      <lb ed="#P" n="17"/>couiugio. 
+      <lb ed="#P" n="18"/>argumentum principale 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e1006">
+               <lb ed="#P" n="19"/>¶ Ad primum de impotentia cocundi 
+      di<lb ed="#P" n="20" break="no"/>co: quod qui contrahit obligat se ad actum: si petatur al 
+      <lb ed="#P" n="21"/>altero coniuge saltem pro aliquo tempore: licet non 
+      <lb ed="#P" n="22"/>pro omni. Ille autem qui nullam habet potestatem: sed 
+      <lb ed="#P" n="23"/>simpliciter est impotens ad actum non potest se 
+      obli<lb ed="#P" n="24" break="no"/>gare. Tu dicis: aliquis potest nubere cum 
+      intentio<lb ed="#P" n="25" break="no"/>ne intrandi religionem. dico quicquid intendat: se 
+      ob<lb ed="#P" n="26" break="no"/>ligat ad actum in contrahendo pro aliquo 
+      tempo<lb ed="#P" n="27" break="no"/>re: si petatur ab altero coniuge: et cum ipso 
+      perma<lb ed="#P" n="28" break="no"/>neat. Et similiter de virginibus contrahentibus. S 
+      <lb ed="#P" n="29"/>militer de senibus diceretur quod si sunt omnino 
+      im<lb ed="#P" n="30" break="no"/>potentes ad actum: veraciter non contrahunt: lice 
+      <lb ed="#P" n="31"/>conueniant vel conuenire possint ad habitandum si 
+      <lb ed="#P" n="32"/>mul: sicut frater et soror. Et ita multi aliquando magis 
+      <lb ed="#P" n="33"/>desponsant diuitias quam personas. si autem non sunt 
+      <lb ed="#P" n="34"/>omnino impotentes: tunc contrahere possunt.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e1043">
+      ¶ A 
+      <lb ed="#P" n="35"/>secundum de adulterio dico: quod licet solum adulterium 
+      <lb ed="#P" n="36"/>non impediat: tamen adulterium cum machinatio 
+      <lb ed="#P" n="37"/>ne in mortem coniugis legitimi modo 
+      supradicto<lb ed="#P" n="38" break="no"/>impedit: et dirimit vel etiam cum fidei datione. 
+      Quam<lb ed="#P" n="39" break="no"/>do dicis de dauid quod contraxit cum barsabee: cum 
+      <lb ed="#P" n="40"/>qua adulteratus fuerat: et eius virum occiderat. 
+      Di<lb ed="#P" n="41" break="no"/>co quod lex huius impedimenti tunc non erat posita. 
+      <lb ed="#P" n="42"/>Et forte diceret aliquis: quod dauid non debuisset 
+      com<lb ed="#P" n="43" break="no"/>traxisse cum ea: sed magis eam lapidasse sicut ad  
+      <lb ed="#P" n="44"/>ulteram. Nec excusatur: quia peccauerat cum ea 
+      <lb ed="#P" n="45"/>quia non propter hoc minus tenebatur facere 
+      iu<lb ed="#P" n="46" break="no"/>sticiam circa eam vel de ea: sed melius excusatur. quia 
+      <lb ed="#P" n="47"/>crimen illud adultum non fuit publicum et ideo nec 
+      po<lb ed="#P" n="48" break="no"/>na debuit esse publica: cuiusmodi erat pena lapida 
+      <lb ed="#P" n="49"/>tionis.
+      </p>
+            <p xml:id="qrdBas-f69791-d1e1078">
+      ¶ Ad tertium de seruis dico quod seruitus vsque 
+      <lb ed="#P" n="50"/>quaque non impedit matrimonium: sicut bene dici 
+      <lb ed="#P" n="51"/>magister in litera. et aliquomodo impedit et 
+      dirimi<lb ed="#P" n="52" break="no"/>respectu persone libere ignorantis. hoc tamen non 
+      <lb ed="#P" n="53"/>est proprie ex impedimento ceruitutis sed erroris 
+      <lb ed="#P" n="54"/>Quando dicis quod conditio seruilis non impedit susce 
+      <lb ed="#P" n="55"/>ptionem aliorum sacramentorum. dico quod immo sal 
+      <lb ed="#P" n="56"/>tem ordinis sacri de iure. sed de aliis sacramentis 
+      <lb ed="#P" n="57"/>non est simile. quia non requiritur ibi conformiter 
+      <lb ed="#P" n="58"/>omne illud quod ad matrimonium requiritur. tamen 
+      <lb ed="#P" n="59"/>bene concedo quod seruitus simpliciter non impedit¬ 
+      </p>
+            <p xml:id="qrdBas-f69791-d1e1103">
+               <lb ed="#P" n="60"/>¶ Ad quartum de etate puerili de aliis sacramen 
+      <lb ed="#P" n="61"/>tis non est simile et de matrimonio. quia non 
+      requ<lb ed="#P" n="62" break="no"/>ritur ibi translatio potestatis per contractum sicut 
+      <lb ed="#P" n="63"/>in matrimonio: quam potestatem puer non habet 
+      <lb ed="#P" n="64"/>in presenti: et ideo non potest eam dare: sed bene 
+      po<lb ed="#P" n="65" break="no"/>test eam promittere pro futuro: et similiter vsum eius 
+      <!--230.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>Et ideo potest sponsalia contrahere patet etiam quod 
+      <lb ed="#P" n="67"/>etas puerilis de iure impedit susceptionem ordinis 
+      <lb ed="#P" n="68"/>sacri. licet non de facto sed matrimonium est de 
+      iu<lb ed="#P" n="69" break="no"/>re et de facto. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

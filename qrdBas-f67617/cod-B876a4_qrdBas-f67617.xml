@@ -1,0 +1,577 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="112-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f67617"><!--l4d31-32q1 -->
+            <head xml:id="qrdBas-f67617-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f67617-d1e101">
+               <lb ed="#P" n="101"/>¶ Distinctionum. xxxi. et. xxxii 
+      <lb ed="#P" n="102"/>Questio Unica. 
+    </p>
+            <p xml:id="qrdBas-f67617-d1e108">
+               <lb ed="#P" n="103"/>CIrca istas duas 
+      <lb ed="#P" n="104"/>distinctiones quero. Utrum sint 
+      <lb ed="#P" n="105"/>tria bona matrimonii: ex 
+      quo<lb ed="#P" n="106" break="no"/>rum altero teneantur inuicem 
+      sem<lb ed="#P" n="107" break="no"/>per reddere debitum altero 
+      po<lb ed="#P" n="108" break="no"/>tente.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e124">
+      ¶ Uidetur quod non sint tria 
+      il<lb ed="#P" n="109" break="no"/>ta bona matrimonii quae assignantur 
+      <lb ed="#P" n="110"/>scilicet bonum sacramenti. bonum 
+      fi<lb ed="#P" n="111" break="no"/>dei et bonum prolis. Primo matrimonium est bonum 
+      <lb ed="#P" n="112"/>de se: cum sit sacramentum. ergo non aliis bonis bonum. 
+      <lb ed="#P" n="113"/>et ita non ponitur ibi conuenienter bonum sacramenti 
+      <lb ed="#P" n="114"/>vt videtur.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e140">
+      ¶ Secundo quod non bonum fidei. quia inter 
+      <lb ed="#P" n="115"/>adulteram et virum suum est matrimonium. et tamen non est 
+      <lb ed="#P" n="116"/>ibi bonum fidei.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e148">
+      ¶ Tertio de bono prolis: quia cum 
+      ste<lb ed="#P" n="117" break="no"/>rili vel virgine que vouit virginitatem vel cum sene 
+      <lb ed="#P" n="118"/>iam emortuo potest esse matrimonium: et tamen non 
+      <lb ed="#P" n="119"/>est ibi bonum prolis nec in re nec in spe. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e157">
+               <lb ed="#P" n="120"/>¶ Contra Magister in litera¬ 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e162">
+               <lb ed="#P" n="121"/>¶ In ista quaestione sic procedam. 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e167">
+               <lb ed="#P" n="122"/>¶ Primo inquiram: vtrum actus matrimonialis. quai 
+      <lb ed="#P" n="123"/>est actus carnalis: requirat aliqua bona: quibus 
+      ex<lb ed="#P" n="124" break="no"/>cusetur.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e176">
+      ¶ Secundo ostendam: quot sunt bona 
+      matrimo<lb ed="#P" n="125" break="no"/>nii.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e181">
+      ¶ Tertio inquiram: vtrum ex obligatione 
+      imferimoniali<lb ed="#P" n="126" break="no"/>temneatur coniunx semper reddere debitum altero petente 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e187">
+        <!--221.xml-->
+               <pb ed="#P" n="112-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>¶ Ultimo ad rationes. 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e198">
+               <lb ed="#P" n="2"/>¶ Quantum ad primum 
+      di<lb ed="#P" n="3" break="no"/>titur: quod actus matrimonialis exigit aliqua bona: qui 
+      <lb ed="#P" n="4"/>pus excusetur: cuius ratio est. quia in tali actu priuatur 
+      <lb ed="#P" n="5"/>homo vsu rationis et actu: sicut Aristoteles dicit in 
+      <lb ed="#P" n="6"/>viii. ethico. vbi loquitur de venere. et in tali actu non 
+      <lb ed="#P" n="7"/>solum impossibile est aliquid intelligere: verum etiam et 
+      <lb ed="#P" n="8"/>post tale actum minus disponitur homo ad vsum 
+      ratio<lb ed="#P" n="9" break="no"/>nis. vnde et per talem actum homo quasi totus hebetatur: et 
+      <lb ed="#P" n="10"/>brutificatur. Et confirmatur per Au8rgo dicentem: quod 
+      volu<lb ed="#P" n="11" break="no"/>ptas qua maior in corporalibus voluptatibus 
+      nulla<lb ed="#P" n="12" break="no"/>est momento ipso temporis quo ad eius peruenitur 
+      extre<lb ed="#P" n="13" break="no"/>mum pene omnis acies et vigilia cognitionis obruitur. 
+      <lb ed="#P" n="14"/>nullus autem secundum rectam rationem debet se obligare ad 
+      <lb ed="#P" n="15"/>aliquid in quo tantum malum et tantam iacturam patiatur: nisi 
+      <lb ed="#P" n="16"/>sit aliquod bonum recompensans. ergo nullus debet contra 
+      <lb ed="#P" n="17"/>pere matrimonium nec exponere se actui matrimo 
+      <lb ed="#P" n="18"/>niali: nisi sint aliqua bona vel aliquod bonum recom 
+      <lb ed="#P" n="19"/>ensans. et talia bona dicuntur a sanctis excusantia 
+      ta<lb ed="#P" n="20" break="no"/>lem actum. cuiusmodi sunt fides proles et sacramen 
+      <lb ed="#P" n="21"/>tum. Si dicatur contra eos: quod similiter in somno ho 
+      pri<lb ed="#P" n="22" break="no"/>uatur totaliter vsu vel actu rationis et non solum in 
+      mo<lb ed="#P" n="23" break="no"/>mento immo etiam tempre multo. quia secundum philosophum 
+      pri<lb ed="#P" n="24" break="no"/>mo ethico. felix non differt a misero nisi secundum dimidium 
+      <lb ed="#P" n="25"/>vite I secundum tempus vigilis. quia in alia medietate scilicet in 
+      ten<lb ed="#P" n="26" break="no"/>pore somni non differt. igitur multo fortius requiren 
+      <lb ed="#P" n="27"/>tur aliqua bona excusantia somnum. quod non videtur. 
+      di<lb ed="#P" n="28" break="no"/>cunt quod etiam somni sunt aliqua bona excusantia 
+      puta<lb ed="#P" n="29" break="no"/>necessitas nature sustentande: et dispositio melior ad 
+      <lb ed="#P" n="30"/>intelligendum post somnum. vnde magis viget vsus 
+      ratio<lb ed="#P" n="31" break="no"/>nis post somnum quam ante. sicut magis vigent sensus et 
+      <lb ed="#P" n="32"/>fantasia: quae deseruiunt intellectui intelligendo. Nam 
+      si<lb ed="#P" n="33" break="no"/>ne somno et ante somnum per vigiliam nimiam est 
+      fatiga<lb ed="#P" n="34" break="no"/>tio organorum et virium sensitiuarum. quare etc. 
+      <lb ed="#P" n="35"/>istam positionem potest argui primo 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e274">
+               <lb ed="#P" n="36"/>¶ Conti a sic. quia in tempore innocentie 
+      fuissen<lb ed="#P" n="37" break="no"/>ista bona matrimonii. et tamen non fuissent excusantia 
+      <lb ed="#P" n="38"/>actum matrimonialem.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e283">
+      ¶ Secundo sic. inter mariam 
+      <lb ed="#P" n="39"/>et Ioseph fuit verum matrimonium. et tamen non oportuit 
+      <lb ed="#P" n="40"/>ponere ista bona excusantia.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e290">
+      ¶ Similiter tertio 
+      im<lb ed="#P" n="41" break="no"/>matrimonio spirituali aliquo cum pari voto comniugum 
+      <lb ed="#P" n="42"/>de virginitate seruanda non oportet ponere talia bo 
+      <lb ed="#P" n="43"/>na excusantia. quare etc.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e299">
+      ¶ Similiter quarto quia 
+      <lb ed="#P" n="44"/>actus matrimonialis non est de se malus: sed potest esse 
+      <lb ed="#P" n="45"/>ponus: et moraliter circumstantionatus. patet. quia 
+      eius<lb ed="#P" n="46" break="no"/>dem rationis fuisset tempre innocentie. ergo non requirit 
+      ex<lb ed="#P" n="47" break="no"/>se bona excusantia. quare etc. 
+      <lb ed="#P" n="48"/>amen etiam potest responderi. Ad pri¬ 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e313">
+               <lb ed="#P" n="49"/>¶ Ad ista mun dicendum: quod actus 
+      matrimo<lb ed="#P" n="50" break="no"/>nialis fuisset malus tempore innocentie non malicia cul 
+      <lb ed="#P" n="51"/>pe sed malicia iacture rationis pro tempue talis actus 
+      <lb ed="#P" n="52"/>ideo etc.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e324">
+      ¶ Ad secundum dicendum: quod inter mariam et 
+      io<lb ed="#P" n="53" break="no"/>seph possunt poni illa bona excusantia vel 
+      recompen<lb ed="#P" n="54" break="no"/>santia non simpliciter et in actu sed sub conditione. sicut et 
+      <lb ed="#P" n="55"/>beata virgo obligauit se ad copulam sub conditione: 
+      pu<lb ed="#P" n="56" break="no"/>ta si ioseph peteret.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e335">
+      ¶ Ad tertium potest dici per idem. 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e337">
+               <lb ed="#P" n="57"/>¶ Ad quartum patet ex solutione primi. quare etc 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e342">
+               <lb ed="#P" n="58"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="59" break="no"/>ticulum dico breuiter: quod bona matrimonii assignantur 
+      <lb ed="#P" n="60"/>tria scilicet bonum sacramenti. bonum fidei. et bonum prolis. Ad  
+      <lb ed="#P" n="61"/>cuius euidentiam notandum est: quod secundum philosophum. 6. 
+      metha<lb ed="#P" n="62" break="no"/>ca. de perfecto bonum et perfectum idem. triplex autem est: vel 
+      <lb ed="#P" n="63"/>potest intelligi perfectio rei. vna intrinseca et formalis 
+      <!--221.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="64"/>alia extrinseca et finalis proxima. tertia extrinseca et 
+      <lb ed="#P" n="65"/>finalis remota. Et similiter etiam bonum triplex. vnum 
+      <lb ed="#P" n="66"/>formale et intrinsecum. aliud extrinsecum finale. et pro 
+      <lb ed="#P" n="67"/>ximum vel immediatum. tertium finale et remotum.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e371">
+      ¶ Ad  
+      <lb ed="#P" n="68"/>ppositum dico quod triplex est bonum matrimonii. vnum 
+      for<lb ed="#P" n="69" break="no"/>male et intrinsecum. alia duo finalia et extrinseca. 
+      Pri<lb ed="#P" n="70" break="no"/>mum voco obligationem indissolubilem. pro statu praesenti 
+      di<lb ed="#P" n="71" break="no"/>co quicquid fuerit antiquitus de repudio. Nam vinculum 
+      <lb ed="#P" n="72"/>indissolubile est bonum formale et intrinsecum 
+      matri<lb ed="#P" n="73" break="no"/>monii. et vocatur hoc bonum sacramenti: non quod sit sacra 
+      <lb ed="#P" n="74"/>mentum noue legis vel signum sensibile: sed quia est signum 
+      <lb ed="#P" n="75"/>intellectuale vel potius intelligibile alicuius 
+      signa<lb ed="#P" n="76" break="no"/>ti alterius puta coniunctionis indissolubilis christi et 
+      ec<lb ed="#P" n="77" break="no"/>clesie. Uel aliter dicitur bonum sacramenti secundum transitiuam 
+      <lb ed="#P" n="78"/>locutionem I bonum aliquod cuius signum est ipsum sacra 
+      <lb ed="#P" n="79"/>mentum matrimonii. cum enim dicitur in verbis 
+      sacramentali<lb ed="#P" n="80" break="no"/>pus. accipio te in meam vel in meum significatur ista 
+      obli<lb ed="#P" n="81" break="no"/>gatio mutua simpliciter fieri: non ad tempus vel ad hoc 
+      <lb ed="#P" n="82"/>ram: sicut patet. ipsum ergo vinculum indissolubile dicitur 
+      bo<lb ed="#P" n="83" break="no"/>num matrimonii. et est constructio intransitiua. quia est 
+      ma<lb ed="#P" n="84" break="no"/>trimonium ipsum loquendo formaliter.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e411">
+      ¶ Secundum bonum 
+      <lb ed="#P" n="85"/>est extrinsecum finale et proximum. et est bonum fidei. 
+      <lb ed="#P" n="86"/>nam ad ipsum sicut ad bonum finale proximum ordinatur 
+      ma<lb ed="#P" n="87" break="no"/>trimonium ipsum vel obligatio ipsa. bonum autem istud  
+      <lb ed="#P" n="88"/>fidei idem est quod bonum fidelitatis ad comniugem. Et 
+      <lb ed="#P" n="89"/>in duobus consistit primo quod non tradatur corpus vnius 
+      <lb ed="#P" n="90"/>coniugis nisi alteri comniugi. quia hoc esset contra iusticiam 
+      <lb ed="#P" n="91"/>et fidelitatem. Et istud est necessarium semper et inuaria 
+      <lb ed="#P" n="92"/>bile in matrimonio sub omni lege: sicut non 
+      committe<lb ed="#P" n="93" break="no"/>re adulterium. Secundo in tradendo corpus suum 
+      coniugi<lb ed="#P" n="94" break="no"/>petenti pro loco et tempue: et solum vni coniugi pro tempre 
+      le<lb ed="#P" n="95" break="no"/>gis nature et tempure legis scripte: de quo inferius 
+      ap<lb ed="#P" n="96" break="no"/>parebit.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e440">
+      ¶ Tertium bonum est extrinsecum finale et 
+      re<lb ed="#P" n="97" break="no"/>motum scilicet bonum prolis habende et religiose educande ad 
+      <lb ed="#P" n="98"/>cultum diuinum: et est finis principalior. Unde et ad hunc 
+      <lb ed="#P" n="99"/>finem ordinatur precedens finis scilicet bonum fidei quo 
+      reddi<lb ed="#P" n="100" break="no"/>tur debitum modo praedicto. ponitur etiam vnus alius 
+      fi<lb ed="#P" n="101" break="no"/>nis annexus matrimonio scilicet vitatio fornicationis 
+      pro<lb ed="#P" n="102" break="no"/>ipse lapsus. Non solum enim matrimonium est in officium 
+      <lb ed="#P" n="103"/>procreandi prolem: sicut tempore innocentie: sed est in 
+      re<lb ed="#P" n="104" break="no"/>medium. Et ista duo bona scilicet bonum fidei: non fidei que 
+      <lb ed="#P" n="105"/>est virtus theologica sed fidelitatis in reddendo de 
+      <lb ed="#P" n="106"/>pitum positiue alteri coniugi: et similiter bonum prolis 
+      <lb ed="#P" n="107"/>sunt bona conditionata in matrimonio. Nec est 
+      ne<lb ed="#P" n="108" break="no"/>cessarium ista poni in re et in effectu absolute inter 
+      con<lb ed="#P" n="109" break="no"/>uges: sed sub conditione: videlicet reddere debitum pro 
+      <lb ed="#P" n="110"/>loco et tempe: si alter coniunx petat. Potest enim absolute 
+      lo<lb ed="#P" n="111" break="no"/>quendo alter non petere: et sic etiam alius non reddere. vni 
+      <lb ed="#P" n="112"/>et matrimonio iam rato siue etiam consummato possunt 
+      <lb ed="#P" n="113"/>perpetuam continentiam vouere. ex quo etiam sequitur quod 
+      bo<lb ed="#P" n="114" break="no"/>num prolis conditionatum non oportet: quod ponatur in re et in 
+      <lb ed="#P" n="115"/>effectu inter comiuges absolute: sed sub conditione. quia 
+      <lb ed="#P" n="116"/>non potest poni proles sine redditione debiti: vt patet 
+      <lb ed="#P" n="117"/>et ideo sub conditione ponitur bonum prolis scilicet vt si 
+      euene<lb ed="#P" n="118" break="no"/>rit: non impediatur: nec perimatur. sicut fitab illis inter 
+      <lb ed="#P" n="119"/>fectoribus fetuum in vtero. Similiter si euenerit pro 
+      <lb ed="#P" n="120"/>les et subuixerit religiose educetur.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e495">
+      ¶ Sed primum 
+      bo<lb ed="#P" n="121" break="no"/>num scilicet indissolubilitas vinculi est absolute necessarium 
+      <lb ed="#P" n="122"/>pro tempue legis noue vsque ad mortem alterius coniugum¬ 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e502">
+               <lb ed="#P" n="123"/>¶ Et hoc intelligunt aliqui non solum de morte 
+      corpo<lb ed="#P" n="124" break="no"/>porali: sed etiam de morte ciuili quad scilicet alter ante 
+      matri<lb ed="#P" n="125" break="no"/>monium consummatum altero volente seu etiam nolente: quia 
+      <lb ed="#P" n="126"/>non est vis siue velit siue non: profitetur religionem. Tunc 
+      <lb ed="#P" n="127"/>enim soluitur vinculum: et non manet vinculum nec obliga 
+      <lb ed="#P" n="128"/>tio inter eos. Et dicunt hoc instituisse christum propter 
+      <!--222.xml-->
+      <pb ed="#P" n="112-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>maius bonum religionis. Nec ecclesia hoc 
+      attem<lb ed="#P" n="2" break="no"/>ptasset statuere: nec statuit: sed magis statutum 
+      chri<lb ed="#P" n="3" break="no"/>sti publicat: et exponit et modificat aliqualiter quantum 
+      <lb ed="#P" n="4"/>ad determinationem temporis: videlicet quod infra 
+      <lb ed="#P" n="5"/>duos menses post matrimonium ratum possit 
+      coniunx<lb ed="#P" n="6" break="no"/>intrare religionem. Quod autem christus instituit vinculum 
+      me<lb ed="#P" n="7" break="no"/>trimoniale sic dissolui: patet ex dicto eius. 
+      Mathei<lb ed="#P" n="8" break="no"/>xix. sunt eunuchi qui se castrauerunt propter regnum 
+      ce<lb ed="#P" n="9" break="no"/>lorum. qui potest capere capiat. Hoc autem capiunt 
+      <lb ed="#P" n="10"/>perpetuo continentes propter deum et precipue continen 
+      <lb ed="#P" n="11"/>tiam vouentes: vt religiosi. vnde et hic continentiam 
+      <lb ed="#P" n="12"/>talem matrimonio tanquam maius bonum proposuit. 
+      <lb ed="#P" n="13"/>Similiter etiam patet facto christi vocantis 
+      Iohan<lb ed="#P" n="14" break="no"/>nem euangelistam a nuptiis ad religionem 
+      aposto<lb ed="#P" n="15" break="no"/>latus: cuiu exemplum imitati sunt plures sancti. 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e557">
+               <lb ed="#P" n="16"/>¶ Alii dicunt: quod nec sic vincunculum matrimonia 
+      <lb ed="#P" n="17"/>le dissoluitur sed manet perpetuo vsque ad mortem 
+      <lb ed="#P" n="18"/>corporalem alterius coniugis. tunc alter superuiuens 
+      <lb ed="#P" n="19"/>soluitur a lege et vinculo matrimonii. et sic etiam 
+      <lb ed="#P" n="20"/>fuit in lege nature: quicquid fuerit de repudio 
+      le<lb ed="#P" n="21" break="no"/>gis scripte: de quo dicetur. dicunt tamen quod hoc non 
+      obstan<lb ed="#P" n="22" break="no"/>te coniunx quae manet in sclentio post professionem alterius in 
+      reli<lb ed="#P" n="23" break="no"/>gione: potest alteri nubere. non quia solutum sit vinculum 
+      <lb ed="#P" n="24"/>ad primum coniugem sicut dicerent primi: sed quia nullum 
+      <lb ed="#P" n="25"/>est inconueniens quod sit vna vxor plurium: vnius 
+      spirituali<lb ed="#P" n="26" break="no"/>ter: puta illius qui est in religione: et alterius 
+      carnali<lb ed="#P" n="27" break="no"/>ter: illius quem acceperit in seculo. Et ex hoc 
+      dicto<lb ed="#P" n="28" break="no"/>sequitur quod vna vxor posset esse centum virorum simul: vt 
+      <lb ed="#P" n="29"/>patet inducenti. et siliter vnus vir centum mulierum. nec est 
+      <lb ed="#P" n="30"/>dicenda hic bigamia: vel ( vt ita dicam ) biuiria. quia 
+      vna<lb ed="#P" n="31" break="no"/>vnius tantum carnaliter vel corporaliter: alterius vero 
+      <lb ed="#P" n="32"/>vel aliorum spiritualiter. Quod autem non soluatur 
+      vincu<lb ed="#P" n="33" break="no"/>lum matrimoniale post matrimonium ratum et ante 
+      ma<lb ed="#P" n="34" break="no"/>trimonium consummatum per professionem alterius 
+      comiu<lb ed="#P" n="35" break="no"/>gum in religione: probatur quia post matrimonium consum 
+      <lb ed="#P" n="36"/>matum non solueretur. et tamen planum est quod vinculum non 
+      ha<lb ed="#P" n="37" break="no"/>bet indissolubilitatem per illam carnalem copulam. et per 
+      <lb ed="#P" n="38"/>consequens prius ante copulam illam carnalem: per quam 
+      <lb ed="#P" n="39"/>matrimonium consummatur: vinculum habuit indissolubi 
+      <lb ed="#P" n="40"/>itatem. vnde et hec est ratitudo matrimoni scilicet 
+      indis<lb ed="#P" n="41" break="no"/>solubilitas eius.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e616">
+      ¶ Sed vnde conuenit matrimonio 
+      <lb ed="#P" n="42"/>sta indissolubilitas vinculi ex contractu vel ex 
+      sacra<lb ed="#P" n="43" break="no"/>nento vel vnde. Dico quod non ex natura et vi contractus 
+      <lb ed="#P" n="44"/>cuiuscunque matrimonialis. potuit enim instituere quod 
+      <lb ed="#P" n="45"/>obligatio ex contractu esset ad tempus: sicut forte 
+      or<lb ed="#P" n="46" break="no"/>dinauit de repudio sub lege scripta. nec ex 
+      sacramen<lb ed="#P" n="47" break="no"/>to vel vi sacramenti: Non est enim effectus sacramenti 
+      <lb ed="#P" n="48"/>sed magis gratia ipsa. Et potuit deus apponere 
+      sa<lb ed="#P" n="49" break="no"/>cramentum ad contractum vel obligationem seu 
+      vincu<lb ed="#P" n="50" break="no"/>lum pro tempore: sicut apposuit ad vinculum perpetuum 
+      <lb ed="#P" n="51"/>Et ideo dicitur quod talis indissolubilitas vinculi est a 
+      <lb ed="#P" n="52"/>deo sic ordinante: vt sit obligatio et vinculum perpetuum 
+      <lb ed="#P" n="53"/>vel pro perpetuo vsque ad mortem alterius. 
+      Alioquin<lb ed="#P" n="54" break="no"/>non valeat contractus.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e648">
+      ¶ Ex predictis de bonis 
+      ma<lb ed="#P" n="55" break="no"/>trimonii et matrimonio sequitur primo vnum 
+      correla<lb ed="#P" n="56" break="no"/>rium: quod si aliqui in contrahendo exprimant conditiones 
+      <lb ed="#P" n="57"/>oppositas bonis matrimonii: vt si dicat contrahens 
+      <lb ed="#P" n="58"/>contra primum bonum perpetuitatis vinculi. 
+      Accipio<lb ed="#P" n="59" break="no"/>te in meam donec occurrat alia magis placens. contra 
+      <lb ed="#P" n="60"/>secundum bonum fidelitatis dicat: do tibi meipsum. vel ac 
+      <lb ed="#P" n="61"/>cipio te: dum tamen possim alteri dare meipsum: et non 
+      te<lb ed="#P" n="62" break="no"/>near seruare tibifidem: nec affirmatiue reddendo 
+      tibi<lb ed="#P" n="63" break="no"/>debitum nec negatiue: quin pro libitu meo possim al 
+      <lb ed="#P" n="64"/>teri comniugi corporaliter vel carnaliter copulari 
+      ha<lb ed="#P" n="65" break="no"/>bendo corporaliter simul duas vel plures: corporali 
+      <!--222.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>ter dico propter predicta. Si etiam contra tertium bonum 
+      <lb ed="#P" n="67"/>dicat: accipio te in meam: dum tamen procures venena 
+      ste<lb ed="#P" n="68" break="no"/>rilitatis et huiusmodi contractus. dico talis nullus 
+      <lb ed="#P" n="69"/>est. quia est contra institutionem domini superioris et 
+      le<lb ed="#P" n="70" break="no"/>gislatoris de matrimonio contrahendo. Et ita 
+      nul<lb ed="#P" n="71" break="no"/>lus habet potestatem transferendi corpus suum in aliud 
+      <lb ed="#P" n="72"/>isto modo. et sic contrahentes non solum nichil faciunt 
+      <lb ed="#P" n="73"/>sed etiam mortaliter peccant. et nullo modo debent 
+      in<lb ed="#P" n="74" break="no"/>uicem petere vel redde: sed reddendo fornicantur.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e698">
+      ¶ Se 
+      <lb ed="#P" n="75"/>cundum correlarium est: quod altero comniugum mortuo: si 
+      re<lb ed="#P" n="76" break="no"/>suscitaretur virtute diuina: superueniens coniunx non 
+      <lb ed="#P" n="77"/>teneretur sibi nec obligaretur matrimonialiter. 
+      expira<lb ed="#P" n="78" break="no"/>uit enim vinculum in morte alterius. secundum apostolum 
+      pri<lb ed="#P" n="79" break="no"/>me ad corinth. mortuus est vir. soluta est mulier a 
+      <lb ed="#P" n="80"/>lege viri. Et non resurgit vinculum propter 
+      resuscita<lb ed="#P" n="81" break="no"/>tionem mortui: sed oportet interuenire nouum 
+      conser<lb ed="#P" n="82" break="no"/>sum viri et mulieris sufficienter expressum per 
+      ver<lb ed="#P" n="83" break="no"/>ba de presenti vel per signa equipo lentia. Hec de se 
+      <lb ed="#P" n="84"/>cundo articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e722">
+               <lb ed="#P" n="85"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="86" break="no"/>culum dico quod reddere debitum alteri coniugi est 
+      prece<lb ed="#P" n="87" break="no"/>ptum affirmatiuum de iusticia et fidelitate obseruam: 
+      <lb ed="#P" n="88"/>da ad alterum. precepta autem affirmatiua licet 
+      obli<lb ed="#P" n="89" break="no"/>gent semper non tamen ad semper nec pro semper sed pro loco 
+      <lb ed="#P" n="90"/>et tempore secundum circumstantias debentes concurrere ad 
+      <lb ed="#P" n="91"/>actum preceptum. Et ideo dico quod commniunx non tenetur 
+      red<lb ed="#P" n="92" break="no"/>dere alteri debitum ex obligatione matrimoniali 
+      pro<lb ed="#P" n="93" break="no"/>quandocumque alius petit: sed in aliquibus casibus 
+      po<lb ed="#P" n="94" break="no"/>test non reddere. in aliquibus etiam non solum potest non 
+      <lb ed="#P" n="95"/>reddere: sed etiam debet non reddere: ita quod 
+      grauite<lb ed="#P" n="96" break="no"/>peccaret vel saltem peccaret: si redderet.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e751">
+      ¶ Unus 
+      ca<lb ed="#P" n="97" break="no"/>sus in quo non tenetur reddere est: si petens amisit ius 
+      <lb ed="#P" n="98"/>petendi. quia adulterium commisit cum alia vel fornicatus 
+      <lb ed="#P" n="99"/>est. tunc enim innocens potest non reddere. et licet corpus 
+      <lb ed="#P" n="100"/>nocentis sit alterius petentis: tamen amisit ius 
+      petendi<lb ed="#P" n="101" break="no"/>vtendi corpore alterius: nec debet sibi reddi quam 
+      tum<lb ed="#P" n="102" break="no"/>cumque petat. Si autem vterque lapsus est paria crimina 
+      <lb ed="#P" n="103"/>pari vindicta delentur.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e769">
+      ¶ Secundus casus est statim 
+      <lb ed="#P" n="104"/>post matrimonium ratum si alter petat: non tenetur alter 
+      <lb ed="#P" n="105"/>reddere: sed potest differre per aliquod tempus: et intrare 
+      re<lb ed="#P" n="106" break="no"/>ligionem: si voluerit. nec ille pro tunc habet ius 
+      petendi<lb ed="#P" n="107" break="no"/>sic quod debeat sibi reddi: licet possit petere licite. quia 
+      <lb ed="#P" n="108"/>nus suum non amisit. quia nec peccauit. sed sicut potest 
+      pe<lb ed="#P" n="109" break="no"/>tere: ita alter non potest redere. et necessitas reddendi 
+      su<lb ed="#P" n="110" break="no"/>penditur vsque ad tempus quo deliberet: et intret religio 
+      <lb ed="#P" n="111"/>nem: si velit. Et ponitur illud tempus duorum mensium post 
+      <lb ed="#P" n="112"/>matrimonium ratum extra de couersione coniugatorum 
+      <lb ed="#P" n="113"/>ex publico. Alioquin si statim redderet: et matrimo 
+      <lb ed="#P" n="114"/>nium consummaret: redderet se inhabilem ad religionem 
+      in<lb ed="#P" n="115" break="no"/>trandum: nisi de consensu alterius comiugis.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e798">
+      ¶ Sed quid 
+      <lb ed="#P" n="116"/>de vxore vel comiuge manente in seculo post 
+      professio<lb ed="#P" n="117" break="no"/>nem alterius in religione matrimonio prius 
+      consum<lb ed="#P" n="118" break="no"/>nato: si timeatur: quod coniunx manens in seculo nolit 
+      com<lb ed="#P" n="119" break="no"/>tinere: numquam extrahendus est alter a religione: de hoc 
+      <lb ed="#P" n="120"/>videntur capitula in iure contraria. Primum est. xxxiii. q. v. 
+      <lb ed="#P" n="121"/>vbi dicitur qui vxorem suam velare permiserit: aliam non 
+      ac<lb ed="#P" n="122" break="no"/>cipiat sed similiter conuertatur. Ex quo videtur quod non est 
+      <lb ed="#P" n="123"/>alter coniunx de religione extrahendus sed alter est 
+      <lb ed="#P" n="124"/>conuertendus et debet continere. Contrarium vero vide 
+      <lb ed="#P" n="125"/>tur dici extra de conuersione comniugatorum capitulo. 
+      <lb ed="#P" n="126"/>primo vbi dicitur: quod laicus vxoratus qui de licentia 
+      <lb ed="#P" n="127"/>et permissione vxoris religionem ingressus professionem 
+      <lb ed="#P" n="128"/>fecerit: vxore in seculo remanente: nec transeunte ad 
+      <lb ed="#P" n="129"/>religionem nec perpetuam continentiam vouente: potest 
+      <!--223.xml-->
+      <pb ed="#P" n="113-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>et debet de monasterio reuocari. Quid ergo facien 
+      <lb ed="#P" n="2"/>dum vel dicendum.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e843">
+      ¶ Potest dici quod si alter coniunx de 
+      <lb ed="#P" n="3"/>licentia alterius remanentis in seculo solemniter facta 
+      <lb ed="#P" n="4"/>auctor itate dyocesani episcopi: sicut canitur in 
+      regi<lb ed="#P" n="5" break="no"/>la fratrum minorum: profiteatur in religione: non est 
+      extra<lb ed="#P" n="6" break="no"/>hendus: nec reddendus alteri. sufficienter enim alter vt 
+      <lb ed="#P" n="7"/>detur suo iuri renunciasse sic licentiando alterum: vt 
+      pro<lb ed="#P" n="8" break="no"/>fiteretur in religione. Si autem de licentia aliqua 
+      alte<lb ed="#P" n="9" break="no"/>rius fuerit alter ingressus religionem et professus: qua 
+      <lb ed="#P" n="10"/>quidem licentia non videatur sufficienter renunciasse licen 
+      <lb ed="#P" n="11"/>tians iuri suo nec efficaciter secundum formam vel 
+      modun<lb ed="#P" n="12" break="no"/>quem imponit: vel intendit ecclesia in talibus obseruam 
+      <lb ed="#P" n="13"/>dum: extrahendus est et reddendus. Sic tamen extractus non 
+      <lb ed="#P" n="14"/>debet petere: quia sufficienter quantum fuit ex se: renun 
+      <lb ed="#P" n="15"/>ciauit iuri suo petendi intrando et vouendo religionem. 
+      <lb ed="#P" n="16"/>sed potest reddere. quia iuri alterius non potuit renuncia 
+      <lb ed="#P" n="17"/>re. quare etc.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e878">
+      ¶ Alii casus sunt in quibus non solum 
+      no<lb ed="#P" n="18" break="no"/>tenetur reddere: sed tenetur non reddere: vtpote quando 
+      for<lb ed="#P" n="19" break="no"/>tiori vinculo tenetur ad non reddendum: vtpote si 
+      readen<lb ed="#P" n="20" break="no"/>do vergat in detrimentum proprie salutis vel 
+      incolu<lb ed="#P" n="21" break="no"/>mitatis corporalis quam magis tenetur diligere: quam 
+      <lb ed="#P" n="22"/>istud determinatum reddere alteri coniugi. 
+      Consimili<lb ed="#P" n="23" break="no"/>ter fortiori vinculo tenetur non occidere fetum: vel non et 
+      <lb ed="#P" n="24"/>se causa aborsus: quam reddere. et per consequens in 
+      pericu<lb ed="#P" n="25" break="no"/>lo aborsus et in preiudicium prolis tenetur non reddere 
+      <lb ed="#P" n="26"/>Consimiliter etiam magis tenetur non agere: vnde proles 
+      <lb ed="#P" n="27"/>nascatur leprosa: quam reddere. Et ideo tempore 
+      menstrui<lb ed="#P" n="28" break="no"/>tenetur non reddere mulier. quia vt in pluribus 
+      tempo<lb ed="#P" n="29" break="no"/>re menstrui proles nascitur vel generatur leprosa. vnde non 
+      <lb ed="#P" n="30"/>immerito infligebatur pena mortis accedentibus ad 
+      <lb ed="#P" n="31"/>mulieres menstruosas sub lege mosayca. quia istud est 
+      <lb ed="#P" n="32"/>graue pectatum: et fuit hoc prohibitum sub lege illa. Et non 
+      <lb ed="#P" n="33"/>est putandum quod minus sit prohibitum sub lege euange: 
+      <lb ed="#P" n="34"/>lica: que est lex castitatis.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e917">
+      ¶ Si dicas de leprosis qui 
+      <lb ed="#P" n="35"/>tunc sanus non debet reddere debitum leproso 
+      comniugi<lb ed="#P" n="36" break="no"/>Primo quia est in preiudicium proprie sanitatis 
+      corpo<lb ed="#P" n="37" break="no"/>ralis. Secundo quia est contra bonum prolis. quia nasceretur 
+      <lb ed="#P" n="38"/>leprosa. Et pari ratione nel leprosus leproso. cuius 
+      <lb ed="#P" n="39"/>oppositum habetur extra de coniugio leprosorum ca I 
+      man<lb ed="#P" n="40" break="no"/>damus. et capitulo sequenti: si virum etc. Respondetur qrgo 
+      <lb ed="#P" n="41"/>non est verisimile: quod ex tali coniunctione sic breui quo 
+      <lb ed="#P" n="42"/>redditur debitum: sanus incurrat lepram. vnde et diutina 
+      <lb ed="#P" n="43"/>cohabitatio non precipitur. quia ex illa potest sanus inficit: 
+      <lb ed="#P" n="44"/>vt videtur. Esto etiam quod timeretur infirmitas lepre: 
+      di<lb ed="#P" n="45" break="no"/>ceretur quod ad hoc se obligauit sanus in contrahendo. vt 
+      <lb ed="#P" n="46"/>de et aliqui sacerdotes exprimunt illud in hostio 
+      ec<lb ed="#P" n="47" break="no"/>clesie: quando contrahitur matrimonium. tamen totum istud 
+      <lb ed="#P" n="48"/>dubium est. Et posset dici de alia infirmitate 
+      corpo<lb ed="#P" n="49" break="no"/>rali: quod etiam infirmus ad hoc se obligauit. Et ideo 
+      <lb ed="#P" n="50"/>aliter respondetur quod illud supradictum non debet in 
+      <lb ed="#P" n="51"/>telligi de infirmitate perpetua: sed ad tempus 
+      ratio<lb ed="#P" n="52" break="no"/>ne cuius potest differri redditio debiti. sed de perpetua 
+      <lb ed="#P" n="53"/>cuiusmodi est lepra: dico quod debitum debet reddi siue 
+      <lb ed="#P" n="54"/>a leproso siue a sano ne perpetuo frustretur 
+      lepro<lb ed="#P" n="55" break="no"/>sus actu matrimoniali. De bono prolis dicitur quod 
+      no<lb ed="#P" n="56" break="no"/>obstante hoc debet reddi. quia melius est quod proles 
+      na<lb ed="#P" n="57" break="no"/>scatur leprosa quam quod omnino non nascatur. Sed non 
+      con<lb ed="#P" n="58" break="no"/>cluditur per hoc quod mulier menstruata debeat peter 
+      <lb ed="#P" n="59"/>vel reddere possit. quia potest expectari tempus: quo 
+      <lb ed="#P" n="60"/>menstruo cessante poterit generari proles sana. S 
+      <lb ed="#P" n="61"/>militer possunt inueniri aliqui casus in quibus 
+      te<lb ed="#P" n="62" break="no"/>netur non reddere. Et breuiter in omni casu in quo 
+      <lb ed="#P" n="63"/>actus reddendi vel petendi non posset bene circumstan 
+      <lb ed="#P" n="64"/>tionari moraliter: sed necessario esset moraliter 
+      ma<lb ed="#P" n="65" break="no"/>lus. Et ideo debet quando oportet et vbi oportet etc. 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e987">
+        <!--223.xml-->
+               <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>¶ De quando tamen et vbi dicitur quod non tenetur red 
+      <lb ed="#P" n="67"/>dere tempore sacro: vel quando debet communicare. im ¬ 
+      <lb ed="#P" n="68"/>mo tenetur non reddere. quia precipitur non 
+      reddere<lb ed="#P" n="69" break="no"/>in tali casu. Nam secundum Hierony. tales exercentes actum  
+      <lb ed="#P" n="70"/>illum carnalem inhabiles sunt et indispositi ad 
+      man<lb ed="#P" n="71" break="no"/>ducandum carnes agni vel christi. Similiter etiam 
+      im<lb ed="#P" n="72" break="no"/>loco sacro precipitur ibi non reddere quod patet per 
+      in<lb ed="#P" n="73" break="no"/>terdictum loci: ex hoc quod redditur idem debitum. 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e1011">
+               <lb ed="#P" n="74"/>¶ Sed videtur michi dicendum quod licet tempore 
+      sa<lb ed="#P" n="75" break="no"/>crolcongruum sit non petere petenti: tamen necessarium est 
+      <lb ed="#P" n="76"/>reddere. Nec reddens siue petens propter hoc inhabi 
+      <lb ed="#P" n="77"/>lis est ad communicandum sic quod peccet. sed verum est 
+      <lb ed="#P" n="78"/>quod non est sic habilis: sicut si talem actum non exerce 
+      <lb ed="#P" n="79"/>ret. vnde nec prohibetur illo tempore nec reddere: sed 
+      <lb ed="#P" n="80"/>congruum est quod abstineant vt vacent orationi: sicut 
+      <lb ed="#P" n="81"/>apostolus dicit.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e1031">
+      ¶ De loco sacro etiam dico quod non 
+      <lb ed="#P" n="82"/>est illicitum petere ibi vel reddere ex hoc precipue 
+      <lb ed="#P" n="83"/>si coniuges diu inhabitarent locum: et non possent 
+      ha<lb ed="#P" n="84" break="no"/>bere commode alium locum. Nec oporteret forte quod 
+      lo<lb ed="#P" n="85" break="no"/>cus esset interdictus: nisi actus talis esset in eo 
+      pu<lb ed="#P" n="86" break="no"/>blice factus. quare et cetera. Hec de tertio articulo 
+      <lb ed="#P" n="87"/>principali¬ 
+      </p>
+            <p xml:id="qrdBas-f67617-d1e1048">
+               <lb ed="#P" n="88"/>¶ Ad primum principale 
+      ar<lb ed="#P" n="89" break="no"/>gumentum patet quod primum bonum matrimonii non 
+      <lb ed="#P" n="90"/>est matrimonium sacramentum vel bonum sacramen 
+      <lb ed="#P" n="91"/>ti quod est signum sensibile collatiuum gratie: sed 
+      si<lb ed="#P" n="92" break="no"/>cut dictum est supra.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e1061">
+      ¶ Ad secundum dico quod inter 
+      adul<lb ed="#P" n="93" break="no"/>terium et adulteram et innocentem non est bonum fidet 
+      <lb ed="#P" n="94"/>quantum ad actum ex parte adulterantis. Ita quod non 
+      <lb ed="#P" n="95"/>habet illud bonum in facto et executione: nisi ficto 
+      <lb ed="#P" n="96"/>modo. habet tamen in obligatione. quia ad tale bo 
+      <lb ed="#P" n="97"/>num obligatur.
+      </p>
+            <p xml:id="qrdBas-f67617-d1e1074">
+      ¶ Ad tertium patet quod bonum 
+      pro<lb ed="#P" n="98" break="no"/>lis non est de necenitate absoluta matrimouii sic vt 
+      <lb ed="#P" n="99"/>habeatur vel proponatur omnino haberi in re et in 
+      <lb ed="#P" n="100"/>effectu: sicut etiam nec actus coniugalis ex quo pro 
+      <lb ed="#P" n="101"/>les dependet. Sed sufficit quod proles habeatur sic quod 
+      <lb ed="#P" n="102"/>si eueniret: gratanter susciperetur et religiose 
+      edu<lb ed="#P" n="103" break="no"/>caretur vel educari proponatur. et quod nullo modo E 
+      <lb ed="#P" n="104"/>pediatur per aliquem modum illicitum. et ita patet 
+      <lb ed="#P" n="105"/>ad illud quod dicitur de virginibus et sterilibus et 
+      <lb ed="#P" n="106"/>aliis non potentibus generare vel non volentibus 
+      <lb ed="#P" n="107"/>quod non obstantibus predictis possunt contrahere: et 
+      <lb ed="#P" n="108"/>sufficienter in matrimonio eorum habetur bonum prolis. 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,753 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/master/src/out/diplomatic.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Quaestio 1</title>
+            <author ref="#JohnBassolis">John Bassolis</author>
+            <respStmt>
+               <name ref="#jeffreycwitt">Jeffrey C. Witt</name>
+               <resp>Transcription Editor</resp>
+               <resp>TEI Encoder</resp>
+            </respStmt>
+         </titleStmt>
+         <editionStmt>
+            <edition n="0.0.0-dev">
+               <title>Quaestio 1</title>
+               <date when="2022-01-08">January 08, 2022</date>
+            </edition>
+         </editionStmt>
+         <publicationStmt>
+            <authority>SCTA</authority>
+            <availability status="free">
+               <p>Published under a <ref target="https://creativecommons.org/licenses/by-nc-sa/4.0/">Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <listWit>
+               <witness xml:id="P" n="cod-B876a4">Paris, 1517, Vol. 4</witness>
+            </listWit>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <schemaRef n="lbp-diplomatic-1.0.0" url="https://raw.githubusercontent.com/lombardpress/lombardpress-schema/1.0.0/src/out/diplomatic.rng"/>
+         <editorialDecl>
+            <p>Encoding of this text has followed the recommendations of the LombardPress 1.0.0
+       guidelines for a diplomatic edition.</p>
+         </editorialDecl>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <listChange>
+            <change when="2022-01-08" status="draft" n="0.0.0">
+               <p>Created file for the first time.</p>
+            </change>
+         </listChange>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="la">
+      <front>
+         <div xml:id="starts-on">
+            <pb ed="#P" n="172-r"/>
+         </div>
+      </front>
+      <body>
+         <div xml:id="qrdBas-f106ij"><!--l4d50q1 -->
+            <head xml:id="qrdBas-f106ij-Hd1e99">Quaestio 1</head>
+            <p xml:id="qrdBas-f106ij-d1e101">
+               <lb ed="#P" n="26"/>¶ Distin. quinquagesime. 
+      <lb ed="#P" n="27"/>Questio prima.
+    </p>
+            <p xml:id="qrdBas-f106ij-d1e108">
+               <lb ed="#P" n="28"/>CIrca istam 
+      distin<lb ed="#P" n="29" break="no"/>ctionem quero vtrum 
+      damnati<lb ed="#P" n="30" break="no"/>appetant non esse.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e117">
+      ¶ Uidetur quod 
+      <lb ed="#P" n="31"/>nec aliquo modo possint 
+      ap<lb ed="#P" n="32" break="no"/>petere Primo sic. nulla 
+      poten<lb ed="#P" n="33" break="no"/>tia potest habere actum suu nisi 
+      <lb ed="#P" n="34"/>scirca obiectum suum. sed non esse 
+      <lb ed="#P" n="35"/>non habet rationem obiecti 
+      respe<lb ed="#P" n="36" break="no"/>ctu voluntatis. quia non habet rationem boni immo tol 
+      <lb ed="#P" n="37"/>lit totam rationem boni. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e135">
+      ¶ Secundo sic. 
+      <lb ed="#P" n="38"/>Quicunque necessario appetit beatitudinem et esse 
+      <lb ed="#P" n="39"/>in quiete necessario appetit esse: et non potest appetere 
+      <lb ed="#P" n="40"/>non esse. sed omnis creatura rationalis est huiusmodi: et per consequens 
+      <lb ed="#P" n="41"/>damnati. ergo etc. Et confirmatur. quia priuatio non 
+      <lb ed="#P" n="42"/>apetitur nisi ratione habitus. Si igitur appetit non esse 
+      <lb ed="#P" n="43"/>hoc est quia appetit esse. et ita simul appetit esse et non 
+      <lb ed="#P" n="44"/>esse. quod est contradictio.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e154">
+      ¶ Tertio sic. sicut nolle se 
+      <lb ed="#P" n="45"/>habet ad summum bonum vel ad beatitudinem. ita 
+      <lb ed="#P" n="46"/>telle ad summum malum et summam miseriam. sed nolle 
+      <lb ed="#P" n="47"/>sic se habet ad summum bonum et beatitudinem: quod beati 
+      <lb ed="#P" n="48"/>tudinem et summum bonum non potest quis nolle. quia nolle per 
+      <lb ed="#P" n="49"/>se est respectu mali. In illis autem nulla est ratio mali. ergo 
+      <lb ed="#P" n="50"/>etiam non potest quis velle summum malum vel miseriam: sed  
+      <lb ed="#P" n="51"/>summa miseria est non esse. ergo etc. 
+      <lb ed="#P" n="52"/>Apocalip. 9. Desiderabunt ho¬ 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e174">
+               <lb ed="#P" n="53"/>¶ Contra mines mori: et fugiet mors ab 
+      <lb ed="#P" n="54"/>eis. sed mors ad non esse terminatur. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e181">
+               <lb ed="#P" n="55"/>¶ In ista questione sic procedam 
+      <lb ed="#P" n="56"/>Primo praemittam aliqua ad intellectum quastionis. 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e188">
+               <lb ed="#P" n="57"/>¶ Secundo inquiram vtrum aliquis ad vitandum 
+      mi<lb ed="#P" n="58" break="no"/>seriam secundum rectam rationem possit eligere vel 
+      appetere<lb ed="#P" n="59" break="no"/>non esse.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e197">
+      ¶ Tertio inquiram vtrum damnati de 
+      fa<lb ed="#P" n="60" break="no"/>cto appetat non esse.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e202">
+      ¶ Ultimo ad rationes 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e205">
+               <lb ed="#P" n="61"/>¶ Quantum ad primum 
+      di<lb ed="#P" n="62" break="no"/>co quod questio praeseuns intelligitur non de appetere natura 
+      <!--340.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="63"/>li: quod est naturalis inclinatio voluntatis sicut 
+      di<lb ed="#P" n="64" break="no"/>ctum est supra. Nam de tali appetere loquendo 
+      pla<lb ed="#P" n="65" break="no"/>num est quod non esse nec appeti potest nec appetitur: sed  
+      <lb ed="#P" n="66"/>tantummodo bonum et perfectio appetentis stans 
+      im<lb ed="#P" n="67" break="no"/>re cum tali appetitu: nec excludens ipsum. Non esse 
+      <lb ed="#P" n="68"/>autem non est per se bonum: nec perfectio appetentis: 
+      <lb ed="#P" n="69"/>nec stat cum tali appetitu: immo destruit et negat ipsam 
+      <lb ed="#P" n="70"/>potentiam appetentem totale suum esse. sed intelligi 
+      <lb ed="#P" n="71"/>tur questio de appetere: quod est actus elicitus 
+      vo<lb ed="#P" n="72" break="no"/>luntatis. quod quidem appetere proprie dicitur 
+      vel<lb ed="#P" n="73" break="no"/>le et actus liber.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e240">
+      ¶ Secundo est aduertendum propter 
+      <lb ed="#P" n="74"/>illa que dicentur in secundo articulo et tertio quod 
+      mise<lb ed="#P" n="75" break="no"/>ria dicitur duplex. vna culpe: et non est aliud quam cul 
+      <lb ed="#P" n="76"/>pa siue sit mortalis siue venialis. Alia dicitur mise 
+      <lb ed="#P" n="77"/>ria pene: et est idem quod pena. Quod autem sit pena pro 
+      <lb ed="#P" n="78"/>prie: dictum est in secundo.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e253">
+      ¶ Tertio notandum est quod licet 
+      <lb ed="#P" n="79"/>questio mota sit de damnatis: tamen quantum ad secundum 
+      arti<lb ed="#P" n="80" break="no"/>culum prosequar eam non solum de damnatis: sed etiam 
+      <lb ed="#P" n="81"/>de viatoribus: quibus potest inesse miseria pene et cul 
+      <lb ed="#P" n="82"/>de: sicut et damnatis: licet aliter. Hec de I arti. principali. 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e264">
+               <lb ed="#P" n="83"/>¶ Quantum ad secundum 
+      ar<lb ed="#P" n="84" break="no"/>ticulum dicitur communiter quod loquendo de miseria 
+      <lb ed="#P" n="85"/>pene quantacumque nullus potest nec debet eligere vel 
+      <lb ed="#P" n="86"/>appetere non esse secundum rectam rationem ad vitandum 
+      <lb ed="#P" n="87"/>talem miseriam.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e277">
+      ¶ Ad hoc adducuntur rationes que non 
+      <lb ed="#P" n="88"/>videntur aliquibus cogentes. Prima est ista maius 
+      <lb ed="#P" n="89"/>malum secundum rectam rationem non potest eligi ad vitandum 
+      <lb ed="#P" n="90"/>minus malum. Nam secundum rectam rationem de duobus 
+      ma<lb ed="#P" n="91" break="no"/>lis minus est eligendum: sed non esse est maius 
+      malum<lb ed="#P" n="92" break="no"/>quam miseria pene: que reliquid subiectum. quia plus 
+      adi<lb ed="#P" n="93" break="no"/>mit de bono quam talis miseria. Excludit eim et adimit 
+      <lb ed="#P" n="94"/>totum bonum. quia non esse nihil est sicut patet. ergo etc. 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e295">
+               <lb ed="#P" n="95"/>¶ Secunda ratio secundum rectam rationem non potest eligi 
+      ca<lb ed="#P" n="96" break="no"/>rentia maioris perfectionis ad vitandum carentiam 
+      <lb ed="#P" n="97"/>minoris perfectionis. sed non esse est carentia maxime 
+      <lb ed="#P" n="98"/>efectionis in entibus. Nam secundum Dyonisium esse 
+      praeci<lb ed="#P" n="99" break="no"/>se acceptum est nobilissimum in ente. Pena autem 
+      di<lb ed="#P" n="100" break="no"/>cit carentiam minoris perfectionis: puta perfectionis 
+      <lb ed="#P" n="101"/>accidentalis. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e314">
+      ¶ Tertia ratio est ista. Illud quod 
+      <lb ed="#P" n="102"/>nec est bonum nec secundum rationem rectam apparet 
+      bo<lb ed="#P" n="103" break="no"/>num: nullo modo est appetibile secundum rationem rectam. et per 
+      <lb ed="#P" n="104"/>omiquens non potest appeti ad vitandum miseriam pene. sed  
+      <lb ed="#P" n="105"/>non esse est huiusmodi. Planum est enim quod non est bonum. et 
+      per<lb ed="#P" n="106" break="no"/>consequens secundum rationem rectam non apparet bonum. 
+      Alio<lb ed="#P" n="107" break="no"/>quin ratio recta esset falsa. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e330">
+      ¶ Quarta 
+      ratio<lb ed="#P" n="108" break="no"/>Illud non potest appeti ab aliquo secundum rectam rationem ad  
+      <lb ed="#P" n="109"/>quod cum peruenerit: non efficitur melior vt patet: sed 
+      su<lb ed="#P" n="110" break="no"/>stinens penam perueniens ad non esse non efficeretur 
+      me<lb ed="#P" n="111" break="no"/>lior sed deterior: ergo etc. Unde August. 3. de 
+      libe<lb ed="#P" n="112" break="no"/>ro arbitrio probat quod non esse non est appetibile. Tum 
+      <lb ed="#P" n="113"/>quia nihil. Tum quia adimit totum bonum Tum quia per ipsum 
+      <lb ed="#P" n="114"/>non efficitur aliquis melior. hoc idem videtur dicere. 9. 
+      <lb ed="#P" n="115"/>de ciui. ca. xx vi. in fine: vbi dicit quod quilibet vult esse 
+      <lb ed="#P" n="116"/>sicut et beatus esse Et hoc etiam deducit ca. 28. vide ibi. 
+      <lb ed="#P" n="117"/>dicitur quod loquendo de miseria 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e354">
+               <lb ed="#P" n="118"/>¶ Secundo cuipe et praecipue mortalis 
+      po<lb ed="#P" n="119" break="no"/>test: et debet aliquis eligere vel appetere non esse secundum 
+      <lb ed="#P" n="120"/>rectam rationem ad vitandum talem miseriam culpe. 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e363">
+               <lb ed="#P" n="121"/>¶ Ad hoc est prima ratio talis. secundum rectam rationem 
+      de<lb ed="#P" n="122" break="no"/>bet quis plus diligere deum quam seipsum. et per consequens 
+      pre<lb ed="#P" n="123" break="no"/>eligere quod est contra seipsum quam quod est contra deum. 
+      <lb ed="#P" n="124"/>non esse autem creature non est contra deum: sed contra 
+      <lb ed="#P" n="125"/>creaturam. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e376">
+      ¶ Secunda ratio. Maius 
+      ma<lb ed="#P" n="126" break="no"/>lum magis est fugiendum: et minus malum preeligen¬ 
+      <!--341.xml-->
+      <pb ed="#P" n="172-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>dum secundum rectam rationem. sed culpa est maius malum 
+      <lb ed="#P" n="2"/>quam non esse creature. quia culpa est carentia boni 
+      debi<lb ed="#P" n="3" break="no"/>ti: sed non esse licet sit carentia: non tamen boni 
+      debi<lb ed="#P" n="4" break="no"/>ti. Nullus enim est debitor sui esse. quia in nullius 
+      po<lb ed="#P" n="5" break="no"/>testate est suum esse. Alioquin ab eterno fuisset 
+      creatu<lb ed="#P" n="6" break="no"/>ra mala: et magis mala quam modo sub culpa. quia ab 
+      <lb ed="#P" n="7"/>eterno non fuit ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e402">
+      ¶ Tertia ratio. Magis est 
+      <lb ed="#P" n="8"/>fugiendum malum simpliciter quam malum huic vel 
+      <lb ed="#P" n="9"/>secundum quid. sed malum simplictter est culpa. quia contraria 
+      <lb ed="#P" n="10"/>tur bono simpliciter bono diuino et honori eius et 
+      <lb ed="#P" n="11"/>ordini vniuersi. non esse vero est malum huic tantum 
+      puta<lb ed="#P" n="12" break="no"/>illi: quod non est. ergo etc. Hoc enim videtur 
+      confirmari<lb ed="#P" n="13" break="no"/>per Anselmum: cur deus homo: vbi dicit quod nisi per 
+      <lb ed="#P" n="14"/>malum pene ordinaretur culpa: tunc non esset honor 
+      <lb ed="#P" n="15"/>dei quem tollit culpa.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e423">
+      ¶ Quarta ratio. quia miseria 
+      <lb ed="#P" n="16"/>culpe contrariatur bono virtutis. non esse vero 
+      contra<lb ed="#P" n="17" break="no"/>riatur vel opponitur esse nature. sed esse virtutis vel 
+      <lb ed="#P" n="18"/>bonum est maius quam esse vel bonum nature. ergo cul 
+      <lb ed="#P" n="19"/>pa est maius malum quam non esse. et ita non esse 
+      preeli<lb ed="#P" n="20" break="no"/>gendum est secundum rectam rationem.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e436">
+      ¶ Ad hoc videtur 
+      au<lb ed="#P" n="21" break="no"/>ctoritas christi loquentis de Iuda. Math. xx vi. 
+      Bo<lb ed="#P" n="22" break="no"/>num erat ei si natus non fuisset homo ille. 
+      <lb ed="#P" n="23"/> qui dicunt quod prime rationes 
+      ad<lb ed="#P" n="24" break="no"/>Alii sul. et ducte de non esse et miseria 
+      pe<lb ed="#P" n="25" break="no"/>ne concludunt etiam de non esse et miseria culpe scilim 
+      <lb ed="#P" n="26"/>quod secundum rectam rationem non est eligendum non esse: et 
+      <lb ed="#P" n="27"/>possunt eodem modo deduci ad hanc conclusionem sicut ad 
+      <lb ed="#P" n="28"/>illam vt patet intuenti. quare etc. Et ideo dicunt quod ille 
+      <lb ed="#P" n="29"/>rationes adducte pro primo menbro non concluduntur 
+      <lb ed="#P" n="30"/>vel si concludunt: pro secundo menbro concludunt. Et sic 
+      <lb ed="#P" n="31"/>ponentes primum menbrum per illas rationes et 
+      negan<lb ed="#P" n="32" break="no"/>tes secundum sibiipsis contradicunt. Addunt etiam isti quod nec 
+      <lb ed="#P" n="33"/>rationes secundi menbri concludunt. et ideo soluunt ad omnes 
+      <lb ed="#P" n="34"/>predictas rationes: sicut et inferius dissoluentur. 
+      <lb ed="#P" n="35"/>pro primo menbro dicunt quod 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e471">
+               <lb ed="#P" n="36"/>¶ Ad primam non esse non habet rationem 
+      ma<lb ed="#P" n="37" break="no"/>li: nec per consequens maioris mali quam miseria pene. quia 
+      <lb ed="#P" n="38"/>malum cum sit priuatio ponit constantiam subiecti. non esse 
+      <lb ed="#P" n="39"/>vero ipsum subiectum et totum esse excludit. et ita non 
+      <lb ed="#P" n="40"/>esse licet non sit bonum: non tamen est malum. Nec valet 
+      <lb ed="#P" n="41"/>si dicas quod esse est bonum. igitur non esse est malum. dico 
+      <lb ed="#P" n="42"/>enim quod non sequitur. Nam et bonum et malum vtrum 
+      <lb ed="#P" n="43"/>que dicit aliquid positiuum sicut habitus et priuatio. 
+      <lb ed="#P" n="44"/>Priuatio enim saltem dicit subiectum 
+      concernen<lb ed="#P" n="45" break="no"/>do et ideo non est dare purum malum: quod non 
+      fun<lb ed="#P" n="46" break="no"/>detur in bono et in aliquo esse positiuo. Nec bonum 
+      <lb ed="#P" n="47"/>nec malum contradictorie opponuntur: sicut esse et non 
+      <lb ed="#P" n="48"/>esse. Si enim non esse creature esset malum: sequeretur 
+      <lb ed="#P" n="49"/>quod malum fuisset ab eterno: sicut non esse creature ab 
+      <lb ed="#P" n="50"/>eterno fuit vsque ad productionem creature.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e506">
+      ¶ 
+      Eoden<lb ed="#P" n="51" break="no"/>modo ad secundum posito quod esse in creatura sit sum 
+      <lb ed="#P" n="52"/>mum bonum vel perfectio optima secundum Dyonisium non 
+      <lb ed="#P" n="53"/>sequitur quod non esse sit maius malum et magis 
+      fugien<lb ed="#P" n="54" break="no"/>dum. quia non est malum vt dictum est et probatum. 
+      <lb ed="#P" n="55"/>Miseria autem est malum. Quando dicis quod illud quod plus 
+      <lb ed="#P" n="56"/>adimit de bono: est magis malum. Dico quod verum 
+      <lb ed="#P" n="57"/>est supposita constantia subiecti. Alioquin enim non 
+      <lb ed="#P" n="58"/>habetur ratio mali. non esse vero totum subiectum et 
+      <lb ed="#P" n="59"/>suum excludit. Difficile tamen est videre: quomodo 
+      <lb ed="#P" n="60"/>esse sit nobilissimum in ente: nisi forte intelligatur de 
+      <lb ed="#P" n="61"/>esse substantiali rei comparato ad accidentia vel esse 
+      ac<lb ed="#P" n="62" break="no"/>cidentalia. et sic potest exponi Dyonisius eo modo 
+      <lb ed="#P" n="63"/>loquendi quo dicimus: quod diffinitio est indicans esse 
+      <lb ed="#P" n="64"/>sed si accipiatur esse vt perfectio quedam 
+      dicstin<lb ed="#P" n="65" break="no"/>cta ab aliis perfectionibus substantialibus superad¬ 
+      <!--341.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>ditis: non video hoc esse verum: quod sit nobilissima per 
+      <lb ed="#P" n="67"/>fectio siue sit sermo de esse essentie siue de esse actua 
+      <lb ed="#P" n="68"/>lis existentie precise. Primo de esse essentie. quia non 
+      <lb ed="#P" n="69"/>puto quod precindat a perfectionibus substantialibus 
+      <lb ed="#P" n="70"/>rei. sicut nec ens ab aliquo ente. Unde entitas 
+      ho<lb ed="#P" n="71" break="no"/>minis et humanitas sunt penitus eadem perfectio. 
+      <lb ed="#P" n="72"/>sicut ens et homo penitus idem in re: nec est ens 
+      vni<lb ed="#P" n="73" break="no"/>uocum vniuocatione rei: sicut dixii in primo 
+      distin<lb ed="#P" n="74" break="no"/>ctione. viii. Secundo dato quod sic precideret: sicut suo 
+      <lb ed="#P" n="75"/>modo precindit animalitas a rationalitate vel 
+      hu<lb ed="#P" n="76" break="no"/>manitate: adhuc non esset aliquid perfectius sed im 
+      <lb ed="#P" n="77"/>perfectius et in potentia ad perfectiones 
+      superad<lb ed="#P" n="78" break="no"/>ditas: sicut suo modo animalitas est perfectior 
+      sub<lb ed="#P" n="79" break="no"/>stantialitate et humanitas animalitate. Si etiam 
+      lo<lb ed="#P" n="80" break="no"/>quamur de esse existentie non video. quia vel est idem 
+      <lb ed="#P" n="81"/>cum essentia differens solum secundum rationem. et sic 
+      <lb ed="#P" n="82"/>de ipso quantum ad hoc idem est iudicium: vel dicit 
+      <lb ed="#P" n="83"/>respectum ad efficiens. talis autem non est nobilior 
+      <lb ed="#P" n="84"/>ipsa substantia secundum propriam quiditatem absolutam 
+      <lb ed="#P" n="85"/>nec pertinet ad eam.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e589">
+      ¶ Ad tertium potest dici quod 
+      sim<lb ed="#P" n="86" break="no"/>pliciter loquendo non esse non est appetibile. quia nec est 
+      <lb ed="#P" n="87"/>nec apparet bonum rationi recte in se et secundum se: tamen per 
+      <lb ed="#P" n="88"/>accidens pro quanto ad ipsum quod non est malum: vt 
+      pro<lb ed="#P" n="89" break="no"/>batum est sequitur amotio mali pene: aliquo modo 
+      <lb ed="#P" n="90"/>est appetibile et minus fugibile quam malum pene 
+      lo<lb ed="#P" n="91" break="no"/>quendo improprie de fugibili pro non appetibili. sic 
+      <lb ed="#P" n="92"/>igitur non esse non est malum et ad ipsum sequitur 
+      amotio<lb ed="#P" n="93" break="no"/>mali vel negatio. et sic aliquo modo saltem per 
+      ac<lb ed="#P" n="94" break="no"/>cidens videretur preeligibile vel preappetibile ipsi 
+      <lb ed="#P" n="95"/>malo pene: vel saltem ratio praemissa oppositum non 
+      con<lb ed="#P" n="96" break="no"/>cludit. Si enim concluderet de malo pene: eodem 
+      <lb ed="#P" n="97"/>modo concluderet de malo culpe: quod tamen omnes negant 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e618">
+               <lb ed="#P" n="98"/>¶ Ad quartum potest dici per idem: quod licet simpliciter non 
+      <lb ed="#P" n="99"/>fiat quis melior perueniendo ad non esse: tamen sibi inest 
+      pe<lb ed="#P" n="100" break="no"/>na. diceretur quod aliquo modo fieret melior perueniendo 
+      <lb ed="#P" n="101"/>ad non esse. quia sic nullum malum incurreret: et 
+      libe<lb ed="#P" n="102" break="no"/>raretur a malo pene. non esse enim non est malum. et pena 
+      <lb ed="#P" n="103"/>est malum: et ad non esse sequitur non esse in pena. et sic licet 
+      <lb ed="#P" n="104"/>non esse non sit simpliciter appetibile: ratio tamen non 
+      conclu<lb ed="#P" n="105" break="no"/>dit quin aliquo mo etiam secundum rectam rationem sit 
+      appetibi<lb ed="#P" n="106" break="no"/>le et pelegibile malo pene. Alioquin etiam de 
+      malo<lb ed="#P" n="107" break="no"/>culpe concluderet.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e643">
+      ¶ Et sic etiam ad rationes illas 
+      <lb ed="#P" n="108"/>Augusti. de libero arbitrio dici potest. 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e648">
+               <lb ed="#P" n="109"/>¶ Ad primum pro secundo menbro de non 
+      <lb ed="#P" n="110"/>t esse et malo culpe. dicitur 
+      <lb ed="#P" n="111"/>quod maior est vera quantum ad hoc quod plus debet quia 
+      <lb ed="#P" n="112"/>diligere deum quam seipsum: et praeligere illud quod est 
+      con<lb ed="#P" n="113" break="no"/>tra seipsum: quam contra deum: si illud vniformiter sit contra 
+      <lb ed="#P" n="114"/>deum sicut aliud contra seipsum. Sed in proposito non est sic 
+      <lb ed="#P" n="115"/>nam pctantum vel culpa vt diceretur non sic est contra deum: 
+      <lb ed="#P" n="116"/>sicut non est peccantis contra seipsum. Non enim culpa tol 
+      <lb ed="#P" n="117"/>lit vel destruit seu excludit esse diuinum. Nec 
+      contra<lb ed="#P" n="118" break="no"/>dicit sibi: vt patet. sed magis tollit vel excludit aliquod 
+      <lb ed="#P" n="119"/>bonum creatum: sicut per se priuatio eius. non esse 
+      ve<lb ed="#P" n="120" break="no"/>ro peccantis tollit simpliciter suum esse et contradicit 
+      <lb ed="#P" n="121"/>ei et est impossibile sibi. Et ita licet plus debeat 
+      velle<lb ed="#P" n="122" break="no"/>proprium non esse dei: non tamen concludit ista ratio quod non 
+      <lb ed="#P" n="123"/>esse peccantis sit praeligibile ipsi culpe.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e683">
+      ¶ Ad secundum 
+      <lb ed="#P" n="124"/>diceretur quod sic carentia vel negatio boni quecumque 
+      <lb ed="#P" n="125"/>dicatur malum non esse est maius malum quam culpa. quia 
+      <lb ed="#P" n="126"/>est carentia vel negatio maioris boni puta esse 
+      to<lb ed="#P" n="127" break="no"/>talis quam culpa que est negatio alicuius boni 
+      acciden<lb ed="#P" n="128" break="no"/>talis. Nec oportet quod licet bonum sit debitum: quod 
+      ca<lb ed="#P" n="129" break="no"/>rentia eius sit maius malum quam carentia boni non 
+      <lb ed="#P" n="130"/>debiti. Si vero non quecumque negatio boni dicatur 
+      <!--342.xml-->
+      <pb ed="#P" n="172-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>malum sed negatio in subiecto cum constantia 
+      subie<lb ed="#P" n="2" break="no"/>cti: et ideo non esse non sit malum: sicut dictum est 
+      su<lb ed="#P" n="3" break="no"/>pra: tamen plus adimitur de bono per non esse quam 
+      per<lb ed="#P" n="4" break="no"/>culpam sicut patet. Et ista adhuc ratio non probat 
+      quin<lb ed="#P" n="5" break="no"/>minus sit eligibile non esse quam culpa: vel quod non esse sit 
+      <lb ed="#P" n="6"/>eligibilius quam culpa. quia non esse adimit totum bonum 
+      <lb ed="#P" n="7"/>non sic autem culpa.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e722">
+      ¶ Ad tertium de malo 
+      simpli<lb ed="#P" n="8" break="no"/>citer et de malo huic diceretur quod non esse est maius 
+      <lb ed="#P" n="9"/>malum simpliciter quam culpa: accipiendo malum pro 
+      <lb ed="#P" n="10"/>eo quod adimit bonum. quia adimit totum bonum esse 
+      <lb ed="#P" n="11"/>simpliciter. Culpa vero isto modo non est malum 
+      ni<lb ed="#P" n="12" break="no"/>si secundum quid. quia adimit bonum accidentale vel 
+      <lb ed="#P" n="13"/>secundum quid. Quando dicis quod culpa est contra 
+      or<lb ed="#P" n="14" break="no"/>dinem vniuersi et contra honorem diuinum. 
+      dicere<lb ed="#P" n="15" break="no"/>tur quod culpa non tollit bonum vniuersi simpliciter: 
+      <lb ed="#P" n="16"/>nec ordinem eius necessarium: sicut nec tollit esse 
+      vni<lb ed="#P" n="17" break="no"/>uersi: sed tantum quantum ad hanc partem in qua est 
+      <lb ed="#P" n="18"/>culpa. Et similiter non esse quantum ad hanc partem 
+      <lb ed="#P" n="19"/>que dicitur non esse. Similiter de honore diuino 
+      pa<lb ed="#P" n="20" break="no"/>tet: quod culpa non tollit deum: sed bene tollit 
+      hono<lb ed="#P" n="21" break="no"/>rem suum: id est aliquod bonum creatum 
+      reueren<lb ed="#P" n="22" break="no"/>tie exhibende deo ab hac creatura: quod deberet et 
+      <lb ed="#P" n="23"/>in creatura et non est ibi. Nam honor est aliquid 
+      in<lb ed="#P" n="24" break="no"/>honorante et non in honorato. Et ita tollit aliquod 
+      <lb ed="#P" n="25"/>ponum accidentale honorantis: quod est minus 
+      bo<lb ed="#P" n="26" break="no"/>num simpliciter quam suum esse substantiale quod 
+      exclu<lb ed="#P" n="27" break="no"/>ditur per non esse. Nec concludit ratio. 
+      Alioquin<lb ed="#P" n="28" break="no"/>enim concluderet quod etiam aliquis deberet male non 
+      <lb ed="#P" n="29"/>esse quam alius peccaret mortaliter quod non 
+      credo<lb ed="#P" n="30" break="no"/>Siniliter etiam concluderet argumentum quod culpa 
+      <lb ed="#P" n="31"/>maxime esset nolenda a deo contra quem est: et magis 
+      <lb ed="#P" n="32"/>quam non esse peccantis: et quod nullo modo vel minus 
+      sal<lb ed="#P" n="33" break="no"/>tem deberet permittere culpam quam non esse: quod non est 
+      <lb ed="#P" n="34"/>verum. Ad confirmationem Anselmi licet sit 
+      vera<lb ed="#P" n="35" break="no"/>illa autctoritas: et sit verbum discipulis approbatum 
+      <lb ed="#P" n="36"/>ab Anselmo tamen nihil facit ad propositum. Non 
+      <lb ed="#P" n="37"/>lus enim habetur nisi quod per punitionem culpe 
+      ha<lb ed="#P" n="38" break="no"/>petur materia rehonorandi deum: qui per culpan 
+      <lb ed="#P" n="39"/>fuit dehonoratus. quia in punitione culpe apparet 
+      <lb ed="#P" n="40"/>sua instancia.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e796">
+      ¶ Ad quartum diceretur quod esse 
+      sub<lb ed="#P" n="41" break="no"/>stantiale peccantis vt distinctum contra esse virtutis 
+      <lb ed="#P" n="42"/>vel bonum nature: vt distinguitur contra bonum 
+      mo<lb ed="#P" n="43" break="no"/>ris: quod est bonum acidentale: est maius bonum quam 
+      <lb ed="#P" n="44"/>illud licet illud sit perfectiuum eius accidentaliter: 
+      si<lb ed="#P" n="45" break="no"/>cut accidens est perfectiuum substantie. et ita non esse plus 
+      <lb ed="#P" n="46"/>adimit de bono: vel maius bonum adimit quam culpa. 
+      <lb ed="#P" n="47"/>Nec concludit ratio quin sit minus appetibile secundum 
+      re<lb ed="#P" n="48" break="no"/>ctam rationem quam culpa. 
+      <lb ed="#P" n="49"/>rationes ille concludere non 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e818">
+               <lb ed="#P" n="50"/>¶ Sic igifut videntur. Adducuntur ergo 
+      <lb ed="#P" n="51"/>lie rationes pro prima conclusione que nescio si plus 
+      va<lb ed="#P" n="52" break="no"/>ent et valeant: quod possunt valere.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e828">
+      ¶ Prima est 
+      <lb ed="#P" n="53"/>nullus secundum rectam rationem potest preeligere non 
+      <lb ed="#P" n="54"/>esse nisi propter fugam seu vitationem alicuius 
+      alte<lb ed="#P" n="55" break="no"/>rius: quod est simpliciter magis nolendum quam non 
+      <lb ed="#P" n="56"/>esse. Sed pena non est simpliciter magis 
+      nolenda<lb ed="#P" n="57" break="no"/>quam non esse. Probatio. quia iustum non est magis 
+      nolen<lb ed="#P" n="58" break="no"/>dum quam non iustum: sed est magis volendum facient 
+      <lb ed="#P" n="59"/>do comparationem impropriam. Pena vero habet 
+      <lb ed="#P" n="60"/>rationem iusti: et in ipsa reseruatur ratio iusticie se 
+      <lb ed="#P" n="61"/>cundum Augusti. et alios sanctos. Non esse vero 
+      <lb ed="#P" n="62"/>non habet rationem iusti. quia nihil habet de ratione 
+      <lb ed="#P" n="63"/>entis. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e854">
+      ¶ Secunda ratio. nullus secundum 
+      re<lb ed="#P" n="64" break="no"/>ctam rationem potest appetere contra rectam 
+      inclina<lb ed="#P" n="65" break="no"/>tionem appetitus naturalis conformen voluntati di¬ 
+      <!--342.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="66"/>vine. sed inclinatio recta appetitus naturalis est ad 
+      <lb ed="#P" n="67"/>esse: et est conformis voluntati diuine. Quod autem 
+      <lb ed="#P" n="68"/>appetitus naturalis sit ad esse. patet secundo de anima 
+      <lb ed="#P" n="69"/>naturalissimum autem etc. hec est enim intentio 
+      to<lb ed="#P" n="70" break="no"/>tius nature conseruare ipsum esse. Similiter 
+      confor<lb ed="#P" n="71" break="no"/>mis est appetitus voluntati diuine: qui conseruat 
+      ip<lb ed="#P" n="72" break="no"/>sum esse quantuncumque sub pena: et infligit penam 
+      ip<lb ed="#P" n="73" break="no"/>sam: et causat eam. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e883">
+      ¶ Tertia ratio. nullus 
+      <lb ed="#P" n="74"/>secundum rationem rectam potest peccare 
+      mortali<lb ed="#P" n="75" break="no"/>ter. patet. sed appetendo non esse ad vitandum penam 
+      <lb ed="#P" n="76"/>peccat quis mortaliter: et est actus deformis saltem 
+      <lb ed="#P" n="77"/>pro quocumque statu. Unde in viatoribus est hoc pecca. 
+      <lb ed="#P" n="78"/>tum mortale et inde meritum pene. ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e896">
+      ¶ Tamen 
+      <lb ed="#P" n="79"/>posset dici forte quod secunda ratio si concludit de non esse 
+      <lb ed="#P" n="80"/>et culpa: sicut de non esse et pena. Similiter de tertia 
+      <lb ed="#P" n="81"/>ratione posset dici quod petit principium. Diceret et 
+      <lb ed="#P" n="82"/>volens tenere oppositum quod talis non peccat 
+      mor<lb ed="#P" n="83" break="no"/>taliter. tamen est probabilis ratio ex hoc quod certum 
+      <lb ed="#P" n="84"/>est quod volentibus non esse ad vitandum miseriam 
+      pe<lb ed="#P" n="85" break="no"/>ne imputatur hoc ad peccatum mortale: vt patet 
+      de<lb ed="#P" n="86" break="no"/>interficientibus seipsos. Prima autem ratio licet 
+      <lb ed="#P" n="87"/>videatur apparens: tamen potest etiam 
+      conclude<lb ed="#P" n="88" break="no"/>re de culpa et non esse. quia culpa potest esse pena 
+      alte<lb ed="#P" n="89" break="no"/>rius culpe et iusta. et sic habet rationem iusti. et tamen 
+      <lb ed="#P" n="90"/>non est magis appetenda quam non esse. Similiter etiam 
+      <lb ed="#P" n="91"/>diceretur quod non esse posset habere rationem 
+      pene<lb ed="#P" n="92" break="no"/>iuste vel iusti. quia deus iuste posset adnihilare. alii 
+      <lb ed="#P" n="93"/>quem propter culpam: sicut et potest perpetuo cruciare 
+      <lb ed="#P" n="94"/>conclusione de non esse et 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e933">
+               <lb ed="#P" n="95"/>¶ Pro secundi et miseria culbe 
+      adducun<lb ed="#P" n="96" break="no"/>tur etiam rationes. Modificatur tamen conclusio 
+      <lb ed="#P" n="97"/>ista: et declaratur. quia culpa et non esse vno modo 
+      <lb ed="#P" n="98"/>possunt ad voluntatem vniformiter comparari.  
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e944">
+               <lb ed="#P" n="99"/>¶ Alio modo difformiter. vniformiter 
+      comparan<lb ed="#P" n="100" break="no"/>tur: si intelligatur voluntas esse causa ipsius non et 
+      <lb ed="#P" n="101"/>vel simpliciter: vel quantum est in se: sicut intelligitur 
+      <lb ed="#P" n="102"/>esse causa culpe sic quod sit causa non esse: et si non 
+      sim<lb ed="#P" n="103" break="no"/>pliciter: quia anihilare seipsam vel illum cuius est: 
+      <lb ed="#P" n="104"/>non potest tamen quantum est in se est causa sic quod 
+      li<lb ed="#P" n="105" break="no"/>benter assnihilaret se: si posset. Et elicit actum suum 
+      <lb ed="#P" n="106"/>quod vellet se adnichilare: si posset: sicut posset facere 
+      <lb ed="#P" n="107"/>aliquod aliud peccatum. Et sic questio non 
+      intelli<lb ed="#P" n="108" break="no"/>gitur: quia certum est istud esse grauissimum 
+      pec<lb ed="#P" n="109" break="no"/>catum in voluntate post dei odium: et ita grauius 
+      <lb ed="#P" n="110"/>peccatum quam quecumque alia culpa. Unde magis 
+      vo<lb ed="#P" n="111" break="no"/>lendum esset fornicari vel furari quam seipsum 
+      corrum<lb ed="#P" n="112" break="no"/>pere vel interficere vel voluntatem velle seip san 
+      <lb ed="#P" n="113"/>adnihilare si posset.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e980">
+      ¶ Alio modo culpa et non esse 
+      <lb ed="#P" n="114"/>comparantur difformiter ad voluntatem: vt si 
+      vo<lb ed="#P" n="115" break="no"/>luntas sit causa vnius puta culpe: non autem 
+      alte<lb ed="#P" n="116" break="no"/>rius: puta non esse. ita quod voluntas ipsum non 
+      cau<lb ed="#P" n="117" break="no"/>set: nec velit esse causa eius: sed magis ipsum velit 
+      <lb ed="#P" n="118"/>ab alio causari et sustinere: puta a deo 
+      interficien<lb ed="#P" n="119" break="no"/>te seu adnihilante: vel etiam a tyranno 
+      persequen<lb ed="#P" n="120" break="no"/>te magis quam incurrat culpam: et sit causa culpe. Et 
+      <lb ed="#P" n="121"/>hoc modo intelligitur questio et conclusio ista. 
+      sci<lb ed="#P" n="122" break="no"/>licet quod secundum rationem rectam debet quis 
+      pre<lb ed="#P" n="123" break="no"/>eligere non esse vel acceptare ad vitandum miseriam 
+      <lb ed="#P" n="124"/>culpe.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1006">
+      ¶ Ad hoc est prima ratio talis. quilibet 
+      se<lb ed="#P" n="125" break="no"/>cundum rectam rationem tenetur implere preceptum 
+      <lb ed="#P" n="126"/>diuinum. et per consequens non peccare: in quocumque 
+      <lb ed="#P" n="127"/>casu vitare peccatum vel non incurrere peccatum 
+      <lb ed="#P" n="128"/>est preceptum obligans semper et pro semper et in 
+      <lb ed="#P" n="129"/>omni casu non solum de facto sed de voluntate. 
+      er<lb ed="#P" n="130" break="no"/>go ad hoc tenetur homo vel creatura rationalis pro¬ 
+      <!--343.xml-->
+      <pb ed="#P" n="173-v"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>semper et in omni casu. igitur siue debeat 
+      viuere<lb ed="#P" n="2" break="no"/>siue non: semper tenetur non velle peccare. Et ita de 
+      <lb ed="#P" n="3"/>bet preeligere secundum rectam rationem a deo 
+      adnihila<lb ed="#P" n="4" break="no"/>ri vel non esse quam peccare vel ad vitandum miseriam 
+      <lb ed="#P" n="5"/>culpe.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1039">
+      ¶ Secunda ratio et est quasi eadem. Creatura 
+      <lb ed="#P" n="6"/>rationalis secundum rectam rationem debet conformare 
+      vo<lb ed="#P" n="7" break="no"/>luntatem suam diuine voluntati in volendo vel 
+      no<lb ed="#P" n="8" break="no"/>lendo illud: quod diuina voluntas vult ipsam 
+      vel<lb ed="#P" n="9" break="no"/>le vel nolle. sed diuina voluntas vult ipsam 
+      praeligere<lb ed="#P" n="10" break="no"/>non esse quam peccare: sic tamen quod non sit causa sui non esse 
+      <lb ed="#P" n="11"/>quia deus nullo modo potest velle creaturam pecca. 
+      <lb ed="#P" n="12"/>re. quare etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1057">
+      ¶ Tertia ratio. Aliquis debet secundum 
+      re<lb ed="#P" n="13" break="no"/>ctam rationem praeligere actum in quo maxime 
+      compro<lb ed="#P" n="14" break="no"/>batur amor summi boni quam peccare: sed volendo non 
+      <lb ed="#P" n="15"/>esse: vt seruetur preceptum diuinum: et ne 
+      incurra<lb ed="#P" n="16" break="no"/>tur culpa: est velle aliquid in quo maxime amor 
+      di<lb ed="#P" n="17" break="no"/>ninus comprobatur quia maiorem charitatem nemo 
+      <lb ed="#P" n="18"/>habet. etc. Et subditur. Uos amici mei estis: si fece 
+      <lb ed="#P" n="19"/>ritis que precipio vobis. etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1075">
+      ¶ Hoc confirmatur 
+      <lb ed="#P" n="20"/>per August. super illud Io. Qui odit animam suam 
+      <lb ed="#P" n="21"/>perdet eam. etc. quere ibi. Similiter per 
+      philosophun<lb ed="#P" n="22" break="no"/>quarto ethicorum. Nam dicit ibidem de forti: quod ipe 
+      ex<lb ed="#P" n="23" break="no"/>ponit se periculo non essendi vel moriendi secundum 
+      ratio<lb ed="#P" n="24" break="no"/>nem rectam propter bonum commune: ne incurrat 
+      vi<lb ed="#P" n="25" break="no"/>cium timiditatis secundum inclinationem 
+      fortitudi<lb ed="#P" n="26" break="no"/>nis. Si dicas quod fortis expectat aliam vitam: in qua 
+      <lb ed="#P" n="27"/>sibi bene sit. Contra Aristo. Nihil sciuit de alia 
+      vi<lb ed="#P" n="28" break="no"/>ta. vel si de illa dubitauit: tamen istud affirmauit. 
+      <lb ed="#P" n="29"/>Et similiter dato quod non esset alia vita: nihilominus 
+      <lb ed="#P" n="30"/>ad hoc inclinaret fortitudo presentis vite secundum 
+      <lb ed="#P" n="31"/>rectam rationem. Nam ista esset viciosa timiditas 
+      <lb ed="#P" n="32"/>si contra rectam rationem sicut modo non opponeret 
+      <lb ed="#P" n="33"/>se propter bonum anime. quare etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1108">
+      ¶ Hec de 
+      tertio<lb ed="#P" n="34" break="no"/>articulo principali: nisi quod additur vna ratio ab 
+      ali<lb ed="#P" n="35" break="no"/>quibus scilicet quod omnis peccans mortaliter 
+      interpre<lb ed="#P" n="36" break="no"/>tatiue saltem vult deum non esse: et si non expresse vel 
+      <lb ed="#P" n="37"/>explicite. sed magis est volendum seipsum non esse quam 
+      <lb ed="#P" n="38"/>deum ergo etc.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1122">
+      ¶ Sed maior huius rationis non est 
+      <lb ed="#P" n="39"/>bene clara. Et puto quod conclusio debet magis 
+      tene<lb ed="#P" n="40" break="no"/>ri ex fide vel ex his quae tradita sunt nobis a sanctis 
+      <lb ed="#P" n="41"/>ad instructionem morum et de voluntate diuina quam 
+      <lb ed="#P" n="42"/>possit probari per rationem.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1133">
+      ¶ Sic etiam 
+      exponi<lb ed="#P" n="43" break="no"/>tur dictum illud christi de iuda: quod melius ei erat si 
+      na<lb ed="#P" n="44" break="no"/>tus non fuisset id est quod simpliciter non fuisset in 
+      re<lb ed="#P" n="45" break="no"/>rum natura: quam quod in tale peccatum tradendi christum 
+      <lb ed="#P" n="46"/>corruisset. Si autem intelligatur de pena: tunc dicitur 
+      <lb ed="#P" n="47"/>secunduui dicta in prima conclusione: quod melius erat 
+      <lb ed="#P" n="48"/>illi si natus non fuisset: non quod nunquam fuisset sed quod 
+      in<lb ed="#P" n="49" break="no"/>vtero matris fuisset mortuus: quam quod talem penam vel 
+      <lb ed="#P" n="50"/>damnationis et pene eterne incurrisset. 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1153">
+               <lb ed="#P" n="51"/>¶ Quantum ad tertium 
+      arti<lb ed="#P" n="52" break="no"/>culum dico primo: quod damnati non appetunt de facto 
+      <lb ed="#P" n="53"/>non esse propter culpam vitandam. Non enim displicet 
+      <lb ed="#P" n="54"/>eis culpa: secundum quod culpa est et dei offensiua sed semper 
+      <lb ed="#P" n="55"/>deum odiunt et sibi inuident: iuxta illud psalmi. Su 
+      <lb ed="#P" n="56"/>perbia eorum qui te oderunt ascendit semper. 
+      Dis<lb ed="#P" n="57" break="no"/>plicet tamen eis culpa inquantum est materia 
+      ver<lb ed="#P" n="58" break="no"/>mis et remorsus conscientie qui est valde grauis pe 
+      <lb ed="#P" n="59"/>na. Et si ipsa culpa eorum habet rationem pene: 
+      di<lb ed="#P" n="60" break="no"/>plicet eis: vt est pena: non vt est culpa dei offensiua 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1177">
+               <lb ed="#P" n="61"/>¶ Secundo dico: quod probabile est: quod appetant non esse 
+      <lb ed="#P" n="62"/>ad vitandum miseriam pene sue damnationis 
+      loquen<lb ed="#P" n="63" break="no"/>do saltem de damnatis pro peccato actuali nam ex 
+      amo<lb ed="#P" n="64" break="no"/>re concupiscentie ad seipsos. qui fundat et continuat 
+      <!--343.xml-->
+      <cb ed="#P" n="b"/>
+               <lb ed="#P" n="65"/>ciuitatem dyaboli secundum iudicium rationis eorum 
+      de<lb ed="#P" n="66" break="no"/>cepte vel etiam contra iudicium rationis recte 
+      ex<lb ed="#P" n="67" break="no"/>peruersitate voluntatis volunt et appetunt non esse 
+      <lb ed="#P" n="68"/>quia ad hoc sequitur non esse in pena: et sic vt 
+      vide<lb ed="#P" n="69" break="no"/>tur eis melius esse. vel si non videtur eis melius 
+      im<lb ed="#P" n="70" break="no"/>probe tamen volunt et peruerse. et sic non appetunt 
+      <lb ed="#P" n="71"/>non esse per se et directe: sed per accidens propter aliud 
+      <lb ed="#P" n="72"/>propter vitationem pene etiam non per se. quia non 
+      di<lb ed="#P" n="73" break="no"/>cit aliquod positiuum: sed propter aliud scilicet melius 
+      <lb ed="#P" n="74"/>esse vel bene esse: quod per se saltem naturaliter 
+      ap<lb ed="#P" n="75" break="no"/>petitur ab eis.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1216">
+      ¶ Sed difficile est si ponantur 
+      deci<lb ed="#P" n="76" break="no"/>pi ipsi damnati quo modo demones in quibus 
+      man<lb ed="#P" n="77" break="no"/>serunt naturalia integra: et per consequens clarum 
+      <lb ed="#P" n="78"/>iudicium rationis: ita decipiantur vt iudicent non 
+      <lb ed="#P" n="79"/>esse totaliter melius esse quam in pena esse.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1227">
+      ¶ 
+      Simili<lb ed="#P" n="80" break="no"/>ter etiam quo modo affectione commodi possit 
+      ap<lb ed="#P" n="81" break="no"/>peti non esse: cum tamen ipsum esse appetatur maxime 
+      <lb ed="#P" n="82"/>affectione commodi: vt videtur.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1237">
+      ¶ Ad primum 
+      ta<lb ed="#P" n="83" break="no"/>nen diceretur quod non est inconueniens demones im 
+      <lb ed="#P" n="84"/>hoc dicipi siue talli: sicut etiam in multis aliis 
+      fal<lb ed="#P" n="85" break="no"/>luntur vel decipiuntur. Nec est contra naturalia 
+      ip<lb ed="#P" n="86" break="no"/>sorum integra quantum ad naturam et potentias ipsorum 
+      <lb ed="#P" n="87"/>naturales. Et potest colorari apparentia vel 
+      dece<lb ed="#P" n="88" break="no"/>ptio ipsorum. quia non esse non est malum: et hoc 
+      aduer<lb ed="#P" n="89" break="no"/>tunt esse vero in pena est malum: et ita pro se 
+      odibi<lb ed="#P" n="90" break="no"/>le et nolibile. Non aduertunt autem quod non esse: licet non 
+      <lb ed="#P" n="91"/>sit malum: excludit tamen totum bonum: vel si 
+      ad<lb ed="#P" n="92" break="no"/>uertunt videtur eis quod minus est bonum quod 
+      eclu<lb ed="#P" n="93" break="no"/>dit non esse quam malum pene eorum: et nolunt subeem 
+      ma<lb ed="#P" n="94" break="no"/>iori malo pro minori bono.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1266">
+      ¶ Ad secundum vero 
+      di<lb ed="#P" n="95" break="no"/>ceretur quod esse non quomodocuque est obiectum 
+      affe<lb ed="#P" n="96" break="no"/>ctionis commodi: sed bene esse. Et quia non est eis 
+      be<lb ed="#P" n="97" break="no"/>ne sed male appetunt non esse potius quam sic esse. Uel 
+      <lb ed="#P" n="98"/>diceretur quod ex appetitu commodi de ese et bene esse cum 
+      <lb ed="#P" n="99"/>errore vel non aduertentia rationis quo errore 
+      appa<lb ed="#P" n="100" break="no"/>ret eis melius non esse quam in tali vel sub tali pena esse 
+      <lb ed="#P" n="101"/>oritur quod appetunt non esse: et praeligunt ipsi pene. 
+      <lb ed="#P" n="102"/>hec de tertio articulo principali. 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1286">
+               <lb ed="#P" n="103"/>¶ Ad primum principale 
+      ar<lb ed="#P" n="104" break="no"/>gumentum dicitur quod non esse non est per se appetibile i 
+      <lb ed="#P" n="105"/>ned per accidens modis supradictis: quia in non esse 
+      <lb ed="#P" n="106"/>non saluatur ratio boni vel obiecti voluntatis 
+      re<lb ed="#P" n="107" break="no"/>spectu actus volendi: quia velle non est nisi boni 
+      <lb ed="#P" n="108"/>veri vel apparentis. Similiter etiam non habet per 
+      <lb ed="#P" n="109"/>se rationem nobilis. quia nolle non est nisi 
+      respe<lb ed="#P" n="110" break="no"/>ctu mali vel apparentis mali. Non esse autem non est 
+      <lb ed="#P" n="111"/>malum: sicut dictum est supra: nec nolibile: licet 
+      oppo<lb ed="#P" n="112" break="no"/>situm eius sit bonum et volibile: puta esse. In contra 
+      <lb ed="#P" n="113"/>dictoriis enim non oportet si vnum oppositum est bo 
+      <lb ed="#P" n="114"/>num: quod reliquum sit malum. Sed quomodo tunc non 
+      <lb ed="#P" n="115"/>isse est volibile secundum rectam rationem. cum nec sit 
+      bo<lb ed="#P" n="116" break="no"/>num nec appareat bonum rationi recte: et tamen dictum 
+      <lb ed="#P" n="117"/>est supra quod secundum rectam rationem debet praeligi: et 
+      praeap<lb ed="#P" n="118" break="no"/>peti miserie culpe. Ad hoc dicitur quod non esse 
+      simpli<lb ed="#P" n="119" break="no"/>citer et secundum se non est volibile: sed secundum quid et in casu 
+      in<lb ed="#P" n="120" break="no"/>quantum excludit miseriam culpe. et sic apparet 
+      bo<lb ed="#P" n="121" break="no"/>num rationi recte non simpliciter et in re. quia tunc 
+      <lb ed="#P" n="122"/>sibi apparet falsum: sed quoniam quid et in casu et 
+      <lb ed="#P" n="123"/>ratione vel secundum rationem.
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1334">
+      ¶ Ad secundum dicendum 
+      <lb ed="#P" n="124"/>quod damnati naturaliter appetunt beatitudinem et 
+      ne<lb ed="#P" n="125" break="no"/>cessario. non autem actu elicito necessario appetunt 
+      <lb ed="#P" n="126"/>beatitudinem nec bene esse. appetitus vero 
+      natura<lb ed="#P" n="127" break="no"/>lis et necessitans de ipso esse non repugnat actui elicito 
+      <lb ed="#P" n="128"/>de opposito ipsius esse: puta de non esse: quem quidem¬ 
+      <!--344.xml-->
+      <pb ed="#P" n="173-r"/>
+               <cb ed="#P" n="a"/>
+               <lb ed="#P" n="1"/>actum elicitum habent damnati ideo etc. Aliter 
+      di<lb ed="#P" n="2" break="no"/>citur quod damnati appetunt actu elicito beatitudinem 
+      <lb ed="#P" n="3"/>appetitu tamen conditionato puta si possent eam 
+      <lb ed="#P" n="4"/>habere quia constat eis: quod nunquam habebunt eam. 
+      <lb ed="#P" n="5"/>Talis autem appetitus conditionatus non 
+      repu<lb ed="#P" n="6" break="no"/>gnat appetitui: quem habent de non esse etiam actu 
+      <lb ed="#P" n="7"/>elicito. Aliter dicitur quod ex appetitu beatitudinis 
+      <lb ed="#P" n="8"/>et bene esse secundum affectionem commodi oritur 
+      <lb ed="#P" n="9"/>in damnatis appetitus de non esse pro quanto 
+      ap<lb ed="#P" n="10" break="no"/>paret eis si tamen decipiuntur quod melius est non et 
+      <lb ed="#P" n="11"/>se quam miserum esse. et sic non repugnant appetitus: 
+      <lb ed="#P" n="12"/>sed magis vnus sequitur ex alio vel est idem cum 
+      <lb ed="#P" n="13"/>alio: habens tamen vnum per se primum obiectum 
+      <lb ed="#P" n="14"/>quod est esse et bonum: et aliud quod est non esse et 
+      <lb ed="#P" n="15"/>non bonum apparens tamen bonum. Per idem 
+      pa<lb ed="#P" n="16" break="no"/>tet ad confirmationem de priuatione et habitu: quod 
+      <lb ed="#P" n="17"/>vel negatione et affirmatione. quia non est 
+      impossi<lb ed="#P" n="18" break="no"/>bile nec contradictio simul appetere esse et non esse 
+      <lb ed="#P" n="19"/>modo predicto: sed bene esset contradictio forte 
+      si<lb ed="#P" n="20" break="no"/>mul appetere ambo per se et per rationes proprias 
+      </p>
+            <p xml:id="qrdBas-f106ij-d1e1397">
+               <lb ed="#P" n="21"/>¶ Ad tertium dicitur quod sicut summum bonum 
+      po<lb ed="#P" n="22" break="no"/>test non appeti: immo est nolibile: quia potest 
+      habe<lb ed="#P" n="23" break="no"/>re rationem apparentis mali: vt patet de damnatis: 
+      <lb ed="#P" n="24"/>qui odiunt ipsum deum. Ita etiam non esse dato quod 
+      <lb ed="#P" n="25"/>sit summa miseria vel summum malum potest 
+      ap<lb ed="#P" n="26" break="no"/>peti: quia potest aliquo modo apparere bonum 
+      vel<lb ed="#P" n="27" break="no"/>in re sicut apparet damnatis deceptis: vel secundum 
+      <lb ed="#P" n="28"/>rationem sicut apparet iustis appetentibus non est 
+      <lb ed="#P" n="29"/>se ad vitandum culpam: vel diceretur quod est 
+      appeti<lb ed="#P" n="30" break="no"/>bile malum vel non esse dato quod non videatur bonum: 
+      <lb ed="#P" n="31"/>sed est incompossibile malo. Tamen non est 
+      conce<lb ed="#P" n="32" break="no"/>dendum: quod non esse proprie loquendo sit malum nec 
+      <lb ed="#P" n="33"/>miseria: quia nec miseria culpe nec pene. ambe enim 
+      <lb ed="#P" n="34"/>non nisi enti conueniunt. Aliter diceretur sed non est vis 
+      </p>
+         </div>
+      </body>
+   </text>
+</TEI>
